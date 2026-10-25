@@ -6,7 +6,7 @@ import {fileURLToPath} from 'node:url';
 import {randomUUID} from 'node:crypto';
 import {AuthService,hash,normalizeEmail,randomToken} from './auth.mjs';
 import {fault,limit,transaction} from './store.mjs';
-import {entitlements} from './access.mjs';
+import {entitlements,freeVenueIds,saveFreeVenueIds,DEFAULT_FREE_VENUE_IDS} from './access.mjs';
 import {BillingService} from './billing.mjs';
 import {EmailProvider,GoogleProvider} from './providers.mjs';
 import {TicketmasterProvider,ticketingStatus} from './ticketing.mjs';
@@ -34,7 +34,8 @@ export function createApplication({db,config,venues,events=null,ticketing=null,t
   function json(res,status,value){res.writeHead(status,{'Content-Type':'application/json; charset=utf-8'});res.end(JSON.stringify(value));}
   function requireUser(req){const user=auth.readSession(cookies(req)[cookieName]);if(!user)throw fault(401,'LOGIN_REQUIRED','Sign in first');return user;}
   function access(user){
-    const result=entitlements(db,user,clock(),venues.ids?venues.ids():undefined);
+    const available=venues.ids?venues.ids():venues.catalog().map(item=>item.id);
+    const result=entitlements(db,user,clock(),available,freeVenueIds(db,available,config.freeVenueIds||['tottenham']));
     // Local preview is for inspecting imported venue geometry. It never applies
     // in production and does not change the subscription state or save limits.
     return config.devPreviewAllVenues&&localMode()?{...result,venueIds:venues.ids?venues.ids():result.venueIds}:result;
@@ -56,7 +57,7 @@ export function createApplication({db,config,venues,events=null,ticketing=null,t
       if(!['GET','HEAD'].includes(method)&&!webhook&&!allowed.includes(req.headers.origin))throw fault(403,'ORIGIN_REQUIRED','Same-origin request required');
       const user=auth.readSession(cookies(req)[cookieName]);
       if(path.startsWith('/api/')&&!webhook)limit(db,'http:'+hash(req.socket.remoteAddress||''),240,60_000,clock());
-      if(path==='/api/health'&&method==='GET')return json(res,200,{ok:true});
+      if((path==='/api/health'||path==='/healthz')&&method==='GET')return json(res,200,{ok:true,service:'seatpeep'});
       if(path==='/api/me'&&method==='GET')return json(res,200,{user,access:access(user),providers:{email:email.ready,google:google.ready||localMode(),billing:billing.ready||localMode(),localEmail:!!config.devMailbox,localGoogle:localMode()&&!google.ready,localBilling:localMode()&&!billing.ready,localInbox:!!config.devMailbox&&!config.production&&loopback(req.socket.remoteAddress),ticketing:ticketingStatus(config)},subscription:user?db.prepare('SELECT status,period_end,cancel_at_period_end FROM subscriptions WHERE user_id=? ORDER BY period_end DESC LIMIT 1').get(user.id)||null:null});
       if(path==='/api/auth/email'&&method==='POST'){
         if(!email.ready)throw fault(503,'EMAIL_NOT_CONFIGURED','Email delivery is not configured');
@@ -136,6 +137,15 @@ export function createApplication({db,config,venues,events=null,ticketing=null,t
       if(path==='/api/admin/venues/publish'&&method==='POST'){
         requireAdmin(req);const manifest=await body(req,512_000);const report=venues.validate(manifest);if(!report.valid)throw fault(422,'INVALID_VENUE_MANIFEST',report.errors.join('; '));
         const venue=venues.publish(manifest);return json(res,201,{published:true,venue:{id:venue.id,name:venue.name,sectionCount:venue.sections.length,ticketLabelCount:venue.ticketLabelCount},warnings:report.warnings});
+      }
+      if(path==='/api/admin/access'&&method==='GET'){
+        const admin=requireAdmin(req),available=venues.ids?venues.ids():venues.catalog().map(item=>item.id),free=freeVenueIds(db,available,config.freeVenueIds||['tottenham']);
+        return json(res,200,{freeVenueIds:free,freeVenues:venues.catalog().filter(item=>free.includes(item.id)),availableVenues:venues.catalog(),paidVenueCount:Math.max(0,available.length-free.length),updatedAt:db.prepare('SELECT updated_at,updated_by FROM access_settings WHERE key=?').get('free_venue_ids')||null,availableVenueCount:available.length,exactlyTen:free.length===10,updatedBy:admin.email});
+      }
+      if(path==='/api/admin/access'&&method==='PUT'){
+        const admin=requireAdmin(req),input=await body(req),available=venues.ids?venues.ids():venues.catalog().map(item=>item.id);
+        const selected=saveFreeVenueIds(db,input.freeVenueIds,available,admin.email,clock());
+        return json(res,200,{saved:true,freeVenueIds:selected,paidVenueCount:Math.max(0,available.length-selected.length)});
       }
       const ticketEvent=path.match(/^\/api\/admin\/ticketing\/ticketmaster\/events\/([A-Za-z0-9_-]{4,80})$/);
       if(ticketEvent&&method==='GET'){requireAdmin(req);return json(res,200,{event:await ticketmaster.event(ticketEvent[1])});}

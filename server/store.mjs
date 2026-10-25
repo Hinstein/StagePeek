@@ -51,6 +51,10 @@ export function openStore(path) {
     CREATE TABLE IF NOT EXISTS rate_limits (
       key TEXT PRIMARY KEY, count INTEGER NOT NULL, reset_at INTEGER NOT NULL
     ) STRICT;
+    CREATE TABLE IF NOT EXISTS access_settings (
+      key TEXT PRIMARY KEY, value TEXT NOT NULL, updated_at INTEGER NOT NULL,
+      updated_by TEXT NOT NULL DEFAULT ''
+    ) STRICT;
   `);
   if(!db.prepare('PRAGMA table_info(saved_positions)').all().some(column=>column.name==='layout'))db.exec('ALTER TABLE saved_positions ADD COLUMN layout TEXT');
   return db;

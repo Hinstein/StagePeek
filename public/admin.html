@@ -1,0 +1,8 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>SeatPeep · 后台权限</title>
+  <style>body{margin:0;background:#0b1218;color:#eaf4ed;font:15px system-ui,sans-serif}main{max-width:1100px;margin:40px auto;padding:0 22px}h1{margin-bottom:6px}.muted{color:#9fb0aa}.toolbar{display:flex;justify-content:space-between;align-items:center;gap:16px;margin:24px 0}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px}.venue{display:flex;gap:10px;align-items:flex-start;padding:13px;border:1px solid #2d4143;border-radius:10px;background:#111d23}.venue small{display:block;color:#9fb0aa;margin-top:4px}button{border:1px solid #baff38;background:#baff38;color:#09120c;border-radius:9px;padding:11px 16px;font-weight:700;cursor:pointer}.error{color:#ffbd86}.ok{color:#baff38}a{color:#baff38}</style>
+</head>
+<body><main><p class="muted">SEATPEEP ADMIN</p><h1>免费场馆权限</h1><p class="muted">选择恰好 10 个场馆作为免费套餐。其余场馆默认需要 Pro 月订阅。</p><div id="status" class="muted">正在读取权限…</div><div class="toolbar"><strong id="count">0 / 10</strong><button id="save" disabled>保存免费场馆</button></div><section id="venues" class="grid"></section><p><a href="/">返回 SeatPeep</a></p></main><script type="module" src="/admin.mjs"></script></body></html>

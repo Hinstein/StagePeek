@@ -17,12 +17,14 @@ npm run start:local
 
 | 邮箱 | 权限 |
 | --- | --- |
-| `free@seatpeep.test` | 免费账号，Tottenham，最多保存 8 个位置 |
+| `free@seatpeep.test` | 免费账号，可访问配置的 10 个免费场馆，最多保存 8 个位置 |
 | `pro@seatpeep.test` | 本地 Pro 测试状态，解锁全部场馆目录，最多保存 100 个位置 |
 | `expired@seatpeep.test` | 过期订阅，回落到免费权限 |
-| `admin@seatpeep.test` | 本地管理员，用于验证场馆导入接口 |
+| `admin@seatpeep.test` | 本地管理员，用于配置免费场馆和验证场馆导入接口 |
 
 本地预览模式会直接解锁全部 197 个场馆，方便检查批量导入的 2D/3D；它只在 `start:local` 下生效，正式环境仍按订阅限制场馆。测试收件箱仅允许服务电脑的回环访问，且只显示当前浏览器申请、未消费且未过期的登录链接。真实邮箱服务配置后才支持手机收邮件登录；本地模拟 Google 和升级流程只建议在运行服务的电脑上演示。
+
+免费场馆默认是当前来源证据最完整的 10 个：启德主场馆、香港红馆、亚洲国际博览馆 Arena/VIVA/2 号馆/Runway 11、台北小巨蛋、Tottenham、MetLife 和 SoFi。正式环境可以在 `/admin.html` 配置，管理员必须先登录，保存时必须选择恰好 10 个已存在场馆。服务端把名单写入 `access_settings`，每次读取场馆和座位 API 时重新执行权限检查；浏览器传入的场馆 id 不会授予权限。
 
 测试数据放在独立的 `var/seatpeep-local.sqlite`。`start:local` 不读取 `.env`，清空第三方服务配置，只重置三个测试账号的订阅状态，保留已存位置。正式启动 `npm start` 使用另一份数据库 `var/seatpeep.sqlite`，不会自动灌入测试权限。不要把测试数据库用于正式服务。
 
@@ -93,16 +95,18 @@ npm run events:refresh -- metlife
 
 本轮 Tottenham 自动取得 1 项未来演出、MetLife 3 项。SoFi 本机自动请求失败；已从官网详情人工核验并单独标明缓存来源的 3 项演出，失败记录继续保留。详见 `docs/verification.md`。
 
-## 正式服务配置（尚未实接）
+## 正式服务配置（登录和权限）
 
 复制 `.env.example` 为 `.env`，填写自己的配置，再 `npm start`。不要向聊天粘贴密钥。
 
 - Google：Web OAuth Client，回调为 `APP_URL/api/auth/google/callback`。
-- Resend：API key 和已验证发信域名的 `EMAIL_FROM`。正式服务必须 `DEV_MAILBOX=false`。
+- Brevo：`BREVO_API_KEY` 和已验证发信域名的 `EMAIL_FROM`。正式服务必须 `DEV_MAILBOX=false`；Resend 仅保留为迁移兼容回退。
 - Stripe：先使用测试环境；配置有效的每 1 月循环 Price、Secret Key、Webhook Secret；Webhook 地址 `APP_URL/api/billing/webhook`，订阅及 Checkout 相关事件见 `server/billing.mjs`，并启用同账号 Billing Portal。
 - 部署时 `NODE_ENV=production`、HTTPS `APP_URL`，用受信反向代理。生产拒绝开发收件箱；密钥留在服务器端。
 
-现在没有这些账号凭据，Google / 正式邮件 / 真实支付均未连接真实第三方；本地模式的 Google 和升级按钮只是明确标注的开发演示，不会发起外部请求。可验证的是正式 provider 协议逻辑、开发演示和安全边界。付款回跳不会授予权限，只有服务端核验的订阅状态才生效。
+当前仓库没有生产账号凭据，Google / Brevo / 真实支付尚未在本机连接真实第三方；本地模式的 Google 和升级按钮只是明确标注的开发演示，不会发起外部请求。可验证的是正式 provider 协议逻辑、开发演示和安全边界。付款回跳不会授予权限，只有服务端核验的订阅状态才生效。
+
+管理员权限接口：`GET /api/admin/access` 查看当前名单，`PUT /api/admin/access` 提交 `{ "freeVenueIds": ["...十个场馆 id..."] }`。两条接口都要求当前登录邮箱位于 `ADMIN_EMAILS`。普通用户只能看到 `/api/venues` 返回的锁定标记，读取付费场馆详情仍会在服务端返回 `403 SUBSCRIPTION_REQUIRED`。
 
 ## 验证
 

@@ -12,9 +12,9 @@ process.env.APP_URL=process.env.APP_URL||`http://${ip||'127.0.0.1'}:${port}`;
 process.env.ALLOWED_ORIGINS=[process.env.ALLOWED_ORIGINS,`http://127.0.0.1:${port}`,`http://localhost:${port}`,ip?`http://${ip}:${port}`:''].filter(Boolean).join(',');
 process.env.ADMIN_EMAILS=process.env.ADMIN_EMAILS||'admin@seatpeep.test';
 // Local fixtures never initiate real OAuth, email delivery or payment requests.
-for(const key of ['GOOGLE_CLIENT_ID','GOOGLE_CLIENT_SECRET','RESEND_API_KEY','EMAIL_FROM','STRIPE_SECRET_KEY','STRIPE_PRICE_ID','STRIPE_WEBHOOK_SECRET'])process.env[key]='';
+for(const key of ['GOOGLE_CLIENT_ID','GOOGLE_CLIENT_SECRET','BREVO_API_KEY','RESEND_API_KEY','EMAIL_FROM','STRIPE_SECRET_KEY','STRIPE_PRICE_ID','STRIPE_WEBHOOK_SECRET'])process.env[key]='';
 console.log('LOCAL TEST MODE · no real email or payment');
 console.log('Desktop:',`http://127.0.0.1:${port}`);
 if(ip)console.log('Same Wi-Fi:',`http://${ip}:${port}`);
-console.log('Sign in using free@seatpeep.test / pro@seatpeep.test / expired@seatpeep.test and the local inbox.');
+console.log('Sign in using free@seatpeep.test / pro@seatpeep.test / expired@seatpeep.test / admin@seatpeep.test and the local inbox.');
 await import('../server/main.mjs');

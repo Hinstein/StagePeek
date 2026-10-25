@@ -14,9 +14,9 @@ test('local seed creates free, active and expired fixtures only in an isolated d
   const denied=run({NODE_ENV:'production'});assert.notEqual(denied.status,0);assert.equal(existsSync(path),false);
   const seeded=run({NODE_ENV:'development'});assert.equal(seeded.status,0,seeded.stderr);
   const db=openStore(path);t.after(()=>db.close());
-  for(const [email,plan] of [['free@seatpeep.test','free'],['pro@seatpeep.test','pro'],['expired@seatpeep.test','free']]){
+  for(const [email,plan] of [['free@seatpeep.test','free'],['pro@seatpeep.test','pro'],['expired@seatpeep.test','free'],['admin@seatpeep.test','free']]){
     const user=db.prepare('SELECT * FROM users WHERE email=?').get(email);assert.ok(user);assert.equal(entitlements(db,user).plan,plan);
   }
   assert.equal(run({NODE_ENV:'development'}).status,0);
-  assert.equal(db.prepare('SELECT count(*) n FROM users').get().n,3);
+  assert.equal(db.prepare('SELECT count(*) n FROM users').get().n,4);
 });

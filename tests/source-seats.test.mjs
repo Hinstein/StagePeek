@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {loadVenues} from '../server/venues.mjs';
-const manifest=JSON.parse(readFileSync(new URL('../../shijiao-evidence/data-sources/seat-assets-manifest.json',import.meta.url)));
+const manifest=JSON.parse(readFileSync(new URL('../references/rea/shijiao-evidence/data-sources/seat-assets-manifest.json',import.meta.url)));
 const raw=entry=>JSON.parse(readFileSync(entry.path));
 
 test('every retained source seat uses its printed identity and original XYZ in the selected layout',()=>{
@@ -66,7 +66,7 @@ test('source tread strips follow actual row elevations and do not bridge aisle g
 
 test('decoded reference examples independently confirm position, facing and source counts',()=>{
  const repo=loadVenues();
- const examples=JSON.parse(readFileSync(new URL('../../shijiao-evidence/data-sources/decoded-seat-examples.json',import.meta.url))).examples;
+ const examples=JSON.parse(readFileSync(new URL('../references/rea/shijiao-evidence/data-sources/decoded-seat-examples.json',import.meta.url))).examples;
  for(const example of examples){const venue=repo.get(example.venue,example.layout||'bowl'),actual=venue.sourceSeats[0],expected=example.decoded_first_seat;
   assert.equal(venue.sourceSeats.length,example.record_count);assert.deepEqual(actual.position,expected.position);assert.ok(Math.abs(actual.yaw-expected.yaw)<1e-12);assert.ok(Math.abs(actual.treadYaw-expected.treadYaw)<1e-12);
   assert.equal(actual.section,expected.section);assert.equal(actual.row,expected.rowLabel);assert.equal(actual.seat,String(expected.number));

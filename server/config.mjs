@@ -1,5 +1,6 @@
 import {resolve} from 'node:path';
 import {fileURLToPath} from 'node:url';
+import {DEFAULT_FREE_VENUE_IDS} from './access.mjs';
 
 export function loadConfig(env=process.env) {
   const production=env.NODE_ENV==='production',app=new URL(env.APP_URL||'http://127.0.0.1:4180');
@@ -15,9 +16,10 @@ export function loadConfig(env=process.env) {
   });
   const devPreviewAllVenues=env.DEV_PREVIEW_ALL_VENUES==='true';
   if(production&&devPreviewAllVenues)throw new Error('DEV_PREVIEW_ALL_VENUES is forbidden in production');
-  return {production,appUrl:app.origin,host:env.HOST||'127.0.0.1',port,allowedOrigins,devMailbox,devPreviewAllVenues,
+  const freeVenueIds=String(env.FREE_VENUE_IDS||DEFAULT_FREE_VENUE_IDS.join(',')).split(',').map(x=>x.trim()).filter(Boolean);
+  return {production,appUrl:app.origin,host:env.HOST||'127.0.0.1',port,allowedOrigins,devMailbox,devPreviewAllVenues,freeVenueIds,
     adminEmails:String(env.ADMIN_EMAILS||'').split(',').map(x=>x.trim().toLowerCase()).filter(Boolean),
     dbPath:resolve(env.DB_PATH||fileURLToPath(new URL('../var/seatpeep.sqlite',import.meta.url))),
     googleClientId:env.GOOGLE_CLIENT_ID||'',googleClientSecret:env.GOOGLE_CLIENT_SECRET||'',ticketmasterApiKey:env.TICKETMASTER_API_KEY||'',
-    resendApiKey:env.RESEND_API_KEY||'',emailFrom:env.EMAIL_FROM||'',stripeSecretKey:env.STRIPE_SECRET_KEY||'',stripePriceId:env.STRIPE_PRICE_ID||'',stripeWebhookSecret:env.STRIPE_WEBHOOK_SECRET||''};
+    brevoApiKey:env.BREVO_API_KEY||'',resendApiKey:env.RESEND_API_KEY||'',emailFrom:env.EMAIL_FROM||'',stripeSecretKey:env.STRIPE_SECRET_KEY||'',stripePriceId:env.STRIPE_PRICE_ID||'',stripeWebhookSecret:env.STRIPE_WEBHOOK_SECRET||''};
 }

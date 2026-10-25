@@ -31,7 +31,7 @@ export class GoogleProvider {
 
 export class EmailProvider {
   constructor(config,{fetch:fetcher=fetch}={}){this.config=config;this.fetch=fetcher;this.outbox=[];}
-  get ready(){return !!(this.config.resendApiKey&&this.config.emailFrom)||this.config.devMailbox;}
+  get ready(){return !!((this.config.brevoApiKey||this.config.resendApiKey)&&this.config.emailFrom)||this.config.devMailbox;}
   async sendLogin({email,token,expiresAt},{origin=this.config.appUrl}={}) {
     const allowed=[this.config.appUrl,...(this.config.allowedOrigins||[])];
     const base=this.config.devMailbox&&!this.config.production&&allowed.includes(origin)?origin:this.config.appUrl;
@@ -40,10 +40,11 @@ export class EmailProvider {
       this.outbox.unshift({email,url,expiresAt,createdAt:Date.now()});this.outbox.length=Math.min(this.outbox.length,20);return;
     }
     if(!this.ready)throw fault(503,'EMAIL_NOT_CONFIGURED','Email delivery is not configured');
-    const response=await this.fetch('https://api.resend.com/emails',{
-      method:'POST',headers:{Authorization:'Bearer '+this.config.resendApiKey,'Content-Type':'application/json'},
-      signal:AbortSignal.timeout(15_000),body:JSON.stringify({from:this.config.emailFrom,to:[email],subject:'Sign in to SeatPeep',
-        text:`Sign in to SeatPeep:\n\n${url}\n\nThis link expires in 15 minutes. Open it in the browser where you requested it. If you did not request it, ignore this email.`})
+    const text=`Sign in to SeatPeep:\n\n${url}\n\nThis link expires in 15 minutes. Open it in the browser where you requested it. If you did not request it, ignore this email.`;
+    const brevo=!!this.config.brevoApiKey;
+    const response=await this.fetch(brevo?'https://api.brevo.com/v3/smtp/email':'https://api.resend.com/emails',{
+      method:'POST',headers:{[brevo?'api-key':'Authorization']:brevo?this.config.brevoApiKey:'Bearer '+this.config.resendApiKey,'Content-Type':'application/json'},
+      signal:AbortSignal.timeout(15_000),body:JSON.stringify(brevo?{sender:{email:this.config.emailFrom},to:[{email}],subject:'Sign in to SeatPeep',textContent:text}:{from:this.config.emailFrom,to:[email],subject:'Sign in to SeatPeep',text})
     });
     if(!response.ok)throw fault(502,'EMAIL_FAILED','Could not send login email');
   }

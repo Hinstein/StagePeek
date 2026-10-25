@@ -21,3 +21,15 @@ test('guest, free, paid, cancel-at-period-end and expired access is enforced fro
   db.prepare('UPDATE subscriptions SET status=?').run('canceled');
   assert.equal(entitlements(db,user,now).plan,'free');
 });
+
+test('free venue policy is persisted and admin changes require exactly ten existing ids',async t=>{
+  const {openStore}=await import('../server/store.mjs');
+  const {freeVenueIds,saveFreeVenueIds,DEFAULT_FREE_VENUE_IDS}=await import('../server/access.mjs');
+  const db=openStore(':memory:');t.after(()=>db.close());
+  const available=[...DEFAULT_FREE_VENUE_IDS,'extra-venue'];
+  assert.deepEqual(freeVenueIds(db,available,DEFAULT_FREE_VENUE_IDS),DEFAULT_FREE_VENUE_IDS);
+  const selected=DEFAULT_FREE_VENUE_IDS.slice().reverse();
+  assert.deepEqual(saveFreeVenueIds(db,selected,available,'admin@example.com',123),selected);
+  assert.deepEqual(freeVenueIds(db,available,DEFAULT_FREE_VENUE_IDS),selected);
+  assert.throws(()=>saveFreeVenueIds(db,['extra-venue'],available,'admin@example.com'),error=>error.code==='INVALID_FREE_VENUES');
+});

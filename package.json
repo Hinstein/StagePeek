@@ -7,6 +7,8 @@
   "scripts": {
     "start": "node --env-file-if-exists=.env server/main.mjs",
     "start:local": "node scripts/start-local.mjs",
+    "check": "node --check server/main.mjs && node --check server/app.mjs && node --check server/access.mjs && node --check server/providers.mjs && node --check public/app.mjs && node --check public/admin.mjs",
+    "build": "npm run check",
     "local:seed": "node scripts/seed-local.mjs",
     "venue:validate": "node scripts/add-venue.mjs",
     "venue:add": "node scripts/add-venue.mjs",

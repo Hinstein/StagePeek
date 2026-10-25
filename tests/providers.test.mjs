@@ -39,3 +39,15 @@ test('local email aliases require an explicit allowed origin and never affect de
   assert.match(message.text,/https:\/\/seatpeep\.example\/\?login=email/);
   assert.doesNotMatch(message.text,/alias\.example/);
 });
+
+test('production email provider sends through Brevo when configured',async()=>{
+  const {EmailProvider}=await import('../server/providers.mjs');
+  let request;
+  const provider=new EmailProvider({appUrl:'https://seatpeep.example',production:true,brevoApiKey:'brevo-test',emailFrom:'login@seatpeep.example'},{fetch:async(url,init)=>{request={url,init};return new Response('{}',{status:201});}});
+  await provider.sendLogin({email:'viewer@example.com',token:'abc',expiresAt:1});
+  assert.equal(request.url,'https://api.brevo.com/v3/smtp/email');
+  assert.equal(request.init.headers['api-key'],'brevo-test');
+  const body=JSON.parse(request.init.body);
+  assert.deepEqual(body.to,[{email:'viewer@example.com'}]);
+  assert.equal(body.sender.email,'login@seatpeep.example');
+});

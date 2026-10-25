@@ -100,6 +100,7 @@ test('local monthly checkout upgrades only the signed-in development account',as
 
 test('public root and app modules are actually served while data files remain private',async t=>{
   const {call}=await setup(t);
+  assert.deepEqual(await (await call('/healthz')).json(),{ok:true,service:'seatpeep'});
   const page=await call('/');assert.equal(page.status,200);assert.match(await page.text(),/找到你的现场位置/);
   const module=await call('/app.mjs');assert.equal(module.status,200);assert.match(module.headers.get('content-type'),/javascript/);
   assert.equal((await call('/vendor/three.module.min.js')).status,200);
@@ -157,4 +158,20 @@ test('source venue API rejects unavailable layouts and saved positions retain so
  assert.equal(saved.status,201);const positions=await(await call('/api/positions',{cookie})).json();assert.equal(positions.positions[0].layout,'center');
  const wrong=await call('/api/venues/taipei-arena/resolve',{body:{section:'紅1A',row:'1',seat:'1',layout:'runway'}});
  assert.equal((await wrong.json()).status,'unknown-layout');
+});
+
+test('admin can read and replace exactly ten free venues while the paywall follows the policy',async t=>{
+  const ids=['a','b','c','d','e','f','g','h','i','j','k'];
+  const repository={catalog:()=>ids.map(id=>({id,name:id})),ids:()=>ids,get:id=>ids.includes(id)?{id,sections:[{id:'A'}]}:null,resolve:()=>({status:'unknown'}),validate:()=>({valid:true,errors:[],warnings:[],counts:{sections:0,ticketLabels:0,samples:0}}),publish:()=>{}};
+  const {call,login,config}=await setup(t,repository);config.adminEmails=['admin@example.com'];config.freeVenueIds=ids.slice(0,10);
+  assert.equal((await call('/api/admin/access')).status,401);
+  const session=await login('admin@example.com');
+  const current=await call('/api/admin/access',{cookie:session.cookie});assert.equal(current.status,200);
+  assert.deepEqual((await current.json()).freeVenueIds,ids.slice(0,10));
+  const update=await call('/api/admin/access',{method:'PUT',cookie:session.cookie,body:{freeVenueIds:ids.slice(1)}});assert.equal(update.status,200);
+  const catalog=await (await call('/api/venues')).json();
+  assert.equal(catalog.venues.find(item=>item.id==='k').locked,false);
+  assert.equal(catalog.venues.find(item=>item.id==='a').locked,true);
+  assert.equal((await call('/api/venues/a')).status,403);
+  assert.equal((await call('/api/venues/k')).status,200);
 });

@@ -9,7 +9,7 @@ export function seedLocal(env=process.env){
   if(!basename(path).endsWith('-local.sqlite'))throw new Error('Fixtures require a separate *-local.sqlite database');
   const db=openStore(path),now=Date.now();
   try{transaction(db,()=>{
-    for(const [name,expiry] of [['free',null],['pro',now+30*86400_000],['expired',now-86400_000]]){
+    for(const [name,expiry] of [['free',null],['pro',now+30*86400_000],['expired',now-86400_000],['admin',null]]){
       const email=name+'@seatpeep.test';
       db.prepare('INSERT OR IGNORE INTO users(id,email,created_at) VALUES(?,?,?)').run(randomUUID(),email,now);
       const user=db.prepare('SELECT id FROM users WHERE email=?').get(email);

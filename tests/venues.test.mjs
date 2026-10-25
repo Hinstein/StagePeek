@@ -91,7 +91,7 @@ test('2D source hit areas retain their camera and vertices without treating pixe
     assert.equal(venue.accuracy.metricCalibrated,false);
   }
   const {readFile}=await import('node:fs/promises');
-  const original=JSON.parse(await readFile(new URL('../../western-market-research/tottenham/virtual-venue-map-polygons-normalized.json',import.meta.url),'utf8')).polygons;
+  const original=JSON.parse(await readFile(new URL('../references/western-market/tottenham/virtual-venue-map-polygons-normalized.json',import.meta.url),'utf8')).polygons;
   const section=repo.get('tottenham').sections.find(s=>s.id==='122');
   for(const p of section.sourcePolygons){
     const source=original.find(x=>x.layer==='FullStadium'&&x.camera==='Aerial_Camera_Overview'&&x.viewId===p.viewId);
