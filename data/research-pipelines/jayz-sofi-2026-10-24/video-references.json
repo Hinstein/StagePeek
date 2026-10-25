@@ -1,0 +1,33 @@
+{
+  "retrievedAt": "2026-10-25T08:41:32.884Z",
+  "videos": [
+    {
+      "videoId": "NKs2ljKPGkk",
+      "url": "https://www.youtube.com/watch?v=NKs2ljKPGkk",
+      "title": "SoFi Stadium Level 4E Suite. Section 8",
+      "author": "Minh Nguyen",
+      "authorUrl": "https://www.youtube.com/@minhnguyen5253",
+      "provider": "youtube-oembed",
+      "discovery": "manual-web-search-fallback-not-Brave-or-YouTube-Data-API",
+      "scope": "same-venue-different-event",
+      "eventMatch": false,
+      "exactSeatMatch": false,
+      "position": null,
+      "rights": "original-link-only"
+    },
+    {
+      "videoId": "pREUi_c7bUQ",
+      "url": "https://www.youtube.com/watch?v=pREUi_c7bUQ",
+      "title": "Post Malone — Big Ass Stadium Tour (Full Concert) LIVE @ SoFi Stadium, Inglewood, CA (6.19.2025)",
+      "author": "watch your head",
+      "authorUrl": "https://www.youtube.com/@watchyourhead.",
+      "provider": "youtube-oembed",
+      "discovery": "manual-web-search-fallback-not-Brave-or-YouTube-Data-API",
+      "scope": "same-venue-different-event",
+      "eventMatch": false,
+      "exactSeatMatch": false,
+      "position": null,
+      "rights": "original-link-only"
+    }
+  ]
+}

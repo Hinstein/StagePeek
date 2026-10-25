@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 96" role="img" aria-labelledby="title desc">
+  <title id="title">SeatPeep Arena logo</title><desc id="desc">A circular arena with concentric rows and a stage at the center.</desc>
+  <g transform="translate(8 8)">
+    <rect width="80" height="80" rx="22" fill="#111a22" stroke="#293740" stroke-width="2"/>
+    <path d="M17 57a23 23 0 0 1 46 0M22 57a18 18 0 0 1 36 0M27 57a13 13 0 0 1 26 0" fill="none" stroke="#b984ff" stroke-width="4" stroke-linecap="round"/>
+    <rect x="30" y="24" width="20" height="8" rx="2" fill="#c9ff51"/>
+    <path d="M26 68h28" stroke="#c9ff51" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <text x="112" y="60" fill="#f3f7f1" font-family="Inter,ui-sans-serif,system-ui,sans-serif" font-size="38" font-weight="800" letter-spacing="-1.8">Seat<tspan fill="#c9ff51">Peep</tspan></text>
+</svg>

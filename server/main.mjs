@@ -4,12 +4,16 @@ import {loadConfig} from './config.mjs';
 import {loadVenues} from './venues.mjs';
 import {EventRepository,FEEDS} from './events.mjs';
 import {TicketingEventCache} from './ticketing-cache.mjs';
+import {CandidateEventRepository} from './event-candidates.mjs';
+import {PublishedEventRepository} from './event-publication.mjs';
 import {fileURLToPath} from 'node:url';
 
 const config=loadConfig(),db=openStore(config.dbPath),venues=loadVenues();
 const events=new EventRepository({file:fileURLToPath(new URL('../data/events.json',import.meta.url))});
 const ticketingEvents=new TicketingEventCache({file:fileURLToPath(new URL('../data/ticketing/ticketmaster-events.json',import.meta.url))});
-const app=createApplication({db,config,venues,events,ticketingEvents,logger:entry=>{if(entry.status>=500)console.error(JSON.stringify(entry));}});
+const candidateEvents=new CandidateEventRepository(fileURLToPath(new URL('../data/events-candidates',import.meta.url)));
+const publishedEvents=new PublishedEventRepository(fileURLToPath(new URL('../data/events-published',import.meta.url)),venues);
+const app=createApplication({db,config,venues,events,ticketingEvents,candidateEvents,publishedEvents,logger:entry=>{if(entry.status>=500)console.error(JSON.stringify(entry));}});
 app.server.listen(config.port,config.host,()=>{
   console.log('SeatPeep:',config.appUrl);
   console.log('Providers:',JSON.stringify({email:app.email.ready,google:app.google.ready,billing:app.billing.ready,ticketmaster:Boolean(config.ticketmasterApiKey),localEmail:config.devMailbox}));

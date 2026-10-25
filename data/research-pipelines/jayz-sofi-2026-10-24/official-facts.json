@@ -1,0 +1,154 @@
+{
+  "retrievedAt": "2026-10-25T08:41:29.077Z",
+  "event": {
+    "name": "JAŸ-Z 30",
+    "startDate": "2026-10-24T20:00:00-07:00",
+    "endDate": "2026-10-24T23:00:00-07:00",
+    "url": "https://www.sofistadium.com/events/detail/jay-z-october-24-2026",
+    "location": {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Inglewood",
+        "addressCountry": "US",
+        "postalCode": "90301",
+        "streetAddress": "1001 S. Stadium Drive"
+      },
+      "name": "SoFi Stadium"
+    },
+    "ticketUrl": "https://www.ticketmaster.com/event/0A0064C8E971D777?utm_medium=referral&utm_source=sofistadium.com&utm_content=event_listing&CAMEFROM=CFC_SOFI_WEB_EVENTSLISTING"
+  },
+  "venue": {
+    "name": "SoFi Stadium",
+    "url": "https://www.sofistadium.com/",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "1001 S. Stadium Drive",
+      "addressLocality": "Inglewood",
+      "addressRegion": "California",
+      "addressCountry": "US",
+      "postalCode": "90301"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 33.953514,
+      "longitude": -118.3390416
+    }
+  },
+  "entranceDirections": [
+    {
+      "entry": "1",
+      "description": "North side of the stadium",
+      "scope": "venue-general-not-event-gate-assignment"
+    },
+    {
+      "entry": "2",
+      "description": "North side of the stadium",
+      "scope": "venue-general-not-event-gate-assignment"
+    },
+    {
+      "entry": "3",
+      "description": "North side of the stadium",
+      "scope": "venue-general-not-event-gate-assignment"
+    },
+    {
+      "entry": "4",
+      "description": "North side of the stadium",
+      "scope": "venue-general-not-event-gate-assignment"
+    },
+    {
+      "entry": "5",
+      "description": "North side of the stadium",
+      "scope": "venue-general-not-event-gate-assignment"
+    },
+    {
+      "entry": "6",
+      "description": "West Side of the Stadium; VIP and Premium Access",
+      "scope": "venue-general-not-event-gate-assignment"
+    },
+    {
+      "entry": "7",
+      "description": "West Side of the Stadium; VIP and Premium Access",
+      "scope": "venue-general-not-event-gate-assignment"
+    },
+    {
+      "entry": "8",
+      "description": "South side of the Stadium",
+      "scope": "venue-general-not-event-gate-assignment"
+    },
+    {
+      "entry": "9",
+      "description": "South Side of the Stadium",
+      "scope": "venue-general-not-event-gate-assignment"
+    },
+    {
+      "entry": "10",
+      "description": "South Side of the Stadium",
+      "scope": "venue-general-not-event-gate-assignment"
+    },
+    {
+      "entry": "11",
+      "description": "East side of the stadium; VIP and Premium Access",
+      "scope": "venue-general-not-event-gate-assignment"
+    },
+    {
+      "entry": "12",
+      "description": "East Side of the Stadium; VIP and Premium Access",
+      "scope": "venue-general-not-event-gate-assignment"
+    }
+  ],
+  "guideLinks": [
+    {
+      "url": "https://www.sofistadium.com/plan-your-visit/parking-and-transportation",
+      "label": "Parking & Transportation"
+    },
+    {
+      "url": "https://www.sofistadium.com/plan-your-visit/parking-and-transportation/rideshare",
+      "label": "Rideshare"
+    },
+    {
+      "url": "https://www.sofistadium.com/plan-your-visit/parking-and-transportation#parking-maps",
+      "label": "Parking Zone Maps"
+    },
+    {
+      "url": "https://www.sofistadium.com/plan-your-visit/parking-and-transportation/nfl-tailgating-policies",
+      "label": "NFL Tailgating Policies"
+    },
+    {
+      "url": "https://www.sofistadium.com/plan-your-visit/parking-and-transportation/accessible-parking",
+      "label": "Accessible Parking"
+    },
+    {
+      "url": "https://www.sofistadium.com/plan-your-visit/stadium-policies",
+      "label": "Stadium Policies"
+    },
+    {
+      "url": "https://www.sofistadium.com/plan-your-visit/maps",
+      "label": "Maps"
+    },
+    {
+      "url": "https://www.sofistadium.com/plan-your-visit/accessibility",
+      "label": "Accessibility"
+    },
+    {
+      "url": "https://www.sofistadium.com/plan-your-visit/stadium-policies#prohibited-items",
+      "label": "stadium policies"
+    }
+  ],
+  "mapLinks": [
+    "https://www.sofistadium.com/assets/img/thumb-0fab6f1c38.jpg",
+    "https://www.sofistadium.com/assets/img/Paycor_transparent_rotating-90fd0645ae.png",
+    "https://www.sofistadium.com/assets/img/CrownRoyal_Smirnoff_CaptainMorgan_transparent_rotating-c32f209704.png",
+    "https://www.sofistadium.com/assets/img/VisitRwanda_transparent_rotating-b1237c2c19.png",
+    "https://www.sofistadium.com/assets/img/Wynn_transparent_rotating-1e2b4baf36.png",
+    "https://www.sofistadium.com/assets/img/1800Tequila_transparent_rotating-e9c3781e7f.png",
+    "https://www.sofistadium.com/assets/img/Easterseals_transparent_rotating-74dadccd87.png",
+    "https://www.sofistadium.com/assets/img/Visa_Brandmark_Blue_RGB-c0653ec4d7.png",
+    "https://www.sofistadium.com/assets/img/Jonata_Hilt_Paring_transparent_rotating-f481e9c83b.png",
+    "https://www.sofistadium.com/assets/img/UberEats_transparent_rotating-3e69b6912a.png",
+    "https://www.sofistadium.com/assets/img/Square_transparent_rotating-0af99193ff.png",
+    "https://www.sofistadium.com/assets/img/Melissas_transparent_rotating-861dba358d.png",
+    "https://www.sofistadium.com/assets/img/Gallagher_transparent_rotating-e29d41ea0e.png",
+    "https://www.sofistadium.com/assets/img/BuckedUp_transparent_rotating-e8a70a75f9.png"
+  ]
+}

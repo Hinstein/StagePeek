@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 96" role="img" aria-labelledby="title desc">
+  <title id="title">SeatPeep Stage Grid logo</title><desc id="desc">A geometric S and P built from stage and seating lines.</desc>
+  <g transform="translate(8 8)">
+    <rect width="80" height="80" rx="22" fill="#c9ff51"/>
+    <path d="M56 24H29c-5 0-9 4-9 9s4 9 9 9h22c5 0 9 4 9 9s-4 9-9 9H20" fill="none" stroke="#0b1118" stroke-width="7" stroke-linecap="round"/>
+    <path d="M39 20v40" stroke="#b984ff" stroke-width="4" stroke-linecap="round" opacity=".9"/>
+    <path d="M43 24h14c6 0 11 5 11 11s-5 11-11 11H43" fill="none" stroke="#0b1118" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <text x="112" y="60" fill="#f3f7f1" font-family="Inter,ui-sans-serif,system-ui,sans-serif" font-size="38" font-weight="800" letter-spacing="-1.8">Seat<tspan fill="#c9ff51">Peep</tspan></text>
+</svg>

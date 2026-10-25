@@ -1,0 +1,40 @@
+{
+  "mode": "existing-local-cache-not-live-api",
+  "cacheFile": "data/ticketing/ticketmaster-events.json",
+  "cacheHash": "082f3ae72e5af4fa35aa3bfad68c7d9da6b509796100e5b8b9417552125c9139",
+  "retrievedAt": "2026-10-24T16:45:27.771Z",
+  "event": {
+    "provider": "ticketmaster",
+    "providerEventId": "vvG1IZ_GNtjqqM",
+    "name": "JAY-Z30",
+    "url": "https://www.ticketmaster.com/jayz30-inglewood-california-10-24-2026/event/0A0064C8E971D777",
+    "date": "2026-10-24",
+    "time": "20:00:00",
+    "timezone": "America/Los_Angeles",
+    "status": "onsale",
+    "venue": {
+      "providerId": "KovZ917ACh0",
+      "name": "SoFi Stadium",
+      "city": "Inglewood",
+      "countryCode": "US"
+    },
+    "seatmap": {
+      "staticUrl": "https://mapsapi.tmol.io/maps/geometry/3/event/0A0064C8E971D777/staticImage?type=png&systemId=HOST",
+      "source": "ticketmaster-public-seatmap"
+    },
+    "classification": [
+      "Music"
+    ],
+    "seatScopeVenueId": "sofi",
+    "matchStatus": "venue-name-candidate",
+    "layout": {
+      "status": "unconfirmed",
+      "source": "https://www.ticketmaster.com/jayz30-inglewood-california-10-24-2026/event/0A0064C8E971D777",
+      "image": "https://mapsapi.tmol.io/maps/geometry/3/event/0A0064C8E971D777/staticImage?type=png&systemId=HOST",
+      "model": null,
+      "eventVerification": "ticketing-api",
+      "mapVerification": "reference",
+      "stageVerification": "unverified"
+    }
+  }
+}

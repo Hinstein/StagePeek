@@ -24,7 +24,7 @@ async function body(req,max=16_384,asJson=true) {
   try{const value=JSON.parse(raw.toString('utf8'));if(!value||Array.isArray(value)||typeof value!=='object')throw 0;return value;}catch{throw fault(400,'INVALID_JSON','Invalid JSON body');}
 }
 
-export function createApplication({db,config,venues,events=null,ticketing=null,ticketingEvents=null,fetch:fetcher=fetch,clock=Date.now,logger=()=>{}}) {
+export function createApplication({db,config,venues,events=null,ticketing=null,ticketingEvents=null,candidateEvents=null,publishedEvents=null,fetch:fetcher=fetch,clock=Date.now,logger=()=>{}}) {
   const auth=new AuthService(db,{clock}),email=new EmailProvider(config,{fetch:fetcher}),google=new GoogleProvider(config,{fetch:fetcher}),billing=new BillingService(db,config,{fetch:fetcher,clock});
   const ticketmaster=ticketing||new TicketmasterProvider({apiKey:config.ticketmasterApiKey,fetch:fetcher,clock});
   const prefix=config.production?'__Host-ss_':'ss_';
@@ -138,6 +138,9 @@ export function createApplication({db,config,venues,events=null,ticketing=null,t
         requireAdmin(req);const manifest=await body(req,512_000);const report=venues.validate(manifest);if(!report.valid)throw fault(422,'INVALID_VENUE_MANIFEST',report.errors.join('; '));
         const venue=venues.publish(manifest);return json(res,201,{published:true,venue:{id:venue.id,name:venue.name,sectionCount:venue.sections.length,ticketLabelCount:venue.ticketLabelCount},warnings:report.warnings});
       }
+      if(path==='/api/admin/event-candidates'&&method==='GET'){
+        requireAdmin(req);return json(res,200,{...(candidateEvents?.list()||{status:'empty',sets:[],events:[],venues:[]}),ticketing:ticketingEvents?.data||null});
+      }
       if(path==='/api/admin/access'&&method==='GET'){
         const admin=requireAdmin(req),available=venues.ids?venues.ids():venues.catalog().map(item=>item.id),free=freeVenueIds(db,available,config.freeVenueIds||['tottenham']);
         return json(res,200,{freeVenueIds:free,freeVenues:venues.catalog().filter(item=>free.includes(item.id)),availableVenues:venues.catalog(),paidVenueCount:Math.max(0,available.length-free.length),updatedAt:db.prepare('SELECT updated_at,updated_by FROM access_settings WHERE key=?').get('free_venue_ids')||null,availableVenueCount:available.length,exactlyTen:free.length===10,updatedBy:admin.email});
@@ -174,7 +177,10 @@ export function createApplication({db,config,venues,events=null,ticketing=null,t
           const eventKey=item=>`${String(item.name||'').toLowerCase().replace(/[^a-z0-9]+/g,'')}|${item.localDate||item.date||''}`;
           const seen=new Set(official.events.flatMap(item=>[item.id,item.source,item.layout?.source,providerKey(item.source),providerKey(item.layout?.source),eventKey(item)].filter(Boolean)));
           const imported=provider.events.filter(item=>!seen.has(item.id)&&!seen.has(item.url)&&!seen.has(item.source)&&!seen.has(item.providerEventId)&&!seen.has(providerKey(item.url))&&!seen.has(eventKey(item))).map(item=>({...item,source:item.url||item.source||null,layout:item.layout||{status:'unconfirmed',source:item.url||null,image:item.seatmap?.staticUrl||null,model:null,eventVerification:'ticketing-api',mapVerification:item.seatmap?'reference':'unavailable',stageVerification:'unverified'},ticketingProvider:item.provider||'ticketmaster'}));
-          return json(res,200,{...official,events:[...official.events,...imported].sort((a,b)=>String(a.localDate||'').localeCompare(String(b.localDate||''))),ticketing:{...provider,events:undefined}});
+          const published=publishedEvents?.list(id)||[];
+          const publishedIds=new Set(published.map(event=>event.id));
+          const metadata=(official.status==='candidate-import'?[]:official.events).filter(event=>!publishedIds.has(event.id)&&event.status!=='candidate'&&event.verificationStatus!=='candidate').map(event=>({...event,layout:{...event.layout,model:null,stageVerification:'unverified'}}));
+          return json(res,200,{...official,events:[...metadata,...published].sort((a,b)=>String(a.localDate||'').localeCompare(String(b.localDate||''))),ticketing:{...provider,events:undefined,candidates:imported.length}});
         }
       }
       if(path==='/api/positions'&&method==='GET'){

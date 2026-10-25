@@ -15,9 +15,9 @@ test('Wembley manual import is validated and exposes only official observed anch
 test('venue loader includes manual and imported venues and keeps unknown Wembley seats unverified',async()=>{
   const {loadVenues}=await import('../server/venues.mjs');const venues=loadVenues();
   const ids=venues.ids();
-  // The catalog includes the 20 venues imported for the Weeknd 2026 tour.
-  // Keep this count explicit so a future import cannot silently disappear.
-  assert.equal(ids.length,217);
+  // Candidate tour venues are kept outside the product catalog until verified.
+  // Keep the published count explicit so a future import cannot silently disappear.
+  assert.equal(ids.length,197);
   assert.ok(ids.includes('metlife')&&ids.includes('sofi')&&ids.includes('tottenham')&&ids.includes('wembley'));
   assert.ok(ids.includes('kspo-dome')&&ids.includes('tokyo-dome')&&ids.includes('london-the-o2'));
   assert.equal(venues.catalog().find(x=>x.id==='wembley').sectionCount,25);

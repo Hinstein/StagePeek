@@ -10,7 +10,36 @@ export function venueFloor(venue){
   return [Math.max(48,...tiers.map(t=>2*(t[0]+Math.abs(t[3]||0)/2)+40)),Math.max(48,...tiers.map(t=>2*(t[1]+Math.abs(t[3]||0)/2)+40))];
 }
 export function venueRadius(venue){if(venue?.sourceSeats?.length)return venue.sourceSeats.reduce((r,s)=>Math.max(r,Math.hypot(s.position[0],s.position[2])),24);const inner=venue?.geometry?.coordinateSystem==='profile-inner-radius';return Math.max(24,...(venue?.tiers||[]).map(([rx,rz,,depth])=>inner?Math.max(rx,rz)+Math.abs(depth||0):Math.hypot(rx,rz)+Math.abs(depth||0)/2));}
+export function venueFootprintContainsPoint(venue,x,z,margin=0){
+  if(![x,z,margin].every(Number.isFinite))return false;
+  const [width,depth]=venueFloor(venue),rx=Math.max(.1,width/2-margin),rz=Math.max(.1,depth/2-margin);
+  if(['rectangle','fan','rear'].includes(venueShape(venue)))return Math.abs(x)<=rx&&Math.abs(z)<=rz;
+  return (x/rx)**2+(z/rz)**2<=1;
+}
+export function stageOutsideParts(venue,layout,rects){
+  return stageBoxesFromRects(layout,venue,rects).filter(box=>{
+    if(![...box.center,...box.size,box.angle??0].every(Number.isFinite)||box.size.some(n=>n<=0))return true;
+    const c=Math.cos(box.angle||0),s=Math.sin(box.angle||0);
+    return [-1,1].some(a=>[-1,1].some(b=>{
+      const x=a*box.size[0]/2,z=b*box.size[2]/2;
+      return !venueFootprintContainsPoint(venue,box.center[0]+x*c+z*s,box.center[2]-x*s+z*c);
+    }));
+  });
+}
+function fitGenericStageRig(venue,rects){
+  if(!rects.length)return rects;
+  const [width,depth]=venueFloor(venue),rx=Math.max(.1,width/2-1),rz=Math.max(.1,depth/2-1),oval=!['rectangle','fan','rear'].includes(venueShape(venue));
+  let required=0;
+  for(const rect of rects){
+    const corners=[[-rect.w/2,-rect.d/2],[-rect.w/2,rect.d/2],[rect.w/2,-rect.d/2],[rect.w/2,rect.d/2]];
+    for(const [dx,dz] of corners){const x=rect.x+dx,z=rect.z+dz;required=Math.max(required,oval?Math.sqrt((x/rx)**2+(z/rz)**2):Math.max(Math.abs(x)/rx,Math.abs(z)/rz));}
+  }
+  if(required<=.98)return rects;
+  const scale=.94/required;
+  return rects.map(rect=>({...rect,x:rect.x*scale,z:rect.z*scale,w:rect.w*scale,d:rect.d*scale,previewScale:scale}));
+}
 export function proposedStageRects(layout,venue){
+  if(layout==='none')return [];
   // A dated exhibition layout owns both temporary seating and its stage rig.
   // Never combine these seats with a generic centre/end-stage preset.
   if(venue?.geometry?.referenceLayout)return venue.geometry.referenceLayout.stageRects.map(r=>({...r}));
@@ -19,8 +48,9 @@ export function proposedStageRects(layout,venue){
   // venue's fixed/source stage or the generic preview profiles.
   if(layout==='event'&&venue?.eventLayout?.stageRects?.length){
     const [floorX,floorZ]=venueFloor(venue);
-    return venue.eventLayout.stageRects.map(rect=>({
-      x:rect.x*floorX,z:rect.z*floorZ,w:rect.w*floorX,d:rect.d*floorZ,h:rect.h??1.5,
+    const metres=venue.eventLayout.coordinateFrame==='venue-metres';
+    return venue.eventLayout.stageRects.map(rect=>({...rect,
+      x:rect.x*(metres?1:floorX),z:rect.z*(metres?1:floorZ),w:rect.w*(metres?1:floorX),d:rect.d*(metres?1:floorZ),h:rect.h??1.5,
       source:'event-seat-map',confidence:venue.eventLayout.confidence||'operator-traced'
     }));
   }
@@ -29,7 +59,8 @@ export function proposedStageRects(layout,venue){
   if(profile&&layout!=='center'){
     const main={x:profile.x??0,z:profile.z??0,w:profile.width,d:profile.depth,h:profile.height??1.5};
     const structures=(profile.structures||[]).map(structure=>({...structure,h:structure.h??structure.height??1.5}));
-    return layout==='runway'?[main,...structures,{x:main.x,z:main.z+(profile.facing??(main.z>=0?-1:1))*(main.d/2+5),w:Math.min(4,main.w*.2),d:10,h:main.h}]:[main,...structures];
+    const rig=layout==='runway'?[main,...structures,{x:main.x,z:main.z+(profile.facing??(main.z>=0?-1:1))*(main.d/2+5),w:Math.min(4,main.w*.2),d:10,h:main.h}]:[main,...structures];
+    return rig;
   }
   if(venue?.geometry?.coordinateSystem==='profile-inner-radius'){
     // This is a generic preview, bounded by the front of the bowl. The outer
@@ -40,18 +71,18 @@ export function proposedStageRects(layout,venue){
       const scale=Math.min(1,.9/extent**(1/exponent));
       return {x:rect.x*scale,z:rect.z*scale,w:rect.w*scale,d:rect.d*scale,h:1.5};
     };
-    if(layout==='center')return [fit({x:0,z:0,w:Math.min(24,rx*.7),d:Math.min(24,rz*.7)})];
+    if(layout==='center')return fitGenericStageRig(venue,[fit({x:0,z:0,w:Math.min(24,rx*.7),d:Math.min(24,rz*.7)})]);
     const main=fit({x:rx*.4,z:0,w:Math.min(22,rx*.55),d:Math.min(32,rz*.85)});
-    return layout==='runway'?[main,fit({x:rx*.12,z:0,w:rx*.55,d:Math.min(5,rz*.14)})]:[main];
+    return fitGenericStageRig(venue,layout==='runway'?[main,fit({x:rx*.12,z:0,w:rx*.55,d:Math.min(5,rz*.14)})]:[main]);
   }
   const [floorX,floorZ]=venueFloor(venue),r=venueRadius(venue);
   const width=Math.max(12,Math.min(32,floorX*.15)),depth=Math.max(16,Math.min(48,floorZ*.42));
-  const edge=Math.max(r*.72,floorX*.32);
-  if(layout==='center')return [{x:0,z:0,w:Math.max(18,Math.min(32,floorX*.18)),d:Math.max(18,Math.min(32,floorZ*.18))}];
-  if(layout==='runway')return [{x:edge,z:0,w:width,d:depth},{x:edge*.58,z:0,w:Math.max(24,width*1.9),d:Math.max(4,width*.23)},{x:edge*.28,z:0,w:Math.max(12,width*.75),d:Math.max(12,width*.38)}];
-  return [{x:edge,z:0,w:width,d:depth}];
+  const edge=['rectangle','fan','rear'].includes(venueShape(venue))?Math.max(0,floorX/2-width/2-1):Math.max(r*.72,floorX*.32);
+  if(layout==='center')return fitGenericStageRig(venue,[{x:0,z:0,w:Math.max(18,Math.min(32,floorX*.18)),d:Math.max(18,Math.min(32,floorZ*.18))}]);
+  if(layout==='runway')return fitGenericStageRig(venue,[{x:edge,z:0,w:width,d:depth},{x:edge*.58,z:0,w:Math.max(24,width*1.9),d:Math.max(4,width*.23)},{x:edge*.28,z:0,w:Math.max(12,width*.75),d:Math.max(12,width*.38)}]);
+  return fitGenericStageRig(venue,[{x:edge,z:0,w:width,d:depth}]);
 }
-export const performer=(layout,venue)=>{if(venue?.geometry?.referenceLayout?.performer)return [...venue.geometry.referenceLayout.performer];const s=stageRects(layout,venue)[0];return s?[s.x,s.h??2.2,s.z]:null;};
+export const performer=(layout,venue)=>{const s=stageRects(layout,venue)[0];if(!s)return null;if(venue?.geometry?.referenceLayout?.performer)return [...venue.geometry.referenceLayout.performer];return [s.x,s.h??2.2,s.z];};
 const tau=Math.PI*2;
 const wrapGap=value=>(value+tau)%tau||tau;
 export function sectionRenderHalfAngle(venue,section){
@@ -237,7 +268,10 @@ export function standSurfaces(venue){
 }
 export function stageRects(layout,venue){
   const proposed=proposedStageRects(layout,venue);
-  if(!venue?.sections?.length||venue.seatLayout||venue.geometry?.referenceLayout)return proposed;
+  // Source geometry is immutable. An invalid placement is hidden, never fitted.
+  if(layout==='none')return [];
+  if(venue.seatLayout||venue.geometry?.referenceLayout||venue.geometry?.stage||layout==='event')return stageOutsideParts(venue,layout,proposed).length?[]:proposed;
+  if(!venue?.sections?.length)return stageOutsideParts(venue,layout,proposed).length?[]:proposed;
   let cache=stageCache.get(venue);if(!cache){cache=new Map();stageCache.set(venue,cache);}if(cache.has(layout))return cache.get(layout);
   const floorIds=new Set(venue.sections.filter(s=>s.block).map(s=>s.id));
   const fixed=baseSeatRecords(venue).filter(r=>!floorIds.has(r.section)),surfaces=standSurfaces(venue).filter(s=>!floorIds.has(s.section));
@@ -249,7 +283,7 @@ export function stageRects(layout,venue){
     const scale=1-step*.01;
     const rects=proposed.map(r=>({...r,x:r.x*scale,z:r.z*scale,w:r.w*scale,d:r.d*scale,...scale<1?{previewScale:scale}:{}}));
     const boxes=stageBoxesFromRects(layout,venue,rects).map(b=>({...b,size:[b.size[0]+.6,b.size[1]+.1,b.size[2]+.6]}));
-    if(!boxes.some(b=>fixed.some(r=>seatIntersectsBox(r,b))||surfaces.some(s=>polygonIntersectsBox(s.points,b)))){result=rects;break;}
+    if(!stageOutsideParts(venue,layout,rects).length&&!boxes.some(b=>fixed.some(r=>seatIntersectsBox(r,b))||surfaces.some(s=>polygonIntersectsBox(s.points,b)))){result=rects;break;}
     if(step===99)throw new Error(`No clear preview stage for ${venue.id}/${layout}`);
   }
   cache.set(layout,result);return result;

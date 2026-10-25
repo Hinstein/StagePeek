@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 96" role="img" aria-labelledby="title desc">
+  <title id="title">SeatPeep Ticket logo</title><desc id="desc">A concert ticket with a seat grid and a stage marker.</desc>
+  <g transform="translate(8 8)">
+    <path d="M20 22h40a7 7 0 0 0 7 7v10a7 7 0 0 0 0 14v10a7 7 0 0 0-7 7H20a7 7 0 0 0-7-7V53a7 7 0 0 0 0-14V29a7 7 0 0 0 7-7Z" fill="#111a22" stroke="#c9ff51" stroke-width="3"/>
+    <path d="M27 31v30M36 31v30M45 31v30M54 31v30" stroke="#b984ff" stroke-width="2" opacity=".85"/>
+    <path d="M25 39h32M25 49h32" stroke="#f3f7f1" stroke-width="2" opacity=".9"/>
+    <rect x="30" y="54" width="22" height="5" rx="2.5" fill="#c9ff51"/>
+  </g>
+  <text x="112" y="60" fill="#f3f7f1" font-family="Inter,ui-sans-serif,system-ui,sans-serif" font-size="38" font-weight="800" letter-spacing="-1.8">Seat<tspan fill="#c9ff51">Peep</tspan></text>
+</svg>

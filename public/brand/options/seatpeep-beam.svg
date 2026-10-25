@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 96" role="img" aria-labelledby="title desc">
+  <title id="title">SeatPeep Beam logo</title><desc id="desc">A concert spotlight landing on rows of seats.</desc>
+  <g transform="translate(8 8)">
+    <rect width="80" height="80" rx="22" fill="#111a22" stroke="#293740" stroke-width="2"/>
+    <path d="M22 20h36L47 52H33L22 20Z" fill="#c9ff51" opacity=".95"/>
+    <rect x="20" y="52" width="40" height="8" rx="4" fill="#b984ff"/>
+    <path d="M22 67h36M28 73h24" stroke="#f3f7f1" stroke-width="3" stroke-linecap="round" opacity=".9"/>
+    <circle cx="40" cy="40" r="3" fill="#f5ffd8"/>
+  </g>
+  <text x="112" y="60" fill="#f3f7f1" font-family="Inter,ui-sans-serif,system-ui,sans-serif" font-size="38" font-weight="800" letter-spacing="-1.8">Seat<tspan fill="#c9ff51">Peep</tspan></text>
+</svg>

@@ -1,0 +1,3411 @@
+{
+  "schemaVersion": 1,
+  "status": "candidate",
+  "artist": "The Weeknd",
+  "tour": "After Hours Til Dawn Stadium Tour",
+  "window": {
+    "start": "2026-04-25",
+    "end": "2026-10-25",
+    "timezone": "source-local-date"
+  },
+  "generatedAt": "2026-10-25T08:38:19.310Z",
+  "sourcePackage": "../research-events/the-weeknd-6815920093ed51a6f98faf1748601b4940796e23f1e3718190ec8379dea3156b.json",
+  "sourcePackageSha256": "6815920093ed51a6f98faf1748601b4940796e23f1e3718190ec8379dea3156b",
+  "sourceRetrievedAt": null,
+  "verificationNotes": [
+    "Hash describes the retained local research JSON, not a freshly captured official page."
+  ],
+  "venues": [
+    {
+      "id": "allianz-arena",
+      "name": "Allianz Arena",
+      "city": "Munich",
+      "country": "Germany",
+      "seatStructure": "lower/middle/upper tiers + field; seating/standing varies",
+      "publicSeatMap": {
+        "status": "official-venue-reference",
+        "sources": [
+          "https://allianz-arena.com/en/arena/site-seatmaps"
+        ],
+        "eventSpecific": false,
+        "note": "公开可访问的场馆或票务座位参考；The Weeknd 当场的最终封区、舞台和库存仍需逐场核验。"
+      },
+      "verificationStatus": "candidate",
+      "catalogGeometry": "not-created"
+    },
+    {
+      "id": "allianz-riviera",
+      "name": "Allianz Riviera",
+      "city": "Nice",
+      "country": "France",
+      "seatStructure": "stadium bowl + field seating for concerts",
+      "publicSeatMap": {
+        "status": "official-event-price-map-reference",
+        "sources": [
+          "https://www.allianz-riviera.fr/en/faq",
+          "https://www.allianz-riviera.fr/en/practical-info-0/where-your-seat"
+        ],
+        "eventSpecific": false,
+        "note": "公开可访问的场馆或票务座位参考；The Weeknd 当场的最终封区、舞台和库存仍需逐场核验。"
+      },
+      "verificationStatus": "candidate",
+      "catalogGeometry": "not-created"
+    },
+    {
+      "id": "belluna-dome",
+      "name": "Belluna Dome",
+      "city": "Saitama",
+      "country": "Japan",
+      "seatStructure": "baseball dome bowl + concert arena/field",
+      "publicSeatMap": {
+        "status": "official-venue-reference",
+        "sources": [
+          "https://www.seibulions.jp/stadium/dome.html",
+          "https://www.seibulions.jp/cmn/images/ticket/2026/dome/seat_2026.pdf"
+        ],
+        "eventSpecific": false,
+        "note": "公开可访问的场馆或票务座位参考；The Weeknd 当场的最终封区、舞台和库存仍需逐场核验。"
+      },
+      "verificationStatus": "candidate",
+      "catalogGeometry": "not-created"
+    },
+    {
+      "id": "croke-park",
+      "name": "Croke Park",
+      "city": "Dublin",
+      "country": "Ireland",
+      "seatStructure": "four main stands + pitch",
+      "publicSeatMap": {
+        "status": "official-interactive-map",
+        "sources": [
+          "https://crokepark.ie/matchday/stadium-map"
+        ],
+        "eventSpecific": false,
+        "note": "公开可访问的场馆或票务座位参考；The Weeknd 当场的最终封区、舞台和库存仍需逐场核验。"
+      },
+      "verificationStatus": "candidate",
+      "catalogGeometry": "not-created"
+    },
+    {
+      "id": "deutsche-bank-park",
+      "name": "Deutsche Bank Park",
+      "city": "Frankfurt",
+      "country": "Germany",
+      "seatStructure": "stadium bowl + field/pitch",
+      "publicSeatMap": {
+        "status": "venue-reference-unconfirmed",
+        "sources": [
+          "https://www.deutschebankpark.de/"
+        ],
+        "eventSpecific": false,
+        "note": "公开可访问的场馆或票务座位参考；The Weeknd 当场的最终封区、舞台和库存仍需逐场核验。"
+      },
+      "verificationStatus": "candidate",
+      "catalogGeometry": "not-created"
+    },
+    {
+      "id": "estadi-olimpic-lluis-companys",
+      "name": "Estadi Olímpic Lluís Companys",
+      "city": "Barcelona",
+      "country": "Spain",
+      "seatStructure": "oval stadium bowl + field/track; event map varies",
+      "publicSeatMap": {
+        "status": "official-ticketing-reference",
+        "sources": [
+          "https://www.ticketmaster.es/venue/estadi-olimpic-lluis-companys-barcelona-bilety/esollcobcn/112",
+          "https://www.fcbarcelona.com/fcbarcelona/document/2023/09/06/6bd6289f-f516-463a-833d-caed173f20f5/plano-ACCESSIBILITAT_ESTADI-31_08.pdf"
+        ],
+        "eventSpecific": false,
+        "note": "公开可访问的场馆或票务座位参考；The Weeknd 当场的最终封区、舞台和库存仍需逐场核验。"
+      },
+      "verificationStatus": "candidate",
+      "catalogGeometry": "not-created"
+    },
+    {
+      "id": "estadio-do-restelo",
+      "name": "Estádio do Restelo",
+      "city": "Lisbon",
+      "country": "Portugal",
+      "seatStructure": "multi-stand football stadium + concert field",
+      "publicSeatMap": {
+        "status": "public-reference-only",
+        "sources": [
+          "https://www.uefa.com/MultimediaFiles/Download/competitions/Final/02/09/59/62/2095962_DOWNLOAD.pdf"
+        ],
+        "eventSpecific": false,
+        "note": "公开可访问的场馆或票务座位参考；The Weeknd 当场的最终封区、舞台和库存仍需逐场核验。"
+      },
+      "verificationStatus": "candidate",
+      "catalogGeometry": "not-created"
+    },
+    {
+      "id": "estadio-morumbis",
+      "name": "Estádio MorumBIS",
+      "city": "São Paulo",
+      "country": "Brazil",
+      "seatStructure": "stadium bowl + field/pitch",
+      "publicSeatMap": {
+        "status": "venue-reference-unconfirmed",
+        "sources": [
+          "https://www.ticketmaster.com.br/event/the-weeknd"
+        ],
+        "eventSpecific": false,
+        "note": "公开可访问的场馆或票务座位参考；The Weeknd 当场的最终封区、舞台和库存仍需逐场核验。"
+      },
+      "verificationStatus": "candidate",
+      "catalogGeometry": "not-created"
+    },
+    {
+      "id": "estadio-nilton-santos",
+      "name": "Estádio Nilton Santos",
+      "city": "Rio de Janeiro",
+      "country": "Brazil",
+      "seatStructure": "stadium bowl + field/pitch",
+      "publicSeatMap": {
+        "status": "venue-reference-unconfirmed",
+        "sources": [
+          "https://www.ticketmaster.com.br/event/the-weeknd-rj"
+        ],
+        "eventSpecific": false,
+        "note": "公开可访问的场馆或票务座位参考；The Weeknd 当场的最终封区、舞台和库存仍需逐场核验。"
+      },
+      "verificationStatus": "candidate",
+      "catalogGeometry": "not-created"
+    },
+    {
+      "id": "etihad-stadium",
+      "name": "Etihad Stadium",
+      "city": "Manchester",
+      "country": "United Kingdom",
+      "seatStructure": "three-tier stadium bowl + standing pitch",
+      "publicSeatMap": {
+        "status": "official-venue-reference",
+        "sources": [
+          "https://www.ticketmaster.co.uk/etihad-stadium-tickets-manchester/venue/510224"
+        ],
+        "eventSpecific": false,
+        "note": "公开可访问的场馆或票务座位参考；The Weeknd 当场的最终封区、舞台和库存仍需逐场核验。"
+      },
+      "verificationStatus": "candidate",
+      "catalogGeometry": "not-created"
+    },
+    {
+      "id": "goyang-stadium",
+      "name": "Goyang Stadium",
+      "city": "Goyang",
+      "country": "South Korea",
+      "seatStructure": "four sectors, two rings; concert field",
+      "publicSeatMap": {
+        "status": "official-operator-seat-map",
+        "sources": [
+          "https://www.gys.or.kr/subpage/index/296",
+          "https://www.gys.or.kr/template/gys/images/sub_page/seat_img02.jpg"
+        ],
+        "eventSpecific": false,
+        "note": "公开可访问的场馆或票务座位参考；The Weeknd 当场的最终封区、舞台和库存仍需逐场核验。"
+      },
+      "verificationStatus": "candidate",
+      "catalogGeometry": "not-created"
+    },
+    {
+      "id": "jakarta-international-stadium",
+      "name": "Jakarta International Stadium",
+      "city": "Jakarta",
+      "country": "Indonesia",
+      "seatStructure": "large multi-tier football bowl + field",
+      "publicSeatMap": {
+        "status": "venue-reference-unconfirmed",
+        "sources": [
+          "https://www.jakartainternationalstadium.com/"
+        ],
+        "eventSpecific": false,
+        "note": "公开可访问的场馆或票务座位参考；The Weeknd 当场的最终封区、舞台和库存仍需逐场核验。"
+      },
+      "verificationStatus": "candidate",
+      "catalogGeometry": "not-created"
+    },
+    {
+      "id": "johan-cruijff-arena",
+      "name": "Johan Cruijff ArenA",
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "seatStructure": "two-ring bowl + floor; end/round/panorama concert settings",
+      "publicSeatMap": {
+        "status": "official-event-map-reference",
+        "sources": [
+          "https://www.johancruijffarena.nl/en/in-the-arena/"
+        ],
+        "eventSpecific": false,
+        "note": "公开可访问的场馆或票务座位参考；The Weeknd 当场的最终封区、舞台和库存仍需逐场核验。"
+      },
+      "verificationStatus": "candidate",
+      "catalogGeometry": "not-created"
+    },
+    {
+      "id": "kai-tak-stadium",
+      "name": "Kai Tak Stadium",
+      "city": "Hong Kong",
+      "country": "Hong Kong",
+      "seatStructure": "new multi-tier stadium bowl + field",
+      "publicSeatMap": {
+        "status": "official-event-map-reference",
+        "sources": [
+          "https://www.livenation.hk/en/theweeknd-hk-2026-admission-notice",
+          "https://lne.box.com/s/o92fe1sn3htgmrbg7kn3xxy5inxanvas",
+          "https://www.kaitaksportspark.com.hk/venues-spaces/4"
+        ],
+        "eventSpecific": false,
+        "note": "Live Nation HK 入场通知提供官方 venue site map 下载链接；该图可作为场次座位和入口参考，但需人工确认其是否为最终售票图，不能直接当作逐座坐标。"
+      },
+      "verificationStatus": "candidate",
+      "catalogGeometry": "not-created"
+    },
+    {
+      "id": "national-stadium-singapore",
+      "name": "National Stadium Singapore",
+      "city": "Singapore",
+      "country": "Singapore",
+      "seatStructure": "retractable multi-tier bowl + field; concert map event-specific",
+      "publicSeatMap": {
+        "status": "official-venue-reference",
+        "sources": [
+          "https://thekallang.com.sg/visit-explore/national-stadium-experience"
+        ],
+        "eventSpecific": false,
+        "note": "公开可访问的场馆或票务座位参考；The Weeknd 当场的最终封区、舞台和库存仍需逐场核验。"
+      },
+      "verificationStatus": "candidate",
+      "catalogGeometry": "not-created"
+    },
+    {
+      "id": "parken-stadium",
+      "name": "Parken Stadium",
+      "city": "Copenhagen",
+      "country": "Denmark",
+      "seatStructure": "four tribunes, upper/lower on A/B/C, single D end; concert floor",
+      "publicSeatMap": {
+        "status": "official-venue-reference",
+        "sources": [
+          "https://www.parkenstadion.dk/dit-besog-i-parken/tribune-indgangsoversigt"
+        ],
+        "eventSpecific": false,
+        "note": "公开可访问的场馆或票务座位参考；The Weeknd 当场的最终封区、舞台和库存仍需逐场核验。"
+      },
+      "verificationStatus": "candidate",
+      "catalogGeometry": "not-created"
+    },
+    {
+      "id": "pge-narodowy",
+      "name": "PGE Narodowy",
+      "city": "Warsaw",
+      "country": "Poland",
+      "seatStructure": "multi-tier stadium bowl + floor/pitch",
+      "publicSeatMap": {
+        "status": "venue-reference-unconfirmed",
+        "sources": [
+          "https://www.pgenarodowy.pl/"
+        ],
+        "eventSpecific": false,
+        "note": "公开可访问的场馆或票务座位参考；The Weeknd 当场的最终封区、舞台和库存仍需逐场核验。"
+      },
+      "verificationStatus": "candidate",
+      "catalogGeometry": "not-created"
+    },
+    {
+      "id": "rajamangala-national-stadium",
+      "name": "Rajamangala National Stadium",
+      "city": "Bangkok",
+      "country": "Thailand",
+      "seatStructure": "large multi-tier football bowl + field",
+      "publicSeatMap": {
+        "status": "venue-reference-unconfirmed",
+        "sources": [
+          "https://www.thaiticketmajor.com/venue/rajamangala-national-stadium.html"
+        ],
+        "eventSpecific": false,
+        "note": "公开可访问的场馆或票务座位参考；The Weeknd 当场的最终封区、舞台和库存仍需逐场核验。"
+      },
+      "verificationStatus": "candidate",
+      "catalogGeometry": "not-created"
+    },
+    {
+      "id": "riyadh-air-metropolitano",
+      "name": "Riyadh Air Metropolitano",
+      "city": "Madrid",
+      "country": "Spain",
+      "seatStructure": "multi-tier football stadium + field/pitch",
+      "publicSeatMap": {
+        "status": "venue-reference-unconfirmed",
+        "sources": [
+          "https://en.atleticodemadrid.com/atm/estadio-metropolitano"
+        ],
+        "eventSpecific": false,
+        "note": "公开可访问的场馆或票务座位参考；The Weeknd 当场的最终封区、舞台和库存仍需逐场核验。"
+      },
+      "verificationStatus": "candidate",
+      "catalogGeometry": "not-created"
+    },
+    {
+      "id": "san-siro",
+      "name": "San Siro Stadium",
+      "city": "Milan",
+      "country": "Italy",
+      "seatStructure": "three rings, reserved seats + field/pitch concert areas",
+      "publicSeatMap": {
+        "status": "official-sector-map-reference",
+        "sources": [
+          "https://sansirostadium.com/info/?lang=en"
+        ],
+        "eventSpecific": false,
+        "note": "公开可访问的场馆或票务座位参考；The Weeknd 当场的最终封区、舞台和库存仍需逐场核验。"
+      },
+      "verificationStatus": "candidate",
+      "catalogGeometry": "not-created"
+    },
+    {
+      "id": "stade-de-france",
+      "name": "Stade de France",
+      "city": "Paris",
+      "country": "France",
+      "seatStructure": "multi-tier stadium bowl + seated/standing field",
+      "publicSeatMap": {
+        "status": "official-interactive-seat-view",
+        "sources": [
+          "https://www.stadefrance.com/en/practical-information/wheres-my-seat"
+        ],
+        "eventSpecific": false,
+        "note": "公开可访问的场馆或票务座位参考；The Weeknd 当场的最终封区、舞台和库存仍需逐场核验。"
+      },
+      "verificationStatus": "candidate",
+      "catalogGeometry": "not-created"
+    },
+    {
+      "id": "stade-pierre-mauroy",
+      "name": "Stade Pierre Mauroy",
+      "city": "Lille",
+      "country": "France",
+      "seatStructure": "stadium bowl; concert/arena configurations differ",
+      "publicSeatMap": {
+        "status": "official-venue-reference",
+        "sources": [
+          "https://www.stade-pierre-mauroy.com/infos-pratiques/ou-est-votre-place"
+        ],
+        "eventSpecific": false,
+        "note": "公开可访问的场馆或票务座位参考；The Weeknd 当场的最终封区、舞台和库存仍需逐场核验。"
+      },
+      "verificationStatus": "candidate",
+      "catalogGeometry": "not-created"
+    },
+    {
+      "id": "strawberry-arena",
+      "name": "Strawberry Arena",
+      "city": "Stockholm",
+      "country": "Sweden",
+      "seatStructure": "multi-tier oval bowl + floor/pitch",
+      "publicSeatMap": {
+        "status": "venue-reference-unconfirmed",
+        "sources": [
+          "https://strawberryarena.se/"
+        ],
+        "eventSpecific": false,
+        "note": "公开可访问的场馆或票务座位参考；The Weeknd 当场的最终封区、舞台和库存仍需逐场核验。"
+      },
+      "verificationStatus": "candidate",
+      "catalogGeometry": "not-created"
+    },
+    {
+      "id": "wembley",
+      "name": "Wembley Stadium",
+      "city": "London",
+      "country": "United Kingdom",
+      "seatStructure": "multi-tier oval bowl + field/pitch",
+      "publicSeatMap": {
+        "status": "official-venue-reference",
+        "sources": [
+          "https://help.wembleystadium.com/support/solutions/folders/7000017805",
+          "https://www.wembleystadium.com/plan-your-visit/stadium-guide/view-from-your-seat"
+        ],
+        "eventSpecific": false,
+        "note": "公开可访问的场馆或票务座位参考；The Weeknd 当场的最终封区、舞台和库存仍需逐场核验。"
+      },
+      "verificationStatus": "candidate",
+      "catalogGeometry": "not-created"
+    }
+  ],
+  "events": [
+    {
+      "category": "music",
+      "id": "weeknd-2026-2026-04-26-estadio-nilton-santos",
+      "venueId": "estadio-nilton-santos",
+      "name": "The Weeknd · After Hours Til Dawn",
+      "startDate": "2026-04-26",
+      "endDate": null,
+      "localDate": "2026-04-26",
+      "endLocalDate": "2026-04-26",
+      "datePrecision": "day",
+      "timezone": null,
+      "status": "candidate",
+      "verificationStatus": "candidate",
+      "source": "https://www.theweeknd.com/tour/",
+      "sourceUrls": [
+        "https://www.theweeknd.com/tour/",
+        "https://www.prnewswire.com/news-releases/the-weeknd-kicks-off-european-leg-of-record-breaking-after-hours-til-dawn-tour-with-two-sold-out-shows-at-copenhagens-parken-stadium-302805855.html"
+      ],
+      "artist": "The Weeknd",
+      "tour": "After Hours Til Dawn Stadium Tour",
+      "venueName": "Estádio Nilton Santos",
+      "city": "Rio de Janeiro",
+      "country": "Brazil",
+      "identity": {
+        "providerEventId": null,
+        "providerVenueId": null,
+        "eventSpecificUrl": null
+      },
+      "verificationNotes": [
+        "Retained research claims; individual event identity, IANA timezone, source capture and stage remain unverified."
+      ],
+      "seatReference": {
+        "structure": "stadium bowl + field/pitch",
+        "publicSeatMapStatus": "venue-reference-unconfirmed",
+        "eventSpecificMap": "not-yet-captured",
+        "seatCoordinates": "not available from tour announcement",
+        "stageLayout": {
+          "status": "unconfirmed",
+          "basis": "tour-level end-stage candidate only; do not use for distance or seat collision until event map is matched"
+        }
+      },
+      "eventLayout": {
+        "status": "unconfirmed",
+        "eventId": "weeknd-2026-2026-04-26-estadio-nilton-santos",
+        "stageRects": [],
+        "closedSections": [],
+        "sourceKind": "venue-reference",
+        "stageVerification": "unverified",
+        "mapVerification": "unavailable"
+      }
+    },
+    {
+      "category": "music",
+      "id": "weeknd-2026-2026-04-30-estadio-morumbis",
+      "venueId": "estadio-morumbis",
+      "name": "The Weeknd · After Hours Til Dawn",
+      "startDate": "2026-04-30",
+      "endDate": null,
+      "localDate": "2026-04-30",
+      "endLocalDate": "2026-04-30",
+      "datePrecision": "day",
+      "timezone": null,
+      "status": "candidate",
+      "verificationStatus": "candidate",
+      "source": "https://www.theweeknd.com/tour/",
+      "sourceUrls": [
+        "https://www.theweeknd.com/tour/",
+        "https://www.prnewswire.com/news-releases/the-weeknd-kicks-off-european-leg-of-record-breaking-after-hours-til-dawn-tour-with-two-sold-out-shows-at-copenhagens-parken-stadium-302805855.html"
+      ],
+      "artist": "The Weeknd",
+      "tour": "After Hours Til Dawn Stadium Tour",
+      "venueName": "Estádio MorumBIS",
+      "city": "São Paulo",
+      "country": "Brazil",
+      "identity": {
+        "providerEventId": null,
+        "providerVenueId": null,
+        "eventSpecificUrl": null
+      },
+      "verificationNotes": [
+        "Retained research claims; individual event identity, IANA timezone, source capture and stage remain unverified."
+      ],
+      "seatReference": {
+        "structure": "stadium bowl + field/pitch",
+        "publicSeatMapStatus": "venue-reference-unconfirmed",
+        "eventSpecificMap": "not-yet-captured",
+        "seatCoordinates": "not available from tour announcement",
+        "stageLayout": {
+          "status": "unconfirmed",
+          "basis": "tour-level end-stage candidate only; do not use for distance or seat collision until event map is matched"
+        }
+      },
+      "eventLayout": {
+        "status": "unconfirmed",
+        "eventId": "weeknd-2026-2026-04-30-estadio-morumbis",
+        "stageRects": [],
+        "closedSections": [],
+        "sourceKind": "venue-reference",
+        "stageVerification": "unverified",
+        "mapVerification": "unavailable"
+      }
+    },
+    {
+      "category": "music",
+      "id": "weeknd-2026-2026-05-01-estadio-morumbis",
+      "venueId": "estadio-morumbis",
+      "name": "The Weeknd · After Hours Til Dawn",
+      "startDate": "2026-05-01",
+      "endDate": null,
+      "localDate": "2026-05-01",
+      "endLocalDate": "2026-05-01",
+      "datePrecision": "day",
+      "timezone": null,
+      "status": "candidate",
+      "verificationStatus": "candidate",
+      "source": "https://www.theweeknd.com/tour/",
+      "sourceUrls": [
+        "https://www.theweeknd.com/tour/",
+        "https://www.prnewswire.com/news-releases/the-weeknd-kicks-off-european-leg-of-record-breaking-after-hours-til-dawn-tour-with-two-sold-out-shows-at-copenhagens-parken-stadium-302805855.html"
+      ],
+      "artist": "The Weeknd",
+      "tour": "After Hours Til Dawn Stadium Tour",
+      "venueName": "Estádio MorumBIS",
+      "city": "São Paulo",
+      "country": "Brazil",
+      "identity": {
+        "providerEventId": null,
+        "providerVenueId": null,
+        "eventSpecificUrl": null
+      },
+      "verificationNotes": [
+        "Retained research claims; individual event identity, IANA timezone, source capture and stage remain unverified."
+      ],
+      "seatReference": {
+        "structure": "stadium bowl + field/pitch",
+        "publicSeatMapStatus": "venue-reference-unconfirmed",
+        "eventSpecificMap": "not-yet-captured",
+        "seatCoordinates": "not available from tour announcement",
+        "stageLayout": {
+          "status": "unconfirmed",
+          "basis": "tour-level end-stage candidate only; do not use for distance or seat collision until event map is matched"
+        }
+      },
+      "eventLayout": {
+        "status": "unconfirmed",
+        "eventId": "weeknd-2026-2026-05-01-estadio-morumbis",
+        "stageRects": [],
+        "closedSections": [],
+        "sourceKind": "venue-reference",
+        "stageVerification": "unverified",
+        "mapVerification": "unavailable"
+      }
+    },
+    {
+      "category": "music",
+      "id": "weeknd-2026-2026-06-11-etihad-stadium",
+      "venueId": "etihad-stadium",
+      "name": "The Weeknd · After Hours Til Dawn",
+      "startDate": "2026-06-11",
+      "endDate": null,
+      "localDate": "2026-06-11",
+      "endLocalDate": "2026-06-11",
+      "datePrecision": "day",
+      "timezone": null,
+      "status": "candidate",
+      "verificationStatus": "candidate",
+      "source": "https://www.theweeknd.com/tour/",
+      "sourceUrls": [
+        "https://www.theweeknd.com/tour/",
+        "https://www.prnewswire.com/news-releases/the-weeknd-kicks-off-european-leg-of-record-breaking-after-hours-til-dawn-tour-with-two-sold-out-shows-at-copenhagens-parken-stadium-302805855.html"
+      ],
+      "artist": "The Weeknd",
+      "tour": "After Hours Til Dawn Stadium Tour",
+      "venueName": "Etihad Stadium",
+      "city": "Manchester",
+      "country": "United Kingdom",
+      "identity": {
+        "providerEventId": null,
+        "providerVenueId": null,
+        "eventSpecificUrl": null
+      },
+      "verificationNotes": [
+        "Retained research claims; individual event identity, IANA timezone, source capture and stage remain unverified."
+      ],
+      "seatReference": {
+        "structure": "three-tier stadium bowl + standing pitch",
+        "publicSeatMapStatus": "official-venue-reference",
+        "eventSpecificMap": "not-yet-captured",
+        "seatCoordinates": "not available from tour announcement",
+        "stageLayout": {
+          "status": "unconfirmed",
+          "basis": "tour-level end-stage candidate only; do not use for distance or seat collision until event map is matched"
+        }
+      },
+      "eventLayout": {
+        "status": "unconfirmed",
+        "eventId": "weeknd-2026-2026-06-11-etihad-stadium",
+        "stageRects": [],
+        "closedSections": [],
+        "sourceKind": "venue-reference",
+        "stageVerification": "unverified",
+        "mapVerification": "unavailable"
+      }
+    },
+    {
+      "category": "music",
+      "id": "weeknd-2026-2026-06-12-etihad-stadium",
+      "venueId": "etihad-stadium",
+      "name": "The Weeknd · After Hours Til Dawn",
+      "startDate": "2026-06-12",
+      "endDate": null,
+      "localDate": "2026-06-12",
+      "endLocalDate": "2026-06-12",
+      "datePrecision": "day",
+      "timezone": null,
+      "status": "candidate",
+      "verificationStatus": "candidate",
+      "source": "https://www.theweeknd.com/tour/",
+      "sourceUrls": [
+        "https://www.theweeknd.com/tour/",
+        "https://www.prnewswire.com/news-releases/the-weeknd-kicks-off-european-leg-of-record-breaking-after-hours-til-dawn-tour-with-two-sold-out-shows-at-copenhagens-parken-stadium-302805855.html"
+      ],
+      "artist": "The Weeknd",
+      "tour": "After Hours Til Dawn Stadium Tour",
+      "venueName": "Etihad Stadium",
+      "city": "Manchester",
+      "country": "United Kingdom",
+      "identity": {
+        "providerEventId": null,
+        "providerVenueId": null,
+        "eventSpecificUrl": null
+      },
+      "verificationNotes": [
+        "Retained research claims; individual event identity, IANA timezone, source capture and stage remain unverified."
+      ],
+      "seatReference": {
+        "structure": "three-tier stadium bowl + standing pitch",
+        "publicSeatMapStatus": "official-venue-reference",
+        "eventSpecificMap": "not-yet-captured",
+        "seatCoordinates": "not available from tour announcement",
+        "stageLayout": {
+          "status": "unconfirmed",
+          "basis": "tour-level end-stage candidate only; do not use for distance or seat collision until event map is matched"
+        }
+      },
+      "eventLayout": {
+        "status": "unconfirmed",
+        "eventId": "weeknd-2026-2026-06-12-etihad-stadium",
+        "stageRects": [],
+        "closedSections": [],
+        "sourceKind": "venue-reference",
+        "stageVerification": "unverified",
+        "mapVerification": "unavailable"
+      }
+    },
+    {
+      "category": "music",
+      "id": "weeknd-2026-2026-06-19-parken-stadium",
+      "venueId": "parken-stadium",
+      "name": "The Weeknd · After Hours Til Dawn",
+      "startDate": "2026-06-19",
+      "endDate": null,
+      "localDate": "2026-06-19",
+      "endLocalDate": "2026-06-19",
+      "datePrecision": "day",
+      "timezone": null,
+      "status": "candidate",
+      "verificationStatus": "candidate",
+      "source": "https://www.theweeknd.com/tour/",
+      "sourceUrls": [
+        "https://www.theweeknd.com/tour/",
+        "https://www.prnewswire.com/news-releases/the-weeknd-kicks-off-european-leg-of-record-breaking-after-hours-til-dawn-tour-with-two-sold-out-shows-at-copenhagens-parken-stadium-302805855.html"
+      ],
+      "artist": "The Weeknd",
+      "tour": "After Hours Til Dawn Stadium Tour",
+      "venueName": "Parken Stadium",
+      "city": "Copenhagen",
+      "country": "Denmark",
+      "identity": {
+        "providerEventId": null,
+        "providerVenueId": null,
+        "eventSpecificUrl": null
+      },
+      "verificationNotes": [
+        "Retained research claims; individual event identity, IANA timezone, source capture and stage remain unverified."
+      ],
+      "seatReference": {
+        "structure": "four tribunes, upper/lower on A/B/C, single D end; concert floor",
+        "publicSeatMapStatus": "official-venue-reference",
+        "eventSpecificMap": "not-yet-captured",
+        "seatCoordinates": "not available from tour announcement",
+        "stageLayout": {
+          "status": "unconfirmed",
+          "basis": "tour-level end-stage candidate only; do not use for distance or seat collision until event map is matched"
+        }
+      },
+      "eventLayout": {
+        "status": "unconfirmed",
+        "eventId": "weeknd-2026-2026-06-19-parken-stadium",
+        "stageRects": [],
+        "closedSections": [],
+        "sourceKind": "venue-reference",
+        "stageVerification": "unverified",
+        "mapVerification": "unavailable"
+      }
+    },
+    {
+      "category": "music",
+      "id": "weeknd-2026-2026-06-20-parken-stadium",
+      "venueId": "parken-stadium",
+      "name": "The Weeknd · After Hours Til Dawn",
+      "startDate": "2026-06-20",
+      "endDate": null,
+      "localDate": "2026-06-20",
+      "endLocalDate": "2026-06-20",
+      "datePrecision": "day",
+      "timezone": null,
+      "status": "candidate",
+      "verificationStatus": "candidate",
+      "source": "https://www.theweeknd.com/tour/",
+      "sourceUrls": [
+        "https://www.theweeknd.com/tour/",
+        "https://www.prnewswire.com/news-releases/the-weeknd-kicks-off-european-leg-of-record-breaking-after-hours-til-dawn-tour-with-two-sold-out-shows-at-copenhagens-parken-stadium-302805855.html"
+      ],
+      "artist": "The Weeknd",
+      "tour": "After Hours Til Dawn Stadium Tour",
+      "venueName": "Parken Stadium",
+      "city": "Copenhagen",
+      "country": "Denmark",
+      "identity": {
+        "providerEventId": null,
+        "providerVenueId": null,
+        "eventSpecificUrl": null
+      },
+      "verificationNotes": [
+        "Retained research claims; individual event identity, IANA timezone, source capture and stage remain unverified."
+      ],
+      "seatReference": {
+        "structure": "four tribunes, upper/lower on A/B/C, single D end; concert floor",
+        "publicSeatMapStatus": "official-venue-reference",
+        "eventSpecificMap": "not-yet-captured",
+        "seatCoordinates": "not available from tour announcement",
+        "stageLayout": {
+          "status": "unconfirmed",
+          "basis": "tour-level end-stage candidate only; do not use for distance or seat collision until event map is matched"
+        }
+      },
+      "eventLayout": {
+        "status": "unconfirmed",
+        "eventId": "weeknd-2026-2026-06-20-parken-stadium",
+        "stageRects": [],
+        "closedSections": [],
+        "sourceKind": "venue-reference",
+        "stageVerification": "unverified",
+        "mapVerification": "unavailable"
+      }
+    },
+    {
+      "category": "music",
+      "id": "weeknd-2026-2026-06-25-allianz-arena",
+      "venueId": "allianz-arena",
+      "name": "The Weeknd · After Hours Til Dawn",
+      "startDate": "2026-06-25",
+      "endDate": null,
+      "localDate": "2026-06-25",
+      "endLocalDate": "2026-06-25",
+      "datePrecision": "day",
+      "timezone": null,
+      "status": "candidate",
+      "verificationStatus": "candidate",
+      "source": "https://www.theweeknd.com/tour/",
+      "sourceUrls": [
+        "https://www.theweeknd.com/tour/",
+        "https://www.prnewswire.com/news-releases/the-weeknd-kicks-off-european-leg-of-record-breaking-after-hours-til-dawn-tour-with-two-sold-out-shows-at-copenhagens-parken-stadium-302805855.html"
+      ],
+      "artist": "The Weeknd",
+      "tour": "After Hours Til Dawn Stadium Tour",
+      "venueName": "Allianz Arena",
+      "city": "Munich",
+      "country": "Germany",
+      "identity": {
+        "providerEventId": null,
+        "providerVenueId": null,
+        "eventSpecificUrl": null
+      },
+      "verificationNotes": [
+        "Retained research claims; individual event identity, IANA timezone, source capture and stage remain unverified."
+      ],
+      "seatReference": {
+        "structure": "lower/middle/upper tiers + field; seating/standing varies",
+        "publicSeatMapStatus": "official-venue-reference",
+        "eventSpecificMap": "not-yet-captured",
+        "seatCoordinates": "not available from tour announcement",
+        "stageLayout": {
+          "status": "unconfirmed",
+          "basis": "tour-level end-stage candidate only; do not use for distance or seat collision until event map is matched"
+        }
+      },
+      "eventLayout": {
+        "status": "unconfirmed",
+        "eventId": "weeknd-2026-2026-06-25-allianz-arena",
+        "stageRects": [],
+        "closedSections": [],
+        "sourceKind": "venue-reference",
+        "stageVerification": "unverified",
+        "mapVerification": "unavailable"
+      }
+    },
+    {
+      "category": "music",
+      "id": "weeknd-2026-2026-06-26-allianz-arena",
+      "venueId": "allianz-arena",
+      "name": "The Weeknd · After Hours Til Dawn",
+      "startDate": "2026-06-26",
+      "endDate": null,
+      "localDate": "2026-06-26",
+      "endLocalDate": "2026-06-26",
+      "datePrecision": "day",
+      "timezone": null,
+      "status": "candidate",
+      "verificationStatus": "candidate",
+      "source": "https://www.theweeknd.com/tour/",
+      "sourceUrls": [
+        "https://www.theweeknd.com/tour/",
+        "https://www.prnewswire.com/news-releases/the-weeknd-kicks-off-european-leg-of-record-breaking-after-hours-til-dawn-tour-with-two-sold-out-shows-at-copenhagens-parken-stadium-302805855.html"
+      ],
+      "artist": "The Weeknd",
+      "tour": "After Hours Til Dawn Stadium Tour",
+      "venueName": "Allianz Arena",
+      "city": "Munich",
+      "country": "Germany",
+      "identity": {
+        "providerEventId": null,
+        "providerVenueId": null,
+        "eventSpecificUrl": null
+      },
+      "verificationNotes": [
+        "Retained research claims; individual event identity, IANA timezone, source capture and stage remain unverified."
+      ],
+      "seatReference": {
+        "structure": "lower/middle/upper tiers + field; seating/standing varies",
+        "publicSeatMapStatus": "official-venue-reference",
+        "eventSpecificMap": "not-yet-captured",
+        "seatCoordinates": "not available from tour announcement",
+        "stageLayout": {
+          "status": "unconfirmed",
+          "basis": "tour-level end-stage candidate only; do not use for distance or seat collision until event map is matched"
+        }
+      },
+      "eventLayout": {
+        "status": "unconfirmed",
+        "eventId": "weeknd-2026-2026-06-26-allianz-arena",
+        "stageRects": [],
+        "closedSections": [],
+        "sourceKind": "venue-reference",
+        "stageVerification": "unverified",
+        "mapVerification": "unavailable"
+      }
+    },
+    {
+      "category": "music",
+      "id": "weeknd-2026-2026-06-27-allianz-arena",
+      "venueId": "allianz-arena",
+      "name": "The Weeknd · After Hours Til Dawn",
+      "startDate": "2026-06-27",
+      "endDate": null,
+      "localDate": "2026-06-27",
+      "endLocalDate": "2026-06-27",
+      "datePrecision": "day",
+      "timezone": null,
+      "status": "candidate",
+      "verificationStatus": "candidate",
+      "source": "https://www.theweeknd.com/tour/",
+      "sourceUrls": [
+        "https://www.theweeknd.com/tour/",
+        "https://www.prnewswire.com/news-releases/the-weeknd-kicks-off-european-leg-of-record-breaking-after-hours-til-dawn-tour-with-two-sold-out-shows-at-copenhagens-parken-stadium-302805855.html"
+      ],
+      "artist": "The Weeknd",
+      "tour": "After Hours Til Dawn Stadium Tour",
+      "venueName": "Allianz Arena",
+      "city": "Munich",
+      "country": "Germany",
+      "identity": {
+        "providerEventId": null,
+        "providerVenueId": null,
+        "eventSpecificUrl": null
+      },
+      "verificationNotes": [
+        "Retained research claims; individual event identity, IANA timezone, source capture and stage remain unverified."
+      ],
+      "seatReference": {
+        "structure": "lower/middle/upper tiers + field; seating/standing varies",
+        "publicSeatMapStatus": "official-venue-reference",
+        "eventSpecificMap": "not-yet-captured",
+        "seatCoordinates": "not available from tour announcement",
+        "stageLayout": {
+          "status": "unconfirmed",
+          "basis": "tour-level end-stage candidate only; do not use for distance or seat collision until event map is matched"
+        }
+      },
+      "eventLayout": {
+        "status": "unconfirmed",
+        "eventId": "weeknd-2026-2026-06-27-allianz-arena",
+        "stageRects": [],
+        "closedSections": [],
+        "sourceKind": "venue-reference",
+        "stageVerification": "unverified",
+        "mapVerification": "unavailable"
+      }
+    },
+    {
+      "category": "music",
+      "id": "weeknd-2026-2026-07-03-stade-pierre-mauroy",
+      "venueId": "stade-pierre-mauroy",
+      "name": "The Weeknd · After Hours Til Dawn",
+      "startDate": "2026-07-03",
+      "endDate": null,
+      "localDate": "2026-07-03",
+      "endLocalDate": "2026-07-03",
+      "datePrecision": "day",
+      "timezone": null,
+      "status": "candidate",
+      "verificationStatus": "candidate",
+      "source": "https://www.theweeknd.com/tour/",
+      "sourceUrls": [
+        "https://www.theweeknd.com/tour/",
+        "https://www.prnewswire.com/news-releases/the-weeknd-kicks-off-european-leg-of-record-breaking-after-hours-til-dawn-tour-with-two-sold-out-shows-at-copenhagens-parken-stadium-302805855.html"
+      ],
+      "artist": "The Weeknd",
+      "tour": "After Hours Til Dawn Stadium Tour",
+      "venueName": "Stade Pierre Mauroy",
+      "city": "Lille",
+      "country": "France",
+      "identity": {
+        "providerEventId": null,
+        "providerVenueId": null,
+        "eventSpecificUrl": null
+      },
+      "verificationNotes": [
+        "Retained research claims; individual event identity, IANA timezone, source capture and stage remain unverified."
+      ],
+      "seatReference": {
+        "structure": "stadium bowl; concert/arena configurations differ",
+        "publicSeatMapStatus": "official-venue-reference",
+        "eventSpecificMap": "not-yet-captured",
+        "seatCoordinates": "not available from tour announcement",
+        "stageLayout": {
+          "status": "unconfirmed",
+          "basis": "tour-level end-stage candidate only; do not use for distance or seat collision until event map is matched"
+        }
+      },
+      "eventLayout": {
+        "status": "unconfirmed",
+        "eventId": "weeknd-2026-2026-07-03-stade-pierre-mauroy",
+        "stageRects": [],
+        "closedSections": [],
+        "sourceKind": "venue-reference",
+        "stageVerification": "unverified",
+        "mapVerification": "unavailable"
+      }
+    },
+    {
+      "category": "music",
+      "id": "weeknd-2026-2026-07-04-stade-pierre-mauroy",
+      "venueId": "stade-pierre-mauroy",
+      "name": "The Weeknd · After Hours Til Dawn",
+      "startDate": "2026-07-04",
+      "endDate": null,
+      "localDate": "2026-07-04",
+      "endLocalDate": "2026-07-04",
+      "datePrecision": "day",
+      "timezone": null,
+      "status": "candidate",
+      "verificationStatus": "candidate",
+      "source": "https://www.theweeknd.com/tour/",
+      "sourceUrls": [
+        "https://www.theweeknd.com/tour/",
+        "https://www.prnewswire.com/news-releases/the-weeknd-kicks-off-european-leg-of-record-breaking-after-hours-til-dawn-tour-with-two-sold-out-shows-at-copenhagens-parken-stadium-302805855.html"
+      ],
+      "artist": "The Weeknd",
+      "tour": "After Hours Til Dawn Stadium Tour",
+      "venueName": "Stade Pierre Mauroy",
+      "city": "Lille",
+      "country": "France",
+      "identity": {
+        "providerEventId": null,
+        "providerVenueId": null,
+        "eventSpecificUrl": null
+      },
+      "verificationNotes": [
+        "Retained research claims; individual event identity, IANA timezone, source capture and stage remain unverified."
+      ],
+      "seatReference": {
+        "structure": "stadium bowl; concert/arena configurations differ",
+        "publicSeatMapStatus": "official-venue-reference",
+        "eventSpecificMap": "not-yet-captured",
+        "seatCoordinates": "not available from tour announcement",
+        "stageLayout": {
+          "status": "unconfirmed",
+          "basis": "tour-level end-stage candidate only; do not use for distance or seat collision until event map is matched"
+        }
+      },
+      "eventLayout": {
+        "status": "unconfirmed",
+        "eventId": "weeknd-2026-2026-07-04-stade-pierre-mauroy",
+        "stageRects": [],
+        "closedSections": [],
+        "sourceKind": "venue-reference",
+        "stageVerification": "unverified",
+        "mapVerification": "unavailable"
+      }
+    },
+    {
+      "category": "music",
+      "id": "weeknd-2026-2026-07-08-stade-de-france",
+      "venueId": "stade-de-france",
+      "name": "The Weeknd · After Hours Til Dawn",
+      "startDate": "2026-07-08",
+      "endDate": null,
+      "localDate": "2026-07-08",
+      "endLocalDate": "2026-07-08",
+      "datePrecision": "day",
+      "timezone": null,
+      "status": "candidate",
+      "verificationStatus": "candidate",
+      "source": "https://www.theweeknd.com/tour/",
+      "sourceUrls": [
+        "https://www.theweeknd.com/tour/",
+        "https://www.prnewswire.com/news-releases/the-weeknd-kicks-off-european-leg-of-record-breaking-after-hours-til-dawn-tour-with-two-sold-out-shows-at-copenhagens-parken-stadium-302805855.html"
+      ],
+      "artist": "The Weeknd",
+      "tour": "After Hours Til Dawn Stadium Tour",
+      "venueName": "Stade de France",
+      "city": "Paris",
+      "country": "France",
+      "identity": {
+        "providerEventId": null,
+        "providerVenueId": null,
+        "eventSpecificUrl": null
+      },
+      "verificationNotes": [
+        "Retained research claims; individual event identity, IANA timezone, source capture and stage remain unverified."
+      ],
+      "seatReference": {
+        "structure": "multi-tier stadium bowl + seated/standing field",
+        "publicSeatMapStatus": "official-interactive-seat-view",
+        "eventSpecificMap": "not-yet-captured",
+        "seatCoordinates": "not available from tour announcement",
+        "stageLayout": {
+          "status": "unconfirmed",
+          "basis": "tour-level end-stage candidate only; do not use for distance or seat collision until event map is matched"
+        }
+      },
+      "eventLayout": {
+        "status": "unconfirmed",
+        "eventId": "weeknd-2026-2026-07-08-stade-de-france",
+        "stageRects": [],
+        "closedSections": [],
+        "sourceKind": "venue-reference",
+        "stageVerification": "unverified",
+        "mapVerification": "unavailable"
+      }
+    },
+    {
+      "category": "music",
+      "id": "weeknd-2026-2026-07-10-stade-de-france",
+      "venueId": "stade-de-france",
+      "name": "The Weeknd · After Hours Til Dawn",
+      "startDate": "2026-07-10",
+      "endDate": null,
+      "localDate": "2026-07-10",
+      "endLocalDate": "2026-07-10",
+      "datePrecision": "day",
+      "timezone": null,
+      "status": "candidate",
+      "verificationStatus": "candidate",
+      "source": "https://www.theweeknd.com/tour/",
+      "sourceUrls": [
+        "https://www.theweeknd.com/tour/",
+        "https://www.prnewswire.com/news-releases/the-weeknd-kicks-off-european-leg-of-record-breaking-after-hours-til-dawn-tour-with-two-sold-out-shows-at-copenhagens-parken-stadium-302805855.html"
+      ],
+      "artist": "The Weeknd",
+      "tour": "After Hours Til Dawn Stadium Tour",
+      "venueName": "Stade de France",
+      "city": "Paris",
+      "country": "France",
+      "identity": {
+        "providerEventId": null,
+        "providerVenueId": null,
+        "eventSpecificUrl": null
+      },
+      "verificationNotes": [
+        "Retained research claims; individual event identity, IANA timezone, source capture and stage remain unverified."
+      ],
+      "seatReference": {
+        "structure": "multi-tier stadium bowl + seated/standing field",
+        "publicSeatMapStatus": "official-interactive-seat-view",
+        "eventSpecificMap": "not-yet-captured",
+        "seatCoordinates": "not available from tour announcement",
+        "stageLayout": {
+          "status": "unconfirmed",
+          "basis": "tour-level end-stage candidate only; do not use for distance or seat collision until event map is matched"
+        }
+      },
+      "eventLayout": {
+        "status": "unconfirmed",
+        "eventId": "weeknd-2026-2026-07-10-stade-de-france",
+        "stageRects": [],
+        "closedSections": [],
+        "sourceKind": "venue-reference",
+        "stageVerification": "unverified",
+        "mapVerification": "unavailable"
+      }
+    },
+    {
+      "category": "music",
+      "id": "weeknd-2026-2026-07-11-stade-de-france",
+      "venueId": "stade-de-france",
+      "name": "The Weeknd · After Hours Til Dawn",
+      "startDate": "2026-07-11",
+      "endDate": null,
+      "localDate": "2026-07-11",
+      "endLocalDate": "2026-07-11",
+      "datePrecision": "day",
+      "timezone": null,
+      "status": "candidate",
+      "verificationStatus": "candidate",
+      "source": "https://www.theweeknd.com/tour/",
+      "sourceUrls": [
+        "https://www.theweeknd.com/tour/",
+        "https://www.prnewswire.com/news-releases/the-weeknd-kicks-off-european-leg-of-record-breaking-after-hours-til-dawn-tour-with-two-sold-out-shows-at-copenhagens-parken-stadium-302805855.html"
+      ],
+      "artist": "The Weeknd",
+      "tour": "After Hours Til Dawn Stadium Tour",
+      "venueName": "Stade de France",
+      "city": "Paris",
+      "country": "France",
+      "identity": {
+        "providerEventId": null,
+        "providerVenueId": null,
+        "eventSpecificUrl": null
+      },
+      "verificationNotes": [
+        "Retained research claims; individual event identity, IANA timezone, source capture and stage remain unverified."
+      ],
+      "seatReference": {
+        "structure": "multi-tier stadium bowl + seated/standing field",
+        "publicSeatMapStatus": "official-interactive-seat-view",
+        "eventSpecificMap": "not-yet-captured",
+        "seatCoordinates": "not available from tour announcement",
+        "stageLayout": {
+          "status": "unconfirmed",
+          "basis": "tour-level end-stage candidate only; do not use for distance or seat collision until event map is matched"
+        }
+      },
+      "eventLayout": {
+        "status": "unconfirmed",
+        "eventId": "weeknd-2026-2026-07-11-stade-de-france",
+        "stageRects": [],
+        "closedSections": [],
+        "sourceKind": "venue-reference",
+        "stageVerification": "unverified",
+        "mapVerification": "unavailable"
+      }
+    },
+    {
+      "category": "music",
+      "id": "weeknd-2026-2026-07-12-stade-de-france",
+      "venueId": "stade-de-france",
+      "name": "The Weeknd · After Hours Til Dawn",
+      "startDate": "2026-07-12",
+      "endDate": null,
+      "localDate": "2026-07-12",
+      "endLocalDate": "2026-07-12",
+      "datePrecision": "day",
+      "timezone": null,
+      "status": "candidate",
+      "verificationStatus": "candidate",
+      "source": "https://www.theweeknd.com/tour/",
+      "sourceUrls": [
+        "https://www.theweeknd.com/tour/",
+        "https://www.prnewswire.com/news-releases/the-weeknd-kicks-off-european-leg-of-record-breaking-after-hours-til-dawn-tour-with-two-sold-out-shows-at-copenhagens-parken-stadium-302805855.html"
+      ],
+      "artist": "The Weeknd",
+      "tour": "After Hours Til Dawn Stadium Tour",
+      "venueName": "Stade de France",
+      "city": "Paris",
+      "country": "France",
+      "identity": {
+        "providerEventId": null,
+        "providerVenueId": null,
+        "eventSpecificUrl": null
+      },
+      "verificationNotes": [
+        "Retained research claims; individual event identity, IANA timezone, source capture and stage remain unverified."
+      ],
+      "seatReference": {
+        "structure": "multi-tier stadium bowl + seated/standing field",
+        "publicSeatMapStatus": "official-interactive-seat-view",
+        "eventSpecificMap": "not-yet-captured",
+        "seatCoordinates": "not available from tour announcement",
+        "stageLayout": {
+          "status": "unconfirmed",
+          "basis": "tour-level end-stage candidate only; do not use for distance or seat collision until event map is matched"
+        }
+      },
+      "eventLayout": {
+        "status": "unconfirmed",
+        "eventId": "weeknd-2026-2026-07-12-stade-de-france",
+        "stageRects": [],
+        "closedSections": [],
+        "sourceKind": "venue-reference",
+        "stageVerification": "unverified",
+        "mapVerification": "unavailable"
+      }
+    },
+    {
+      "category": "music",
+      "id": "weeknd-2026-2026-07-16-johan-cruijff-arena",
+      "venueId": "johan-cruijff-arena",
+      "name": "The Weeknd · After Hours Til Dawn",
+      "startDate": "2026-07-16",
+      "endDate": null,
+      "localDate": "2026-07-16",
+      "endLocalDate": "2026-07-16",
+      "datePrecision": "day",
+      "timezone": null,
+      "status": "candidate",
+      "verificationStatus": "candidate",
+      "source": "https://www.theweeknd.com/tour/",
+      "sourceUrls": [
+        "https://www.theweeknd.com/tour/",
+        "https://www.prnewswire.com/news-releases/the-weeknd-kicks-off-european-leg-of-record-breaking-after-hours-til-dawn-tour-with-two-sold-out-shows-at-copenhagens-parken-stadium-302805855.html"
+      ],
+      "artist": "The Weeknd",
+      "tour": "After Hours Til Dawn Stadium Tour",
+      "venueName": "Johan Cruijff ArenA",
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "identity": {
+        "providerEventId": null,
+        "providerVenueId": null,
+        "eventSpecificUrl": null
+      },
+      "verificationNotes": [
+        "Retained research claims; individual event identity, IANA timezone, source capture and stage remain unverified."
+      ],
+      "seatReference": {
+        "structure": "two-ring bowl + floor; end/round/panorama concert settings",
+        "publicSeatMapStatus": "official-event-map-reference",
+        "eventSpecificMap": "not-yet-captured",
+        "seatCoordinates": "not available from tour announcement",
+        "stageLayout": {
+          "status": "unconfirmed",
+          "basis": "tour-level end-stage candidate only; do not use for distance or seat collision until event map is matched"
+        }
+      },
+      "eventLayout": {
+        "status": "unconfirmed",
+        "eventId": "weeknd-2026-2026-07-16-johan-cruijff-arena",
+        "stageRects": [],
+        "closedSections": [],
+        "sourceKind": "venue-reference",
+        "stageVerification": "unverified",
+        "mapVerification": "unavailable"
+      }
+    },
+    {
+      "category": "music",
+      "id": "weeknd-2026-2026-07-17-johan-cruijff-arena",
+      "venueId": "johan-cruijff-arena",
+      "name": "The Weeknd · After Hours Til Dawn",
+      "startDate": "2026-07-17",
+      "endDate": null,
+      "localDate": "2026-07-17",
+      "endLocalDate": "2026-07-17",
+      "datePrecision": "day",
+      "timezone": null,
+      "status": "candidate",
+      "verificationStatus": "candidate",
+      "source": "https://www.theweeknd.com/tour/",
+      "sourceUrls": [
+        "https://www.theweeknd.com/tour/",
+        "https://www.prnewswire.com/news-releases/the-weeknd-kicks-off-european-leg-of-record-breaking-after-hours-til-dawn-tour-with-two-sold-out-shows-at-copenhagens-parken-stadium-302805855.html"
+      ],
+      "artist": "The Weeknd",
+      "tour": "After Hours Til Dawn Stadium Tour",
+      "venueName": "Johan Cruijff ArenA",
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "identity": {
+        "providerEventId": null,
+        "providerVenueId": null,
+        "eventSpecificUrl": null
+      },
+      "verificationNotes": [
+        "Retained research claims; individual event identity, IANA timezone, source capture and stage remain unverified."
+      ],
+      "seatReference": {
+        "structure": "two-ring bowl + floor; end/round/panorama concert settings",
+        "publicSeatMapStatus": "official-event-map-reference",
+        "eventSpecificMap": "not-yet-captured",
+        "seatCoordinates": "not available from tour announcement",
+        "stageLayout": {
+          "status": "unconfirmed",
+          "basis": "tour-level end-stage candidate only; do not use for distance or seat collision until event map is matched"
+        }
+      },
+      "eventLayout": {
+        "status": "unconfirmed",
+        "eventId": "weeknd-2026-2026-07-17-johan-cruijff-arena",
+        "stageRects": [],
+        "closedSections": [],
+        "sourceKind": "venue-reference",
+        "stageVerification": "unverified",
+        "mapVerification": "unavailable"
+      }
+    },
+    {
+      "category": "music",
+      "id": "weeknd-2026-2026-07-18-johan-cruijff-arena",
+      "venueId": "johan-cruijff-arena",
+      "name": "The Weeknd · After Hours Til Dawn",
+      "startDate": "2026-07-18",
+      "endDate": null,
+      "localDate": "2026-07-18",
+      "endLocalDate": "2026-07-18",
+      "datePrecision": "day",
+      "timezone": null,
+      "status": "candidate",
+      "verificationStatus": "candidate",
+      "source": "https://www.theweeknd.com/tour/",
+      "sourceUrls": [
+        "https://www.theweeknd.com/tour/",
+        "https://www.prnewswire.com/news-releases/the-weeknd-kicks-off-european-leg-of-record-breaking-after-hours-til-dawn-tour-with-two-sold-out-shows-at-copenhagens-parken-stadium-302805855.html"
+      ],
+      "artist": "The Weeknd",
+      "tour": "After Hours Til Dawn Stadium Tour",
+      "venueName": "Johan Cruijff ArenA",
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "identity": {
+        "providerEventId": null,
+        "providerVenueId": null,
+        "eventSpecificUrl": null
+      },
+      "verificationNotes": [
+        "Retained research claims; individual event identity, IANA timezone, source capture and stage remain unverified."
+      ],
+      "seatReference": {
+        "structure": "two-ring bowl + floor; end/round/panorama concert settings",
+        "publicSeatMapStatus": "official-event-map-reference",
+        "eventSpecificMap": "not-yet-captured",
+        "seatCoordinates": "not available from tour announcement",
+        "stageLayout": {
+          "status": "unconfirmed",
+          "basis": "tour-level end-stage candidate only; do not use for distance or seat collision until event map is matched"
+        }
+      },
+      "eventLayout": {
+        "status": "unconfirmed",
+        "eventId": "weeknd-2026-2026-07-18-johan-cruijff-arena",
+        "stageRects": [],
+        "closedSections": [],
+        "sourceKind": "venue-reference",
+        "stageVerification": "unverified",
+        "mapVerification": "unavailable"
+      }
+    },
+    {
+      "category": "music",
+      "id": "weeknd-2026-2026-07-21-allianz-riviera",
+      "venueId": "allianz-riviera",
+      "name": "The Weeknd · After Hours Til Dawn",
+      "startDate": "2026-07-21",
+      "endDate": null,
+      "localDate": "2026-07-21",
+      "endLocalDate": "2026-07-21",
+      "datePrecision": "day",
+      "timezone": null,
+      "status": "candidate",
+      "verificationStatus": "candidate",
+      "source": "https://www.theweeknd.com/tour/",
+      "sourceUrls": [
+        "https://www.theweeknd.com/tour/",
+        "https://www.prnewswire.com/news-releases/the-weeknd-kicks-off-european-leg-of-record-breaking-after-hours-til-dawn-tour-with-two-sold-out-shows-at-copenhagens-parken-stadium-302805855.html"
+      ],
+      "artist": "The Weeknd",
+      "tour": "After Hours Til Dawn Stadium Tour",
+      "venueName": "Allianz Riviera",
+      "city": "Nice",
+      "country": "France",
+      "identity": {
+        "providerEventId": null,
+        "providerVenueId": null,
+        "eventSpecificUrl": null
+      },
+      "verificationNotes": [
+        "Retained research claims; individual event identity, IANA timezone, source capture and stage remain unverified."
+      ],
+      "seatReference": {
+        "structure": "stadium bowl + field seating for concerts",
+        "publicSeatMapStatus": "official-event-price-map-reference",
+        "eventSpecificMap": "not-yet-captured",
+        "seatCoordinates": "not available from tour announcement",
+        "stageLayout": {
+          "status": "unconfirmed",
+          "basis": "tour-level end-stage candidate only; do not use for distance or seat collision until event map is matched"
+        }
+      },
+      "eventLayout": {
+        "status": "unconfirmed",
+        "eventId": "weeknd-2026-2026-07-21-allianz-riviera",
+        "stageRects": [],
+        "closedSections": [],
+        "sourceKind": "venue-reference",
+        "stageVerification": "unverified",
+        "mapVerification": "unavailable"
+      }
+    },
+    {
+      "category": "music",
+      "id": "weeknd-2026-2026-07-22-allianz-riviera",
+      "venueId": "allianz-riviera",
+      "name": "The Weeknd · After Hours Til Dawn",
+      "startDate": "2026-07-22",
+      "endDate": null,
+      "localDate": "2026-07-22",
+      "endLocalDate": "2026-07-22",
+      "datePrecision": "day",
+      "timezone": null,
+      "status": "candidate",
+      "verificationStatus": "candidate",
+      "source": "https://www.theweeknd.com/tour/",
+      "sourceUrls": [
+        "https://www.theweeknd.com/tour/",
+        "https://www.prnewswire.com/news-releases/the-weeknd-kicks-off-european-leg-of-record-breaking-after-hours-til-dawn-tour-with-two-sold-out-shows-at-copenhagens-parken-stadium-302805855.html"
+      ],
+      "artist": "The Weeknd",
+      "tour": "After Hours Til Dawn Stadium Tour",
+      "venueName": "Allianz Riviera",
+      "city": "Nice",
+      "country": "France",
+      "identity": {
+        "providerEventId": null,
+        "providerVenueId": null,
+        "eventSpecificUrl": null
+      },
+      "verificationNotes": [
+        "Retained research claims; individual event identity, IANA timezone, source capture and stage remain unverified."
+      ],
+      "seatReference": {
+        "structure": "stadium bowl + field seating for concerts",
+        "publicSeatMapStatus": "official-event-price-map-reference",
+        "eventSpecificMap": "not-yet-captured",
+        "seatCoordinates": "not available from tour announcement",
+        "stageLayout": {
+          "status": "unconfirmed",
+          "basis": "tour-level end-stage candidate only; do not use for distance or seat collision until event map is matched"
+        }
+      },
+      "eventLayout": {
+        "status": "unconfirmed",
+        "eventId": "weeknd-2026-2026-07-22-allianz-riviera",
+        "stageRects": [],
+        "closedSections": [],
+        "sourceKind": "venue-reference",
+        "stageVerification": "unverified",
+        "mapVerification": "unavailable"
+      }
+    },
+    {
+      "category": "music",
+      "id": "weeknd-2026-2026-07-24-san-siro",
+      "venueId": "san-siro",
+      "name": "The Weeknd · After Hours Til Dawn",
+      "startDate": "2026-07-24",
+      "endDate": null,
+      "localDate": "2026-07-24",
+      "endLocalDate": "2026-07-24",
+      "datePrecision": "day",
+      "timezone": null,
+      "status": "candidate",
+      "verificationStatus": "candidate",
+      "source": "https://www.theweeknd.com/tour/",
+      "sourceUrls": [
+        "https://www.theweeknd.com/tour/",
+        "https://www.prnewswire.com/news-releases/the-weeknd-kicks-off-european-leg-of-record-breaking-after-hours-til-dawn-tour-with-two-sold-out-shows-at-copenhagens-parken-stadium-302805855.html"
+      ],
+      "artist": "The Weeknd",
+      "tour": "After Hours Til Dawn Stadium Tour",
+      "venueName": "San Siro Stadium",
+      "city": "Milan",
+      "country": "Italy",
+      "identity": {
+        "providerEventId": null,
+        "providerVenueId": null,
+        "eventSpecificUrl": null
+      },
+      "verificationNotes": [
+        "Retained research claims; individual event identity, IANA timezone, source capture and stage remain unverified."
+      ],
+      "seatReference": {
+        "structure": "three rings, reserved seats + field/pitch concert areas",
+        "publicSeatMapStatus": "official-sector-map-reference",
+        "eventSpecificMap": "not-yet-captured",
+        "seatCoordinates": "not available from tour announcement",
+        "stageLayout": {
+          "status": "unconfirmed",
+          "basis": "tour-level end-stage candidate only; do not use for distance or seat collision until event map is matched"
+        }
+      },
+      "eventLayout": {
+        "status": "unconfirmed",
+        "eventId": "weeknd-2026-2026-07-24-san-siro",
+        "stageRects": [],
+        "closedSections": [],
+        "sourceKind": "venue-reference",
+        "stageVerification": "unverified",
+        "mapVerification": "unavailable"
+      }
+    },
+    {
+      "category": "music",
+      "id": "weeknd-2026-2026-07-25-san-siro",
+      "venueId": "san-siro",
+      "name": "The Weeknd · After Hours Til Dawn",
+      "startDate": "2026-07-25",
+      "endDate": null,
+      "localDate": "2026-07-25",
+      "endLocalDate": "2026-07-25",
+      "datePrecision": "day",
+      "timezone": null,
+      "status": "candidate",
+      "verificationStatus": "candidate",
+      "source": "https://www.theweeknd.com/tour/",
+      "sourceUrls": [
+        "https://www.theweeknd.com/tour/",
+        "https://www.prnewswire.com/news-releases/the-weeknd-kicks-off-european-leg-of-record-breaking-after-hours-til-dawn-tour-with-two-sold-out-shows-at-copenhagens-parken-stadium-302805855.html"
+      ],
+      "artist": "The Weeknd",
+      "tour": "After Hours Til Dawn Stadium Tour",
+      "venueName": "San Siro Stadium",
+      "city": "Milan",
+      "country": "Italy",
+      "identity": {
+        "providerEventId": null,
+        "providerVenueId": null,
+        "eventSpecificUrl": null
+      },
+      "verificationNotes": [
+        "Retained research claims; individual event identity, IANA timezone, source capture and stage remain unverified."
+      ],
+      "seatReference": {
+        "structure": "three rings, reserved seats + field/pitch concert areas",
+        "publicSeatMapStatus": "official-sector-map-reference",
+        "eventSpecificMap": "not-yet-captured",
+        "seatCoordinates": "not available from tour announcement",
+        "stageLayout": {
+          "status": "unconfirmed",
+          "basis": "tour-level end-stage candidate only; do not use for distance or seat collision until event map is matched"
+        }
+      },
+      "eventLayout": {
+        "status": "unconfirmed",
+        "eventId": "weeknd-2026-2026-07-25-san-siro",
+        "stageRects": [],
+        "closedSections": [],
+        "sourceKind": "venue-reference",
+        "stageVerification": "unverified",
+        "mapVerification": "unavailable"
+      }
+    },
+    {
+      "category": "music",
+      "id": "weeknd-2026-2026-07-26-san-siro",
+      "venueId": "san-siro",
+      "name": "The Weeknd · After Hours Til Dawn",
+      "startDate": "2026-07-26",
+      "endDate": null,
+      "localDate": "2026-07-26",
+      "endLocalDate": "2026-07-26",
+      "datePrecision": "day",
+      "timezone": null,
+      "status": "candidate",
+      "verificationStatus": "candidate",
+      "source": "https://www.theweeknd.com/tour/",
+      "sourceUrls": [
+        "https://www.theweeknd.com/tour/",
+        "https://www.prnewswire.com/news-releases/the-weeknd-kicks-off-european-leg-of-record-breaking-after-hours-til-dawn-tour-with-two-sold-out-shows-at-copenhagens-parken-stadium-302805855.html"
+      ],
+      "artist": "The Weeknd",
+      "tour": "After Hours Til Dawn Stadium Tour",
+      "venueName": "San Siro Stadium",
+      "city": "Milan",
+      "country": "Italy",
+      "identity": {
+        "providerEventId": null,
+        "providerVenueId": null,
+        "eventSpecificUrl": null
+      },
+      "verificationNotes": [
+        "Retained research claims; individual event identity, IANA timezone, source capture and stage remain unverified."
+      ],
+      "seatReference": {
+        "structure": "three rings, reserved seats + field/pitch concert areas",
+        "publicSeatMapStatus": "official-sector-map-reference",
+        "eventSpecificMap": "not-yet-captured",
+        "seatCoordinates": "not available from tour announcement",
+        "stageLayout": {
+          "status": "unconfirmed",
+          "basis": "tour-level end-stage candidate only; do not use for distance or seat collision until event map is matched"
+        }
+      },
+      "eventLayout": {
+        "status": "unconfirmed",
+        "eventId": "weeknd-2026-2026-07-26-san-siro",
+        "stageRects": [],
+        "closedSections": [],
+        "sourceKind": "venue-reference",
+        "stageVerification": "unverified",
+        "mapVerification": "unavailable"
+      }
+    },
+    {
+      "category": "music",
+      "id": "weeknd-2026-2026-07-30-deutsche-bank-park",
+      "venueId": "deutsche-bank-park",
+      "name": "The Weeknd · After Hours Til Dawn",
+      "startDate": "2026-07-30",
+      "endDate": null,
+      "localDate": "2026-07-30",
+      "endLocalDate": "2026-07-30",
+      "datePrecision": "day",
+      "timezone": null,
+      "status": "candidate",
+      "verificationStatus": "candidate",
+      "source": "https://www.theweeknd.com/tour/",
+      "sourceUrls": [
+        "https://www.theweeknd.com/tour/",
+        "https://www.prnewswire.com/news-releases/the-weeknd-kicks-off-european-leg-of-record-breaking-after-hours-til-dawn-tour-with-two-sold-out-shows-at-copenhagens-parken-stadium-302805855.html"
+      ],
+      "artist": "The Weeknd",
+      "tour": "After Hours Til Dawn Stadium Tour",
+      "venueName": "Deutsche Bank Park",
+      "city": "Frankfurt",
+      "country": "Germany",
+      "identity": {
+        "providerEventId": null,
+        "providerVenueId": null,
+        "eventSpecificUrl": null
+      },
+      "verificationNotes": [
+        "Retained research claims; individual event identity, IANA timezone, source capture and stage remain unverified."
+      ],
+      "seatReference": {
+        "structure": "stadium bowl + field/pitch",
+        "publicSeatMapStatus": "venue-reference-unconfirmed",
+        "eventSpecificMap": "not-yet-captured",
+        "seatCoordinates": "not available from tour announcement",
+        "stageLayout": {
+          "status": "unconfirmed",
+          "basis": "tour-level end-stage candidate only; do not use for distance or seat collision until event map is matched"
+        }
+      },
+      "eventLayout": {
+        "status": "unconfirmed",
+        "eventId": "weeknd-2026-2026-07-30-deutsche-bank-park",
+        "stageRects": [],
+        "closedSections": [],
+        "sourceKind": "venue-reference",
+        "stageVerification": "unverified",
+        "mapVerification": "unavailable"
+      }
+    },
+    {
+      "category": "music",
+      "id": "weeknd-2026-2026-07-31-deutsche-bank-park",
+      "venueId": "deutsche-bank-park",
+      "name": "The Weeknd · After Hours Til Dawn",
+      "startDate": "2026-07-31",
+      "endDate": null,
+      "localDate": "2026-07-31",
+      "endLocalDate": "2026-07-31",
+      "datePrecision": "day",
+      "timezone": null,
+      "status": "candidate",
+      "verificationStatus": "candidate",
+      "source": "https://www.theweeknd.com/tour/",
+      "sourceUrls": [
+        "https://www.theweeknd.com/tour/",
+        "https://www.prnewswire.com/news-releases/the-weeknd-kicks-off-european-leg-of-record-breaking-after-hours-til-dawn-tour-with-two-sold-out-shows-at-copenhagens-parken-stadium-302805855.html"
+      ],
+      "artist": "The Weeknd",
+      "tour": "After Hours Til Dawn Stadium Tour",
+      "venueName": "Deutsche Bank Park",
+      "city": "Frankfurt",
+      "country": "Germany",
+      "identity": {
+        "providerEventId": null,
+        "providerVenueId": null,
+        "eventSpecificUrl": null
+      },
+      "verificationNotes": [
+        "Retained research claims; individual event identity, IANA timezone, source capture and stage remain unverified."
+      ],
+      "seatReference": {
+        "structure": "stadium bowl + field/pitch",
+        "publicSeatMapStatus": "venue-reference-unconfirmed",
+        "eventSpecificMap": "not-yet-captured",
+        "seatCoordinates": "not available from tour announcement",
+        "stageLayout": {
+          "status": "unconfirmed",
+          "basis": "tour-level end-stage candidate only; do not use for distance or seat collision until event map is matched"
+        }
+      },
+      "eventLayout": {
+        "status": "unconfirmed",
+        "eventId": "weeknd-2026-2026-07-31-deutsche-bank-park",
+        "stageRects": [],
+        "closedSections": [],
+        "sourceKind": "venue-reference",
+        "stageVerification": "unverified",
+        "mapVerification": "unavailable"
+      }
+    },
+    {
+      "category": "music",
+      "id": "weeknd-2026-2026-08-01-deutsche-bank-park",
+      "venueId": "deutsche-bank-park",
+      "name": "The Weeknd · After Hours Til Dawn",
+      "startDate": "2026-08-01",
+      "endDate": null,
+      "localDate": "2026-08-01",
+      "endLocalDate": "2026-08-01",
+      "datePrecision": "day",
+      "timezone": null,
+      "status": "candidate",
+      "verificationStatus": "candidate",
+      "source": "https://www.theweeknd.com/tour/",
+      "sourceUrls": [
+        "https://www.theweeknd.com/tour/",
+        "https://www.prnewswire.com/news-releases/the-weeknd-kicks-off-european-leg-of-record-breaking-after-hours-til-dawn-tour-with-two-sold-out-shows-at-copenhagens-parken-stadium-302805855.html"
+      ],
+      "artist": "The Weeknd",
+      "tour": "After Hours Til Dawn Stadium Tour",
+      "venueName": "Deutsche Bank Park",
+      "city": "Frankfurt",
+      "country": "Germany",
+      "identity": {
+        "providerEventId": null,
+        "providerVenueId": null,
+        "eventSpecificUrl": null
+      },
+      "verificationNotes": [
+        "Retained research claims; individual event identity, IANA timezone, source capture and stage remain unverified."
+      ],
+      "seatReference": {
+        "structure": "stadium bowl + field/pitch",
+        "publicSeatMapStatus": "venue-reference-unconfirmed",
+        "eventSpecificMap": "not-yet-captured",
+        "seatCoordinates": "not available from tour announcement",
+        "stageLayout": {
+          "status": "unconfirmed",
+          "basis": "tour-level end-stage candidate only; do not use for distance or seat collision until event map is matched"
+        }
+      },
+      "eventLayout": {
+        "status": "unconfirmed",
+        "eventId": "weeknd-2026-2026-08-01-deutsche-bank-park",
+        "stageRects": [],
+        "closedSections": [],
+        "sourceKind": "venue-reference",
+        "stageVerification": "unverified",
+        "mapVerification": "unavailable"
+      }
+    },
+    {
+      "category": "music",
+      "id": "weeknd-2026-2026-08-04-pge-narodowy",
+      "venueId": "pge-narodowy",
+      "name": "The Weeknd · After Hours Til Dawn",
+      "startDate": "2026-08-04",
+      "endDate": null,
+      "localDate": "2026-08-04",
+      "endLocalDate": "2026-08-04",
+      "datePrecision": "day",
+      "timezone": null,
+      "status": "candidate",
+      "verificationStatus": "candidate",
+      "source": "https://www.theweeknd.com/tour/",
+      "sourceUrls": [
+        "https://www.theweeknd.com/tour/",
+        "https://www.prnewswire.com/news-releases/the-weeknd-kicks-off-european-leg-of-record-breaking-after-hours-til-dawn-tour-with-two-sold-out-shows-at-copenhagens-parken-stadium-302805855.html"
+      ],
+      "artist": "The Weeknd",
+      "tour": "After Hours Til Dawn Stadium Tour",
+      "venueName": "PGE Narodowy",
+      "city": "Warsaw",
+      "country": "Poland",
+      "identity": {
+        "providerEventId": null,
+        "providerVenueId": null,
+        "eventSpecificUrl": null
+      },
+      "verificationNotes": [
+        "Retained research claims; individual event identity, IANA timezone, source capture and stage remain unverified."
+      ],
+      "seatReference": {
+        "structure": "multi-tier stadium bowl + floor/pitch",
+        "publicSeatMapStatus": "venue-reference-unconfirmed",
+        "eventSpecificMap": "not-yet-captured",
+        "seatCoordinates": "not available from tour announcement",
+        "stageLayout": {
+          "status": "unconfirmed",
+          "basis": "tour-level end-stage candidate only; do not use for distance or seat collision until event map is matched"
+        }
+      },
+      "eventLayout": {
+        "status": "unconfirmed",
+        "eventId": "weeknd-2026-2026-08-04-pge-narodowy",
+        "stageRects": [],
+        "closedSections": [],
+        "sourceKind": "venue-reference",
+        "stageVerification": "unverified",
+        "mapVerification": "unavailable"
+      }
+    },
+    {
+      "category": "music",
+      "id": "weeknd-2026-2026-08-05-pge-narodowy",
+      "venueId": "pge-narodowy",
+      "name": "The Weeknd · After Hours Til Dawn",
+      "startDate": "2026-08-05",
+      "endDate": null,
+      "localDate": "2026-08-05",
+      "endLocalDate": "2026-08-05",
+      "datePrecision": "day",
+      "timezone": null,
+      "status": "candidate",
+      "verificationStatus": "candidate",
+      "source": "https://www.theweeknd.com/tour/",
+      "sourceUrls": [
+        "https://www.theweeknd.com/tour/",
+        "https://www.prnewswire.com/news-releases/the-weeknd-kicks-off-european-leg-of-record-breaking-after-hours-til-dawn-tour-with-two-sold-out-shows-at-copenhagens-parken-stadium-302805855.html"
+      ],
+      "artist": "The Weeknd",
+      "tour": "After Hours Til Dawn Stadium Tour",
+      "venueName": "PGE Narodowy",
+      "city": "Warsaw",
+      "country": "Poland",
+      "identity": {
+        "providerEventId": null,
+        "providerVenueId": null,
+        "eventSpecificUrl": null
+      },
+      "verificationNotes": [
+        "Retained research claims; individual event identity, IANA timezone, source capture and stage remain unverified."
+      ],
+      "seatReference": {
+        "structure": "multi-tier stadium bowl + floor/pitch",
+        "publicSeatMapStatus": "venue-reference-unconfirmed",
+        "eventSpecificMap": "not-yet-captured",
+        "seatCoordinates": "not available from tour announcement",
+        "stageLayout": {
+          "status": "unconfirmed",
+          "basis": "tour-level end-stage candidate only; do not use for distance or seat collision until event map is matched"
+        }
+      },
+      "eventLayout": {
+        "status": "unconfirmed",
+        "eventId": "weeknd-2026-2026-08-05-pge-narodowy",
+        "stageRects": [],
+        "closedSections": [],
+        "sourceKind": "venue-reference",
+        "stageVerification": "unverified",
+        "mapVerification": "unavailable"
+      }
+    },
+    {
+      "category": "music",
+      "id": "weeknd-2026-2026-08-08-strawberry-arena",
+      "venueId": "strawberry-arena",
+      "name": "The Weeknd · After Hours Til Dawn",
+      "startDate": "2026-08-08",
+      "endDate": null,
+      "localDate": "2026-08-08",
+      "endLocalDate": "2026-08-08",
+      "datePrecision": "day",
+      "timezone": null,
+      "status": "candidate",
+      "verificationStatus": "candidate",
+      "source": "https://www.theweeknd.com/tour/",
+      "sourceUrls": [
+        "https://www.theweeknd.com/tour/",
+        "https://www.prnewswire.com/news-releases/the-weeknd-kicks-off-european-leg-of-record-breaking-after-hours-til-dawn-tour-with-two-sold-out-shows-at-copenhagens-parken-stadium-302805855.html"
+      ],
+      "artist": "The Weeknd",
+      "tour": "After Hours Til Dawn Stadium Tour",
+      "venueName": "Strawberry Arena",
+      "city": "Stockholm",
+      "country": "Sweden",
+      "identity": {
+        "providerEventId": null,
+        "providerVenueId": null,
+        "eventSpecificUrl": null
+      },
+      "verificationNotes": [
+        "Retained research claims; individual event identity, IANA timezone, source capture and stage remain unverified."
+      ],
+      "seatReference": {
+        "structure": "multi-tier oval bowl + floor/pitch",
+        "publicSeatMapStatus": "venue-reference-unconfirmed",
+        "eventSpecificMap": "not-yet-captured",
+        "seatCoordinates": "not available from tour announcement",
+        "stageLayout": {
+          "status": "unconfirmed",
+          "basis": "tour-level end-stage candidate only; do not use for distance or seat collision until event map is matched"
+        }
+      },
+      "eventLayout": {
+        "status": "unconfirmed",
+        "eventId": "weeknd-2026-2026-08-08-strawberry-arena",
+        "stageRects": [],
+        "closedSections": [],
+        "sourceKind": "venue-reference",
+        "stageVerification": "unverified",
+        "mapVerification": "unavailable"
+      }
+    },
+    {
+      "category": "music",
+      "id": "weeknd-2026-2026-08-09-strawberry-arena",
+      "venueId": "strawberry-arena",
+      "name": "The Weeknd · After Hours Til Dawn",
+      "startDate": "2026-08-09",
+      "endDate": null,
+      "localDate": "2026-08-09",
+      "endLocalDate": "2026-08-09",
+      "datePrecision": "day",
+      "timezone": null,
+      "status": "candidate",
+      "verificationStatus": "candidate",
+      "source": "https://www.theweeknd.com/tour/",
+      "sourceUrls": [
+        "https://www.theweeknd.com/tour/",
+        "https://www.prnewswire.com/news-releases/the-weeknd-kicks-off-european-leg-of-record-breaking-after-hours-til-dawn-tour-with-two-sold-out-shows-at-copenhagens-parken-stadium-302805855.html"
+      ],
+      "artist": "The Weeknd",
+      "tour": "After Hours Til Dawn Stadium Tour",
+      "venueName": "Strawberry Arena",
+      "city": "Stockholm",
+      "country": "Sweden",
+      "identity": {
+        "providerEventId": null,
+        "providerVenueId": null,
+        "eventSpecificUrl": null
+      },
+      "verificationNotes": [
+        "Retained research claims; individual event identity, IANA timezone, source capture and stage remain unverified."
+      ],
+      "seatReference": {
+        "structure": "multi-tier oval bowl + floor/pitch",
+        "publicSeatMapStatus": "venue-reference-unconfirmed",
+        "eventSpecificMap": "not-yet-captured",
+        "seatCoordinates": "not available from tour announcement",
+        "stageLayout": {
+          "status": "unconfirmed",
+          "basis": "tour-level end-stage candidate only; do not use for distance or seat collision until event map is matched"
+        }
+      },
+      "eventLayout": {
+        "status": "unconfirmed",
+        "eventId": "weeknd-2026-2026-08-09-strawberry-arena",
+        "stageRects": [],
+        "closedSections": [],
+        "sourceKind": "venue-reference",
+        "stageVerification": "unverified",
+        "mapVerification": "unavailable"
+      }
+    },
+    {
+      "category": "music",
+      "id": "weeknd-2026-2026-08-10-strawberry-arena",
+      "venueId": "strawberry-arena",
+      "name": "The Weeknd · After Hours Til Dawn",
+      "startDate": "2026-08-10",
+      "endDate": null,
+      "localDate": "2026-08-10",
+      "endLocalDate": "2026-08-10",
+      "datePrecision": "day",
+      "timezone": null,
+      "status": "candidate",
+      "verificationStatus": "candidate",
+      "source": "https://www.theweeknd.com/tour/",
+      "sourceUrls": [
+        "https://www.theweeknd.com/tour/",
+        "https://www.prnewswire.com/news-releases/the-weeknd-kicks-off-european-leg-of-record-breaking-after-hours-til-dawn-tour-with-two-sold-out-shows-at-copenhagens-parken-stadium-302805855.html"
+      ],
+      "artist": "The Weeknd",
+      "tour": "After Hours Til Dawn Stadium Tour",
+      "venueName": "Strawberry Arena",
+      "city": "Stockholm",
+      "country": "Sweden",
+      "identity": {
+        "providerEventId": null,
+        "providerVenueId": null,
+        "eventSpecificUrl": null
+      },
+      "verificationNotes": [
+        "Retained research claims; individual event identity, IANA timezone, source capture and stage remain unverified."
+      ],
+      "seatReference": {
+        "structure": "multi-tier oval bowl + floor/pitch",
+        "publicSeatMapStatus": "venue-reference-unconfirmed",
+        "eventSpecificMap": "not-yet-captured",
+        "seatCoordinates": "not available from tour announcement",
+        "stageLayout": {
+          "status": "unconfirmed",
+          "basis": "tour-level end-stage candidate only; do not use for distance or seat collision until event map is matched"
+        }
+      },
+      "eventLayout": {
+        "status": "unconfirmed",
+        "eventId": "weeknd-2026-2026-08-10-strawberry-arena",
+        "stageRects": [],
+        "closedSections": [],
+        "sourceKind": "venue-reference",
+        "stageVerification": "unverified",
+        "mapVerification": "unavailable"
+      }
+    },
+    {
+      "category": "music",
+      "id": "weeknd-2026-2026-08-14-wembley",
+      "venueId": "wembley",
+      "name": "The Weeknd · After Hours Til Dawn",
+      "startDate": "2026-08-14",
+      "endDate": null,
+      "localDate": "2026-08-14",
+      "endLocalDate": "2026-08-14",
+      "datePrecision": "day",
+      "timezone": null,
+      "status": "candidate",
+      "verificationStatus": "candidate",
+      "source": "https://www.theweeknd.com/tour/",
+      "sourceUrls": [
+        "https://www.theweeknd.com/tour/",
+        "https://www.prnewswire.com/news-releases/the-weeknd-kicks-off-european-leg-of-record-breaking-after-hours-til-dawn-tour-with-two-sold-out-shows-at-copenhagens-parken-stadium-302805855.html"
+      ],
+      "artist": "The Weeknd",
+      "tour": "After Hours Til Dawn Stadium Tour",
+      "venueName": "Wembley Stadium",
+      "city": "London",
+      "country": "United Kingdom",
+      "identity": {
+        "providerEventId": null,
+        "providerVenueId": null,
+        "eventSpecificUrl": null
+      },
+      "verificationNotes": [
+        "Retained research claims; individual event identity, IANA timezone, source capture and stage remain unverified."
+      ],
+      "seatReference": {
+        "structure": "multi-tier oval bowl + field/pitch",
+        "publicSeatMapStatus": "official-venue-reference",
+        "eventSpecificMap": "not-yet-captured",
+        "seatCoordinates": "not available from tour announcement",
+        "stageLayout": {
+          "status": "unconfirmed",
+          "basis": "tour-level end-stage candidate only; do not use for distance or seat collision until event map is matched"
+        }
+      },
+      "eventLayout": {
+        "status": "unconfirmed",
+        "eventId": "weeknd-2026-2026-08-14-wembley",
+        "stageRects": [],
+        "closedSections": [],
+        "sourceKind": "venue-reference",
+        "stageVerification": "unverified",
+        "mapVerification": "unavailable"
+      }
+    },
+    {
+      "category": "music",
+      "id": "weeknd-2026-2026-08-15-wembley",
+      "venueId": "wembley",
+      "name": "The Weeknd · After Hours Til Dawn",
+      "startDate": "2026-08-15",
+      "endDate": null,
+      "localDate": "2026-08-15",
+      "endLocalDate": "2026-08-15",
+      "datePrecision": "day",
+      "timezone": null,
+      "status": "candidate",
+      "verificationStatus": "candidate",
+      "source": "https://www.theweeknd.com/tour/",
+      "sourceUrls": [
+        "https://www.theweeknd.com/tour/",
+        "https://www.prnewswire.com/news-releases/the-weeknd-kicks-off-european-leg-of-record-breaking-after-hours-til-dawn-tour-with-two-sold-out-shows-at-copenhagens-parken-stadium-302805855.html"
+      ],
+      "artist": "The Weeknd",
+      "tour": "After Hours Til Dawn Stadium Tour",
+      "venueName": "Wembley Stadium",
+      "city": "London",
+      "country": "United Kingdom",
+      "identity": {
+        "providerEventId": null,
+        "providerVenueId": null,
+        "eventSpecificUrl": null
+      },
+      "verificationNotes": [
+        "Retained research claims; individual event identity, IANA timezone, source capture and stage remain unverified."
+      ],
+      "seatReference": {
+        "structure": "multi-tier oval bowl + field/pitch",
+        "publicSeatMapStatus": "official-venue-reference",
+        "eventSpecificMap": "not-yet-captured",
+        "seatCoordinates": "not available from tour announcement",
+        "stageLayout": {
+          "status": "unconfirmed",
+          "basis": "tour-level end-stage candidate only; do not use for distance or seat collision until event map is matched"
+        }
+      },
+      "eventLayout": {
+        "status": "unconfirmed",
+        "eventId": "weeknd-2026-2026-08-15-wembley",
+        "stageRects": [],
+        "closedSections": [],
+        "sourceKind": "venue-reference",
+        "stageVerification": "unverified",
+        "mapVerification": "unavailable"
+      }
+    },
+    {
+      "category": "music",
+      "id": "weeknd-2026-2026-08-16-wembley",
+      "venueId": "wembley",
+      "name": "The Weeknd · After Hours Til Dawn",
+      "startDate": "2026-08-16",
+      "endDate": null,
+      "localDate": "2026-08-16",
+      "endLocalDate": "2026-08-16",
+      "datePrecision": "day",
+      "timezone": null,
+      "status": "candidate",
+      "verificationStatus": "candidate",
+      "source": "https://www.theweeknd.com/tour/",
+      "sourceUrls": [
+        "https://www.theweeknd.com/tour/",
+        "https://www.prnewswire.com/news-releases/the-weeknd-kicks-off-european-leg-of-record-breaking-after-hours-til-dawn-tour-with-two-sold-out-shows-at-copenhagens-parken-stadium-302805855.html"
+      ],
+      "artist": "The Weeknd",
+      "tour": "After Hours Til Dawn Stadium Tour",
+      "venueName": "Wembley Stadium",
+      "city": "London",
+      "country": "United Kingdom",
+      "identity": {
+        "providerEventId": null,
+        "providerVenueId": null,
+        "eventSpecificUrl": null
+      },
+      "verificationNotes": [
+        "Retained research claims; individual event identity, IANA timezone, source capture and stage remain unverified."
+      ],
+      "seatReference": {
+        "structure": "multi-tier oval bowl + field/pitch",
+        "publicSeatMapStatus": "official-venue-reference",
+        "eventSpecificMap": "not-yet-captured",
+        "seatCoordinates": "not available from tour announcement",
+        "stageLayout": {
+          "status": "unconfirmed",
+          "basis": "tour-level end-stage candidate only; do not use for distance or seat collision until event map is matched"
+        }
+      },
+      "eventLayout": {
+        "status": "unconfirmed",
+        "eventId": "weeknd-2026-2026-08-16-wembley",
+        "stageRects": [],
+        "closedSections": [],
+        "sourceKind": "venue-reference",
+        "stageVerification": "unverified",
+        "mapVerification": "unavailable"
+      }
+    },
+    {
+      "category": "music",
+      "id": "weeknd-2026-2026-08-18-wembley",
+      "venueId": "wembley",
+      "name": "The Weeknd · After Hours Til Dawn",
+      "startDate": "2026-08-18",
+      "endDate": null,
+      "localDate": "2026-08-18",
+      "endLocalDate": "2026-08-18",
+      "datePrecision": "day",
+      "timezone": null,
+      "status": "candidate",
+      "verificationStatus": "candidate",
+      "source": "https://www.theweeknd.com/tour/",
+      "sourceUrls": [
+        "https://www.theweeknd.com/tour/",
+        "https://www.prnewswire.com/news-releases/the-weeknd-kicks-off-european-leg-of-record-breaking-after-hours-til-dawn-tour-with-two-sold-out-shows-at-copenhagens-parken-stadium-302805855.html"
+      ],
+      "artist": "The Weeknd",
+      "tour": "After Hours Til Dawn Stadium Tour",
+      "venueName": "Wembley Stadium",
+      "city": "London",
+      "country": "United Kingdom",
+      "identity": {
+        "providerEventId": null,
+        "providerVenueId": null,
+        "eventSpecificUrl": null
+      },
+      "verificationNotes": [
+        "Retained research claims; individual event identity, IANA timezone, source capture and stage remain unverified."
+      ],
+      "seatReference": {
+        "structure": "multi-tier oval bowl + field/pitch",
+        "publicSeatMapStatus": "official-venue-reference",
+        "eventSpecificMap": "not-yet-captured",
+        "seatCoordinates": "not available from tour announcement",
+        "stageLayout": {
+          "status": "unconfirmed",
+          "basis": "tour-level end-stage candidate only; do not use for distance or seat collision until event map is matched"
+        }
+      },
+      "eventLayout": {
+        "status": "unconfirmed",
+        "eventId": "weeknd-2026-2026-08-18-wembley",
+        "stageRects": [],
+        "closedSections": [],
+        "sourceKind": "venue-reference",
+        "stageVerification": "unverified",
+        "mapVerification": "unavailable"
+      }
+    },
+    {
+      "category": "music",
+      "id": "weeknd-2026-2026-08-19-wembley",
+      "venueId": "wembley",
+      "name": "The Weeknd · After Hours Til Dawn",
+      "startDate": "2026-08-19",
+      "endDate": null,
+      "localDate": "2026-08-19",
+      "endLocalDate": "2026-08-19",
+      "datePrecision": "day",
+      "timezone": null,
+      "status": "candidate",
+      "verificationStatus": "candidate",
+      "source": "https://www.theweeknd.com/tour/",
+      "sourceUrls": [
+        "https://www.theweeknd.com/tour/",
+        "https://www.prnewswire.com/news-releases/the-weeknd-kicks-off-european-leg-of-record-breaking-after-hours-til-dawn-tour-with-two-sold-out-shows-at-copenhagens-parken-stadium-302805855.html"
+      ],
+      "artist": "The Weeknd",
+      "tour": "After Hours Til Dawn Stadium Tour",
+      "venueName": "Wembley Stadium",
+      "city": "London",
+      "country": "United Kingdom",
+      "identity": {
+        "providerEventId": null,
+        "providerVenueId": null,
+        "eventSpecificUrl": null
+      },
+      "verificationNotes": [
+        "Retained research claims; individual event identity, IANA timezone, source capture and stage remain unverified."
+      ],
+      "seatReference": {
+        "structure": "multi-tier oval bowl + field/pitch",
+        "publicSeatMapStatus": "official-venue-reference",
+        "eventSpecificMap": "not-yet-captured",
+        "seatCoordinates": "not available from tour announcement",
+        "stageLayout": {
+          "status": "unconfirmed",
+          "basis": "tour-level end-stage candidate only; do not use for distance or seat collision until event map is matched"
+        }
+      },
+      "eventLayout": {
+        "status": "unconfirmed",
+        "eventId": "weeknd-2026-2026-08-19-wembley",
+        "stageRects": [],
+        "closedSections": [],
+        "sourceKind": "venue-reference",
+        "stageVerification": "unverified",
+        "mapVerification": "unavailable"
+      }
+    },
+    {
+      "category": "music",
+      "id": "weeknd-2026-2026-08-22-croke-park",
+      "venueId": "croke-park",
+      "name": "The Weeknd · After Hours Til Dawn",
+      "startDate": "2026-08-22",
+      "endDate": null,
+      "localDate": "2026-08-22",
+      "endLocalDate": "2026-08-22",
+      "datePrecision": "day",
+      "timezone": null,
+      "status": "candidate",
+      "verificationStatus": "candidate",
+      "source": "https://www.theweeknd.com/tour/",
+      "sourceUrls": [
+        "https://www.theweeknd.com/tour/",
+        "https://www.prnewswire.com/news-releases/the-weeknd-kicks-off-european-leg-of-record-breaking-after-hours-til-dawn-tour-with-two-sold-out-shows-at-copenhagens-parken-stadium-302805855.html"
+      ],
+      "artist": "The Weeknd",
+      "tour": "After Hours Til Dawn Stadium Tour",
+      "venueName": "Croke Park",
+      "city": "Dublin",
+      "country": "Ireland",
+      "identity": {
+        "providerEventId": null,
+        "providerVenueId": null,
+        "eventSpecificUrl": null
+      },
+      "verificationNotes": [
+        "Retained research claims; individual event identity, IANA timezone, source capture and stage remain unverified."
+      ],
+      "seatReference": {
+        "structure": "four main stands + pitch",
+        "publicSeatMapStatus": "official-interactive-map",
+        "eventSpecificMap": "not-yet-captured",
+        "seatCoordinates": "not available from tour announcement",
+        "stageLayout": {
+          "status": "unconfirmed",
+          "basis": "tour-level end-stage candidate only; do not use for distance or seat collision until event map is matched"
+        }
+      },
+      "eventLayout": {
+        "status": "unconfirmed",
+        "eventId": "weeknd-2026-2026-08-22-croke-park",
+        "stageRects": [],
+        "closedSections": [],
+        "sourceKind": "venue-reference",
+        "stageVerification": "unverified",
+        "mapVerification": "unavailable"
+      }
+    },
+    {
+      "category": "music",
+      "id": "weeknd-2026-2026-08-23-croke-park",
+      "venueId": "croke-park",
+      "name": "The Weeknd · After Hours Til Dawn",
+      "startDate": "2026-08-23",
+      "endDate": null,
+      "localDate": "2026-08-23",
+      "endLocalDate": "2026-08-23",
+      "datePrecision": "day",
+      "timezone": null,
+      "status": "candidate",
+      "verificationStatus": "candidate",
+      "source": "https://www.theweeknd.com/tour/",
+      "sourceUrls": [
+        "https://www.theweeknd.com/tour/",
+        "https://www.prnewswire.com/news-releases/the-weeknd-kicks-off-european-leg-of-record-breaking-after-hours-til-dawn-tour-with-two-sold-out-shows-at-copenhagens-parken-stadium-302805855.html"
+      ],
+      "artist": "The Weeknd",
+      "tour": "After Hours Til Dawn Stadium Tour",
+      "venueName": "Croke Park",
+      "city": "Dublin",
+      "country": "Ireland",
+      "identity": {
+        "providerEventId": null,
+        "providerVenueId": null,
+        "eventSpecificUrl": null
+      },
+      "verificationNotes": [
+        "Retained research claims; individual event identity, IANA timezone, source capture and stage remain unverified."
+      ],
+      "seatReference": {
+        "structure": "four main stands + pitch",
+        "publicSeatMapStatus": "official-interactive-map",
+        "eventSpecificMap": "not-yet-captured",
+        "seatCoordinates": "not available from tour announcement",
+        "stageLayout": {
+          "status": "unconfirmed",
+          "basis": "tour-level end-stage candidate only; do not use for distance or seat collision until event map is matched"
+        }
+      },
+      "eventLayout": {
+        "status": "unconfirmed",
+        "eventId": "weeknd-2026-2026-08-23-croke-park",
+        "stageRects": [],
+        "closedSections": [],
+        "sourceKind": "venue-reference",
+        "stageVerification": "unverified",
+        "mapVerification": "unavailable"
+      }
+    },
+    {
+      "category": "music",
+      "id": "weeknd-2026-2026-08-28-riyadh-air-metropolitano",
+      "venueId": "riyadh-air-metropolitano",
+      "name": "The Weeknd · After Hours Til Dawn",
+      "startDate": "2026-08-28",
+      "endDate": null,
+      "localDate": "2026-08-28",
+      "endLocalDate": "2026-08-28",
+      "datePrecision": "day",
+      "timezone": null,
+      "status": "candidate",
+      "verificationStatus": "candidate",
+      "source": "https://www.theweeknd.com/tour/",
+      "sourceUrls": [
+        "https://www.theweeknd.com/tour/",
+        "https://www.prnewswire.com/news-releases/the-weeknd-kicks-off-european-leg-of-record-breaking-after-hours-til-dawn-tour-with-two-sold-out-shows-at-copenhagens-parken-stadium-302805855.html"
+      ],
+      "artist": "The Weeknd",
+      "tour": "After Hours Til Dawn Stadium Tour",
+      "venueName": "Riyadh Air Metropolitano",
+      "city": "Madrid",
+      "country": "Spain",
+      "identity": {
+        "providerEventId": null,
+        "providerVenueId": null,
+        "eventSpecificUrl": null
+      },
+      "verificationNotes": [
+        "Retained research claims; individual event identity, IANA timezone, source capture and stage remain unverified."
+      ],
+      "seatReference": {
+        "structure": "multi-tier football stadium + field/pitch",
+        "publicSeatMapStatus": "venue-reference-unconfirmed",
+        "eventSpecificMap": "not-yet-captured",
+        "seatCoordinates": "not available from tour announcement",
+        "stageLayout": {
+          "status": "unconfirmed",
+          "basis": "tour-level end-stage candidate only; do not use for distance or seat collision until event map is matched"
+        }
+      },
+      "eventLayout": {
+        "status": "unconfirmed",
+        "eventId": "weeknd-2026-2026-08-28-riyadh-air-metropolitano",
+        "stageRects": [],
+        "closedSections": [],
+        "sourceKind": "venue-reference",
+        "stageVerification": "unverified",
+        "mapVerification": "unavailable"
+      }
+    },
+    {
+      "category": "music",
+      "id": "weeknd-2026-2026-08-29-riyadh-air-metropolitano",
+      "venueId": "riyadh-air-metropolitano",
+      "name": "The Weeknd · After Hours Til Dawn",
+      "startDate": "2026-08-29",
+      "endDate": null,
+      "localDate": "2026-08-29",
+      "endLocalDate": "2026-08-29",
+      "datePrecision": "day",
+      "timezone": null,
+      "status": "candidate",
+      "verificationStatus": "candidate",
+      "source": "https://www.theweeknd.com/tour/",
+      "sourceUrls": [
+        "https://www.theweeknd.com/tour/",
+        "https://www.prnewswire.com/news-releases/the-weeknd-kicks-off-european-leg-of-record-breaking-after-hours-til-dawn-tour-with-two-sold-out-shows-at-copenhagens-parken-stadium-302805855.html"
+      ],
+      "artist": "The Weeknd",
+      "tour": "After Hours Til Dawn Stadium Tour",
+      "venueName": "Riyadh Air Metropolitano",
+      "city": "Madrid",
+      "country": "Spain",
+      "identity": {
+        "providerEventId": null,
+        "providerVenueId": null,
+        "eventSpecificUrl": null
+      },
+      "verificationNotes": [
+        "Retained research claims; individual event identity, IANA timezone, source capture and stage remain unverified."
+      ],
+      "seatReference": {
+        "structure": "multi-tier football stadium + field/pitch",
+        "publicSeatMapStatus": "venue-reference-unconfirmed",
+        "eventSpecificMap": "not-yet-captured",
+        "seatCoordinates": "not available from tour announcement",
+        "stageLayout": {
+          "status": "unconfirmed",
+          "basis": "tour-level end-stage candidate only; do not use for distance or seat collision until event map is matched"
+        }
+      },
+      "eventLayout": {
+        "status": "unconfirmed",
+        "eventId": "weeknd-2026-2026-08-29-riyadh-air-metropolitano",
+        "stageRects": [],
+        "closedSections": [],
+        "sourceKind": "venue-reference",
+        "stageVerification": "unverified",
+        "mapVerification": "unavailable"
+      }
+    },
+    {
+      "category": "music",
+      "id": "weeknd-2026-2026-08-30-riyadh-air-metropolitano",
+      "venueId": "riyadh-air-metropolitano",
+      "name": "The Weeknd · After Hours Til Dawn",
+      "startDate": "2026-08-30",
+      "endDate": null,
+      "localDate": "2026-08-30",
+      "endLocalDate": "2026-08-30",
+      "datePrecision": "day",
+      "timezone": null,
+      "status": "candidate",
+      "verificationStatus": "candidate",
+      "source": "https://www.theweeknd.com/tour/",
+      "sourceUrls": [
+        "https://www.theweeknd.com/tour/",
+        "https://www.prnewswire.com/news-releases/the-weeknd-kicks-off-european-leg-of-record-breaking-after-hours-til-dawn-tour-with-two-sold-out-shows-at-copenhagens-parken-stadium-302805855.html"
+      ],
+      "artist": "The Weeknd",
+      "tour": "After Hours Til Dawn Stadium Tour",
+      "venueName": "Riyadh Air Metropolitano",
+      "city": "Madrid",
+      "country": "Spain",
+      "identity": {
+        "providerEventId": null,
+        "providerVenueId": null,
+        "eventSpecificUrl": null
+      },
+      "verificationNotes": [
+        "Retained research claims; individual event identity, IANA timezone, source capture and stage remain unverified."
+      ],
+      "seatReference": {
+        "structure": "multi-tier football stadium + field/pitch",
+        "publicSeatMapStatus": "venue-reference-unconfirmed",
+        "eventSpecificMap": "not-yet-captured",
+        "seatCoordinates": "not available from tour announcement",
+        "stageLayout": {
+          "status": "unconfirmed",
+          "basis": "tour-level end-stage candidate only; do not use for distance or seat collision until event map is matched"
+        }
+      },
+      "eventLayout": {
+        "status": "unconfirmed",
+        "eventId": "weeknd-2026-2026-08-30-riyadh-air-metropolitano",
+        "stageRects": [],
+        "closedSections": [],
+        "sourceKind": "venue-reference",
+        "stageVerification": "unverified",
+        "mapVerification": "unavailable"
+      }
+    },
+    {
+      "category": "music",
+      "id": "weeknd-2026-2026-09-01-estadi-olimpic-lluis-companys",
+      "venueId": "estadi-olimpic-lluis-companys",
+      "name": "The Weeknd · After Hours Til Dawn",
+      "startDate": "2026-09-01",
+      "endDate": null,
+      "localDate": "2026-09-01",
+      "endLocalDate": "2026-09-01",
+      "datePrecision": "day",
+      "timezone": null,
+      "status": "candidate",
+      "verificationStatus": "candidate",
+      "source": "https://www.theweeknd.com/tour/",
+      "sourceUrls": [
+        "https://www.theweeknd.com/tour/",
+        "https://www.prnewswire.com/news-releases/the-weeknd-kicks-off-european-leg-of-record-breaking-after-hours-til-dawn-tour-with-two-sold-out-shows-at-copenhagens-parken-stadium-302805855.html"
+      ],
+      "artist": "The Weeknd",
+      "tour": "After Hours Til Dawn Stadium Tour",
+      "venueName": "Estadi Olímpic Lluís Companys",
+      "city": "Barcelona",
+      "country": "Spain",
+      "identity": {
+        "providerEventId": null,
+        "providerVenueId": null,
+        "eventSpecificUrl": null
+      },
+      "verificationNotes": [
+        "Retained research claims; individual event identity, IANA timezone, source capture and stage remain unverified."
+      ],
+      "seatReference": {
+        "structure": "oval stadium bowl + field/track; event map varies",
+        "publicSeatMapStatus": "official-ticketing-reference",
+        "eventSpecificMap": "not-yet-captured",
+        "seatCoordinates": "not available from tour announcement",
+        "stageLayout": {
+          "status": "unconfirmed",
+          "basis": "tour-level end-stage candidate only; do not use for distance or seat collision until event map is matched"
+        }
+      },
+      "eventLayout": {
+        "status": "unconfirmed",
+        "eventId": "weeknd-2026-2026-09-01-estadi-olimpic-lluis-companys",
+        "stageRects": [],
+        "closedSections": [],
+        "sourceKind": "venue-reference",
+        "stageVerification": "unverified",
+        "mapVerification": "unavailable"
+      }
+    },
+    {
+      "category": "music",
+      "id": "weeknd-2026-2026-09-05-estadio-do-restelo",
+      "venueId": "estadio-do-restelo",
+      "name": "The Weeknd · After Hours Til Dawn",
+      "startDate": "2026-09-05",
+      "endDate": null,
+      "localDate": "2026-09-05",
+      "endLocalDate": "2026-09-05",
+      "datePrecision": "day",
+      "timezone": null,
+      "status": "candidate",
+      "verificationStatus": "candidate",
+      "source": "https://www.theweeknd.com/tour/",
+      "sourceUrls": [
+        "https://www.theweeknd.com/tour/",
+        "https://www.prnewswire.com/news-releases/the-weeknd-kicks-off-european-leg-of-record-breaking-after-hours-til-dawn-tour-with-two-sold-out-shows-at-copenhagens-parken-stadium-302805855.html"
+      ],
+      "artist": "The Weeknd",
+      "tour": "After Hours Til Dawn Stadium Tour",
+      "venueName": "Estádio do Restelo",
+      "city": "Lisbon",
+      "country": "Portugal",
+      "identity": {
+        "providerEventId": null,
+        "providerVenueId": null,
+        "eventSpecificUrl": null
+      },
+      "verificationNotes": [
+        "Retained research claims; individual event identity, IANA timezone, source capture and stage remain unverified."
+      ],
+      "seatReference": {
+        "structure": "multi-stand football stadium + concert field",
+        "publicSeatMapStatus": "public-reference-only",
+        "eventSpecificMap": "not-yet-captured",
+        "seatCoordinates": "not available from tour announcement",
+        "stageLayout": {
+          "status": "unconfirmed",
+          "basis": "tour-level end-stage candidate only; do not use for distance or seat collision until event map is matched"
+        }
+      },
+      "eventLayout": {
+        "status": "unconfirmed",
+        "eventId": "weeknd-2026-2026-09-05-estadio-do-restelo",
+        "stageRects": [],
+        "closedSections": [],
+        "sourceKind": "venue-reference",
+        "stageVerification": "unverified",
+        "mapVerification": "unavailable"
+      }
+    },
+    {
+      "category": "music",
+      "id": "weeknd-2026-2026-09-06-estadio-do-restelo",
+      "venueId": "estadio-do-restelo",
+      "name": "The Weeknd · After Hours Til Dawn",
+      "startDate": "2026-09-06",
+      "endDate": null,
+      "localDate": "2026-09-06",
+      "endLocalDate": "2026-09-06",
+      "datePrecision": "day",
+      "timezone": null,
+      "status": "candidate",
+      "verificationStatus": "candidate",
+      "source": "https://www.theweeknd.com/tour/",
+      "sourceUrls": [
+        "https://www.theweeknd.com/tour/",
+        "https://www.prnewswire.com/news-releases/the-weeknd-kicks-off-european-leg-of-record-breaking-after-hours-til-dawn-tour-with-two-sold-out-shows-at-copenhagens-parken-stadium-302805855.html"
+      ],
+      "artist": "The Weeknd",
+      "tour": "After Hours Til Dawn Stadium Tour",
+      "venueName": "Estádio do Restelo",
+      "city": "Lisbon",
+      "country": "Portugal",
+      "identity": {
+        "providerEventId": null,
+        "providerVenueId": null,
+        "eventSpecificUrl": null
+      },
+      "verificationNotes": [
+        "Retained research claims; individual event identity, IANA timezone, source capture and stage remain unverified."
+      ],
+      "seatReference": {
+        "structure": "multi-stand football stadium + concert field",
+        "publicSeatMapStatus": "public-reference-only",
+        "eventSpecificMap": "not-yet-captured",
+        "seatCoordinates": "not available from tour announcement",
+        "stageLayout": {
+          "status": "unconfirmed",
+          "basis": "tour-level end-stage candidate only; do not use for distance or seat collision until event map is matched"
+        }
+      },
+      "eventLayout": {
+        "status": "unconfirmed",
+        "eventId": "weeknd-2026-2026-09-06-estadio-do-restelo",
+        "stageRects": [],
+        "closedSections": [],
+        "sourceKind": "venue-reference",
+        "stageVerification": "unverified",
+        "mapVerification": "unavailable"
+      }
+    },
+    {
+      "category": "music",
+      "id": "weeknd-2026-2026-09-19-belluna-dome",
+      "venueId": "belluna-dome",
+      "name": "The Weeknd · After Hours Til Dawn",
+      "startDate": "2026-09-19",
+      "endDate": null,
+      "localDate": "2026-09-19",
+      "endLocalDate": "2026-09-19",
+      "datePrecision": "day",
+      "timezone": null,
+      "status": "candidate",
+      "verificationStatus": "candidate",
+      "source": "https://www.theweeknd.com/tour/",
+      "sourceUrls": [
+        "https://www.theweeknd.com/tour/",
+        "https://www.prnewswire.com/news-releases/the-weeknd-kicks-off-european-leg-of-record-breaking-after-hours-til-dawn-tour-with-two-sold-out-shows-at-copenhagens-parken-stadium-302805855.html"
+      ],
+      "artist": "The Weeknd",
+      "tour": "After Hours Til Dawn Stadium Tour",
+      "venueName": "Belluna Dome",
+      "city": "Saitama",
+      "country": "Japan",
+      "identity": {
+        "providerEventId": null,
+        "providerVenueId": null,
+        "eventSpecificUrl": null
+      },
+      "verificationNotes": [
+        "Retained research claims; individual event identity, IANA timezone, source capture and stage remain unverified."
+      ],
+      "seatReference": {
+        "structure": "baseball dome bowl + concert arena/field",
+        "publicSeatMapStatus": "official-venue-reference",
+        "eventSpecificMap": "not-yet-captured",
+        "seatCoordinates": "not available from tour announcement",
+        "stageLayout": {
+          "status": "unconfirmed",
+          "basis": "tour-level end-stage candidate only; do not use for distance or seat collision until event map is matched"
+        }
+      },
+      "eventLayout": {
+        "status": "unconfirmed",
+        "eventId": "weeknd-2026-2026-09-19-belluna-dome",
+        "stageRects": [],
+        "closedSections": [],
+        "sourceKind": "venue-reference",
+        "stageVerification": "unverified",
+        "mapVerification": "unavailable"
+      }
+    },
+    {
+      "category": "music",
+      "id": "weeknd-2026-2026-09-20-belluna-dome",
+      "venueId": "belluna-dome",
+      "name": "The Weeknd · After Hours Til Dawn",
+      "startDate": "2026-09-20",
+      "endDate": null,
+      "localDate": "2026-09-20",
+      "endLocalDate": "2026-09-20",
+      "datePrecision": "day",
+      "timezone": null,
+      "status": "candidate",
+      "verificationStatus": "candidate",
+      "source": "https://www.theweeknd.com/tour/",
+      "sourceUrls": [
+        "https://www.theweeknd.com/tour/",
+        "https://www.prnewswire.com/news-releases/the-weeknd-kicks-off-european-leg-of-record-breaking-after-hours-til-dawn-tour-with-two-sold-out-shows-at-copenhagens-parken-stadium-302805855.html"
+      ],
+      "artist": "The Weeknd",
+      "tour": "After Hours Til Dawn Stadium Tour",
+      "venueName": "Belluna Dome",
+      "city": "Saitama",
+      "country": "Japan",
+      "identity": {
+        "providerEventId": null,
+        "providerVenueId": null,
+        "eventSpecificUrl": null
+      },
+      "verificationNotes": [
+        "Retained research claims; individual event identity, IANA timezone, source capture and stage remain unverified."
+      ],
+      "seatReference": {
+        "structure": "baseball dome bowl + concert arena/field",
+        "publicSeatMapStatus": "official-venue-reference",
+        "eventSpecificMap": "not-yet-captured",
+        "seatCoordinates": "not available from tour announcement",
+        "stageLayout": {
+          "status": "unconfirmed",
+          "basis": "tour-level end-stage candidate only; do not use for distance or seat collision until event map is matched"
+        }
+      },
+      "eventLayout": {
+        "status": "unconfirmed",
+        "eventId": "weeknd-2026-2026-09-20-belluna-dome",
+        "stageRects": [],
+        "closedSections": [],
+        "sourceKind": "venue-reference",
+        "stageVerification": "unverified",
+        "mapVerification": "unavailable"
+      }
+    },
+    {
+      "category": "music",
+      "id": "weeknd-2026-2026-09-26-jakarta-international-stadium",
+      "venueId": "jakarta-international-stadium",
+      "name": "The Weeknd · After Hours Til Dawn",
+      "startDate": "2026-09-26",
+      "endDate": null,
+      "localDate": "2026-09-26",
+      "endLocalDate": "2026-09-26",
+      "datePrecision": "day",
+      "timezone": null,
+      "status": "candidate",
+      "verificationStatus": "candidate",
+      "source": "https://www.theweeknd.com/tour/",
+      "sourceUrls": [
+        "https://www.theweeknd.com/tour/",
+        "https://www.prnewswire.com/news-releases/the-weeknd-kicks-off-european-leg-of-record-breaking-after-hours-til-dawn-tour-with-two-sold-out-shows-at-copenhagens-parken-stadium-302805855.html"
+      ],
+      "artist": "The Weeknd",
+      "tour": "After Hours Til Dawn Stadium Tour",
+      "venueName": "Jakarta International Stadium",
+      "city": "Jakarta",
+      "country": "Indonesia",
+      "identity": {
+        "providerEventId": null,
+        "providerVenueId": null,
+        "eventSpecificUrl": null
+      },
+      "verificationNotes": [
+        "Retained research claims; individual event identity, IANA timezone, source capture and stage remain unverified."
+      ],
+      "seatReference": {
+        "structure": "large multi-tier football bowl + field",
+        "publicSeatMapStatus": "venue-reference-unconfirmed",
+        "eventSpecificMap": "not-yet-captured",
+        "seatCoordinates": "not available from tour announcement",
+        "stageLayout": {
+          "status": "unconfirmed",
+          "basis": "tour-level end-stage candidate only; do not use for distance or seat collision until event map is matched"
+        }
+      },
+      "eventLayout": {
+        "status": "unconfirmed",
+        "eventId": "weeknd-2026-2026-09-26-jakarta-international-stadium",
+        "stageRects": [],
+        "closedSections": [],
+        "sourceKind": "venue-reference",
+        "stageVerification": "unverified",
+        "mapVerification": "unavailable"
+      }
+    },
+    {
+      "category": "music",
+      "id": "weeknd-2026-2026-09-27-jakarta-international-stadium",
+      "venueId": "jakarta-international-stadium",
+      "name": "The Weeknd · After Hours Til Dawn",
+      "startDate": "2026-09-27",
+      "endDate": null,
+      "localDate": "2026-09-27",
+      "endLocalDate": "2026-09-27",
+      "datePrecision": "day",
+      "timezone": null,
+      "status": "candidate",
+      "verificationStatus": "candidate",
+      "source": "https://www.theweeknd.com/tour/",
+      "sourceUrls": [
+        "https://www.theweeknd.com/tour/",
+        "https://www.prnewswire.com/news-releases/the-weeknd-kicks-off-european-leg-of-record-breaking-after-hours-til-dawn-tour-with-two-sold-out-shows-at-copenhagens-parken-stadium-302805855.html"
+      ],
+      "artist": "The Weeknd",
+      "tour": "After Hours Til Dawn Stadium Tour",
+      "venueName": "Jakarta International Stadium",
+      "city": "Jakarta",
+      "country": "Indonesia",
+      "identity": {
+        "providerEventId": null,
+        "providerVenueId": null,
+        "eventSpecificUrl": null
+      },
+      "verificationNotes": [
+        "Retained research claims; individual event identity, IANA timezone, source capture and stage remain unverified."
+      ],
+      "seatReference": {
+        "structure": "large multi-tier football bowl + field",
+        "publicSeatMapStatus": "venue-reference-unconfirmed",
+        "eventSpecificMap": "not-yet-captured",
+        "seatCoordinates": "not available from tour announcement",
+        "stageLayout": {
+          "status": "unconfirmed",
+          "basis": "tour-level end-stage candidate only; do not use for distance or seat collision until event map is matched"
+        }
+      },
+      "eventLayout": {
+        "status": "unconfirmed",
+        "eventId": "weeknd-2026-2026-09-27-jakarta-international-stadium",
+        "stageRects": [],
+        "closedSections": [],
+        "sourceKind": "venue-reference",
+        "stageVerification": "unverified",
+        "mapVerification": "unavailable"
+      }
+    },
+    {
+      "category": "music",
+      "id": "weeknd-2026-2026-10-02-national-stadium-singapore",
+      "venueId": "national-stadium-singapore",
+      "name": "The Weeknd · After Hours Til Dawn",
+      "startDate": "2026-10-02",
+      "endDate": null,
+      "localDate": "2026-10-02",
+      "endLocalDate": "2026-10-02",
+      "datePrecision": "day",
+      "timezone": null,
+      "status": "candidate",
+      "verificationStatus": "candidate",
+      "source": "https://www.theweeknd.com/tour/",
+      "sourceUrls": [
+        "https://www.theweeknd.com/tour/",
+        "https://www.prnewswire.com/news-releases/the-weeknd-kicks-off-european-leg-of-record-breaking-after-hours-til-dawn-tour-with-two-sold-out-shows-at-copenhagens-parken-stadium-302805855.html"
+      ],
+      "artist": "The Weeknd",
+      "tour": "After Hours Til Dawn Stadium Tour",
+      "venueName": "National Stadium Singapore",
+      "city": "Singapore",
+      "country": "Singapore",
+      "identity": {
+        "providerEventId": null,
+        "providerVenueId": null,
+        "eventSpecificUrl": null
+      },
+      "verificationNotes": [
+        "Retained research claims; individual event identity, IANA timezone, source capture and stage remain unverified."
+      ],
+      "seatReference": {
+        "structure": "retractable multi-tier bowl + field; concert map event-specific",
+        "publicSeatMapStatus": "official-venue-reference",
+        "eventSpecificMap": "not-yet-captured",
+        "seatCoordinates": "not available from tour announcement",
+        "stageLayout": {
+          "status": "unconfirmed",
+          "basis": "tour-level end-stage candidate only; do not use for distance or seat collision until event map is matched"
+        }
+      },
+      "eventLayout": {
+        "status": "unconfirmed",
+        "eventId": "weeknd-2026-2026-10-02-national-stadium-singapore",
+        "stageRects": [],
+        "closedSections": [],
+        "sourceKind": "venue-reference",
+        "stageVerification": "unverified",
+        "mapVerification": "unavailable"
+      }
+    },
+    {
+      "category": "music",
+      "id": "weeknd-2026-2026-10-03-national-stadium-singapore",
+      "venueId": "national-stadium-singapore",
+      "name": "The Weeknd · After Hours Til Dawn",
+      "startDate": "2026-10-03",
+      "endDate": null,
+      "localDate": "2026-10-03",
+      "endLocalDate": "2026-10-03",
+      "datePrecision": "day",
+      "timezone": null,
+      "status": "candidate",
+      "verificationStatus": "candidate",
+      "source": "https://www.theweeknd.com/tour/",
+      "sourceUrls": [
+        "https://www.theweeknd.com/tour/",
+        "https://www.prnewswire.com/news-releases/the-weeknd-kicks-off-european-leg-of-record-breaking-after-hours-til-dawn-tour-with-two-sold-out-shows-at-copenhagens-parken-stadium-302805855.html"
+      ],
+      "artist": "The Weeknd",
+      "tour": "After Hours Til Dawn Stadium Tour",
+      "venueName": "National Stadium Singapore",
+      "city": "Singapore",
+      "country": "Singapore",
+      "identity": {
+        "providerEventId": null,
+        "providerVenueId": null,
+        "eventSpecificUrl": null
+      },
+      "verificationNotes": [
+        "Retained research claims; individual event identity, IANA timezone, source capture and stage remain unverified."
+      ],
+      "seatReference": {
+        "structure": "retractable multi-tier bowl + field; concert map event-specific",
+        "publicSeatMapStatus": "official-venue-reference",
+        "eventSpecificMap": "not-yet-captured",
+        "seatCoordinates": "not available from tour announcement",
+        "stageLayout": {
+          "status": "unconfirmed",
+          "basis": "tour-level end-stage candidate only; do not use for distance or seat collision until event map is matched"
+        }
+      },
+      "eventLayout": {
+        "status": "unconfirmed",
+        "eventId": "weeknd-2026-2026-10-03-national-stadium-singapore",
+        "stageRects": [],
+        "closedSections": [],
+        "sourceKind": "venue-reference",
+        "stageVerification": "unverified",
+        "mapVerification": "unavailable"
+      }
+    },
+    {
+      "category": "music",
+      "id": "weeknd-2026-2026-10-07-goyang-stadium",
+      "venueId": "goyang-stadium",
+      "name": "The Weeknd · After Hours Til Dawn",
+      "startDate": "2026-10-07",
+      "endDate": null,
+      "localDate": "2026-10-07",
+      "endLocalDate": "2026-10-07",
+      "datePrecision": "day",
+      "timezone": null,
+      "status": "candidate",
+      "verificationStatus": "candidate",
+      "source": "https://www.theweeknd.com/tour/",
+      "sourceUrls": [
+        "https://www.theweeknd.com/tour/",
+        "https://www.prnewswire.com/news-releases/the-weeknd-kicks-off-european-leg-of-record-breaking-after-hours-til-dawn-tour-with-two-sold-out-shows-at-copenhagens-parken-stadium-302805855.html"
+      ],
+      "artist": "The Weeknd",
+      "tour": "After Hours Til Dawn Stadium Tour",
+      "venueName": "Goyang Stadium",
+      "city": "Goyang",
+      "country": "South Korea",
+      "identity": {
+        "providerEventId": null,
+        "providerVenueId": null,
+        "eventSpecificUrl": null
+      },
+      "verificationNotes": [
+        "Retained research claims; individual event identity, IANA timezone, source capture and stage remain unverified."
+      ],
+      "seatReference": {
+        "structure": "four sectors, two rings; concert field",
+        "publicSeatMapStatus": "official-operator-seat-map",
+        "eventSpecificMap": "not-yet-captured",
+        "seatCoordinates": "not available from tour announcement",
+        "stageLayout": {
+          "status": "unconfirmed",
+          "basis": "tour-level end-stage candidate only; do not use for distance or seat collision until event map is matched"
+        }
+      },
+      "eventLayout": {
+        "status": "unconfirmed",
+        "eventId": "weeknd-2026-2026-10-07-goyang-stadium",
+        "stageRects": [],
+        "closedSections": [],
+        "sourceKind": "venue-reference",
+        "stageVerification": "unverified",
+        "mapVerification": "unavailable"
+      }
+    },
+    {
+      "category": "music",
+      "id": "weeknd-2026-2026-10-08-goyang-stadium",
+      "venueId": "goyang-stadium",
+      "name": "The Weeknd · After Hours Til Dawn",
+      "startDate": "2026-10-08",
+      "endDate": null,
+      "localDate": "2026-10-08",
+      "endLocalDate": "2026-10-08",
+      "datePrecision": "day",
+      "timezone": null,
+      "status": "candidate",
+      "verificationStatus": "candidate",
+      "source": "https://www.theweeknd.com/tour/",
+      "sourceUrls": [
+        "https://www.theweeknd.com/tour/",
+        "https://www.prnewswire.com/news-releases/the-weeknd-kicks-off-european-leg-of-record-breaking-after-hours-til-dawn-tour-with-two-sold-out-shows-at-copenhagens-parken-stadium-302805855.html"
+      ],
+      "artist": "The Weeknd",
+      "tour": "After Hours Til Dawn Stadium Tour",
+      "venueName": "Goyang Stadium",
+      "city": "Goyang",
+      "country": "South Korea",
+      "identity": {
+        "providerEventId": null,
+        "providerVenueId": null,
+        "eventSpecificUrl": null
+      },
+      "verificationNotes": [
+        "Retained research claims; individual event identity, IANA timezone, source capture and stage remain unverified."
+      ],
+      "seatReference": {
+        "structure": "four sectors, two rings; concert field",
+        "publicSeatMapStatus": "official-operator-seat-map",
+        "eventSpecificMap": "not-yet-captured",
+        "seatCoordinates": "not available from tour announcement",
+        "stageLayout": {
+          "status": "unconfirmed",
+          "basis": "tour-level end-stage candidate only; do not use for distance or seat collision until event map is matched"
+        }
+      },
+      "eventLayout": {
+        "status": "unconfirmed",
+        "eventId": "weeknd-2026-2026-10-08-goyang-stadium",
+        "stageRects": [],
+        "closedSections": [],
+        "sourceKind": "venue-reference",
+        "stageVerification": "unverified",
+        "mapVerification": "unavailable"
+      }
+    },
+    {
+      "category": "music",
+      "id": "weeknd-2026-2026-10-11-rajamangala-national-stadium",
+      "venueId": "rajamangala-national-stadium",
+      "name": "The Weeknd · After Hours Til Dawn",
+      "startDate": "2026-10-11",
+      "endDate": null,
+      "localDate": "2026-10-11",
+      "endLocalDate": "2026-10-11",
+      "datePrecision": "day",
+      "timezone": null,
+      "status": "candidate",
+      "verificationStatus": "candidate",
+      "source": "https://www.theweeknd.com/tour/",
+      "sourceUrls": [
+        "https://www.theweeknd.com/tour/",
+        "https://www.prnewswire.com/news-releases/the-weeknd-kicks-off-european-leg-of-record-breaking-after-hours-til-dawn-tour-with-two-sold-out-shows-at-copenhagens-parken-stadium-302805855.html"
+      ],
+      "artist": "The Weeknd",
+      "tour": "After Hours Til Dawn Stadium Tour",
+      "venueName": "Rajamangala National Stadium",
+      "city": "Bangkok",
+      "country": "Thailand",
+      "identity": {
+        "providerEventId": null,
+        "providerVenueId": null,
+        "eventSpecificUrl": null
+      },
+      "verificationNotes": [
+        "Retained research claims; individual event identity, IANA timezone, source capture and stage remain unverified."
+      ],
+      "seatReference": {
+        "structure": "large multi-tier football bowl + field",
+        "publicSeatMapStatus": "venue-reference-unconfirmed",
+        "eventSpecificMap": "not-yet-captured",
+        "seatCoordinates": "not available from tour announcement",
+        "stageLayout": {
+          "status": "unconfirmed",
+          "basis": "tour-level end-stage candidate only; do not use for distance or seat collision until event map is matched"
+        }
+      },
+      "eventLayout": {
+        "status": "unconfirmed",
+        "eventId": "weeknd-2026-2026-10-11-rajamangala-national-stadium",
+        "stageRects": [],
+        "closedSections": [],
+        "sourceKind": "venue-reference",
+        "stageVerification": "unverified",
+        "mapVerification": "unavailable"
+      }
+    },
+    {
+      "category": "music",
+      "id": "weeknd-2026-2026-10-12-rajamangala-national-stadium",
+      "venueId": "rajamangala-national-stadium",
+      "name": "The Weeknd · After Hours Til Dawn",
+      "startDate": "2026-10-12",
+      "endDate": null,
+      "localDate": "2026-10-12",
+      "endLocalDate": "2026-10-12",
+      "datePrecision": "day",
+      "timezone": null,
+      "status": "candidate",
+      "verificationStatus": "candidate",
+      "source": "https://www.theweeknd.com/tour/",
+      "sourceUrls": [
+        "https://www.theweeknd.com/tour/",
+        "https://www.prnewswire.com/news-releases/the-weeknd-kicks-off-european-leg-of-record-breaking-after-hours-til-dawn-tour-with-two-sold-out-shows-at-copenhagens-parken-stadium-302805855.html"
+      ],
+      "artist": "The Weeknd",
+      "tour": "After Hours Til Dawn Stadium Tour",
+      "venueName": "Rajamangala National Stadium",
+      "city": "Bangkok",
+      "country": "Thailand",
+      "identity": {
+        "providerEventId": null,
+        "providerVenueId": null,
+        "eventSpecificUrl": null
+      },
+      "verificationNotes": [
+        "Retained research claims; individual event identity, IANA timezone, source capture and stage remain unverified."
+      ],
+      "seatReference": {
+        "structure": "large multi-tier football bowl + field",
+        "publicSeatMapStatus": "venue-reference-unconfirmed",
+        "eventSpecificMap": "not-yet-captured",
+        "seatCoordinates": "not available from tour announcement",
+        "stageLayout": {
+          "status": "unconfirmed",
+          "basis": "tour-level end-stage candidate only; do not use for distance or seat collision until event map is matched"
+        }
+      },
+      "eventLayout": {
+        "status": "unconfirmed",
+        "eventId": "weeknd-2026-2026-10-12-rajamangala-national-stadium",
+        "stageRects": [],
+        "closedSections": [],
+        "sourceKind": "venue-reference",
+        "stageVerification": "unverified",
+        "mapVerification": "unavailable"
+      }
+    },
+    {
+      "category": "music",
+      "id": "weeknd-2026-2026-10-13-rajamangala-national-stadium",
+      "venueId": "rajamangala-national-stadium",
+      "name": "The Weeknd · After Hours Til Dawn",
+      "startDate": "2026-10-13",
+      "endDate": null,
+      "localDate": "2026-10-13",
+      "endLocalDate": "2026-10-13",
+      "datePrecision": "day",
+      "timezone": null,
+      "status": "candidate",
+      "verificationStatus": "candidate",
+      "source": "https://www.theweeknd.com/tour/",
+      "sourceUrls": [
+        "https://www.theweeknd.com/tour/",
+        "https://www.prnewswire.com/news-releases/the-weeknd-kicks-off-european-leg-of-record-breaking-after-hours-til-dawn-tour-with-two-sold-out-shows-at-copenhagens-parken-stadium-302805855.html"
+      ],
+      "artist": "The Weeknd",
+      "tour": "After Hours Til Dawn Stadium Tour",
+      "venueName": "Rajamangala National Stadium",
+      "city": "Bangkok",
+      "country": "Thailand",
+      "identity": {
+        "providerEventId": null,
+        "providerVenueId": null,
+        "eventSpecificUrl": null
+      },
+      "verificationNotes": [
+        "Retained research claims; individual event identity, IANA timezone, source capture and stage remain unverified."
+      ],
+      "seatReference": {
+        "structure": "large multi-tier football bowl + field",
+        "publicSeatMapStatus": "venue-reference-unconfirmed",
+        "eventSpecificMap": "not-yet-captured",
+        "seatCoordinates": "not available from tour announcement",
+        "stageLayout": {
+          "status": "unconfirmed",
+          "basis": "tour-level end-stage candidate only; do not use for distance or seat collision until event map is matched"
+        }
+      },
+      "eventLayout": {
+        "status": "unconfirmed",
+        "eventId": "weeknd-2026-2026-10-13-rajamangala-national-stadium",
+        "stageRects": [],
+        "closedSections": [],
+        "sourceKind": "venue-reference",
+        "stageVerification": "unverified",
+        "mapVerification": "unavailable"
+      }
+    },
+    {
+      "category": "music",
+      "id": "weeknd-2026-2026-10-24-kai-tak-stadium",
+      "venueId": "kai-tak-stadium",
+      "name": "The Weeknd · After Hours Til Dawn",
+      "startDate": "2026-10-24",
+      "endDate": null,
+      "localDate": "2026-10-24",
+      "endLocalDate": "2026-10-24",
+      "datePrecision": "day",
+      "timezone": null,
+      "status": "candidate",
+      "verificationStatus": "candidate",
+      "source": "https://www.theweeknd.com/tour/",
+      "sourceUrls": [
+        "https://www.theweeknd.com/tour/",
+        "https://www.prnewswire.com/news-releases/the-weeknd-kicks-off-european-leg-of-record-breaking-after-hours-til-dawn-tour-with-two-sold-out-shows-at-copenhagens-parken-stadium-302805855.html"
+      ],
+      "artist": "The Weeknd",
+      "tour": "After Hours Til Dawn Stadium Tour",
+      "venueName": "Kai Tak Stadium",
+      "city": "Hong Kong",
+      "country": "Hong Kong",
+      "identity": {
+        "providerEventId": null,
+        "providerVenueId": null,
+        "eventSpecificUrl": null
+      },
+      "verificationNotes": [
+        "Retained research claims; individual event identity, IANA timezone, source capture and stage remain unverified."
+      ],
+      "seatReference": {
+        "structure": "new multi-tier stadium bowl + field",
+        "publicSeatMapStatus": "official-event-map-reference",
+        "eventSpecificMap": "official-admission-notice-linked-map",
+        "seatCoordinates": "not available from tour announcement",
+        "mapSources": [
+          "https://www.livenation.hk/en/theweeknd-hk-2026-admission-notice",
+          "https://lne.box.com/s/o92fe1sn3htgmrbg7kn3xxy5inxanvas",
+          "https://www.kaitaksportspark.com.hk/events-tickets/the-weeknd-after-hours-til-dawn-tour"
+        ],
+        "mapNotes": "官方通知明确区分 seated / standing，并说明每张票分配入口；官方场馆页说明活动座位图仅供参考，实际布局取决于演出方。",
+        "stageLayout": {
+          "status": "reference-only",
+          "basis": "official-admission-notice-linked-venue-map; stage orientation and restricted-view zones require operator tracing",
+          "confidence": "public-map-reference",
+          "use": "do-not-use-for-distance-or-seat-collision-until-traced"
+        }
+      },
+      "eventLayout": {
+        "status": "unconfirmed",
+        "eventId": "weeknd-2026-2026-10-24-kai-tak-stadium",
+        "stageRects": [],
+        "closedSections": [],
+        "sourceKind": "official-event-map-reference",
+        "stageVerification": "unverified",
+        "mapVerification": "reference"
+      }
+    },
+    {
+      "category": "music",
+      "id": "weeknd-2026-2026-10-25-kai-tak-stadium",
+      "venueId": "kai-tak-stadium",
+      "name": "The Weeknd · After Hours Til Dawn",
+      "startDate": "2026-10-25",
+      "endDate": null,
+      "localDate": "2026-10-25",
+      "endLocalDate": "2026-10-25",
+      "datePrecision": "day",
+      "timezone": null,
+      "status": "candidate",
+      "verificationStatus": "candidate",
+      "source": "https://www.theweeknd.com/tour/",
+      "sourceUrls": [
+        "https://www.theweeknd.com/tour/",
+        "https://www.prnewswire.com/news-releases/the-weeknd-kicks-off-european-leg-of-record-breaking-after-hours-til-dawn-tour-with-two-sold-out-shows-at-copenhagens-parken-stadium-302805855.html"
+      ],
+      "artist": "The Weeknd",
+      "tour": "After Hours Til Dawn Stadium Tour",
+      "venueName": "Kai Tak Stadium",
+      "city": "Hong Kong",
+      "country": "Hong Kong",
+      "identity": {
+        "providerEventId": null,
+        "providerVenueId": null,
+        "eventSpecificUrl": null
+      },
+      "verificationNotes": [
+        "Retained research claims; individual event identity, IANA timezone, source capture and stage remain unverified."
+      ],
+      "seatReference": {
+        "structure": "new multi-tier stadium bowl + field",
+        "publicSeatMapStatus": "official-event-map-reference",
+        "eventSpecificMap": "official-admission-notice-linked-map",
+        "seatCoordinates": "not available from tour announcement",
+        "mapSources": [
+          "https://www.livenation.hk/en/theweeknd-hk-2026-admission-notice",
+          "https://lne.box.com/s/o92fe1sn3htgmrbg7kn3xxy5inxanvas",
+          "https://www.kaitaksportspark.com.hk/events-tickets/the-weeknd-after-hours-til-dawn-tour"
+        ],
+        "mapNotes": "官方通知明确区分 seated / standing，并说明每张票分配入口；官方场馆页说明活动座位图仅供参考，实际布局取决于演出方。",
+        "stageLayout": {
+          "status": "reference-only",
+          "basis": "official-admission-notice-linked-venue-map; stage orientation and restricted-view zones require operator tracing",
+          "confidence": "public-map-reference",
+          "use": "do-not-use-for-distance-or-seat-collision-until-traced"
+        }
+      },
+      "eventLayout": {
+        "status": "unconfirmed",
+        "eventId": "weeknd-2026-2026-10-25-kai-tak-stadium",
+        "stageRects": [],
+        "closedSections": [],
+        "sourceKind": "official-event-map-reference",
+        "stageVerification": "unverified",
+        "mapVerification": "reference"
+      }
+    }
+  ]
+}

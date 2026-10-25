@@ -162,7 +162,8 @@ test('theatre ticket bands remain distinct throughout the retained import pipeli
   const front=v.sections.find(s=>s.id==='101'),middle=v.sections.find(s=>s.id==='201'),back=v.sections.find(s=>s.id==='301');
   assert.equal(front.radialEnd,.3);assert.equal(middle.radialStart,.32);assert.equal(back.radialStart,.57);
   assert.ok(front.center[1]<middle.center[1]&&middle.center[1]<back.center[1]);
-  assert.equal(stageRects('end',v)[0].z,10);
+  assert.equal(v.geometry.stage.z,10,'retained source stage must not move');
+  assert.deepEqual(stageRects('end',v),[],'hide source stage until its inconsistent footprint is reviewed');
 });
 
 test('generic profile stages stay inside the inner bowl rather than under seats',()=>{

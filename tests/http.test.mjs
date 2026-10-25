@@ -3,13 +3,13 @@ import assert from 'node:assert/strict';
 import {once} from 'node:events';
 import {openStore} from '../server/store.mjs';
 
-async function setup(t,venueRepository=null) {
+async function setup(t,venueRepository=null,extra={}) {
   const {createApplication}=await import('../server/app.mjs');
   const {validateVenueManifest}=await import('../server/venue-import.mjs');
   const config={appUrl:'http://127.0.0.1:4180',allowedOrigins:[],devMailbox:true,production:false};
   const db=openStore(':memory:');
   const venues=venueRepository||{catalog:()=>[{id:'tottenham',name:'Tottenham'},{id:'sofi',name:'SoFi'},{id:'hall-10',name:'Hall 10'}],get:id=>['tottenham','sofi','hall-10'].includes(id)?{id,sections:[{id:'122'}]}:null,resolve:()=>({status:'unknown'}),validate:validateVenueManifest};
-  const app=createApplication({db,config,venues});
+  const app=createApplication({db,config,venues,...extra});
   app.server.listen(0,'127.0.0.1');await once(app.server,'listening');
   const origin=`http://127.0.0.1:${app.server.address().port}`;config.appUrl=origin;
   t.after(async()=>{await new Promise(resolve=>app.server.close(resolve));db.close();});
@@ -174,4 +174,26 @@ test('admin can read and replace exactly ten free venues while the paywall follo
   assert.equal(catalog.venues.find(item=>item.id==='a').locked,true);
   assert.equal((await call('/api/venues/a')).status,403);
   assert.equal((await call('/api/venues/k')).status,200);
+});
+
+
+test('candidate sources stay admin-only and unreviewed models never enter public events',async t=>{
+  const legacy={id:'official',name:'Official show',localDate:'2026-10-25',layout:{model:{id:'unreviewed'}}};
+  const published={id:'reviewed',localDate:'2026-10-26',verificationStatus:'preview-published',layout:{model:{id:'immutable-version'}}};
+  const {call,login,config}=await setup(t,null,{
+    events:{list:()=>({events:[legacy,{...legacy,id:'candidate',status:'candidate'}],status:'ready'})},
+    ticketingEvents:{list:()=>({events:[{id:'name-match',matchStatus:'venue-name-candidate'}]}),data:{sentinel:'private research'}},
+    candidateEvents:{list:()=>({status:'candidate',events:[{id:'raw-candidate'}],venues:[],sets:[]})},
+    publishedEvents:{list:()=>[published]}
+  });
+  config.adminEmails=['admin@example.com'];
+  const result=await(await call('/api/venues/tottenham/events')).json();
+  assert.deepEqual(result.events.map(e=>e.id),['official','reviewed']);
+  assert.equal(result.events[0].layout.model,null);assert.equal(result.events[1].layout.model.id,'immutable-version');
+  assert.equal(result.ticketing.candidates,1);assert.equal(result.ticketing.events,undefined);
+  assert.equal((await call('/api/admin/event-candidates')).status,401);
+  const viewer=await login('viewer@example.com');assert.equal((await call('/api/admin/event-candidates',{cookie:viewer.cookie})).status,403);
+  const admin=await login('admin@example.com');
+  const candidates=await(await call('/api/admin/event-candidates',{cookie:admin.cookie})).json();
+  assert.equal(candidates.events[0].id,'raw-candidate');assert.equal(candidates.ticketing.sentinel,'private research');
 });

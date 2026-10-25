@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "startedAt": "2026-10-25T08:41:13.251Z",
+  "requests": [
+    {
+      "id": "ticketmaster-discovery",
+      "url": "https://app.ticketmaster.com/discovery/v2/events.json?keyword=JAY-Z&venueId=KovZ917ACh0&size=5",
+      "startedAt": "2026-10-25T08:41:13.251Z",
+      "ok": false,
+      "status": null,
+      "error": "ECONNRESET"
+    },
+    {
+      "id": "brave-search",
+      "url": "https://api.search.brave.com/res/v1/web/search?q=JAY-Z+SoFi+Stadium+October+24+2026+entrance+seat+view&count=5",
+      "finalOrigin": "https://api.search.brave.com",
+      "startedAt": "2026-10-25T08:41:23.290Z",
+      "status": 422,
+      "ok": false,
+      "bytes": 233,
+      "sha256": "09dc98b2079e40b0822355c1bddfbecf2900a7f14db5362c113b97f539d1e432",
+      "contentType": "application/json"
+    },
+    {
+      "id": "youtube-data-search",
+      "url": "https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&maxResults=5&q=JAY-Z+SoFi+October+24+2026+seat+view",
+      "finalOrigin": "https://www.googleapis.com",
+      "startedAt": "2026-10-25T08:41:24.058Z",
+      "status": 403,
+      "ok": false,
+      "bytes": 525,
+      "sha256": "7156aa359dc6d1c957aebfe92356d3b42291ef0d3694160fdd69055a45849de4",
+      "contentType": "application/json; charset=UTF-8"
+    },
+    {
+      "id": "official-event",
+      "url": "https://www.sofistadium.com/events/detail/jay-z-october-24-2026",
+      "finalOrigin": "https://www.sofistadium.com",
+      "startedAt": "2026-10-25T08:41:24.812Z",
+      "status": 200,
+      "ok": true,
+      "bytes": 81533,
+      "sha256": "0a197db735c99f86a693786c9fe7e67ac30264f906e2b4a318dd967cc0c47624",
+      "contentType": "text/html; charset=UTF-8"
+    },
+    {
+      "id": "official-guide",
+      "url": "https://www.sofistadium.com/a-z-guide",
+      "finalOrigin": "https://www.sofistadium.com",
+      "startedAt": "2026-10-25T08:41:26.155Z",
+      "status": 200,
+      "ok": true,
+      "bytes": 230438,
+      "sha256": "6fc0201abbc51d14d588ff2fb5a8e147d13cd8210b5153cee74216f05fd2881f",
+      "contentType": "text/html; charset=UTF-8"
+    },
+    {
+      "id": "official-maps",
+      "url": "https://www.sofistadium.com/plan-your-visit/maps",
+      "finalOrigin": "https://www.sofistadium.com",
+      "startedAt": "2026-10-25T08:41:28.354Z",
+      "status": 200,
+      "ok": true,
+      "bytes": 79667,
+      "sha256": "fce20283b2509fb7cb936da725f3bf2c6b0e8e317c09edfd6a74d36120b1b0a3",
+      "contentType": "text/html; charset=UTF-8"
+    },
+    {
+      "id": "ticketmaster-public-seatmap",
+      "url": "https://mapsapi.tmol.io/maps/geometry/3/event/0A0064C8E971D777/staticImage?type=png&systemId=HOST",
+      "finalOrigin": "https://mapsapi.tmol.io",
+      "startedAt": "2026-10-25T08:41:29.080Z",
+      "status": 200,
+      "ok": true,
+      "bytes": 330126,
+      "sha256": "30196d41d381e93efba2cd93af3d4eee49cb990ce442e9ac7a85aa6e8f578fd1",
+      "contentType": "image/png"
+    },
+    {
+      "id": "youtube-oembed-NKs2ljKPGkk",
+      "url": "https://www.youtube.com/oembed?format=json&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DNKs2ljKPGkk",
+      "finalOrigin": "https://www.youtube.com",
+      "startedAt": "2026-10-25T08:41:31.942Z",
+      "status": 200,
+      "ok": true,
+      "bytes": 810,
+      "sha256": "c18ad2a683e60f13a9a78db30032f2d3a9e1ce88780390e65605971c4b5fe2ea",
+      "contentType": "application/json"
+    },
+    {
+      "id": "youtube-oembed-pREUi_c7bUQ",
+      "url": "https://www.youtube.com/oembed?format=json&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DpREUi_c7bUQ",
+      "finalOrigin": "https://www.youtube.com",
+      "startedAt": "2026-10-25T08:41:32.673Z",
+      "status": 200,
+      "ok": true,
+      "bytes": 940,
+      "sha256": "d33abed324c19d2488fc7c75cf484193d65f15527024dcecc129648da8f84d79",
+      "contentType": "application/json"
+    }
+  ],
+  "credentials": {
+    "ticketmaster": false,
+    "brave": false,
+    "youtube": false
+  },
+  "completedAt": "2026-10-25T08:41:32.884Z",
+  "authenticatedCombinationPassed": false
+}
