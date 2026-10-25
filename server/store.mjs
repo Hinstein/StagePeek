@@ -1,6 +1,7 @@
 import {DatabaseSync} from 'node:sqlite';
 import {mkdirSync, chmodSync} from 'node:fs';
 import {dirname} from 'node:path';
+import {AsyncLocalStorage} from 'node:async_hooks';
 
 export function openStore(path) {
   if(path!==':memory:') mkdirSync(dirname(path),{recursive:true,mode:0o700});
@@ -57,24 +58,56 @@ export function openStore(path) {
     ) STRICT;
   `);
   if(!db.prepare('PRAGMA table_info(saved_positions)').all().some(column=>column.name==='layout'))db.exec('ALTER TABLE saved_positions ADD COLUMN layout TEXT');
-  return db;
+  return sqliteAdapter(db);
 }
 
-export function transaction(db,fn) {
-  db.exec('BEGIN IMMEDIATE');
-  try {const result=fn();db.exec('COMMIT');return result;}
-  catch(error){db.exec('ROLLBACK');throw error;}
+export async function transaction(db,fn) {
+  if(db.transaction)return db.transaction(fn);
+  throw new Error('Store does not support transactions');
 }
 
 export function fault(status,code,message) {
   return Object.assign(new Error(message),{status,code});
 }
 
-export function limit(db,key,max,windowMs,now=Date.now()) {
-  transaction(db,()=>{
-    const item=db.prepare('SELECT count,reset_at FROM rate_limits WHERE key=?').get(key);
-    if(!item||item.reset_at<=now){db.prepare('INSERT OR REPLACE INTO rate_limits VALUES(?,?,?)').run(key,1,now+windowMs);return;}
+export async function limit(db,key,max,windowMs,now=Date.now()) {
+  await transaction(db,async()=>{
+    const item=await db.prepare('SELECT count,reset_at FROM rate_limits WHERE key=?').get(key);
+    if(!item||item.reset_at<=now){
+      await db.prepare(`INSERT INTO rate_limits VALUES(?,?,?) ON CONFLICT(key)
+        DO UPDATE SET count=excluded.count,reset_at=excluded.reset_at`).run(key,1,now+windowMs);return;
+    }
     if(item.count>=max)throw fault(429,'RATE_LIMITED','Too many requests; try again later');
-    db.prepare('UPDATE rate_limits SET count=count+1 WHERE key=?').run(key);
+    await db.prepare('UPDATE rate_limits SET count=count+1 WHERE key=?').run(key);
   });
+}
+
+// One SQLite connection is for development/tests only. All operations join the
+// same asynchronous queue, so an await cannot let another request enter a tx.
+function sqliteAdapter(raw) {
+  const context=new AsyncLocalStorage();let tail=Promise.resolve();
+  const exclusive=fn=>{
+    if(context.getStore())return Promise.resolve().then(fn);
+    const work=tail.then(()=>context.run(true,fn));tail=work.catch(()=>{});return work;
+  };
+  return {
+    dialect:'sqlite',
+    prepare(sql){return Object.fromEntries(['get','all','run'].map(method=>[method,(...values)=>exclusive(()=>raw.prepare(sql)[method](...values))]));},
+    exec(sql){return exclusive(()=>raw.exec(sql));},
+    transaction(fn){return exclusive(async()=>{
+      raw.exec('BEGIN IMMEDIATE');
+      try{const result=await fn();raw.exec('COMMIT');return result;}
+      catch(error){raw.exec('ROLLBACK');throw error;}
+    });},
+    close(){return exclusive(()=>raw.close());}
+  };
+}
+
+export async function openDatabase(config) {
+  if(config.databaseUrl){
+    const {openPostgres}=await import('./postgres-store.mjs');
+    return openPostgres(config);
+  }
+  if(config.production)throw new Error('Production requires DATABASE_URL (PostgreSQL)');
+  return openStore(config.dbPath);
 }

@@ -16,8 +16,13 @@ export function loadConfig(env=process.env) {
   });
   const devPreviewAllVenues=env.DEV_PREVIEW_ALL_VENUES==='true';
   if(production&&devPreviewAllVenues)throw new Error('DEV_PREVIEW_ALL_VENUES is forbidden in production');
+  if(production&&!env.DATABASE_URL)throw new Error('Production requires DATABASE_URL (PostgreSQL)');
+  const databaseSchema=env.DATABASE_SCHEMA||'site_stagepeek';
+  if(!/^site_stagepeek(?:_[a-z0-9_]+)?$/.test(databaseSchema))throw new Error('Invalid StagePeek DATABASE_SCHEMA');
+  const databasePoolMax=Number(env.DATABASE_POOL_MAX||5);
+  if(!Number.isInteger(databasePoolMax)||databasePoolMax<1||databasePoolMax>20)throw new Error('DATABASE_POOL_MAX must be 1–20');
   const freeVenueIds=String(env.FREE_VENUE_IDS||DEFAULT_FREE_VENUE_IDS.join(',')).split(',').map(x=>x.trim()).filter(Boolean);
-  return {production,appUrl:app.origin,host:env.HOST||'127.0.0.1',port,allowedOrigins,devMailbox,devPreviewAllVenues,freeVenueIds,
+  return {databaseUrl:env.DATABASE_URL||'',databaseSchema,databasePoolMax,production,appUrl:app.origin,host:env.HOST||'127.0.0.1',port,allowedOrigins,devMailbox,devPreviewAllVenues,freeVenueIds,
     adminEmails:String(env.ADMIN_EMAILS||'').split(',').map(x=>x.trim().toLowerCase()).filter(Boolean),
     dbPath:resolve(env.DB_PATH||fileURLToPath(new URL('../var/seatpeep.sqlite',import.meta.url))),
     googleClientId:env.GOOGLE_CLIENT_ID||'',googleClientSecret:env.GOOGLE_CLIENT_SECRET||'',ticketmasterApiKey:env.TICKETMASTER_API_KEY||'',

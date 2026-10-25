@@ -12,7 +12,7 @@ async function setup(t,venueRepository=null,extra={}) {
   const app=createApplication({db,config,venues,...extra});
   app.server.listen(0,'127.0.0.1');await once(app.server,'listening');
   const origin=`http://127.0.0.1:${app.server.address().port}`;config.appUrl=origin;
-  t.after(async()=>{await new Promise(resolve=>app.server.close(resolve));db.close();});
+  t.after(async()=>{await new Promise(resolve=>app.server.close(resolve));await db.close();});
   const call=(path,{body,cookie,origin:requestOrigin=origin,method=body?'POST':'GET',headers={}}={})=>fetch(origin+path,{
     method,headers:{...(body?{'Content-Type':'application/json',Origin:requestOrigin}:{}),...(cookie?{Cookie:cookie}:{}),...headers},body:body?JSON.stringify(body):undefined,redirect:'manual'
   });
@@ -100,7 +100,7 @@ test('local monthly checkout upgrades only the signed-in development account',as
 
 test('public root and app modules are actually served while data files remain private',async t=>{
   const {call}=await setup(t);
-  assert.deepEqual(await (await call('/healthz')).json(),{ok:true,service:'seatpeep'});
+  assert.deepEqual(await (await call('/healthz')).json(),{ok:true,service:'stagepeek'});
   const page=await call('/');assert.equal(page.status,200);assert.match(await page.text(),/找到你的现场位置/);
   const module=await call('/app.mjs');assert.equal(module.status,200);assert.match(module.headers.get('content-type'),/javascript/);
   assert.equal((await call('/vendor/three.module.min.js')).status,200);

@@ -9,7 +9,7 @@ const response=value=>new Response(JSON.stringify(value),{headers:{'content-type
 async function setup(t) {
   const {BillingService}=await import('../server/billing.mjs');
   const db=openStore(':memory:');t.after(()=>db.close());const now=1_800_000_000_000;let clock=now;
-  const auth=new AuthService(db,{clock:()=>now});const user=auth.consumeEmail(auth.issueEmail('viewer@example.com').token);
+  const auth=new AuthService(db,{clock:()=>now});const user=(await auth.consumeEmail((await auth.issueEmail('viewer@example.com')).token));
   const calls=[];
   const current={id:'sub_1',customer:'cus_1',status:'active',current_period_end:now/1000+86400,cancel_at_period_end:false,items:{data:[{price:{id:'price_monthly'}}]}};
   let interval='month',sessionCount=0;const pending={id:'cs_1',url:'https://checkout.stripe.com/c/pay/cs_1',status:'open',customer:'cus_1',expires_at:now/1000+3600};const liveSubscriptions=[];
@@ -39,7 +39,7 @@ test('checkout uses server monthly price and stored customer; redirects never gr
   const {service,user,db,calls,now}=await setup(t);
   const result=await service.checkout(user);
   assert.match(result.url,/^https:\/\/checkout.stripe.com\//);
-  assert.equal(entitlements(db,user,now).plan,'free');
+  assert.equal((await entitlements(db,user,now)).plan,'free');
   const request=calls.find(x=>x.url.endsWith('/checkout/sessions'));
   const form=new URLSearchParams(request.options.body);
   assert.equal(form.get('mode'),'subscription');
@@ -68,7 +68,7 @@ test('pending checkout is reused across concurrent clicks, ten-minute windows an
 test('live provider subscription blocks a new checkout while its webhook has not arrived',async t=>{
   const {service,user,liveSubscriptions,db,now,calls}=await setup(t);
   liveSubscriptions.push({id:'sub_1',customer:'cus_1',status:'active',items:{data:[{price:{id:'price_monthly'}}]}});
-  assert.equal(entitlements(db,user,now).plan,'free');
+  assert.equal((await entitlements(db,user,now)).plan,'free');
   await assert.rejects(()=>service.checkout(user),error=>error.code==='ALREADY_SUBSCRIBED');
   assert.equal(calls.filter(x=>x.url.endsWith('/checkout/sessions')).length,0);
 });
@@ -79,26 +79,26 @@ test('webhook verifies signature and time before touching account',async t=>{
   await assert.rejects(()=>service.webhook(req.raw,'t=1800000000,v1=00'),/signature/i);
   const stale=signed(event(),now/1000-301);
   await assert.rejects(()=>service.webhook(stale.raw,stale.signature),/signature/i);
-  assert.equal(db.prepare('SELECT count(*) n FROM subscriptions').get().n,0);
+  assert.equal((await db.prepare('SELECT count(*) n FROM subscriptions').get()).n,0);
 });
 
 test('replayed and delayed webhooks use provider current state and cannot resurrect canceled access',async t=>{
   const {service,user,db,current,signed,event,now}=await setup(t);await service.checkout(user);
   let req=signed(event());await service.webhook(req.raw,req.signature);
-  assert.equal(entitlements(db,user,now).plan,'pro');
+  assert.equal((await entitlements(db,user,now)).plan,'pro');
   assert.equal((await service.webhook(req.raw,req.signature)).duplicate,true);
   current.status='canceled';req=signed(event('evt_2'));await service.webhook(req.raw,req.signature);
-  assert.equal(entitlements(db,user,now).plan,'free');
+  assert.equal((await entitlements(db,user,now)).plan,'free');
   const delayed={...event('evt_old'),data:{object:{...current,status:'active'}}};
   req=signed(delayed);await service.webhook(req.raw,req.signature);
-  assert.equal(entitlements(db,user,now).plan,'free');
+  assert.equal((await entitlements(db,user,now)).plan,'free');
 });
 
 test('wrong price or unknown customer does not grant premium access',async t=>{
   const {service,user,db,current,signed,event,now}=await setup(t);await service.checkout(user);
   current.items.data[0].price.id='price_other';let req=signed(event());await service.webhook(req.raw,req.signature);
-  assert.equal(entitlements(db,user,now).plan,'free');
+  assert.equal((await entitlements(db,user,now)).plan,'free');
   current.items.data[0].price.id='price_monthly';current.customer='cus_stranger';
   req=signed(event('evt_2'));await service.webhook(req.raw,req.signature);
-  assert.equal(entitlements(db,user,now).plan,'free');
+  assert.equal((await entitlements(db,user,now)).plan,'free');
 });

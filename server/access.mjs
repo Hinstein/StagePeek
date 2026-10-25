@@ -23,27 +23,27 @@ export function normalizeFreeVenueIds(values,availableIds, {requireExactlyTen=fa
   return ids;
 }
 
-export function freeVenueIds(db,availableIds,configuredIds=DEFAULT_FREE_VENUE_IDS) {
+export async function freeVenueIds(db,availableIds,configuredIds=DEFAULT_FREE_VENUE_IDS) {
   const available=uniqueStrings(availableIds);
-  const stored=db.prepare('SELECT value FROM access_settings WHERE key=?').get(SETTING_KEY);
+  const stored=(await db.prepare('SELECT value FROM access_settings WHERE key=?').get(SETTING_KEY));
   if(stored){try{return normalizeFreeVenueIds(JSON.parse(stored.value),available);}catch{/* fall through to the safe configured default */}}
   const configured=uniqueStrings(configuredIds);
   const usable=configured.filter(id=>available.includes(id));
   return usable.length?usable:available.filter(id=>DEFAULT_FREE_VENUE_IDS.includes(id)).slice(0,10).length?available.filter(id=>DEFAULT_FREE_VENUE_IDS.includes(id)).slice(0,10):available.slice(0,1);
 }
 
-export function saveFreeVenueIds(db,ids,availableIds,updatedBy='',now=Date.now()) {
+export async function saveFreeVenueIds(db,ids,availableIds,updatedBy='',now=Date.now()) {
   const normalized=normalizeFreeVenueIds(ids,availableIds,{requireExactlyTen:true});
-  db.prepare(`INSERT INTO access_settings(key,value,updated_at,updated_by) VALUES(?,?,?,?)
+  (await db.prepare(`INSERT INTO access_settings(key,value,updated_at,updated_by) VALUES(?,?,?,?)
     ON CONFLICT(key) DO UPDATE SET value=excluded.value,updated_at=excluded.updated_at,updated_by=excluded.updated_by`)
-    .run(SETTING_KEY,JSON.stringify(normalized),now,String(updatedBy||'').slice(0,254));
+    .run(SETTING_KEY,JSON.stringify(normalized),now,String(updatedBy||'').slice(0,254)));
   return normalized;
 }
 
-export function entitlements(db,user,now=Date.now(),venueIds=VENUE_IDS,configuredFreeVenueIds=fallbackFree) {
+export async function entitlements(db,user,now=Date.now(),venueIds=VENUE_IDS,configuredFreeVenueIds=fallbackFree) {
   const all=uniqueStrings(venueIds);
   const free=uniqueStrings(configuredFreeVenueIds).filter(id=>all.includes(id));
-  const paid=user&&db.prepare(`SELECT id FROM subscriptions WHERE user_id=?
-    AND status IN ('active','trialing') AND period_end>? LIMIT 1`).get(user.id,now);
+  const paid=user&&(await db.prepare(`SELECT id FROM subscriptions WHERE user_id=?
+    AND status IN ('active','trialing') AND period_end>? LIMIT 1`).get(user.id,now));
   return {plan:paid?'pro':user?'free':'guest',venueIds:paid?all:free,freeVenueIds:free,paidVenueCount:Math.max(0,all.length-free.length),canSave:!!user,maxSaved:paid?100:8};
 }

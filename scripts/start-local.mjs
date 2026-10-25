@@ -2,9 +2,10 @@ import {networkInterfaces} from 'node:os';
 import {seedLocal} from './seed-local.mjs';
 
 if(process.env.NODE_ENV==='production')throw new Error('Local test mode cannot run in production');
-const db=seedLocal();
+const db=await seedLocal();
 const ip=Object.values(networkInterfaces()).flat().find(x=>x.family==='IPv4'&&!x.internal&&/^(10\.|192\.168\.|172\.(1[6-9]|2\d|3[01])\.)/.test(x.address))?.address;
 const port=process.env.PORT||'4180';
+delete process.env.DATABASE_URL;
 process.env.NODE_ENV='development';process.env.DEV_MAILBOX='true';process.env.DB_PATH=db;
 process.env.DEV_PREVIEW_ALL_VENUES='true';
 process.env.HOST=process.env.HOST||'0.0.0.0';

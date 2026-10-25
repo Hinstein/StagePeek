@@ -166,3 +166,8 @@ npm run artist:validate
 导入脚本是幂等的：只复制研究包并重建候选文件，不修改 `data/venues.json` 或 `data/events.json`。管理员可通过 `GET /api/admin/event-candidates` 查看候选集；正式发布仍需单独的事件级来源、布局和复核流程。所有 58 场即使日期已经过去，也会保留在研究和候选层。
 
 因此，短期由我们用研究资料包和 CLI 添加，后台管理员随后可以用同一份校验/发布接口操作；前端不承担建模和数据审核。Wembley 是这条流程的第一个样例：25 个官方支持页明确出现的锚点已发布，0 条逐座采样，页面会显示“尚无可核对的排座采样”。
+
+
+## PostgreSQL
+
+Production requires `DATABASE_URL`, `DATABASE_SCHEMA=site_stagepeek` and an encrypted server-to-server connection. It never falls back to SQLite. Existing SQLite data is snapshotted and migrated with `scripts/migrate-sqlite-postgres.mjs`; the default is a read-only dry run, and `--apply` requires an empty destination. Development uses the separate `site_stagepeek_dev` schema. Credentials belong in ignored local environment files or Coolify secrets.

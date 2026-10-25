@@ -1,5 +1,5 @@
 {
-  "name": "seatpeep",
+  "name": "stagepeek",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -8,8 +8,8 @@
   },
   "scripts": {
     "start": "node --env-file-if-exists=.env server/main.mjs",
-    "start:local": "node scripts/start-local.mjs",
-    "check": "node --check server/main.mjs && node --check server/app.mjs && node --check server/access.mjs && node --check server/providers.mjs && node --check public/app.mjs && node --check public/admin.mjs && node --check public/geometry.mjs && node --check server/event-candidates.mjs && node --check server/event-publication.mjs && node --check scripts/import-weeknd-tour.mjs && node --check scripts/separate-weeknd-candidates.mjs && node --check scripts/publish-event.mjs",
+    "start:local": "node --env-file-if-exists=var/site_stagepeek_dev.env scripts/start-local-postgres.mjs",
+    "check": "node --check server/main.mjs && node --check server/app.mjs && node --check server/access.mjs && node --check server/providers.mjs && node --check public/app.mjs && node --check public/admin.mjs && node --check public/geometry.mjs && node --check server/event-candidates.mjs && node --check server/event-publication.mjs && node --check scripts/import-weeknd-tour.mjs && node --check scripts/separate-weeknd-candidates.mjs && node --check scripts/publish-event.mjs && node --check server/postgres-store.mjs && node --check server/store.mjs && node --check server/config.mjs && node --check server/auth.mjs && node --check server/billing.mjs",
     "build": "npm run check",
     "local:seed": "node scripts/seed-local.mjs",
     "venue:validate": "node scripts/add-venue.mjs",
@@ -21,6 +21,14 @@
     "artist:validate": "node --test tests/artist-tour-data.test.mjs tests/candidate-boundaries.test.mjs tests/event-publication.test.mjs",
     "artist:import:weeknd": "node scripts/import-weeknd-tour.mjs",
     "artist:separate:weeknd": "node scripts/separate-weeknd-candidates.mjs",
-    "events:publish": "node scripts/publish-event.mjs"
+    "events:publish": "node scripts/publish-event.mjs",
+    "start:local:postgres": "node --env-file-if-exists=var/site_stagepeek_dev.env scripts/start-local-postgres.mjs",
+    "start:local:sqlite": "node scripts/start-local.mjs",
+    "db:provision": "node scripts/provision-postgres.mjs",
+    "db:migrate": "node scripts/migrate-sqlite-postgres.mjs",
+    "test:postgres": "POSTGRES_INTEGRATION=true node --env-file=var/site_stagepeek_dev.env --test tests/postgres.test.mjs"
+  },
+  "dependencies": {
+    "pg": "8.23.0"
   }
 }
