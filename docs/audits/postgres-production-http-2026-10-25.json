@@ -1,0 +1,201 @@
+{
+  "domain": "https://stagepeek.live",
+  "checks": [
+    {
+      "path": "/",
+      "method": "GET",
+      "expected": 200,
+      "actual": 200,
+      "ok": true,
+      "brand": true,
+      "hsts": "max-age=31536000; includeSubDomains"
+    },
+    {
+      "path": "/healthz",
+      "method": "GET",
+      "expected": 200,
+      "actual": 200,
+      "ok": true
+    },
+    {
+      "path": "/api/health",
+      "method": "GET",
+      "expected": 200,
+      "actual": 200,
+      "ok": true
+    },
+    {
+      "path": "/api/venues",
+      "method": "GET",
+      "expected": 200,
+      "actual": 200,
+      "ok": true,
+      "count": 197,
+      "lockedId": "afas-live"
+    },
+    {
+      "path": "/api/me",
+      "method": "GET",
+      "expected": 200,
+      "actual": 200,
+      "ok": true,
+      "providers": {
+        "email": false,
+        "google": false,
+        "billing": false,
+        "localEmail": false,
+        "localGoogle": false,
+        "localBilling": false,
+        "localInbox": false,
+        "ticketing": {
+          "ticketmaster": {
+            "enabled": false,
+            "mode": "cached-only",
+            "scope": "event-metadata-and-public-seatmap-reference"
+          }
+        }
+      }
+    },
+    {
+      "path": "/brand/stagepeek-logo-dark.svg",
+      "method": "GET",
+      "expected": 200,
+      "actual": 200,
+      "ok": true
+    },
+    {
+      "path": "/brand/stagepeek-mark.svg",
+      "method": "GET",
+      "expected": 200,
+      "actual": 200,
+      "ok": true
+    },
+    {
+      "path": "/app.mjs",
+      "method": "GET",
+      "expected": 200,
+      "actual": 200,
+      "ok": true
+    },
+    {
+      "path": "/style.css",
+      "method": "GET",
+      "expected": 200,
+      "actual": 200,
+      "ok": true
+    },
+    {
+      "path": "/api/venues/tottenham",
+      "method": "GET",
+      "expected": 200,
+      "actual": 200,
+      "ok": true
+    },
+    {
+      "path": "/api/venues/afas-live",
+      "method": "GET",
+      "expected": 403,
+      "actual": 403,
+      "ok": true,
+      "error": {
+        "error": {
+          "code": "SUBSCRIPTION_REQUIRED",
+          "message": "This venue requires a monthly subscription"
+        }
+      }
+    },
+    {
+      "path": "/api/admin/access",
+      "method": "GET",
+      "expected": 401,
+      "actual": 401,
+      "ok": true,
+      "error": {
+        "error": {
+          "code": "LOGIN_REQUIRED",
+          "message": "Sign in first"
+        }
+      }
+    },
+    {
+      "path": "/api/positions",
+      "method": "GET",
+      "expected": 401,
+      "actual": 401,
+      "ok": true,
+      "error": {
+        "error": {
+          "code": "LOGIN_REQUIRED",
+          "message": "Sign in first"
+        }
+      }
+    },
+    {
+      "path": "/server/config.mjs",
+      "method": "GET",
+      "expected": 404,
+      "actual": 404,
+      "ok": true,
+      "error": {
+        "error": {
+          "code": "NOT_FOUND",
+          "message": "Not found"
+        }
+      }
+    },
+    {
+      "path": "/.env",
+      "method": "GET",
+      "expected": 404,
+      "actual": 404,
+      "ok": true,
+      "error": {
+        "error": {
+          "code": "NOT_FOUND",
+          "message": "Not found"
+        }
+      }
+    },
+    {
+      "path": "/api/dev/mailbox",
+      "method": "GET",
+      "expected": 404,
+      "actual": 404,
+      "ok": true,
+      "error": {
+        "error": {
+          "code": "NOT_FOUND",
+          "message": "Not found"
+        }
+      }
+    },
+    {
+      "path": "/api/auth/google/dev-callback",
+      "method": "GET",
+      "expected": 404,
+      "actual": 404,
+      "ok": true,
+      "error": {
+        "error": {
+          "code": "NOT_FOUND",
+          "message": "Not found"
+        }
+      }
+    },
+    {
+      "path": "/api/auth/email",
+      "method": "POST",
+      "expected": 403,
+      "actual": 403,
+      "ok": true,
+      "error": {
+        "error": {
+          "code": "ORIGIN_REQUIRED",
+          "message": "Same-origin request required"
+        }
+      }
+    }
+  ],
+  "passed": 18,
+  "total": 18
+}
