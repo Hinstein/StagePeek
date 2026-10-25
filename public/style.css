@@ -38,7 +38,7 @@ body.explorer-expanded{overflow:hidden}.viewer.is-expanded{position:fixed;inset:
 :root{--paper:#f5f7f3;--ink:#19372f;--muted:#718178;--green:#2f604b;--border:#d8e1d8;--card:#fffefa;--radius:18px}
 body{background:radial-gradient(circle at 12% -8%,#ffffff 0,#f5f7f3 38%,#eef3ed 100%);letter-spacing:.005em}
 .header{position:sticky;top:0;z-index:20;background:#ffffffd9;backdrop-filter:blur(18px);box-shadow:0 1px 0 #d6e0d766}
-.brand{letter-spacing:-1.15px}.brand span{color:#cf7040}
+.brand{display:flex;align-items:center;gap:12px;letter-spacing:-1.15px}.brand-logo{display:block;width:168px;height:48px;object-fit:contain}.brand small{letter-spacing:0;font-size:11px;font-weight:400;margin-left:2px;color:var(--muted)}
 button{border-radius:10px;box-shadow:0 1px 0 #17382a08;transition:background .15s,border-color .15s,box-shadow .15s,transform .15s}
 button:hover:not(:disabled){transform:translateY(-1px);box-shadow:0 5px 14px #1c473016}
 button.active,button.primary{box-shadow:0 5px 14px #17382a16}
@@ -51,7 +51,7 @@ button.active,button.primary{box-shadow:0 5px 14px #17382a16}
 .location-heading strong{color:#1c4034}
 .status.matched{border:1px solid #d6e3cf}
 .map-footer{background:#fffefb}
-@media(max-width:800px){.header{position:relative}.toolbar,.map-card,.location-card,.events-card,.layout-card{box-shadow:0 8px 24px #1b3b2b0a}.viewer-controls .view-tools{box-shadow:0 8px 24px #19352620}}
+@media(max-width:800px){.header{position:relative}.toolbar,.map-card,.location-card,.events-card,.layout-card{box-shadow:0 8px 24px #1b3b2b0a}.viewer-controls .view-tools{box-shadow:0 8px 24px #19352620}.brand-logo{width:142px;height:42px}.brand small{display:none}}
 
 /* Approved visual direction: dark concert arena. This block is presentation-only;
    it does not change venue data, scene geometry, or explorer state. */
