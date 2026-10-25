@@ -51,3 +51,13 @@ Brevo mail.stagepeek.live DNS 与 domain authentication 成功，sender 3 `Stage
 - 旧技能文档里“Hook 尚未部署/StagePeek 自有 Auth”的 dated snapshot 已被本记录及平台项目记录取代，不可作为当前生产事实。
 
 生产登录页截图：[邮箱验证码入口](../audits/shared-auth-login-2026-10-26.png)。验证脚本：`python3 scripts/verify-shared-auth-public.py --release <Coolify已部署完整SHA>`；不发信、不创建账号。
+
+## 最终网关一致性修复
+
+补做 VPS3 实际容器到共享 Auth `/auth/v1/settings` 时发现 401：Envoy 运行中 anon/service-role 凭据与标准 `.env` 不一致，运行中旧值不能通过当前 GoTrue JWT 签名。StagePeek 与 OpenP7M 均已使用标准当前 anon 值。没有轮换密钥或放宽鉴权；先备份，再只重建既有 `api-gw` 加载标准环境。
+
+- 回滚快照：VPS1 `/root/supabase-backups/gateway-auth-sync-20261025T173813Z`，含 root0600 的原容器配置、Compose 和环境；不要向 Git 或日志输出。
+- 修复后 gatewayCanonicalKeysMatch=true；共享 `/auth/v1/settings`、`/auth/v1/health` 均 200，emailProvider=true。
+- **VPS3 StagePeek 真实生产容器**到共享 Auth 返回 authGateway=200、emailProvider=true，验证跨节点 TLS/API key 链路；没有发验证码或创建账号。
+- StagePeek healthz 与 OpenP7M 首页/callback/reset 均 200。真实邮箱收信与 OTP 一次性消费仍待验收，不能用 settings 200 替代。
+- 后续改共享 Auth/JWT 配置必须同时核对 API 网关、Auth 和各项目的实际运行环境，不能只看静态 `.env` 或匿名 `/api/me`。

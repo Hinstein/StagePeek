@@ -1,0 +1,21 @@
+{
+  "checkedAt": "2026-10-26",
+  "source": "VPS1 SSH and VPS3 existing Coolify management connection",
+  "gatewayCanonicalKeysMatch": true,
+  "gatewaySettings": 200,
+  "authHealth": 200,
+  "productionAppToAuth": {
+    "status": 200,
+    "emailProvider": true
+  },
+  "otherProjectChecks": {
+    "openp7mHome": 200,
+    "callback": 200,
+    "reset": 200
+  },
+  "backup": "/root/supabase-backups/gateway-auth-sync-20261025T173813Z",
+  "rotatedKeys": false,
+  "sendsEmail": false,
+  "createsUsers": false,
+  "realOtpAcceptance": false
+}
