@@ -28,7 +28,7 @@
 
 ## 当前线上状态
 
-以下为 **2026-10-25** 的部署验收状态；代码能力和外部服务开通情况分别列出。
+以下为 **2026-10-26** 的部署验收状态；代码能力和外部服务开通情况分别列出。
 
 | 项目 | 状态 |
 | --- | --- |
@@ -37,13 +37,14 @@
 | 免费 / Pro 门禁 | 免费名单可配置，当前 10 个；付费场馆由服务端检查权限 |
 | 数据库 | VPS1 已有 Supabase PostgreSQL 17.6，独立 `site_stagepeek` schema |
 | 数据库迁移 | 线上 SQLite 已备份并导入；生产容器实际 PG 读写、跨连接持久化及事务回滚通过 |
-| 登录与项目权限 | 共享 Supabase Auth 验证码适配已实现；项目成员和逐用户 RLS 已迁移，生产发布见最新 Auth 记录 |
-| Brevo 邮件 / Google 登录 | 适配与本地流程已实现，生产尚未启用真实服务 |
+| 登录与项目权限 | 已上线共享 Supabase Auth 邮箱验证码；首次验证创建普通成员，业务逐用户 RLS 已启用 |
+| Brevo 邮件 | 发信域、品牌发件人、共享签名 Hook 和 SMTP 已配置启用；真实收信及验证码端到端验收待完成 |
+| Google 登录 | 尚未配置，生产关闭 |
 | Stripe 付款 | 接口和服务端门禁已实现，生产尚未启用真实付款 |
 | Ticketmaster | 服务端适配器已实现；生产当前为缓存模式，未启用实时 API 拉取 |
 | Umami | 可选集成代码已整理，独立 Website ID 与生产采集尚未接通 |
 
-发布代码版本：`f93a1df031f2aad8dae0f3a7f40917267f4f47b0`。本次 README / 品牌同步不表示网站自动部署了后续工作区改动。完整证据见 [PostgreSQL 迁移记录](docs/operations/postgresql-migration-2026-10-25.md) 和 [18 项公网检查](docs/audits/postgres-production-http-2026-10-25.json)。
+统一 Auth 发布代码：`639b736d5661f016663043ee9ad9ca3b012c89e6`；登录页主题修正：`8eb7c62f6221bd17fd71d95364b30386ede6006c`。生产仍复用原 Coolify 应用、数据卷和 PostgreSQL。见 [共享 Auth 上线与回滚记录](docs/operations/shared-auth-rollout.md)、[不发信公网检查](docs/audits/shared-auth-public-2026-10-26.json) 和 [PostgreSQL 迁移记录](docs/operations/postgresql-migration-2026-10-25.md)。
 
 ## 品牌与首页设计
 

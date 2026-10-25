@@ -1,0 +1,21 @@
+{
+  "checkedAt": "2026-10-26",
+  "domain": "mail.stagepeek.live",
+  "verified": true,
+  "authenticated": true,
+  "dnsChecks": {
+    "dkim1": true,
+    "dkim2": true,
+    "ownership": true,
+    "dmarc": true
+  },
+  "sender": {
+    "id": 3,
+    "name": "StagePeek",
+    "email": "noreply@mail.stagepeek.live",
+    "active": true
+  },
+  "source": "Brevo MCP domains_get_domain_configuration / senders_get_senders",
+  "sendsEmail": false,
+  "realInboxAccepted": false
+}

@@ -1,5 +1,7 @@
 # StagePeek 部署与权限记录
 
+> 当前身份方案：2026-10-26 已上线共享 Supabase Auth 邮箱验证码（生产 SHA `8eb7c62`）。原应用、PostgreSQL 和 10 个免费场馆保持；真实收信/OTP 端到端验收待完成。以 [统一 Auth 上线记录](shared-auth-rollout.md) 为准，下方旧身份/邮件状态为历史快照。
+
 核验日期：2026-10-25。正式品牌 **StagePeek**，域名 https://stagepeek.live，仓库 https://github.com/Hinstein/StagePeek。
 
 ## 已发布生产环境
