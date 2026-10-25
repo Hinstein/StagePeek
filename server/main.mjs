@@ -15,7 +15,7 @@ const candidateEvents=new CandidateEventRepository(fileURLToPath(new URL('../dat
 const publishedEvents=new PublishedEventRepository(fileURLToPath(new URL('../data/events-published',import.meta.url)),venues);
 const app=createApplication({db,config,venues,events,ticketingEvents,candidateEvents,publishedEvents,logger:entry=>{if(entry.status>=500)console.error(JSON.stringify(entry));}});
 app.server.listen(config.port,config.host,()=>{
-  console.log('SeatPeep:',config.appUrl);
+  console.log('StagePeek:',config.appUrl);
   console.log('Providers:',JSON.stringify({email:app.email.ready,google:app.google.ready,billing:app.billing.ready,ticketmaster:Boolean(config.ticketmasterApiKey),localEmail:config.devMailbox}));
   if(config.devMailbox)console.log('Local development inbox is available to loopback clients at /api/dev/mailbox');
 });
