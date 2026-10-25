@@ -1,0 +1,18 @@
+HTTP/2 404 
+content-type: text/html;charset=utf-8
+server: nginx
+date: Sat, 24 Oct 2026 07:10:14 GMT
+no-cache: set-cookie
+x-frame-options: sameorigin
+content-security-policy: frame-ancestors 'self';
+cache-control: max-age=30, stale-while-revalidate=600, stale-if-error=86400
+strict-transport-security: max-age=300; includeSubDomains
+x-ratelimit-limit: 15, 15;w=60
+x-ratelimit-remaining: 14
+x-ratelimit-reset: 46
+x-request-id: 1da51b45-2deb-4e30-b264-9d73e672b47e
+x-cache: Error from cloudfront
+via: 1.1 0aa7f1d7fec8d7f1a865e80c7680d324.cloudfront.net (CloudFront)
+x-amz-cf-pop: FRA60-P14
+x-amz-cf-id: aC14gYsDztbuTIK3NLv-vtAl7u3N1PfjL1VxpReoUqA8Brd2jzm2Jw==
+

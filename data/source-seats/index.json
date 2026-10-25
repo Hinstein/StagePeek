@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "venues": {
+    "kai-tak-stadium": {
+      "source": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/kaitakSeatSource-jer28SXf.json",
+      "upstreamSource": null,
+      "assetSha256": "7a2a28335d337a82cad8c6e11f7bdf9d7650199b9fa1bbd81d633c9ff5fa81f8",
+      "schema": "kai-cad-14",
+      "defaultLayout": "bowl",
+      "layouts": [
+        {
+          "id": "bowl",
+          "label": "固定看台（无场次舞台）",
+          "count": 48483,
+          "sectionCount": 81
+        }
+      ]
+    },
+    "hong-kong-coliseum": {
+      "source": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/hkc-Gbi7T1FS.json",
+      "upstreamSource": "https://venue.flytix.live/viewer?venue=hkc",
+      "assetSha256": "926e37787d56b6dd4e100ae5da5c023f8a9ee4004d9524403c31e9f3b9f0859c",
+      "schema": "reference-xyz-14",
+      "defaultLayout": "center",
+      "layouts": [
+        {
+          "id": "center",
+          "label": "四面台",
+          "count": 11446,
+          "sectionCount": 40
+        },
+        {
+          "id": "end",
+          "label": "正面舞台",
+          "count": 11562,
+          "sectionCount": 40
+        }
+      ]
+    },
+    "asiaworld-arena": {
+      "source": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/awe-Ca55Pf13.json",
+      "upstreamSource": "https://venue.flytix.live/viewer?venue=awe",
+      "assetSha256": "879784a41602b70771e8a4a4d951bf0bb7dcf808365060eec6f96ed16ced68af",
+      "schema": "reference-xyz-14",
+      "defaultLayout": "end",
+      "layouts": [
+        {
+          "id": "end",
+          "label": "坐席布局",
+          "count": 11724,
+          "sectionCount": 21
+        },
+        {
+          "id": "standing",
+          "label": "站席布局",
+          "count": 8300,
+          "sectionCount": 17
+        }
+      ]
+    },
+    "asiaworld-viva": {
+      "source": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/viva-rS3OQoqC.json",
+      "upstreamSource": "https://venue.flytix.live/viewer?venue=viva",
+      "assetSha256": "7a6fc48cb2322955901357e9d49650d28b6d649ee408974b064f219e27cb0778",
+      "schema": "reference-xyz-14",
+      "defaultLayout": "end",
+      "layouts": [
+        {
+          "id": "end",
+          "label": "8＋10 馆",
+          "count": 5600,
+          "sectionCount": 4
+        },
+        {
+          "id": "expanded",
+          "label": "6＋8＋10 馆",
+          "count": 8364,
+          "sectionCount": 4
+        }
+      ]
+    },
+    "asiaworld-summit-hall-2": {
+      "source": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/summit-B0YE2Xxi.json",
+      "upstreamSource": "https://venue.flytix.live/viewer?venue=summit",
+      "assetSha256": "961dc4aa236cecec4a6c18a763e78627e1c4f99113fcbb7325dcb8773052d365",
+      "schema": "reference-xyz-14",
+      "defaultLayout": "end",
+      "layouts": [
+        {
+          "id": "end",
+          "label": "剧院式布局",
+          "count": 5080,
+          "sectionCount": 36
+        }
+      ]
+    },
+    "asiaworld-runway-11": {
+      "source": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/r11-DBeBuvo4.json",
+      "upstreamSource": "https://venue.flytix.live/viewer?venue=r11",
+      "assetSha256": "e22cf93cbcb1ece164adda8300a16e5481442772be66077262055226aae1af8e",
+      "schema": "reference-xyz-14",
+      "defaultLayout": "end",
+      "layouts": [
+        {
+          "id": "end",
+          "label": "3,800 席布局",
+          "count": 3800,
+          "sectionCount": 14
+        },
+        {
+          "id": "compact",
+          "label": "1,600 席布局",
+          "count": 1620,
+          "sectionCount": 15
+        }
+      ]
+    },
+    "taipei-arena": {
+      "source": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/tpa-hUGCMqZh.json",
+      "upstreamSource": "https://venue.flytix.live/viewer?venue=tpa",
+      "assetSha256": "f1b66f49d6ef8dc34f3a7aaf1cdfe621d45e1b6a28316c39d8539869344f6b5d",
+      "schema": "reference-xyz-14",
+      "defaultLayout": "end",
+      "layouts": [
+        {
+          "id": "end",
+          "label": "远端舞台",
+          "count": 10000,
+          "sectionCount": 79
+        },
+        {
+          "id": "center",
+          "label": "中央舞台",
+          "count": 12877,
+          "sectionCount": 98
+        }
+      ]
+    }
+  }
+}

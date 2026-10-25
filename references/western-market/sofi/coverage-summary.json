@@ -1,0 +1,137 @@
+{
+  "rams": {
+    "elementTypes": {
+      "easteregg": 3,
+      "section": 587,
+      "suite": 266
+    },
+    "sectionIdentifiers": 318,
+    "baseIdentifiers": 257,
+    "sampledViews": 587,
+    "numericRowAndSeatTokenViews": 587,
+    "interiorViews": 0,
+    "uniqueViewIds": 587,
+    "layers": [
+      {
+        "layer": "FullStadium",
+        "polygonCount": 2895
+      },
+      {
+        "layer": "LowerLevel",
+        "polygonCount": 1495
+      },
+      {
+        "layer": "LevelSuite1",
+        "polygonCount": 120
+      },
+      {
+        "layer": "LevelSuite2",
+        "polygonCount": 320
+      },
+      {
+        "layer": "LevelSuite4",
+        "polygonCount": 310
+      },
+      {
+        "layer": "LevelSuite5",
+        "polygonCount": 310
+      },
+      {
+        "layer": "LevelSuite7",
+        "polygonCount": 230
+      }
+    ],
+    "polygonsAcrossCamerasAndLayers": 5680,
+    "sectionViewsMissingMapPolygon": []
+  },
+  "chargers": {
+    "elementTypes": {
+      "easteregg": 3,
+      "section": 523
+    },
+    "sectionIdentifiers": 255,
+    "baseIdentifiers": 255,
+    "sampledViews": 523,
+    "numericRowAndSeatTokenViews": 523,
+    "interiorViews": 0,
+    "uniqueViewIds": 523,
+    "layers": [
+      {
+        "layer": "FullStadium",
+        "polygonCount": 2617
+      }
+    ],
+    "polygonsAcrossCamerasAndLayers": 2617,
+    "sectionViewsMissingMapPolygon": []
+  },
+  "comparison": {
+    "ramsOnly": [
+      "101WC",
+      "105WC",
+      "123WC",
+      "124WC",
+      "201WC",
+      "204WC",
+      "205WC",
+      "210WC",
+      "213WC",
+      "224WC",
+      "226WC",
+      "228WC",
+      "230WC",
+      "232WC",
+      "235WC",
+      "237WC",
+      "239WC",
+      "301WC",
+      "307WC",
+      "312WC",
+      "317WC",
+      "323WC",
+      "331WC",
+      "335WC",
+      "341WC",
+      "350WC",
+      "404WC",
+      "405WC",
+      "406WC",
+      "414WC",
+      "421WC",
+      "424WC",
+      "427WC",
+      "432WC",
+      "433WC",
+      "434WC",
+      "435WC",
+      "437WC",
+      "440WC",
+      "443WC",
+      "447WC",
+      "450WC",
+      "453WC",
+      "454WC",
+      "456WC",
+      "457WC",
+      "C109WC",
+      "C110WC",
+      "C113WC",
+      "C114WC",
+      "C116WC",
+      "C127WC",
+      "C129WC",
+      "C130WC",
+      "C133WC",
+      "C134WC",
+      "C137WC",
+      "C215WC",
+      "C223WC",
+      "C242WC",
+      "C250WC",
+      "OWN131",
+      "OWN132"
+    ],
+    "chargersOnly": [],
+    "sharedIdentifiers": 255,
+    "sharedSampleViewIds": 503
+  }
+}

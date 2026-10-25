@@ -1,0 +1,246 @@
+{
+  "id": "asiaworld-summit-hall-2",
+  "name": "亚洲国际博览馆 · 2号馆",
+  "city": "中国香港 · 香港",
+  "capacity": "原站目录未提供统一容量字段",
+  "source": "https://www.asiaworld-expo.com/en-us/planning/venues/asiaworld-arena-%28hall-1%29-asiaworld-summit-%28hall-2%29/",
+  "sourceTitle": "REA 导出的公开场馆来源索引与参数化座位示意",
+  "sourceLinks": [
+    "https://www.asiaworld-expo.com/en-us/planning/venues/asiaworld-arena-%28hall-1%29-asiaworld-summit-%28hall-2%29/",
+    "https://www.asiaworld-expo.com/assets/images/capacityTable/AWE-H2-summit-th5000.jpg",
+    "https://www.asiaworld-expo.com/en-us/planning/capacity-table/",
+    "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/summit-B0YE2Xxi.json"
+  ],
+  "accuracy": {
+    "sectionLabels": "synthetic-tier-labels",
+    "completeSeatInventory": false,
+    "metricCalibrated": false,
+    "stage": "generic",
+    "position": "estimated",
+    "geometryBasis": "estimated-parametric",
+    "catalogStatus": "catalog-only",
+    "seatDataStatus": "bounded-source-samples",
+    "sourceLayout": "end",
+    "coverage": "12 个示意分区；0 条座位采样。未找到逐区公开布局，标签仅用于浏览。 原站公开资产记录约 5080 条，仅保留少量核对样本。",
+    "reuse": "来源页面可公开访问；未建立商业图形、模型或座位数据库再分发许可，发布前需逐源复核。",
+    "sourceDate": "REA capture 2026-10-24",
+    "sourceInventory": {
+      "venueReferenceUrl": "https://www.asiaworld-expo.com/en-us/planning/venues/asiaworld-arena-%28hall-1%29-asiaworld-summit-%28hall-2%29/",
+      "mapReferenceUrl": "https://www.asiaworld-expo.com/assets/images/capacityTable/AWE-H2-summit-th5000.jpg",
+      "sectionSource": null,
+      "geometryEvidenceLabel": "dimension",
+      "note": "Missing asset URL does not establish absence of generated seat geometry."
+    },
+    "seatAsset": {
+      "url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/summit-B0YE2Xxi.json",
+      "sha256": "961dc4aa236cecec4a6c18a763e78627e1c4f99113fcbb7325dcb8773052d365",
+      "records": 5080
+    }
+  },
+  "tiers": [
+    [
+      41,
+      50,
+      1,
+      12,
+      8
+    ]
+  ],
+  "geometry": {
+    "shape": "rectangle",
+    "floor": [
+      82,
+      100
+    ],
+    "tiers": [
+      {
+        "id": "tier-0",
+        "name": "Level 1",
+        "steps": 20
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "L1-01",
+      "ticketLabels": [
+        "L1-01"
+      ],
+      "levelName": "Level 1 · 示意分区",
+      "tier": 0,
+      "angle": -1.5707963267948966,
+      "halfAngle": 0.18849555921538758,
+      "samples": [],
+      "positionBasis": {
+        "kind": "synthetic-geometry",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "L1-02",
+      "ticketLabels": [
+        "L1-02"
+      ],
+      "levelName": "Level 1 · 示意分区",
+      "tier": 0,
+      "angle": -1.0471975511965979,
+      "halfAngle": 0.18849555921538758,
+      "samples": [],
+      "positionBasis": {
+        "kind": "synthetic-geometry",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "L1-03",
+      "ticketLabels": [
+        "L1-03"
+      ],
+      "levelName": "Level 1 · 示意分区",
+      "tier": 0,
+      "angle": -0.5235987755982989,
+      "halfAngle": 0.18849555921538758,
+      "samples": [],
+      "positionBasis": {
+        "kind": "synthetic-geometry",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "L1-04",
+      "ticketLabels": [
+        "L1-04"
+      ],
+      "levelName": "Level 1 · 示意分区",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.18849555921538758,
+      "samples": [],
+      "positionBasis": {
+        "kind": "synthetic-geometry",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "L1-05",
+      "ticketLabels": [
+        "L1-05"
+      ],
+      "levelName": "Level 1 · 示意分区",
+      "tier": 0,
+      "angle": 0.5235987755982987,
+      "halfAngle": 0.18849555921538758,
+      "samples": [],
+      "positionBasis": {
+        "kind": "synthetic-geometry",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "L1-06",
+      "ticketLabels": [
+        "L1-06"
+      ],
+      "levelName": "Level 1 · 示意分区",
+      "tier": 0,
+      "angle": 1.0471975511965979,
+      "halfAngle": 0.18849555921538758,
+      "samples": [],
+      "positionBasis": {
+        "kind": "synthetic-geometry",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "L1-07",
+      "ticketLabels": [
+        "L1-07"
+      ],
+      "levelName": "Level 1 · 示意分区",
+      "tier": 0,
+      "angle": 1.5707963267948966,
+      "halfAngle": 0.18849555921538758,
+      "samples": [],
+      "positionBasis": {
+        "kind": "synthetic-geometry",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "L1-08",
+      "ticketLabels": [
+        "L1-08"
+      ],
+      "levelName": "Level 1 · 示意分区",
+      "tier": 0,
+      "angle": 2.0943951023931953,
+      "halfAngle": 0.18849555921538758,
+      "samples": [],
+      "positionBasis": {
+        "kind": "synthetic-geometry",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "L1-09",
+      "ticketLabels": [
+        "L1-09"
+      ],
+      "levelName": "Level 1 · 示意分区",
+      "tier": 0,
+      "angle": 2.617993877991494,
+      "halfAngle": 0.18849555921538758,
+      "samples": [],
+      "positionBasis": {
+        "kind": "synthetic-geometry",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "L1-10",
+      "ticketLabels": [
+        "L1-10"
+      ],
+      "levelName": "Level 1 · 示意分区",
+      "tier": 0,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.18849555921538758,
+      "samples": [],
+      "positionBasis": {
+        "kind": "synthetic-geometry",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "L1-11",
+      "ticketLabels": [
+        "L1-11"
+      ],
+      "levelName": "Level 1 · 示意分区",
+      "tier": 0,
+      "angle": 3.6651914291880923,
+      "halfAngle": 0.18849555921538758,
+      "samples": [],
+      "positionBasis": {
+        "kind": "synthetic-geometry",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "L1-12",
+      "ticketLabels": [
+        "L1-12"
+      ],
+      "levelName": "Level 1 · 示意分区",
+      "tier": 0,
+      "angle": 4.1887902047863905,
+      "halfAngle": 0.18849555921538758,
+      "samples": [],
+      "positionBasis": {
+        "kind": "synthetic-geometry",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    }
+  ],
+  "importedAt": "2026-10-24T00:00:00.000Z"
+}

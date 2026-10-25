@@ -1,0 +1,11 @@
+{
+  "source": "https://newyorkjets.io-media.com/web/confignew.json",
+  "retrieved": "2026-10-24",
+  "sectionIdentifiers": 173,
+  "baseSections": 146,
+  "sampledViews": 602,
+  "polygonsAcrossCamerasAndLayers": 6824,
+  "fullOverviewSectionViews": 584,
+  "completeSeatInventory": false,
+  "metricCalibrated": false
+}

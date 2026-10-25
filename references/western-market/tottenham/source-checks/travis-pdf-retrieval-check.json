@@ -1,0 +1,28 @@
+{
+  "checks": [
+    {
+      "url": "https://www.tottenhamhotspurstadium.com/media/gbbn4tl1/large_travisscott_map.pdf",
+      "retrievedDate": "2026-10-24",
+      "httpStatus": 404,
+      "contentType": "text/html;charset=utf-8",
+      "isPdf": false,
+      "bytes": 55074,
+      "sha256": "2a9cc0e5eb41de6011645df9043887c0191d72ea16e02ace5dfb3783912fb39e",
+      "responseFile": "travis-stadium-domain-response.html",
+      "headersFile": "travis-stadium-domain-headers.txt",
+      "scope": "Failed source retrieval; search-index text is not retained PDF evidence"
+    },
+    {
+      "url": "https://www.tottenhamhotspur.com/media/gbbn4tl1/large_travisscott_map.pdf",
+      "retrievedDate": "2026-10-24",
+      "httpStatus": 404,
+      "contentType": "text/html;charset=utf-8",
+      "isPdf": false,
+      "bytes": 133246,
+      "sha256": "da66cc6b64d6584d4f9aa1d8c3af5ca14125296a99797e8de456f8d69688f7f8",
+      "responseFile": "travis-club-domain-response.html",
+      "headersFile": "travis-club-domain-headers.txt",
+      "scope": "Failed source retrieval; search-index text is not retained PDF evidence"
+    }
+  ]
+}

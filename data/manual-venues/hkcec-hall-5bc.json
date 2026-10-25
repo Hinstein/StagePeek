@@ -1,0 +1,2764 @@
+{
+  "id": "hkcec-hall-5bc",
+  "name": "香港会议展览中心 · Hall 5BC",
+  "city": "中国香港 · 香港",
+  "capacity": "原站目录未提供统一容量字段",
+  "source": "https://www.hkcec.com/zh/%E5%B1%95%E8%A6%BD%E5%BB%B35BC",
+  "sourceTitle": "Hall 5BC 官方大厅资料（场次布局另见来源说明）",
+  "sourceLinks": [
+    "https://www.hkcec.com/zh/%E5%B1%95%E8%A6%BD%E5%BB%B35BC",
+    "https://www.hkcec.com/en/virtual-tour",
+    "https://shijiao.xingpaste.com/?venue=hkcec-hall-5bc",
+    "https://timable.com/hk/cn/event/697992f4aa3acc2451bf942d/",
+    "https://www.xiaohongshu.com/explore/6980be380000000028020600"
+  ],
+  "accuracy": {
+    "sectionLabels": "reference-price-and-direction-not-ticket-ids",
+    "completeSeatInventory": false,
+    "metricCalibrated": false,
+    "stage": "reference-event-diagram",
+    "position": "estimated",
+    "geometryBasis": "reference-event-diagram-estimated",
+    "catalogStatus": "reference-event-diagram",
+    "seatDataStatus": "section-only",
+    "sourceLayout": "ivana-sodagreen-hkcec",
+    "coverage": "2026-02-28 王菀之 × 苏打绿：40 块平地坐席、18 块后部阶梯席。票档与方位为场次参考，非官方区号；排座、尺寸和距离未经实测。",
+    "reuse": "来源页面可公开访问；未建立商业图形、模型或座位数据库再分发许可，发布前需逐源复核。",
+    "sourceDate": "REA capture 2026-10-24",
+    "sourceInventory": {
+      "venueReferenceUrl": "https://www.hkcec.com/zh/%E5%B1%95%E8%A6%BD%E5%BB%B35BC",
+      "mapReferenceUrl": "https://www.hkcec.com/en/virtual-tour",
+      "sectionSource": null,
+      "geometryEvidenceLabel": "dimension",
+      "note": "Missing asset URL does not establish absence of generated seat geometry."
+    },
+    "seatAsset": null
+  },
+  "tiers": [
+    [
+      39,
+      52,
+      0,
+      0,
+      0
+    ]
+  ],
+  "geometry": {
+    "shape": "rectangle",
+    "floor": [
+      78,
+      104
+    ],
+    "openBowl": true,
+    "roofHeight": 10.5,
+    "tiers": [
+      {
+        "id": "floor",
+        "name": "本场票档色块 · 非官方区号"
+      }
+    ],
+    "referenceLayout": {
+      "id": "ivana-sodagreen-hkcec",
+      "label": "王菀之 × 苏打绿 · 2026-02-28 · 场次布局参考",
+      "date": "2026-02-28",
+      "source": "https://shijiao.xingpaste.com/?venue=hkcec-hall-5bc",
+      "eventSource": "https://timable.com/hk/cn/event/697992f4aa3acc2451bf942d/",
+      "mapSource": "https://www.xiaohongshu.com/explore/6980be380000000028020600",
+      "capturedAt": "2026-10-23",
+      "bundleSha256": "4f2a15832526950f3ea07d366bd5c6e9a493b8c1c268d0f1bab6072064553823",
+      "basis": "retained-reference-event-diagram",
+      "note": "票档与块状布局参考已留存的参考站场次模型；方位标签不是官方区号。尺寸、台高、阶梯高度、屏幕位置和逐排逐座仍是示意估算，不代表其他演出。",
+      "performer": [
+        -0.1,
+        1.5,
+        10.9
+      ],
+      "stageRects": [
+        {
+          "x": -0.05,
+          "z": 33.6,
+          "w": 30.3,
+          "d": 9.4,
+          "h": 1.5
+        },
+        {
+          "x": -0.1,
+          "z": 21.65,
+          "w": 2.8,
+          "d": 14.5,
+          "h": 1.5
+        },
+        {
+          "x": -0.1,
+          "z": 10.9,
+          "w": 7.2,
+          "d": 7,
+          "h": 1.5
+        },
+        {
+          "x": -0.1,
+          "z": -9.45,
+          "w": 5.4,
+          "d": 5.5,
+          "h": 1.2,
+          "kind": "structure",
+          "label": "控制台"
+        },
+        {
+          "x": 0,
+          "z": -16.95,
+          "w": 4.4,
+          "d": 3,
+          "h": 0.5,
+          "kind": "structure",
+          "label": "设备预留"
+        },
+        {
+          "x": 22,
+          "z": 33,
+          "w": 7,
+          "d": 0.25,
+          "h": 4,
+          "base": 2,
+          "kind": "screen"
+        },
+        {
+          "x": -22,
+          "z": 33,
+          "w": 7,
+          "d": 0.25,
+          "h": 4,
+          "base": 2,
+          "kind": "screen"
+        }
+      ]
+    }
+  },
+  "sections": [
+    {
+      "id": "ivana-floor-1-left-1",
+      "ticketLabels": [
+        "ivana-floor-1-left-1"
+      ],
+      "levelName": "1080 港币 · 第1带 图左1（方位示意，非票面区号）",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.1,
+      "block": {
+        "x": 18.5,
+        "z": 21.75,
+        "width": 4.799999999999997,
+        "depth": 3.5,
+        "base": 0,
+        "facing": -1,
+        "polygon": [
+          [
+            20.9,
+            20.9
+          ],
+          [
+            17.7,
+            23.5
+          ],
+          [
+            16.1,
+            23.4
+          ],
+          [
+            16.1,
+            20.0
+          ]
+        ],
+        "label": "1080",
+        "color": "#61b4ed"
+      },
+      "samples": [],
+      "positionBasis": {
+        "kind": "reference-event-diagram",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "ivana-floor-1-right-1",
+      "ticketLabels": [
+        "ivana-floor-1-right-1"
+      ],
+      "levelName": "1080 港币 · 第1带 图右1（方位示意，非票面区号）",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.1,
+      "block": {
+        "x": -18.5,
+        "z": 21.75,
+        "width": 4.799999999999997,
+        "depth": 3.5,
+        "base": 0,
+        "facing": -1,
+        "polygon": [
+          [
+            -20.9,
+            20.9
+          ],
+          [
+            -17.7,
+            23.5
+          ],
+          [
+            -16.1,
+            23.4
+          ],
+          [
+            -16.1,
+            20.0
+          ]
+        ],
+        "label": "1080",
+        "color": "#61b4ed"
+      },
+      "samples": [],
+      "positionBasis": {
+        "kind": "reference-event-diagram",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "ivana-floor-1-left-2",
+      "ticketLabels": [
+        "ivana-floor-1-left-2"
+      ],
+      "levelName": "1080 港币 · 第1带 图左2（方位示意，非票面区号）",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.1,
+      "block": {
+        "x": 12.5,
+        "z": 22.75,
+        "width": 5.399999999999999,
+        "depth": 5.899999999999999,
+        "base": 0,
+        "facing": -1,
+        "polygon": [
+          [
+            15.2,
+            25.7
+          ],
+          [
+            9.8,
+            25.7
+          ],
+          [
+            9.8,
+            19.8
+          ],
+          [
+            15.2,
+            19.8
+          ]
+        ],
+        "label": "1080",
+        "color": "#61b4ed"
+      },
+      "samples": [],
+      "positionBasis": {
+        "kind": "reference-event-diagram",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "ivana-floor-1-right-2",
+      "ticketLabels": [
+        "ivana-floor-1-right-2"
+      ],
+      "levelName": "1080 港币 · 第1带 图右2（方位示意，非票面区号）",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.1,
+      "block": {
+        "x": -12.5,
+        "z": 22.75,
+        "width": 5.399999999999999,
+        "depth": 5.899999999999999,
+        "base": 0,
+        "facing": -1,
+        "polygon": [
+          [
+            -15.2,
+            25.7
+          ],
+          [
+            -9.8,
+            25.7
+          ],
+          [
+            -9.8,
+            19.8
+          ],
+          [
+            -15.2,
+            19.8
+          ]
+        ],
+        "label": "1080",
+        "color": "#61b4ed"
+      },
+      "samples": [],
+      "positionBasis": {
+        "kind": "reference-event-diagram",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "ivana-floor-1-left-3",
+      "ticketLabels": [
+        "ivana-floor-1-left-3"
+      ],
+      "levelName": "1080 港币 · 第1带 图左3（方位示意，非票面区号）",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.1,
+      "block": {
+        "x": 6.2,
+        "z": 22.75,
+        "width": 5.4,
+        "depth": 5.899999999999999,
+        "base": 0,
+        "facing": -1,
+        "polygon": [
+          [
+            8.9,
+            25.7
+          ],
+          [
+            3.5,
+            25.7
+          ],
+          [
+            3.5,
+            19.8
+          ],
+          [
+            8.9,
+            19.8
+          ]
+        ],
+        "label": "1080",
+        "color": "#61b4ed"
+      },
+      "samples": [],
+      "positionBasis": {
+        "kind": "reference-event-diagram",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "ivana-floor-1-right-3",
+      "ticketLabels": [
+        "ivana-floor-1-right-3"
+      ],
+      "levelName": "1080 港币 · 第1带 图右3（方位示意，非票面区号）",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.1,
+      "block": {
+        "x": -6.2,
+        "z": 22.75,
+        "width": 5.4,
+        "depth": 5.899999999999999,
+        "base": 0,
+        "facing": -1,
+        "polygon": [
+          [
+            -8.9,
+            25.7
+          ],
+          [
+            -3.5,
+            25.7
+          ],
+          [
+            -3.5,
+            19.8
+          ],
+          [
+            -8.9,
+            19.8
+          ]
+        ],
+        "label": "1080",
+        "color": "#61b4ed"
+      },
+      "samples": [],
+      "positionBasis": {
+        "kind": "reference-event-diagram",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "ivana-floor-2-left-1",
+      "ticketLabels": [
+        "ivana-floor-2-left-1"
+      ],
+      "levelName": "1080 港币 · 第2带 图左1（方位示意，非票面区号）",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.1,
+      "block": {
+        "x": 23.95,
+        "z": 15.9,
+        "width": 3.8999999999999986,
+        "depth": 6.800000000000001,
+        "base": 0,
+        "facing": -1,
+        "polygon": [
+          [
+            25.9,
+            17.1
+          ],
+          [
+            23.4,
+            19.3
+          ],
+          [
+            22.0,
+            18.7
+          ],
+          [
+            22.0,
+            12.5
+          ],
+          [
+            25.9,
+            13.8
+          ]
+        ],
+        "label": "1080",
+        "color": "#61b4ed"
+      },
+      "samples": [],
+      "positionBasis": {
+        "kind": "reference-event-diagram",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "ivana-floor-2-right-1",
+      "ticketLabels": [
+        "ivana-floor-2-right-1"
+      ],
+      "levelName": "1080 港币 · 第2带 图右1（方位示意，非票面区号）",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.1,
+      "block": {
+        "x": -23.95,
+        "z": 15.9,
+        "width": 3.8999999999999986,
+        "depth": 6.800000000000001,
+        "base": 0,
+        "facing": -1,
+        "polygon": [
+          [
+            -25.9,
+            17.1
+          ],
+          [
+            -23.4,
+            19.3
+          ],
+          [
+            -22.0,
+            18.7
+          ],
+          [
+            -22.0,
+            12.5
+          ],
+          [
+            -25.9,
+            13.8
+          ]
+        ],
+        "label": "1080",
+        "color": "#61b4ed"
+      },
+      "samples": [],
+      "positionBasis": {
+        "kind": "reference-event-diagram",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "ivana-floor-2-left-2",
+      "ticketLabels": [
+        "ivana-floor-2-left-2"
+      ],
+      "levelName": "1080 港币 · 第2带 图左2（方位示意，非票面区号）",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.1,
+      "block": {
+        "x": 18.5,
+        "z": 15.5,
+        "width": 4.799999999999997,
+        "depth": 8.399999999999999,
+        "base": 0,
+        "facing": -1,
+        "polygon": [
+          [
+            20.9,
+            19.7
+          ],
+          [
+            16.1,
+            18.7
+          ],
+          [
+            16.1,
+            11.3
+          ],
+          [
+            20.9,
+            12.3
+          ]
+        ],
+        "label": "1080",
+        "color": "#61b4ed"
+      },
+      "samples": [],
+      "positionBasis": {
+        "kind": "reference-event-diagram",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "ivana-floor-2-right-2",
+      "ticketLabels": [
+        "ivana-floor-2-right-2"
+      ],
+      "levelName": "1080 港币 · 第2带 图右2（方位示意，非票面区号）",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.1,
+      "block": {
+        "x": -18.5,
+        "z": 15.5,
+        "width": 4.799999999999997,
+        "depth": 8.399999999999999,
+        "base": 0,
+        "facing": -1,
+        "polygon": [
+          [
+            -20.9,
+            19.7
+          ],
+          [
+            -16.1,
+            18.7
+          ],
+          [
+            -16.1,
+            11.3
+          ],
+          [
+            -20.9,
+            12.3
+          ]
+        ],
+        "label": "1080",
+        "color": "#61b4ed"
+      },
+      "samples": [],
+      "positionBasis": {
+        "kind": "reference-event-diagram",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "ivana-floor-2-left-3",
+      "ticketLabels": [
+        "ivana-floor-2-left-3"
+      ],
+      "levelName": "1080 港币 · 第2带 图左3（方位示意，非票面区号）",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.1,
+      "block": {
+        "x": 12.5,
+        "z": 15.0,
+        "width": 5.399999999999999,
+        "depth": 7.399999999999999,
+        "base": 0,
+        "facing": -1,
+        "polygon": [
+          [
+            15.2,
+            18.7
+          ],
+          [
+            9.8,
+            18.7
+          ],
+          [
+            9.8,
+            11.3
+          ],
+          [
+            15.2,
+            11.3
+          ]
+        ],
+        "label": "1080",
+        "color": "#61b4ed"
+      },
+      "samples": [],
+      "positionBasis": {
+        "kind": "reference-event-diagram",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "ivana-floor-2-right-3",
+      "ticketLabels": [
+        "ivana-floor-2-right-3"
+      ],
+      "levelName": "1080 港币 · 第2带 图右3（方位示意，非票面区号）",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.1,
+      "block": {
+        "x": -12.5,
+        "z": 15.0,
+        "width": 5.399999999999999,
+        "depth": 7.399999999999999,
+        "base": 0,
+        "facing": -1,
+        "polygon": [
+          [
+            -15.2,
+            18.7
+          ],
+          [
+            -9.8,
+            18.7
+          ],
+          [
+            -9.8,
+            11.3
+          ],
+          [
+            -15.2,
+            11.3
+          ]
+        ],
+        "label": "1080",
+        "color": "#61b4ed"
+      },
+      "samples": [],
+      "positionBasis": {
+        "kind": "reference-event-diagram",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "ivana-floor-2-left-4",
+      "ticketLabels": [
+        "ivana-floor-2-left-4"
+      ],
+      "levelName": "1080 港币 · 第2带 图左4（方位示意，非票面区号）",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.1,
+      "block": {
+        "x": 6.2,
+        "z": 15.0,
+        "width": 5.4,
+        "depth": 7.399999999999999,
+        "base": 0,
+        "facing": -1,
+        "polygon": [
+          [
+            8.9,
+            18.7
+          ],
+          [
+            3.5,
+            18.7
+          ],
+          [
+            3.5,
+            15.3
+          ],
+          [
+            5.1,
+            15.3
+          ],
+          [
+            5.1,
+            11.3
+          ],
+          [
+            8.9,
+            11.3
+          ]
+        ],
+        "label": "1080",
+        "color": "#61b4ed"
+      },
+      "samples": [],
+      "positionBasis": {
+        "kind": "reference-event-diagram",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "ivana-floor-2-right-4",
+      "ticketLabels": [
+        "ivana-floor-2-right-4"
+      ],
+      "levelName": "1080 港币 · 第2带 图右4（方位示意，非票面区号）",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.1,
+      "block": {
+        "x": -6.2,
+        "z": 15.0,
+        "width": 5.4,
+        "depth": 7.399999999999999,
+        "base": 0,
+        "facing": -1,
+        "polygon": [
+          [
+            -8.9,
+            18.7
+          ],
+          [
+            -3.5,
+            18.7
+          ],
+          [
+            -3.5,
+            15.3
+          ],
+          [
+            -5.1,
+            15.3
+          ],
+          [
+            -5.1,
+            11.3
+          ],
+          [
+            -8.9,
+            11.3
+          ]
+        ],
+        "label": "1080",
+        "color": "#61b4ed"
+      },
+      "samples": [],
+      "positionBasis": {
+        "kind": "reference-event-diagram",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "ivana-floor-3-left-1",
+      "ticketLabels": [
+        "ivana-floor-3-left-1"
+      ],
+      "levelName": "1080 港币 · 第3带 图左1（方位示意，非票面区号）",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.1,
+      "block": {
+        "x": 23.95,
+        "z": 8.2,
+        "width": 3.8999999999999986,
+        "depth": 8.8,
+        "base": 0,
+        "facing": -1,
+        "polygon": [
+          [
+            25.9,
+            12.6
+          ],
+          [
+            22.0,
+            11.4
+          ],
+          [
+            22.0,
+            3.8
+          ],
+          [
+            25.9,
+            5.1
+          ]
+        ],
+        "label": "1080",
+        "color": "#61b4ed"
+      },
+      "samples": [],
+      "positionBasis": {
+        "kind": "reference-event-diagram",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "ivana-floor-3-right-1",
+      "ticketLabels": [
+        "ivana-floor-3-right-1"
+      ],
+      "levelName": "1080 港币 · 第3带 图右1（方位示意，非票面区号）",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.1,
+      "block": {
+        "x": -23.95,
+        "z": 8.2,
+        "width": 3.8999999999999986,
+        "depth": 8.8,
+        "base": 0,
+        "facing": -1,
+        "polygon": [
+          [
+            -25.9,
+            12.6
+          ],
+          [
+            -22.0,
+            11.4
+          ],
+          [
+            -22.0,
+            3.8
+          ],
+          [
+            -25.9,
+            5.1
+          ]
+        ],
+        "label": "1080",
+        "color": "#61b4ed"
+      },
+      "samples": [],
+      "positionBasis": {
+        "kind": "reference-event-diagram",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "ivana-floor-3-left-2",
+      "ticketLabels": [
+        "ivana-floor-3-left-2"
+      ],
+      "levelName": "1080 港币 · 第3带 图左2（方位示意，非票面区号）",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.1,
+      "block": {
+        "x": 18.5,
+        "z": 6.949999999999999,
+        "width": 4.799999999999997,
+        "depth": 8.5,
+        "base": 0,
+        "facing": -1,
+        "polygon": [
+          [
+            20.9,
+            11.2
+          ],
+          [
+            16.1,
+            10.2
+          ],
+          [
+            16.1,
+            2.7
+          ],
+          [
+            20.9,
+            3.5
+          ]
+        ],
+        "label": "1080",
+        "color": "#61b4ed"
+      },
+      "samples": [],
+      "positionBasis": {
+        "kind": "reference-event-diagram",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "ivana-floor-3-right-2",
+      "ticketLabels": [
+        "ivana-floor-3-right-2"
+      ],
+      "levelName": "1080 港币 · 第3带 图右2（方位示意，非票面区号）",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.1,
+      "block": {
+        "x": -18.5,
+        "z": 6.949999999999999,
+        "width": 4.799999999999997,
+        "depth": 8.5,
+        "base": 0,
+        "facing": -1,
+        "polygon": [
+          [
+            -20.9,
+            11.2
+          ],
+          [
+            -16.1,
+            10.2
+          ],
+          [
+            -16.1,
+            2.7
+          ],
+          [
+            -20.9,
+            3.5
+          ]
+        ],
+        "label": "1080",
+        "color": "#61b4ed"
+      },
+      "samples": [],
+      "positionBasis": {
+        "kind": "reference-event-diagram",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "ivana-floor-3-left-3",
+      "ticketLabels": [
+        "ivana-floor-3-left-3"
+      ],
+      "levelName": "1080 港币 · 第3带 图左3（方位示意，非票面区号）",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.1,
+      "block": {
+        "x": 12.5,
+        "z": 6.449999999999999,
+        "width": 5.399999999999999,
+        "depth": 7.499999999999999,
+        "base": 0,
+        "facing": -1,
+        "polygon": [
+          [
+            15.2,
+            10.2
+          ],
+          [
+            9.8,
+            10.2
+          ],
+          [
+            9.8,
+            2.7
+          ],
+          [
+            15.2,
+            2.7
+          ]
+        ],
+        "label": "1080",
+        "color": "#61b4ed"
+      },
+      "samples": [],
+      "positionBasis": {
+        "kind": "reference-event-diagram",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "ivana-floor-3-right-3",
+      "ticketLabels": [
+        "ivana-floor-3-right-3"
+      ],
+      "levelName": "1080 港币 · 第3带 图右3（方位示意，非票面区号）",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.1,
+      "block": {
+        "x": -12.5,
+        "z": 6.449999999999999,
+        "width": 5.399999999999999,
+        "depth": 7.499999999999999,
+        "base": 0,
+        "facing": -1,
+        "polygon": [
+          [
+            -15.2,
+            10.2
+          ],
+          [
+            -9.8,
+            10.2
+          ],
+          [
+            -9.8,
+            2.7
+          ],
+          [
+            -15.2,
+            2.7
+          ]
+        ],
+        "label": "1080",
+        "color": "#61b4ed"
+      },
+      "samples": [],
+      "positionBasis": {
+        "kind": "reference-event-diagram",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "ivana-floor-3-left-4",
+      "ticketLabels": [
+        "ivana-floor-3-left-4"
+      ],
+      "levelName": "1080 港币 · 第3带 图左4（方位示意，非票面区号）",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.1,
+      "block": {
+        "x": 6.2,
+        "z": 6.449999999999999,
+        "width": 5.4,
+        "depth": 7.499999999999999,
+        "base": 0,
+        "facing": -1,
+        "polygon": [
+          [
+            8.9,
+            10.2
+          ],
+          [
+            5.1,
+            10.2
+          ],
+          [
+            5.1,
+            6.1
+          ],
+          [
+            3.5,
+            6.1
+          ],
+          [
+            3.5,
+            2.7
+          ],
+          [
+            8.9,
+            2.7
+          ]
+        ],
+        "label": "1080",
+        "color": "#61b4ed"
+      },
+      "samples": [],
+      "positionBasis": {
+        "kind": "reference-event-diagram",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "ivana-floor-3-right-4",
+      "ticketLabels": [
+        "ivana-floor-3-right-4"
+      ],
+      "levelName": "1080 港币 · 第3带 图右4（方位示意，非票面区号）",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.1,
+      "block": {
+        "x": -6.2,
+        "z": 6.449999999999999,
+        "width": 5.4,
+        "depth": 7.499999999999999,
+        "base": 0,
+        "facing": -1,
+        "polygon": [
+          [
+            -8.9,
+            10.2
+          ],
+          [
+            -5.1,
+            10.2
+          ],
+          [
+            -5.1,
+            6.1
+          ],
+          [
+            -3.5,
+            6.1
+          ],
+          [
+            -3.5,
+            2.7
+          ],
+          [
+            -8.9,
+            2.7
+          ]
+        ],
+        "label": "1080",
+        "color": "#61b4ed"
+      },
+      "samples": [],
+      "positionBasis": {
+        "kind": "reference-event-diagram",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "ivana-floor-4-left-1",
+      "ticketLabels": [
+        "ivana-floor-4-left-1"
+      ],
+      "levelName": "880 港币 · 第4带 图左1（方位示意，非票面区号）",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.1,
+      "block": {
+        "x": 23.95,
+        "z": -0.30000000000000027,
+        "width": 3.8999999999999986,
+        "depth": 8.8,
+        "base": 0,
+        "facing": -1,
+        "polygon": [
+          [
+            25.9,
+            4.1
+          ],
+          [
+            22.0,
+            2.9
+          ],
+          [
+            22.0,
+            -4.7
+          ],
+          [
+            25.9,
+            -3.4
+          ]
+        ],
+        "label": "880",
+        "color": "#f05c6c"
+      },
+      "samples": [],
+      "positionBasis": {
+        "kind": "reference-event-diagram",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "ivana-floor-4-right-1",
+      "ticketLabels": [
+        "ivana-floor-4-right-1"
+      ],
+      "levelName": "880 港币 · 第4带 图右1（方位示意，非票面区号）",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.1,
+      "block": {
+        "x": -23.95,
+        "z": -0.30000000000000027,
+        "width": 3.8999999999999986,
+        "depth": 8.8,
+        "base": 0,
+        "facing": -1,
+        "polygon": [
+          [
+            -25.9,
+            4.1
+          ],
+          [
+            -22.0,
+            2.9
+          ],
+          [
+            -22.0,
+            -4.7
+          ],
+          [
+            -25.9,
+            -3.4
+          ]
+        ],
+        "label": "880",
+        "color": "#f05c6c"
+      },
+      "samples": [],
+      "positionBasis": {
+        "kind": "reference-event-diagram",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "ivana-floor-4-left-2",
+      "ticketLabels": [
+        "ivana-floor-4-left-2"
+      ],
+      "levelName": "880 港币 · 第4带 图左2（方位示意，非票面区号）",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.1,
+      "block": {
+        "x": 18.5,
+        "z": -1.7000000000000002,
+        "width": 4.799999999999997,
+        "depth": 8.0,
+        "base": 0,
+        "facing": -1,
+        "polygon": [
+          [
+            20.9,
+            2.3
+          ],
+          [
+            16.1,
+            1.4
+          ],
+          [
+            16.1,
+            -5.7
+          ],
+          [
+            20.9,
+            -5.0
+          ]
+        ],
+        "label": "880",
+        "color": "#f05c6c"
+      },
+      "samples": [],
+      "positionBasis": {
+        "kind": "reference-event-diagram",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "ivana-floor-4-right-2",
+      "ticketLabels": [
+        "ivana-floor-4-right-2"
+      ],
+      "levelName": "880 港币 · 第4带 图右2（方位示意，非票面区号）",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.1,
+      "block": {
+        "x": -18.5,
+        "z": -1.7000000000000002,
+        "width": 4.799999999999997,
+        "depth": 8.0,
+        "base": 0,
+        "facing": -1,
+        "polygon": [
+          [
+            -20.9,
+            2.3
+          ],
+          [
+            -16.1,
+            1.4
+          ],
+          [
+            -16.1,
+            -5.7
+          ],
+          [
+            -20.9,
+            -5.0
+          ]
+        ],
+        "label": "880",
+        "color": "#f05c6c"
+      },
+      "samples": [],
+      "positionBasis": {
+        "kind": "reference-event-diagram",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "ivana-floor-4-left-3",
+      "ticketLabels": [
+        "ivana-floor-4-left-3"
+      ],
+      "levelName": "880 港币 · 第4带 图左3（方位示意，非票面区号）",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.1,
+      "block": {
+        "x": 12.5,
+        "z": -1.9500000000000002,
+        "width": 5.399999999999999,
+        "depth": 7.5,
+        "base": 0,
+        "facing": -1,
+        "polygon": [
+          [
+            15.2,
+            1.8
+          ],
+          [
+            9.8,
+            1.8
+          ],
+          [
+            9.8,
+            -5.7
+          ],
+          [
+            15.2,
+            -5.7
+          ]
+        ],
+        "label": "880",
+        "color": "#f05c6c"
+      },
+      "samples": [],
+      "positionBasis": {
+        "kind": "reference-event-diagram",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "ivana-floor-4-right-3",
+      "ticketLabels": [
+        "ivana-floor-4-right-3"
+      ],
+      "levelName": "880 港币 · 第4带 图右3（方位示意，非票面区号）",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.1,
+      "block": {
+        "x": -12.5,
+        "z": -1.9500000000000002,
+        "width": 5.399999999999999,
+        "depth": 7.5,
+        "base": 0,
+        "facing": -1,
+        "polygon": [
+          [
+            -15.2,
+            1.8
+          ],
+          [
+            -9.8,
+            1.8
+          ],
+          [
+            -9.8,
+            -5.7
+          ],
+          [
+            -15.2,
+            -5.7
+          ]
+        ],
+        "label": "880",
+        "color": "#f05c6c"
+      },
+      "samples": [],
+      "positionBasis": {
+        "kind": "reference-event-diagram",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "ivana-floor-4-left-4",
+      "ticketLabels": [
+        "ivana-floor-4-left-4"
+      ],
+      "levelName": "1080 港币 · 第4带 图左4（方位示意，非票面区号）",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.1,
+      "block": {
+        "x": 6.2,
+        "z": -1.9500000000000002,
+        "width": 5.4,
+        "depth": 7.5,
+        "base": 0,
+        "facing": -1,
+        "polygon": [
+          [
+            8.9,
+            1.8
+          ],
+          [
+            3.5,
+            1.8
+          ],
+          [
+            3.5,
+            -5.7
+          ],
+          [
+            8.9,
+            -5.7
+          ]
+        ],
+        "label": "1080",
+        "color": "#61b4ed"
+      },
+      "samples": [],
+      "positionBasis": {
+        "kind": "reference-event-diagram",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "ivana-floor-4-right-4",
+      "ticketLabels": [
+        "ivana-floor-4-right-4"
+      ],
+      "levelName": "1080 港币 · 第4带 图右4（方位示意，非票面区号）",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.1,
+      "block": {
+        "x": -6.2,
+        "z": -1.9500000000000002,
+        "width": 5.4,
+        "depth": 7.5,
+        "base": 0,
+        "facing": -1,
+        "polygon": [
+          [
+            -8.9,
+            1.8
+          ],
+          [
+            -3.5,
+            1.8
+          ],
+          [
+            -3.5,
+            -5.7
+          ],
+          [
+            -8.9,
+            -5.7
+          ]
+        ],
+        "label": "1080",
+        "color": "#61b4ed"
+      },
+      "samples": [],
+      "positionBasis": {
+        "kind": "reference-event-diagram",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "ivana-floor-5-left-1",
+      "ticketLabels": [
+        "ivana-floor-5-left-1"
+      ],
+      "levelName": "880 港币 · 第5带 图左1（方位示意，非票面区号）",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.1,
+      "block": {
+        "x": 23.95,
+        "z": -7.75,
+        "width": 3.8999999999999986,
+        "depth": 6.8999999999999995,
+        "base": 0,
+        "facing": -1,
+        "polygon": [
+          [
+            25.9,
+            -4.3
+          ],
+          [
+            22.0,
+            -5.7
+          ],
+          [
+            22.0,
+            -11.2
+          ],
+          [
+            25.9,
+            -9.9
+          ]
+        ],
+        "label": "880",
+        "color": "#f05c6c"
+      },
+      "samples": [],
+      "positionBasis": {
+        "kind": "reference-event-diagram",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "ivana-floor-5-right-1",
+      "ticketLabels": [
+        "ivana-floor-5-right-1"
+      ],
+      "levelName": "880 港币 · 第5带 图右1（方位示意，非票面区号）",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.1,
+      "block": {
+        "x": -23.95,
+        "z": -7.75,
+        "width": 3.8999999999999986,
+        "depth": 6.8999999999999995,
+        "base": 0,
+        "facing": -1,
+        "polygon": [
+          [
+            -25.9,
+            -4.3
+          ],
+          [
+            -22.0,
+            -5.7
+          ],
+          [
+            -22.0,
+            -11.2
+          ],
+          [
+            -25.9,
+            -9.9
+          ]
+        ],
+        "label": "880",
+        "color": "#f05c6c"
+      },
+      "samples": [],
+      "positionBasis": {
+        "kind": "reference-event-diagram",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "ivana-floor-5-left-2",
+      "ticketLabels": [
+        "ivana-floor-5-left-2"
+      ],
+      "levelName": "880 港币 · 第5带 图左2（方位示意，非票面区号）",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.1,
+      "block": {
+        "x": 18.5,
+        "z": -9.3,
+        "width": 4.799999999999997,
+        "depth": 5.799999999999999,
+        "base": 0,
+        "facing": -1,
+        "polygon": [
+          [
+            20.9,
+            -6.4
+          ],
+          [
+            16.1,
+            -6.9
+          ],
+          [
+            16.1,
+            -12.2
+          ],
+          [
+            20.9,
+            -11.6
+          ]
+        ],
+        "label": "880",
+        "color": "#f05c6c"
+      },
+      "samples": [],
+      "positionBasis": {
+        "kind": "reference-event-diagram",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "ivana-floor-5-right-2",
+      "ticketLabels": [
+        "ivana-floor-5-right-2"
+      ],
+      "levelName": "880 港币 · 第5带 图右2（方位示意，非票面区号）",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.1,
+      "block": {
+        "x": -18.5,
+        "z": -9.3,
+        "width": 4.799999999999997,
+        "depth": 5.799999999999999,
+        "base": 0,
+        "facing": -1,
+        "polygon": [
+          [
+            -20.9,
+            -6.4
+          ],
+          [
+            -16.1,
+            -6.9
+          ],
+          [
+            -16.1,
+            -12.2
+          ],
+          [
+            -20.9,
+            -11.6
+          ]
+        ],
+        "label": "880",
+        "color": "#f05c6c"
+      },
+      "samples": [],
+      "positionBasis": {
+        "kind": "reference-event-diagram",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "ivana-floor-5-left-3",
+      "ticketLabels": [
+        "ivana-floor-5-left-3"
+      ],
+      "levelName": "880 港币 · 第5带 图左3（方位示意，非票面区号）",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.1,
+      "block": {
+        "x": 12.5,
+        "z": -9.5,
+        "width": 5.399999999999999,
+        "depth": 5.3999999999999995,
+        "base": 0,
+        "facing": -1,
+        "polygon": [
+          [
+            15.2,
+            -6.8
+          ],
+          [
+            9.8,
+            -6.8
+          ],
+          [
+            9.8,
+            -12.2
+          ],
+          [
+            15.2,
+            -12.2
+          ]
+        ],
+        "label": "880",
+        "color": "#f05c6c"
+      },
+      "samples": [],
+      "positionBasis": {
+        "kind": "reference-event-diagram",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "ivana-floor-5-right-3",
+      "ticketLabels": [
+        "ivana-floor-5-right-3"
+      ],
+      "levelName": "880 港币 · 第5带 图右3（方位示意，非票面区号）",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.1,
+      "block": {
+        "x": -12.5,
+        "z": -9.5,
+        "width": 5.399999999999999,
+        "depth": 5.3999999999999995,
+        "base": 0,
+        "facing": -1,
+        "polygon": [
+          [
+            -15.2,
+            -6.8
+          ],
+          [
+            -9.8,
+            -6.8
+          ],
+          [
+            -9.8,
+            -12.2
+          ],
+          [
+            -15.2,
+            -12.2
+          ]
+        ],
+        "label": "880",
+        "color": "#f05c6c"
+      },
+      "samples": [],
+      "positionBasis": {
+        "kind": "reference-event-diagram",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "ivana-floor-5-left-4",
+      "ticketLabels": [
+        "ivana-floor-5-left-4"
+      ],
+      "levelName": "880 港币 · 第5带 图左4（方位示意，非票面区号）",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.1,
+      "block": {
+        "x": 6.2,
+        "z": -9.5,
+        "width": 5.4,
+        "depth": 5.3999999999999995,
+        "base": 0,
+        "facing": -1,
+        "polygon": [
+          [
+            8.9,
+            -6.8
+          ],
+          [
+            3.5,
+            -6.8
+          ],
+          [
+            3.5,
+            -12.2
+          ],
+          [
+            8.9,
+            -12.2
+          ]
+        ],
+        "label": "880",
+        "color": "#f05c6c"
+      },
+      "samples": [],
+      "positionBasis": {
+        "kind": "reference-event-diagram",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "ivana-floor-5-right-4",
+      "ticketLabels": [
+        "ivana-floor-5-right-4"
+      ],
+      "levelName": "880 港币 · 第5带 图右4（方位示意，非票面区号）",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.1,
+      "block": {
+        "x": -6.2,
+        "z": -9.5,
+        "width": 5.4,
+        "depth": 5.3999999999999995,
+        "base": 0,
+        "facing": -1,
+        "polygon": [
+          [
+            -8.9,
+            -6.8
+          ],
+          [
+            -3.5,
+            -6.8
+          ],
+          [
+            -3.5,
+            -12.2
+          ],
+          [
+            -8.9,
+            -12.2
+          ]
+        ],
+        "label": "880",
+        "color": "#f05c6c"
+      },
+      "samples": [],
+      "positionBasis": {
+        "kind": "reference-event-diagram",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "ivana-floor-head-centre",
+      "ticketLabels": [
+        "ivana-floor-head-centre"
+      ],
+      "levelName": "1080 港币 · 延伸台正后方（方位示意，非票面区号）",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.1,
+      "block": {
+        "x": -0.09999999999999987,
+        "z": 4.050000000000001,
+        "width": 5.4,
+        "depth": 2.7,
+        "base": 0,
+        "facing": -1,
+        "polygon": [
+          [
+            2.6,
+            5.4
+          ],
+          [
+            -2.8,
+            5.4
+          ],
+          [
+            -2.8,
+            2.7
+          ],
+          [
+            2.6,
+            2.7
+          ]
+        ],
+        "label": "1080",
+        "color": "#61b4ed"
+      },
+      "samples": [],
+      "positionBasis": {
+        "kind": "reference-event-diagram",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "ivana-floor-middle-centre",
+      "ticketLabels": [
+        "ivana-floor-middle-centre"
+      ],
+      "levelName": "1080 港币 · 中后部中央（方位示意，非票面区号）",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.1,
+      "block": {
+        "x": -0.09999999999999987,
+        "z": -1.9500000000000002,
+        "width": 5.4,
+        "depth": 7.5,
+        "base": 0,
+        "facing": -1,
+        "polygon": [
+          [
+            2.6,
+            1.8
+          ],
+          [
+            -2.8,
+            1.8
+          ],
+          [
+            -2.8,
+            -5.7
+          ],
+          [
+            2.6,
+            -5.7
+          ]
+        ],
+        "label": "1080",
+        "color": "#61b4ed"
+      },
+      "samples": [],
+      "positionBasis": {
+        "kind": "reference-event-diagram",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "ivana-riser-front-1",
+      "ticketLabels": [
+        "ivana-riser-front-1"
+      ],
+      "levelName": "880 港币 · 后排阶梯前带 图左起1（方位示意，非票面区号）",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.1,
+      "block": {
+        "x": 23.35,
+        "z": -21.5,
+        "width": 2.3000000000000007,
+        "depth": 11.799999999999999,
+        "base": 0,
+        "facing": -1,
+        "polygon": [
+          [
+            24.5,
+            -15.6
+          ],
+          [
+            22.2,
+            -15.6
+          ],
+          [
+            22.2,
+            -27.4
+          ],
+          [
+            24.5,
+            -27.4
+          ]
+        ],
+        "label": "880",
+        "color": "#f05c6c",
+        "risers": {
+          "base": 0.3,
+          "rise": 2.4,
+          "steps": 8
+        }
+      },
+      "samples": [],
+      "positionBasis": {
+        "kind": "reference-event-diagram",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "ivana-riser-back-1",
+      "ticketLabels": [
+        "ivana-riser-back-1"
+      ],
+      "levelName": "680 港币 · 后排阶梯后带 图左起1（方位示意，非票面区号）",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.1,
+      "block": {
+        "x": 23.35,
+        "z": -33.6,
+        "width": 2.3000000000000007,
+        "depth": 9.599999999999998,
+        "base": 0,
+        "facing": -1,
+        "polygon": [
+          [
+            24.5,
+            -28.8
+          ],
+          [
+            22.2,
+            -28.8
+          ],
+          [
+            22.2,
+            -38.4
+          ],
+          [
+            24.5,
+            -38.4
+          ]
+        ],
+        "label": "680",
+        "color": "#3cd681",
+        "risers": {
+          "base": 2.7,
+          "rise": 1.8,
+          "steps": 6
+        }
+      },
+      "samples": [],
+      "positionBasis": {
+        "kind": "reference-event-diagram",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "ivana-riser-front-2",
+      "ticketLabels": [
+        "ivana-riser-front-2"
+      ],
+      "levelName": "880 港币 · 后排阶梯前带 图左起2（方位示意，非票面区号）",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.1,
+      "block": {
+        "x": 18.3,
+        "z": -21.5,
+        "width": 4.399999999999999,
+        "depth": 11.799999999999999,
+        "base": 0,
+        "facing": -1,
+        "polygon": [
+          [
+            20.5,
+            -15.6
+          ],
+          [
+            16.1,
+            -15.6
+          ],
+          [
+            16.1,
+            -27.4
+          ],
+          [
+            20.5,
+            -27.4
+          ]
+        ],
+        "label": "880",
+        "color": "#f05c6c",
+        "risers": {
+          "base": 0.3,
+          "rise": 2.4,
+          "steps": 8
+        }
+      },
+      "samples": [],
+      "positionBasis": {
+        "kind": "reference-event-diagram",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "ivana-riser-back-2",
+      "ticketLabels": [
+        "ivana-riser-back-2"
+      ],
+      "levelName": "680 港币 · 后排阶梯后带 图左起2（方位示意，非票面区号）",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.1,
+      "block": {
+        "x": 18.3,
+        "z": -33.6,
+        "width": 4.399999999999999,
+        "depth": 9.599999999999998,
+        "base": 0,
+        "facing": -1,
+        "polygon": [
+          [
+            20.5,
+            -28.8
+          ],
+          [
+            16.1,
+            -28.8
+          ],
+          [
+            16.1,
+            -38.4
+          ],
+          [
+            20.5,
+            -38.4
+          ]
+        ],
+        "label": "680",
+        "color": "#3cd681",
+        "risers": {
+          "base": 2.7,
+          "rise": 1.8,
+          "steps": 6
+        }
+      },
+      "samples": [],
+      "positionBasis": {
+        "kind": "reference-event-diagram",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "ivana-riser-front-3",
+      "ticketLabels": [
+        "ivana-riser-front-3"
+      ],
+      "levelName": "880 港币 · 后排阶梯前带 图左起3（方位示意，非票面区号）",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.1,
+      "block": {
+        "x": 12.3,
+        "z": -21.5,
+        "width": 4.4,
+        "depth": 11.799999999999999,
+        "base": 0,
+        "facing": -1,
+        "polygon": [
+          [
+            14.5,
+            -15.6
+          ],
+          [
+            10.1,
+            -15.6
+          ],
+          [
+            10.1,
+            -27.4
+          ],
+          [
+            14.5,
+            -27.4
+          ]
+        ],
+        "label": "880",
+        "color": "#f05c6c",
+        "risers": {
+          "base": 0.3,
+          "rise": 2.4,
+          "steps": 8
+        }
+      },
+      "samples": [],
+      "positionBasis": {
+        "kind": "reference-event-diagram",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "ivana-riser-back-3",
+      "ticketLabels": [
+        "ivana-riser-back-3"
+      ],
+      "levelName": "680 港币 · 后排阶梯后带 图左起3（方位示意，非票面区号）",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.1,
+      "block": {
+        "x": 12.3,
+        "z": -33.6,
+        "width": 4.4,
+        "depth": 9.599999999999998,
+        "base": 0,
+        "facing": -1,
+        "polygon": [
+          [
+            14.5,
+            -28.8
+          ],
+          [
+            10.1,
+            -28.8
+          ],
+          [
+            10.1,
+            -38.4
+          ],
+          [
+            14.5,
+            -38.4
+          ]
+        ],
+        "label": "680",
+        "color": "#3cd681",
+        "risers": {
+          "base": 2.7,
+          "rise": 1.8,
+          "steps": 6
+        }
+      },
+      "samples": [],
+      "positionBasis": {
+        "kind": "reference-event-diagram",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "ivana-riser-front-4",
+      "ticketLabels": [
+        "ivana-riser-front-4"
+      ],
+      "levelName": "880 港币 · 后排阶梯前带 图左起4（方位示意，非票面区号）",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.1,
+      "block": {
+        "x": 6.3,
+        "z": -21.5,
+        "width": 4.4,
+        "depth": 11.799999999999999,
+        "base": 0,
+        "facing": -1,
+        "polygon": [
+          [
+            8.5,
+            -15.6
+          ],
+          [
+            4.1,
+            -15.6
+          ],
+          [
+            4.1,
+            -27.4
+          ],
+          [
+            8.5,
+            -27.4
+          ]
+        ],
+        "label": "880",
+        "color": "#f05c6c",
+        "risers": {
+          "base": 0.3,
+          "rise": 2.4,
+          "steps": 8
+        }
+      },
+      "samples": [],
+      "positionBasis": {
+        "kind": "reference-event-diagram",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "ivana-riser-back-4",
+      "ticketLabels": [
+        "ivana-riser-back-4"
+      ],
+      "levelName": "680 港币 · 后排阶梯后带 图左起4（方位示意，非票面区号）",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.1,
+      "block": {
+        "x": 6.3,
+        "z": -33.6,
+        "width": 4.4,
+        "depth": 9.599999999999998,
+        "base": 0,
+        "facing": -1,
+        "polygon": [
+          [
+            8.5,
+            -28.8
+          ],
+          [
+            4.1,
+            -28.8
+          ],
+          [
+            4.1,
+            -38.4
+          ],
+          [
+            8.5,
+            -38.4
+          ]
+        ],
+        "label": "680",
+        "color": "#3cd681",
+        "risers": {
+          "base": 2.7,
+          "rise": 1.8,
+          "steps": 6
+        }
+      },
+      "samples": [],
+      "positionBasis": {
+        "kind": "reference-event-diagram",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "ivana-riser-front-5",
+      "ticketLabels": [
+        "ivana-riser-front-5"
+      ],
+      "levelName": "880 港币 · 后排阶梯前带 图左起5（方位示意，非票面区号）",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.1,
+      "block": {
+        "x": 0.0,
+        "z": -22.95,
+        "width": 4.4,
+        "depth": 8.899999999999999,
+        "base": 0,
+        "facing": -1,
+        "polygon": [
+          [
+            2.2,
+            -18.5
+          ],
+          [
+            -2.2,
+            -18.5
+          ],
+          [
+            -2.2,
+            -27.4
+          ],
+          [
+            2.2,
+            -27.4
+          ]
+        ],
+        "label": "880",
+        "color": "#f05c6c",
+        "risers": {
+          "base": 0.9,
+          "rise": 1.8,
+          "steps": 6
+        }
+      },
+      "samples": [],
+      "positionBasis": {
+        "kind": "reference-event-diagram",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "ivana-riser-back-5",
+      "ticketLabels": [
+        "ivana-riser-back-5"
+      ],
+      "levelName": "680 港币 · 后排阶梯后带 图左起5（方位示意，非票面区号）",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.1,
+      "block": {
+        "x": 0.0,
+        "z": -33.6,
+        "width": 4.4,
+        "depth": 9.599999999999998,
+        "base": 0,
+        "facing": -1,
+        "polygon": [
+          [
+            2.2,
+            -28.8
+          ],
+          [
+            -2.2,
+            -28.8
+          ],
+          [
+            -2.2,
+            -38.4
+          ],
+          [
+            2.2,
+            -38.4
+          ]
+        ],
+        "label": "680",
+        "color": "#3cd681",
+        "risers": {
+          "base": 2.7,
+          "rise": 1.8,
+          "steps": 6
+        }
+      },
+      "samples": [],
+      "positionBasis": {
+        "kind": "reference-event-diagram",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "ivana-riser-front-6",
+      "ticketLabels": [
+        "ivana-riser-front-6"
+      ],
+      "levelName": "880 港币 · 后排阶梯前带 图左起6（方位示意，非票面区号）",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.1,
+      "block": {
+        "x": -6.2,
+        "z": -21.5,
+        "width": 4.4,
+        "depth": 11.799999999999999,
+        "base": 0,
+        "facing": -1,
+        "polygon": [
+          [
+            -4.0,
+            -15.6
+          ],
+          [
+            -8.4,
+            -15.6
+          ],
+          [
+            -8.4,
+            -27.4
+          ],
+          [
+            -4.0,
+            -27.4
+          ]
+        ],
+        "label": "880",
+        "color": "#f05c6c",
+        "risers": {
+          "base": 0.3,
+          "rise": 2.4,
+          "steps": 8
+        }
+      },
+      "samples": [],
+      "positionBasis": {
+        "kind": "reference-event-diagram",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "ivana-riser-back-6",
+      "ticketLabels": [
+        "ivana-riser-back-6"
+      ],
+      "levelName": "680 港币 · 后排阶梯后带 图左起6（方位示意，非票面区号）",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.1,
+      "block": {
+        "x": -6.2,
+        "z": -33.6,
+        "width": 4.4,
+        "depth": 9.599999999999998,
+        "base": 0,
+        "facing": -1,
+        "polygon": [
+          [
+            -4.0,
+            -28.8
+          ],
+          [
+            -8.4,
+            -28.8
+          ],
+          [
+            -8.4,
+            -38.4
+          ],
+          [
+            -4.0,
+            -38.4
+          ]
+        ],
+        "label": "680",
+        "color": "#3cd681",
+        "risers": {
+          "base": 2.7,
+          "rise": 1.8,
+          "steps": 6
+        }
+      },
+      "samples": [],
+      "positionBasis": {
+        "kind": "reference-event-diagram",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "ivana-riser-front-7",
+      "ticketLabels": [
+        "ivana-riser-front-7"
+      ],
+      "levelName": "880 港币 · 后排阶梯前带 图左起7（方位示意，非票面区号）",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.1,
+      "block": {
+        "x": -12.3,
+        "z": -21.5,
+        "width": 4.4,
+        "depth": 11.799999999999999,
+        "base": 0,
+        "facing": -1,
+        "polygon": [
+          [
+            -10.1,
+            -15.6
+          ],
+          [
+            -14.5,
+            -15.6
+          ],
+          [
+            -14.5,
+            -27.4
+          ],
+          [
+            -10.1,
+            -27.4
+          ]
+        ],
+        "label": "880",
+        "color": "#f05c6c",
+        "risers": {
+          "base": 0.3,
+          "rise": 2.4,
+          "steps": 8
+        }
+      },
+      "samples": [],
+      "positionBasis": {
+        "kind": "reference-event-diagram",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "ivana-riser-back-7",
+      "ticketLabels": [
+        "ivana-riser-back-7"
+      ],
+      "levelName": "680 港币 · 后排阶梯后带 图左起7（方位示意，非票面区号）",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.1,
+      "block": {
+        "x": -12.3,
+        "z": -33.6,
+        "width": 4.4,
+        "depth": 9.599999999999998,
+        "base": 0,
+        "facing": -1,
+        "polygon": [
+          [
+            -10.1,
+            -28.8
+          ],
+          [
+            -14.5,
+            -28.8
+          ],
+          [
+            -14.5,
+            -38.4
+          ],
+          [
+            -10.1,
+            -38.4
+          ]
+        ],
+        "label": "680",
+        "color": "#3cd681",
+        "risers": {
+          "base": 2.7,
+          "rise": 1.8,
+          "steps": 6
+        }
+      },
+      "samples": [],
+      "positionBasis": {
+        "kind": "reference-event-diagram",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "ivana-riser-front-8",
+      "ticketLabels": [
+        "ivana-riser-front-8"
+      ],
+      "levelName": "880 港币 · 后排阶梯前带 图左起8（方位示意，非票面区号）",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.1,
+      "block": {
+        "x": -18.3,
+        "z": -21.5,
+        "width": 4.399999999999999,
+        "depth": 11.799999999999999,
+        "base": 0,
+        "facing": -1,
+        "polygon": [
+          [
+            -16.1,
+            -15.6
+          ],
+          [
+            -20.5,
+            -15.6
+          ],
+          [
+            -20.5,
+            -27.4
+          ],
+          [
+            -16.1,
+            -27.4
+          ]
+        ],
+        "label": "880",
+        "color": "#f05c6c",
+        "risers": {
+          "base": 0.3,
+          "rise": 2.4,
+          "steps": 8
+        }
+      },
+      "samples": [],
+      "positionBasis": {
+        "kind": "reference-event-diagram",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "ivana-riser-back-8",
+      "ticketLabels": [
+        "ivana-riser-back-8"
+      ],
+      "levelName": "680 港币 · 后排阶梯后带 图左起8（方位示意，非票面区号）",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.1,
+      "block": {
+        "x": -18.3,
+        "z": -33.6,
+        "width": 4.399999999999999,
+        "depth": 9.599999999999998,
+        "base": 0,
+        "facing": -1,
+        "polygon": [
+          [
+            -16.1,
+            -28.8
+          ],
+          [
+            -20.5,
+            -28.8
+          ],
+          [
+            -20.5,
+            -38.4
+          ],
+          [
+            -16.1,
+            -38.4
+          ]
+        ],
+        "label": "680",
+        "color": "#3cd681",
+        "risers": {
+          "base": 2.7,
+          "rise": 1.8,
+          "steps": 6
+        }
+      },
+      "samples": [],
+      "positionBasis": {
+        "kind": "reference-event-diagram",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "ivana-riser-front-9",
+      "ticketLabels": [
+        "ivana-riser-front-9"
+      ],
+      "levelName": "880 港币 · 后排阶梯前带 图左起9（方位示意，非票面区号）",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.1,
+      "block": {
+        "x": -23.450000000000003,
+        "z": -21.5,
+        "width": 2.3000000000000007,
+        "depth": 11.799999999999999,
+        "base": 0,
+        "facing": -1,
+        "polygon": [
+          [
+            -22.3,
+            -15.6
+          ],
+          [
+            -24.6,
+            -15.6
+          ],
+          [
+            -24.6,
+            -27.4
+          ],
+          [
+            -22.3,
+            -27.4
+          ]
+        ],
+        "label": "880",
+        "color": "#f05c6c",
+        "risers": {
+          "base": 0.3,
+          "rise": 2.4,
+          "steps": 8
+        }
+      },
+      "samples": [],
+      "positionBasis": {
+        "kind": "reference-event-diagram",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "ivana-riser-back-9",
+      "ticketLabels": [
+        "ivana-riser-back-9"
+      ],
+      "levelName": "680 港币 · 后排阶梯后带 图左起9（方位示意，非票面区号）",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.1,
+      "block": {
+        "x": -23.450000000000003,
+        "z": -33.6,
+        "width": 2.3000000000000007,
+        "depth": 9.599999999999998,
+        "base": 0,
+        "facing": -1,
+        "polygon": [
+          [
+            -22.3,
+            -28.8
+          ],
+          [
+            -24.6,
+            -28.8
+          ],
+          [
+            -24.6,
+            -38.4
+          ],
+          [
+            -22.3,
+            -38.4
+          ]
+        ],
+        "label": "680",
+        "color": "#3cd681",
+        "risers": {
+          "base": 2.7,
+          "rise": 1.8,
+          "steps": 6
+        }
+      },
+      "samples": [],
+      "positionBasis": {
+        "kind": "reference-event-diagram",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    }
+  ],
+  "importedAt": "2026-10-24T00:00:00.000Z"
+}

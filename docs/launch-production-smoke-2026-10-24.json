@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-24 Asia/Shanghai",
+  "mode": "production configuration with temporary loopback HTTP transport; not deployed HTTPS",
+  "configGuards": "4/4 rejected invalid production configs",
+  "health": 200,
+  "securityHeaders": "present",
+  "invalidHost": 403,
+  "providers": {
+    "email": false,
+    "google": false,
+    "billing": false,
+    "localEmail": false,
+    "localGoogle": false,
+    "localBilling": false,
+    "localInbox": false
+  },
+  "premiumVenueGuestStatus": 403
+}

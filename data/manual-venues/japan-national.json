@@ -1,0 +1,2909 @@
+{
+  "id": "japan-national",
+  "name": "日本国立竞技场 · MUFG",
+  "city": "日本 · 东京",
+  "capacity": "原站目录未提供统一容量字段",
+  "source": "https://www.jpnsport.go.jp/newstadium/tabid/676/Default.aspx",
+  "sourceTitle": "REA 导出的公开场馆来源索引与参数化座位示意",
+  "sourceLinks": [
+    "https://www.jpnsport.go.jp/newstadium/tabid/676/Default.aspx",
+    "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+  ],
+  "accuracy": {
+    "sectionLabels": "source-layout-reference",
+    "completeSeatInventory": false,
+    "metricCalibrated": false,
+    "stage": "generic",
+    "position": "estimated",
+    "geometryBasis": "source-informed-parametric:plan",
+    "catalogStatus": "source-geometry-and-sections",
+    "seatDataStatus": "section-only",
+    "sourceLayout": "center",
+    "coverage": "166 个来源分区；0 条座位采样。区号来自公开布局参考。",
+    "reuse": "来源页面可公开访问；未建立商业图形、模型或座位数据库再分发许可，发布前需逐源复核。",
+    "sourceDate": "REA capture 2026-10-24",
+    "sourceInventory": {
+      "venueReferenceUrl": "https://www.jpnsport.go.jp/newstadium/tabid/676/Default.aspx",
+      "mapReferenceUrl": "https://www.jpnsport.go.jp/newstadium/tabid/676/Default.aspx",
+      "sectionSource": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg",
+      "geometryEvidenceLabel": "plan",
+      "note": "Missing asset URL does not establish absence of generated seat geometry."
+    },
+    "seatAsset": null
+  },
+  "tiers": [
+    [
+      59,
+      91,
+      1,
+      25,
+      10
+    ],
+    [
+      76,
+      108,
+      16,
+      18,
+      11
+    ],
+    [
+      87,
+      119,
+      31,
+      22,
+      16
+    ]
+  ],
+  "geometry": {
+    "shape": "oval",
+    "coordinateSystem": "profile-inner-radius",
+    "power": 1,
+    "oneSided": false,
+    "floor": [
+      112,
+      176
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "1层",
+        "steps": 31
+      },
+      {
+        "id": "middle",
+        "name": "2层",
+        "steps": 23
+      },
+      {
+        "id": "upper",
+        "name": "3层",
+        "steps": 28
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "101",
+      "ticketLabels": [
+        "101"
+      ],
+      "sourceLabel": "101 入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.7853981633974483,
+      "halfAngle": 0.06006550620738485,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "102",
+      "ticketLabels": [
+        "102"
+      ],
+      "sourceLabel": "102 入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.6488785093064517,
+      "halfAngle": 0.06006550620738485,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "103",
+      "ticketLabels": [
+        "103"
+      ],
+      "sourceLabel": "103 入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.5123588552154554,
+      "halfAngle": 0.06006550620738485,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "104",
+      "ticketLabels": [
+        "104"
+      ],
+      "sourceLabel": "104 入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.375821747831939,
+      "halfAngle": 0.06006550620738485,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "105",
+      "ticketLabels": [
+        "105"
+      ],
+      "sourceLabel": "105 入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.2393020937409425,
+      "halfAngle": 0.06006550620738485,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "106",
+      "ticketLabels": [
+        "106"
+      ],
+      "sourceLabel": "106 入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.10278243964994607,
+      "halfAngle": 0.06006550620738485,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "107",
+      "ticketLabels": [
+        "107"
+      ],
+      "sourceLabel": "107 入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.033737214441050385,
+      "halfAngle": 0.06006550620738485,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "108",
+      "ticketLabels": [
+        "108"
+      ],
+      "sourceLabel": "108 入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.17027432182456678,
+      "halfAngle": 0.06006550620738485,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "109",
+      "ticketLabels": [
+        "109"
+      ],
+      "sourceLabel": "109 入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.30679397591556323,
+      "halfAngle": 0.06006550620738485,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "110",
+      "ticketLabels": [
+        "110"
+      ],
+      "sourceLabel": "110 入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.44331363000655966,
+      "halfAngle": 0.06006550620738485,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "111",
+      "ticketLabels": [
+        "111"
+      ],
+      "sourceLabel": "111 入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.5798332840975562,
+      "halfAngle": 0.06006550620738485,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "112",
+      "ticketLabels": [
+        "112"
+      ],
+      "sourceLabel": "112 入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.7163529381885526,
+      "halfAngle": 0.06006550620738485,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "113",
+      "ticketLabels": [
+        "113"
+      ],
+      "sourceLabel": "113 入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.8528900455720689,
+      "halfAngle": 0.06006550620738485,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "114",
+      "ticketLabels": [
+        "114"
+      ],
+      "sourceLabel": "114 入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.9894096996630655,
+      "halfAngle": 0.06006550620738485,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "115",
+      "ticketLabels": [
+        "115"
+      ],
+      "sourceLabel": "115 入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.125929353754062,
+      "halfAngle": 0.06006550620738485,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "116",
+      "ticketLabels": [
+        "116"
+      ],
+      "sourceLabel": "116 入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.2624490078450583,
+      "halfAngle": 0.06006550620738485,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "117",
+      "ticketLabels": [
+        "117"
+      ],
+      "sourceLabel": "117 入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.398986115228575,
+      "halfAngle": 0.06006550620738485,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "118",
+      "ticketLabels": [
+        "118"
+      ],
+      "sourceLabel": "118 入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.535505769319571,
+      "halfAngle": 0.06006550620738485,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "119",
+      "ticketLabels": [
+        "119"
+      ],
+      "sourceLabel": "119 入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.6720254234105676,
+      "halfAngle": 0.06006550620738485,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "120",
+      "ticketLabels": [
+        "120"
+      ],
+      "sourceLabel": "120 入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.8085450775015643,
+      "halfAngle": 0.06006550620738485,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "121",
+      "ticketLabels": [
+        "121"
+      ],
+      "sourceLabel": "121 入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.9450647315925607,
+      "halfAngle": 0.06006550620738485,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "122",
+      "ticketLabels": [
+        "122"
+      ],
+      "sourceLabel": "122 入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.081601838976077,
+      "halfAngle": 0.06006550620738485,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "123",
+      "ticketLabels": [
+        "123"
+      ],
+      "sourceLabel": "123 入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.2181214930670734,
+      "halfAngle": 0.06006550620738485,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "124",
+      "ticketLabels": [
+        "124"
+      ],
+      "sourceLabel": "124 入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.3546411471580697,
+      "halfAngle": 0.06006550620738485,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "125",
+      "ticketLabels": [
+        "125"
+      ],
+      "sourceLabel": "125 入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.4911608012490665,
+      "halfAngle": 0.06006550620738485,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "126",
+      "ticketLabels": [
+        "126"
+      ],
+      "sourceLabel": "126 入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.627697908632583,
+      "halfAngle": 0.06006550620738485,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "127",
+      "ticketLabels": [
+        "127"
+      ],
+      "sourceLabel": "127 入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.764217562723579,
+      "halfAngle": 0.06006550620738485,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "128",
+      "ticketLabels": [
+        "128"
+      ],
+      "sourceLabel": "128 入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.900737216814575,
+      "halfAngle": 0.06006550620738485,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "129",
+      "ticketLabels": [
+        "129"
+      ],
+      "sourceLabel": "129 入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.037256870905572,
+      "halfAngle": 0.06006550620738485,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "130",
+      "ticketLabels": [
+        "130"
+      ],
+      "sourceLabel": "130 入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.1737765249965686,
+      "halfAngle": 0.06006550620738485,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "131",
+      "ticketLabels": [
+        "131"
+      ],
+      "sourceLabel": "131 入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.310313632380085,
+      "halfAngle": 0.06006550620738485,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "132",
+      "ticketLabels": [
+        "132"
+      ],
+      "sourceLabel": "132 入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.446833286471082,
+      "halfAngle": 0.06006550620738485,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "133",
+      "ticketLabels": [
+        "133"
+      ],
+      "sourceLabel": "133 入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.5833529405620776,
+      "halfAngle": 0.06006550620738485,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "134",
+      "ticketLabels": [
+        "134"
+      ],
+      "sourceLabel": "134 入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.719872594653075,
+      "halfAngle": 0.06006550620738485,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "135",
+      "ticketLabels": [
+        "135"
+      ],
+      "sourceLabel": "135 入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.856409702036591,
+      "halfAngle": 0.06006550620738485,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "136",
+      "ticketLabels": [
+        "136"
+      ],
+      "sourceLabel": "136 入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.992929356127587,
+      "halfAngle": 0.06006550620738485,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "137",
+      "ticketLabels": [
+        "137"
+      ],
+      "sourceLabel": "137 入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 4.1294490102185835,
+      "halfAngle": 0.06006550620738485,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "138",
+      "ticketLabels": [
+        "138"
+      ],
+      "sourceLabel": "138 入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 4.26596866430958,
+      "halfAngle": 0.06006550620738485,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "139",
+      "ticketLabels": [
+        "139"
+      ],
+      "sourceLabel": "139 入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 4.402488318400577,
+      "halfAngle": 0.06006550620738485,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "140",
+      "ticketLabels": [
+        "140"
+      ],
+      "sourceLabel": "140 入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 4.539025425784093,
+      "halfAngle": 0.06006550620738485,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "141",
+      "ticketLabels": [
+        "141"
+      ],
+      "sourceLabel": "141 入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 4.675545079875089,
+      "halfAngle": 0.06006550620738485,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "142",
+      "ticketLabels": [
+        "142"
+      ],
+      "sourceLabel": "142 入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 4.812064733966086,
+      "halfAngle": 0.06006550620738485,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "143",
+      "ticketLabels": [
+        "143"
+      ],
+      "sourceLabel": "143 入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 4.948584388057083,
+      "halfAngle": 0.06006550620738485,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "144",
+      "ticketLabels": [
+        "144"
+      ],
+      "sourceLabel": "144 入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 5.085121495440599,
+      "halfAngle": 0.06006550620738485,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "145",
+      "ticketLabels": [
+        "145"
+      ],
+      "sourceLabel": "145 入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 5.221641149531595,
+      "halfAngle": 0.06006550620738485,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "146",
+      "ticketLabels": [
+        "146"
+      ],
+      "sourceLabel": "146 入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 5.358160803622591,
+      "halfAngle": 0.06006550620738485,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "201",
+      "ticketLabels": [
+        "201"
+      ],
+      "sourceLabel": "201 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.3490658503988659,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "202",
+      "ticketLabels": [
+        "202"
+      ],
+      "sourceLabel": "202 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.24778439390563495,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "203",
+      "ticketLabels": [
+        "203"
+      ],
+      "sourceLabel": "203 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.1464854841198841,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "204",
+      "ticketLabels": [
+        "204"
+      ],
+      "sourceLabel": "204 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.04520402762665313,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "205",
+      "ticketLabels": [
+        "205"
+      ],
+      "sourceLabel": "205 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.056077428866577815,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "206",
+      "ticketLabels": [
+        "206"
+      ],
+      "sourceLabel": "206 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.15735888535980874,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "207",
+      "ticketLabels": [
+        "207"
+      ],
+      "sourceLabel": "207 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.25865779514555964,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "208",
+      "ticketLabels": [
+        "208"
+      ],
+      "sourceLabel": "208 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.3599392516387906,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "209",
+      "ticketLabels": [
+        "209"
+      ],
+      "sourceLabel": "209 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.4612207081320215,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "210",
+      "ticketLabels": [
+        "210"
+      ],
+      "sourceLabel": "210 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.5625196179177724,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "211",
+      "ticketLabels": [
+        "211"
+      ],
+      "sourceLabel": "211 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.6638010744110033,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "212",
+      "ticketLabels": [
+        "212"
+      ],
+      "sourceLabel": "212 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.7650825309042342,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "213",
+      "ticketLabels": [
+        "213"
+      ],
+      "sourceLabel": "213 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.8663639873974653,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "214",
+      "ticketLabels": [
+        "214"
+      ],
+      "sourceLabel": "214 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.9676628971832161,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "215",
+      "ticketLabels": [
+        "215"
+      ],
+      "sourceLabel": "215 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.068944353676447,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "216",
+      "ticketLabels": [
+        "216"
+      ],
+      "sourceLabel": "216 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.170225810169678,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "217",
+      "ticketLabels": [
+        "217"
+      ],
+      "sourceLabel": "217 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.271507266662909,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "218",
+      "ticketLabels": [
+        "218"
+      ],
+      "sourceLabel": "218 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.3728061764486599,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "219",
+      "ticketLabels": [
+        "219"
+      ],
+      "sourceLabel": "219 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.4740876329418906,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "220",
+      "ticketLabels": [
+        "220"
+      ],
+      "sourceLabel": "220 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.5753690894351218,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "221",
+      "ticketLabels": [
+        "221"
+      ],
+      "sourceLabel": "221 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.6766679992208726,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "222",
+      "ticketLabels": [
+        "222"
+      ],
+      "sourceLabel": "222 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.7779494557141038,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "223",
+      "ticketLabels": [
+        "223"
+      ],
+      "sourceLabel": "223 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.8792309122073343,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "224",
+      "ticketLabels": [
+        "224"
+      ],
+      "sourceLabel": "224 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.9805123687005652,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "225",
+      "ticketLabels": [
+        "225"
+      ],
+      "sourceLabel": "225 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.0818112784863163,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "226",
+      "ticketLabels": [
+        "226"
+      ],
+      "sourceLabel": "226 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.183092734979547,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "227",
+      "ticketLabels": [
+        "227"
+      ],
+      "sourceLabel": "227 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.284374191472778,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "228",
+      "ticketLabels": [
+        "228"
+      ],
+      "sourceLabel": "228 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.385673101258529,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "229",
+      "ticketLabels": [
+        "229"
+      ],
+      "sourceLabel": "229 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.4869545577517598,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "230",
+      "ticketLabels": [
+        "230"
+      ],
+      "sourceLabel": "230 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.5882360142449907,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "231",
+      "ticketLabels": [
+        "231"
+      ],
+      "sourceLabel": "231 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.689517470738222,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "232",
+      "ticketLabels": [
+        "232"
+      ],
+      "sourceLabel": "232 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.7908163805239723,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "233",
+      "ticketLabels": [
+        "233"
+      ],
+      "sourceLabel": "233 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.892097837017204,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "234",
+      "ticketLabels": [
+        "234"
+      ],
+      "sourceLabel": "234 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.993379293510435,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "235",
+      "ticketLabels": [
+        "235"
+      ],
+      "sourceLabel": "235 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.094660750003666,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "236",
+      "ticketLabels": [
+        "236"
+      ],
+      "sourceLabel": "236 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.195959659789416,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "237",
+      "ticketLabels": [
+        "237"
+      ],
+      "sourceLabel": "237 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.297241116282647,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "238",
+      "ticketLabels": [
+        "238"
+      ],
+      "sourceLabel": "238 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.3985225727758785,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "239",
+      "ticketLabels": [
+        "239"
+      ],
+      "sourceLabel": "239 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.499821482561629,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "240",
+      "ticketLabels": [
+        "240"
+      ],
+      "sourceLabel": "240 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.6011029390548606,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "241",
+      "ticketLabels": [
+        "241"
+      ],
+      "sourceLabel": "241 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.7023843955480915,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "242",
+      "ticketLabels": [
+        "242"
+      ],
+      "sourceLabel": "242 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.8036658520413225,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "243",
+      "ticketLabels": [
+        "243"
+      ],
+      "sourceLabel": "243 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.9049647618270726,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "244",
+      "ticketLabels": [
+        "244"
+      ],
+      "sourceLabel": "244 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 4.006246218320304,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "245",
+      "ticketLabels": [
+        "245"
+      ],
+      "sourceLabel": "245 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 4.107527674813535,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "246",
+      "ticketLabels": [
+        "246"
+      ],
+      "sourceLabel": "246 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 4.208826584599286,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "247",
+      "ticketLabels": [
+        "247"
+      ],
+      "sourceLabel": "247 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 4.3101080410925166,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "248",
+      "ticketLabels": [
+        "248"
+      ],
+      "sourceLabel": "248 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 4.4113894975857475,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "249",
+      "ticketLabels": [
+        "249"
+      ],
+      "sourceLabel": "249 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 4.5126709540789784,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "250",
+      "ticketLabels": [
+        "250"
+      ],
+      "sourceLabel": "250 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 4.613969863864729,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "251",
+      "ticketLabels": [
+        "251"
+      ],
+      "sourceLabel": "251 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 4.71525132035796,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "252",
+      "ticketLabels": [
+        "252"
+      ],
+      "sourceLabel": "252 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 4.816532776851191,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "253",
+      "ticketLabels": [
+        "253"
+      ],
+      "sourceLabel": "253 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 4.917814233344422,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "254",
+      "ticketLabels": [
+        "254"
+      ],
+      "sourceLabel": "254 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 5.019113143130173,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "255",
+      "ticketLabels": [
+        "255"
+      ],
+      "sourceLabel": "255 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 5.120394599623404,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "256",
+      "ticketLabels": [
+        "256"
+      ],
+      "sourceLabel": "256 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 5.221676056116635,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "257",
+      "ticketLabels": [
+        "257"
+      ],
+      "sourceLabel": "257 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 5.322974965902385,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "258",
+      "ticketLabels": [
+        "258"
+      ],
+      "sourceLabel": "258 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 5.424256422395616,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "259",
+      "ticketLabels": [
+        "259"
+      ],
+      "sourceLabel": "259 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 5.525537878888847,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "260",
+      "ticketLabels": [
+        "260"
+      ],
+      "sourceLabel": "260 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 5.626819335382079,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "261",
+      "ticketLabels": [
+        "261"
+      ],
+      "sourceLabel": "261 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 5.728118245167829,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "262",
+      "ticketLabels": [
+        "262"
+      ],
+      "sourceLabel": "262 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 5.829399701661061,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "301",
+      "ticketLabels": [
+        "301"
+      ],
+      "sourceLabel": "301 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -0.7853981633974483,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "302",
+      "ticketLabels": [
+        "302"
+      ],
+      "sourceLabel": "302 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -0.6769957635560805,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "303",
+      "ticketLabels": [
+        "303"
+      ],
+      "sourceLabel": "303 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -0.5686108170072326,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "304",
+      "ticketLabels": [
+        "304"
+      ],
+      "sourceLabel": "304 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -0.46020841716586475,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "305",
+      "ticketLabels": [
+        "305"
+      ],
+      "sourceLabel": "305 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -0.35182347061701696,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "306",
+      "ticketLabels": [
+        "306"
+      ],
+      "sourceLabel": "306 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -0.24342107077564912,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "307",
+      "ticketLabels": [
+        "307"
+      ],
+      "sourceLabel": "307 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -0.13503612422680128,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "308",
+      "ticketLabels": [
+        "308"
+      ],
+      "sourceLabel": "308 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -0.02663372438543347,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "309",
+      "ticketLabels": [
+        "309"
+      ],
+      "sourceLabel": "309 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 0.0817512221634144,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "310",
+      "ticketLabels": [
+        "310"
+      ],
+      "sourceLabel": "310 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 0.1901536220047822,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "311",
+      "ticketLabels": [
+        "311"
+      ],
+      "sourceLabel": "311 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 0.29853856855363003,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "312",
+      "ticketLabels": [
+        "312"
+      ],
+      "sourceLabel": "312 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 0.4069409683949979,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "313",
+      "ticketLabels": [
+        "313"
+      ],
+      "sourceLabel": "313 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 0.5153259149438457,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "314",
+      "ticketLabels": [
+        "314"
+      ],
+      "sourceLabel": "314 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 0.6237283147852136,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "315",
+      "ticketLabels": [
+        "315"
+      ],
+      "sourceLabel": "315 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 0.7321132613340614,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "316",
+      "ticketLabels": [
+        "316"
+      ],
+      "sourceLabel": "316 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 0.8405156611754292,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "317",
+      "ticketLabels": [
+        "317"
+      ],
+      "sourceLabel": "317 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 0.9489006077242771,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "318",
+      "ticketLabels": [
+        "318"
+      ],
+      "sourceLabel": "318 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 1.0573030075656449,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "319",
+      "ticketLabels": [
+        "319"
+      ],
+      "sourceLabel": "319 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 1.1656879541144929,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "320",
+      "ticketLabels": [
+        "320"
+      ],
+      "sourceLabel": "320 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 1.2740903539558606,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "321",
+      "ticketLabels": [
+        "321"
+      ],
+      "sourceLabel": "321 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 1.3824927537972282,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "322",
+      "ticketLabels": [
+        "322"
+      ],
+      "sourceLabel": "322 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 1.4908777003460763,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "323",
+      "ticketLabels": [
+        "323"
+      ],
+      "sourceLabel": "323 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 1.5992801001874442,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "324",
+      "ticketLabels": [
+        "324"
+      ],
+      "sourceLabel": "324 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 1.7076650467362917,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "325",
+      "ticketLabels": [
+        "325"
+      ],
+      "sourceLabel": "325 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 1.8160674465776598,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "326",
+      "ticketLabels": [
+        "326"
+      ],
+      "sourceLabel": "326 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 1.9244523931265076,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "327",
+      "ticketLabels": [
+        "327"
+      ],
+      "sourceLabel": "327 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 2.0328547929678753,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "328",
+      "ticketLabels": [
+        "328"
+      ],
+      "sourceLabel": "328 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 2.141239739516723,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "329",
+      "ticketLabels": [
+        "329"
+      ],
+      "sourceLabel": "329 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 2.2496421393580914,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "330",
+      "ticketLabels": [
+        "330"
+      ],
+      "sourceLabel": "330 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 2.3580270859069388,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "331",
+      "ticketLabels": [
+        "331"
+      ],
+      "sourceLabel": "331 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 2.4664294857483067,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "332",
+      "ticketLabels": [
+        "332"
+      ],
+      "sourceLabel": "332 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 2.574814432297155,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "333",
+      "ticketLabels": [
+        "333"
+      ],
+      "sourceLabel": "333 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 2.6832168321385224,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "334",
+      "ticketLabels": [
+        "334"
+      ],
+      "sourceLabel": "334 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 2.79160177868737,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "335",
+      "ticketLabels": [
+        "335"
+      ],
+      "sourceLabel": "335 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 2.9000041785287376,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "336",
+      "ticketLabels": [
+        "336"
+      ],
+      "sourceLabel": "336 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 3.008389125077586,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "337",
+      "ticketLabels": [
+        "337"
+      ],
+      "sourceLabel": "337 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 3.1167915249189537,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "338",
+      "ticketLabels": [
+        "338"
+      ],
+      "sourceLabel": "338 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 3.225176471467801,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "339",
+      "ticketLabels": [
+        "339"
+      ],
+      "sourceLabel": "339 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 3.3335788713091694,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "340",
+      "ticketLabels": [
+        "340"
+      ],
+      "sourceLabel": "340 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 3.4419812711505378,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "341",
+      "ticketLabels": [
+        "341"
+      ],
+      "sourceLabel": "341 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 3.5503662176993847,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "342",
+      "ticketLabels": [
+        "342"
+      ],
+      "sourceLabel": "342 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 3.658768617540753,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "343",
+      "ticketLabels": [
+        "343"
+      ],
+      "sourceLabel": "343 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 3.7671535640896012,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "344",
+      "ticketLabels": [
+        "344"
+      ],
+      "sourceLabel": "344 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 3.8755559639309682,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "345",
+      "ticketLabels": [
+        "345"
+      ],
+      "sourceLabel": "345 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 3.9839409104798165,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "346",
+      "ticketLabels": [
+        "346"
+      ],
+      "sourceLabel": "346 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 4.092343310321184,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "347",
+      "ticketLabels": [
+        "347"
+      ],
+      "sourceLabel": "347 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 4.200728256870032,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "348",
+      "ticketLabels": [
+        "348"
+      ],
+      "sourceLabel": "348 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 4.3091306567114,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "349",
+      "ticketLabels": [
+        "349"
+      ],
+      "sourceLabel": "349 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 4.417515603260248,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "350",
+      "ticketLabels": [
+        "350"
+      ],
+      "sourceLabel": "350 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 4.525918003101615,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "351",
+      "ticketLabels": [
+        "351"
+      ],
+      "sourceLabel": "351 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 4.634302949650463,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "352",
+      "ticketLabels": [
+        "352"
+      ],
+      "sourceLabel": "352 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 4.742705349491832,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "353",
+      "ticketLabels": [
+        "353"
+      ],
+      "sourceLabel": "353 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 4.851090296040679,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "354",
+      "ticketLabels": [
+        "354"
+      ],
+      "sourceLabel": "354 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 4.959492695882047,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "355",
+      "ticketLabels": [
+        "355"
+      ],
+      "sourceLabel": "355 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 5.0678776424308944,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "356",
+      "ticketLabels": [
+        "356"
+      ],
+      "sourceLabel": "356 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 5.176280042272263,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "357",
+      "ticketLabels": [
+        "357"
+      ],
+      "sourceLabel": "357 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 5.28466498882111,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    },
+    {
+      "id": "358",
+      "ticketLabels": [
+        "358"
+      ],
+      "sourceLabel": "358 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 5.3930673886624785,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg"
+      }
+    }
+  ],
+  "importedAt": "2026-10-24T00:00:00.000Z"
+}

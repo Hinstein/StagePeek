@@ -1,0 +1,7 @@
+.env
+var/
+node_modules/
+*.sqlite*
+.DS_Store
+*.tmp
+coverage/

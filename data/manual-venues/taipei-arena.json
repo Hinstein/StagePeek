@@ -1,0 +1,1010 @@
+{
+  "id": "taipei-arena",
+  "name": "台北小巨蛋",
+  "city": "中国台湾 · 台北",
+  "capacity": "原站目录未提供统一容量字段",
+  "source": "https://www.arena.taipei/",
+  "sourceTitle": "REA 导出的公开场馆来源索引与参数化座位示意",
+  "sourceLinks": [
+    "https://www.arena.taipei/",
+    "https://web.metro.taipei/taipeiarenaseatview/taipeiarenaseat-center-tw.html",
+    "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/tpa-hUGCMqZh.json"
+  ],
+  "accuracy": {
+    "sectionLabels": "source-layout-reference",
+    "completeSeatInventory": false,
+    "metricCalibrated": false,
+    "stage": "generic",
+    "position": "estimated",
+    "geometryBasis": "source-informed-parametric:plan",
+    "catalogStatus": "source-geometry-and-sections",
+    "seatDataStatus": "bounded-source-samples",
+    "sourceLayout": "end",
+    "coverage": "50 个来源分区；0 条座位采样。区号来自公开布局参考。 原站公开资产记录约 22877 条，仅保留少量核对样本。",
+    "reuse": "来源页面可公开访问；未建立商业图形、模型或座位数据库再分发许可，发布前需逐源复核。",
+    "sourceDate": "REA capture 2026-10-24",
+    "sourceInventory": {
+      "venueReferenceUrl": "https://www.arena.taipei/",
+      "mapReferenceUrl": null,
+      "sectionSource": "https://web.metro.taipei/taipeiarenaseatview/taipeiarenaseat-center-tw.html",
+      "geometryEvidenceLabel": "plan",
+      "note": "Missing asset URL does not establish absence of generated seat geometry."
+    },
+    "seatAsset": {
+      "url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/tpa-hUGCMqZh.json",
+      "sha256": "f1b66f49d6ef8dc34f3a7aaf1cdfe621d45e1b6a28316c39d8539869344f6b5d",
+      "records": 22877
+    }
+  },
+  "tiers": [
+    [
+      22,
+      34,
+      1,
+      17,
+      8
+    ],
+    [
+      33,
+      45,
+      13,
+      18,
+      12
+    ]
+  ],
+  "geometry": {
+    "shape": "rounded",
+    "coordinateSystem": "profile-inner-radius",
+    "power": 0.48,
+    "oneSided": false,
+    "floor": [
+      40,
+      64
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "2F",
+        "steps": 23
+      },
+      {
+        "id": "middle",
+        "name": "3F",
+        "steps": 25
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "Y1A",
+      "ticketLabels": [
+        "Y1A"
+      ],
+      "sourceLabel": "黄1A 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.9201201283588906,
+      "halfAngle": 0.09483246490711189,
+      "radialStart": 0,
+      "radialEnd": 0.48,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://web.metro.taipei/taipeiarenaseatview/taipeiarenaseat-center-tw.html"
+      }
+    },
+    {
+      "id": "Y1B",
+      "ticketLabels": [
+        "Y1B"
+      ],
+      "sourceLabel": "黄1B 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.1783764977764917,
+      "halfAngle": 0.11362966095109082,
+      "radialStart": 0,
+      "radialEnd": 0.48,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://web.metro.taipei/taipeiarenaseatview/taipeiarenaseat-center-tw.html"
+      }
+    },
+    {
+      "id": "Y1C",
+      "ticketLabels": [
+        "Y1C"
+      ],
+      "sourceLabel": "黄1C 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.5625758260180034,
+      "halfAngle": 0.1308996938995747,
+      "radialStart": 0,
+      "radialEnd": 0.48,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://web.metro.taipei/taipeiarenaseatview/taipeiarenaseat-center-tw.html"
+      }
+    },
+    {
+      "id": "Y1D",
+      "ticketLabels": [
+        "Y1D"
+      ],
+      "sourceLabel": "黄1D 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.9552400011316877,
+      "halfAngle": 0.12158836234018497,
+      "radialStart": 0,
+      "radialEnd": 0.48,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://web.metro.taipei/taipeiarenaseatview/taipeiarenaseat-center-tw.html"
+      }
+    },
+    {
+      "id": "Y1E",
+      "ticketLabels": [
+        "Y1E"
+      ],
+      "sourceLabel": "黄1E 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.23157798159995,
+      "halfAngle": 0.09641198788016676,
+      "radialStart": 0,
+      "radialEnd": 0.48,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://web.metro.taipei/taipeiarenaseatview/taipeiarenaseat-center-tw.html"
+      }
+    },
+    {
+      "id": "Y2A",
+      "ticketLabels": [
+        "Y2A"
+      ],
+      "sourceLabel": "黄2A 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.8435176274888594,
+      "halfAngle": 0.12330751165339938,
+      "radialStart": 0.5,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://web.metro.taipei/taipeiarenaseatview/taipeiarenaseat-center-tw.html"
+      }
+    },
+    {
+      "id": "Y2B",
+      "ticketLabels": [
+        "Y2B"
+      ],
+      "sourceLabel": "黄2B 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.1652167152164543,
+      "halfAngle": 0.1308996938995747,
+      "radialStart": 0.5,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://web.metro.taipei/taipeiarenaseatview/taipeiarenaseat-center-tw.html"
+      }
+    },
+    {
+      "id": "Y2C",
+      "ticketLabels": [
+        "Y2C"
+      ],
+      "sourceLabel": "黄2C 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.5645655013652768,
+      "halfAngle": 0.1308996938995747,
+      "radialStart": 0.5,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://web.metro.taipei/taipeiarenaseatview/taipeiarenaseat-center-tw.html"
+      }
+    },
+    {
+      "id": "Y2D",
+      "ticketLabels": [
+        "Y2D"
+      ],
+      "sourceLabel": "黄2D 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.9559730394175252,
+      "halfAngle": 0.1308996938995747,
+      "radialStart": 0.5,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://web.metro.taipei/taipeiarenaseatview/taipeiarenaseat-center-tw.html"
+      }
+    },
+    {
+      "id": "Y2E",
+      "ticketLabels": [
+        "Y2E"
+      ],
+      "sourceLabel": "黄2E 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.2915649479909947,
+      "halfAngle": 0.1308996938995747,
+      "radialStart": 0.5,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://web.metro.taipei/taipeiarenaseatview/taipeiarenaseat-center-tw.html"
+      }
+    },
+    {
+      "id": "Y3A",
+      "ticketLabels": [
+        "Y3A"
+      ],
+      "sourceLabel": "黄3A 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.5873207465886119,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://web.metro.taipei/taipeiarenaseatview/taipeiarenaseat-center-tw.html"
+      }
+    },
+    {
+      "id": "Y3B",
+      "ticketLabels": [
+        "Y3B"
+      ],
+      "sourceLabel": "黄3B 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.6990567253012888,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://web.metro.taipei/taipeiarenaseatview/taipeiarenaseat-center-tw.html"
+      }
+    },
+    {
+      "id": "Y3C",
+      "ticketLabels": [
+        "Y3C"
+      ],
+      "sourceLabel": "黄3C 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.9065065601933348,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://web.metro.taipei/taipeiarenaseatview/taipeiarenaseat-center-tw.html"
+      }
+    },
+    {
+      "id": "Y3D",
+      "ticketLabels": [
+        "Y3D"
+      ],
+      "sourceLabel": "黄3D 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.132090366013602,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://web.metro.taipei/taipeiarenaseatview/taipeiarenaseat-center-tw.html"
+      }
+    },
+    {
+      "id": "Y3E",
+      "ticketLabels": [
+        "Y3E"
+      ],
+      "sourceLabel": "黄3E 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.424485375600212,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://web.metro.taipei/taipeiarenaseatview/taipeiarenaseat-center-tw.html"
+      }
+    },
+    {
+      "id": "Y3F",
+      "ticketLabels": [
+        "Y3F"
+      ],
+      "sourceLabel": "黄3F 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.7157459211730257,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://web.metro.taipei/taipeiarenaseatview/taipeiarenaseat-center-tw.html"
+      }
+    },
+    {
+      "id": "Y3G",
+      "ticketLabels": [
+        "Y3G"
+      ],
+      "sourceLabel": "黄3G 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.997267529519711,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://web.metro.taipei/taipeiarenaseatview/taipeiarenaseat-center-tw.html"
+      }
+    },
+    {
+      "id": "Y3H",
+      "ticketLabels": [
+        "Y3H"
+      ],
+      "sourceLabel": "黄3H 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.2531502511546,
+      "halfAngle": 0.08178612874845427,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://web.metro.taipei/taipeiarenaseatview/taipeiarenaseat-center-tw.html"
+      }
+    },
+    {
+      "id": "Y3I",
+      "ticketLabels": [
+        "Y3I"
+      ],
+      "sourceLabel": "黄3I 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.4390278164919956,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://web.metro.taipei/taipeiarenaseatview/taipeiarenaseat-center-tw.html"
+      }
+    },
+    {
+      "id": "Y3J",
+      "ticketLabels": [
+        "Y3J"
+      ],
+      "sourceLabel": "黄3J 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.5590541091516457,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://web.metro.taipei/taipeiarenaseatview/taipeiarenaseat-center-tw.html"
+      }
+    },
+    {
+      "id": "P1A",
+      "ticketLabels": [
+        "P1A"
+      ],
+      "sourceLabel": "紫1A 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.4237561855370453,
+      "halfAngle": 0.10327985848676445,
+      "radialStart": 0,
+      "radialEnd": 0.48,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://web.metro.taipei/taipeiarenaseatview/taipeiarenaseat-center-tw.html"
+      }
+    },
+    {
+      "id": "P1B",
+      "ticketLabels": [
+        "P1B"
+      ],
+      "sourceLabel": "紫1B 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.7170936729197326,
+      "halfAngle": 0.12906709818498066,
+      "radialStart": 0,
+      "radialEnd": 0.48,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://web.metro.taipei/taipeiarenaseatview/taipeiarenaseat-center-tw.html"
+      }
+    },
+    {
+      "id": "P1C",
+      "ticketLabels": [
+        "P1C"
+      ],
+      "sourceLabel": "紫1C 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.1163202860209154,
+      "halfAngle": 0.1308996938995747,
+      "radialStart": 0,
+      "radialEnd": 0.48,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://web.metro.taipei/taipeiarenaseatview/taipeiarenaseat-center-tw.html"
+      }
+    },
+    {
+      "id": "P1D",
+      "ticketLabels": [
+        "P1D"
+      ],
+      "sourceLabel": "紫1D 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.7502200221225843,
+      "halfAngle": 0.1308996938995747,
+      "radialStart": 0,
+      "radialEnd": 0.48,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://web.metro.taipei/taipeiarenaseatview/taipeiarenaseat-center-tw.html"
+      }
+    },
+    {
+      "id": "P1E",
+      "ticketLabels": [
+        "P1E"
+      ],
+      "sourceLabel": "紫1E 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.4507040691878377,
+      "halfAngle": 0.09641198788016676,
+      "radialStart": 0,
+      "radialEnd": 0.48,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://web.metro.taipei/taipeiarenaseatview/taipeiarenaseat-center-tw.html"
+      }
+    },
+    {
+      "id": "P2A",
+      "ticketLabels": [
+        "P2A"
+      ],
+      "sourceLabel": "紫2A 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.5665241183501815,
+      "halfAngle": 0.12096877045572699,
+      "radialStart": 0.5,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://web.metro.taipei/taipeiarenaseatview/taipeiarenaseat-center-tw.html"
+      }
+    },
+    {
+      "id": "P2B",
+      "ticketLabels": [
+        "P2B"
+      ],
+      "sourceLabel": "紫2B 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.8414483821243284,
+      "halfAngle": 0.12096877045572699,
+      "radialStart": 0.5,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://web.metro.taipei/taipeiarenaseatview/taipeiarenaseat-center-tw.html"
+      }
+    },
+    {
+      "id": "P2C",
+      "ticketLabels": [
+        "P2C"
+      ],
+      "sourceLabel": "紫2C 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.121346834266659,
+      "halfAngle": 0.12315915866697986,
+      "radialStart": 0.5,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://web.metro.taipei/taipeiarenaseatview/taipeiarenaseat-center-tw.html"
+      }
+    },
+    {
+      "id": "P2D",
+      "ticketLabels": [
+        "P2D"
+      ],
+      "sourceLabel": "紫2D 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.8796187328654446,
+      "halfAngle": 0.12418017627939655,
+      "radialStart": 0.5,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://web.metro.taipei/taipeiarenaseatview/taipeiarenaseat-center-tw.html"
+      }
+    },
+    {
+      "id": "P2E",
+      "ticketLabels": [
+        "P2E"
+      ],
+      "sourceLabel": "紫2E 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.5973117263553616,
+      "halfAngle": 0.12421508286443643,
+      "radialStart": 0.5,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://web.metro.taipei/taipeiarenaseatview/taipeiarenaseat-center-tw.html"
+      }
+    },
+    {
+      "id": "R1A",
+      "ticketLabels": [
+        "R1A"
+      ],
+      "sourceLabel": "红1A 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.7329859259600585,
+      "halfAngle": 0.08930849782454985,
+      "radialStart": 0,
+      "radialEnd": 0.48,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://web.metro.taipei/taipeiarenaseatview/taipeiarenaseat-center-tw.html"
+      }
+    },
+    {
+      "id": "R1B",
+      "ticketLabels": [
+        "R1B"
+      ],
+      "sourceLabel": "红1B 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.4169940648864852,
+      "halfAngle": 0.1308996938995747,
+      "radialStart": 0,
+      "radialEnd": 0.48,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://web.metro.taipei/taipeiarenaseatview/taipeiarenaseat-center-tw.html"
+      }
+    },
+    {
+      "id": "R1C",
+      "ticketLabels": [
+        "R1C"
+      ],
+      "sourceLabel": "红1C 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.026982790235832332,
+      "halfAngle": 0.1308996938995747,
+      "radialStart": 0,
+      "radialEnd": 0.48,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://web.metro.taipei/taipeiarenaseatview/taipeiarenaseat-center-tw.html"
+      }
+    },
+    {
+      "id": "R1D",
+      "ticketLabels": [
+        "R1D"
+      ],
+      "sourceLabel": "红1D 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.38147661460840054,
+      "halfAngle": 0.1308996938995747,
+      "radialStart": 0,
+      "radialEnd": 0.48,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://web.metro.taipei/taipeiarenaseatview/taipeiarenaseat-center-tw.html"
+      }
+    },
+    {
+      "id": "R1E",
+      "ticketLabels": [
+        "R1E"
+      ],
+      "sourceLabel": "红1E 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.7045894190301107,
+      "halfAngle": 0.09483246490711189,
+      "radialStart": 0,
+      "radialEnd": 0.48,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://web.metro.taipei/taipeiarenaseatview/taipeiarenaseat-center-tw.html"
+      }
+    },
+    {
+      "id": "R2A",
+      "ticketLabels": [
+        "R2A"
+      ],
+      "sourceLabel": "红2A 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.5739864311033751,
+      "halfAngle": 0.12369148408883812,
+      "radialStart": 0.5,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://web.metro.taipei/taipeiarenaseatview/taipeiarenaseat-center-tw.html"
+      }
+    },
+    {
+      "id": "R2B",
+      "ticketLabels": [
+        "R2B"
+      ],
+      "sourceLabel": "红2B 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.29286624848464854,
+      "halfAngle": 0.12305443891186021,
+      "radialStart": 0.5,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://web.metro.taipei/taipeiarenaseatview/taipeiarenaseat-center-tw.html"
+      }
+    },
+    {
+      "id": "R2C",
+      "ticketLabels": [
+        "R2C"
+      ],
+      "sourceLabel": "红2C 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.013194689145077132,
+      "halfAngle": 0.12114330338092641,
+      "radialStart": 0.5,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://web.metro.taipei/taipeiarenaseatview/taipeiarenaseat-center-tw.html"
+      }
+    },
+    {
+      "id": "R2D",
+      "ticketLabels": [
+        "R2D"
+      ],
+      "sourceLabel": "红2D 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.26213100035702835,
+      "halfAngle": 0.12114330338092641,
+      "radialStart": 0.5,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://web.metro.taipei/taipeiarenaseatview/taipeiarenaseat-center-tw.html"
+      }
+    },
+    {
+      "id": "R2E",
+      "ticketLabels": [
+        "R2E"
+      ],
+      "sourceLabel": "红2E 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.56327010949613,
+      "halfAngle": 0.12330751165339938,
+      "radialStart": 0.5,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://web.metro.taipei/taipeiarenaseatview/taipeiarenaseat-center-tw.html"
+      }
+    },
+    {
+      "id": "B1A",
+      "ticketLabels": [
+        "B1A"
+      ],
+      "sourceLabel": "蓝1A 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.9359502646744792,
+      "halfAngle": 0.08930849782454985,
+      "radialStart": 0,
+      "radialEnd": 0.48,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://web.metro.taipei/taipeiarenaseatview/taipeiarenaseat-center-tw.html"
+      }
+    },
+    {
+      "id": "B1B",
+      "ticketLabels": [
+        "B1B"
+      ],
+      "sourceLabel": "蓝1B 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.1894418852341357,
+      "halfAngle": 0.11153526584869762,
+      "radialStart": 0,
+      "radialEnd": 0.48,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://web.metro.taipei/taipeiarenaseatview/taipeiarenaseat-center-tw.html"
+      }
+    },
+    {
+      "id": "B1C",
+      "ticketLabels": [
+        "B1C"
+      ],
+      "sourceLabel": "蓝1C 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.573431773965408,
+      "halfAngle": 0.1308996938995747,
+      "radialStart": 0,
+      "radialEnd": 0.48,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://web.metro.taipei/taipeiarenaseatview/taipeiarenaseat-center-tw.html"
+      }
+    },
+    {
+      "id": "B1D",
+      "ticketLabels": [
+        "B1D"
+      ],
+      "sourceLabel": "蓝1D 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.9295662078348508,
+      "halfAngle": 0.11416198637294911,
+      "radialStart": 0,
+      "radialEnd": 0.48,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://web.metro.taipei/taipeiarenaseatview/taipeiarenaseat-center-tw.html"
+      }
+    },
+    {
+      "id": "B1E",
+      "ticketLabels": [
+        "B1E"
+      ],
+      "sourceLabel": "蓝1E 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.189026854436328,
+      "halfAngle": 0.10327985848676445,
+      "radialStart": 0,
+      "radialEnd": 0.48,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://web.metro.taipei/taipeiarenaseatview/taipeiarenaseat-center-tw.html"
+      }
+    },
+    {
+      "id": "B2A",
+      "ticketLabels": [
+        "B2A"
+      ],
+      "sourceLabel": "蓝2A 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.8618959445123598,
+      "halfAngle": 0.12667599710974844,
+      "radialStart": 0.5,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://web.metro.taipei/taipeiarenaseatview/taipeiarenaseat-center-tw.html"
+      }
+    },
+    {
+      "id": "B2B",
+      "ticketLabels": [
+        "B2B"
+      ],
+      "sourceLabel": "蓝2B 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.1834903124848348,
+      "halfAngle": 0.1308996938995747,
+      "radialStart": 0.5,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://web.metro.taipei/taipeiarenaseatview/taipeiarenaseat-center-tw.html"
+      }
+    },
+    {
+      "id": "B2C",
+      "ticketLabels": [
+        "B2C"
+      ],
+      "sourceLabel": "蓝2C 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.5667297096377495,
+      "halfAngle": 0.1308996938995747,
+      "radialStart": 0.5,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://web.metro.taipei/taipeiarenaseatview/taipeiarenaseat-center-tw.html"
+      }
+    },
+    {
+      "id": "B2D",
+      "ticketLabels": [
+        "B2D"
+      ],
+      "sourceLabel": "蓝2D 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.935133808148713,
+      "halfAngle": 0.1308996938995747,
+      "radialStart": 0.5,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://web.metro.taipei/taipeiarenaseatview/taipeiarenaseat-center-tw.html"
+      }
+    },
+    {
+      "id": "B2E",
+      "ticketLabels": [
+        "B2E"
+      ],
+      "sourceLabel": "蓝2E 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.2755253721651667,
+      "halfAngle": 0.12803735392630403,
+      "radialStart": 0.5,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://web.metro.taipei/taipeiarenaseatview/taipeiarenaseat-center-tw.html"
+      }
+    }
+  ],
+  "importedAt": "2026-10-24T00:00:00.000Z"
+}

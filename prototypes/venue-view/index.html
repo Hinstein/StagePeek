@@ -1,0 +1,2119 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SeatPeep · 欧美场馆验证原型</title><style>
+:root{--ink:#1c302e;--muted:#718580;--line:#dbe4df;--paper:#f4f6f1;--accent:#df633d;--teal:#287c75}*{box-sizing:border-box}body{margin:0;color:var(--ink);background:var(--paper);font:14px/1.5 system-ui,-apple-system,sans-serif}button,select,input{font:inherit}button,select{cursor:pointer}button:focus-visible,a:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid #e29a66;outline-offset:3px}button{border:1px solid var(--line);border-radius:9px;padding:8px 13px;background:white;color:var(--ink)}button.active{background:var(--ink);color:white;border-color:var(--ink)}a{color:var(--teal)}.shell{max-width:1560px;margin:auto;padding:24px 30px 80px}.top{display:flex;justify-content:space-between;align-items:center}.brand{font-size:25px;font-weight:850;letter-spacing:-1px}.brand em{font-style:normal;color:var(--accent)}.eyebrow{font-size:10px;letter-spacing:2px;color:var(--muted);font-weight:700}.top p{margin:4px 0 20px;color:var(--muted)}.badge{border:1px solid #dfc8b5;background:#fff6eb;color:#98542d;padding:5px 11px;border-radius:30px;font-size:11px}.toolbar{display:flex;gap:13px;align-items:end;padding:15px 17px;background:white;border:1px solid var(--line);border-radius:14px;margin-bottom:16px;flex-wrap:wrap}.field{display:grid;gap:5px}.field label{font-size:11px;font-weight:700;color:var(--muted)}select,input[type=number]{height:38px;border:1px solid var(--line);border-radius:7px;padding:0 9px;background:#fafcf9;color:var(--ink)}input[type=number]{width:85px}#venue{min-width:220px}#section{min-width:115px}.seg{display:flex;gap:4px;margin-left:auto}.layout{display:grid;grid-template-columns:minmax(0,1fr) 310px;gap:17px}.mapcard,.inspector{background:white;border:1px solid var(--line);border-radius:17px;overflow:hidden}.maphead{padding:17px 20px;display:flex;justify-content:space-between;gap:20px;align-items:center;border-bottom:1px solid var(--line)}h1{font-size:19px;margin:0}small{color:var(--muted);font-size:11px}.maphead p{margin:2px 0 0;font-size:11px;color:var(--muted)}.view{height:462px;position:relative;background:radial-gradient(ellipse at 50% 42%,#fff,#eff4ef)}.view canvas,.view svg{display:block;width:100%;height:100%}.view svg [data-section]{cursor:pointer;transition:opacity .1s}.view svg [data-section]:hover{opacity:.7}.view-tools{position:absolute;top:14px;left:15px;display:flex;gap:5px}.view-tools button.active{background:var(--ink);color:#fff}.view-tools button{font-size:11px;padding:6px 10px;background:#fffffff0}.view-caption{position:absolute;bottom:10px;left:18px;font-size:11px;color:#6f837c;pointer-events:none}.view.three{background:#152b2c}.view.three .view-caption{color:#aac5bc}.legend{display:flex;gap:15px;align-items:center;padding:12px 19px;border-top:1px solid var(--line);font-size:11px;color:var(--muted);flex-wrap:wrap}.legend i{display:inline-block;width:8px;height:8px;border-radius:2px;margin-right:5px}.provenance{padding:14px 19px;background:#fafbf8;border-top:1px solid var(--line);font-size:11px;color:var(--muted)}.provenance strong{color:var(--ink)}.inspector{padding:18px;align-self:start}.label{font-size:10px;color:var(--muted);font-weight:700;letter-spacing:1px}.ticket{display:flex;justify-content:space-between;align-items:center;margin:5px 0 13px}.ticket strong{font-size:28px;letter-spacing:-1px}.ticket span{font-size:11px;color:var(--muted)}.stats{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:12px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.stats b{display:block;font-size:23px;letter-spacing:-1px}.stats small{font-size:10px}.phone-title{display:flex;justify-content:space-between;align-items:center;margin:17px 0 9px}.phone-title strong{font-size:12px}.phone-title b{color:var(--accent)}.phone{width:100%;aspect-ratio:4/3;background:#15282b;border-radius:12px;display:block;border:5px solid #172c2e}.zoom-label{display:flex;justify-content:space-between;font-size:11px;color:var(--muted);margin-top:8px}input[type=range]{width:100%;accent-color:var(--accent)}.zoom-buttons{display:flex;gap:5px;justify-content:space-between}.zoom-buttons button{font-size:11px;flex:1;padding:4px}.note{font-size:11px;color:#8a623f;padding:10px;background:#fff6e9;border-radius:8px;margin:12px 0 0}.state{font-size:10px;color:var(--muted);margin-top:12px}.scenario{display:flex;gap:7px;padding:12px 0}.scenario button{font-size:11px;background:transparent}.scenario .active{background:#e1ece6;color:var(--teal);border-color:#b4cec1}.foot{font-size:11px;color:var(--muted);margin-top:12px}.bottom{position:fixed;bottom:14px;left:50%;transform:translateX(-50%);display:flex;gap:13px;align-items:center;padding:5px 8px;border-radius:25px;background:#193430;color:white;box-shadow:0 5px 25px #19343033;z-index:5}.bottom button{background:#ffffff18;color:white;border:0;border-radius:20px;padding:3px 10px}.bottom span{font-size:10px}.variant-b .layout{grid-template-columns:310px minmax(0,1fr)}.variant-b .inspector{grid-row:1;grid-column:1}.variant-b .mapcard{grid-row:1;grid-column:2}.variant-c .layout{display:block;position:relative}.variant-c .inspector{position:absolute;right:17px;top:85px;width:286px;background:#fffffff5;box-shadow:0 12px 40px #0002}.variant-c .view{height:660px;padding-right:300px}.variant-c .maphead{padding-right:330px}.variant-c .provenance{padding-right:330px}.variant-c .legend{padding-right:330px}.variant-c .view canvas,.variant-c .view svg{width:100%}.mobiletip{display:none}@media(max-width:950px){.shell{padding:17px 14px 75px}.layout,.variant-b .layout{display:flex;flex-direction:column}.inspector{width:100%}.view{height:400px}.top .badge{display:none}.seg{margin-left:0}.variant-c .inspector{position:static;width:100%;margin-top:15px}.variant-c .view{height:420px;padding:0}.variant-c .maphead,.variant-c .provenance,.variant-c .legend{padding-right:19px}.phone{max-width:400px;margin:auto}.top p{font-size:12px}.toolbar{gap:9px}.scenario{flex-wrap:wrap}}
+
+.open-phone{display:block;width:100%;margin-top:9px;background:#25483c;color:white;border:0}.view{height:540px;background:#e5ebe5}.view.three{background:#e5ebe5}.view.three .view-caption{color:#486052;background:#f5f8f1d9;border-radius:6px;padding:4px 8px}.view-tools{gap:5px;flex-wrap:wrap;right:12px}.view-tools button{background:#fffffff2;box-shadow:0 2px 9px #17301c10}.view canvas{touch-action:none;cursor:grab}.view canvas:active{cursor:grabbing}.phone{cursor:crosshair;border-color:#344439;background:#e5ebe5}.phone-modal{position:fixed;inset:0;background:#263e2b66;backdrop-filter:blur(9px);z-index:20;display:grid;place-items:center;padding:24px}.phone-modal[hidden]{display:none}.phone-dialog{width:min(1120px,100%);max-height:95vh;overflow:auto;background:#fcfdf8;border:1px solid #d9e1d3;border-radius:18px;box-shadow:0 35px 100px #17321c40}.phone-header{display:flex;justify-content:space-between;align-items:center;padding:18px 24px;border-bottom:1px solid var(--line)}.phone-header h2{font-size:17px;margin:0}.phone-header button{border:0;background:none;font-size:24px;padding:0 8px}.phone-body{padding:20px 24px 25px}.phone-intro{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px}.phone-intro p{font-size:11px;color:var(--muted);margin:4px 0}.phone-grid{display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:24px}.phone-mat{background:#e4e9df;padding:18px;border-radius:13px;min-height:495px;display:flex;flex-direction:column;align-items:center;justify-content:center}.phone-frame{position:relative;width:100%;max-width:620px;aspect-ratio:4/3;border:5px solid #3e4b3e;border-radius:25px;overflow:hidden;background:#e5ebe5;box-shadow:0 15px 28px #32442d17}.phone-frame.portrait{width:min(100%,310px);aspect-ratio:3/4}.phone-frame #phone{display:block;border:0;border-radius:0;width:100%;height:100%;aspect-ratio:auto}.phone-gridlines{position:absolute;inset:0;pointer-events:none;background:linear-gradient(to right,transparent 33.2%,#fff4 33.3%,#fff4 33.5%,transparent 33.6%,transparent 66.5%,#fff4 66.6%,#fff4 66.8%,transparent 66.9%),linear-gradient(to bottom,transparent 33.2%,#fff4 33.3%,#fff4 33.5%,transparent 33.6%,transparent 66.5%,#fff4 66.6%,#fff4 66.8%,transparent 66.9%)}.phone-badge{position:absolute;top:13px;background:#253d2baa;color:#fff;padding:3px 7px;border-radius:4px;font-size:11px;pointer-events:none}.phone-badge.left{left:13px}.phone-badge.right{right:13px}.phone-watermark{position:absolute;bottom:13px;left:0;right:0;text-align:center;color:white;font-size:10px;text-shadow:0 1px 3px #000;pointer-events:none}.phone-mat>p{font-size:11px;color:#70816c}.phone-presets{display:flex;gap:8px}.phone-presets button{width:40px;height:40px;border-radius:50%;font-size:11px;background:#f6f9ef;border-color:transparent;padding:0}.phone-presets button.active{background:#2c4735}.phone-settings{display:flex;flex-direction:column;gap:15px}.phone-settings label{font-size:11px;color:#70816c}.phone-settings select{width:100%;height:42px;background:#fff}.phone-pair{display:grid;grid-template-columns:1fr 1fr;gap:6px}.phone-pair button{font-size:11px;padding:9px 4px;background:#fff}.phone-pair button.active{background:#e4ecd7;color:#33482d;border-color:#afbe9d}.phone-settings .wide{width:100%}.phone-settings .download{background:#254536;color:#fff}.phone-lens{padding:10px;background:#eef2e6;border-radius:7px;font-size:11px}.phone-lens input{width:60px;min-height:30px;border:1px solid #d3dec9;border-radius:5px;text-align:center}.phone-disclaimer{font-size:10px;color:#84917c;line-height:1.7}.phone-feedback{font-size:11px;color:#58714f;min-height:15px}.engine-error{position:absolute;inset:60px 20px auto;background:#fff2e8;padding:15px;border-radius:9px;color:#9a4d2e;z-index:5}.selection-tag{position:absolute;left:17px;top:68px;background:#fffffff0;padding:7px 12px;border:1px solid #d8e2d3;border-radius:8px;font-size:12px;color:#48623d;pointer-events:none}.variant-c .view{height:700px}@media(max-width:900px){.phone-modal{padding:9px}.phone-dialog{max-height:97vh}.phone-body{padding:15px}.phone-grid{grid-template-columns:1fr}.phone-mat{min-height:0;padding:12px}.phone-frame{max-width:520px}.phone-frame.portrait{max-width:250px}.phone-settings{gap:12px}.phone-grid{gap:16px}.view{height:440px}.phone-header{padding:13px 17px}.phone-intro .badge{display:none}}
+.coverage-notice{position:absolute;left:17px;right:17px;bottom:43px;background:#fff9e9f5;border:1px solid #d2bd88;border-radius:9px;padding:11px 35px 11px 13px;font-size:12px;color:#715d32;z-index:4}.coverage-notice[hidden]{display:none}.coverage-notice button{position:absolute;right:4px;top:3px;border:0;background:none;font-size:20px;padding:2px 8px}</style></head><body><main class="shell">
+<header class="top"><div><div class="eyebrow">VENUE LAB / 01</div><div class="brand">Seat<em>Scope</em> <span style="font-weight:400;font-size:17px;margin-left:12px">离舞台还有多远？</span></div><p>用三座欧美体育场，验证票面选区、空间距离和手机取景。</p></div><span class="badge">可交互粗模型 · 非真实票面核验</span></header>
+<section class="toolbar" aria-label="座位与布局"><div class="field"><label for="venue">场馆</label><select id="venue"></select></div><div class="field"><label for="layout">舞台布局 · 通用示意</label><select id="layout"><option value="end">端头舞台</option><option value="runway">端头 + 延伸台</option><option value="center">中央舞台</option></select></div><div class="field"><label for="section">Section / Block</label><select id="section"></select></div><div class="field"><label for="row">Row · 模拟排深</label><input id="row" type="number" min="1" max="30" value="18"></div><div class="field"><label for="seat">Seat · 模拟横向</label><input id="seat" type="number" min="1" max="24" value="12"></div><div class="seg"><button id="mode2d" class="active">2D 分区</button><button id="mode3d">3D 场馆</button></div></section>
+<div class="layout"><section class="mapcard"><div class="maphead"><div><h1 id="venue-title"></h1><p id="venue-sub"></p></div><small id="map-count"></small></div><div class="view" id="view"><svg id="map" viewBox="-190 -150 380 300" role="img" aria-label="可点击的场馆分区示意图"></svg><canvas id="scene" aria-label="场馆三维透视模型" hidden></canvas><div class="view-tools" id="tools" hidden><button id="overview">场馆总览</button><button id="pov">观众视角</button><button id="near">靠近分区</button><button id="reset">重置视角</button><button id="fullscreen">全屏</button></div><div class="view-caption" id="caption"></div><div id="coverage-notice" class="coverage-notice" role="status" hidden><span></span><button aria-label="关闭区域说明">×</button></div></div><div class="legend"><span><i style="background:#759c8e"></i>下层</span><span><i style="background:#487c72"></i>中层</span><span><i style="background:#254d4a"></i>上层／更高层</span><span><i style="background:#df633d"></i>所选位置 / 舞台</span><span><i style="background:repeating-linear-gradient(45deg,#bdc6bd 0 3px,#dce2d7 3px 7px)"></i>灰色斜纹：未建模，可点击查看说明</span></div><div class="provenance" id="provenance"></div></section>
+<aside class="inspector"><div class="label">YOUR LOCATION / 模拟入座</div><div class="ticket"><strong id="ticket-section"></strong><span id="ticket-row"></span></div><div class="stats"><div><b id="distance"></b><small>至表演者 · 直线估算</small></div><div><b id="edge-distance"></b><small>至最近舞台边 · 平面</small></div></div><div class="phone-title"><strong>从这里拍到的人</strong><b id="zoom-value">5×</b></div><div id="phone-home"><canvas class="phone" id="phone" aria-label="手机取景预览，显示舞台上的人物"></canvas></div><button id="open-phone" class="open-phone">▣ 打开手机拍摄预览</button><div class="zoom-label"><span id="lens-summary">24mm 等效基准 · 横屏 4:3</span><span id="frame-percent"></span></div><input id="zoom" aria-label="手机变焦倍率" type="range" min="1" max="10" step="0.1" value="5"><div class="zoom-buttons"><button data-zoom="1">1×</button><button data-zoom="2">2×</button><button data-zoom="5">5×</button><button data-zoom="10">10×</button></div><p class="note" id="confidence"></p><div class="state" id="model-state"></div></aside></div>
+<div class="scenario" aria-label="试用场景"><button data-demo="near">试一试：前排 vs 后排</button><button data-demo="stage">试一试：舞台移到中央</button><button data-demo="zoom">试一试：1× vs 10×</button></div><div class="foot">验证原型 v2：分区编号参考官方资料，轮廓、尺度、层高与排座为原创估算。人物 1.75m，舞台高 2.2m；不模拟画质、实际遮挡或现场灯光。当前未取得图纸／模型商用授权。</div>
+</main><nav class="bottom" aria-label="原型布局切换"><button id="prev" aria-label="上一个布局">‹</button><span id="variant-name"></span><button id="next" aria-label="下一个布局">›</button></nav>
+<script id="venue-data" type="application/json">{
+  "kind": "THROWAWAY_PROTOTYPE",
+  "coordinateStatus": "ESTIMATED_NOT_SURVEYED",
+  "rowSeatStatus": "SYNTHETIC_30_ROWS_24_SEATS_NOT_TICKET_VERIFIED",
+  "stageStatus": "GENERIC_NOT_ARTIST_SPECIFIC",
+  "generated": "2026-10-23",
+  "venues": {
+    "metlife": {
+      "name": "MetLife Stadium",
+      "city": "纽约都市圈 · East Rutherford",
+      "artist": "Kendrick Lamar & SZA · 2025",
+      "capacity": "82,500（体育用途）",
+      "sections": [
+        {
+          "id": "101",
+          "angle": -3.13031,
+          "sourceAnchor": [
+            914,
+            690
+          ],
+          "tier": 0,
+          "halfAngle": 0.07703
+        },
+        {
+          "id": "103",
+          "angle": -2.95118,
+          "sourceAnchor": [
+            915,
+            658
+          ],
+          "tier": 0,
+          "halfAngle": 0.07703
+        },
+        {
+          "id": "104",
+          "angle": -2.75719,
+          "sourceAnchor": [
+            919,
+            622
+          ],
+          "tier": 0,
+          "halfAngle": 0.08342
+        },
+        {
+          "id": "106",
+          "angle": -2.55044,
+          "sourceAnchor": [
+            937,
+            586
+          ],
+          "tier": 0,
+          "halfAngle": 0.06108
+        },
+        {
+          "id": "108",
+          "angle": -2.4084,
+          "sourceAnchor": [
+            973,
+            577
+          ],
+          "tier": 0,
+          "halfAngle": 0.06108
+        },
+        {
+          "id": "109",
+          "angle": -2.26541,
+          "sourceAnchor": [
+            1004,
+            570
+          ],
+          "tier": 0,
+          "halfAngle": 0.06149
+        },
+        {
+          "id": "110",
+          "angle": -2.10773,
+          "sourceAnchor": [
+            1035,
+            565
+          ],
+          "tier": 0,
+          "halfAngle": 0.0678
+        },
+        {
+          "id": "112",
+          "angle": -1.78088,
+          "sourceAnchor": [
+            1092,
+            562
+          ],
+          "tier": 0,
+          "halfAngle": 0.09307
+        },
+        {
+          "id": "113",
+          "angle": -1.56443,
+          "sourceAnchor": [
+            1126,
+            560
+          ],
+          "tier": 0,
+          "halfAngle": 0.08494
+        },
+        {
+          "id": "114",
+          "angle": -1.3669,
+          "sourceAnchor": [
+            1157,
+            562
+          ],
+          "tier": 0,
+          "halfAngle": 0.08494
+        },
+        {
+          "id": "116",
+          "angle": -1.03529,
+          "sourceAnchor": [
+            1214,
+            566
+          ],
+          "tier": 0,
+          "halfAngle": 0.07015
+        },
+        {
+          "id": "117",
+          "angle": -0.87214,
+          "sourceAnchor": [
+            1246,
+            571
+          ],
+          "tier": 0,
+          "halfAngle": 0.06578
+        },
+        {
+          "id": "118",
+          "angle": -0.71916,
+          "sourceAnchor": [
+            1280,
+            578
+          ],
+          "tier": 0,
+          "halfAngle": 0.05882
+        },
+        {
+          "id": "121",
+          "angle": -0.58237,
+          "sourceAnchor": [
+            1313,
+            588
+          ],
+          "tier": 0,
+          "halfAngle": 0.05882
+        },
+        {
+          "id": "123",
+          "angle": -0.38953,
+          "sourceAnchor": [
+            1328,
+            622
+          ],
+          "tier": 0,
+          "halfAngle": 0.08292
+        },
+        {
+          "id": "124",
+          "angle": -0.19407,
+          "sourceAnchor": [
+            1337,
+            657
+          ],
+          "tier": 0,
+          "halfAngle": 0.07875
+        },
+        {
+          "id": "126",
+          "angle": -0.01092,
+          "sourceAnchor": [
+            1343,
+            690
+          ],
+          "tier": 0,
+          "halfAngle": 0.07875
+        },
+        {
+          "id": "128",
+          "angle": 0.18156,
+          "sourceAnchor": [
+            1339,
+            725
+          ],
+          "tier": 0,
+          "halfAngle": 0.07931
+        },
+        {
+          "id": "129",
+          "angle": 0.36601,
+          "sourceAnchor": [
+            1330,
+            758
+          ],
+          "tier": 0,
+          "halfAngle": 0.07845
+        },
+        {
+          "id": "131",
+          "angle": 0.54846,
+          "sourceAnchor": [
+            1314,
+            789
+          ],
+          "tier": 0,
+          "halfAngle": 0.06636
+        },
+        {
+          "id": "133",
+          "angle": 0.70279,
+          "sourceAnchor": [
+            1281,
+            803
+          ],
+          "tier": 0,
+          "halfAngle": 0.06636
+        },
+        {
+          "id": "134",
+          "angle": 0.85985,
+          "sourceAnchor": [
+            1247,
+            811
+          ],
+          "tier": 0,
+          "halfAngle": 0.06754
+        },
+        {
+          "id": "135",
+          "angle": 1.02824,
+          "sourceAnchor": [
+            1214,
+            816
+          ],
+          "tier": 0,
+          "halfAngle": 0.07241
+        },
+        {
+          "id": "137",
+          "angle": 1.3099,
+          "sourceAnchor": [
+            1166,
+            821
+          ],
+          "tier": 0,
+          "halfAngle": 0.1094
+        },
+        {
+          "id": "139",
+          "angle": 1.56433,
+          "sourceAnchor": [
+            1126,
+            822
+          ],
+          "tier": 0,
+          "halfAngle": 0.1094
+        },
+        {
+          "id": "140",
+          "angle": 1.82977,
+          "sourceAnchor": [
+            1084,
+            822
+          ],
+          "tier": 0,
+          "halfAngle": 0.10299
+        },
+        {
+          "id": "142",
+          "angle": 2.06927,
+          "sourceAnchor": [
+            1044,
+            817
+          ],
+          "tier": 0,
+          "halfAngle": 0.08962
+        },
+        {
+          "id": "143",
+          "angle": 2.27768,
+          "sourceAnchor": [
+            1004,
+            811
+          ],
+          "tier": 0,
+          "halfAngle": 0.06136
+        },
+        {
+          "id": "144",
+          "angle": 2.42037,
+          "sourceAnchor": [
+            972,
+            805
+          ],
+          "tier": 0,
+          "halfAngle": 0.06136
+        },
+        {
+          "id": "146",
+          "angle": 2.60701,
+          "sourceAnchor": [
+            936,
+            786
+          ],
+          "tier": 0,
+          "halfAngle": 0.0696
+        },
+        {
+          "id": "148",
+          "angle": 2.76888,
+          "sourceAnchor": [
+            921,
+            759
+          ],
+          "tier": 0,
+          "halfAngle": 0.0696
+        },
+        {
+          "id": "149",
+          "angle": 2.95029,
+          "sourceAnchor": [
+            916,
+            726
+          ],
+          "tier": 0,
+          "halfAngle": 0.07801
+        },
+        {
+          "id": "301",
+          "angle": -3.13688,
+          "sourceAnchor": [
+            620,
+            690
+          ],
+          "tier": 2,
+          "halfAngle": 0.05474
+        },
+        {
+          "id": "302",
+          "angle": -3.00957,
+          "sourceAnchor": [
+            614,
+            635
+          ],
+          "tier": 2,
+          "halfAngle": 0.05474
+        },
+        {
+          "id": "303",
+          "angle": -2.86162,
+          "sourceAnchor": [
+            624,
+            571
+          ],
+          "tier": 2,
+          "halfAngle": 0.06362
+        },
+        {
+          "id": "304",
+          "angle": -2.71142,
+          "sourceAnchor": [
+            645,
+            507
+          ],
+          "tier": 2,
+          "halfAngle": 0.05849
+        },
+        {
+          "id": "305",
+          "angle": -2.5754,
+          "sourceAnchor": [
+            668,
+            448
+          ],
+          "tier": 2,
+          "halfAngle": 0.05849
+        },
+        {
+          "id": "306",
+          "angle": -2.43713,
+          "sourceAnchor": [
+            702,
+            390
+          ],
+          "tier": 2,
+          "halfAngle": 0.05584
+        },
+        {
+          "id": "307",
+          "angle": -2.30726,
+          "sourceAnchor": [
+            744,
+            339
+          ],
+          "tier": 2,
+          "halfAngle": 0.04201
+        },
+        {
+          "id": "308",
+          "angle": -2.20957,
+          "sourceAnchor": [
+            797,
+            321
+          ],
+          "tier": 2,
+          "halfAngle": 0.0413
+        },
+        {
+          "id": "309",
+          "angle": -2.11352,
+          "sourceAnchor": [
+            850,
+            309
+          ],
+          "tier": 2,
+          "halfAngle": 0.0413
+        },
+        {
+          "id": "310",
+          "angle": -1.99611,
+          "sourceAnchor": [
+            912,
+            297
+          ],
+          "tier": 2,
+          "halfAngle": 0.05049
+        },
+        {
+          "id": "311",
+          "angle": -1.8736,
+          "sourceAnchor": [
+            974,
+            286
+          ],
+          "tier": 2,
+          "halfAngle": 0.05268
+        },
+        {
+          "id": "312",
+          "angle": -1.75073,
+          "sourceAnchor": [
+            1036,
+            281
+          ],
+          "tier": 2,
+          "halfAngle": 0.0511
+        },
+        {
+          "id": "313",
+          "angle": -1.63189,
+          "sourceAnchor": [
+            1095,
+            280
+          ],
+          "tier": 2,
+          "halfAngle": 0.0511
+        },
+        {
+          "id": "314",
+          "angle": -1.50971,
+          "sourceAnchor": [
+            1155,
+            280
+          ],
+          "tier": 2,
+          "halfAngle": 0.05185
+        },
+        {
+          "id": "315",
+          "angle": -1.38914,
+          "sourceAnchor": [
+            1214,
+            285
+          ],
+          "tier": 2,
+          "halfAngle": 0.05185
+        },
+        {
+          "id": "316",
+          "angle": -1.26373,
+          "sourceAnchor": [
+            1276,
+            292
+          ],
+          "tier": 2,
+          "halfAngle": 0.05132
+        },
+        {
+          "id": "317",
+          "angle": -1.14438,
+          "sourceAnchor": [
+            1337,
+            300
+          ],
+          "tier": 2,
+          "halfAngle": 0.04843
+        },
+        {
+          "id": "318",
+          "angle": -1.03176,
+          "sourceAnchor": [
+            1397,
+            310
+          ],
+          "tier": 2,
+          "halfAngle": 0.04037
+        },
+        {
+          "id": "319",
+          "angle": -0.93788,
+          "sourceAnchor": [
+            1449,
+            321
+          ],
+          "tier": 2,
+          "halfAngle": 0.04037
+        },
+        {
+          "id": "320",
+          "angle": -0.83554,
+          "sourceAnchor": [
+            1504,
+            340
+          ],
+          "tier": 2,
+          "halfAngle": 0.04401
+        },
+        {
+          "id": "321",
+          "angle": -0.70399,
+          "sourceAnchor": [
+            1547,
+            391
+          ],
+          "tier": 2,
+          "halfAngle": 0.05657
+        },
+        {
+          "id": "322",
+          "angle": -0.56706,
+          "sourceAnchor": [
+            1583,
+            447
+          ],
+          "tier": 2,
+          "halfAngle": 0.05888
+        },
+        {
+          "id": "323",
+          "angle": -0.42812,
+          "sourceAnchor": [
+            1605,
+            508
+          ],
+          "tier": 2,
+          "halfAngle": 0.05974
+        },
+        {
+          "id": "324",
+          "angle": -0.28216,
+          "sourceAnchor": [
+            1626,
+            570
+          ],
+          "tier": 2,
+          "halfAngle": 0.06276
+        },
+        {
+          "id": "325",
+          "angle": -0.13177,
+          "sourceAnchor": [
+            1637,
+            635
+          ],
+          "tier": 2,
+          "halfAngle": 0.05464
+        },
+        {
+          "id": "326",
+          "angle": -0.0047,
+          "sourceAnchor": [
+            1632,
+            690
+          ],
+          "tier": 2,
+          "halfAngle": 0.05464
+        },
+        {
+          "id": "327",
+          "angle": 0.12466,
+          "sourceAnchor": [
+            1638,
+            746
+          ],
+          "tier": 2,
+          "halfAngle": 0.05562
+        },
+        {
+          "id": "328",
+          "angle": 0.26555,
+          "sourceAnchor": [
+            1624,
+            806
+          ],
+          "tier": 2,
+          "halfAngle": 0.06058
+        },
+        {
+          "id": "329",
+          "angle": 0.41443,
+          "sourceAnchor": [
+            1604,
+            869
+          ],
+          "tier": 2,
+          "halfAngle": 0.05963
+        },
+        {
+          "id": "330",
+          "angle": 0.5531,
+          "sourceAnchor": [
+            1582,
+            929
+          ],
+          "tier": 2,
+          "halfAngle": 0.05818
+        },
+        {
+          "id": "331",
+          "angle": 0.68841,
+          "sourceAnchor": [
+            1549,
+            985
+          ],
+          "tier": 2,
+          "halfAngle": 0.05818
+        },
+        {
+          "id": "332",
+          "angle": 0.83281,
+          "sourceAnchor": [
+            1505,
+            1043
+          ],
+          "tier": 2,
+          "halfAngle": 0.04526
+        },
+        {
+          "id": "333",
+          "angle": 0.93807,
+          "sourceAnchor": [
+            1448,
+            1062
+          ],
+          "tier": 2,
+          "halfAngle": 0.04177
+        },
+        {
+          "id": "334",
+          "angle": 1.0352,
+          "sourceAnchor": [
+            1397,
+            1077
+          ],
+          "tier": 2,
+          "halfAngle": 0.04177
+        },
+        {
+          "id": "335",
+          "angle": 1.1536,
+          "sourceAnchor": [
+            1335,
+            1090
+          ],
+          "tier": 2,
+          "halfAngle": 0.04979
+        },
+        {
+          "id": "336",
+          "angle": 1.26939,
+          "sourceAnchor": [
+            1276,
+            1100
+          ],
+          "tier": 2,
+          "halfAngle": 0.04979
+        },
+        {
+          "id": "337",
+          "angle": 1.39256,
+          "sourceAnchor": [
+            1214,
+            1107
+          ],
+          "tier": 2,
+          "halfAngle": 0.05075
+        },
+        {
+          "id": "338",
+          "angle": 1.51058,
+          "sourceAnchor": [
+            1155,
+            1110
+          ],
+          "tier": 2,
+          "halfAngle": 0.05075
+        },
+        {
+          "id": "339",
+          "angle": 1.63301,
+          "sourceAnchor": [
+            1094,
+            1110
+          ],
+          "tier": 2,
+          "halfAngle": 0.05073
+        },
+        {
+          "id": "340",
+          "angle": 1.75099,
+          "sourceAnchor": [
+            1035,
+            1107
+          ],
+          "tier": 2,
+          "halfAngle": 0.05073
+        },
+        {
+          "id": "341",
+          "angle": 1.87339,
+          "sourceAnchor": [
+            973,
+            1101
+          ],
+          "tier": 2,
+          "halfAngle": 0.05074
+        },
+        {
+          "id": "342",
+          "angle": 1.9914,
+          "sourceAnchor": [
+            912,
+            1092
+          ],
+          "tier": 2,
+          "halfAngle": 0.04985
+        },
+        {
+          "id": "343",
+          "angle": 2.10733,
+          "sourceAnchor": [
+            851,
+            1079
+          ],
+          "tier": 2,
+          "halfAngle": 0.04389
+        },
+        {
+          "id": "344",
+          "angle": 2.2094,
+          "sourceAnchor": [
+            798,
+            1062
+          ],
+          "tier": 2,
+          "halfAngle": 0.04213
+        },
+        {
+          "id": "345",
+          "angle": 2.30737,
+          "sourceAnchor": [
+            745,
+            1044
+          ],
+          "tier": 2,
+          "halfAngle": 0.04213
+        },
+        {
+          "id": "346",
+          "angle": 2.44702,
+          "sourceAnchor": [
+            702,
+            988
+          ],
+          "tier": 2,
+          "halfAngle": 0.05883
+        },
+        {
+          "id": "347",
+          "angle": 2.58383,
+          "sourceAnchor": [
+            667,
+            932
+          ],
+          "tier": 2,
+          "halfAngle": 0.05883
+        },
+        {
+          "id": "348",
+          "angle": 2.72223,
+          "sourceAnchor": [
+            647,
+            871
+          ],
+          "tier": 2,
+          "halfAngle": 0.05951
+        },
+        {
+          "id": "349",
+          "angle": 2.86939,
+          "sourceAnchor": [
+            626,
+            809
+          ],
+          "tier": 2,
+          "halfAngle": 0.06161
+        },
+        {
+          "id": "350",
+          "angle": 3.01266,
+          "sourceAnchor": [
+            620,
+            747
+          ],
+          "tier": 2,
+          "halfAngle": 0.05747
+        }
+      ],
+      "tiers": [
+        [
+          99,
+          66,
+          3,
+          22,
+          12
+        ],
+        [
+          125,
+          88,
+          17,
+          18,
+          10
+        ],
+        [
+          156,
+          115,
+          31,
+          27,
+          18
+        ]
+      ],
+      "source": "https://www.metlifestadium.com/events-tickets/seating-charts",
+      "sourceTitle": "官方完整座位图（2026）",
+      "coverage": "100／300 层已核对的普通分区样本；不含 200 层、包厢及小型后缀区",
+      "sectionCount": 82
+    },
+    "sofi": {
+      "name": "SoFi Stadium",
+      "city": "洛杉矶地区 · Inglewood",
+      "artist": "The Weeknd / Kendrick & SZA · 2025",
+      "capacity": "约 70,000（常规）",
+      "sections": [
+        {
+          "id": "102",
+          "angle": -3.01993,
+          "sourceAnchor": [
+            710,
+            531
+          ],
+          "tier": 0,
+          "halfAngle": 0.09286
+        },
+        {
+          "id": "101",
+          "angle": -2.80398,
+          "sourceAnchor": [
+            754,
+            535
+          ],
+          "tier": 0,
+          "halfAngle": 0.08657
+        },
+        {
+          "id": "100",
+          "angle": -2.60265,
+          "sourceAnchor": [
+            796,
+            550
+          ],
+          "tier": 0,
+          "halfAngle": 0.08657
+        },
+        {
+          "id": "C137",
+          "angle": -2.39553,
+          "sourceAnchor": [
+            841,
+            575
+          ],
+          "tier": 0,
+          "halfAngle": 0.05806
+        },
+        {
+          "id": "C136",
+          "angle": -2.26051,
+          "sourceAnchor": [
+            857,
+            616
+          ],
+          "tier": 0,
+          "halfAngle": 0.05806
+        },
+        {
+          "id": "C135",
+          "angle": -2.10167,
+          "sourceAnchor": [
+            872,
+            665
+          ],
+          "tier": 0,
+          "halfAngle": 0.05906
+        },
+        {
+          "id": "C134",
+          "angle": -1.96432,
+          "sourceAnchor": [
+            877,
+            711
+          ],
+          "tier": 0,
+          "halfAngle": 0.05906
+        },
+        {
+          "id": "C133",
+          "angle": -1.82389,
+          "sourceAnchor": [
+            877,
+            757
+          ],
+          "tier": 0,
+          "halfAngle": 0.06038
+        },
+        {
+          "id": "VIP132",
+          "angle": -1.66101,
+          "sourceAnchor": [
+            880,
+            806
+          ],
+          "tier": 0,
+          "halfAngle": 0.07004
+        },
+        {
+          "id": "VIP131",
+          "angle": -1.49389,
+          "sourceAnchor": [
+            880,
+            856
+          ],
+          "tier": 0,
+          "halfAngle": 0.06974
+        },
+        {
+          "id": "C130",
+          "angle": -1.33171,
+          "sourceAnchor": [
+            878,
+            905
+          ],
+          "tier": 0,
+          "halfAngle": 0.05482
+        },
+        {
+          "id": "C129",
+          "angle": -1.20421,
+          "sourceAnchor": [
+            879,
+            947
+          ],
+          "tier": 0,
+          "halfAngle": 0.05482
+        },
+        {
+          "id": "C128",
+          "angle": -1.05903,
+          "sourceAnchor": [
+            870,
+            992
+          ],
+          "tier": 0,
+          "halfAngle": 0.06243
+        },
+        {
+          "id": "C127",
+          "angle": -0.89371,
+          "sourceAnchor": [
+            855,
+            1042
+          ],
+          "tier": 0,
+          "halfAngle": 0.05801
+        },
+        {
+          "id": "C126",
+          "angle": -0.75881,
+          "sourceAnchor": [
+            837,
+            1078
+          ],
+          "tier": 0,
+          "halfAngle": 0.05093
+        },
+        {
+          "id": "C125",
+          "angle": -0.64036,
+          "sourceAnchor": [
+            825,
+            1120
+          ],
+          "tier": 0,
+          "halfAngle": 0.04748
+        },
+        {
+          "id": "124",
+          "angle": -0.52993,
+          "sourceAnchor": [
+            793,
+            1114
+          ],
+          "tier": 0,
+          "halfAngle": 0.04748
+        },
+        {
+          "id": "123",
+          "angle": -0.35003,
+          "sourceAnchor": [
+            756,
+            1128
+          ],
+          "tier": 0,
+          "halfAngle": 0.07736
+        },
+        {
+          "id": "122",
+          "angle": -0.12667,
+          "sourceAnchor": [
+            711,
+            1135
+          ],
+          "tier": 0,
+          "halfAngle": 0.09604
+        },
+        {
+          "id": "121",
+          "angle": 0.13212,
+          "sourceAnchor": [
+            660,
+            1134
+          ],
+          "tier": 0,
+          "halfAngle": 0.08396
+        },
+        {
+          "id": "120",
+          "angle": 0.32737,
+          "sourceAnchor": [
+            620,
+            1132
+          ],
+          "tier": 0,
+          "halfAngle": 0.07937
+        },
+        {
+          "id": "119",
+          "angle": 0.51195,
+          "sourceAnchor": [
+            583,
+            1115
+          ],
+          "tier": 0,
+          "halfAngle": 0.03632
+        },
+        {
+          "id": "C118",
+          "angle": 0.59642,
+          "sourceAnchor": [
+            562,
+            1114
+          ],
+          "tier": 0,
+          "halfAngle": 0.03632
+        },
+        {
+          "id": "C117",
+          "angle": 0.73615,
+          "sourceAnchor": [
+            537,
+            1086
+          ],
+          "tier": 0,
+          "halfAngle": 0.06008
+        },
+        {
+          "id": "C116",
+          "angle": 0.89194,
+          "sourceAnchor": [
+            516,
+            1044
+          ],
+          "tier": 0,
+          "halfAngle": 0.06699
+        },
+        {
+          "id": "C115",
+          "angle": 1.0659,
+          "sourceAnchor": [
+            499,
+            992
+          ],
+          "tier": 0,
+          "halfAngle": 0.0624
+        },
+        {
+          "id": "C114",
+          "angle": 1.21102,
+          "sourceAnchor": [
+            489,
+            947
+          ],
+          "tier": 0,
+          "halfAngle": 0.05405
+        },
+        {
+          "id": "C113",
+          "angle": 1.33672,
+          "sourceAnchor": [
+            487,
+            906
+          ],
+          "tier": 0,
+          "halfAngle": 0.05405
+        },
+        {
+          "id": "VIP112",
+          "angle": 1.49942,
+          "sourceAnchor": [
+            486,
+            855
+          ],
+          "tier": 0,
+          "halfAngle": 0.06833
+        },
+        {
+          "id": "VIP111",
+          "angle": 1.65832,
+          "sourceAnchor": [
+            486,
+            806
+          ],
+          "tier": 0,
+          "halfAngle": 0.06649
+        },
+        {
+          "id": "C110",
+          "angle": 1.81295,
+          "sourceAnchor": [
+            486,
+            757
+          ],
+          "tier": 0,
+          "halfAngle": 0.06649
+        },
+        {
+          "id": "C109",
+          "angle": 1.97689,
+          "sourceAnchor": [
+            491,
+            704
+          ],
+          "tier": 0,
+          "halfAngle": 0.06679
+        },
+        {
+          "id": "C108",
+          "angle": 2.13221,
+          "sourceAnchor": [
+            501,
+            654
+          ],
+          "tier": 0,
+          "halfAngle": 0.06123
+        },
+        {
+          "id": "C107",
+          "angle": 2.27461,
+          "sourceAnchor": [
+            516,
+            611
+          ],
+          "tier": 0,
+          "halfAngle": 0.06044
+        },
+        {
+          "id": "C106",
+          "angle": 2.41517,
+          "sourceAnchor": [
+            537,
+            575
+          ],
+          "tier": 0,
+          "halfAngle": 0.06044
+        },
+        {
+          "id": "105",
+          "angle": 2.60821,
+          "sourceAnchor": [
+            577,
+            549
+          ],
+          "tier": 0,
+          "halfAngle": 0.08301
+        },
+        {
+          "id": "104",
+          "angle": 2.81579,
+          "sourceAnchor": [
+            621,
+            537
+          ],
+          "tier": 0,
+          "halfAngle": 0.08926
+        },
+        {
+          "id": "103",
+          "angle": 3.02457,
+          "sourceAnchor": [
+            663,
+            532
+          ],
+          "tier": 0,
+          "halfAngle": 0.08978
+        }
+      ],
+      "tiers": [
+        [
+          91,
+          63,
+          3,
+          21,
+          12
+        ]
+      ],
+      "source": "https://www.therams.com/game-day/navigating",
+      "sourceTitle": "Rams 官方 Level 2 地图",
+      "coverage": "只演示 Level 2 下层看台；官方当前页面所链接的图纸标注为 2021 年",
+      "sectionCount": 38
+    },
+    "tottenham": {
+      "name": "Tottenham Hotspur Stadium",
+      "city": "伦敦 · Tottenham",
+      "artist": "Kendrick & SZA · 2025 / Travis Scott · 2024",
+      "capacity": "62,850（体育用途）",
+      "sections": [
+        {
+          "id": "113",
+          "angle": -2.99156,
+          "sourceAnchor": [
+            245.43,
+            420.25
+          ],
+          "tier": 0,
+          "halfAngle": 0.12415
+        },
+        {
+          "id": "119",
+          "angle": -1.86949,
+          "sourceAnchor": [
+            324.96,
+            338.44
+          ],
+          "tier": 0,
+          "halfAngle": 0.13
+        },
+        {
+          "id": "122",
+          "angle": -1.26464,
+          "sourceAnchor": [
+            402.05,
+            338.44
+          ],
+          "tier": 0,
+          "halfAngle": 0.07535
+        },
+        {
+          "id": "123",
+          "angle": -1.0894,
+          "sourceAnchor": [
+            427.53,
+            338.44
+          ],
+          "tier": 0,
+          "halfAngle": 0.04578
+        },
+        {
+          "id": "124",
+          "angle": -0.98293,
+          "sourceAnchor": [
+            445.33,
+            338.44
+          ],
+          "tier": 0,
+          "halfAngle": 0.04578
+        },
+        {
+          "id": "101",
+          "angle": 0.98002,
+          "sourceAnchor": [
+            445.71,
+            529.41
+          ],
+          "tier": 0,
+          "halfAngle": 0.04847
+        },
+        {
+          "id": "102",
+          "angle": 1.09273,
+          "sourceAnchor": [
+            426.9,
+            529.41
+          ],
+          "tier": 0,
+          "halfAngle": 0.04847
+        },
+        {
+          "id": "103",
+          "angle": 1.2688,
+          "sourceAnchor": [
+            401.42,
+            529.41
+          ],
+          "tier": 0,
+          "halfAngle": 0.07156
+        },
+        {
+          "id": "104",
+          "angle": 1.43523,
+          "sourceAnchor": [
+            379.82,
+            529.41
+          ],
+          "tier": 0,
+          "halfAngle": 0.07156
+        },
+        {
+          "id": "105",
+          "angle": 1.80326,
+          "sourceAnchor": [
+            333.8,
+            529.41
+          ],
+          "tier": 0,
+          "halfAngle": 0.10314
+        },
+        {
+          "id": "107",
+          "angle": 2.04312,
+          "sourceAnchor": [
+            299.99,
+            529.41
+          ],
+          "tier": 0,
+          "halfAngle": 0.06729
+        },
+        {
+          "id": "108",
+          "angle": 2.19962,
+          "sourceAnchor": [
+            273.3,
+            529.41
+          ],
+          "tier": 0,
+          "halfAngle": 0.06729
+        },
+        {
+          "id": "109",
+          "angle": 2.41293,
+          "sourceAnchor": [
+            248.03,
+            513.38
+          ],
+          "tier": 0,
+          "halfAngle": 0.06845
+        },
+        {
+          "id": "110",
+          "angle": 2.57212,
+          "sourceAnchor": [
+            245.41,
+            492.24
+          ],
+          "tier": 0,
+          "halfAngle": 0.06845
+        },
+        {
+          "id": "111",
+          "angle": 2.74705,
+          "sourceAnchor": [
+            245.36,
+            471.89
+          ],
+          "tier": 0,
+          "halfAngle": 0.07522
+        },
+        {
+          "id": "112",
+          "angle": 3.0029,
+          "sourceAnchor": [
+            245.4,
+            446.7
+          ],
+          "tier": 0,
+          "halfAngle": 0.11002
+        },
+        {
+          "id": "234",
+          "angle": -2.8357,
+          "sourceAnchor": [
+            223.79,
+            399.99
+          ],
+          "tier": 1,
+          "halfAngle": 0.13
+        },
+        {
+          "id": "248",
+          "angle": -0.93649,
+          "sourceAnchor": [
+            503.5,
+            286.27
+          ],
+          "tier": 1,
+          "halfAngle": 0.04242
+        },
+        {
+          "id": "249",
+          "angle": -0.83785,
+          "sourceAnchor": [
+            535.65,
+            285.64
+          ],
+          "tier": 1,
+          "halfAngle": 0.04242
+        },
+        {
+          "id": "250",
+          "angle": -0.69873,
+          "sourceAnchor": [
+            566.06,
+            302.03
+          ],
+          "tier": 1,
+          "halfAngle": 0.05982
+        },
+        {
+          "id": "251",
+          "angle": -0.50469,
+          "sourceAnchor": [
+            532.12,
+            361.73
+          ],
+          "tier": 1,
+          "halfAngle": 0.08344
+        },
+        {
+          "id": "252",
+          "angle": -0.26171,
+          "sourceAnchor": [
+            532.18,
+            398.95
+          ],
+          "tier": 1,
+          "halfAngle": 0.10448
+        },
+        {
+          "id": "254",
+          "angle": -0.00698,
+          "sourceAnchor": [
+            532.09,
+            433.09
+          ],
+          "tier": 1,
+          "halfAngle": 0.10953
+        },
+        {
+          "id": "256",
+          "angle": 0.27303,
+          "sourceAnchor": [
+            532.14,
+            470.64
+          ],
+          "tier": 1,
+          "halfAngle": 0.10126
+        },
+        {
+          "id": "257",
+          "angle": 0.50851,
+          "sourceAnchor": [
+            532.11,
+            506.92
+          ],
+          "tier": 1,
+          "halfAngle": 0.083
+        },
+        {
+          "id": "258",
+          "angle": 0.70154,
+          "sourceAnchor": [
+            566.08,
+            566.74
+          ],
+          "tier": 1,
+          "halfAngle": 0.05982
+        },
+        {
+          "id": "259",
+          "angle": 0.84065,
+          "sourceAnchor": [
+            535.54,
+            583.1
+          ],
+          "tier": 1,
+          "halfAngle": 0.04507
+        },
+        {
+          "id": "260",
+          "angle": 0.94546,
+          "sourceAnchor": [
+            503.53,
+            584.58
+          ],
+          "tier": 1,
+          "halfAngle": 0.04507
+        },
+        {
+          "id": "232",
+          "angle": 2.49187,
+          "sourceAnchor": [
+            229.49,
+            512.47
+          ],
+          "tier": 1,
+          "halfAngle": 0.13
+        },
+        {
+          "id": "233",
+          "angle": 2.86435,
+          "sourceAnchor": [
+            223.81,
+            464.64
+          ],
+          "tier": 1,
+          "halfAngle": 0.13
+        },
+        {
+          "id": "420",
+          "angle": -3.13563,
+          "sourceAnchor": [
+            165.08,
+            433.09
+          ],
+          "tier": 2,
+          "halfAngle": 0.08682
+        },
+        {
+          "id": "421",
+          "angle": -2.93372,
+          "sourceAnchor": [
+            165.3,
+            401.74
+          ],
+          "tier": 2,
+          "halfAngle": 0.08103
+        },
+        {
+          "id": "422",
+          "angle": -2.74527,
+          "sourceAnchor": [
+            165.71,
+            370.14
+          ],
+          "tier": 2,
+          "halfAngle": 0.0652
+        },
+        {
+          "id": "423",
+          "angle": -2.59365,
+          "sourceAnchor": [
+            168.46,
+            342.16
+          ],
+          "tier": 2,
+          "halfAngle": 0.0559
+        },
+        {
+          "id": "424",
+          "angle": -2.46366,
+          "sourceAnchor": [
+            179.8,
+            319.88
+          ],
+          "tier": 2,
+          "halfAngle": 0.0559
+        },
+        {
+          "id": "322",
+          "angle": -0.5251,
+          "sourceAnchor": [
+            594.47,
+            330.26
+          ],
+          "tier": 2,
+          "halfAngle": 0.07424
+        },
+        {
+          "id": "323",
+          "angle": -0.35246,
+          "sourceAnchor": [
+            615.6,
+            362.13
+          ],
+          "tier": 2,
+          "halfAngle": 0.07424
+        },
+        {
+          "id": "451",
+          "angle": -0.17027,
+          "sourceAnchor": [
+            626.51,
+            398.95
+          ],
+          "tier": 2,
+          "halfAngle": 0.07129
+        },
+        {
+          "id": "452",
+          "angle": -0.00448,
+          "sourceAnchor": [
+            626.57,
+            433.09
+          ],
+          "tier": 2,
+          "halfAngle": 0.07129
+        },
+        {
+          "id": "453",
+          "angle": 0.17503,
+          "sourceAnchor": [
+            626.63,
+            470.06
+          ],
+          "tier": 2,
+          "halfAngle": 0.07564
+        },
+        {
+          "id": "324",
+          "angle": 0.35093,
+          "sourceAnchor": [
+            615.62,
+            505.54
+          ],
+          "tier": 2,
+          "halfAngle": 0.07564
+        },
+        {
+          "id": "325",
+          "angle": 0.52937,
+          "sourceAnchor": [
+            594.45,
+            538.76
+          ],
+          "tier": 2,
+          "halfAngle": 0.07673
+        },
+        {
+          "id": "416",
+          "angle": 2.45562,
+          "sourceAnchor": [
+            181.28,
+            549.07
+          ],
+          "tier": 2,
+          "halfAngle": 0.05721
+        },
+        {
+          "id": "417",
+          "angle": 2.58866,
+          "sourceAnchor": [
+            169.24,
+            526.51
+          ],
+          "tier": 2,
+          "halfAngle": 0.05721
+        },
+        {
+          "id": "418",
+          "angle": 2.74509,
+          "sourceAnchor": [
+            165.58,
+            497.94
+          ],
+          "tier": 2,
+          "halfAngle": 0.06726
+        },
+        {
+          "id": "419",
+          "angle": 2.94032,
+          "sourceAnchor": [
+            165.5,
+            465.17
+          ],
+          "tier": 2,
+          "halfAngle": 0.08395
+        },
+        {
+          "id": "515",
+          "angle": -3.13248,
+          "sourceAnchor": [
+            103.05,
+            432.17
+          ],
+          "tier": 3,
+          "halfAngle": 0.07898
+        },
+        {
+          "id": "516",
+          "angle": -2.9488,
+          "sourceAnchor": [
+            103.04,
+            394.74
+          ],
+          "tier": 3,
+          "halfAngle": 0.07898
+        },
+        {
+          "id": "517",
+          "angle": -2.74766,
+          "sourceAnchor": [
+            115.11,
+            354.29
+          ],
+          "tier": 3,
+          "halfAngle": 0.07206
+        },
+        {
+          "id": "518",
+          "angle": -2.58008,
+          "sourceAnchor": [
+            124.75,
+            318.06
+          ],
+          "tier": 3,
+          "halfAngle": 0.06581
+        },
+        {
+          "id": "519",
+          "angle": -2.42704,
+          "sourceAnchor": [
+            143.45,
+            286.67
+          ],
+          "tier": 3,
+          "halfAngle": 0.05448
+        },
+        {
+          "id": "520",
+          "angle": -2.30035,
+          "sourceAnchor": [
+            164.58,
+            262.33
+          ],
+          "tier": 3,
+          "halfAngle": 0.05448
+        },
+        {
+          "id": "521",
+          "angle": -2.16651,
+          "sourceAnchor": [
+            195.22,
+            242.53
+          ],
+          "tier": 3,
+          "halfAngle": 0.05257
+        },
+        {
+          "id": "522",
+          "angle": -2.04426,
+          "sourceAnchor": [
+            227.8,
+            229.86
+          ],
+          "tier": 3,
+          "halfAngle": 0.05078
+        },
+        {
+          "id": "523",
+          "angle": -1.92617,
+          "sourceAnchor": [
+            265.06,
+            229.86
+          ],
+          "tier": 3,
+          "halfAngle": 0.05078
+        },
+        {
+          "id": "524",
+          "angle": -1.80231,
+          "sourceAnchor": [
+            300.79,
+            229.86
+          ],
+          "tier": 3,
+          "halfAngle": 0.04915
+        },
+        {
+          "id": "525",
+          "angle": -1.68801,
+          "sourceAnchor": [
+            331.92,
+            229.86
+          ],
+          "tier": 3,
+          "halfAngle": 0.04915
+        },
+        {
+          "id": "527",
+          "angle": -1.49743,
+          "sourceAnchor": [
+            382.4,
+            229.86
+          ],
+          "tier": 3,
+          "halfAngle": 0.05078
+        },
+        {
+          "id": "528",
+          "angle": -1.37933,
+          "sourceAnchor": [
+            414.15,
+            229.86
+          ],
+          "tier": 3,
+          "halfAngle": 0.05078
+        },
+        {
+          "id": "529",
+          "angle": -1.2462,
+          "sourceAnchor": [
+            451.8,
+            229.86
+          ],
+          "tier": 3,
+          "halfAngle": 0.05725
+        },
+        {
+          "id": "530",
+          "angle": -1.10972,
+          "sourceAnchor": [
+            494.1,
+            229.86
+          ],
+          "tier": 3,
+          "halfAngle": 0.05869
+        },
+        {
+          "id": "501",
+          "angle": 1.11132,
+          "sourceAnchor": [
+            490.87,
+            633.92
+          ],
+          "tier": 3,
+          "halfAngle": 0.05797
+        },
+        {
+          "id": "502",
+          "angle": 1.24613,
+          "sourceAnchor": [
+            449.98,
+            633.92
+          ],
+          "tier": 3,
+          "halfAngle": 0.05797
+        },
+        {
+          "id": "503",
+          "angle": 1.3811,
+          "sourceAnchor": [
+            412.62,
+            633.92
+          ],
+          "tier": 3,
+          "halfAngle": 0.04825
+        },
+        {
+          "id": "504",
+          "angle": 1.49331,
+          "sourceAnchor": [
+            383.06,
+            633.92
+          ],
+          "tier": 3,
+          "halfAngle": 0.04825
+        },
+        {
+          "id": "505",
+          "angle": 1.69451,
+          "sourceAnchor": [
+            330.86,
+            633.92
+          ],
+          "tier": 3,
+          "halfAngle": 0.04867
+        },
+        {
+          "id": "506",
+          "angle": 1.8077,
+          "sourceAnchor": [
+            300.6,
+            633.92
+          ],
+          "tier": 3,
+          "halfAngle": 0.04867
+        },
+        {
+          "id": "507",
+          "angle": 1.93803,
+          "sourceAnchor": [
+            263.58,
+            633.92
+          ],
+          "tier": 3,
+          "halfAngle": 0.04569
+        },
+        {
+          "id": "508",
+          "angle": 2.04429,
+          "sourceAnchor": [
+            230.59,
+            633.92
+          ],
+          "tier": 3,
+          "halfAngle": 0.04569
+        },
+        {
+          "id": "509",
+          "angle": 2.18143,
+          "sourceAnchor": [
+            197.57,
+            616.85
+          ],
+          "tier": 3,
+          "halfAngle": 0.05293
+        },
+        {
+          "id": "510",
+          "angle": 2.30453,
+          "sourceAnchor": [
+            170.6,
+            599.07
+          ],
+          "tier": 3,
+          "halfAngle": 0.05293
+        },
+        {
+          "id": "511",
+          "angle": 2.44916,
+          "sourceAnchor": [
+            143.48,
+            574.85
+          ],
+          "tier": 3,
+          "halfAngle": 0.05968
+        },
+        {
+          "id": "512",
+          "angle": 2.58796,
+          "sourceAnchor": [
+            128.77,
+            546.0
+          ],
+          "tier": 3,
+          "halfAngle": 0.05968
+        },
+        {
+          "id": "513",
+          "angle": 2.75859,
+          "sourceAnchor": [
+            115.21,
+            511.23
+          ],
+          "tier": 3,
+          "halfAngle": 0.07337
+        },
+        {
+          "id": "514",
+          "angle": 2.96438,
+          "sourceAnchor": [
+            103.01,
+            470.02
+          ],
+          "tier": 3,
+          "halfAngle": 0.08012
+        }
+      ],
+      "tiers": [
+        [
+          81,
+          55,
+          3,
+          18,
+          10
+        ],
+        [
+          106,
+          75,
+          15,
+          20,
+          12
+        ],
+        [
+          127,
+          91,
+          27,
+          20,
+          12
+        ],
+        [
+          148,
+          110,
+          36,
+          22,
+          15
+        ]
+      ],
+      "source": "https://resources.thfc.pulselive.com/thfc/document/2026/08/13/dcd3483a-2f97-41cb-8ea6-198c65a8c634/THFC-2627-Official-Category-B-Pricing-Map-94-.pdf",
+      "sourceTitle": "官方 2026/27 分区 PDF",
+      "coverage": "官方票价图可提取的分区样本；South Stand 在粗模型中按层级简化",
+      "sectionCount": 75
+    }
+  }
+}</script>
+<script>
+// THROWAWAY PROTOTYPE. Geometry engine has no DOM dependency; none of its coordinates are surveyed.
+const VenueMath=(()=>{
+ const add=(a,b)=>a.map((v,i)=>v+b[i]),sub=(a,b)=>a.map((v,i)=>v-b[i]),dot=(a,b)=>a.reduce((s,v,i)=>s+v*b[i],0),len=a=>Math.hypot(...a),unit=a=>a.map(v=>v/len(a)),cross=(a,b)=>[a[1]*b[2]-a[2]*b[1],a[2]*b[0]-a[0]*b[2],a[0]*b[1]-a[1]*b[0]];
+ function point(v,s,t=0.5,lateral=0){const [rx,rz,base,depth,rise]=v.tiers[s.tier];const a=s.angle+lateral*s.halfAngle;return [(rx+(t-.5)*depth)*Math.cos(a),base+t*rise,(rz+(t-.5)*depth)*Math.sin(a)]}
+ function seat(v,s,row,number){return point(v,s,(row-1)/29,((number-1)/23-.5)*1.8)}
+ function sectionMesh(v,s){return [point(v,s,0,-1),point(v,s,0,1),point(v,s,1,1),point(v,s,1,-1)]}
+ function gaps(v){const tau=Math.PI*2,result=[];v.tiers.forEach((_,tier)=>{const spans=[];for(const sec of v.sections.filter(s=>s.tier===tier)){const a=((sec.angle-sec.halfAngle)%tau+tau)%tau,b=a+2*sec.halfAngle;if(b>tau)spans.push([a,tau],[0,b-tau]);else spans.push([a,b])}spans.sort((a,b)=>a[0]-b[0]);let end=0;for(const [a,b] of spans){if(a-end>.06)result.push({tier,start:end,end:a});end=Math.max(end,b)}if(tau-end>.06)result.push({tier,start:end,end:tau})});return result}
+ function stages(layout){return layout==='center'?[{x:0,z:0,w:22,d:22}]:layout==='runway'?[{x:-48,z:0,w:15,d:42},{x:-25,z:0,w:32,d:5},{x:-8,z:0,w:12,d:14}]:[{x:-48,z:0,w:15,d:42}]}
+ function performer(layout){return [layout==='end'?-48:layout==='runway'?-8:0,2.2,0]}
+ function nearest(p,rects){return Math.min(...rects.map(r=>Math.hypot(Math.max(Math.abs(p[0]-r.x)-r.w/2,0),Math.max(Math.abs(p[2]-r.z)-r.d/2,0))))}
+ function camera(eye,target,vfov,w,h){const forward=unit(sub(target,eye)),right=unit(cross(forward,[0,1,0])),up=cross(right,forward),f=h/(2*Math.tan(vfov/2));return p=>{const d=sub(p,eye),z=dot(d,forward);return z>.2?{x:w/2+dot(d,right)*f/z,y:h/2-dot(d,up)*f/z,z}:null}}
+ function metrics(v,s,row,number,layout,zoom){const p=seat(v,s,row,number),eye=add(p,[0,1.2,0]),actor=performer(layout),target=add(actor,[0,.875,0]),sensorH=43.266*3/5, vfov=2*Math.atan(sensorH/(2*24*zoom)),project=camera(eye,target,vfov,400,300),feet=project(actor),head=project(add(actor,[0,1.75,0]));return {p,eye,actor,target,vfov,distance:len(sub(eye,target)),edge:nearest(p,stages(layout)),frame:feet&&head?Math.abs(feet.y-head.y)/300:0}}
+ return {add,sub,dot,len,unit,cross,point,seat,sectionMesh,gaps,stages,performer,camera,metrics};
+})();
+const data=JSON.parse(document.getElementById('venue-data').textContent),venues=data.venues,$=id=>document.getElementById(id),colors=['#759c8e','#487c72','#254d4a','#193d3e'];
+const state={venue:'metlife',section:'124',row:18,seat:12,layout:'end',mode:'3d',camera:'overview',zoom:5,azimuth:0.65,elevation:.63,variant:['A','B','C'].includes(new URLSearchParams(location.search).get('variant'))?new URLSearchParams(location.search).get('variant'):'A'};
+let hitPolygons=[],drag=null,resizeObserver;
+function selection(){const v=venues[state.venue],s=v.sections.find(s=>s.id===state.section)||v.sections[0];return {v,s,m:VenueMath.metrics(v,s,state.row,state.seat,state.layout,state.zoom)}}
+function fillSections(){const v=venues[state.venue];if(!v.sections.some(s=>s.id===state.section))state.section=v.sections[0].id;$('section').innerHTML=[...v.sections].sort((a,b)=>a.id.localeCompare(b.id,undefined,{numeric:true})).map(s=>`<option value="${s.id}">${s.id}</option>`).join('');$('section').value=state.section}
+function polygon2d(points){return points.map(p=>`${p[0].toFixed(2)},${p[2].toFixed(2)}`).join(' ')}
+function drawMap(){const {v,s,m}=selection();let svg=`<defs><pattern id="coverage-hatch" width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="4" height="4" fill="#dce2d7"/><path d="M0 0V4" stroke="#bdc6bd" stroke-width="1.3"/></pattern></defs><rect x="-60" y="-34" width="120" height="68" rx="6" fill="#dee8da"/><path d="M0,-34V34" stroke="#c6d4c3"/><text x="0" y="30" text-anchor="middle" fill="#98ac9d" font-size="4">场地尺度与轮廓为示意</text>`;
+ VenueMath.gaps(v).forEach(g=>{const n=Math.max(2,Math.ceil((g.end-g.start)*20)),points=[];for(let j=0;j<=n;j++)points.push(VenueMath.point(v,{tier:g.tier,angle:g.start+(g.end-g.start)*j/n,halfAngle:0},0));for(let j=n;j>=0;j--)points.push(VenueMath.point(v,{tier:g.tier,angle:g.start+(g.end-g.start)*j/n,halfAngle:0},1));svg+=`<g data-unknown="true" tabindex="0" role="button" aria-label="未建模区域，暂无可选座位"><polygon points="${polygon2d(points)}" fill="url(#coverage-hatch)" stroke="#b9c5b4" stroke-width=".25"/></g>`});
+ v.sections.forEach(sec=>{const selected=sec.id===s.id,p=VenueMath.point(v,sec);svg+=`<g data-section="${sec.id}" tabindex="0" role="button" aria-label="分区 ${sec.id}"><polygon points="${polygon2d(VenueMath.sectionMesh(v,sec))}" fill="${selected?'#df633d':colors[sec.tier]}" stroke="#f4f6f1" stroke-width=".65"/><text x="${p[0]}" y="${p[2]}" fill="white" text-anchor="middle" dominant-baseline="central" font-size="${v.sections.length>65?3.3:4}" font-weight="650" pointer-events="none">${sec.id}</text></g>`});
+ VenueMath.stages(state.layout).forEach(r=>svg+=`<rect x="${r.x-r.w/2}" y="${r.z-r.d/2}" width="${r.w}" height="${r.d}" rx="1" fill="#e3a071" stroke="#c67848" stroke-width=".5"/>`);
+ svg+=`<text x="-48" y="0" text-anchor="middle" dominant-baseline="central" fill="#fff" font-size="3.6" transform="rotate(-90 -48 0)">${state.layout==='center'?'':'STAGE'}</text><line x1="${m.p[0]}" y1="${m.p[2]}" x2="${m.actor[0]}" y2="0" stroke="#df633d" stroke-width=".8" stroke-dasharray="2 2"/><circle cx="${m.p[0]}" cy="${m.p[2]}" r="2.3" fill="#df633d" stroke="white" stroke-width="1"/><circle cx="${m.actor[0]}" cy="0" r="1.4" fill="#253e38"/>`;
+ $('map').innerHTML=svg;$('map').querySelectorAll('[data-unknown]').forEach(el=>{el.onclick=showCoverageNotice;el.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();showCoverageNotice()}}});$('map').querySelectorAll('[data-section]').forEach(el=>{el.onclick=()=>chooseSection(el.dataset.section);el.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();chooseSection(el.dataset.section)}}})
+}
+function showCoverageNotice(){$('coverage-notice').hidden=false;$('coverage-notice').querySelector('span').textContent='这块区域尚未建模，暂无可选座位；不代表实际没有座位。请点击有编号的绿色分区。'}
+$('coverage-notice').querySelector('button').onclick=()=>{$('coverage-notice').hidden=true};
+function chooseSection(id){$('coverage-notice').hidden=true;state.section=id;$('section').value=id;update()}
+function setupCanvas(canvas){const r=canvas.getBoundingClientRect(),dpr=Math.min(devicePixelRatio,2);canvas.width=Math.max(1,r.width*dpr);canvas.height=Math.max(1,r.height*dpr);const ctx=canvas.getContext('2d');ctx.setTransform(dpr,0,0,dpr,0,0);return {ctx,w:r.width,h:r.height}}
+function path(ctx,pts,fill,stroke){ctx.beginPath();pts.forEach((p,i)=>i?ctx.lineTo(p.x,p.y):ctx.moveTo(p.x,p.y));ctx.closePath();if(fill){ctx.fillStyle=fill;ctx.fill()}if(stroke){ctx.strokeStyle=stroke;ctx.lineWidth=.6;ctx.stroke()}}
+function drawWorld(){window.viewer3d?.renderOnce()}
+function update(){const {v,s,m}=selection();$('venue-title').textContent=v.name;$('venue-sub').textContent=`${v.city} · ${v.artist}`;$('map-count').textContent=`${v.sectionCount} 个编号分区 · 非完整建模`;$('ticket-section').textContent=s.id;$('ticket-row').textContent=`Row ${state.row} / Seat ${state.seat}（模拟）`;$('distance').textContent=`约 ${Math.round(m.distance/5)*5} m`;$('edge-distance').textContent=`约 ${Math.round(m.edge/5)*5} m`;$('zoom-value').textContent=`${state.zoom.toFixed(1)}×`;$('frame-percent').textContent=`人物占画高 ${(m.frame*100).toFixed(1)}%`;$('model-state').textContent=`模拟眼高 ${m.eye[1].toFixed(1)}m · 垂直视角 ${(m.vfov*180/Math.PI).toFixed(1)}° · 位置随排深和横向变化`;
+ $('confidence').textContent=(state.layout!=='center'&&m.p[0]<-55?'此分区可能位于舞台背后，实际是否售票尚未核验。 ':'')+'已确认分区标签；排数、座数和空间尺度为模拟，不能据此核验真实门票。';
+ $('provenance').innerHTML=`<strong>数据来源：</strong><a href="${v.source}" target="_blank" rel="noopener">${v.sourceTitle} ↗</a><br>${v.coverage}。层高、轮廓与米数均为估算；未取得逐座 xyz 或该艺人的真实舞台配置。`;
+ $('mode2d').classList.toggle('active',state.mode==='2d');$('mode3d').classList.toggle('active',state.mode==='3d');$('map').style.display=state.mode==='2d'?'block':'none';$('scene').style.display=state.mode==='3d'?'block':'none';$('tools').style.display=state.mode==='3d'?'flex':'none';$('view').classList.toggle('three',state.mode==='3d');$('overview').classList.toggle('active',state.camera==='overview');$('pov').classList.toggle('active',state.camera==='pov');$('caption').textContent=state.mode==='2d'?'点击分区定位 · 虚线指向表演者 · 轮廓为估算':state.camera==='overview'?'拖动旋转 · 滚轮缩放 · 点座位入座':'拖动环顾 · 滚轮调视角 · 手机取景可单独构图';
+ drawMap();window.viewer3d?.sync();document.querySelectorAll('[data-zoom]').forEach(b=>b.classList.toggle('active',+b.dataset.zoom===state.zoom));
+}
+$('venue').innerHTML=Object.entries(venues).map(([id,v])=>`<option value="${id}">${v.name}</option>`).join('');$('venue').value=state.venue;fillSections();
+$('venue').onchange=e=>{state.venue=e.target.value;fillSections();update()};$('section').onchange=e=>chooseSection(e.target.value);$('layout').onchange=e=>{state.layout=e.target.value;update()};
+[['row',30],['seat',24]].forEach(([id,max])=>{$(id).oninput=e=>{const n=+e.target.value;if(Number.isInteger(n)&&n>=1&&n<=max){state[id]=n;update()}};$(id).onchange=e=>{e.target.value=state[id]}});
+$('zoom').oninput=e=>{state.zoom=+e.target.value;update()};document.querySelectorAll('[data-zoom]').forEach(b=>b.onclick=()=>{state.zoom=+b.dataset.zoom;$('zoom').value=state.zoom;update()});
+$('mode2d').onclick=()=>{state.mode='2d';update()};$('mode3d').onclick=()=>{state.mode='3d';update()};$('overview').onclick=()=>{state.camera='overview';update()};$('pov').onclick=()=>{state.camera='pov';update()};$('reset').onclick=()=>{state.azimuth=.65;state.elevation=.63;state.camera='overview';update()};
+function variant(delta=0){const keys=['A','B','C'];state.variant=keys[(keys.indexOf(state.variant)+delta+3)%3];document.body.className=state.variant==='A'?'':'variant-'+state.variant.toLowerCase();$('variant-name').textContent={A:'A · 地图优先',B:'B · 位置优先',C:'C · 大画布'}[state.variant];history.replaceState({},'','?variant='+state.variant);update()}
+$('prev').onclick=()=>variant(-1);$('next').onclick=()=>variant(1);document.addEventListener('keydown',e=>{if(['INPUT','SELECT','TEXTAREA'].includes(document.activeElement.tagName))return;if(e.key==='ArrowLeft')variant(-1);if(e.key==='ArrowRight')variant(1)});
+let near=false;document.querySelector('[data-demo=near]').onclick=()=>{near=!near;state.row=near?1:30;$('row').value=state.row;update()};document.querySelector('[data-demo=stage]').onclick=()=>{state.layout=state.layout==='center'?'end':'center';$('layout').value=state.layout;update()};document.querySelector('[data-demo=zoom]').onclick=()=>{state.zoom=state.zoom===10?1:10;$('zoom').value=state.zoom;update()};
+resizeObserver=new ResizeObserver(()=>{window.viewer3d?.resize()});resizeObserver.observe($('view'));resizeObserver.observe($('phone-home'));variant();
+window.SeatApp={state,venues,math:VenueMath,selection,update,chooseSection,showCoverageNotice};
+</script><script type="module" src="./viewer3d.js?v=20261024-coverage3"></script></body></html>

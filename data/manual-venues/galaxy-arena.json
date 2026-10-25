@@ -1,0 +1,852 @@
+{
+  "id": "galaxy-arena",
+  "name": "银河综艺馆",
+  "city": "中国澳门 · 澳门",
+  "capacity": "原站目录未提供统一容量字段",
+  "source": "https://www.galaxymacau.com/zh-hant/mice/gicc/concerts/",
+  "sourceTitle": "REA 导出的公开场馆来源索引与参数化座位示意",
+  "sourceLinks": [
+    "https://www.galaxymacau.com/zh-hant/mice/gicc/concerts/",
+    "https://img.galaxymacau.com/2026-04/2026_wiea_seat_map_0407.jpg"
+  ],
+  "accuracy": {
+    "sectionLabels": "source-layout-reference",
+    "completeSeatInventory": false,
+    "metricCalibrated": false,
+    "stage": "generic",
+    "position": "estimated",
+    "geometryBasis": "source-informed-parametric:plan",
+    "catalogStatus": "source-geometry-and-sections",
+    "seatDataStatus": "section-only",
+    "sourceLayout": "center",
+    "coverage": "45 个来源分区；0 条座位采样。区号来自公开布局参考。",
+    "reuse": "来源页面可公开访问；未建立商业图形、模型或座位数据库再分发许可，发布前需逐源复核。",
+    "sourceDate": "REA capture 2026-10-24",
+    "sourceInventory": {
+      "venueReferenceUrl": "https://www.galaxymacau.com/zh-hant/mice/gicc/concerts/",
+      "mapReferenceUrl": "https://www.galaxymacau.com/zh-hant/mice/gicc/concerts/",
+      "sectionSource": "https://img.galaxymacau.com/2026-04/2026_wiea_seat_map_0407.jpg",
+      "geometryEvidenceLabel": "plan",
+      "note": "Missing asset URL does not establish absence of generated seat geometry."
+    },
+    "seatAsset": null
+  },
+  "tiers": [
+    [
+      23,
+      34,
+      1,
+      16,
+      8
+    ],
+    [
+      33,
+      44,
+      13,
+      11,
+      7
+    ],
+    [
+      38,
+      49,
+      24,
+      15,
+      11
+    ]
+  ],
+  "geometry": {
+    "shape": "rounded",
+    "coordinateSystem": "profile-inner-radius",
+    "power": 0.48,
+    "oneSided": false,
+    "floor": [
+      42,
+      64
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "LEVEL 1",
+        "steps": 22
+      },
+      {
+        "id": "middle",
+        "name": "LEVEL 2",
+        "steps": 16
+      },
+      {
+        "id": "upper",
+        "name": "LEVEL 3",
+        "steps": 21
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "102",
+      "ticketLabels": [
+        "102"
+      ],
+      "sourceLabel": "102 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.0471975511965976,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.galaxymacau.com/2026-04/2026_wiea_seat_map_0407.jpg"
+      }
+    },
+    {
+      "id": "103",
+      "ticketLabels": [
+        "103"
+      ],
+      "sourceLabel": "103 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.3962634015954636,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.galaxymacau.com/2026-04/2026_wiea_seat_map_0407.jpg"
+      }
+    },
+    {
+      "id": "104",
+      "ticketLabels": [
+        "104"
+      ],
+      "sourceLabel": "104 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.7453292519943295,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.galaxymacau.com/2026-04/2026_wiea_seat_map_0407.jpg"
+      }
+    },
+    {
+      "id": "105",
+      "ticketLabels": [
+        "105"
+      ],
+      "sourceLabel": "105 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.0943951023931953,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.galaxymacau.com/2026-04/2026_wiea_seat_map_0407.jpg"
+      }
+    },
+    {
+      "id": "106",
+      "ticketLabels": [
+        "106"
+      ],
+      "sourceLabel": "106 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.443460952792061,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.galaxymacau.com/2026-04/2026_wiea_seat_map_0407.jpg"
+      }
+    },
+    {
+      "id": "107",
+      "ticketLabels": [
+        "107"
+      ],
+      "sourceLabel": "107 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.792526803190927,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.galaxymacau.com/2026-04/2026_wiea_seat_map_0407.jpg"
+      }
+    },
+    {
+      "id": "108",
+      "ticketLabels": [
+        "108"
+      ],
+      "sourceLabel": "108 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.galaxymacau.com/2026-04/2026_wiea_seat_map_0407.jpg"
+      }
+    },
+    {
+      "id": "109",
+      "ticketLabels": [
+        "109"
+      ],
+      "sourceLabel": "109 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.490658503988659,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.galaxymacau.com/2026-04/2026_wiea_seat_map_0407.jpg"
+      }
+    },
+    {
+      "id": "110",
+      "ticketLabels": [
+        "110"
+      ],
+      "sourceLabel": "110 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.839724354387525,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.galaxymacau.com/2026-04/2026_wiea_seat_map_0407.jpg"
+      }
+    },
+    {
+      "id": "111",
+      "ticketLabels": [
+        "111"
+      ],
+      "sourceLabel": "111 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 4.1887902047863905,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.galaxymacau.com/2026-04/2026_wiea_seat_map_0407.jpg"
+      }
+    },
+    {
+      "id": "112",
+      "ticketLabels": [
+        "112"
+      ],
+      "sourceLabel": "112 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 4.537856055185257,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.galaxymacau.com/2026-04/2026_wiea_seat_map_0407.jpg"
+      }
+    },
+    {
+      "id": "113",
+      "ticketLabels": [
+        "113"
+      ],
+      "sourceLabel": "113 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 4.886921905584122,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.galaxymacau.com/2026-04/2026_wiea_seat_map_0407.jpg"
+      }
+    },
+    {
+      "id": "114",
+      "ticketLabels": [
+        "114"
+      ],
+      "sourceLabel": "114 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 5.235987755982989,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.galaxymacau.com/2026-04/2026_wiea_seat_map_0407.jpg"
+      }
+    },
+    {
+      "id": "202",
+      "ticketLabels": [
+        "202"
+      ],
+      "sourceLabel": "202 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.0471975511965976,
+      "halfAngle": 0.11519173063162574,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.galaxymacau.com/2026-04/2026_wiea_seat_map_0407.jpg"
+      }
+    },
+    {
+      "id": "203",
+      "ticketLabels": [
+        "203"
+      ],
+      "sourceLabel": "203 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.3089969389957472,
+      "halfAngle": 0.11519173063162574,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.galaxymacau.com/2026-04/2026_wiea_seat_map_0407.jpg"
+      }
+    },
+    {
+      "id": "204",
+      "ticketLabels": [
+        "204"
+      ],
+      "sourceLabel": "204 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.5707963267948966,
+      "halfAngle": 0.11519173063162574,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.galaxymacau.com/2026-04/2026_wiea_seat_map_0407.jpg"
+      }
+    },
+    {
+      "id": "205",
+      "ticketLabels": [
+        "205"
+      ],
+      "sourceLabel": "205 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.8325957145940461,
+      "halfAngle": 0.11519173063162574,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.galaxymacau.com/2026-04/2026_wiea_seat_map_0407.jpg"
+      }
+    },
+    {
+      "id": "206",
+      "ticketLabels": [
+        "206"
+      ],
+      "sourceLabel": "206 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.0943951023931953,
+      "halfAngle": 0.11519173063162574,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.galaxymacau.com/2026-04/2026_wiea_seat_map_0407.jpg"
+      }
+    },
+    {
+      "id": "207",
+      "ticketLabels": [
+        "207"
+      ],
+      "sourceLabel": "207 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.356194490192345,
+      "halfAngle": 0.11519173063162574,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.galaxymacau.com/2026-04/2026_wiea_seat_map_0407.jpg"
+      }
+    },
+    {
+      "id": "208",
+      "ticketLabels": [
+        "208"
+      ],
+      "sourceLabel": "208 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.6179938779914944,
+      "halfAngle": 0.11519173063162574,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.galaxymacau.com/2026-04/2026_wiea_seat_map_0407.jpg"
+      }
+    },
+    {
+      "id": "209",
+      "ticketLabels": [
+        "209"
+      ],
+      "sourceLabel": "209 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.8797932657906435,
+      "halfAngle": 0.11519173063162574,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.galaxymacau.com/2026-04/2026_wiea_seat_map_0407.jpg"
+      }
+    },
+    {
+      "id": "210",
+      "ticketLabels": [
+        "210"
+      ],
+      "sourceLabel": "210 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.11519173063162574,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.galaxymacau.com/2026-04/2026_wiea_seat_map_0407.jpg"
+      }
+    },
+    {
+      "id": "211",
+      "ticketLabels": [
+        "211"
+      ],
+      "sourceLabel": "211 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.4033920413889422,
+      "halfAngle": 0.11519173063162574,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.galaxymacau.com/2026-04/2026_wiea_seat_map_0407.jpg"
+      }
+    },
+    {
+      "id": "212",
+      "ticketLabels": [
+        "212"
+      ],
+      "sourceLabel": "212 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.6651914291880923,
+      "halfAngle": 0.11519173063162574,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.galaxymacau.com/2026-04/2026_wiea_seat_map_0407.jpg"
+      }
+    },
+    {
+      "id": "213",
+      "ticketLabels": [
+        "213"
+      ],
+      "sourceLabel": "213 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.9269908169872414,
+      "halfAngle": 0.11519173063162574,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.galaxymacau.com/2026-04/2026_wiea_seat_map_0407.jpg"
+      }
+    },
+    {
+      "id": "214",
+      "ticketLabels": [
+        "214"
+      ],
+      "sourceLabel": "214 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 4.1887902047863905,
+      "halfAngle": 0.11519173063162574,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.galaxymacau.com/2026-04/2026_wiea_seat_map_0407.jpg"
+      }
+    },
+    {
+      "id": "215",
+      "ticketLabels": [
+        "215"
+      ],
+      "sourceLabel": "215 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 4.4505895925855405,
+      "halfAngle": 0.11519173063162574,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.galaxymacau.com/2026-04/2026_wiea_seat_map_0407.jpg"
+      }
+    },
+    {
+      "id": "216",
+      "ticketLabels": [
+        "216"
+      ],
+      "sourceLabel": "216 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 4.71238898038469,
+      "halfAngle": 0.11519173063162574,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.galaxymacau.com/2026-04/2026_wiea_seat_map_0407.jpg"
+      }
+    },
+    {
+      "id": "217",
+      "ticketLabels": [
+        "217"
+      ],
+      "sourceLabel": "217 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 4.97418836818384,
+      "halfAngle": 0.11519173063162574,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.galaxymacau.com/2026-04/2026_wiea_seat_map_0407.jpg"
+      }
+    },
+    {
+      "id": "218",
+      "ticketLabels": [
+        "218"
+      ],
+      "sourceLabel": "218 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 5.235987755982989,
+      "halfAngle": 0.11519173063162574,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.galaxymacau.com/2026-04/2026_wiea_seat_map_0407.jpg"
+      }
+    },
+    {
+      "id": "302",
+      "ticketLabels": [
+        "302"
+      ],
+      "sourceLabel": "302 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 1.0471975511965976,
+      "halfAngle": 0.13165018547793228,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.galaxymacau.com/2026-04/2026_wiea_seat_map_0407.jpg"
+      }
+    },
+    {
+      "id": "303",
+      "ticketLabels": [
+        "303"
+      ],
+      "sourceLabel": "303 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 1.3463993448659854,
+      "halfAngle": 0.13165018547793228,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.galaxymacau.com/2026-04/2026_wiea_seat_map_0407.jpg"
+      }
+    },
+    {
+      "id": "304",
+      "ticketLabels": [
+        "304"
+      ],
+      "sourceLabel": "304 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 1.6456011385353735,
+      "halfAngle": 0.13165018547793228,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.galaxymacau.com/2026-04/2026_wiea_seat_map_0407.jpg"
+      }
+    },
+    {
+      "id": "305",
+      "ticketLabels": [
+        "305"
+      ],
+      "sourceLabel": "305 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 1.9448029322047615,
+      "halfAngle": 0.1316414588316723,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.galaxymacau.com/2026-04/2026_wiea_seat_map_0407.jpg"
+      }
+    },
+    {
+      "id": "306",
+      "ticketLabels": [
+        "306"
+      ],
+      "sourceLabel": "306 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 2.2439872725816294,
+      "halfAngle": 0.1316414588316723,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.galaxymacau.com/2026-04/2026_wiea_seat_map_0407.jpg"
+      }
+    },
+    {
+      "id": "307",
+      "ticketLabels": [
+        "307"
+      ],
+      "sourceLabel": "307 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 2.5431890662510175,
+      "halfAngle": 0.13165018547793228,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.galaxymacau.com/2026-04/2026_wiea_seat_map_0407.jpg"
+      }
+    },
+    {
+      "id": "308",
+      "ticketLabels": [
+        "308"
+      ],
+      "sourceLabel": "308 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 2.842390859920405,
+      "halfAngle": 0.13165018547793228,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.galaxymacau.com/2026-04/2026_wiea_seat_map_0407.jpg"
+      }
+    },
+    {
+      "id": "309",
+      "ticketLabels": [
+        "309"
+      ],
+      "sourceLabel": "309 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.13165018547793228,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.galaxymacau.com/2026-04/2026_wiea_seat_map_0407.jpg"
+      }
+    },
+    {
+      "id": "310",
+      "ticketLabels": [
+        "310"
+      ],
+      "sourceLabel": "310 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 3.440794447259181,
+      "halfAngle": 0.13165018547793228,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.galaxymacau.com/2026-04/2026_wiea_seat_map_0407.jpg"
+      }
+    },
+    {
+      "id": "311",
+      "ticketLabels": [
+        "311"
+      ],
+      "sourceLabel": "311 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 3.7399962409285687,
+      "halfAngle": 0.13165018547793228,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.galaxymacau.com/2026-04/2026_wiea_seat_map_0407.jpg"
+      }
+    },
+    {
+      "id": "312",
+      "ticketLabels": [
+        "312"
+      ],
+      "sourceLabel": "312 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 4.039198034597957,
+      "halfAngle": 0.1316414588316723,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.galaxymacau.com/2026-04/2026_wiea_seat_map_0407.jpg"
+      }
+    },
+    {
+      "id": "313",
+      "ticketLabels": [
+        "313"
+      ],
+      "sourceLabel": "313 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 4.338382374974825,
+      "halfAngle": 0.1316414588316723,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.galaxymacau.com/2026-04/2026_wiea_seat_map_0407.jpg"
+      }
+    },
+    {
+      "id": "314",
+      "ticketLabels": [
+        "314"
+      ],
+      "sourceLabel": "314 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 4.637584168644213,
+      "halfAngle": 0.13165018547793228,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.galaxymacau.com/2026-04/2026_wiea_seat_map_0407.jpg"
+      }
+    },
+    {
+      "id": "315",
+      "ticketLabels": [
+        "315"
+      ],
+      "sourceLabel": "315 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 4.936785962313601,
+      "halfAngle": 0.13165018547793228,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.galaxymacau.com/2026-04/2026_wiea_seat_map_0407.jpg"
+      }
+    },
+    {
+      "id": "316",
+      "ticketLabels": [
+        "316"
+      ],
+      "sourceLabel": "316 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 5.235987755982989,
+      "halfAngle": 0.13165018547793228,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.galaxymacau.com/2026-04/2026_wiea_seat_map_0407.jpg"
+      }
+    }
+  ],
+  "importedAt": "2026-10-24T00:00:00.000Z"
+}

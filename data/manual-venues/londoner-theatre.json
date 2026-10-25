@@ -1,0 +1,367 @@
+{
+  "id": "londoner-theatre",
+  "name": "澳门伦敦人剧场",
+  "city": "中国澳门 · 澳门",
+  "capacity": "原站目录未提供统一容量字段",
+  "source": "https://en.sandsresortsmacao.com/meetings/venues/londoner/theatre.html",
+  "sourceTitle": "REA 导出的公开场馆来源索引与参数化座位示意",
+  "sourceLinks": [
+    "https://en.sandsresortsmacao.com/meetings/venues/londoner/theatre.html",
+    "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/theatre/lm_theatre_floor-plan.pdf"
+  ],
+  "accuracy": {
+    "sectionLabels": "source-layout-reference",
+    "completeSeatInventory": false,
+    "metricCalibrated": false,
+    "stage": "generic",
+    "position": "estimated",
+    "geometryBasis": "source-informed-parametric:plan",
+    "catalogStatus": "source-geometry-and-sections",
+    "seatDataStatus": "section-only",
+    "sourceLayout": "end",
+    "coverage": "15 个来源分区；0 条座位采样。区号来自公开布局参考。",
+    "reuse": "来源页面可公开访问；未建立商业图形、模型或座位数据库再分发许可，发布前需逐源复核。",
+    "sourceDate": "REA capture 2026-10-24",
+    "sourceInventory": {
+      "venueReferenceUrl": "https://en.sandsresortsmacao.com/meetings/venues/londoner/theatre.html",
+      "mapReferenceUrl": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/theatre/lm_theatre_floor-plan.pdf",
+      "sectionSource": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/theatre/lm_theatre_floor-plan.pdf",
+      "geometryEvidenceLabel": "plan",
+      "note": "Missing asset URL does not establish absence of generated seat geometry."
+    },
+    "seatAsset": null
+  },
+  "tiers": [
+    [
+      16,
+      8,
+      0.3,
+      24,
+      10
+    ],
+    [
+      22,
+      29,
+      12,
+      14,
+      6
+    ]
+  ],
+  "geometry": {
+    "shape": "fan",
+    "coordinateSystem": "profile-inner-radius",
+    "power": 1,
+    "oneSided": true,
+    "stage": {
+      "width": 16,
+      "depth": 6,
+      "z": 10,
+      "height": 1.2
+    },
+    "floor": [
+      30,
+      16
+    ],
+    "openBowl": true,
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层池座",
+        "steps": 30
+      },
+      {
+        "id": "middle",
+        "name": "上层楼座",
+        "steps": 16
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "101",
+      "ticketLabels": [
+        "101"
+      ],
+      "sourceLabel": "101 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.6651914291880923,
+      "halfAngle": 0.23561944901923448,
+      "radialStart": 0,
+      "radialEnd": 0.3,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/theatre/lm_theatre_floor-plan.pdf"
+      }
+    },
+    {
+      "id": "102",
+      "ticketLabels": [
+        "102"
+      ],
+      "sourceLabel": "102 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.23561944901923448,
+      "radialStart": 0,
+      "radialEnd": 0.3,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/theatre/lm_theatre_floor-plan.pdf"
+      }
+    },
+    {
+      "id": "103",
+      "ticketLabels": [
+        "103"
+      ],
+      "sourceLabel": "103 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.6179938779914944,
+      "halfAngle": 0.23561944901923448,
+      "radialStart": 0,
+      "radialEnd": 0.3,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/theatre/lm_theatre_floor-plan.pdf"
+      }
+    },
+    {
+      "id": "201",
+      "ticketLabels": [
+        "201"
+      ],
+      "sourceLabel": "201 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.6651914291880923,
+      "halfAngle": 0.23561944901923448,
+      "radialStart": 0.32,
+      "radialEnd": 0.55,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/theatre/lm_theatre_floor-plan.pdf"
+      }
+    },
+    {
+      "id": "202",
+      "ticketLabels": [
+        "202"
+      ],
+      "sourceLabel": "202 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.23561944901923448,
+      "radialStart": 0.32,
+      "radialEnd": 0.55,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/theatre/lm_theatre_floor-plan.pdf"
+      }
+    },
+    {
+      "id": "203",
+      "ticketLabels": [
+        "203"
+      ],
+      "sourceLabel": "203 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.6179938779914944,
+      "halfAngle": 0.23561944901923448,
+      "radialStart": 0.32,
+      "radialEnd": 0.55,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/theatre/lm_theatre_floor-plan.pdf"
+      }
+    },
+    {
+      "id": "301",
+      "ticketLabels": [
+        "301"
+      ],
+      "sourceLabel": "301 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.6651914291880923,
+      "halfAngle": 0.23561944901923448,
+      "radialStart": 0.57,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/theatre/lm_theatre_floor-plan.pdf"
+      }
+    },
+    {
+      "id": "302",
+      "ticketLabels": [
+        "302"
+      ],
+      "sourceLabel": "302 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.23561944901923448,
+      "radialStart": 0.57,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/theatre/lm_theatre_floor-plan.pdf"
+      }
+    },
+    {
+      "id": "303",
+      "ticketLabels": [
+        "303"
+      ],
+      "sourceLabel": "303 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.6179938779914944,
+      "halfAngle": 0.23561944901923448,
+      "radialStart": 0.57,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/theatre/lm_theatre_floor-plan.pdf"
+      }
+    },
+    {
+      "id": "401",
+      "ticketLabels": [
+        "401"
+      ],
+      "sourceLabel": "401 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.6651914291880923,
+      "halfAngle": 0.23561944901923448,
+      "radialStart": 0,
+      "radialEnd": 0.48,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/theatre/lm_theatre_floor-plan.pdf"
+      }
+    },
+    {
+      "id": "402",
+      "ticketLabels": [
+        "402"
+      ],
+      "sourceLabel": "402 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.23561944901923448,
+      "radialStart": 0,
+      "radialEnd": 0.48,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/theatre/lm_theatre_floor-plan.pdf"
+      }
+    },
+    {
+      "id": "403",
+      "ticketLabels": [
+        "403"
+      ],
+      "sourceLabel": "403 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.6179938779914944,
+      "halfAngle": 0.23561944901923448,
+      "radialStart": 0,
+      "radialEnd": 0.48,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/theatre/lm_theatre_floor-plan.pdf"
+      }
+    },
+    {
+      "id": "501",
+      "ticketLabels": [
+        "501"
+      ],
+      "sourceLabel": "501 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.6651914291880923,
+      "halfAngle": 0.23561944901923448,
+      "radialStart": 0.52,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/theatre/lm_theatre_floor-plan.pdf"
+      }
+    },
+    {
+      "id": "502",
+      "ticketLabels": [
+        "502"
+      ],
+      "sourceLabel": "502 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.23561944901923448,
+      "radialStart": 0.52,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/theatre/lm_theatre_floor-plan.pdf"
+      }
+    },
+    {
+      "id": "503",
+      "ticketLabels": [
+        "503"
+      ],
+      "sourceLabel": "503 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.6179938779914944,
+      "halfAngle": 0.23561944901923448,
+      "radialStart": 0.52,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/theatre/lm_theatre_floor-plan.pdf"
+      }
+    }
+  ],
+  "importedAt": "2026-10-24T00:00:00.000Z"
+}

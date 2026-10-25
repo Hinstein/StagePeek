@@ -1,0 +1,1024 @@
+{
+  "id": "kspo-dome",
+  "name": "KSPO DOME",
+  "city": "韩国 · 首尔",
+  "capacity": "原站目录未提供统一容量字段",
+  "source": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=4915&mid=a20301010300",
+  "sourceTitle": "REA 导出的公开场馆来源索引与参数化座位示意",
+  "sourceLinks": [
+    "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=4915&mid=a20301010300",
+    "https://www.ksponco.or.kr/olympicpark/img/sub/s3_01_03_seat.jpg"
+  ],
+  "accuracy": {
+    "sectionLabels": "source-layout-reference",
+    "completeSeatInventory": false,
+    "metricCalibrated": false,
+    "stage": "generic",
+    "position": "estimated",
+    "geometryBasis": "source-informed-parametric:reference",
+    "catalogStatus": "source-geometry-and-sections",
+    "seatDataStatus": "section-only",
+    "sourceLayout": "center",
+    "coverage": "56 个来源分区；0 条座位采样。区号来自公开布局参考。",
+    "reuse": "来源页面可公开访问；未建立商业图形、模型或座位数据库再分发许可，发布前需逐源复核。",
+    "sourceDate": "REA capture 2026-10-24",
+    "sourceInventory": {
+      "venueReferenceUrl": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=4915&mid=a20301010300",
+      "mapReferenceUrl": "https://www.ksponco.or.kr/olympicpark/img/sub/s3_01_03_seat.jpg",
+      "sectionSource": null,
+      "geometryEvidenceLabel": null,
+      "note": "Missing asset URL does not establish absence of generated seat geometry."
+    },
+    "seatAsset": null
+  },
+  "tiers": [
+    [
+      27,
+      27,
+      1.2,
+      14,
+      7.5
+    ],
+    [
+      37,
+      37,
+      12,
+      16,
+      12
+    ]
+  ],
+  "geometry": {
+    "shape": "rounded",
+    "floor": [
+      101,
+      101
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "lower",
+        "steps": 20
+      },
+      {
+        "id": "middle",
+        "name": "middle",
+        "steps": 21
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "1",
+      "ticketLabels": [
+        "1"
+      ],
+      "sourceLabel": "1 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -1.2566370614359172,
+      "halfAngle": 0.12217304763960307,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=4915&mid=a20301010300"
+      }
+    },
+    {
+      "id": "2",
+      "ticketLabels": [
+        "2"
+      ],
+      "sourceLabel": "2 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -1.5009831567151233,
+      "halfAngle": 0.12217304763960307,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=4915&mid=a20301010300"
+      }
+    },
+    {
+      "id": "3",
+      "ticketLabels": [
+        "3"
+      ],
+      "sourceLabel": "3 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -1.7453292519943295,
+      "halfAngle": 0.12217304763960307,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=4915&mid=a20301010300"
+      }
+    },
+    {
+      "id": "4",
+      "ticketLabels": [
+        "4"
+      ],
+      "sourceLabel": "4 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -1.9896753472735356,
+      "halfAngle": 0.12217304763960307,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=4915&mid=a20301010300"
+      }
+    },
+    {
+      "id": "5",
+      "ticketLabels": [
+        "5"
+      ],
+      "sourceLabel": "5 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -2.4085543677521746,
+      "halfAngle": 0.12217304763960307,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=4915&mid=a20301010300"
+      }
+    },
+    {
+      "id": "6",
+      "ticketLabels": [
+        "6"
+      ],
+      "sourceLabel": "6 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -2.6529004630313806,
+      "halfAngle": 0.12217304763960307,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=4915&mid=a20301010300"
+      }
+    },
+    {
+      "id": "7",
+      "ticketLabels": [
+        "7"
+      ],
+      "sourceLabel": "7 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -2.897246558310587,
+      "halfAngle": 0.12217304763960307,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=4915&mid=a20301010300"
+      }
+    },
+    {
+      "id": "8",
+      "ticketLabels": [
+        "8"
+      ],
+      "sourceLabel": "8 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -3.141592653589793,
+      "halfAngle": 0.12217304763960307,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=4915&mid=a20301010300"
+      }
+    },
+    {
+      "id": "9",
+      "ticketLabels": [
+        "9"
+      ],
+      "sourceLabel": "9 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -3.385938748868999,
+      "halfAngle": 0.12217304763960307,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=4915&mid=a20301010300"
+      }
+    },
+    {
+      "id": "10",
+      "ticketLabels": [
+        "10"
+      ],
+      "sourceLabel": "10 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -3.6302848441482056,
+      "halfAngle": 0.12217304763960307,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=4915&mid=a20301010300"
+      }
+    },
+    {
+      "id": "11",
+      "ticketLabels": [
+        "11"
+      ],
+      "sourceLabel": "11 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -3.8746309394274117,
+      "halfAngle": 0.12217304763960307,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=4915&mid=a20301010300"
+      }
+    },
+    {
+      "id": "12",
+      "ticketLabels": [
+        "12"
+      ],
+      "sourceLabel": "12 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -4.293509959906051,
+      "halfAngle": 0.12217304763960307,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=4915&mid=a20301010300"
+      }
+    },
+    {
+      "id": "13",
+      "ticketLabels": [
+        "13"
+      ],
+      "sourceLabel": "13 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -4.537856055185257,
+      "halfAngle": 0.12217304763960307,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=4915&mid=a20301010300"
+      }
+    },
+    {
+      "id": "14",
+      "ticketLabels": [
+        "14"
+      ],
+      "sourceLabel": "14 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -4.782202150464463,
+      "halfAngle": 0.12217304763960307,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=4915&mid=a20301010300"
+      }
+    },
+    {
+      "id": "15",
+      "ticketLabels": [
+        "15"
+      ],
+      "sourceLabel": "15 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -5.026548245743669,
+      "halfAngle": 0.12217304763960307,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=4915&mid=a20301010300"
+      }
+    },
+    {
+      "id": "16",
+      "ticketLabels": [
+        "16"
+      ],
+      "sourceLabel": "16 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -5.550147021341968,
+      "halfAngle": 0.12217304763960307,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=4915&mid=a20301010300"
+      }
+    },
+    {
+      "id": "17",
+      "ticketLabels": [
+        "17"
+      ],
+      "sourceLabel": "17 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -5.794493116621174,
+      "halfAngle": 0.12217304763960307,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=4915&mid=a20301010300"
+      }
+    },
+    {
+      "id": "18",
+      "ticketLabels": [
+        "18"
+      ],
+      "sourceLabel": "18 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -6.03883921190038,
+      "halfAngle": 0.12217304763960307,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=4915&mid=a20301010300"
+      }
+    },
+    {
+      "id": "19",
+      "ticketLabels": [
+        "19"
+      ],
+      "sourceLabel": "19 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -6.283185307179586,
+      "halfAngle": 0.12217304763960307,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=4915&mid=a20301010300"
+      }
+    },
+    {
+      "id": "20",
+      "ticketLabels": [
+        "20"
+      ],
+      "sourceLabel": "20 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -6.527531402458793,
+      "halfAngle": 0.12217304763960307,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=4915&mid=a20301010300"
+      }
+    },
+    {
+      "id": "21",
+      "ticketLabels": [
+        "21"
+      ],
+      "sourceLabel": "21 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -0.11819155887724292,
+      "halfAngle": 0.12217304763960307,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=4915&mid=a20301010300"
+      }
+    },
+    {
+      "id": "22",
+      "ticketLabels": [
+        "22"
+      ],
+      "sourceLabel": "22 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -0.12245620275425685,
+      "halfAngle": 0.12217304763960307,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=4915&mid=a20301010300"
+      }
+    },
+    {
+      "id": "23",
+      "ticketLabels": [
+        "23"
+      ],
+      "sourceLabel": "23 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -0.9424777960769379,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=4915&mid=a20301010300"
+      }
+    },
+    {
+      "id": "24",
+      "ticketLabels": [
+        "24"
+      ],
+      "sourceLabel": "24 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -1.1519173063162575,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=4915&mid=a20301010300"
+      }
+    },
+    {
+      "id": "25",
+      "ticketLabels": [
+        "25"
+      ],
+      "sourceLabel": "25 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -1.361356816555577,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=4915&mid=a20301010300"
+      }
+    },
+    {
+      "id": "26",
+      "ticketLabels": [
+        "26"
+      ],
+      "sourceLabel": "26 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -1.5707963267948966,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=4915&mid=a20301010300"
+      }
+    },
+    {
+      "id": "27",
+      "ticketLabels": [
+        "27"
+      ],
+      "sourceLabel": "27 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -1.780235837034216,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=4915&mid=a20301010300"
+      }
+    },
+    {
+      "id": "28",
+      "ticketLabels": [
+        "28"
+      ],
+      "sourceLabel": "28 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -1.9896753472735356,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=4915&mid=a20301010300"
+      }
+    },
+    {
+      "id": "29",
+      "ticketLabels": [
+        "29"
+      ],
+      "sourceLabel": "29 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -2.199114857512855,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=4915&mid=a20301010300"
+      }
+    },
+    {
+      "id": "30",
+      "ticketLabels": [
+        "30"
+      ],
+      "sourceLabel": "30 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -2.4085543677521746,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=4915&mid=a20301010300"
+      }
+    },
+    {
+      "id": "31",
+      "ticketLabels": [
+        "31"
+      ],
+      "sourceLabel": "31 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -2.6179938779914944,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=4915&mid=a20301010300"
+      }
+    },
+    {
+      "id": "32",
+      "ticketLabels": [
+        "32"
+      ],
+      "sourceLabel": "32 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -2.827433388230814,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=4915&mid=a20301010300"
+      }
+    },
+    {
+      "id": "33",
+      "ticketLabels": [
+        "33"
+      ],
+      "sourceLabel": "33 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -3.036872898470133,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=4915&mid=a20301010300"
+      }
+    },
+    {
+      "id": "34",
+      "ticketLabels": [
+        "34"
+      ],
+      "sourceLabel": "34 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -3.2463124087094526,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=4915&mid=a20301010300"
+      }
+    },
+    {
+      "id": "35",
+      "ticketLabels": [
+        "35"
+      ],
+      "sourceLabel": "35 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -3.455751918948773,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=4915&mid=a20301010300"
+      }
+    },
+    {
+      "id": "36",
+      "ticketLabels": [
+        "36"
+      ],
+      "sourceLabel": "36 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -3.6651914291880923,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=4915&mid=a20301010300"
+      }
+    },
+    {
+      "id": "37",
+      "ticketLabels": [
+        "37"
+      ],
+      "sourceLabel": "37 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -3.8746309394274117,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=4915&mid=a20301010300"
+      }
+    },
+    {
+      "id": "38",
+      "ticketLabels": [
+        "38"
+      ],
+      "sourceLabel": "38 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -4.084070449666731,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=4915&mid=a20301010300"
+      }
+    },
+    {
+      "id": "39",
+      "ticketLabels": [
+        "39"
+      ],
+      "sourceLabel": "39 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -4.293509959906051,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=4915&mid=a20301010300"
+      }
+    },
+    {
+      "id": "40",
+      "ticketLabels": [
+        "40"
+      ],
+      "sourceLabel": "40 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -4.50294947014537,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=4915&mid=a20301010300"
+      }
+    },
+    {
+      "id": "41",
+      "ticketLabels": [
+        "41"
+      ],
+      "sourceLabel": "41 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -4.71238898038469,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=4915&mid=a20301010300"
+      }
+    },
+    {
+      "id": "42",
+      "ticketLabels": [
+        "42"
+      ],
+      "sourceLabel": "42 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -4.921828490624009,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=4915&mid=a20301010300"
+      }
+    },
+    {
+      "id": "43",
+      "ticketLabels": [
+        "43"
+      ],
+      "sourceLabel": "43 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -5.131268000863329,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=4915&mid=a20301010300"
+      }
+    },
+    {
+      "id": "44",
+      "ticketLabels": [
+        "44"
+      ],
+      "sourceLabel": "44 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -5.340707511102648,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=4915&mid=a20301010300"
+      }
+    },
+    {
+      "id": "45",
+      "ticketLabels": [
+        "45"
+      ],
+      "sourceLabel": "45 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -5.550147021341968,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=4915&mid=a20301010300"
+      }
+    },
+    {
+      "id": "46",
+      "ticketLabels": [
+        "46"
+      ],
+      "sourceLabel": "46 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -5.759586531581287,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=4915&mid=a20301010300"
+      }
+    },
+    {
+      "id": "47",
+      "ticketLabels": [
+        "47"
+      ],
+      "sourceLabel": "47 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -5.969026041820607,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=4915&mid=a20301010300"
+      }
+    },
+    {
+      "id": "48",
+      "ticketLabels": [
+        "48"
+      ],
+      "sourceLabel": "48 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -6.178465552059927,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=4915&mid=a20301010300"
+      }
+    },
+    {
+      "id": "49",
+      "ticketLabels": [
+        "49"
+      ],
+      "sourceLabel": "49 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -6.387905062299246,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=4915&mid=a20301010300"
+      }
+    },
+    {
+      "id": "50",
+      "ticketLabels": [
+        "50"
+      ],
+      "sourceLabel": "50 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -6.5973445725385655,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=4915&mid=a20301010300"
+      }
+    },
+    {
+      "id": "51",
+      "ticketLabels": [
+        "51"
+      ],
+      "sourceLabel": "51 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -0.11880079371681634,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=4915&mid=a20301010300"
+      }
+    },
+    {
+      "id": "52",
+      "ticketLabels": [
+        "52"
+      ],
+      "sourceLabel": "52 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -0.12245620275425685,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=4915&mid=a20301010300"
+      }
+    },
+    {
+      "id": "floor-a",
+      "ticketLabels": [
+        "floor-a"
+      ],
+      "sourceLabel": "A 侧站区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.06,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=4915&mid=a20301010300"
+      }
+    },
+    {
+      "id": "floor-b",
+      "ticketLabels": [
+        "floor-b"
+      ],
+      "sourceLabel": "B 侧站区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.06,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=4915&mid=a20301010300"
+      }
+    },
+    {
+      "id": "floor-c",
+      "ticketLabels": [
+        "floor-c"
+      ],
+      "sourceLabel": "C 侧站区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.06,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=4915&mid=a20301010300"
+      }
+    },
+    {
+      "id": "floor-d",
+      "ticketLabels": [
+        "floor-d"
+      ],
+      "sourceLabel": "D 侧站区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.06,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=4915&mid=a20301010300"
+      }
+    }
+  ],
+  "importedAt": "2026-10-24T00:00:00.000Z"
+}

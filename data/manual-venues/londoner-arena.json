@@ -1,0 +1,638 @@
+{
+  "id": "londoner-arena",
+  "name": "澳门伦敦人综艺馆",
+  "city": "中国澳门 · 澳门",
+  "capacity": "原站目录未提供统一容量字段",
+  "source": "https://www.sandsresortsmacao.com.cn/meetings/venues/londoner/arena.html",
+  "sourceTitle": "REA 导出的公开场馆来源索引与参数化座位示意",
+  "sourceLinks": [
+    "https://www.sandsresortsmacao.com.cn/meetings/venues/londoner/arena.html",
+    "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/arena/lm_arena_floor-plan.pdf"
+  ],
+  "accuracy": {
+    "sectionLabels": "source-layout-reference",
+    "completeSeatInventory": false,
+    "metricCalibrated": false,
+    "stage": "generic",
+    "position": "estimated",
+    "geometryBasis": "source-informed-parametric:dimension",
+    "catalogStatus": "source-geometry-and-sections",
+    "seatDataStatus": "section-only",
+    "sourceLayout": "end",
+    "coverage": "32 个来源分区；0 条座位采样。区号来自公开布局参考。",
+    "reuse": "来源页面可公开访问；未建立商业图形、模型或座位数据库再分发许可，发布前需逐源复核。",
+    "sourceDate": "REA capture 2026-10-24",
+    "sourceInventory": {
+      "venueReferenceUrl": "https://www.sandsresortsmacao.com.cn/meetings/venues/londoner/arena.html",
+      "mapReferenceUrl": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/arena/lm_arena_floor-plan.pdf",
+      "sectionSource": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/arena/lm_arena_floor-plan.pdf",
+      "geometryEvidenceLabel": "dimension",
+      "note": "Missing asset URL does not establish absence of generated seat geometry."
+    },
+    "seatAsset": null
+  },
+  "tiers": [
+    [
+      26.5,
+      12,
+      1,
+      9,
+      5
+    ],
+    [
+      31,
+      20,
+      7,
+      10,
+      6
+    ],
+    [
+      35,
+      29,
+      14,
+      11,
+      7
+    ]
+  ],
+  "geometry": {
+    "shape": "fan",
+    "coordinateSystem": "profile-inner-radius",
+    "power": 1,
+    "oneSided": true,
+    "stage": {
+      "width": 22,
+      "depth": 8,
+      "z": 11,
+      "height": 1.5
+    },
+    "floor": [
+      53,
+      24
+    ],
+    "openBowl": true,
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层 100 区",
+        "steps": 12
+      },
+      {
+        "id": "middle",
+        "name": "中层 200 区",
+        "steps": 14
+      },
+      {
+        "id": "upper",
+        "name": "上层 300 区",
+        "steps": 16
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "101",
+      "ticketLabels": [
+        "101"
+      ],
+      "sourceLabel": "101 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.5707963267948966,
+      "halfAngle": 0.13569934934255912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/arena/lm_arena_floor-plan.pdf"
+      }
+    },
+    {
+      "id": "102",
+      "ticketLabels": [
+        "102"
+      ],
+      "sourceLabel": "102 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.8849555921538759,
+      "halfAngle": 0.13569934934255912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/arena/lm_arena_floor-plan.pdf"
+      }
+    },
+    {
+      "id": "103",
+      "ticketLabels": [
+        "103"
+      ],
+      "sourceLabel": "103 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.199114857512855,
+      "halfAngle": 0.13569934934255912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/arena/lm_arena_floor-plan.pdf"
+      }
+    },
+    {
+      "id": "104",
+      "ticketLabels": [
+        "104"
+      ],
+      "sourceLabel": "104 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.5132741228718345,
+      "halfAngle": 0.13569934934255912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/arena/lm_arena_floor-plan.pdf"
+      }
+    },
+    {
+      "id": "105",
+      "ticketLabels": [
+        "105"
+      ],
+      "sourceLabel": "105 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.827433388230814,
+      "halfAngle": 0.13569934934255912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/arena/lm_arena_floor-plan.pdf"
+      }
+    },
+    {
+      "id": "106",
+      "ticketLabels": [
+        "106"
+      ],
+      "sourceLabel": "106 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -3.141592653589793,
+      "halfAngle": 0.13569934934255912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/arena/lm_arena_floor-plan.pdf"
+      }
+    },
+    {
+      "id": "107",
+      "ticketLabels": [
+        "107"
+      ],
+      "sourceLabel": "107 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -3.455751918948773,
+      "halfAngle": 0.13569934934255912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/arena/lm_arena_floor-plan.pdf"
+      }
+    },
+    {
+      "id": "108",
+      "ticketLabels": [
+        "108"
+      ],
+      "sourceLabel": "108 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -3.7699111843077517,
+      "halfAngle": 0.13569934934255912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/arena/lm_arena_floor-plan.pdf"
+      }
+    },
+    {
+      "id": "109",
+      "ticketLabels": [
+        "109"
+      ],
+      "sourceLabel": "109 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -4.084070449666731,
+      "halfAngle": 0.13569934934255912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/arena/lm_arena_floor-plan.pdf"
+      }
+    },
+    {
+      "id": "110",
+      "ticketLabels": [
+        "110"
+      ],
+      "sourceLabel": "110 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -4.39822971502571,
+      "halfAngle": 0.13569934934255912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/arena/lm_arena_floor-plan.pdf"
+      }
+    },
+    {
+      "id": "111",
+      "ticketLabels": [
+        "111"
+      ],
+      "sourceLabel": "111 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -4.71238898038469,
+      "halfAngle": 0.13569934934255912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/arena/lm_arena_floor-plan.pdf"
+      }
+    },
+    {
+      "id": "201",
+      "ticketLabels": [
+        "201"
+      ],
+      "sourceLabel": "201 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.5707963267948966,
+      "halfAngle": 0.13569934934255912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/arena/lm_arena_floor-plan.pdf"
+      }
+    },
+    {
+      "id": "202",
+      "ticketLabels": [
+        "202"
+      ],
+      "sourceLabel": "202 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.8849555921538759,
+      "halfAngle": 0.13569934934255912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/arena/lm_arena_floor-plan.pdf"
+      }
+    },
+    {
+      "id": "203",
+      "ticketLabels": [
+        "203"
+      ],
+      "sourceLabel": "203 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.199114857512855,
+      "halfAngle": 0.13569934934255912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/arena/lm_arena_floor-plan.pdf"
+      }
+    },
+    {
+      "id": "204",
+      "ticketLabels": [
+        "204"
+      ],
+      "sourceLabel": "204 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.5132741228718345,
+      "halfAngle": 0.13569934934255912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/arena/lm_arena_floor-plan.pdf"
+      }
+    },
+    {
+      "id": "205",
+      "ticketLabels": [
+        "205"
+      ],
+      "sourceLabel": "205 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.827433388230814,
+      "halfAngle": 0.13569934934255912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/arena/lm_arena_floor-plan.pdf"
+      }
+    },
+    {
+      "id": "206",
+      "ticketLabels": [
+        "206"
+      ],
+      "sourceLabel": "206 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -3.141592653589793,
+      "halfAngle": 0.13569934934255912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/arena/lm_arena_floor-plan.pdf"
+      }
+    },
+    {
+      "id": "207",
+      "ticketLabels": [
+        "207"
+      ],
+      "sourceLabel": "207 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -3.455751918948773,
+      "halfAngle": 0.13569934934255912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/arena/lm_arena_floor-plan.pdf"
+      }
+    },
+    {
+      "id": "208",
+      "ticketLabels": [
+        "208"
+      ],
+      "sourceLabel": "208 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -3.7699111843077517,
+      "halfAngle": 0.13569934934255912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/arena/lm_arena_floor-plan.pdf"
+      }
+    },
+    {
+      "id": "209",
+      "ticketLabels": [
+        "209"
+      ],
+      "sourceLabel": "209 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -4.084070449666731,
+      "halfAngle": 0.13569934934255912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/arena/lm_arena_floor-plan.pdf"
+      }
+    },
+    {
+      "id": "210",
+      "ticketLabels": [
+        "210"
+      ],
+      "sourceLabel": "210 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -4.39822971502571,
+      "halfAngle": 0.13569934934255912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/arena/lm_arena_floor-plan.pdf"
+      }
+    },
+    {
+      "id": "211",
+      "ticketLabels": [
+        "211"
+      ],
+      "sourceLabel": "211 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -4.71238898038469,
+      "halfAngle": 0.13569934934255912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/arena/lm_arena_floor-plan.pdf"
+      }
+    },
+    {
+      "id": "301",
+      "ticketLabels": [
+        "301"
+      ],
+      "sourceLabel": "301 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -1.5707963267948966,
+      "halfAngle": 0.1492256510455152,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/arena/lm_arena_floor-plan.pdf"
+      }
+    },
+    {
+      "id": "302",
+      "ticketLabels": [
+        "302"
+      ],
+      "sourceLabel": "302 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -1.9198621771937625,
+      "halfAngle": 0.1492256510455152,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/arena/lm_arena_floor-plan.pdf"
+      }
+    },
+    {
+      "id": "303",
+      "ticketLabels": [
+        "303"
+      ],
+      "sourceLabel": "303 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -2.2689280275926285,
+      "halfAngle": 0.1492256510455152,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/arena/lm_arena_floor-plan.pdf"
+      }
+    },
+    {
+      "id": "304",
+      "ticketLabels": [
+        "304"
+      ],
+      "sourceLabel": "304 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -2.6179938779914944,
+      "halfAngle": 0.1492256510455152,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/arena/lm_arena_floor-plan.pdf"
+      }
+    },
+    {
+      "id": "305",
+      "ticketLabels": [
+        "305"
+      ],
+      "sourceLabel": "305 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -2.9670597283903604,
+      "halfAngle": 0.1492256510455152,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/arena/lm_arena_floor-plan.pdf"
+      }
+    },
+    {
+      "id": "306",
+      "ticketLabels": [
+        "306"
+      ],
+      "sourceLabel": "306 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -3.3161255787892263,
+      "halfAngle": 0.1492256510455152,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/arena/lm_arena_floor-plan.pdf"
+      }
+    },
+    {
+      "id": "307",
+      "ticketLabels": [
+        "307"
+      ],
+      "sourceLabel": "307 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -3.6651914291880923,
+      "halfAngle": 0.1492256510455152,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/arena/lm_arena_floor-plan.pdf"
+      }
+    },
+    {
+      "id": "308",
+      "ticketLabels": [
+        "308"
+      ],
+      "sourceLabel": "308 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -4.014257279586958,
+      "halfAngle": 0.1492256510455152,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/arena/lm_arena_floor-plan.pdf"
+      }
+    },
+    {
+      "id": "309",
+      "ticketLabels": [
+        "309"
+      ],
+      "sourceLabel": "309 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -4.363323129985823,
+      "halfAngle": 0.1492256510455152,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/arena/lm_arena_floor-plan.pdf"
+      }
+    },
+    {
+      "id": "310",
+      "ticketLabels": [
+        "310"
+      ],
+      "sourceLabel": "310 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -4.71238898038469,
+      "halfAngle": 0.1492256510455152,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/arena/lm_arena_floor-plan.pdf"
+      }
+    }
+  ],
+  "importedAt": "2026-10-24T00:00:00.000Z"
+}

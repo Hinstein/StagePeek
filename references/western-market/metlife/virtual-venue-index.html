@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="viewport" content="user-scalable = no,initial-scale=1,maximum-scale=1.0">
+        <link rel="apple-touch-icon" href="images/touch-icon.png">
+        <link rel="shortcut icon" type="image/x-icon" href="//newyorkjets.io-media.com/web/images/favicon.png">
+        <!-- <link rel="icon" href="https://static.clubs.nfl.com/jets/wcg8byljnf7swzbbqz1e" /> -->
+        <link rel="canonical" href="//newyorkjets.io-media.com/">
+        <meta name="keywords" content="Virtual Venue, 3D Venue, 3D Seats, 3D Seat Viewer, Virtual Seating Application, Virtual Seat Map, Seat Data, Seat Viewer, Interactive Seat Viewer, Seat Selector, 3D Seat Selector, Seating Application, 3D Seating Application, 3D Seating Chart, Seating Chart, View from Seat, 3D View from Seat, Virtual Seat Viewer, 3D Seating, Venue Seating Map, Virtual Seating Chart, 3D Seating Map, 3D Virtual Seating Map, 3D Stadium Map, 3D Arena Map, Virtual Viewer, Virtual Venue Viewer, 3D Virtual Viewer, IOMEDIA">
+        <meta name="description" content="3D Interactive Seat Views for New York Jets at Met Life Stadium interactive seat map using Virtual Venue™ by IOMEDIA">
+        <title>New York Jets Virtual Venue™ by IOMEDIA</title>
+        <!-- Facebook open graph meta tags-->
+        <meta property="og:title" content="New York Jets Virtual Venue™ by IOMEDIA">
+        <meta property="og:site_name" content="Virtual Venue">
+        <meta property="og:image" content="//newyorkjets.io-media.com/web/images/VV_fbshareicon.jpg">
+        <meta property="og:image" content="//newyorkjets.io-media.com/web/images/VV_fbshareicon_Retina.jpg">
+        <meta property="og:url" content="//newyorkjets.io-media.com/">
+        <meta name="og:description" content="Experience 3D Interactive Seat Views for the New York Jets at Met Life Stadium with our interactive Virtual Venue™ by IOMEDIA">
+        <meta property="twitter:card" content="New York Jets Virtual Venue™ by IOMEDIA">
+        <meta property="twitter:title" content="New York Jets Virtual Venue™ by IOMEDIA">
+        <meta property="twitter:image" content="//newyorkjets.io-media.com/web/images/Twitter_Share.png">
+        <meta name="twitter:description" content="Check out 3D Interactive seat views for the New York Jets with Virtual Venue™ by IOMEDIA">
+        <meta property="twitter:creator" content="@IOMEDIAsports">
+        <meta property="twitter:url" content="//newyorkjets.io-media.com">
+        <link rel="stylesheet" href="css/compress.css" type="text/css" charset="utf-8">
+        <!-- <link rel="stylesheet" href="css/compress.min.css" type="text/css" charset="utf-8"> -->
+        <link rel="stylesheet" href="shell/styles.css" type="text/css" charset="utf-8">
+        <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+        <link rel="preload" href="https://www.newyorkjets.com/compiledassets/assets/fonts/NFL/All-ProDisplayC/All-ProDisplayC-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="https://www.newyorkjets.com/compiledassets/assets/fonts/NFL/All-ProDisplayC/All-ProDisplayC-BoldItalic.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="https://www.newyorkjets.com/compiledassets/assets/fonts/NFL/All-ProSans/All-ProSans--bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="https://www.newyorkjets.com/compiledassets/assets/fonts/NFL/All-ProSans/All-ProSans--boldItalic.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="https://www.newyorkjets.com/compiledassets/assets/fonts/NFL/All-ProSans/All-ProSans--regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="https://www.newyorkjets.com/compiledassets/assets/fonts/NFL/All-ProSans/All-ProSans--regularItalic.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="https://www.newyorkjets.com/compiledassets/assets/fonts/NFL/All-ProStats/All-ProStats--bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="https://www.newyorkjets.com/compiledassets/assets/fonts/NFL/All-ProStats/All-ProStats--medium.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="https://www.newyorkjets.com/compiledassets/assets/fonts/NFL/All-ProStats/All-ProStats--regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="https://www.newyorkjets.com/compiledassets/assets/fonts/NFL/Druk/Druk--Bold.woff" as="font" type="font/woff" crossorigin="anonymous">
+  <link rel="preload" href="https://www.newyorkjets.com/compiledassets/assets/fonts/NFL/Druk/Druk--BoldItalic.woff" as="font" type="font/woff" crossorigin="anonymous">
+  <link rel="preload" href="https://www.newyorkjets.com/compiledassets/assets/fonts/NFL/Druk/Druk--SuperItalic.woff" as="font" type="font/woff" crossorigin="anonymous">
+  <link rel="preload" href="https://www.newyorkjets.com/compiledassets/assets/fonts/NFL/Saira/Saira--Black.woff" as="font" type="font/woff" crossorigin="anonymous">
+  <link rel="preload" href="https://www.newyorkjets.com/compiledassets/assets/fonts/NFL/Saira/Saira--Bold.woff" as="font" type="font/woff" crossorigin="anonymous">
+  <link rel="preload" href="https://www.newyorkjets.com/compiledassets/assets/fonts/NFL/Saira/Saira--ExtraBold.woff" as="font" type="font/woff" crossorigin="anonymous">
+  <link rel="preload" href="https://www.newyorkjets.com/compiledassets/assets/fonts/NFL/Saira/Saira--ExtraLight.woff" as="font" type="font/woff" crossorigin="anonymous">
+  <link rel="preload" href="https://www.newyorkjets.com/compiledassets/assets/fonts/NFL/Saira/Saira--Light.woff" as="font" type="font/woff" crossorigin="anonymous">
+  <link rel="preload" href="https://www.newyorkjets.com/compiledassets/assets/fonts/NFL/Saira/Saira--Medium.woff" as="font" type="font/woff" crossorigin="anonymous">
+  <link rel="preload" href="https://www.newyorkjets.com/compiledassets/assets/fonts/NFL/Saira/Saira--Regular.woff" as="font" type="font/woff" crossorigin="anonymous">
+  <link rel="preload" href="https://www.newyorkjets.com/compiledassets/assets/fonts/NFL/Saira/Saira--SemiBold.woff" as="font" type="font/woff" crossorigin="anonymous">
+  <link rel="preload" href="https://www.newyorkjets.com/compiledassets/assets/fonts/NFL/Saira/Saira--Thin.woff" as="font" type="font/woff" crossorigin="anonymous">
+        <!-- Mobile Detect : PERMANENTLY HERE-->
+        <script type="text/javascript" src="../scripts/mobile-detect.min.js"></script>
+        <script>
+            // var url= window.location.href;
+            var md = new MobileDetect(window.navigator.userAgent);
+            var device;
+            var webroot = "/web/index.html";
+            var mobileroot = "/mobile/index.html";
+            var vvtype;
+            var hash = window.location.hash;
+            if (md.mobile()) {
+                if (md.tablet()) {
+                    device = "tablet";
+                } else if (md.phone()) {
+                    device = "phone";
+                }
+            } else {
+                device = "desktop";
+            }
+            //Random Comment
+            if (device == "phone") {
+                //Redirect them back to mobile
+                window.location.href = mobileroot + hash;
+            }
+        </script>
+
+        <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R0KZW507L2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-R0KZW507L2');
+</script>
+
+
+        <!-- The following two variables need to be on the document scope -->
+        <script>
+            var addthis_config = addthis_config || {};
+            addthis_config.data_track_addressbar = false;
+            addthis_config.data_track_clickback = false;
+            var addthis_share = {};
+            //The address bar wasnt getting tracked initially from within the SocialManager class.
+            // var _gaq = _gaq || [];
+        </script>
+        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4fb6367a5ea88539"></script>
+        <script>
+            var touchHandler = function(e) {
+                if (e.target.className != "ui-corner-all") e.preventDefault();
+            }
+            document.addEventListener('touchmove', touchHandler, false);
+        </script>
+        <script type="text/javascript" src="clientConfig.js"></script>
+        <!--NOTE: All Require.js paths will be relative to the data-main path-->
+        <!--<script data-main="js/com/iomedia/vv/main" src="js/com/iomedia/vv/script.min.js"></script>
+    <script data-main="js/com/iomedia/vv/main" src="js/com/iomedia/vv/libs/require/require.js"></script>
+    <script type="text/javascript" src="js/com/iomedia/vv/libs/mobilebubble/mobile-bubble.js"></script>-->
+        <script type="text/javascript">
+            var appVersion = clientConfig.APP_VERSION;
+            var siteURL = window.location.href;
+            var matchDomain = "io-productions.com";
+            var devURL = "../vv-iom-007-common-code-base/" + appVersion;
+            var liveURL = "//d32ikx2sw2easi.cloudfront.net/" + appVersion;
+            if (siteURL.match(matchDomain)) {
+                /* NSI : 9/12/13 11:09 AM -- script module load if project running on development server*/
+                document.write('<script type="text/javascript" src=' + devURL +
+                    '/web/js/com/iomedia/vv/script.min.js><\/script>');
+                document.write('<script type="text/javascript" src=' + devURL +
+                    '/web/js/com/iomedia/vv/libs/mobilebubble/mobile-bubble.js><\/script>');
+            } else {
+                /* NSI : 9/12/13 11:10 AM -- script module load if project running on live server*/
+                document.write('<script type="text/javascript" src=' + liveURL +
+                    '/web/js/com/iomedia/vv/script.min.js><\/script>');
+                document.write('<script type="text/javascript" src=' + liveURL +
+                    '/web/js/com/iomedia/vv/libs/mobilebubble/mobile-bubble.js><\/script>');
+            }
+        </script>
+        <!--[if IE 8]>
+			<link rel="stylesheet" href="ie_css/ie8.css" type="text/css" charset="utf-8">
+    <![endif]-->
+    </head>
+    <!-- body starts here -->
+
+    <body class="app-position team" onload="checkView();" onorientationchange="updateOrientation();">
+        <!--header starts here-->
+        <div class="header" id="Shell_Header">
+            <div class="d3-o-header__branded-header">
+                <a href="https://www.newyorkjets.com/">
+                <!-- <img src="https://static.clubs.nfl.com/f_auto/jets/whqfk5xloiofng3ia1uy" class="img-responsive "> -->
+<img src="shell/images/GIF-Large---Generic.gif" class="img-responsive ">
+            </a>
+                
+                <div class="d3-o-header__branded-header__sponsor">
+  <div class="d3-o-adv-block  " data-id="7b62f667-b8a4-4e4c-ad38-a9a1887abd1a" id="7b62f667-b8a4-4e4c-ad38-a9a1887abd1a" data-google-query-id="CMaR8YDL548DFcrM4wcdpOoL1Q" style="display: none;">
+    <div id="google_ads_iframe_/4595/team.nyj/home_0__container__" style="border: 0pt none; width: 100px; height: 0px;"></div>
+  </div>
+  <div class="d3-o-adv-block  " data-id="b93026a0-632d-47a3-9948-9792d6b9f317" id="b93026a0-632d-47a3-9948-9792d6b9f317" data-google-query-id="CMeR8YDL548DFcrM4wcdpOoL1Q">
+    <div id="google_ads_iframe_/4595/team.nyj/home_1__container__" style="border: 0pt none;">
+     
+    <a id="aw0" target="_blank" href="https://balchem.com/hnh/mn/vitacholine/">
+    <img src="https://tpc.googlesyndication.com/simgad/14839285276144360571" border="0" width="100" height="30" alt="" class="img_ad">
+    </a>
+    
+    </div>
+  </div>
+ 
+</div>
+            
+            </div>
+                
+                <div class="nfl-c-header" role="banner" data-require="modules/navigation">
+                <div class="d3-o-nav__wrap" data-reuire="modules/search">
+                <a class="d3-o-nav__logo" href="https://www.newyorkjets.com/" target="_blank" target="_blank" title="Link to club's homepage" data-event_name="click action" data-link_module="Primary Navigation" data-link_type="Home" data-link_name="" data-link_url="/index">
+                      <img class="d3-o-club-logo" src="https://static.www.nfl.com/t_q-best/league/api/clubs/logos/NYJ" alt="Club logo">
+                    </a>
+                <ul class="d3-o-nav__listd3-o-list">
+                <li class="d3-o-nav__item">
+                              <a href="https://www.newyorkjets.com/news/index" target="_blank" title="NEWS" data-link_module="Primary Navigation" data-event_name="click action" data-link_type="NEWS LandingPage" data-link_name="NEWS" data-link_url="/news/">
+                      <span class="d3-o-nav__item-label">
+                        NEWS
+                      </span>
+                    </a>
+                         </li>
+                <li class="d3-o-nav__item">
+                              <a href="https://www.newyorkjets.com/video/index" title="VIDEO" data-link_module="Primary Navigation" data-event_name="click action" data-link_type="VIDEO LandingPage" data-link_name="VIDEO" data-link_url="/video/">
+                      <span class="d3-o-nav__item-label">
+                        VIDEO
+                      </span>
+                    </a>
+                        </li>
+                <li class="d3-o-nav__item">
+                              <a href="https://www.newyorkjets.com/photos/index" title="PHOTOS" data-link_module="Primary Navigation" data-event_name="click action" data-link_type="PHOTOS LandingPage" data-link_name="PHOTOS" data-link_url="/photos/">
+                      <span class="d3-o-nav__item-label">
+                        PHOTOS
+                      </span>
+                    </a>
+                        </li>
+                <li class="d3-o-nav__item">
+                              <a href="https://www.newyorkjets.com/schedule/index" title="SCHEDULE" data-link_module="Primary Navigation" data-event_name="click action" data-link_type="SCHEDULE LandingPage" data-link_name="SCHEDULE" data-link_url="/schedule/">
+                      <span class="d3-o-nav__item-label">
+                        SCHEDULE
+                      </span>
+                    </a>
+                        </li>
+                <li class="d3-o-nav__item">
+                              <a href="https://www.newyorkjets.com/team/players-roster" title="TEAM" data-link_module="Primary Navigation" data-event_name="click action" data-link_type="TEAM LandingPage" data-link_name="TEAM" data-link_url="/team/players-roster/">
+                      <span class="d3-o-nav__item-label">
+                        TEAM
+                      </span>
+                    </a>
+                        </li>
+                <li class="d3-o-nav__item">
+                              <a href="https://www.newyorkjets.com/community/index" title="NEW UNIFORMS" data-link_module="Primary Navigation" data-event_name="click action" data-link_type="COMMUNITY LandingPage" data-link_name="COMMUNITY" data-link_url="/community/">
+                      <span class="d3-o-nav__item-label">
+                        COMMUNITY
+                      </span>
+                    </a>
+                        </li>
+    <li class="d3-o-nav__item">
+                              <a href="https://www.newyorkjets.com/team/rivalries-uniform" title="NEW UNIFORMS" data-link_module="Primary Navigation" data-event_name="click action" data-link_type="GOTHAM CITY FOOTBALL LandingPage" data-link_name="GOTHAM CITY FOOTBALL" data-link_url="/community/">
+                      <span class="d3-o-nav__item-label">
+                        GOTHAM CITY FOOTBALL
+                      </span>
+                    </a>
+                        </li>
+                <li class="d3-o-nav__item d3-o-nav__item--has-submenu ">
+                              <a href="https://www.newyorkjets.com/#2ndlevel" title="..." data-value="dropdown_trigger" aria-label="Toogle navigation">
+                <span class="d3-o-nav__item-label">
+                          <span class="nfl-o-icon--small">
+                
+                    <svg id="dots" width="16px" height="16px" viewBox="0 0 24 24">
+                    <desc>Three dots icon</desc>
+                    <circle id="dotsDot3" cx="21.6" cy="12" r="2.5"></circle>
+                    <circle id="dotsDot2" cx="12" cy="12" r="2.5"></circle>
+                    <circle id="dotsDot1" cx="2.4" cy="12" r="2.5"></circle>
+                    </svg>
+                  </span>
+                
+                      </span>       
+                       </a></li><a href="https://www.newyorkjets.com/#2ndlevel" title="..." data-value="dropdown_trigger" aria-label="Toogle navigation">
+                       </a></ul>
+                <ul class="d3-o-nav__listd3-o-list2">
+                        <li class="d3-o-nav__item d3-o-nav__item--has-submenu ">
+                                <a href="https://www.newyorkjets.com/" title="" data-value="dropdown_trigger" aria-label="Toogle navigation">
+                  <span class="d3-o-nav__item-label">
+                            <span class="nfl-o-icon--small">
+                  
+                      <svg id="search" width="16px" height="16px" viewBox="0 0 24 24">
+                      <desc>Search icon</desc>
+                      <path id="searchLens" d="M9.7,17.7c4.3,0,7.9-3.5,7.9-7.9S14,1.8,9.7,1.8S1.8,5.4,1.8,9.7S5.3,17.7,9.7,17.7z M17.4,15.7l6.6,6.6L22.3,24l-6.6-6.6c-1.6,1.3-3.7,2.1-6,2.1C4.3,19.5,0,15.1,0,9.7S4.3,0,9.7,0c5.3,0,9.7,4.4,9.7,9.7 C19.4,12,18.6,14,17.4,15.7z"></path>
+                      </svg>
+                    </span>
+                  
+                        </span>       
+                         </li>
+                        <li class="d3-o-nav__item">
+                              <a href="https://www.newyorkjets.com/tickets/home" title="TICKETS" data-link_module="Primary Navigation" data-event_name="click action" data-link_type="WATCH LandingPage" data-link_name="WATCH" data-link_url="http://www.pntrac.com/t/RkFHRE1MTUZBS01FSEVBSUlMRUg">
+                      <span class="d3-o-nav__item-label">
+                        TICKETS
+                      </span>
+                    </a>
+                       </li>
+                        <li class="d3-o-nav__item">
+                              <a href="https://am.ticketmaster.com/nyjets/#/" title="MY JETS ACCOUNT" data-link_module="Primary Navigation" data-event_name="click action" data-link_type="TICKETS LandingPage" data-link_name="TICKETS" data-link_url="/tickets/">
+                      <span class="d3-o-nav__item-label">
+                        MY JETS ACCOUNT
+                      </span>
+                    </a>
+                
+                          
+                        </li>
+                        <li class="d3-o-nav__item">
+                              <a href="http://www.jetsshop.com/source/bm-jets-TopNav-Shop-52518" title="SHOP" data-link_module="Primary Navigation" data-event_name="click action" data-link_type="SUITES LandingPage" data-link_name="SUITES" data-link_url="/tickets/suites">
+                      <span class="d3-o-nav__item-label">
+                        SHOP
+                      </span>
+                    </a>
+                
+                          
+                        </li>
+                        <li class="d3-o-nav__item">
+                              <a href="https://www.gopjn.com/t/R0JJRUZFTklCTE5HSkhCRktGSUhL" title="WATCH" data-link_module="Primary Navigation" data-event_name="click action" data-link_type="SHOP LandingPage" data-link_name="SHOP" data-link_url="/fans/team-stores">
+                      <span class="d3-o-nav__item-label">
+                        WATCH
+                      </span>
+                    </a>
+                
+                          
+                        </li>
+                    </ul>	   
+                </div>
+                </div>
+        </div>
+        <!--header ends here-->
+        <!-- appholder begins here -->
+        <div class="App_Holder">
+            <!-- venue view application  -->
+            <div id="appView">
+                <div id="splashScreenView"></div>
+                <div id="venueView"></div>
+                <div id="vrView"></div>
+                <div id="helpTour"></div>
+                <div id="tour_View"></div>
+                <div id="ie_tour_View"></div>
+                <div id="videoView"></div>
+                <div id="hotspotGalleryView"></div>
+                <div id="vrGalleryView"></div>
+                <div id="footerNavigationView"></div>
+                <div id="parkingView"></div>
+                <div id="disclaimerScreenPopupView"></div>
+                <div id="loaderBig">
+                    <div class="Loader_Container">
+                        <div id="Client_Logo"><img src="images/logo.png" alt=""></div>
+                        <div id="Loader"><img src="images/loader_big.gif" alt=""></div>
+                        <div id="Branding_Logo"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- appholder ends -->
+        <!--footer starts here-->
+        <div id="Shell_Footer">
+            <!-- <div>
+                <img class="priceImage" src="shell/images/footerPrice1.png" alt="">
+            </div> -->
+                <div class="footer">
+                <div class="footer_1">
+                <ul class="footer_1-1">
+                <li class="club">
+                <a href="https://www.newyorkjets.com" target="_blank"> CLUB LINKS</a>
+                </li>
+                <li>
+                <a href="https://www.newyorkjets.com" target="_blank"> NFL CLUBS</a>
+                </li>
+                <li>
+                <a href="https://www.newyorkjets.com" target="_blank"> MORE NFL SITES</a>
+                </li>
+                </ul>
+                </div>
+                
+                <div class="footer_2">
+                <ul class="d3-o-footer__panel-links">
+                            <li class="d3-o-footer__panel-link-category">
+                                About the Jets
+                            </li>
+                            <li>
+                                <a href="https://www.newyorkjets.com/faqs">
+                                FAQs
+                                </a>
+                            <li>
+                                <a href="https://www.newyorkjets.com/careers">
+                                Careers
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.newyorkjets.com/faqs/terms-of-use">
+                                Terms of Use
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="http://www.jetsshop.com/">
+                                Jets Shop
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://landing.newyorkjets.com/JetsEmailSignUp">
+                               Email Signup
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.newyorkjets.com/faqs/contact-us">
+                                Contact Us
+                                </a>
+                            </li>
+                        </ul>
+                <ul class="d3-o-footer__panel-links">
+                        <li class="d3-o-footer__panel-link-category">
+                            <a class="heading1" href="https://www.newyorkjets.com/tickets">
+                            TICKETS
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://am.ticketmaster.com/nyjets/#/" target="_blank">
+                            My Jets Account
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.newyorkjets.com/tickets/season-tickets/" target="">
+                            Season Tickets
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.newyorkjets.com/tickets/groups/" target="">
+                            Group Tickets
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.newyorkjets.com/tickets/single-game-tickets" target="">
+                            Single Game Tickets
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.newyorkjets.com/tickets/suites/" target="">
+                            Suites
+                            </a>
+                        </li>
+                        <!-- <li>
+                            <a href="https://myrewards.newyorkjets.com/login/loginJets.aspx" target="_blank">
+                            Jets Rewards
+                            </a>
+                        </li> -->
+                        <li>
+                            <a href="https://www.ticketmaster.com/New-York-Jets-tickets/artist/805987?wt.mc_id=NFL_TEAM_NYJ_TKT_DRP_DWN_MENU&utm_source=NFL.com&utm_medium=client&utm_campaign=NFL_TEAM_NYJ&utm_content=TKT_DRP_DWN_MENU&_ga=2.219162460.472616490.1524500418-1790986430.1510696517&webSyncID=2703e382-0682-126c-60d5-17d7c054bc40&sessionGUID=a39eb2ec-19b2-34b0-2205-03691c039bb1"_blank">
+                            NFL Ticket Exchange
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.newyorkjets.com/faqs/tickets-faq">
+                            Tickets FAQs
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://onlocationexp.com/nfl/new-york-jets-london?utm_source=newyorkjets.com&utm_medium=referral&utm_campaign=isg_london_teams-jets_footer_menu">
+                            London Packages
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.tickpick.com/lp/jets?utm_source=Partner&utm_medium=Jets&utm_campaign=Ticket+Footer+Menu" target="_blank">
+                            TickPick Fan Experiences
+                            </a>
+                            </li>
+                        </ul>
+                <ul class="d3-o-footer__panel-links">
+                        <li class="d3-o-footer__panel-link-category">
+                            <a class="heading1" href="https://www.metlifestadium.com/">
+                            STADIUM
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.newyorkjets.com/tickets/seating-information/pricing-chart">Seating Information</a>
+                        </li>
+                        <li>
+                            <a href="https://www.newyorkjets.com/faqs">FAQs</a>
+                        </li>
+                        <li>
+                            <a href="https://www.newyorkjets.com/faqs/parking-faq">Parking and Maps</a>
+                        </li>
+                        <li>
+                            <a href="https://www.newyorkjets.com/faqs/transportation-faq">Transportation</a>
+                        </li>
+                        <!-- <li>
+                            <a href="https://www.newyorkjets.com/faqs/uber-faq">Uber</a>
+                        </li> -->
+                        </ul>
+                <ul class="d3-o-footer__panel-links">
+                        <li class="d3-o-footer__panel-link-category">
+                            <a class="heading1" href="https://www.newyorkjets.com/team/players-roster">Team Info</a>
+                        </li>
+                        <li>
+                            <a href="https://www.newyorkjets.com/team/players-roster">Roster</a>
+                        </li>
+                        <li>
+                            <a href="https://www.newyorkjets.com/schedule">Schedule</a>
+                        </li>
+                        <li>
+                            <a href="https://www.newyorkjets.com/team/coaches-roster">Coaches</a>
+                        </li>
+                        <li>
+                            <a href="https://www.newyorkjets.com/team/front-office-roster">Front Office</a>
+                        </li>
+                        <li>
+                            <a href="https://www.newyorkjets.com/team/depth-chart">Depth Chart</a>
+                        </li>
+                        <li>
+                            <a href="https://www.newyorkjets.com/team/injury-report">Injury Report</a>
+                        </li>
+                        <li>
+                            <a href="https://www.newyorkjets.com/team/stats">Stats</a>
+                        </li>
+                        <!-- <li>
+                            <a href="https://www.newyorkjets.com/team/new-uniforms">New Uniforms</a>
+                        </li> -->
+                        </ul>
+                <ul class="d3-o-footer__panel-links">
+                        <li class="d3-o-footer__panel-link-category"><a class="heading1" href="https://www.newyorkjets.com/news">News</a>
+                        </li>
+                        <li><a href="https://www.newyorkjets.com/news/all-news">Latest News</a>
+                        </li>
+                        <li><a href="https://www.newyorkjets.com/video/index">Video</a>
+                        </li>
+                        <li><a href="https://www.newyorkjets.com/photos/index" target="">Photos</a>
+                        </li>
+                </ul>
+                <!-- <ul class="d3-o-footer__panel-links">
+                        <li class="d3-o-footer__panel-link-category"><a class="heading1" href="https://www.newyorkjets.com/cheerleaders/index">Flight Crew</a>
+                        </li>
+                        <li><a href="https://www.newyorkjets.com/cheerleaders/roster/">Roster</a>
+                        </li>
+                        <li><a href="https://www.newyorkjets.com/cheerleaders/photos">Photos</a>
+                        </li>
+                        <li><a href="https://www.newyorkjets.com/cheerleaders/videos">Videos</a>
+                        </li>
+                </ul> -->
+                </div>
+                
+                <div class="footer_3">
+                <span>
+                        Download the Official Jets Mobile App
+                    </span>
+                    <ul class="d3-o-footer__apps-links">
+                      <li>
+                        <a href="https://itunes.apple.com/app/official-new-york-jets/id460494117?mt=8" title="Apple App Store" target="_blank">
+                          <img src="shell/images/app_store_badge.svg" alt="Download on the Apple Store">
+                        </a>
+                      </li>
+                      <li>
+                        <a id="league-play-store-app" href="https://play.google.com/store/apps/details?id=com.yinzcam.nfl.jets&hl=en_US" target="_blank">
+                          <img alt="Get it on Google Play" src="shell/images/en_badge_web_generic.png" width="135">
+                        </a>
+                      </li>
+                    </ul>
+                </div>
+                
+                <div class="footer4">
+                <div class="footer4_1">
+                <a class="d3-o-footer__club-legal-logo" href="https://www.newyorkjets.com/" title="New York Jets">
+                    <img src="https://static.www.nfl.com/t_q-best/league/api/clubs/logos/NYJ" alt="New York Jets">
+                  </a>
+                </div>
+                <div class="footer4_2">
+                <p class="d3-o-footer__club-copyright">
+                        COPYRIGHT © 2025 NEW YORK JETS
+                  </p>
+                </div>
+                <div class="footer4_3">
+                <ul class="d3-o-footer__club-legal-links">
+                        <li>
+                          <a href="https://www.newyorkjets.com/faqs/privacy-policy" title="Privacy Policy">
+                            Privacy Policy
+                          </a>
+                        </li>
+                        <li>
+                          <a href="https://www.newyorkjets.com/faqs/accessibility" title="Accessibility">
+                            Accessibility
+                          </a>
+                        </li>
+                        <li>
+                          <a href="https://www.newyorkjets.com/faqs/contact-us" title="Contact Us">
+                            Contact Us
+                          </a>
+                        </li>
+                        <li>
+                            <a href="https://www.newyorkjets.com/faqs/terms-of-use" title="Terms of Use">
+                            Terms of Use
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.newyorkjets.com/sitemap/0" title="Terms of Use">
+                                Site Map
+                            </a>
+                        </li>
+                        <!-- <li>
+          <a href="https://www.newyorkjets.com/sitemap/0" title="Site Map">
+            Site Map
+          </a>
+        </li> -->
+        <li>
+          <a href="https://www.newyorkjets.com/faqs/privacy-policy#InterestBasedAdvertising" title="Ad Choices">
+            Ad Choices
+          </a>
+        </li>
+        <li>
+          <!-- OneTrust Your Privacy Choices button start -->
+          <a class="ot-btn-achor" href="https://privacyportal.onetrust.com/webform/46acd508-0e8d-40cd-af22-1a8bdfa6da60/224a3598-1b25-497d-9273-be255f55461c">Your Privacy Choices
+          </a>
+          <!-- OneTrust Your Privacy Choices button end -->
+        </li>
+        <li>
+          <!-- OneTrust Cookies Settings button start -->
+          <!-- <button id="ot-sdk-btn" class="ot-sdk-show-settings">Cookies Settings</button> -->
+          <a href="https://www.newyorkjets.com/faqs/privacy-policy#InterestBasedAdvertising" title="Ad Choices"> Cookies Settings</a>
+          <!-- OneTrust Cookies Settings button end -->
+        </li>
+        <li>
+            <!-- Email Preference Center button start -->
+            <a class="ot-btn-achor" href="https://privacyportal.onetrust.com/ui/#/preferences/multipage/login/db722ae9-0a22-41b5-9e93-4006ddae12be?club=NYJ">
+              Preference Center
+            </a>
+            <!-- Email Preference Center button end -->
+          </li>
+                    </ul>
+                </div>
+                </div>
+                </div>
+                </div>
+        <!--footer ends here-->
+        <script type="text/javascript">
+            /* NSI : 7/13/12 4:27 PM --- User agent add site as home screen on ipad case check*/
+            var ua = navigator.userAgent.toLowerCase();
+            var bool = false;
+            if ((ua.indexOf('ipad') != -1) || (ua.indexOf('iphone') != -1) || (ua.indexOf('mobile') != -1)) {
+                document.getElementById("Shell_Header").style.display = "none";
+                document.getElementById("Shell_Footer").style.display = "none";
+                document.title = "New York Jets";
+                bool = true;
+            }
+
+            function updateOrientation() {
+                viewport = document.querySelector("meta[name=viewport]");
+                switch (window.orientation) {
+                    case 0:
+                        window.scrollTo(0, 0)
+                        $('#alertMsg').css('z-index', '2147483647');
+                        counter++
+                        viewport.setAttribute('content', 'initial-scale=1,maximum-scale=1,user-scalable=no');
+                        workAroundAdjust()
+                        $("#alertMsg img").css({
+                            "left": "55%"
+                        })
+                        break;
+                    case -90:
+                        window.scrollTo(0, 0)
+                        counter++
+                        $("#appView").css("margin-left", "0px")
+                        viewport.setAttribute('content', ' initial-scale=1, maximum-scale=1,user-scalable=no');
+                        $("#alertMsg").hide();
+                        $('#sectionSelectorBoxView').css({
+                            "bottom": (Constants.MAIN_VIEW_HEIGHT - window.innerHeight + 37)
+                        });
+                        setTimeout(function() {
+                            $("#appView").width(1024);
+                            $("#appView").height(window.innerHeight);
+                        }, 300);
+                        break;
+                    case 90:
+                        counter++
+                        window.scrollTo(0, 0)
+                        $("#appView").css("margin-left", "0px")
+                        viewport.setAttribute('content', 'initial-scale=1, maximum-scale=1,user-scalable=no');
+                        $("#alertMsg").hide();
+                        $('#sectionSelectorBoxView').css({
+                            "bottom": (Constants.MAIN_VIEW_HEIGHT - window.innerHeight + 37)
+                        })
+                        setTimeout(function() {
+                            $("#appView").width(1024);
+                            $("#appView").height(window.innerHeight);
+                        }, 300)
+                        break;
+                    case 180:
+                        $('#alertMsg').css('z-index', '2147483647');
+                        counter++
+                        viewport.setAttribute('content', 'initial-scale=1, maximum-scale=1,user-scalable=no');
+                        workAroundAdjust()
+                        var userAgent = navigator.userAgent.toLowerCase();
+                        $.browser.chrome = /crios/.test(navigator.userAgent.toLowerCase());
+                        if ($.browser.chrome) {
+                            $("#alertMsg img").css({
+                                "left": "55%"
+                            })
+                        }
+                        break;
+                }
+            }
+
+            function workAroundAdjust() {
+                if (Constants.BROWSER_TYPE == Constants.BROWSER_SAFARI_MOBILE) {
+                    document.activeElement.blur();
+                }
+                $("#alertMsg").width(document.documentElement.clientWidth);
+                $("#alertMsg").height(document.documentElement.clientHeight);
+                $("#alertMsg").show();
+                if (isClicked) {
+                    $("#alertMsg").width(900)
+                    $("#alertMsg").height(1024)
+                    $("#alertMsg img").width(409.33333)
+                    $("#alertMsg img").height(204.6666)
+                    $("#alertMsg img").css({
+                        "left": "68%"
+                    })
+                }
+                if (counter !== 0) {
+                    $("#alertMsg").width(900)
+                    $("#alertMsg").height(1024)
+                    $("#alertMsg img").width(409.33333)
+                    $("#alertMsg img").height(204.6666)
+                    $("#alertMsg img").css({
+                        "left": "68%"
+                    })
+                }
+            }
+
+            function checkView() {
+                if ((ua.indexOf('ipad') != -1) || (ua.indexOf('iphone') != -1) || (ua.indexOf('mobile') != -1)) {
+                    viewport = document.querySelector("meta[name=viewport]");
+                    isClicked = false
+                    $("#Search_Box").bind("click", function() {
+                        isClicked = true
+                    })
+                    counter = 0;
+                    if (window.orientation == 0 || window.orientation == 180) {
+                        $('#alertMsg').css('z-index', '2147483647');
+                        $("#alertMsg").width(document.documentElement.clientWidth + 300)
+                        $("#alertMsg").height(document.documentElement.clientHeight + 335)
+                        $("#alertMsg").show();
+                        $("#appView")[0].style.height = 672 + "px";
+                        $("#appView")[0].style.width = 1024 + "px";
+                        viewport.setAttribute('content', ' initial-scale=0.75, maximum-scale=0.75,user-scalable=no');
+                    } else {
+                        viewport.setAttribute('content', 'initial-scale=1, maximum-scale=1');
+                        $("#appView")[0].style.height = document.documentElement.clientHeight + "px";
+                        setTimeout(function() {
+                            $("#appView").width(1024)
+                        }, 300)
+                    }
+                }
+            }
+        </script>
+        <div id="alertMsg"> <img src="images/alertMsg.png" alt="Landscape is the valid orientation"> </div>
+        <div id="tourInitiator"></div>
+    
+
+</a></li></ul></a></li></ul></div></div></div></body></html>

@@ -1,0 +1,1169 @@
+{
+  "sourceCatalog": 193,
+  "generated": 193,
+  "skippedExisting": [],
+  "withGeometry": 163,
+  "withSectionReferences": 104,
+  "withSeatAssets": 7,
+  "genericOnly": 30,
+  "files": [
+    {
+      "id": "afas-live",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-only"
+    },
+    {
+      "id": "ajinomoto-stadium",
+      "sections": 115,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "asiaworld-arena",
+      "sections": 17,
+      "samples": 51,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "asiaworld-hall-10",
+      "sections": 12,
+      "samples": 0,
+      "status": "catalog-only"
+    },
+    {
+      "id": "asiaworld-runway-11",
+      "sections": 12,
+      "samples": 0,
+      "status": "catalog-only"
+    },
+    {
+      "id": "asiaworld-summit-hall-2",
+      "sections": 12,
+      "samples": 0,
+      "status": "catalog-only"
+    },
+    {
+      "id": "asiaworld-viva",
+      "sections": 12,
+      "samples": 0,
+      "status": "source-geometry-only"
+    },
+    {
+      "id": "baotou-olympic-gymnasium",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "baotou-olympic-stadium",
+      "sections": 17,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "beijing-workers-stadium",
+      "sections": 36,
+      "samples": 0,
+      "status": "source-geometry-only"
+    },
+    {
+      "id": "belluna-dome",
+      "sections": 12,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "bexco-halls-1-2",
+      "sections": 12,
+      "samples": 0,
+      "status": "catalog-only"
+    },
+    {
+      "id": "birds-nest",
+      "sections": 48,
+      "samples": 0,
+      "status": "source-geometry-only"
+    },
+    {
+      "id": "bitec-live",
+      "sections": 12,
+      "samples": 0,
+      "status": "source-geometry-only"
+    },
+    {
+      "id": "broadway-theatre",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-only"
+    },
+    {
+      "id": "bukit-jalil",
+      "sections": 36,
+      "samples": 0,
+      "status": "source-geometry-only"
+    },
+    {
+      "id": "busan-asiad",
+      "sections": 72,
+      "samples": 0,
+      "status": "catalog-only"
+    },
+    {
+      "id": "capital-indoor",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-only"
+    },
+    {
+      "id": "changsha-helong-gymnasium",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-only"
+    },
+    {
+      "id": "changsha-qicai-box-f",
+      "sections": 10,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "changzhou-olympic-stadium",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "chengdu-dongan-lake-gymnasium",
+      "sections": 36,
+      "samples": 0,
+      "status": "source-geometry-only"
+    },
+    {
+      "id": "chengdu-dongan-lake-stadium",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-only"
+    },
+    {
+      "id": "chengdu-financial-city-arena",
+      "sections": 22,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "chengdu-hightech-gymnasium",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "chengdu-wuliangye-gymnasium",
+      "sections": 36,
+      "samples": 0,
+      "status": "source-geometry-only"
+    },
+    {
+      "id": "chongqing-expo-s1-hall",
+      "sections": 12,
+      "samples": 0,
+      "status": "catalog-only"
+    },
+    {
+      "id": "chongqing-huaxi-ecm-center",
+      "sections": 33,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "chongqing-olympic-stadium",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-only"
+    },
+    {
+      "id": "dalian-sports-center-stadium",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "dongguan-sports-center-gymnasium",
+      "sections": 12,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "exco-east",
+      "sections": 12,
+      "samples": 0,
+      "status": "catalog-only"
+    },
+    {
+      "id": "festhalle-frankfurt",
+      "sections": 22,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "foshan-century-lotus-stadium",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-only"
+    },
+    {
+      "id": "foshan-international-arena",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-only"
+    },
+    {
+      "id": "fuzhou-strait-olympic-stadium",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "galaxy-arena",
+      "sections": 45,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "galaxy-g-box",
+      "sections": 12,
+      "samples": 0,
+      "status": "catalog-only"
+    },
+    {
+      "id": "gbk-main-stadium",
+      "sections": 36,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "genting-arena-of-stars",
+      "sections": 12,
+      "samples": 0,
+      "status": "catalog-only"
+    },
+    {
+      "id": "gocheok-dome",
+      "sections": 123,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "goyang-stadium",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-only"
+    },
+    {
+      "id": "guangdong-olympic",
+      "sections": 36,
+      "samples": 0,
+      "status": "source-geometry-only"
+    },
+    {
+      "id": "guangxi-sports-stadium",
+      "sections": 99,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "guangzhou-arena",
+      "sections": 57,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "guangzhou-gba-stadium",
+      "sections": 36,
+      "samples": 0,
+      "status": "source-geometry-only"
+    },
+    {
+      "id": "guangzhou-gymnasium-hall-1",
+      "sections": 34,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "guangzhou-university-town-stadium",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "guangzhou-yayuncheng",
+      "sections": 12,
+      "samples": 0,
+      "status": "source-geometry-only"
+    },
+    {
+      "id": "guigang-sports-center-stadium",
+      "sections": 18,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "guiyang-new-gymnasium",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "guiyang-olympic-stadium",
+      "sections": 16,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "gwangju-universiade",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-only"
+    },
+    {
+      "id": "haikou-wuyuanhe-gymnasium",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "haikou-wuyuanhe-stadium",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-only"
+    },
+    {
+      "id": "hangzhou-huanglong-stadium",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "hangzhou-olympic-arena",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-only"
+    },
+    {
+      "id": "hangzhou-olympic-stadium",
+      "sections": 36,
+      "samples": 0,
+      "status": "source-geometry-only"
+    },
+    {
+      "id": "hangzhou-olympic-tennis-center",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "hangzhou-qiantang-basketball-arena",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "harbin-international-convention-gymnasium",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "hebei-olympic-stadium",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "hefei-sports-center-stadium",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-only"
+    },
+    {
+      "id": "hkcec-hall-5bc",
+      "sections": 12,
+      "samples": 0,
+      "status": "catalog-only"
+    },
+    {
+      "id": "hong-kong-axa-dreamland",
+      "sections": 12,
+      "samples": 0,
+      "status": "catalog-only"
+    },
+    {
+      "id": "hong-kong-coliseum",
+      "sections": 40,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "hong-kong-macpherson-stadium",
+      "sections": 12,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "huanglong-gymnasium",
+      "sections": 18,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "hubei-olympic-arena",
+      "sections": 12,
+      "samples": 0,
+      "status": "source-geometry-only"
+    },
+    {
+      "id": "hwajeong-gymnasium",
+      "sections": 14,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "ig-arena",
+      "sections": 55,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "impact-arena",
+      "sections": 34,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "incheon-asiad",
+      "sections": 44,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "incheon-munhak-stadium",
+      "sections": 119,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "indonesia-arena",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-only"
+    },
+    {
+      "id": "inspire-arena",
+      "sections": 22,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "jakarta-stadium",
+      "sections": 36,
+      "samples": 0,
+      "status": "source-geometry-only"
+    },
+    {
+      "id": "jamsil-indoor",
+      "sections": 36,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "jangchung-arena",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-only"
+    },
+    {
+      "id": "japan-national",
+      "sections": 166,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "jiaxing-sports-center-stadium",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "jinan-olympic-gymnasium",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "jinan-olympic-stadium",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "john-cain-arena",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-only"
+    },
+    {
+      "id": "k-arena-yokohama",
+      "sections": 28,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "kai-tak-arena",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-only"
+    },
+    {
+      "id": "kai-tak-stadium",
+      "sections": 81,
+      "samples": 243,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "kaohsiung-arena",
+      "sections": 50,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "kaohsiung-national",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-only"
+    },
+    {
+      "id": "kbs-arena",
+      "sections": 10,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "keio-arena-tokyo",
+      "sections": 14,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "kintex-hall-1",
+      "sections": 12,
+      "samples": 0,
+      "status": "catalog-only"
+    },
+    {
+      "id": "kintex-hall-10",
+      "sections": 12,
+      "samples": 0,
+      "status": "catalog-only"
+    },
+    {
+      "id": "kintex-hall-2",
+      "sections": 12,
+      "samples": 0,
+      "status": "catalog-only"
+    },
+    {
+      "id": "kintex-hall-3",
+      "sections": 12,
+      "samples": 0,
+      "status": "catalog-only"
+    },
+    {
+      "id": "kintex-hall-4",
+      "sections": 12,
+      "samples": 0,
+      "status": "catalog-only"
+    },
+    {
+      "id": "kintex-hall-5",
+      "sections": 12,
+      "samples": 0,
+      "status": "catalog-only"
+    },
+    {
+      "id": "kintex-hall-6",
+      "sections": 12,
+      "samples": 0,
+      "status": "catalog-only"
+    },
+    {
+      "id": "kintex-hall-7",
+      "sections": 12,
+      "samples": 0,
+      "status": "catalog-only"
+    },
+    {
+      "id": "kintex-hall-8",
+      "sections": 12,
+      "samples": 0,
+      "status": "catalog-only"
+    },
+    {
+      "id": "kintex-hall-9",
+      "sections": 12,
+      "samples": 0,
+      "status": "catalog-only"
+    },
+    {
+      "id": "kspo-dome",
+      "sections": 56,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "kunming-tuodong-stadium",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "kyocera-dome",
+      "sections": 52,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "linyi-olympic-park-stadium",
+      "sections": 36,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "london-the-o2",
+      "sections": 40,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "londoner-arena",
+      "sections": 32,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "londoner-theatre",
+      "sections": 15,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "los-angeles-kia-forum",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "los-angeles-the-novo",
+      "sections": 7,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "luoyang-olympic-stadium",
+      "sections": 36,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "macau-grand-lisboa-palace",
+      "sections": 12,
+      "samples": 0,
+      "status": "catalog-only"
+    },
+    {
+      "id": "makuhari-halls-1-3",
+      "sections": 12,
+      "samples": 0,
+      "status": "catalog-only"
+    },
+    {
+      "id": "makuhari-halls-4-6",
+      "sections": 12,
+      "samples": 0,
+      "status": "catalog-only"
+    },
+    {
+      "id": "marvel-stadium",
+      "sections": 48,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "melbourne-rod-laver-arena",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "mercedes-benz-arena",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-only"
+    },
+    {
+      "id": "moa-arena",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-only"
+    },
+    {
+      "id": "my-dinh",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-only"
+    },
+    {
+      "id": "nanchang-international-stadium",
+      "sections": 36,
+      "samples": 0,
+      "status": "source-geometry-only"
+    },
+    {
+      "id": "nanjing-olympic-gymnasium",
+      "sections": 36,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "nanjing-olympic-stadium",
+      "sections": 36,
+      "samples": 0,
+      "status": "source-geometry-only"
+    },
+    {
+      "id": "nanjing-youth-olympic-gymnasium",
+      "sections": 49,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "national-hockey",
+      "sections": 12,
+      "samples": 0,
+      "status": "source-geometry-only"
+    },
+    {
+      "id": "national-indoor",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-only"
+    },
+    {
+      "id": "nissan-stadium",
+      "sections": 48,
+      "samples": 0,
+      "status": "catalog-only"
+    },
+    {
+      "id": "ntsu-arena",
+      "sections": 18,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "olympic-hall",
+      "sections": 23,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "oriental-sports",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-only"
+    },
+    {
+      "id": "ovo-arena-wembley",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-only"
+    },
+    {
+      "id": "paris-stade-de-france",
+      "sections": 36,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "paypay-dome",
+      "sections": 36,
+      "samples": 0,
+      "status": "source-geometry-only"
+    },
+    {
+      "id": "philippine-arena",
+      "sections": 36,
+      "samples": 0,
+      "status": "source-geometry-only"
+    },
+    {
+      "id": "qingdao-citizen-stadium",
+      "sections": 44,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "qingdao-guoxin-gymnasium",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-only"
+    },
+    {
+      "id": "qingdao-guoxin-stadium",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "qingyuan-sports-center-stadium",
+      "sections": 19,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "rajamangala",
+      "sections": 36,
+      "samples": 0,
+      "status": "source-geometry-only"
+    },
+    {
+      "id": "saitama-arena",
+      "sections": 94,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "sajik-gymnasium",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-only"
+    },
+    {
+      "id": "sanya-egret-gymnasium",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "sanya-egret-stadium",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "shanghai-jingan-gymnasium",
+      "sections": 12,
+      "samples": 0,
+      "status": "source-geometry-only"
+    },
+    {
+      "id": "shanghai-stadium",
+      "sections": 36,
+      "samples": 0,
+      "status": "source-geometry-only"
+    },
+    {
+      "id": "shanxi-sports-stadium",
+      "sections": 137,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "shaoxing-olympic-gymnasium",
+      "sections": 12,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "shenzhen-baoan-gymnasium",
+      "sections": 9,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "shenzhen-baoan-stadium",
+      "sections": 72,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "shenzhen-bay-gymnasium",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-only"
+    },
+    {
+      "id": "shenzhen-sports-center-stadium",
+      "sections": 36,
+      "samples": 0,
+      "status": "source-geometry-only"
+    },
+    {
+      "id": "shenzhen-universiade-gymnasium",
+      "sections": 38,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "shenzhen-universiade-stadium",
+      "sections": 36,
+      "samples": 0,
+      "status": "source-geometry-only"
+    },
+    {
+      "id": "singapore-arena-expo",
+      "sections": 12,
+      "samples": 0,
+      "status": "catalog-only"
+    },
+    {
+      "id": "singapore-capitol-theatre",
+      "sections": 6,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "singapore-indoor",
+      "sections": 68,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "singapore-mediacorp-theatre",
+      "sections": 20,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "singapore-national",
+      "sections": 122,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "singapore-sands-grand-ballroom",
+      "sections": 12,
+      "samples": 0,
+      "status": "catalog-only"
+    },
+    {
+      "id": "smdc-festival",
+      "sections": 12,
+      "samples": 0,
+      "status": "catalog-only"
+    },
+    {
+      "id": "star-theatre",
+      "sections": 20,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "studio-city",
+      "sections": 22,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "suzhou-sports-center-gymnasium",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-only"
+    },
+    {
+      "id": "sydney-accor-stadium",
+      "sections": 36,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "taipei-arena",
+      "sections": 50,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "taipei-dome",
+      "sections": 106,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "thunder-dome",
+      "sections": 9,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "tianhe-stadium",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-only"
+    },
+    {
+      "id": "tianjin-olympic-gymnasium",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-only"
+    },
+    {
+      "id": "tianjin-olympic-stadium",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "tiktok-entertainment-centre",
+      "sections": 36,
+      "samples": 0,
+      "status": "source-geometry-only"
+    },
+    {
+      "id": "tokyo-dome",
+      "sections": 304,
+      "samples": 0,
+      "status": "catalog-only"
+    },
+    {
+      "id": "tokyo-garden-theater",
+      "sections": 36,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "unifi-arena",
+      "sections": 42,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "union-hall",
+      "sections": 12,
+      "samples": 0,
+      "status": "catalog-only"
+    },
+    {
+      "id": "urumqi-olympic-gymnasium",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "vancouver-rogers-arena",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "vantelin-dome",
+      "sections": 54,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "venetian-arena",
+      "sections": 41,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "wenzhou-olympic-stadium",
+      "sections": 36,
+      "samples": 0,
+      "status": "source-geometry-only"
+    },
+    {
+      "id": "wuhan-five-rings-stadium",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "wuhan-sports-center-gymnasium",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "wukesong",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-only"
+    },
+    {
+      "id": "wuxi-olympic-stadium",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "xiamen-egret-stadium",
+      "sections": 98,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "xiamen-phoenix-gymnasium",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "xian-olympic-stadium",
+      "sections": 36,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "xuzhou-olympic-stadium",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "yantai-bajiaowan-gymnasium",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "zenith-paris",
+      "sections": 12,
+      "samples": 0,
+      "status": "source-geometry-only"
+    },
+    {
+      "id": "zhengzhou-olympic-gymnasium",
+      "sections": 16,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "zhengzhou-olympic-stadium",
+      "sections": 36,
+      "samples": 0,
+      "status": "source-geometry-only"
+    },
+    {
+      "id": "zhenjiang-sports-exhibition-stadium",
+      "sections": 18,
+      "samples": 0,
+      "status": "source-geometry-and-sections"
+    },
+    {
+      "id": "zhuji-xishi-basketball-center",
+      "sections": 24,
+      "samples": 0,
+      "status": "source-geometry-only"
+    }
+  ]
+}

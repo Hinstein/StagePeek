@@ -1,0 +1,3882 @@
+[
+  {
+    "id": "guangzhou-yayuncheng",
+    "name": "广州亚运城综合体育馆 · 体操馆",
+    "short": "广州亚运城综合体育馆",
+    "badge": "GUANGZHOU ASIAN GAMES CITY",
+    "english": "Guangzhou Asian Games City Gymnasium",
+    "city": "广州",
+    "region": "中国内地",
+    "kind": "arena",
+    "geometry": {
+      "a": 28,
+      "b": 35,
+      "levels": 1
+    },
+    "url": "https://wglj.gz.gov.cn/zwgk/xyxxsgs/xzxk/content/post_11012372.html",
+    "mapUrl": null,
+    "aliases": "亚运城 亚运城体育馆 番禺 体操馆 威神V WayV BORN THIS Way",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "wukesong",
+    "name": "五棵松体育馆",
+    "short": "五棵松体育馆",
+    "badge": "WUKESONG ARENA",
+    "english": "Wukesong Arena",
+    "city": "北京",
+    "region": "中国内地",
+    "kind": "arena",
+    "geometry": {
+      "a": 25,
+      "b": 39,
+      "levels": 2
+    },
+    "url": "https://www.beijing.gov.cn/renwen/rwzyd/qxdw/myhdlzqzh/wkstyzhx/202309/t20230921_3263793.html",
+    "mapUrl": null,
+    "aliases": "华熙LIVE 凯迪拉克 Cadillac",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "national-indoor",
+    "name": "国家体育馆",
+    "short": "国家体育馆",
+    "badge": "NATIONAL INDOOR STADIUM",
+    "english": "National Indoor Stadium",
+    "city": "北京",
+    "region": "中国内地",
+    "kind": "arena",
+    "geometry": {
+      "a": 28,
+      "b": 43,
+      "levels": 2
+    },
+    "url": "https://www.nis-cn.com/",
+    "mapUrl": null,
+    "aliases": "冰之帆",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "capital-indoor",
+    "name": "首都体育馆",
+    "short": "首都体育馆",
+    "badge": "CAPITAL INDOOR STADIUM",
+    "english": "Capital Indoor Stadium",
+    "city": "北京",
+    "region": "中国内地",
+    "kind": "arena",
+    "geometry": {
+      "a": 27,
+      "b": 39,
+      "levels": 2
+    },
+    "url": "https://s.visitbeijing.com.cn/attraction/117978",
+    "mapUrl": null,
+    "aliases": "首体",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "mercedes-benz-arena",
+    "name": "梅赛德斯-奔驰文化中心",
+    "short": "梅赛德斯-奔驰文化中心",
+    "badge": "MERCEDES-BENZ ARENA",
+    "english": "Mercedes-Benz Arena",
+    "city": "上海",
+    "region": "中国内地",
+    "kind": "arena",
+    "geometry": {
+      "a": 29,
+      "b": 36,
+      "levels": 2
+    },
+    "url": "https://www.mercedes-benzarena.com/3DSeatMap/",
+    "mapUrl": "https://www.mercedes-benzarena.com/3DSeatMap/",
+    "aliases": "梅奔",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "shanghai-stadium",
+    "name": "上海体育场",
+    "short": "上海体育场",
+    "badge": "SHANGHAI STADIUM",
+    "english": "Shanghai Stadium",
+    "city": "上海",
+    "region": "中国内地",
+    "kind": "stadium",
+    "geometry": {
+      "a": 67,
+      "b": 90,
+      "levels": 3
+    },
+    "url": "https://www.gzw.sh.gov.cn/shgzw_zxzx_gqdt/20230426/536c3e7f6f994e42914517dd0d37f65c.html",
+    "mapUrl": null,
+    "aliases": "八万人体育场",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "oriental-sports",
+    "name": "东方体育中心 · 海上王冠",
+    "short": "东方体育中心 · 海上王冠",
+    "badge": "ORIENTAL SPORTS CENTER",
+    "english": "Oriental Sports Center",
+    "city": "上海",
+    "region": "中国内地",
+    "kind": "arena",
+    "geometry": {
+      "a": 28,
+      "b": 42,
+      "levels": 2
+    },
+    "url": "https://tyj.sh.gov.cn/zsdw/20090703/0027-66800.html",
+    "mapUrl": null,
+    "aliases": "东体",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "guangzhou-arena",
+    "name": "宝能广州国际体育演艺中心",
+    "short": "宝能广州国际体育演艺中心",
+    "badge": "GUANGZHOU INTERNATIONAL ARENA",
+    "english": "Guangzhou International Arena",
+    "city": "广州",
+    "region": "中国内地",
+    "kind": "arena",
+    "geometry": {
+      "a": 28,
+      "b": 40,
+      "levels": 3
+    },
+    "url": "https://www.bisacn.com/aboUs.html",
+    "mapUrl": null,
+    "aliases": "宝能观致 黄埔",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "guangdong-olympic",
+    "name": "广东奥林匹克体育场",
+    "short": "广东奥林匹克体育场",
+    "badge": "GUANGDONG OLYMPIC STADIUM",
+    "english": "Guangdong Olympic Stadium",
+    "city": "广州",
+    "region": "中国内地",
+    "kind": "stadium",
+    "geometry": {
+      "a": 79,
+      "b": 104,
+      "levels": 3
+    },
+    "url": "https://tyj.gd.gov.cn/sjzw_zsdw/content/post_1948985.html",
+    "mapUrl": null,
+    "aliases": "广州奥体",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "tianhe-stadium",
+    "name": "天河体育场",
+    "short": "天河体育场",
+    "badge": "TIANHE STADIUM",
+    "english": "Tianhe Stadium",
+    "city": "广州",
+    "region": "中国内地",
+    "kind": "stadium",
+    "geometry": {
+      "a": 70,
+      "b": 96,
+      "levels": 2
+    },
+    "url": "https://tyj.gz.gov.cn/bmzc/jckx/content/post_9582759.html",
+    "mapUrl": null,
+    "aliases": "",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "kai-tak-stadium",
+    "name": "启德主场馆",
+    "short": "启德主场馆",
+    "badge": "KAI TAK STADIUM",
+    "english": "Kai Tak Stadium",
+    "city": "香港",
+    "region": "中国香港",
+    "kind": "stadium",
+    "geometry": {
+      "a": 61,
+      "b": 84,
+      "levels": 3
+    },
+    "url": "https://www.kaitaksportspark.com.hk/sc/venues-spaces/4",
+    "mapUrl": "https://media-webapp.kaitaksportspark.com.hk/media/82f5bc39-93db-4606-96c5-65e1a148a160.png?x-oss-process=image/resize,w_1600,h_900",
+    "aliases": "啟德",
+    "defaultLayout": "center",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "hong-kong-coliseum",
+    "name": "香港体育馆 · 红馆",
+    "short": "香港体育馆 · 红馆",
+    "badge": "HONG KONG COLISEUM",
+    "english": "Hong Kong Coliseum",
+    "city": "香港",
+    "region": "中国香港",
+    "kind": "arena",
+    "geometry": {
+      "a": 24,
+      "b": 24,
+      "levels": 2
+    },
+    "url": "https://www.lcsd.gov.hk/sc/hkc/downloads.html",
+    "mapUrl": "https://www.lcsd.gov.hk/sc/hkc/downloads.html",
+    "aliases": "紅館 紅磡 红磡",
+    "defaultLayout": "center",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "asiaworld-arena",
+    "name": "亚洲国际博览馆 Arena",
+    "short": "亚洲国际博览馆 Arena",
+    "badge": "ASIAWORLD-ARENA",
+    "english": "AsiaWorld-Arena",
+    "city": "香港",
+    "region": "中国香港",
+    "kind": "hall",
+    "geometry": {
+      "a": 32,
+      "b": 48,
+      "levels": 2
+    },
+    "url": "https://www.asiaworld-expo.com/zh-sc/visiting/venue-map/",
+    "mapUrl": "https://www2.asiaworld-expo.com/2026/website/asiaworld-arena-hall-1.pdf",
+    "aliases": "亚博 亞博 1号馆",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "kai-tak-arena",
+    "name": "启德体艺馆",
+    "short": "启德体艺馆",
+    "badge": "KAI TAK ARENA",
+    "english": "Kai Tak Arena",
+    "city": "香港",
+    "region": "中国香港",
+    "kind": "arena",
+    "geometry": {
+      "a": 24,
+      "b": 35,
+      "levels": 2
+    },
+    "url": "https://media-webapp.kaitaksportspark.com.hk/assets/1698c96f-473d-4cf3-92ba-6e3609c3cce4",
+    "mapUrl": null,
+    "aliases": "啟德體藝館",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "venetian-arena",
+    "name": "威尼斯人综艺馆",
+    "short": "威尼斯人综艺馆",
+    "badge": "THE VENETIAN ARENA",
+    "english": "The Venetian Arena",
+    "city": "澳门",
+    "region": "中国澳门",
+    "kind": "arena",
+    "geometry": {
+      "a": 29,
+      "b": 40,
+      "levels": 2
+    },
+    "url": "https://en.sandsresortsmacao.com/meetings/venues/venetian/venetian-arena.html",
+    "mapUrl": null,
+    "aliases": "金光综艺馆 Cotai Arena",
+    "defaultLayout": "center",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "galaxy-arena",
+    "name": "银河综艺馆",
+    "short": "银河综艺馆",
+    "badge": "GALAXY ARENA",
+    "english": "Galaxy Arena",
+    "city": "澳门",
+    "region": "中国澳门",
+    "kind": "arena",
+    "geometry": {
+      "a": 28,
+      "b": 39,
+      "levels": 2
+    },
+    "url": "https://www.galaxymacau.com/zh-hant/mice/gicc/concerts/",
+    "mapUrl": "https://www.galaxymacau.com/zh-hant/mice/gicc/concerts/",
+    "aliases": "銀河",
+    "defaultLayout": "center",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "studio-city",
+    "name": "新濠影汇综艺馆",
+    "short": "新濠影汇综艺馆",
+    "badge": "STUDIO CITY EVENT CENTER",
+    "english": "Studio City Event Center",
+    "city": "澳门",
+    "region": "中国澳门",
+    "kind": "hall",
+    "geometry": {
+      "a": 19,
+      "b": 28,
+      "levels": 2
+    },
+    "url": "https://www.studiocity-macau.com/en/attractions/studio-city-event-center",
+    "mapUrl": "https://studiocity-macau.com/en/events/manifest-wtf-live-2026-macau",
+    "aliases": "新濠影滙",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "inspire-arena",
+    "name": "INSPIRE Arena · 迎仕柏",
+    "short": "INSPIRE Arena · 迎仕柏",
+    "badge": "INSPIRE ARENA",
+    "english": "Inspire Arena",
+    "city": "仁川",
+    "region": "韩国",
+    "kind": "arena",
+    "geometry": {
+      "a": 29,
+      "b": 38,
+      "levels": 2
+    },
+    "url": "https://world.nol.com/zh-CN/content/pois/ab02dd97-2eb9-48b8-aa3a-d19c34730d46",
+    "mapUrl": null,
+    "aliases": "迎士柏 인스파이어",
+    "defaultLayout": "center",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "goyang-stadium",
+    "name": "高阳综合运动场",
+    "short": "高阳综合运动场",
+    "badge": "GOYANG STADIUM",
+    "english": "Goyang Stadium",
+    "city": "高阳",
+    "region": "韩国",
+    "kind": "stadium",
+    "geometry": {
+      "a": 74,
+      "b": 99,
+      "levels": 2
+    },
+    "url": "https://artist.ygfamily.com/ARTISTS/BIGBANG/concert/worldtour/index.html",
+    "mapUrl": null,
+    "aliases": "高陽 고양",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "gocheok-dome",
+    "name": "高尺天空巨蛋",
+    "short": "高尺天空巨蛋",
+    "badge": "GOCHEOK SKY DOME",
+    "english": "Gocheok Sky Dome",
+    "city": "首尔",
+    "region": "韩国",
+    "kind": "baseball",
+    "geometry": {
+      "a": 51,
+      "b": 54,
+      "levels": 3
+    },
+    "url": "https://www.sisul.or.kr/open_content/skydome/introduce/intro.jsp",
+    "mapUrl": null,
+    "aliases": "高尺 고척",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "jamsil-indoor",
+    "name": "蚕室室内体育馆",
+    "short": "蚕室室内体育馆",
+    "badge": "JAMSIL INDOOR STADIUM",
+    "english": "Jamsil Indoor Stadium",
+    "city": "首尔",
+    "region": "韩国",
+    "kind": "arena",
+    "geometry": {
+      "a": 26,
+      "b": 32,
+      "levels": 2
+    },
+    "url": "https://stadium.seoul.go.kr/reserve/jamsil/inside-stadium",
+    "mapUrl": "https://stadium.seoul.go.kr/files/2016/08/jamsil_drawing_indoormain.jpg",
+    "aliases": "蠶室 蚕室体育馆 잠실실내체육관 Jamsil Arena Jamsil Gymnasium Jamsil Indoor Gymnasium Seoul",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "singapore-indoor",
+    "name": "新加坡室内体育馆",
+    "short": "新加坡室内体育馆",
+    "badge": "SINGAPORE INDOOR STADIUM",
+    "english": "Singapore Indoor Stadium",
+    "city": "新加坡",
+    "region": "新加坡",
+    "kind": "arena",
+    "geometry": {
+      "a": 26,
+      "b": 36,
+      "levels": 2
+    },
+    "url": "https://www.sportshub.com.sg/events/twice-world-tour-singapore",
+    "mapUrl": null,
+    "aliases": "",
+    "defaultLayout": "center",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "singapore-national",
+    "name": "新加坡国家体育场",
+    "short": "新加坡国家体育场",
+    "badge": "SINGAPORE NATIONAL STADIUM",
+    "english": "Singapore National Stadium",
+    "city": "新加坡",
+    "region": "新加坡",
+    "kind": "stadium",
+    "geometry": {
+      "a": 69,
+      "b": 91,
+      "levels": 3
+    },
+    "url": "https://www.sportshub.com.sg/sites/default/files/2022-12/SSH%20Fact%20Sheet.pdf",
+    "mapUrl": null,
+    "aliases": "Kallang 加冷",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "impact-arena",
+    "name": "IMPACT Arena",
+    "short": "IMPACT Arena",
+    "badge": "IMPACT ARENA",
+    "english": "IMPACT Arena",
+    "city": "曼谷",
+    "region": "泰国",
+    "kind": "arena",
+    "geometry": {
+      "a": 26,
+      "b": 35,
+      "levels": 2
+    },
+    "url": "https://www.impact.co.th/en/organizers/venues/impact-arena",
+    "mapUrl": "https://www.impact.co.th/en/organizers/venues/impact-arena",
+    "aliases": "暖武里 Muang Thong Thani",
+    "defaultLayout": "center",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "rajamangala",
+    "name": "拉加曼加拉国家体育场",
+    "short": "拉加曼加拉国家体育场",
+    "badge": "RAJAMANGALA NATIONAL STADIUM",
+    "english": "Rajamangala National Stadium",
+    "city": "曼谷",
+    "region": "泰国",
+    "kind": "stadium",
+    "geometry": {
+      "a": 74,
+      "b": 102,
+      "levels": 3
+    },
+    "url": "https://artist.ygfamily.com/ARTISTS/BIGBANG/concert/worldtour/index.html",
+    "mapUrl": null,
+    "aliases": "拉贾曼加拉 华马克",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "thunder-dome",
+    "name": "Thunder Dome",
+    "short": "Thunder Dome",
+    "badge": "THUNDER DOME",
+    "english": "Thunder Dome",
+    "city": "曼谷",
+    "region": "泰国",
+    "kind": "hall",
+    "geometry": {
+      "a": 18,
+      "b": 25,
+      "levels": 1
+    },
+    "url": "https://www.impact.co.th/th/organizers/venues/thunder-dome",
+    "mapUrl": "https://application.impact.co.th/vr/thunder-dome/",
+    "aliases": "雷霆巨蛋",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "tokyo-dome",
+    "name": "东京巨蛋",
+    "short": "东京巨蛋",
+    "badge": "TOKYO DOME",
+    "english": "Tokyo Dome",
+    "city": "东京",
+    "region": "日本",
+    "kind": "baseball",
+    "geometry": {
+      "a": 65,
+      "b": 68,
+      "levels": 3
+    },
+    "url": "https://www.tokyo-dome.co.jp/en/dome/about/",
+    "mapUrl": "https://www.tokyo-dome.co.jp/ko/dome/seat/?wovnDisableTranslation=true",
+    "aliases": "東京ドーム",
+    "defaultLayout": "center",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "kyocera-dome",
+    "name": "大阪京瓷巨蛋",
+    "short": "大阪京瓷巨蛋",
+    "badge": "KYOCERA DOME OSAKA",
+    "english": "Kyocera Dome Osaka",
+    "city": "大阪",
+    "region": "日本",
+    "kind": "baseball",
+    "geometry": {
+      "a": 64,
+      "b": 67,
+      "levels": 3
+    },
+    "url": "https://www.kyoceradome-osaka.jp/events/",
+    "mapUrl": "https://www.kyoceradome-osaka.jp/seat/",
+    "aliases": "京セラドーム",
+    "defaultLayout": "center",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "vantelin-dome",
+    "name": "名古屋 Vantelin Dome",
+    "short": "名古屋 Vantelin Dome",
+    "badge": "VANTELIN DOME NAGOYA",
+    "english": "Vantelin Dome Nagoya",
+    "city": "名古屋",
+    "region": "日本",
+    "kind": "baseball",
+    "geometry": {
+      "a": 64,
+      "b": 67,
+      "levels": 3
+    },
+    "url": "https://www.twicejapan.com/feature/dometour2025",
+    "mapUrl": null,
+    "aliases": "バンテリンドーム ナゴヤ 爱知 愛知",
+    "defaultLayout": "center",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "paypay-dome",
+    "name": "福冈 Mizuho PayPay Dome",
+    "short": "福冈 Mizuho PayPay Dome",
+    "badge": "MIZUHO PAYPAY DOME FUKUOKA",
+    "english": "Mizuho PayPay Dome Fukuoka",
+    "city": "福冈",
+    "region": "日本",
+    "kind": "baseball",
+    "geometry": {
+      "a": 64,
+      "b": 69,
+      "levels": 3
+    },
+    "url": "https://www.twicejapan.com/feature/dometour2025",
+    "mapUrl": null,
+    "aliases": "福岡 みずほPayPayドーム",
+    "defaultLayout": "center",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "japan-national",
+    "name": "日本国立竞技场 · MUFG",
+    "short": "日本国立竞技场 · MUFG",
+    "badge": "MUFG STADIUM",
+    "english": "MUFG Stadium",
+    "city": "东京",
+    "region": "日本",
+    "kind": "stadium",
+    "geometry": {
+      "a": 70,
+      "b": 97,
+      "levels": 3
+    },
+    "url": "https://www.jpnsport.go.jp/newstadium/tabid/676/Default.aspx",
+    "mapUrl": "https://www.jpnsport.go.jp/newstadium/tabid/676/Default.aspx",
+    "aliases": "国立競技場 MUFG STADIUM",
+    "defaultLayout": "center",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "nissan-stadium",
+    "name": "日产体育场",
+    "short": "日产体育场",
+    "badge": "NISSAN STADIUM",
+    "english": "Nissan Stadium",
+    "city": "横滨",
+    "region": "日本",
+    "kind": "stadium",
+    "geometry": {
+      "a": 77,
+      "b": 102,
+      "levels": 2
+    },
+    "url": "https://www.nissan-stadium.jp/english/",
+    "mapUrl": "https://www.nissan-stadium.jp/floor/",
+    "aliases": "日産 横浜",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "saitama-arena",
+    "name": "埼玉超级竞技场",
+    "short": "埼玉超级竞技场",
+    "badge": "GMO ARENA SAITAMA",
+    "english": "GMO Arena Saitama",
+    "city": "埼玉",
+    "region": "日本",
+    "kind": "arena",
+    "geometry": {
+      "a": 35,
+      "b": 48,
+      "levels": 3
+    },
+    "url": "https://www.saitama-arena.co.jp/e/floor_map/stadium.html",
+    "mapUrl": "https://www.saitama-arena.co.jp/e/floor_map/stadium.html",
+    "aliases": "Saitama Super Arena さいたまスーパーアリーナ",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "taipei-dome",
+    "name": "台北大巨蛋",
+    "short": "台北大巨蛋",
+    "badge": "TAIPEI DOME",
+    "english": "Taipei Dome",
+    "city": "台北",
+    "region": "中国台湾",
+    "kind": "baseball",
+    "geometry": {
+      "a": 60,
+      "b": 66,
+      "levels": 3
+    },
+    "url": "https://artist.ygfamily.com/ARTISTS/BIGBANG/concert/worldtour/index.html",
+    "mapUrl": null,
+    "aliases": "臺北大巨蛋",
+    "defaultLayout": "center",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "taipei-arena",
+    "name": "台北小巨蛋",
+    "short": "台北小巨蛋",
+    "badge": "TAIPEI ARENA",
+    "english": "Taipei Arena",
+    "city": "台北",
+    "region": "中国台湾",
+    "kind": "arena",
+    "geometry": {
+      "a": 27,
+      "b": 38,
+      "levels": 2
+    },
+    "url": "https://www.arena.taipei/",
+    "mapUrl": null,
+    "aliases": "臺北小巨蛋",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "kaohsiung-national",
+    "name": "高雄国家体育场",
+    "short": "高雄国家体育场",
+    "badge": "KAOHSIUNG NATIONAL STADIUM",
+    "english": "Kaohsiung National Stadium",
+    "city": "高雄",
+    "region": "中国台湾",
+    "kind": "stadium",
+    "geometry": {
+      "a": 73,
+      "b": 100,
+      "levels": 2
+    },
+    "url": "https://artist.ygfamily.com/ARTISTS/BIGBANG/concert/worldtour/index.html",
+    "mapUrl": null,
+    "aliases": "世运主场馆 世運",
+    "defaultLayout": "center",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "bukit-jalil",
+    "name": "武吉加里尔国家体育场",
+    "short": "武吉加里尔国家体育场",
+    "badge": "TM STADIUM NASIONAL",
+    "english": "TM Stadium Nasional",
+    "city": "吉隆坡",
+    "region": "马来西亚",
+    "kind": "stadium",
+    "geometry": {
+      "a": 78,
+      "b": 106,
+      "levels": 3
+    },
+    "url": "https://artist.ygfamily.com/ARTISTS/BIGBANG/concert/worldtour/index.html",
+    "mapUrl": null,
+    "aliases": "Bukit Jalil National Stadium 武吉加里爾",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "national-hockey",
+    "name": "武吉加里尔国家曲棍球场",
+    "short": "武吉加里尔国家曲棍球场",
+    "badge": "NATIONAL HOCKEY STADIUM",
+    "english": "National Hockey Stadium",
+    "city": "吉隆坡",
+    "region": "马来西亚",
+    "kind": "stadium",
+    "geometry": {
+      "a": 38,
+      "b": 60,
+      "levels": 1
+    },
+    "url": "https://www.stadium.gov.my/index.php/venues/kuala-lumpur-sports-city/national-hockey-stadium",
+    "mapUrl": null,
+    "aliases": "",
+    "defaultLayout": "center",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "unifi-arena",
+    "name": "Unifi Arena · 原 Axiata",
+    "short": "Unifi Arena · 原 Axiata",
+    "badge": "UNIFI ARENA",
+    "english": "Unifi Arena",
+    "city": "吉隆坡",
+    "region": "马来西亚",
+    "kind": "arena",
+    "geometry": {
+      "a": 21,
+      "b": 38,
+      "levels": 2
+    },
+    "url": "https://www.stadium.gov.my/venues/kuala-lumpur-sports-city/unifi-arena.html",
+    "mapUrl": null,
+    "aliases": "Axiata Arena Putra Stadium 亚通",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "philippine-arena",
+    "name": "菲律宾竞技场",
+    "short": "菲律宾竞技场",
+    "badge": "PHILIPPINE ARENA",
+    "english": "Philippine Arena",
+    "city": "布拉干",
+    "region": "菲律宾",
+    "kind": "arena",
+    "geometry": {
+      "a": 44,
+      "b": 63,
+      "levels": 3
+    },
+    "url": "https://www.livenation.ph/philippine-arena-tickets-vdp1150840",
+    "mapUrl": null,
+    "aliases": "Bulacan 马尼拉 Manila",
+    "defaultLayout": "center",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "smdc-festival",
+    "name": "SMDC Festival Grounds",
+    "short": "SMDC Festival Grounds",
+    "badge": "SMDC FESTIVAL GROUNDS",
+    "english": "SMDC Festival Grounds",
+    "city": "马尼拉",
+    "region": "菲律宾",
+    "kind": "field",
+    "geometry": {
+      "a": 47,
+      "b": 85,
+      "levels": 0
+    },
+    "url": "https://artist.ygfamily.com/ARTISTS/BIGBANG/concert/worldtour/index.html",
+    "mapUrl": null,
+    "aliases": "帕拉纳克 Parañaque",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "moa-arena",
+    "name": "SM 亚洲购物中心竞技场",
+    "short": "SM 亚洲购物中心竞技场",
+    "badge": "MALL OF ASIA ARENA",
+    "english": "Mall of Asia Arena",
+    "city": "马尼拉",
+    "region": "菲律宾",
+    "kind": "arena",
+    "geometry": {
+      "a": 28,
+      "b": 39,
+      "levels": 2
+    },
+    "url": "https://www.livenation.ph/sm-mall-of-asia-arena-tickets-vdp764214",
+    "mapUrl": null,
+    "aliases": "MOA Arena Pasay",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "jakarta-stadium",
+    "name": "雅加达国际体育场",
+    "short": "雅加达国际体育场",
+    "badge": "JAKARTA INTERNATIONAL STADIUM",
+    "english": "Jakarta International Stadium",
+    "city": "雅加达",
+    "region": "印度尼西亚",
+    "kind": "stadium",
+    "geometry": {
+      "a": 66,
+      "b": 88,
+      "levels": 3
+    },
+    "url": "https://artist.ygfamily.com/ARTISTS/BIGBANG/concert/worldtour/index.html",
+    "mapUrl": null,
+    "aliases": "JIS",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "indonesia-arena",
+    "name": "Indonesia Arena",
+    "short": "Indonesia Arena",
+    "badge": "INDONESIA ARENA",
+    "english": "Indonesia Arena",
+    "city": "雅加达",
+    "region": "印度尼西亚",
+    "kind": "arena",
+    "geometry": {
+      "a": 29,
+      "b": 42,
+      "levels": 2
+    },
+    "url": "https://gbk.id/berita/232-gbk-cetak-rekor-pendapatan-tertinggi-sepanjang-sejarah-pada-tahun-2024?page=10",
+    "mapUrl": null,
+    "aliases": "GBK 印度尼西亚体育馆",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "my-dinh",
+    "name": "美亭国家体育场",
+    "short": "美亭国家体育场",
+    "badge": "MY DINH NATIONAL STADIUM",
+    "english": "My Dinh National Stadium",
+    "city": "河内",
+    "region": "越南",
+    "kind": "stadium",
+    "geometry": {
+      "a": 72,
+      "b": 100,
+      "levels": 2
+    },
+    "url": "https://artist.ygfamily.com/ARTISTS/BIGBANG/concert/worldtour/index.html",
+    "mapUrl": null,
+    "aliases": "Mỹ Đình",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "sajik-gymnasium",
+    "name": "社稷室内体育馆",
+    "short": "Sajik Gymnasium",
+    "badge": "SAJIK GYMNASIUM",
+    "english": "Busan Sajik Gymnasium",
+    "city": "釜山",
+    "region": "韩国",
+    "kind": "arena",
+    "geometry": {
+      "a": 27,
+      "b": 34,
+      "levels": 2
+    },
+    "url": "https://tickets.interpark.com/contents/notice/detail/9894",
+    "mapUrl": null,
+    "aliases": "釜山社稷体育馆 부산 사직실내체육관 Busan Sajik",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "ntsu-arena",
+    "name": "国立体育大学综合体育馆",
+    "short": "NTSU Arena",
+    "badge": "NTSU ARENA",
+    "english": "National Taiwan Sport University Arena",
+    "city": "桃园",
+    "region": "中国台湾",
+    "kind": "arena",
+    "geometry": {
+      "a": 30,
+      "b": 36,
+      "levels": 2
+    },
+    "url": "https://ntsuarena.ntsu.edu.tw/application",
+    "mapUrl": "https://phk.ntsu.edu.tw/var/file/8/1008/img/1439/147422320.pdf",
+    "aliases": "國立體育大學綜合體育館 林口体育馆 林口體育館 NTSU Arena Taoyuan Taipei 台北 龟山",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "k-arena-yokohama",
+    "name": "K-Arena Yokohama",
+    "short": "K-Arena Yokohama",
+    "badge": "K-ARENA YOKOHAMA",
+    "english": "K-Arena Yokohama",
+    "city": "横滨",
+    "region": "日本",
+    "kind": "arena",
+    "geometry": {
+      "a": 32,
+      "b": 38,
+      "levels": 3
+    },
+    "url": "https://k-arena.com/",
+    "mapUrl": "https://k-arena.com/wp-content/themes/k-arena/assets/pdf/seat-map.pdf",
+    "aliases": "Kアリーナ横浜 神奈川 Kanagawa Yokohama K Arena",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "gwangju-universiade",
+    "name": "光州女子大学大运会体育馆",
+    "short": "光州女子大学体育馆",
+    "badge": "光州女子大学体育馆",
+    "english": "Gwangju Women’s University Universiade Gymnasium",
+    "city": "光州",
+    "region": "韩国",
+    "kind": "arena",
+    "geometry": {
+      "a": 25,
+      "b": 31,
+      "levels": 2
+    },
+    "url": "https://tickets.interpark.com/contents/notice/detail/9895",
+    "mapUrl": null,
+    "aliases": "光州女子大學 광주여대 유니버시아드 체육관 Gwangju Women University",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "ig-arena",
+    "name": "IG Arena",
+    "short": "IG Arena",
+    "badge": "IG ARENA",
+    "english": "IG Arena",
+    "city": "名古屋",
+    "region": "日本",
+    "kind": "arena",
+    "geometry": {
+      "a": 31,
+      "b": 38,
+      "levels": 3
+    },
+    "url": "https://www.ig-arena.jp/en/",
+    "mapUrl": "https://www.ig-arena.jp/uploads/2025/07/250701_riyouannai.pdf",
+    "aliases": "IGアリーナ 爱知 愛知 Aichi Nagoya",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "makuhari-halls-1-3",
+    "name": "幕张展览馆 · 国际展示场 1–3 号厅",
+    "short": "幕张 1–3 号厅",
+    "badge": "幕张 1–3 号厅",
+    "english": "Makuhari Messe International Exhibition Halls 1–3",
+    "city": "千叶",
+    "region": "日本",
+    "kind": "hall",
+    "geometry": {
+      "a": 38,
+      "b": 56,
+      "levels": 0
+    },
+    "url": "https://www.m-messe.co.jp/event/detail/8596",
+    "mapUrl": "https://www.m-messe.co.jp/en/organizers/support/layout/",
+    "aliases": "幕張メッセ 千葉 Chiba 展示ホール1-3 Halls 1-3 1至3 1到3 2-3 2–3 2至3 2到3",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "makuhari-halls-4-6",
+    "name": "幕张展览馆 · 国际展示场 4–6 号厅",
+    "short": "幕张 4–6 号厅",
+    "badge": "幕张 4–6 号厅",
+    "english": "Makuhari Messe International Exhibition Halls 4–6",
+    "city": "千叶",
+    "region": "日本",
+    "kind": "hall",
+    "geometry": {
+      "a": 38,
+      "b": 56,
+      "levels": 0
+    },
+    "url": "https://www.m-messe.co.jp/event/detail/8756",
+    "mapUrl": "https://www.m-messe.co.jp/en/organizers/support/layout/",
+    "aliases": "幕張メッセ 千葉 Chiba 展示ホール4-6 Halls 4-6 4至6 4到6",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "bexco-halls-1-2",
+    "name": "BEXCO · 第一展览中心 1–2 号厅",
+    "short": "BEXCO 1–2 号厅",
+    "badge": "BEXCO 1–2 号厅",
+    "english": "BEXCO Exhibition Center 1, Halls 1–2",
+    "city": "釜山",
+    "region": "韩国",
+    "kind": "hall",
+    "geometry": {
+      "a": 36,
+      "b": 54,
+      "levels": 0
+    },
+    "url": "https://world.nol.com/ticket/places/25001711/products/25018276",
+    "mapUrl": null,
+    "aliases": "釜山会展中心 Busan 벡스코 제1전시장 Halls 1-2 1至2 1到2",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "kaohsiung-arena",
+    "name": "高雄巨蛋",
+    "short": "高雄巨蛋",
+    "badge": "高雄巨蛋",
+    "english": "Kaohsiung Arena",
+    "city": "高雄",
+    "region": "中国台湾",
+    "kind": "arena",
+    "geometry": {
+      "a": 28,
+      "b": 36,
+      "levels": 2
+    },
+    "url": "https://www.kaoarena.com.tw/Home/",
+    "mapUrl": "https://www.kaoarena.com.tw/Home/Seat",
+    "aliases": "高雄現代化綜合體育館 高雄现代化综合体育馆 K-ARENA",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "exco-east",
+    "name": "EXCO · 东馆",
+    "short": "EXCO 东馆",
+    "badge": "EXCO 东馆",
+    "english": "EXCO East Wing Hall",
+    "city": "大邱",
+    "region": "韩国",
+    "kind": "hall",
+    "geometry": {
+      "a": 36,
+      "b": 54,
+      "levels": 0
+    },
+    "url": "https://weverse.io/seventeen/notice/36203?hl=zh-cn",
+    "mapUrl": null,
+    "aliases": "大邱会展中心 大邱展览会议中心 Daegu 대구 엑스코 동관 East Hall",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "keio-arena-tokyo",
+    "name": "京王竞技场东京",
+    "short": "京王竞技场东京",
+    "badge": "KEIO ARENA TOKYO",
+    "english": "KEIO ARENA TOKYO",
+    "city": "东京",
+    "region": "日本",
+    "kind": "arena",
+    "geometry": {
+      "a": 25,
+      "b": 34,
+      "levels": 2
+    },
+    "url": "https://keio-arena.tokyo/facility/",
+    "mapUrl": "https://keio-arena.tokyo/seat/",
+    "aliases": "调布 Chofu 武藏野之森综合体育广场 Musashino Forest Sport Plaza",
+    "defaultLayout": "end",
+    "event": "端台 · 视野预览"
+  },
+  {
+    "id": "john-cain-arena",
+    "name": "John Cain Arena",
+    "short": "John Cain Arena",
+    "badge": "JOHN CAIN ARENA",
+    "english": "John Cain Arena",
+    "city": "墨尔本",
+    "region": "澳大利亚",
+    "kind": "arena",
+    "geometry": {
+      "a": 25,
+      "b": 38,
+      "levels": 2
+    },
+    "url": "https://www.melbournepark.com.au/news/biggest-concerts-2026/",
+    "mapUrl": null,
+    "aliases": "Melbourne 约翰凯恩竞技场",
+    "defaultLayout": "end",
+    "event": "端台 · 视野预览"
+  },
+  {
+    "id": "tiktok-entertainment-centre",
+    "name": "TikTok Entertainment Centre",
+    "short": "TikTok Entertainment Centre",
+    "badge": "TIKTOK ENTERTAINMENT CENTRE",
+    "english": "TikTok Entertainment Centre",
+    "city": "悉尼",
+    "region": "澳大利亚",
+    "kind": "hall",
+    "geometry": {
+      "a": 22,
+      "b": 32,
+      "levels": 3
+    },
+    "url": "https://www.darlingharbour.com/whats-on/archive/events/itzy",
+    "mapUrl": null,
+    "aliases": "Sydney ICC Sydney Theatre Aware Super Theatre 国际会议中心剧院",
+    "defaultLayout": "end",
+    "event": "端台 · 视野预览"
+  },
+  {
+    "id": "ovo-arena-wembley",
+    "name": "OVO Arena Wembley",
+    "short": "OVO Arena Wembley",
+    "badge": "OVO ARENA WEMBLEY",
+    "english": "OVO Arena Wembley",
+    "city": "伦敦",
+    "region": "英国",
+    "kind": "arena",
+    "geometry": {
+      "a": 25,
+      "b": 38,
+      "levels": 2
+    },
+    "url": "https://help.ticketmaster.co.uk/hc/en-us/articles/47521461703057-ITZY-3RD-WORLD-TOUR-TUNNEL-VISION-in-LONDON",
+    "mapUrl": null,
+    "aliases": "London 温布利体育馆 Wembley Arena",
+    "defaultLayout": "end",
+    "event": "端台 · 视野预览"
+  },
+  {
+    "id": "afas-live",
+    "name": "AFAS Live",
+    "short": "AFAS Live",
+    "badge": "AFAS LIVE",
+    "english": "AFAS Live",
+    "city": "阿姆斯特丹",
+    "region": "荷兰",
+    "kind": "hall",
+    "geometry": {
+      "a": 22,
+      "b": 30,
+      "levels": 1
+    },
+    "url": "https://www.livenation.nl/en/event/itzy-3rd-world-tour-tunnel-vision-in-amsterdam-amsterdam-tickets-edp1679992",
+    "mapUrl": null,
+    "aliases": "Amsterdam Heineken Music Hall 喜力音乐厅",
+    "defaultLayout": "end",
+    "event": "端台 · 视野预览"
+  },
+  {
+    "id": "zenith-paris",
+    "name": "巴黎天顶音乐厅",
+    "short": "巴黎天顶音乐厅",
+    "badge": "ZÉNITH PARIS – LA VILLETTE",
+    "english": "Zénith Paris – La Villette",
+    "city": "巴黎",
+    "region": "法国",
+    "kind": "hall",
+    "geometry": {
+      "a": 25,
+      "b": 30,
+      "levels": 1
+    },
+    "url": "https://le-zenith.com/shows/Itzy-22003",
+    "mapUrl": null,
+    "aliases": "Paris Zenith La Villette",
+    "defaultLayout": "end",
+    "event": "端台 · 视野预览"
+  },
+  {
+    "id": "festhalle-frankfurt",
+    "name": "法兰克福 Festhalle",
+    "short": "法兰克福 Festhalle",
+    "badge": "FESTHALLE FRANKFURT",
+    "english": "Festhalle Frankfurt",
+    "city": "法兰克福",
+    "region": "德国",
+    "kind": "hall",
+    "geometry": {
+      "a": 25,
+      "b": 38,
+      "levels": 2
+    },
+    "url": "https://festhalle.messefrankfurt.com/frankfurt/en/event-calendar/itzy.html",
+    "mapUrl": "https://festhalle.messefrankfurt.com/content/dam/messefrankfurt-redaktion/locations/festhalle-events/fh-003a-02.pdf",
+    "aliases": "Frankfurt 法兰克斯 法兰克福节日大厅",
+    "defaultLayout": "end",
+    "event": "端台 · 视野预览"
+  },
+  {
+    "id": "star-theatre",
+    "name": "星宇表演艺术中心 · 星宇剧场",
+    "short": "星宇剧场",
+    "badge": "THE STAR THEATRE",
+    "english": "The Star Theatre",
+    "city": "新加坡",
+    "region": "新加坡",
+    "kind": "hall",
+    "geometry": {
+      "a": 20,
+      "b": 25,
+      "levels": 3
+    },
+    "url": "https://www.thestar.sg/the-star-theatre",
+    "mapUrl": "https://dopinrae12872.cloudfront.net/wp-content/uploads/2015/07/The-Star-Theatre-layout-seating-plan.pdf",
+    "aliases": "Singapore The Star Performing Arts Centre 星宇艺术中心",
+    "defaultLayout": "end",
+    "event": "端台 · 视野预览"
+  },
+  {
+    "id": "busan-asiad",
+    "name": "釜山亚运会主体育场",
+    "short": "釜山亚运会主体育场",
+    "badge": "BUSAN",
+    "english": "Busan Asiad Main Stadium",
+    "city": "釜山",
+    "region": "韩国",
+    "kind": "stadium",
+    "geometry": {
+      "a": 96,
+      "b": 65,
+      "levels": 2
+    },
+    "url": "https://www.busan.go.kr/depart/culture0501010102",
+    "mapUrl": "https://ticket.yes24.com/Perf/59564",
+    "aliases": "釜山亚运主体育场 釜山亚运会主竞技场 釜山世界杯体育场 Busan Asiad 부산아시아드주경기장 TMA THE FACT MUSIC AWARDS",
+    "defaultLayout": "thrust",
+    "event": "2026 TMA · 分叉延伸舞台"
+  },
+  {
+    "id": "londoner-arena",
+    "name": "澳门伦敦人综艺馆",
+    "short": "澳门伦敦人综艺馆",
+    "badge": "THE LONDONER ARENA",
+    "english": "The Londoner Arena",
+    "city": "澳门",
+    "region": "中国澳门",
+    "kind": "hall",
+    "geometry": {
+      "a": 26.5,
+      "b": 12,
+      "levels": 3
+    },
+    "url": "https://www.sandsresortsmacao.com.cn/meetings/venues/londoner/arena.html",
+    "mapUrl": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/arena/lm_arena_floor-plan.pdf",
+    "aliases": "伦敦人 Londoner 倫敦人綜藝館",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "hangzhou-olympic-stadium",
+    "name": "杭州奥体中心体育场 · 大莲花",
+    "short": "杭州奥体中心体育场 · 大莲花",
+    "badge": "HANGZHOU OLYMPIC SPORTS CENTER STADIUM",
+    "english": "Hangzhou Olympic Sports Center Stadium",
+    "city": "杭州",
+    "region": "中国内地",
+    "kind": "stadium",
+    "geometry": {
+      "a": 66,
+      "b": 95,
+      "levels": 3
+    },
+    "url": "https://www.hangzhou2022.cn/dgyy/ed/202203/t20220329_46060.shtml",
+    "mapUrl": null,
+    "aliases": "杭州奥体 大莲花 大蓮花 奥体主体育场",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "hangzhou-olympic-arena",
+    "name": "杭州奥体中心体育馆",
+    "short": "杭州奥体中心体育馆",
+    "badge": "HANGZHOU OLYMPIC SPORTS CENTER GYMNASIUM",
+    "english": "Hangzhou Olympic Sports Center Gymnasium",
+    "city": "杭州",
+    "region": "中国内地",
+    "kind": "arena",
+    "geometry": {
+      "a": 24,
+      "b": 36,
+      "levels": 2
+    },
+    "url": "https://www.hangzhou2022.cn/sssg/sscg/202203/t20220330_46224.shtml",
+    "mapUrl": "https://www.hangzhou2022.cn/shipin/202310/P020231016575248816044.pdf#page=79",
+    "aliases": "杭州奥体 化蝶 室内馆 奥体体育馆 杭州奥体AT中心体育馆 奥体 AT 杭州AT 杭州AT天地",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "incheon-asiad",
+    "name": "仁川亚运会主体育场",
+    "short": "仁川亚运会主体育场",
+    "badge": "INCHEON ASIAD MAIN STADIUM",
+    "english": "Incheon Asiad Main Stadium",
+    "city": "仁川",
+    "region": "韩国",
+    "kind": "stadium",
+    "geometry": {
+      "a": 66,
+      "b": 96,
+      "levels": 2
+    },
+    "url": "https://www.incheon.go.kr/health/HE050211",
+    "mapUrl": "https://tkfile.yes24.com/Upload2/Board/202509/20250909/MAP.jpg",
+    "aliases": "仁川亚运 仁川亞運 인천아시아드주경기장",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "marvel-stadium",
+    "name": "Marvel Stadium · 漫威体育场",
+    "short": "Marvel Stadium · 漫威体育场",
+    "badge": "MARVEL STADIUM",
+    "english": "Marvel Stadium",
+    "city": "墨尔本",
+    "region": "澳大利亚",
+    "kind": "stadium",
+    "geometry": {
+      "a": 65,
+      "b": 80,
+      "levels": 3
+    },
+    "url": "https://www.marvelstadium.com.au/about-the-stadium/",
+    "mapUrl": "https://resources.marvelstadium.mediaservices.com.au/marvelstadium/document/2026/05/01/229e0479-1ed7-4192-82bb-8a712de920c9/Marvel-Stadium-Public-Stadium-Map_APR26.pdf",
+    "aliases": "墨尔本marvel 墨爾本 漫威 Docklands Stadium Etihad Stadium Telstra Dome",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "olympic-hall",
+    "name": "奥林匹克 Hall",
+    "short": "奥林匹克 Hall",
+    "badge": "OLYMPIC HALL",
+    "english": "Olympic Hall",
+    "city": "首尔",
+    "region": "韩国",
+    "kind": "hall",
+    "geometry": {
+      "a": 14,
+      "b": 20,
+      "levels": 3
+    },
+    "url": "https://www.ksponco.or.kr/menu.es?mid=a10405050300",
+    "mapUrl": "https://www.ksponco.or.kr/attachFiles/download/kspo/form3_8.jpg",
+    "aliases": "奥林匹克hall 首尔奥林匹克hall 올림픽홀 奥林匹克大厅",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "hwajeong-gymnasium",
+    "name": "高丽大学化汀体育馆",
+    "short": "高丽大学化汀体育馆",
+    "badge": "KOREA UNIVERSITY HWAJEONG GYMNASIUM",
+    "english": "Korea University Hwajeong Gymnasium",
+    "city": "首尔",
+    "region": "韩国",
+    "kind": "arena",
+    "geometry": {
+      "a": 16,
+      "b": 27.5,
+      "levels": 1
+    },
+    "url": "https://kuhj.korea.ac.kr/kuhj/facility/main.do",
+    "mapUrl": "https://kuhj.korea.ac.kr/_res/kuhj/etc/pdf_seat01.pdf",
+    "aliases": "高丽大化汀 高麗大學 化汀体育馆 华汀 华正 고려대학교 화정체육관 Tiger Dome",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "jangchung-arena",
+    "name": "奖忠体育馆",
+    "short": "奖忠体育馆",
+    "badge": "JANGCHUNG ARENA",
+    "english": "Jangchung Arena",
+    "city": "首尔",
+    "region": "韩国",
+    "kind": "arena",
+    "geometry": {
+      "a": 18,
+      "b": 20,
+      "levels": 2
+    },
+    "url": "https://www.sisul.or.kr/open_content/jangchung/introduce/intro.jsp",
+    "mapUrl": "https://www.sisul.or.kr/open_content/jangchung/guidance/seat.jsp",
+    "aliases": "奖忠 奖忠体育馆 獎忠 장충체육관 Jangchung Gymnasium",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "broadway-theatre",
+    "name": "澳门百老汇舞台",
+    "short": "澳门百老汇舞台",
+    "badge": "BROADWAY THEATRE",
+    "english": "Broadway Theatre",
+    "city": "澳门",
+    "region": "中国澳门",
+    "kind": "hall",
+    "geometry": {
+      "a": 16,
+      "b": 12,
+      "levels": 2
+    },
+    "url": "https://gmicc.com/ticketing/",
+    "mapUrl": "https://img.galaxymacau.com/2019-09/floor-plan.pdf#page=6",
+    "aliases": "澳门百老汇 澳門百老匯 Broadway Macau 百老汇剧场",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "kintex-hall-1",
+    "name": "KINTEX · 第1展览中心 1号厅",
+    "short": "KINTEX 1号厅",
+    "badge": "KINTEX HALL 1",
+    "english": "KINTEX Exhibition Center 1 Hall 1",
+    "city": "高阳",
+    "region": "韩国",
+    "kind": "hall",
+    "geometry": {
+      "a": 31.5,
+      "b": 85.5,
+      "levels": 0
+    },
+    "url": "https://www.kintex.com/web/ko/html/facility/exhibition_facility_01.do",
+    "mapUrl": "https://www.kintex.com/web/ko/html/facility/exhibition_facility_01.do",
+    "aliases": "高阳KINTEX 킨텍스 일산 킨텍스 1홀 Hall 1 KINTEX 1 第1展览馆",
+    "defaultLayout": "end",
+    "event": "展厅舞台预览"
+  },
+  {
+    "id": "kintex-hall-2",
+    "name": "KINTEX · 第1展览中心 2号厅",
+    "short": "KINTEX 2号厅",
+    "badge": "KINTEX HALL 2",
+    "english": "KINTEX Exhibition Center 1 Hall 2",
+    "city": "高阳",
+    "region": "韩国",
+    "kind": "hall",
+    "geometry": {
+      "a": 31.5,
+      "b": 85.5,
+      "levels": 0
+    },
+    "url": "https://www.kintex.com/web/ko/html/facility/exhibition_facility_01.do",
+    "mapUrl": "https://www.kintex.com/web/ko/html/facility/exhibition_facility_01.do",
+    "aliases": "高阳KINTEX 킨텍스 일산 킨텍스 2홀 Hall 2 KINTEX 1 第1展览馆",
+    "defaultLayout": "end",
+    "event": "展厅舞台预览"
+  },
+  {
+    "id": "kintex-hall-3",
+    "name": "KINTEX · 第1展览中心 3号厅",
+    "short": "KINTEX 3号厅",
+    "badge": "KINTEX HALL 3",
+    "english": "KINTEX Exhibition Center 1 Hall 3",
+    "city": "高阳",
+    "region": "韩国",
+    "kind": "hall",
+    "geometry": {
+      "a": 31.5,
+      "b": 85.5,
+      "levels": 0
+    },
+    "url": "https://www.kintex.com/web/ko/html/facility/exhibition_facility_01.do",
+    "mapUrl": "https://www.kintex.com/web/ko/html/facility/exhibition_facility_01.do",
+    "aliases": "高阳KINTEX 킨텍스 일산 킨텍스 3홀 Hall 3 KINTEX 1 第1展览馆",
+    "defaultLayout": "end",
+    "event": "展厅舞台预览"
+  },
+  {
+    "id": "kintex-hall-4",
+    "name": "KINTEX · 第1展览中心 4号厅",
+    "short": "KINTEX 4号厅",
+    "badge": "KINTEX HALL 4",
+    "english": "KINTEX Exhibition Center 1 Hall 4",
+    "city": "高阳",
+    "region": "韩国",
+    "kind": "hall",
+    "geometry": {
+      "a": 31.5,
+      "b": 85.5,
+      "levels": 0
+    },
+    "url": "https://www.kintex.com/web/ko/html/facility/exhibition_facility_01.do",
+    "mapUrl": "https://www.kintex.com/web/ko/html/facility/exhibition_facility_01.do",
+    "aliases": "高阳KINTEX 킨텍스 일산 킨텍스 4홀 Hall 4 KINTEX 1 第1展览馆",
+    "defaultLayout": "end",
+    "event": "展厅舞台预览"
+  },
+  {
+    "id": "kintex-hall-5",
+    "name": "KINTEX · 第1展览中心 5号厅",
+    "short": "KINTEX 5号厅",
+    "badge": "KINTEX HALL 5",
+    "english": "KINTEX Exhibition Center 1 Hall 5",
+    "city": "高阳",
+    "region": "韩国",
+    "kind": "hall",
+    "geometry": {
+      "a": 31.5,
+      "b": 85.5,
+      "levels": 0
+    },
+    "url": "https://www.kintex.com/web/ko/html/facility/exhibition_facility_01.do",
+    "mapUrl": "https://www.kintex.com/web/ko/html/facility/exhibition_facility_01.do",
+    "aliases": "高阳KINTEX 킨텍스 일산 킨텍스 5홀 Hall 5 KINTEX 1 第1展览馆",
+    "defaultLayout": "end",
+    "event": "展厅舞台预览"
+  },
+  {
+    "id": "kintex-hall-6",
+    "name": "KINTEX · 第2展览中心 6号厅（Event Hall）",
+    "short": "KINTEX 6号厅",
+    "badge": "KINTEX HALL 6",
+    "english": "KINTEX Exhibition Center 2 Hall 6",
+    "city": "高阳",
+    "region": "韩国",
+    "kind": "hall",
+    "geometry": {
+      "a": 30,
+      "b": 46.5,
+      "levels": 0
+    },
+    "url": "https://www.kintex.com/web/ko/html/facility/exhibition_facility_02.do",
+    "mapUrl": "https://www.kintex.com/web/ko/html/facility/exhibition_facility_02.do",
+    "aliases": "高阳KINTEX 킨텍스 일산 킨텍스 6홀 Hall 6 KINTEX 2 第2展览馆",
+    "defaultLayout": "end",
+    "event": "展厅舞台预览"
+  },
+  {
+    "id": "kintex-hall-7",
+    "name": "KINTEX · 第2展览中心 7号厅",
+    "short": "KINTEX 7号厅",
+    "badge": "KINTEX HALL 7",
+    "english": "KINTEX Exhibition Center 2 Hall 7",
+    "city": "高阳",
+    "region": "韩国",
+    "kind": "hall",
+    "geometry": {
+      "a": 45,
+      "b": 63,
+      "levels": 0
+    },
+    "url": "https://www.kintex.com/web/ko/html/facility/exhibition_facility_02.do",
+    "mapUrl": "https://www.kintex.com/web/ko/html/facility/exhibition_facility_02.do",
+    "aliases": "高阳KINTEX 킨텍스 일산 킨텍스 7홀 Hall 7 KINTEX 2 第2展览馆",
+    "defaultLayout": "end",
+    "event": "展厅舞台预览"
+  },
+  {
+    "id": "kintex-hall-8",
+    "name": "KINTEX · 第2展览中心 8号厅",
+    "short": "KINTEX 8号厅",
+    "badge": "KINTEX HALL 8",
+    "english": "KINTEX Exhibition Center 2 Hall 8",
+    "city": "高阳",
+    "region": "韩国",
+    "kind": "hall",
+    "geometry": {
+      "a": 45,
+      "b": 63,
+      "levels": 0
+    },
+    "url": "https://www.kintex.com/web/ko/html/facility/exhibition_facility_02.do",
+    "mapUrl": "https://www.kintex.com/web/ko/html/facility/exhibition_facility_02.do",
+    "aliases": "高阳KINTEX 킨텍스 일산 킨텍스 8홀 Hall 8 KINTEX 2 第2展览馆",
+    "defaultLayout": "end",
+    "event": "展厅舞台预览"
+  },
+  {
+    "id": "kintex-hall-9",
+    "name": "KINTEX · 第2展览中心 9号厅",
+    "short": "KINTEX 9号厅",
+    "badge": "KINTEX HALL 9",
+    "english": "KINTEX Exhibition Center 2 Hall 9",
+    "city": "高阳",
+    "region": "韩国",
+    "kind": "hall",
+    "geometry": {
+      "a": 49.5,
+      "b": 66,
+      "levels": 0
+    },
+    "url": "https://www.kintex.com/web/ko/html/facility/exhibition_facility_02.do",
+    "mapUrl": "https://www.kintex.com/web/ko/html/facility/exhibition_facility_02.do",
+    "aliases": "高阳KINTEX 킨텍스 일산 킨텍스 9홀 Hall 9 KINTEX 2 第2展览馆",
+    "defaultLayout": "end",
+    "event": "展厅舞台预览"
+  },
+  {
+    "id": "kintex-hall-10",
+    "name": "KINTEX · 第2展览中心 10号厅",
+    "short": "KINTEX 10号厅",
+    "badge": "KINTEX HALL 10",
+    "english": "KINTEX Exhibition Center 2 Hall 10",
+    "city": "高阳",
+    "region": "韩国",
+    "kind": "hall",
+    "geometry": {
+      "a": 49.5,
+      "b": 66,
+      "levels": 0
+    },
+    "url": "https://www.kintex.com/web/ko/html/facility/exhibition_facility_02.do",
+    "mapUrl": "https://www.kintex.com/web/ko/html/facility/exhibition_facility_02.do",
+    "aliases": "高阳KINTEX 킨텍스 일산 킨텍스 10홀 Hall 10 KINTEX 2 第2展览馆",
+    "defaultLayout": "end",
+    "event": "展厅舞台预览"
+  },
+  {
+    "id": "londoner-theatre",
+    "name": "澳门伦敦人剧场",
+    "short": "澳门伦敦人剧场",
+    "badge": "THE LONDONER THEATRE",
+    "english": "The Londoner Theatre",
+    "city": "澳门",
+    "region": "中国澳门",
+    "kind": "hall",
+    "geometry": {
+      "a": 16,
+      "b": 8,
+      "levels": 2
+    },
+    "url": "https://en.sandsresortsmacao.com/meetings/venues/londoner/theatre.html",
+    "mapUrl": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/theatre/lm_theatre_floor-plan.pdf",
+    "aliases": "倫敦人劇場 Londoner Theatre 金沙城中心剧场 Sands Cotai Theatre",
+    "defaultLayout": "end",
+    "event": "剧场固定端台预览"
+  },
+  {
+    "id": "union-hall",
+    "name": "UNION HALL · Hall 2",
+    "short": "UNION HALL · Hall 2",
+    "badge": "UNION HALL 2",
+    "english": "Union Hall 2",
+    "city": "曼谷",
+    "region": "泰国",
+    "kind": "hall",
+    "geometry": {
+      "a": 23.75,
+      "b": 49,
+      "levels": 0
+    },
+    "url": "https://unionhallthailand.com/room/hall-1-and-hall-2/",
+    "mapUrl": "https://unionhallthailand.com/wp-content/uploads/2019/08/UNION-HALL-PLAN-HALL-OVERVIEW.pdf",
+    "aliases": "泰国UNION HALL Union Mall ยูเนี่ยน ฮอลล์ ยูเนี่ยนมอลล์ 曼谷Union Hall 2",
+    "defaultLayout": "end",
+    "event": "Hall 2 · 舞台预览"
+  },
+  {
+    "id": "bitec-live",
+    "name": "BITEC LIVE",
+    "short": "BITEC LIVE",
+    "badge": "BITEC LIVE",
+    "english": "BITEC Live",
+    "city": "曼谷",
+    "region": "泰国",
+    "kind": "hall",
+    "geometry": {
+      "a": 60,
+      "b": 29.5,
+      "levels": 1
+    },
+    "url": "https://www.bitec.co.th/th/bitec-live",
+    "mapUrl": "https://wordpress-1328545-5763448.cloudwaysapps.com/wp-content/uploads/2025/09/Fast-Fact-BITEC-Live-as-of-25.10.2024.pdf",
+    "aliases": "泰国BITECLIVE BITEC LIVE ไบเทค ไลฟ์ Bangna 曼谷BITEC",
+    "defaultLayout": "end",
+    "event": "长边端台 · 舞台预览"
+  },
+  {
+    "id": "beijing-workers-stadium",
+    "name": "北京工人体育场 · 新工体",
+    "short": "北京工人体育场 · 新工体",
+    "badge": "BEIJING WORKERS’ STADIUM",
+    "english": "Beijing Workers’ Stadium",
+    "city": "北京",
+    "region": "中国内地",
+    "kind": "stadium",
+    "geometry": {
+      "a": 42.5,
+      "b": 62.5,
+      "levels": 3
+    },
+    "url": "https://www.sinobo.com/bjgrtyg",
+    "mapUrl": null,
+    "aliases": "北京工体 新工体 工人体育场 Gongti Workers Stadium 北京国安",
+    "defaultLayout": "end",
+    "event": "体育场端台预览"
+  },
+  {
+    "id": "suzhou-sports-center-gymnasium",
+    "name": "苏州体育中心体育馆",
+    "short": "苏州体育中心体育馆",
+    "badge": "SUZHOU SPORTS CENTER GYMNASIUM",
+    "english": "Suzhou Sports Center Gymnasium",
+    "city": "苏州",
+    "region": "中国内地",
+    "kind": "arena",
+    "geometry": {
+      "a": 19,
+      "b": 30,
+      "levels": 2
+    },
+    "url": "https://www.jszwfw.gov.cn/art/2016/11/7/art_95371_133120.html",
+    "mapUrl": null,
+    "aliases": "苏州市体育中心体育馆 苏州体育中心 三香路体育馆 姑苏体育中心 Suzhou Sports Centre Gymnasium",
+    "defaultLayout": "end",
+    "event": "体育馆端台预览"
+  },
+  {
+    "id": "shenzhen-universiade-stadium",
+    "name": "深圳大运中心体育场",
+    "short": "深圳大运中心体育场",
+    "badge": "SHENZHEN UNIVERSIADE CENTER STADIUM",
+    "english": "Shenzhen Universiade Center Stadium",
+    "city": "深圳",
+    "region": "中国内地",
+    "kind": "stadium",
+    "geometry": {
+      "a": 55,
+      "b": 90,
+      "levels": 3
+    },
+    "url": "https://wtl.sz.gov.cn/ggfw/tyl/zytycgylb/content/post_11664507.html",
+    "mapUrl": null,
+    "aliases": "深圳大运体育场 深圳大运中心体育场 龙岗大运中心体育场 Universiade Stadium",
+    "defaultLayout": "end",
+    "event": "体育场端台预览"
+  },
+  {
+    "id": "shenzhen-bay-gymnasium",
+    "name": "深圳湾体育中心体育馆 · 春茧",
+    "short": "深圳湾体育中心体育馆 · 春茧",
+    "badge": "SHENZHEN BAY SPORTS CENTER GYMNASIUM",
+    "english": "Shenzhen Bay Sports Center Gymnasium",
+    "city": "深圳",
+    "region": "中国内地",
+    "kind": "arena",
+    "geometry": {
+      "a": 20,
+      "b": 35,
+      "levels": 2
+    },
+    "url": "https://www.szns.gov.cn/mlns/whns/tycg/content/post_12589347.html",
+    "mapUrl": null,
+    "aliases": "深圳春蚕体育馆 深圳春茧体育馆 春茧 春蚕 深圳湾体育馆 华润深圳湾体育中心体育馆 Spring Cocoon",
+    "defaultLayout": "end",
+    "event": "体育馆端台预览"
+  },
+  {
+    "id": "chengdu-dongan-lake-gymnasium",
+    "name": "成都东安湖体育公园多功能体育馆",
+    "short": "东安湖体育馆",
+    "badge": "DONG’AN LAKE SPORTS PARK MULTIFUNCTIONAL GYMNASIUM",
+    "english": "Dong’an Lake Sports Park Multifunctional Gymnasium",
+    "city": "成都",
+    "region": "中国内地",
+    "kind": "arena",
+    "geometry": {
+      "a": 22,
+      "b": 36,
+      "levels": 3
+    },
+    "url": "https://www.cscec.com/xwzx_new/zqydt_new/202009/3193630.html",
+    "mapUrl": null,
+    "aliases": "成都东安湖场馆 东安湖体育馆 东安湖多功能体育馆 龙泉驿东安湖 Dongan Lake",
+    "defaultLayout": "end",
+    "event": "体育馆端台预览"
+  },
+  {
+    "id": "chengdu-wuliangye-gymnasium",
+    "name": "成都五粮液文化体育中心综合体育馆",
+    "short": "五粮液综合体育馆",
+    "badge": "WULIANGYE CULTURE AND SPORTS CENTER GYMNASIUM",
+    "english": "Wuliangye Culture and Sports Center Gymnasium",
+    "city": "成都",
+    "region": "中国内地",
+    "kind": "arena",
+    "geometry": {
+      "a": 21,
+      "b": 35,
+      "levels": 3
+    },
+    "url": "https://tradeinservices.mofcom.gov.cn/article/difang/maoydt/202506/176951.html",
+    "mapUrl": null,
+    "aliases": "成都五粮液场馆 五粮液体育馆 凤凰山体育公园综合体育馆 凤凰山体育馆 金牛凤凰山 Fenghuangshan Gymnasium",
+    "defaultLayout": "end",
+    "event": "体育馆端台预览"
+  },
+  {
+    "id": "haikou-wuyuanhe-stadium",
+    "name": "海口五源河体育场",
+    "short": "五源河体育场",
+    "badge": "HAIKOU WUYUANHE STADIUM",
+    "english": "Haikou Wuyuanhe Stadium",
+    "city": "海口",
+    "region": "中国内地",
+    "kind": "stadium",
+    "geometry": {
+      "a": 55,
+      "b": 90,
+      "levels": 2
+    },
+    "url": "https://www.gmp.de/en/news/41/press/4909/a-stadium-with-an-ocean-view-by-gmp",
+    "mapUrl": null,
+    "aliases": "海南五源河体育场 五源河文体中心体育场 海口五源河 秀英五源河 Wuyuan River Stadium",
+    "defaultLayout": "end",
+    "event": "体育场端台预览"
+  },
+  {
+    "id": "changsha-helong-gymnasium",
+    "name": "长沙贺龙体育馆",
+    "short": "贺龙体育馆",
+    "badge": "CHANGSHA HELONG GYMNASIUM",
+    "english": "Changsha Helong Gymnasium",
+    "city": "长沙",
+    "region": "中国内地",
+    "kind": "arena",
+    "geometry": {
+      "a": 15,
+      "b": 29,
+      "levels": 2
+    },
+    "url": "https://tyj.hunan.gov.cn/tyj/tslm/tyws/200309/t20030916_3464691.html",
+    "mapUrl": null,
+    "aliases": "湖南贺龙体育馆 长沙贺龙体育馆 侯家塘贺龙 Helong Indoor Arena",
+    "defaultLayout": "end",
+    "event": "体育馆端台预览"
+  },
+  {
+    "id": "asiaworld-summit-hall-2",
+    "name": "亚洲国际博览馆 · 2号馆",
+    "short": "亚博 2号馆",
+    "badge": "ASIAWORLD-SUMMIT HALL 2",
+    "english": "AsiaWorld-Summit (Hall 2)",
+    "city": "香港",
+    "region": "中国香港",
+    "kind": "hall",
+    "geometry": {
+      "a": 41,
+      "b": 50,
+      "levels": 0
+    },
+    "url": "https://www.asiaworld-expo.com/en-us/planning/venues/asiaworld-arena-%28hall-1%29-asiaworld-summit-%28hall-2%29/",
+    "mapUrl": "https://www.asiaworld-expo.com/assets/images/capacityTable/AWE-H2-summit-th5000.jpg",
+    "aliases": "香港 亚博 AWE AsiaWorld-Expo AsiaWorld-Summit Hall 2 2号馆 二号馆",
+    "defaultLayout": "end",
+    "event": "5,000 座剧院式基础预览"
+  },
+  {
+    "id": "asiaworld-hall-10",
+    "name": "亚洲国际博览馆 · 10号馆",
+    "short": "10号馆",
+    "badge": "ASIAWORLD-EXPO HALL 10",
+    "english": "AsiaWorld-Expo Hall 10",
+    "city": "香港",
+    "region": "中国香港",
+    "kind": "hall",
+    "geometry": {
+      "a": 26,
+      "b": 40,
+      "levels": 0
+    },
+    "url": "https://www.asiaworld-expo.com/en-us/planning/venues/hall-6-8-n-10/",
+    "mapUrl": null,
+    "aliases": "香港 亚博 AWE AsiaWorld-Expo Hall 10",
+    "defaultLayout": "end",
+    "event": "展演大厅基础示意"
+  },
+  {
+    "id": "asiaworld-runway-11",
+    "name": "亚洲国际博览馆 · Runway 11",
+    "short": "Runway 11",
+    "badge": "ASIAWORLD-EXPO RUNWAY 11",
+    "english": "AsiaWorld-Expo Runway 11",
+    "city": "香港",
+    "region": "中国香港",
+    "kind": "hall",
+    "geometry": {
+      "a": 26,
+      "b": 40,
+      "levels": 0
+    },
+    "url": "https://www.asiaworld-expo.com/en-us/planning/venues/runway-11/",
+    "mapUrl": null,
+    "aliases": "香港 亚博 AWE AsiaWorld-Expo Runway 11",
+    "defaultLayout": "end",
+    "event": "展演大厅基础示意"
+  },
+  {
+    "id": "kbs-arena",
+    "name": "KBS Arena",
+    "short": "KBS Arena",
+    "badge": "KBS ARENA",
+    "english": "KBS Arena",
+    "city": "首尔",
+    "region": "韩国",
+    "kind": "arena",
+    "geometry": {
+      "a": 10,
+      "b": 16,
+      "levels": 1
+    },
+    "url": "https://kbsarena.com/intro/viewKBSarena.do",
+    "mapUrl": "https://www.kbsarena.com/intro/viewKBSarenaSheet.do?type=arena",
+    "aliases": "KBS아레나 KBS体育馆 KBS竞技场 KBS스포츠월드 아레나 KBS Sports World Arena",
+    "defaultLayout": "end",
+    "event": "固定 A–I 看台与 J 内场"
+  },
+  {
+    "id": "galaxy-g-box",
+    "name": "澳门银河 G Box",
+    "short": "G Box",
+    "badge": "G BOX",
+    "english": "G Box at Galaxy Macau",
+    "city": "澳门",
+    "region": "中国澳门",
+    "kind": "hall",
+    "geometry": {
+      "a": 25,
+      "b": 16,
+      "levels": 0
+    },
+    "url": "https://www.galaxymacau.com/zh-hant/entertainment/performance-venue-infinite-possibilities-galaxy-macau/",
+    "mapUrl": "https://www.galaxyticketing.com/#/allEvents/detail?projectId=50000001592002",
+    "aliases": "澳门Gbox馆 澳门G Box GBox G Box 银河 G-Box Galaxy Macau",
+    "defaultLayout": "end",
+    "event": "OMEGA X〈BEYOND〉澳门站"
+  },
+  {
+    "id": "incheon-munhak-stadium",
+    "name": "韩国仁川文鹤竞技场",
+    "short": "仁川文鹤竞技场",
+    "badge": "INCHEON MUNHAK STADIUM",
+    "english": "Incheon Munhak Main Stadium",
+    "city": "仁川",
+    "region": "韩国",
+    "kind": "stadium",
+    "geometry": {
+      "a": 68,
+      "b": 98,
+      "levels": 2
+    },
+    "url": "https://www.incheon.go.kr/jp/JP030115/view?contentid=1310265&curPage=6",
+    "mapUrl": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/",
+    "aliases": "仁川文鹤主体育场 仁川世界杯体育场 Incheon Munhak Main Stadium 인천문학경기장 인천월드컵경기장 文鶴競技場",
+    "defaultLayout": "end",
+    "event": "固定 S / N / E 看台 · 演出内场按场次配置"
+  },
+  {
+    "id": "huanglong-gymnasium",
+    "name": "黄龙体育中心体育馆",
+    "short": "黄龙体育馆",
+    "badge": "HUANGLONG GYMNASIUM",
+    "english": "Huanglong Sports Center Gymnasium",
+    "city": "杭州",
+    "region": "中国大陆",
+    "kind": "arena",
+    "geometry": {
+      "a": 28,
+      "b": 38,
+      "levels": 2
+    },
+    "url": "https://www.zjhlsports.cn/changguanzulin/",
+    "mapUrl": "https://www.dahepiao.com/news1/yanchu/20260910549629.html",
+    "aliases": "杭州黄龙体育中心体育馆 黄龙体育馆 Huanglong Gymnasium 黄龙中心体育馆",
+    "defaultLayout": "end",
+    "event": "何浩楠「HE ART」杭州站"
+  },
+  {
+    "id": "gbk-main-stadium",
+    "name": "印尼格罗拉蓬卡诺体育场",
+    "short": "GBK 主体育场",
+    "badge": "GELORA BUNG KARNO",
+    "english": "Gelora Bung Karno Main Stadium",
+    "city": "雅加达",
+    "region": "印度尼西亚",
+    "kind": "stadium",
+    "geometry": {
+      "a": 76,
+      "b": 108,
+      "levels": 2
+    },
+    "url": "https://gbk.id/venue/stadion-utama-gelora-bung-karno-1",
+    "mapUrl": "https://www.mirifica.net/wp-content/uploads/GUIDEBOOK-GBKINDUPDATE250824.pdf",
+    "aliases": "格罗拉蓬卡诺主体育场 GBK Stadium Stadion Utama Gelora Bung Karno SUGBK 印尼国家体育场 苏加诺体育场",
+    "defaultLayout": "end",
+    "event": "YE · BTS「ARIRANG」"
+  },
+  {
+    "id": "hkcec-hall-5bc",
+    "name": "香港会议展览中心 · Hall 5BC",
+    "short": "香港会展 Hall 5BC",
+    "badge": "HKCEC HALL 5BC",
+    "english": "Hong Kong Convention and Exhibition Centre · Hall 5BC",
+    "city": "香港",
+    "region": "中国香港",
+    "kind": "hall",
+    "geometry": {
+      "a": 39,
+      "b": 52,
+      "levels": 0
+    },
+    "url": "https://www.hkcec.com/zh/%E5%B1%95%E8%A6%BD%E5%BB%B35BC",
+    "mapUrl": "https://www.hkcec.com/en/virtual-tour",
+    "aliases": "香港会议展览中心 香港會議展覽中心 香港会展 HKCEC Hong Kong Convention and Exhibition Centre Convention Exhibition Center 会展5BC 展览厅5BC 展覽廳5BC Hall 5BC 湾仔 Wan Chai",
+    "defaultLayout": "end",
+    "event": "Hall 5BC · 104×78 米基础预览"
+  },
+  {
+    "id": "ajinomoto-stadium",
+    "name": "日本味之素体育场",
+    "short": "味之素体育场",
+    "badge": "AJINOMOTO STADIUM",
+    "english": "Ajinomoto Stadium (Tokyo Stadium)",
+    "city": "东京",
+    "region": "日本",
+    "kind": "stadium",
+    "geometry": {
+      "a": 72,
+      "b": 110,
+      "levels": 2
+    },
+    "url": "https://www.ajinomotostadium.com/overview/stadium.php",
+    "mapUrl": "https://www.ajinomotostadium.com/seat/",
+    "aliases": "东京体育场 Tokyo Stadium 味の素スタジアム 味スタ Ajisuta 調布 飞田给",
+    "defaultLayout": "end",
+    "event": "固定上下层看台 · 南端演唱会端台示意"
+  },
+  {
+    "id": "asiaworld-viva",
+    "name": "亚洲国际博览馆 · VIVA",
+    "short": "亚博 VIVA",
+    "badge": "ASIAWORLD-EXPO VIVA",
+    "english": "AsiaWorld-Expo VIVA",
+    "city": "香港",
+    "region": "中国香港",
+    "kind": "hall",
+    "geometry": {
+      "a": 35,
+      "b": 80,
+      "levels": 1
+    },
+    "url": "https://www.asiaworld-expo.com/en-us/planning/venues/hall-6-8-n-10/",
+    "mapUrl": null,
+    "aliases": "VIVA 亚博 6 8 10 馆 6馆 8馆 10馆",
+    "defaultLayout": "end",
+    "event": "8＋10 馆参考布局"
+  },
+  {
+    "id": "shenzhen-baoan-stadium",
+    "name": "深圳市宝安体育中心体育场",
+    "short": "宝安体育场",
+    "badge": "BAOAN STADIUM",
+    "english": "Bao'an Stadium",
+    "city": "深圳",
+    "region": "中国内地",
+    "kind": "stadium",
+    "geometry": {
+      "a": 44,
+      "b": 70,
+      "levels": 2
+    },
+    "url": "https://chat.shenchuang.com/hd/20190725/1497455.shtml",
+    "mapUrl": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg",
+    "aliases": "深圳宝安体育场 宝体体育场 Baoan Stadium",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "shenzhen-baoan-gymnasium",
+    "name": "深圳市宝安体育中心体育馆",
+    "short": "宝安体育馆",
+    "badge": "BAOAN GYMNASIUM",
+    "english": "Bao'an Gymnasium",
+    "city": "深圳",
+    "region": "中国内地",
+    "kind": "arena",
+    "geometry": {
+      "a": 23,
+      "b": 33,
+      "levels": 1
+    },
+    "url": "https://i.ifeng.com/c/8x8nDgxfjWq",
+    "mapUrl": "https://static.maitepiao.com/tickets/2026/09/67868202609231744371800.png",
+    "aliases": "深圳宝安体育馆 宝体体育馆 Baoan Gymnasium 石凯 时空乐园",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "zhengzhou-olympic-gymnasium",
+    "name": "郑州市奥林匹克体育中心体育馆",
+    "short": "郑州奥体体育馆",
+    "badge": "ZHENGZHOU OLYMPIC GYMNASIUM",
+    "english": "Zhengzhou Olympic Sports Center Gymnasium",
+    "city": "郑州",
+    "region": "中国内地",
+    "kind": "arena",
+    "geometry": {
+      "a": 24,
+      "b": 31,
+      "levels": 2
+    },
+    "url": "https://weibo.com/2/detail/5355732066632705",
+    "mapUrl": "https://maitepiao.oss-accelerate.aliyuncs.com/tickets/2025/05/1a984202505081539158497.jpg",
+    "aliases": "郑州奥体中心体育馆 郑州奥林匹克体育馆 洋河梦之蓝体育馆 侯明昊 属于我们的",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "nanjing-youth-olympic-gymnasium",
+    "name": "南京梦之蓝青奥体育公园体育馆",
+    "short": "南京青奥体育馆",
+    "badge": "NANJING YOUTH OLYMPIC GYMNASIUM",
+    "english": "Nanjing Youth Olympic Sports Park Gymnasium",
+    "city": "南京",
+    "region": "中国内地",
+    "kind": "arena",
+    "geometry": {
+      "a": 21.5,
+      "b": 30,
+      "levels": 3
+    },
+    "url": "https://weibo.com/2/detail/5353562416351919",
+    "mapUrl": "/maps/xiaozhan-nanjing-202610.jpg",
+    "aliases": "南京青奥体育公园体育馆 梦之蓝青奥 江鸥馆 肖战 出口 我们",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "qingdao-citizen-stadium",
+    "name": "青岛市民健身中心体育场",
+    "short": "青岛市民健身中心体育场",
+    "badge": "QINGDAO CITIZEN FITNESS CENTER STADIUM",
+    "english": "Qingdao Citizen Fitness Center Stadium",
+    "city": "青岛",
+    "region": "中国内地",
+    "kind": "stadium",
+    "geometry": {
+      "a": 46,
+      "b": 72,
+      "levels": 2
+    },
+    "url": "https://weibo.com/2/detail/5346627721364096",
+    "mapUrl": "/maps/wangsulong-qingdao-202610.jpg",
+    "aliases": "青岛市民健身中心 海之沙 红岛体育场 汪苏泷 明日世界",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "guangxi-sports-stadium",
+    "name": "广西体育中心主体育场",
+    "short": "广西体育中心主体育场",
+    "badge": "GUANGXI SPORTS CENTER STADIUM",
+    "english": "Guangxi Sports Center Stadium",
+    "city": "南宁",
+    "region": "中国内地",
+    "kind": "stadium",
+    "geometry": {
+      "a": 46,
+      "b": 72,
+      "levels": 2
+    },
+    "url": "https://www.taihemusic.cn/news/2218",
+    "mapUrl": "/maps/xusong-nanning-202610.jpg",
+    "aliases": "广西体育中心 南宁体育中心 许嵩 安泊猜想",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "shanxi-sports-stadium",
+    "name": "山西体育中心体育场",
+    "short": "山西体育中心体育场",
+    "badge": "SHANXI SPORTS CENTER STADIUM",
+    "english": "Shanxi Sports Center Stadium",
+    "city": "太原",
+    "region": "中国内地",
+    "kind": "stadium",
+    "geometry": {
+      "a": 46,
+      "b": 72,
+      "levels": 3
+    },
+    "url": "https://cnsdc.org.cn/venue_booking/show-40.html",
+    "mapUrl": "/maps/shanxi-fixed-stands-reference.png",
+    "aliases": "山西体育中心 红灯笼 太原体育场",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "xiamen-egret-stadium",
+    "name": "厦门白鹭体育场",
+    "short": "厦门白鹭体育场",
+    "badge": "XIAMEN EGRET STADIUM",
+    "english": "Xiamen Egret Stadium",
+    "city": "厦门",
+    "region": "中国内地",
+    "kind": "stadium",
+    "geometry": {
+      "a": 57,
+      "b": 43,
+      "levels": 3
+    },
+    "url": "https://detail.damai.cn/item.htm?id=1083650546473",
+    "mapUrl": "/maps/xue-xiamen-202610.jpg",
+    "aliases": "厦门奥林匹克体育中心 厦门奥体中心 白鹭体育场 薛之谦 万兽之王",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "guangzhou-gba-stadium",
+    "name": "大湾区文化体育中心体育场",
+    "short": "大湾区文化体育中心",
+    "badge": "GREATER BAY AREA CULTURE AND SPORTS CENTER STADIUM",
+    "english": "Greater Bay Area Culture and Sports Center Stadium",
+    "city": "广州",
+    "region": "中国内地",
+    "kind": "stadium",
+    "geometry": {
+      "a": 66,
+      "b": 90,
+      "levels": 3
+    },
+    "url": "https://www.gdfa.gd.cn/news/1971",
+    "mapUrl": null,
+    "aliases": "南沙 广州市大湾区文化体育中心体育场 南沙全民文化体育综合体 时代少年团 加冠礼",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "wenzhou-olympic-stadium",
+    "name": "温州奥体中心体育场",
+    "short": "温州奥体中心",
+    "badge": "WENZHOU OLYMPIC SPORTS CENTER STADIUM",
+    "english": "Wenzhou Olympic Sports Center Stadium",
+    "city": "温州",
+    "region": "中国内地",
+    "kind": "stadium",
+    "geometry": {
+      "a": 58,
+      "b": 83,
+      "levels": 3
+    },
+    "url": "https://wdapp.wzrb.com.cn/app_pub/xw/tj/202610/t20261016_635878.html",
+    "mapUrl": null,
+    "aliases": "温州奥林匹克体育中心 龙湾奥体 温州奥体中心主体育场 王力宏 最好的地方",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "hubei-olympic-arena",
+    "name": "湖北省奥林匹克体育中心体育馆",
+    "short": "湖北省奥体体育馆",
+    "badge": "HUBEI OLYMPIC SPORTS CENTER GYMNASIUM",
+    "english": "Hubei Olympic Sports Center Gymnasium",
+    "city": "武汉",
+    "region": "中国内地",
+    "kind": "arena",
+    "geometry": {
+      "a": 24,
+      "b": 33,
+      "levels": 1
+    },
+    "url": "https://www.wuhan.gov.cn/hdjl/rdhy/202608/t20260822_2837519.shtml",
+    "mapUrl": null,
+    "aliases": "湖北省奥林匹克体育中心 湖北省奥体 光谷 江夏 洛天依 纯蓝幻乐",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "guangzhou-gba-stadium",
+    "name": "大湾区文化体育中心体育场",
+    "short": "大湾区文化体育中心",
+    "badge": "GREATER BAY AREA CULTURE AND SPORTS CENTER STADIUM",
+    "english": "Greater Bay Area Culture and Sports Center Stadium",
+    "city": "广州",
+    "region": "中国内地",
+    "kind": "stadium",
+    "geometry": {
+      "a": 66,
+      "b": 90,
+      "levels": 3
+    },
+    "url": "https://www.gdfa.gd.cn/news/1971",
+    "mapUrl": null,
+    "aliases": "南沙 广州市大湾区文化体育中心体育场 南沙全民文化体育综合体 时代少年团 加冠礼",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "wenzhou-olympic-stadium",
+    "name": "温州奥体中心体育场",
+    "short": "温州奥体中心",
+    "badge": "WENZHOU OLYMPIC SPORTS CENTER STADIUM",
+    "english": "Wenzhou Olympic Sports Center Stadium",
+    "city": "温州",
+    "region": "中国内地",
+    "kind": "stadium",
+    "geometry": {
+      "a": 58,
+      "b": 83,
+      "levels": 3
+    },
+    "url": "https://wdapp.wzrb.com.cn/app_pub/xw/tj/202610/t20261016_635878.html",
+    "mapUrl": null,
+    "aliases": "温州奥林匹克体育中心 龙湾奥体 温州奥体中心主体育场 王力宏 最好的地方",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "hubei-olympic-arena",
+    "name": "湖北省奥林匹克体育中心体育馆",
+    "short": "湖北省奥体体育馆",
+    "badge": "HUBEI OLYMPIC SPORTS CENTER GYMNASIUM",
+    "english": "Hubei Olympic Sports Center Gymnasium",
+    "city": "武汉",
+    "region": "中国内地",
+    "kind": "arena",
+    "geometry": {
+      "a": 24,
+      "b": 33,
+      "levels": 1
+    },
+    "url": "https://www.wuhan.gov.cn/hdjl/rdhy/202608/t20260822_2837519.shtml",
+    "mapUrl": null,
+    "aliases": "湖北省奥林匹克体育中心 湖北省奥体 光谷 江夏 洛天依 纯蓝幻乐",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "chengdu-dongan-lake-stadium",
+    "name": "成都东安湖体育公园主体育场",
+    "short": "东安湖主体育场",
+    "badge": "DONGAN LAKE SPORTS PARK STADIUM",
+    "english": "Dong'an Lake Sports Park Main Stadium",
+    "city": "成都",
+    "region": "中国内地",
+    "kind": "stadium",
+    "geometry": {
+      "a": 48,
+      "b": 76,
+      "levels": 2
+    },
+    "url": "https://2bur.cscec.com/xwzx6/qykw6/202305/P020230512520523007082.pdf",
+    "mapUrl": null,
+    "aliases": "成都东安湖体育场 东安湖主体育场 龙泉驿 大运会开幕式 汪苏泷 明日世界",
+    "defaultLayout": "end",
+    "event": "体育场舞台预览"
+  },
+  {
+    "id": "macau-grand-lisboa-palace",
+    "name": "澳门上葡京综艺馆",
+    "short": "上葡京综艺馆",
+    "badge": "THE GRAND HALL, GRAND LISBOA PALACE RESORT MACAU",
+    "english": "The Grand Hall, Grand Lisboa Palace Resort Macau",
+    "city": "澳门",
+    "region": "中国澳门",
+    "kind": "hall",
+    "geometry": {
+      "a": 33,
+      "b": 25,
+      "levels": 0
+    },
+    "url": "https://168production.kktix.cc/events/hwangminhyun-macau-2026",
+    "mapUrl": "https://168production.kktix.cc/events/hwangminhyun-macau-2026",
+    "aliases": "上葡京 上葡京综艺馆 Grand Lisboa Palace 黄旼炫 金智媛",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "hong-kong-axa-dreamland",
+    "name": "香港 AXA 安盛创梦馆",
+    "short": "安盛创梦馆",
+    "badge": "AXA DREAMLAND",
+    "english": "AXA Dreamland",
+    "city": "香港",
+    "region": "中国香港",
+    "kind": "hall",
+    "geometry": {
+      "a": 22,
+      "b": 26,
+      "levels": 0
+    },
+    "url": "https://tix-get-go.kktix.cc/events/sf9-2026",
+    "mapUrl": "https://tix-get-go.kktix.cc/events/sf9-2026",
+    "aliases": "西沙 GO PARK AXA 安盛 創夢館 SF9",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "genting-arena-of-stars",
+    "name": "云顶世界云星剧场",
+    "short": "云星剧场",
+    "badge": "ARENA OF STARS, RESORTS WORLD GENTING",
+    "english": "Arena of Stars, Resorts World Genting",
+    "city": "云顶高原",
+    "region": "马来西亚",
+    "kind": "hall",
+    "geometry": {
+      "a": 42,
+      "b": 38,
+      "levels": 0
+    },
+    "url": "https://www.klook.cn/zh-CN/event-detail/101028010-2025-azorachin-eveai-concert/",
+    "mapUrl": "https://www.klook.cn/zh-CN/event-detail/101028010-2025-azorachin-eveai-concert/",
+    "aliases": "云顶 云星 雲星 Genting Arena of Stars 尤长靖 艾怡良",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "zhengzhou-olympic-stadium",
+    "name": "郑州奥林匹克体育中心体育场",
+    "short": "郑州奥体体育场",
+    "badge": "ZHENGZHOU OLYMPIC SPORTS CENTER STADIUM",
+    "english": "Zhengzhou Olympic Sports Center Stadium",
+    "city": "郑州",
+    "region": "中国内地",
+    "kind": "stadium",
+    "geometry": {
+      "a": 58,
+      "b": 83,
+      "levels": 3
+    },
+    "url": "https://www.xiaohongshu.com/explore/69f213710000000036002fb9",
+    "mapUrl": "https://www.xiaohongshu.com/explore/69f213710000000036002fb9",
+    "aliases": "郑州奥体 郑州奥林匹克 汪苏泷 十万伏特",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "shenzhen-sports-center-stadium",
+    "name": "深圳市体育中心体育场",
+    "short": "深圳体育场（福田）",
+    "badge": "SHENZHEN SPORTS CENTER STADIUM",
+    "english": "Shenzhen Sports Center Stadium",
+    "city": "深圳",
+    "region": "中国内地",
+    "kind": "stadium",
+    "geometry": {
+      "a": 43,
+      "b": 62,
+      "levels": 3
+    },
+    "url": "https://zjj.sz.gov.cn/xxgk/csyjgx/content/post_12884176.html",
+    "mapUrl": null,
+    "aliases": "深圳体育场 深圳市体育中心 福田 笔架山 笋岗路 好势乘双 浪姐",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "foshan-international-arena",
+    "name": "佛山国际体育文化演艺中心",
+    "short": "佛山国际演艺中心",
+    "badge": "FOSHAN INTERNATIONAL SPORTS AND CULTURE CENTER",
+    "english": "Foshan International Sports and Culture Center",
+    "city": "佛山",
+    "region": "中国内地",
+    "kind": "arena",
+    "geometry": {
+      "a": 25,
+      "b": 34,
+      "levels": 2
+    },
+    "url": "https://www.xiaohongshu.com/explore/6a0eeeef0000000035031087",
+    "mapUrl": "https://www.xiaohongshu.com/explore/6a0eeeef0000000035031087",
+    "aliases": "佛山篮球馆 乐从 佛山新城 ONER 万能狂欢派对",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "hefei-sports-center-stadium",
+    "name": "合肥体育中心体育场",
+    "short": "合肥体育中心",
+    "badge": "HEFEI SPORTS CENTER STADIUM",
+    "english": "Hefei Sports Center Stadium",
+    "city": "合肥",
+    "region": "中国内地",
+    "kind": "stadium",
+    "geometry": {
+      "a": 58,
+      "b": 83,
+      "levels": 2
+    },
+    "url": "https://www.xiaohongshu.com/explore/6a4f417c0000000015027cfa",
+    "mapUrl": "https://www.xiaohongshu.com/explore/6a4f417c0000000015027cfa",
+    "aliases": "合肥奥体 夏纪之声 体育场",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "nanjing-olympic-stadium",
+    "name": "南京奥体中心体育场",
+    "short": "南京奥体体育场",
+    "badge": "NANJING OLYMPIC SPORTS CENTER STADIUM",
+    "english": "Nanjing Olympic Sports Center Stadium",
+    "city": "南京",
+    "region": "中国内地",
+    "kind": "stadium",
+    "geometry": {
+      "a": 58,
+      "b": 83,
+      "levels": 3
+    },
+    "url": "https://www.xiaohongshu.com/explore/6a5e2cd7000000001d0221e4",
+    "mapUrl": "https://www.xiaohongshu.com/explore/6a5e2cd7000000001d0221e4",
+    "aliases": "南京奥体体育场 汪苏泷 明日世界",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "nanchang-international-stadium",
+    "name": "南昌国际体育中心体育场",
+    "short": "南昌国际体育场",
+    "badge": "NANCHANG INTERNATIONAL SPORTS CENTER STADIUM",
+    "english": "Nanchang International Sports Center Stadium",
+    "city": "南昌",
+    "region": "中国内地",
+    "kind": "stadium",
+    "geometry": {
+      "a": 59,
+      "b": 84,
+      "levels": 3
+    },
+    "url": "https://www.xiaohongshu.com/explore/6aceff1e000000001802ffb4",
+    "mapUrl": "https://www.xiaohongshu.com/explore/6aceff1e000000001802ffb4",
+    "aliases": "南昌国体 凤凰传奇 吉祥如意",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "tokyo-garden-theater",
+    "name": "东京花园剧场",
+    "short": "东京花园剧场",
+    "badge": "TOKYO GARDEN THEATER",
+    "english": "Tokyo Garden Theater",
+    "city": "东京",
+    "region": "日本",
+    "kind": "arena",
+    "geometry": {
+      "a": 23,
+      "b": 27,
+      "levels": 3
+    },
+    "url": "https://www.shopping-sumitomo-rd.com/tokyo_garden_theater/visitor/floor/",
+    "mapUrl": "https://www.shopping-sumitomo-rd.com/tokyo_garden_theater/visitor/floor/",
+    "aliases": "東京ガーデンシアター Tokyo Garden Theater 有明 花园剧场",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "tianjin-olympic-gymnasium",
+    "name": "天津奥林匹克中心体育馆",
+    "short": "天津奥体体育馆",
+    "badge": "TIANJIN OLYMPIC CENTER GYMNASIUM",
+    "english": "Tianjin Olympic Center Gymnasium",
+    "city": "天津",
+    "region": "中国内地",
+    "kind": "arena",
+    "geometry": {
+      "a": 25,
+      "b": 37,
+      "levels": 2
+    },
+    "url": "https://www.xiaohongshu.com/explore/6a5329f9000000001101f91f",
+    "mapUrl": "https://www.xiaohongshu.com/explore/6a5329f9000000001101f91f",
+    "aliases": "天津体育馆 天津奥体馆 徐良 时间折叠",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "chongqing-olympic-stadium",
+    "name": "重庆奥林匹克体育中心体育场",
+    "short": "重庆奥体体育场",
+    "badge": "CHONGQING OLYMPIC SPORTS CENTER STADIUM",
+    "english": "Chongqing Olympic Sports Center Stadium",
+    "city": "重庆",
+    "region": "中国内地",
+    "kind": "stadium",
+    "geometry": {
+      "a": 58,
+      "b": 83,
+      "levels": 2
+    },
+    "url": "https://www.xiaohongshu.com/explore/6acc8c8b00000000140380b7",
+    "mapUrl": "https://www.xiaohongshu.com/explore/6acc8c8b00000000140380b7",
+    "aliases": "重庆奥体 凤凰传奇 吉祥如意",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "shanghai-jingan-gymnasium",
+    "name": "上海静安体育中心体育馆",
+    "short": "上海静安体育馆",
+    "badge": "SHANGHAI JINGAN SPORTS CENTER GYMNASIUM",
+    "english": "Shanghai Jingan Sports Center Gymnasium",
+    "city": "上海",
+    "region": "中国内地",
+    "kind": "arena",
+    "geometry": {
+      "a": 23,
+      "b": 37,
+      "levels": 1
+    },
+    "url": "https://www.xiaohongshu.com/explore/6a1e5c6b000000000602289b",
+    "mapUrl": "https://www.xiaohongshu.com/explore/6a1e5c6b000000000602289b",
+    "aliases": "静安体育中心 光夜 光与夜之恋 五周年 音乐盛典",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "zhuji-xishi-basketball-center",
+    "name": "诸暨西施篮球中心",
+    "short": "诸暨西施篮球中心",
+    "badge": "ZHUJI XISHI BASKETBALL CENTER",
+    "english": "Zhuji Xishi Basketball Center",
+    "city": "诸暨",
+    "region": "中国内地",
+    "kind": "arena",
+    "geometry": {
+      "a": 23,
+      "b": 31,
+      "levels": 2
+    },
+    "url": "https://www.xiaohongshu.com/explore/68cb85a4000000001301df84",
+    "mapUrl": "https://www.xiaohongshu.com/explore/68cb85a4000000001301df84",
+    "aliases": "诸暨 西施篮球中心 胡夏 那些年 时光放映厅",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "qingdao-guoxin-gymnasium",
+    "name": "青岛市体育中心国信体育馆",
+    "short": "青岛国信体育馆",
+    "badge": "QINGDAO GUOXIN GYMNASIUM",
+    "english": "Qingdao Guoxin Gymnasium",
+    "city": "青岛",
+    "region": "中国内地",
+    "kind": "arena",
+    "geometry": {
+      "a": 24,
+      "b": 33,
+      "levels": 2
+    },
+    "url": "https://www.xiaohongshu.com/explore/6a9d940b0000000026033056",
+    "mapUrl": "https://www.xiaohongshu.com/explore/6a9d940b0000000026033056",
+    "aliases": "青岛国信体育馆 国信钻石体育馆 卓沅 KEY 青岛体育中心",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "foshan-century-lotus-stadium",
+    "name": "佛山世纪莲体育中心体育场",
+    "short": "佛山世纪莲体育场",
+    "badge": "FOSHAN CENTURY LOTUS STADIUM",
+    "english": "Foshan Century Lotus Stadium",
+    "city": "佛山",
+    "region": "中国内地",
+    "kind": "stadium",
+    "geometry": {
+      "a": 57,
+      "b": 82,
+      "levels": 2
+    },
+    "url": "https://www.xiaohongshu.com/explore/69a3d42f000000002303a9b5",
+    "mapUrl": "https://www.xiaohongshu.com/explore/69a3d42f000000002303a9b5",
+    "aliases": "世纪莲 佛山世纪莲体育中心 张杰 未LIVE",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "qingyuan-sports-center-stadium",
+    "name": "清远体育中心体育场",
+    "short": "清远体育场",
+    "badge": "QINGYUAN SPORTS CENTER STADIUM",
+    "english": "Qingyuan Sports Center Stadium",
+    "city": "清远",
+    "region": "中国内地",
+    "kind": "stadium",
+    "geometry": {
+      "a": 58,
+      "b": 83,
+      "levels": 2
+    },
+    "url": "https://www.xiaohongshu.com/explore/66cf4615000000001d01b73f",
+    "mapUrl": "https://www.xiaohongshu.com/explore/66cf4615000000001d01b73f",
+    "aliases": "清远奥体 G.E.M. 邓紫棋",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "vancouver-rogers-arena",
+    "name": "Rogers Arena（温哥华罗杰斯体育馆）",
+    "short": "温哥华Rogers Arena",
+    "badge": "ROGERS ARENA",
+    "english": "Rogers Arena",
+    "city": "温哥华",
+    "region": "加拿大",
+    "kind": "arena",
+    "geometry": {
+      "a": 25,
+      "b": 39,
+      "levels": 2
+    },
+    "url": "https://www.xiaohongshu.com/explore/6a77bd90000000002500292f",
+    "mapUrl": "https://www.xiaohongshu.com/explore/6a77bd90000000002500292f",
+    "aliases": "Rogers 罗渣士 罗杰斯 Vancouver BC Rogers Arena",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "jinan-olympic-stadium",
+    "name": "济南奥林匹克体育中心体育场",
+    "short": "济南奥体体育场",
+    "badge": "JINAN OLYMPIC SPORTS CENTER STADIUM",
+    "english": "Jinan Olympic Sports Center Stadium",
+    "city": "济南",
+    "region": "中国内地",
+    "kind": "stadium",
+    "geometry": {
+      "a": 58,
+      "b": 85,
+      "levels": 2
+    },
+    "url": "https://www.xiaohongshu.com/explore/6ac8e96b000000001500186b",
+    "mapUrl": "https://www.xiaohongshu.com/explore/6ac8e96b000000001500186b",
+    "aliases": "济南奥体 青春之城第八季 济南鲁能大球场",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "shenzhen-universiade-gymnasium",
+    "name": "深圳大运中心体育馆",
+    "short": "深圳大运体育馆",
+    "badge": "SHENZHEN UNIVERSIADE SPORTS CENTER GYMNASIUM",
+    "english": "Shenzhen Universiade Sports Center Gymnasium",
+    "city": "深圳",
+    "region": "中国内地",
+    "kind": "arena",
+    "geometry": {
+      "a": 39,
+      "b": 32,
+      "levels": 3
+    },
+    "url": "https://www.xiaohongshu.com/explore/69aebdeb000000001b01d889",
+    "mapUrl": "https://www.xiaohongshu.com/explore/69aebdeb000000001b01d889",
+    "aliases": "深圳大运中心体育馆 龙岗大运体育馆 郑润泽 旷野",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "sydney-accor-stadium",
+    "name": "Accor Stadium（悉尼雅高体育场）",
+    "short": "悉尼Accor Stadium",
+    "badge": "ACCOR STADIUM",
+    "english": "Accor Stadium",
+    "city": "悉尼",
+    "region": "澳大利亚",
+    "kind": "stadium",
+    "geometry": {
+      "a": 47,
+      "b": 82,
+      "levels": 3
+    },
+    "url": "https://www.xiaohongshu.com/explore/6a1e70f2000000000f03ac00",
+    "mapUrl": "https://www.xiaohongshu.com/explore/6a1e70f2000000000f03ac00",
+    "aliases": "Accor 悉尼雅高 ANZ Australia Stadium BTS 防弹少年团",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "xuzhou-olympic-stadium",
+    "name": "徐州奥体中心体育场",
+    "short": "徐州奥体体育场",
+    "badge": "XUZHOU OLYMPIC SPORTS CENTER STADIUM",
+    "english": "Xuzhou Olympic Sports Center Stadium",
+    "city": "徐州",
+    "region": "中国内地",
+    "kind": "stadium",
+    "geometry": {
+      "a": 58,
+      "b": 85,
+      "levels": 2
+    },
+    "url": "https://www.xiaohongshu.com/explore/6a86d490000000002402623c",
+    "mapUrl": "https://www.xiaohongshu.com/explore/6a86d490000000002402623c",
+    "aliases": "徐州市奥体中心体育场 TOP登陆少年 二周年",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "xian-olympic-stadium",
+    "name": "西安奥体中心体育场",
+    "short": "西安奥体体育场",
+    "badge": "XIAN OLYMPIC SPORTS CENTER STADIUM",
+    "english": "Xian Olympic Sports Center Stadium",
+    "city": "西安",
+    "region": "中国内地",
+    "kind": "stadium",
+    "geometry": {
+      "a": 58,
+      "b": 86,
+      "levels": 3
+    },
+    "url": "https://www.xiaohongshu.com/explore/64be14040000000010032ffd",
+    "mapUrl": "https://www.xiaohongshu.com/explore/64be14040000000010032ffd",
+    "aliases": "西安奥体 TFBOYS 十年之约 十周年 王俊凯 王源 易烊千玺",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "nanjing-olympic-gymnasium",
+    "name": "南京奥体中心国缘V9体育馆",
+    "short": "南京奥体国缘V9体育馆",
+    "badge": "NANJING OLYMPIC SPORTS CENTER GYMNASIUM",
+    "english": "Nanjing Olympic Sports Center Gymnasium",
+    "city": "南京",
+    "region": "中国内地",
+    "kind": "arena",
+    "geometry": {
+      "a": 27,
+      "b": 36,
+      "levels": 3
+    },
+    "url": "https://www.xiaohongshu.com/explore/6ab63a08000000001b01f2c4",
+    "mapUrl": "https://www.xiaohongshu.com/explore/6ab63a08000000001b01f2c4",
+    "aliases": "南京奥体中心体育馆 国缘V9 国缘v9 蒋敦豪 你来啦",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "guangzhou-university-town-stadium",
+    "name": "广州大学城体育中心体育场",
+    "short": "广州大学城体育场",
+    "badge": "GUANGZHOU UNIVERSITY TOWN SPORTS CENTER STADIUM",
+    "english": "Guangzhou University Town Sports Center Stadium",
+    "city": "广州",
+    "region": "中国内地",
+    "kind": "stadium",
+    "geometry": {
+      "a": 58,
+      "b": 83,
+      "levels": 2
+    },
+    "url": "https://www.xiaohongshu.com/explore/6ad097f4000000001500057c",
+    "mapUrl": "https://www.xiaohongshu.com/explore/6ad097f4000000001500057c",
+    "aliases": "广州大学城体育中心 内环东路 李荣浩 黑马 跨年",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "hangzhou-huanglong-stadium",
+    "name": "杭州黄龙体育中心体育场",
+    "short": "杭州黄龙体育场",
+    "badge": "HANGZHOU HUANGLONG SPORTS CENTER STADIUM",
+    "english": "Hangzhou Huanglong Sports Center Stadium",
+    "city": "杭州",
+    "region": "中国内地",
+    "kind": "stadium",
+    "geometry": {
+      "a": 58,
+      "b": 85,
+      "levels": 2
+    },
+    "url": "https://www.xiaohongshu.com/explore/6ac4bed9000000001a0304a0",
+    "mapUrl": "https://www.xiaohongshu.com/explore/6ac4bed9000000001a0304a0",
+    "aliases": "杭州黄龙体育场 GAI 周延 REAL G",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "guiyang-olympic-stadium",
+    "name": "贵阳奥林匹克体育中心体育场",
+    "short": "贵阳奥体体育场",
+    "badge": "GUIYANG OLYMPIC SPORTS CENTER STADIUM",
+    "english": "Guiyang Olympic Sports Center Stadium",
+    "city": "贵阳",
+    "region": "中国内地",
+    "kind": "stadium",
+    "geometry": {
+      "a": 84,
+      "b": 58,
+      "levels": 2
+    },
+    "url": "https://www.xiaohongshu.com/explore/6abc4c330000000018019683",
+    "mapUrl": "https://www.xiaohongshu.com/explore/6abc4c330000000018019683",
+    "aliases": "贵阳奥体 薛之谦 万兽之王 贵阳鸟巢",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "hangzhou-qiantang-basketball-arena",
+    "name": "杭州乐动力钱塘体育中心篮球赛馆",
+    "short": "钱塘篮球赛馆",
+    "badge": "HANGZHOU QIANTANG BASKETBALL ARENA",
+    "english": "Hangzhou Qiantang Basketball Arena",
+    "city": "杭州",
+    "region": "中国内地",
+    "kind": "arena",
+    "geometry": {
+      "a": 25,
+      "b": 34,
+      "levels": 2
+    },
+    "url": "https://www.xiaohongshu.com/explore/6ac868ab000000001303e7ae",
+    "mapUrl": "https://www.xiaohongshu.com/explore/6ac868ab000000001303e7ae",
+    "aliases": "乐动力钱塘体育中心篮球馆 董思成 WINWIN 生日会 学源街1366",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "hebei-olympic-stadium",
+    "name": "河北奥林匹克体育中心体育场",
+    "short": "河北奥体体育场",
+    "badge": "HEBEI OLYMPIC SPORTS CENTER STADIUM",
+    "english": "Hebei Olympic Sports Center Stadium",
+    "city": "石家庄",
+    "region": "中国内地",
+    "kind": "stadium",
+    "geometry": {
+      "a": 58,
+      "b": 84,
+      "levels": 2
+    },
+    "url": "https://www.xiaohongshu.com/explore/6822a6f8000000002300dc44",
+    "mapUrl": "https://www.xiaohongshu.com/explore/6822a6f8000000002300dc44",
+    "aliases": "河北奥体 石家庄 正定新区 邓紫棋",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "chengdu-financial-city-arena",
+    "name": "成都金融城演艺中心",
+    "short": "成都金融城演艺中心",
+    "badge": "CHENGDU FINANCIAL CITY PERFORMING ARTS CENTER",
+    "english": "Chengdu Financial City Performing Arts Center",
+    "city": "成都",
+    "region": "中国内地",
+    "kind": "arena",
+    "geometry": {
+      "a": 25,
+      "b": 35,
+      "levels": 2
+    },
+    "url": "https://www.xiaohongshu.com/explore/6ad88264000000002a010fe2",
+    "mapUrl": "https://www.xiaohongshu.com/explore/6ad88264000000002a010fe2",
+    "aliases": "成都金融城演艺中心 蒋敦豪 你来啦 金融城体育馆",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "sanya-egret-stadium",
+    "name": "三亚国际体育中心白鹭体育场",
+    "short": "三亚白鹭体育场",
+    "badge": "SANYA INTERNATIONAL SPORTS CENTER EGRET STADIUM",
+    "english": "Sanya International Sports Center Egret Stadium",
+    "city": "三亚",
+    "region": "中国内地",
+    "kind": "stadium",
+    "geometry": {
+      "a": 58,
+      "b": 84,
+      "levels": 2
+    },
+    "url": "https://www.xiaohongshu.com/explore/693e07a0000000001e0149e0",
+    "mapUrl": "https://www.xiaohongshu.com/explore/693e07a0000000001e0149e0",
+    "aliases": "三亚白鹭体育场 TF家族 荣耀 新年音乐会",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "chongqing-expo-s1-hall",
+    "name": "重庆国际博览中心S1馆",
+    "short": "重庆国博S1馆",
+    "badge": "CHONGQING INTERNATIONAL EXPO CENTER S1 HALL",
+    "english": "Chongqing International Expo Center S1 Hall",
+    "city": "重庆",
+    "region": "中国内地",
+    "kind": "hall",
+    "geometry": {
+      "a": 45,
+      "b": 65,
+      "levels": 0
+    },
+    "url": "https://www.xiaohongshu.com/explore/6a7686d1000000003301f2dc",
+    "mapUrl": "https://www.xiaohongshu.com/explore/6a7686d1000000003301f2dc",
+    "aliases": "重庆国际博览中心 悦来 国博 S1 无烬少年 TF家族五代",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "guangzhou-gymnasium-hall-1",
+    "name": "广州体育馆1号馆",
+    "short": "广州体育馆1号馆",
+    "badge": "GUANGZHOU GYMNASIUM HALL 1",
+    "english": "Guangzhou Gymnasium Hall 1",
+    "city": "广州",
+    "region": "中国内地",
+    "kind": "arena",
+    "geometry": {
+      "a": 27,
+      "b": 40,
+      "levels": 3
+    },
+    "url": "https://www.xiaohongshu.com/explore/67652a4b000000000900d81d",
+    "mapUrl": "https://www.xiaohongshu.com/explore/67652a4b000000000900d81d",
+    "aliases": "广州体育馆 一号馆 白云大道 王嘉尔 JACKSON WANG",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "changzhou-olympic-stadium",
+    "name": "常州奥体中心体育场",
+    "short": "常州奥体体育场",
+    "badge": "CHANGZHOU OLYMPIC SPORTS CENTER STADIUM",
+    "english": "Changzhou Olympic Sports Center Stadium",
+    "city": "常州",
+    "region": "中国内地",
+    "kind": "stadium",
+    "geometry": {
+      "a": 58,
+      "b": 84,
+      "levels": 2
+    },
+    "url": "https://www.xiaohongshu.com/explore/6abf4dc3000000000a027d48",
+    "mapUrl": "https://www.xiaohongshu.com/explore/6abf4dc3000000000a027d48",
+    "aliases": "常州奥体 新北 周深 深深的",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "harbin-international-convention-gymnasium",
+    "name": "哈尔滨国际会展体育中心体育馆",
+    "short": "哈尔滨会展体育馆",
+    "badge": "HARBIN INTERNATIONAL CONVENTION SPORTS CENTER GYMNASIUM",
+    "english": "Harbin International Convention Sports Center Gymnasium",
+    "city": "哈尔滨",
+    "region": "中国内地",
+    "kind": "arena",
+    "geometry": {
+      "a": 27,
+      "b": 37,
+      "levels": 2
+    },
+    "url": "https://www.xiaohongshu.com/explore/6910ade0000000000301e9c6",
+    "mapUrl": "https://www.xiaohongshu.com/explore/6910ade0000000000301e9c6",
+    "aliases": "哈尔滨国际会展中心体育馆 黄子弘凡 除了快乐禁止入内",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "belluna-dome",
+    "name": "Belluna Dome（西武巨蛋）",
+    "short": "西武巨蛋",
+    "badge": "BELLUNA DOME",
+    "english": "Belluna Dome",
+    "city": "所泽",
+    "region": "日本",
+    "kind": "baseball",
+    "geometry": {
+      "a": 73,
+      "b": 80,
+      "levels": 1
+    },
+    "url": "https://www.xiaohongshu.com/explore/6aba1da400000000150069df",
+    "mapUrl": "https://www.xiaohongshu.com/explore/6aba1da400000000150069df",
+    "aliases": "Belluna Dome 西武巨蛋 埼玉 所泽 ベルーナドーム JxJ 尹净汉 洪知秀",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "dongguan-sports-center-gymnasium",
+    "name": "东莞市体育中心体育馆",
+    "short": "东莞市体育馆",
+    "badge": "DONGGUAN SPORTS CENTER GYMNASIUM",
+    "english": "Dongguan Sports Center Gymnasium",
+    "city": "东莞",
+    "region": "中国内地",
+    "kind": "arena",
+    "geometry": {
+      "a": 14,
+      "b": 23,
+      "levels": 1
+    },
+    "url": "https://www.xiaohongshu.com/explore/6a12d6f1000000000803c6ac",
+    "mapUrl": "https://www.xiaohongshu.com/explore/6a12d6f1000000000803c6ac",
+    "aliases": "东莞老体育馆 南城 体育路3号",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "luoyang-olympic-stadium",
+    "name": "洛阳奥林匹克体育中心体育场",
+    "short": "洛阳奥体体育场",
+    "badge": "LUOYANG OLYMPIC SPORTS CENTER STADIUM",
+    "english": "Luoyang Olympic Sports Center Stadium",
+    "city": "洛阳",
+    "region": "中国内地",
+    "kind": "stadium",
+    "geometry": {
+      "a": 84,
+      "b": 58,
+      "levels": 3
+    },
+    "url": "https://www.xiaohongshu.com/explore/6a167195000000000702b88c",
+    "mapUrl": "https://www.xiaohongshu.com/explore/6a167195000000000702b88c",
+    "aliases": "洛阳奥体 薛之谦 万兽之王",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "qingdao-guoxin-stadium",
+    "name": "青岛国信体育中心体育场",
+    "short": "青岛国信体育场",
+    "badge": "QINGDAO GUOXIN SPORTS CENTER STADIUM",
+    "english": "Qingdao Guoxin Sports Center Stadium",
+    "city": "青岛",
+    "region": "中国内地",
+    "kind": "stadium",
+    "geometry": {
+      "a": 58,
+      "b": 84,
+      "levels": 2
+    },
+    "url": "https://www.xiaohongshu.com/explore/6ac49c8e0000000018004a42",
+    "mapUrl": "https://www.xiaohongshu.com/explore/6ac49c8e0000000018004a42",
+    "aliases": "青岛国信 颐中体育场 王源",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "dalian-sports-center-stadium",
+    "name": "大连体育中心体育场",
+    "short": "大连体育中心体育场",
+    "badge": "DALIAN SPORTS CENTER STADIUM",
+    "english": "Dalian Sports Center Stadium",
+    "city": "大连",
+    "region": "中国内地",
+    "kind": "stadium",
+    "geometry": {
+      "a": 58,
+      "b": 84,
+      "levels": 2
+    },
+    "url": "https://www.xiaohongshu.com/explore/686274bd0000000020018bed",
+    "mapUrl": "https://www.xiaohongshu.com/explore/686274bd0000000020018bed",
+    "aliases": "大连体育场 时代少年团 TNT 加冠礼",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "guiyang-new-gymnasium",
+    "name": "贵阳奥林匹克体育中心体育馆",
+    "short": "贵阳新体育馆",
+    "badge": "GUIYANG OLYMPIC SPORTS CENTER GYMNASIUM",
+    "english": "Guiyang Olympic Sports Center Gymnasium",
+    "city": "贵阳",
+    "region": "中国内地",
+    "kind": "arena",
+    "geometry": {
+      "a": 20.6,
+      "b": 35.9,
+      "levels": 2
+    },
+    "url": "https://www.xiaohongshu.com/explore/6ac9ff69000000001800493e",
+    "mapUrl": "https://www.xiaohongshu.com/explore/6ac9ff69000000001800493e",
+    "aliases": "贵阳新体育馆 奥体二期 云潭南路 王俊凯",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "jinan-olympic-gymnasium",
+    "name": "济南奥林匹克体育中心体育馆",
+    "short": "济南奥体体育馆",
+    "badge": "JINAN OLYMPIC SPORTS CENTER GYMNASIUM",
+    "english": "Jinan Olympic Sports Center Gymnasium",
+    "city": "济南",
+    "region": "中国内地",
+    "kind": "arena",
+    "geometry": {
+      "a": 25,
+      "b": 34,
+      "levels": 2
+    },
+    "url": "https://www.xiaohongshu.com/explore/67cfa0f5000000002901b051",
+    "mapUrl": "https://www.xiaohongshu.com/explore/67cfa0f5000000002901b051",
+    "aliases": "济南奥体体育馆 单依纯 纯妹妹 东荷",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "tianjin-olympic-stadium",
+    "name": "天津奥林匹克中心体育场",
+    "short": "天津奥体体育场",
+    "badge": "TIANJIN OLYMPIC CENTER STADIUM",
+    "english": "Tianjin Olympic Center Stadium",
+    "city": "天津",
+    "region": "中国内地",
+    "kind": "stadium",
+    "geometry": {
+      "a": 58,
+      "b": 84,
+      "levels": 2
+    },
+    "url": "https://www.xiaohongshu.com/explore/69d2102b00000000220298d5",
+    "mapUrl": "https://www.xiaohongshu.com/explore/69d2102b00000000220298d5",
+    "aliases": "天津奥体 水滴 王源",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "haikou-wuyuanhe-gymnasium",
+    "name": "海口五源河体育中心体育馆",
+    "short": "海口五源河体育馆",
+    "badge": "HAIKOU WUYUANHE SPORTS CENTER GYMNASIUM",
+    "english": "Haikou Wuyuanhe Sports Center Gymnasium",
+    "city": "海口",
+    "region": "中国内地",
+    "kind": "arena",
+    "geometry": {
+      "a": 29,
+      "b": 38,
+      "levels": 2
+    },
+    "url": "https://www.xiaohongshu.com/explore/6a155b4000000000350206c9",
+    "mapUrl": "https://www.xiaohongshu.com/explore/6a155b4000000000350206c9",
+    "aliases": "海口五源河体育馆 ONER 万能狂欢派对",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "hong-kong-macpherson-stadium",
+    "name": "香港麦花臣场馆",
+    "short": "香港麦花臣场馆",
+    "badge": "MACPHERSON STADIUM",
+    "english": "MacPherson Stadium",
+    "city": "香港",
+    "region": "中国香港",
+    "kind": "arena",
+    "geometry": {
+      "a": 10.25,
+      "b": 18.5,
+      "levels": 1
+    },
+    "url": "https://www.xiaohongshu.com/explore/6aafb4340000000014010537",
+    "mapUrl": "https://www.xiaohongshu.com/explore/6aafb4340000000014010537",
+    "aliases": "麦花臣 麥花臣旺角 MacPherson KARD",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "jiaxing-sports-center-stadium",
+    "name": "嘉兴市体育中心体育场",
+    "short": "嘉兴体育中心体育场",
+    "badge": "JIAXING SPORTS CENTER STADIUM",
+    "english": "Jiaxing Sports Center Stadium",
+    "city": "嘉兴",
+    "region": "中国内地",
+    "kind": "stadium",
+    "geometry": {
+      "a": 58,
+      "b": 84,
+      "levels": 2
+    },
+    "url": "https://www.xiaohongshu.com/explore/6ab9f4ae0000000018006c3d",
+    "mapUrl": "https://www.xiaohongshu.com/explore/6ab9f4ae0000000018006c3d",
+    "aliases": "嘉兴体育中心体育场 李荣浩 黑马 花园路416号",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "zhenjiang-sports-exhibition-stadium",
+    "name": "镇江体育会展中心体育场",
+    "short": "镇江会展体育场",
+    "badge": "ZHENJIANG SPORTS EXHIBITION CENTER STADIUM",
+    "english": "Zhenjiang Sports Exhibition Center Stadium",
+    "city": "镇江",
+    "region": "中国内地",
+    "kind": "stadium",
+    "geometry": {
+      "a": 58,
+      "b": 84,
+      "levels": 2
+    },
+    "url": "https://www.xiaohongshu.com/explore/6acf369c0000000012036e26",
+    "mapUrl": "https://www.xiaohongshu.com/explore/6acf369c0000000012036e26",
+    "aliases": "镇江体育会展中心 李荣浩 黑马",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "wuhan-five-rings-stadium",
+    "name": "武汉五环体育中心体育场",
+    "short": "武汉五环体育场",
+    "badge": "WUHAN FIVE RINGS SPORTS CENTER STADIUM",
+    "english": "Wuhan Five Rings Sports Center Stadium",
+    "city": "武汉",
+    "region": "中国内地",
+    "kind": "stadium",
+    "geometry": {
+      "a": 58,
+      "b": 84,
+      "levels": 2
+    },
+    "url": "https://www.xiaohongshu.com/explore/6ac8a6e5000000000100ba25",
+    "mapUrl": "https://www.xiaohongshu.com/explore/6ac8a6e5000000000100ba25",
+    "aliases": "武汉五环主体育场 东西湖 无限X",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "urumqi-olympic-gymnasium",
+    "name": "乌鲁木齐奥林匹克体育中心综合体育馆",
+    "short": "乌鲁木齐奥体体育馆",
+    "badge": "URUMQI OLYMPIC SPORTS CENTER GYMNASIUM",
+    "english": "Urumqi Olympic Sports Center Gymnasium",
+    "city": "乌鲁木齐",
+    "region": "中国内地",
+    "kind": "arena",
+    "geometry": {
+      "a": 25,
+      "b": 36,
+      "levels": 2
+    },
+    "url": "https://www.xiaohongshu.com/explore/6a6dedf700000000060047e9",
+    "mapUrl": "https://www.xiaohongshu.com/explore/6a6dedf700000000060047e9",
+    "aliases": "乌鲁木齐奥体 天山雪莲 综合体育馆",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "los-angeles-kia-forum",
+    "name": "洛杉矶 Kia Forum",
+    "short": "Kia Forum",
+    "badge": "KIA FORUM",
+    "english": "Kia Forum",
+    "city": "洛杉矶",
+    "region": "美国",
+    "kind": "arena",
+    "geometry": {
+      "a": 33,
+      "b": 24,
+      "levels": 2
+    },
+    "url": "https://www.xiaohongshu.com/explore/69bad892000000002302452b",
+    "mapUrl": "https://www.xiaohongshu.com/explore/69bad892000000002302452b",
+    "aliases": "洛杉矶 Inglewood Kia Forum 刘若英 飞行日",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "los-angeles-the-novo",
+    "name": "洛杉矶 The Novo",
+    "short": "The Novo",
+    "badge": "THE NOVO",
+    "english": "The Novo",
+    "city": "洛杉矶",
+    "region": "美国",
+    "kind": "hall",
+    "geometry": {
+      "a": 14,
+      "b": 20,
+      "levels": 1
+    },
+    "url": "https://www.xiaohongshu.com/explore/69b93185000000002300517f",
+    "mapUrl": "https://www.xiaohongshu.com/explore/69b93185000000002300517f",
+    "aliases": "洛杉矶 The Novo Microsoft 袁娅维",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "sanya-egret-gymnasium",
+    "name": "三亚体育中心白鹭体育馆",
+    "short": "三亚白鹭体育馆",
+    "badge": "SANYA EGRET GYMNASIUM",
+    "english": "Sanya Egret Gymnasium",
+    "city": "三亚",
+    "region": "中国内地",
+    "kind": "arena",
+    "geometry": {
+      "a": 25,
+      "b": 36,
+      "levels": 2
+    },
+    "url": "https://www.xiaohongshu.com/explore/6ad2e625000000001803be3f",
+    "mapUrl": "https://www.xiaohongshu.com/explore/6ad2e625000000001803be3f",
+    "aliases": "三亚白鹭体育馆 于文文 边界",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "yantai-bajiaowan-gymnasium",
+    "name": "烟台八角湾国际体育中心体育馆",
+    "short": "烟台八角湾体育馆",
+    "badge": "YANTAI BAJIAOWAN INTERNATIONAL SPORTS CENTER GYMNASIUM",
+    "english": "Yantai Bajiaowan International Sports Center Gymnasium",
+    "city": "烟台",
+    "region": "中国内地",
+    "kind": "arena",
+    "geometry": {
+      "a": 25,
+      "b": 36,
+      "levels": 2
+    },
+    "url": "https://www.xiaohongshu.com/explore/6a883b8300000000030294aa",
+    "mapUrl": "https://www.xiaohongshu.com/explore/6a883b8300000000030294aa",
+    "aliases": "烟台八角湾 张峻豪 SHUN 顺令时 流蜃",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "chengdu-hightech-gymnasium",
+    "name": "成都高新体育中心多功能体育馆",
+    "short": "成都高新体育馆",
+    "badge": "CHENGDU HIGH-TECH SPORTS CENTER GYMNASIUM",
+    "english": "Chengdu High-Tech Sports Center Gymnasium",
+    "city": "成都",
+    "region": "中国内地",
+    "kind": "arena",
+    "geometry": {
+      "a": 20,
+      "b": 35,
+      "levels": 2
+    },
+    "url": "https://www.xiaohongshu.com/explore/69e1ef82000000001a02650f",
+    "mapUrl": "https://www.xiaohongshu.com/explore/69e1ef82000000001a02650f",
+    "aliases": "成都高新多功能体育馆 张峻豪 SHUN令时",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "hangzhou-olympic-tennis-center",
+    "name": "杭州奥体中心网球中心",
+    "short": "杭州小莲花",
+    "badge": "HANGZHOU OLYMPIC SPORTS CENTER TENNIS CENTER",
+    "english": "Hangzhou Olympic Sports Center Tennis Center",
+    "city": "杭州",
+    "region": "中国内地",
+    "kind": "arena",
+    "geometry": {
+      "a": 27,
+      "b": 32,
+      "levels": 2
+    },
+    "url": "https://www.xiaohongshu.com/explore/6acf7241000000001303dbb0",
+    "mapUrl": "https://www.xiaohongshu.com/explore/6acf7241000000001303dbb0",
+    "aliases": "杭州小莲花 网球中心 于文文 边界",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "xiamen-phoenix-gymnasium",
+    "name": "厦门奥林匹克体育中心凤凰体育馆",
+    "short": "厦门凤凰体育馆",
+    "badge": "XIAMEN OLYMPIC SPORTS CENTER PHOENIX GYMNASIUM",
+    "english": "Xiamen Olympic Sports Center Phoenix Gymnasium",
+    "city": "厦门",
+    "region": "中国内地",
+    "kind": "arena",
+    "geometry": {
+      "a": 36,
+      "b": 25,
+      "levels": 2
+    },
+    "url": "https://www.xiaohongshu.com/explore/6a671047000000001d00f3f1",
+    "mapUrl": "https://www.xiaohongshu.com/explore/6a671047000000001d00f3f1",
+    "aliases": "厦门白鹭 凤凰体育馆 丁禹兮 XiCREATE",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "kunming-tuodong-stadium",
+    "name": "昆明拓东体育场",
+    "short": "昆明拓东体育场",
+    "badge": "KUNMING TUODONG STADIUM",
+    "english": "Kunming Tuodong Stadium",
+    "city": "昆明",
+    "region": "中国内地",
+    "kind": "stadium",
+    "geometry": {
+      "a": 58,
+      "b": 84,
+      "levels": 2
+    },
+    "url": "https://www.xiaohongshu.com/explore/6ad9b1e900000000250079bb",
+    "mapUrl": "https://www.xiaohongshu.com/explore/6ad9b1e900000000250079bb",
+    "aliases": "昆明拓东 张韶涵 玩家",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "changsha-qicai-box-f",
+    "name": "湖南国际会展中心七彩盒子F厅",
+    "short": "七彩盒子F厅",
+    "badge": "HUNAN INTERNATIONAL CONVENTION CENTER QICAI BOX HALL F",
+    "english": "Hunan International Convention Center Qicai Box Hall F",
+    "city": "长沙",
+    "region": "中国内地",
+    "kind": "hall",
+    "geometry": {
+      "a": 28,
+      "b": 33,
+      "levels": 2
+    },
+    "url": "https://www.xiaohongshu.com/explore/6acdb2ab000000001c01fe18",
+    "mapUrl": "https://www.xiaohongshu.com/explore/6acdb2ab000000001c01fe18",
+    "aliases": "长沙七彩盒子 F厅 湖南国际会展中心 KPL",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "wuxi-olympic-stadium",
+    "name": "无锡奥体中心体育场",
+    "short": "无锡奥体体育场",
+    "badge": "WUXI OLYMPIC SPORTS CENTER STADIUM",
+    "english": "Wuxi Olympic Sports Center Stadium",
+    "city": "无锡",
+    "region": "中国内地",
+    "kind": "stadium",
+    "geometry": {
+      "a": 58,
+      "b": 84,
+      "levels": 2
+    },
+    "url": "https://www.xiaohongshu.com/explore/6ad4d0d7000000001e034b61",
+    "mapUrl": "https://www.xiaohongshu.com/explore/6ad4d0d7000000001e034b61",
+    "aliases": "无锡奥体中心 薛之谦 万兽之王",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "chongqing-huaxi-ecm-center",
+    "name": "重庆华熙生物·润百颜ECM中心",
+    "short": "重庆华熙ECM中心",
+    "badge": "CHONGQING BLOOMAGE ECM CENTER",
+    "english": "Chongqing Bloomage ECM Center",
+    "city": "重庆",
+    "region": "中国内地",
+    "kind": "arena",
+    "geometry": {
+      "a": 25,
+      "b": 36,
+      "levels": 3
+    },
+    "url": "https://www.xiaohongshu.com/explore/68c37903000000001b01e542",
+    "mapUrl": "https://www.xiaohongshu.com/explore/68c37903000000001b01e542",
+    "aliases": "重庆华熙文体中心 巴南 陈立农 青春为名 生日 润百颜ECM",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "paris-stade-de-france",
+    "name": "法兰西体育场",
+    "short": "法兰西体育场",
+    "badge": "STADE DE FRANCE",
+    "english": "Stade de France",
+    "city": "巴黎",
+    "region": "法国",
+    "kind": "stadium",
+    "geometry": {
+      "a": 58,
+      "b": 84,
+      "levels": 3
+    },
+    "url": "https://www.xiaohongshu.com/explore/686debe4000000002400c4f0",
+    "mapUrl": "https://www.xiaohongshu.com/explore/686debe4000000002400c4f0",
+    "aliases": "巴黎 圣但尼 Stade de France BLACKPINK DEADLINE",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "linyi-olympic-park-stadium",
+    "name": "临沂奥体公园体育场",
+    "short": "临沂奥体公园体育场",
+    "badge": "LINYI OLYMPIC PARK STADIUM",
+    "english": "Linyi Olympic Park Stadium",
+    "city": "临沂",
+    "region": "中国内地",
+    "kind": "stadium",
+    "geometry": {
+      "a": 58,
+      "b": 84,
+      "levels": 3
+    },
+    "url": "https://www.xiaohongshu.com/explore/6a8441e30000000026036ae9",
+    "mapUrl": "https://www.xiaohongshu.com/explore/6a8441e30000000026036ae9",
+    "aliases": "临沂奥体公园 李荣浩 黑马",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "wuhan-sports-center-gymnasium",
+    "name": "武汉体育中心体育馆",
+    "short": "武汉体育中心体育馆",
+    "badge": "WUHAN SPORTS CENTER GYMNASIUM",
+    "english": "Wuhan Sports Center Gymnasium",
+    "city": "武汉",
+    "region": "中国内地",
+    "kind": "arena",
+    "geometry": {
+      "a": 28,
+      "b": 38,
+      "levels": 2
+    },
+    "url": "https://www.xiaohongshu.com/explore/6a4e458b00000000070288d2",
+    "mapUrl": "https://www.xiaohongshu.com/explore/6a4e458b00000000070288d2",
+    "aliases": "武汉沌口体育馆 武体 陆虎 像你这样的朋友3.0",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "baotou-olympic-stadium",
+    "name": "包头奥林匹克体育中心体育场",
+    "short": "包头奥体体育场",
+    "badge": "BAOTOU OLYMPIC SPORTS CENTER STADIUM",
+    "english": "Baotou Olympic Sports Center Stadium",
+    "city": "包头",
+    "region": "中国内地",
+    "kind": "stadium",
+    "geometry": {
+      "a": 58,
+      "b": 84,
+      "levels": 2
+    },
+    "url": "https://www.xiaohongshu.com/explore/6a7b3a7f0000000025007841",
+    "mapUrl": "https://www.xiaohongshu.com/explore/6a7b3a7f0000000025007841",
+    "aliases": "包头奥体体育场 小沈阳 不差钱",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "baotou-olympic-gymnasium",
+    "name": "包头奥林匹克体育中心体育馆",
+    "short": "包头奥体体育馆",
+    "badge": "BAOTOU OLYMPIC SPORTS CENTER GYMNASIUM",
+    "english": "Baotou Olympic Sports Center Gymnasium",
+    "city": "包头",
+    "region": "中国内地",
+    "kind": "arena",
+    "geometry": {
+      "a": 20,
+      "b": 35,
+      "levels": 2
+    },
+    "url": "https://www.nfty.com.cn/index.php?a=index&aid=712&c=View&m=home",
+    "mapUrl": "https://www.nfty.com.cn/index.php?a=index&aid=712&c=View&m=home",
+    "aliases": "包头奥体体育馆 蒙古包 6055座",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "fuzhou-strait-olympic-stadium",
+    "name": "福州海峡奥林匹克体育中心体育场",
+    "short": "福州海峡奥体体育场",
+    "badge": "FUZHOU STRAIT OLYMPIC SPORTS CENTER STADIUM",
+    "english": "Fuzhou Strait Olympic Sports Center Stadium",
+    "city": "福州",
+    "region": "中国内地",
+    "kind": "stadium",
+    "geometry": {
+      "a": 58,
+      "b": 84,
+      "levels": 2
+    },
+    "url": "https://www.xiaohongshu.com/explore/6a55cb730000000022014ffb",
+    "mapUrl": "https://www.xiaohongshu.com/explore/6a55cb730000000022014ffb",
+    "aliases": "福州海峡奥体体育场 凤凰传奇 吉祥如意",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "shaoxing-olympic-gymnasium",
+    "name": "绍兴奥体中心阿里巴巴文娱体育馆",
+    "short": "绍兴奥体体育馆",
+    "badge": "SHAOXING OLYMPIC SPORTS CENTER GYMNASIUM",
+    "english": "Shaoxing Olympic Sports Center Gymnasium",
+    "city": "绍兴",
+    "region": "中国内地",
+    "kind": "arena",
+    "geometry": {
+      "a": 22,
+      "b": 34,
+      "levels": 1
+    },
+    "url": "https://www.xiaohongshu.com/explore/688ef68600000000250214da",
+    "mapUrl": "https://www.xiaohongshu.com/explore/688ef68600000000250214da",
+    "aliases": "绍兴奥体 阿里巴巴文娱 张峻豪",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "guigang-sports-center-stadium",
+    "name": "贵港市体育中心体育场",
+    "short": "贵港体育中心体育场",
+    "badge": "GUIGANG SPORTS CENTER STADIUM",
+    "english": "Guigang Sports Center Stadium",
+    "city": "贵港",
+    "region": "中国内地",
+    "kind": "stadium",
+    "geometry": {
+      "a": 58,
+      "b": 84,
+      "levels": 2
+    },
+    "url": "https://www.xiaohongshu.com/explore/66a24373000000000d00c4ed",
+    "mapUrl": "https://www.xiaohongshu.com/explore/66a24373000000000d00c4ed",
+    "aliases": "贵港市体育中心 港人港夜 再造巅峰",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "melbourne-rod-laver-arena",
+    "name": "墨尔本罗德·拉沃尔竞技场",
+    "short": "Rod Laver Arena",
+    "badge": "ROD LAVER ARENA",
+    "english": "Rod Laver Arena",
+    "city": "墨尔本",
+    "region": "澳大利亚",
+    "kind": "arena",
+    "geometry": {
+      "a": 23,
+      "b": 36,
+      "levels": 2
+    },
+    "url": "https://www.xiaohongshu.com/explore/6847ff02000000002102db9e",
+    "mapUrl": "https://www.xiaohongshu.com/explore/6847ff02000000002102db9e",
+    "aliases": "墨尔本 Rod Laver 罗德拉沃 罗德拉沃尔 澳洲澳网",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "singapore-mediacorp-theatre",
+    "name": "新加坡新传媒剧院",
+    "short": "新传媒剧院",
+    "badge": "THE THEATRE AT MEDIACORP",
+    "english": "The Theatre at Mediacorp",
+    "city": "新加坡",
+    "region": "新加坡",
+    "kind": "hall",
+    "geometry": {
+      "a": 18,
+      "b": 24,
+      "levels": 3
+    },
+    "url": "https://www.xiaohongshu.com/explore/67c2bacb0000000029029f00",
+    "mapUrl": "https://www.xiaohongshu.com/explore/67c2bacb0000000029029f00",
+    "aliases": "Singapore The Theatre at Mediacorp 新传媒剧院 LMSY Lookmhee Sonya",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "london-the-o2",
+    "name": "伦敦 The O2 体育馆",
+    "short": "The O2",
+    "badge": "THE O2, LONDON",
+    "english": "The O2, London",
+    "city": "伦敦",
+    "region": "英国",
+    "kind": "arena",
+    "geometry": {
+      "a": 27,
+      "b": 39,
+      "levels": 2
+    },
+    "url": "https://www.theo2.co.uk/events/detail/aespa-2027",
+    "mapUrl": "https://www.xiaohongshu.com/explore/6aca60e1000000001c02f259",
+    "aliases": "The O2, London 伦敦 The O2 体育馆 aespa",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "singapore-arena-expo",
+    "name": "新加坡 Arena @ EXPO",
+    "short": "Arena @ EXPO",
+    "badge": "ARENA @ EXPO",
+    "english": "Arena @ EXPO",
+    "city": "新加坡",
+    "region": "新加坡",
+    "kind": "hall",
+    "geometry": {
+      "a": 40,
+      "b": 30,
+      "levels": 0
+    },
+    "url": "https://www.instagram.com/p/DPQsQyFkva0/",
+    "mapUrl": "https://www.xiaohongshu.com/explore/67dacd82000000000d014829",
+    "aliases": "Arena @ EXPO 新加坡 Arena @ EXPO Solar",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "singapore-capitol-theatre",
+    "name": "新加坡首都剧院 Capitol Theatre",
+    "short": "Capitol Theatre",
+    "badge": "CAPITOL THEATRE, SINGAPORE",
+    "english": "Capitol Theatre, Singapore",
+    "city": "新加坡",
+    "region": "新加坡",
+    "kind": "hall",
+    "geometry": {
+      "a": 16,
+      "b": 22,
+      "levels": 2
+    },
+    "url": "https://www.instagram.com/p/DOhv_uOCa3T/",
+    "mapUrl": "https://www.xiaohongshu.com/explore/69ada6f8000000001b017687",
+    "aliases": "Capitol Theatre, Singapore 新加坡首都剧院 Capitol Theatre Whee In",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  },
+  {
+    "id": "singapore-sands-grand-ballroom",
+    "name": "新加坡金沙会展中心五楼大宴会厅",
+    "short": "金沙五楼大宴会厅",
+    "badge": "SANDS GRAND BALLROOM, LEVEL 5",
+    "english": "Sands Grand Ballroom, Level 5",
+    "city": "新加坡",
+    "region": "新加坡",
+    "kind": "hall",
+    "geometry": {
+      "a": 56,
+      "b": 34,
+      "levels": 0
+    },
+    "url": "https://www.instagram.com/p/DZ9FXZjDimO/",
+    "mapUrl": "https://www.xiaohongshu.com/explore/6a3b592f000000000602189b",
+    "aliases": "Sands Grand Ballroom, Level 5 新加坡金沙会展中心五楼大宴会厅 张靓颖 MBS Marina Bay Sands Expo Convention Centre 金沙大宴会厅",
+    "defaultLayout": "end",
+    "event": "场馆舞台预览"
+  }
+]

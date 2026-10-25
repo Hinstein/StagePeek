@@ -1,0 +1,470 @@
+[
+  {
+    "venue": "kai-tak-stadium",
+    "url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/kaitakSeatSource-jer28SXf.json",
+    "path": "/Users/lilinhai/Projects/rea/shijiao-evidence/data-sources/seat-assets/kai-tak-stadium.json",
+    "bytes": 4935416,
+    "sha256": "7a2a28335d337a82cad8c6e11f7bdf9d7650199b9fa1bbd81d633c9ff5fa81f8",
+    "retrieved_at": "2026-10-23T14:49:11.687939+00:00",
+    "transport": "public HTTPS GET via curl, no credentials",
+    "format": "list",
+    "records": 48483,
+    "record_example": [
+      [
+        "101",
+        "A",
+        78,
+        -44.139,
+        44.197,
+        "L1",
+        0,
+        1,
+        -6.123233995736766e-17,
+        "cad-letter",
+        0,
+        1,
+        1,
+        0
+      ]
+    ]
+  },
+  {
+    "venue": "hong-kong-coliseum",
+    "url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/hkc-Gbi7T1FS.json",
+    "path": "/Users/lilinhai/Projects/rea/shijiao-evidence/data-sources/seat-assets/hong-kong-coliseum.json",
+    "bytes": 3346822,
+    "sha256": "926e37787d56b6dd4e100ae5da5c023f8a9ee4004d9524403c31e9f3b9f0859c",
+    "retrieved_at": "2026-10-23T14:49:11.692181+00:00",
+    "transport": "public HTTPS GET via curl, no credentials",
+    "format": "dict",
+    "metadata": {
+      "venue": "hong-kong-coliseum",
+      "reference": "hkc",
+      "defaultLayout": "center",
+      "rotation": 90,
+      "source": "https://venue.flytix.live/viewer?venue=hkc",
+      "snapshotSHA256": "955607b8ef106c7d98db5b246c955166d8022fd0ad6ab993f03aa02ff92bf07f"
+    },
+    "variants": {
+      "center": {
+        "seats": 11446,
+        "sections": 0,
+        "seat_example": [
+          [
+            "43",
+            "9",
+            89,
+            -10.428539735661992,
+            2.6,
+            -19.816641017452607,
+            0.0012183484244963595,
+            0.9999992578132828,
+            0,
+            9,
+            0.36,
+            0.7560819230441851,
+            0.0012183484244963595,
+            0.9999992578132828
+          ]
+        ],
+        "keys": [
+          "sourceMode",
+          "label",
+          "seats",
+          "stage",
+          "zones"
+        ]
+      },
+      "end": {
+        "seats": 11562,
+        "sections": 0,
+        "seat_example": [
+          [
+            "43",
+            "9",
+            89,
+            -10.428539735661992,
+            2.6,
+            -19.816641017452607,
+            0.0012183484244963595,
+            0.9999992578132828,
+            0,
+            9,
+            0.36,
+            0.7560819230441851,
+            0.0012183484244963595,
+            0.9999992578132828
+          ]
+        ],
+        "keys": [
+          "sourceMode",
+          "label",
+          "seats",
+          "stage",
+          "zones"
+        ]
+      }
+    }
+  },
+  {
+    "venue": "asiaworld-arena",
+    "url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/awe-Ca55Pf13.json",
+    "path": "/Users/lilinhai/Projects/rea/shijiao-evidence/data-sources/seat-assets/asiaworld-arena.json",
+    "bytes": 1819520,
+    "sha256": "879784a41602b70771e8a4a4d951bf0bb7dcf808365060eec6f96ed16ced68af",
+    "retrieved_at": "2026-10-23T14:49:11.586012+00:00",
+    "transport": "public HTTPS GET via curl, no credentials",
+    "format": "dict",
+    "metadata": {
+      "venue": "asiaworld-arena",
+      "reference": "awe",
+      "defaultLayout": "end",
+      "rotation": 0,
+      "source": "https://venue.flytix.live/viewer?venue=awe",
+      "snapshotSHA256": "93a0a1be36eddc52ccbb76e1f66cb6bf2b5b8ab545c5f7011601e918aa76458b"
+    },
+    "variants": {
+      "end": {
+        "seats": 11724,
+        "sections": 0,
+        "seat_example": [
+          [
+            "2",
+            "A",
+            1,
+            -18.20388,
+            0.675,
+            -37.05108,
+            1,
+            0,
+            0,
+            0,
+            0.46,
+            0.8,
+            1,
+            0
+          ]
+        ],
+        "keys": [
+          "sourceMode",
+          "label",
+          "seats",
+          "stage",
+          "zones"
+        ]
+      },
+      "standing": {
+        "seats": 8300,
+        "sections": 0,
+        "seat_example": [
+          [
+            "2",
+            "A",
+            1,
+            -18.20388,
+            0.675,
+            -37.05108,
+            1,
+            0,
+            0,
+            0,
+            0.46,
+            0.8,
+            1,
+            0
+          ]
+        ],
+        "keys": [
+          "sourceMode",
+          "label",
+          "seats",
+          "stage",
+          "zones"
+        ]
+      }
+    }
+  },
+  {
+    "venue": "asiaworld-viva",
+    "url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/viva-rS3OQoqC.json",
+    "path": "/Users/lilinhai/Projects/rea/shijiao-evidence/data-sources/seat-assets/asiaworld-viva.json",
+    "bytes": 978668,
+    "sha256": "7a6fc48cb2322955901357e9d49650d28b6d649ee408974b064f219e27cb0778",
+    "retrieved_at": "2026-10-23T14:49:11.804158+00:00",
+    "transport": "public HTTPS GET via curl, no credentials",
+    "format": "dict",
+    "metadata": {
+      "venue": "asiaworld-viva",
+      "reference": "viva",
+      "defaultLayout": "end",
+      "rotation": 0,
+      "source": "https://venue.flytix.live/viewer?venue=viva",
+      "snapshotSHA256": "855f0d8168fd36ea461c1e5e816a88826e1218a04f76653b50de681d04bc1d7b"
+    },
+    "variants": {
+      "end": {
+        "seats": 5600,
+        "sections": 0,
+        "seat_example": [
+          [
+            "A",
+            "1",
+            1,
+            -8.313,
+            0,
+            -44.993,
+            0,
+            -1,
+            -1,
+            0,
+            0.46,
+            1.0423,
+            0,
+            -1
+          ]
+        ],
+        "keys": [
+          "sourceMode",
+          "label",
+          "seats",
+          "stage",
+          "zones"
+        ]
+      },
+      "expanded": {
+        "seats": 8364,
+        "sections": 0,
+        "seat_example": [
+          [
+            "A",
+            "1",
+            1,
+            -8.311,
+            0,
+            -67.759,
+            0,
+            -1,
+            -1,
+            0,
+            0.46,
+            1.0434,
+            0,
+            -1
+          ]
+        ],
+        "keys": [
+          "sourceMode",
+          "label",
+          "seats",
+          "stage",
+          "zones"
+        ]
+      }
+    }
+  },
+  {
+    "venue": "asiaworld-summit-hall-2",
+    "url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/summit-B0YE2Xxi.json",
+    "path": "/Users/lilinhai/Projects/rea/shijiao-evidence/data-sources/seat-assets/asiaworld-summit-hall-2.json",
+    "bytes": 397410,
+    "sha256": "961dc4aa236cecec4a6c18a763e78627e1c4f99113fcbb7325dcb8773052d365",
+    "retrieved_at": "2026-10-23T14:49:11.899100+00:00",
+    "transport": "public HTTPS GET via curl, no credentials",
+    "format": "dict",
+    "metadata": {
+      "venue": "asiaworld-summit-hall-2",
+      "reference": "summit",
+      "defaultLayout": "end",
+      "rotation": 0,
+      "source": "https://venue.flytix.live/viewer?venue=summit",
+      "snapshotSHA256": "a385eec6299dfcb27a57e981262e168fc60d94ff0600cbbd1a5070b92017371f"
+    },
+    "variants": {
+      "end": {
+        "seats": 5080,
+        "sections": 0,
+        "seat_example": [
+          [
+            "1",
+            "1",
+            1,
+            16.858,
+            0,
+            -21.9,
+            0,
+            -1,
+            -1,
+            0,
+            0.46,
+            1,
+            0,
+            -1
+          ]
+        ],
+        "keys": [
+          "sourceMode",
+          "label",
+          "seats",
+          "stage",
+          "zones"
+        ]
+      }
+    }
+  },
+  {
+    "venue": "asiaworld-runway-11",
+    "url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/r11-DBeBuvo4.json",
+    "path": "/Users/lilinhai/Projects/rea/shijiao-evidence/data-sources/seat-assets/asiaworld-runway-11.json",
+    "bytes": 379276,
+    "sha256": "e22cf93cbcb1ece164adda8300a16e5481442772be66077262055226aae1af8e",
+    "retrieved_at": "2026-10-23T14:49:11.892282+00:00",
+    "transport": "public HTTPS GET via curl, no credentials",
+    "format": "dict",
+    "metadata": {
+      "venue": "asiaworld-runway-11",
+      "reference": "r11",
+      "defaultLayout": "end",
+      "rotation": 0,
+      "source": "https://venue.flytix.live/viewer?venue=r11",
+      "snapshotSHA256": "53f3e7d02f3318a7f46c4ba72ed0a2e16787a4aa0c398dcf6d2fbb8325c23725"
+    },
+    "variants": {
+      "end": {
+        "seats": 3800,
+        "sections": 0,
+        "seat_example": [
+          [
+            "1",
+            "1",
+            1,
+            22.002,
+            0,
+            -20.641,
+            0,
+            -1,
+            -1,
+            0,
+            0.46,
+            1,
+            0,
+            -1
+          ]
+        ],
+        "keys": [
+          "sourceMode",
+          "label",
+          "seats",
+          "stage",
+          "zones"
+        ]
+      },
+      "compact": {
+        "seats": 1620,
+        "sections": 0,
+        "seat_example": [
+          [
+            "1",
+            "1",
+            1,
+            18.95,
+            0,
+            -13.758,
+            0,
+            -1,
+            -1,
+            0,
+            0.46,
+            1,
+            0,
+            -1
+          ]
+        ],
+        "keys": [
+          "sourceMode",
+          "label",
+          "seats",
+          "stage",
+          "zones"
+        ]
+      }
+    }
+  },
+  {
+    "venue": "taipei-arena",
+    "url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/tpa-hUGCMqZh.json",
+    "path": "/Users/lilinhai/Projects/rea/shijiao-evidence/data-sources/seat-assets/taipei-arena.json",
+    "bytes": 2768136,
+    "sha256": "f1b66f49d6ef8dc34f3a7aaf1cdfe621d45e1b6a28316c39d8539869344f6b5d",
+    "retrieved_at": "2026-10-23T14:49:12.145835+00:00",
+    "transport": "public HTTPS GET via curl, no credentials",
+    "format": "dict",
+    "metadata": {
+      "venue": "taipei-arena",
+      "reference": "tpa",
+      "defaultLayout": "end",
+      "rotation": 90,
+      "source": "https://venue.flytix.live/viewer?venue=tpa",
+      "snapshotSHA256": "0fa7ae54bd3ff92b88dc6a10d254efeb59189cbedccfc987782be7bae5e489b7"
+    },
+    "variants": {
+      "end": {
+        "seats": 10000,
+        "sections": 0,
+        "seat_example": [
+          [
+            "紅1B",
+            "1",
+            1,
+            17.395,
+            0,
+            -22.670363187191356,
+            -1,
+            0,
+            0,
+            0,
+            0.46,
+            0.8,
+            -1,
+            0
+          ]
+        ],
+        "keys": [
+          "sourceMode",
+          "label",
+          "seats",
+          "stage",
+          "zones"
+        ]
+      },
+      "center": {
+        "seats": 12877,
+        "sections": 0,
+        "seat_example": [
+          [
+            "紅1A",
+            "1",
+            1,
+            17.3569144967066,
+            0,
+            -30.35192442409439,
+            -0.976847718362676,
+            0.21393582011817003,
+            0,
+            0,
+            0.46,
+            0.8,
+            -0.976847718362676,
+            0.21393582011817003
+          ]
+        ],
+        "keys": [
+          "sourceMode",
+          "label",
+          "seats",
+          "stage",
+          "zones"
+        ]
+      }
+    }
+  }
+]

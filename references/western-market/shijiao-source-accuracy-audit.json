@@ -1,0 +1,192 @@
+{
+  "audited": "2026-10-24",
+  "releaseScope": "photo-protection-20261023",
+  "method": "Static inspection of saved public release data; no target JS execution or field survey",
+  "reaSourceEvidenceIds": [
+    "ev_1f87574d159d170f4c5cad6ff7216e4cec76c521e7987993869b76591d156cd0"
+  ],
+  "dataScriptSha256": "4f2a15832526950f3ea07d366bd5c6e9a493b8c1c268d0f1bab6072064553823",
+  "venueDirectoryEntries": 196,
+  "geometryProfiles": 188,
+  "selfDeclaredEvidenceLabels": {
+    "reference": 107,
+    "dimension": 35,
+    "structure": 17,
+    "plan": 29
+  },
+  "profilesWithEstimateTermsInSourceNotes": 154,
+  "estimateCountLimitation": "Lexical count of declared notes; not a measured error rate or count of incorrect venues",
+  "sourceReferenceRecords": 270,
+  "uniqueSourceUrls": 249,
+  "socialReferenceRecords": 76,
+  "seatAssetFileCount": 7,
+  "seatAssetLayoutChecks": [
+    {
+      "venue": "kai-tak-stadium",
+      "layout": "raw",
+      "records": 48483,
+      "uniqueSectionRowSeatLabels": 48483,
+      "duplicateLabelKeys": 0,
+      "sha256Verified": true,
+      "source": null
+    },
+    {
+      "venue": "hong-kong-coliseum",
+      "layout": "center",
+      "records": 11446,
+      "uniqueSectionRowSeatLabels": 11446,
+      "duplicateLabelKeys": 0,
+      "sha256Verified": true,
+      "source": "https://venue.flytix.live/viewer?venue=hkc"
+    },
+    {
+      "venue": "hong-kong-coliseum",
+      "layout": "end",
+      "records": 11562,
+      "uniqueSectionRowSeatLabels": 11562,
+      "duplicateLabelKeys": 0,
+      "sha256Verified": true,
+      "source": "https://venue.flytix.live/viewer?venue=hkc"
+    },
+    {
+      "venue": "asiaworld-arena",
+      "layout": "end",
+      "records": 11724,
+      "uniqueSectionRowSeatLabels": 11724,
+      "duplicateLabelKeys": 0,
+      "sha256Verified": true,
+      "source": "https://venue.flytix.live/viewer?venue=awe"
+    },
+    {
+      "venue": "asiaworld-arena",
+      "layout": "standing",
+      "records": 8300,
+      "uniqueSectionRowSeatLabels": 8300,
+      "duplicateLabelKeys": 0,
+      "sha256Verified": true,
+      "source": "https://venue.flytix.live/viewer?venue=awe"
+    },
+    {
+      "venue": "asiaworld-viva",
+      "layout": "end",
+      "records": 5600,
+      "uniqueSectionRowSeatLabels": 5600,
+      "duplicateLabelKeys": 0,
+      "sha256Verified": true,
+      "source": "https://venue.flytix.live/viewer?venue=viva"
+    },
+    {
+      "venue": "asiaworld-viva",
+      "layout": "expanded",
+      "records": 8364,
+      "uniqueSectionRowSeatLabels": 8364,
+      "duplicateLabelKeys": 0,
+      "sha256Verified": true,
+      "source": "https://venue.flytix.live/viewer?venue=viva"
+    },
+    {
+      "venue": "asiaworld-summit-hall-2",
+      "layout": "end",
+      "records": 5080,
+      "uniqueSectionRowSeatLabels": 5080,
+      "duplicateLabelKeys": 0,
+      "sha256Verified": true,
+      "source": "https://venue.flytix.live/viewer?venue=summit"
+    },
+    {
+      "venue": "asiaworld-runway-11",
+      "layout": "end",
+      "records": 3800,
+      "uniqueSectionRowSeatLabels": 3800,
+      "duplicateLabelKeys": 0,
+      "sha256Verified": true,
+      "source": "https://venue.flytix.live/viewer?venue=r11"
+    },
+    {
+      "venue": "asiaworld-runway-11",
+      "layout": "compact",
+      "records": 1620,
+      "uniqueSectionRowSeatLabels": 1620,
+      "duplicateLabelKeys": 0,
+      "sha256Verified": true,
+      "source": "https://venue.flytix.live/viewer?venue=r11"
+    },
+    {
+      "venue": "taipei-arena",
+      "layout": "end",
+      "records": 10000,
+      "uniqueSectionRowSeatLabels": 10000,
+      "duplicateLabelKeys": 0,
+      "sha256Verified": true,
+      "source": "https://venue.flytix.live/viewer?venue=tpa"
+    },
+    {
+      "venue": "taipei-arena",
+      "layout": "center",
+      "records": 12877,
+      "uniqueSectionRowSeatLabels": 12877,
+      "duplicateLabelKeys": 0,
+      "sha256Verified": true,
+      "source": "https://venue.flytix.live/viewer?venue=tpa"
+    }
+  ],
+  "consistencyLimitation": "Unique labels and matching hashes do not establish physical accuracy, completeness, source authorization, or as-built status",
+  "sourceExamples": {
+    "london-the-o2": {
+      "declaredEvidence": "reference",
+      "sources": [
+        {
+          "url": "https://www.theo2.co.uk/events/detail/aespa-2027",
+          "note": "上下两层公众看台分别为Level 1/4，中间包厢不当作两层完整公众看台；18:30仅为开门时间，开演时间待确认。 尺寸、层高、坡度和排座为估算，以现场为准；原币票价不写成人民币。"
+        },
+        {
+          "url": "https://www.xiaohongshu.com/explore/6aca60e1000000001c02f259",
+          "note": "小红书公开原票图／实景交叉核对。"
+        }
+      ]
+    },
+    "los-angeles-kia-forum": {
+      "declaredEvidence": "reference",
+      "sources": [
+        {
+          "url": "https://www.xiaohongshu.com/explore/69bad892000000002302452b",
+          "note": "主办原图中央方形四面台、两层满环、无内场观众；票价以美元US$显示，原图无区号，用方位示意，不编区号。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+        },
+        {
+          "url": "https://thekiaforum.com/event/rene-liu/",
+          "note": "Kia Forum刘若英官方演出页"
+        }
+      ]
+    },
+    "kai-tak-stadium": {
+      "declaredEvidence": "dimension",
+      "sources": [
+        {
+          "url": "https://media-webapp.kaitaksportspark.com.hk/assets/66563159-fee8-4ad5-aeb0-086275c8b124",
+          "note": "官方第 3 页：Field of Play 12,200㎡，净高 40 m；86×142 m 为等面积量级推算，不是官方长宽。"
+        }
+      ],
+      "sectionReferenceNote": "分区与逐座平面坐标、排号、座号参考 Flytix 公开 CAD 派生数据；保留缺座与分段。来源中的区界仍待票面核对，部分排归属为来源推定；三维层高、坡度仍为估算，演出设备为示意。"
+    }
+  },
+  "upstreamScriptSha256": "4571c73b4784d7e3dd3ee6ef6566b8ae0a4c677cabe9c3e77d3b920d5112b118",
+  "upstreamDeclaredMethodExcerpts": [
+    {
+      "term": "CAD 逐座位圖",
+      "characterOffset": 607,
+      "text": "–240、L2 前排 101–110、L5 501–540）同 L5 行名（A–M ／ AA–QQ）來自官方座位圖同現場樓層牌。球場緩衝、行距、升高、層底高度、每層行數全部係推算。CAD 逐座位圖（tools/kai-tak/stadium/official/*.pdf → src/data/kts_seats.json）分輪接入做候選，見 models。來源見 tools/kai-tak/README.md。\",y1={capacity:5e4,concertCapacity:35e3,suites:{cou"
+    },
+    {
+      "term": "層高冇資料",
+      "characterOffset": 19223,
+      "text": "yout\",\"_note\":\"第五輪：西面由內向外 L1 → VS SUITES 前排 → LOGE 包廂 → 傳媒席 → L5 上截，全部由 CAD 逐座位圖量位置、行數、分段。層高冇資料：VS 前排接住 L1 升坡、LOGE 用原版 11 m、傳媒席用 L5 下截升坡推算。L3 廂房（57 間）唔喺座位圖上，原版環照舊。\",\"_source\":{\"VS SUITES 前排\":\"x −56.8～−59.6 四行（行距 0.93）、五段 z [−18.8,−14.2]／[−12.3,−5.1]／[−3.1"
+    },
+    {
+      "term": "未經 CAD 核實",
+      "characterOffset": 3907637,
+      "text": "f T0(e))r.push({...L,level:!0,identityStatus:\"simulated\",identityNote:\"L3 包廂位置、行號及座號為模型估算，未經 CAD 核實。\"});return r}const m0=x.cValue,I0=x.seatScore,V0=x.paintSeats;function y0(e,s){return x.aisleMarkers(e,s??d1(e))}function k(e,s,r,L,l){const t=[];for(const b o"
+    }
+  ],
+  "measuredPositionError": null,
+  "measuredPositionErrorReason": "No independent ground-truth field measurements or error distribution acquired in this audit"
+}

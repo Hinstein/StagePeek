@@ -1,0 +1,446 @@
+{
+  "id": "star-theatre",
+  "name": "星宇表演艺术中心 · 星宇剧场",
+  "city": "新加坡 · 新加坡",
+  "capacity": "原站目录未提供统一容量字段",
+  "source": "https://www.thestar.sg/the-star-theatre",
+  "sourceTitle": "REA 导出的公开场馆来源索引与参数化座位示意",
+  "sourceLinks": [
+    "https://www.thestar.sg/the-star-theatre",
+    "https://dopinrae12872.cloudfront.net/wp-content/uploads/2015/07/The-Star-Theatre-layout-seating-plan.pdf"
+  ],
+  "accuracy": {
+    "sectionLabels": "source-layout-reference",
+    "completeSeatInventory": false,
+    "metricCalibrated": false,
+    "stage": "generic",
+    "position": "estimated",
+    "geometryBasis": "source-informed-parametric:dimension",
+    "catalogStatus": "source-geometry-and-sections",
+    "seatDataStatus": "section-only",
+    "sourceLayout": "end",
+    "coverage": "20 个来源分区；0 条座位采样。区号来自公开布局参考。",
+    "reuse": "来源页面可公开访问；未建立商业图形、模型或座位数据库再分发许可，发布前需逐源复核。",
+    "sourceDate": "REA capture 2026-10-24",
+    "sourceInventory": {
+      "venueReferenceUrl": "https://www.thestar.sg/the-star-theatre",
+      "mapReferenceUrl": "https://dopinrae12872.cloudfront.net/wp-content/uploads/2015/07/The-Star-Theatre-layout-seating-plan.pdf",
+      "sectionSource": "https://dopinrae12872.cloudfront.net/wp-content/uploads/2015/07/The-Star-Theatre-layout-seating-plan.pdf",
+      "geometryEvidenceLabel": "dimension",
+      "note": "Missing asset URL does not establish absence of generated seat geometry."
+    },
+    "seatAsset": null
+  },
+  "tiers": [
+    [
+      19,
+      14,
+      0.4,
+      18,
+      5
+    ],
+    [
+      24,
+      29,
+      8,
+      11,
+      7
+    ],
+    [
+      26,
+      32,
+      16,
+      12,
+      7
+    ]
+  ],
+  "geometry": {
+    "shape": "fan",
+    "coordinateSystem": "profile-inner-radius",
+    "power": 1,
+    "oneSided": true,
+    "stage": {
+      "width": 20,
+      "depth": 8,
+      "z": 16,
+      "height": 1.2
+    },
+    "floor": [
+      20,
+      20
+    ],
+    "openBowl": true,
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "Stalls 池座",
+        "steps": 24
+      },
+      {
+        "id": "middle",
+        "name": "Circle 1 楼座",
+        "steps": 15
+      },
+      {
+        "id": "upper",
+        "name": "Circle 2 楼座",
+        "steps": 16
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "B",
+      "ticketLabels": [
+        "B"
+      ],
+      "sourceLabel": "B 区 · Stalls",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.2617993877991494,
+      "radialStart": 0,
+      "radialEnd": 0.48,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://dopinrae12872.cloudfront.net/wp-content/uploads/2015/07/The-Star-Theatre-layout-seating-plan.pdf"
+      }
+    },
+    {
+      "id": "A",
+      "ticketLabels": [
+        "A"
+      ],
+      "sourceLabel": "A 区 · Stalls",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.443460952792061,
+      "halfAngle": 0.2617993877991494,
+      "radialStart": 0,
+      "radialEnd": 0.48,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://dopinrae12872.cloudfront.net/wp-content/uploads/2015/07/The-Star-Theatre-layout-seating-plan.pdf"
+      }
+    },
+    {
+      "id": "C",
+      "ticketLabels": [
+        "C"
+      ],
+      "sourceLabel": "C 区 · Stalls",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.443460952792061,
+      "halfAngle": 0.2617993877991494,
+      "radialStart": 0,
+      "radialEnd": 0.48,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://dopinrae12872.cloudfront.net/wp-content/uploads/2015/07/The-Star-Theatre-layout-seating-plan.pdf"
+      }
+    },
+    {
+      "id": "D",
+      "ticketLabels": [
+        "D"
+      ],
+      "sourceLabel": "D 区 · Stalls",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.443460952792061,
+      "halfAngle": 0.2617993877991494,
+      "radialStart": 0.52,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://dopinrae12872.cloudfront.net/wp-content/uploads/2015/07/The-Star-Theatre-layout-seating-plan.pdf"
+      }
+    },
+    {
+      "id": "E",
+      "ticketLabels": [
+        "E"
+      ],
+      "sourceLabel": "E 区 · Stalls",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.2617993877991494,
+      "radialStart": 0.52,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://dopinrae12872.cloudfront.net/wp-content/uploads/2015/07/The-Star-Theatre-layout-seating-plan.pdf"
+      }
+    },
+    {
+      "id": "F",
+      "ticketLabels": [
+        "F"
+      ],
+      "sourceLabel": "F 区 · Stalls",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.443460952792061,
+      "halfAngle": 0.2617993877991494,
+      "radialStart": 0.52,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://dopinrae12872.cloudfront.net/wp-content/uploads/2015/07/The-Star-Theatre-layout-seating-plan.pdf"
+      }
+    },
+    {
+      "id": "G",
+      "ticketLabels": [
+        "G"
+      ],
+      "sourceLabel": "G 区 · Circle 1",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.3089969389957472,
+      "halfAngle": 0.24434609527920614,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://dopinrae12872.cloudfront.net/wp-content/uploads/2015/07/The-Star-Theatre-layout-seating-plan.pdf"
+      }
+    },
+    {
+      "id": "H",
+      "ticketLabels": [
+        "H"
+      ],
+      "sourceLabel": "H 区 · Circle 1",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.9547687622336491,
+      "halfAngle": 0.24434609527920614,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://dopinrae12872.cloudfront.net/wp-content/uploads/2015/07/The-Star-Theatre-layout-seating-plan.pdf"
+      }
+    },
+    {
+      "id": "J",
+      "ticketLabels": [
+        "J"
+      ],
+      "sourceLabel": "J 区 · Circle 1",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.6179938779914944,
+      "halfAngle": 0.24434609527920614,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://dopinrae12872.cloudfront.net/wp-content/uploads/2015/07/The-Star-Theatre-layout-seating-plan.pdf"
+      }
+    },
+    {
+      "id": "K",
+      "ticketLabels": [
+        "K"
+      ],
+      "sourceLabel": "K 区 · Circle 1",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.24434609527920614,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://dopinrae12872.cloudfront.net/wp-content/uploads/2015/07/The-Star-Theatre-layout-seating-plan.pdf"
+      }
+    },
+    {
+      "id": "L",
+      "ticketLabels": [
+        "L"
+      ],
+      "sourceLabel": "L 区 · Circle 1",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.6179938779914944,
+      "halfAngle": 0.24434609527920614,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://dopinrae12872.cloudfront.net/wp-content/uploads/2015/07/The-Star-Theatre-layout-seating-plan.pdf"
+      }
+    },
+    {
+      "id": "M",
+      "ticketLabels": [
+        "M"
+      ],
+      "sourceLabel": "M 区 · Circle 1",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.9547687622336491,
+      "halfAngle": 0.24434609527920614,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://dopinrae12872.cloudfront.net/wp-content/uploads/2015/07/The-Star-Theatre-layout-seating-plan.pdf"
+      }
+    },
+    {
+      "id": "N",
+      "ticketLabels": [
+        "N"
+      ],
+      "sourceLabel": "N 区 · Circle 1",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.3089969389957472,
+      "halfAngle": 0.24434609527920614,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://dopinrae12872.cloudfront.net/wp-content/uploads/2015/07/The-Star-Theatre-layout-seating-plan.pdf"
+      }
+    },
+    {
+      "id": "P",
+      "ticketLabels": [
+        "P"
+      ],
+      "sourceLabel": "P 区 · Circle 2",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -1.3089969389957472,
+      "halfAngle": 0.24434609527920614,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://dopinrae12872.cloudfront.net/wp-content/uploads/2015/07/The-Star-Theatre-layout-seating-plan.pdf"
+      }
+    },
+    {
+      "id": "Q",
+      "ticketLabels": [
+        "Q"
+      ],
+      "sourceLabel": "Q 区 · Circle 2",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -1.9547687622336491,
+      "halfAngle": 0.24434609527920614,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://dopinrae12872.cloudfront.net/wp-content/uploads/2015/07/The-Star-Theatre-layout-seating-plan.pdf"
+      }
+    },
+    {
+      "id": "R",
+      "ticketLabels": [
+        "R"
+      ],
+      "sourceLabel": "R 区 · Circle 2",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -2.6179938779914944,
+      "halfAngle": 0.24434609527920614,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://dopinrae12872.cloudfront.net/wp-content/uploads/2015/07/The-Star-Theatre-layout-seating-plan.pdf"
+      }
+    },
+    {
+      "id": "S",
+      "ticketLabels": [
+        "S"
+      ],
+      "sourceLabel": "S 区 · Circle 2",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.24434609527920614,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://dopinrae12872.cloudfront.net/wp-content/uploads/2015/07/The-Star-Theatre-layout-seating-plan.pdf"
+      }
+    },
+    {
+      "id": "T",
+      "ticketLabels": [
+        "T"
+      ],
+      "sourceLabel": "T 区 · Circle 2",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 2.6179938779914944,
+      "halfAngle": 0.24434609527920614,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://dopinrae12872.cloudfront.net/wp-content/uploads/2015/07/The-Star-Theatre-layout-seating-plan.pdf"
+      }
+    },
+    {
+      "id": "U",
+      "ticketLabels": [
+        "U"
+      ],
+      "sourceLabel": "U 区 · Circle 2",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 1.9547687622336491,
+      "halfAngle": 0.24434609527920614,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://dopinrae12872.cloudfront.net/wp-content/uploads/2015/07/The-Star-Theatre-layout-seating-plan.pdf"
+      }
+    },
+    {
+      "id": "V",
+      "ticketLabels": [
+        "V"
+      ],
+      "sourceLabel": "V 区 · Circle 2",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 1.3089969389957472,
+      "halfAngle": 0.24434609527920614,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://dopinrae12872.cloudfront.net/wp-content/uploads/2015/07/The-Star-Theatre-layout-seating-plan.pdf"
+      }
+    }
+  ],
+  "importedAt": "2026-10-24T00:00:00.000Z"
+}

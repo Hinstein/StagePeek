@@ -1,0 +1,772 @@
+{
+  "id": "venetian-arena",
+  "name": "威尼斯人综艺馆",
+  "city": "中国澳门 · 澳门",
+  "capacity": "原站目录未提供统一容量字段",
+  "source": "https://en.sandsresortsmacao.com/meetings/venues/venetian/venetian-arena.html",
+  "sourceTitle": "REA 导出的公开场馆来源索引与参数化座位示意",
+  "sourceLinks": [
+    "https://en.sandsresortsmacao.com/meetings/venues/venetian/venetian-arena.html",
+    "https://assets.sandsresortsmacao.cn/cotaiticketing/ateez2026/Ateez_Admission_Rules_V1.pdf"
+  ],
+  "accuracy": {
+    "sectionLabels": "source-layout-reference",
+    "completeSeatInventory": false,
+    "metricCalibrated": false,
+    "stage": "generic",
+    "position": "estimated",
+    "geometryBasis": "source-informed-parametric:plan",
+    "catalogStatus": "source-geometry-and-sections",
+    "seatDataStatus": "section-only",
+    "sourceLayout": "center",
+    "coverage": "41 个来源分区；0 条座位采样。区号来自公开布局参考。",
+    "reuse": "来源页面可公开访问；未建立商业图形、模型或座位数据库再分发许可，发布前需逐源复核。",
+    "sourceDate": "REA capture 2026-10-24",
+    "sourceInventory": {
+      "venueReferenceUrl": "https://en.sandsresortsmacao.com/meetings/venues/venetian/venetian-arena.html",
+      "mapReferenceUrl": null,
+      "sectionSource": "https://assets.sandsresortsmacao.cn/cotaiticketing/ateez2026/Ateez_Admission_Rules_V1.pdf",
+      "geometryEvidenceLabel": "plan",
+      "note": "Missing asset URL does not establish absence of generated seat geometry."
+    },
+    "seatAsset": null
+  },
+  "tiers": [
+    [
+      23,
+      35,
+      1,
+      17,
+      8
+    ],
+    [
+      34,
+      46,
+      13,
+      16,
+      11
+    ]
+  ],
+  "geometry": {
+    "shape": "rounded",
+    "coordinateSystem": "profile-inner-radius",
+    "power": 0.48,
+    "oneSided": false,
+    "floor": [
+      42,
+      66
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "100 看台",
+        "steps": 23
+      },
+      {
+        "id": "middle",
+        "name": "200 看台",
+        "steps": 23
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "111",
+      "ticketLabels": [
+        "111"
+      ],
+      "sourceLabel": "111 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.6981317007977318,
+      "halfAngle": 0.11945906065275189,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/cotaiticketing/ateez2026/Ateez_Admission_Rules_V1.pdf"
+      }
+    },
+    {
+      "id": "112",
+      "ticketLabels": [
+        "112"
+      ],
+      "sourceLabel": "112 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.9696351192379696,
+      "halfAngle": 0.11945033400649192,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/cotaiticketing/ateez2026/Ateez_Admission_Rules_V1.pdf"
+      }
+    },
+    {
+      "id": "113",
+      "ticketLabels": [
+        "113"
+      ],
+      "sourceLabel": "113 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.2411210843856877,
+      "halfAngle": 0.11945033400649192,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/cotaiticketing/ateez2026/Ateez_Admission_Rules_V1.pdf"
+      }
+    },
+    {
+      "id": "114",
+      "ticketLabels": [
+        "114"
+      ],
+      "sourceLabel": "114 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.5126245028259255,
+      "halfAngle": 0.11945033400649192,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/cotaiticketing/ateez2026/Ateez_Admission_Rules_V1.pdf"
+      }
+    },
+    {
+      "id": "115",
+      "ticketLabels": [
+        "115"
+      ],
+      "sourceLabel": "115 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.7841104679736435,
+      "halfAngle": 0.11945033400649192,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/cotaiticketing/ateez2026/Ateez_Admission_Rules_V1.pdf"
+      }
+    },
+    {
+      "id": "116",
+      "ticketLabels": [
+        "116"
+      ],
+      "sourceLabel": "116 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.0556138864138815,
+      "halfAngle": 0.11945033400649192,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/cotaiticketing/ateez2026/Ateez_Admission_Rules_V1.pdf"
+      }
+    },
+    {
+      "id": "117",
+      "ticketLabels": [
+        "117"
+      ],
+      "sourceLabel": "117 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.327099851561599,
+      "halfAngle": 0.11945033400649192,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/cotaiticketing/ateez2026/Ateez_Admission_Rules_V1.pdf"
+      }
+    },
+    {
+      "id": "118",
+      "ticketLabels": [
+        "118"
+      ],
+      "sourceLabel": "118 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.5986032700018376,
+      "halfAngle": 0.11945033400649192,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/cotaiticketing/ateez2026/Ateez_Admission_Rules_V1.pdf"
+      }
+    },
+    {
+      "id": "119",
+      "ticketLabels": [
+        "119"
+      ],
+      "sourceLabel": "119 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.8700892351495546,
+      "halfAngle": 0.11945033400649192,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/cotaiticketing/ateez2026/Ateez_Admission_Rules_V1.pdf"
+      }
+    },
+    {
+      "id": "120",
+      "ticketLabels": [
+        "120"
+      ],
+      "sourceLabel": "120 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -3.141592653589793,
+      "halfAngle": 0.11945906065275189,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/cotaiticketing/ateez2026/Ateez_Admission_Rules_V1.pdf"
+      }
+    },
+    {
+      "id": "121",
+      "ticketLabels": [
+        "121"
+      ],
+      "sourceLabel": "121 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -3.413096072030031,
+      "halfAngle": 0.11945033400649192,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/cotaiticketing/ateez2026/Ateez_Admission_Rules_V1.pdf"
+      }
+    },
+    {
+      "id": "122",
+      "ticketLabels": [
+        "122"
+      ],
+      "sourceLabel": "122 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -3.6845820371777487,
+      "halfAngle": 0.11945033400649192,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/cotaiticketing/ateez2026/Ateez_Admission_Rules_V1.pdf"
+      }
+    },
+    {
+      "id": "123",
+      "ticketLabels": [
+        "123"
+      ],
+      "sourceLabel": "123 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -3.956085455617987,
+      "halfAngle": 0.11945033400649192,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/cotaiticketing/ateez2026/Ateez_Admission_Rules_V1.pdf"
+      }
+    },
+    {
+      "id": "124",
+      "ticketLabels": [
+        "124"
+      ],
+      "sourceLabel": "124 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -4.227571420765705,
+      "halfAngle": 0.11945033400649192,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/cotaiticketing/ateez2026/Ateez_Admission_Rules_V1.pdf"
+      }
+    },
+    {
+      "id": "125",
+      "ticketLabels": [
+        "125"
+      ],
+      "sourceLabel": "125 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -4.499074839205943,
+      "halfAngle": 0.11945033400649192,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/cotaiticketing/ateez2026/Ateez_Admission_Rules_V1.pdf"
+      }
+    },
+    {
+      "id": "126",
+      "ticketLabels": [
+        "126"
+      ],
+      "sourceLabel": "126 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -4.770560804353661,
+      "halfAngle": 0.11945033400649192,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/cotaiticketing/ateez2026/Ateez_Admission_Rules_V1.pdf"
+      }
+    },
+    {
+      "id": "101",
+      "ticketLabels": [
+        "101"
+      ],
+      "sourceLabel": "101 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -5.042064222793899,
+      "halfAngle": 0.11945033400649192,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/cotaiticketing/ateez2026/Ateez_Admission_Rules_V1.pdf"
+      }
+    },
+    {
+      "id": "102",
+      "ticketLabels": [
+        "102"
+      ],
+      "sourceLabel": "102 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -5.313550187941616,
+      "halfAngle": 0.11945033400649192,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/cotaiticketing/ateez2026/Ateez_Admission_Rules_V1.pdf"
+      }
+    },
+    {
+      "id": "103",
+      "ticketLabels": [
+        "103"
+      ],
+      "sourceLabel": "103 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -5.585053606381854,
+      "halfAngle": 0.11945906065275189,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/cotaiticketing/ateez2026/Ateez_Admission_Rules_V1.pdf"
+      }
+    },
+    {
+      "id": "214",
+      "ticketLabels": [
+        "214"
+      ],
+      "sourceLabel": "214 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.6981317007977318,
+      "halfAngle": 0.10238974056824736,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/cotaiticketing/ateez2026/Ateez_Admission_Rules_V1.pdf"
+      }
+    },
+    {
+      "id": "215",
+      "ticketLabels": [
+        "215"
+      ],
+      "sourceLabel": "215 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.9308364499661358,
+      "halfAngle": 0.10238974056824736,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/cotaiticketing/ateez2026/Ateez_Admission_Rules_V1.pdf"
+      }
+    },
+    {
+      "id": "216",
+      "ticketLabels": [
+        "216"
+      ],
+      "sourceLabel": "216 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.1635586524270596,
+      "halfAngle": 0.10238974056824736,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/cotaiticketing/ateez2026/Ateez_Admission_Rules_V1.pdf"
+      }
+    },
+    {
+      "id": "217",
+      "ticketLabels": [
+        "217"
+      ],
+      "sourceLabel": "217 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.3962634015954636,
+      "halfAngle": 0.10238974056824736,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/cotaiticketing/ateez2026/Ateez_Admission_Rules_V1.pdf"
+      }
+    },
+    {
+      "id": "218",
+      "ticketLabels": [
+        "218"
+      ],
+      "sourceLabel": "218 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.6289681507638676,
+      "halfAngle": 0.10238974056824736,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/cotaiticketing/ateez2026/Ateez_Admission_Rules_V1.pdf"
+      }
+    },
+    {
+      "id": "219",
+      "ticketLabels": [
+        "219"
+      ],
+      "sourceLabel": "219 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.8616903532247915,
+      "halfAngle": 0.10238974056824736,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/cotaiticketing/ateez2026/Ateez_Admission_Rules_V1.pdf"
+      }
+    },
+    {
+      "id": "220",
+      "ticketLabels": [
+        "220"
+      ],
+      "sourceLabel": "220 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.0943951023931953,
+      "halfAngle": 0.10238974056824736,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/cotaiticketing/ateez2026/Ateez_Admission_Rules_V1.pdf"
+      }
+    },
+    {
+      "id": "221",
+      "ticketLabels": [
+        "221"
+      ],
+      "sourceLabel": "221 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.327099851561599,
+      "halfAngle": 0.10238974056824736,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/cotaiticketing/ateez2026/Ateez_Admission_Rules_V1.pdf"
+      }
+    },
+    {
+      "id": "222",
+      "ticketLabels": [
+        "222"
+      ],
+      "sourceLabel": "222 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.5598220540225234,
+      "halfAngle": 0.10238974056824736,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/cotaiticketing/ateez2026/Ateez_Admission_Rules_V1.pdf"
+      }
+    },
+    {
+      "id": "223",
+      "ticketLabels": [
+        "223"
+      ],
+      "sourceLabel": "223 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.792526803190927,
+      "halfAngle": 0.10238974056824736,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/cotaiticketing/ateez2026/Ateez_Admission_Rules_V1.pdf"
+      }
+    },
+    {
+      "id": "224",
+      "ticketLabels": [
+        "224"
+      ],
+      "sourceLabel": "224 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -3.0252315523593314,
+      "halfAngle": 0.10238974056824736,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/cotaiticketing/ateez2026/Ateez_Admission_Rules_V1.pdf"
+      }
+    },
+    {
+      "id": "225",
+      "ticketLabels": [
+        "225"
+      ],
+      "sourceLabel": "225 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -3.2579537548202553,
+      "halfAngle": 0.10238974056824736,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/cotaiticketing/ateez2026/Ateez_Admission_Rules_V1.pdf"
+      }
+    },
+    {
+      "id": "226",
+      "ticketLabels": [
+        "226"
+      ],
+      "sourceLabel": "226 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -3.490658503988659,
+      "halfAngle": 0.10238974056824736,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/cotaiticketing/ateez2026/Ateez_Admission_Rules_V1.pdf"
+      }
+    },
+    {
+      "id": "227",
+      "ticketLabels": [
+        "227"
+      ],
+      "sourceLabel": "227 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -3.7233632531570633,
+      "halfAngle": 0.10238974056824736,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/cotaiticketing/ateez2026/Ateez_Admission_Rules_V1.pdf"
+      }
+    },
+    {
+      "id": "228",
+      "ticketLabels": [
+        "228"
+      ],
+      "sourceLabel": "228 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -3.956085455617987,
+      "halfAngle": 0.10238974056824736,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/cotaiticketing/ateez2026/Ateez_Admission_Rules_V1.pdf"
+      }
+    },
+    {
+      "id": "229",
+      "ticketLabels": [
+        "229"
+      ],
+      "sourceLabel": "229 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -4.1887902047863905,
+      "halfAngle": 0.10238974056824736,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/cotaiticketing/ateez2026/Ateez_Admission_Rules_V1.pdf"
+      }
+    },
+    {
+      "id": "230",
+      "ticketLabels": [
+        "230"
+      ],
+      "sourceLabel": "230 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -4.421494953954794,
+      "halfAngle": 0.10238974056824736,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/cotaiticketing/ateez2026/Ateez_Admission_Rules_V1.pdf"
+      }
+    },
+    {
+      "id": "231",
+      "ticketLabels": [
+        "231"
+      ],
+      "sourceLabel": "231 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -4.654217156415719,
+      "halfAngle": 0.10238974056824736,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/cotaiticketing/ateez2026/Ateez_Admission_Rules_V1.pdf"
+      }
+    },
+    {
+      "id": "232",
+      "ticketLabels": [
+        "232"
+      ],
+      "sourceLabel": "232 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -4.886921905584122,
+      "halfAngle": 0.10238974056824736,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/cotaiticketing/ateez2026/Ateez_Admission_Rules_V1.pdf"
+      }
+    },
+    {
+      "id": "201",
+      "ticketLabels": [
+        "201"
+      ],
+      "sourceLabel": "201 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -5.119626654752527,
+      "halfAngle": 0.10238974056824736,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/cotaiticketing/ateez2026/Ateez_Admission_Rules_V1.pdf"
+      }
+    },
+    {
+      "id": "202",
+      "ticketLabels": [
+        "202"
+      ],
+      "sourceLabel": "202 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -5.35234885721345,
+      "halfAngle": 0.10238974056824736,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/cotaiticketing/ateez2026/Ateez_Admission_Rules_V1.pdf"
+      }
+    },
+    {
+      "id": "203",
+      "ticketLabels": [
+        "203"
+      ],
+      "sourceLabel": "203 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -5.585053606381854,
+      "halfAngle": 0.10238974056824736,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://assets.sandsresortsmacao.cn/cotaiticketing/ateez2026/Ateez_Admission_Rules_V1.pdf"
+      }
+    }
+  ],
+  "importedAt": "2026-10-24T00:00:00.000Z"
+}

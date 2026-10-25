@@ -1,0 +1,355 @@
+{
+  "capture_path": "/Users/lilinhai/Projects/rea/shijiao-evidence/page-capture.json",
+  "capture_sha256": "b9ad29ec626a0ba751a65998828ce80f5846f0e43cd90826939deae12b818a5a",
+  "capture_kind": "page-inspection",
+  "source_evidence_id": "ev_bd476673da88dd1777160e0ddf3e7aa1e1019833c6651c78efab6e684f63c353",
+  "capture_completeness": {
+    "status": "policy_filtered",
+    "conditions": [
+      "attach_limited",
+      "policy_filtered"
+    ],
+    "policy_filtered_sections": [
+      "console_text",
+      "metadata",
+      "resources",
+      "storage_keys",
+      "websocket_shapes",
+      "workers"
+    ],
+    "attach_limited_sections": [
+      "console_events",
+      "metadata",
+      "network_requests",
+      "websocket_connections",
+      "websocket_frames"
+    ],
+    "truncated_sections": [],
+    "unavailable_sections": [],
+    "excluded": [
+      {
+        "section": "console_text",
+        "reason": "not_approved",
+        "count": null
+      },
+      {
+        "section": "metadata",
+        "reason": "unsupported_url",
+        "count": 50
+      },
+      {
+        "section": "resources",
+        "reason": "unsupported_url",
+        "count": 52
+      },
+      {
+        "section": "storage_keys",
+        "reason": "not_approved",
+        "count": null
+      },
+      {
+        "section": "websocket_shapes",
+        "reason": "not_approved",
+        "count": null
+      },
+      {
+        "section": "workers",
+        "reason": "out_of_target_scope",
+        "count": 1
+      }
+    ],
+    "dropped_events": {
+      "scripts": 0,
+      "network_requests": 0,
+      "console_events": 0,
+      "websocket_connections": 0,
+      "websocket_frames": 0,
+      "webmcp_tools": 0,
+      "timeline_events": 0,
+      "total": 0
+    }
+  },
+  "output_directory": "/Users/lilinhai/Projects/rea/shijiao-evidence/scripts",
+  "analysis_input": {
+    "input_path": "/Users/lilinhai/Projects/rea/shijiao-evidence/scripts/files",
+    "format": "directory"
+  },
+  "scripts": [
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_18a028964a4900e8c57c5a66f096195f2146a4dea7ed372d1732ad1c1f7f629e",
+        "frame_id": "4F69BCA024A9A913B3625A9362F629AF",
+        "is_module": true,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/PublicMemories-B50gXY95.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/08a3d92a8dd745d136ae160b17d72397ead1e154bac0df91bfaf44e738c7c679/releases/photo-protection-20261023/assets/PublicMemories-B50gXY95.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "d4bfd33a693e2061ac7c77c25881057c58df3bbff5be2048453725b6cdf13430",
+        "bytes": 4498,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_1cfc80aa9f0e2448ef8643d36bfc1b15d8a92877b60d6438ed5bc7c8db6a30be",
+        "frame_id": "4F69BCA024A9A913B3625A9362F629AF",
+        "is_module": true,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/Stadium-hdz890bx.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/08a3d92a8dd745d136ae160b17d72397ead1e154bac0df91bfaf44e738c7c679/releases/photo-protection-20261023/assets/Stadium-hdz890bx.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "a040e94298443532c3671ebe0c58c5bc8ff77db3a18bb27e92d63c5c38bac254",
+        "bytes": 108962,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_32b81095d8d6b67419d010e2dd942df6a4dfafb7022e51c0c1cecaa29c8b73a1",
+        "frame_id": "4F69BCA024A9A913B3625A9362F629AF",
+        "is_module": true,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/data-CI2ywFAf.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/08a3d92a8dd745d136ae160b17d72397ead1e154bac0df91bfaf44e738c7c679/releases/photo-protection-20261023/assets/data-CI2ywFAf.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "4f2a15832526950f3ea07d366bd5c6e9a493b8c1c268d0f1bab6072064553823",
+        "bytes": 1355044,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_4007e8686b254ec5a68b5c7da8926f9a4d955cd9cbb487d66f106b89316c3ef9",
+        "frame_id": "4F69BCA024A9A913B3625A9362F629AF",
+        "is_module": true,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/useUnsavedChanges-Duse7vRR.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/08a3d92a8dd745d136ae160b17d72397ead1e154bac0df91bfaf44e738c7c679/releases/photo-protection-20261023/assets/useUnsavedChanges-Duse7vRR.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "8abe0b5c06d51b5f02ed61c406be6f4abfb8aa8bd4a934a039fc0500ea06f1f8",
+        "bytes": 869,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_43f1504b1cb4db56ee4776f7761aed8f74a6383ef5167c971191b922efbe0a43",
+        "frame_id": "4F69BCA024A9A913B3625A9362F629AF",
+        "is_module": true,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/photos-D5S6ebtb.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/08a3d92a8dd745d136ae160b17d72397ead1e154bac0df91bfaf44e738c7c679/releases/photo-protection-20261023/assets/photos-D5S6ebtb.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "0e3703a001bce9b15dac06b025b645b1495a1709dc3d74990deac9289503fef6",
+        "bytes": 4172,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_72fc5d2c8d86106e8226953110b6e5b6520fa8dd8cdd46a22ad4478dddcb184a",
+        "frame_id": "4F69BCA024A9A913B3625A9362F629AF",
+        "is_module": true,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/request-B-vpbw8E.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/08a3d92a8dd745d136ae160b17d72397ead1e154bac0df91bfaf44e738c7c679/releases/photo-protection-20261023/assets/request-B-vpbw8E.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "b46d0761720cd0be80417fc32bded299e3b5d5fd1d6b2467c36eb88214d03c15",
+        "bytes": 1191,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_85331166b5f196789577085bd2fd2746d31b9735bdc4f8b4cfc7aebfd361a0ab",
+        "frame_id": "4F69BCA024A9A913B3625A9362F629AF",
+        "is_module": true,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/photos-BMH0FVHp.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/08a3d92a8dd745d136ae160b17d72397ead1e154bac0df91bfaf44e738c7c679/releases/photo-protection-20261023/assets/photos-BMH0FVHp.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "834cbdbbf1ec8b751ae5c18895b1ab0e19f8ea9805be5463428aca80b0f28ad9",
+        "bytes": 6645,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_9a7277e3dfdf297a628ab359ea626b79d1895de343b6142a3c5aaed1da438271",
+        "frame_id": "4F69BCA024A9A913B3625A9362F629AF",
+        "is_module": true,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/OrbitControls-DcB4Swpe.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/08a3d92a8dd745d136ae160b17d72397ead1e154bac0df91bfaf44e738c7c679/releases/photo-protection-20261023/assets/OrbitControls-DcB4Swpe.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "1bc51d9ba5cdf8b5f80e81378096b0502b2e8269531a5a2ddfd38befe30cdb31",
+        "bytes": 593491,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_c5f98646ccdb9ed5e474880341c160e70b21dafad1852ea30b8839b95d5c64bb",
+        "frame_id": "4F69BCA024A9A913B3625A9362F629AF",
+        "is_module": true,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/index-BAj_84iQ.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/08a3d92a8dd745d136ae160b17d72397ead1e154bac0df91bfaf44e738c7c679/releases/photo-protection-20261023/assets/index-BAj_84iQ.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "505e111309de54efd9b766cf1769178c7174852aa98d985e92a791463adc8211",
+        "bytes": 487882,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_c7ee848b1dad004a89871c9ddfc95a464eda6e8edbe33053e5e8a6631c1ff463",
+        "frame_id": "4F69BCA024A9A913B3625A9362F629AF",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/jweixin-1.6.0.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/08a3d92a8dd745d136ae160b17d72397ead1e154bac0df91bfaf44e738c7c679/releases/photo-protection-20261023/jweixin-1.6.0.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "0f17c4f7daf51a49a9627714ad2da6c037352442699ba8ceca68b7c6dc0b1dba",
+        "bytes": 12938,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_daaec6a0e5c5051be78930aaee88d45f8a33258fd656d9e5aeb45ce6d3bf3723",
+        "frame_id": "4F69BCA024A9A913B3625A9362F629AF",
+        "is_module": true,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/SelectField-DIrNP88w.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/08a3d92a8dd745d136ae160b17d72397ead1e154bac0df91bfaf44e738c7c679/releases/photo-protection-20261023/assets/SelectField-DIrNP88w.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "57a54612e7352cbb8649a975be9e7e252d6683d49441d12badb562f3b7aafd88",
+        "bytes": 5274,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_f5601d1593cd5da7c6a5f0c95cc37fa944a6ee68154b366102cbfbb71082a08f",
+        "frame_id": "4F69BCA024A9A913B3625A9362F629AF",
+        "is_module": true,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/AppRoute-FKjE7l3d.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/08a3d92a8dd745d136ae160b17d72397ead1e154bac0df91bfaf44e738c7c679/releases/photo-protection-20261023/assets/AppRoute-FKjE7l3d.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "8a0c43248b569d1a8b794373043ee9330c277bb42bc0823ba92761be03081260",
+        "bytes": 386271,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    }
+  ],
+  "limitations": [
+    "Observation starts when REA attaches; prior network and console activity is unavailable.",
+    "Raw network headers, bodies, cookies, storage values, console objects, and WebSocket payloads are never retained; explicitly requested primitive console text is retained verbatim, while payload captures retain value-free shapes.",
+    "Source maps are reported only as declarative URLs and are not fetched.",
+    "URL-less scripts and console events without an allowed source URL are excluded because their origin cannot be proven.",
+    "CDP discovery omitted the target attachment state; attached is reported as unknown.",
+    "Only script bytes retained in this capture are exported. Sources are not refetched or executed, and a response or Debugger source does not prove execution.",
+    "Ordinary unambiguous URL paths preserve relative module layouts by origin, including case-distinct spellings. Query variants, exact path collisions, file/directory prefixes, inline sources, and unrepresentable paths are isolated. A case-distinct pair is isolated only when the destination filesystem cannot store both spellings; the record names that pair. Browser module relationships of isolated paths remain unknown.",
+    "Local JavaScript analysis does not implement browser import maps, root-relative URL resolution, remote URL loading, or browser runtime behavior. It may strip import queries and fragments; isolated variants are not canonical targets.",
+    "Source-map declarations are retained as metadata. No source maps or missing dependencies are fetched or reconstructed.",
+    "Scenario response bytes preserve the output of Playwright's Response.body() API; any source-body provenance caveat from the capture is retained in this manifest. Debugger sources are the exposed text encoded as UTF-8. Redacted bytes are exported exactly as retained, and may no longer parse as JavaScript."
+  ]
+}

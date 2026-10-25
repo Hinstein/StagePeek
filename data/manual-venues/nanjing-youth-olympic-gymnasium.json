@@ -1,0 +1,927 @@
+{
+  "id": "nanjing-youth-olympic-gymnasium",
+  "name": "南京梦之蓝青奥体育公园体育馆",
+  "city": "中国内地 · 南京",
+  "capacity": "原站目录未提供统一容量字段",
+  "source": "https://weibo.com/2/detail/5353562416351919",
+  "sourceTitle": "REA 导出的公开场馆来源索引与参数化座位示意",
+  "sourceLinks": [
+    "https://weibo.com/2/detail/5353562416351919"
+  ],
+  "accuracy": {
+    "sectionLabels": "source-layout-reference",
+    "completeSeatInventory": false,
+    "metricCalibrated": false,
+    "stage": "generic",
+    "position": "estimated",
+    "geometryBasis": "source-informed-parametric:reference",
+    "catalogStatus": "source-geometry-and-sections",
+    "seatDataStatus": "section-only",
+    "sourceLayout": "end",
+    "coverage": "49 个来源分区；0 条座位采样。区号来自公开布局参考。",
+    "reuse": "来源页面可公开访问；未建立商业图形、模型或座位数据库再分发许可，发布前需逐源复核。",
+    "sourceDate": "REA capture 2026-10-24",
+    "sourceInventory": {
+      "venueReferenceUrl": "https://weibo.com/2/detail/5353562416351919",
+      "mapReferenceUrl": null,
+      "sectionSource": null,
+      "geometryEvidenceLabel": "reference",
+      "note": "Missing asset URL does not establish absence of generated seat geometry."
+    },
+    "seatAsset": null
+  },
+  "tiers": [
+    [
+      21.5,
+      30,
+      1.5,
+      6.2,
+      3
+    ],
+    [
+      29,
+      37,
+      6,
+      6,
+      5
+    ],
+    [
+      38,
+      45,
+      13,
+      10,
+      8
+    ]
+  ],
+  "geometry": {
+    "shape": "rounded",
+    "coordinateSystem": "profile-inner-radius",
+    "power": 0.65,
+    "oneSided": false,
+    "stage": {
+      "width": 25.08,
+      "depth": 12.36,
+      "z": -19.74,
+      "height": 1.5,
+      "facing": 1
+    },
+    "floor": [
+      43,
+      60
+    ],
+    "openBowl": true,
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "100 看台",
+        "steps": 6
+      },
+      {
+        "id": "middle",
+        "name": "200 看台",
+        "steps": 10
+      },
+      {
+        "id": "upper",
+        "name": "300 看台",
+        "steps": 16
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "110",
+      "ticketLabels": [
+        "110"
+      ],
+      "sourceLabel": "110 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.8391193977738338,
+      "halfAngle": 0.0648215284190694,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "/maps/xiaozhan-nanjing-202610.jpg"
+      }
+    },
+    {
+      "id": "111",
+      "ticketLabels": [
+        "111"
+      ],
+      "sourceLabel": "111 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.0617186905731906,
+      "halfAngle": 0.13587388226775857,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "/maps/xiaozhan-nanjing-202610.jpg"
+      }
+    },
+    {
+      "id": "112",
+      "ticketLabels": [
+        "112"
+      ],
+      "sourceLabel": "112 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.3082639007099095,
+      "halfAngle": 0.07780677805390722,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "/maps/xiaozhan-nanjing-202610.jpg"
+      }
+    },
+    {
+      "id": "113",
+      "ticketLabels": [
+        "113"
+      ],
+      "sourceLabel": "113 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.6224231660688888,
+      "halfAngle": 0.20714440227294698,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "/maps/xiaozhan-nanjing-202610.jpg"
+      }
+    },
+    {
+      "id": "114",
+      "ticketLabels": [
+        "114"
+      ],
+      "sourceLabel": "114 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.9270180271269393,
+      "halfAngle": 0.06819001387541845,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "/maps/xiaozhan-nanjing-202610.jpg"
+      }
+    },
+    {
+      "id": "115",
+      "ticketLabels": [
+        "115"
+      ],
+      "sourceLabel": "115 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.0916025755900045,
+      "halfAngle": 0.06884451234491633,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "/maps/xiaozhan-nanjing-202610.jpg"
+      }
+    },
+    {
+      "id": "103",
+      "ticketLabels": [
+        "103"
+      ],
+      "sourceLabel": "103 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.8366933901135616,
+      "halfAngle": 0.0664185046846442,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "/maps/xiaozhan-nanjing-202610.jpg"
+      }
+    },
+    {
+      "id": "102",
+      "ticketLabels": [
+        "102"
+      ],
+      "sourceLabel": "102 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.0603922403416748,
+      "halfAngle": 0.13461724520632265,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "/maps/xiaozhan-nanjing-202610.jpg"
+      }
+    },
+    {
+      "id": "101",
+      "ticketLabels": [
+        "101"
+      ],
+      "sourceLabel": "101 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.4183418166331918,
+      "halfAngle": 0.19134044589613833,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "/maps/xiaozhan-nanjing-202610.jpg"
+      }
+    },
+    {
+      "id": "125",
+      "ticketLabels": [
+        "125"
+      ],
+      "sourceLabel": "125 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.830431506321573,
+      "halfAngle": 0.17996089917313532,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "/maps/xiaozhan-nanjing-202610.jpg"
+      }
+    },
+    {
+      "id": "124",
+      "ticketLabels": [
+        "124"
+      ],
+      "sourceLabel": "124 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.0988631452783006,
+      "halfAngle": 0.06866997941971689,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "/maps/xiaozhan-nanjing-202610.jpg"
+      }
+    },
+    {
+      "id": "109",
+      "ticketLabels": [
+        "109"
+      ],
+      "sourceLabel": "109 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.5022883054314481,
+      "halfAngle": 0.06140940973142048,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "/maps/xiaozhan-nanjing-202610.jpg"
+      }
+    },
+    {
+      "id": "108",
+      "ticketLabels": [
+        "108"
+      ],
+      "sourceLabel": "108 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.3217514476051546,
+      "halfAngle": 0.08086110424489729,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "/maps/xiaozhan-nanjing-202610.jpg"
+      }
+    },
+    {
+      "id": "105",
+      "ticketLabels": [
+        "105"
+      ],
+      "sourceLabel": "105 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.31749284423028845,
+      "halfAngle": 0.08177740210219431,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "/maps/xiaozhan-nanjing-202610.jpg"
+      }
+    },
+    {
+      "id": "104",
+      "ticketLabels": [
+        "104"
+      ],
+      "sourceLabel": "104 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.49905944631525856,
+      "halfAngle": 0.06413212336453164,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "/maps/xiaozhan-nanjing-202610.jpg"
+      }
+    },
+    {
+      "id": "211",
+      "ticketLabels": [
+        "211"
+      ],
+      "sourceLabel": "211 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.9456892019006075,
+      "halfAngle": 0.07970918693858103,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "/maps/xiaozhan-nanjing-202610.jpg"
+      }
+    },
+    {
+      "id": "212",
+      "ticketLabels": [
+        "212"
+      ],
+      "sourceLabel": "212 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.2184841639873212,
+      "halfAngle": 0.1677785009942149,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "/maps/xiaozhan-nanjing-202610.jpg"
+      }
+    },
+    {
+      "id": "213",
+      "ticketLabels": [
+        "213"
+      ],
+      "sourceLabel": "213 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.610694553495487,
+      "halfAngle": 0.20198695433330374,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "/maps/xiaozhan-nanjing-202610.jpg"
+      }
+    },
+    {
+      "id": "214",
+      "ticketLabels": [
+        "214"
+      ],
+      "sourceLabel": "214 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.9304912323384078,
+      "halfAngle": 0.09962339370383633,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "/maps/xiaozhan-nanjing-202610.jpg"
+      }
+    },
+    {
+      "id": "203",
+      "ticketLabels": [
+        "203"
+      ],
+      "sourceLabel": "203 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.9450783366624096,
+      "halfAngle": 0.08136724972797564,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "/maps/xiaozhan-nanjing-202610.jpg"
+      }
+    },
+    {
+      "id": "202",
+      "ticketLabels": [
+        "202"
+      ],
+      "sourceLabel": "202 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.2208403584775134,
+      "halfAngle": 0.16886933177671135,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "/maps/xiaozhan-nanjing-202610.jpg"
+      }
+    },
+    {
+      "id": "201",
+      "ticketLabels": [
+        "201"
+      ],
+      "sourceLabel": "201 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.6129634815230796,
+      "halfAngle": 0.2007390439181278,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "/maps/xiaozhan-nanjing-202610.jpg"
+      }
+    },
+    {
+      "id": "224",
+      "ticketLabels": [
+        "224"
+      ],
+      "sourceLabel": "224 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.9318700424474835,
+      "halfAngle": 0.09994627961545527,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "/maps/xiaozhan-nanjing-202610.jpg"
+      }
+    },
+    {
+      "id": "210",
+      "ticketLabels": [
+        "210"
+      ],
+      "sourceLabel": "210 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.7395483639475572,
+      "halfAngle": 0.07956083395216153,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "/maps/xiaozhan-nanjing-202610.jpg"
+      }
+    },
+    {
+      "id": "209",
+      "ticketLabels": [
+        "209"
+      ],
+      "sourceLabel": "209 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.49134509102144364,
+      "halfAngle": 0.09126326658678349,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "/maps/xiaozhan-nanjing-202610.jpg"
+      }
+    },
+    {
+      "id": "208",
+      "ticketLabels": [
+        "208"
+      ],
+      "sourceLabel": "208 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.2528458487364185,
+      "halfAngle": 0.08951793733478915,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "/maps/xiaozhan-nanjing-202610.jpg"
+      }
+    },
+    {
+      "id": "207",
+      "ticketLabels": [
+        "207"
+      ],
+      "sourceLabel": "207 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.003525565089028546,
+      "halfAngle": 0.13377948716536536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "/maps/xiaozhan-nanjing-202610.jpg"
+      }
+    },
+    {
+      "id": "206",
+      "ticketLabels": [
+        "206"
+      ],
+      "sourceLabel": "206 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.24623105087136002,
+      "halfAngle": 0.08985827653892806,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "/maps/xiaozhan-nanjing-202610.jpg"
+      }
+    },
+    {
+      "id": "205",
+      "ticketLabels": [
+        "205"
+      ],
+      "sourceLabel": "205 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.48637090265325983,
+      "halfAngle": 0.10745992204529087,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "/maps/xiaozhan-nanjing-202610.jpg"
+      }
+    },
+    {
+      "id": "204",
+      "ticketLabels": [
+        "204"
+      ],
+      "sourceLabel": "204 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.7229153761760513,
+      "halfAngle": 0.08417722982368651,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "/maps/xiaozhan-nanjing-202610.jpg"
+      }
+    },
+    {
+      "id": "313",
+      "ticketLabels": [
+        "313"
+      ],
+      "sourceLabel": "313 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -1.0969219815859161,
+      "halfAngle": 0.0826413400819315,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "/maps/xiaozhan-nanjing-202610.jpg"
+      }
+    },
+    {
+      "id": "314",
+      "ticketLabels": [
+        "314"
+      ],
+      "sourceLabel": "314 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -1.3217902024128656,
+      "halfAngle": 0.1282293401440234,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "/maps/xiaozhan-nanjing-202610.jpg"
+      }
+    },
+    {
+      "id": "315",
+      "ticketLabels": [
+        "315"
+      ],
+      "sourceLabel": "315 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -1.6007810833441594,
+      "halfAngle": 0.1395216204044267,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "/maps/xiaozhan-nanjing-202610.jpg"
+      }
+    },
+    {
+      "id": "316",
+      "ticketLabels": [
+        "316"
+      ],
+      "sourceLabel": "316 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -1.815770740604821,
+      "halfAngle": 0.06589490590904591,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "/maps/xiaozhan-nanjing-202610.jpg"
+      }
+    },
+    {
+      "id": "303",
+      "ticketLabels": [
+        "303"
+      ],
+      "sourceLabel": "303 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 1.0945832403882438,
+      "halfAngle": 0.0829205927622506,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "/maps/xiaozhan-nanjing-202610.jpg"
+      }
+    },
+    {
+      "id": "302",
+      "ticketLabels": [
+        "302"
+      ],
+      "sourceLabel": "302 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 1.32041139230379,
+      "halfAngle": 0.12891874519856114,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "/maps/xiaozhan-nanjing-202610.jpg"
+      }
+    },
+    {
+      "id": "301",
+      "ticketLabels": [
+        "301"
+      ],
+      "sourceLabel": "301 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 1.6009556162693586,
+      "halfAngle": 0.14040301167668384,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "/maps/xiaozhan-nanjing-202610.jpg"
+      }
+    },
+    {
+      "id": "328",
+      "ticketLabels": [
+        "328"
+      ],
+      "sourceLabel": "328 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 1.8171320974213763,
+      "halfAngle": 0.06625269840570475,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "/maps/xiaozhan-nanjing-202610.jpg"
+      }
+    },
+    {
+      "id": "312",
+      "ticketLabels": [
+        "312"
+      ],
+      "sourceLabel": "312 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -0.8629955019411161,
+      "halfAngle": 0.0933227551041368,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "/maps/xiaozhan-nanjing-202610.jpg"
+      }
+    },
+    {
+      "id": "311",
+      "ticketLabels": [
+        "311"
+      ],
+      "sourceLabel": "311 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -0.635579100406255,
+      "halfAngle": 0.0853553270687827,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "/maps/xiaozhan-nanjing-202610.jpg"
+      }
+    },
+    {
+      "id": "310",
+      "ticketLabels": [
+        "310"
+      ],
+      "sourceLabel": "310 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -0.4257556177314967,
+      "halfAngle": 0.08587892584438098,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "/maps/xiaozhan-nanjing-202610.jpg"
+      }
+    },
+    {
+      "id": "309",
+      "ticketLabels": [
+        "309"
+      ],
+      "sourceLabel": "309 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -0.21350612739646632,
+      "halfAngle": 0.09849765633629999,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "/maps/xiaozhan-nanjing-202610.jpg"
+      }
+    },
+    {
+      "id": "308",
+      "ticketLabels": [
+        "308"
+      ],
+      "sourceLabel": "308 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -0.002530727415391778,
+      "halfAngle": 0.09729337915242389,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "/maps/xiaozhan-nanjing-202610.jpg"
+      }
+    },
+    {
+      "id": "307",
+      "ticketLabels": [
+        "307"
+      ],
+      "sourceLabel": "307 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 0.21226694362755036,
+      "halfAngle": 0.09786061115932206,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "/maps/xiaozhan-nanjing-202610.jpg"
+      }
+    },
+    {
+      "id": "306",
+      "ticketLabels": [
+        "306"
+      ],
+      "sourceLabel": "306 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 0.4366290189714214,
+      "halfAngle": 0.0950768110023911,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "/maps/xiaozhan-nanjing-202610.jpg"
+      }
+    },
+    {
+      "id": "305",
+      "ticketLabels": [
+        "305"
+      ],
+      "sourceLabel": "305 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 0.6522819013478407,
+      "halfAngle": 0.08086110424489729,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "/maps/xiaozhan-nanjing-202610.jpg"
+      }
+    },
+    {
+      "id": "304",
+      "ticketLabels": [
+        "304"
+      ],
+      "sourceLabel": "304 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 0.866119641302186,
+      "halfAngle": 0.08440412262644578,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "/maps/xiaozhan-nanjing-202610.jpg"
+      }
+    },
+    {
+      "id": "106",
+      "ticketLabels": [
+        "106"
+      ],
+      "sourceLabel": "106 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.11266100321623398,
+      "halfAngle": 0.08884598557277133,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "/maps/xiaozhan-nanjing-202610.jpg"
+      }
+    },
+    {
+      "id": "107",
+      "ticketLabels": [
+        "107"
+      ],
+      "sourceLabel": "107 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.11065387457644049,
+      "halfAngle": 0.09464920533565249,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "/maps/xiaozhan-nanjing-202610.jpg"
+      }
+    }
+  ],
+  "importedAt": "2026-10-24T00:00:00.000Z"
+}

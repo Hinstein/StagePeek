@@ -1,0 +1,8 @@
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+SELECT ?country (COUNT(DISTINCT ?venue) AS ?venues) WHERE {
+ VALUES ?country {wd:Q30 wd:Q16 wd:Q145 wd:Q142 wd:Q183 wd:Q55}
+ VALUES ?type {wd:Q483110 wd:Q641226}
+ ?venue wdt:P31 ?type; wdt:P17 ?country; wdt:P625 ?coordinate.
+}
+GROUP BY ?country

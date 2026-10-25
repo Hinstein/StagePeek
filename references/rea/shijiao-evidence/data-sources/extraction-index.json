@@ -1,0 +1,113 @@
+{
+  "input": "shijiao-evidence/scripts/files/origins/08a3d92a8dd745d136ae160b17d72397ead1e154bac0df91bfaf44e738c7c679/releases/photo-protection-20261023/assets/data-CI2ywFAf.js",
+  "method": "Babel AST plus literal-only evaluator; target JavaScript was not executed",
+  "selected": [
+    {
+      "name": "t",
+      "label": "reference-layouts-inline",
+      "entries": 6
+    },
+    {
+      "name": "n",
+      "label": "venues-extension",
+      "entries": 194
+    },
+    {
+      "name": "r",
+      "label": "venue-geometry-profiles",
+      "entries": 188
+    },
+    {
+      "name": "s",
+      "label": "section-layout-references",
+      "entries": 109
+    },
+    {
+      "name": "tp",
+      "label": "venues",
+      "entries": 196
+    },
+    {
+      "name": "ep",
+      "label": "kspo-tiers",
+      "entries": 2
+    },
+    {
+      "name": "Qf",
+      "label": "birds-nest-tiers",
+      "entries": 4
+    },
+    {
+      "name": "Zf",
+      "label": "default-view",
+      "entries": 6
+    }
+  ],
+  "jsonLiteralArrays": [
+    {
+      "name": "t",
+      "entries": 6,
+      "keys": [
+        "venue",
+        "reference",
+        "defaultLayout",
+        "rotation",
+        "source",
+        "snapshotSHA256",
+        "variants"
+      ],
+      "filename": "inline-t.json"
+    },
+    {
+      "name": "n",
+      "entries": 194,
+      "keys": [
+        "id",
+        "name",
+        "short",
+        "badge",
+        "english",
+        "city",
+        "region",
+        "kind",
+        "geometry",
+        "url",
+        "mapUrl",
+        "aliases",
+        "defaultLayout",
+        "event"
+      ],
+      "filename": "inline-n.json"
+    },
+    {
+      "name": "u",
+      "entries": 63,
+      "keys": [
+        "artist",
+        "venue",
+        "dates",
+        "url"
+      ],
+      "filename": "inline-u.json"
+    },
+    {
+      "name": "d",
+      "entries": 352,
+      "keys": [
+        "id",
+        "artist",
+        "title",
+        "venue",
+        "date",
+        "time",
+        "source",
+        "checkedAt",
+        "layoutId",
+        "mapUrl",
+        "seating",
+        "sourceNote"
+      ],
+      "filename": "inline-d.json"
+    }
+  ]
+}

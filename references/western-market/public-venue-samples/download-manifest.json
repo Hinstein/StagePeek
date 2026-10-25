@@ -1,0 +1,16 @@
+{
+  "checked_at": "2026-10-24",
+  "source_url": "https://www.sofistadium.com/assets/doc/SoFi-Stadium-Seating-Map-2023-f238aaef5f.pdf",
+  "expected_bytes": 20362423,
+  "local_file": "SoFi-Stadium-Seating-Map-2023.pdf.partial",
+  "received_bytes": 2867586,
+  "sha256_of_partial": "1b71b8ab65b19681f0632c7ebb1953c0b6bbe456bc5366574f2099d4f78a2c57",
+  "status": "partial_download_not_usable_as_complete_pdf",
+  "errors": [
+    "initial_transfer_timeout_45s",
+    "resume_ssl_connect_error",
+    "retry_ssl_connection_timeout",
+    "ipv4_http1_1_ssl_connection_timeout"
+  ],
+  "inspection": "Cannot establish whether the full file has vector geometry, per-seat labels, scale or dimensions from incomplete file. No extraction accuracy claim made."
+}

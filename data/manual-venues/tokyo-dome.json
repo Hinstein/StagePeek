@@ -1,0 +1,5861 @@
+{
+  "id": "tokyo-dome",
+  "name": "东京巨蛋",
+  "city": "日本 · 东京",
+  "capacity": "原站目录未提供统一容量字段",
+  "source": "https://www.tokyo-dome.co.jp/en/dome/about/",
+  "sourceTitle": "REA 导出的公开场馆来源索引与参数化座位示意",
+  "sourceLinks": [
+    "https://www.tokyo-dome.co.jp/en/dome/about/",
+    "https://www.tokyo-dome.co.jp/ko/dome/seat/?wovnDisableTranslation=true",
+    "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+  ],
+  "accuracy": {
+    "sectionLabels": "source-layout-reference",
+    "completeSeatInventory": false,
+    "metricCalibrated": false,
+    "stage": "generic",
+    "position": "estimated",
+    "geometryBasis": "estimated-parametric",
+    "catalogStatus": "catalog-only",
+    "seatDataStatus": "section-only",
+    "sourceLayout": "center",
+    "coverage": "304 个来源分区；0 条座位采样。区号来自公开布局参考。",
+    "reuse": "来源页面可公开访问；未建立商业图形、模型或座位数据库再分发许可，发布前需逐源复核。",
+    "sourceDate": "REA capture 2026-10-24",
+    "sourceInventory": {
+      "venueReferenceUrl": "https://www.tokyo-dome.co.jp/en/dome/about/",
+      "mapReferenceUrl": "https://www.tokyo-dome.co.jp/ko/dome/seat/?wovnDisableTranslation=true",
+      "sectionSource": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf",
+      "geometryEvidenceLabel": null,
+      "note": "Missing asset URL does not establish absence of generated seat geometry."
+    },
+    "seatAsset": null
+  },
+  "tiers": [
+    [
+      65,
+      68,
+      1,
+      14.3,
+      8
+    ],
+    [
+      75.4,
+      78.88,
+      13,
+      14.3,
+      10
+    ],
+    [
+      85.8,
+      89.76,
+      25,
+      14.3,
+      12
+    ]
+  ],
+  "geometry": {
+    "shape": "baseball",
+    "floor": [
+      209,
+      218
+    ],
+    "tiers": [
+      {
+        "id": "tier-0",
+        "name": "Level 1",
+        "steps": 20
+      },
+      {
+        "id": "tier-1",
+        "name": "Level 2",
+        "steps": 23
+      },
+      {
+        "id": "tier-2",
+        "name": "Level 3",
+        "steps": 26
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "C23",
+      "ticketLabels": [
+        "C23"
+      ],
+      "sourceLabel": "C23 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 1.8998607039659074,
+      "halfAngle": 0.013412855301576421,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C22",
+      "ticketLabels": [
+        "C22"
+      ],
+      "sourceLabel": "C22 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 1.931084644284086,
+      "halfAngle": 0.013735741213195376,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C21",
+      "ticketLabels": [
+        "C21"
+      ],
+      "sourceLabel": "C21 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 1.9667766274873701,
+      "halfAngle": 0.013360495424016593,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C20",
+      "ticketLabels": [
+        "C20"
+      ],
+      "sourceLabel": "C20 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 1.9971453564720711,
+      "halfAngle": 0.013360495424016593,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C19",
+      "ticketLabels": [
+        "C19"
+      ],
+      "sourceLabel": "C19 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 2.0285089231304094,
+      "halfAngle": 0.013796827737015176,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C18",
+      "ticketLabels": [
+        "C18"
+      ],
+      "sourceLabel": "C18 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 2.0602215556391466,
+      "halfAngle": 0.013953907369694665,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C17",
+      "ticketLabels": [
+        "C17"
+      ],
+      "sourceLabel": "C17 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 2.093749330569957,
+      "halfAngle": 0.013596114873035827,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C16",
+      "ticketLabels": [
+        "C16"
+      ],
+      "sourceLabel": "C16 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 2.124641658330257,
+      "halfAngle": 0.013596114873035827,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C15",
+      "ticketLabels": [
+        "C15"
+      ],
+      "sourceLabel": "C15 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 2.156092491451195,
+      "halfAngle": 0.013840460968315033,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C14",
+      "ticketLabels": [
+        "C14"
+      ],
+      "sourceLabel": "C14 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 2.1891141208989278,
+      "halfAngle": 0.014364059743913332,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C13",
+      "ticketLabels": [
+        "C13"
+      ],
+      "sourceLabel": "C13 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 2.2217692312037416,
+      "halfAngle": 0.013744467859455343,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C12",
+      "ticketLabels": [
+        "C12"
+      ],
+      "sourceLabel": "C12 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 2.25301062481444,
+      "halfAngle": 0.013744467859455343,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C11",
+      "ticketLabels": [
+        "C11"
+      ],
+      "sourceLabel": "C11 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 2.284688350738137,
+      "halfAngle": 0.01393645407717472,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C10",
+      "ticketLabels": [
+        "C10"
+      ],
+      "sourceLabel": "C10 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 2.3166627826346735,
+      "halfAngle": 0.013447761886616309,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C09",
+      "ticketLabels": [
+        "C09"
+      ],
+      "sourceLabel": "C09 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 2.347223497837094,
+      "halfAngle": 0.013447761886616309,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C08",
+      "ticketLabels": [
+        "C08"
+      ],
+      "sourceLabel": "C08 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 2.3782903585225927,
+      "halfAngle": 0.013430308594096364,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C07",
+      "ticketLabels": [
+        "C07"
+      ],
+      "sourceLabel": "C07 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 2.4088161671399737,
+      "halfAngle": 0.013430308594096364,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C06",
+      "ticketLabels": [
+        "C06"
+      ],
+      "sourceLabel": "C06 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 2.4413141978121087,
+      "halfAngle": 0.014049900478554355,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C05",
+      "ticketLabels": [
+        "C05"
+      ],
+      "sourceLabel": "C05 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 2.4732537231236047,
+      "halfAngle": 0.013892820845874865,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C04",
+      "ticketLabels": [
+        "C04"
+      ],
+      "sourceLabel": "C04 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 2.5048267292921818,
+      "halfAngle": 0.013159782560037246,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C03",
+      "ticketLabels": [
+        "C03"
+      ],
+      "sourceLabel": "C03 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 2.5347416726713647,
+      "halfAngle": 0.013159782560037246,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C02",
+      "ticketLabels": [
+        "C02"
+      ],
+      "sourceLabel": "C02 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 2.5685836068675347,
+      "halfAngle": 0.01217367153266045,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C01",
+      "ticketLabels": [
+        "C01"
+      ],
+      "sourceLabel": "C01 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 2.596247075511645,
+      "halfAngle": 0.01217367153266045,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C24",
+      "ticketLabels": [
+        "C24"
+      ],
+      "sourceLabel": "C24 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 1.8693698019335665,
+      "halfAngle": 0.013316862192716735,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C25",
+      "ticketLabels": [
+        "C25"
+      ],
+      "sourceLabel": "C25 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 1.8391057927039849,
+      "halfAngle": 0.013316862192716735,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C26",
+      "ticketLabels": [
+        "C26"
+      ],
+      "sourceLabel": "C26 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 1.8083007314062851,
+      "halfAngle": 0.012,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C27",
+      "ticketLabels": [
+        "C27"
+      ],
+      "sourceLabel": "C27 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 1.7810212351976136,
+      "halfAngle": 0.012,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C28",
+      "ticketLabels": [
+        "C28"
+      ],
+      "sourceLabel": "C28 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 1.7516997037641087,
+      "halfAngle": 0.012897983172238095,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C29",
+      "ticketLabels": [
+        "C29"
+      ],
+      "sourceLabel": "C29 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 1.7208946424664087,
+      "halfAngle": 0.013264502315156903,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C30",
+      "ticketLabels": [
+        "C30"
+      ],
+      "sourceLabel": "C30 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 1.690752806284467,
+      "halfAngle": 0.013264502315156903,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C31",
+      "ticketLabels": [
+        "C31"
+      ],
+      "sourceLabel": "C31 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 1.6575217373264945,
+      "halfAngle": 0.01462585913171248,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C32",
+      "ticketLabels": [
+        "C32"
+      ],
+      "sourceLabel": "C32 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 1.6230863911846465,
+      "halfAngle": 0.014259339988793671,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C33",
+      "ticketLabels": [
+        "C33"
+      ],
+      "sourceLabel": "C33 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 1.590675626975112,
+      "halfAngle": 0.014259339988793671,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C34",
+      "ticketLabels": [
+        "C34"
+      ],
+      "sourceLabel": "C34 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 1.5572700250919405,
+      "halfAngle": 0.014695672301792253,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C35",
+      "ticketLabels": [
+        "C35"
+      ],
+      "sourceLabel": "C35 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 1.5234629974808103,
+      "halfAngle": 0.014878931873251658,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C36",
+      "ticketLabels": [
+        "C36"
+      ],
+      "sourceLabel": "C36 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 1.4894116237744008,
+      "halfAngle": 0.014983651628371319,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C37",
+      "ticketLabels": [
+        "C37"
+      ],
+      "sourceLabel": "C37 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 1.4548191979998735,
+      "halfAngle": 0.015219271077390554,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C38",
+      "ticketLabels": [
+        "C38"
+      ],
+      "sourceLabel": "C38 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 1.41586344909536,
+      "halfAngle": 0.01610066234964769,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C39",
+      "ticketLabels": [
+        "C39"
+      ],
+      "sourceLabel": "C39 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 1.3792638946810387,
+      "halfAngle": 0.01610066234964769,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C40",
+      "ticketLabels": [
+        "C40"
+      ],
+      "sourceLabel": "C40 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 1.3405699451643245,
+      "halfAngle": 0.016030849179567916,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C41",
+      "ticketLabels": [
+        "C41"
+      ],
+      "sourceLabel": "C41 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 1.304127470382683,
+      "halfAngle": 0.016030849179567916,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C42",
+      "ticketLabels": [
+        "C42"
+      ],
+      "sourceLabel": "C42 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 1.265276441233289,
+      "halfAngle": 0.017095500023284457,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C43",
+      "ticketLabels": [
+        "C43"
+      ],
+      "sourceLabel": "C43 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 1.223196552967706,
+      "halfAngle": 0.018517943363659833,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C44",
+      "ticketLabels": [
+        "C44"
+      ],
+      "sourceLabel": "C44 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 1.179423695327688,
+      "halfAngle": 0.019198621771937627,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C45",
+      "ticketLabels": [
+        "C45"
+      ],
+      "sourceLabel": "C45 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 1.134813079646713,
+      "halfAngle": 0.019198621771937627,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C46",
+      "ticketLabels": [
+        "C46"
+      ],
+      "sourceLabel": "C46 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 1.0891029065369817,
+      "halfAngle": 0.019198621771937627,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C47",
+      "ticketLabels": [
+        "C47"
+      ],
+      "sourceLabel": "C47 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 1.039430836025223,
+      "halfAngle": 0.019198621771937627,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C48",
+      "ticketLabels": [
+        "C48"
+      ],
+      "sourceLabel": "C48 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 0.9924116659764957,
+      "halfAngle": 0.019198621771937627,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C76",
+      "ticketLabels": [
+        "C76"
+      ],
+      "sourceLabel": "C76 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -1.9213806136429976,
+      "halfAngle": 0.013709561274415456,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C77",
+      "ticketLabels": [
+        "C77"
+      ],
+      "sourceLabel": "C77 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -1.9549782017438884,
+      "halfAngle": 0.013596114873035827,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C78",
+      "ticketLabels": [
+        "C78"
+      ],
+      "sourceLabel": "C78 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -1.985870529504188,
+      "halfAngle": 0.013596114873035827,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C79",
+      "ticketLabels": [
+        "C79"
+      ],
+      "sourceLabel": "C79 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -2.0171119231148866,
+      "halfAngle": 0.013404128655316452,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C80",
+      "ticketLabels": [
+        "C80"
+      ],
+      "sourceLabel": "C80 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -2.047567918562187,
+      "halfAngle": 0.013404128655316452,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C81",
+      "ticketLabels": [
+        "C81"
+      ],
+      "sourceLabel": "C81 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -2.0784253397374473,
+      "halfAngle": 0.013578661580515882,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C82",
+      "ticketLabels": [
+        "C82"
+      ],
+      "sourceLabel": "C82 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -2.1103997716339835,
+      "halfAngle": 0.013273228961416875,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C83",
+      "ticketLabels": [
+        "C83"
+      ],
+      "sourceLabel": "C83 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -2.140559061108445,
+      "halfAngle": 0.013273228961416875,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C84",
+      "ticketLabels": [
+        "C84"
+      ],
+      "sourceLabel": "C84 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -2.1731967181207392,
+      "halfAngle": 0.013622294811815741,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C85",
+      "ticketLabels": [
+        "C85"
+      ],
+      "sourceLabel": "C85 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -2.2041588590511187,
+      "halfAngle": 0.013622294811815741,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C86",
+      "ticketLabels": [
+        "C86"
+      ],
+      "sourceLabel": "C86 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -2.2359762113149753,
+      "halfAngle": 0.013561208287995941,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C87",
+      "ticketLabels": [
+        "C87"
+      ],
+      "sourceLabel": "C87 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -2.2667987259051947,
+      "halfAngle": 0.013412855301576421,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C88",
+      "ticketLabels": [
+        "C88"
+      ],
+      "sourceLabel": "C88 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -2.2972896279375363,
+      "halfAngle": 0.013098696036217442,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C89",
+      "ticketLabels": [
+        "C89"
+      ],
+      "sourceLabel": "C89 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -2.3270649449765592,
+      "halfAngle": 0.013098696036217442,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C90",
+      "ticketLabels": [
+        "C90"
+      ],
+      "sourceLabel": "C90 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -2.35780019310418,
+      "halfAngle": 0.013325588838976705,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C91",
+      "ticketLabels": [
+        "C91"
+      ],
+      "sourceLabel": "C91 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -2.3880816556262814,
+      "halfAngle": 0.013325588838976705,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C92",
+      "ticketLabels": [
+        "C92"
+      ],
+      "sourceLabel": "C92 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -2.4194452222846192,
+      "halfAngle": 0.013796827737015176,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C93",
+      "ticketLabels": [
+        "C93"
+      ],
+      "sourceLabel": "C93 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -2.451349841011076,
+      "halfAngle": 0.01361356816555577,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C94",
+      "ticketLabels": [
+        "C94"
+      ],
+      "sourceLabel": "C94 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -2.4822945286489353,
+      "halfAngle": 0.01361356816555577,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C95",
+      "ticketLabels": [
+        "C95"
+      ],
+      "sourceLabel": "C95 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -2.513326482749394,
+      "halfAngle": 0.013657201396855627,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C97",
+      "ticketLabels": [
+        "C97"
+      ],
+      "sourceLabel": "C97 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -2.5785494368964224,
+      "halfAngle": 0.012,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C96",
+      "ticketLabels": [
+        "C96"
+      ],
+      "sourceLabel": "C96 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -2.5517237262932695,
+      "halfAngle": 0.012,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C75",
+      "ticketLabels": [
+        "C75"
+      ],
+      "sourceLabel": "C75 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -1.890226486494899,
+      "halfAngle": 0.013055062804917585,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C74",
+      "ticketLabels": [
+        "C74"
+      ],
+      "sourceLabel": "C74 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -1.8605558892109952,
+      "halfAngle": 0.013055062804917585,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C73",
+      "ticketLabels": [
+        "C73"
+      ],
+      "sourceLabel": "C73 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -1.8306060392467722,
+      "halfAngle": 0.012810716709638379,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C72",
+      "ticketLabels": [
+        "C72"
+      ],
+      "sourceLabel": "C72 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -1.8014939473235072,
+      "halfAngle": 0.012801990063378408,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C71",
+      "ticketLabels": [
+        "C71"
+      ],
+      "sourceLabel": "C71 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -1.7723993086927616,
+      "halfAngle": 0.012,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C70",
+      "ticketLabels": [
+        "C70"
+      ],
+      "sourceLabel": "C70 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -1.74515471906913,
+      "halfAngle": 0.012,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C69",
+      "ticketLabels": [
+        "C69"
+      ],
+      "sourceLabel": "C69 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -1.7160077205608246,
+      "halfAngle": 0.01282817000215832,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C68",
+      "ticketLabels": [
+        "C68"
+      ],
+      "sourceLabel": "C68 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -1.685185205970605,
+      "halfAngle": 0.013561208287995941,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C67",
+      "ticketLabels": [
+        "C67"
+      ],
+      "sourceLabel": "C67 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -1.6540136255299862,
+      "halfAngle": 0.013718287920675431,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C66",
+      "ticketLabels": [
+        "C66"
+      ],
+      "sourceLabel": "C66 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -1.6223358996062893,
+      "halfAngle": 0.01393645407717472,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C65",
+      "ticketLabels": [
+        "C65"
+      ],
+      "sourceLabel": "C65 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -1.5901694814920335,
+      "halfAngle": 0.013823007675795092,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C64",
+      "ticketLabels": [
+        "C64"
+      ],
+      "sourceLabel": "C64 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -1.5587535549561358,
+      "halfAngle": 0.013823007675795092,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C63",
+      "ticketLabels": [
+        "C63"
+      ],
+      "sourceLabel": "C63 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -1.525644659045803,
+      "halfAngle": 0.014564772607892679,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C62",
+      "ticketLabels": [
+        "C62"
+      ],
+      "sourceLabel": "C62 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -1.492116884114992,
+      "halfAngle": 0.014748032179352085,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C61",
+      "ticketLabels": [
+        "C61"
+      ],
+      "sourceLabel": "C61 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -1.45584894225855,
+      "halfAngle": 0.014556045961632708,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C60",
+      "ticketLabels": [
+        "C60"
+      ],
+      "sourceLabel": "C60 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -1.4227749529332574,
+      "halfAngle": 0.014556045961632708,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C59",
+      "ticketLabels": [
+        "C59"
+      ],
+      "sourceLabel": "C59 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -1.3869607966823339,
+      "halfAngle": 0.015620696805349249,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C58",
+      "ticketLabels": [
+        "C58"
+      ],
+      "sourceLabel": "C58 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -1.3514607996967694,
+      "halfAngle": 0.015620696805349249,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C57",
+      "ticketLabels": [
+        "C57"
+      ],
+      "sourceLabel": "C57 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -1.314616899187169,
+      "halfAngle": 0.01621410875102732,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C56",
+      "ticketLabels": [
+        "C56"
+      ],
+      "sourceLabel": "C56 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -1.27742393282717,
+      "halfAngle": 0.016362461737446838,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C55",
+      "ticketLabels": [
+        "C55"
+      ],
+      "sourceLabel": "C55 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -1.2392535820860537,
+      "halfAngle": 0.016798794050445424,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C54",
+      "ticketLabels": [
+        "C54"
+      ],
+      "sourceLabel": "C54 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -1.1953410981058763,
+      "halfAngle": 0.018936822384138473,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C53",
+      "ticketLabels": [
+        "C53"
+      ],
+      "sourceLabel": "C53 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -1.1523012787516964,
+      "halfAngle": 0.018936822384138473,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C52",
+      "ticketLabels": [
+        "C52"
+      ],
+      "sourceLabel": "C52 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -1.1084411546490787,
+      "halfAngle": 0.019198621771937627,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C51",
+      "ticketLabels": [
+        "C51"
+      ],
+      "sourceLabel": "C51 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -1.0610031055798728,
+      "halfAngle": 0.019198621771937627,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "C50",
+      "ticketLabels": [
+        "C50"
+      ],
+      "sourceLabel": "C50 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -1.0158688911232996,
+      "halfAngle": 0.019198621771937627,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "E26",
+      "ticketLabels": [
+        "E26"
+      ],
+      "sourceLabel": "E26 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": -0.010663961729685353,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "D26",
+      "ticketLabels": [
+        "D26"
+      ],
+      "sourceLabel": "D26 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": -0.011763519158441782,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "D27",
+      "ticketLabels": [
+        "D27"
+      ],
+      "sourceLabel": "D27 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": -0.12342968470103899,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "D28",
+      "ticketLabels": [
+        "D28"
+      ],
+      "sourceLabel": "D28 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": -0.2243446220513511,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "D29",
+      "ticketLabels": [
+        "D29"
+      ],
+      "sourceLabel": "D29 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": -0.32812189937493397,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "D20",
+      "ticketLabels": [
+        "D20"
+      ],
+      "sourceLabel": "D20 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": 0.5967629778419011,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "D19",
+      "ticketLabels": [
+        "D19"
+      ],
+      "sourceLabel": "D19 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": 0.6935763914500265,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "D18",
+      "ticketLabels": [
+        "D18"
+      ],
+      "sourceLabel": "D18 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": 0.7901454589628729,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "D17",
+      "ticketLabels": [
+        "D17"
+      ],
+      "sourceLabel": "D17 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": 0.8856673289245225,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "D16",
+      "ticketLabels": [
+        "D16"
+      ],
+      "sourceLabel": "D16 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": 0.9838246460566836,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "D15",
+      "ticketLabels": [
+        "D15"
+      ],
+      "sourceLabel": "D15 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": 1.0833084134203603,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "D14",
+      "ticketLabels": [
+        "D14"
+      ],
+      "sourceLabel": "D14 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": 1.1734197627008276,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "D13",
+      "ticketLabels": [
+        "D13"
+      ],
+      "sourceLabel": "D13 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": 1.2622919282123788,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "D12",
+      "ticketLabels": [
+        "D12"
+      ],
+      "sourceLabel": "D12 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": 1.3510942805538506,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "D11",
+      "ticketLabels": [
+        "D11"
+      ],
+      "sourceLabel": "D11 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": 1.4365106941464527,
+      "halfAngle": 0.03649483465920143,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "D10",
+      "ticketLabels": [
+        "D10"
+      ],
+      "sourceLabel": "D10 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": 1.5194487402012236,
+      "halfAngle": 0.03649483465920143,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "D09",
+      "ticketLabels": [
+        "D09"
+      ],
+      "sourceLabel": "D09 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": 1.6042368352631078,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "D08",
+      "ticketLabels": [
+        "D08"
+      ],
+      "sourceLabel": "D08 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": 1.6881348124064752,
+      "halfAngle": 0.03394665395128971,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "D07",
+      "ticketLabels": [
+        "D07"
+      ],
+      "sourceLabel": "D07 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": 1.7652783653446247,
+      "halfAngle": 0.03394665395128971,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "D06",
+      "ticketLabels": [
+        "D06"
+      ],
+      "sourceLabel": "D06 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": 1.8430153302284522,
+      "halfAngle": 0.033178709080412205,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "D05",
+      "ticketLabels": [
+        "D05"
+      ],
+      "sourceLabel": "D05 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": 1.9184135539146072,
+      "halfAngle": 0.033178709080412205,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "D30",
+      "ticketLabels": [
+        "D30"
+      ],
+      "sourceLabel": "D30 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": -0.4310788719500795,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "D31",
+      "ticketLabels": [
+        "D31"
+      ],
+      "sourceLabel": "D31 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": -0.5280668184834043,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "D32",
+      "ticketLabels": [
+        "D32"
+      ],
+      "sourceLabel": "D32 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": -0.6270968002415626,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "D33",
+      "ticketLabels": [
+        "D33"
+      ],
+      "sourceLabel": "D33 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": -0.7175397620799088,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "D34",
+      "ticketLabels": [
+        "D34"
+      ],
+      "sourceLabel": "D34 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": -0.8123460470482408,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "D35",
+      "ticketLabels": [
+        "D35"
+      ],
+      "sourceLabel": "D35 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": -0.9099623121122835,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "D36",
+      "ticketLabels": [
+        "D36"
+      ],
+      "sourceLabel": "D36 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": -1.004890770128255,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "D37",
+      "ticketLabels": [
+        "D37"
+      ],
+      "sourceLabel": "D37 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": -1.0971488743886755,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "D38",
+      "ticketLabels": [
+        "D38"
+      ],
+      "sourceLabel": "D38 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": -1.1856021608797482,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "D39",
+      "ticketLabels": [
+        "D39"
+      ],
+      "sourceLabel": "D39 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": -1.271821425928268,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "D40",
+      "ticketLabels": [
+        "D40"
+      ],
+      "sourceLabel": "D40 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": -1.3583897568271868,
+      "halfAngle": 0.03426953986290866,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "D41",
+      "ticketLabels": [
+        "D41"
+      ],
+      "sourceLabel": "D41 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": -1.4362838013436936,
+      "halfAngle": 0.03426953986290866,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "D42",
+      "ticketLabels": [
+        "D42"
+      ],
+      "sourceLabel": "D42 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": -1.5210544431130584,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "D43",
+      "ticketLabels": [
+        "D43"
+      ],
+      "sourceLabel": "D43 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": -1.604516087943427,
+      "halfAngle": 0.03439171291054826,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "D44",
+      "ticketLabels": [
+        "D44"
+      ],
+      "sourceLabel": "D44 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": -1.682671931847733,
+      "halfAngle": 0.03392920065876977,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "D45",
+      "ticketLabels": [
+        "D45"
+      ],
+      "sourceLabel": "D45 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": -1.7597805782008427,
+      "halfAngle": 0.03324852225049198,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "D46",
+      "ticketLabels": [
+        "D46"
+      ],
+      "sourceLabel": "D46 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": -1.835335881519677,
+      "halfAngle": 0.0317649923862968,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "D47",
+      "ticketLabels": [
+        "D47"
+      ],
+      "sourceLabel": "D47 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": -1.9075226993821626,
+      "halfAngle": 0.0317649923862968,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "D51",
+      "ticketLabels": [
+        "D51"
+      ],
+      "sourceLabel": "D51 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": -2.2460293078064626,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "D25",
+      "ticketLabels": [
+        "D25"
+      ],
+      "sourceLabel": "D25 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": 0.0982445835947608,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "D24",
+      "ticketLabels": [
+        "D24"
+      ],
+      "sourceLabel": "D24 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": 0.19715239230527942,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "D23",
+      "ticketLabels": [
+        "D23"
+      ],
+      "sourceLabel": "D23 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": 0.29668851954651604,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "D22",
+      "ticketLabels": [
+        "D22"
+      ],
+      "sourceLabel": "D22 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": 0.40282199136029123,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "D21",
+      "ticketLabels": [
+        "D21"
+      ],
+      "sourceLabel": "D21 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": 0.502026506043649,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "E25",
+      "ticketLabels": [
+        "E25"
+      ],
+      "sourceLabel": "E25 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": 0.09278170303601854,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "E27",
+      "ticketLabels": [
+        "E27"
+      ],
+      "sourceLabel": "E27 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": -0.1180366173123765,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "E28",
+      "ticketLabels": [
+        "E28"
+      ],
+      "sourceLabel": "E28 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": -0.23741713814878862,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "E24",
+      "ticketLabels": [
+        "E24"
+      ],
+      "sourceLabel": "E24 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": 0.2090904443889207,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "B41",
+      "ticketLabels": [
+        "B41"
+      ],
+      "sourceLabel": "B41 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -1.7115047710906794,
+      "halfAngle": 0.02822197400474831,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "B42",
+      "ticketLabels": [
+        "B42"
+      ],
+      "sourceLabel": "B42 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -1.775645621101471,
+      "halfAngle": 0.026974063589572363,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "B43",
+      "ticketLabels": [
+        "B43"
+      ],
+      "sourceLabel": "B43 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -1.8369590377240317,
+      "halfAngle": 0.026974063589572363,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "E23",
+      "ticketLabels": [
+        "E23"
+      ],
+      "sourceLabel": "E23 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": 0.3092374368683553,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "E22",
+      "ticketLabels": [
+        "E22"
+      ],
+      "sourceLabel": "E22 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": 0.408756110817072,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "B10",
+      "ticketLabels": [
+        "B10"
+      ],
+      "sourceLabel": "B10 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 1.6513956316519947,
+      "halfAngle": 0.02901609881440573,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "B09",
+      "ticketLabels": [
+        "B09"
+      ],
+      "sourceLabel": "B09 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 1.719917258085292,
+      "halfAngle": 0.028728119487826664,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "B08",
+      "ticketLabels": [
+        "B08"
+      ],
+      "sourceLabel": "B08 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 1.7852100254024,
+      "halfAngle": 0.028728119487826664,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "B07",
+      "ticketLabels": [
+        "B07"
+      ],
+      "sourceLabel": "B07 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 1.8513230974679449,
+      "halfAngle": 0.02778564169174973,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "B06",
+      "ticketLabels": [
+        "B06"
+      ],
+      "sourceLabel": "B06 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 1.9144691098051,
+      "halfAngle": 0.024635322391899958,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "E21",
+      "ticketLabels": [
+        "E21"
+      ],
+      "sourceLabel": "E21 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": 0.5315400236948731,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "E20",
+      "ticketLabels": [
+        "E20"
+      ],
+      "sourceLabel": "E20 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": 0.6295228079018348,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "E19",
+      "ticketLabels": [
+        "E19"
+      ],
+      "sourceLabel": "E19 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": 0.718674226093705,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "E18",
+      "ticketLabels": [
+        "E18"
+      ],
+      "sourceLabel": "E18 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": 0.8200080424644958,
+      "halfAngle": 0.03427826650916863,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "E17",
+      "ticketLabels": [
+        "E17"
+      ],
+      "sourceLabel": "E17 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": 0.8979195402735227,
+      "halfAngle": 0.03427826650916863,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "E16",
+      "ticketLabels": [
+        "E16"
+      ],
+      "sourceLabel": "E16 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": 0.9783443122054213,
+      "halfAngle": 0.03538655058418503,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "E15",
+      "ticketLabels": [
+        "E15"
+      ],
+      "sourceLabel": "E15 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": 1.079084716630534,
+      "halfAngle": 0.03397283389006962,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "E14",
+      "ticketLabels": [
+        "E14"
+      ],
+      "sourceLabel": "E14 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": 1.1562980827387634,
+      "halfAngle": 0.03310016926407246,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "E13",
+      "ticketLabels": [
+        "E13"
+      ],
+      "sourceLabel": "E13 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": 1.2315217734997188,
+      "halfAngle": 0.03310016926407246,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "E12",
+      "ticketLabels": [
+        "E12"
+      ],
+      "sourceLabel": "E12 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": 1.3262756985904909,
+      "halfAngle": 0.03229731780815507,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "E11",
+      "ticketLabels": [
+        "E11"
+      ],
+      "sourceLabel": "E11 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": 1.3996842469293724,
+      "halfAngle": 0.03229731780815507,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "E10",
+      "ticketLabels": [
+        "E10"
+      ],
+      "sourceLabel": "E10 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": 1.4963405809048185,
+      "halfAngle": 0.031869712141416456,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "E09",
+      "ticketLabels": [
+        "E09"
+      ],
+      "sourceLabel": "E09 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": 1.568771744862583,
+      "halfAngle": 0.028326693759867967,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "E07",
+      "ticketLabels": [
+        "E07"
+      ],
+      "sourceLabel": "E07 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": 1.7192540329695343,
+      "halfAngle": 0.036320301734002,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "E08",
+      "ticketLabels": [
+        "E08"
+      ],
+      "sourceLabel": "E08 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": 1.633156940968654,
+      "halfAngle": 0.028326693759867967,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "E06",
+      "ticketLabels": [
+        "E06"
+      ],
+      "sourceLabel": "E06 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": 1.801808106588866,
+      "halfAngle": 0.036320301734002,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "E29",
+      "ticketLabels": [
+        "E29"
+      ],
+      "sourceLabel": "E29 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": -0.33777357013846265,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "E30",
+      "ticketLabels": [
+        "E30"
+      ],
+      "sourceLabel": "E30 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": -0.43991023796517076,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "E31",
+      "ticketLabels": [
+        "E31"
+      ],
+      "sourceLabel": "E31 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": -0.5612106209787767,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "E32",
+      "ticketLabels": [
+        "E32"
+      ],
+      "sourceLabel": "E32 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": -0.65868725970266,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "E33",
+      "ticketLabels": [
+        "E33"
+      ],
+      "sourceLabel": "E33 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": -0.7470358264386129,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "E34",
+      "ticketLabels": [
+        "E34"
+      ],
+      "sourceLabel": "E34 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": -0.8450360639380945,
+      "halfAngle": 0.03369358120975053,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "E35",
+      "ticketLabels": [
+        "E35"
+      ],
+      "sourceLabel": "E35 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": -0.9216036582230858,
+      "halfAngle": 0.03369358120975053,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "E36",
+      "ticketLabels": [
+        "E36"
+      ],
+      "sourceLabel": "E36 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": -0.9986424914061156,
+      "halfAngle": 0.033894294073729875,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "E37",
+      "ticketLabels": [
+        "E37"
+      ],
+      "sourceLabel": "E37 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": -1.0970441546335559,
+      "halfAngle": 0.03205297171287586,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "E38",
+      "ticketLabels": [
+        "E38"
+      ],
+      "sourceLabel": "E38 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": -1.1698941976117991,
+      "halfAngle": 0.03205297171287586,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "E39",
+      "ticketLabels": [
+        "E39"
+      ],
+      "sourceLabel": "E39 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": -1.2439659710664384,
+      "halfAngle": 0.0325940237809941,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "E40",
+      "ticketLabels": [
+        "E40"
+      ],
+      "sourceLabel": "E40 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": -1.3360844489866994,
+      "halfAngle": 0.030429815508521137,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "E41",
+      "ticketLabels": [
+        "E41"
+      ],
+      "sourceLabel": "E41 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": -1.4052518472432345,
+      "halfAngle": 0.030429815508521137,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "E42",
+      "ticketLabels": [
+        "E42"
+      ],
+      "sourceLabel": "E42 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": -1.499551986728488,
+      "halfAngle": 0.031354840012078125,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "E43",
+      "ticketLabels": [
+        "E43"
+      ],
+      "sourceLabel": "E43 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": -1.5708137800874167,
+      "halfAngle": 0.02626720524251466,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "D03",
+      "ticketLabels": [
+        "D03"
+      ],
+      "sourceLabel": "D03 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": 2.0801881222819616,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "D04",
+      "ticketLabels": [
+        "D04"
+      ],
+      "sourceLabel": "D04 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": 1.9962552385535541,
+      "halfAngle": 0.03425208657038871,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "D02",
+      "ticketLabels": [
+        "D02"
+      ],
+      "sourceLabel": "D02 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": 2.1686239554805145,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "D01",
+      "ticketLabels": [
+        "D01"
+      ],
+      "sourceLabel": "D01 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": 2.2674968576059933,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "A25",
+      "ticketLabels": [
+        "A25"
+      ],
+      "sourceLabel": "A25 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -0.03563962332572421,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "A24",
+      "ticketLabels": [
+        "A24"
+      ],
+      "sourceLabel": "A24 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 0.11292280260403312,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "A26",
+      "ticketLabels": [
+        "A26"
+      ],
+      "sourceLabel": "A26 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -0.18528415339171803,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "A27",
+      "ticketLabels": [
+        "A27"
+      ],
+      "sourceLabel": "A27 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -0.3208264231015977,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "A28",
+      "ticketLabels": [
+        "A28"
+      ],
+      "sourceLabel": "A28 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -0.4548677096547622,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "A29",
+      "ticketLabels": [
+        "A29"
+      ],
+      "sourceLabel": "A29 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -0.5904274326571618,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "A30",
+      "ticketLabels": [
+        "A30"
+      ],
+      "sourceLabel": "A30 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -0.7247130653056055,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "A31",
+      "ticketLabels": [
+        "A31"
+      ],
+      "sourceLabel": "A31 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -0.867672984336461,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "A32",
+      "ticketLabels": [
+        "A32"
+      ],
+      "sourceLabel": "A32 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -1.0089922938704419,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "A33",
+      "ticketLabels": [
+        "A33"
+      ],
+      "sourceLabel": "A33 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -1.1515507871733386,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "A34",
+      "ticketLabels": [
+        "A34"
+      ],
+      "sourceLabel": "A34 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -1.2972334198373052,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "A35",
+      "ticketLabels": [
+        "A35"
+      ],
+      "sourceLabel": "A35 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -1.4249217079132106,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "A36",
+      "ticketLabels": [
+        "A36"
+      ],
+      "sourceLabel": "A36 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -1.534668011278614,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "A37",
+      "ticketLabels": [
+        "A37"
+      ],
+      "sourceLabel": "A37 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -1.6271006484642336,
+      "halfAngle": 0.0364424747816416,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "A38",
+      "ticketLabels": [
+        "A38"
+      ],
+      "sourceLabel": "A38 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -1.7099165214713647,
+      "halfAngle": 0.03207915165165578,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "A39",
+      "ticketLabels": [
+        "A39"
+      ],
+      "sourceLabel": "A39 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -1.7828189243271677,
+      "halfAngle": 0.028413960222467685,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "A40",
+      "ticketLabels": [
+        "A40"
+      ],
+      "sourceLabel": "A40 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -1.8473961066509579,
+      "halfAngle": 0.02695661029705242,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "A41",
+      "ticketLabels": [
+        "A41"
+      ],
+      "sourceLabel": "A41 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -1.9086571633959588,
+      "halfAngle": 0.020490165418413427,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "A42",
+      "ticketLabels": [
+        "A42"
+      ],
+      "sourceLabel": "A42 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -1.9552225478391676,
+      "halfAngle": 0.01852667000991981,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "A43",
+      "ticketLabels": [
+        "A43"
+      ],
+      "sourceLabel": "A43 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -1.9973373426897907,
+      "halfAngle": 0.016955873683124914,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "A23",
+      "ticketLabels": [
+        "A23"
+      ],
+      "sourceLabel": "A23 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 0.2467895562319982,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "A22",
+      "ticketLabels": [
+        "A22"
+      ],
+      "sourceLabel": "A22 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 0.37624062685241755,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "A21",
+      "ticketLabels": [
+        "A21"
+      ],
+      "sourceLabel": "A21 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 0.505709150765357,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "A20",
+      "ticketLabels": [
+        "A20"
+      ],
+      "sourceLabel": "A20 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 0.6499606134426883,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "A19",
+      "ticketLabels": [
+        "A19"
+      ],
+      "sourceLabel": "A19 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 0.7937408372219811,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "A18",
+      "ticketLabels": [
+        "A18"
+      ],
+      "sourceLabel": "A18 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 0.9472774515199223,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "A17",
+      "ticketLabels": [
+        "A17"
+      ],
+      "sourceLabel": "A17 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 1.1030131806753765,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "A16",
+      "ticketLabels": [
+        "A16"
+      ],
+      "sourceLabel": "A16 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 1.2765338149086527,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "A15",
+      "ticketLabels": [
+        "A15"
+      ],
+      "sourceLabel": "A15 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 1.4124076971764112,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "A14",
+      "ticketLabels": [
+        "A14"
+      ],
+      "sourceLabel": "A14 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 1.5314391521624247,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "A13",
+      "ticketLabels": [
+        "A13"
+      ],
+      "sourceLabel": "A13 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 1.6336979930367723,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "A12",
+      "ticketLabels": [
+        "A12"
+      ],
+      "sourceLabel": "A12 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 1.7209993622215285,
+      "halfAngle": 0.03313507584911235,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "A11",
+      "ticketLabels": [
+        "A11"
+      ],
+      "sourceLabel": "A11 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 1.796310319445084,
+      "halfAngle": 0.03109304062427898,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "A10",
+      "ticketLabels": [
+        "A10"
+      ],
+      "sourceLabel": "A10 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 1.866978700858334,
+      "halfAngle": 0.02901609881440573,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "A09",
+      "ticketLabels": [
+        "A09"
+      ],
+      "sourceLabel": "A09 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 1.93291723999868,
+      "halfAngle": 0.019355701404617114,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "A08",
+      "ticketLabels": [
+        "A08"
+      ],
+      "sourceLabel": "A08 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 1.9768995371489373,
+      "halfAngle": 0.018832102629018813,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "A07",
+      "ticketLabels": [
+        "A07"
+      ],
+      "sourceLabel": "A07 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 2.0196950104078377,
+      "halfAngle": 0.01673770752662562,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "B20",
+      "ticketLabels": [
+        "B20"
+      ],
+      "sourceLabel": "B20 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 0.6590886854306186,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "B19",
+      "ticketLabels": [
+        "B19"
+      ],
+      "sourceLabel": "B19 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 0.7767762368925962,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "B18",
+      "ticketLabels": [
+        "B18"
+      ],
+      "sourceLabel": "B18 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 0.8949524805451323,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "B17",
+      "ticketLabels": [
+        "B17"
+      ],
+      "sourceLabel": "B17 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 1.0302329508672128,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "B16",
+      "ticketLabels": [
+        "B16"
+      ],
+      "sourceLabel": "B16 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 1.131200248095085,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "B15",
+      "ticketLabels": [
+        "B15"
+      ],
+      "sourceLabel": "B15 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 1.2301080568056035,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "B14",
+      "ticketLabels": [
+        "B14"
+      ],
+      "sourceLabel": "B14 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 1.3431355791647563,
+      "halfAngle": 0.035194564366465654,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "B13",
+      "ticketLabels": [
+        "B13"
+      ],
+      "sourceLabel": "B13 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 1.4231240187836565,
+      "halfAngle": 0.03334451535935167,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "B12",
+      "ticketLabels": [
+        "B12"
+      ],
+      "sourceLabel": "B12 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 1.4989062149052501,
+      "halfAngle": 0.03334451535935167,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "B11",
+      "ticketLabels": [
+        "B11"
+      ],
+      "sourceLabel": "B11 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 1.5854570925116491,
+      "halfAngle": 0.02901609881440573,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "B25",
+      "ticketLabels": [
+        "B25"
+      ],
+      "sourceLabel": "B25 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -0.01795943800302165,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "B26",
+      "ticketLabels": [
+        "B26"
+      ],
+      "sourceLabel": "B26 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -0.15608479500585287,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "B24",
+      "ticketLabels": [
+        "B24"
+      ],
+      "sourceLabel": "B24 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 0.11075859433156016,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "B23",
+      "ticketLabels": [
+        "B23"
+      ],
+      "sourceLabel": "B23 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 0.2562666940703274,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "B27",
+      "ticketLabels": [
+        "B27"
+      ],
+      "sourceLabel": "B27 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -0.30887091772543646,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "B28",
+      "ticketLabels": [
+        "B28"
+      ],
+      "sourceLabel": "B28 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -0.431532657555598,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "B29",
+      "ticketLabels": [
+        "B29"
+      ],
+      "sourceLabel": "B29 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -0.5700768935789078,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "B30",
+      "ticketLabels": [
+        "B30"
+      ],
+      "sourceLabel": "B30 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -0.7132811587050426,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "B22",
+      "ticketLabels": [
+        "B22"
+      ],
+      "sourceLabel": "B22 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 0.37761943696149314,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "B21",
+      "ticketLabels": [
+        "B21"
+      ],
+      "sourceLabel": "B21 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 0.5118003498548173,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "B31",
+      "ticketLabels": [
+        "B31"
+      ],
+      "sourceLabel": "B31 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -0.8261865080165559,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "B32",
+      "ticketLabels": [
+        "B32"
+      ],
+      "sourceLabel": "B32 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -0.9396678159812271,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "B33",
+      "ticketLabels": [
+        "B33"
+      ],
+      "sourceLabel": "B33 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -1.0640748850633828,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "B34",
+      "ticketLabels": [
+        "B34"
+      ],
+      "sourceLabel": "B34 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -1.163122320114061,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "B35",
+      "ticketLabels": [
+        "B35"
+      ],
+      "sourceLabel": "B35 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -1.2574748194768746,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "B36",
+      "ticketLabels": [
+        "B36"
+      ],
+      "sourceLabel": "B36 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -1.3620898548414146,
+      "halfAngle": 0.033196162372932145,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "B37",
+      "ticketLabels": [
+        "B37"
+      ],
+      "sourceLabel": "B37 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -1.4375404384051296,
+      "halfAngle": 0.029085911984485503,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "B38",
+      "ticketLabels": [
+        "B38"
+      ],
+      "sourceLabel": "B38 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -1.5036535104706747,
+      "halfAngle": 0.029085911984485503,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "B39",
+      "ticketLabels": [
+        "B39"
+      ],
+      "sourceLabel": "B39 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -1.5852127464163697,
+      "halfAngle": 0.026363198351374347,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "B40",
+      "ticketLabels": [
+        "B40"
+      ],
+      "sourceLabel": "B40 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -1.6451298996373351,
+      "halfAngle": 0.026363198351374347,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "E45",
+      "ticketLabels": [
+        "E45"
+      ],
+      "sourceLabel": "E45 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": -1.7219941998951653,
+      "halfAngle": 0.031346113365818155,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "E44",
+      "ticketLabels": [
+        "E44"
+      ],
+      "sourceLabel": "E44 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": -1.6305214937981425,
+      "halfAngle": 0.02626720524251466,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "E46",
+      "ticketLabels": [
+        "E46"
+      ],
+      "sourceLabel": "E46 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": -1.7932385399615738,
+      "halfAngle": 0.031346113365818155,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "D50",
+      "ticketLabels": [
+        "D50"
+      ],
+      "sourceLabel": "D50 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": -2.158256699723668,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "D49",
+      "ticketLabels": [
+        "D49"
+      ],
+      "sourceLabel": "D49 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": -2.0648466781569317,
+      "halfAngle": 0.034409166203068206,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "D48",
+      "ticketLabels": [
+        "D48"
+      ],
+      "sourceLabel": "D48 区",
+      "levelName": "tier-2",
+      "tier": 2,
+      "angle": -1.9866384743750654,
+      "halfAngle": 0.034409166203068206,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "B05",
+      "ticketLabels": [
+        "B05"
+      ],
+      "sourceLabel": "B05 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 1.970459272209078,
+      "halfAngle": 0.024635322391899958,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "B04",
+      "ticketLabels": [
+        "B04"
+      ],
+      "sourceLabel": "B04 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 2.0269730333886544,
+      "halfAngle": 0.024862215194659226,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "B03",
+      "ticketLabels": [
+        "B03"
+      ],
+      "sourceLabel": "B03 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 2.0839405801737496,
+      "halfAngle": 0.02506292805863857,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "B02",
+      "ticketLabels": [
+        "B02"
+      ],
+      "sourceLabel": "B02 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 2.1455332494766295,
+      "halfAngle": 0.027104963283471933,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "B44",
+      "ticketLabels": [
+        "B44"
+      ],
+      "sourceLabel": "B44 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -1.8991102123875498,
+      "halfAngle": 0.025089107997418484,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "B45",
+      "ticketLabels": [
+        "B45"
+      ],
+      "sourceLabel": "B45 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -1.9561301190502045,
+      "halfAngle": 0.02425134995646121,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "B46",
+      "ticketLabels": [
+        "B46"
+      ],
+      "sourceLabel": "B46 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -2.0112476168281854,
+      "halfAngle": 0.02389355745980237,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "B47",
+      "ticketLabels": [
+        "B47"
+      ],
+      "sourceLabel": "B47 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -2.065544809857729,
+      "halfAngle": 0.02389355745980237,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "A49",
+      "ticketLabels": [
+        "A49"
+      ],
+      "sourceLabel": "A49 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -2.229588306252676,
+      "halfAngle": 0.02065597169735289,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "F01",
+      "ticketLabels": [
+        "F01"
+      ],
+      "sourceLabel": "F01 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -2.273291350722614,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "F02",
+      "ticketLabels": [
+        "F02"
+      ],
+      "sourceLabel": "F02 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -2.360261107349492,
+      "halfAngle": 0.03517711107394571,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "F03",
+      "ticketLabels": [
+        "F03"
+      ],
+      "sourceLabel": "F03 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -2.440214640383352,
+      "halfAngle": 0.0346273323595675,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "F04",
+      "ticketLabels": [
+        "F04"
+      ],
+      "sourceLabel": "F04 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -2.5189115363557764,
+      "halfAngle": 0.0346273323595675,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "B48",
+      "ticketLabels": [
+        "B48"
+      ],
+      "sourceLabel": "B48 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -2.1277483443988072,
+      "halfAngle": 0.027366762671271087,
+      "radialStart": 0.48,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "A44",
+      "ticketLabels": [
+        "A44"
+      ],
+      "sourceLabel": "A44 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -2.0358742125738254,
+      "halfAngle": 0.016955873683124914,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "A45",
+      "ticketLabels": [
+        "A45"
+      ],
+      "sourceLabel": "A45 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -2.0759120656145758,
+      "halfAngle": 0.015707963267948967,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "A46",
+      "ticketLabels": [
+        "A46"
+      ],
+      "sourceLabel": "A46 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -2.11160404881786,
+      "halfAngle": 0.015070918090971035,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "A06",
+      "ticketLabels": [
+        "A06"
+      ],
+      "sourceLabel": "A06 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 2.0577431881013144,
+      "halfAngle": 0.01673770752662562,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "A05",
+      "ticketLabels": [
+        "A05"
+      ],
+      "sourceLabel": "A05 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 2.0957913657947906,
+      "halfAngle": 0.01599594259452803,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "A04",
+      "ticketLabels": [
+        "A04"
+      ],
+      "sourceLabel": "A04 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 2.1321465741138326,
+      "halfAngle": 0.015969762655748117,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "A01",
+      "ticketLabels": [
+        "A01"
+      ],
+      "sourceLabel": "A01 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 2.2532724242022395,
+      "halfAngle": 0.021703169248549488,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "A47",
+      "ticketLabels": [
+        "A47"
+      ],
+      "sourceLabel": "A47 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -2.145864862034508,
+      "halfAngle": 0.015070918090971035,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "A48",
+      "ticketLabels": [
+        "A48"
+      ],
+      "sourceLabel": "A48 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -2.1826389493740286,
+      "halfAngle": 0.016179202165987436,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "F20",
+      "ticketLabels": [
+        "F20"
+      ],
+      "sourceLabel": "F20 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 2.298860424264331,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "F19",
+      "ticketLabels": [
+        "F19"
+      ],
+      "sourceLabel": "F19 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 2.386947191612485,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "F18",
+      "ticketLabels": [
+        "F18"
+      ],
+      "sourceLabel": "F18 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 2.473445709341324,
+      "halfAngle": 0.03316125578789226,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "F17",
+      "ticketLabels": [
+        "F17"
+      ],
+      "sourceLabel": "F17 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 2.548809026442439,
+      "halfAngle": 0.03316125578789226,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "F05",
+      "ticketLabels": [
+        "F05"
+      ],
+      "sourceLabel": "F05 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -2.609110152098843,
+      "halfAngle": 0.03173881244751688,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "F16",
+      "ticketLabels": [
+        "F16"
+      ],
+      "sourceLabel": "F16 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 2.6411194905804187,
+      "halfAngle": 0.03360631474715082,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "F06",
+      "ticketLabels": [
+        "F06"
+      ],
+      "sourceLabel": "F06 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -2.681244610083769,
+      "halfAngle": 0.03173881244751688,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "F15",
+      "ticketLabels": [
+        "F15"
+      ],
+      "sourceLabel": "F15 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 2.717495098647691,
+      "halfAngle": 0.03360631474715082,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "F07",
+      "ticketLabels": [
+        "F07"
+      ],
+      "sourceLabel": "F07 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -2.7674115152547287,
+      "halfAngle": 0.030429815508521137,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "F14",
+      "ticketLabels": [
+        "F14"
+      ],
+      "sourceLabel": "F14 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 2.8002237051922223,
+      "halfAngle": 0.028326693759867967,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "F08",
+      "ticketLabels": [
+        "F08"
+      ],
+      "sourceLabel": "F08 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -2.8365789135112642,
+      "halfAngle": 0.030037116426822413,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "F09",
+      "ticketLabels": [
+        "F09"
+      ],
+      "sourceLabel": "F09 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -2.9048387405567624,
+      "halfAngle": 0.030037116426822413,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "F10",
+      "ticketLabels": [
+        "F10"
+      ],
+      "sourceLabel": "F10 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -3.0178488096233953,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "F13",
+      "ticketLabels": [
+        "F13"
+      ],
+      "sourceLabel": "F13 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 2.864608901298293,
+      "halfAngle": 0.028326693759867967,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "F12",
+      "ticketLabels": [
+        "F12"
+      ],
+      "sourceLabel": "F12 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 2.9343173516229464,
+      "halfAngle": 0.03067416160380034,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "F11",
+      "ticketLabels": [
+        "F11"
+      ],
+      "sourceLabel": "F11 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 3.026662722345966,
+      "halfAngle": 0.03665191429188092,
+      "radialStart": 0,
+      "radialEnd": 1,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "A02",
+      "ticketLabels": [
+        "A02"
+      ],
+      "sourceLabel": "A02 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 2.2039494195408795,
+      "halfAngle": 0.015620696805349249,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    },
+    {
+      "id": "A03",
+      "ticketLabels": [
+        "A03"
+      ],
+      "sourceLabel": "A03 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 2.1684494225553146,
+      "halfAngle": 0.015620696805349249,
+      "radialStart": 0,
+      "radialEnd": 0.43,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf"
+      }
+    }
+  ],
+  "importedAt": "2026-10-24T00:00:00.000Z"
+}

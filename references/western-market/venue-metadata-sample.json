@@ -1,0 +1,4062 @@
+[
+  {
+    "id": "Q31276",
+    "name": "Stade de la Rabine",
+    "country": "法国",
+    "latitude": 47.65178,
+    "longitude": -2.76104,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q31276",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q544553",
+    "name": "Arrowhead Stadium",
+    "country": "美国",
+    "latitude": 39.048888888,
+    "longitude": -94.483888888,
+    "website": "https://www.chiefs.com/stadium/",
+    "source": "http://www.wikidata.org/entity/Q544553",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q208709",
+    "name": "Ibrox Stadium",
+    "country": "英国",
+    "latitude": 55.853055555,
+    "longitude": -4.309166666,
+    "website": "https://rangers.co.uk/club/ibrox/",
+    "source": "http://www.wikidata.org/entity/Q208709",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q473806",
+    "name": "Deutsches Stadion",
+    "country": "德国",
+    "latitude": 49.422197,
+    "longitude": 11.114142,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q473806",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q383557",
+    "name": "Memorial Stadium",
+    "country": "美国",
+    "latitude": 40.821022711,
+    "longitude": -96.705499407,
+    "website": "https://huskers.com/facilities/memorial-stadium/1",
+    "source": "http://www.wikidata.org/entity/Q383557",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1640019",
+    "name": "Memorial Stadium",
+    "country": "美国",
+    "latitude": 41.114086,
+    "longitude": -85.118992,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q1640019",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1632294",
+    "name": "Paycor Stadium",
+    "country": "美国",
+    "latitude": 39.095444444,
+    "longitude": -84.516038888,
+    "website": "https://www.bengals.com/stadium/",
+    "source": "http://www.wikidata.org/entity/Q1632294",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q467151",
+    "name": "Heristo Arena",
+    "country": "德国",
+    "latitude": 52.063056,
+    "longitude": 8.348889,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q467151",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q619259",
+    "name": "Q619259",
+    "country": "英国",
+    "latitude": 53.189181,
+    "longitude": -2.923814,
+    "website": "http://www.chesterfc.com/club/deva_stadium/",
+    "source": "http://www.wikidata.org/entity/Q619259",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1341607",
+    "name": "Stade Marcel Picot",
+    "country": "法国",
+    "latitude": 48.696,
+    "longitude": 6.21222,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q1341607",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q619100",
+    "name": "Ewen Fields",
+    "country": "英国",
+    "latitude": 53.4506,
+    "longitude": -2.068114,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q619100",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q8491",
+    "name": "Palais des Sports de Gerland",
+    "country": "法国",
+    "latitude": 45.72408056,
+    "longitude": 4.82815833,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q8491",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1637931",
+    "name": "Veterans Memorial Stadium",
+    "country": "美国",
+    "latitude": -14.333611,
+    "longitude": -170.722222,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q1637931",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q543579",
+    "name": "Memorial Stadium, Clemson",
+    "country": "美国",
+    "latitude": 34.678611111,
+    "longitude": -82.843055555,
+    "website": "https://clemsontigers.com/sports/football/facilities/memorial-stadium/",
+    "source": "http://www.wikidata.org/entity/Q543579",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q118955",
+    "name": "Stade Francis Turcan",
+    "country": "法国",
+    "latitude": 43.407277,
+    "longitude": 5.04935,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q118955",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q200684",
+    "name": "Dignity Health Sports Park",
+    "country": "美国",
+    "latitude": 33.864444444,
+    "longitude": -118.261111111,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q200684",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q204496",
+    "name": "Millennium Stadium",
+    "country": "英国",
+    "latitude": 51.478055555,
+    "longitude": -3.1825,
+    "website": "https://www.principalitystadium.wales",
+    "source": "http://www.wikidata.org/entity/Q204496",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q908481",
+    "name": "The Den",
+    "country": "英国",
+    "latitude": 51.485833,
+    "longitude": -0.050833,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q908481",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q580480",
+    "name": "Liberty Stadium",
+    "country": "英国",
+    "latitude": 51.6422,
+    "longitude": -3.9351,
+    "website": "https://www.liberty-stadium.com",
+    "source": "http://www.wikidata.org/entity/Q580480",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q374883",
+    "name": "Stade de la Meinau",
+    "country": "法国",
+    "latitude": 48.55942,
+    "longitude": 7.75738,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q374883",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1115773",
+    "name": "Veterans Stadium",
+    "country": "美国",
+    "latitude": 41.6484,
+    "longitude": -72.7727,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q1115773",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q9491",
+    "name": "Matmut Stadium",
+    "country": "法国",
+    "latitude": 45.721328,
+    "longitude": 4.876014,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q9491",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q618923",
+    "name": "The New Lawn",
+    "country": "英国",
+    "latitude": 51.6984,
+    "longitude": -2.233233,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q618923",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1136463",
+    "name": "Husky Stadium",
+    "country": "美国",
+    "latitude": 47.650277777,
+    "longitude": -122.301666666,
+    "website": "https://gohuskies.com/sports/2013/7/2/208568068.aspx",
+    "source": "http://www.wikidata.org/entity/Q1136463",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q11597",
+    "name": "DATCU Stadium",
+    "country": "美国",
+    "latitude": 33.203611111,
+    "longitude": -97.159444444,
+    "website": "http://www.meangreenmap.com/apogeestadium.html",
+    "source": "http://www.wikidata.org/entity/Q11597",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q242772",
+    "name": "Toughsheet Community Stadium",
+    "country": "英国",
+    "latitude": 53.580555555,
+    "longitude": -2.535555555,
+    "website": "https://www.bwfc.co.uk/news/2018/august/welcome-to-the-university-of-bolton-stadium/",
+    "source": "http://www.wikidata.org/entity/Q242772",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q176460",
+    "name": "Shell Energy Stadium",
+    "country": "美国",
+    "latitude": 29.7522,
+    "longitude": -95.3524,
+    "website": "https://www.houstondynamofc.com/shell-energy-stadium/",
+    "source": "http://www.wikidata.org/entity/Q176460",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q123017",
+    "name": "Carrow Road",
+    "country": "英国",
+    "latitude": 52.622222222,
+    "longitude": 1.309166666,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q123017",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q128468",
+    "name": "Wembley Stadium",
+    "country": "英国",
+    "latitude": 51.555555555,
+    "longitude": -0.279444444,
+    "website": "https://www.wembleystadium.com/",
+    "source": "http://www.wikidata.org/entity/Q128468",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q454085",
+    "name": "Deutsches Stadion",
+    "country": "德国",
+    "latitude": 52.514722,
+    "longitude": 13.239167,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q454085",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q322258",
+    "name": "Chiemgau-Arena",
+    "country": "德国",
+    "latitude": 47.7144,
+    "longitude": 12.6475,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q322258",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q470392",
+    "name": "Heinz-Steyer-Stadion",
+    "country": "德国",
+    "latitude": 51.060923,
+    "longitude": 13.726233,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q470392",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1660503",
+    "name": "Pasadena Conference Center",
+    "country": "美国",
+    "latitude": 34.1434,
+    "longitude": -118.144,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q1660503",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q573848",
+    "name": "Colorado Convention Center",
+    "country": "美国",
+    "latitude": 39.7419,
+    "longitude": -104.996,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q573848",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q201612",
+    "name": "Pride Park Stadium",
+    "country": "英国",
+    "latitude": 52.915,
+    "longitude": -1.447222222,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q201612",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1112858",
+    "name": "Historic Crew Stadium",
+    "country": "美国",
+    "latitude": 40.009444444,
+    "longitude": -82.991111111,
+    "website": "https://historiccrewstadium.com/",
+    "source": "http://www.wikidata.org/entity/Q1112858",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q619074",
+    "name": "Bob Lucas Stadium",
+    "country": "英国",
+    "latitude": 50.619906,
+    "longitude": -2.485203,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q619074",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q211662",
+    "name": "Pontiac Silverdome",
+    "country": "美国",
+    "latitude": 42.645833333,
+    "longitude": -83.255,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q211662",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q27420",
+    "name": "Gateshead International Stadium",
+    "country": "英国",
+    "latitude": 54.961111111,
+    "longitude": -1.579722222,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q27420",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q339850",
+    "name": "Foxboro Stadium",
+    "country": "美国",
+    "latitude": 42.0927,
+    "longitude": -71.267441666,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q339850",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q262291",
+    "name": "Providence Park",
+    "country": "美国",
+    "latitude": 45.521388888,
+    "longitude": -122.691666666,
+    "website": "https://www.timbers.com/providencepark/",
+    "source": "http://www.wikidata.org/entity/Q262291",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1132413",
+    "name": "Soldier Field",
+    "country": "美国",
+    "latitude": 41.8625,
+    "longitude": -87.616666666,
+    "website": "https://www.soldierfield.com/",
+    "source": "http://www.wikidata.org/entity/Q1132413",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q922761",
+    "name": "Rice–Eccles Stadium",
+    "country": "美国",
+    "latitude": 40.76,
+    "longitude": -111.848888888,
+    "website": "https://stadium.utah.edu",
+    "source": "http://www.wikidata.org/entity/Q922761",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q628544",
+    "name": "Herndon Stadium",
+    "country": "美国",
+    "latitude": 33.756,
+    "longitude": -84.4088,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q628544",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q152633",
+    "name": "Niedersachsenstadion",
+    "country": "德国",
+    "latitude": 52.36,
+    "longitude": 9.731111,
+    "website": "https://www.hdi-arena.de/",
+    "source": "http://www.wikidata.org/entity/Q152633",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1354838",
+    "name": "Lionel Roberts Park",
+    "country": "美国",
+    "latitude": 18.34462778,
+    "longitude": -64.92754444,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q1354838",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1067235",
+    "name": "GelreDome",
+    "country": "荷兰",
+    "latitude": 51.9625,
+    "longitude": 5.893056,
+    "website": "http://www.gelredome.nl/",
+    "source": "http://www.wikidata.org/entity/Q1067235",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q870897",
+    "name": "League Park",
+    "country": "美国",
+    "latitude": 41.511388888,
+    "longitude": -81.644166666,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q870897",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1128263",
+    "name": "Stade Gabriel Montpied",
+    "country": "法国",
+    "latitude": 45.81584,
+    "longitude": 3.12162,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q1128263",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q31274",
+    "name": "Stade Henri Desgrange",
+    "country": "法国",
+    "latitude": 46.67131,
+    "longitude": -1.44065,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q31274",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q619177",
+    "name": "Haig Avenue",
+    "country": "英国",
+    "latitude": 53.638089,
+    "longitude": -2.978856,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q619177",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q169209",
+    "name": "Q169209",
+    "country": "美国",
+    "latitude": 47.23333333,
+    "longitude": -68.58694444,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q169209",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q153824",
+    "name": "Riverfront Stadium",
+    "country": "美国",
+    "latitude": 39.096666666,
+    "longitude": -84.508333333,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q153824",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q867902",
+    "name": "Cardiff City Stadium",
+    "country": "英国",
+    "latitude": 51.472778,
+    "longitude": -3.203056,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q867902",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q13205",
+    "name": "Stade de France",
+    "country": "法国",
+    "latitude": 48.924444444,
+    "longitude": 2.36,
+    "website": "https://www.stadefrance.com/",
+    "source": "http://www.wikidata.org/entity/Q13205",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q199359",
+    "name": "Camping World Stadium",
+    "country": "美国",
+    "latitude": 28.539166666,
+    "longitude": -81.402777777,
+    "website": "https://www.campingworldstadium.com/",
+    "source": "http://www.wikidata.org/entity/Q199359",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q618921",
+    "name": "Apollinarisstadion",
+    "country": "德国",
+    "latitude": 50.543611111,
+    "longitude": 7.151388888,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q618921",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q128810",
+    "name": "UPMC Park",
+    "country": "美国",
+    "latitude": 42.126944,
+    "longitude": -80.08,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q128810",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q618950",
+    "name": "Horsfall Stadium",
+    "country": "英国",
+    "latitude": 53.758856,
+    "longitude": -1.776203,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q618950",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q31656",
+    "name": "Madejski Stadium",
+    "country": "英国",
+    "latitude": 51.422222222,
+    "longitude": -0.982777777,
+    "website": "https://www.readingfc.co.uk/club/madejski-stadium/",
+    "source": "http://www.wikidata.org/entity/Q31656",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q247420",
+    "name": "Dodger Stadium",
+    "country": "美国",
+    "latitude": 34.073611111,
+    "longitude": -118.24,
+    "website": "http://losangeles.dodgers.mlb.com/la/ballpark/",
+    "source": "http://www.wikidata.org/entity/Q247420",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q375365",
+    "name": "Giants Stadium",
+    "country": "美国",
+    "latitude": 40.813726,
+    "longitude": -74.074433,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q375365",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q8503",
+    "name": "Stade Vuillermet",
+    "country": "法国",
+    "latitude": 45.724016,
+    "longitude": 4.880987,
+    "website": "https://www.lyon.fr/lieu/stade/stade-georges-vuillermet",
+    "source": "http://www.wikidata.org/entity/Q8503",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q656063",
+    "name": "Friedrich-Ludwig-Jahn-Sportpark",
+    "country": "德国",
+    "latitude": 52.543056,
+    "longitude": 13.405278,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q656063",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q876286",
+    "name": "White City Stadium",
+    "country": "英国",
+    "latitude": 51.513619444,
+    "longitude": -0.2274,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q876286",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1640118",
+    "name": "Michigan Stadium",
+    "country": "美国",
+    "latitude": 42.265833333,
+    "longitude": -83.748611111,
+    "website": "https://mgoblue.com/sports/2017/6/16/facilities-michigan-stadium-html.aspx",
+    "source": "http://www.wikidata.org/entity/Q1640118",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q912705",
+    "name": "eVendi Arena",
+    "country": "德国",
+    "latitude": 53.5675,
+    "longitude": 9.94111111,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q912705",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q619078",
+    "name": "Stonebridge Road",
+    "country": "英国",
+    "latitude": 51.449539,
+    "longitude": 0.322272,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q619078",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q209725",
+    "name": "Twickenham Stadium",
+    "country": "英国",
+    "latitude": 51.456111111,
+    "longitude": -0.341666666,
+    "website": "https://allianzstadiumtwickenham.com/",
+    "source": "http://www.wikidata.org/entity/Q209725",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q548439",
+    "name": "Leeds Road",
+    "country": "英国",
+    "latitude": 53.657864,
+    "longitude": -1.767792,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q548439",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q193651",
+    "name": "Hampden Park",
+    "country": "英国",
+    "latitude": 55.825863888,
+    "longitude": -4.252002777,
+    "website": "https://www.hampdenpark.co.uk/",
+    "source": "http://www.wikidata.org/entity/Q193651",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q207109",
+    "name": "Johan Cruyff Arena",
+    "country": "荷兰",
+    "latitude": 52.314166666,
+    "longitude": 4.941944444,
+    "website": "https://www.johancruijffarena.nl/",
+    "source": "http://www.wikidata.org/entity/Q207109",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q127429",
+    "name": "Allianz Arena",
+    "country": "德国",
+    "latitude": 48.218775,
+    "longitude": 11.624752777,
+    "website": "http://www.allianz-arena.de/en/",
+    "source": "http://www.wikidata.org/entity/Q127429",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q10626",
+    "name": "Vicarage Road",
+    "country": "英国",
+    "latitude": 51.649928,
+    "longitude": -0.401606,
+    "website": "https://www.watfordfc.com/matches/visiting-vicarage-road",
+    "source": "http://www.wikidata.org/entity/Q10626",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q372779",
+    "name": "Wagener Stadium",
+    "country": "荷兰",
+    "latitude": 52.319444444,
+    "longitude": 4.854166666,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q372779",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q153312",
+    "name": "Robert F. Kennedy Memorial Stadium",
+    "country": "美国",
+    "latitude": 38.89,
+    "longitude": -76.971944444,
+    "website": "https://eventsdc.com/venue/rfk-stadium",
+    "source": "http://www.wikidata.org/entity/Q153312",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q665369",
+    "name": "Stade Louis Achille",
+    "country": "法国",
+    "latitude": 14.60278,
+    "longitude": -61.08418,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q665369",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q574140",
+    "name": "Sacramento Convention Center Complex",
+    "country": "美国",
+    "latitude": 38.5783,
+    "longitude": -121.489,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q574140",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q386547",
+    "name": "Stade Chaban-Delmas",
+    "country": "法国",
+    "latitude": 44.829167,
+    "longitude": -0.598056,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q386547",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q619409",
+    "name": "Brighton Community Stadium",
+    "country": "英国",
+    "latitude": 50.861822222,
+    "longitude": -0.083277777,
+    "website": "http://www.amexstadium.co.uk/",
+    "source": "http://www.wikidata.org/entity/Q619409",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1124181",
+    "name": "Donald W. Reynolds Razorback Stadium",
+    "country": "美国",
+    "latitude": 36.0681,
+    "longitude": -94.1789,
+    "website": "https://arkansasrazorbacks.com/facility/dwrrs/",
+    "source": "http://www.wikidata.org/entity/Q1124181",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q205048",
+    "name": "Newark Velodrome",
+    "country": "美国",
+    "latitude": 40.7424,
+    "longitude": -74.2174,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q205048",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q633613",
+    "name": "Rate Field",
+    "country": "美国",
+    "latitude": 41.83,
+    "longitude": -87.633888888,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q633613",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1133538",
+    "name": "Scott Stadium",
+    "country": "美国",
+    "latitude": 38.031111111,
+    "longitude": -78.513611111,
+    "website": "https://virginiasports.com/carl-smith-center-home-of-david-a-harrison-iii-field-at-scott-stadium-2/",
+    "source": "http://www.wikidata.org/entity/Q1133538",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q473943",
+    "name": "Amon G. Carter Stadium",
+    "country": "美国",
+    "latitude": 32.709722222,
+    "longitude": -97.368055555,
+    "website": "https://gofrogs.com/sports/2018/7/13/facilities-tcu-facilities-football-html.aspx",
+    "source": "http://www.wikidata.org/entity/Q473943",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q225108",
+    "name": "Meadowlands Sports Complex",
+    "country": "美国",
+    "latitude": 40.814166666,
+    "longitude": -74.073888888,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q225108",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q913716",
+    "name": "Eisstadion im Sahnpark",
+    "country": "德国",
+    "latitude": 50.826667,
+    "longitude": 12.376667,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q913716",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q282333",
+    "name": "Stade Pierre-Aliker",
+    "country": "法国",
+    "latitude": 14.60334,
+    "longitude": -61.0462,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q282333",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q49136",
+    "name": "Fenway Park",
+    "country": "美国",
+    "latitude": 42.346388888,
+    "longitude": -71.0975,
+    "website": "http://mlb.mlb.com/bos/ballpark/index.jsp",
+    "source": "http://www.wikidata.org/entity/Q49136",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1671788",
+    "name": "Princess Auto Stadium",
+    "country": "加拿大",
+    "latitude": 49.807778,
+    "longitude": -97.143056,
+    "website": "https://www.bluebombers.com/stadium-information/",
+    "source": "http://www.wikidata.org/entity/Q1671788",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q373355",
+    "name": "Gillette Stadium",
+    "country": "美国",
+    "latitude": 42.090944444,
+    "longitude": -71.264344444,
+    "website": "http://www.gillettestadium.com/",
+    "source": "http://www.wikidata.org/entity/Q373355",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q619055",
+    "name": "Shielfield Park",
+    "country": "英国",
+    "latitude": 55.76,
+    "longitude": -2.01583,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q619055",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q314983",
+    "name": "Wedaustadion",
+    "country": "德国",
+    "latitude": 51.409033,
+    "longitude": 6.778664,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q314983",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q618958",
+    "name": "York Street",
+    "country": "英国",
+    "latitude": 52.976786,
+    "longitude": -0.019117,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q618958",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q635117",
+    "name": "EverBank Field",
+    "country": "美国",
+    "latitude": 30.323889,
+    "longitude": -81.6375,
+    "website": "https://tiaabankfield.com/",
+    "source": "http://www.wikidata.org/entity/Q635117",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1129916",
+    "name": "Coors Field",
+    "country": "美国",
+    "latitude": 39.756111111,
+    "longitude": -104.994166666,
+    "website": "https://www.mlb.com/rockies/ballpark/",
+    "source": "http://www.wikidata.org/entity/Q1129916",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q150961",
+    "name": "Arena AufSchalke",
+    "country": "德国",
+    "latitude": 51.554502777,
+    "longitude": 7.067588888,
+    "website": "https://veltins-arena.de/",
+    "source": "http://www.wikidata.org/entity/Q150961",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1100756",
+    "name": "Huntington Bank Field",
+    "country": "美国",
+    "latitude": 41.506111111,
+    "longitude": -81.699444444,
+    "website": "https://huntingtonbankfield.com/",
+    "source": "http://www.wikidata.org/entity/Q1100756",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q868482",
+    "name": "Comerica Park",
+    "country": "美国",
+    "latitude": 42.339166666,
+    "longitude": -83.048611111,
+    "website": "http://detroit.tigers.mlb.com/det/ballpark/",
+    "source": "http://www.wikidata.org/entity/Q868482",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q152349",
+    "name": "MHPArena",
+    "country": "德国",
+    "latitude": 48.792222,
+    "longitude": 9.231944,
+    "website": "https://www.mhparena-stuttgart.de",
+    "source": "http://www.wikidata.org/entity/Q152349",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q182992",
+    "name": "Stade Numa-Daly Magenta",
+    "country": "法国",
+    "latitude": -22.26417143,
+    "longitude": 166.4679427,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q182992",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1632955",
+    "name": "Robertson Stadium",
+    "country": "美国",
+    "latitude": 29.721944444,
+    "longitude": -95.349166666,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q1632955",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q619041",
+    "name": "Princes Park",
+    "country": "英国",
+    "latitude": 51.437172,
+    "longitude": 0.2308,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q619041",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q920240",
+    "name": "Swangard Stadium",
+    "country": "加拿大",
+    "latitude": 49.2308,
+    "longitude": -123.021,
+    "website": "https://www.burnaby.ca/recreation-and-arts/recreation-facilities/swangard-stadium",
+    "source": "http://www.wikidata.org/entity/Q920240",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1133481",
+    "name": "Stade de l'Ill",
+    "country": "法国",
+    "latitude": 47.736376,
+    "longitude": 7.32183,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q1133481",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q202150",
+    "name": "Stade Vélodrome",
+    "country": "法国",
+    "latitude": 43.269241,
+    "longitude": 5.394907,
+    "website": "https://www.orangevelodrome.com",
+    "source": "http://www.wikidata.org/entity/Q202150",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q462240",
+    "name": "Stade Pierre de Coubertin",
+    "country": "法国",
+    "latitude": 48.835265565,
+    "longitude": 2.256179755,
+    "website": "https://www.paris.fr/lieux/stade-pierre-de-coubertin-3024",
+    "source": "http://www.wikidata.org/entity/Q462240",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q338211",
+    "name": "Stade Ernest-Argelès",
+    "country": "法国",
+    "latitude": 43.6369,
+    "longitude": 1.40167,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q338211",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1368138",
+    "name": "LoanDepot Park",
+    "country": "美国",
+    "latitude": 25.778056,
+    "longitude": -80.219722,
+    "website": "http://miami.marlins.mlb.com/mia/ballpark/index.jsp",
+    "source": "http://www.wikidata.org/entity/Q1368138",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q881312",
+    "name": "Blakes Estate Stadium",
+    "country": "英国",
+    "latitude": 16.78386389,
+    "longitude": -62.18632222,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q881312",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q131610",
+    "name": "Munich Olympic Stadium",
+    "country": "德国",
+    "latitude": 48.173055555,
+    "longitude": 11.546666666,
+    "website": "https://www.olympiapark.de/de/Der%20Olympiapark/Park%C3%BCbersicht/Olympiastadion",
+    "source": "http://www.wikidata.org/entity/Q131610",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q899201",
+    "name": "Stanley Park Stadium",
+    "country": "英国",
+    "latitude": 53.433981,
+    "longitude": -2.959614,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q899201",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q922974",
+    "name": "Broadwood Stadium",
+    "country": "英国",
+    "latitude": 55.9448,
+    "longitude": -4.03709,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q922974",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1072186",
+    "name": "Hubert H. Humphrey Metrodome",
+    "country": "美国",
+    "latitude": 44.973888888,
+    "longitude": -93.258055555,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q1072186",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q619615",
+    "name": "Sixfields Stadium",
+    "country": "英国",
+    "latitude": 52.235197,
+    "longitude": -0.93345,
+    "website": "https://www.ntfc.co.uk/history/sixfields-stadium",
+    "source": "http://www.wikidata.org/entity/Q619615",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1634492",
+    "name": "Choctaw Stadium",
+    "country": "美国",
+    "latitude": 32.751388888,
+    "longitude": -97.082777777,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q1634492",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q907843",
+    "name": "Falcon Stadium",
+    "country": "美国",
+    "latitude": 38.996944,
+    "longitude": -104.842222,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q907843",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q150933",
+    "name": "Volksparkstadion",
+    "country": "德国",
+    "latitude": 53.586944,
+    "longitude": 9.898611,
+    "website": "https://www.hsv.de/volksparkstadion/uebersicht/das-volksparkstadion/",
+    "source": "http://www.wikidata.org/entity/Q150933",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q130381",
+    "name": "Commonwealth Stadium",
+    "country": "加拿大",
+    "latitude": 53.559722222,
+    "longitude": -113.476111111,
+    "website": "https://www.edmonton.ca/attractions_events/commonwealth-stadium.aspx",
+    "source": "http://www.wikidata.org/entity/Q130381",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q298585",
+    "name": "Oracle Park",
+    "country": "美国",
+    "latitude": 37.778333333,
+    "longitude": -122.389444444,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q298585",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q897145",
+    "name": "Braehead Arena",
+    "country": "英国",
+    "latitude": 55.875987,
+    "longitude": -4.364843,
+    "website": "http://www.braehead-arena.co.uk",
+    "source": "http://www.wikidata.org/entity/Q897145",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q907890",
+    "name": "LaVell Edwards Stadium",
+    "country": "美国",
+    "latitude": 40.2575,
+    "longitude": -111.654444,
+    "website": "https://byucougars.com/facilities/football",
+    "source": "http://www.wikidata.org/entity/Q907890",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q310525",
+    "name": "Lanxess Arena",
+    "country": "德国",
+    "latitude": 50.93843,
+    "longitude": 6.9829,
+    "website": "https://www.lanxess-arena.de/",
+    "source": "http://www.wikidata.org/entity/Q310525",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q77118",
+    "name": "Don Valley Stadium",
+    "country": "英国",
+    "latitude": 53.3961,
+    "longitude": -1.4258,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q77118",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q560209",
+    "name": "Superior Dome",
+    "country": "美国",
+    "latitude": 46.56,
+    "longitude": -87.393611111,
+    "website": "https://nmu.edu/superiordome",
+    "source": "http://www.wikidata.org/entity/Q560209",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q351946",
+    "name": "Adams Park",
+    "country": "英国",
+    "latitude": 51.630555555,
+    "longitude": -0.800277777,
+    "website": "https://www.wycombewanderers.co.uk/adamspark/",
+    "source": "http://www.wikidata.org/entity/Q351946",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q420494",
+    "name": "Vélodrome de Vincennes",
+    "country": "法国",
+    "latitude": 48.82596,
+    "longitude": 2.41173,
+    "website": "https://www.paris.fr/lieux/stade-velodrome-jacques-anquetil-6368",
+    "source": "http://www.wikidata.org/entity/Q420494",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q945223",
+    "name": "Kyle Field",
+    "country": "美国",
+    "latitude": 30.60992,
+    "longitude": -96.34052,
+    "website": "https://12thman.com/facilities/kyle-field/1",
+    "source": "http://www.wikidata.org/entity/Q945223",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1737017",
+    "name": "Kauffman Stadium",
+    "country": "美国",
+    "latitude": 39.051388888,
+    "longitude": -94.480555555,
+    "website": "https://www.mlb.com/royals/ballpark",
+    "source": "http://www.wikidata.org/entity/Q1737017",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q756452",
+    "name": "Caesars Superdome",
+    "country": "美国",
+    "latitude": 29.950833333,
+    "longitude": -90.081111111,
+    "website": "https://www.caesarssuperdome.com/",
+    "source": "http://www.wikidata.org/entity/Q756452",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1151177",
+    "name": "PNC Park",
+    "country": "美国",
+    "latitude": 40.446944444,
+    "longitude": -80.005833333,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q1151177",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q2861657",
+    "name": "Arlington Stadium",
+    "country": "美国",
+    "latitude": 32.756388888,
+    "longitude": -97.084722222,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q2861657",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q692470",
+    "name": "Stanford Stadium",
+    "country": "美国",
+    "latitude": 37.434444444,
+    "longitude": -122.161111111,
+    "website": "https://gostanford.com/facilities/stanford-stadium/16",
+    "source": "http://www.wikidata.org/entity/Q692470",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1141174",
+    "name": "Oriole Park at Camden Yards",
+    "country": "美国",
+    "latitude": 39.283888888,
+    "longitude": -76.621666666,
+    "website": "https://www.mlb.com/orioles/ballpark",
+    "source": "http://www.wikidata.org/entity/Q1141174",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1560739",
+    "name": "Stade de Baduel",
+    "country": "法国",
+    "latitude": 4.93358,
+    "longitude": -52.31175,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q1560739",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q936242",
+    "name": "University Stadium",
+    "country": "美国",
+    "latitude": 35.066944,
+    "longitude": -106.628333,
+    "website": "https://golobos.com/branch-field-at-university-stadium-2/",
+    "source": "http://www.wikidata.org/entity/Q936242",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1141343",
+    "name": "Raymond James Stadium",
+    "country": "美国",
+    "latitude": 27.975833333,
+    "longitude": -82.503333333,
+    "website": "https://raymondjamesstadium.com/",
+    "source": "http://www.wikidata.org/entity/Q1141343",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1166591",
+    "name": "Darrell K Royal–Texas Memorial Stadium",
+    "country": "美国",
+    "latitude": 30.283666666,
+    "longitude": -97.732555555,
+    "website": "http://texassports.com/sports/2013/7/24/facilities_0724133148.aspx?id=205",
+    "source": "http://www.wikidata.org/entity/Q1166591",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q867160",
+    "name": "Lucas Oil Stadium",
+    "country": "美国",
+    "latitude": 39.760056,
+    "longitude": -86.163806,
+    "website": "http://www.lucasoilstadium.com",
+    "source": "http://www.wikidata.org/entity/Q867160",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q3494245",
+    "name": "Springfield Park, Wigan",
+    "country": "英国",
+    "latitude": 53.55491389,
+    "longitude": -2.65066111,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q3494245",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1136704",
+    "name": "Lausitz Velodrom Cottbus",
+    "country": "德国",
+    "latitude": 51.7408,
+    "longitude": 14.3369,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q1136704",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q3453774",
+    "name": "Ryan Field",
+    "country": "美国",
+    "latitude": 42.087509448,
+    "longitude": -87.700625415,
+    "website": "https://nusports.com/facilities/ryan-field/1",
+    "source": "http://www.wikidata.org/entity/Q3453774",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1618347",
+    "name": "Alamodome",
+    "country": "美国",
+    "latitude": 29.416944444,
+    "longitude": -98.478888888,
+    "website": "https://www.alamodome.com/",
+    "source": "http://www.wikidata.org/entity/Q1618347",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1627986",
+    "name": "Kenan Memorial Stadium",
+    "country": "美国",
+    "latitude": 35.906944,
+    "longitude": -79.047778,
+    "website": "https://goheels.com/news/2012/7/15/205498261.aspx",
+    "source": "http://www.wikidata.org/entity/Q1627986",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1179474",
+    "name": "Mountaineer Field at Milan Puskar Stadium",
+    "country": "美国",
+    "latitude": 39.650277777,
+    "longitude": -79.954722222,
+    "website": "https://wvusports.com/facilities/milan-puskar-stadium/8",
+    "source": "http://www.wikidata.org/entity/Q1179474",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1026588",
+    "name": "Caledonian Stadium",
+    "country": "英国",
+    "latitude": 57.494722,
+    "longitude": -4.2175,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q1026588",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1823359",
+    "name": "Stadium Lichtenberg",
+    "country": "德国",
+    "latitude": 52.5297,
+    "longitude": 13.5044,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q1823359",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1857419",
+    "name": "Rice Stadium",
+    "country": "美国",
+    "latitude": 29.716388888,
+    "longitude": -95.409166666,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q1857419",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q999781",
+    "name": "SeatGeek Stadium",
+    "country": "美国",
+    "latitude": 41.764722222,
+    "longitude": -87.806111111,
+    "website": "https://www.seatgeekstadium.com/",
+    "source": "http://www.wikidata.org/entity/Q999781",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q536202",
+    "name": "Porsche-Arena",
+    "country": "德国",
+    "latitude": 48.793056,
+    "longitude": 9.228333,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q536202",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q2894736",
+    "name": "Belle Vue",
+    "country": "英国",
+    "latitude": 53.516863888,
+    "longitude": -1.1047,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q2894736",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1136764",
+    "name": "Cotton Bowl",
+    "country": "美国",
+    "latitude": 32.779722222,
+    "longitude": -96.759722222,
+    "website": "http://www.cottonbowlstadium.com/",
+    "source": "http://www.wikidata.org/entity/Q1136764",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q3453599",
+    "name": "SHI Stadium",
+    "country": "美国",
+    "latitude": 40.513611111,
+    "longitude": -74.465277777,
+    "website": "https://scarletknights.com/sports/2017/6/11/facilities-football-html.aspx",
+    "source": "http://www.wikidata.org/entity/Q3453599",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1033076",
+    "name": "Candlestick Park",
+    "country": "美国",
+    "latitude": 37.713611111,
+    "longitude": -122.386111111,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q1033076",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1320105",
+    "name": "Faurot Field",
+    "country": "美国",
+    "latitude": 38.935833,
+    "longitude": -92.333056,
+    "website": "https://mutigers.com/facilities/memorial-stadium-faurot-field/1",
+    "source": "http://www.wikidata.org/entity/Q1320105",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q761682",
+    "name": "Sports Illustrated Stadium",
+    "country": "美国",
+    "latitude": 40.736666666,
+    "longitude": -74.150277777,
+    "website": "https://www.newyorkredbulls.com/sportsillustratedstadium/",
+    "source": "http://www.wikidata.org/entity/Q761682",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q589875",
+    "name": "Principal Park",
+    "country": "美国",
+    "latitude": 41.580277777,
+    "longitude": -93.615833333,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q589875",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q517268",
+    "name": "Kroger Field",
+    "country": "美国",
+    "latitude": 38.022777777,
+    "longitude": -84.505277777,
+    "website": "https://ukathletics.com/facilities/kroger-field/",
+    "source": "http://www.wikidata.org/entity/Q517268",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q609551",
+    "name": "Arthur Ashe Stadium",
+    "country": "美国",
+    "latitude": 40.749886111,
+    "longitude": -73.847033333,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q609551",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q990430",
+    "name": "Kingdome",
+    "country": "美国",
+    "latitude": 47.595555555,
+    "longitude": -122.333055555,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q990430",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q743828",
+    "name": "Fallowfield Stadium",
+    "country": "英国",
+    "latitude": 53.44305556,
+    "longitude": -2.21555556,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q743828",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1387521",
+    "name": "Nordfrost-Arena",
+    "country": "德国",
+    "latitude": 53.5346,
+    "longitude": 8.095,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q1387521",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1142586",
+    "name": "Ford Field",
+    "country": "美国",
+    "latitude": 42.34,
+    "longitude": -83.045555555,
+    "website": "https://www.fordfield.com/",
+    "source": "http://www.wikidata.org/entity/Q1142586",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q865715",
+    "name": "Birmingham–Jefferson Convention Complex",
+    "country": "美国",
+    "latitude": 33.524,
+    "longitude": -86.812,
+    "website": "http://www.bjcc.org",
+    "source": "http://www.wikidata.org/entity/Q865715",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1978036",
+    "name": "Ivor Wynne Stadium",
+    "country": "加拿大",
+    "latitude": 43.252572222,
+    "longitude": -79.830247222,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q1978036",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q2844226",
+    "name": "Q2844226",
+    "country": "加拿大",
+    "latitude": 46.808791,
+    "longitude": -71.360671,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q2844226",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1142992",
+    "name": "Nissan Stadium",
+    "country": "美国",
+    "latitude": 36.166388888,
+    "longitude": -86.771388888,
+    "website": "https://nissanstadium.com/",
+    "source": "http://www.wikidata.org/entity/Q1142992",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1810204",
+    "name": "McMahon Stadium",
+    "country": "加拿大",
+    "latitude": 51.070327777,
+    "longitude": -114.121388888,
+    "website": "https://godinos.com/facilities/mcmahon-stadium/1",
+    "source": "http://www.wikidata.org/entity/Q1810204",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q756205",
+    "name": "Atlanta Silverbacks Park",
+    "country": "美国",
+    "latitude": 33.885353,
+    "longitude": -84.2484,
+    "website": "https://silverbackspark.com/",
+    "source": "http://www.wikidata.org/entity/Q756205",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1017286",
+    "name": "Busch Memorial Stadium",
+    "country": "美国",
+    "latitude": 38.623888888,
+    "longitude": -90.1925,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q1017286",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q2894741",
+    "name": "Belle Vue",
+    "country": "英国",
+    "latitude": 53.669722,
+    "longitude": -1.479444,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q2894741",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q3442733",
+    "name": "Ross–Ade Stadium",
+    "country": "美国",
+    "latitude": 40.4344,
+    "longitude": -86.9183,
+    "website": "https://purduesports.com/facilities/ross-ade-stadium/1",
+    "source": "http://www.wikidata.org/entity/Q3442733",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q940522",
+    "name": "Williams-Brice Stadium",
+    "country": "美国",
+    "latitude": 33.973055555,
+    "longitude": -81.019166666,
+    "website": "https://www.williamsbrice.com/",
+    "source": "http://www.wikidata.org/entity/Q940522",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q788510",
+    "name": "Palmer Stadium",
+    "country": "美国",
+    "latitude": 40.345755,
+    "longitude": -74.65003,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q788510",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1193671",
+    "name": "Daikin Park",
+    "country": "美国",
+    "latitude": 29.756944444,
+    "longitude": -95.355555555,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q1193671",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q541391",
+    "name": "Stade Charléty",
+    "country": "法国",
+    "latitude": 48.81716,
+    "longitude": 2.34511,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q541391",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1551354",
+    "name": "Stade Pater Te Hono Nui",
+    "country": "法国",
+    "latitude": -17.54,
+    "longitude": -149.552,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q1551354",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1810119",
+    "name": "Tropicana Field",
+    "country": "美国",
+    "latitude": 27.768333333,
+    "longitude": -82.653333333,
+    "website": "https://www.mlb.com/rays/ballpark",
+    "source": "http://www.wikidata.org/entity/Q1810119",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q583085",
+    "name": "Northwest Stadium",
+    "country": "美国",
+    "latitude": 38.907777777,
+    "longitude": -76.864444444,
+    "website": "https://northweststadium.com/",
+    "source": "http://www.wikidata.org/entity/Q583085",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1304654",
+    "name": "Reitstadion Gera-Milbitz",
+    "country": "德国",
+    "latitude": 50.9052,
+    "longitude": 12.0545,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q1304654",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1546510",
+    "name": "Stade Hamuta",
+    "country": "法国",
+    "latitude": -17.5339,
+    "longitude": -149.552,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q1546510",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q854122",
+    "name": "Stade Bollaert-Delelis",
+    "country": "法国",
+    "latitude": 50.4329,
+    "longitude": 2.81491,
+    "website": "https://www.rclens.fr/fr/stade-bollaert-delelis-presentation",
+    "source": "http://www.wikidata.org/entity/Q854122",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1224721",
+    "name": "First Data Field",
+    "country": "美国",
+    "latitude": 27.325281,
+    "longitude": -80.404494,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q1224721",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1419068",
+    "name": "Firhill Stadium",
+    "country": "英国",
+    "latitude": 55.881556,
+    "longitude": -4.269639,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q1419068",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1025406",
+    "name": "Astrodome",
+    "country": "美国",
+    "latitude": 29.685,
+    "longitude": -95.407777777,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q1025406",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1320570",
+    "name": "Q1320570",
+    "country": "德国",
+    "latitude": 47.7982,
+    "longitude": 10.9301,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q1320570",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1292739",
+    "name": "The Dome at America's Center",
+    "country": "美国",
+    "latitude": 38.632777777,
+    "longitude": -90.188611111,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q1292739",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q601596",
+    "name": "Texas Stadium",
+    "country": "美国",
+    "latitude": 32.839769444,
+    "longitude": -96.910911111,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q601596",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q503319",
+    "name": "Olympic Stadium",
+    "country": "荷兰",
+    "latitude": 52.343419,
+    "longitude": 4.854192,
+    "website": "https://olympischstadion.nl",
+    "source": "http://www.wikidata.org/entity/Q503319",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q795526",
+    "name": "Amerant Bank Arena",
+    "country": "美国",
+    "latitude": 26.158333333,
+    "longitude": -80.325555555,
+    "website": "http://amerantbankarena.com/",
+    "source": "http://www.wikidata.org/entity/Q795526",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1388701",
+    "name": "Pitbull Stadium",
+    "country": "美国",
+    "latitude": 25.7525,
+    "longitude": -80.377778,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q1388701",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q762987",
+    "name": "Globe Arena",
+    "country": "英国",
+    "latitude": 54.0615,
+    "longitude": -2.86716,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q762987",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q979975",
+    "name": "Great American Ball Park",
+    "country": "美国",
+    "latitude": 39.097222222,
+    "longitude": -84.506944444,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q979975",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q3475468",
+    "name": "Schoellkopf Field",
+    "country": "美国",
+    "latitude": 42.444086,
+    "longitude": -76.478656,
+    "website": "https://cornellbigred.com/facilities/schoellkopf-field/18",
+    "source": "http://www.wikidata.org/entity/Q3475468",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q683112",
+    "name": "Turf Moor",
+    "country": "英国",
+    "latitude": 53.789064,
+    "longitude": -2.230225,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q683112",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q641212",
+    "name": "FedExForum",
+    "country": "美国",
+    "latitude": 35.138333333,
+    "longitude": -90.050555555,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q641212",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q2860806",
+    "name": "Plenitude Arena",
+    "country": "法国",
+    "latitude": 48.89565,
+    "longitude": 2.229554,
+    "website": "https://www.plenitudearena.com",
+    "source": "http://www.wikidata.org/entity/Q2860806",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q720978",
+    "name": "WerkTalent Stadion",
+    "country": "荷兰",
+    "latitude": 52.062778,
+    "longitude": 4.383056,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q720978",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q945172",
+    "name": "Carter–Finley Stadium",
+    "country": "美国",
+    "latitude": 35.800833333,
+    "longitude": -78.719444444,
+    "website": "https://gopack.com/facilities/carter-finley-stadium/3",
+    "source": "http://www.wikidata.org/entity/Q945172",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1848312",
+    "name": "Stade Gaston Gérard",
+    "country": "法国",
+    "latitude": 47.32616,
+    "longitude": 5.06757,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q1848312",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1787141",
+    "name": "Sporting Park",
+    "country": "美国",
+    "latitude": 39.1218,
+    "longitude": -94.8237,
+    "website": "http://www.sportingkc.com/childrens-mercy-park",
+    "source": "http://www.wikidata.org/entity/Q1787141",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1545870",
+    "name": "Veterans Stadium",
+    "country": "美国",
+    "latitude": 39.906666666,
+    "longitude": -75.171111111,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q1545870",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1786202",
+    "name": "Victoria Park",
+    "country": "英国",
+    "latitude": 57.5959,
+    "longitude": -4.41891,
+    "website": "http://www.rosscountyfootballclub.co.uk/the-club/find-us/",
+    "source": "http://www.wikidata.org/entity/Q1786202",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q860790",
+    "name": "Lambeau Field",
+    "country": "美国",
+    "latitude": 44.501388888,
+    "longitude": -88.062222222,
+    "website": "https://www.packers.com/lambeau-field/",
+    "source": "http://www.wikidata.org/entity/Q860790",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q849784",
+    "name": "Los Angeles Memorial Coliseum",
+    "country": "美国",
+    "latitude": 34.014167,
+    "longitude": -118.287778,
+    "website": "https://www.lacoliseum.com/",
+    "source": "http://www.wikidata.org/entity/Q849784",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q598070",
+    "name": "Alumni Stadium",
+    "country": "美国",
+    "latitude": 42.335,
+    "longitude": -71.166388888,
+    "website": "https://bceagles.com/facilities/alumni-stadium/2",
+    "source": "http://www.wikidata.org/entity/Q598070",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1697292",
+    "name": "Aloha Stadium",
+    "country": "美国",
+    "latitude": 21.372777777,
+    "longitude": -157.93,
+    "website": "http://www.alohastadium.hawaii.gov/",
+    "source": "http://www.wikidata.org/entity/Q1697292",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q2873102",
+    "name": "Autzen Stadium",
+    "country": "美国",
+    "latitude": 44.058333333,
+    "longitude": -123.068611111,
+    "website": "https://goducks.com/sports/2011/6/21/205174790.aspx",
+    "source": "http://www.wikidata.org/entity/Q2873102",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1001907",
+    "name": "Stade Buffalo",
+    "country": "法国",
+    "latitude": 48.811583,
+    "longitude": 2.322038,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q1001907",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q782386",
+    "name": "Reser Stadium",
+    "country": "美国",
+    "latitude": 44.559444444,
+    "longitude": -123.281388888,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q782386",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1730165",
+    "name": "Karl-Weinberger-Stadion",
+    "country": "德国",
+    "latitude": 48.7727,
+    "longitude": 12.87,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q1730165",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1415967",
+    "name": "Metropolitan Stadium",
+    "country": "美国",
+    "latitude": 44.854444444,
+    "longitude": -93.241944444,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q1415967",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1817621",
+    "name": "Stade de Roudourou",
+    "country": "法国",
+    "latitude": 48.56516,
+    "longitude": -3.16552,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q1817621",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1984022",
+    "name": "Neyland Stadium",
+    "country": "美国",
+    "latitude": 35.955,
+    "longitude": -83.925,
+    "website": "https://utsports.com/facilities/neyland-stadium/54",
+    "source": "http://www.wikidata.org/entity/Q1984022",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q756433",
+    "name": "State Farm Stadium",
+    "country": "美国",
+    "latitude": 33.5275,
+    "longitude": -112.2625,
+    "website": "https://www.statefarmstadium.com/",
+    "source": "http://www.wikidata.org/entity/Q756433",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q639975",
+    "name": "United Center",
+    "country": "美国",
+    "latitude": 41.880555555,
+    "longitude": -87.674166666,
+    "website": "https://www.unitedcenter.com/",
+    "source": "http://www.wikidata.org/entity/Q639975",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q531897",
+    "name": "Angel Stadium of Anaheim",
+    "country": "美国",
+    "latitude": 33.800277777,
+    "longitude": -117.882777777,
+    "website": "https://www.mlb.com/angels/ballpark",
+    "source": "http://www.wikidata.org/entity/Q531897",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q615561",
+    "name": "Dens Park",
+    "country": "英国",
+    "latitude": 56.475264,
+    "longitude": -2.973194,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q615561",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1189339",
+    "name": "Three Rivers Stadium",
+    "country": "美国",
+    "latitude": 40.446666666,
+    "longitude": -80.012777777,
+    "website": "http://www.3riversstadium.com",
+    "source": "http://www.wikidata.org/entity/Q1189339",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q3470457",
+    "name": "Sam Boyd Stadium",
+    "country": "美国",
+    "latitude": 36.086388888,
+    "longitude": -115.016666666,
+    "website": "https://www.samboydstadium.com/",
+    "source": "http://www.wikidata.org/entity/Q3470457",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1735173",
+    "name": "Paul E. Joseph Stadium",
+    "country": "美国",
+    "latitude": 17.717777777,
+    "longitude": -64.8825,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q1735173",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1164917",
+    "name": "Stade Pierre-Fabre",
+    "country": "法国",
+    "latitude": 43.61092,
+    "longitude": 2.25271,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q1164917",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1027157",
+    "name": "Falkirk Stadium",
+    "country": "英国",
+    "latitude": 56.005136,
+    "longitude": -3.754269,
+    "website": "http://www.falkirkstadium.co.uk",
+    "source": "http://www.wikidata.org/entity/Q1027157",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1672134",
+    "name": "Kassam Stadium",
+    "country": "英国",
+    "latitude": 51.716419,
+    "longitude": -1.208067,
+    "website": "http://www.thekassamstadium.com",
+    "source": "http://www.wikidata.org/entity/Q1672134",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1555504",
+    "name": "Gustav-Wegner-Stadion",
+    "country": "德国",
+    "latitude": 51.7112,
+    "longitude": 10.013,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q1555504",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q796351",
+    "name": "BMO Field",
+    "country": "加拿大",
+    "latitude": 43.632778,
+    "longitude": -79.418611,
+    "website": "https://www.bmofield.com/",
+    "source": "http://www.wikidata.org/entity/Q796351",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1284381",
+    "name": "Edgeley Park",
+    "country": "英国",
+    "latitude": 53.399722222,
+    "longitude": -2.166388888,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q1284381",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q642557",
+    "name": "Hillsborough Stadium",
+    "country": "英国",
+    "latitude": 53.411388888,
+    "longitude": -1.500555555,
+    "website": "http://www.swfc.co.uk/club/hillsborough_stadium/",
+    "source": "http://www.wikidata.org/entity/Q642557",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q583581",
+    "name": "Valley Children's Stadium",
+    "country": "美国",
+    "latitude": 36.8144,
+    "longitude": -119.758,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q583581",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q949608",
+    "name": "Davis Wade Stadium",
+    "country": "美国",
+    "latitude": 33.456389,
+    "longitude": -88.793611,
+    "website": "https://hailstate.com/news/2022/8/16/football-davis-wade-getting-in-gameday-shape-coleman.aspx",
+    "source": "http://www.wikidata.org/entity/Q949608",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1193117",
+    "name": "T-Mobile Park",
+    "country": "美国",
+    "latitude": 47.591388888,
+    "longitude": -122.3325,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q1193117",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1026837",
+    "name": "California Memorial Stadium",
+    "country": "美国",
+    "latitude": 37.871111111,
+    "longitude": -122.250833333,
+    "website": "https://calbears.com/sports/2020/6/18/california-memorial-stadium.aspx",
+    "source": "http://www.wikidata.org/entity/Q1026837",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1848848",
+    "name": "McDiarmid Park",
+    "country": "英国",
+    "latitude": 56.409686,
+    "longitude": -3.476928,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q1848848",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q744568",
+    "name": "Richmond Olympic Oval",
+    "country": "加拿大",
+    "latitude": 49.174722,
+    "longitude": -123.151389,
+    "website": "http://richmondoval.ca/",
+    "source": "http://www.wikidata.org/entity/Q744568",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q754502",
+    "name": "Yves du Manoir Stadium",
+    "country": "法国",
+    "latitude": 48.93145,
+    "longitude": 2.24961,
+    "website": "https://www.hauts-de-seine.fr/sortir-et-decouvrir/sport/equipements-sportifs/le-stade-departemental-yves-du-manoir",
+    "source": "http://www.wikidata.org/entity/Q754502",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1237181",
+    "name": "Civic Arena",
+    "country": "美国",
+    "latitude": 40.441666666,
+    "longitude": -79.99,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q1237181",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1154329",
+    "name": "Lotto Thüringen Arena am Rennsteig",
+    "country": "德国",
+    "latitude": 50.708031166,
+    "longitude": 10.693198,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q1154329",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q612227",
+    "name": "BC Place",
+    "country": "加拿大",
+    "latitude": 49.276666666,
+    "longitude": -123.111944444,
+    "website": "https://www.bcplace.com/",
+    "source": "http://www.wikidata.org/entity/Q612227",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1750255",
+    "name": "Tiger Stadium",
+    "country": "美国",
+    "latitude": 42.331944444,
+    "longitude": -83.068888888,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q1750255",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q606901",
+    "name": "Mississippi Veterans Memorial Stadium",
+    "country": "美国",
+    "latitude": 32.329639,
+    "longitude": -90.179778,
+    "website": "http://www.ms-veteransstadium.com/",
+    "source": "http://www.wikidata.org/entity/Q606901",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1396145",
+    "name": "Stade Louis Dugauguez",
+    "country": "法国",
+    "latitude": 49.69433,
+    "longitude": 4.93834,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q1396145",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1156635",
+    "name": "Target Field",
+    "country": "美国",
+    "latitude": 44.981667,
+    "longitude": -93.278333,
+    "website": "http://www.mlb.com/twins/ballpark/",
+    "source": "http://www.wikidata.org/entity/Q1156635",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q956072",
+    "name": "San Diego Stadium",
+    "country": "美国",
+    "latitude": 32.783055555,
+    "longitude": -117.119444444,
+    "website": "https://www.sandiego.gov/stadium",
+    "source": "http://www.wikidata.org/entity/Q956072",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q685570",
+    "name": "Schauinsland-Reisen-Arena",
+    "country": "德国",
+    "latitude": 51.409028,
+    "longitude": 6.778639,
+    "website": "http://www.schauinslandreisenarena.de/",
+    "source": "http://www.wikidata.org/entity/Q685570",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1028275",
+    "name": "Allegacy Federal Credit Union Stadium",
+    "country": "美国",
+    "latitude": 36.130556,
+    "longitude": -80.254722,
+    "website": "https://godeacs.com/facilities/allegacy-federal-credit-union-stadium/55",
+    "source": "http://www.wikidata.org/entity/Q1028275",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1024926",
+    "name": "Murrayfield Stadium",
+    "country": "英国",
+    "latitude": 55.942231,
+    "longitude": -3.240921,
+    "website": "http://www.scottishrugbyhospitality.org/",
+    "source": "http://www.wikidata.org/entity/Q1024926",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q958319",
+    "name": "The Valley",
+    "country": "英国",
+    "latitude": 51.487489,
+    "longitude": 0.035632,
+    "website": "https://www.cafc.co.uk/",
+    "source": "http://www.wikidata.org/entity/Q958319",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q641243",
+    "name": "Atlanta-Fulton County Stadium",
+    "country": "美国",
+    "latitude": 33.73944444,
+    "longitude": -84.38944444,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q641243",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1142428",
+    "name": "Wisconsin State Fair Park",
+    "country": "美国",
+    "latitude": 43.0219,
+    "longitude": -88.0128,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q1142428",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q3474506",
+    "name": "Save Mart Center",
+    "country": "美国",
+    "latitude": 36.809722,
+    "longitude": -119.738611,
+    "website": "http://www.savemartcenter.com/",
+    "source": "http://www.wikidata.org/entity/Q3474506",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q952112",
+    "name": "Stade Dominique Duvauchelle",
+    "country": "法国",
+    "latitude": 48.76762,
+    "longitude": 2.45944,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q952112",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q864339",
+    "name": "Hard Rock Stadium",
+    "country": "美国",
+    "latitude": 25.958055555,
+    "longitude": -80.238888888,
+    "website": "https://hardrockstadium.com/",
+    "source": "http://www.wikidata.org/entity/Q864339",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q3490647",
+    "name": "Sonny Lubick Field at Hughes Stadium",
+    "country": "美国",
+    "latitude": 40.562222,
+    "longitude": -105.141667,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q3490647",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q795345",
+    "name": "Centennial Olympic Stadium",
+    "country": "美国",
+    "latitude": 33.735555555,
+    "longitude": -84.389444444,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q795345",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q945548",
+    "name": "Jordan–Hare Stadium",
+    "country": "美国",
+    "latitude": 32.602222222,
+    "longitude": -85.489166666,
+    "website": "https://auburntigers.com/facilities/jordan-hare-stadium/11",
+    "source": "http://www.wikidata.org/entity/Q945548",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1029941",
+    "name": "Camp Randall Stadium",
+    "country": "美国",
+    "latitude": 43.07,
+    "longitude": -89.412777777,
+    "website": "https://camprandallstadium.com/",
+    "source": "http://www.wikidata.org/entity/Q1029941",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1546947",
+    "name": "Wullen Stadium",
+    "country": "德国",
+    "latitude": 51.446091666,
+    "longitude": 7.360266666,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q1546947",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1233077",
+    "name": "Doak Campbell Stadium",
+    "country": "美国",
+    "latitude": 30.438055555,
+    "longitude": -84.304444444,
+    "website": "https://seminoles.com/sports/football/facilities/bobby-bowden-field-at-doak-s-campbell-stadium/",
+    "source": "http://www.wikidata.org/entity/Q1233077",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q639811",
+    "name": "Stade Jean-Antoine Moueix",
+    "country": "法国",
+    "latitude": 44.90799,
+    "longitude": -0.23501,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q639811",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1141336",
+    "name": "M&T Bank Stadium",
+    "country": "美国",
+    "latitude": 39.278055555,
+    "longitude": -76.622777777,
+    "website": "https://www.baltimoreravens.com/stadium/",
+    "source": "http://www.wikidata.org/entity/Q1141336",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1867553",
+    "name": "Lockhart Stadium",
+    "country": "美国",
+    "latitude": 26.193055555,
+    "longitude": -80.161111111,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q1867553",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q517545",
+    "name": "Nationals Park",
+    "country": "美国",
+    "latitude": 38.8725,
+    "longitude": -77.007777777,
+    "website": "https://www.mlb.com/nationals/ballpark",
+    "source": "http://www.wikidata.org/entity/Q517545",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1140737",
+    "name": "Francis Olympic Field",
+    "country": "美国",
+    "latitude": 38.647777777,
+    "longitude": -90.313611111,
+    "website": "https://washubears.com/sports/2022/6/6/facilities-francis-field.aspx",
+    "source": "http://www.wikidata.org/entity/Q1140737",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1982605",
+    "name": "New Grosvenor Stadium",
+    "country": "英国",
+    "latitude": 54.535925,
+    "longitude": -6.003733,
+    "website": "https://drumbopark.com/",
+    "source": "http://www.wikidata.org/entity/Q1982605",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1194586",
+    "name": "Petco Park",
+    "country": "美国",
+    "latitude": 32.707333,
+    "longitude": -117.156944,
+    "website": "https://petcoparkevents.com/",
+    "source": "http://www.wikidata.org/entity/Q1194586",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q732147",
+    "name": "Percival Molson Memorial Stadium",
+    "country": "加拿大",
+    "latitude": 45.510083333,
+    "longitude": -73.580666666,
+    "website": "https://mcgillathletics.ca/sports/2012/11/5/1105124126.aspx",
+    "source": "http://www.wikidata.org/entity/Q732147",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q750571",
+    "name": "Whistler Olympic Park",
+    "country": "加拿大",
+    "latitude": 50.1353,
+    "longitude": -123.119,
+    "website": "http://www.whistlerolympicpark.com",
+    "source": "http://www.wikidata.org/entity/Q750571",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1009493",
+    "name": "Buniamshof",
+    "country": "德国",
+    "latitude": 53.8583,
+    "longitude": 10.6813,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q1009493",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q995161",
+    "name": "Bryant–Denny Stadium",
+    "country": "美国",
+    "latitude": 33.207777777,
+    "longitude": -87.550555555,
+    "website": "https://rolltide.com/sports/2016/6/10/facilities-bryant-denny-html.aspx",
+    "source": "http://www.wikidata.org/entity/Q995161",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1186386",
+    "name": "Parc y Scarlets",
+    "country": "英国",
+    "latitude": 51.679167,
+    "longitude": -4.129167,
+    "website": "https://www.parcyscarlets.com/",
+    "source": "http://www.wikidata.org/entity/Q1186386",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q692816",
+    "name": "Beaver Stadium",
+    "country": "美国",
+    "latitude": 40.812222222,
+    "longitude": -77.856111111,
+    "website": "https://gopsusports.com/sports/2018/8/8/facilities-beaver-stadium-html.aspx",
+    "source": "http://www.wikidata.org/entity/Q692816",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q612736",
+    "name": "Lumen Field",
+    "country": "美国",
+    "latitude": 47.595277777,
+    "longitude": -122.331666666,
+    "website": "https://www.lumenfield.com/",
+    "source": "http://www.wikidata.org/entity/Q612736",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q2095984",
+    "name": "Tampa Stadium",
+    "country": "美国",
+    "latitude": 27.978888888,
+    "longitude": -82.503611111,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q2095984",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q3495553",
+    "name": "Stade Charles-Mathon",
+    "country": "法国",
+    "latitude": 46.2536,
+    "longitude": 5.645,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q3495553",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q764550",
+    "name": "Dell Diamond",
+    "country": "美国",
+    "latitude": 30.5273,
+    "longitude": -97.6305,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q764550",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1052807",
+    "name": "Wrigley Field",
+    "country": "美国",
+    "latitude": 41.948055555,
+    "longitude": -87.655555555,
+    "website": "https://www.mlb.com/cubs/ballpark",
+    "source": "http://www.wikidata.org/entity/Q1052807",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q3157332",
+    "name": "Jack Trice Stadium",
+    "country": "美国",
+    "latitude": 42.014167,
+    "longitude": -93.635833,
+    "website": "https://cyclones.com/news/2022/7/11/football-jack-trice-stadium-home-grown-field.aspx",
+    "source": "http://www.wikidata.org/entity/Q3157332",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q3495497",
+    "name": "Stade d'Albert Domec",
+    "country": "法国",
+    "latitude": 43.2179,
+    "longitude": 2.36442,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q3495497",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q3003238",
+    "name": "Racing Club",
+    "country": "法国",
+    "latitude": 48.864221,
+    "longitude": 2.256666,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q3003238",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q2941022",
+    "name": "Cashman Field",
+    "country": "美国",
+    "latitude": 36.179666666,
+    "longitude": -115.129972222,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q2941022",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q3237803",
+    "name": "Simmons Bank Liberty Stadium",
+    "country": "美国",
+    "latitude": 35.121111111,
+    "longitude": -89.9775,
+    "website": "https://www.simmonsbankstadium.com/",
+    "source": "http://www.wikidata.org/entity/Q3237803",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q3367645",
+    "name": "Páirc Esler",
+    "country": "英国",
+    "latitude": 54.163056,
+    "longitude": -6.334722,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q3367645",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q2605341",
+    "name": "Sportpark De Westmaat",
+    "country": "荷兰",
+    "latitude": 52.256642,
+    "longitude": 5.378294,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q2605341",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1581647",
+    "name": "The Darlington Arena",
+    "country": "英国",
+    "latitude": 54.508425,
+    "longitude": -1.534394,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q1581647",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q3150014",
+    "name": "Independence Stadium",
+    "country": "美国",
+    "latitude": 32.475555555,
+    "longitude": -93.791944444,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q3150014",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q3495494",
+    "name": "Q3495494",
+    "country": "法国",
+    "latitude": 48.94443,
+    "longitude": 2.90552,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q3495494",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q3126269",
+    "name": "Halton Stadium",
+    "country": "英国",
+    "latitude": 53.365833,
+    "longitude": -2.738333,
+    "website": "https://haltonstadium.co.uk/",
+    "source": "http://www.wikidata.org/entity/Q3126269",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q812139",
+    "name": "Stadion am Löschenhofweg",
+    "country": "德国",
+    "latitude": 51.361244,
+    "longitude": 6.633591,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q812139",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1613767",
+    "name": "Kenilworth Road",
+    "country": "英国",
+    "latitude": 51.884166666,
+    "longitude": -0.431666666,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q1613767",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  },
+  {
+    "id": "Q1472896",
+    "name": "Sixways Stadium",
+    "country": "英国",
+    "latitude": 52.215556,
+    "longitude": -2.1625,
+    "website": "",
+    "source": "http://www.wikidata.org/entity/Q1472896",
+    "license": "CC0-1.0",
+    "candidate_only": true,
+    "types": [
+      "Q483110"
+    ]
+  }
+]

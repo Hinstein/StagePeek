@@ -1,0 +1,968 @@
+{
+  "id": "kyocera-dome",
+  "name": "大阪京瓷巨蛋",
+  "city": "日本 · 大阪",
+  "capacity": "原站目录未提供统一容量字段",
+  "source": "https://www.kyoceradome-osaka.jp/events/",
+  "sourceTitle": "REA 导出的公开场馆来源索引与参数化座位示意",
+  "sourceLinks": [
+    "https://www.kyoceradome-osaka.jp/events/",
+    "https://www.kyoceradome-osaka.jp/seat/",
+    "https://www.kyoceradome-osaka.jp/seat/pdf/kyoceradome_seat.pdf",
+    "https://www.kyoceradome-osaka.jp/download/img/guidemap2022.pdf"
+  ],
+  "accuracy": {
+    "sectionLabels": "source-layout-reference",
+    "completeSeatInventory": false,
+    "metricCalibrated": false,
+    "stage": "generic",
+    "position": "estimated",
+    "geometryBasis": "source-informed-parametric:dimension",
+    "catalogStatus": "source-geometry-and-sections",
+    "seatDataStatus": "section-only",
+    "sourceLayout": "center",
+    "coverage": "52 个来源分区；0 条座位采样。区号来自公开布局参考。",
+    "reuse": "来源页面可公开访问；未建立商业图形、模型或座位数据库再分发许可，发布前需逐源复核。",
+    "sourceDate": "REA capture 2026-10-24",
+    "sourceInventory": {
+      "venueReferenceUrl": "https://www.kyoceradome-osaka.jp/events/",
+      "mapReferenceUrl": "https://www.kyoceradome-osaka.jp/seat/",
+      "sectionSource": "https://www.kyoceradome-osaka.jp/seat/pdf/kyoceradome_seat.pdf",
+      "geometryEvidenceLabel": "dimension",
+      "note": "Missing asset URL does not establish absence of generated seat geometry."
+    },
+    "seatAsset": null
+  },
+  "tiers": [
+    [
+      84,
+      84,
+      1,
+      29,
+      12
+    ],
+    [
+      103,
+      103,
+      19,
+      21,
+      16
+    ]
+  ],
+  "geometry": {
+    "shape": "baseball",
+    "coordinateSystem": "profile-inner-radius",
+    "power": 1,
+    "oneSided": false,
+    "radial": [
+      53,
+      52,
+      75,
+      82,
+      84
+    ],
+    "floor": [
+      146,
+      154
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下段 通路",
+        "steps": 36
+      },
+      {
+        "id": "middle",
+        "name": "上段 通路",
+        "steps": 28
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "aisle-1",
+      "ticketLabels": [
+        "aisle-1"
+      ],
+      "sourceLabel": "1 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.9198621771937625,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kyoceradome-osaka.jp/seat/pdf/kyoceradome_seat.pdf"
+      }
+    },
+    {
+      "id": "aisle-2",
+      "ticketLabels": [
+        "aisle-2"
+      ],
+      "sourceLabel": "2 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.7453292519943295,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kyoceradome-osaka.jp/seat/pdf/kyoceradome_seat.pdf"
+      }
+    },
+    {
+      "id": "aisle-3",
+      "ticketLabels": [
+        "aisle-3"
+      ],
+      "sourceLabel": "3 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.5707963267948966,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kyoceradome-osaka.jp/seat/pdf/kyoceradome_seat.pdf"
+      }
+    },
+    {
+      "id": "aisle-4",
+      "ticketLabels": [
+        "aisle-4"
+      ],
+      "sourceLabel": "4 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.3962634015954636,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kyoceradome-osaka.jp/seat/pdf/kyoceradome_seat.pdf"
+      }
+    },
+    {
+      "id": "aisle-5",
+      "ticketLabels": [
+        "aisle-5"
+      ],
+      "sourceLabel": "5 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.2217304763960306,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kyoceradome-osaka.jp/seat/pdf/kyoceradome_seat.pdf"
+      }
+    },
+    {
+      "id": "aisle-6",
+      "ticketLabels": [
+        "aisle-6"
+      ],
+      "sourceLabel": "6 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.0471975511965976,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kyoceradome-osaka.jp/seat/pdf/kyoceradome_seat.pdf"
+      }
+    },
+    {
+      "id": "aisle-7",
+      "ticketLabels": [
+        "aisle-7"
+      ],
+      "sourceLabel": "7 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.8726646259971648,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kyoceradome-osaka.jp/seat/pdf/kyoceradome_seat.pdf"
+      }
+    },
+    {
+      "id": "aisle-8",
+      "ticketLabels": [
+        "aisle-8"
+      ],
+      "sourceLabel": "8 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.6981317007977318,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kyoceradome-osaka.jp/seat/pdf/kyoceradome_seat.pdf"
+      }
+    },
+    {
+      "id": "aisle-9",
+      "ticketLabels": [
+        "aisle-9"
+      ],
+      "sourceLabel": "9 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.5235987755982988,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kyoceradome-osaka.jp/seat/pdf/kyoceradome_seat.pdf"
+      }
+    },
+    {
+      "id": "aisle-10",
+      "ticketLabels": [
+        "aisle-10"
+      ],
+      "sourceLabel": "10 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.3490658503988659,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kyoceradome-osaka.jp/seat/pdf/kyoceradome_seat.pdf"
+      }
+    },
+    {
+      "id": "aisle-11",
+      "ticketLabels": [
+        "aisle-11"
+      ],
+      "sourceLabel": "11 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.17453292519943295,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kyoceradome-osaka.jp/seat/pdf/kyoceradome_seat.pdf"
+      }
+    },
+    {
+      "id": "aisle-12",
+      "ticketLabels": [
+        "aisle-12"
+      ],
+      "sourceLabel": "12 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kyoceradome-osaka.jp/seat/pdf/kyoceradome_seat.pdf"
+      }
+    },
+    {
+      "id": "aisle-13",
+      "ticketLabels": [
+        "aisle-13"
+      ],
+      "sourceLabel": "13 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.17453292519943295,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kyoceradome-osaka.jp/seat/pdf/kyoceradome_seat.pdf"
+      }
+    },
+    {
+      "id": "aisle-14",
+      "ticketLabels": [
+        "aisle-14"
+      ],
+      "sourceLabel": "14 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.3490658503988659,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kyoceradome-osaka.jp/seat/pdf/kyoceradome_seat.pdf"
+      }
+    },
+    {
+      "id": "aisle-15",
+      "ticketLabels": [
+        "aisle-15"
+      ],
+      "sourceLabel": "15 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.5235987755982988,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kyoceradome-osaka.jp/seat/pdf/kyoceradome_seat.pdf"
+      }
+    },
+    {
+      "id": "aisle-16",
+      "ticketLabels": [
+        "aisle-16"
+      ],
+      "sourceLabel": "16 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.6981317007977318,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kyoceradome-osaka.jp/seat/pdf/kyoceradome_seat.pdf"
+      }
+    },
+    {
+      "id": "aisle-17",
+      "ticketLabels": [
+        "aisle-17"
+      ],
+      "sourceLabel": "17 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.8726646259971648,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kyoceradome-osaka.jp/seat/pdf/kyoceradome_seat.pdf"
+      }
+    },
+    {
+      "id": "aisle-18",
+      "ticketLabels": [
+        "aisle-18"
+      ],
+      "sourceLabel": "18 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.0471975511965976,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kyoceradome-osaka.jp/seat/pdf/kyoceradome_seat.pdf"
+      }
+    },
+    {
+      "id": "aisle-19",
+      "ticketLabels": [
+        "aisle-19"
+      ],
+      "sourceLabel": "19 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.2217304763960306,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kyoceradome-osaka.jp/seat/pdf/kyoceradome_seat.pdf"
+      }
+    },
+    {
+      "id": "aisle-20",
+      "ticketLabels": [
+        "aisle-20"
+      ],
+      "sourceLabel": "20 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.3962634015954636,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kyoceradome-osaka.jp/seat/pdf/kyoceradome_seat.pdf"
+      }
+    },
+    {
+      "id": "aisle-21",
+      "ticketLabels": [
+        "aisle-21"
+      ],
+      "sourceLabel": "21 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.5707963267948966,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kyoceradome-osaka.jp/seat/pdf/kyoceradome_seat.pdf"
+      }
+    },
+    {
+      "id": "aisle-22",
+      "ticketLabels": [
+        "aisle-22"
+      ],
+      "sourceLabel": "22 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.7453292519943295,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kyoceradome-osaka.jp/seat/pdf/kyoceradome_seat.pdf"
+      }
+    },
+    {
+      "id": "aisle-23",
+      "ticketLabels": [
+        "aisle-23"
+      ],
+      "sourceLabel": "23 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.9198621771937625,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kyoceradome-osaka.jp/seat/pdf/kyoceradome_seat.pdf"
+      }
+    },
+    {
+      "id": "aisle-24",
+      "ticketLabels": [
+        "aisle-24"
+      ],
+      "sourceLabel": "24 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.0943951023931953,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kyoceradome-osaka.jp/seat/pdf/kyoceradome_seat.pdf"
+      }
+    },
+    {
+      "id": "aisle-25",
+      "ticketLabels": [
+        "aisle-25"
+      ],
+      "sourceLabel": "25 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.2689280275926285,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kyoceradome-osaka.jp/seat/pdf/kyoceradome_seat.pdf"
+      }
+    },
+    {
+      "id": "aisle-26",
+      "ticketLabels": [
+        "aisle-26"
+      ],
+      "sourceLabel": "26 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.443460952792061,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kyoceradome-osaka.jp/seat/pdf/kyoceradome_seat.pdf"
+      }
+    },
+    {
+      "id": "aisle-27",
+      "ticketLabels": [
+        "aisle-27"
+      ],
+      "sourceLabel": "27 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.6179938779914944,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kyoceradome-osaka.jp/seat/pdf/kyoceradome_seat.pdf"
+      }
+    },
+    {
+      "id": "aisle-28",
+      "ticketLabels": [
+        "aisle-28"
+      ],
+      "sourceLabel": "28 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.792526803190927,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kyoceradome-osaka.jp/seat/pdf/kyoceradome_seat.pdf"
+      }
+    },
+    {
+      "id": "aisle-29",
+      "ticketLabels": [
+        "aisle-29"
+      ],
+      "sourceLabel": "29 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.9670597283903604,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kyoceradome-osaka.jp/seat/pdf/kyoceradome_seat.pdf"
+      }
+    },
+    {
+      "id": "aisle-30",
+      "ticketLabels": [
+        "aisle-30"
+      ],
+      "sourceLabel": "30 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -3.141592653589793,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kyoceradome-osaka.jp/seat/pdf/kyoceradome_seat.pdf"
+      }
+    },
+    {
+      "id": "aisle-31",
+      "ticketLabels": [
+        "aisle-31"
+      ],
+      "sourceLabel": "31 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -3.3161255787892263,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kyoceradome-osaka.jp/seat/pdf/kyoceradome_seat.pdf"
+      }
+    },
+    {
+      "id": "aisle-32",
+      "ticketLabels": [
+        "aisle-32"
+      ],
+      "sourceLabel": "32 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -3.490658503988659,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kyoceradome-osaka.jp/seat/pdf/kyoceradome_seat.pdf"
+      }
+    },
+    {
+      "id": "aisle-33",
+      "ticketLabels": [
+        "aisle-33"
+      ],
+      "sourceLabel": "33 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -3.6651914291880923,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kyoceradome-osaka.jp/seat/pdf/kyoceradome_seat.pdf"
+      }
+    },
+    {
+      "id": "aisle-34",
+      "ticketLabels": [
+        "aisle-34"
+      ],
+      "sourceLabel": "34 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -3.839724354387525,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kyoceradome-osaka.jp/seat/pdf/kyoceradome_seat.pdf"
+      }
+    },
+    {
+      "id": "aisle-35",
+      "ticketLabels": [
+        "aisle-35"
+      ],
+      "sourceLabel": "35 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -4.014257279586958,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kyoceradome-osaka.jp/seat/pdf/kyoceradome_seat.pdf"
+      }
+    },
+    {
+      "id": "aisle-36",
+      "ticketLabels": [
+        "aisle-36"
+      ],
+      "sourceLabel": "36 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -4.1887902047863905,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kyoceradome-osaka.jp/seat/pdf/kyoceradome_seat.pdf"
+      }
+    },
+    {
+      "id": "aisle-51",
+      "ticketLabels": [
+        "aisle-51"
+      ],
+      "sourceLabel": "51 通路附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.8325957145940461,
+      "halfAngle": 0.1658062789394613,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kyoceradome-osaka.jp/seat/pdf/kyoceradome_seat.pdf"
+      }
+    },
+    {
+      "id": "aisle-52",
+      "ticketLabels": [
+        "aisle-52"
+      ],
+      "sourceLabel": "52 通路附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.4398966328953218,
+      "halfAngle": 0.1658062789394613,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kyoceradome-osaka.jp/seat/pdf/kyoceradome_seat.pdf"
+      }
+    },
+    {
+      "id": "aisle-53",
+      "ticketLabels": [
+        "aisle-53"
+      ],
+      "sourceLabel": "53 通路附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.0471975511965976,
+      "halfAngle": 0.1658062789394613,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kyoceradome-osaka.jp/seat/pdf/kyoceradome_seat.pdf"
+      }
+    },
+    {
+      "id": "aisle-54",
+      "ticketLabels": [
+        "aisle-54"
+      ],
+      "sourceLabel": "54 通路附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.6544984694978736,
+      "halfAngle": 0.1658062789394613,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kyoceradome-osaka.jp/seat/pdf/kyoceradome_seat.pdf"
+      }
+    },
+    {
+      "id": "aisle-55",
+      "ticketLabels": [
+        "aisle-55"
+      ],
+      "sourceLabel": "55 通路附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.2617993877991494,
+      "halfAngle": 0.1658062789394613,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kyoceradome-osaka.jp/seat/pdf/kyoceradome_seat.pdf"
+      }
+    },
+    {
+      "id": "aisle-56",
+      "ticketLabels": [
+        "aisle-56"
+      ],
+      "sourceLabel": "56 通路附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.1308996938995747,
+      "halfAngle": 0.1658062789394613,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kyoceradome-osaka.jp/seat/pdf/kyoceradome_seat.pdf"
+      }
+    },
+    {
+      "id": "aisle-57",
+      "ticketLabels": [
+        "aisle-57"
+      ],
+      "sourceLabel": "57 通路附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.5235987755982988,
+      "halfAngle": 0.1658062789394613,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kyoceradome-osaka.jp/seat/pdf/kyoceradome_seat.pdf"
+      }
+    },
+    {
+      "id": "aisle-58",
+      "ticketLabels": [
+        "aisle-58"
+      ],
+      "sourceLabel": "58 通路附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.9162978572970231,
+      "halfAngle": 0.1658062789394613,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kyoceradome-osaka.jp/seat/pdf/kyoceradome_seat.pdf"
+      }
+    },
+    {
+      "id": "aisle-59",
+      "ticketLabels": [
+        "aisle-59"
+      ],
+      "sourceLabel": "59 通路附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.3089969389957472,
+      "halfAngle": 0.1658062789394613,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kyoceradome-osaka.jp/seat/pdf/kyoceradome_seat.pdf"
+      }
+    },
+    {
+      "id": "aisle-60",
+      "ticketLabels": [
+        "aisle-60"
+      ],
+      "sourceLabel": "60 通路附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.7016960206944711,
+      "halfAngle": 0.1658062789394613,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kyoceradome-osaka.jp/seat/pdf/kyoceradome_seat.pdf"
+      }
+    },
+    {
+      "id": "aisle-61",
+      "ticketLabels": [
+        "aisle-61"
+      ],
+      "sourceLabel": "61 通路附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.0943951023931953,
+      "halfAngle": 0.1658062789394613,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kyoceradome-osaka.jp/seat/pdf/kyoceradome_seat.pdf"
+      }
+    },
+    {
+      "id": "aisle-62",
+      "ticketLabels": [
+        "aisle-62"
+      ],
+      "sourceLabel": "62 通路附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.48709418409192,
+      "halfAngle": 0.1658062789394613,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kyoceradome-osaka.jp/seat/pdf/kyoceradome_seat.pdf"
+      }
+    },
+    {
+      "id": "aisle-63",
+      "ticketLabels": [
+        "aisle-63"
+      ],
+      "sourceLabel": "63 通路附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.8797932657906435,
+      "halfAngle": 0.1658062789394613,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kyoceradome-osaka.jp/seat/pdf/kyoceradome_seat.pdf"
+      }
+    },
+    {
+      "id": "aisle-64",
+      "ticketLabels": [
+        "aisle-64"
+      ],
+      "sourceLabel": "64 通路附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -3.2724923474893677,
+      "halfAngle": 0.1658062789394613,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kyoceradome-osaka.jp/seat/pdf/kyoceradome_seat.pdf"
+      }
+    },
+    {
+      "id": "aisle-65",
+      "ticketLabels": [
+        "aisle-65"
+      ],
+      "sourceLabel": "65 通路附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -3.6651914291880923,
+      "halfAngle": 0.1658062789394613,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kyoceradome-osaka.jp/seat/pdf/kyoceradome_seat.pdf"
+      }
+    },
+    {
+      "id": "aisle-66",
+      "ticketLabels": [
+        "aisle-66"
+      ],
+      "sourceLabel": "66 通路附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -4.057890510886816,
+      "halfAngle": 0.1658062789394613,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kyoceradome-osaka.jp/seat/pdf/kyoceradome_seat.pdf"
+      }
+    }
+  ],
+  "importedAt": "2026-10-24T00:00:00.000Z"
+}

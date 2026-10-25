@@ -1,0 +1,177 @@
+{
+  "id": "singapore-capitol-theatre",
+  "name": "新加坡首都剧院 Capitol Theatre",
+  "city": "新加坡 · 新加坡",
+  "capacity": "原站目录未提供统一容量字段",
+  "source": "https://www.instagram.com/p/DOhv_uOCa3T/",
+  "sourceTitle": "REA 导出的公开场馆来源索引与参数化座位示意",
+  "sourceLinks": [
+    "https://www.instagram.com/p/DOhv_uOCa3T/",
+    "https://www.xiaohongshu.com/explore/69ada6f8000000001b017687"
+  ],
+  "accuracy": {
+    "sectionLabels": "source-layout-reference",
+    "completeSeatInventory": false,
+    "metricCalibrated": false,
+    "stage": "generic",
+    "position": "estimated",
+    "geometryBasis": "source-informed-parametric:reference",
+    "catalogStatus": "source-geometry-and-sections",
+    "seatDataStatus": "section-only",
+    "sourceLayout": "end",
+    "coverage": "6 个来源分区；0 条座位采样。区号来自公开布局参考。",
+    "reuse": "来源页面可公开访问；未建立商业图形、模型或座位数据库再分发许可，发布前需逐源复核。",
+    "sourceDate": "REA capture 2026-10-24",
+    "sourceInventory": {
+      "venueReferenceUrl": "https://www.instagram.com/p/DOhv_uOCa3T/",
+      "mapReferenceUrl": "https://www.xiaohongshu.com/explore/69ada6f8000000001b017687",
+      "sectionSource": "https://www.xiaohongshu.com/explore/69ada6f8000000001b017687",
+      "geometryEvidenceLabel": "reference",
+      "note": "Missing asset URL does not establish absence of generated seat geometry."
+    },
+    "seatAsset": null
+  },
+  "tiers": [
+    [
+      15,
+      14,
+      0.3,
+      18,
+      1.5
+    ],
+    [
+      16,
+      17,
+      5.5,
+      10,
+      4
+    ]
+  ],
+  "geometry": {
+    "shape": "rectangle",
+    "coordinateSystem": "profile-inner-radius",
+    "power": 0.2,
+    "oneSided": true,
+    "floor": [
+      32,
+      44
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "池座",
+        "steps": 15
+      },
+      {
+        "id": "upper",
+        "name": "楼座",
+        "steps": 12
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "base-lower-0",
+      "ticketLabels": [
+        "base-lower-0"
+      ],
+      "sourceLabel": "池座左（示意）",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.17453292519943295,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.xiaohongshu.com/explore/69ada6f8000000001b017687"
+      }
+    },
+    {
+      "id": "base-upper-0",
+      "ticketLabels": [
+        "base-upper-0"
+      ],
+      "sourceLabel": "楼座左（示意）",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.17453292519943295,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.xiaohongshu.com/explore/69ada6f8000000001b017687"
+      }
+    },
+    {
+      "id": "base-lower-1",
+      "ticketLabels": [
+        "base-lower-1"
+      ],
+      "sourceLabel": "池座中（示意）",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.17453292519943295,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.xiaohongshu.com/explore/69ada6f8000000001b017687"
+      }
+    },
+    {
+      "id": "base-upper-1",
+      "ticketLabels": [
+        "base-upper-1"
+      ],
+      "sourceLabel": "楼座中（示意）",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.17453292519943295,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.xiaohongshu.com/explore/69ada6f8000000001b017687"
+      }
+    },
+    {
+      "id": "base-lower-2",
+      "ticketLabels": [
+        "base-lower-2"
+      ],
+      "sourceLabel": "池座右（示意）",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.17453292519943295,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.xiaohongshu.com/explore/69ada6f8000000001b017687"
+      }
+    },
+    {
+      "id": "base-upper-2",
+      "ticketLabels": [
+        "base-upper-2"
+      ],
+      "sourceLabel": "楼座右（示意）",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.17453292519943295,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.xiaohongshu.com/explore/69ada6f8000000001b017687"
+      }
+    }
+  ],
+  "importedAt": "2026-10-24T00:00:00.000Z"
+}

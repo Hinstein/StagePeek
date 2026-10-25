@@ -1,0 +1,5094 @@
+{
+  "schemaVersion": 1,
+  "provider": "ticketmaster",
+  "generatedAt": "2026-10-24T16:45:26.856Z",
+  "venues": {
+    "tottenham": {
+      "venueId": "tottenham",
+      "venueName": "Tottenham Hotspur Stadium",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:27.732Z",
+      "status": "candidate"
+    },
+    "sofi": {
+      "venueId": "sofi",
+      "venueName": "SoFi Stadium",
+      "events": [
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "vvG1IZ_GNtjqqM",
+          "name": "JAY-Z30",
+          "url": "https://www.ticketmaster.com/jayz30-inglewood-california-10-24-2026/event/0A0064C8E971D777",
+          "date": "2026-10-24",
+          "time": "20:00:00",
+          "timezone": "America/Los_Angeles",
+          "status": "onsale",
+          "venue": {
+            "providerId": "KovZ917ACh0",
+            "name": "SoFi Stadium",
+            "city": "Inglewood",
+            "countryCode": "US"
+          },
+          "seatmap": {
+            "staticUrl": "https://mapsapi.tmol.io/maps/geometry/3/event/0A0064C8E971D777/staticImage?type=png&systemId=HOST",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "sofi",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.com/jayz30-inglewood-california-10-24-2026/event/0A0064C8E971D777",
+            "image": "https://mapsapi.tmol.io/maps/geometry/3/event/0A0064C8E971D777/staticImage?type=png&systemId=HOST",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "vvG1IZ_aKASIru",
+          "name": "The R&B Tour - Starring Usher Raymond & Chris Brown",
+          "url": "https://www.ticketmaster.com/the-rb-tour-starring-usher-raymond-inglewood-california-11-15-2026/event/0A006494C5CE878D",
+          "date": "2026-11-15",
+          "time": "19:30:00",
+          "timezone": "America/Los_Angeles",
+          "status": "onsale",
+          "venue": {
+            "providerId": "KovZ917ACh0",
+            "name": "SoFi Stadium",
+            "city": "Inglewood",
+            "countryCode": "US"
+          },
+          "seatmap": {
+            "staticUrl": "https://mapsapi.tmol.io/maps/geometry/3/event/0A006494C5CE878D/staticImage?type=png&systemId=HOST",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "sofi",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.com/the-rb-tour-starring-usher-raymond-inglewood-california-11-15-2026/event/0A006494C5CE878D",
+            "image": "https://mapsapi.tmol.io/maps/geometry/3/event/0A006494C5CE878D/staticImage?type=png&systemId=HOST",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "vvG1IZ_aKFFbJX",
+          "name": "The R&B Tour - Starring Usher Raymond & Chris Brown",
+          "url": "https://www.ticketmaster.com/the-rb-tour-starring-usher-raymond-inglewood-california-11-16-2026/event/0A006494C82189BE",
+          "date": "2026-11-16",
+          "time": "19:30:00",
+          "timezone": "America/Los_Angeles",
+          "status": "onsale",
+          "venue": {
+            "providerId": "KovZ917ACh0",
+            "name": "SoFi Stadium",
+            "city": "Inglewood",
+            "countryCode": "US"
+          },
+          "seatmap": {
+            "staticUrl": "https://mapsapi.tmol.io/maps/geometry/3/event/0A006494C82189BE/staticImage?type=png&systemId=HOST",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "sofi",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.com/the-rb-tour-starring-usher-raymond-inglewood-california-11-16-2026/event/0A006494C82189BE",
+            "image": "https://mapsapi.tmol.io/maps/geometry/3/event/0A006494C82189BE/staticImage?type=png&systemId=HOST",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "vvG1IZ_frht9V6",
+          "name": "Zach Bryan",
+          "url": "https://www.ticketmaster.com/zach-bryan-inglewood-california-07-20-2027/event/0A0065479BA57D07",
+          "date": "2027-07-20",
+          "time": "19:00:00",
+          "timezone": "America/Los_Angeles",
+          "status": "onsale",
+          "venue": {
+            "providerId": "KovZ917ACh0",
+            "name": "SoFi Stadium",
+            "city": "Inglewood",
+            "countryCode": "US"
+          },
+          "seatmap": {
+            "staticUrl": "https://mapsapi.tmol.io/maps/geometry/3/event/0A0065479BA57D07/staticImage?type=png&systemId=HOST",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "sofi",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.com/zach-bryan-inglewood-california-07-20-2027/event/0A0065479BA57D07",
+            "image": "https://mapsapi.tmol.io/maps/geometry/3/event/0A0065479BA57D07/staticImage?type=png&systemId=HOST",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "vvG1IZ_K9by2hW",
+          "name": "Slipknot: (sic)est Stadium Tour",
+          "url": "https://www.ticketmaster.com/slipknot-sicest-stadium-tour-inglewood-california-08-13-2027/event/0A006535D8E4F6FD",
+          "date": "2027-08-13",
+          "time": "18:00:00",
+          "timezone": "America/Los_Angeles",
+          "status": "onsale",
+          "venue": {
+            "providerId": "KovZ917ACh0",
+            "name": "SoFi Stadium",
+            "city": "Inglewood",
+            "countryCode": "US"
+          },
+          "seatmap": {
+            "staticUrl": "https://mapsapi.tmol.io/maps/geometry/3/event/0A006535D8E4F6FD/staticImage?type=png&systemId=HOST",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "sofi",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.com/slipknot-sicest-stadium-tour-inglewood-california-08-13-2027/event/0A006535D8E4F6FD",
+            "image": "https://mapsapi.tmol.io/maps/geometry/3/event/0A006535D8E4F6FD/staticImage?type=png&systemId=HOST",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        }
+      ],
+      "refreshedAt": "2026-10-24T16:45:27.771Z",
+      "status": "candidate"
+    },
+    "metlife": {
+      "venueId": "metlife",
+      "venueName": "MetLife Stadium",
+      "events": [
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "k7vGF_fSxRnwp",
+          "name": "Zach Bryan",
+          "url": "https://www.ticketmaster.com/zach-bryan-east-rutherford-new-jersey-05-14-2027/event/0000654CE2BEAC96",
+          "date": "2027-05-14",
+          "time": "19:00:00",
+          "timezone": "America/New_York",
+          "status": "onsale",
+          "venue": {
+            "providerId": "KovZpakS7e",
+            "name": "MetLife Stadium",
+            "city": "East Rutherford",
+            "countryCode": "US"
+          },
+          "seatmap": {
+            "staticUrl": "https://mapsapi.tmol.io/maps/geometry/3/event/0000654CE2BEAC96/staticImage?type=png&systemId=HOST",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "metlife",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.com/zach-bryan-east-rutherford-new-jersey-05-14-2027/event/0000654CE2BEAC96",
+            "image": "https://mapsapi.tmol.io/maps/geometry/3/event/0000654CE2BEAC96/staticImage?type=png&systemId=HOST",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "k7vGF_fS0cBHD",
+          "name": "Zach Bryan",
+          "url": "https://www.ticketmaster.com/zach-bryan-east-rutherford-new-jersey-05-15-2027/event/0000654CE4B7AF3B",
+          "date": "2027-05-15",
+          "time": "19:00:00",
+          "timezone": "America/New_York",
+          "status": "onsale",
+          "venue": {
+            "providerId": "KovZpakS7e",
+            "name": "MetLife Stadium",
+            "city": "East Rutherford",
+            "countryCode": "US"
+          },
+          "seatmap": {
+            "staticUrl": "https://mapsapi.tmol.io/maps/geometry/3/event/0000654CE4B7AF3B/staticImage?type=png&systemId=HOST",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "metlife",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.com/zach-bryan-east-rutherford-new-jersey-05-15-2027/event/0000654CE4B7AF3B",
+            "image": "https://mapsapi.tmol.io/maps/geometry/3/event/0000654CE4B7AF3B/staticImage?type=png&systemId=HOST",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "k7vGF_4eVgQWY",
+          "name": "Bon Jovi: Forever Tour",
+          "url": "https://www.ticketmaster.com/bon-jovi-forever-tour-east-rutherford-new-jersey-07-15-2027/event/00006550B4D5AF70",
+          "date": "2027-07-15",
+          "time": "18:30:00",
+          "timezone": "America/New_York",
+          "status": "offsale",
+          "venue": {
+            "providerId": "KovZpakS7e",
+            "name": "MetLife Stadium",
+            "city": "East Rutherford",
+            "countryCode": "US"
+          },
+          "seatmap": {
+            "staticUrl": "https://mapsapi.tmol.io/maps/geometry/3/event/00006550B4D5AF70/staticImage?type=png&systemId=HOST",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "metlife",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.com/bon-jovi-forever-tour-east-rutherford-new-jersey-07-15-2027/event/00006550B4D5AF70",
+            "image": "https://mapsapi.tmol.io/maps/geometry/3/event/00006550B4D5AF70/staticImage?type=png&systemId=HOST",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "k7vGF_3Cwtd0z",
+          "name": "Kenny Chesney: The Original Vibe Room Tour with Eric Church",
+          "url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-east-rutherford-new-jersey-08-07-2027/event/00006523B2A43938",
+          "date": "2027-08-07",
+          "time": "16:30:00",
+          "timezone": "America/New_York",
+          "status": "onsale",
+          "venue": {
+            "providerId": "KovZpakS7e",
+            "name": "MetLife Stadium",
+            "city": "East Rutherford",
+            "countryCode": "US"
+          },
+          "seatmap": {
+            "staticUrl": "https://mapsapi.tmol.io/maps/geometry/3/event/00006523B2A43938/staticImage?type=png&systemId=HOST",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "metlife",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-east-rutherford-new-jersey-08-07-2027/event/00006523B2A43938",
+            "image": "https://mapsapi.tmol.io/maps/geometry/3/event/00006523B2A43938/staticImage?type=png&systemId=HOST",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        }
+      ],
+      "refreshedAt": "2026-10-24T16:45:27.772Z",
+      "status": "candidate"
+    },
+    "ajinomoto-stadium": {
+      "venueId": "ajinomoto-stadium",
+      "venueName": "日本味之素体育场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:28.061Z",
+      "status": "candidate"
+    },
+    "asiaworld-arena": {
+      "venueId": "asiaworld-arena",
+      "venueName": "亚洲国际博览馆 Arena",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:28.311Z",
+      "status": "candidate"
+    },
+    "afas-live": {
+      "venueId": "afas-live",
+      "venueName": "AFAS Live",
+      "events": [
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "Z698xZbpZ1keFqKog",
+          "name": "D-Block Europe x French Montana | Premium Seats",
+          "url": "https://www.ticketmaster.nl/event/d-block-europe-x-french-montana-%7C-premium-seats-tickets/88753475?language=en-us",
+          "date": "2026-10-30",
+          "time": "20:00:00",
+          "timezone": "Europe/Amsterdam",
+          "status": "cancelled",
+          "venue": {
+            "providerId": "Z598xZbpZk661",
+            "name": "AFAS Live Loge",
+            "city": "Amsterdam",
+            "countryCode": "NL"
+          },
+          "seatmap": null,
+          "classification": [
+            "Music",
+            "Music"
+          ],
+          "seatScopeVenueId": "afas-live",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.nl/event/d-block-europe-x-french-montana-%7C-premium-seats-tickets/88753475?language=en-us",
+            "image": null,
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "Z698xZbpZ16vaUj6ax",
+          "name": "Treasure | Premium Seats",
+          "url": "https://www.ticketmaster.nl/event/treasure-%7C-premium-seats-tickets/1276707262?language=en-us",
+          "date": "2026-10-31",
+          "time": "20:00:00",
+          "timezone": "Europe/Amsterdam",
+          "status": "onsale",
+          "venue": {
+            "providerId": "Z598xZbpZk661",
+            "name": "AFAS Live Loge",
+            "city": "Amsterdam",
+            "countryCode": "NL"
+          },
+          "seatmap": {
+            "staticUrl": "https://media.ticketmaster.eu/netherlands/32bdaca1ffacb6eabd654ff8b063bd30.jpg",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "afas-live",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.nl/event/treasure-%7C-premium-seats-tickets/1276707262?language=en-us",
+            "image": "https://media.ticketmaster.eu/netherlands/32bdaca1ffacb6eabd654ff8b063bd30.jpg",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "Z698xZbpZ16voxvOua",
+          "name": "Treasure in AFAS LIVE",
+          "url": "https://www.ticketmaster.nl/event/treasure-in-afas-live-tickets/1462060349?language=en-us",
+          "date": "2026-10-31",
+          "time": "20:00:00",
+          "timezone": "Europe/Amsterdam",
+          "status": "onsale",
+          "venue": {
+            "providerId": "Z598xZbpZAdAF",
+            "name": "",
+            "city": "Amsterdam",
+            "countryCode": "NL"
+          },
+          "seatmap": null,
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "afas-live",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.nl/event/treasure-in-afas-live-tickets/1462060349?language=en-us",
+            "image": null,
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "Z698xZbpZ1kFPfeFd",
+          "name": "Tokio Hotel | Premium Seats",
+          "url": "https://www.ticketmaster.nl/event/tokio-hotel-%7C-premium-seats-tickets/225502203?language=en-us",
+          "date": "2026-11-04",
+          "time": "20:00:00",
+          "timezone": "Europe/Amsterdam",
+          "status": "onsale",
+          "venue": {
+            "providerId": "Z598xZbpZk661",
+            "name": "AFAS Live Loge",
+            "city": "Amsterdam",
+            "countryCode": "NL"
+          },
+          "seatmap": {
+            "staticUrl": "https://media.ticketmaster.eu/netherlands/32bdaca1ffacb6eabd654ff8b063bd30.jpg",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music",
+            "Music"
+          ],
+          "seatScopeVenueId": "afas-live",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.nl/event/tokio-hotel-%7C-premium-seats-tickets/225502203?language=en-us",
+            "image": "https://media.ticketmaster.eu/netherlands/32bdaca1ffacb6eabd654ff8b063bd30.jpg",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "Z698xZbpZ1kvZ0FF8",
+          "name": "Tokio Hotel | Sky Lounge",
+          "url": "https://www.ticketmaster.nl/event/tokio-hotel-%7C-sky-lounge-tickets/40908210?language=en-us",
+          "date": "2026-11-04",
+          "time": "20:00:00",
+          "timezone": "Europe/Amsterdam",
+          "status": "onsale",
+          "venue": {
+            "providerId": "Z598xZbpZkFdk",
+            "name": "AFAS Live Sky Lounge",
+            "city": "Amsterdam",
+            "countryCode": "NL"
+          },
+          "seatmap": null,
+          "classification": [
+            "Music",
+            "Music"
+          ],
+          "seatScopeVenueId": "afas-live",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.nl/event/tokio-hotel-%7C-sky-lounge-tickets/40908210?language=en-us",
+            "image": null,
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "Z698xZbpZ1AUjOo6",
+          "name": "The Kid LAROI | Premium Seats",
+          "url": "https://www.ticketmaster.nl/event/the-kid-laroi-%7C-premium-seats-tickets/36720447?language=en-us",
+          "date": "2026-11-05",
+          "time": "20:00:00",
+          "timezone": "Europe/Amsterdam",
+          "status": "onsale",
+          "venue": {
+            "providerId": "Z598xZbpZk661",
+            "name": "AFAS Live Loge",
+            "city": "Amsterdam",
+            "countryCode": "NL"
+          },
+          "seatmap": {
+            "staticUrl": "https://media.ticketmaster.eu/netherlands/32bdaca1ffacb6eabd654ff8b063bd30.jpg",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music",
+            "Music"
+          ],
+          "seatScopeVenueId": "afas-live",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.nl/event/the-kid-laroi-%7C-premium-seats-tickets/36720447?language=en-us",
+            "image": "https://media.ticketmaster.eu/netherlands/32bdaca1ffacb6eabd654ff8b063bd30.jpg",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "Z698xZbpZ1k7-AUb7",
+          "name": "Guus Meeuwis | Premium Seats",
+          "url": "https://www.ticketmaster.nl/event/guus-meeuwis-%7C-premium-seats-tickets/121176604?language=en-us",
+          "date": "2026-11-06",
+          "time": "20:00:00",
+          "timezone": "Europe/Amsterdam",
+          "status": "onsale",
+          "venue": {
+            "providerId": "Z598xZbpZk661",
+            "name": "AFAS Live Loge",
+            "city": "Amsterdam",
+            "countryCode": "NL"
+          },
+          "seatmap": null,
+          "classification": [
+            "Music",
+            "Music"
+          ],
+          "seatScopeVenueId": "afas-live",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.nl/event/guus-meeuwis-%7C-premium-seats-tickets/121176604?language=en-us",
+            "image": null,
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "Z698xZbpZ1k04bZxb",
+          "name": "Guus Meeuwis",
+          "url": "https://www.ticketmaster.nl/event/guus-meeuwis-tickets/915600898?language=en-us",
+          "date": "2026-11-06",
+          "time": "20:30:00",
+          "timezone": "Europe/Amsterdam",
+          "status": "onsale",
+          "venue": {
+            "providerId": "Z598xZbpZAdAF",
+            "name": "",
+            "city": "Amsterdam",
+            "countryCode": "NL"
+          },
+          "seatmap": {
+            "staticUrl": "https://media.ticketmaster.eu/netherlands/61d30812cad944fcff6d6443a191e252.png",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "afas-live",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.nl/event/guus-meeuwis-tickets/915600898?language=en-us",
+            "image": "https://media.ticketmaster.eu/netherlands/61d30812cad944fcff6d6443a191e252.png",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "Z698xZbpZ1kFKPkqe",
+          "name": "Tove Lo | Premium Seats",
+          "url": "https://www.ticketmaster.nl/event/tove-lo-%7C-premium-seats-tickets/213946742?language=en-us",
+          "date": "2026-11-12",
+          "time": "20:00:00",
+          "timezone": "Europe/Amsterdam",
+          "status": "onsale",
+          "venue": {
+            "providerId": "Z598xZbpZk661",
+            "name": "AFAS Live Loge",
+            "city": "Amsterdam",
+            "countryCode": "NL"
+          },
+          "seatmap": null,
+          "classification": [
+            "Music",
+            "Music"
+          ],
+          "seatScopeVenueId": "afas-live",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.nl/event/tove-lo-%7C-premium-seats-tickets/213946742?language=en-us",
+            "image": null,
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "Z698xZbpZ16vbafPPp",
+          "name": "Edsilia Rombley | Premium Seats",
+          "url": "https://www.ticketmaster.nl/event/edsilia-rombley-%7C-premium-seats-tickets/1609525956?language=en-us",
+          "date": "2026-11-14",
+          "time": "20:00:00",
+          "timezone": "Europe/Amsterdam",
+          "status": "onsale",
+          "venue": {
+            "providerId": "Z598xZbpZk661",
+            "name": "AFAS Live Loge",
+            "city": "Amsterdam",
+            "countryCode": "NL"
+          },
+          "seatmap": {
+            "staticUrl": "https://media.ticketmaster.eu/netherlands/32bdaca1ffacb6eabd654ff8b063bd30.jpg",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music",
+            "Music"
+          ],
+          "seatScopeVenueId": "afas-live",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.nl/event/edsilia-rombley-%7C-premium-seats-tickets/1609525956?language=en-us",
+            "image": "https://media.ticketmaster.eu/netherlands/32bdaca1ffacb6eabd654ff8b063bd30.jpg",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "Z698xZbpZ16v00-sj6",
+          "name": "Hatsune Miku | Premium Seats",
+          "url": "https://www.ticketmaster.nl/event/hatsune-miku-%7C-premium-seats-tickets/1924871707?language=en-us",
+          "date": "2026-11-15",
+          "time": "20:00:00",
+          "timezone": "Europe/Amsterdam",
+          "status": "onsale",
+          "venue": {
+            "providerId": "Z598xZbpZk661",
+            "name": "AFAS Live Loge",
+            "city": "Amsterdam",
+            "countryCode": "NL"
+          },
+          "seatmap": {
+            "staticUrl": "https://media.ticketmaster.eu/netherlands/32bdaca1ffacb6eabd654ff8b063bd30.jpg",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music",
+            "Music"
+          ],
+          "seatScopeVenueId": "afas-live",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.nl/event/hatsune-miku-%7C-premium-seats-tickets/1924871707?language=en-us",
+            "image": "https://media.ticketmaster.eu/netherlands/32bdaca1ffacb6eabd654ff8b063bd30.jpg",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "Z698xZbpZ16vA9u_oY",
+          "name": "Hatsune Miku | Sky Lounge",
+          "url": "https://www.ticketmaster.nl/event/hatsune-miku-%7C-sky-lounge-tickets/1157359470?language=en-us",
+          "date": "2026-11-15",
+          "time": "20:00:00",
+          "timezone": "Europe/Amsterdam",
+          "status": "onsale",
+          "venue": {
+            "providerId": "Z598xZbpZkFdk",
+            "name": "AFAS Live Sky Lounge",
+            "city": "Amsterdam",
+            "countryCode": "NL"
+          },
+          "seatmap": null,
+          "classification": [
+            "Music",
+            "Music"
+          ],
+          "seatScopeVenueId": "afas-live",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.nl/event/hatsune-miku-%7C-sky-lounge-tickets/1157359470?language=en-us",
+            "image": null,
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "Z698xZbpZ16vq9Oa36",
+          "name": "Good Charlotte | Premium Seats",
+          "url": "https://www.ticketmaster.nl/event/good-charlotte-%7C-premium-seats-tickets/1757809487?language=en-us",
+          "date": "2026-11-16",
+          "time": "19:00:00",
+          "timezone": "Europe/Amsterdam",
+          "status": "onsale",
+          "venue": {
+            "providerId": "Z598xZbpZk661",
+            "name": "AFAS Live Loge",
+            "city": "Amsterdam",
+            "countryCode": "NL"
+          },
+          "seatmap": null,
+          "classification": [
+            "Music",
+            "Music"
+          ],
+          "seatScopeVenueId": "afas-live",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.nl/event/good-charlotte-%7C-premium-seats-tickets/1757809487?language=en-us",
+            "image": null,
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "Z698xZbpZ1kFeaz0A",
+          "name": "Bloc Party & Interpol  | Premium Seats",
+          "url": "https://www.ticketmaster.nl/event/bloc-party--interpol-%7C-premium-seats-tickets/202278905?language=en-us",
+          "date": "2026-11-17",
+          "time": "20:00:00",
+          "timezone": "Europe/Amsterdam",
+          "status": "onsale",
+          "venue": {
+            "providerId": "Z598xZbpZk661",
+            "name": "AFAS Live Loge",
+            "city": "Amsterdam",
+            "countryCode": "NL"
+          },
+          "seatmap": {
+            "staticUrl": "https://media.ticketmaster.eu/netherlands/32bdaca1ffacb6eabd654ff8b063bd30.jpg",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music",
+            "Music",
+            "Music"
+          ],
+          "seatScopeVenueId": "afas-live",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.nl/event/bloc-party--interpol-%7C-premium-seats-tickets/202278905?language=en-us",
+            "image": "https://media.ticketmaster.eu/netherlands/32bdaca1ffacb6eabd654ff8b063bd30.jpg",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "Z698xZbpZ16vfkZ3Gy",
+          "name": "KNEECAP | Premium Seats",
+          "url": "https://www.ticketmaster.nl/event/kneecap-%7C-premium-seats-tickets/1506012339?language=en-us",
+          "date": "2026-11-18",
+          "time": "20:00:00",
+          "timezone": "Europe/Amsterdam",
+          "status": "onsale",
+          "venue": {
+            "providerId": "Z598xZbpZk661",
+            "name": "AFAS Live Loge",
+            "city": "Amsterdam",
+            "countryCode": "NL"
+          },
+          "seatmap": null,
+          "classification": [
+            "Music",
+            "Music"
+          ],
+          "seatScopeVenueId": "afas-live",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.nl/event/kneecap-%7C-premium-seats-tickets/1506012339?language=en-us",
+            "image": null,
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "Z698xZbpZ1kf0bxPJ",
+          "name": "Jessie Ware| Premium Seats",
+          "url": "https://www.ticketmaster.nl/event/jessie-ware%7C-premium-seats-tickets/524622966?language=en-us",
+          "date": "2026-11-21",
+          "time": "19:00:00",
+          "timezone": "Europe/Amsterdam",
+          "status": "onsale",
+          "venue": {
+            "providerId": "Z598xZbpZk661",
+            "name": "AFAS Live Loge",
+            "city": "Amsterdam",
+            "countryCode": "NL"
+          },
+          "seatmap": null,
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "afas-live",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.nl/event/jessie-ware%7C-premium-seats-tickets/524622966?language=en-us",
+            "image": null,
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "Z698xZbpZ1kC8G74J",
+          "name": "TAYC – AFAS Live Amsterdam",
+          "url": "https://www.ticketmaster.nl/event/tayc--afas-live-amsterdam-tickets/390304566?language=en-us",
+          "date": "2026-11-22",
+          "time": "20:00:00",
+          "timezone": "Europe/Amsterdam",
+          "status": "onsale",
+          "venue": {
+            "providerId": "Z598xZbpZAdAF",
+            "name": "",
+            "city": "Amsterdam",
+            "countryCode": "NL"
+          },
+          "seatmap": null,
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "afas-live",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.nl/event/tayc--afas-live-amsterdam-tickets/390304566?language=en-us",
+            "image": null,
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "Z698xZbpZ1k_97gQ6",
+          "name": "TAYC | Premium Seats",
+          "url": "https://www.ticketmaster.nl/event/tayc-%7C-premium-seats-tickets/657135687?language=en-us",
+          "date": "2026-11-22",
+          "time": "20:00:00",
+          "timezone": "Europe/Amsterdam",
+          "status": "onsale",
+          "venue": {
+            "providerId": "Z598xZbpZk661",
+            "name": "AFAS Live Loge",
+            "city": "Amsterdam",
+            "countryCode": "NL"
+          },
+          "seatmap": null,
+          "classification": [
+            "Music",
+            "Music"
+          ],
+          "seatScopeVenueId": "afas-live",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.nl/event/tayc-%7C-premium-seats-tickets/657135687?language=en-us",
+            "image": null,
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "Z698xZbpZ16vqNA04Y",
+          "name": "The Pretty Reckless | Premium Seats",
+          "url": "https://www.ticketmaster.nl/event/the-pretty-reckless-%7C-premium-seats-tickets/1763164570?language=en-us",
+          "date": "2026-11-23",
+          "time": "20:00:00",
+          "timezone": "Europe/Amsterdam",
+          "status": "onsale",
+          "venue": {
+            "providerId": "Z598xZbpZk661",
+            "name": "AFAS Live Loge",
+            "city": "Amsterdam",
+            "countryCode": "NL"
+          },
+          "seatmap": null,
+          "classification": [
+            "Music",
+            "Music"
+          ],
+          "seatScopeVenueId": "afas-live",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.nl/event/the-pretty-reckless-%7C-premium-seats-tickets/1763164570?language=en-us",
+            "image": null,
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "Z698xZbpZ1krvP_FA",
+          "name": "Taemin | Premium Seats",
+          "url": "https://www.ticketmaster.nl/event/taemin-%7C-premium-seats-tickets/781959205?language=en-us",
+          "date": "2026-11-24",
+          "time": "20:00:00",
+          "timezone": "Europe/Amsterdam",
+          "status": "onsale",
+          "venue": {
+            "providerId": "Z598xZbpZk661",
+            "name": "AFAS Live Loge",
+            "city": "Amsterdam",
+            "countryCode": "NL"
+          },
+          "seatmap": null,
+          "classification": [
+            "Music",
+            "Music"
+          ],
+          "seatScopeVenueId": "afas-live",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.nl/event/taemin-%7C-premium-seats-tickets/781959205?language=en-us",
+            "image": null,
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "Z698xZbpZ1kbvfIbS",
+          "name": "We All Sing ABBA | Premium Seats",
+          "url": "https://www.ticketmaster.nl/event/-we-all-sing-abba-%7C-premium-seats-tickets/601528633?language=en-us",
+          "date": "2026-11-25",
+          "time": "20:00:00",
+          "timezone": "Europe/Amsterdam",
+          "status": "onsale",
+          "venue": {
+            "providerId": "Z598xZbpZk661",
+            "name": "AFAS Live Loge",
+            "city": "Amsterdam",
+            "countryCode": "NL"
+          },
+          "seatmap": null,
+          "classification": [
+            "Music",
+            "Music"
+          ],
+          "seatScopeVenueId": "afas-live",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.nl/event/-we-all-sing-abba-%7C-premium-seats-tickets/601528633?language=en-us",
+            "image": null,
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "Z698xZbpZ16v4-qp0y",
+          "name": "Quido van de Graaf | Premium Seats",
+          "url": "https://www.ticketmaster.nl/event/quido-van-de-graaf-%7C-premium-seats-tickets/1561756939?language=en-us",
+          "date": "2026-11-27",
+          "time": "20:00:00",
+          "timezone": "Europe/Amsterdam",
+          "status": "onsale",
+          "venue": {
+            "providerId": "Z598xZbpZk661",
+            "name": "AFAS Live Loge",
+            "city": "Amsterdam",
+            "countryCode": "NL"
+          },
+          "seatmap": null,
+          "classification": [
+            "Music",
+            "Music"
+          ],
+          "seatScopeVenueId": "afas-live",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.nl/event/quido-van-de-graaf-%7C-premium-seats-tickets/1561756939?language=en-us",
+            "image": null,
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "Z698xZbpZ1kxaxFjJ",
+          "name": "Het Grote Ademnood Discobal 2026 | Premium Seats",
+          "url": "https://www.ticketmaster.nl/event/het-grote-ademnood-discobal-2026-%7C-premium-seats-tickets/889888726?language=en-us",
+          "date": "2026-11-28",
+          "time": "20:00:00",
+          "timezone": "Europe/Amsterdam",
+          "status": "onsale",
+          "venue": {
+            "providerId": "Z598xZbpZk661",
+            "name": "AFAS Live Loge",
+            "city": "Amsterdam",
+            "countryCode": "NL"
+          },
+          "seatmap": {
+            "staticUrl": "https://media.ticketmaster.eu/netherlands/32bdaca1ffacb6eabd654ff8b063bd30.jpg",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music",
+            "Music"
+          ],
+          "seatScopeVenueId": "afas-live",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.nl/event/het-grote-ademnood-discobal-2026-%7C-premium-seats-tickets/889888726?language=en-us",
+            "image": "https://media.ticketmaster.eu/netherlands/32bdaca1ffacb6eabd654ff8b063bd30.jpg",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "Z698xZbpZ1k1A0pq_",
+          "name": "Beth Hart | Premium Seats",
+          "url": "https://www.ticketmaster.nl/event/beth-hart-%7C-premium-seats-tickets/285916759?language=en-us",
+          "date": "2026-12-01",
+          "time": "20:00:00",
+          "timezone": "Europe/Amsterdam",
+          "status": "onsale",
+          "venue": {
+            "providerId": "Z598xZbpZk661",
+            "name": "AFAS Live Loge",
+            "city": "Amsterdam",
+            "countryCode": "NL"
+          },
+          "seatmap": null,
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "afas-live",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.nl/event/beth-hart-%7C-premium-seats-tickets/285916759?language=en-us",
+            "image": null,
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "Z698xZbpZ16vpFCp40",
+          "name": "Beabadoobee | Premium Seats",
+          "url": "https://www.ticketmaster.nl/event/beabadoobee-%7C-premium-seats-tickets/1588396564?language=en-us",
+          "date": "2026-12-02",
+          "time": "20:00:00",
+          "timezone": "Europe/Amsterdam",
+          "status": "onsale",
+          "venue": {
+            "providerId": "Z598xZbpZk661",
+            "name": "AFAS Live Loge",
+            "city": "Amsterdam",
+            "countryCode": "NL"
+          },
+          "seatmap": null,
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "afas-live",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.nl/event/beabadoobee-%7C-premium-seats-tickets/1588396564?language=en-us",
+            "image": null,
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "Z698xZbpZ16vk9j-k8",
+          "name": "Beabadoobee | Premium Seats",
+          "url": "https://www.ticketmaster.nl/event/beabadoobee-%7C-premium-seats-tickets/1197721190?language=en-us",
+          "date": "2026-12-03",
+          "time": "20:00:00",
+          "timezone": "Europe/Amsterdam",
+          "status": "onsale",
+          "venue": {
+            "providerId": "Z598xZbpZk661",
+            "name": "AFAS Live Loge",
+            "city": "Amsterdam",
+            "countryCode": "NL"
+          },
+          "seatmap": null,
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "afas-live",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.nl/event/beabadoobee-%7C-premium-seats-tickets/1197721190?language=en-us",
+            "image": null,
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "Z698xZbpZ16v4vF6F4",
+          "name": "Beth Hart | Premium Seats",
+          "url": "https://www.ticketmaster.nl/event/beth-hart-%7C-premium-seats-tickets/1541207215?language=en-us",
+          "date": "2026-12-04",
+          "time": "20:00:00",
+          "timezone": "Europe/Amsterdam",
+          "status": "onsale",
+          "venue": {
+            "providerId": "Z598xZbpZk661",
+            "name": "AFAS Live Loge",
+            "city": "Amsterdam",
+            "countryCode": "NL"
+          },
+          "seatmap": null,
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "afas-live",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.nl/event/beth-hart-%7C-premium-seats-tickets/1541207215?language=en-us",
+            "image": null,
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "Z698xZbpZ16v49FPpe",
+          "name": "Polyphia | Premium Seats",
+          "url": "https://www.ticketmaster.nl/event/polyphia-%7C-premium-seats-tickets/1557225582?language=en-us",
+          "date": "2026-12-08",
+          "time": "20:00:00",
+          "timezone": "Europe/Amsterdam",
+          "status": "onsale",
+          "venue": {
+            "providerId": "Z598xZbpZk661",
+            "name": "AFAS Live Loge",
+            "city": "Amsterdam",
+            "countryCode": "NL"
+          },
+          "seatmap": null,
+          "classification": [
+            "Music",
+            "Music"
+          ],
+          "seatScopeVenueId": "afas-live",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.nl/event/polyphia-%7C-premium-seats-tickets/1557225582?language=en-us",
+            "image": null,
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "Z698xZbpZ1kFZvkk9",
+          "name": "Nacht van de Nederpop XXL | Premium Seats",
+          "url": "https://www.ticketmaster.nl/event/nacht-van-de-nederpop-xxl-%7C-premium-seats-tickets/200046197?language=en-us",
+          "date": "2026-12-12",
+          "time": "20:00:00",
+          "timezone": "Europe/Amsterdam",
+          "status": "onsale",
+          "venue": {
+            "providerId": "Z598xZbpZk661",
+            "name": "AFAS Live Loge",
+            "city": "Amsterdam",
+            "countryCode": "NL"
+          },
+          "seatmap": {
+            "staticUrl": "https://media.ticketmaster.eu/netherlands/32bdaca1ffacb6eabd654ff8b063bd30.jpg",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music",
+            "Music"
+          ],
+          "seatScopeVenueId": "afas-live",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.nl/event/nacht-van-de-nederpop-xxl-%7C-premium-seats-tickets/200046197?language=en-us",
+            "image": "https://media.ticketmaster.eu/netherlands/32bdaca1ffacb6eabd654ff8b063bd30.jpg",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "Z698xZbpZ1kOxa7--",
+          "name": "Jagged Edge | Premium Seats",
+          "url": "https://www.ticketmaster.nl/event/jagged-edge-%7C-premium-seats-tickets/822244861?language=en-us",
+          "date": "2026-12-15",
+          "time": "20:00:00",
+          "timezone": "Europe/Amsterdam",
+          "status": "onsale",
+          "venue": {
+            "providerId": "Z598xZbpZk661",
+            "name": "AFAS Live Loge",
+            "city": "Amsterdam",
+            "countryCode": "NL"
+          },
+          "seatmap": null,
+          "classification": [
+            "Music",
+            "Music"
+          ],
+          "seatScopeVenueId": "afas-live",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.nl/event/jagged-edge-%7C-premium-seats-tickets/822244861?language=en-us",
+            "image": null,
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "Z698xZbpZ16v0kOpC9",
+          "name": "Kinderen voor Kinderen | Premium Seats",
+          "url": "https://www.ticketmaster.nl/event/kinderen-voor-kinderen-%7C-premium-seats-tickets/1906816397?language=en-us",
+          "date": "2026-12-28",
+          "time": "13:00:00",
+          "timezone": "Europe/Amsterdam",
+          "status": "offsale",
+          "venue": {
+            "providerId": "Z598xZbpZk661",
+            "name": "AFAS Live Loge",
+            "city": "Amsterdam",
+            "countryCode": "NL"
+          },
+          "seatmap": null,
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "afas-live",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.nl/event/kinderen-voor-kinderen-%7C-premium-seats-tickets/1906816397?language=en-us",
+            "image": null,
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "Z698xZbpZ16vAfCKvx",
+          "name": "Kinderen voor Kinderen | Premium Seats",
+          "url": "https://www.ticketmaster.nl/event/kinderen-voor-kinderen-%7C-premium-seats-tickets/1154393062?language=en-us",
+          "date": "2026-12-28",
+          "time": "16:00:00",
+          "timezone": "Europe/Amsterdam",
+          "status": "offsale",
+          "venue": {
+            "providerId": "Z598xZbpZk661",
+            "name": "AFAS Live Loge",
+            "city": "Amsterdam",
+            "countryCode": "NL"
+          },
+          "seatmap": null,
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "afas-live",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.nl/event/kinderen-voor-kinderen-%7C-premium-seats-tickets/1154393062?language=en-us",
+            "image": null,
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "Z698xZbpZ1kuZJFqO",
+          "name": "Kinderen voor Kinderen | Premium Seats",
+          "url": "https://www.ticketmaster.nl/event/kinderen-voor-kinderen-%7C-premium-seats-tickets/340988760?language=en-us",
+          "date": "2026-12-29",
+          "time": "13:00:00",
+          "timezone": "Europe/Amsterdam",
+          "status": "offsale",
+          "venue": {
+            "providerId": "Z598xZbpZk661",
+            "name": "AFAS Live Loge",
+            "city": "Amsterdam",
+            "countryCode": "NL"
+          },
+          "seatmap": null,
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "afas-live",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.nl/event/kinderen-voor-kinderen-%7C-premium-seats-tickets/340988760?language=en-us",
+            "image": null,
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "Z698xZbpZ16vbOOYZt",
+          "name": "Kinderen voor Kinderen | Premium Seats",
+          "url": "https://www.ticketmaster.nl/event/kinderen-voor-kinderen-%7C-premium-seats-tickets/1620830029?language=en-us",
+          "date": "2026-12-29",
+          "time": "16:00:00",
+          "timezone": "Europe/Amsterdam",
+          "status": "offsale",
+          "venue": {
+            "providerId": "Z598xZbpZk661",
+            "name": "AFAS Live Loge",
+            "city": "Amsterdam",
+            "countryCode": "NL"
+          },
+          "seatmap": null,
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "afas-live",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.nl/event/kinderen-voor-kinderen-%7C-premium-seats-tickets/1620830029?language=en-us",
+            "image": null,
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "Z698xZbpZ1krAkd0I",
+          "name": "Kinderen voor Kinderen | Premium Seats",
+          "url": "https://www.ticketmaster.nl/event/kinderen-voor-kinderen-%7C-premium-seats-tickets/785183928?language=en-us",
+          "date": "2026-12-30",
+          "time": "13:00:00",
+          "timezone": "Europe/Amsterdam",
+          "status": "offsale",
+          "venue": {
+            "providerId": "Z598xZbpZk661",
+            "name": "AFAS Live Loge",
+            "city": "Amsterdam",
+            "countryCode": "NL"
+          },
+          "seatmap": null,
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "afas-live",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.nl/event/kinderen-voor-kinderen-%7C-premium-seats-tickets/785183928?language=en-us",
+            "image": null,
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "Z698xZbpZ16vA_8tb-",
+          "name": "Kinderen voor Kinderen | Premium Seats",
+          "url": "https://www.ticketmaster.nl/event/kinderen-voor-kinderen-%7C-premium-seats-tickets/1159429621?language=en-us",
+          "date": "2026-12-30",
+          "time": "16:00:00",
+          "timezone": "Europe/Amsterdam",
+          "status": "offsale",
+          "venue": {
+            "providerId": "Z598xZbpZk661",
+            "name": "AFAS Live Loge",
+            "city": "Amsterdam",
+            "countryCode": "NL"
+          },
+          "seatmap": null,
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "afas-live",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.nl/event/kinderen-voor-kinderen-%7C-premium-seats-tickets/1159429621?language=en-us",
+            "image": null,
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "Z698xZbpZ16vbJ7sZN",
+          "name": "Mahsun Kirmizigul | Premium Seats",
+          "url": "https://www.ticketmaster.nl/event/mahsun-kirmizigul-%7C-premium-seats-tickets/1626131023?language=en-us",
+          "date": "2027-01-10",
+          "time": "20:00:00",
+          "timezone": "Europe/Amsterdam",
+          "status": "onsale",
+          "venue": {
+            "providerId": "Z598xZbpZk661",
+            "name": "AFAS Live Loge",
+            "city": "Amsterdam",
+            "countryCode": "NL"
+          },
+          "seatmap": null,
+          "classification": [
+            "Music",
+            "Music"
+          ],
+          "seatScopeVenueId": "afas-live",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.nl/event/mahsun-kirmizigul-%7C-premium-seats-tickets/1626131023?language=en-us",
+            "image": null,
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "Z698xZbpZ1k0V8z80",
+          "name": "The Gathering | Premium Seats",
+          "url": "https://www.ticketmaster.nl/event/the-gathering-%7C-premium-seats-tickets/934438424?language=en-us",
+          "date": "2027-01-16",
+          "time": "20:00:00",
+          "timezone": "Europe/Amsterdam",
+          "status": "onsale",
+          "venue": {
+            "providerId": "Z598xZbpZk661",
+            "name": "AFAS Live Loge",
+            "city": "Amsterdam",
+            "countryCode": "NL"
+          },
+          "seatmap": null,
+          "classification": [
+            "Music",
+            "Music"
+          ],
+          "seatScopeVenueId": "afas-live",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.nl/event/the-gathering-%7C-premium-seats-tickets/934438424?language=en-us",
+            "image": null,
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "Z698xZbpZ1kvP8S-x",
+          "name": "Famke Louise | Premium Seats",
+          "url": "https://www.ticketmaster.nl/event/famke-louise-%7C-premium-seats-tickets/65433862?language=en-us",
+          "date": "2027-01-22",
+          "time": "20:00:00",
+          "timezone": "Europe/Amsterdam",
+          "status": "offsale",
+          "venue": {
+            "providerId": "Z598xZbpZk661",
+            "name": "AFAS Live Loge",
+            "city": "Amsterdam",
+            "countryCode": "NL"
+          },
+          "seatmap": null,
+          "classification": [
+            "Music",
+            "Music"
+          ],
+          "seatScopeVenueId": "afas-live",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.nl/event/famke-louise-%7C-premium-seats-tickets/65433862?language=en-us",
+            "image": null,
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "Z698xZbpZ16vuyGfeK",
+          "name": "Famke Louise | Premium Seats",
+          "url": "https://www.ticketmaster.nl/event/famke-louise-%7C-premium-seats-tickets/1379314093?language=en-us",
+          "date": "2027-01-23",
+          "time": "20:00:00",
+          "timezone": "Europe/Amsterdam",
+          "status": "offsale",
+          "venue": {
+            "providerId": "Z598xZbpZk661",
+            "name": "AFAS Live Loge",
+            "city": "Amsterdam",
+            "countryCode": "NL"
+          },
+          "seatmap": null,
+          "classification": [
+            "Music",
+            "Music"
+          ],
+          "seatScopeVenueId": "afas-live",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.nl/event/famke-louise-%7C-premium-seats-tickets/1379314093?language=en-us",
+            "image": null,
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "Z698xZbpZ1ku__b4p",
+          "name": "Skryptonite | Premium Seats",
+          "url": "https://www.ticketmaster.nl/event/-skryptonite-%7C-premium-seats-tickets/359658556?language=en-us",
+          "date": "2027-02-02",
+          "time": "20:00:00",
+          "timezone": "Europe/Amsterdam",
+          "status": "onsale",
+          "venue": {
+            "providerId": "Z598xZbpZk661",
+            "name": "AFAS Live Loge",
+            "city": "Amsterdam",
+            "countryCode": "NL"
+          },
+          "seatmap": null,
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "afas-live",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.nl/event/-skryptonite-%7C-premium-seats-tickets/359658556?language=en-us",
+            "image": null,
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "Z698xZbpZ16vk3p3P4",
+          "name": "Five Finger Death Punch | Premium Seats",
+          "url": "https://www.ticketmaster.nl/event/five-finger-death-punch-%7C-premium-seats-tickets/1192592955?language=en-us",
+          "date": "2027-02-07",
+          "time": "19:00:00",
+          "timezone": "Europe/Amsterdam",
+          "status": "onsale",
+          "venue": {
+            "providerId": "Z598xZbpZk661",
+            "name": "AFAS Live Loge",
+            "city": "Amsterdam",
+            "countryCode": "NL"
+          },
+          "seatmap": null,
+          "classification": [
+            "Music",
+            "Music"
+          ],
+          "seatScopeVenueId": "afas-live",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.nl/event/five-finger-death-punch-%7C-premium-seats-tickets/1192592955?language=en-us",
+            "image": null,
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "Z698xZbpZ1kkFZ643",
+          "name": "Role Model | Premium Seats",
+          "url": "https://www.ticketmaster.nl/event/role-model-%7C-premium-seats-tickets/188007552?language=en-us",
+          "date": "2027-02-13",
+          "time": "20:01:00",
+          "timezone": "Europe/Amsterdam",
+          "status": "onsale",
+          "venue": {
+            "providerId": "Z598xZbpZk661",
+            "name": "AFAS Live Loge",
+            "city": "Amsterdam",
+            "countryCode": "NL"
+          },
+          "seatmap": null,
+          "classification": [
+            "Music",
+            "Music"
+          ],
+          "seatScopeVenueId": "afas-live",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.nl/event/role-model-%7C-premium-seats-tickets/188007552?language=en-us",
+            "image": null,
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "Z698xZbpZ16vx707aN",
+          "name": "Role Model | Premium Seats",
+          "url": "https://www.ticketmaster.nl/event/role-model-%7C-premium-seats-tickets/1884904263?language=en-us",
+          "date": "2027-02-14",
+          "time": "20:01:00",
+          "timezone": "Europe/Amsterdam",
+          "status": "onsale",
+          "venue": {
+            "providerId": "Z598xZbpZk661",
+            "name": "AFAS Live Loge",
+            "city": "Amsterdam",
+            "countryCode": "NL"
+          },
+          "seatmap": null,
+          "classification": [
+            "Music",
+            "Music"
+          ],
+          "seatScopeVenueId": "afas-live",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.nl/event/role-model-%7C-premium-seats-tickets/1884904263?language=en-us",
+            "image": null,
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "Z698xZbpZ16v8fZAvV",
+          "name": "Cage The Elephant | Premium Seats",
+          "url": "https://www.ticketmaster.nl/event/cage-the-elephant-%7C-premium-seats-tickets/1414005074?language=en-us",
+          "date": "2027-02-15",
+          "time": "20:00:00",
+          "timezone": "Europe/Amsterdam",
+          "status": "onsale",
+          "venue": {
+            "providerId": "Z598xZbpZk661",
+            "name": "AFAS Live Loge",
+            "city": "Amsterdam",
+            "countryCode": "NL"
+          },
+          "seatmap": null,
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "afas-live",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.nl/event/cage-the-elephant-%7C-premium-seats-tickets/1414005074?language=en-us",
+            "image": null,
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "Z698xZbpZ1kjvq8vJ",
+          "name": "Bullet For My Valentine | Premium Seats",
+          "url": "https://www.ticketmaster.nl/event/bullet-for-my-valentine-%7C-premium-seats-tickets/701750066?language=en-us",
+          "date": "2027-02-19",
+          "time": "20:00:00",
+          "timezone": "Europe/Amsterdam",
+          "status": "offsale",
+          "venue": {
+            "providerId": "Z598xZbpZk661",
+            "name": "AFAS Live Loge",
+            "city": "Amsterdam",
+            "countryCode": "NL"
+          },
+          "seatmap": null,
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "afas-live",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.nl/event/bullet-for-my-valentine-%7C-premium-seats-tickets/701750066?language=en-us",
+            "image": null,
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "Z698xZbpZ16v-NjJZg",
+          "name": "Ezra Collective | Premium Seats",
+          "url": "https://www.ticketmaster.nl/event/ezra-collective-%7C-premium-seats-tickets/1863726035?language=en-us",
+          "date": "2027-02-20",
+          "time": "20:00:00",
+          "timezone": "Europe/Amsterdam",
+          "status": "onsale",
+          "venue": {
+            "providerId": "Z598xZbpZk661",
+            "name": "AFAS Live Loge",
+            "city": "Amsterdam",
+            "countryCode": "NL"
+          },
+          "seatmap": null,
+          "classification": [
+            "Music",
+            "Music"
+          ],
+          "seatScopeVenueId": "afas-live",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.nl/event/ezra-collective-%7C-premium-seats-tickets/1863726035?language=en-us",
+            "image": null,
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "Z698xZbpZ16vOA7J0t",
+          "name": "Malcolm Todd | Premium Seats",
+          "url": "https://www.ticketmaster.nl/event/malcolm-todd-%7C-premium-seats-tickets/1805126929?language=en-us",
+          "date": "2027-02-21",
+          "time": "20:00:00",
+          "timezone": "Europe/Amsterdam",
+          "status": "offsale",
+          "venue": {
+            "providerId": "Z598xZbpZk661",
+            "name": "AFAS Live Loge",
+            "city": "Amsterdam",
+            "countryCode": "NL"
+          },
+          "seatmap": null,
+          "classification": [
+            "Music",
+            "Music"
+          ],
+          "seatScopeVenueId": "afas-live",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.nl/event/malcolm-todd-%7C-premium-seats-tickets/1805126929?language=en-us",
+            "image": null,
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          }
+        }
+      ],
+      "refreshedAt": "2026-10-24T16:45:28.606Z",
+      "status": "candidate"
+    },
+    "asiaworld-hall-10": {
+      "venueId": "asiaworld-hall-10",
+      "venueName": "亚洲国际博览馆 · 10号馆",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:28.887Z",
+      "status": "candidate"
+    },
+    "asiaworld-runway-11": {
+      "venueId": "asiaworld-runway-11",
+      "venueName": "亚洲国际博览馆 · Runway 11",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:28.891Z",
+      "status": "candidate"
+    },
+    "asiaworld-summit-hall-2": {
+      "venueId": "asiaworld-summit-hall-2",
+      "venueName": "亚洲国际博览馆 · 2号馆",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:28.938Z",
+      "status": "candidate"
+    },
+    "baotou-olympic-gymnasium": {
+      "venueId": "baotou-olympic-gymnasium",
+      "venueName": "包头奥林匹克体育中心体育馆",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:29.228Z",
+      "status": "candidate"
+    },
+    "baotou-olympic-stadium": {
+      "venueId": "baotou-olympic-stadium",
+      "venueName": "包头奥林匹克体育中心体育场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:29.297Z",
+      "status": "candidate"
+    },
+    "asiaworld-viva": {
+      "venueId": "asiaworld-viva",
+      "venueName": "亚洲国际博览馆 · VIVA",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:29.298Z",
+      "status": "candidate"
+    },
+    "bexco-halls-1-2": {
+      "venueId": "bexco-halls-1-2",
+      "venueName": "BEXCO · 第一展览中心 1–2 号厅",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:29.591Z",
+      "status": "candidate"
+    },
+    "beijing-workers-stadium": {
+      "venueId": "beijing-workers-stadium",
+      "venueName": "北京工人体育场 · 新工体",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:29.601Z",
+      "status": "candidate"
+    },
+    "belluna-dome": {
+      "venueId": "belluna-dome",
+      "venueName": "Belluna Dome（西武巨蛋）",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:29.631Z",
+      "status": "candidate"
+    },
+    "broadway-theatre": {
+      "venueId": "broadway-theatre",
+      "venueName": "澳门百老汇舞台",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:29.908Z",
+      "status": "candidate"
+    },
+    "birds-nest": {
+      "venueId": "birds-nest",
+      "venueName": "国家体育场 · 鸟巢",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:29.915Z",
+      "status": "candidate"
+    },
+    "bitec-live": {
+      "venueId": "bitec-live",
+      "venueName": "BITEC LIVE",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:29.921Z",
+      "status": "candidate"
+    },
+    "capital-indoor": {
+      "venueId": "capital-indoor",
+      "venueName": "首都体育馆",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:30.194Z",
+      "status": "candidate"
+    },
+    "busan-asiad": {
+      "venueId": "busan-asiad",
+      "venueName": "釜山亚运会主体育场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:30.201Z",
+      "status": "candidate"
+    },
+    "bukit-jalil": {
+      "venueId": "bukit-jalil",
+      "venueName": "武吉加里尔国家体育场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:30.214Z",
+      "status": "candidate"
+    },
+    "changzhou-olympic-stadium": {
+      "venueId": "changzhou-olympic-stadium",
+      "venueName": "常州奥体中心体育场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:30.488Z",
+      "status": "candidate"
+    },
+    "changsha-helong-gymnasium": {
+      "venueId": "changsha-helong-gymnasium",
+      "venueName": "长沙贺龙体育馆",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:30.489Z",
+      "status": "candidate"
+    },
+    "changsha-qicai-box-f": {
+      "venueId": "changsha-qicai-box-f",
+      "venueName": "湖南国际会展中心七彩盒子F厅",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:30.493Z",
+      "status": "candidate"
+    },
+    "chengdu-dongan-lake-gymnasium": {
+      "venueId": "chengdu-dongan-lake-gymnasium",
+      "venueName": "成都东安湖体育公园多功能体育馆",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:30.786Z",
+      "status": "candidate"
+    },
+    "chengdu-financial-city-arena": {
+      "venueId": "chengdu-financial-city-arena",
+      "venueName": "成都金融城演艺中心",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:31.129Z",
+      "status": "candidate"
+    },
+    "chengdu-dongan-lake-stadium": {
+      "venueId": "chengdu-dongan-lake-stadium",
+      "venueName": "成都东安湖体育公园主体育场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:31.130Z",
+      "status": "candidate"
+    },
+    "chengdu-hightech-gymnasium": {
+      "venueId": "chengdu-hightech-gymnasium",
+      "venueName": "成都高新体育中心多功能体育馆",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:31.417Z",
+      "status": "candidate"
+    },
+    "chengdu-wuliangye-gymnasium": {
+      "venueId": "chengdu-wuliangye-gymnasium",
+      "venueName": "成都五粮液文化体育中心综合体育馆",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:31.486Z",
+      "status": "candidate"
+    },
+    "chongqing-expo-s1-hall": {
+      "venueId": "chongqing-expo-s1-hall",
+      "venueName": "重庆国际博览中心S1馆",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:31.486Z",
+      "status": "candidate"
+    },
+    "dalian-sports-center-stadium": {
+      "venueId": "dalian-sports-center-stadium",
+      "venueName": "大连体育中心体育场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:31.756Z",
+      "status": "candidate"
+    },
+    "chongqing-olympic-stadium": {
+      "venueId": "chongqing-olympic-stadium",
+      "venueName": "重庆奥林匹克体育中心体育场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:31.760Z",
+      "status": "candidate"
+    },
+    "chongqing-huaxi-ecm-center": {
+      "venueId": "chongqing-huaxi-ecm-center",
+      "venueName": "重庆华熙生物·润百颜ECM中心",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:31.762Z",
+      "status": "candidate"
+    },
+    "festhalle-frankfurt": {
+      "venueId": "festhalle-frankfurt",
+      "venueName": "法兰克福 Festhalle",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:32.033Z",
+      "status": "candidate"
+    },
+    "dongguan-sports-center-gymnasium": {
+      "venueId": "dongguan-sports-center-gymnasium",
+      "venueName": "东莞市体育中心体育馆",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:32.053Z",
+      "status": "candidate"
+    },
+    "exco-east": {
+      "venueId": "exco-east",
+      "venueName": "EXCO · 东馆",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:32.056Z",
+      "status": "candidate"
+    },
+    "fuzhou-strait-olympic-stadium": {
+      "venueId": "fuzhou-strait-olympic-stadium",
+      "venueName": "福州海峡奥林匹克体育中心体育场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:32.333Z",
+      "status": "candidate"
+    },
+    "foshan-century-lotus-stadium": {
+      "venueId": "foshan-century-lotus-stadium",
+      "venueName": "佛山世纪莲体育中心体育场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:32.347Z",
+      "status": "candidate"
+    },
+    "foshan-international-arena": {
+      "venueId": "foshan-international-arena",
+      "venueName": "佛山国际体育文化演艺中心",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:32.357Z",
+      "status": "candidate"
+    },
+    "gbk-main-stadium": {
+      "venueId": "gbk-main-stadium",
+      "venueName": "印尼格罗拉蓬卡诺体育场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:32.627Z",
+      "status": "candidate"
+    },
+    "galaxy-arena": {
+      "venueId": "galaxy-arena",
+      "venueName": "银河综艺馆",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:32.629Z",
+      "status": "candidate"
+    },
+    "galaxy-g-box": {
+      "venueId": "galaxy-g-box",
+      "venueName": "澳门银河 G Box",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:32.649Z",
+      "status": "candidate"
+    },
+    "goyang-stadium": {
+      "venueId": "goyang-stadium",
+      "venueName": "高阳综合运动场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:32.920Z",
+      "status": "candidate"
+    },
+    "genting-arena-of-stars": {
+      "venueId": "genting-arena-of-stars",
+      "venueName": "云顶世界云星剧场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:33.010Z",
+      "status": "candidate"
+    },
+    "gocheok-dome": {
+      "venueId": "gocheok-dome",
+      "venueName": "高尺天空巨蛋",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:33.010Z",
+      "status": "candidate"
+    },
+    "guangzhou-arena": {
+      "venueId": "guangzhou-arena",
+      "venueName": "宝能广州国际体育演艺中心",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:33.282Z",
+      "status": "candidate"
+    },
+    "guangdong-olympic": {
+      "venueId": "guangdong-olympic",
+      "venueName": "广东奥林匹克体育场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:33.283Z",
+      "status": "candidate"
+    },
+    "guangxi-sports-stadium": {
+      "venueId": "guangxi-sports-stadium",
+      "venueName": "广西体育中心主体育场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:33.285Z",
+      "status": "candidate"
+    },
+    "guangzhou-university-town-stadium": {
+      "venueId": "guangzhou-university-town-stadium",
+      "venueName": "广州大学城体育中心体育场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:33.555Z",
+      "status": "candidate"
+    },
+    "guangzhou-gba-stadium": {
+      "venueId": "guangzhou-gba-stadium",
+      "venueName": "大湾区文化体育中心体育场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:33.558Z",
+      "status": "candidate"
+    },
+    "guangzhou-gymnasium-hall-1": {
+      "venueId": "guangzhou-gymnasium-hall-1",
+      "venueName": "广州体育馆1号馆",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:33.560Z",
+      "status": "candidate"
+    },
+    "guiyang-new-gymnasium": {
+      "venueId": "guiyang-new-gymnasium",
+      "venueName": "贵阳奥林匹克体育中心体育馆",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:33.827Z",
+      "status": "candidate"
+    },
+    "guigang-sports-center-stadium": {
+      "venueId": "guigang-sports-center-stadium",
+      "venueName": "贵港市体育中心体育场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:33.834Z",
+      "status": "candidate"
+    },
+    "guangzhou-yayuncheng": {
+      "venueId": "guangzhou-yayuncheng",
+      "venueName": "广州亚运城综合体育馆 · 体操馆",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:33.839Z",
+      "status": "candidate"
+    },
+    "guiyang-olympic-stadium": {
+      "venueId": "guiyang-olympic-stadium",
+      "venueName": "贵阳奥林匹克体育中心体育场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:34.111Z",
+      "status": "candidate"
+    },
+    "gwangju-universiade": {
+      "venueId": "gwangju-universiade",
+      "venueName": "光州女子大学大运会体育馆",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:34.114Z",
+      "status": "candidate"
+    },
+    "haikou-wuyuanhe-gymnasium": {
+      "venueId": "haikou-wuyuanhe-gymnasium",
+      "venueName": "海口五源河体育中心体育馆",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:34.394Z",
+      "status": "candidate"
+    },
+    "hangzhou-olympic-arena": {
+      "venueId": "hangzhou-olympic-arena",
+      "venueName": "杭州奥体中心体育馆",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:34.660Z",
+      "status": "candidate"
+    },
+    "haikou-wuyuanhe-stadium": {
+      "venueId": "haikou-wuyuanhe-stadium",
+      "venueName": "海口五源河体育场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:34.663Z",
+      "status": "candidate"
+    },
+    "hangzhou-huanglong-stadium": {
+      "venueId": "hangzhou-huanglong-stadium",
+      "venueName": "杭州黄龙体育中心体育场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:34.795Z",
+      "status": "candidate"
+    },
+    "hangzhou-qiantang-basketball-arena": {
+      "venueId": "hangzhou-qiantang-basketball-arena",
+      "venueName": "杭州乐动力钱塘体育中心篮球赛馆",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:35.565Z",
+      "status": "candidate"
+    },
+    "hangzhou-olympic-tennis-center": {
+      "venueId": "hangzhou-olympic-tennis-center",
+      "venueName": "杭州奥体中心网球中心",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:35.566Z",
+      "status": "candidate"
+    },
+    "hangzhou-olympic-stadium": {
+      "venueId": "hangzhou-olympic-stadium",
+      "venueName": "杭州奥体中心体育场 · 大莲花",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:35.567Z",
+      "status": "candidate"
+    },
+    "hebei-olympic-stadium": {
+      "venueId": "hebei-olympic-stadium",
+      "venueName": "河北奥林匹克体育中心体育场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:36.066Z",
+      "status": "candidate"
+    },
+    "hefei-sports-center-stadium": {
+      "venueId": "hefei-sports-center-stadium",
+      "venueName": "合肥体育中心体育场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:36.066Z",
+      "status": "candidate"
+    },
+    "harbin-international-convention-gymnasium": {
+      "venueId": "harbin-international-convention-gymnasium",
+      "venueName": "哈尔滨国际会展体育中心体育馆",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:36.066Z",
+      "status": "candidate"
+    },
+    "hkcec-hall-5bc": {
+      "venueId": "hkcec-hall-5bc",
+      "venueName": "香港会议展览中心 · Hall 5BC",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:36.364Z",
+      "status": "candidate"
+    },
+    "hong-kong-axa-dreamland": {
+      "venueId": "hong-kong-axa-dreamland",
+      "venueName": "香港 AXA 安盛创梦馆",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:36.367Z",
+      "status": "candidate"
+    },
+    "hong-kong-coliseum": {
+      "venueId": "hong-kong-coliseum",
+      "venueName": "香港体育馆 · 红馆",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:36.431Z",
+      "status": "candidate"
+    },
+    "huanglong-gymnasium": {
+      "venueId": "huanglong-gymnasium",
+      "venueName": "黄龙体育中心体育馆",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:36.705Z",
+      "status": "candidate"
+    },
+    "hong-kong-macpherson-stadium": {
+      "venueId": "hong-kong-macpherson-stadium",
+      "venueName": "香港麦花臣场馆",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:36.709Z",
+      "status": "candidate"
+    },
+    "hubei-olympic-arena": {
+      "venueId": "hubei-olympic-arena",
+      "venueName": "湖北省奥林匹克体育中心体育馆",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:36.772Z",
+      "status": "candidate"
+    },
+    "ig-arena": {
+      "venueId": "ig-arena",
+      "venueName": "IG Arena",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:37.072Z",
+      "status": "candidate"
+    },
+    "hwajeong-gymnasium": {
+      "venueId": "hwajeong-gymnasium",
+      "venueName": "高丽大学化汀体育馆",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:37.210Z",
+      "status": "candidate"
+    },
+    "impact-arena": {
+      "venueId": "impact-arena",
+      "venueName": "IMPACT Arena",
+      "events": [
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "Z8ymWIMJlyZycZ7aAk",
+          "name": "STRAY KIDS WORLD TOUR < RUN IT BANGKOK >",
+          "url": "https://ticketmaster.co.th/ticket/area/27th_straykidsbkk/3845",
+          "date": "2027-01-16",
+          "time": "17:00:00",
+          "timezone": "Asia/Bangkok",
+          "status": "onsale",
+          "venue": {
+            "providerId": "Z8ymWIMJlyZycZek7e",
+            "name": "Impact Arena, Muang Thong Thani",
+            "city": "",
+            "countryCode": "TH"
+          },
+          "seatmap": null,
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "impact-arena",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://ticketmaster.co.th/ticket/area/27th_straykidsbkk/3845",
+            "image": null,
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "Z8ymWIMJlyZycZ7akF",
+          "name": "STRAY KIDS WORLD TOUR < RUN IT BANGKOK >",
+          "url": "https://ticketmaster.co.th/ticket/area/27th_straykidsbkk/3857",
+          "date": "2027-01-17",
+          "time": "17:00:00",
+          "timezone": "Asia/Bangkok",
+          "status": "onsale",
+          "venue": {
+            "providerId": "Z8ymWIMJlyZycZek7e",
+            "name": "Impact Arena, Muang Thong Thani",
+            "city": "",
+            "countryCode": "TH"
+          },
+          "seatmap": null,
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "impact-arena",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://ticketmaster.co.th/ticket/area/27th_straykidsbkk/3857",
+            "image": null,
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "Z8ymWIMJlyZycZ7k1e",
+          "name": "Westlife 25: The Anniversary World Tour in Bangkok",
+          "url": "https://ticketmaster.co.th/ticket/area/26th_westlifebkk/3591",
+          "date": "2027-01-25",
+          "time": "20:00:00",
+          "timezone": "Asia/Bangkok",
+          "status": "onsale",
+          "venue": {
+            "providerId": "Z8ymWIMJlyZycZeA77",
+            "name": "Impact Arena, Muang Thong Thani",
+            "city": "",
+            "countryCode": "TH"
+          },
+          "seatmap": null,
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "impact-arena",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://ticketmaster.co.th/ticket/area/26th_westlifebkk/3591",
+            "image": null,
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "Z8ymWIMJlyZycZ7Fk6",
+          "name": "Maroon 5 Asia 2027 in Bangkok",
+          "url": "https://ticketmaster.co.th/ticket/area/26th_maroon5/3756",
+          "date": "2027-02-09",
+          "time": "20:00:00",
+          "timezone": "Asia/Bangkok",
+          "status": "onsale",
+          "venue": {
+            "providerId": "Z8ymWIMJlyZycZeA77",
+            "name": "Impact Arena, Muang Thong Thani",
+            "city": "",
+            "countryCode": "TH"
+          },
+          "seatmap": null,
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "impact-arena",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://ticketmaster.co.th/ticket/area/26th_maroon5/3756",
+            "image": null,
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          }
+        }
+      ],
+      "refreshedAt": "2026-10-24T16:45:37.211Z",
+      "status": "candidate"
+    },
+    "incheon-munhak-stadium": {
+      "venueId": "incheon-munhak-stadium",
+      "venueName": "韩国仁川文鹤竞技场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:37.495Z",
+      "status": "candidate"
+    },
+    "incheon-asiad": {
+      "venueId": "incheon-asiad",
+      "venueName": "仁川亚运会主体育场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:37.561Z",
+      "status": "candidate"
+    },
+    "indonesia-arena": {
+      "venueId": "indonesia-arena",
+      "venueName": "Indonesia Arena",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:37.561Z",
+      "status": "candidate"
+    },
+    "jamsil-indoor": {
+      "venueId": "jamsil-indoor",
+      "venueName": "蚕室室内体育馆",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:37.840Z",
+      "status": "candidate"
+    },
+    "jakarta-stadium": {
+      "venueId": "jakarta-stadium",
+      "venueName": "雅加达国际体育场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:37.907Z",
+      "status": "candidate"
+    },
+    "inspire-arena": {
+      "venueId": "inspire-arena",
+      "venueName": "INSPIRE Arena · 迎仕柏",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:37.907Z",
+      "status": "candidate"
+    },
+    "jiaxing-sports-center-stadium": {
+      "venueId": "jiaxing-sports-center-stadium",
+      "venueName": "嘉兴市体育中心体育场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:38.181Z",
+      "status": "candidate"
+    },
+    "jangchung-arena": {
+      "venueId": "jangchung-arena",
+      "venueName": "奖忠体育馆",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:38.398Z",
+      "status": "candidate"
+    },
+    "japan-national": {
+      "venueId": "japan-national",
+      "venueName": "日本国立竞技场 · MUFG",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:38.398Z",
+      "status": "candidate"
+    },
+    "jinan-olympic-gymnasium": {
+      "venueId": "jinan-olympic-gymnasium",
+      "venueName": "济南奥林匹克体育中心体育馆",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:38.678Z",
+      "status": "candidate"
+    },
+    "jinan-olympic-stadium": {
+      "venueId": "jinan-olympic-stadium",
+      "venueName": "济南奥林匹克体育中心体育场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:38.692Z",
+      "status": "candidate"
+    },
+    "john-cain-arena": {
+      "venueId": "john-cain-arena",
+      "venueName": "John Cain Arena",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:38.909Z",
+      "status": "candidate"
+    },
+    "kai-tak-stadium": {
+      "venueId": "kai-tak-stadium",
+      "venueName": "启德主场馆",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:39.193Z",
+      "status": "candidate"
+    },
+    "kai-tak-arena": {
+      "venueId": "kai-tak-arena",
+      "venueName": "启德体艺馆",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:39.260Z",
+      "status": "candidate"
+    },
+    "k-arena-yokohama": {
+      "venueId": "k-arena-yokohama",
+      "venueName": "K-Arena Yokohama",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:39.260Z",
+      "status": "candidate"
+    },
+    "kaohsiung-national": {
+      "venueId": "kaohsiung-national",
+      "venueName": "高雄国家体育场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:39.532Z",
+      "status": "candidate"
+    },
+    "kaohsiung-arena": {
+      "venueId": "kaohsiung-arena",
+      "venueName": "高雄巨蛋",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:39.599Z",
+      "status": "candidate"
+    },
+    "kbs-arena": {
+      "venueId": "kbs-arena",
+      "venueName": "KBS Arena",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:39.599Z",
+      "status": "candidate"
+    },
+    "kintex-hall-10": {
+      "venueId": "kintex-hall-10",
+      "venueName": "KINTEX · 第2展览中心 10号厅",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:39.902Z",
+      "status": "candidate"
+    },
+    "kintex-hall-1": {
+      "venueId": "kintex-hall-1",
+      "venueName": "KINTEX · 第1展览中心 1号厅",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:39.904Z",
+      "status": "candidate"
+    },
+    "keio-arena-tokyo": {
+      "venueId": "keio-arena-tokyo",
+      "venueName": "京王竞技场东京",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:39.969Z",
+      "status": "candidate"
+    },
+    "kintex-hall-2": {
+      "venueId": "kintex-hall-2",
+      "venueName": "KINTEX · 第1展览中心 2号厅",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:40.656Z",
+      "status": "candidate"
+    },
+    "kintex-hall-4": {
+      "venueId": "kintex-hall-4",
+      "venueName": "KINTEX · 第1展览中心 4号厅",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:40.661Z",
+      "status": "candidate"
+    },
+    "kintex-hall-3": {
+      "venueId": "kintex-hall-3",
+      "venueName": "KINTEX · 第1展览中心 3号厅",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:40.724Z",
+      "status": "candidate"
+    },
+    "kintex-hall-6": {
+      "venueId": "kintex-hall-6",
+      "venueName": "KINTEX · 第2展览中心 6号厅（Event Hall）",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:41.023Z",
+      "status": "candidate"
+    },
+    "kintex-hall-7": {
+      "venueId": "kintex-hall-7",
+      "venueName": "KINTEX · 第2展览中心 7号厅",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:41.026Z",
+      "status": "candidate"
+    },
+    "kintex-hall-5": {
+      "venueId": "kintex-hall-5",
+      "venueName": "KINTEX · 第1展览中心 5号厅",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:41.046Z",
+      "status": "candidate"
+    },
+    "kspo-dome": {
+      "venueId": "kspo-dome",
+      "venueName": "KSPO DOME",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:41.342Z",
+      "status": "candidate"
+    },
+    "kintex-hall-9": {
+      "venueId": "kintex-hall-9",
+      "venueName": "KINTEX · 第2展览中心 9号厅",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:41.433Z",
+      "status": "candidate"
+    },
+    "kintex-hall-8": {
+      "venueId": "kintex-hall-8",
+      "venueName": "KINTEX · 第2展览中心 8号厅",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:41.433Z",
+      "status": "candidate"
+    },
+    "kunming-tuodong-stadium": {
+      "venueId": "kunming-tuodong-stadium",
+      "venueName": "昆明拓东体育场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:41.708Z",
+      "status": "candidate"
+    },
+    "kyocera-dome": {
+      "venueId": "kyocera-dome",
+      "venueName": "大阪京瓷巨蛋",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:41.842Z",
+      "status": "candidate"
+    },
+    "linyi-olympic-park-stadium": {
+      "venueId": "linyi-olympic-park-stadium",
+      "venueName": "临沂奥体公园体育场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:41.842Z",
+      "status": "candidate"
+    },
+    "london-the-o2": {
+      "venueId": "london-the-o2",
+      "venueName": "伦敦 The O2 体育馆",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:42.116Z",
+      "status": "candidate"
+    },
+    "londoner-arena": {
+      "venueId": "londoner-arena",
+      "venueName": "澳门伦敦人综艺馆",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:42.182Z",
+      "status": "candidate"
+    },
+    "londoner-theatre": {
+      "venueId": "londoner-theatre",
+      "venueName": "澳门伦敦人剧场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:42.182Z",
+      "status": "candidate"
+    },
+    "luoyang-olympic-stadium": {
+      "venueId": "luoyang-olympic-stadium",
+      "venueName": "洛阳奥林匹克体育中心体育场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:42.464Z",
+      "status": "candidate"
+    },
+    "los-angeles-the-novo": {
+      "venueId": "los-angeles-the-novo",
+      "venueName": "洛杉矶 The Novo",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:42.531Z",
+      "status": "candidate"
+    },
+    "los-angeles-kia-forum": {
+      "venueId": "los-angeles-kia-forum",
+      "venueName": "洛杉矶 Kia Forum",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:42.531Z",
+      "status": "candidate"
+    },
+    "macau-grand-lisboa-palace": {
+      "venueId": "macau-grand-lisboa-palace",
+      "venueName": "澳门上葡京综艺馆",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:42.807Z",
+      "status": "candidate"
+    },
+    "makuhari-halls-4-6": {
+      "venueId": "makuhari-halls-4-6",
+      "venueName": "幕张展览馆 · 国际展示场 4–6 号厅",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:42.822Z",
+      "status": "candidate"
+    },
+    "makuhari-halls-1-3": {
+      "venueId": "makuhari-halls-1-3",
+      "venueName": "幕张展览馆 · 国际展示场 1–3 号厅",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:42.873Z",
+      "status": "candidate"
+    },
+    "mercedes-benz-arena": {
+      "venueId": "mercedes-benz-arena",
+      "venueName": "梅赛德斯-奔驰文化中心",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:43.152Z",
+      "status": "candidate"
+    },
+    "melbourne-rod-laver-arena": {
+      "venueId": "melbourne-rod-laver-arena",
+      "venueName": "墨尔本罗德·拉沃尔竞技场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:43.164Z",
+      "status": "candidate"
+    },
+    "marvel-stadium": {
+      "venueId": "marvel-stadium",
+      "venueName": "Marvel Stadium · 漫威体育场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:43.220Z",
+      "status": "candidate"
+    },
+    "nanchang-international-stadium": {
+      "venueId": "nanchang-international-stadium",
+      "venueName": "南昌国际体育中心体育场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:43.500Z",
+      "status": "candidate"
+    },
+    "my-dinh": {
+      "venueId": "my-dinh",
+      "venueName": "美亭国家体育场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:43.505Z",
+      "status": "candidate"
+    },
+    "moa-arena": {
+      "venueId": "moa-arena",
+      "venueName": "SM 亚洲购物中心竞技场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:43.567Z",
+      "status": "candidate"
+    },
+    "nanjing-olympic-stadium": {
+      "venueId": "nanjing-olympic-stadium",
+      "venueName": "南京奥体中心体育场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:43.852Z",
+      "status": "candidate"
+    },
+    "nanjing-olympic-gymnasium": {
+      "venueId": "nanjing-olympic-gymnasium",
+      "venueName": "南京奥体中心国缘V9体育馆",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:43.854Z",
+      "status": "candidate"
+    },
+    "nanjing-youth-olympic-gymnasium": {
+      "venueId": "nanjing-youth-olympic-gymnasium",
+      "venueName": "南京梦之蓝青奥体育公园体育馆",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:43.856Z",
+      "status": "candidate"
+    },
+    "national-indoor": {
+      "venueId": "national-indoor",
+      "venueName": "国家体育馆",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:44.132Z",
+      "status": "candidate"
+    },
+    "nissan-stadium": {
+      "venueId": "nissan-stadium",
+      "venueName": "日产体育场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:44.133Z",
+      "status": "candidate"
+    },
+    "national-hockey": {
+      "venueId": "national-hockey",
+      "venueName": "武吉加里尔国家曲棍球场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:44.137Z",
+      "status": "candidate"
+    },
+    "oriental-sports": {
+      "venueId": "oriental-sports",
+      "venueName": "东方体育中心 · 海上王冠",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:44.420Z",
+      "status": "candidate"
+    },
+    "olympic-hall": {
+      "venueId": "olympic-hall",
+      "venueName": "奥林匹克 Hall",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:44.420Z",
+      "status": "candidate"
+    },
+    "ntsu-arena": {
+      "venueId": "ntsu-arena",
+      "venueName": "国立体育大学综合体育馆",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:44.522Z",
+      "status": "candidate"
+    },
+    "paris-stade-de-france": {
+      "venueId": "paris-stade-de-france",
+      "venueName": "法兰西体育场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:44.801Z",
+      "status": "candidate"
+    },
+    "paypay-dome": {
+      "venueId": "paypay-dome",
+      "venueName": "福冈 Mizuho PayPay Dome",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:44.804Z",
+      "status": "candidate"
+    },
+    "ovo-arena-wembley": {
+      "venueId": "ovo-arena-wembley",
+      "venueName": "OVO Arena Wembley",
+      "events": [
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "1AdjZ_dGkw8Qoii",
+          "name": "Rock Orchestra - Venue Premium Tickets",
+          "url": "https://www.ticketmaster.co.uk/rock-orchestra-venue-premium-tickets-london-25-10-2026/event/3700643C90691B2C",
+          "date": "2026-10-25",
+          "time": "19:00:00",
+          "timezone": "Europe/London",
+          "status": "onsale",
+          "venue": {
+            "providerId": "KovZ9177yOV",
+            "name": "OVO Arena Wembley",
+            "city": "London",
+            "countryCode": "GB"
+          },
+          "seatmap": {
+            "staticUrl": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/13538s.gif",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "ovo-arena-wembley",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.co.uk/rock-orchestra-venue-premium-tickets-london-25-10-2026/event/3700643C90691B2C",
+            "image": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/13538s.gif",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "17uYv0G6GEcuV53",
+          "name": "Jay Park - Venue Premium Tickets",
+          "url": "https://www.ticketmaster.co.uk/jay-park-venue-premium-tickets-london-26-10-2026/event/370064C9ED3742D2",
+          "date": "2026-10-26",
+          "time": "18:00:00",
+          "timezone": "Europe/London",
+          "status": "onsale",
+          "venue": {
+            "providerId": "KovZ9177yOV",
+            "name": "OVO Arena Wembley",
+            "city": "London",
+            "countryCode": "GB"
+          },
+          "seatmap": {
+            "staticUrl": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/13538s.gif",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "ovo-arena-wembley",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.co.uk/jay-park-venue-premium-tickets-london-26-10-2026/event/370064C9ED3742D2",
+            "image": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/13538s.gif",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "17uYv0G6GNjnSLL",
+          "name": "Jay Park Ft. LNGSHOT - Body Rolls & Serenades World Tour",
+          "url": "https://www.ticketmaster.co.uk/jay-park-ft-lngshot-body-rolls-london-26-10-2026/event/370064C8DCAB37DF",
+          "date": "2026-10-26",
+          "time": "18:30:00",
+          "timezone": "Europe/London",
+          "status": "onsale",
+          "venue": {
+            "providerId": "KovZ9177yOV",
+            "name": "OVO Arena Wembley",
+            "city": "London",
+            "countryCode": "GB"
+          },
+          "seatmap": {
+            "staticUrl": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/11537s.gif",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "ovo-arena-wembley",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.co.uk/jay-park-ft-lngshot-body-rolls-london-26-10-2026/event/370064C8DCAB37DF",
+            "image": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/11537s.gif",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "1AMZkCvGkdmyunr",
+          "name": "TOKIO HOTEL - Venue Premium Tickets",
+          "url": "https://www.ticketmaster.co.uk/tokio-hotel-venue-premium-tickets-london-28-10-2026/event/37006381EEE4DA9E",
+          "date": "2026-10-28",
+          "time": "18:00:00",
+          "timezone": "Europe/London",
+          "status": "onsale",
+          "venue": {
+            "providerId": "KovZ9177yOV",
+            "name": "OVO Arena Wembley",
+            "city": "London",
+            "countryCode": "GB"
+          },
+          "seatmap": {
+            "staticUrl": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/13538s.gif",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "ovo-arena-wembley",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.co.uk/tokio-hotel-venue-premium-tickets-london-28-10-2026/event/37006381EEE4DA9E",
+            "image": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/13538s.gif",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "1AdjZbJGkDL-kcr",
+          "name": "Tokio Hotel Arena Tour 2026",
+          "url": "https://www.ticketmaster.co.uk/tokio-hotel-arena-tour-2026-london-28-10-2026/event/3700626EDF846B5E",
+          "date": "2026-10-28",
+          "time": "18:30:00",
+          "timezone": "Europe/London",
+          "status": "onsale",
+          "venue": {
+            "providerId": "KovZ9177yOV",
+            "name": "OVO Arena Wembley",
+            "city": "London",
+            "countryCode": "GB"
+          },
+          "seatmap": {
+            "staticUrl": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/11537s.gif",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "ovo-arena-wembley",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.co.uk/tokio-hotel-arena-tour-2026-london-28-10-2026/event/3700626EDF846B5E",
+            "image": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/11537s.gif",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "1AMZkfMGkdDzbAk",
+          "name": "Macklemore & Friends: Free Palestine Tour",
+          "url": "https://www.ticketmaster.co.uk/macklemore-friends-free-palestine-tour-london-30-10-2026/event/37006537FBE18146",
+          "date": "2026-10-30",
+          "time": "18:00:00",
+          "timezone": "Europe/London",
+          "status": "onsale",
+          "venue": {
+            "providerId": "KovZ9177yOV",
+            "name": "OVO Arena Wembley",
+            "city": "London",
+            "countryCode": "GB"
+          },
+          "seatmap": {
+            "staticUrl": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/34201s.gif",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "ovo-arena-wembley",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.co.uk/macklemore-friends-free-palestine-tour-london-30-10-2026/event/37006537FBE18146",
+            "image": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/34201s.gif",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "1kuYvPCaGA5ZKrZ",
+          "name": "Macklemore & Friends: Free Palestine - Venue Premium Tickets",
+          "url": "https://www.ticketmaster.co.uk/macklemore-friends-free-palestine-venue-premium-london-30-10-2026/event/370065389B013780",
+          "date": "2026-10-30",
+          "time": "18:00:00",
+          "timezone": "Europe/London",
+          "status": "onsale",
+          "venue": {
+            "providerId": "KovZ9177yOV",
+            "name": "OVO Arena Wembley",
+            "city": "London",
+            "countryCode": "GB"
+          },
+          "seatmap": {
+            "staticUrl": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/13538s.gif",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "ovo-arena-wembley",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.co.uk/macklemore-friends-free-palestine-venue-premium-london-30-10-2026/event/370065389B013780",
+            "image": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/13538s.gif",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "17uYv0G62TNBxEZ",
+          "name": "Tamer Hosny - Venue Premium Tickets",
+          "url": "https://www.ticketmaster.co.uk/tamer-hosny-venue-premium-tickets-london-31-10-2026/event/370064FFE3EA29C0",
+          "date": "2026-10-31",
+          "time": "18:00:00",
+          "timezone": "Europe/London",
+          "status": "onsale",
+          "venue": {
+            "providerId": "KovZ9177yOV",
+            "name": "OVO Arena Wembley",
+            "city": "London",
+            "countryCode": "GB"
+          },
+          "seatmap": {
+            "staticUrl": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/13538s.gif",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "ovo-arena-wembley",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.co.uk/tamer-hosny-venue-premium-tickets-london-31-10-2026/event/370064FFE3EA29C0",
+            "image": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/13538s.gif",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "17uYv0G62UqO-ui",
+          "name": "Tamer Hosny",
+          "url": "https://www.ticketmaster.co.uk/tamer-hosny-london-31-10-2026/event/370064FD9D82136C",
+          "date": "2026-10-31",
+          "time": "18:00:00",
+          "timezone": "Europe/London",
+          "status": "onsale",
+          "venue": {
+            "providerId": "KovZ9177yOV",
+            "name": "OVO Arena Wembley",
+            "city": "London",
+            "countryCode": "GB"
+          },
+          "seatmap": {
+            "staticUrl": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/11537s.gif",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "ovo-arena-wembley",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.co.uk/tamer-hosny-london-31-10-2026/event/370064FD9D82136C",
+            "image": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/11537s.gif",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "17uYv0G659oJSZB",
+          "name": "Synthony - Venue Premium Tickets",
+          "url": "https://www.ticketmaster.co.uk/synthony-venue-premium-tickets-london-01-11-2026/event/370064B5D19B303A",
+          "date": "2026-11-01",
+          "time": "18:00:00",
+          "timezone": "Europe/London",
+          "status": "onsale",
+          "venue": {
+            "providerId": "KovZ9177yOV",
+            "name": "OVO Arena Wembley",
+            "city": "London",
+            "countryCode": "GB"
+          },
+          "seatmap": {
+            "staticUrl": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/13538s.gif",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "ovo-arena-wembley",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.co.uk/synthony-venue-premium-tickets-london-01-11-2026/event/370064B5D19B303A",
+            "image": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/13538s.gif",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "1AdjZ_aGkS4HUeD",
+          "name": "Omah Lay: Clarity of Mind World Tour",
+          "url": "https://www.ticketmaster.co.uk/omah-lay-clarity-of-mind-world-london-12-11-2026/event/3700649CD5F360BB",
+          "date": "2026-11-12",
+          "time": "18:00:00",
+          "timezone": "Europe/London",
+          "status": "onsale",
+          "venue": {
+            "providerId": "KovZ9177yOV",
+            "name": "OVO Arena Wembley",
+            "city": "London",
+            "countryCode": "GB"
+          },
+          "seatmap": {
+            "staticUrl": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/11537s.gif",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "ovo-arena-wembley",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.co.uk/omah-lay-clarity-of-mind-world-london-12-11-2026/event/3700649CD5F360BB",
+            "image": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/11537s.gif",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "1AdjZ_aGkBnc01q",
+          "name": "Omah Lay - Venue Premium Tickets",
+          "url": "https://www.ticketmaster.co.uk/omah-lay-venue-premium-tickets-london-12-11-2026/event/3700649EAAB6429D",
+          "date": "2026-11-12",
+          "time": "18:01:00",
+          "timezone": "Europe/London",
+          "status": "onsale",
+          "venue": {
+            "providerId": "KovZ9177yOV",
+            "name": "OVO Arena Wembley",
+            "city": "London",
+            "countryCode": "GB"
+          },
+          "seatmap": {
+            "staticUrl": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/13538s.gif",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "ovo-arena-wembley",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.co.uk/omah-lay-venue-premium-tickets-london-12-11-2026/event/3700649EAAB6429D",
+            "image": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/13538s.gif",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "17uYv0G61xclV6b",
+          "name": "Tayc - Venue Premium Tickets",
+          "url": "https://www.ticketmaster.co.uk/tayc-venue-premium-tickets-london-15-11-2026/event/370064A8ADAF41D8",
+          "date": "2026-11-15",
+          "time": "18:00:00",
+          "timezone": "Europe/London",
+          "status": "onsale",
+          "venue": {
+            "providerId": "KovZ9177yOV",
+            "name": "OVO Arena Wembley",
+            "city": "London",
+            "countryCode": "GB"
+          },
+          "seatmap": {
+            "staticUrl": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/13538s.gif",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "ovo-arena-wembley",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.co.uk/tayc-venue-premium-tickets-london-15-11-2026/event/370064A8ADAF41D8",
+            "image": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/13538s.gif",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "1AMZko3GkeSeEq0",
+          "name": "Shinedown - Venue Premium Tickets",
+          "url": "https://www.ticketmaster.co.uk/shinedown-venue-premium-tickets-london-19-11-2026/event/37006452B30A7764",
+          "date": "2026-11-19",
+          "time": "18:00:00",
+          "timezone": "Europe/London",
+          "status": "onsale",
+          "venue": {
+            "providerId": "KovZ9177yOV",
+            "name": "OVO Arena Wembley",
+            "city": "London",
+            "countryCode": "GB"
+          },
+          "seatmap": {
+            "staticUrl": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/13538s.gif",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "ovo-arena-wembley",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.co.uk/shinedown-venue-premium-tickets-london-19-11-2026/event/37006452B30A7764",
+            "image": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/13538s.gif",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "1AMZkokGkeU5VkR",
+          "name": "Shinedown: Dance, Kid, Dance Act II",
+          "url": "https://www.ticketmaster.co.uk/shinedown-dance-kid-dance-act-ii-london-19-11-2026/event/37006446B62F41AF",
+          "date": "2026-11-19",
+          "time": "18:00:00",
+          "timezone": "Europe/London",
+          "status": "onsale",
+          "venue": {
+            "providerId": "KovZ9177yOV",
+            "name": "OVO Arena Wembley",
+            "city": "London",
+            "countryCode": "GB"
+          },
+          "seatmap": {
+            "staticUrl": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/11537s.gif",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "ovo-arena-wembley",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.co.uk/shinedown-dance-kid-dance-act-ii-london-19-11-2026/event/37006446B62F41AF",
+            "image": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/11537s.gif",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "17uYv0G6uQN-PJM",
+          "name": "Duke Dumont - Venue Premium Tickets",
+          "url": "https://www.ticketmaster.co.uk/duke-dumont-venue-premium-tickets-london-21-11-2026/event/370064D6A38659B7",
+          "date": "2026-11-21",
+          "time": "18:00:00",
+          "timezone": "Europe/London",
+          "status": "onsale",
+          "venue": {
+            "providerId": "KovZ9177yOV",
+            "name": "OVO Arena Wembley",
+            "city": "London",
+            "countryCode": "GB"
+          },
+          "seatmap": {
+            "staticUrl": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/13538s.gif",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "ovo-arena-wembley",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.co.uk/duke-dumont-venue-premium-tickets-london-21-11-2026/event/370064D6A38659B7",
+            "image": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/13538s.gif",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "17uYv0G6uvT8-i1",
+          "name": "Duke Dumont",
+          "url": "https://www.ticketmaster.co.uk/duke-dumont-london-21-11-2026/event/370064D07F421B0A",
+          "date": "2026-11-21",
+          "time": "18:00:00",
+          "timezone": "Europe/London",
+          "status": "onsale",
+          "venue": {
+            "providerId": "KovZ9177yOV",
+            "name": "OVO Arena Wembley",
+            "city": "London",
+            "countryCode": "GB"
+          },
+          "seatmap": {
+            "staticUrl": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/11537s.gif",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "ovo-arena-wembley",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.co.uk/duke-dumont-london-21-11-2026/event/370064D07F421B0A",
+            "image": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/11537s.gif",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "1AMZkfKGkdharjQ",
+          "name": "Taemin - Venue Premium Tickets",
+          "url": "https://www.ticketmaster.co.uk/taemin-venue-premium-tickets-london-22-11-2026/event/37006513DB25E71A",
+          "date": "2026-11-22",
+          "time": "18:00:00",
+          "timezone": "Europe/London",
+          "status": "onsale",
+          "venue": {
+            "providerId": "KovZ9177yOV",
+            "name": "OVO Arena Wembley",
+            "city": "London",
+            "countryCode": "GB"
+          },
+          "seatmap": {
+            "staticUrl": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/13538s.gif",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "ovo-arena-wembley",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.co.uk/taemin-venue-premium-tickets-london-22-11-2026/event/37006513DB25E71A",
+            "image": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/13538s.gif",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "17uYv0G6uNrBc_1",
+          "name": "Don Toliver- Venue Premium Tickets",
+          "url": "https://www.ticketmaster.co.uk/don-toliver-venue-premium-tickets-london-24-11-2026/event/370064D8DEEAD64A",
+          "date": "2026-11-24",
+          "time": "18:00:00",
+          "timezone": "Europe/London",
+          "status": "onsale",
+          "venue": {
+            "providerId": "KovZ9177yOV",
+            "name": "OVO Arena Wembley",
+            "city": "London",
+            "countryCode": "GB"
+          },
+          "seatmap": {
+            "staticUrl": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/13538s.gif",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "ovo-arena-wembley",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.co.uk/don-toliver-venue-premium-tickets-london-24-11-2026/event/370064D8DEEAD64A",
+            "image": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/13538s.gif",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "17uYv0G6urzfyjh",
+          "name": "DON TOLIVER: NITROUS - OCTANE WORLD TOUR LEG 2",
+          "url": "https://www.ticketmaster.co.uk/don-toliver-nitrous-octane-world-tour-london-24-11-2026/event/370064D7B853971B",
+          "date": "2026-11-24",
+          "time": "18:30:00",
+          "timezone": "Europe/London",
+          "status": "onsale",
+          "venue": {
+            "providerId": "KovZ9177yOV",
+            "name": "OVO Arena Wembley",
+            "city": "London",
+            "countryCode": "GB"
+          },
+          "seatmap": {
+            "staticUrl": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/11537s.gif",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "ovo-arena-wembley",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.co.uk/don-toliver-nitrous-octane-world-tour-london-24-11-2026/event/370064D7B853971B",
+            "image": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/11537s.gif",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "17uYv0G62x0zsWO",
+          "name": "Esdee Kid - Venue Premium Tickets",
+          "url": "https://www.ticketmaster.co.uk/esdee-kid-venue-premium-tickets-london-03-12-2026/event/370064F8A4E31F60",
+          "date": "2026-12-03",
+          "time": "18:00:00",
+          "timezone": "Europe/London",
+          "status": "onsale",
+          "venue": {
+            "providerId": "KovZ9177yOV",
+            "name": "OVO Arena Wembley",
+            "city": "London",
+            "countryCode": "GB"
+          },
+          "seatmap": null,
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "ovo-arena-wembley",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.co.uk/esdee-kid-venue-premium-tickets-london-03-12-2026/event/370064F8A4E31F60",
+            "image": null,
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "17uYv0G6GRc87RV",
+          "name": "Razorlight - 'America' 20th Anniversary Tour",
+          "url": "https://www.ticketmaster.co.uk/razorlight-america-20th-anniversary-tour-london-04-12-2026/event/370064CBED404BF4",
+          "date": "2026-12-04",
+          "time": "18:00:00",
+          "timezone": "Europe/London",
+          "status": "onsale",
+          "venue": {
+            "providerId": "KovZ9177yOV",
+            "name": "OVO Arena Wembley",
+            "city": "London",
+            "countryCode": "GB"
+          },
+          "seatmap": {
+            "staticUrl": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/11537s.gif",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "ovo-arena-wembley",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.co.uk/razorlight-america-20th-anniversary-tour-london-04-12-2026/event/370064CBED404BF4",
+            "image": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/11537s.gif",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "17uYv0G6Giu3pZG",
+          "name": "Razorlight - Venue Premium Tickets",
+          "url": "https://www.ticketmaster.co.uk/razorlight-venue-premium-tickets-london-04-12-2026/event/370064CB0D49600C",
+          "date": "2026-12-04",
+          "time": "19:30:00",
+          "timezone": "Europe/London",
+          "status": "onsale",
+          "venue": {
+            "providerId": "KovZ9177yOV",
+            "name": "OVO Arena Wembley",
+            "city": "London",
+            "countryCode": "GB"
+          },
+          "seatmap": {
+            "staticUrl": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/13538s.gif",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "ovo-arena-wembley",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.co.uk/razorlight-venue-premium-tickets-london-04-12-2026/event/370064CB0D49600C",
+            "image": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/13538s.gif",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "1AdjZ_kGkUfCsYB",
+          "name": "Placebo - 30th Anniversary Tour",
+          "url": "https://www.ticketmaster.co.uk/placebo-30th-anniversary-tour-london-05-12-2026/event/3700646D943B1C3A",
+          "date": "2026-12-05",
+          "time": "18:00:00",
+          "timezone": "Europe/London",
+          "status": "onsale",
+          "venue": {
+            "providerId": "KovZ9177yOV",
+            "name": "OVO Arena Wembley",
+            "city": "London",
+            "countryCode": "GB"
+          },
+          "seatmap": {
+            "staticUrl": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/11537s.gif",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "ovo-arena-wembley",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.co.uk/placebo-30th-anniversary-tour-london-05-12-2026/event/3700646D943B1C3A",
+            "image": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/11537s.gif",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "1AMZkowGkeOWK-g",
+          "name": "Placebo - Venue Premium Tickets",
+          "url": "https://www.ticketmaster.co.uk/placebo-venue-premium-tickets-london-05-12-2026/event/37006472A0F53875",
+          "date": "2026-12-05",
+          "time": "19:00:00",
+          "timezone": "Europe/London",
+          "status": "onsale",
+          "venue": {
+            "providerId": "KovZ9177yOV",
+            "name": "OVO Arena Wembley",
+            "city": "London",
+            "countryCode": "GB"
+          },
+          "seatmap": null,
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "ovo-arena-wembley",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.co.uk/placebo-venue-premium-tickets-london-05-12-2026/event/37006472A0F53875",
+            "image": null,
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "1AMZkfUGkdK4pZJ",
+          "name": "Andra - Venue Premium Tickets",
+          "url": "https://www.ticketmaster.co.uk/andra-venue-premium-tickets-london-06-12-2026/event/37006536D3556026",
+          "date": "2026-12-06",
+          "time": "17:30:00",
+          "timezone": "Europe/London",
+          "status": "onsale",
+          "venue": {
+            "providerId": "KovZ9177yOV",
+            "name": "OVO Arena Wembley",
+            "city": "London",
+            "countryCode": "GB"
+          },
+          "seatmap": {
+            "staticUrl": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/13538s.gif",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "ovo-arena-wembley",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.co.uk/andra-venue-premium-tickets-london-06-12-2026/event/37006536D3556026",
+            "image": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/13538s.gif",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "17uYv0G62kHovVz",
+          "name": "You Me & Comedy Live - Venue Premium Tickets",
+          "url": "https://www.ticketmaster.co.uk/you-me-comedy-live-venue-premium-london-07-12-2026/event/370064F1BC441D38",
+          "date": "2026-12-07",
+          "time": "18:00:00",
+          "timezone": "Europe/London",
+          "status": "cancelled",
+          "venue": {
+            "providerId": "KovZ9177yOV",
+            "name": "OVO Arena Wembley",
+            "city": "London",
+            "countryCode": "GB"
+          },
+          "seatmap": {
+            "staticUrl": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/13538s.gif",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Arts & Theatre"
+          ],
+          "seatScopeVenueId": "ovo-arena-wembley",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.co.uk/you-me-comedy-live-venue-premium-london-07-12-2026/event/370064F1BC441D38",
+            "image": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/13538s.gif",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "1AMZkf-Gkdgu2i2",
+          "name": "you me & comedy - Cedric the Entertainer,Tiffany Haddish, Mo'nique",
+          "url": "https://www.ticketmaster.co.uk/you-me-comedy-cedric-the-entertainertiffany-london-07-12-2026/event/37006521F534FB0F",
+          "date": "2026-12-07",
+          "time": "18:00:00",
+          "timezone": "Europe/London",
+          "status": "cancelled",
+          "venue": {
+            "providerId": "KovZ9177yOV",
+            "name": "OVO Arena Wembley",
+            "city": "London",
+            "countryCode": "GB"
+          },
+          "seatmap": {
+            "staticUrl": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/13538s.gif",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Arts & Theatre"
+          ],
+          "seatScopeVenueId": "ovo-arena-wembley",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.co.uk/you-me-comedy-cedric-the-entertainertiffany-london-07-12-2026/event/37006521F534FB0F",
+            "image": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/13538s.gif",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "16djZ_fk3G7X-g9",
+          "name": "Jamie T",
+          "url": "https://www.ticketmaster.co.uk/jamie-t-london-11-12-2026/event/3700654192FA1D57",
+          "date": "2026-12-11",
+          "time": "18:00:00",
+          "timezone": "Europe/London",
+          "status": "onsale",
+          "venue": {
+            "providerId": "KovZ9177yOV",
+            "name": "OVO Arena Wembley",
+            "city": "London",
+            "countryCode": "GB"
+          },
+          "seatmap": null,
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "ovo-arena-wembley",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.co.uk/jamie-t-london-11-12-2026/event/3700654192FA1D57",
+            "image": null,
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "15djZ_fkbjwaI",
+          "name": "Jamie T",
+          "url": "https://www.ticketmaster.co.uk/jamie-t-london-12-12-2026/event/3700654198732268",
+          "date": "2026-12-12",
+          "time": "18:00:00",
+          "timezone": "Europe/London",
+          "status": "onsale",
+          "venue": {
+            "providerId": "KovZ9177yOV",
+            "name": "OVO Arena Wembley",
+            "city": "London",
+            "countryCode": "GB"
+          },
+          "seatmap": null,
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "ovo-arena-wembley",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.co.uk/jamie-t-london-12-12-2026/event/3700654198732268",
+            "image": null,
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "1AdjZ_fGkTlU_M0",
+          "name": "Jamie T - Venue Premium Tickets",
+          "url": "https://www.ticketmaster.co.uk/jamie-t-venue-premium-tickets-london-12-12-2026/event/3700654FEBD99DE4",
+          "date": "2026-12-12",
+          "time": "18:00:00",
+          "timezone": "Europe/London",
+          "status": "onsale",
+          "venue": {
+            "providerId": "KovZ9177yOV",
+            "name": "OVO Arena Wembley",
+            "city": "London",
+            "countryCode": "GB"
+          },
+          "seatmap": {
+            "staticUrl": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/13538s.gif",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "ovo-arena-wembley",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.co.uk/jamie-t-venue-premium-tickets-london-12-12-2026/event/3700654FEBD99DE4",
+            "image": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/13538s.gif",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "1AdjZ_8GkM9ZALM",
+          "name": "Jubin Nautiyal",
+          "url": "https://www.ticketmaster.co.uk/jubin-nautiyal-london-13-12-2026/event/3700650DD70057F7",
+          "date": "2026-12-13",
+          "time": "18:00:00",
+          "timezone": "Europe/London",
+          "status": "onsale",
+          "venue": {
+            "providerId": "KovZ9177yOV",
+            "name": "OVO Arena Wembley",
+            "city": "London",
+            "countryCode": "GB"
+          },
+          "seatmap": {
+            "staticUrl": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/13538s.gif",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "ovo-arena-wembley",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.co.uk/jubin-nautiyal-london-13-12-2026/event/3700650DD70057F7",
+            "image": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/13538s.gif",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "1AdjZ_8GkSNqAsq",
+          "name": "Jubin Nautiyal - Venue Premium Tickets",
+          "url": "https://www.ticketmaster.co.uk/jubin-nautiyal-venue-premium-tickets-london-13-12-2026/event/3700650CE3745C5D",
+          "date": "2026-12-13",
+          "time": "18:00:00",
+          "timezone": "Europe/London",
+          "status": "onsale",
+          "venue": {
+            "providerId": "KovZ9177yOV",
+            "name": "OVO Arena Wembley",
+            "city": "London",
+            "countryCode": "GB"
+          },
+          "seatmap": {
+            "staticUrl": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/13538s.gif",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "ovo-arena-wembley",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.co.uk/jubin-nautiyal-venue-premium-tickets-london-13-12-2026/event/3700650CE3745C5D",
+            "image": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/13538s.gif",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "1AMZk4aGkdy7Di8",
+          "name": "The Chronicles of Giggs: Giggs, The Lox, Beenie Man",
+          "url": "https://www.ticketmaster.co.uk/the-chronicles-of-giggs-giggs-the-london-16-12-2026/event/37006549F913BB10",
+          "date": "2026-12-16",
+          "time": "18:00:00",
+          "timezone": "Europe/London",
+          "status": "onsale",
+          "venue": {
+            "providerId": "KovZ9177yOV",
+            "name": "OVO Arena Wembley",
+            "city": "London",
+            "countryCode": "GB"
+          },
+          "seatmap": {
+            "staticUrl": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/11537s.gif",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "ovo-arena-wembley",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.co.uk/the-chronicles-of-giggs-giggs-the-london-16-12-2026/event/37006549F913BB10",
+            "image": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/11537s.gif",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "1AdjZ_fGkS7_7p6",
+          "name": "Giggs - Venue Premium Tickets",
+          "url": "https://www.ticketmaster.co.uk/giggs-venue-premium-tickets-london-16-12-2026/event/3700654CC4644587",
+          "date": "2026-12-16",
+          "time": "18:00:00",
+          "timezone": "Europe/London",
+          "status": "onsale",
+          "venue": {
+            "providerId": "KovZ9177yOV",
+            "name": "OVO Arena Wembley",
+            "city": "London",
+            "countryCode": "GB"
+          },
+          "seatmap": {
+            "staticUrl": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/13538s.gif",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "ovo-arena-wembley",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.co.uk/giggs-venue-premium-tickets-london-16-12-2026/event/3700654CC4644587",
+            "image": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/13538s.gif",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "17uYv0G623suvH3",
+          "name": "Udit Narayan & Aditya Narayan - Venue Premium Tickets",
+          "url": "https://www.ticketmaster.co.uk/udit-narayan-aditya-narayan-venue-premium-london-20-12-2026/event/370064F4B1341F12",
+          "date": "2026-12-20",
+          "time": "18:00:00",
+          "timezone": "Europe/London",
+          "status": "onsale",
+          "venue": {
+            "providerId": "KovZ9177yOV",
+            "name": "OVO Arena Wembley",
+            "city": "London",
+            "countryCode": "GB"
+          },
+          "seatmap": {
+            "staticUrl": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/13538s.gif",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "ovo-arena-wembley",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.co.uk/udit-narayan-aditya-narayan-venue-premium-london-20-12-2026/event/370064F4B1341F12",
+            "image": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/13538s.gif",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "1AdjZ_8GkMEcUOF",
+          "name": "Bade Miyan Chote Miyan - Udit Narayan and Aditya Narayan",
+          "url": "https://www.ticketmaster.co.uk/bade-miyan-chote-miyan-udit-narayan-london-20-12-2026/event/3700650DE7B76808",
+          "date": "2026-12-20",
+          "time": "18:00:00",
+          "timezone": "Europe/London",
+          "status": "onsale",
+          "venue": {
+            "providerId": "KovZ9177yOV",
+            "name": "OVO Arena Wembley",
+            "city": "London",
+            "countryCode": "GB"
+          },
+          "seatmap": {
+            "staticUrl": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/13538s.gif",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "ovo-arena-wembley",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.co.uk/bade-miyan-chote-miyan-udit-narayan-london-20-12-2026/event/3700650DE7B76808",
+            "image": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/13538s.gif",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "1kuYvPG_GA2LvD4",
+          "name": "EBI Live in London - Venue Premium Tickets",
+          "url": "https://www.ticketmaster.co.uk/ebi-live-in-london-venue-premium-london-30-12-2026/event/370065319F7C1ED5",
+          "date": "2026-12-30",
+          "time": "18:00:00",
+          "timezone": "Europe/London",
+          "status": "onsale",
+          "venue": {
+            "providerId": "KovZ9177yOV",
+            "name": "OVO Arena Wembley",
+            "city": "London",
+            "countryCode": "GB"
+          },
+          "seatmap": {
+            "staticUrl": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/13538s.gif",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "ovo-arena-wembley",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.co.uk/ebi-live-in-london-venue-premium-london-30-12-2026/event/370065319F7C1ED5",
+            "image": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/13538s.gif",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "1AMZkf_GkeU3lvT",
+          "name": "SOTA - Venue Premium Tickets",
+          "url": "https://www.ticketmaster.co.uk/sota-venue-premium-tickets-london-30-01-2027/event/37006519B64AB07F",
+          "date": "2027-01-30",
+          "time": "19:00:00",
+          "timezone": "Europe/London",
+          "status": "onsale",
+          "venue": {
+            "providerId": "KovZ9177yOV",
+            "name": "OVO Arena Wembley",
+            "city": "London",
+            "countryCode": "GB"
+          },
+          "seatmap": {
+            "staticUrl": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/13538s.gif",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "ovo-arena-wembley",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.co.uk/sota-venue-premium-tickets-london-30-01-2027/event/37006519B64AB07F",
+            "image": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/13538s.gif",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "1AMZkoYGkdVVCqn",
+          "name": "Scouting for Girls - Venue Premium Tickets",
+          "url": "https://www.ticketmaster.co.uk/scouting-for-girls-venue-premium-tickets-london-13-02-2027/event/37006470F4D0E76A",
+          "date": "2027-02-13",
+          "time": "18:00:00",
+          "timezone": "Europe/London",
+          "status": "onsale",
+          "venue": {
+            "providerId": "KovZ9177yOV",
+            "name": "OVO Arena Wembley",
+            "city": "London",
+            "countryCode": "GB"
+          },
+          "seatmap": {
+            "staticUrl": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/13538s.gif",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "ovo-arena-wembley",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.co.uk/scouting-for-girls-venue-premium-tickets-london-13-02-2027/event/37006470F4D0E76A",
+            "image": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/13538s.gif",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "1AMZkoYGkdhmiAJ",
+          "name": "Scouting for Girls",
+          "url": "https://www.ticketmaster.co.uk/scouting-for-girls-london-13-02-2027/event/37006470DBBAC166",
+          "date": "2027-02-13",
+          "time": "18:00:00",
+          "timezone": "Europe/London",
+          "status": "onsale",
+          "venue": {
+            "providerId": "KovZ9177yOV",
+            "name": "OVO Arena Wembley",
+            "city": "London",
+            "countryCode": "GB"
+          },
+          "seatmap": {
+            "staticUrl": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/11537s.gif",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "ovo-arena-wembley",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.co.uk/scouting-for-girls-london-13-02-2027/event/37006470DBBAC166",
+            "image": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/11537s.gif",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "17uYv0G6uQ4eV85",
+          "name": "ROLE MODEL - Venue Premium Tickets",
+          "url": "https://www.ticketmaster.co.uk/role-model-venue-premium-tickets-london-24-02-2027/event/370064D6950B440B",
+          "date": "2027-02-24",
+          "time": "18:00:00",
+          "timezone": "Europe/London",
+          "status": "onsale",
+          "venue": {
+            "providerId": "KovZ9177yOV",
+            "name": "OVO Arena Wembley",
+            "city": "London",
+            "countryCode": "GB"
+          },
+          "seatmap": {
+            "staticUrl": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/13538s.gif",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "ovo-arena-wembley",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.co.uk/role-model-venue-premium-tickets-london-24-02-2027/event/370064D6950B440B",
+            "image": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/13538s.gif",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "17uYv0G6ueiC0m_",
+          "name": "Role Model Presents: Chuck On Tour",
+          "url": "https://www.ticketmaster.co.uk/role-model-presents-chuck-on-tour-london-24-02-2027/event/370064D0AC3A4B99",
+          "date": "2027-02-24",
+          "time": "18:00:00",
+          "timezone": "Europe/London",
+          "status": "onsale",
+          "venue": {
+            "providerId": "KovZ9177yOV",
+            "name": "OVO Arena Wembley",
+            "city": "London",
+            "countryCode": "GB"
+          },
+          "seatmap": {
+            "staticUrl": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/11537s.gif",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "ovo-arena-wembley",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.co.uk/role-model-presents-chuck-on-tour-london-24-02-2027/event/370064D0AC3A4B99",
+            "image": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/11537s.gif",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "17uYv0G61NudkaN",
+          "name": "Kacey Musgraves - Venue Premium Tickets",
+          "url": "https://www.ticketmaster.co.uk/kacey-musgraves-venue-premium-tickets-london-26-02-2027/event/370064A8CD0C6263",
+          "date": "2027-02-26",
+          "time": "18:00:00",
+          "timezone": "Europe/London",
+          "status": "onsale",
+          "venue": {
+            "providerId": "KovZ9177yOV",
+            "name": "OVO Arena Wembley",
+            "city": "London",
+            "countryCode": "GB"
+          },
+          "seatmap": {
+            "staticUrl": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/13538s.gif",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "ovo-arena-wembley",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.co.uk/kacey-musgraves-venue-premium-tickets-london-26-02-2027/event/370064A8CD0C6263",
+            "image": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/13538s.gif",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "1AdjZ_aGkMwRF6S",
+          "name": "Kacey Musgraves",
+          "url": "https://www.ticketmaster.co.uk/kacey-musgraves-london-26-02-2027/event/3700649DF2BC81F3",
+          "date": "2027-02-26",
+          "time": "18:30:00",
+          "timezone": "Europe/London",
+          "status": "onsale",
+          "venue": {
+            "providerId": "KovZ9177yOV",
+            "name": "OVO Arena Wembley",
+            "city": "London",
+            "countryCode": "GB"
+          },
+          "seatmap": {
+            "staticUrl": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/32581s.gif",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "ovo-arena-wembley",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.co.uk/kacey-musgraves-london-26-02-2027/event/3700649DF2BC81F3",
+            "image": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/32581s.gif",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "17uYv0G6uQK8Vd5",
+          "name": "Valery Meladze - Venue Premium Tickets",
+          "url": "https://www.ticketmaster.co.uk/valery-meladze-venue-premium-tickets-london-08-03-2027/event/370064D6934340CB",
+          "date": "2027-03-08",
+          "time": "18:30:00",
+          "timezone": "Europe/London",
+          "status": "onsale",
+          "venue": {
+            "providerId": "KovZ9177yOV",
+            "name": "OVO Arena Wembley",
+            "city": "London",
+            "countryCode": "GB"
+          },
+          "seatmap": {
+            "staticUrl": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/13538s.gif",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "ovo-arena-wembley",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.co.uk/valery-meladze-venue-premium-tickets-london-08-03-2027/event/370064D6934340CB",
+            "image": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/13538s.gif",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "17uYv0G62B2kYHy",
+          "name": "Megadeth - Venue Premium Tickets",
+          "url": "https://www.ticketmaster.co.uk/megadeth-venue-premium-tickets-london-11-03-2027/event/370064FE8F1B0F39",
+          "date": "2027-03-11",
+          "time": "18:00:00",
+          "timezone": "Europe/London",
+          "status": "onsale",
+          "venue": {
+            "providerId": "KovZ9177yOV",
+            "name": "OVO Arena Wembley",
+            "city": "London",
+            "countryCode": "GB"
+          },
+          "seatmap": {
+            "staticUrl": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/13538s.gif",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "ovo-arena-wembley",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.co.uk/megadeth-venue-premium-tickets-london-11-03-2027/event/370064FE8F1B0F39",
+            "image": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/13538s.gif",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "17uYv0G62fFnALe",
+          "name": "Megadeth - Breakout: Hibernation Of The Nations Europe Tour 2027",
+          "url": "https://www.ticketmaster.co.uk/megadeth-breakout-hibernation-of-the-nations-london-11-03-2027/event/370064F508A857C2",
+          "date": "2027-03-11",
+          "time": "18:00:00",
+          "timezone": "Europe/London",
+          "status": "onsale",
+          "venue": {
+            "providerId": "KovZ9177yOV",
+            "name": "OVO Arena Wembley",
+            "city": "London",
+            "countryCode": "GB"
+          },
+          "seatmap": {
+            "staticUrl": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/11537s.gif",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "ovo-arena-wembley",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.co.uk/megadeth-breakout-hibernation-of-the-nations-london-11-03-2027/event/370064F508A857C2",
+            "image": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/11537s.gif",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "17uYv0G61MtzxxI",
+          "name": "FLO - Therapy At The Club Tour",
+          "url": "https://www.ticketmaster.co.uk/flo-therapy-at-the-club-tour-london-12-03-2027/event/370064ADE9E228A8",
+          "date": "2027-03-12",
+          "time": "18:30:00",
+          "timezone": "Europe/London",
+          "status": "onsale",
+          "venue": {
+            "providerId": "KovZ9177yOV",
+            "name": "OVO Arena Wembley",
+            "city": "London",
+            "countryCode": "GB"
+          },
+          "seatmap": {
+            "staticUrl": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/11537s.gif",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "ovo-arena-wembley",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.co.uk/flo-therapy-at-the-club-tour-london-12-03-2027/event/370064ADE9E228A8",
+            "image": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/11537s.gif",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        },
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "1AMZk4vGkdKfpZm",
+          "name": "FLO - Venue Premium Tickets",
+          "url": "https://www.ticketmaster.co.uk/flo-venue-premium-tickets-london-12-03-2027/event/37006541D351602E",
+          "date": "2027-03-12",
+          "time": "19:00:00",
+          "timezone": "Europe/London",
+          "status": "onsale",
+          "venue": {
+            "providerId": "KovZ9177yOV",
+            "name": "OVO Arena Wembley",
+            "city": "London",
+            "countryCode": "GB"
+          },
+          "seatmap": {
+            "staticUrl": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/13538s.gif",
+            "source": "ticketmaster-public-seatmap"
+          },
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "ovo-arena-wembley",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://www.ticketmaster.co.uk/flo-venue-premium-tickets-london-12-03-2027/event/37006541D351602E",
+            "image": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk4/13538s.gif",
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          }
+        }
+      ],
+      "refreshedAt": "2026-10-24T16:45:46.309Z",
+      "status": "candidate"
+    },
+    "qingdao-citizen-stadium": {
+      "venueId": "qingdao-citizen-stadium",
+      "venueName": "青岛市民健身中心体育场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:46.988Z",
+      "status": "candidate"
+    },
+    "philippine-arena": {
+      "venueId": "philippine-arena",
+      "venueName": "菲律宾竞技场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:47.055Z",
+      "status": "candidate"
+    },
+    "qingdao-guoxin-gymnasium": {
+      "venueId": "qingdao-guoxin-gymnasium",
+      "venueName": "青岛市体育中心国信体育馆",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:47.055Z",
+      "status": "candidate"
+    },
+    "rajamangala": {
+      "venueId": "rajamangala",
+      "venueName": "拉加曼加拉国家体育场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:47.334Z",
+      "status": "candidate"
+    },
+    "qingdao-guoxin-stadium": {
+      "venueId": "qingdao-guoxin-stadium",
+      "venueName": "青岛国信体育中心体育场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:47.401Z",
+      "status": "candidate"
+    },
+    "qingyuan-sports-center-stadium": {
+      "venueId": "qingyuan-sports-center-stadium",
+      "venueName": "清远体育中心体育场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:47.403Z",
+      "status": "candidate"
+    },
+    "sajik-gymnasium": {
+      "venueId": "sajik-gymnasium",
+      "venueName": "社稷室内体育馆",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:47.680Z",
+      "status": "candidate"
+    },
+    "saitama-arena": {
+      "venueId": "saitama-arena",
+      "venueName": "埼玉超级竞技场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:47.690Z",
+      "status": "candidate"
+    },
+    "sanya-egret-gymnasium": {
+      "venueId": "sanya-egret-gymnasium",
+      "venueName": "三亚体育中心白鹭体育馆",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:47.748Z",
+      "status": "candidate"
+    },
+    "sanya-egret-stadium": {
+      "venueId": "sanya-egret-stadium",
+      "venueName": "三亚国际体育中心白鹭体育场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:48.043Z",
+      "status": "candidate"
+    },
+    "shanghai-jingan-gymnasium": {
+      "venueId": "shanghai-jingan-gymnasium",
+      "venueName": "上海静安体育中心体育馆",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:48.044Z",
+      "status": "candidate"
+    },
+    "shanghai-stadium": {
+      "venueId": "shanghai-stadium",
+      "venueName": "上海体育场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:48.107Z",
+      "status": "candidate"
+    },
+    "shenzhen-baoan-gymnasium": {
+      "venueId": "shenzhen-baoan-gymnasium",
+      "venueName": "深圳市宝安体育中心体育馆",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:48.390Z",
+      "status": "candidate"
+    },
+    "shanxi-sports-stadium": {
+      "venueId": "shanxi-sports-stadium",
+      "venueName": "山西体育中心体育场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:48.394Z",
+      "status": "candidate"
+    },
+    "shaoxing-olympic-gymnasium": {
+      "venueId": "shaoxing-olympic-gymnasium",
+      "venueName": "绍兴奥体中心阿里巴巴文娱体育馆",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:48.398Z",
+      "status": "candidate"
+    },
+    "shenzhen-baoan-stadium": {
+      "venueId": "shenzhen-baoan-stadium",
+      "venueName": "深圳市宝安体育中心体育场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:48.673Z",
+      "status": "candidate"
+    },
+    "shenzhen-bay-gymnasium": {
+      "venueId": "shenzhen-bay-gymnasium",
+      "venueName": "深圳湾体育中心体育馆 · 春茧",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:48.675Z",
+      "status": "candidate"
+    },
+    "shenzhen-sports-center-stadium": {
+      "venueId": "shenzhen-sports-center-stadium",
+      "venueName": "深圳市体育中心体育场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:48.739Z",
+      "status": "candidate"
+    },
+    "shenzhen-universiade-stadium": {
+      "venueId": "shenzhen-universiade-stadium",
+      "venueName": "深圳大运中心体育场",
+      "events": [],
+      "attemptedAt": "2026-10-24T16:45:49.061Z",
+      "status": "failed",
+      "error": "TICKETMASTER_HTTP_ERROR"
+    },
+    "shenzhen-universiade-gymnasium": {
+      "venueId": "shenzhen-universiade-gymnasium",
+      "venueName": "深圳大运中心体育馆",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:49.068Z",
+      "status": "candidate"
+    },
+    "singapore-arena-expo": {
+      "venueId": "singapore-arena-expo",
+      "venueName": "新加坡 Arena @ EXPO",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:49.069Z",
+      "status": "candidate"
+    },
+    "singapore-indoor": {
+      "venueId": "singapore-indoor",
+      "venueName": "新加坡室内体育馆",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:49.362Z",
+      "status": "candidate"
+    },
+    "singapore-mediacorp-theatre": {
+      "venueId": "singapore-mediacorp-theatre",
+      "venueName": "新加坡新传媒剧院",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:49.370Z",
+      "status": "candidate"
+    },
+    "singapore-capitol-theatre": {
+      "venueId": "singapore-capitol-theatre",
+      "venueName": "新加坡首都剧院 Capitol Theatre",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:49.584Z",
+      "status": "candidate"
+    },
+    "singapore-national": {
+      "venueId": "singapore-national",
+      "venueName": "新加坡国家体育场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:49.982Z",
+      "status": "candidate"
+    },
+    "singapore-sands-grand-ballroom": {
+      "venueId": "singapore-sands-grand-ballroom",
+      "venueName": "新加坡金沙会展中心五楼大宴会厅",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:49.982Z",
+      "status": "candidate"
+    },
+    "smdc-festival": {
+      "venueId": "smdc-festival",
+      "venueName": "SMDC Festival Grounds",
+      "events": [
+        {
+          "provider": "ticketmaster",
+          "providerEventId": "Z8ymWIMJlyZgcZ7aFd",
+          "name": "BIGBANG 2026-2027 WORLD TOUR < XX : COSMOS > IN MANILA",
+          "url": "https://ticketmaster.ph/ticket/area/27ph_bigbang2027/3872",
+          "date": "2027-02-20",
+          "time": "19:00:00",
+          "timezone": "Asia/Singapore",
+          "status": "onsale",
+          "venue": {
+            "providerId": "Z8ymWIMJlyZgcZekA7",
+            "name": "SMDC Festival Grounds",
+            "city": "",
+            "countryCode": "PH"
+          },
+          "seatmap": null,
+          "classification": [
+            "Music"
+          ],
+          "seatScopeVenueId": "smdc-festival",
+          "matchStatus": "venue-name-candidate",
+          "layout": {
+            "status": "unconfirmed",
+            "source": "https://ticketmaster.ph/ticket/area/27ph_bigbang2027/3872",
+            "image": null,
+            "model": null,
+            "eventVerification": "ticketing-api",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          }
+        }
+      ],
+      "refreshedAt": "2026-10-24T16:45:50.263Z",
+      "status": "candidate"
+    },
+    "studio-city": {
+      "venueId": "studio-city",
+      "venueName": "新濠影汇综艺馆",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:50.938Z",
+      "status": "candidate"
+    },
+    "suzhou-sports-center-gymnasium": {
+      "venueId": "suzhou-sports-center-gymnasium",
+      "venueName": "苏州体育中心体育馆",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:51.004Z",
+      "status": "candidate"
+    },
+    "star-theatre": {
+      "venueId": "star-theatre",
+      "venueName": "星宇表演艺术中心 · 星宇剧场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:51.005Z",
+      "status": "candidate"
+    },
+    "taipei-arena": {
+      "venueId": "taipei-arena",
+      "venueName": "台北小巨蛋",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:51.514Z",
+      "status": "candidate"
+    },
+    "taipei-dome": {
+      "venueId": "taipei-dome",
+      "venueName": "台北大巨蛋",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:51.514Z",
+      "status": "candidate"
+    },
+    "sydney-accor-stadium": {
+      "venueId": "sydney-accor-stadium",
+      "venueName": "Accor Stadium（悉尼雅高体育场）",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:51.514Z",
+      "status": "candidate"
+    },
+    "tianhe-stadium": {
+      "venueId": "tianhe-stadium",
+      "venueName": "天河体育场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:51.804Z",
+      "status": "candidate"
+    },
+    "tianjin-olympic-gymnasium": {
+      "venueId": "tianjin-olympic-gymnasium",
+      "venueName": "天津奥林匹克中心体育馆",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:51.870Z",
+      "status": "candidate"
+    },
+    "thunder-dome": {
+      "venueId": "thunder-dome",
+      "venueName": "Thunder Dome",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:51.870Z",
+      "status": "candidate"
+    },
+    "tokyo-dome": {
+      "venueId": "tokyo-dome",
+      "venueName": "东京巨蛋",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:52.139Z",
+      "status": "candidate"
+    },
+    "tiktok-entertainment-centre": {
+      "venueId": "tiktok-entertainment-centre",
+      "venueName": "TikTok Entertainment Centre",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:52.204Z",
+      "status": "candidate"
+    },
+    "tianjin-olympic-stadium": {
+      "venueId": "tianjin-olympic-stadium",
+      "venueName": "天津奥林匹克中心体育场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:52.205Z",
+      "status": "candidate"
+    },
+    "tokyo-garden-theater": {
+      "venueId": "tokyo-garden-theater",
+      "venueName": "东京花园剧场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:52.497Z",
+      "status": "candidate"
+    },
+    "union-hall": {
+      "venueId": "union-hall",
+      "venueName": "UNION HALL · Hall 2",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:52.564Z",
+      "status": "candidate"
+    },
+    "unifi-arena": {
+      "venueId": "unifi-arena",
+      "venueName": "Unifi Arena · 原 Axiata",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:52.564Z",
+      "status": "candidate"
+    },
+    "vantelin-dome": {
+      "venueId": "vantelin-dome",
+      "venueName": "名古屋 Vantelin Dome",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:52.841Z",
+      "status": "candidate"
+    },
+    "urumqi-olympic-gymnasium": {
+      "venueId": "urumqi-olympic-gymnasium",
+      "venueName": "乌鲁木齐奥林匹克体育中心综合体育馆",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:52.945Z",
+      "status": "candidate"
+    },
+    "vancouver-rogers-arena": {
+      "venueId": "vancouver-rogers-arena",
+      "venueName": "Rogers Arena（温哥华罗杰斯体育馆）",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:52.945Z",
+      "status": "candidate"
+    },
+    "venetian-arena": {
+      "venueId": "venetian-arena",
+      "venueName": "威尼斯人综艺馆",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:53.229Z",
+      "status": "candidate"
+    },
+    "wembley": {
+      "venueId": "wembley",
+      "venueName": "Wembley Stadium",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:53.296Z",
+      "status": "candidate"
+    },
+    "wenzhou-olympic-stadium": {
+      "venueId": "wenzhou-olympic-stadium",
+      "venueName": "温州奥体中心体育场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:53.296Z",
+      "status": "candidate"
+    },
+    "wuhan-sports-center-gymnasium": {
+      "venueId": "wuhan-sports-center-gymnasium",
+      "venueName": "武汉体育中心体育馆",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:53.573Z",
+      "status": "candidate"
+    },
+    "wuhan-five-rings-stadium": {
+      "venueId": "wuhan-five-rings-stadium",
+      "venueName": "武汉五环体育中心体育场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:53.578Z",
+      "status": "candidate"
+    },
+    "wukesong": {
+      "venueId": "wukesong",
+      "venueName": "五棵松体育馆",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:53.638Z",
+      "status": "candidate"
+    },
+    "wuxi-olympic-stadium": {
+      "venueId": "wuxi-olympic-stadium",
+      "venueName": "无锡奥体中心体育场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:53.996Z",
+      "status": "candidate"
+    },
+    "xiamen-egret-stadium": {
+      "venueId": "xiamen-egret-stadium",
+      "venueName": "厦门白鹭体育场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:53.996Z",
+      "status": "candidate"
+    },
+    "xiamen-phoenix-gymnasium": {
+      "venueId": "xiamen-phoenix-gymnasium",
+      "venueName": "厦门奥林匹克体育中心凤凰体育馆",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:53.996Z",
+      "status": "candidate"
+    },
+    "yantai-bajiaowan-gymnasium": {
+      "venueId": "yantai-bajiaowan-gymnasium",
+      "venueName": "烟台八角湾国际体育中心体育馆",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:54.271Z",
+      "status": "candidate"
+    },
+    "xian-olympic-stadium": {
+      "venueId": "xian-olympic-stadium",
+      "venueName": "西安奥体中心体育场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:54.338Z",
+      "status": "candidate"
+    },
+    "xuzhou-olympic-stadium": {
+      "venueId": "xuzhou-olympic-stadium",
+      "venueName": "徐州奥体中心体育场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:54.338Z",
+      "status": "candidate"
+    },
+    "zhengzhou-olympic-stadium": {
+      "venueId": "zhengzhou-olympic-stadium",
+      "venueName": "郑州奥林匹克体育中心体育场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:54.616Z",
+      "status": "candidate"
+    },
+    "zhengzhou-olympic-gymnasium": {
+      "venueId": "zhengzhou-olympic-gymnasium",
+      "venueName": "郑州市奥林匹克体育中心体育馆",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:54.684Z",
+      "status": "candidate"
+    },
+    "zenith-paris": {
+      "venueId": "zenith-paris",
+      "venueName": "巴黎天顶音乐厅",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:54.684Z",
+      "status": "candidate"
+    },
+    "zhuji-xishi-basketball-center": {
+      "venueId": "zhuji-xishi-basketball-center",
+      "venueName": "诸暨西施篮球中心",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:55.358Z",
+      "status": "candidate"
+    },
+    "zhenjiang-sports-exhibition-stadium": {
+      "venueId": "zhenjiang-sports-exhibition-stadium",
+      "venueName": "镇江体育会展中心体育场",
+      "events": [],
+      "refreshedAt": "2026-10-24T16:45:55.424Z",
+      "status": "candidate"
+    }
+  },
+  "completedAt": "2026-10-24T16:45:55.424Z",
+  "summary": {
+    "requested": 197,
+    "completed": 196,
+    "failed": 1
+  }
+}

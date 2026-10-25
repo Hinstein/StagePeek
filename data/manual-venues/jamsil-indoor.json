@@ -1,0 +1,695 @@
+{
+  "id": "jamsil-indoor",
+  "name": "蚕室室内体育馆",
+  "city": "韩国 · 首尔",
+  "capacity": "原站目录未提供统一容量字段",
+  "source": "https://stadium.seoul.go.kr/reserve/jamsil/inside-stadium",
+  "sourceTitle": "REA 导出的公开场馆来源索引与参数化座位示意",
+  "sourceLinks": [
+    "https://stadium.seoul.go.kr/reserve/jamsil/inside-stadium",
+    "https://stadium.seoul.go.kr/files/2016/08/jamsil_drawing_indoormain.jpg"
+  ],
+  "accuracy": {
+    "sectionLabels": "source-layout-reference",
+    "completeSeatInventory": false,
+    "metricCalibrated": false,
+    "stage": "generic",
+    "position": "estimated",
+    "geometryBasis": "source-informed-parametric:plan",
+    "catalogStatus": "source-geometry-and-sections",
+    "seatDataStatus": "section-only",
+    "sourceLayout": "end",
+    "coverage": "36 个来源分区；0 条座位采样。区号来自公开布局参考。",
+    "reuse": "来源页面可公开访问；未建立商业图形、模型或座位数据库再分发许可，发布前需逐源复核。",
+    "sourceDate": "REA capture 2026-10-24",
+    "sourceInventory": {
+      "venueReferenceUrl": "https://stadium.seoul.go.kr/reserve/jamsil/inside-stadium",
+      "mapReferenceUrl": "https://stadium.seoul.go.kr/files/2016/08/jamsil_drawing_indoormain.jpg",
+      "sectionSource": "https://stadium.seoul.go.kr/files/2016/08/jamsil_drawing_indoormain.jpg",
+      "geometryEvidenceLabel": "plan",
+      "note": "Missing asset URL does not establish absence of generated seat geometry."
+    },
+    "seatAsset": null
+  },
+  "tiers": [
+    [
+      22,
+      27,
+      1,
+      17,
+      9
+    ],
+    [
+      33,
+      38,
+      14,
+      17,
+      12
+    ]
+  ],
+  "geometry": {
+    "shape": "oval",
+    "coordinateSystem": "profile-inner-radius",
+    "power": 1,
+    "oneSided": false,
+    "stage": {
+      "width": 28,
+      "depth": 7,
+      "z": -19.5,
+      "height": 1.8,
+      "facing": 1
+    },
+    "floor": [
+      40,
+      50
+    ],
+    "openBowl": true,
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "2F",
+        "steps": 23
+      },
+      {
+        "id": "middle",
+        "name": "3F",
+        "steps": 24
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "1",
+      "ticketLabels": [
+        "1"
+      ],
+      "sourceLabel": "1 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.792526803190927,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.seoul.go.kr/files/2016/08/jamsil_drawing_indoormain.jpg"
+      }
+    },
+    {
+      "id": "2",
+      "ticketLabels": [
+        "2"
+      ],
+      "sourceLabel": "2 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.443460952792061,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.seoul.go.kr/files/2016/08/jamsil_drawing_indoormain.jpg"
+      }
+    },
+    {
+      "id": "3",
+      "ticketLabels": [
+        "3"
+      ],
+      "sourceLabel": "3 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.0943951023931953,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.seoul.go.kr/files/2016/08/jamsil_drawing_indoormain.jpg"
+      }
+    },
+    {
+      "id": "4",
+      "ticketLabels": [
+        "4"
+      ],
+      "sourceLabel": "4 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.7453292519943295,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.seoul.go.kr/files/2016/08/jamsil_drawing_indoormain.jpg"
+      }
+    },
+    {
+      "id": "5",
+      "ticketLabels": [
+        "5"
+      ],
+      "sourceLabel": "5 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.3962634015954636,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.seoul.go.kr/files/2016/08/jamsil_drawing_indoormain.jpg"
+      }
+    },
+    {
+      "id": "6",
+      "ticketLabels": [
+        "6"
+      ],
+      "sourceLabel": "6 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.0471975511965976,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.seoul.go.kr/files/2016/08/jamsil_drawing_indoormain.jpg"
+      }
+    },
+    {
+      "id": "7",
+      "ticketLabels": [
+        "7"
+      ],
+      "sourceLabel": "7 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.6981317007977318,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.seoul.go.kr/files/2016/08/jamsil_drawing_indoormain.jpg"
+      }
+    },
+    {
+      "id": "8",
+      "ticketLabels": [
+        "8"
+      ],
+      "sourceLabel": "8 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.3490658503988659,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.seoul.go.kr/files/2016/08/jamsil_drawing_indoormain.jpg"
+      }
+    },
+    {
+      "id": "9",
+      "ticketLabels": [
+        "9"
+      ],
+      "sourceLabel": "9 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.seoul.go.kr/files/2016/08/jamsil_drawing_indoormain.jpg"
+      }
+    },
+    {
+      "id": "10",
+      "ticketLabels": [
+        "10"
+      ],
+      "sourceLabel": "10 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.3490658503988659,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.seoul.go.kr/files/2016/08/jamsil_drawing_indoormain.jpg"
+      }
+    },
+    {
+      "id": "11",
+      "ticketLabels": [
+        "11"
+      ],
+      "sourceLabel": "11 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.6981317007977318,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.seoul.go.kr/files/2016/08/jamsil_drawing_indoormain.jpg"
+      }
+    },
+    {
+      "id": "12",
+      "ticketLabels": [
+        "12"
+      ],
+      "sourceLabel": "12 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.0471975511965976,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.seoul.go.kr/files/2016/08/jamsil_drawing_indoormain.jpg"
+      }
+    },
+    {
+      "id": "13",
+      "ticketLabels": [
+        "13"
+      ],
+      "sourceLabel": "13 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.3962634015954636,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.seoul.go.kr/files/2016/08/jamsil_drawing_indoormain.jpg"
+      }
+    },
+    {
+      "id": "14",
+      "ticketLabels": [
+        "14"
+      ],
+      "sourceLabel": "14 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.7453292519943295,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.seoul.go.kr/files/2016/08/jamsil_drawing_indoormain.jpg"
+      }
+    },
+    {
+      "id": "15",
+      "ticketLabels": [
+        "15"
+      ],
+      "sourceLabel": "15 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.0943951023931953,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.seoul.go.kr/files/2016/08/jamsil_drawing_indoormain.jpg"
+      }
+    },
+    {
+      "id": "16",
+      "ticketLabels": [
+        "16"
+      ],
+      "sourceLabel": "16 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.443460952792061,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.seoul.go.kr/files/2016/08/jamsil_drawing_indoormain.jpg"
+      }
+    },
+    {
+      "id": "17",
+      "ticketLabels": [
+        "17"
+      ],
+      "sourceLabel": "17 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.792526803190927,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.seoul.go.kr/files/2016/08/jamsil_drawing_indoormain.jpg"
+      }
+    },
+    {
+      "id": "18",
+      "ticketLabels": [
+        "18"
+      ],
+      "sourceLabel": "18 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -3.141592653589793,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.seoul.go.kr/files/2016/08/jamsil_drawing_indoormain.jpg"
+      }
+    },
+    {
+      "id": "20",
+      "ticketLabels": [
+        "20"
+      ],
+      "sourceLabel": "20 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.443460952792061,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.seoul.go.kr/files/2016/08/jamsil_drawing_indoormain.jpg"
+      }
+    },
+    {
+      "id": "21",
+      "ticketLabels": [
+        "21"
+      ],
+      "sourceLabel": "21 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.0943951023931953,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.seoul.go.kr/files/2016/08/jamsil_drawing_indoormain.jpg"
+      }
+    },
+    {
+      "id": "22",
+      "ticketLabels": [
+        "22"
+      ],
+      "sourceLabel": "22 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.7453292519943295,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.seoul.go.kr/files/2016/08/jamsil_drawing_indoormain.jpg"
+      }
+    },
+    {
+      "id": "23",
+      "ticketLabels": [
+        "23"
+      ],
+      "sourceLabel": "23 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.3962634015954636,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.seoul.go.kr/files/2016/08/jamsil_drawing_indoormain.jpg"
+      }
+    },
+    {
+      "id": "24",
+      "ticketLabels": [
+        "24"
+      ],
+      "sourceLabel": "24 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.0471975511965976,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.seoul.go.kr/files/2016/08/jamsil_drawing_indoormain.jpg"
+      }
+    },
+    {
+      "id": "25",
+      "ticketLabels": [
+        "25"
+      ],
+      "sourceLabel": "25 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.6981317007977318,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.seoul.go.kr/files/2016/08/jamsil_drawing_indoormain.jpg"
+      }
+    },
+    {
+      "id": "26",
+      "ticketLabels": [
+        "26"
+      ],
+      "sourceLabel": "26 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.3490658503988659,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.seoul.go.kr/files/2016/08/jamsil_drawing_indoormain.jpg"
+      }
+    },
+    {
+      "id": "27",
+      "ticketLabels": [
+        "27"
+      ],
+      "sourceLabel": "27 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.seoul.go.kr/files/2016/08/jamsil_drawing_indoormain.jpg"
+      }
+    },
+    {
+      "id": "28",
+      "ticketLabels": [
+        "28"
+      ],
+      "sourceLabel": "28 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.3490658503988659,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.seoul.go.kr/files/2016/08/jamsil_drawing_indoormain.jpg"
+      }
+    },
+    {
+      "id": "29",
+      "ticketLabels": [
+        "29"
+      ],
+      "sourceLabel": "29 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.6981317007977318,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.seoul.go.kr/files/2016/08/jamsil_drawing_indoormain.jpg"
+      }
+    },
+    {
+      "id": "30",
+      "ticketLabels": [
+        "30"
+      ],
+      "sourceLabel": "30 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.0471975511965976,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.seoul.go.kr/files/2016/08/jamsil_drawing_indoormain.jpg"
+      }
+    },
+    {
+      "id": "31",
+      "ticketLabels": [
+        "31"
+      ],
+      "sourceLabel": "31 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.3962634015954636,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.seoul.go.kr/files/2016/08/jamsil_drawing_indoormain.jpg"
+      }
+    },
+    {
+      "id": "32",
+      "ticketLabels": [
+        "32"
+      ],
+      "sourceLabel": "32 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.7453292519943295,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.seoul.go.kr/files/2016/08/jamsil_drawing_indoormain.jpg"
+      }
+    },
+    {
+      "id": "33",
+      "ticketLabels": [
+        "33"
+      ],
+      "sourceLabel": "33 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.0943951023931953,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.seoul.go.kr/files/2016/08/jamsil_drawing_indoormain.jpg"
+      }
+    },
+    {
+      "id": "34",
+      "ticketLabels": [
+        "34"
+      ],
+      "sourceLabel": "34 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.443460952792061,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.seoul.go.kr/files/2016/08/jamsil_drawing_indoormain.jpg"
+      }
+    },
+    {
+      "id": "35",
+      "ticketLabels": [
+        "35"
+      ],
+      "sourceLabel": "35 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.792526803190927,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.seoul.go.kr/files/2016/08/jamsil_drawing_indoormain.jpg"
+      }
+    },
+    {
+      "id": "36",
+      "ticketLabels": [
+        "36"
+      ],
+      "sourceLabel": "36 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -3.141592653589793,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.seoul.go.kr/files/2016/08/jamsil_drawing_indoormain.jpg"
+      }
+    },
+    {
+      "id": "37",
+      "ticketLabels": [
+        "37"
+      ],
+      "sourceLabel": "37 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -3.490658503988659,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.seoul.go.kr/files/2016/08/jamsil_drawing_indoormain.jpg"
+      }
+    }
+  ],
+  "importedAt": "2026-10-24T00:00:00.000Z"
+}

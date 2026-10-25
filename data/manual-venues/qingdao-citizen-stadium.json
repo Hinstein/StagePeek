@@ -1,0 +1,831 @@
+{
+  "id": "qingdao-citizen-stadium",
+  "name": "青岛市民健身中心体育场",
+  "city": "中国内地 · 青岛",
+  "capacity": "原站目录未提供统一容量字段",
+  "source": "https://weibo.com/2/detail/5346627721364096",
+  "sourceTitle": "REA 导出的公开场馆来源索引与参数化座位示意",
+  "sourceLinks": [
+    "https://weibo.com/2/detail/5346627721364096",
+    "https://statics.ypiao.com/event/seat/ef151beda9351165aea965ec4bec2cd3.jpg"
+  ],
+  "accuracy": {
+    "sectionLabels": "source-layout-reference",
+    "completeSeatInventory": false,
+    "metricCalibrated": false,
+    "stage": "generic",
+    "position": "estimated",
+    "geometryBasis": "source-informed-parametric:reference",
+    "catalogStatus": "source-geometry-and-sections",
+    "seatDataStatus": "section-only",
+    "sourceLayout": "end",
+    "coverage": "44 个来源分区；0 条座位采样。区号来自公开布局参考。",
+    "reuse": "来源页面可公开访问；未建立商业图形、模型或座位数据库再分发许可，发布前需逐源复核。",
+    "sourceDate": "REA capture 2026-10-24",
+    "sourceInventory": {
+      "venueReferenceUrl": "https://weibo.com/2/detail/5346627721364096",
+      "mapReferenceUrl": null,
+      "sectionSource": "https://statics.ypiao.com/event/seat/ef151beda9351165aea965ec4bec2cd3.jpg",
+      "geometryEvidenceLabel": "reference",
+      "note": "Missing asset URL does not establish absence of generated seat geometry."
+    },
+    "seatAsset": null
+  },
+  "tiers": [
+    [
+      46,
+      72,
+      1.5,
+      17,
+      10
+    ],
+    [
+      65,
+      91,
+      14,
+      17,
+      12
+    ]
+  ],
+  "geometry": {
+    "shape": "oval",
+    "coordinateSystem": "profile-inner-radius",
+    "power": 1,
+    "oneSided": false,
+    "stage": {
+      "width": 40,
+      "depth": 12,
+      "z": -52,
+      "height": 2,
+      "facing": 1
+    },
+    "floor": [
+      92,
+      144
+    ],
+    "openBowl": true,
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "steps": 24
+      },
+      {
+        "id": "middle",
+        "name": "上层看台",
+        "steps": 28
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "二层东18",
+      "ticketLabels": [
+        "二层东18"
+      ],
+      "sourceLabel": "二层东18区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.321287905152458,
+      "halfAngle": 0.10035643198967394,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://statics.ypiao.com/event/seat/ef151beda9351165aea965ec4bec2cd3.jpg"
+      }
+    },
+    {
+      "id": "二层东19",
+      "ticketLabels": [
+        "二层东19"
+      ],
+      "sourceLabel": "二层东19区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.0943951023931953,
+      "halfAngle": 0.10035643198967394,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://statics.ypiao.com/event/seat/ef151beda9351165aea965ec4bec2cd3.jpg"
+      }
+    },
+    {
+      "id": "二层东20",
+      "ticketLabels": [
+        "二层东20"
+      ],
+      "sourceLabel": "二层东20区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.8675022996339325,
+      "halfAngle": 0.10035643198967394,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://statics.ypiao.com/event/seat/ef151beda9351165aea965ec4bec2cd3.jpg"
+      }
+    },
+    {
+      "id": "二层东21",
+      "ticketLabels": [
+        "二层东21"
+      ],
+      "sourceLabel": "二层东21区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.6406094968746698,
+      "halfAngle": 0.10035643198967394,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://statics.ypiao.com/event/seat/ef151beda9351165aea965ec4bec2cd3.jpg"
+      }
+    },
+    {
+      "id": "二层东22",
+      "ticketLabels": [
+        "二层东22"
+      ],
+      "sourceLabel": "二层东22区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.413716694115407,
+      "halfAngle": 0.10035643198967394,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://statics.ypiao.com/event/seat/ef151beda9351165aea965ec4bec2cd3.jpg"
+      }
+    },
+    {
+      "id": "二层东23",
+      "ticketLabels": [
+        "二层东23"
+      ],
+      "sourceLabel": "二层东23区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.1868238913561442,
+      "halfAngle": 0.10035643198967394,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://statics.ypiao.com/event/seat/ef151beda9351165aea965ec4bec2cd3.jpg"
+      }
+    },
+    {
+      "id": "二层北24",
+      "ticketLabels": [
+        "二层北24"
+      ],
+      "sourceLabel": "二层北24区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.9599310885968813,
+      "halfAngle": 0.10035643198967394,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://statics.ypiao.com/event/seat/ef151beda9351165aea965ec4bec2cd3.jpg"
+      }
+    },
+    {
+      "id": "二层北25",
+      "ticketLabels": [
+        "二层北25"
+      ],
+      "sourceLabel": "二层北25区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.7330382858376184,
+      "halfAngle": 0.10035643198967394,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://statics.ypiao.com/event/seat/ef151beda9351165aea965ec4bec2cd3.jpg"
+      }
+    },
+    {
+      "id": "二层北26",
+      "ticketLabels": [
+        "二层北26"
+      ],
+      "sourceLabel": "二层北26区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.5061454830783556,
+      "halfAngle": 0.10035643198967394,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://statics.ypiao.com/event/seat/ef151beda9351165aea965ec4bec2cd3.jpg"
+      }
+    },
+    {
+      "id": "二层西06",
+      "ticketLabels": [
+        "二层西06"
+      ],
+      "sourceLabel": "二层西06区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.321287905152458,
+      "halfAngle": 0.10035643198967394,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://statics.ypiao.com/event/seat/ef151beda9351165aea965ec4bec2cd3.jpg"
+      }
+    },
+    {
+      "id": "二层西05",
+      "ticketLabels": [
+        "二层西05"
+      ],
+      "sourceLabel": "二层西05区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.0943951023931953,
+      "halfAngle": 0.10035643198967394,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://statics.ypiao.com/event/seat/ef151beda9351165aea965ec4bec2cd3.jpg"
+      }
+    },
+    {
+      "id": "二层西04",
+      "ticketLabels": [
+        "二层西04"
+      ],
+      "sourceLabel": "二层西04区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.8675022996339325,
+      "halfAngle": 0.10035643198967394,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://statics.ypiao.com/event/seat/ef151beda9351165aea965ec4bec2cd3.jpg"
+      }
+    },
+    {
+      "id": "二层西03",
+      "ticketLabels": [
+        "二层西03"
+      ],
+      "sourceLabel": "二层西03区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.6406094968746698,
+      "halfAngle": 0.10035643198967394,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://statics.ypiao.com/event/seat/ef151beda9351165aea965ec4bec2cd3.jpg"
+      }
+    },
+    {
+      "id": "二层西02",
+      "ticketLabels": [
+        "二层西02"
+      ],
+      "sourceLabel": "二层西02区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.413716694115407,
+      "halfAngle": 0.10035643198967394,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://statics.ypiao.com/event/seat/ef151beda9351165aea965ec4bec2cd3.jpg"
+      }
+    },
+    {
+      "id": "二层西01",
+      "ticketLabels": [
+        "二层西01"
+      ],
+      "sourceLabel": "二层西01区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.1868238913561442,
+      "halfAngle": 0.10035643198967394,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://statics.ypiao.com/event/seat/ef151beda9351165aea965ec4bec2cd3.jpg"
+      }
+    },
+    {
+      "id": "二层北32",
+      "ticketLabels": [
+        "二层北32"
+      ],
+      "sourceLabel": "二层北32区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.9599310885968813,
+      "halfAngle": 0.10035643198967394,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://statics.ypiao.com/event/seat/ef151beda9351165aea965ec4bec2cd3.jpg"
+      }
+    },
+    {
+      "id": "二层北31",
+      "ticketLabels": [
+        "二层北31"
+      ],
+      "sourceLabel": "二层北31区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.7330382858376184,
+      "halfAngle": 0.10035643198967394,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://statics.ypiao.com/event/seat/ef151beda9351165aea965ec4bec2cd3.jpg"
+      }
+    },
+    {
+      "id": "二层北30",
+      "ticketLabels": [
+        "二层北30"
+      ],
+      "sourceLabel": "二层北30区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.5061454830783556,
+      "halfAngle": 0.10035643198967394,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://statics.ypiao.com/event/seat/ef151beda9351165aea965ec4bec2cd3.jpg"
+      }
+    },
+    {
+      "id": "四层东18",
+      "ticketLabels": [
+        "四层东18"
+      ],
+      "sourceLabel": "四层东18区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.321287905152458,
+      "halfAngle": 0.10035643198967394,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://statics.ypiao.com/event/seat/ef151beda9351165aea965ec4bec2cd3.jpg"
+      }
+    },
+    {
+      "id": "四层东19",
+      "ticketLabels": [
+        "四层东19"
+      ],
+      "sourceLabel": "四层东19区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.0943951023931953,
+      "halfAngle": 0.10035643198967394,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://statics.ypiao.com/event/seat/ef151beda9351165aea965ec4bec2cd3.jpg"
+      }
+    },
+    {
+      "id": "四层东20",
+      "ticketLabels": [
+        "四层东20"
+      ],
+      "sourceLabel": "四层东20区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.8675022996339325,
+      "halfAngle": 0.10035643198967394,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://statics.ypiao.com/event/seat/ef151beda9351165aea965ec4bec2cd3.jpg"
+      }
+    },
+    {
+      "id": "四层东21",
+      "ticketLabels": [
+        "四层东21"
+      ],
+      "sourceLabel": "四层东21区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.6406094968746698,
+      "halfAngle": 0.10035643198967394,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://statics.ypiao.com/event/seat/ef151beda9351165aea965ec4bec2cd3.jpg"
+      }
+    },
+    {
+      "id": "四层东22",
+      "ticketLabels": [
+        "四层东22"
+      ],
+      "sourceLabel": "四层东22区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.413716694115407,
+      "halfAngle": 0.10035643198967394,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://statics.ypiao.com/event/seat/ef151beda9351165aea965ec4bec2cd3.jpg"
+      }
+    },
+    {
+      "id": "四层东23",
+      "ticketLabels": [
+        "四层东23"
+      ],
+      "sourceLabel": "四层东23区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.1868238913561442,
+      "halfAngle": 0.10035643198967394,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://statics.ypiao.com/event/seat/ef151beda9351165aea965ec4bec2cd3.jpg"
+      }
+    },
+    {
+      "id": "四层北24",
+      "ticketLabels": [
+        "四层北24"
+      ],
+      "sourceLabel": "四层北24区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.9599310885968813,
+      "halfAngle": 0.10035643198967394,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://statics.ypiao.com/event/seat/ef151beda9351165aea965ec4bec2cd3.jpg"
+      }
+    },
+    {
+      "id": "四层北25",
+      "ticketLabels": [
+        "四层北25"
+      ],
+      "sourceLabel": "四层北25区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.7330382858376184,
+      "halfAngle": 0.10035643198967394,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://statics.ypiao.com/event/seat/ef151beda9351165aea965ec4bec2cd3.jpg"
+      }
+    },
+    {
+      "id": "四层北26",
+      "ticketLabels": [
+        "四层北26"
+      ],
+      "sourceLabel": "四层北26区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.5061454830783556,
+      "halfAngle": 0.10035643198967394,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://statics.ypiao.com/event/seat/ef151beda9351165aea965ec4bec2cd3.jpg"
+      }
+    },
+    {
+      "id": "四层西06",
+      "ticketLabels": [
+        "四层西06"
+      ],
+      "sourceLabel": "四层西06区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.321287905152458,
+      "halfAngle": 0.10035643198967394,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://statics.ypiao.com/event/seat/ef151beda9351165aea965ec4bec2cd3.jpg"
+      }
+    },
+    {
+      "id": "四层西05",
+      "ticketLabels": [
+        "四层西05"
+      ],
+      "sourceLabel": "四层西05区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.0943951023931953,
+      "halfAngle": 0.10035643198967394,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://statics.ypiao.com/event/seat/ef151beda9351165aea965ec4bec2cd3.jpg"
+      }
+    },
+    {
+      "id": "四层西04",
+      "ticketLabels": [
+        "四层西04"
+      ],
+      "sourceLabel": "四层西04区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.8675022996339325,
+      "halfAngle": 0.10035643198967394,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://statics.ypiao.com/event/seat/ef151beda9351165aea965ec4bec2cd3.jpg"
+      }
+    },
+    {
+      "id": "四层西03",
+      "ticketLabels": [
+        "四层西03"
+      ],
+      "sourceLabel": "四层西03区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.6406094968746698,
+      "halfAngle": 0.10035643198967394,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://statics.ypiao.com/event/seat/ef151beda9351165aea965ec4bec2cd3.jpg"
+      }
+    },
+    {
+      "id": "四层西02",
+      "ticketLabels": [
+        "四层西02"
+      ],
+      "sourceLabel": "四层西02区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.413716694115407,
+      "halfAngle": 0.10035643198967394,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://statics.ypiao.com/event/seat/ef151beda9351165aea965ec4bec2cd3.jpg"
+      }
+    },
+    {
+      "id": "四层西01",
+      "ticketLabels": [
+        "四层西01"
+      ],
+      "sourceLabel": "四层西01区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.1868238913561442,
+      "halfAngle": 0.10035643198967394,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://statics.ypiao.com/event/seat/ef151beda9351165aea965ec4bec2cd3.jpg"
+      }
+    },
+    {
+      "id": "四层北32",
+      "ticketLabels": [
+        "四层北32"
+      ],
+      "sourceLabel": "四层北32区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.9599310885968813,
+      "halfAngle": 0.10035643198967394,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://statics.ypiao.com/event/seat/ef151beda9351165aea965ec4bec2cd3.jpg"
+      }
+    },
+    {
+      "id": "四层北31",
+      "ticketLabels": [
+        "四层北31"
+      ],
+      "sourceLabel": "四层北31区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.7330382858376184,
+      "halfAngle": 0.10035643198967394,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://statics.ypiao.com/event/seat/ef151beda9351165aea965ec4bec2cd3.jpg"
+      }
+    },
+    {
+      "id": "四层北30",
+      "ticketLabels": [
+        "四层北30"
+      ],
+      "sourceLabel": "四层北30区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.5061454830783556,
+      "halfAngle": 0.10035643198967394,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://statics.ypiao.com/event/seat/ef151beda9351165aea965ec4bec2cd3.jpg"
+      }
+    },
+    {
+      "id": "unmapped-lower-rear-left",
+      "ticketLabels": [
+        "unmapped-lower-rear-left"
+      ],
+      "sourceLabel": "下层图上方看台（区号待核）",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.740166925631097,
+      "halfAngle": 0.2617993877991494,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://statics.ypiao.com/event/seat/ef151beda9351165aea965ec4bec2cd3.jpg"
+      }
+    },
+    {
+      "id": "unmapped-lower-rear-right",
+      "ticketLabels": [
+        "unmapped-lower-rear-right"
+      ],
+      "sourceLabel": "下层图上方看台（区号待核）",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.740166925631097,
+      "halfAngle": 0.2617993877991494,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://statics.ypiao.com/event/seat/ef151beda9351165aea965ec4bec2cd3.jpg"
+      }
+    },
+    {
+      "id": "unmapped-lower-rear-center",
+      "ticketLabels": [
+        "unmapped-lower-rear-center"
+      ],
+      "sourceLabel": "下层图上方看台（区号待核）",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.12217304763960307,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://statics.ypiao.com/event/seat/ef151beda9351165aea965ec4bec2cd3.jpg"
+      }
+    },
+    {
+      "id": "unmapped-lower-front-center",
+      "ticketLabels": [
+        "unmapped-lower-front-center"
+      ],
+      "sourceLabel": "下层图下方看台（区号待核）",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.3665191429188092,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://statics.ypiao.com/event/seat/ef151beda9351165aea965ec4bec2cd3.jpg"
+      }
+    },
+    {
+      "id": "unmapped-middle-rear-left",
+      "ticketLabels": [
+        "unmapped-middle-rear-left"
+      ],
+      "sourceLabel": "上层图上方看台（区号待核）",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.740166925631097,
+      "halfAngle": 0.2617993877991494,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://statics.ypiao.com/event/seat/ef151beda9351165aea965ec4bec2cd3.jpg"
+      }
+    },
+    {
+      "id": "unmapped-middle-rear-right",
+      "ticketLabels": [
+        "unmapped-middle-rear-right"
+      ],
+      "sourceLabel": "上层图上方看台（区号待核）",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.740166925631097,
+      "halfAngle": 0.2617993877991494,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://statics.ypiao.com/event/seat/ef151beda9351165aea965ec4bec2cd3.jpg"
+      }
+    },
+    {
+      "id": "unmapped-middle-rear-center",
+      "ticketLabels": [
+        "unmapped-middle-rear-center"
+      ],
+      "sourceLabel": "上层图上方看台（区号待核）",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.12217304763960307,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://statics.ypiao.com/event/seat/ef151beda9351165aea965ec4bec2cd3.jpg"
+      }
+    },
+    {
+      "id": "unmapped-middle-front-center",
+      "ticketLabels": [
+        "unmapped-middle-front-center"
+      ],
+      "sourceLabel": "上层图下方看台（区号待核）",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0,
+      "halfAngle": 0.3665191429188092,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://statics.ypiao.com/event/seat/ef151beda9351165aea965ec4bec2cd3.jpg"
+      }
+    }
+  ],
+  "importedAt": "2026-10-24T00:00:00.000Z"
+}

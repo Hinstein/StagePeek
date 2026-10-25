@@ -1,0 +1,791 @@
+{
+  "id": "tokyo-garden-theater",
+  "name": "东京花园剧场",
+  "city": "日本 · 东京",
+  "capacity": "原站目录未提供统一容量字段",
+  "source": "https://www.shopping-sumitomo-rd.com/tokyo_garden_theater/visitor/floor/",
+  "sourceTitle": "REA 导出的公开场馆来源索引与参数化座位示意",
+  "sourceLinks": [
+    "https://www.shopping-sumitomo-rd.com/tokyo_garden_theater/visitor/floor/"
+  ],
+  "accuracy": {
+    "sectionLabels": "source-layout-reference",
+    "completeSeatInventory": false,
+    "metricCalibrated": false,
+    "stage": "generic",
+    "position": "estimated",
+    "geometryBasis": "source-informed-parametric:reference",
+    "catalogStatus": "source-geometry-and-sections",
+    "seatDataStatus": "section-only",
+    "sourceLayout": "end",
+    "coverage": "36 个来源分区；0 条座位采样。区号来自公开布局参考。",
+    "reuse": "来源页面可公开访问；未建立商业图形、模型或座位数据库再分发许可，发布前需逐源复核。",
+    "sourceDate": "REA capture 2026-10-24",
+    "sourceInventory": {
+      "venueReferenceUrl": "https://www.shopping-sumitomo-rd.com/tokyo_garden_theater/visitor/floor/",
+      "mapReferenceUrl": "https://www.shopping-sumitomo-rd.com/tokyo_garden_theater/visitor/floor/",
+      "sectionSource": "https://www.shopping-sumitomo-rd.com/tokyo_garden_theater/visitor/floor/",
+      "geometryEvidenceLabel": "reference",
+      "note": "Missing asset URL does not establish absence of generated seat geometry."
+    },
+    "seatAsset": null
+  },
+  "tiers": [
+    [
+      23,
+      27,
+      6,
+      8,
+      4.8
+    ],
+    [
+      25,
+      29,
+      13,
+      8,
+      4.8
+    ],
+    [
+      27,
+      31,
+      20,
+      8,
+      4.8
+    ],
+    [
+      1,
+      1,
+      0,
+      1,
+      0
+    ]
+  ],
+  "geometry": {
+    "shape": "rounded",
+    "coordinateSystem": "profile-inner-radius",
+    "power": 0.68,
+    "oneSided": false,
+    "stage": {
+      "width": 36,
+      "depth": 12,
+      "z": 21,
+      "height": 1.5,
+      "facing": -1
+    },
+    "floor": [
+      46,
+      54
+    ],
+    "rectangularFloor": true,
+    "openBowl": true,
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "1层楼座（3F）",
+        "steps": 12
+      },
+      {
+        "id": "middle",
+        "name": "2层楼座（4F）",
+        "steps": 12
+      },
+      {
+        "id": "upper",
+        "name": "3层楼座（5F）",
+        "steps": 12
+      },
+      {
+        "id": "floor",
+        "name": "2F 内场",
+        "steps": 12
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "XA",
+      "ticketLabels": [
+        "XA"
+      ],
+      "sourceLabel": "XA 区",
+      "levelName": "Level 4",
+      "tier": 3,
+      "block": {
+        "x": 12,
+        "z": 10,
+        "width": 9,
+        "depth": 5,
+        "base": 0,
+        "facing": -1
+      },
+      "angle": 0,
+      "halfAngle": 0.012,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.shopping-sumitomo-rd.com/tokyo_garden_theater/visitor/floor/"
+      }
+    },
+    {
+      "id": "XB",
+      "ticketLabels": [
+        "XB"
+      ],
+      "sourceLabel": "XB 区",
+      "levelName": "Level 4",
+      "tier": 3,
+      "block": {
+        "x": 0,
+        "z": 10,
+        "width": 10,
+        "depth": 5,
+        "base": 0,
+        "facing": -1
+      },
+      "angle": 0,
+      "halfAngle": 0.012,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.shopping-sumitomo-rd.com/tokyo_garden_theater/visitor/floor/"
+      }
+    },
+    {
+      "id": "XC",
+      "ticketLabels": [
+        "XC"
+      ],
+      "sourceLabel": "XC 区",
+      "levelName": "Level 4",
+      "tier": 3,
+      "block": {
+        "x": -12,
+        "z": 10,
+        "width": 9,
+        "depth": 5,
+        "base": 0,
+        "facing": -1
+      },
+      "angle": 0,
+      "halfAngle": 0.012,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.shopping-sumitomo-rd.com/tokyo_garden_theater/visitor/floor/"
+      }
+    },
+    {
+      "id": "A",
+      "ticketLabels": [
+        "A"
+      ],
+      "sourceLabel": "A 区",
+      "levelName": "Level 4",
+      "tier": 3,
+      "block": {
+        "x": 12,
+        "z": -3,
+        "width": 9,
+        "depth": 16,
+        "base": 0,
+        "facing": -1
+      },
+      "angle": 0,
+      "halfAngle": 0.012,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.shopping-sumitomo-rd.com/tokyo_garden_theater/visitor/floor/"
+      }
+    },
+    {
+      "id": "B",
+      "ticketLabels": [
+        "B"
+      ],
+      "sourceLabel": "B 区",
+      "levelName": "Level 4",
+      "tier": 3,
+      "block": {
+        "x": 0,
+        "z": -3,
+        "width": 10,
+        "depth": 16,
+        "base": 0,
+        "facing": -1
+      },
+      "angle": 0,
+      "halfAngle": 0.012,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.shopping-sumitomo-rd.com/tokyo_garden_theater/visitor/floor/"
+      }
+    },
+    {
+      "id": "C",
+      "ticketLabels": [
+        "C"
+      ],
+      "sourceLabel": "C 区",
+      "levelName": "Level 4",
+      "tier": 3,
+      "block": {
+        "x": -12,
+        "z": -3,
+        "width": 9,
+        "depth": 16,
+        "base": 0,
+        "facing": -1
+      },
+      "angle": 0,
+      "halfAngle": 0.012,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.shopping-sumitomo-rd.com/tokyo_garden_theater/visitor/floor/"
+      }
+    },
+    {
+      "id": "D",
+      "ticketLabels": [
+        "D"
+      ],
+      "sourceLabel": "D 区",
+      "levelName": "Level 4",
+      "tier": 3,
+      "block": {
+        "x": 12,
+        "z": -18,
+        "width": 8,
+        "depth": 7,
+        "base": 0,
+        "facing": -1
+      },
+      "angle": 0,
+      "halfAngle": 0.012,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.shopping-sumitomo-rd.com/tokyo_garden_theater/visitor/floor/"
+      }
+    },
+    {
+      "id": "E",
+      "ticketLabels": [
+        "E"
+      ],
+      "sourceLabel": "E 区",
+      "levelName": "Level 4",
+      "tier": 3,
+      "block": {
+        "x": 0,
+        "z": -20,
+        "width": 10,
+        "depth": 8,
+        "base": 0,
+        "facing": -1
+      },
+      "angle": 0,
+      "halfAngle": 0.012,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.shopping-sumitomo-rd.com/tokyo_garden_theater/visitor/floor/"
+      }
+    },
+    {
+      "id": "F",
+      "ticketLabels": [
+        "F"
+      ],
+      "sourceLabel": "F 区",
+      "levelName": "Level 4",
+      "tier": 3,
+      "block": {
+        "x": -12,
+        "z": -18,
+        "width": 8,
+        "depth": 7,
+        "base": 0,
+        "facing": -1
+      },
+      "angle": 0,
+      "halfAngle": 0.012,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.shopping-sumitomo-rd.com/tokyo_garden_theater/visitor/floor/"
+      }
+    },
+    {
+      "id": "1A",
+      "ticketLabels": [
+        "1A"
+      ],
+      "sourceLabel": "1A 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.1344640137963142,
+      "halfAngle": 0.22689280275926285,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.shopping-sumitomo-rd.com/tokyo_garden_theater/visitor/floor/"
+      }
+    },
+    {
+      "id": "1B",
+      "ticketLabels": [
+        "1B"
+      ],
+      "sourceLabel": "1B 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.8325957145940461,
+      "halfAngle": 0.22689280275926285,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.shopping-sumitomo-rd.com/tokyo_garden_theater/visitor/floor/"
+      }
+    },
+    {
+      "id": "1C",
+      "ticketLabels": [
+        "1C"
+      ],
+      "sourceLabel": "1C 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.5307274153917776,
+      "halfAngle": 0.22689280275926285,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.shopping-sumitomo-rd.com/tokyo_garden_theater/visitor/floor/"
+      }
+    },
+    {
+      "id": "1D",
+      "ticketLabels": [
+        "1D"
+      ],
+      "sourceLabel": "1D 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.8797932657906435,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.shopping-sumitomo-rd.com/tokyo_garden_theater/visitor/floor/"
+      }
+    },
+    {
+      "id": "1E",
+      "ticketLabels": [
+        "1E"
+      ],
+      "sourceLabel": "1E 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.shopping-sumitomo-rd.com/tokyo_garden_theater/visitor/floor/"
+      }
+    },
+    {
+      "id": "1F",
+      "ticketLabels": [
+        "1F"
+      ],
+      "sourceLabel": "1F 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.4033920413889422,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.shopping-sumitomo-rd.com/tokyo_garden_theater/visitor/floor/"
+      }
+    },
+    {
+      "id": "1G",
+      "ticketLabels": [
+        "1G"
+      ],
+      "sourceLabel": "1G 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.752457891787808,
+      "halfAngle": 0.22689280275926285,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.shopping-sumitomo-rd.com/tokyo_garden_theater/visitor/floor/"
+      }
+    },
+    {
+      "id": "1H",
+      "ticketLabels": [
+        "1H"
+      ],
+      "sourceLabel": "1H 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 4.4505895925855405,
+      "halfAngle": 0.22689280275926285,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.shopping-sumitomo-rd.com/tokyo_garden_theater/visitor/floor/"
+      }
+    },
+    {
+      "id": "1I",
+      "ticketLabels": [
+        "1I"
+      ],
+      "sourceLabel": "1I 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 5.1487212933832724,
+      "halfAngle": 0.22689280275926285,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.shopping-sumitomo-rd.com/tokyo_garden_theater/visitor/floor/"
+      }
+    },
+    {
+      "id": "2A",
+      "ticketLabels": [
+        "2A"
+      ],
+      "sourceLabel": "2A 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.1344640137963142,
+      "halfAngle": 0.22689280275926285,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.shopping-sumitomo-rd.com/tokyo_garden_theater/visitor/floor/"
+      }
+    },
+    {
+      "id": "2B",
+      "ticketLabels": [
+        "2B"
+      ],
+      "sourceLabel": "2B 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.8325957145940461,
+      "halfAngle": 0.22689280275926285,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.shopping-sumitomo-rd.com/tokyo_garden_theater/visitor/floor/"
+      }
+    },
+    {
+      "id": "2C",
+      "ticketLabels": [
+        "2C"
+      ],
+      "sourceLabel": "2C 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.5307274153917776,
+      "halfAngle": 0.22689280275926285,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.shopping-sumitomo-rd.com/tokyo_garden_theater/visitor/floor/"
+      }
+    },
+    {
+      "id": "2D",
+      "ticketLabels": [
+        "2D"
+      ],
+      "sourceLabel": "2D 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.8797932657906435,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.shopping-sumitomo-rd.com/tokyo_garden_theater/visitor/floor/"
+      }
+    },
+    {
+      "id": "2E",
+      "ticketLabels": [
+        "2E"
+      ],
+      "sourceLabel": "2E 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.shopping-sumitomo-rd.com/tokyo_garden_theater/visitor/floor/"
+      }
+    },
+    {
+      "id": "2F",
+      "ticketLabels": [
+        "2F"
+      ],
+      "sourceLabel": "2F 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.4033920413889422,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.shopping-sumitomo-rd.com/tokyo_garden_theater/visitor/floor/"
+      }
+    },
+    {
+      "id": "2G",
+      "ticketLabels": [
+        "2G"
+      ],
+      "sourceLabel": "2G 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.752457891787808,
+      "halfAngle": 0.22689280275926285,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.shopping-sumitomo-rd.com/tokyo_garden_theater/visitor/floor/"
+      }
+    },
+    {
+      "id": "2H",
+      "ticketLabels": [
+        "2H"
+      ],
+      "sourceLabel": "2H 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 4.4505895925855405,
+      "halfAngle": 0.22689280275926285,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.shopping-sumitomo-rd.com/tokyo_garden_theater/visitor/floor/"
+      }
+    },
+    {
+      "id": "2I",
+      "ticketLabels": [
+        "2I"
+      ],
+      "sourceLabel": "2I 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 5.1487212933832724,
+      "halfAngle": 0.22689280275926285,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.shopping-sumitomo-rd.com/tokyo_garden_theater/visitor/floor/"
+      }
+    },
+    {
+      "id": "3A",
+      "ticketLabels": [
+        "3A"
+      ],
+      "sourceLabel": "3A 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 1.1344640137963142,
+      "halfAngle": 0.22689280275926285,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.shopping-sumitomo-rd.com/tokyo_garden_theater/visitor/floor/"
+      }
+    },
+    {
+      "id": "3B",
+      "ticketLabels": [
+        "3B"
+      ],
+      "sourceLabel": "3B 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 1.8325957145940461,
+      "halfAngle": 0.22689280275926285,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.shopping-sumitomo-rd.com/tokyo_garden_theater/visitor/floor/"
+      }
+    },
+    {
+      "id": "3C",
+      "ticketLabels": [
+        "3C"
+      ],
+      "sourceLabel": "3C 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 2.5307274153917776,
+      "halfAngle": 0.22689280275926285,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.shopping-sumitomo-rd.com/tokyo_garden_theater/visitor/floor/"
+      }
+    },
+    {
+      "id": "3D",
+      "ticketLabels": [
+        "3D"
+      ],
+      "sourceLabel": "3D 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 2.8797932657906435,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.shopping-sumitomo-rd.com/tokyo_garden_theater/visitor/floor/"
+      }
+    },
+    {
+      "id": "3E",
+      "ticketLabels": [
+        "3E"
+      ],
+      "sourceLabel": "3E 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.shopping-sumitomo-rd.com/tokyo_garden_theater/visitor/floor/"
+      }
+    },
+    {
+      "id": "3F",
+      "ticketLabels": [
+        "3F"
+      ],
+      "sourceLabel": "3F 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 3.4033920413889422,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.shopping-sumitomo-rd.com/tokyo_garden_theater/visitor/floor/"
+      }
+    },
+    {
+      "id": "3G",
+      "ticketLabels": [
+        "3G"
+      ],
+      "sourceLabel": "3G 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 3.752457891787808,
+      "halfAngle": 0.22689280275926285,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.shopping-sumitomo-rd.com/tokyo_garden_theater/visitor/floor/"
+      }
+    },
+    {
+      "id": "3H",
+      "ticketLabels": [
+        "3H"
+      ],
+      "sourceLabel": "3H 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 4.4505895925855405,
+      "halfAngle": 0.22689280275926285,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.shopping-sumitomo-rd.com/tokyo_garden_theater/visitor/floor/"
+      }
+    },
+    {
+      "id": "3I",
+      "ticketLabels": [
+        "3I"
+      ],
+      "sourceLabel": "3I 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 5.1487212933832724,
+      "halfAngle": 0.22689280275926285,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.shopping-sumitomo-rd.com/tokyo_garden_theater/visitor/floor/"
+      }
+    }
+  ],
+  "importedAt": "2026-10-24T00:00:00.000Z"
+}

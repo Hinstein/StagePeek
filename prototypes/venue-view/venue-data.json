@@ -1,0 +1,2057 @@
+{
+  "kind": "THROWAWAY_PROTOTYPE",
+  "coordinateStatus": "ESTIMATED_NOT_SURVEYED",
+  "rowSeatStatus": "SYNTHETIC_30_ROWS_24_SEATS_NOT_TICKET_VERIFIED",
+  "stageStatus": "GENERIC_NOT_ARTIST_SPECIFIC",
+  "generated": "2026-10-23",
+  "venues": {
+    "metlife": {
+      "name": "MetLife Stadium",
+      "city": "纽约都市圈 · East Rutherford",
+      "artist": "Kendrick Lamar & SZA · 2025",
+      "capacity": "82,500（体育用途）",
+      "sections": [
+        {
+          "id": "101",
+          "angle": -3.13031,
+          "sourceAnchor": [
+            914,
+            690
+          ],
+          "tier": 0,
+          "halfAngle": 0.07703
+        },
+        {
+          "id": "103",
+          "angle": -2.95118,
+          "sourceAnchor": [
+            915,
+            658
+          ],
+          "tier": 0,
+          "halfAngle": 0.07703
+        },
+        {
+          "id": "104",
+          "angle": -2.75719,
+          "sourceAnchor": [
+            919,
+            622
+          ],
+          "tier": 0,
+          "halfAngle": 0.08342
+        },
+        {
+          "id": "106",
+          "angle": -2.55044,
+          "sourceAnchor": [
+            937,
+            586
+          ],
+          "tier": 0,
+          "halfAngle": 0.06108
+        },
+        {
+          "id": "108",
+          "angle": -2.4084,
+          "sourceAnchor": [
+            973,
+            577
+          ],
+          "tier": 0,
+          "halfAngle": 0.06108
+        },
+        {
+          "id": "109",
+          "angle": -2.26541,
+          "sourceAnchor": [
+            1004,
+            570
+          ],
+          "tier": 0,
+          "halfAngle": 0.06149
+        },
+        {
+          "id": "110",
+          "angle": -2.10773,
+          "sourceAnchor": [
+            1035,
+            565
+          ],
+          "tier": 0,
+          "halfAngle": 0.0678
+        },
+        {
+          "id": "112",
+          "angle": -1.78088,
+          "sourceAnchor": [
+            1092,
+            562
+          ],
+          "tier": 0,
+          "halfAngle": 0.09307
+        },
+        {
+          "id": "113",
+          "angle": -1.56443,
+          "sourceAnchor": [
+            1126,
+            560
+          ],
+          "tier": 0,
+          "halfAngle": 0.08494
+        },
+        {
+          "id": "114",
+          "angle": -1.3669,
+          "sourceAnchor": [
+            1157,
+            562
+          ],
+          "tier": 0,
+          "halfAngle": 0.08494
+        },
+        {
+          "id": "116",
+          "angle": -1.03529,
+          "sourceAnchor": [
+            1214,
+            566
+          ],
+          "tier": 0,
+          "halfAngle": 0.07015
+        },
+        {
+          "id": "117",
+          "angle": -0.87214,
+          "sourceAnchor": [
+            1246,
+            571
+          ],
+          "tier": 0,
+          "halfAngle": 0.06578
+        },
+        {
+          "id": "118",
+          "angle": -0.71916,
+          "sourceAnchor": [
+            1280,
+            578
+          ],
+          "tier": 0,
+          "halfAngle": 0.05882
+        },
+        {
+          "id": "121",
+          "angle": -0.58237,
+          "sourceAnchor": [
+            1313,
+            588
+          ],
+          "tier": 0,
+          "halfAngle": 0.05882
+        },
+        {
+          "id": "123",
+          "angle": -0.38953,
+          "sourceAnchor": [
+            1328,
+            622
+          ],
+          "tier": 0,
+          "halfAngle": 0.08292
+        },
+        {
+          "id": "124",
+          "angle": -0.19407,
+          "sourceAnchor": [
+            1337,
+            657
+          ],
+          "tier": 0,
+          "halfAngle": 0.07875
+        },
+        {
+          "id": "126",
+          "angle": -0.01092,
+          "sourceAnchor": [
+            1343,
+            690
+          ],
+          "tier": 0,
+          "halfAngle": 0.07875
+        },
+        {
+          "id": "128",
+          "angle": 0.18156,
+          "sourceAnchor": [
+            1339,
+            725
+          ],
+          "tier": 0,
+          "halfAngle": 0.07931
+        },
+        {
+          "id": "129",
+          "angle": 0.36601,
+          "sourceAnchor": [
+            1330,
+            758
+          ],
+          "tier": 0,
+          "halfAngle": 0.07845
+        },
+        {
+          "id": "131",
+          "angle": 0.54846,
+          "sourceAnchor": [
+            1314,
+            789
+          ],
+          "tier": 0,
+          "halfAngle": 0.06636
+        },
+        {
+          "id": "133",
+          "angle": 0.70279,
+          "sourceAnchor": [
+            1281,
+            803
+          ],
+          "tier": 0,
+          "halfAngle": 0.06636
+        },
+        {
+          "id": "134",
+          "angle": 0.85985,
+          "sourceAnchor": [
+            1247,
+            811
+          ],
+          "tier": 0,
+          "halfAngle": 0.06754
+        },
+        {
+          "id": "135",
+          "angle": 1.02824,
+          "sourceAnchor": [
+            1214,
+            816
+          ],
+          "tier": 0,
+          "halfAngle": 0.07241
+        },
+        {
+          "id": "137",
+          "angle": 1.3099,
+          "sourceAnchor": [
+            1166,
+            821
+          ],
+          "tier": 0,
+          "halfAngle": 0.1094
+        },
+        {
+          "id": "139",
+          "angle": 1.56433,
+          "sourceAnchor": [
+            1126,
+            822
+          ],
+          "tier": 0,
+          "halfAngle": 0.1094
+        },
+        {
+          "id": "140",
+          "angle": 1.82977,
+          "sourceAnchor": [
+            1084,
+            822
+          ],
+          "tier": 0,
+          "halfAngle": 0.10299
+        },
+        {
+          "id": "142",
+          "angle": 2.06927,
+          "sourceAnchor": [
+            1044,
+            817
+          ],
+          "tier": 0,
+          "halfAngle": 0.08962
+        },
+        {
+          "id": "143",
+          "angle": 2.27768,
+          "sourceAnchor": [
+            1004,
+            811
+          ],
+          "tier": 0,
+          "halfAngle": 0.06136
+        },
+        {
+          "id": "144",
+          "angle": 2.42037,
+          "sourceAnchor": [
+            972,
+            805
+          ],
+          "tier": 0,
+          "halfAngle": 0.06136
+        },
+        {
+          "id": "146",
+          "angle": 2.60701,
+          "sourceAnchor": [
+            936,
+            786
+          ],
+          "tier": 0,
+          "halfAngle": 0.0696
+        },
+        {
+          "id": "148",
+          "angle": 2.76888,
+          "sourceAnchor": [
+            921,
+            759
+          ],
+          "tier": 0,
+          "halfAngle": 0.0696
+        },
+        {
+          "id": "149",
+          "angle": 2.95029,
+          "sourceAnchor": [
+            916,
+            726
+          ],
+          "tier": 0,
+          "halfAngle": 0.07801
+        },
+        {
+          "id": "301",
+          "angle": -3.13688,
+          "sourceAnchor": [
+            620,
+            690
+          ],
+          "tier": 2,
+          "halfAngle": 0.05474
+        },
+        {
+          "id": "302",
+          "angle": -3.00957,
+          "sourceAnchor": [
+            614,
+            635
+          ],
+          "tier": 2,
+          "halfAngle": 0.05474
+        },
+        {
+          "id": "303",
+          "angle": -2.86162,
+          "sourceAnchor": [
+            624,
+            571
+          ],
+          "tier": 2,
+          "halfAngle": 0.06362
+        },
+        {
+          "id": "304",
+          "angle": -2.71142,
+          "sourceAnchor": [
+            645,
+            507
+          ],
+          "tier": 2,
+          "halfAngle": 0.05849
+        },
+        {
+          "id": "305",
+          "angle": -2.5754,
+          "sourceAnchor": [
+            668,
+            448
+          ],
+          "tier": 2,
+          "halfAngle": 0.05849
+        },
+        {
+          "id": "306",
+          "angle": -2.43713,
+          "sourceAnchor": [
+            702,
+            390
+          ],
+          "tier": 2,
+          "halfAngle": 0.05584
+        },
+        {
+          "id": "307",
+          "angle": -2.30726,
+          "sourceAnchor": [
+            744,
+            339
+          ],
+          "tier": 2,
+          "halfAngle": 0.04201
+        },
+        {
+          "id": "308",
+          "angle": -2.20957,
+          "sourceAnchor": [
+            797,
+            321
+          ],
+          "tier": 2,
+          "halfAngle": 0.0413
+        },
+        {
+          "id": "309",
+          "angle": -2.11352,
+          "sourceAnchor": [
+            850,
+            309
+          ],
+          "tier": 2,
+          "halfAngle": 0.0413
+        },
+        {
+          "id": "310",
+          "angle": -1.99611,
+          "sourceAnchor": [
+            912,
+            297
+          ],
+          "tier": 2,
+          "halfAngle": 0.05049
+        },
+        {
+          "id": "311",
+          "angle": -1.8736,
+          "sourceAnchor": [
+            974,
+            286
+          ],
+          "tier": 2,
+          "halfAngle": 0.05268
+        },
+        {
+          "id": "312",
+          "angle": -1.75073,
+          "sourceAnchor": [
+            1036,
+            281
+          ],
+          "tier": 2,
+          "halfAngle": 0.0511
+        },
+        {
+          "id": "313",
+          "angle": -1.63189,
+          "sourceAnchor": [
+            1095,
+            280
+          ],
+          "tier": 2,
+          "halfAngle": 0.0511
+        },
+        {
+          "id": "314",
+          "angle": -1.50971,
+          "sourceAnchor": [
+            1155,
+            280
+          ],
+          "tier": 2,
+          "halfAngle": 0.05185
+        },
+        {
+          "id": "315",
+          "angle": -1.38914,
+          "sourceAnchor": [
+            1214,
+            285
+          ],
+          "tier": 2,
+          "halfAngle": 0.05185
+        },
+        {
+          "id": "316",
+          "angle": -1.26373,
+          "sourceAnchor": [
+            1276,
+            292
+          ],
+          "tier": 2,
+          "halfAngle": 0.05132
+        },
+        {
+          "id": "317",
+          "angle": -1.14438,
+          "sourceAnchor": [
+            1337,
+            300
+          ],
+          "tier": 2,
+          "halfAngle": 0.04843
+        },
+        {
+          "id": "318",
+          "angle": -1.03176,
+          "sourceAnchor": [
+            1397,
+            310
+          ],
+          "tier": 2,
+          "halfAngle": 0.04037
+        },
+        {
+          "id": "319",
+          "angle": -0.93788,
+          "sourceAnchor": [
+            1449,
+            321
+          ],
+          "tier": 2,
+          "halfAngle": 0.04037
+        },
+        {
+          "id": "320",
+          "angle": -0.83554,
+          "sourceAnchor": [
+            1504,
+            340
+          ],
+          "tier": 2,
+          "halfAngle": 0.04401
+        },
+        {
+          "id": "321",
+          "angle": -0.70399,
+          "sourceAnchor": [
+            1547,
+            391
+          ],
+          "tier": 2,
+          "halfAngle": 0.05657
+        },
+        {
+          "id": "322",
+          "angle": -0.56706,
+          "sourceAnchor": [
+            1583,
+            447
+          ],
+          "tier": 2,
+          "halfAngle": 0.05888
+        },
+        {
+          "id": "323",
+          "angle": -0.42812,
+          "sourceAnchor": [
+            1605,
+            508
+          ],
+          "tier": 2,
+          "halfAngle": 0.05974
+        },
+        {
+          "id": "324",
+          "angle": -0.28216,
+          "sourceAnchor": [
+            1626,
+            570
+          ],
+          "tier": 2,
+          "halfAngle": 0.06276
+        },
+        {
+          "id": "325",
+          "angle": -0.13177,
+          "sourceAnchor": [
+            1637,
+            635
+          ],
+          "tier": 2,
+          "halfAngle": 0.05464
+        },
+        {
+          "id": "326",
+          "angle": -0.0047,
+          "sourceAnchor": [
+            1632,
+            690
+          ],
+          "tier": 2,
+          "halfAngle": 0.05464
+        },
+        {
+          "id": "327",
+          "angle": 0.12466,
+          "sourceAnchor": [
+            1638,
+            746
+          ],
+          "tier": 2,
+          "halfAngle": 0.05562
+        },
+        {
+          "id": "328",
+          "angle": 0.26555,
+          "sourceAnchor": [
+            1624,
+            806
+          ],
+          "tier": 2,
+          "halfAngle": 0.06058
+        },
+        {
+          "id": "329",
+          "angle": 0.41443,
+          "sourceAnchor": [
+            1604,
+            869
+          ],
+          "tier": 2,
+          "halfAngle": 0.05963
+        },
+        {
+          "id": "330",
+          "angle": 0.5531,
+          "sourceAnchor": [
+            1582,
+            929
+          ],
+          "tier": 2,
+          "halfAngle": 0.05818
+        },
+        {
+          "id": "331",
+          "angle": 0.68841,
+          "sourceAnchor": [
+            1549,
+            985
+          ],
+          "tier": 2,
+          "halfAngle": 0.05818
+        },
+        {
+          "id": "332",
+          "angle": 0.83281,
+          "sourceAnchor": [
+            1505,
+            1043
+          ],
+          "tier": 2,
+          "halfAngle": 0.04526
+        },
+        {
+          "id": "333",
+          "angle": 0.93807,
+          "sourceAnchor": [
+            1448,
+            1062
+          ],
+          "tier": 2,
+          "halfAngle": 0.04177
+        },
+        {
+          "id": "334",
+          "angle": 1.0352,
+          "sourceAnchor": [
+            1397,
+            1077
+          ],
+          "tier": 2,
+          "halfAngle": 0.04177
+        },
+        {
+          "id": "335",
+          "angle": 1.1536,
+          "sourceAnchor": [
+            1335,
+            1090
+          ],
+          "tier": 2,
+          "halfAngle": 0.04979
+        },
+        {
+          "id": "336",
+          "angle": 1.26939,
+          "sourceAnchor": [
+            1276,
+            1100
+          ],
+          "tier": 2,
+          "halfAngle": 0.04979
+        },
+        {
+          "id": "337",
+          "angle": 1.39256,
+          "sourceAnchor": [
+            1214,
+            1107
+          ],
+          "tier": 2,
+          "halfAngle": 0.05075
+        },
+        {
+          "id": "338",
+          "angle": 1.51058,
+          "sourceAnchor": [
+            1155,
+            1110
+          ],
+          "tier": 2,
+          "halfAngle": 0.05075
+        },
+        {
+          "id": "339",
+          "angle": 1.63301,
+          "sourceAnchor": [
+            1094,
+            1110
+          ],
+          "tier": 2,
+          "halfAngle": 0.05073
+        },
+        {
+          "id": "340",
+          "angle": 1.75099,
+          "sourceAnchor": [
+            1035,
+            1107
+          ],
+          "tier": 2,
+          "halfAngle": 0.05073
+        },
+        {
+          "id": "341",
+          "angle": 1.87339,
+          "sourceAnchor": [
+            973,
+            1101
+          ],
+          "tier": 2,
+          "halfAngle": 0.05074
+        },
+        {
+          "id": "342",
+          "angle": 1.9914,
+          "sourceAnchor": [
+            912,
+            1092
+          ],
+          "tier": 2,
+          "halfAngle": 0.04985
+        },
+        {
+          "id": "343",
+          "angle": 2.10733,
+          "sourceAnchor": [
+            851,
+            1079
+          ],
+          "tier": 2,
+          "halfAngle": 0.04389
+        },
+        {
+          "id": "344",
+          "angle": 2.2094,
+          "sourceAnchor": [
+            798,
+            1062
+          ],
+          "tier": 2,
+          "halfAngle": 0.04213
+        },
+        {
+          "id": "345",
+          "angle": 2.30737,
+          "sourceAnchor": [
+            745,
+            1044
+          ],
+          "tier": 2,
+          "halfAngle": 0.04213
+        },
+        {
+          "id": "346",
+          "angle": 2.44702,
+          "sourceAnchor": [
+            702,
+            988
+          ],
+          "tier": 2,
+          "halfAngle": 0.05883
+        },
+        {
+          "id": "347",
+          "angle": 2.58383,
+          "sourceAnchor": [
+            667,
+            932
+          ],
+          "tier": 2,
+          "halfAngle": 0.05883
+        },
+        {
+          "id": "348",
+          "angle": 2.72223,
+          "sourceAnchor": [
+            647,
+            871
+          ],
+          "tier": 2,
+          "halfAngle": 0.05951
+        },
+        {
+          "id": "349",
+          "angle": 2.86939,
+          "sourceAnchor": [
+            626,
+            809
+          ],
+          "tier": 2,
+          "halfAngle": 0.06161
+        },
+        {
+          "id": "350",
+          "angle": 3.01266,
+          "sourceAnchor": [
+            620,
+            747
+          ],
+          "tier": 2,
+          "halfAngle": 0.05747
+        }
+      ],
+      "tiers": [
+        [
+          99,
+          66,
+          3,
+          22,
+          12
+        ],
+        [
+          125,
+          88,
+          17,
+          18,
+          10
+        ],
+        [
+          156,
+          115,
+          31,
+          27,
+          18
+        ]
+      ],
+      "source": "https://www.metlifestadium.com/events-tickets/seating-charts",
+      "sourceTitle": "官方完整座位图（2026）",
+      "coverage": "100／300 层已核对的普通分区样本；不含 200 层、包厢及小型后缀区",
+      "sectionCount": 82
+    },
+    "sofi": {
+      "name": "SoFi Stadium",
+      "city": "洛杉矶地区 · Inglewood",
+      "artist": "The Weeknd / Kendrick & SZA · 2025",
+      "capacity": "约 70,000（常规）",
+      "sections": [
+        {
+          "id": "102",
+          "angle": -3.01993,
+          "sourceAnchor": [
+            710,
+            531
+          ],
+          "tier": 0,
+          "halfAngle": 0.09286
+        },
+        {
+          "id": "101",
+          "angle": -2.80398,
+          "sourceAnchor": [
+            754,
+            535
+          ],
+          "tier": 0,
+          "halfAngle": 0.08657
+        },
+        {
+          "id": "100",
+          "angle": -2.60265,
+          "sourceAnchor": [
+            796,
+            550
+          ],
+          "tier": 0,
+          "halfAngle": 0.08657
+        },
+        {
+          "id": "C137",
+          "angle": -2.39553,
+          "sourceAnchor": [
+            841,
+            575
+          ],
+          "tier": 0,
+          "halfAngle": 0.05806
+        },
+        {
+          "id": "C136",
+          "angle": -2.26051,
+          "sourceAnchor": [
+            857,
+            616
+          ],
+          "tier": 0,
+          "halfAngle": 0.05806
+        },
+        {
+          "id": "C135",
+          "angle": -2.10167,
+          "sourceAnchor": [
+            872,
+            665
+          ],
+          "tier": 0,
+          "halfAngle": 0.05906
+        },
+        {
+          "id": "C134",
+          "angle": -1.96432,
+          "sourceAnchor": [
+            877,
+            711
+          ],
+          "tier": 0,
+          "halfAngle": 0.05906
+        },
+        {
+          "id": "C133",
+          "angle": -1.82389,
+          "sourceAnchor": [
+            877,
+            757
+          ],
+          "tier": 0,
+          "halfAngle": 0.06038
+        },
+        {
+          "id": "VIP132",
+          "angle": -1.66101,
+          "sourceAnchor": [
+            880,
+            806
+          ],
+          "tier": 0,
+          "halfAngle": 0.07004
+        },
+        {
+          "id": "VIP131",
+          "angle": -1.49389,
+          "sourceAnchor": [
+            880,
+            856
+          ],
+          "tier": 0,
+          "halfAngle": 0.06974
+        },
+        {
+          "id": "C130",
+          "angle": -1.33171,
+          "sourceAnchor": [
+            878,
+            905
+          ],
+          "tier": 0,
+          "halfAngle": 0.05482
+        },
+        {
+          "id": "C129",
+          "angle": -1.20421,
+          "sourceAnchor": [
+            879,
+            947
+          ],
+          "tier": 0,
+          "halfAngle": 0.05482
+        },
+        {
+          "id": "C128",
+          "angle": -1.05903,
+          "sourceAnchor": [
+            870,
+            992
+          ],
+          "tier": 0,
+          "halfAngle": 0.06243
+        },
+        {
+          "id": "C127",
+          "angle": -0.89371,
+          "sourceAnchor": [
+            855,
+            1042
+          ],
+          "tier": 0,
+          "halfAngle": 0.05801
+        },
+        {
+          "id": "C126",
+          "angle": -0.75881,
+          "sourceAnchor": [
+            837,
+            1078
+          ],
+          "tier": 0,
+          "halfAngle": 0.05093
+        },
+        {
+          "id": "C125",
+          "angle": -0.64036,
+          "sourceAnchor": [
+            825,
+            1120
+          ],
+          "tier": 0,
+          "halfAngle": 0.04748
+        },
+        {
+          "id": "124",
+          "angle": -0.52993,
+          "sourceAnchor": [
+            793,
+            1114
+          ],
+          "tier": 0,
+          "halfAngle": 0.04748
+        },
+        {
+          "id": "123",
+          "angle": -0.35003,
+          "sourceAnchor": [
+            756,
+            1128
+          ],
+          "tier": 0,
+          "halfAngle": 0.07736
+        },
+        {
+          "id": "122",
+          "angle": -0.12667,
+          "sourceAnchor": [
+            711,
+            1135
+          ],
+          "tier": 0,
+          "halfAngle": 0.09604
+        },
+        {
+          "id": "121",
+          "angle": 0.13212,
+          "sourceAnchor": [
+            660,
+            1134
+          ],
+          "tier": 0,
+          "halfAngle": 0.08396
+        },
+        {
+          "id": "120",
+          "angle": 0.32737,
+          "sourceAnchor": [
+            620,
+            1132
+          ],
+          "tier": 0,
+          "halfAngle": 0.07937
+        },
+        {
+          "id": "119",
+          "angle": 0.51195,
+          "sourceAnchor": [
+            583,
+            1115
+          ],
+          "tier": 0,
+          "halfAngle": 0.03632
+        },
+        {
+          "id": "C118",
+          "angle": 0.59642,
+          "sourceAnchor": [
+            562,
+            1114
+          ],
+          "tier": 0,
+          "halfAngle": 0.03632
+        },
+        {
+          "id": "C117",
+          "angle": 0.73615,
+          "sourceAnchor": [
+            537,
+            1086
+          ],
+          "tier": 0,
+          "halfAngle": 0.06008
+        },
+        {
+          "id": "C116",
+          "angle": 0.89194,
+          "sourceAnchor": [
+            516,
+            1044
+          ],
+          "tier": 0,
+          "halfAngle": 0.06699
+        },
+        {
+          "id": "C115",
+          "angle": 1.0659,
+          "sourceAnchor": [
+            499,
+            992
+          ],
+          "tier": 0,
+          "halfAngle": 0.0624
+        },
+        {
+          "id": "C114",
+          "angle": 1.21102,
+          "sourceAnchor": [
+            489,
+            947
+          ],
+          "tier": 0,
+          "halfAngle": 0.05405
+        },
+        {
+          "id": "C113",
+          "angle": 1.33672,
+          "sourceAnchor": [
+            487,
+            906
+          ],
+          "tier": 0,
+          "halfAngle": 0.05405
+        },
+        {
+          "id": "VIP112",
+          "angle": 1.49942,
+          "sourceAnchor": [
+            486,
+            855
+          ],
+          "tier": 0,
+          "halfAngle": 0.06833
+        },
+        {
+          "id": "VIP111",
+          "angle": 1.65832,
+          "sourceAnchor": [
+            486,
+            806
+          ],
+          "tier": 0,
+          "halfAngle": 0.06649
+        },
+        {
+          "id": "C110",
+          "angle": 1.81295,
+          "sourceAnchor": [
+            486,
+            757
+          ],
+          "tier": 0,
+          "halfAngle": 0.06649
+        },
+        {
+          "id": "C109",
+          "angle": 1.97689,
+          "sourceAnchor": [
+            491,
+            704
+          ],
+          "tier": 0,
+          "halfAngle": 0.06679
+        },
+        {
+          "id": "C108",
+          "angle": 2.13221,
+          "sourceAnchor": [
+            501,
+            654
+          ],
+          "tier": 0,
+          "halfAngle": 0.06123
+        },
+        {
+          "id": "C107",
+          "angle": 2.27461,
+          "sourceAnchor": [
+            516,
+            611
+          ],
+          "tier": 0,
+          "halfAngle": 0.06044
+        },
+        {
+          "id": "C106",
+          "angle": 2.41517,
+          "sourceAnchor": [
+            537,
+            575
+          ],
+          "tier": 0,
+          "halfAngle": 0.06044
+        },
+        {
+          "id": "105",
+          "angle": 2.60821,
+          "sourceAnchor": [
+            577,
+            549
+          ],
+          "tier": 0,
+          "halfAngle": 0.08301
+        },
+        {
+          "id": "104",
+          "angle": 2.81579,
+          "sourceAnchor": [
+            621,
+            537
+          ],
+          "tier": 0,
+          "halfAngle": 0.08926
+        },
+        {
+          "id": "103",
+          "angle": 3.02457,
+          "sourceAnchor": [
+            663,
+            532
+          ],
+          "tier": 0,
+          "halfAngle": 0.08978
+        }
+      ],
+      "tiers": [
+        [
+          91,
+          63,
+          3,
+          21,
+          12
+        ]
+      ],
+      "source": "https://www.therams.com/game-day/navigating",
+      "sourceTitle": "Rams 官方 Level 2 地图",
+      "coverage": "只演示 Level 2 下层看台；官方当前页面所链接的图纸标注为 2021 年",
+      "sectionCount": 38
+    },
+    "tottenham": {
+      "name": "Tottenham Hotspur Stadium",
+      "city": "伦敦 · Tottenham",
+      "artist": "Kendrick & SZA · 2025 / Travis Scott · 2024",
+      "capacity": "62,850（体育用途）",
+      "sections": [
+        {
+          "id": "113",
+          "angle": -2.99156,
+          "sourceAnchor": [
+            245.43,
+            420.25
+          ],
+          "tier": 0,
+          "halfAngle": 0.12415
+        },
+        {
+          "id": "119",
+          "angle": -1.86949,
+          "sourceAnchor": [
+            324.96,
+            338.44
+          ],
+          "tier": 0,
+          "halfAngle": 0.13
+        },
+        {
+          "id": "122",
+          "angle": -1.26464,
+          "sourceAnchor": [
+            402.05,
+            338.44
+          ],
+          "tier": 0,
+          "halfAngle": 0.07535
+        },
+        {
+          "id": "123",
+          "angle": -1.0894,
+          "sourceAnchor": [
+            427.53,
+            338.44
+          ],
+          "tier": 0,
+          "halfAngle": 0.04578
+        },
+        {
+          "id": "124",
+          "angle": -0.98293,
+          "sourceAnchor": [
+            445.33,
+            338.44
+          ],
+          "tier": 0,
+          "halfAngle": 0.04578
+        },
+        {
+          "id": "101",
+          "angle": 0.98002,
+          "sourceAnchor": [
+            445.71,
+            529.41
+          ],
+          "tier": 0,
+          "halfAngle": 0.04847
+        },
+        {
+          "id": "102",
+          "angle": 1.09273,
+          "sourceAnchor": [
+            426.9,
+            529.41
+          ],
+          "tier": 0,
+          "halfAngle": 0.04847
+        },
+        {
+          "id": "103",
+          "angle": 1.2688,
+          "sourceAnchor": [
+            401.42,
+            529.41
+          ],
+          "tier": 0,
+          "halfAngle": 0.07156
+        },
+        {
+          "id": "104",
+          "angle": 1.43523,
+          "sourceAnchor": [
+            379.82,
+            529.41
+          ],
+          "tier": 0,
+          "halfAngle": 0.07156
+        },
+        {
+          "id": "105",
+          "angle": 1.80326,
+          "sourceAnchor": [
+            333.8,
+            529.41
+          ],
+          "tier": 0,
+          "halfAngle": 0.10314
+        },
+        {
+          "id": "107",
+          "angle": 2.04312,
+          "sourceAnchor": [
+            299.99,
+            529.41
+          ],
+          "tier": 0,
+          "halfAngle": 0.06729
+        },
+        {
+          "id": "108",
+          "angle": 2.19962,
+          "sourceAnchor": [
+            273.3,
+            529.41
+          ],
+          "tier": 0,
+          "halfAngle": 0.06729
+        },
+        {
+          "id": "109",
+          "angle": 2.41293,
+          "sourceAnchor": [
+            248.03,
+            513.38
+          ],
+          "tier": 0,
+          "halfAngle": 0.06845
+        },
+        {
+          "id": "110",
+          "angle": 2.57212,
+          "sourceAnchor": [
+            245.41,
+            492.24
+          ],
+          "tier": 0,
+          "halfAngle": 0.06845
+        },
+        {
+          "id": "111",
+          "angle": 2.74705,
+          "sourceAnchor": [
+            245.36,
+            471.89
+          ],
+          "tier": 0,
+          "halfAngle": 0.07522
+        },
+        {
+          "id": "112",
+          "angle": 3.0029,
+          "sourceAnchor": [
+            245.4,
+            446.7
+          ],
+          "tier": 0,
+          "halfAngle": 0.11002
+        },
+        {
+          "id": "234",
+          "angle": -2.8357,
+          "sourceAnchor": [
+            223.79,
+            399.99
+          ],
+          "tier": 1,
+          "halfAngle": 0.13
+        },
+        {
+          "id": "248",
+          "angle": -0.93649,
+          "sourceAnchor": [
+            503.5,
+            286.27
+          ],
+          "tier": 1,
+          "halfAngle": 0.04242
+        },
+        {
+          "id": "249",
+          "angle": -0.83785,
+          "sourceAnchor": [
+            535.65,
+            285.64
+          ],
+          "tier": 1,
+          "halfAngle": 0.04242
+        },
+        {
+          "id": "250",
+          "angle": -0.69873,
+          "sourceAnchor": [
+            566.06,
+            302.03
+          ],
+          "tier": 1,
+          "halfAngle": 0.05982
+        },
+        {
+          "id": "251",
+          "angle": -0.50469,
+          "sourceAnchor": [
+            532.12,
+            361.73
+          ],
+          "tier": 1,
+          "halfAngle": 0.08344
+        },
+        {
+          "id": "252",
+          "angle": -0.26171,
+          "sourceAnchor": [
+            532.18,
+            398.95
+          ],
+          "tier": 1,
+          "halfAngle": 0.10448
+        },
+        {
+          "id": "254",
+          "angle": -0.00698,
+          "sourceAnchor": [
+            532.09,
+            433.09
+          ],
+          "tier": 1,
+          "halfAngle": 0.10953
+        },
+        {
+          "id": "256",
+          "angle": 0.27303,
+          "sourceAnchor": [
+            532.14,
+            470.64
+          ],
+          "tier": 1,
+          "halfAngle": 0.10126
+        },
+        {
+          "id": "257",
+          "angle": 0.50851,
+          "sourceAnchor": [
+            532.11,
+            506.92
+          ],
+          "tier": 1,
+          "halfAngle": 0.083
+        },
+        {
+          "id": "258",
+          "angle": 0.70154,
+          "sourceAnchor": [
+            566.08,
+            566.74
+          ],
+          "tier": 1,
+          "halfAngle": 0.05982
+        },
+        {
+          "id": "259",
+          "angle": 0.84065,
+          "sourceAnchor": [
+            535.54,
+            583.1
+          ],
+          "tier": 1,
+          "halfAngle": 0.04507
+        },
+        {
+          "id": "260",
+          "angle": 0.94546,
+          "sourceAnchor": [
+            503.53,
+            584.58
+          ],
+          "tier": 1,
+          "halfAngle": 0.04507
+        },
+        {
+          "id": "232",
+          "angle": 2.49187,
+          "sourceAnchor": [
+            229.49,
+            512.47
+          ],
+          "tier": 1,
+          "halfAngle": 0.13
+        },
+        {
+          "id": "233",
+          "angle": 2.86435,
+          "sourceAnchor": [
+            223.81,
+            464.64
+          ],
+          "tier": 1,
+          "halfAngle": 0.13
+        },
+        {
+          "id": "420",
+          "angle": -3.13563,
+          "sourceAnchor": [
+            165.08,
+            433.09
+          ],
+          "tier": 2,
+          "halfAngle": 0.08682
+        },
+        {
+          "id": "421",
+          "angle": -2.93372,
+          "sourceAnchor": [
+            165.3,
+            401.74
+          ],
+          "tier": 2,
+          "halfAngle": 0.08103
+        },
+        {
+          "id": "422",
+          "angle": -2.74527,
+          "sourceAnchor": [
+            165.71,
+            370.14
+          ],
+          "tier": 2,
+          "halfAngle": 0.0652
+        },
+        {
+          "id": "423",
+          "angle": -2.59365,
+          "sourceAnchor": [
+            168.46,
+            342.16
+          ],
+          "tier": 2,
+          "halfAngle": 0.0559
+        },
+        {
+          "id": "424",
+          "angle": -2.46366,
+          "sourceAnchor": [
+            179.8,
+            319.88
+          ],
+          "tier": 2,
+          "halfAngle": 0.0559
+        },
+        {
+          "id": "322",
+          "angle": -0.5251,
+          "sourceAnchor": [
+            594.47,
+            330.26
+          ],
+          "tier": 2,
+          "halfAngle": 0.07424
+        },
+        {
+          "id": "323",
+          "angle": -0.35246,
+          "sourceAnchor": [
+            615.6,
+            362.13
+          ],
+          "tier": 2,
+          "halfAngle": 0.07424
+        },
+        {
+          "id": "451",
+          "angle": -0.17027,
+          "sourceAnchor": [
+            626.51,
+            398.95
+          ],
+          "tier": 2,
+          "halfAngle": 0.07129
+        },
+        {
+          "id": "452",
+          "angle": -0.00448,
+          "sourceAnchor": [
+            626.57,
+            433.09
+          ],
+          "tier": 2,
+          "halfAngle": 0.07129
+        },
+        {
+          "id": "453",
+          "angle": 0.17503,
+          "sourceAnchor": [
+            626.63,
+            470.06
+          ],
+          "tier": 2,
+          "halfAngle": 0.07564
+        },
+        {
+          "id": "324",
+          "angle": 0.35093,
+          "sourceAnchor": [
+            615.62,
+            505.54
+          ],
+          "tier": 2,
+          "halfAngle": 0.07564
+        },
+        {
+          "id": "325",
+          "angle": 0.52937,
+          "sourceAnchor": [
+            594.45,
+            538.76
+          ],
+          "tier": 2,
+          "halfAngle": 0.07673
+        },
+        {
+          "id": "416",
+          "angle": 2.45562,
+          "sourceAnchor": [
+            181.28,
+            549.07
+          ],
+          "tier": 2,
+          "halfAngle": 0.05721
+        },
+        {
+          "id": "417",
+          "angle": 2.58866,
+          "sourceAnchor": [
+            169.24,
+            526.51
+          ],
+          "tier": 2,
+          "halfAngle": 0.05721
+        },
+        {
+          "id": "418",
+          "angle": 2.74509,
+          "sourceAnchor": [
+            165.58,
+            497.94
+          ],
+          "tier": 2,
+          "halfAngle": 0.06726
+        },
+        {
+          "id": "419",
+          "angle": 2.94032,
+          "sourceAnchor": [
+            165.5,
+            465.17
+          ],
+          "tier": 2,
+          "halfAngle": 0.08395
+        },
+        {
+          "id": "515",
+          "angle": -3.13248,
+          "sourceAnchor": [
+            103.05,
+            432.17
+          ],
+          "tier": 3,
+          "halfAngle": 0.07898
+        },
+        {
+          "id": "516",
+          "angle": -2.9488,
+          "sourceAnchor": [
+            103.04,
+            394.74
+          ],
+          "tier": 3,
+          "halfAngle": 0.07898
+        },
+        {
+          "id": "517",
+          "angle": -2.74766,
+          "sourceAnchor": [
+            115.11,
+            354.29
+          ],
+          "tier": 3,
+          "halfAngle": 0.07206
+        },
+        {
+          "id": "518",
+          "angle": -2.58008,
+          "sourceAnchor": [
+            124.75,
+            318.06
+          ],
+          "tier": 3,
+          "halfAngle": 0.06581
+        },
+        {
+          "id": "519",
+          "angle": -2.42704,
+          "sourceAnchor": [
+            143.45,
+            286.67
+          ],
+          "tier": 3,
+          "halfAngle": 0.05448
+        },
+        {
+          "id": "520",
+          "angle": -2.30035,
+          "sourceAnchor": [
+            164.58,
+            262.33
+          ],
+          "tier": 3,
+          "halfAngle": 0.05448
+        },
+        {
+          "id": "521",
+          "angle": -2.16651,
+          "sourceAnchor": [
+            195.22,
+            242.53
+          ],
+          "tier": 3,
+          "halfAngle": 0.05257
+        },
+        {
+          "id": "522",
+          "angle": -2.04426,
+          "sourceAnchor": [
+            227.8,
+            229.86
+          ],
+          "tier": 3,
+          "halfAngle": 0.05078
+        },
+        {
+          "id": "523",
+          "angle": -1.92617,
+          "sourceAnchor": [
+            265.06,
+            229.86
+          ],
+          "tier": 3,
+          "halfAngle": 0.05078
+        },
+        {
+          "id": "524",
+          "angle": -1.80231,
+          "sourceAnchor": [
+            300.79,
+            229.86
+          ],
+          "tier": 3,
+          "halfAngle": 0.04915
+        },
+        {
+          "id": "525",
+          "angle": -1.68801,
+          "sourceAnchor": [
+            331.92,
+            229.86
+          ],
+          "tier": 3,
+          "halfAngle": 0.04915
+        },
+        {
+          "id": "527",
+          "angle": -1.49743,
+          "sourceAnchor": [
+            382.4,
+            229.86
+          ],
+          "tier": 3,
+          "halfAngle": 0.05078
+        },
+        {
+          "id": "528",
+          "angle": -1.37933,
+          "sourceAnchor": [
+            414.15,
+            229.86
+          ],
+          "tier": 3,
+          "halfAngle": 0.05078
+        },
+        {
+          "id": "529",
+          "angle": -1.2462,
+          "sourceAnchor": [
+            451.8,
+            229.86
+          ],
+          "tier": 3,
+          "halfAngle": 0.05725
+        },
+        {
+          "id": "530",
+          "angle": -1.10972,
+          "sourceAnchor": [
+            494.1,
+            229.86
+          ],
+          "tier": 3,
+          "halfAngle": 0.05869
+        },
+        {
+          "id": "501",
+          "angle": 1.11132,
+          "sourceAnchor": [
+            490.87,
+            633.92
+          ],
+          "tier": 3,
+          "halfAngle": 0.05797
+        },
+        {
+          "id": "502",
+          "angle": 1.24613,
+          "sourceAnchor": [
+            449.98,
+            633.92
+          ],
+          "tier": 3,
+          "halfAngle": 0.05797
+        },
+        {
+          "id": "503",
+          "angle": 1.3811,
+          "sourceAnchor": [
+            412.62,
+            633.92
+          ],
+          "tier": 3,
+          "halfAngle": 0.04825
+        },
+        {
+          "id": "504",
+          "angle": 1.49331,
+          "sourceAnchor": [
+            383.06,
+            633.92
+          ],
+          "tier": 3,
+          "halfAngle": 0.04825
+        },
+        {
+          "id": "505",
+          "angle": 1.69451,
+          "sourceAnchor": [
+            330.86,
+            633.92
+          ],
+          "tier": 3,
+          "halfAngle": 0.04867
+        },
+        {
+          "id": "506",
+          "angle": 1.8077,
+          "sourceAnchor": [
+            300.6,
+            633.92
+          ],
+          "tier": 3,
+          "halfAngle": 0.04867
+        },
+        {
+          "id": "507",
+          "angle": 1.93803,
+          "sourceAnchor": [
+            263.58,
+            633.92
+          ],
+          "tier": 3,
+          "halfAngle": 0.04569
+        },
+        {
+          "id": "508",
+          "angle": 2.04429,
+          "sourceAnchor": [
+            230.59,
+            633.92
+          ],
+          "tier": 3,
+          "halfAngle": 0.04569
+        },
+        {
+          "id": "509",
+          "angle": 2.18143,
+          "sourceAnchor": [
+            197.57,
+            616.85
+          ],
+          "tier": 3,
+          "halfAngle": 0.05293
+        },
+        {
+          "id": "510",
+          "angle": 2.30453,
+          "sourceAnchor": [
+            170.6,
+            599.07
+          ],
+          "tier": 3,
+          "halfAngle": 0.05293
+        },
+        {
+          "id": "511",
+          "angle": 2.44916,
+          "sourceAnchor": [
+            143.48,
+            574.85
+          ],
+          "tier": 3,
+          "halfAngle": 0.05968
+        },
+        {
+          "id": "512",
+          "angle": 2.58796,
+          "sourceAnchor": [
+            128.77,
+            546.0
+          ],
+          "tier": 3,
+          "halfAngle": 0.05968
+        },
+        {
+          "id": "513",
+          "angle": 2.75859,
+          "sourceAnchor": [
+            115.21,
+            511.23
+          ],
+          "tier": 3,
+          "halfAngle": 0.07337
+        },
+        {
+          "id": "514",
+          "angle": 2.96438,
+          "sourceAnchor": [
+            103.01,
+            470.02
+          ],
+          "tier": 3,
+          "halfAngle": 0.08012
+        }
+      ],
+      "tiers": [
+        [
+          81,
+          55,
+          3,
+          18,
+          10
+        ],
+        [
+          106,
+          75,
+          15,
+          20,
+          12
+        ],
+        [
+          127,
+          91,
+          27,
+          20,
+          12
+        ],
+        [
+          148,
+          110,
+          36,
+          22,
+          15
+        ]
+      ],
+      "source": "https://resources.thfc.pulselive.com/thfc/document/2026/08/13/dcd3483a-2f97-41cb-8ea6-198c65a8c634/THFC-2627-Official-Category-B-Pricing-Map-94-.pdf",
+      "sourceTitle": "官方 2026/27 分区 PDF",
+      "coverage": "官方票价图可提取的分区样本；South Stand 在粗模型中按层级简化",
+      "sectionCount": 75
+    }
+  }
+}

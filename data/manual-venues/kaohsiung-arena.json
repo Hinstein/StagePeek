@@ -1,0 +1,938 @@
+{
+  "id": "kaohsiung-arena",
+  "name": "高雄巨蛋",
+  "city": "中国台湾 · 高雄",
+  "capacity": "原站目录未提供统一容量字段",
+  "source": "https://www.kaoarena.com.tw/Home/",
+  "sourceTitle": "REA 导出的公开场馆来源索引与参数化座位示意",
+  "sourceLinks": [
+    "https://www.kaoarena.com.tw/Home/",
+    "https://www.kaoarena.com.tw/Home/Seat",
+    "https://www.kaoarena.com.tw/Home/Seat2"
+  ],
+  "accuracy": {
+    "sectionLabels": "source-layout-reference",
+    "completeSeatInventory": false,
+    "metricCalibrated": false,
+    "stage": "generic",
+    "position": "estimated",
+    "geometryBasis": "source-informed-parametric:plan",
+    "catalogStatus": "source-geometry-and-sections",
+    "seatDataStatus": "section-only",
+    "sourceLayout": "end",
+    "coverage": "50 个来源分区；0 条座位采样。区号来自公开布局参考。",
+    "reuse": "来源页面可公开访问；未建立商业图形、模型或座位数据库再分发许可，发布前需逐源复核。",
+    "sourceDate": "REA capture 2026-10-24",
+    "sourceInventory": {
+      "venueReferenceUrl": "https://www.kaoarena.com.tw/Home/",
+      "mapReferenceUrl": "https://www.kaoarena.com.tw/Home/Seat",
+      "sectionSource": "https://www.kaoarena.com.tw/Home/Seat2",
+      "geometryEvidenceLabel": "plan",
+      "note": "Missing asset URL does not establish absence of generated seat geometry."
+    },
+    "seatAsset": null
+  },
+  "tiers": [
+    [
+      23,
+      32,
+      1,
+      17,
+      8
+    ],
+    [
+      34,
+      43,
+      13,
+      6,
+      3
+    ],
+    [
+      35,
+      44,
+      21,
+      18,
+      13
+    ]
+  ],
+  "geometry": {
+    "shape": "rounded",
+    "coordinateSystem": "profile-inner-radius",
+    "power": 0.48,
+    "oneSided": false,
+    "floor": [
+      42,
+      60
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "2F",
+        "steps": 23
+      },
+      {
+        "id": "middle",
+        "name": "4F 包厢",
+        "steps": 7
+      },
+      {
+        "id": "upper",
+        "name": "5F／6F",
+        "steps": 25
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "201",
+      "ticketLabels": [
+        "201"
+      ],
+      "sourceLabel": "201 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.4363323129985824,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kaoarena.com.tw/Home/Seat2"
+      }
+    },
+    {
+      "id": "202",
+      "ticketLabels": [
+        "202"
+      ],
+      "sourceLabel": "202 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.13962634015954636,
+      "halfAngle": 0.12217304763960307,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kaoarena.com.tw/Home/Seat2"
+      }
+    },
+    {
+      "id": "203",
+      "ticketLabels": [
+        "203"
+      ],
+      "sourceLabel": "203 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.13962634015954636,
+      "halfAngle": 0.12217304763960307,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kaoarena.com.tw/Home/Seat2"
+      }
+    },
+    {
+      "id": "204",
+      "ticketLabels": [
+        "204"
+      ],
+      "sourceLabel": "204 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.4363323129985824,
+      "halfAngle": 0.12217304763960307,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kaoarena.com.tw/Home/Seat2"
+      }
+    },
+    {
+      "id": "205",
+      "ticketLabels": [
+        "205"
+      ],
+      "sourceLabel": "205 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.7853981633974483,
+      "halfAngle": 0.12217304763960307,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kaoarena.com.tw/Home/Seat2"
+      }
+    },
+    {
+      "id": "206",
+      "ticketLabels": [
+        "206"
+      ],
+      "sourceLabel": "206 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.1344640137963142,
+      "halfAngle": 0.11519173063162574,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kaoarena.com.tw/Home/Seat2"
+      }
+    },
+    {
+      "id": "207",
+      "ticketLabels": [
+        "207"
+      ],
+      "sourceLabel": "207 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.3962634015954636,
+      "halfAngle": 0.11519173063162574,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kaoarena.com.tw/Home/Seat2"
+      }
+    },
+    {
+      "id": "208",
+      "ticketLabels": [
+        "208"
+      ],
+      "sourceLabel": "208 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.6580627893946132,
+      "halfAngle": 0.11519173063162574,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kaoarena.com.tw/Home/Seat2"
+      }
+    },
+    {
+      "id": "209",
+      "ticketLabels": [
+        "209"
+      ],
+      "sourceLabel": "209 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.9198621771937625,
+      "halfAngle": 0.11519173063162574,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kaoarena.com.tw/Home/Seat2"
+      }
+    },
+    {
+      "id": "210",
+      "ticketLabels": [
+        "210"
+      ],
+      "sourceLabel": "210 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.1816615649929116,
+      "halfAngle": 0.11519173063162574,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kaoarena.com.tw/Home/Seat2"
+      }
+    },
+    {
+      "id": "211",
+      "ticketLabels": [
+        "211"
+      ],
+      "sourceLabel": "211 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.5307274153917776,
+      "halfAngle": 0.11519173063162574,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kaoarena.com.tw/Home/Seat2"
+      }
+    },
+    {
+      "id": "212",
+      "ticketLabels": [
+        "212"
+      ],
+      "sourceLabel": "212 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.792526803190927,
+      "halfAngle": 0.11519173063162574,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kaoarena.com.tw/Home/Seat2"
+      }
+    },
+    {
+      "id": "213",
+      "ticketLabels": [
+        "213"
+      ],
+      "sourceLabel": "213 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.0543261909900763,
+      "halfAngle": 0.11519173063162574,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kaoarena.com.tw/Home/Seat2"
+      }
+    },
+    {
+      "id": "214",
+      "ticketLabels": [
+        "214"
+      ],
+      "sourceLabel": "214 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.3161255787892263,
+      "halfAngle": 0.11519173063162574,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kaoarena.com.tw/Home/Seat2"
+      }
+    },
+    {
+      "id": "215",
+      "ticketLabels": [
+        "215"
+      ],
+      "sourceLabel": "215 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.5779249665883754,
+      "halfAngle": 0.11519173063162574,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kaoarena.com.tw/Home/Seat2"
+      }
+    },
+    {
+      "id": "216",
+      "ticketLabels": [
+        "216"
+      ],
+      "sourceLabel": "216 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.9269908169872414,
+      "halfAngle": 0.12217304763960307,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kaoarena.com.tw/Home/Seat2"
+      }
+    },
+    {
+      "id": "217",
+      "ticketLabels": [
+        "217"
+      ],
+      "sourceLabel": "217 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 4.276056667386107,
+      "halfAngle": 0.11519173063162574,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kaoarena.com.tw/Home/Seat2"
+      }
+    },
+    {
+      "id": "218",
+      "ticketLabels": [
+        "218"
+      ],
+      "sourceLabel": "218 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 4.537856055185257,
+      "halfAngle": 0.11519173063162574,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kaoarena.com.tw/Home/Seat2"
+      }
+    },
+    {
+      "id": "219",
+      "ticketLabels": [
+        "219"
+      ],
+      "sourceLabel": "219 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 4.799655442984406,
+      "halfAngle": 0.11519173063162574,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kaoarena.com.tw/Home/Seat2"
+      }
+    },
+    {
+      "id": "220",
+      "ticketLabels": [
+        "220"
+      ],
+      "sourceLabel": "220 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 5.061454830783555,
+      "halfAngle": 0.11519173063162574,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kaoarena.com.tw/Home/Seat2"
+      }
+    },
+    {
+      "id": "221",
+      "ticketLabels": [
+        "221"
+      ],
+      "sourceLabel": "221 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 5.323254218582705,
+      "halfAngle": 0.11519173063162574,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kaoarena.com.tw/Home/Seat2"
+      }
+    },
+    {
+      "id": "222",
+      "ticketLabels": [
+        "222"
+      ],
+      "sourceLabel": "222 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 5.672320068981571,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kaoarena.com.tw/Home/Seat2"
+      }
+    },
+    {
+      "id": "401",
+      "ticketLabels": [
+        "401"
+      ],
+      "sourceLabel": "401 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.41887902047863906,
+      "halfAngle": 0.09215338450530061,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kaoarena.com.tw/Home/Seat2"
+      }
+    },
+    {
+      "id": "402",
+      "ticketLabels": [
+        "402"
+      ],
+      "sourceLabel": "402 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.20943951023931953,
+      "halfAngle": 0.09215338450530061,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kaoarena.com.tw/Home/Seat2"
+      }
+    },
+    {
+      "id": "403",
+      "ticketLabels": [
+        "403"
+      ],
+      "sourceLabel": "403 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0,
+      "halfAngle": 0.09215338450530061,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kaoarena.com.tw/Home/Seat2"
+      }
+    },
+    {
+      "id": "404",
+      "ticketLabels": [
+        "404"
+      ],
+      "sourceLabel": "404 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.20943951023931953,
+      "halfAngle": 0.09215338450530061,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kaoarena.com.tw/Home/Seat2"
+      }
+    },
+    {
+      "id": "405",
+      "ticketLabels": [
+        "405"
+      ],
+      "sourceLabel": "405 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.41887902047863906,
+      "halfAngle": 0.09215338450530061,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kaoarena.com.tw/Home/Seat2"
+      }
+    },
+    {
+      "id": "406",
+      "ticketLabels": [
+        "406"
+      ],
+      "sourceLabel": "406 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.722713633111154,
+      "halfAngle": 0.09215338450530061,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kaoarena.com.tw/Home/Seat2"
+      }
+    },
+    {
+      "id": "407",
+      "ticketLabels": [
+        "407"
+      ],
+      "sourceLabel": "407 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.9321531433504737,
+      "halfAngle": 0.09215338450530061,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kaoarena.com.tw/Home/Seat2"
+      }
+    },
+    {
+      "id": "408",
+      "ticketLabels": [
+        "408"
+      ],
+      "sourceLabel": "408 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.09215338450530061,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kaoarena.com.tw/Home/Seat2"
+      }
+    },
+    {
+      "id": "409",
+      "ticketLabels": [
+        "409"
+      ],
+      "sourceLabel": "409 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.3510321638291125,
+      "halfAngle": 0.09215338450530061,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kaoarena.com.tw/Home/Seat2"
+      }
+    },
+    {
+      "id": "410",
+      "ticketLabels": [
+        "410"
+      ],
+      "sourceLabel": "410 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.560471674068432,
+      "halfAngle": 0.09215338450530061,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kaoarena.com.tw/Home/Seat2"
+      }
+    },
+    {
+      "id": "501",
+      "ticketLabels": [
+        "501"
+      ],
+      "sourceLabel": "501 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -0.3141592653589793,
+      "halfAngle": 0.09215338450530061,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kaoarena.com.tw/Home/Seat2"
+      }
+    },
+    {
+      "id": "502",
+      "ticketLabels": [
+        "502"
+      ],
+      "sourceLabel": "502 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -0.10471975511965977,
+      "halfAngle": 0.09215338450530061,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kaoarena.com.tw/Home/Seat2"
+      }
+    },
+    {
+      "id": "503",
+      "ticketLabels": [
+        "503"
+      ],
+      "sourceLabel": "503 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 0.10471975511965977,
+      "halfAngle": 0.09215338450530061,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kaoarena.com.tw/Home/Seat2"
+      }
+    },
+    {
+      "id": "504",
+      "ticketLabels": [
+        "504"
+      ],
+      "sourceLabel": "504 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 0.3141592653589793,
+      "halfAngle": 0.09215338450530061,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kaoarena.com.tw/Home/Seat2"
+      }
+    },
+    {
+      "id": "505",
+      "ticketLabels": [
+        "505"
+      ],
+      "sourceLabel": "505 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 0.5235987755982988,
+      "halfAngle": 0.09215338450530061,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kaoarena.com.tw/Home/Seat2"
+      }
+    },
+    {
+      "id": "506",
+      "ticketLabels": [
+        "506"
+      ],
+      "sourceLabel": "506 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 0.7330382858376184,
+      "halfAngle": 0.09215338450530061,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kaoarena.com.tw/Home/Seat2"
+      }
+    },
+    {
+      "id": "507",
+      "ticketLabels": [
+        "507"
+      ],
+      "sourceLabel": "507 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 0.9424777960769379,
+      "halfAngle": 0.09215338450530061,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kaoarena.com.tw/Home/Seat2"
+      }
+    },
+    {
+      "id": "508",
+      "ticketLabels": [
+        "508"
+      ],
+      "sourceLabel": "508 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 1.1519173063162575,
+      "halfAngle": 0.09215338450530061,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kaoarena.com.tw/Home/Seat2"
+      }
+    },
+    {
+      "id": "509",
+      "ticketLabels": [
+        "509"
+      ],
+      "sourceLabel": "509 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 1.361356816555577,
+      "halfAngle": 0.09215338450530061,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kaoarena.com.tw/Home/Seat2"
+      }
+    },
+    {
+      "id": "510",
+      "ticketLabels": [
+        "510"
+      ],
+      "sourceLabel": "510 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 1.5707963267948966,
+      "halfAngle": 0.09215338450530061,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kaoarena.com.tw/Home/Seat2"
+      }
+    },
+    {
+      "id": "511",
+      "ticketLabels": [
+        "511"
+      ],
+      "sourceLabel": "511 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 1.780235837034216,
+      "halfAngle": 0.09215338450530061,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kaoarena.com.tw/Home/Seat2"
+      }
+    },
+    {
+      "id": "512",
+      "ticketLabels": [
+        "512"
+      ],
+      "sourceLabel": "512 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 1.9896753472735356,
+      "halfAngle": 0.09215338450530061,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kaoarena.com.tw/Home/Seat2"
+      }
+    },
+    {
+      "id": "513",
+      "ticketLabels": [
+        "513"
+      ],
+      "sourceLabel": "513 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 2.199114857512855,
+      "halfAngle": 0.09215338450530061,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kaoarena.com.tw/Home/Seat2"
+      }
+    },
+    {
+      "id": "514",
+      "ticketLabels": [
+        "514"
+      ],
+      "sourceLabel": "514 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 2.4085543677521746,
+      "halfAngle": 0.09215338450530061,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kaoarena.com.tw/Home/Seat2"
+      }
+    },
+    {
+      "id": "515",
+      "ticketLabels": [
+        "515"
+      ],
+      "sourceLabel": "515 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 2.6179938779914944,
+      "halfAngle": 0.09215338450530061,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kaoarena.com.tw/Home/Seat2"
+      }
+    },
+    {
+      "id": "516",
+      "ticketLabels": [
+        "516"
+      ],
+      "sourceLabel": "516 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 2.827433388230814,
+      "halfAngle": 0.09215338450530061,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kaoarena.com.tw/Home/Seat2"
+      }
+    },
+    {
+      "id": "517",
+      "ticketLabels": [
+        "517"
+      ],
+      "sourceLabel": "517 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 3.036872898470133,
+      "halfAngle": 0.09215338450530061,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kaoarena.com.tw/Home/Seat2"
+      }
+    },
+    {
+      "id": "518",
+      "ticketLabels": [
+        "518"
+      ],
+      "sourceLabel": "518 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 3.2463124087094526,
+      "halfAngle": 0.09215338450530061,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kaoarena.com.tw/Home/Seat2"
+      }
+    }
+  ],
+  "importedAt": "2026-10-24T00:00:00.000Z"
+}

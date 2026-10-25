@@ -1,0 +1,749 @@
+{
+  "id": "hong-kong-coliseum",
+  "name": "香港体育馆 · 红馆",
+  "city": "中国香港 · 香港",
+  "capacity": "原站目录未提供统一容量字段",
+  "source": "https://www.lcsd.gov.hk/sc/hkc/downloads.html",
+  "sourceTitle": "REA 导出的公开场馆来源索引与参数化座位示意",
+  "sourceLinks": [
+    "https://www.lcsd.gov.hk/sc/hkc/downloads.html",
+    "https://www.lcsd.gov.hk/en/hkc/common/form/hkc_center_stage.pdf",
+    "https://fpf.ccidahk.gov.hk/en/location/detail.php?id=34",
+    "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/hkc-Gbi7T1FS.json"
+  ],
+  "accuracy": {
+    "sectionLabels": "source-layout-reference",
+    "completeSeatInventory": false,
+    "metricCalibrated": false,
+    "stage": "generic",
+    "position": "estimated",
+    "geometryBasis": "source-informed-parametric:dimension",
+    "catalogStatus": "source-geometry-and-sections",
+    "seatDataStatus": "bounded-source-samples",
+    "sourceLayout": "center",
+    "coverage": "40 个来源分区；0 条座位采样。区号来自公开布局参考。 原站公开资产记录约 23008 条，仅保留少量核对样本。",
+    "reuse": "来源页面可公开访问；未建立商业图形、模型或座位数据库再分发许可，发布前需逐源复核。",
+    "sourceDate": "REA capture 2026-10-24",
+    "sourceInventory": {
+      "venueReferenceUrl": "https://www.lcsd.gov.hk/sc/hkc/downloads.html",
+      "mapReferenceUrl": "https://www.lcsd.gov.hk/sc/hkc/downloads.html",
+      "sectionSource": "https://www.lcsd.gov.hk/en/hkc/common/form/hkc_center_stage.pdf",
+      "geometryEvidenceLabel": "dimension",
+      "note": "Missing asset URL does not establish absence of generated seat geometry."
+    },
+    "seatAsset": {
+      "url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/hkc-Gbi7T1FS.json",
+      "sha256": "926e37787d56b6dd4e100ae5da5c023f8a9ee4004d9524403c31e9f3b9f0859c",
+      "records": 23008
+    }
+  },
+  "tiers": [
+    [
+      22,
+      22,
+      1,
+      26,
+      17.5
+    ]
+  ],
+  "geometry": {
+    "shape": "rounded",
+    "coordinateSystem": "profile-inner-radius",
+    "power": 0.48,
+    "oneSided": false,
+    "floor": [
+      41,
+      41
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "看台",
+        "steps": 36
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "aisle-40",
+      "ticketLabels": [
+        "aisle-40"
+      ],
+      "sourceLabel": "红门 40 段／通道",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.356194490192345,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.lcsd.gov.hk/en/hkc/common/form/hkc_center_stage.pdf"
+      }
+    },
+    {
+      "id": "aisle-41",
+      "ticketLabels": [
+        "aisle-41"
+      ],
+      "sourceLabel": "红门 41 段／通道",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.5132741228718345,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.lcsd.gov.hk/en/hkc/common/form/hkc_center_stage.pdf"
+      }
+    },
+    {
+      "id": "aisle-42",
+      "ticketLabels": [
+        "aisle-42"
+      ],
+      "sourceLabel": "红门 42 段／通道",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.670353755551324,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.lcsd.gov.hk/en/hkc/common/form/hkc_center_stage.pdf"
+      }
+    },
+    {
+      "id": "aisle-43",
+      "ticketLabels": [
+        "aisle-43"
+      ],
+      "sourceLabel": "红门 43 段／通道",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.827433388230814,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.lcsd.gov.hk/en/hkc/common/form/hkc_center_stage.pdf"
+      }
+    },
+    {
+      "id": "aisle-44",
+      "ticketLabels": [
+        "aisle-44"
+      ],
+      "sourceLabel": "红门 44 段／通道",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.9845130209103035,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.lcsd.gov.hk/en/hkc/common/form/hkc_center_stage.pdf"
+      }
+    },
+    {
+      "id": "aisle-45",
+      "ticketLabels": [
+        "aisle-45"
+      ],
+      "sourceLabel": "红门 45 段／通道",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -3.141592653589793,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.lcsd.gov.hk/en/hkc/common/form/hkc_center_stage.pdf"
+      }
+    },
+    {
+      "id": "aisle-46",
+      "ticketLabels": [
+        "aisle-46"
+      ],
+      "sourceLabel": "红门 46 段／通道",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -3.2986722862692828,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.lcsd.gov.hk/en/hkc/common/form/hkc_center_stage.pdf"
+      }
+    },
+    {
+      "id": "aisle-47",
+      "ticketLabels": [
+        "aisle-47"
+      ],
+      "sourceLabel": "红门 47 段／通道",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -3.455751918948773,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.lcsd.gov.hk/en/hkc/common/form/hkc_center_stage.pdf"
+      }
+    },
+    {
+      "id": "aisle-48",
+      "ticketLabels": [
+        "aisle-48"
+      ],
+      "sourceLabel": "红门 48 段／通道",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -3.6128315516282616,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.lcsd.gov.hk/en/hkc/common/form/hkc_center_stage.pdf"
+      }
+    },
+    {
+      "id": "aisle-49",
+      "ticketLabels": [
+        "aisle-49"
+      ],
+      "sourceLabel": "红门 49 段／通道",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -3.7699111843077517,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.lcsd.gov.hk/en/hkc/common/form/hkc_center_stage.pdf"
+      }
+    },
+    {
+      "id": "aisle-50",
+      "ticketLabels": [
+        "aisle-50"
+      ],
+      "sourceLabel": "蓝门 50 段／通道",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -3.9269908169872414,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.lcsd.gov.hk/en/hkc/common/form/hkc_center_stage.pdf"
+      }
+    },
+    {
+      "id": "aisle-51",
+      "ticketLabels": [
+        "aisle-51"
+      ],
+      "sourceLabel": "蓝门 51 段／通道",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -4.084070449666731,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.lcsd.gov.hk/en/hkc/common/form/hkc_center_stage.pdf"
+      }
+    },
+    {
+      "id": "aisle-52",
+      "ticketLabels": [
+        "aisle-52"
+      ],
+      "sourceLabel": "蓝门 52 段／通道",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -4.241150082346221,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.lcsd.gov.hk/en/hkc/common/form/hkc_center_stage.pdf"
+      }
+    },
+    {
+      "id": "aisle-53",
+      "ticketLabels": [
+        "aisle-53"
+      ],
+      "sourceLabel": "蓝门 53 段／通道",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -4.39822971502571,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.lcsd.gov.hk/en/hkc/common/form/hkc_center_stage.pdf"
+      }
+    },
+    {
+      "id": "aisle-54",
+      "ticketLabels": [
+        "aisle-54"
+      ],
+      "sourceLabel": "蓝门 54 段／通道",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -4.5553093477052,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.lcsd.gov.hk/en/hkc/common/form/hkc_center_stage.pdf"
+      }
+    },
+    {
+      "id": "aisle-55",
+      "ticketLabels": [
+        "aisle-55"
+      ],
+      "sourceLabel": "蓝门 55 段／通道",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -4.71238898038469,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.lcsd.gov.hk/en/hkc/common/form/hkc_center_stage.pdf"
+      }
+    },
+    {
+      "id": "aisle-56",
+      "ticketLabels": [
+        "aisle-56"
+      ],
+      "sourceLabel": "蓝门 56 段／通道",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -4.869468613064179,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.lcsd.gov.hk/en/hkc/common/form/hkc_center_stage.pdf"
+      }
+    },
+    {
+      "id": "aisle-57",
+      "ticketLabels": [
+        "aisle-57"
+      ],
+      "sourceLabel": "蓝门 57 段／通道",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -5.026548245743669,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.lcsd.gov.hk/en/hkc/common/form/hkc_center_stage.pdf"
+      }
+    },
+    {
+      "id": "aisle-58",
+      "ticketLabels": [
+        "aisle-58"
+      ],
+      "sourceLabel": "蓝门 58 段／通道",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -5.183627878423159,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.lcsd.gov.hk/en/hkc/common/form/hkc_center_stage.pdf"
+      }
+    },
+    {
+      "id": "aisle-59",
+      "ticketLabels": [
+        "aisle-59"
+      ],
+      "sourceLabel": "蓝门 59 段／通道",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -5.340707511102648,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.lcsd.gov.hk/en/hkc/common/form/hkc_center_stage.pdf"
+      }
+    },
+    {
+      "id": "aisle-60",
+      "ticketLabels": [
+        "aisle-60"
+      ],
+      "sourceLabel": "绿门 60 段／通道",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -5.497787143782138,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.lcsd.gov.hk/en/hkc/common/form/hkc_center_stage.pdf"
+      }
+    },
+    {
+      "id": "aisle-61",
+      "ticketLabels": [
+        "aisle-61"
+      ],
+      "sourceLabel": "绿门 61 段／通道",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -5.654866776461628,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.lcsd.gov.hk/en/hkc/common/form/hkc_center_stage.pdf"
+      }
+    },
+    {
+      "id": "aisle-62",
+      "ticketLabels": [
+        "aisle-62"
+      ],
+      "sourceLabel": "绿门 62 段／通道",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -5.811946409141117,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.lcsd.gov.hk/en/hkc/common/form/hkc_center_stage.pdf"
+      }
+    },
+    {
+      "id": "aisle-63",
+      "ticketLabels": [
+        "aisle-63"
+      ],
+      "sourceLabel": "绿门 63 段／通道",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -5.969026041820607,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.lcsd.gov.hk/en/hkc/common/form/hkc_center_stage.pdf"
+      }
+    },
+    {
+      "id": "aisle-64",
+      "ticketLabels": [
+        "aisle-64"
+      ],
+      "sourceLabel": "绿门 64 段／通道",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -6.126105674500097,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.lcsd.gov.hk/en/hkc/common/form/hkc_center_stage.pdf"
+      }
+    },
+    {
+      "id": "aisle-65",
+      "ticketLabels": [
+        "aisle-65"
+      ],
+      "sourceLabel": "绿门 65 段／通道",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -6.283185307179586,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.lcsd.gov.hk/en/hkc/common/form/hkc_center_stage.pdf"
+      }
+    },
+    {
+      "id": "aisle-66",
+      "ticketLabels": [
+        "aisle-66"
+      ],
+      "sourceLabel": "绿门 66 段／通道",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -6.440264939859076,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.lcsd.gov.hk/en/hkc/common/form/hkc_center_stage.pdf"
+      }
+    },
+    {
+      "id": "aisle-67",
+      "ticketLabels": [
+        "aisle-67"
+      ],
+      "sourceLabel": "绿门 67 段／通道",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -6.5973445725385655,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.lcsd.gov.hk/en/hkc/common/form/hkc_center_stage.pdf"
+      }
+    },
+    {
+      "id": "aisle-68",
+      "ticketLabels": [
+        "aisle-68"
+      ],
+      "sourceLabel": "绿门 68 段／通道",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -6.754424205218056,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.lcsd.gov.hk/en/hkc/common/form/hkc_center_stage.pdf"
+      }
+    },
+    {
+      "id": "aisle-69",
+      "ticketLabels": [
+        "aisle-69"
+      ],
+      "sourceLabel": "绿门 69 段／通道",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -6.911503837897546,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.lcsd.gov.hk/en/hkc/common/form/hkc_center_stage.pdf"
+      }
+    },
+    {
+      "id": "aisle-70",
+      "ticketLabels": [
+        "aisle-70"
+      ],
+      "sourceLabel": "黄门 70 段／通道",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -7.068583470577034,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.lcsd.gov.hk/en/hkc/common/form/hkc_center_stage.pdf"
+      }
+    },
+    {
+      "id": "aisle-71",
+      "ticketLabels": [
+        "aisle-71"
+      ],
+      "sourceLabel": "黄门 71 段／通道",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -7.225663103256523,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.lcsd.gov.hk/en/hkc/common/form/hkc_center_stage.pdf"
+      }
+    },
+    {
+      "id": "aisle-72",
+      "ticketLabels": [
+        "aisle-72"
+      ],
+      "sourceLabel": "黄门 72 段／通道",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -7.382742735936014,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.lcsd.gov.hk/en/hkc/common/form/hkc_center_stage.pdf"
+      }
+    },
+    {
+      "id": "aisle-73",
+      "ticketLabels": [
+        "aisle-73"
+      ],
+      "sourceLabel": "黄门 73 段／通道",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -7.5398223686155035,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.lcsd.gov.hk/en/hkc/common/form/hkc_center_stage.pdf"
+      }
+    },
+    {
+      "id": "aisle-74",
+      "ticketLabels": [
+        "aisle-74"
+      ],
+      "sourceLabel": "黄门 74 段／通道",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -7.696902001294993,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.lcsd.gov.hk/en/hkc/common/form/hkc_center_stage.pdf"
+      }
+    },
+    {
+      "id": "aisle-75",
+      "ticketLabels": [
+        "aisle-75"
+      ],
+      "sourceLabel": "黄门 75 段／通道",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -7.853981633974483,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.lcsd.gov.hk/en/hkc/common/form/hkc_center_stage.pdf"
+      }
+    },
+    {
+      "id": "aisle-76",
+      "ticketLabels": [
+        "aisle-76"
+      ],
+      "sourceLabel": "黄门 76 段／通道",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -8.011061266653972,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.lcsd.gov.hk/en/hkc/common/form/hkc_center_stage.pdf"
+      }
+    },
+    {
+      "id": "aisle-77",
+      "ticketLabels": [
+        "aisle-77"
+      ],
+      "sourceLabel": "黄门 77 段／通道",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -8.168140899333462,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.lcsd.gov.hk/en/hkc/common/form/hkc_center_stage.pdf"
+      }
+    },
+    {
+      "id": "aisle-78",
+      "ticketLabels": [
+        "aisle-78"
+      ],
+      "sourceLabel": "黄门 78 段／通道",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -8.325220532012953,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.lcsd.gov.hk/en/hkc/common/form/hkc_center_stage.pdf"
+      }
+    },
+    {
+      "id": "aisle-79",
+      "ticketLabels": [
+        "aisle-79"
+      ],
+      "sourceLabel": "黄门 79 段／通道",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -8.482300164692441,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.lcsd.gov.hk/en/hkc/common/form/hkc_center_stage.pdf"
+      }
+    }
+  ],
+  "importedAt": "2026-10-24T00:00:00.000Z"
+}

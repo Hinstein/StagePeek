@@ -1,0 +1,1508 @@
+{
+  "id": "asiaworld-arena",
+  "name": "亚洲国际博览馆 Arena",
+  "city": "中国香港 · 香港",
+  "capacity": "原站目录未提供统一容量字段",
+  "source": "https://www.asiaworld-expo.com/zh-sc/visiting/venue-map/",
+  "sourceTitle": "REA 导出的公开场馆来源索引与参数化座位示意",
+  "sourceLinks": [
+    "https://www.asiaworld-expo.com/zh-sc/visiting/venue-map/",
+    "https://www2.asiaworld-expo.com/2026/website/asiaworld-arena-hall-1.pdf",
+    "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/awe-Ca55Pf13.json"
+  ],
+  "accuracy": {
+    "sectionLabels": "source-layout-reference",
+    "completeSeatInventory": false,
+    "metricCalibrated": false,
+    "stage": "generic",
+    "position": "estimated",
+    "geometryBasis": "source-informed-parametric:reference",
+    "catalogStatus": "source-geometry-and-sections",
+    "seatDataStatus": "bounded-source-samples",
+    "sourceLayout": "end",
+    "coverage": "17 个来源分区；51 条座位采样。区号来自公开布局参考。 原站公开资产记录约 20024 条，仅保留少量核对样本。",
+    "reuse": "来源页面可公开访问；未建立商业图形、模型或座位数据库再分发许可，发布前需逐源复核。",
+    "sourceDate": "REA capture 2026-10-24",
+    "sourceInventory": {
+      "venueReferenceUrl": "https://www.asiaworld-expo.com/zh-sc/visiting/venue-map/",
+      "mapReferenceUrl": "https://www2.asiaworld-expo.com/2026/website/asiaworld-arena-hall-1.pdf",
+      "sectionSource": "https://www2.asiaworld-expo.com/2026/website/asiaworld-arena-hall-1.pdf",
+      "geometryEvidenceLabel": "reference",
+      "note": "Missing asset URL does not establish absence of generated seat geometry."
+    },
+    "seatAsset": {
+      "url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/awe-Ca55Pf13.json",
+      "sha256": "879784a41602b70771e8a4a4d951bf0bb7dcf808365060eec6f96ed16ced68af",
+      "records": 20024
+    }
+  },
+  "tiers": [
+    [
+      32,
+      47,
+      1,
+      17,
+      10
+    ],
+    [
+      43,
+      58,
+      14,
+      12,
+      9
+    ]
+  ],
+  "geometry": {
+    "shape": "rounded",
+    "coordinateSystem": "profile-inner-radius",
+    "power": 0.48,
+    "oneSided": false,
+    "floor": [
+      60,
+      90
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层",
+        "steps": 22
+      },
+      {
+        "id": "middle",
+        "name": "中层",
+        "steps": 16
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "1",
+      "ticketLabels": [
+        "1"
+      ],
+      "sourceLabel": "1 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.8726646259971648,
+      "halfAngle": 0.12287117934040079,
+      "samples": [
+        {
+          "section": "1",
+          "row": "A",
+          "seat": "7",
+          "position": [
+            -18.20422,
+            0.675,
+            -44.23123
+          ],
+          "source": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/awe-Ca55Pf13.json",
+          "identityStatus": "source-sampled",
+          "positionStatus": "source-coordinate",
+          "sourceRecord": {
+            "format": "dict",
+            "assetSha256": "879784a41602b70771e8a4a4d951bf0bb7dcf808365060eec6f96ed16ced68af",
+            "extra": [
+              1,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "section": "1",
+          "row": "A",
+          "seat": "8",
+          "position": [
+            -18.20422,
+            0.675,
+            -43.74236
+          ],
+          "source": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/awe-Ca55Pf13.json",
+          "identityStatus": "source-sampled",
+          "positionStatus": "source-coordinate",
+          "sourceRecord": {
+            "format": "dict",
+            "assetSha256": "879784a41602b70771e8a4a4d951bf0bb7dcf808365060eec6f96ed16ced68af",
+            "extra": [
+              1,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "section": "1",
+          "row": "A",
+          "seat": "9",
+          "position": [
+            -18.20422,
+            0.675,
+            -43.25348
+          ],
+          "source": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/awe-Ca55Pf13.json",
+          "identityStatus": "source-sampled",
+          "positionStatus": "source-coordinate",
+          "sourceRecord": {
+            "format": "dict",
+            "assetSha256": "879784a41602b70771e8a4a4d951bf0bb7dcf808365060eec6f96ed16ced68af",
+            "extra": [
+              1,
+              0,
+              0
+            ]
+          }
+        }
+      ],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www2.asiaworld-expo.com/2026/website/asiaworld-arena-hall-1.pdf"
+      }
+    },
+    {
+      "id": "2",
+      "ticketLabels": [
+        "2"
+      ],
+      "sourceLabel": "2 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.1519173063162575,
+      "halfAngle": 0.1075122819228507,
+      "samples": [
+        {
+          "section": "2",
+          "row": "A",
+          "seat": "1",
+          "position": [
+            -18.20388,
+            0.675,
+            -37.05108
+          ],
+          "source": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/awe-Ca55Pf13.json",
+          "identityStatus": "source-sampled",
+          "positionStatus": "source-coordinate",
+          "sourceRecord": {
+            "format": "dict",
+            "assetSha256": "879784a41602b70771e8a4a4d951bf0bb7dcf808365060eec6f96ed16ced68af",
+            "extra": [
+              1,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "section": "2",
+          "row": "A",
+          "seat": "2",
+          "position": [
+            -18.20388,
+            0.675,
+            -36.55541
+          ],
+          "source": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/awe-Ca55Pf13.json",
+          "identityStatus": "source-sampled",
+          "positionStatus": "source-coordinate",
+          "sourceRecord": {
+            "format": "dict",
+            "assetSha256": "879784a41602b70771e8a4a4d951bf0bb7dcf808365060eec6f96ed16ced68af",
+            "extra": [
+              1,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "section": "2",
+          "row": "A",
+          "seat": "3",
+          "position": [
+            -18.20422,
+            0.675,
+            -36.06345
+          ],
+          "source": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/awe-Ca55Pf13.json",
+          "identityStatus": "source-sampled",
+          "positionStatus": "source-coordinate",
+          "sourceRecord": {
+            "format": "dict",
+            "assetSha256": "879784a41602b70771e8a4a4d951bf0bb7dcf808365060eec6f96ed16ced68af",
+            "extra": [
+              1,
+              0,
+              0
+            ]
+          }
+        }
+      ],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www2.asiaworld-expo.com/2026/website/asiaworld-arena-hall-1.pdf"
+      }
+    },
+    {
+      "id": "3",
+      "ticketLabels": [
+        "3"
+      ],
+      "sourceLabel": "3 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.3962634015954636,
+      "halfAngle": 0.07679448708775051,
+      "samples": [
+        {
+          "section": "3",
+          "row": "A",
+          "seat": "1",
+          "position": [
+            -18.20384,
+            0.675,
+            -24.30412
+          ],
+          "source": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/awe-Ca55Pf13.json",
+          "identityStatus": "source-sampled",
+          "positionStatus": "source-coordinate",
+          "sourceRecord": {
+            "format": "dict",
+            "assetSha256": "879784a41602b70771e8a4a4d951bf0bb7dcf808365060eec6f96ed16ced68af",
+            "extra": [
+              1,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "section": "3",
+          "row": "A",
+          "seat": "2",
+          "position": [
+            -18.20494,
+            0.675,
+            -23.81133
+          ],
+          "source": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/awe-Ca55Pf13.json",
+          "identityStatus": "source-sampled",
+          "positionStatus": "source-coordinate",
+          "sourceRecord": {
+            "format": "dict",
+            "assetSha256": "879784a41602b70771e8a4a4d951bf0bb7dcf808365060eec6f96ed16ced68af",
+            "extra": [
+              1,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "section": "3",
+          "row": "A",
+          "seat": "3",
+          "position": [
+            -18.2043,
+            0.675,
+            -23.31908
+          ],
+          "source": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/awe-Ca55Pf13.json",
+          "identityStatus": "source-sampled",
+          "positionStatus": "source-coordinate",
+          "sourceRecord": {
+            "format": "dict",
+            "assetSha256": "879784a41602b70771e8a4a4d951bf0bb7dcf808365060eec6f96ed16ced68af",
+            "extra": [
+              1,
+              0,
+              0
+            ]
+          }
+        }
+      ],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www2.asiaworld-expo.com/2026/website/asiaworld-arena-hall-1.pdf"
+      }
+    },
+    {
+      "id": "4",
+      "ticketLabels": [
+        "4"
+      ],
+      "sourceLabel": "4 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.5707963267948966,
+      "halfAngle": 0.07679448708775051,
+      "samples": [
+        {
+          "section": "4",
+          "row": "A",
+          "seat": "14",
+          "position": [
+            -18.20384,
+            0.675,
+            -3.0825
+          ],
+          "source": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/awe-Ca55Pf13.json",
+          "identityStatus": "source-sampled",
+          "positionStatus": "source-coordinate",
+          "sourceRecord": {
+            "format": "dict",
+            "assetSha256": "879784a41602b70771e8a4a4d951bf0bb7dcf808365060eec6f96ed16ced68af",
+            "extra": [
+              1,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "section": "4",
+          "row": "A",
+          "seat": "15",
+          "position": [
+            -18.20388,
+            0.675,
+            -2.59141
+          ],
+          "source": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/awe-Ca55Pf13.json",
+          "identityStatus": "source-sampled",
+          "positionStatus": "source-coordinate",
+          "sourceRecord": {
+            "format": "dict",
+            "assetSha256": "879784a41602b70771e8a4a4d951bf0bb7dcf808365060eec6f96ed16ced68af",
+            "extra": [
+              1,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "section": "4",
+          "row": "A",
+          "seat": "16",
+          "position": [
+            -18.20384,
+            0.675,
+            -2.09572
+          ],
+          "source": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/awe-Ca55Pf13.json",
+          "identityStatus": "source-sampled",
+          "positionStatus": "source-coordinate",
+          "sourceRecord": {
+            "format": "dict",
+            "assetSha256": "879784a41602b70771e8a4a4d951bf0bb7dcf808365060eec6f96ed16ced68af",
+            "extra": [
+              1,
+              0,
+              0
+            ]
+          }
+        }
+      ],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www2.asiaworld-expo.com/2026/website/asiaworld-arena-hall-1.pdf"
+      }
+    },
+    {
+      "id": "5",
+      "ticketLabels": [
+        "5"
+      ],
+      "sourceLabel": "5 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.7453292519943295,
+      "halfAngle": 0.07679448708775051,
+      "samples": [
+        {
+          "section": "5",
+          "row": "A",
+          "seat": "2",
+          "position": [
+            -18.20501,
+            0.675,
+            4.84029
+          ],
+          "source": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/awe-Ca55Pf13.json",
+          "identityStatus": "source-sampled",
+          "positionStatus": "source-coordinate",
+          "sourceRecord": {
+            "format": "dict",
+            "assetSha256": "879784a41602b70771e8a4a4d951bf0bb7dcf808365060eec6f96ed16ced68af",
+            "extra": [
+              1,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "section": "5",
+          "row": "A",
+          "seat": "3",
+          "position": [
+            -18.20422,
+            0.675,
+            5.33249
+          ],
+          "source": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/awe-Ca55Pf13.json",
+          "identityStatus": "source-sampled",
+          "positionStatus": "source-coordinate",
+          "sourceRecord": {
+            "format": "dict",
+            "assetSha256": "879784a41602b70771e8a4a4d951bf0bb7dcf808365060eec6f96ed16ced68af",
+            "extra": [
+              1,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "section": "5",
+          "row": "A",
+          "seat": "4",
+          "position": [
+            -18.20388,
+            0.675,
+            5.82446
+          ],
+          "source": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/awe-Ca55Pf13.json",
+          "identityStatus": "source-sampled",
+          "positionStatus": "source-coordinate",
+          "sourceRecord": {
+            "format": "dict",
+            "assetSha256": "879784a41602b70771e8a4a4d951bf0bb7dcf808365060eec6f96ed16ced68af",
+            "extra": [
+              1,
+              0,
+              0
+            ]
+          }
+        }
+      ],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www2.asiaworld-expo.com/2026/website/asiaworld-arena-hall-1.pdf"
+      }
+    },
+    {
+      "id": "6",
+      "ticketLabels": [
+        "6"
+      ],
+      "sourceLabel": "6 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.9896753472735356,
+      "halfAngle": 0.1075122819228507,
+      "samples": [
+        {
+          "section": "6",
+          "row": "A",
+          "seat": "1",
+          "position": [
+            -18.20486,
+            0.675,
+            19.63191
+          ],
+          "source": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/awe-Ca55Pf13.json",
+          "identityStatus": "source-sampled",
+          "positionStatus": "source-coordinate",
+          "sourceRecord": {
+            "format": "dict",
+            "assetSha256": "879784a41602b70771e8a4a4d951bf0bb7dcf808365060eec6f96ed16ced68af",
+            "extra": [
+              1,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "section": "6",
+          "row": "A",
+          "seat": "2",
+          "position": [
+            -18.20494,
+            0.675,
+            20.13138
+          ],
+          "source": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/awe-Ca55Pf13.json",
+          "identityStatus": "source-sampled",
+          "positionStatus": "source-coordinate",
+          "sourceRecord": {
+            "format": "dict",
+            "assetSha256": "879784a41602b70771e8a4a4d951bf0bb7dcf808365060eec6f96ed16ced68af",
+            "extra": [
+              1,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "section": "6",
+          "row": "A",
+          "seat": "3",
+          "position": [
+            -18.20388,
+            0.675,
+            20.62033
+          ],
+          "source": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/awe-Ca55Pf13.json",
+          "identityStatus": "source-sampled",
+          "positionStatus": "source-coordinate",
+          "sourceRecord": {
+            "format": "dict",
+            "assetSha256": "879784a41602b70771e8a4a4d951bf0bb7dcf808365060eec6f96ed16ced68af",
+            "extra": [
+              1,
+              0,
+              0
+            ]
+          }
+        }
+      ],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www2.asiaworld-expo.com/2026/website/asiaworld-arena-hall-1.pdf"
+      }
+    },
+    {
+      "id": "7",
+      "ticketLabels": [
+        "7"
+      ],
+      "sourceLabel": "7 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.2689280275926285,
+      "halfAngle": 0.12287117934040079,
+      "samples": [
+        {
+          "section": "7",
+          "row": "A",
+          "seat": "1",
+          "position": [
+            -18.2069,
+            0.675,
+            34.32957
+          ],
+          "source": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/awe-Ca55Pf13.json",
+          "identityStatus": "source-sampled",
+          "positionStatus": "source-coordinate",
+          "sourceRecord": {
+            "format": "dict",
+            "assetSha256": "879784a41602b70771e8a4a4d951bf0bb7dcf808365060eec6f96ed16ced68af",
+            "extra": [
+              1,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "section": "7",
+          "row": "A",
+          "seat": "2",
+          "position": [
+            -18.2069,
+            0.675,
+            34.82108
+          ],
+          "source": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/awe-Ca55Pf13.json",
+          "identityStatus": "source-sampled",
+          "positionStatus": "source-coordinate",
+          "sourceRecord": {
+            "format": "dict",
+            "assetSha256": "879784a41602b70771e8a4a4d951bf0bb7dcf808365060eec6f96ed16ced68af",
+            "extra": [
+              1,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "section": "7",
+          "row": "A",
+          "seat": "3",
+          "position": [
+            -18.20589,
+            0.675,
+            35.31381
+          ],
+          "source": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/awe-Ca55Pf13.json",
+          "identityStatus": "source-sampled",
+          "positionStatus": "source-coordinate",
+          "sourceRecord": {
+            "format": "dict",
+            "assetSha256": "879784a41602b70771e8a4a4d951bf0bb7dcf808365060eec6f96ed16ced68af",
+            "extra": [
+              1,
+              0,
+              0
+            ]
+          }
+        }
+      ],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www2.asiaworld-expo.com/2026/website/asiaworld-arena-hall-1.pdf"
+      }
+    },
+    {
+      "id": "8",
+      "ticketLabels": [
+        "8"
+      ],
+      "sourceLabel": "8 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.6179938779914944,
+      "halfAngle": 0.15358897417550102,
+      "samples": [
+        {
+          "section": "8",
+          "row": "A",
+          "seat": "7",
+          "position": [
+            -16.92959,
+            0.675,
+            40.43421
+          ],
+          "source": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/awe-Ca55Pf13.json",
+          "identityStatus": "source-sampled",
+          "positionStatus": "source-coordinate",
+          "sourceRecord": {
+            "format": "dict",
+            "assetSha256": "879784a41602b70771e8a4a4d951bf0bb7dcf808365060eec6f96ed16ced68af",
+            "extra": [
+              0.7071067811865476,
+              -0.7071067811865476,
+              0
+            ]
+          }
+        },
+        {
+          "section": "8",
+          "row": "A",
+          "seat": "8",
+          "position": [
+            -16.58191,
+            0.675,
+            40.78157
+          ],
+          "source": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/awe-Ca55Pf13.json",
+          "identityStatus": "source-sampled",
+          "positionStatus": "source-coordinate",
+          "sourceRecord": {
+            "format": "dict",
+            "assetSha256": "879784a41602b70771e8a4a4d951bf0bb7dcf808365060eec6f96ed16ced68af",
+            "extra": [
+              0.7071067811865476,
+              -0.7071067811865476,
+              0
+            ]
+          }
+        },
+        {
+          "section": "8",
+          "row": "A",
+          "seat": "16",
+          "position": [
+            -12.80629,
+            0.675,
+            44.54014
+          ],
+          "source": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/awe-Ca55Pf13.json",
+          "identityStatus": "source-sampled",
+          "positionStatus": "source-coordinate",
+          "sourceRecord": {
+            "format": "dict",
+            "assetSha256": "879784a41602b70771e8a4a4d951bf0bb7dcf808365060eec6f96ed16ced68af",
+            "extra": [
+              0.7071067811865476,
+              -0.7071067811865476,
+              0
+            ]
+          }
+        }
+      ],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www2.asiaworld-expo.com/2026/website/asiaworld-arena-hall-1.pdf"
+      }
+    },
+    {
+      "id": "9",
+      "ticketLabels": [
+        "9"
+      ],
+      "sourceLabel": "9 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.2303834612632515,
+      "samples": [
+        {
+          "section": "9",
+          "row": "A",
+          "seat": "2",
+          "position": [
+            -9.37916,
+            0.675,
+            46.17726
+          ],
+          "source": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/awe-Ca55Pf13.json",
+          "identityStatus": "source-sampled",
+          "positionStatus": "source-coordinate",
+          "sourceRecord": {
+            "format": "dict",
+            "assetSha256": "879784a41602b70771e8a4a4d951bf0bb7dcf808365060eec6f96ed16ced68af",
+            "extra": [
+              0,
+              -1,
+              0
+            ]
+          }
+        },
+        {
+          "section": "9",
+          "row": "A",
+          "seat": "3",
+          "position": [
+            -8.88344,
+            0.675,
+            46.17726
+          ],
+          "source": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/awe-Ca55Pf13.json",
+          "identityStatus": "source-sampled",
+          "positionStatus": "source-coordinate",
+          "sourceRecord": {
+            "format": "dict",
+            "assetSha256": "879784a41602b70771e8a4a4d951bf0bb7dcf808365060eec6f96ed16ced68af",
+            "extra": [
+              0,
+              -1,
+              0
+            ]
+          }
+        },
+        {
+          "section": "9",
+          "row": "A",
+          "seat": "4",
+          "position": [
+            -8.39147,
+            0.675,
+            46.17758
+          ],
+          "source": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/awe-Ca55Pf13.json",
+          "identityStatus": "source-sampled",
+          "positionStatus": "source-coordinate",
+          "sourceRecord": {
+            "format": "dict",
+            "assetSha256": "879784a41602b70771e8a4a4d951bf0bb7dcf808365060eec6f96ed16ced68af",
+            "extra": [
+              0,
+              -1,
+              0
+            ]
+          }
+        }
+      ],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www2.asiaworld-expo.com/2026/website/asiaworld-arena-hall-1.pdf"
+      }
+    },
+    {
+      "id": "10",
+      "ticketLabels": [
+        "10"
+      ],
+      "sourceLabel": "10 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.6651914291880923,
+      "halfAngle": 0.15358897417550102,
+      "samples": [
+        {
+          "section": "10",
+          "row": "A",
+          "seat": "33",
+          "position": [
+            11.51588,
+            0.675,
+            45.83109
+          ],
+          "source": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/awe-Ca55Pf13.json",
+          "identityStatus": "source-sampled",
+          "positionStatus": "source-coordinate",
+          "sourceRecord": {
+            "format": "dict",
+            "assetSha256": "879784a41602b70771e8a4a4d951bf0bb7dcf808365060eec6f96ed16ced68af",
+            "extra": [
+              -0.7071067811865476,
+              -0.7071067811865476,
+              0
+            ]
+          }
+        },
+        {
+          "section": "10",
+          "row": "A",
+          "seat": "34",
+          "position": [
+            11.86468,
+            0.675,
+            45.48132
+          ],
+          "source": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/awe-Ca55Pf13.json",
+          "identityStatus": "source-sampled",
+          "positionStatus": "source-coordinate",
+          "sourceRecord": {
+            "format": "dict",
+            "assetSha256": "879784a41602b70771e8a4a4d951bf0bb7dcf808365060eec6f96ed16ced68af",
+            "extra": [
+              -0.7071067811865476,
+              -0.7071067811865476,
+              0
+            ]
+          }
+        },
+        {
+          "section": "10",
+          "row": "A",
+          "seat": "35",
+          "position": [
+            12.21312,
+            0.675,
+            45.13343
+          ],
+          "source": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/awe-Ca55Pf13.json",
+          "identityStatus": "source-sampled",
+          "positionStatus": "source-coordinate",
+          "sourceRecord": {
+            "format": "dict",
+            "assetSha256": "879784a41602b70771e8a4a4d951bf0bb7dcf808365060eec6f96ed16ced68af",
+            "extra": [
+              -0.7071067811865476,
+              -0.7071067811865476,
+              0
+            ]
+          }
+        }
+      ],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www2.asiaworld-expo.com/2026/website/asiaworld-arena-hall-1.pdf"
+      }
+    },
+    {
+      "id": "11",
+      "ticketLabels": [
+        "11"
+      ],
+      "sourceLabel": "11 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 4.014257279586958,
+      "halfAngle": 0.12287117934040079,
+      "samples": [
+        {
+          "section": "11",
+          "row": "A",
+          "seat": "32",
+          "position": [
+            18.20491,
+            0.675,
+            38.77473
+          ],
+          "source": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/awe-Ca55Pf13.json",
+          "identityStatus": "source-sampled",
+          "positionStatus": "source-coordinate",
+          "sourceRecord": {
+            "format": "dict",
+            "assetSha256": "879784a41602b70771e8a4a4d951bf0bb7dcf808365060eec6f96ed16ced68af",
+            "extra": [
+              -1,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "section": "11",
+          "row": "A",
+          "seat": "33",
+          "position": [
+            18.20411,
+            0.675,
+            38.28273
+          ],
+          "source": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/awe-Ca55Pf13.json",
+          "identityStatus": "source-sampled",
+          "positionStatus": "source-coordinate",
+          "sourceRecord": {
+            "format": "dict",
+            "assetSha256": "879784a41602b70771e8a4a4d951bf0bb7dcf808365060eec6f96ed16ced68af",
+            "extra": [
+              -1,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "section": "11",
+          "row": "A",
+          "seat": "34",
+          "position": [
+            18.20484,
+            0.675,
+            37.78404
+          ],
+          "source": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/awe-Ca55Pf13.json",
+          "identityStatus": "source-sampled",
+          "positionStatus": "source-coordinate",
+          "sourceRecord": {
+            "format": "dict",
+            "assetSha256": "879784a41602b70771e8a4a4d951bf0bb7dcf808365060eec6f96ed16ced68af",
+            "extra": [
+              -1,
+              0,
+              0
+            ]
+          }
+        }
+      ],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www2.asiaworld-expo.com/2026/website/asiaworld-arena-hall-1.pdf"
+      }
+    },
+    {
+      "id": "12",
+      "ticketLabels": [
+        "12"
+      ],
+      "sourceLabel": "12 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 4.293509959906051,
+      "halfAngle": 0.1075122819228507,
+      "samples": [
+        {
+          "section": "12",
+          "row": "A",
+          "seat": "1",
+          "position": [
+            18.20063,
+            0.675,
+            31.99119
+          ],
+          "source": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/awe-Ca55Pf13.json",
+          "identityStatus": "source-sampled",
+          "positionStatus": "source-coordinate",
+          "sourceRecord": {
+            "format": "dict",
+            "assetSha256": "879784a41602b70771e8a4a4d951bf0bb7dcf808365060eec6f96ed16ced68af",
+            "extra": [
+              -1,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "section": "12",
+          "row": "A",
+          "seat": "2",
+          "position": [
+            18.20063,
+            0.675,
+            31.49526
+          ],
+          "source": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/awe-Ca55Pf13.json",
+          "identityStatus": "source-sampled",
+          "positionStatus": "source-coordinate",
+          "sourceRecord": {
+            "format": "dict",
+            "assetSha256": "879784a41602b70771e8a4a4d951bf0bb7dcf808365060eec6f96ed16ced68af",
+            "extra": [
+              -1,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "section": "12",
+          "row": "A",
+          "seat": "3",
+          "position": [
+            18.20099,
+            0.675,
+            31.00328
+          ],
+          "source": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/awe-Ca55Pf13.json",
+          "identityStatus": "source-sampled",
+          "positionStatus": "source-coordinate",
+          "sourceRecord": {
+            "format": "dict",
+            "assetSha256": "879784a41602b70771e8a4a4d951bf0bb7dcf808365060eec6f96ed16ced68af",
+            "extra": [
+              -1,
+              0,
+              0
+            ]
+          }
+        }
+      ],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www2.asiaworld-expo.com/2026/website/asiaworld-arena-hall-1.pdf"
+      }
+    },
+    {
+      "id": "13",
+      "ticketLabels": [
+        "13"
+      ],
+      "sourceLabel": "13 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 4.537856055185257,
+      "halfAngle": 0.07679448708775051,
+      "samples": [
+        {
+          "section": "13",
+          "row": "A",
+          "seat": "1",
+          "position": [
+            18.20063,
+            0.675,
+            17.66559
+          ],
+          "source": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/awe-Ca55Pf13.json",
+          "identityStatus": "source-sampled",
+          "positionStatus": "source-coordinate",
+          "sourceRecord": {
+            "format": "dict",
+            "assetSha256": "879784a41602b70771e8a4a4d951bf0bb7dcf808365060eec6f96ed16ced68af",
+            "extra": [
+              -1,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "section": "13",
+          "row": "A",
+          "seat": "2",
+          "position": [
+            18.20063,
+            0.675,
+            17.16966
+          ],
+          "source": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/awe-Ca55Pf13.json",
+          "identityStatus": "source-sampled",
+          "positionStatus": "source-coordinate",
+          "sourceRecord": {
+            "format": "dict",
+            "assetSha256": "879784a41602b70771e8a4a4d951bf0bb7dcf808365060eec6f96ed16ced68af",
+            "extra": [
+              -1,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "section": "13",
+          "row": "A",
+          "seat": "3",
+          "position": [
+            18.20091,
+            0.675,
+            16.67772
+          ],
+          "source": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/awe-Ca55Pf13.json",
+          "identityStatus": "source-sampled",
+          "positionStatus": "source-coordinate",
+          "sourceRecord": {
+            "format": "dict",
+            "assetSha256": "879784a41602b70771e8a4a4d951bf0bb7dcf808365060eec6f96ed16ced68af",
+            "extra": [
+              -1,
+              0,
+              0
+            ]
+          }
+        }
+      ],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www2.asiaworld-expo.com/2026/website/asiaworld-arena-hall-1.pdf"
+      }
+    },
+    {
+      "id": "14",
+      "ticketLabels": [
+        "14"
+      ],
+      "sourceLabel": "14 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 4.71238898038469,
+      "halfAngle": 0.07679448708775051,
+      "samples": [
+        {
+          "section": "14",
+          "row": "A",
+          "seat": "1",
+          "position": [
+            18.20054,
+            0.675,
+            2.83202
+          ],
+          "source": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/awe-Ca55Pf13.json",
+          "identityStatus": "source-sampled",
+          "positionStatus": "source-coordinate",
+          "sourceRecord": {
+            "format": "dict",
+            "assetSha256": "879784a41602b70771e8a4a4d951bf0bb7dcf808365060eec6f96ed16ced68af",
+            "extra": [
+              -1,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "section": "14",
+          "row": "A",
+          "seat": "2",
+          "position": [
+            18.20063,
+            0.675,
+            2.34092
+          ],
+          "source": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/awe-Ca55Pf13.json",
+          "identityStatus": "source-sampled",
+          "positionStatus": "source-coordinate",
+          "sourceRecord": {
+            "format": "dict",
+            "assetSha256": "879784a41602b70771e8a4a4d951bf0bb7dcf808365060eec6f96ed16ced68af",
+            "extra": [
+              -1,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "section": "14",
+          "row": "A",
+          "seat": "3",
+          "position": [
+            18.20063,
+            0.675,
+            1.845
+          ],
+          "source": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/awe-Ca55Pf13.json",
+          "identityStatus": "source-sampled",
+          "positionStatus": "source-coordinate",
+          "sourceRecord": {
+            "format": "dict",
+            "assetSha256": "879784a41602b70771e8a4a4d951bf0bb7dcf808365060eec6f96ed16ced68af",
+            "extra": [
+              -1,
+              0,
+              0
+            ]
+          }
+        }
+      ],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www2.asiaworld-expo.com/2026/website/asiaworld-arena-hall-1.pdf"
+      }
+    },
+    {
+      "id": "15",
+      "ticketLabels": [
+        "15"
+      ],
+      "sourceLabel": "15 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 4.886921905584122,
+      "halfAngle": 0.07679448708775051,
+      "samples": [
+        {
+          "section": "15",
+          "row": "A",
+          "seat": "1",
+          "position": [
+            18.20378,
+            0.675,
+            -12.99264
+          ],
+          "source": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/awe-Ca55Pf13.json",
+          "identityStatus": "source-sampled",
+          "positionStatus": "source-coordinate",
+          "sourceRecord": {
+            "format": "dict",
+            "assetSha256": "879784a41602b70771e8a4a4d951bf0bb7dcf808365060eec6f96ed16ced68af",
+            "extra": [
+              -1,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "section": "15",
+          "row": "A",
+          "seat": "2",
+          "position": [
+            18.20378,
+            0.675,
+            -13.48839
+          ],
+          "source": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/awe-Ca55Pf13.json",
+          "identityStatus": "source-sampled",
+          "positionStatus": "source-coordinate",
+          "sourceRecord": {
+            "format": "dict",
+            "assetSha256": "879784a41602b70771e8a4a4d951bf0bb7dcf808365060eec6f96ed16ced68af",
+            "extra": [
+              -1,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "section": "15",
+          "row": "A",
+          "seat": "3",
+          "position": [
+            18.20411,
+            0.675,
+            -13.98035
+          ],
+          "source": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/awe-Ca55Pf13.json",
+          "identityStatus": "source-sampled",
+          "positionStatus": "source-coordinate",
+          "sourceRecord": {
+            "format": "dict",
+            "assetSha256": "879784a41602b70771e8a4a4d951bf0bb7dcf808365060eec6f96ed16ced68af",
+            "extra": [
+              -1,
+              0,
+              0
+            ]
+          }
+        }
+      ],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www2.asiaworld-expo.com/2026/website/asiaworld-arena-hall-1.pdf"
+      }
+    },
+    {
+      "id": "16",
+      "ticketLabels": [
+        "16"
+      ],
+      "sourceLabel": "16 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 5.131268000863329,
+      "halfAngle": 0.1075122819228507,
+      "samples": [
+        {
+          "section": "16",
+          "row": "A",
+          "seat": "1",
+          "position": [
+            18.20091,
+            0.675,
+            -26.25047
+          ],
+          "source": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/awe-Ca55Pf13.json",
+          "identityStatus": "source-sampled",
+          "positionStatus": "source-coordinate",
+          "sourceRecord": {
+            "format": "dict",
+            "assetSha256": "879784a41602b70771e8a4a4d951bf0bb7dcf808365060eec6f96ed16ced68af",
+            "extra": [
+              -1,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "section": "16",
+          "row": "A",
+          "seat": "2",
+          "position": [
+            18.20063,
+            0.675,
+            -26.74241
+          ],
+          "source": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/awe-Ca55Pf13.json",
+          "identityStatus": "source-sampled",
+          "positionStatus": "source-coordinate",
+          "sourceRecord": {
+            "format": "dict",
+            "assetSha256": "879784a41602b70771e8a4a4d951bf0bb7dcf808365060eec6f96ed16ced68af",
+            "extra": [
+              -1,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "section": "16",
+          "row": "A",
+          "seat": "3",
+          "position": [
+            18.20063,
+            0.675,
+            -27.23834
+          ],
+          "source": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/awe-Ca55Pf13.json",
+          "identityStatus": "source-sampled",
+          "positionStatus": "source-coordinate",
+          "sourceRecord": {
+            "format": "dict",
+            "assetSha256": "879784a41602b70771e8a4a4d951bf0bb7dcf808365060eec6f96ed16ced68af",
+            "extra": [
+              -1,
+              0,
+              0
+            ]
+          }
+        }
+      ],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www2.asiaworld-expo.com/2026/website/asiaworld-arena-hall-1.pdf"
+      }
+    },
+    {
+      "id": "17",
+      "ticketLabels": [
+        "17"
+      ],
+      "sourceLabel": "17 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 5.410520681182422,
+      "halfAngle": 0.12287117934040079,
+      "samples": [
+        {
+          "section": "17",
+          "row": "A",
+          "seat": "12",
+          "position": [
+            18.20091,
+            0.675,
+            -44.19632
+          ],
+          "source": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/awe-Ca55Pf13.json",
+          "identityStatus": "source-sampled",
+          "positionStatus": "source-coordinate",
+          "sourceRecord": {
+            "format": "dict",
+            "assetSha256": "879784a41602b70771e8a4a4d951bf0bb7dcf808365060eec6f96ed16ced68af",
+            "extra": [
+              -1,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "section": "17",
+          "row": "A",
+          "seat": "11",
+          "position": [
+            18.20091,
+            0.675,
+            -43.71062
+          ],
+          "source": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/awe-Ca55Pf13.json",
+          "identityStatus": "source-sampled",
+          "positionStatus": "source-coordinate",
+          "sourceRecord": {
+            "format": "dict",
+            "assetSha256": "879784a41602b70771e8a4a4d951bf0bb7dcf808365060eec6f96ed16ced68af",
+            "extra": [
+              -1,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "section": "17",
+          "row": "A",
+          "seat": "10",
+          "position": [
+            18.20091,
+            0.675,
+            -43.22492
+          ],
+          "source": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/awe-Ca55Pf13.json",
+          "identityStatus": "source-sampled",
+          "positionStatus": "source-coordinate",
+          "sourceRecord": {
+            "format": "dict",
+            "assetSha256": "879784a41602b70771e8a4a4d951bf0bb7dcf808365060eec6f96ed16ced68af",
+            "extra": [
+              -1,
+              0,
+              0
+            ]
+          }
+        }
+      ],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www2.asiaworld-expo.com/2026/website/asiaworld-arena-hall-1.pdf"
+      }
+    }
+  ],
+  "importedAt": "2026-10-24T00:00:00.000Z"
+}

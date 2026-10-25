@@ -1,0 +1,1103 @@
+{
+  "analysis_profile": null,
+  "authority": "external-service",
+  "confidence": "observed",
+  "environment": null,
+  "evidence_id": "ev_1f87574d159d170f4c5cad6ff7216e4cec76c521e7987993869b76591d156cd0",
+  "evidence_links": [],
+  "limitations": [
+    "Artifact identity is unavailable for this observation.",
+    "Static bundle findings are observations or bounded inferences; REA does not execute captured JavaScript.",
+    "Bare string arguments of unbound HTTP-method-named calls are low-confidence endpoint candidates; form, translation, storage and other APIs can use the same syntax. URL-shaped findings still do not prove network execution.",
+    "Endpoint candidates are deduplicated by script, value and detector; basis retains only the first matching source coordinate. They are not a complete call-site inventory or a runtime occurrence count. completeness.status=\"complete\" describes examination of captured source, not a call-site census.",
+    "String-built routes and endpoints, encrypted configuration, and server-side behavior may remain unknown.",
+    "Page-declared WebMCP metadata is untrusted and is never registered or invoked as an REA tool."
+  ],
+  "locations": [],
+  "normalized_result": {
+    "capture": {
+      "scripts_analyzed": 12,
+      "scripts_observed": 12,
+      "source_artifacts": [
+        {
+          "bytes": 4498,
+          "charset": "utf-8",
+          "media_type": "text/javascript",
+          "sha256": "d4bfd33a693e2061ac7c77c25881057c58df3bbff5be2048453725b6cdf13430",
+          "text_available": true
+        },
+        {
+          "bytes": 108962,
+          "charset": "utf-8",
+          "media_type": "text/javascript",
+          "sha256": "a040e94298443532c3671ebe0c58c5bc8ff77db3a18bb27e92d63c5c38bac254",
+          "text_available": true
+        },
+        {
+          "bytes": 1355044,
+          "charset": "utf-8",
+          "media_type": "text/javascript",
+          "sha256": "4f2a15832526950f3ea07d366bd5c6e9a493b8c1c268d0f1bab6072064553823",
+          "text_available": true
+        },
+        {
+          "bytes": 869,
+          "charset": "utf-8",
+          "media_type": "text/javascript",
+          "sha256": "8abe0b5c06d51b5f02ed61c406be6f4abfb8aa8bd4a934a039fc0500ea06f1f8",
+          "text_available": true
+        },
+        {
+          "bytes": 4172,
+          "charset": "utf-8",
+          "media_type": "text/javascript",
+          "sha256": "0e3703a001bce9b15dac06b025b645b1495a1709dc3d74990deac9289503fef6",
+          "text_available": true
+        },
+        {
+          "bytes": 1191,
+          "charset": "utf-8",
+          "media_type": "text/javascript",
+          "sha256": "b46d0761720cd0be80417fc32bded299e3b5d5fd1d6b2467c36eb88214d03c15",
+          "text_available": true
+        },
+        {
+          "bytes": 6645,
+          "charset": "utf-8",
+          "media_type": "text/javascript",
+          "sha256": "834cbdbbf1ec8b751ae5c18895b1ab0e19f8ea9805be5463428aca80b0f28ad9",
+          "text_available": true
+        },
+        {
+          "bytes": 593491,
+          "charset": "utf-8",
+          "media_type": "text/javascript",
+          "sha256": "1bc51d9ba5cdf8b5f80e81378096b0502b2e8269531a5a2ddfd38befe30cdb31",
+          "text_available": true
+        },
+        {
+          "bytes": 487882,
+          "charset": "utf-8",
+          "media_type": "text/javascript",
+          "sha256": "505e111309de54efd9b766cf1769178c7174852aa98d985e92a791463adc8211",
+          "text_available": true
+        },
+        {
+          "bytes": 12938,
+          "charset": "utf-8",
+          "media_type": "text/javascript",
+          "sha256": "0f17c4f7daf51a49a9627714ad2da6c037352442699ba8ceca68b7c6dc0b1dba",
+          "text_available": true
+        },
+        {
+          "bytes": 5274,
+          "charset": "utf-8",
+          "media_type": "text/javascript",
+          "sha256": "57a54612e7352cbb8649a975be9e7e252d6683d49441d12badb562f3b7aafd88",
+          "text_available": true
+        },
+        {
+          "bytes": 386271,
+          "charset": "utf-8",
+          "media_type": "text/javascript",
+          "sha256": "8a0c43248b569d1a8b794373043ee9330c277bb42bc0823ba92761be03081260",
+          "text_available": true
+        }
+      ],
+      "target_url": "https://shijiao.xingpaste.com/?venue=kspo-dome&section=23&depth=40&lateral=50&standing=1&date=four-sided&layout=center&lang=zh"
+    },
+    "completeness": {
+      "parse_failures": 0,
+      "parsed_scripts": 12,
+      "status": "partial",
+      "visited_ast_nodes": 559601
+    },
+    "inferences": [
+      {
+        "basis": [
+          {
+            "artifact_sha256": "4f2a15832526950f3ea07d366bd5c6e9a493b8c1c268d0f1bab6072064553823",
+            "column": 63157,
+            "detector": "call:nf.get:unverified-network-receiver",
+            "line": 89,
+            "script_key": "scr_32b81095d8d6b67419d010e2dd942df6a4dfafb7022e51c0c1cecaa29c8b73a1"
+          }
+        ],
+        "confidence": "low",
+        "kind": "endpoint_candidate",
+        "value": "534:B:263"
+      },
+      {
+        "basis": [
+          {
+            "artifact_sha256": "4f2a15832526950f3ea07d366bd5c6e9a493b8c1c268d0f1bab6072064553823",
+            "column": 93434,
+            "detector": "call:t.get:unverified-network-receiver",
+            "line": 89,
+            "script_key": "scr_32b81095d8d6b67419d010e2dd942df6a4dfafb7022e51c0c1cecaa29c8b73a1"
+          }
+        ],
+        "confidence": "low",
+        "kind": "endpoint_candidate",
+        "value": "venue"
+      },
+      {
+        "basis": [
+          {
+            "artifact_sha256": "4f2a15832526950f3ea07d366bd5c6e9a493b8c1c268d0f1bab6072064553823",
+            "column": 93486,
+            "detector": "call:t.get:unverified-network-receiver",
+            "line": 89,
+            "script_key": "scr_32b81095d8d6b67419d010e2dd942df6a4dfafb7022e51c0c1cecaa29c8b73a1"
+          }
+        ],
+        "confidence": "low",
+        "kind": "endpoint_candidate",
+        "value": "layout"
+      },
+      {
+        "basis": [
+          {
+            "artifact_sha256": "4f2a15832526950f3ea07d366bd5c6e9a493b8c1c268d0f1bab6072064553823",
+            "column": 93510,
+            "detector": "call:t.get:unverified-network-receiver",
+            "line": 89,
+            "script_key": "scr_32b81095d8d6b67419d010e2dd942df6a4dfafb7022e51c0c1cecaa29c8b73a1"
+          }
+        ],
+        "confidence": "low",
+        "kind": "endpoint_candidate",
+        "value": "section"
+      },
+      {
+        "basis": [
+          {
+            "artifact_sha256": "4f2a15832526950f3ea07d366bd5c6e9a493b8c1c268d0f1bab6072064553823",
+            "column": 93563,
+            "detector": "call:t.get:unverified-network-receiver",
+            "line": 89,
+            "script_key": "scr_32b81095d8d6b67419d010e2dd942df6a4dfafb7022e51c0c1cecaa29c8b73a1"
+          }
+        ],
+        "confidence": "low",
+        "kind": "endpoint_candidate",
+        "value": "depth"
+      },
+      {
+        "basis": [
+          {
+            "artifact_sha256": "4f2a15832526950f3ea07d366bd5c6e9a493b8c1c268d0f1bab6072064553823",
+            "column": 93618,
+            "detector": "call:t.get:unverified-network-receiver",
+            "line": 89,
+            "script_key": "scr_32b81095d8d6b67419d010e2dd942df6a4dfafb7022e51c0c1cecaa29c8b73a1"
+          }
+        ],
+        "confidence": "low",
+        "kind": "endpoint_candidate",
+        "value": "lateral"
+      },
+      {
+        "basis": [
+          {
+            "artifact_sha256": "4f2a15832526950f3ea07d366bd5c6e9a493b8c1c268d0f1bab6072064553823",
+            "column": 93652,
+            "detector": "call:t.get:unverified-network-receiver",
+            "line": 89,
+            "script_key": "scr_32b81095d8d6b67419d010e2dd942df6a4dfafb7022e51c0c1cecaa29c8b73a1"
+          }
+        ],
+        "confidence": "low",
+        "kind": "endpoint_candidate",
+        "value": "standing"
+      },
+      {
+        "basis": [
+          {
+            "artifact_sha256": "4f2a15832526950f3ea07d366bd5c6e9a493b8c1c268d0f1bab6072064553823",
+            "column": 93681,
+            "detector": "call:t.get:unverified-network-receiver",
+            "line": 89,
+            "script_key": "scr_32b81095d8d6b67419d010e2dd942df6a4dfafb7022e51c0c1cecaa29c8b73a1"
+          }
+        ],
+        "confidence": "low",
+        "kind": "endpoint_candidate",
+        "value": "date"
+      },
+      {
+        "basis": [
+          {
+            "artifact_sha256": "1bc51d9ba5cdf8b5f80e81378096b0502b2e8269531a5a2ddfd38befe30cdb31",
+            "column": 15433,
+            "detector": "call:t.get:unverified-network-receiver",
+            "line": 3671,
+            "script_key": "scr_9a7277e3dfdf297a628ab359ea626b79d1895de343b6142a3c5aaed1da438271"
+          }
+        ],
+        "confidence": "low",
+        "kind": "endpoint_candidate",
+        "value": "WEBGL_multi_draw"
+      },
+      {
+        "basis": [
+          {
+            "artifact_sha256": "1bc51d9ba5cdf8b5f80e81378096b0502b2e8269531a5a2ddfd38befe30cdb31",
+            "column": 15738,
+            "detector": "call:t.get:unverified-network-receiver",
+            "line": 3671,
+            "script_key": "scr_9a7277e3dfdf297a628ab359ea626b79d1895de343b6142a3c5aaed1da438271"
+          }
+        ],
+        "confidence": "low",
+        "kind": "endpoint_candidate",
+        "value": "EXT_texture_filter_anisotropic"
+      },
+      {
+        "basis": [
+          {
+            "artifact_sha256": "1bc51d9ba5cdf8b5f80e81378096b0502b2e8269531a5a2ddfd38befe30cdb31",
+            "column": 6831,
+            "detector": "call:t.get:unverified-network-receiver",
+            "line": 4084,
+            "script_key": "scr_9a7277e3dfdf297a628ab359ea626b79d1895de343b6142a3c5aaed1da438271"
+          }
+        ],
+        "confidence": "low",
+        "kind": "endpoint_candidate",
+        "value": "EXT_clip_control"
+      },
+      {
+        "basis": [
+          {
+            "artifact_sha256": "1bc51d9ba5cdf8b5f80e81378096b0502b2e8269531a5a2ddfd38befe30cdb31",
+            "column": 17068,
+            "detector": "call:t.get:unverified-network-receiver",
+            "line": 4084,
+            "script_key": "scr_9a7277e3dfdf297a628ab359ea626b79d1895de343b6142a3c5aaed1da438271"
+          }
+        ],
+        "confidence": "low",
+        "kind": "endpoint_candidate",
+        "value": "WEBGL_multisampled_render_to_texture"
+      },
+      {
+        "basis": [
+          {
+            "artifact_sha256": "1bc51d9ba5cdf8b5f80e81378096b0502b2e8269531a5a2ddfd38befe30cdb31",
+            "column": 18505,
+            "detector": "call:t.get:unverified-network-receiver",
+            "line": 4084,
+            "script_key": "scr_9a7277e3dfdf297a628ab359ea626b79d1895de343b6142a3c5aaed1da438271"
+          }
+        ],
+        "confidence": "low",
+        "kind": "endpoint_candidate",
+        "value": "EXT_texture_norm16"
+      },
+      {
+        "basis": [
+          {
+            "artifact_sha256": "1bc51d9ba5cdf8b5f80e81378096b0502b2e8269531a5a2ddfd38befe30cdb31",
+            "column": 20377,
+            "detector": "call:t.get:unverified-network-receiver",
+            "line": 4084,
+            "script_key": "scr_9a7277e3dfdf297a628ab359ea626b79d1895de343b6142a3c5aaed1da438271"
+          }
+        ],
+        "confidence": "low",
+        "kind": "endpoint_candidate",
+        "value": "EXT_color_buffer_float"
+      },
+      {
+        "basis": [
+          {
+            "artifact_sha256": "1bc51d9ba5cdf8b5f80e81378096b0502b2e8269531a5a2ddfd38befe30cdb31",
+            "column": 47317,
+            "detector": "call:t.get:unverified-network-receiver",
+            "line": 4084,
+            "script_key": "scr_9a7277e3dfdf297a628ab359ea626b79d1895de343b6142a3c5aaed1da438271"
+          }
+        ],
+        "confidence": "low",
+        "kind": "endpoint_candidate",
+        "value": "WEBGL_compressed_texture_s3tc_srgb"
+      },
+      {
+        "basis": [
+          {
+            "artifact_sha256": "1bc51d9ba5cdf8b5f80e81378096b0502b2e8269531a5a2ddfd38befe30cdb31",
+            "column": 47624,
+            "detector": "call:t.get:unverified-network-receiver",
+            "line": 4084,
+            "script_key": "scr_9a7277e3dfdf297a628ab359ea626b79d1895de343b6142a3c5aaed1da438271"
+          }
+        ],
+        "confidence": "low",
+        "kind": "endpoint_candidate",
+        "value": "WEBGL_compressed_texture_s3tc"
+      },
+      {
+        "basis": [
+          {
+            "artifact_sha256": "1bc51d9ba5cdf8b5f80e81378096b0502b2e8269531a5a2ddfd38befe30cdb31",
+            "column": 47949,
+            "detector": "call:t.get:unverified-network-receiver",
+            "line": 4084,
+            "script_key": "scr_9a7277e3dfdf297a628ab359ea626b79d1895de343b6142a3c5aaed1da438271"
+          }
+        ],
+        "confidence": "low",
+        "kind": "endpoint_candidate",
+        "value": "WEBGL_compressed_texture_pvrtc"
+      },
+      {
+        "basis": [
+          {
+            "artifact_sha256": "1bc51d9ba5cdf8b5f80e81378096b0502b2e8269531a5a2ddfd38befe30cdb31",
+            "column": 48319,
+            "detector": "call:t.get:unverified-network-receiver",
+            "line": 4084,
+            "script_key": "scr_9a7277e3dfdf297a628ab359ea626b79d1895de343b6142a3c5aaed1da438271"
+          }
+        ],
+        "confidence": "low",
+        "kind": "endpoint_candidate",
+        "value": "WEBGL_compressed_texture_etc"
+      },
+      {
+        "basis": [
+          {
+            "artifact_sha256": "1bc51d9ba5cdf8b5f80e81378096b0502b2e8269531a5a2ddfd38befe30cdb31",
+            "column": 48909,
+            "detector": "call:t.get:unverified-network-receiver",
+            "line": 4084,
+            "script_key": "scr_9a7277e3dfdf297a628ab359ea626b79d1895de343b6142a3c5aaed1da438271"
+          }
+        ],
+        "confidence": "low",
+        "kind": "endpoint_candidate",
+        "value": "WEBGL_compressed_texture_astc"
+      },
+      {
+        "basis": [
+          {
+            "artifact_sha256": "1bc51d9ba5cdf8b5f80e81378096b0502b2e8269531a5a2ddfd38befe30cdb31",
+            "column": 50448,
+            "detector": "call:t.get:unverified-network-receiver",
+            "line": 4084,
+            "script_key": "scr_9a7277e3dfdf297a628ab359ea626b79d1895de343b6142a3c5aaed1da438271"
+          }
+        ],
+        "confidence": "low",
+        "kind": "endpoint_candidate",
+        "value": "EXT_texture_compression_bptc"
+      },
+      {
+        "basis": [
+          {
+            "artifact_sha256": "1bc51d9ba5cdf8b5f80e81378096b0502b2e8269531a5a2ddfd38befe30cdb31",
+            "column": 50788,
+            "detector": "call:t.get:unverified-network-receiver",
+            "line": 4084,
+            "script_key": "scr_9a7277e3dfdf297a628ab359ea626b79d1895de343b6142a3c5aaed1da438271"
+          }
+        ],
+        "confidence": "low",
+        "kind": "endpoint_candidate",
+        "value": "EXT_texture_compression_rgtc"
+      },
+      {
+        "basis": [
+          {
+            "artifact_sha256": "1bc51d9ba5cdf8b5f80e81378096b0502b2e8269531a5a2ddfd38befe30cdb31",
+            "column": 24929,
+            "detector": "call:L.get:unverified-network-receiver",
+            "line": 4108,
+            "script_key": "scr_9a7277e3dfdf297a628ab359ea626b79d1895de343b6142a3c5aaed1da438271"
+          }
+        ],
+        "confidence": "low",
+        "kind": "endpoint_candidate",
+        "value": "WEBGL_lose_context"
+      },
+      {
+        "basis": [
+          {
+            "artifact_sha256": "1bc51d9ba5cdf8b5f80e81378096b0502b2e8269531a5a2ddfd38befe30cdb31",
+            "column": 29677,
+            "detector": "call:L.get:unverified-network-receiver",
+            "line": 4108,
+            "script_key": "scr_9a7277e3dfdf297a628ab359ea626b79d1895de343b6142a3c5aaed1da438271"
+          }
+        ],
+        "confidence": "low",
+        "kind": "endpoint_candidate",
+        "value": "WEBGL_multi_draw"
+      },
+      {
+        "basis": [
+          {
+            "artifact_sha256": "1bc51d9ba5cdf8b5f80e81378096b0502b2e8269531a5a2ddfd38befe30cdb31",
+            "column": 31182,
+            "detector": "call:L.get:unverified-network-receiver",
+            "line": 4108,
+            "script_key": "scr_9a7277e3dfdf297a628ab359ea626b79d1895de343b6142a3c5aaed1da438271"
+          }
+        ],
+        "confidence": "low",
+        "kind": "endpoint_candidate",
+        "value": "KHR_parallel_shader_compile"
+      },
+      {
+        "basis": [
+          {
+            "artifact_sha256": "505e111309de54efd9b766cf1769178c7174852aa98d985e92a791463adc8211",
+            "column": null,
+            "detector": "vite-runtime",
+            "line": null,
+            "script_key": "scr_c5f98646ccdb9ed5e474880341c160e70b21dafad1852ea30b8839b95d5c64bb"
+          }
+        ],
+        "confidence": "medium",
+        "kind": "bundle_runtime",
+        "value": "Vite"
+      },
+      {
+        "basis": [
+          {
+            "artifact_sha256": "505e111309de54efd9b766cf1769178c7174852aa98d985e92a791463adc8211",
+            "column": null,
+            "detector": "react-runtime",
+            "line": null,
+            "script_key": "scr_c5f98646ccdb9ed5e474880341c160e70b21dafad1852ea30b8839b95d5c64bb"
+          }
+        ],
+        "confidence": "medium",
+        "kind": "vendor_fingerprint",
+        "value": "React"
+      },
+      {
+        "basis": [
+          {
+            "artifact_sha256": "505e111309de54efd9b766cf1769178c7174852aa98d985e92a791463adc8211",
+            "column": 42357,
+            "detector": "call:e.get:unverified-network-receiver",
+            "line": 30,
+            "script_key": "scr_c5f98646ccdb9ed5e474880341c160e70b21dafad1852ea30b8839b95d5c64bb"
+          }
+        ],
+        "confidence": "low",
+        "kind": "endpoint_candidate",
+        "value": "seat"
+      },
+      {
+        "basis": [
+          {
+            "artifact_sha256": "505e111309de54efd9b766cf1769178c7174852aa98d985e92a791463adc8211",
+            "column": 42489,
+            "detector": "call:e.get:unverified-network-receiver",
+            "line": 30,
+            "script_key": "scr_c5f98646ccdb9ed5e474880341c160e70b21dafad1852ea30b8839b95d5c64bb"
+          }
+        ],
+        "confidence": "low",
+        "kind": "endpoint_candidate",
+        "value": "layout"
+      },
+      {
+        "basis": [
+          {
+            "artifact_sha256": "505e111309de54efd9b766cf1769178c7174852aa98d985e92a791463adc8211",
+            "column": 42589,
+            "detector": "call:lt.get:unverified-network-receiver",
+            "line": 30,
+            "script_key": "scr_c5f98646ccdb9ed5e474880341c160e70b21dafad1852ea30b8839b95d5c64bb"
+          }
+        ],
+        "confidence": "low",
+        "kind": "endpoint_candidate",
+        "value": "wechat_ticket"
+      },
+      {
+        "basis": [
+          {
+            "artifact_sha256": "505e111309de54efd9b766cf1769178c7174852aa98d985e92a791463adc8211",
+            "column": 42640,
+            "detector": "call:lt.delete:unverified-network-receiver",
+            "line": 30,
+            "script_key": "scr_c5f98646ccdb9ed5e474880341c160e70b21dafad1852ea30b8839b95d5c64bb"
+          }
+        ],
+        "confidence": "low",
+        "kind": "endpoint_candidate",
+        "value": "wechat_ticket"
+      },
+      {
+        "basis": [
+          {
+            "artifact_sha256": "505e111309de54efd9b766cf1769178c7174852aa98d985e92a791463adc8211",
+            "column": 42766,
+            "detector": "call:lt.get:unverified-network-receiver",
+            "line": 30,
+            "script_key": "scr_c5f98646ccdb9ed5e474880341c160e70b21dafad1852ea30b8839b95d5c64bb"
+          }
+        ],
+        "confidence": "low",
+        "kind": "endpoint_candidate",
+        "value": "source"
+      },
+      {
+        "basis": [
+          {
+            "artifact_sha256": "8a0c43248b569d1a8b794373043ee9330c277bb42bc0823ba92761be03081260",
+            "column": null,
+            "detector": "vite-runtime",
+            "line": null,
+            "script_key": "scr_f5601d1593cd5da7c6a5f0c95cc37fa944a6ee68154b366102cbfbb71082a08f"
+          }
+        ],
+        "confidence": "medium",
+        "kind": "bundle_runtime",
+        "value": "Vite"
+      },
+      {
+        "basis": [
+          {
+            "artifact_sha256": "8a0c43248b569d1a8b794373043ee9330c277bb42bc0823ba92761be03081260",
+            "column": 76262,
+            "detector": "call:e.get:unverified-network-receiver",
+            "line": 2,
+            "script_key": "scr_f5601d1593cd5da7c6a5f0c95cc37fa944a6ee68154b366102cbfbb71082a08f"
+          }
+        ],
+        "confidence": "low",
+        "kind": "endpoint_candidate",
+        "value": "tab"
+      },
+      {
+        "basis": [
+          {
+            "artifact_sha256": "8a0c43248b569d1a8b794373043ee9330c277bb42bc0823ba92761be03081260",
+            "column": 76297,
+            "detector": "call:e.get:unverified-network-receiver",
+            "line": 2,
+            "script_key": "scr_f5601d1593cd5da7c6a5f0c95cc37fa944a6ee68154b366102cbfbb71082a08f"
+          }
+        ],
+        "confidence": "low",
+        "kind": "endpoint_candidate",
+        "value": "journal"
+      },
+      {
+        "basis": [
+          {
+            "artifact_sha256": "8a0c43248b569d1a8b794373043ee9330c277bb42bc0823ba92761be03081260",
+            "column": 113610,
+            "detector": "call:r.get:unverified-network-receiver",
+            "line": 2,
+            "script_key": "scr_f5601d1593cd5da7c6a5f0c95cc37fa944a6ee68154b366102cbfbb71082a08f"
+          }
+        ],
+        "confidence": "low",
+        "kind": "endpoint_candidate",
+        "value": "approximate"
+      },
+      {
+        "basis": [
+          {
+            "artifact_sha256": "8a0c43248b569d1a8b794373043ee9330c277bb42bc0823ba92761be03081260",
+            "column": 113770,
+            "detector": "call:r.get:unverified-network-receiver",
+            "line": 2,
+            "script_key": "scr_f5601d1593cd5da7c6a5f0c95cc37fa944a6ee68154b366102cbfbb71082a08f"
+          }
+        ],
+        "confidence": "low",
+        "kind": "endpoint_candidate",
+        "value": "consent"
+      }
+    ],
+    "limitations": [
+      "Static bundle findings are observations or bounded inferences; REA does not execute captured JavaScript.",
+      "Bare string arguments of unbound HTTP-method-named calls are low-confidence endpoint candidates; form, translation, storage and other APIs can use the same syntax. URL-shaped findings still do not prove network execution.",
+      "Endpoint candidates are deduplicated by script, value and detector; basis retains only the first matching source coordinate. They are not a complete call-site inventory or a runtime occurrence count. completeness.status=\"complete\" describes examination of captured source, not a call-site census.",
+      "String-built routes and endpoints, encrypted configuration, and server-side behavior may remain unknown.",
+      "Page-declared WebMCP metadata is untrusted and is never registered or invoked as an REA tool."
+    ],
+    "observations": {
+      "chunks": {
+        "edges": [
+          {
+            "from_script_key": "scr_18a028964a4900e8c57c5a66f096195f2146a4dea7ed372d1732ad1c1f7f629e",
+            "kind": "static_import",
+            "location": {
+              "column": 0,
+              "line": 1,
+              "script_key": "scr_18a028964a4900e8c57c5a66f096195f2146a4dea7ed372d1732ad1c1f7f629e"
+            },
+            "resolved_url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/index-BAj_84iQ.js",
+            "specifier": "./index-BAj_84iQ.js"
+          },
+          {
+            "from_script_key": "scr_18a028964a4900e8c57c5a66f096195f2146a4dea7ed372d1732ad1c1f7f629e",
+            "kind": "static_import",
+            "location": {
+              "column": 75,
+              "line": 1,
+              "script_key": "scr_18a028964a4900e8c57c5a66f096195f2146a4dea7ed372d1732ad1c1f7f629e"
+            },
+            "resolved_url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/request-B-vpbw8E.js",
+            "specifier": "./request-B-vpbw8E.js"
+          },
+          {
+            "from_script_key": "scr_18a028964a4900e8c57c5a66f096195f2146a4dea7ed372d1732ad1c1f7f629e",
+            "kind": "static_import",
+            "location": {
+              "column": 117,
+              "line": 1,
+              "script_key": "scr_18a028964a4900e8c57c5a66f096195f2146a4dea7ed372d1732ad1c1f7f629e"
+            },
+            "resolved_url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/data-CI2ywFAf.js",
+            "specifier": "./data-CI2ywFAf.js"
+          },
+          {
+            "from_script_key": "scr_1cfc80aa9f0e2448ef8643d36bfc1b15d8a92877b60d6438ed5bc7c8db6a30be",
+            "kind": "static_import",
+            "location": {
+              "column": 0,
+              "line": 1,
+              "script_key": "scr_1cfc80aa9f0e2448ef8643d36bfc1b15d8a92877b60d6438ed5bc7c8db6a30be"
+            },
+            "resolved_url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/index-BAj_84iQ.js",
+            "specifier": "./index-BAj_84iQ.js"
+          },
+          {
+            "from_script_key": "scr_1cfc80aa9f0e2448ef8643d36bfc1b15d8a92877b60d6438ed5bc7c8db6a30be",
+            "kind": "static_import",
+            "location": {
+              "column": 82,
+              "line": 1,
+              "script_key": "scr_1cfc80aa9f0e2448ef8643d36bfc1b15d8a92877b60d6438ed5bc7c8db6a30be"
+            },
+            "resolved_url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/data-CI2ywFAf.js",
+            "specifier": "./data-CI2ywFAf.js"
+          },
+          {
+            "from_script_key": "scr_1cfc80aa9f0e2448ef8643d36bfc1b15d8a92877b60d6438ed5bc7c8db6a30be",
+            "kind": "static_import",
+            "location": {
+              "column": 444,
+              "line": 1,
+              "script_key": "scr_1cfc80aa9f0e2448ef8643d36bfc1b15d8a92877b60d6438ed5bc7c8db6a30be"
+            },
+            "resolved_url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/AppRoute-FKjE7l3d.js",
+            "specifier": "./AppRoute-FKjE7l3d.js"
+          },
+          {
+            "from_script_key": "scr_1cfc80aa9f0e2448ef8643d36bfc1b15d8a92877b60d6438ed5bc7c8db6a30be",
+            "kind": "static_import",
+            "location": {
+              "column": 527,
+              "line": 1,
+              "script_key": "scr_1cfc80aa9f0e2448ef8643d36bfc1b15d8a92877b60d6438ed5bc7c8db6a30be"
+            },
+            "resolved_url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/OrbitControls-DcB4Swpe.js",
+            "specifier": "./OrbitControls-DcB4Swpe.js"
+          },
+          {
+            "from_script_key": "scr_32b81095d8d6b67419d010e2dd942df6a4dfafb7022e51c0c1cecaa29c8b73a1",
+            "kind": "static_import",
+            "location": {
+              "column": 0,
+              "line": 1,
+              "script_key": "scr_32b81095d8d6b67419d010e2dd942df6a4dfafb7022e51c0c1cecaa29c8b73a1"
+            },
+            "resolved_url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/index-BAj_84iQ.js",
+            "specifier": "./index-BAj_84iQ.js"
+          },
+          {
+            "from_script_key": "scr_4007e8686b254ec5a68b5c7da8926f9a4d955cd9cbb487d66f106b89316c3ef9",
+            "kind": "static_import",
+            "location": {
+              "column": 0,
+              "line": 1,
+              "script_key": "scr_4007e8686b254ec5a68b5c7da8926f9a4d955cd9cbb487d66f106b89316c3ef9"
+            },
+            "resolved_url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/index-BAj_84iQ.js",
+            "specifier": "./index-BAj_84iQ.js"
+          },
+          {
+            "from_script_key": "scr_43f1504b1cb4db56ee4776f7761aed8f74a6383ef5167c971191b922efbe0a43",
+            "kind": "static_import",
+            "location": {
+              "column": 0,
+              "line": 1,
+              "script_key": "scr_43f1504b1cb4db56ee4776f7761aed8f74a6383ef5167c971191b922efbe0a43"
+            },
+            "resolved_url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/SelectField-DIrNP88w.js",
+            "specifier": "./SelectField-DIrNP88w.js"
+          },
+          {
+            "from_script_key": "scr_43f1504b1cb4db56ee4776f7761aed8f74a6383ef5167c971191b922efbe0a43",
+            "kind": "static_import",
+            "location": {
+              "column": 46,
+              "line": 1,
+              "script_key": "scr_43f1504b1cb4db56ee4776f7761aed8f74a6383ef5167c971191b922efbe0a43"
+            },
+            "resolved_url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/index-BAj_84iQ.js",
+            "specifier": "./index-BAj_84iQ.js"
+          },
+          {
+            "from_script_key": "scr_43f1504b1cb4db56ee4776f7761aed8f74a6383ef5167c971191b922efbe0a43",
+            "kind": "static_import",
+            "location": {
+              "column": 114,
+              "line": 1,
+              "script_key": "scr_43f1504b1cb4db56ee4776f7761aed8f74a6383ef5167c971191b922efbe0a43"
+            },
+            "resolved_url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/data-CI2ywFAf.js",
+            "specifier": "./data-CI2ywFAf.js"
+          },
+          {
+            "from_script_key": "scr_43f1504b1cb4db56ee4776f7761aed8f74a6383ef5167c971191b922efbe0a43",
+            "kind": "static_import",
+            "location": {
+              "column": 175,
+              "line": 1,
+              "script_key": "scr_43f1504b1cb4db56ee4776f7761aed8f74a6383ef5167c971191b922efbe0a43"
+            },
+            "resolved_url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/photos-BMH0FVHp.js",
+            "specifier": "./photos-BMH0FVHp.js"
+          },
+          {
+            "from_script_key": "scr_85331166b5f196789577085bd2fd2746d31b9735bdc4f8b4cfc7aebfd361a0ab",
+            "kind": "static_import",
+            "location": {
+              "column": 0,
+              "line": 1,
+              "script_key": "scr_85331166b5f196789577085bd2fd2746d31b9735bdc4f8b4cfc7aebfd361a0ab"
+            },
+            "resolved_url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/data-CI2ywFAf.js",
+            "specifier": "./data-CI2ywFAf.js"
+          },
+          {
+            "from_script_key": "scr_c5f98646ccdb9ed5e474880341c160e70b21dafad1852ea30b8839b95d5c64bb",
+            "kind": "dynamic_import",
+            "location": {
+              "column": 41176,
+              "line": 30,
+              "script_key": "scr_c5f98646ccdb9ed5e474880341c160e70b21dafad1852ea30b8839b95d5c64bb"
+            },
+            "resolved_url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/AppRoute-FKjE7l3d.js",
+            "specifier": "./AppRoute-FKjE7l3d.js"
+          },
+          {
+            "from_script_key": "scr_c5f98646ccdb9ed5e474880341c160e70b21dafad1852ea30b8839b95d5c64bb",
+            "kind": "dynamic_import",
+            "location": {
+              "column": 41297,
+              "line": 30,
+              "script_key": "scr_c5f98646ccdb9ed5e474880341c160e70b21dafad1852ea30b8839b95d5c64bb"
+            },
+            "resolved_url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/PublicMemories-B50gXY95.js",
+            "specifier": "./PublicMemories-B50gXY95.js"
+          },
+          {
+            "from_script_key": "scr_c5f98646ccdb9ed5e474880341c160e70b21dafad1852ea30b8839b95d5c64bb",
+            "kind": "dynamic_import",
+            "location": {
+              "column": 41404,
+              "line": 30,
+              "script_key": "scr_c5f98646ccdb9ed5e474880341c160e70b21dafad1852ea30b8839b95d5c64bb"
+            },
+            "resolved_url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/PhotoAdmin-Bh8rffKX.js",
+            "specifier": "./PhotoAdmin-Bh8rffKX.js"
+          },
+          {
+            "from_script_key": "scr_c5f98646ccdb9ed5e474880341c160e70b21dafad1852ea30b8839b95d5c64bb",
+            "kind": "dynamic_import",
+            "location": {
+              "column": 41506,
+              "line": 30,
+              "script_key": "scr_c5f98646ccdb9ed5e474880341c160e70b21dafad1852ea30b8839b95d5c64bb"
+            },
+            "resolved_url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/AnalyticsAdmin-BSTSYhKJ.js",
+            "specifier": "./AnalyticsAdmin-BSTSYhKJ.js"
+          },
+          {
+            "from_script_key": "scr_c5f98646ccdb9ed5e474880341c160e70b21dafad1852ea30b8839b95d5c64bb",
+            "kind": "dynamic_import",
+            "location": {
+              "column": 41607,
+              "line": 30,
+              "script_key": "scr_c5f98646ccdb9ed5e474880341c160e70b21dafad1852ea30b8839b95d5c64bb"
+            },
+            "resolved_url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/FeedbackAdmin-D9jX5s_3.js",
+            "specifier": "./FeedbackAdmin-D9jX5s_3.js"
+          },
+          {
+            "from_script_key": "scr_daaec6a0e5c5051be78930aaee88d45f8a33258fd656d9e5aeb45ce6d3bf3723",
+            "kind": "static_import",
+            "location": {
+              "column": 0,
+              "line": 1,
+              "script_key": "scr_daaec6a0e5c5051be78930aaee88d45f8a33258fd656d9e5aeb45ce6d3bf3723"
+            },
+            "resolved_url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/index-BAj_84iQ.js",
+            "specifier": "./index-BAj_84iQ.js"
+          },
+          {
+            "from_script_key": "scr_daaec6a0e5c5051be78930aaee88d45f8a33258fd656d9e5aeb45ce6d3bf3723",
+            "kind": "static_import",
+            "location": {
+              "column": 89,
+              "line": 1,
+              "script_key": "scr_daaec6a0e5c5051be78930aaee88d45f8a33258fd656d9e5aeb45ce6d3bf3723"
+            },
+            "resolved_url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/request-B-vpbw8E.js",
+            "specifier": "./request-B-vpbw8E.js"
+          },
+          {
+            "from_script_key": "scr_f5601d1593cd5da7c6a5f0c95cc37fa944a6ee68154b366102cbfbb71082a08f",
+            "kind": "static_import",
+            "location": {
+              "column": 0,
+              "line": 2,
+              "script_key": "scr_f5601d1593cd5da7c6a5f0c95cc37fa944a6ee68154b366102cbfbb71082a08f"
+            },
+            "resolved_url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/SelectField-DIrNP88w.js",
+            "specifier": "./SelectField-DIrNP88w.js"
+          },
+          {
+            "from_script_key": "scr_f5601d1593cd5da7c6a5f0c95cc37fa944a6ee68154b366102cbfbb71082a08f",
+            "kind": "static_import",
+            "location": {
+              "column": 76,
+              "line": 2,
+              "script_key": "scr_f5601d1593cd5da7c6a5f0c95cc37fa944a6ee68154b366102cbfbb71082a08f"
+            },
+            "resolved_url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/index-BAj_84iQ.js",
+            "specifier": "./index-BAj_84iQ.js"
+          },
+          {
+            "from_script_key": "scr_f5601d1593cd5da7c6a5f0c95cc37fa944a6ee68154b366102cbfbb71082a08f",
+            "kind": "static_import",
+            "location": {
+              "column": 235,
+              "line": 2,
+              "script_key": "scr_f5601d1593cd5da7c6a5f0c95cc37fa944a6ee68154b366102cbfbb71082a08f"
+            },
+            "resolved_url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/request-B-vpbw8E.js",
+            "specifier": "./request-B-vpbw8E.js"
+          },
+          {
+            "from_script_key": "scr_f5601d1593cd5da7c6a5f0c95cc37fa944a6ee68154b366102cbfbb71082a08f",
+            "kind": "static_import",
+            "location": {
+              "column": 309,
+              "line": 2,
+              "script_key": "scr_f5601d1593cd5da7c6a5f0c95cc37fa944a6ee68154b366102cbfbb71082a08f"
+            },
+            "resolved_url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/data-CI2ywFAf.js",
+            "specifier": "./data-CI2ywFAf.js"
+          },
+          {
+            "from_script_key": "scr_f5601d1593cd5da7c6a5f0c95cc37fa944a6ee68154b366102cbfbb71082a08f",
+            "kind": "static_import",
+            "location": {
+              "column": 838,
+              "line": 2,
+              "script_key": "scr_f5601d1593cd5da7c6a5f0c95cc37fa944a6ee68154b366102cbfbb71082a08f"
+            },
+            "resolved_url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/useUnsavedChanges-Duse7vRR.js",
+            "specifier": "./useUnsavedChanges-Duse7vRR.js"
+          },
+          {
+            "from_script_key": "scr_f5601d1593cd5da7c6a5f0c95cc37fa944a6ee68154b366102cbfbb71082a08f",
+            "kind": "static_import",
+            "location": {
+              "column": 923,
+              "line": 2,
+              "script_key": "scr_f5601d1593cd5da7c6a5f0c95cc37fa944a6ee68154b366102cbfbb71082a08f"
+            },
+            "resolved_url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/photos-BMH0FVHp.js",
+            "specifier": "./photos-BMH0FVHp.js"
+          },
+          {
+            "from_script_key": "scr_f5601d1593cd5da7c6a5f0c95cc37fa944a6ee68154b366102cbfbb71082a08f",
+            "kind": "static_import",
+            "location": {
+              "column": 1085,
+              "line": 2,
+              "script_key": "scr_f5601d1593cd5da7c6a5f0c95cc37fa944a6ee68154b366102cbfbb71082a08f"
+            },
+            "resolved_url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/photos-D5S6ebtb.js",
+            "specifier": "./photos-D5S6ebtb.js"
+          },
+          {
+            "from_script_key": "scr_f5601d1593cd5da7c6a5f0c95cc37fa944a6ee68154b366102cbfbb71082a08f",
+            "kind": "static_import",
+            "location": {
+              "column": 1143,
+              "line": 2,
+              "script_key": "scr_f5601d1593cd5da7c6a5f0c95cc37fa944a6ee68154b366102cbfbb71082a08f"
+            },
+            "resolved_url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/PublicMemories-B50gXY95.js",
+            "specifier": "./PublicMemories-B50gXY95.js"
+          },
+          {
+            "from_script_key": "scr_f5601d1593cd5da7c6a5f0c95cc37fa944a6ee68154b366102cbfbb71082a08f",
+            "kind": "dynamic_import",
+            "location": {
+              "column": 37450,
+              "line": 2,
+              "script_key": "scr_f5601d1593cd5da7c6a5f0c95cc37fa944a6ee68154b366102cbfbb71082a08f"
+            },
+            "resolved_url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/Stadium-hdz890bx.js",
+            "specifier": "./Stadium-hdz890bx.js"
+          },
+          {
+            "from_script_key": "scr_f5601d1593cd5da7c6a5f0c95cc37fa944a6ee68154b366102cbfbb71082a08f",
+            "kind": "dynamic_import",
+            "location": {
+              "column": 269334,
+              "line": 2,
+              "script_key": "scr_f5601d1593cd5da7c6a5f0c95cc37fa944a6ee68154b366102cbfbb71082a08f"
+            },
+            "resolved_url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/JourneyGlobe-BZtQ6ogZ.js",
+            "specifier": "./JourneyGlobe-BZtQ6ogZ.js"
+          }
+        ],
+        "nodes": [
+          {
+            "artifact_sha256": "d4bfd33a693e2061ac7c77c25881057c58df3bbff5be2048453725b6cdf13430",
+            "bytes": 4498,
+            "script_key": "scr_18a028964a4900e8c57c5a66f096195f2146a4dea7ed372d1732ad1c1f7f629e",
+            "url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/PublicMemories-B50gXY95.js"
+          },
+          {
+            "artifact_sha256": "a040e94298443532c3671ebe0c58c5bc8ff77db3a18bb27e92d63c5c38bac254",
+            "bytes": 108962,
+            "script_key": "scr_1cfc80aa9f0e2448ef8643d36bfc1b15d8a92877b60d6438ed5bc7c8db6a30be",
+            "url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/Stadium-hdz890bx.js"
+          },
+          {
+            "artifact_sha256": "4f2a15832526950f3ea07d366bd5c6e9a493b8c1c268d0f1bab6072064553823",
+            "bytes": 1355044,
+            "script_key": "scr_32b81095d8d6b67419d010e2dd942df6a4dfafb7022e51c0c1cecaa29c8b73a1",
+            "url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/data-CI2ywFAf.js"
+          },
+          {
+            "artifact_sha256": "8abe0b5c06d51b5f02ed61c406be6f4abfb8aa8bd4a934a039fc0500ea06f1f8",
+            "bytes": 869,
+            "script_key": "scr_4007e8686b254ec5a68b5c7da8926f9a4d955cd9cbb487d66f106b89316c3ef9",
+            "url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/useUnsavedChanges-Duse7vRR.js"
+          },
+          {
+            "artifact_sha256": "0e3703a001bce9b15dac06b025b645b1495a1709dc3d74990deac9289503fef6",
+            "bytes": 4172,
+            "script_key": "scr_43f1504b1cb4db56ee4776f7761aed8f74a6383ef5167c971191b922efbe0a43",
+            "url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/photos-D5S6ebtb.js"
+          },
+          {
+            "artifact_sha256": "b46d0761720cd0be80417fc32bded299e3b5d5fd1d6b2467c36eb88214d03c15",
+            "bytes": 1191,
+            "script_key": "scr_72fc5d2c8d86106e8226953110b6e5b6520fa8dd8cdd46a22ad4478dddcb184a",
+            "url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/request-B-vpbw8E.js"
+          },
+          {
+            "artifact_sha256": "834cbdbbf1ec8b751ae5c18895b1ab0e19f8ea9805be5463428aca80b0f28ad9",
+            "bytes": 6645,
+            "script_key": "scr_85331166b5f196789577085bd2fd2746d31b9735bdc4f8b4cfc7aebfd361a0ab",
+            "url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/photos-BMH0FVHp.js"
+          },
+          {
+            "artifact_sha256": "1bc51d9ba5cdf8b5f80e81378096b0502b2e8269531a5a2ddfd38befe30cdb31",
+            "bytes": 593491,
+            "script_key": "scr_9a7277e3dfdf297a628ab359ea626b79d1895de343b6142a3c5aaed1da438271",
+            "url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/OrbitControls-DcB4Swpe.js"
+          },
+          {
+            "artifact_sha256": "505e111309de54efd9b766cf1769178c7174852aa98d985e92a791463adc8211",
+            "bytes": 487882,
+            "script_key": "scr_c5f98646ccdb9ed5e474880341c160e70b21dafad1852ea30b8839b95d5c64bb",
+            "url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/index-BAj_84iQ.js"
+          },
+          {
+            "artifact_sha256": "0f17c4f7daf51a49a9627714ad2da6c037352442699ba8ceca68b7c6dc0b1dba",
+            "bytes": 12938,
+            "script_key": "scr_c7ee848b1dad004a89871c9ddfc95a464eda6e8edbe33053e5e8a6631c1ff463",
+            "url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/jweixin-1.6.0.js"
+          },
+          {
+            "artifact_sha256": "57a54612e7352cbb8649a975be9e7e252d6683d49441d12badb562f3b7aafd88",
+            "bytes": 5274,
+            "script_key": "scr_daaec6a0e5c5051be78930aaee88d45f8a33258fd656d9e5aeb45ce6d3bf3723",
+            "url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/SelectField-DIrNP88w.js"
+          },
+          {
+            "artifact_sha256": "8a0c43248b569d1a8b794373043ee9330c277bb42bc0823ba92761be03081260",
+            "bytes": 386271,
+            "script_key": "scr_f5601d1593cd5da7c6a5f0c95cc37fa944a6ee68154b366102cbfbb71082a08f",
+            "url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/AppRoute-FKjE7l3d.js"
+          }
+        ]
+      },
+      "endpoints": [
+        {
+          "location": {
+            "column": 39473,
+            "line": 30,
+            "script_key": "scr_c5f98646ccdb9ed5e474880341c160e70b21dafad1852ea30b8839b95d5c64bb"
+          },
+          "mechanism": "call:fetch",
+          "value": "/api/analytics/collect"
+        }
+      ],
+      "routes": [],
+      "source_maps": {
+        "items": [],
+        "processed": 0,
+        "requested": 0,
+        "status": "unavailable"
+      },
+      "webmcp_declarations": []
+    },
+    "unknowns": [
+      {
+        "affected_script_keys": [],
+        "dimension": "source_maps",
+        "reason": "One or more requested source maps were unavailable or incomplete"
+      }
+    ]
+  },
+  "operation": "analyze_web_bundle",
+  "parameters": {
+    "allowed_origins": [
+      "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com",
+      "https://shijiao.xingpaste.com"
+    ],
+    "cdp_endpoint": "http://127.0.0.1:9223",
+    "fetch_source_maps": true,
+    "include_accessibility_text": false,
+    "include_console_text": false,
+    "include_json_body_shapes": false,
+    "include_script_sources": true,
+    "include_storage_fingerprints": false,
+    "include_storage_keys": false,
+    "include_websocket_shapes": false,
+    "observation_ms": 500,
+    "target_id": "0D4865336BD7F91EE10382E713043121"
+  },
+  "predicate_type": "rea.web-bundle-analysis",
+  "provider": {
+    "id": "rea-cdp-browser",
+    "name": "REA Chrome DevTools Protocol observation provider",
+    "version": "2"
+  },
+  "raw_result": null,
+  "relationship_coverage": null,
+  "subject": null
+}

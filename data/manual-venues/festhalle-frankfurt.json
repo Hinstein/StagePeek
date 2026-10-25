@@ -1,0 +1,449 @@
+{
+  "id": "festhalle-frankfurt",
+  "name": "法兰克福 Festhalle",
+  "city": "德国 · 法兰克福",
+  "capacity": "原站目录未提供统一容量字段",
+  "source": "https://festhalle.messefrankfurt.com/frankfurt/en/event-calendar/itzy.html",
+  "sourceTitle": "REA 导出的公开场馆来源索引与参数化座位示意",
+  "sourceLinks": [
+    "https://festhalle.messefrankfurt.com/frankfurt/en/event-calendar/itzy.html",
+    "https://festhalle.messefrankfurt.com/content/dam/messefrankfurt-redaktion/locations/festhalle-events/fh-003a-02.pdf"
+  ],
+  "accuracy": {
+    "sectionLabels": "source-layout-reference",
+    "completeSeatInventory": false,
+    "metricCalibrated": false,
+    "stage": "generic",
+    "position": "estimated",
+    "geometryBasis": "source-informed-parametric:plan",
+    "catalogStatus": "source-geometry-and-sections",
+    "seatDataStatus": "section-only",
+    "sourceLayout": "end",
+    "coverage": "22 个来源分区；0 条座位采样。区号来自公开布局参考。",
+    "reuse": "来源页面可公开访问；未建立商业图形、模型或座位数据库再分发许可，发布前需逐源复核。",
+    "sourceDate": "REA capture 2026-10-24",
+    "sourceInventory": {
+      "venueReferenceUrl": "https://festhalle.messefrankfurt.com/frankfurt/en/event-calendar/itzy.html",
+      "mapReferenceUrl": "https://festhalle.messefrankfurt.com/content/dam/messefrankfurt-redaktion/locations/festhalle-events/fh-003a-02.pdf",
+      "sectionSource": "https://festhalle.messefrankfurt.com/content/dam/messefrankfurt-redaktion/locations/festhalle-events/fh-003a-02.pdf",
+      "geometryEvidenceLabel": "plan",
+      "note": "Missing asset URL does not establish absence of generated seat geometry."
+    },
+    "seatAsset": null
+  },
+  "tiers": [
+    [
+      31,
+      41,
+      8,
+      9,
+      5
+    ],
+    [
+      35,
+      45,
+      17,
+      9,
+      6
+    ]
+  ],
+  "geometry": {
+    "shape": "oval",
+    "coordinateSystem": "profile-inner-radius",
+    "power": 1,
+    "oneSided": false,
+    "floor": [
+      58,
+      78
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "1.Rang 看台",
+        "steps": 12
+      },
+      {
+        "id": "middle",
+        "name": "2.Rang 看台",
+        "steps": 12
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "r1-A",
+      "ticketLabels": [
+        "r1-A"
+      ],
+      "sourceLabel": "1.Rang · A 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.0471975511965976,
+      "halfAngle": 0.2181661564992912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://festhalle.messefrankfurt.com/content/dam/messefrankfurt-redaktion/locations/festhalle-events/fh-003a-02.pdf"
+      }
+    },
+    {
+      "id": "r1-B",
+      "ticketLabels": [
+        "r1-B"
+      ],
+      "sourceLabel": "1.Rang · B 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.5235987755982988,
+      "halfAngle": 0.2181661564992912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://festhalle.messefrankfurt.com/content/dam/messefrankfurt-redaktion/locations/festhalle-events/fh-003a-02.pdf"
+      }
+    },
+    {
+      "id": "r1-C",
+      "ticketLabels": [
+        "r1-C"
+      ],
+      "sourceLabel": "1.Rang · C 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.2181661564992912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://festhalle.messefrankfurt.com/content/dam/messefrankfurt-redaktion/locations/festhalle-events/fh-003a-02.pdf"
+      }
+    },
+    {
+      "id": "r1-D",
+      "ticketLabels": [
+        "r1-D"
+      ],
+      "sourceLabel": "1.Rang · D 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.5235987755982988,
+      "halfAngle": 0.2181661564992912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://festhalle.messefrankfurt.com/content/dam/messefrankfurt-redaktion/locations/festhalle-events/fh-003a-02.pdf"
+      }
+    },
+    {
+      "id": "r1-E",
+      "ticketLabels": [
+        "r1-E"
+      ],
+      "sourceLabel": "1.Rang · E 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.0471975511965976,
+      "halfAngle": 0.2181661564992912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://festhalle.messefrankfurt.com/content/dam/messefrankfurt-redaktion/locations/festhalle-events/fh-003a-02.pdf"
+      }
+    },
+    {
+      "id": "r1-F",
+      "ticketLabels": [
+        "r1-F"
+      ],
+      "sourceLabel": "1.Rang · F 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.5707963267948966,
+      "halfAngle": 0.2181661564992912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://festhalle.messefrankfurt.com/content/dam/messefrankfurt-redaktion/locations/festhalle-events/fh-003a-02.pdf"
+      }
+    },
+    {
+      "id": "r1-G",
+      "ticketLabels": [
+        "r1-G"
+      ],
+      "sourceLabel": "1.Rang · G 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.0943951023931953,
+      "halfAngle": 0.2181661564992912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://festhalle.messefrankfurt.com/content/dam/messefrankfurt-redaktion/locations/festhalle-events/fh-003a-02.pdf"
+      }
+    },
+    {
+      "id": "r1-H",
+      "ticketLabels": [
+        "r1-H"
+      ],
+      "sourceLabel": "1.Rang · H 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.6179938779914944,
+      "halfAngle": 0.2181661564992912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://festhalle.messefrankfurt.com/content/dam/messefrankfurt-redaktion/locations/festhalle-events/fh-003a-02.pdf"
+      }
+    },
+    {
+      "id": "r1-J",
+      "ticketLabels": [
+        "r1-J"
+      ],
+      "sourceLabel": "1.Rang · J 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.2181661564992912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://festhalle.messefrankfurt.com/content/dam/messefrankfurt-redaktion/locations/festhalle-events/fh-003a-02.pdf"
+      }
+    },
+    {
+      "id": "r1-K",
+      "ticketLabels": [
+        "r1-K"
+      ],
+      "sourceLabel": "1.Rang · K 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.6179938779914944,
+      "halfAngle": 0.2181661564992912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://festhalle.messefrankfurt.com/content/dam/messefrankfurt-redaktion/locations/festhalle-events/fh-003a-02.pdf"
+      }
+    },
+    {
+      "id": "r1-L",
+      "ticketLabels": [
+        "r1-L"
+      ],
+      "sourceLabel": "1.Rang · L 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.0943951023931953,
+      "halfAngle": 0.2181661564992912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://festhalle.messefrankfurt.com/content/dam/messefrankfurt-redaktion/locations/festhalle-events/fh-003a-02.pdf"
+      }
+    },
+    {
+      "id": "r2-A",
+      "ticketLabels": [
+        "r2-A"
+      ],
+      "sourceLabel": "2.Rang · A 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.0471975511965976,
+      "halfAngle": 0.2181661564992912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://festhalle.messefrankfurt.com/content/dam/messefrankfurt-redaktion/locations/festhalle-events/fh-003a-02.pdf"
+      }
+    },
+    {
+      "id": "r2-B",
+      "ticketLabels": [
+        "r2-B"
+      ],
+      "sourceLabel": "2.Rang · B 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.5235987755982988,
+      "halfAngle": 0.2181661564992912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://festhalle.messefrankfurt.com/content/dam/messefrankfurt-redaktion/locations/festhalle-events/fh-003a-02.pdf"
+      }
+    },
+    {
+      "id": "r2-C",
+      "ticketLabels": [
+        "r2-C"
+      ],
+      "sourceLabel": "2.Rang · C 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0,
+      "halfAngle": 0.2181661564992912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://festhalle.messefrankfurt.com/content/dam/messefrankfurt-redaktion/locations/festhalle-events/fh-003a-02.pdf"
+      }
+    },
+    {
+      "id": "r2-D",
+      "ticketLabels": [
+        "r2-D"
+      ],
+      "sourceLabel": "2.Rang · D 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.5235987755982988,
+      "halfAngle": 0.2181661564992912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://festhalle.messefrankfurt.com/content/dam/messefrankfurt-redaktion/locations/festhalle-events/fh-003a-02.pdf"
+      }
+    },
+    {
+      "id": "r2-E",
+      "ticketLabels": [
+        "r2-E"
+      ],
+      "sourceLabel": "2.Rang · E 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.0471975511965976,
+      "halfAngle": 0.2181661564992912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://festhalle.messefrankfurt.com/content/dam/messefrankfurt-redaktion/locations/festhalle-events/fh-003a-02.pdf"
+      }
+    },
+    {
+      "id": "r2-F",
+      "ticketLabels": [
+        "r2-F"
+      ],
+      "sourceLabel": "2.Rang · F 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.5707963267948966,
+      "halfAngle": 0.2181661564992912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://festhalle.messefrankfurt.com/content/dam/messefrankfurt-redaktion/locations/festhalle-events/fh-003a-02.pdf"
+      }
+    },
+    {
+      "id": "r2-G",
+      "ticketLabels": [
+        "r2-G"
+      ],
+      "sourceLabel": "2.Rang · G 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.0943951023931953,
+      "halfAngle": 0.2181661564992912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://festhalle.messefrankfurt.com/content/dam/messefrankfurt-redaktion/locations/festhalle-events/fh-003a-02.pdf"
+      }
+    },
+    {
+      "id": "r2-H",
+      "ticketLabels": [
+        "r2-H"
+      ],
+      "sourceLabel": "2.Rang · H 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.6179938779914944,
+      "halfAngle": 0.2181661564992912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://festhalle.messefrankfurt.com/content/dam/messefrankfurt-redaktion/locations/festhalle-events/fh-003a-02.pdf"
+      }
+    },
+    {
+      "id": "r2-J",
+      "ticketLabels": [
+        "r2-J"
+      ],
+      "sourceLabel": "2.Rang · J 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.2181661564992912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://festhalle.messefrankfurt.com/content/dam/messefrankfurt-redaktion/locations/festhalle-events/fh-003a-02.pdf"
+      }
+    },
+    {
+      "id": "r2-K",
+      "ticketLabels": [
+        "r2-K"
+      ],
+      "sourceLabel": "2.Rang · K 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.6179938779914944,
+      "halfAngle": 0.2181661564992912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://festhalle.messefrankfurt.com/content/dam/messefrankfurt-redaktion/locations/festhalle-events/fh-003a-02.pdf"
+      }
+    },
+    {
+      "id": "r2-L",
+      "ticketLabels": [
+        "r2-L"
+      ],
+      "sourceLabel": "2.Rang · L 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.0943951023931953,
+      "halfAngle": 0.2181661564992912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://festhalle.messefrankfurt.com/content/dam/messefrankfurt-redaktion/locations/festhalle-events/fh-003a-02.pdf"
+      }
+    }
+  ],
+  "importedAt": "2026-10-24T00:00:00.000Z"
+}

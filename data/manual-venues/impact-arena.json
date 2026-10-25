@@ -1,0 +1,653 @@
+{
+  "id": "impact-arena",
+  "name": "IMPACT Arena",
+  "city": "泰国 · 曼谷",
+  "capacity": "原站目录未提供统一容量字段",
+  "source": "https://www.impact.co.th/en/organizers/venues/impact-arena",
+  "sourceTitle": "REA 导出的公开场馆来源索引与参数化座位示意",
+  "sourceLinks": [
+    "https://www.impact.co.th/en/organizers/venues/impact-arena",
+    "https://www.impact.co.th/images/organizers/venues/impact-arena/document/impact-arena-facility-guide-2025-08-27.pdf"
+  ],
+  "accuracy": {
+    "sectionLabels": "source-layout-reference",
+    "completeSeatInventory": false,
+    "metricCalibrated": false,
+    "stage": "generic",
+    "position": "estimated",
+    "geometryBasis": "source-informed-parametric:dimension",
+    "catalogStatus": "source-geometry-and-sections",
+    "seatDataStatus": "section-only",
+    "sourceLayout": "center",
+    "coverage": "34 个来源分区；0 条座位采样。区号来自公开布局参考。",
+    "reuse": "来源页面可公开访问；未建立商业图形、模型或座位数据库再分发许可，发布前需逐源复核。",
+    "sourceDate": "REA capture 2026-10-24",
+    "sourceInventory": {
+      "venueReferenceUrl": "https://www.impact.co.th/en/organizers/venues/impact-arena",
+      "mapReferenceUrl": "https://www.impact.co.th/en/organizers/venues/impact-arena",
+      "sectionSource": "https://www.impact.co.th/images/organizers/venues/impact-arena/document/impact-arena-facility-guide-2025-08-27.pdf",
+      "geometryEvidenceLabel": "dimension",
+      "note": "Missing asset URL does not establish absence of generated seat geometry."
+    },
+    "seatAsset": null
+  },
+  "tiers": [
+    [
+      24.7,
+      37.7,
+      2,
+      14,
+      7
+    ],
+    [
+      33.7,
+      46.7,
+      11,
+      14,
+      8
+    ]
+  ],
+  "geometry": {
+    "shape": "rounded",
+    "coordinateSystem": "profile-inner-radius",
+    "power": 0.48,
+    "oneSided": false,
+    "floor": [
+      45.4,
+      71.45
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "LEVEL 3",
+        "steps": 19
+      },
+      {
+        "id": "middle",
+        "name": "LEVEL 4–5",
+        "steps": 20
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "SB",
+      "ticketLabels": [
+        "SB"
+      ],
+      "sourceLabel": "SB 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.2217304763960306,
+      "halfAngle": 0.1407869841121226,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.impact.co.th/images/organizers/venues/impact-arena/document/impact-arena-facility-guide-2025-08-27.pdf"
+      }
+    },
+    {
+      "id": "SC",
+      "ticketLabels": [
+        "SC"
+      ],
+      "sourceLabel": "SC 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.541701688164151,
+      "halfAngle": 0.1407869841121226,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.impact.co.th/images/organizers/venues/impact-arena/document/impact-arena-facility-guide-2025-08-27.pdf"
+      }
+    },
+    {
+      "id": "SD",
+      "ticketLabels": [
+        "SD"
+      ],
+      "sourceLabel": "SD 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.8616903532247915,
+      "halfAngle": 0.1407869841121226,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.impact.co.th/images/organizers/venues/impact-arena/document/impact-arena-facility-guide-2025-08-27.pdf"
+      }
+    },
+    {
+      "id": "SE",
+      "ticketLabels": [
+        "SE"
+      ],
+      "sourceLabel": "SE 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.1816615649929116,
+      "halfAngle": 0.1407869841121226,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.impact.co.th/images/organizers/venues/impact-arena/document/impact-arena-facility-guide-2025-08-27.pdf"
+      }
+    },
+    {
+      "id": "SF",
+      "ticketLabels": [
+        "SF"
+      ],
+      "sourceLabel": "SF 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.5016327767610322,
+      "halfAngle": 0.1407869841121226,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.impact.co.th/images/organizers/venues/impact-arena/document/impact-arena-facility-guide-2025-08-27.pdf"
+      }
+    },
+    {
+      "id": "SG",
+      "ticketLabels": [
+        "SG"
+      ],
+      "sourceLabel": "SG 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.8216214418216725,
+      "halfAngle": 0.1407869841121226,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.impact.co.th/images/organizers/venues/impact-arena/document/impact-arena-facility-guide-2025-08-27.pdf"
+      }
+    },
+    {
+      "id": "SH",
+      "ticketLabels": [
+        "SH"
+      ],
+      "sourceLabel": "SH 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.1407869841121226,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.impact.co.th/images/organizers/venues/impact-arena/document/impact-arena-facility-guide-2025-08-27.pdf"
+      }
+    },
+    {
+      "id": "SI",
+      "ticketLabels": [
+        "SI"
+      ],
+      "sourceLabel": "SI 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.4615638653579133,
+      "halfAngle": 0.1407869841121226,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.impact.co.th/images/organizers/venues/impact-arena/document/impact-arena-facility-guide-2025-08-27.pdf"
+      }
+    },
+    {
+      "id": "SJ",
+      "ticketLabels": [
+        "SJ"
+      ],
+      "sourceLabel": "SJ 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.781552530418554,
+      "halfAngle": 0.1407869841121226,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.impact.co.th/images/organizers/venues/impact-arena/document/impact-arena-facility-guide-2025-08-27.pdf"
+      }
+    },
+    {
+      "id": "SK",
+      "ticketLabels": [
+        "SK"
+      ],
+      "sourceLabel": "SK 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 4.101523742186674,
+      "halfAngle": 0.1407869841121226,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.impact.co.th/images/organizers/venues/impact-arena/document/impact-arena-facility-guide-2025-08-27.pdf"
+      }
+    },
+    {
+      "id": "SL",
+      "ticketLabels": [
+        "SL"
+      ],
+      "sourceLabel": "SL 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 4.421494953954794,
+      "halfAngle": 0.1407869841121226,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.impact.co.th/images/organizers/venues/impact-arena/document/impact-arena-facility-guide-2025-08-27.pdf"
+      }
+    },
+    {
+      "id": "SM",
+      "ticketLabels": [
+        "SM"
+      ],
+      "sourceLabel": "SM 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 4.741483619015435,
+      "halfAngle": 0.1407869841121226,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.impact.co.th/images/organizers/venues/impact-arena/document/impact-arena-facility-guide-2025-08-27.pdf"
+      }
+    },
+    {
+      "id": "SN",
+      "ticketLabels": [
+        "SN"
+      ],
+      "sourceLabel": "SN 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 5.061454830783555,
+      "halfAngle": 0.1407869841121226,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.impact.co.th/images/organizers/venues/impact-arena/document/impact-arena-facility-guide-2025-08-27.pdf"
+      }
+    },
+    {
+      "id": "A",
+      "ticketLabels": [
+        "A"
+      ],
+      "sourceLabel": "A 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.1344640137963142,
+      "halfAngle": 0.08831366015091306,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.impact.co.th/images/organizers/venues/impact-arena/document/impact-arena-facility-guide-2025-08-27.pdf"
+      }
+    },
+    {
+      "id": "B",
+      "ticketLabels": [
+        "B"
+      ],
+      "sourceLabel": "B 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.335176877775662,
+      "halfAngle": 0.08831366015091306,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.impact.co.th/images/organizers/venues/impact-arena/document/impact-arena-facility-guide-2025-08-27.pdf"
+      }
+    },
+    {
+      "id": "C",
+      "ticketLabels": [
+        "C"
+      ],
+      "sourceLabel": "C 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.53588974175501,
+      "halfAngle": 0.08831366015091306,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.impact.co.th/images/organizers/venues/impact-arena/document/impact-arena-facility-guide-2025-08-27.pdf"
+      }
+    },
+    {
+      "id": "D",
+      "ticketLabels": [
+        "D"
+      ],
+      "sourceLabel": "D 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.736602605734358,
+      "halfAngle": 0.08831366015091306,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.impact.co.th/images/organizers/venues/impact-arena/document/impact-arena-facility-guide-2025-08-27.pdf"
+      }
+    },
+    {
+      "id": "E",
+      "ticketLabels": [
+        "E"
+      ],
+      "sourceLabel": "E 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.9373154697137058,
+      "halfAngle": 0.08831366015091306,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.impact.co.th/images/organizers/venues/impact-arena/document/impact-arena-facility-guide-2025-08-27.pdf"
+      }
+    },
+    {
+      "id": "F",
+      "ticketLabels": [
+        "F"
+      ],
+      "sourceLabel": "F 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.1380283336930535,
+      "halfAngle": 0.08831366015091306,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.impact.co.th/images/organizers/venues/impact-arena/document/impact-arena-facility-guide-2025-08-27.pdf"
+      }
+    },
+    {
+      "id": "G",
+      "ticketLabels": [
+        "G"
+      ],
+      "sourceLabel": "G 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.3387411976724013,
+      "halfAngle": 0.08831366015091306,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.impact.co.th/images/organizers/venues/impact-arena/document/impact-arena-facility-guide-2025-08-27.pdf"
+      }
+    },
+    {
+      "id": "H",
+      "ticketLabels": [
+        "H"
+      ],
+      "sourceLabel": "H 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.539454061651749,
+      "halfAngle": 0.08831366015091306,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.impact.co.th/images/organizers/venues/impact-arena/document/impact-arena-facility-guide-2025-08-27.pdf"
+      }
+    },
+    {
+      "id": "I",
+      "ticketLabels": [
+        "I"
+      ],
+      "sourceLabel": "I 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.740166925631097,
+      "halfAngle": 0.08831366015091306,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.impact.co.th/images/organizers/venues/impact-arena/document/impact-arena-facility-guide-2025-08-27.pdf"
+      }
+    },
+    {
+      "id": "J",
+      "ticketLabels": [
+        "J"
+      ],
+      "sourceLabel": "J 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.940879789610445,
+      "halfAngle": 0.08831366015091306,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.impact.co.th/images/organizers/venues/impact-arena/document/impact-arena-facility-guide-2025-08-27.pdf"
+      }
+    },
+    {
+      "id": "K",
+      "ticketLabels": [
+        "K"
+      ],
+      "sourceLabel": "K 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.08831366015091306,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.impact.co.th/images/organizers/venues/impact-arena/document/impact-arena-facility-guide-2025-08-27.pdf"
+      }
+    },
+    {
+      "id": "L",
+      "ticketLabels": [
+        "L"
+      ],
+      "sourceLabel": "L 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.3423055175691405,
+      "halfAngle": 0.08831366015091306,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.impact.co.th/images/organizers/venues/impact-arena/document/impact-arena-facility-guide-2025-08-27.pdf"
+      }
+    },
+    {
+      "id": "M",
+      "ticketLabels": [
+        "M"
+      ],
+      "sourceLabel": "M 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.543018381548489,
+      "halfAngle": 0.08831366015091306,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.impact.co.th/images/organizers/venues/impact-arena/document/impact-arena-facility-guide-2025-08-27.pdf"
+      }
+    },
+    {
+      "id": "N",
+      "ticketLabels": [
+        "N"
+      ],
+      "sourceLabel": "N 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.743731245527837,
+      "halfAngle": 0.08831366015091306,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.impact.co.th/images/organizers/venues/impact-arena/document/impact-arena-facility-guide-2025-08-27.pdf"
+      }
+    },
+    {
+      "id": "O",
+      "ticketLabels": [
+        "O"
+      ],
+      "sourceLabel": "O 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.9444441095071845,
+      "halfAngle": 0.08831366015091306,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.impact.co.th/images/organizers/venues/impact-arena/document/impact-arena-facility-guide-2025-08-27.pdf"
+      }
+    },
+    {
+      "id": "P",
+      "ticketLabels": [
+        "P"
+      ],
+      "sourceLabel": "P 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 4.145156973486532,
+      "halfAngle": 0.08831366015091306,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.impact.co.th/images/organizers/venues/impact-arena/document/impact-arena-facility-guide-2025-08-27.pdf"
+      }
+    },
+    {
+      "id": "Q",
+      "ticketLabels": [
+        "Q"
+      ],
+      "sourceLabel": "Q 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 4.34586983746588,
+      "halfAngle": 0.08831366015091306,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.impact.co.th/images/organizers/venues/impact-arena/document/impact-arena-facility-guide-2025-08-27.pdf"
+      }
+    },
+    {
+      "id": "R",
+      "ticketLabels": [
+        "R"
+      ],
+      "sourceLabel": "R 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 4.546582701445228,
+      "halfAngle": 0.08831366015091306,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.impact.co.th/images/organizers/venues/impact-arena/document/impact-arena-facility-guide-2025-08-27.pdf"
+      }
+    },
+    {
+      "id": "S",
+      "ticketLabels": [
+        "S"
+      ],
+      "sourceLabel": "S 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 4.747295565424577,
+      "halfAngle": 0.08831366015091306,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.impact.co.th/images/organizers/venues/impact-arena/document/impact-arena-facility-guide-2025-08-27.pdf"
+      }
+    },
+    {
+      "id": "T",
+      "ticketLabels": [
+        "T"
+      ],
+      "sourceLabel": "T 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 4.948008429403924,
+      "halfAngle": 0.08831366015091306,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.impact.co.th/images/organizers/venues/impact-arena/document/impact-arena-facility-guide-2025-08-27.pdf"
+      }
+    },
+    {
+      "id": "U",
+      "ticketLabels": [
+        "U"
+      ],
+      "sourceLabel": "U 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 5.1487212933832724,
+      "halfAngle": 0.08831366015091306,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.impact.co.th/images/organizers/venues/impact-arena/document/impact-arena-facility-guide-2025-08-27.pdf"
+      }
+    }
+  ],
+  "importedAt": "2026-10-24T00:00:00.000Z"
+}

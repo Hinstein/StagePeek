@@ -1,0 +1,823 @@
+{
+  "id": "incheon-asiad",
+  "name": "仁川亚运会主体育场",
+  "city": "韩国 · 仁川",
+  "capacity": "原站目录未提供统一容量字段",
+  "source": "https://www.incheon.go.kr/health/HE050211",
+  "sourceTitle": "REA 导出的公开场馆来源索引与参数化座位示意",
+  "sourceLinks": [
+    "https://www.incheon.go.kr/health/HE050211",
+    "https://tkfile.yes24.com/Upload2/Board/202509/20250909/MAP.jpg"
+  ],
+  "accuracy": {
+    "sectionLabels": "source-layout-reference",
+    "completeSeatInventory": false,
+    "metricCalibrated": false,
+    "stage": "generic",
+    "position": "estimated",
+    "geometryBasis": "source-informed-parametric:structure",
+    "catalogStatus": "source-geometry-and-sections",
+    "seatDataStatus": "section-only",
+    "sourceLayout": "end",
+    "coverage": "44 个来源分区；0 条座位采样。区号来自公开布局参考。",
+    "reuse": "来源页面可公开访问；未建立商业图形、模型或座位数据库再分发许可，发布前需逐源复核。",
+    "sourceDate": "REA capture 2026-10-24",
+    "sourceInventory": {
+      "venueReferenceUrl": "https://www.incheon.go.kr/health/HE050211",
+      "mapReferenceUrl": "https://tkfile.yes24.com/Upload2/Board/202509/20250909/MAP.jpg",
+      "sectionSource": "https://tkfile.yes24.com/Upload2/Board/202509/20250909/MAP.jpg",
+      "geometryEvidenceLabel": "structure",
+      "note": "Missing asset URL does not establish absence of generated seat geometry."
+    },
+    "seatAsset": null
+  },
+  "tiers": [
+    [
+      66,
+      96,
+      1,
+      23,
+      11
+    ],
+    [
+      85,
+      115,
+      23,
+      17,
+      12
+    ]
+  ],
+  "geometry": {
+    "shape": "oval",
+    "coordinateSystem": "profile-inner-radius",
+    "power": 1,
+    "oneSided": false,
+    "floor": [
+      130,
+      190
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "2F 看台",
+        "steps": 28
+      },
+      {
+        "id": "middle",
+        "name": "5F 西侧上层",
+        "steps": 22
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "N1",
+      "ticketLabels": [
+        "N1"
+      ],
+      "sourceLabel": "N1 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.443460952792061,
+      "halfAngle": 0.07853981633974483,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://tkfile.yes24.com/Upload2/Board/202509/20250909/MAP.jpg"
+      }
+    },
+    {
+      "id": "N2",
+      "ticketLabels": [
+        "N2"
+      ],
+      "sourceLabel": "N2 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.2689280275926285,
+      "halfAngle": 0.07853981633974483,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://tkfile.yes24.com/Upload2/Board/202509/20250909/MAP.jpg"
+      }
+    },
+    {
+      "id": "N3",
+      "ticketLabels": [
+        "N3"
+      ],
+      "sourceLabel": "N3 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.0943951023931953,
+      "halfAngle": 0.07853981633974483,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://tkfile.yes24.com/Upload2/Board/202509/20250909/MAP.jpg"
+      }
+    },
+    {
+      "id": "N4",
+      "ticketLabels": [
+        "N4"
+      ],
+      "sourceLabel": "N4 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.9198621771937625,
+      "halfAngle": 0.07853981633974483,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://tkfile.yes24.com/Upload2/Board/202509/20250909/MAP.jpg"
+      }
+    },
+    {
+      "id": "N5",
+      "ticketLabels": [
+        "N5"
+      ],
+      "sourceLabel": "N5 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.7453292519943295,
+      "halfAngle": 0.07853981633974483,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://tkfile.yes24.com/Upload2/Board/202509/20250909/MAP.jpg"
+      }
+    },
+    {
+      "id": "N6",
+      "ticketLabels": [
+        "N6"
+      ],
+      "sourceLabel": "N6 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.5707963267948966,
+      "halfAngle": 0.07853981633974483,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://tkfile.yes24.com/Upload2/Board/202509/20250909/MAP.jpg"
+      }
+    },
+    {
+      "id": "N7",
+      "ticketLabels": [
+        "N7"
+      ],
+      "sourceLabel": "N7 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.3962634015954636,
+      "halfAngle": 0.07853981633974483,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://tkfile.yes24.com/Upload2/Board/202509/20250909/MAP.jpg"
+      }
+    },
+    {
+      "id": "N8",
+      "ticketLabels": [
+        "N8"
+      ],
+      "sourceLabel": "N8 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.2217304763960306,
+      "halfAngle": 0.07853981633974483,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://tkfile.yes24.com/Upload2/Board/202509/20250909/MAP.jpg"
+      }
+    },
+    {
+      "id": "S6",
+      "ticketLabels": [
+        "S6"
+      ],
+      "sourceLabel": "S6 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.2217304763960306,
+      "halfAngle": 0.07853981633974483,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://tkfile.yes24.com/Upload2/Board/202509/20250909/MAP.jpg"
+      }
+    },
+    {
+      "id": "S7",
+      "ticketLabels": [
+        "S7"
+      ],
+      "sourceLabel": "S7 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.3962634015954636,
+      "halfAngle": 0.07853981633974483,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://tkfile.yes24.com/Upload2/Board/202509/20250909/MAP.jpg"
+      }
+    },
+    {
+      "id": "S8",
+      "ticketLabels": [
+        "S8"
+      ],
+      "sourceLabel": "S8 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.5707963267948966,
+      "halfAngle": 0.07853981633974483,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://tkfile.yes24.com/Upload2/Board/202509/20250909/MAP.jpg"
+      }
+    },
+    {
+      "id": "S9",
+      "ticketLabels": [
+        "S9"
+      ],
+      "sourceLabel": "S9 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.7453292519943295,
+      "halfAngle": 0.07853981633974483,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://tkfile.yes24.com/Upload2/Board/202509/20250909/MAP.jpg"
+      }
+    },
+    {
+      "id": "S10",
+      "ticketLabels": [
+        "S10"
+      ],
+      "sourceLabel": "S10 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.9198621771937625,
+      "halfAngle": 0.07853981633974483,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://tkfile.yes24.com/Upload2/Board/202509/20250909/MAP.jpg"
+      }
+    },
+    {
+      "id": "S11",
+      "ticketLabels": [
+        "S11"
+      ],
+      "sourceLabel": "S11 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.0943951023931953,
+      "halfAngle": 0.07853981633974483,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://tkfile.yes24.com/Upload2/Board/202509/20250909/MAP.jpg"
+      }
+    },
+    {
+      "id": "S12",
+      "ticketLabels": [
+        "S12"
+      ],
+      "sourceLabel": "S12 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.2689280275926285,
+      "halfAngle": 0.07853981633974483,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://tkfile.yes24.com/Upload2/Board/202509/20250909/MAP.jpg"
+      }
+    },
+    {
+      "id": "S13",
+      "ticketLabels": [
+        "S13"
+      ],
+      "sourceLabel": "S13 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.443460952792061,
+      "halfAngle": 0.07853981633974483,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://tkfile.yes24.com/Upload2/Board/202509/20250909/MAP.jpg"
+      }
+    },
+    {
+      "id": "W1",
+      "ticketLabels": [
+        "W1"
+      ],
+      "sourceLabel": "W1 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.5307274153917776,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://tkfile.yes24.com/Upload2/Board/202509/20250909/MAP.jpg"
+      }
+    },
+    {
+      "id": "W2",
+      "ticketLabels": [
+        "W2"
+      ],
+      "sourceLabel": "W2 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.624706682806857,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://tkfile.yes24.com/Upload2/Board/202509/20250909/MAP.jpg"
+      }
+    },
+    {
+      "id": "W3",
+      "ticketLabels": [
+        "W3"
+      ],
+      "sourceLabel": "W3 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.7186859502219365,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://tkfile.yes24.com/Upload2/Board/202509/20250909/MAP.jpg"
+      }
+    },
+    {
+      "id": "W4",
+      "ticketLabels": [
+        "W4"
+      ],
+      "sourceLabel": "W4 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.812665217637016,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://tkfile.yes24.com/Upload2/Board/202509/20250909/MAP.jpg"
+      }
+    },
+    {
+      "id": "W5",
+      "ticketLabels": [
+        "W5"
+      ],
+      "sourceLabel": "W5 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.9066444850520954,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://tkfile.yes24.com/Upload2/Board/202509/20250909/MAP.jpg"
+      }
+    },
+    {
+      "id": "W6",
+      "ticketLabels": [
+        "W6"
+      ],
+      "sourceLabel": "W6 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -3.000623752467175,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://tkfile.yes24.com/Upload2/Board/202509/20250909/MAP.jpg"
+      }
+    },
+    {
+      "id": "W7",
+      "ticketLabels": [
+        "W7"
+      ],
+      "sourceLabel": "W7 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -3.0946030198822534,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://tkfile.yes24.com/Upload2/Board/202509/20250909/MAP.jpg"
+      }
+    },
+    {
+      "id": "W8",
+      "ticketLabels": [
+        "W8"
+      ],
+      "sourceLabel": "W8 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -3.1885822872973324,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://tkfile.yes24.com/Upload2/Board/202509/20250909/MAP.jpg"
+      }
+    },
+    {
+      "id": "W9",
+      "ticketLabels": [
+        "W9"
+      ],
+      "sourceLabel": "W9 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -3.2825615547124123,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://tkfile.yes24.com/Upload2/Board/202509/20250909/MAP.jpg"
+      }
+    },
+    {
+      "id": "W10",
+      "ticketLabels": [
+        "W10"
+      ],
+      "sourceLabel": "W10 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -3.3765408221274913,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://tkfile.yes24.com/Upload2/Board/202509/20250909/MAP.jpg"
+      }
+    },
+    {
+      "id": "W11",
+      "ticketLabels": [
+        "W11"
+      ],
+      "sourceLabel": "W11 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -3.4705200895425707,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://tkfile.yes24.com/Upload2/Board/202509/20250909/MAP.jpg"
+      }
+    },
+    {
+      "id": "W12",
+      "ticketLabels": [
+        "W12"
+      ],
+      "sourceLabel": "W12 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -3.56449935695765,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://tkfile.yes24.com/Upload2/Board/202509/20250909/MAP.jpg"
+      }
+    },
+    {
+      "id": "W13",
+      "ticketLabels": [
+        "W13"
+      ],
+      "sourceLabel": "W13 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -3.6584786243727287,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://tkfile.yes24.com/Upload2/Board/202509/20250909/MAP.jpg"
+      }
+    },
+    {
+      "id": "W14",
+      "ticketLabels": [
+        "W14"
+      ],
+      "sourceLabel": "W14 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -3.752457891787808,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://tkfile.yes24.com/Upload2/Board/202509/20250909/MAP.jpg"
+      }
+    },
+    {
+      "id": "W55",
+      "ticketLabels": [
+        "W55"
+      ],
+      "sourceLabel": "W55 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.5307274153917776,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://tkfile.yes24.com/Upload2/Board/202509/20250909/MAP.jpg"
+      }
+    },
+    {
+      "id": "W56",
+      "ticketLabels": [
+        "W56"
+      ],
+      "sourceLabel": "W56 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.624706682806857,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://tkfile.yes24.com/Upload2/Board/202509/20250909/MAP.jpg"
+      }
+    },
+    {
+      "id": "W57",
+      "ticketLabels": [
+        "W57"
+      ],
+      "sourceLabel": "W57 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.7186859502219365,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://tkfile.yes24.com/Upload2/Board/202509/20250909/MAP.jpg"
+      }
+    },
+    {
+      "id": "W58",
+      "ticketLabels": [
+        "W58"
+      ],
+      "sourceLabel": "W58 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.812665217637016,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://tkfile.yes24.com/Upload2/Board/202509/20250909/MAP.jpg"
+      }
+    },
+    {
+      "id": "W59",
+      "ticketLabels": [
+        "W59"
+      ],
+      "sourceLabel": "W59 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.9066444850520954,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://tkfile.yes24.com/Upload2/Board/202509/20250909/MAP.jpg"
+      }
+    },
+    {
+      "id": "W60",
+      "ticketLabels": [
+        "W60"
+      ],
+      "sourceLabel": "W60 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -3.000623752467175,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://tkfile.yes24.com/Upload2/Board/202509/20250909/MAP.jpg"
+      }
+    },
+    {
+      "id": "W61",
+      "ticketLabels": [
+        "W61"
+      ],
+      "sourceLabel": "W61 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -3.0946030198822534,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://tkfile.yes24.com/Upload2/Board/202509/20250909/MAP.jpg"
+      }
+    },
+    {
+      "id": "W62",
+      "ticketLabels": [
+        "W62"
+      ],
+      "sourceLabel": "W62 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -3.1885822872973324,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://tkfile.yes24.com/Upload2/Board/202509/20250909/MAP.jpg"
+      }
+    },
+    {
+      "id": "W63",
+      "ticketLabels": [
+        "W63"
+      ],
+      "sourceLabel": "W63 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -3.2825615547124123,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://tkfile.yes24.com/Upload2/Board/202509/20250909/MAP.jpg"
+      }
+    },
+    {
+      "id": "W64",
+      "ticketLabels": [
+        "W64"
+      ],
+      "sourceLabel": "W64 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -3.3765408221274913,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://tkfile.yes24.com/Upload2/Board/202509/20250909/MAP.jpg"
+      }
+    },
+    {
+      "id": "W65",
+      "ticketLabels": [
+        "W65"
+      ],
+      "sourceLabel": "W65 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -3.4705200895425707,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://tkfile.yes24.com/Upload2/Board/202509/20250909/MAP.jpg"
+      }
+    },
+    {
+      "id": "W66",
+      "ticketLabels": [
+        "W66"
+      ],
+      "sourceLabel": "W66 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -3.56449935695765,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://tkfile.yes24.com/Upload2/Board/202509/20250909/MAP.jpg"
+      }
+    },
+    {
+      "id": "W67",
+      "ticketLabels": [
+        "W67"
+      ],
+      "sourceLabel": "W67 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -3.6584786243727287,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://tkfile.yes24.com/Upload2/Board/202509/20250909/MAP.jpg"
+      }
+    },
+    {
+      "id": "W68",
+      "ticketLabels": [
+        "W68"
+      ],
+      "sourceLabel": "W68 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -3.752457891787808,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://tkfile.yes24.com/Upload2/Board/202509/20250909/MAP.jpg"
+      }
+    }
+  ],
+  "importedAt": "2026-10-24T00:00:00.000Z"
+}

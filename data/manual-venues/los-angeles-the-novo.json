@@ -1,0 +1,211 @@
+{
+  "id": "los-angeles-the-novo",
+  "name": "洛杉矶 The Novo",
+  "city": "美国 · 洛杉矶",
+  "capacity": "原站目录未提供统一容量字段",
+  "source": "https://www.xiaohongshu.com/explore/69b93185000000002300517f",
+  "sourceTitle": "REA 导出的公开场馆来源索引与参数化座位示意",
+  "sourceLinks": [
+    "https://www.xiaohongshu.com/explore/69b93185000000002300517f",
+    "https://www.thenovodtla.com/special-events/"
+  ],
+  "accuracy": {
+    "sectionLabels": "source-layout-reference",
+    "completeSeatInventory": false,
+    "metricCalibrated": false,
+    "stage": "generic",
+    "position": "estimated",
+    "geometryBasis": "source-informed-parametric:reference",
+    "catalogStatus": "source-geometry-and-sections",
+    "seatDataStatus": "section-only",
+    "sourceLayout": "end",
+    "coverage": "7 个来源分区；0 条座位采样。区号来自公开布局参考。",
+    "reuse": "来源页面可公开访问；未建立商业图形、模型或座位数据库再分发许可，发布前需逐源复核。",
+    "sourceDate": "REA capture 2026-10-24",
+    "sourceInventory": {
+      "venueReferenceUrl": "https://www.xiaohongshu.com/explore/69b93185000000002300517f",
+      "mapReferenceUrl": "https://www.xiaohongshu.com/explore/69b93185000000002300517f",
+      "sectionSource": "https://www.xiaohongshu.com/explore/69b93185000000002300517f",
+      "geometryEvidenceLabel": "reference",
+      "note": "Missing asset URL does not establish absence of generated seat geometry."
+    },
+    "seatAsset": null
+  },
+  "tiers": [
+    [
+      14,
+      12,
+      5,
+      8,
+      5
+    ],
+    [
+      1,
+      1,
+      0,
+      1,
+      0
+    ]
+  ],
+  "geometry": {
+    "shape": "rectangle",
+    "coordinateSystem": "profile-inner-radius",
+    "power": 0.2,
+    "oneSided": false,
+    "floor": [
+      28,
+      40
+    ],
+    "rectangularFloor": true,
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "后部楼座",
+        "steps": 12
+      },
+      {
+        "id": "floor",
+        "name": "内场",
+        "steps": 12
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "base-lower-1",
+      "ticketLabels": [
+        "base-lower-1"
+      ],
+      "sourceLabel": "后部楼座 · 方位1（示意）",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.2689280275926285,
+      "halfAngle": 0.20071286397934787,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.xiaohongshu.com/explore/69b93185000000002300517f"
+      }
+    },
+    {
+      "id": "base-lower-2",
+      "ticketLabels": [
+        "base-lower-2"
+      ],
+      "sourceLabel": "后部楼座 · 方位2（示意）",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.6179938779914944,
+      "halfAngle": 0.20071286397934787,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.xiaohongshu.com/explore/69b93185000000002300517f"
+      }
+    },
+    {
+      "id": "base-lower-3",
+      "ticketLabels": [
+        "base-lower-3"
+      ],
+      "sourceLabel": "后部楼座 · 方位3（示意）",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.20071286397934787,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.xiaohongshu.com/explore/69b93185000000002300517f"
+      }
+    },
+    {
+      "id": "base-lower-4",
+      "ticketLabels": [
+        "base-lower-4"
+      ],
+      "sourceLabel": "后部楼座 · 方位4（示意）",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.6651914291880923,
+      "halfAngle": 0.20071286397934787,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.xiaohongshu.com/explore/69b93185000000002300517f"
+      }
+    },
+    {
+      "id": "base-lower-5",
+      "ticketLabels": [
+        "base-lower-5"
+      ],
+      "sourceLabel": "后部楼座 · 方位5（示意）",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 4.014257279586958,
+      "halfAngle": 0.20071286397934787,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.xiaohongshu.com/explore/69b93185000000002300517f"
+      }
+    },
+    {
+      "id": "base-floor-front",
+      "ticketLabels": [
+        "base-floor-front"
+      ],
+      "sourceLabel": "前部平地（示意）",
+      "levelName": "Level 2",
+      "tier": 1,
+      "block": {
+        "x": 0,
+        "z": 5,
+        "width": 24,
+        "depth": 10,
+        "base": 0,
+        "facing": -1
+      },
+      "angle": 0,
+      "halfAngle": 0.06,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.xiaohongshu.com/explore/69b93185000000002300517f"
+      }
+    },
+    {
+      "id": "base-floor-rear",
+      "ticketLabels": [
+        "base-floor-rear"
+      ],
+      "sourceLabel": "后部平地（楼座下，示意）",
+      "levelName": "Level 2",
+      "tier": 1,
+      "block": {
+        "x": 0,
+        "z": -7,
+        "width": 24,
+        "depth": 10,
+        "base": 0,
+        "facing": -1
+      },
+      "angle": 0,
+      "halfAngle": 0.06,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.xiaohongshu.com/explore/69b93185000000002300517f"
+      }
+    }
+  ],
+  "importedAt": "2026-10-24T00:00:00.000Z"
+}

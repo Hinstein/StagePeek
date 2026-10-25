@@ -1,0 +1,97 @@
+{
+  "retrieved": "2026-10-24",
+  "successfulDownloads": [
+    {
+      "file": "rams-index.html",
+      "url": "https://rams.io-media.com/web/index.html",
+      "bytes": 34902,
+      "sha256": "4b448a1e788cb667e493c6dac888fe91a9bc98e8f1d13be86d5e3babd2124493"
+    },
+    {
+      "file": "rams-clientConfig.js",
+      "url": "https://rams.io-media.com/web/clientConfig.js",
+      "bytes": 5629,
+      "sha256": "d1b281a29a6d2a60cc55bdf709f6a5b1438a61a8c2cfb87f25a1400bd6744d3b"
+    },
+    {
+      "file": "rams-public-config.json",
+      "url": "https://rams.io-media.com/web/confignew.json",
+      "bytes": 637458,
+      "sha256": "2fb323742c0f2384697510b5a6764a8e38021f95ecc7851396d6f237189f85cf"
+    },
+    {
+      "file": "rams-FullStadium-map.json",
+      "url": "https://rams.io-media.com/media/venueview/models/FullStadium.json",
+      "bytes": 443555,
+      "sha256": "cb9cc806e7b67e586b7a882713345fa2ca81cbd26ccf9569ee163ffbf398a895"
+    },
+    {
+      "file": "rams-LowerLevel-map.json",
+      "url": "https://rams.io-media.com/media/venueview/models/LowerLevel.json",
+      "bytes": 220631,
+      "sha256": "80f83cb60abdf80884691d8adae0d788d03a614f76aee86e315c35b803c4f5bc"
+    },
+    {
+      "file": "rams-LevelSuite1-map.json",
+      "url": "https://rams.io-media.com/media/venueview/models/LevelSuite1.json",
+      "bytes": 17719,
+      "sha256": "40a7332d9bab74302349b58901dbc994c3b97317b09650a1f2b90d2897b15038"
+    },
+    {
+      "file": "rams-LevelSuite2-map.json",
+      "url": "https://rams.io-media.com/media/venueview/models/LevelSuite2.json",
+      "bytes": 48355,
+      "sha256": "a47cf5067d12b55eccb0f9964c22af14886b37af13f8ed9692fb7ab6b130cb07"
+    },
+    {
+      "file": "rams-LevelSuite4-map.json",
+      "url": "https://rams.io-media.com/media/venueview/models/LevelSuite4.json",
+      "bytes": 46461,
+      "sha256": "0fb0e4a6966e4bf1d4a8350d8e416fbb6551bdc3b1f00530e8e3bf4be4db617d"
+    },
+    {
+      "file": "rams-LevelSuite5-map.json",
+      "url": "https://rams.io-media.com/media/venueview/models/LevelSuite5.json",
+      "bytes": 46437,
+      "sha256": "58f1e62af639e1fcf6b6f5982921e17bd1ce367bec9409933a76bbdc6a3cbcf4"
+    },
+    {
+      "file": "rams-LevelSuite7-map.json",
+      "url": "https://rams.io-media.com/media/venueview/models/LevelSuite7.json",
+      "bytes": 34273,
+      "sha256": "727f0f18830d3c4eec95dc6f0bc0efbc2f75e4f477b340edb1f97812ffe77c95"
+    },
+    {
+      "file": "chargers-index.html",
+      "url": "https://chargers.io-media.com/web/index.html",
+      "bytes": 44268,
+      "sha256": "fe283086f5b842dc5586e33a5c806f843a8ae9acfcde7b03d75adeaee5d317e5"
+    },
+    {
+      "file": "chargers-clientConfig.js",
+      "url": "https://chargers.io-media.com/web/clientConfig.js",
+      "bytes": 5828,
+      "sha256": "b091a909ad4092663cd100cc1802da786cf826a1ac1ab25aacb70ad77a8b3cf7"
+    },
+    {
+      "file": "chargers-public-config.json",
+      "url": "https://chargers.io-media.com/web/confignew.json",
+      "bytes": 376477,
+      "sha256": "77a7cc2aa355ffb96b8f97a8dd073307603f54d5b416be5b072afb1a5a2ffb85"
+    },
+    {
+      "file": "chargers-FullStadium-map.json",
+      "url": "https://chargers.io-media.com/media/venueview/models/FullStadium.json",
+      "bytes": 405463,
+      "sha256": "491876dbec8ffd627a7e46370d9c4dd4fb7b0d69e1f889f06a5e32691072d830"
+    },
+    {
+      "file": "iomedia-v220-script.min.js",
+      "url": "https://d32ikx2sw2easi.cloudfront.net/v220/web/js/com/iomedia/vv/script.min.js",
+      "bytes": 953914,
+      "sha256": "e14b11fd5fc81a9a924b4481606910d877bb7eff09aa71a2679822ae55939f69"
+    }
+  ],
+  "pathResolution": "v220 script sets VIEW_MEDIA_PATH=../ for day view and MEDIA_PATH=media/; areaMapFileName therefore resolves to /media/venueview/models/*.json, not /web/venueview/models/*.json. Wrong-base request returned HTTP403.",
+  "license": "Public research copies only; no open commercial asset reuse license established; no imagery downloaded."
+}

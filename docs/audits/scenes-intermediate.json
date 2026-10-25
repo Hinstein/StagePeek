@@ -1,0 +1,8759 @@
+{
+  "createdAt": "2026-10-24T11:02:15.779Z",
+  "venues": 197,
+  "layouts": 582,
+  "failed": 49,
+  "rows": [
+    {
+      "id": "metlife",
+      "name": "MetLife Stadium",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 31140,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "metlife",
+      "name": "MetLife Stadium",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 31140,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "metlife",
+      "name": "MetLife Stadium",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 31140,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "sofi",
+      "name": "SoFi Stadium",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 48876,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "sofi",
+      "name": "SoFi Stadium",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 48876,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "sofi",
+      "name": "SoFi Stadium",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 48876,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "tottenham",
+      "name": "Tottenham Hotspur Stadium",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 28980,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "tottenham",
+      "name": "Tottenham Hotspur Stadium",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 28980,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "tottenham",
+      "name": "Tottenham Hotspur Stadium",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 28980,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "afas-live",
+      "name": "AFAS Live",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 4830,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "afas-live",
+      "name": "AFAS Live",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 4830,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "afas-live",
+      "name": "AFAS Live",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 4830,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "ajinomoto-stadium",
+      "name": "日本味之素体育场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 298100,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "ajinomoto-stadium",
+      "name": "日本味之素体育场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 298100,
+      "nonFinite": 0,
+      "collisions": 30,
+      "parts": {
+        "platform": 30
+      },
+      "examples": [
+        {
+          "section": "arena-A",
+          "row": "1",
+          "seat": "48",
+          "part": "platform",
+          "position": [
+            -2.340000000000002,
+            0,
+            72.54545454545455
+          ]
+        },
+        {
+          "section": "arena-A",
+          "row": "1",
+          "seat": "49",
+          "part": "platform",
+          "position": [
+            -1.4040000000000012,
+            0,
+            72.54545454545455
+          ]
+        },
+        {
+          "section": "arena-A",
+          "row": "1",
+          "seat": "50",
+          "part": "platform",
+          "position": [
+            -0.4680000000000004,
+            0,
+            72.54545454545455
+          ]
+        },
+        {
+          "section": "arena-A",
+          "row": "1",
+          "seat": "51",
+          "part": "platform",
+          "position": [
+            0.4680000000000004,
+            0,
+            72.54545454545455
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ajinomoto-stadium",
+      "name": "日本味之素体育场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 298100,
+      "nonFinite": 0,
+      "collisions": 468,
+      "parts": {
+        "platform": 468
+      },
+      "examples": [
+        {
+          "section": "arena-E",
+          "row": "6",
+          "seat": "38",
+          "part": "platform",
+          "position": [
+            -11.700000000000001,
+            0,
+            12
+          ]
+        },
+        {
+          "section": "arena-E",
+          "row": "6",
+          "seat": "39",
+          "part": "platform",
+          "position": [
+            -10.764,
+            0,
+            12
+          ]
+        },
+        {
+          "section": "arena-E",
+          "row": "6",
+          "seat": "40",
+          "part": "platform",
+          "position": [
+            -9.828,
+            0,
+            12
+          ]
+        },
+        {
+          "section": "arena-E",
+          "row": "6",
+          "seat": "41",
+          "part": "platform",
+          "position": [
+            -8.891999999999998,
+            0,
+            12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asiaworld-arena",
+      "name": "亚洲国际博览馆 Arena",
+      "layout": "end",
+      "sourceSeats": true,
+      "chairs": 11724,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "asiaworld-arena",
+      "name": "亚洲国际博览馆 Arena",
+      "layout": "standing",
+      "sourceSeats": true,
+      "chairs": 8300,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "asiaworld-hall-10",
+      "name": "亚洲国际博览馆 · 10号馆",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 7800,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "asiaworld-hall-10",
+      "name": "亚洲国际博览馆 · 10号馆",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 7800,
+      "nonFinite": 0,
+      "collisions": 36,
+      "parts": {
+        "platform": 20,
+        "top": 16
+      },
+      "examples": [
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "6",
+          "part": "platform",
+          "position": [
+            20.329502554860717,
+            1.2,
+            -2.076467502562602
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "7",
+          "part": "platform",
+          "position": [
+            20.317853314000505,
+            1.2,
+            -1.6118955280721574
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "7",
+          "part": "top",
+          "position": [
+            20.317853314000505,
+            1.2,
+            -1.6118955280721574
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "8",
+          "part": "platform",
+          "position": [
+            20.30911116437884,
+            1.2,
+            -1.149678903761645
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asiaworld-hall-10",
+      "name": "亚洲国际博览馆 · 10号馆",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 7800,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "asiaworld-runway-11",
+      "name": "亚洲国际博览馆 · Runway 11",
+      "layout": "end",
+      "sourceSeats": true,
+      "chairs": 3800,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "asiaworld-runway-11",
+      "name": "亚洲国际博览馆 · Runway 11",
+      "layout": "compact",
+      "sourceSeats": true,
+      "chairs": 1620,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "asiaworld-summit-hall-2",
+      "name": "亚洲国际博览馆 · 2号馆",
+      "layout": "end",
+      "sourceSeats": true,
+      "chairs": 5080,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "asiaworld-viva",
+      "name": "亚洲国际博览馆 · VIVA",
+      "layout": "end",
+      "sourceSeats": true,
+      "chairs": 5600,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "asiaworld-viva",
+      "name": "亚洲国际博览馆 · VIVA",
+      "layout": "expanded",
+      "sourceSeats": true,
+      "chairs": 8364,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "baotou-olympic-gymnasium",
+      "name": "包头奥林匹克体育中心体育馆",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 13364,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "baotou-olympic-gymnasium",
+      "name": "包头奥林匹克体育中心体育馆",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 13364,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "baotou-olympic-gymnasium",
+      "name": "包头奥林匹克体育中心体育馆",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 13364,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "baotou-olympic-stadium",
+      "name": "包头奥林匹克体育中心体育场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 28680,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "baotou-olympic-stadium",
+      "name": "包头奥林匹克体育中心体育场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 28680,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "baotou-olympic-stadium",
+      "name": "包头奥林匹克体育中心体育场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 28680,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "beijing-workers-stadium",
+      "name": "北京工人体育场 · 新工体",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 54722,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "beijing-workers-stadium",
+      "name": "北京工人体育场 · 新工体",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 54722,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "beijing-workers-stadium",
+      "name": "北京工人体育场 · 新工体",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 54722,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "belluna-dome",
+      "name": "Belluna Dome（西武巨蛋）",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 32360,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "belluna-dome",
+      "name": "Belluna Dome（西武巨蛋）",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 32360,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "belluna-dome",
+      "name": "Belluna Dome（西武巨蛋）",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 32360,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "bexco-halls-1-2",
+      "name": "BEXCO · 第一展览中心 1–2 号厅",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 10560,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "bexco-halls-1-2",
+      "name": "BEXCO · 第一展览中心 1–2 号厅",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 10560,
+      "nonFinite": 0,
+      "collisions": 44,
+      "parts": {
+        "platform": 24,
+        "top": 20
+      },
+      "examples": [
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "9",
+          "part": "platform",
+          "position": [
+            30.32249018892197,
+            1.2,
+            -2.7016378489248587
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "10",
+          "part": "platform",
+          "position": [
+            30.31505869150767,
+            1.2,
+            -2.2079612350901674
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "10",
+          "part": "top",
+          "position": [
+            30.31505869150767,
+            1.2,
+            -2.2079612350901674
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "11",
+          "part": "platform",
+          "position": [
+            30.30911116437884,
+            1.2,
+            -1.7157691154190235
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bexco-halls-1-2",
+      "name": "BEXCO · 第一展览中心 1–2 号厅",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 10560,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "birds-nest",
+      "name": "国家体育场 · 鸟巢",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 78220,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "birds-nest",
+      "name": "国家体育场 · 鸟巢",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 78220,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "birds-nest",
+      "name": "国家体育场 · 鸟巢",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 78220,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "bitec-live",
+      "name": "BITEC LIVE",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 3672,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "bitec-live",
+      "name": "BITEC LIVE",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 3672,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "bitec-live",
+      "name": "BITEC LIVE",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 3672,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "broadway-theatre",
+      "name": "澳门百老汇舞台",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 7826,
+      "nonFinite": 0,
+      "collisions": 134,
+      "parts": {
+        "platform": 24,
+        "top": 40,
+        "screen": 32,
+        "frame": 38
+      },
+      "examples": [
+        {
+          "section": "L1-03",
+          "row": "2",
+          "seat": "11",
+          "part": "platform",
+          "position": [
+            -4.466208031248159,
+            0.6611111111111111,
+            9.658675272916486
+          ]
+        },
+        {
+          "section": "L1-03",
+          "row": "2",
+          "seat": "12",
+          "part": "platform",
+          "position": [
+            -4.141505793526391,
+            0.6611111111111111,
+            9.715262272939825
+          ]
+        },
+        {
+          "section": "L1-03",
+          "row": "2",
+          "seat": "13",
+          "part": "platform",
+          "position": [
+            -3.819719640947785,
+            0.6611111111111111,
+            9.76684126963039
+          ]
+        },
+        {
+          "section": "L1-03",
+          "row": "2",
+          "seat": "14",
+          "part": "platform",
+          "position": [
+            -3.500654009274098,
+            0.6611111111111111,
+            9.81363111121213
+          ]
+        }
+      ]
+    },
+    {
+      "id": "broadway-theatre",
+      "name": "澳门百老汇舞台",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 7826,
+      "nonFinite": 0,
+      "collisions": 174,
+      "parts": {
+        "platform": 52,
+        "top": 52,
+        "screen": 32,
+        "frame": 38
+      },
+      "examples": [
+        {
+          "section": "L1-03",
+          "row": "2",
+          "seat": "11",
+          "part": "platform",
+          "position": [
+            -4.466208031248159,
+            0.6611111111111111,
+            9.658675272916486
+          ]
+        },
+        {
+          "section": "L1-03",
+          "row": "2",
+          "seat": "12",
+          "part": "platform",
+          "position": [
+            -4.141505793526391,
+            0.6611111111111111,
+            9.715262272939825
+          ]
+        },
+        {
+          "section": "L1-03",
+          "row": "2",
+          "seat": "13",
+          "part": "platform",
+          "position": [
+            -3.819719640947785,
+            0.6611111111111111,
+            9.76684126963039
+          ]
+        },
+        {
+          "section": "L1-03",
+          "row": "2",
+          "seat": "14",
+          "part": "platform",
+          "position": [
+            -3.500654009274098,
+            0.6611111111111111,
+            9.81363111121213
+          ]
+        }
+      ]
+    },
+    {
+      "id": "broadway-theatre",
+      "name": "澳门百老汇舞台",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 7826,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "bukit-jalil",
+      "name": "武吉加里尔国家体育场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 90096,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "bukit-jalil",
+      "name": "武吉加里尔国家体育场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 90096,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "bukit-jalil",
+      "name": "武吉加里尔国家体育场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 90096,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "busan-asiad",
+      "name": "釜山亚运会主体育场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 36140,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "busan-asiad",
+      "name": "釜山亚运会主体育场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 36140,
+      "nonFinite": 0,
+      "collisions": 56,
+      "parts": {
+        "platform": 30,
+        "top": 26
+      },
+      "examples": [
+        {
+          "section": "E19",
+          "row": "1",
+          "seat": "2",
+          "part": "platform",
+          "position": [
+            85.78823985558141,
+            1.2,
+            -3.5528435065474495
+          ]
+        },
+        {
+          "section": "E19",
+          "row": "1",
+          "seat": "3",
+          "part": "platform",
+          "position": [
+            85.83591910587236,
+            1.2,
+            -3.045857953181036
+          ]
+        },
+        {
+          "section": "E19",
+          "row": "1",
+          "seat": "3",
+          "part": "top",
+          "position": [
+            85.83591910587236,
+            1.2,
+            -3.045857953181036
+          ]
+        },
+        {
+          "section": "E19",
+          "row": "1",
+          "seat": "4",
+          "part": "platform",
+          "position": [
+            85.87626997781035,
+            1.2,
+            -2.538612354839014
+          ]
+        }
+      ]
+    },
+    {
+      "id": "busan-asiad",
+      "name": "釜山亚运会主体育场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 36140,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "capital-indoor",
+      "name": "首都体育馆",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 22088,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "capital-indoor",
+      "name": "首都体育馆",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 22088,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "capital-indoor",
+      "name": "首都体育馆",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 22088,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "changsha-helong-gymnasium",
+      "name": "长沙贺龙体育馆",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 13424,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "changsha-helong-gymnasium",
+      "name": "长沙贺龙体育馆",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 13424,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "changsha-helong-gymnasium",
+      "name": "长沙贺龙体育馆",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 13424,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "changsha-qicai-box-f",
+      "name": "湖南国际会展中心七彩盒子F厅",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 10980,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "changsha-qicai-box-f",
+      "name": "湖南国际会展中心七彩盒子F厅",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 10980,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "changsha-qicai-box-f",
+      "name": "湖南国际会展中心七彩盒子F厅",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 10980,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "changzhou-olympic-stadium",
+      "name": "常州奥体中心体育场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 34416,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "changzhou-olympic-stadium",
+      "name": "常州奥体中心体育场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 34416,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "changzhou-olympic-stadium",
+      "name": "常州奥体中心体育场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 34416,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "chengdu-dongan-lake-gymnasium",
+      "name": "成都东安湖体育公园多功能体育馆",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 31626,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "chengdu-dongan-lake-gymnasium",
+      "name": "成都东安湖体育公园多功能体育馆",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 31626,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "chengdu-dongan-lake-gymnasium",
+      "name": "成都东安湖体育公园多功能体育馆",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 31626,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "chengdu-dongan-lake-stadium",
+      "name": "成都东安湖体育公园主体育场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 44548,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "chengdu-dongan-lake-stadium",
+      "name": "成都东安湖体育公园主体育场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 44548,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "chengdu-dongan-lake-stadium",
+      "name": "成都东安湖体育公园主体育场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 44548,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "chengdu-financial-city-arena",
+      "name": "成都金融城演艺中心",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 12114,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "chengdu-financial-city-arena",
+      "name": "成都金融城演艺中心",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 12114,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "chengdu-financial-city-arena",
+      "name": "成都金融城演艺中心",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 12114,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "chengdu-hightech-gymnasium",
+      "name": "成都高新体育中心多功能体育馆",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 13752,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "chengdu-hightech-gymnasium",
+      "name": "成都高新体育中心多功能体育馆",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 13752,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "chengdu-hightech-gymnasium",
+      "name": "成都高新体育中心多功能体育馆",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 13752,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "chengdu-wuliangye-gymnasium",
+      "name": "成都五粮液文化体育中心综合体育馆",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 33016,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "chengdu-wuliangye-gymnasium",
+      "name": "成都五粮液文化体育中心综合体育馆",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 33016,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "chengdu-wuliangye-gymnasium",
+      "name": "成都五粮液文化体育中心综合体育馆",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 33016,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "chongqing-expo-s1-hall",
+      "name": "重庆国际博览中心S1馆",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 12960,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "chongqing-expo-s1-hall",
+      "name": "重庆国际博览中心S1馆",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 12960,
+      "nonFinite": 0,
+      "collisions": 32,
+      "parts": {
+        "platform": 18,
+        "top": 14
+      },
+      "examples": [
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "14",
+          "part": "platform",
+          "position": [
+            39.3076165226888,
+            1.2,
+            -2.0340809328051837
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "15",
+          "part": "platform",
+          "position": [
+            39.30428471157447,
+            1.2,
+            -1.5248362799130453
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "15",
+          "part": "top",
+          "position": [
+            39.30428471157447,
+            1.2,
+            -1.5248362799130453
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "16",
+          "part": "platform",
+          "position": [
+            39.30190444882354,
+            1.2,
+            -1.0162128163875934
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chongqing-expo-s1-hall",
+      "name": "重庆国际博览中心S1馆",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 12960,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "chongqing-huaxi-ecm-center",
+      "name": "重庆华熙生物·润百颜ECM中心",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 22912,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "chongqing-huaxi-ecm-center",
+      "name": "重庆华熙生物·润百颜ECM中心",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 22912,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "chongqing-huaxi-ecm-center",
+      "name": "重庆华熙生物·润百颜ECM中心",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 22912,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "chongqing-olympic-stadium",
+      "name": "重庆奥林匹克体育中心体育场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 34936,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "chongqing-olympic-stadium",
+      "name": "重庆奥林匹克体育中心体育场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 34936,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "chongqing-olympic-stadium",
+      "name": "重庆奥林匹克体育中心体育场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 34936,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "dalian-sports-center-stadium",
+      "name": "大连体育中心体育场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 38448,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "dalian-sports-center-stadium",
+      "name": "大连体育中心体育场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 38448,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "dalian-sports-center-stadium",
+      "name": "大连体育中心体育场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 38448,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "dongguan-sports-center-gymnasium",
+      "name": "东莞市体育中心体育馆",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 4896,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "dongguan-sports-center-gymnasium",
+      "name": "东莞市体育中心体育馆",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 4896,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "dongguan-sports-center-gymnasium",
+      "name": "东莞市体育中心体育馆",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 4896,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "exco-east",
+      "name": "EXCO · 东馆",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 10560,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "exco-east",
+      "name": "EXCO · 东馆",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 10560,
+      "nonFinite": 0,
+      "collisions": 42,
+      "parts": {
+        "platform": 22,
+        "top": 20
+      },
+      "examples": [
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "9",
+          "part": "platform",
+          "position": [
+            30.32249018892197,
+            1.2,
+            -2.7016378489248587
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "10",
+          "part": "platform",
+          "position": [
+            30.31505869150767,
+            1.2,
+            -2.2079612350901674
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "10",
+          "part": "top",
+          "position": [
+            30.31505869150767,
+            1.2,
+            -2.2079612350901674
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "11",
+          "part": "platform",
+          "position": [
+            30.30911116437884,
+            1.2,
+            -1.7157691154190235
+          ]
+        }
+      ]
+    },
+    {
+      "id": "exco-east",
+      "name": "EXCO · 东馆",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 10560,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "festhalle-frankfurt",
+      "name": "法兰克福 Festhalle",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 9084,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "festhalle-frankfurt",
+      "name": "法兰克福 Festhalle",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 9084,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "festhalle-frankfurt",
+      "name": "法兰克福 Festhalle",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 9084,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "foshan-century-lotus-stadium",
+      "name": "佛山世纪莲体育中心体育场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 34496,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "foshan-century-lotus-stadium",
+      "name": "佛山世纪莲体育中心体育场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 34496,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "foshan-century-lotus-stadium",
+      "name": "佛山世纪莲体育中心体育场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 34496,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "foshan-international-arena",
+      "name": "佛山国际体育文化演艺中心",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 15780,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "foshan-international-arena",
+      "name": "佛山国际体育文化演艺中心",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 15780,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "foshan-international-arena",
+      "name": "佛山国际体育文化演艺中心",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 15780,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "fuzhou-strait-olympic-stadium",
+      "name": "福州海峡奥林匹克体育中心体育场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 40320,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "fuzhou-strait-olympic-stadium",
+      "name": "福州海峡奥林匹克体育中心体育场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 40320,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "fuzhou-strait-olympic-stadium",
+      "name": "福州海峡奥林匹克体育中心体育场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 40320,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "galaxy-arena",
+      "name": "银河综艺馆",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 21370,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "galaxy-arena",
+      "name": "银河综艺馆",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 21370,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "galaxy-arena",
+      "name": "银河综艺馆",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 21370,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "galaxy-g-box",
+      "name": "澳门银河 G Box",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 4840,
+      "nonFinite": 0,
+      "collisions": 76,
+      "parts": {
+        "platform": 49,
+        "top": 27
+      },
+      "examples": [
+        {
+          "section": "L1-03",
+          "row": "1",
+          "seat": "22",
+          "part": "platform",
+          "position": [
+            19.72705992104359,
+            1.2,
+            -8.098702377237343
+          ]
+        },
+        {
+          "section": "L1-03",
+          "row": "1",
+          "seat": "23",
+          "part": "platform",
+          "position": [
+            19.691531170304444,
+            1.2,
+            -7.701172394951172
+          ]
+        },
+        {
+          "section": "L1-03",
+          "row": "1",
+          "seat": "24",
+          "part": "platform",
+          "position": [
+            19.65749265989622,
+            1.2,
+            -7.3105559890125855
+          ]
+        },
+        {
+          "section": "L1-03",
+          "row": "1",
+          "seat": "25",
+          "part": "platform",
+          "position": [
+            19.624953945410674,
+            1.2,
+            -6.926440918319288
+          ]
+        }
+      ]
+    },
+    {
+      "id": "galaxy-g-box",
+      "name": "澳门银河 G Box",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 4840,
+      "nonFinite": 0,
+      "collisions": 108,
+      "parts": {
+        "platform": 67,
+        "top": 41
+      },
+      "examples": [
+        {
+          "section": "L1-03",
+          "row": "1",
+          "seat": "22",
+          "part": "platform",
+          "position": [
+            19.72705992104359,
+            1.2,
+            -8.098702377237343
+          ]
+        },
+        {
+          "section": "L1-03",
+          "row": "1",
+          "seat": "23",
+          "part": "platform",
+          "position": [
+            19.691531170304444,
+            1.2,
+            -7.701172394951172
+          ]
+        },
+        {
+          "section": "L1-03",
+          "row": "1",
+          "seat": "24",
+          "part": "platform",
+          "position": [
+            19.65749265989622,
+            1.2,
+            -7.3105559890125855
+          ]
+        },
+        {
+          "section": "L1-03",
+          "row": "1",
+          "seat": "25",
+          "part": "platform",
+          "position": [
+            19.624953945410674,
+            1.2,
+            -6.926440918319288
+          ]
+        }
+      ]
+    },
+    {
+      "id": "galaxy-g-box",
+      "name": "澳门银河 G Box",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 4840,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "gbk-main-stadium",
+      "name": "印尼格罗拉蓬卡诺体育场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 64032,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "gbk-main-stadium",
+      "name": "印尼格罗拉蓬卡诺体育场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 64032,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "gbk-main-stadium",
+      "name": "印尼格罗拉蓬卡诺体育场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 64032,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "genting-arena-of-stars",
+      "name": "云顶世界云星剧场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 9240,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "genting-arena-of-stars",
+      "name": "云顶世界云星剧场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 9240,
+      "nonFinite": 0,
+      "collisions": 32,
+      "parts": {
+        "platform": 18,
+        "top": 14
+      },
+      "examples": [
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "13",
+          "part": "platform",
+          "position": [
+            36.3085674754169,
+            1.2,
+            -1.9929808588002254
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "14",
+          "part": "platform",
+          "position": [
+            36.3048197332819,
+            1.2,
+            -1.4939254034190907
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "14",
+          "part": "top",
+          "position": [
+            36.3048197332819,
+            1.2,
+            -1.4939254034190907
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "15",
+          "part": "platform",
+          "position": [
+            36.30214227142675,
+            1.2,
+            -0.9955647633677143
+          ]
+        }
+      ]
+    },
+    {
+      "id": "genting-arena-of-stars",
+      "name": "云顶世界云星剧场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 9240,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "gocheok-dome",
+      "name": "高尺天空巨蛋",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 80052,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "gocheok-dome",
+      "name": "高尺天空巨蛋",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 80052,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "gocheok-dome",
+      "name": "高尺天空巨蛋",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 80052,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "goyang-stadium",
+      "name": "高阳综合运动场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 53430,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "goyang-stadium",
+      "name": "高阳综合运动场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 53430,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "goyang-stadium",
+      "name": "高阳综合运动场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 53430,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "guangdong-olympic",
+      "name": "广东奥林匹克体育场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 78240,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "guangdong-olympic",
+      "name": "广东奥林匹克体育场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 78240,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "guangdong-olympic",
+      "name": "广东奥林匹克体育场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 78240,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "guangxi-sports-stadium",
+      "name": "广西体育中心主体育场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 177596,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "guangxi-sports-stadium",
+      "name": "广西体育中心主体育场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 177596,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "guangxi-sports-stadium",
+      "name": "广西体育中心主体育场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 177596,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "guangzhou-arena",
+      "name": "宝能广州国际体育演艺中心",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 41728,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "guangzhou-arena",
+      "name": "宝能广州国际体育演艺中心",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 41728,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "guangzhou-arena",
+      "name": "宝能广州国际体育演艺中心",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 41728,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "guangzhou-gba-stadium",
+      "name": "大湾区文化体育中心体育场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 61556,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "guangzhou-gba-stadium",
+      "name": "大湾区文化体育中心体育场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 61556,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "guangzhou-gba-stadium",
+      "name": "大湾区文化体育中心体育场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 61556,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "guangzhou-gymnasium-hall-1",
+      "name": "广州体育馆1号馆",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 16976,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "guangzhou-gymnasium-hall-1",
+      "name": "广州体育馆1号馆",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 16976,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "guangzhou-gymnasium-hall-1",
+      "name": "广州体育馆1号馆",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 16976,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "guangzhou-university-town-stadium",
+      "name": "广州大学城体育中心体育场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 32472,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "guangzhou-university-town-stadium",
+      "name": "广州大学城体育中心体育场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 32472,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "guangzhou-university-town-stadium",
+      "name": "广州大学城体育中心体育场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 32472,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "guangzhou-yayuncheng",
+      "name": "广州亚运城综合体育馆 · 体操馆",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 7840,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "guangzhou-yayuncheng",
+      "name": "广州亚运城综合体育馆 · 体操馆",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 7840,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "guangzhou-yayuncheng",
+      "name": "广州亚运城综合体育馆 · 体操馆",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 7840,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "guigang-sports-center-stadium",
+      "name": "贵港市体育中心体育场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 32700,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "guigang-sports-center-stadium",
+      "name": "贵港市体育中心体育场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 32700,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "guigang-sports-center-stadium",
+      "name": "贵港市体育中心体育场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 32700,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "guiyang-new-gymnasium",
+      "name": "贵阳奥林匹克体育中心体育馆",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 12960,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "guiyang-new-gymnasium",
+      "name": "贵阳奥林匹克体育中心体育馆",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 12960,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "guiyang-new-gymnasium",
+      "name": "贵阳奥林匹克体育中心体育馆",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 12960,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "guiyang-olympic-stadium",
+      "name": "贵阳奥林匹克体育中心体育场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 26088,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "guiyang-olympic-stadium",
+      "name": "贵阳奥林匹克体育中心体育场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 26088,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "guiyang-olympic-stadium",
+      "name": "贵阳奥林匹克体育中心体育场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 26088,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "gwangju-universiade",
+      "name": "光州女子大学大运会体育馆",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 14196,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "gwangju-universiade",
+      "name": "光州女子大学大运会体育馆",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 14196,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "gwangju-universiade",
+      "name": "光州女子大学大运会体育馆",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 14196,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "haikou-wuyuanhe-gymnasium",
+      "name": "海口五源河体育中心体育馆",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 15840,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "haikou-wuyuanhe-gymnasium",
+      "name": "海口五源河体育中心体育馆",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 15840,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "haikou-wuyuanhe-gymnasium",
+      "name": "海口五源河体育中心体育馆",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 15840,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "haikou-wuyuanhe-stadium",
+      "name": "海口五源河体育场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 50478,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "haikou-wuyuanhe-stadium",
+      "name": "海口五源河体育场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 50478,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "haikou-wuyuanhe-stadium",
+      "name": "海口五源河体育场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 50478,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "hangzhou-huanglong-stadium",
+      "name": "杭州黄龙体育中心体育场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 34672,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "hangzhou-huanglong-stadium",
+      "name": "杭州黄龙体育中心体育场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 34672,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "hangzhou-huanglong-stadium",
+      "name": "杭州黄龙体育中心体育场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 34672,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "hangzhou-olympic-arena",
+      "name": "杭州奥体中心体育馆",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 20028,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "hangzhou-olympic-arena",
+      "name": "杭州奥体中心体育馆",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 20028,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "hangzhou-olympic-arena",
+      "name": "杭州奥体中心体育馆",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 20028,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "hangzhou-olympic-stadium",
+      "name": "杭州奥体中心体育场 · 大莲花",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 75552,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "hangzhou-olympic-stadium",
+      "name": "杭州奥体中心体育场 · 大莲花",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 75552,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "hangzhou-olympic-stadium",
+      "name": "杭州奥体中心体育场 · 大莲花",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 75552,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "hangzhou-olympic-tennis-center",
+      "name": "杭州奥体中心网球中心",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 13356,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "hangzhou-olympic-tennis-center",
+      "name": "杭州奥体中心网球中心",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 13356,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "hangzhou-olympic-tennis-center",
+      "name": "杭州奥体中心网球中心",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 13356,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "hangzhou-qiantang-basketball-arena",
+      "name": "杭州乐动力钱塘体育中心篮球赛馆",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 16128,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "hangzhou-qiantang-basketball-arena",
+      "name": "杭州乐动力钱塘体育中心篮球赛馆",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 16128,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "hangzhou-qiantang-basketball-arena",
+      "name": "杭州乐动力钱塘体育中心篮球赛馆",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 16128,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "harbin-international-convention-gymnasium",
+      "name": "哈尔滨国际会展体育中心体育馆",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 17136,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "harbin-international-convention-gymnasium",
+      "name": "哈尔滨国际会展体育中心体育馆",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 17136,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "harbin-international-convention-gymnasium",
+      "name": "哈尔滨国际会展体育中心体育馆",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 17136,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "hebei-olympic-stadium",
+      "name": "河北奥林匹克体育中心体育场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 34416,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "hebei-olympic-stadium",
+      "name": "河北奥林匹克体育中心体育场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 34416,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "hebei-olympic-stadium",
+      "name": "河北奥林匹克体育中心体育场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 34416,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "hefei-sports-center-stadium",
+      "name": "合肥体育中心体育场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 34936,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "hefei-sports-center-stadium",
+      "name": "合肥体育中心体育场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 34936,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "hefei-sports-center-stadium",
+      "name": "合肥体育中心体育场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 34936,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "hkcec-hall-5bc",
+      "name": "香港会议展览中心 · Hall 5BC",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 10680,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "hkcec-hall-5bc",
+      "name": "香港会议展览中心 · Hall 5BC",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 10680,
+      "nonFinite": 0,
+      "collisions": 32,
+      "parts": {
+        "platform": 16,
+        "top": 16
+      },
+      "examples": [
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "12",
+          "part": "platform",
+          "position": [
+            33.307937109144206,
+            1.2,
+            -1.7595856406158006
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "12",
+          "part": "top",
+          "position": [
+            33.307937109144206,
+            1.2,
+            -1.7595856406158006
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "13",
+          "part": "platform",
+          "position": [
+            33.30405000594864,
+            1.2,
+            -1.256128241855604
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "13",
+          "part": "top",
+          "position": [
+            33.30405000594864,
+            1.2,
+            -1.256128241855604
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hkcec-hall-5bc",
+      "name": "香港会议展览中心 · Hall 5BC",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 10680,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "hong-kong-axa-dreamland",
+      "name": "香港 AXA 安盛创梦馆",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 5560,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "hong-kong-axa-dreamland",
+      "name": "香港 AXA 安盛创梦馆",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 5560,
+      "nonFinite": 0,
+      "collisions": 38,
+      "parts": {
+        "platform": 20,
+        "top": 18
+      },
+      "examples": [
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "4",
+          "part": "platform",
+          "position": [
+            16.35038148201171,
+            1.2,
+            -2.188441126009139
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "5",
+          "part": "platform",
+          "position": [
+            16.33226128251771,
+            1.2,
+            -1.7450760321415308
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "5",
+          "part": "top",
+          "position": [
+            16.33226128251771,
+            1.2,
+            -1.7450760321415308
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "6",
+          "part": "platform",
+          "position": [
+            16.31815447038653,
+            1.2,
+            -1.3055086477594033
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hong-kong-axa-dreamland",
+      "name": "香港 AXA 安盛创梦馆",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 5560,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "hong-kong-coliseum",
+      "name": "香港体育馆 · 红馆",
+      "layout": "center",
+      "sourceSeats": true,
+      "chairs": 11446,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "hong-kong-coliseum",
+      "name": "香港体育馆 · 红馆",
+      "layout": "end",
+      "sourceSeats": true,
+      "chairs": 11562,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "hong-kong-macpherson-stadium",
+      "name": "香港麦花臣场馆",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 2376,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "hong-kong-macpherson-stadium",
+      "name": "香港麦花臣场馆",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 2376,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "hong-kong-macpherson-stadium",
+      "name": "香港麦花臣场馆",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 2376,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "huanglong-gymnasium",
+      "name": "黄龙体育中心体育馆",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 11142,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "huanglong-gymnasium",
+      "name": "黄龙体育中心体育馆",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 11142,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "huanglong-gymnasium",
+      "name": "黄龙体育中心体育馆",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 11142,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "hubei-olympic-arena",
+      "name": "湖北省奥林匹克体育中心体育馆",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 6300,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "hubei-olympic-arena",
+      "name": "湖北省奥林匹克体育中心体育馆",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 6300,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "hubei-olympic-arena",
+      "name": "湖北省奥林匹克体育中心体育馆",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 6300,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "hwajeong-gymnasium",
+      "name": "高丽大学化汀体育馆",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 5346,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "hwajeong-gymnasium",
+      "name": "高丽大学化汀体育馆",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 5346,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "hwajeong-gymnasium",
+      "name": "高丽大学化汀体育馆",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 5346,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "ig-arena",
+      "name": "IG Arena",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 60148,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "ig-arena",
+      "name": "IG Arena",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 60148,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "ig-arena",
+      "name": "IG Arena",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 60148,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "impact-arena",
+      "name": "IMPACT Arena",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 13114,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "impact-arena",
+      "name": "IMPACT Arena",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 13114,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "impact-arena",
+      "name": "IMPACT Arena",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 13114,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "incheon-asiad",
+      "name": "仁川亚运会主体育场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 83118,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "incheon-asiad",
+      "name": "仁川亚运会主体育场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 83118,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "incheon-asiad",
+      "name": "仁川亚运会主体育场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 83118,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "incheon-munhak-stadium",
+      "name": "韩国仁川文鹤竞技场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 262455,
+      "nonFinite": 0,
+      "collisions": 168,
+      "parts": {
+        "platform": 168
+      },
+      "examples": [
+        {
+          "section": "F12",
+          "row": "16",
+          "seat": "1",
+          "part": "platform",
+          "position": [
+            37.8,
+            0,
+            15.714285714285714
+          ]
+        },
+        {
+          "section": "F12",
+          "row": "16",
+          "seat": "2",
+          "part": "platform",
+          "position": [
+            38.4,
+            0,
+            15.714285714285714
+          ]
+        },
+        {
+          "section": "F12",
+          "row": "17",
+          "seat": "1",
+          "part": "platform",
+          "position": [
+            37.8,
+            0,
+            14.857142857142858
+          ]
+        },
+        {
+          "section": "F12",
+          "row": "17",
+          "seat": "2",
+          "part": "platform",
+          "position": [
+            38.4,
+            0,
+            14.857142857142858
+          ]
+        }
+      ]
+    },
+    {
+      "id": "incheon-munhak-stadium",
+      "name": "韩国仁川文鹤竞技场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 262455,
+      "nonFinite": 0,
+      "collisions": 168,
+      "parts": {
+        "platform": 168
+      },
+      "examples": [
+        {
+          "section": "F12",
+          "row": "16",
+          "seat": "1",
+          "part": "platform",
+          "position": [
+            37.8,
+            0,
+            15.714285714285714
+          ]
+        },
+        {
+          "section": "F12",
+          "row": "16",
+          "seat": "2",
+          "part": "platform",
+          "position": [
+            38.4,
+            0,
+            15.714285714285714
+          ]
+        },
+        {
+          "section": "F12",
+          "row": "17",
+          "seat": "1",
+          "part": "platform",
+          "position": [
+            37.8,
+            0,
+            14.857142857142858
+          ]
+        },
+        {
+          "section": "F12",
+          "row": "17",
+          "seat": "2",
+          "part": "platform",
+          "position": [
+            38.4,
+            0,
+            14.857142857142858
+          ]
+        }
+      ]
+    },
+    {
+      "id": "incheon-munhak-stadium",
+      "name": "韩国仁川文鹤竞技场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 262455,
+      "nonFinite": 0,
+      "collisions": 60,
+      "parts": {
+        "platform": 60
+      },
+      "examples": [
+        {
+          "section": "F15",
+          "row": "20",
+          "seat": "1",
+          "part": "platform",
+          "position": [
+            1.7999999999999998,
+            0,
+            12.285714285714285
+          ]
+        },
+        {
+          "section": "F15",
+          "row": "20",
+          "seat": "2",
+          "part": "platform",
+          "position": [
+            2.3999999999999995,
+            0,
+            12.285714285714285
+          ]
+        },
+        {
+          "section": "F15",
+          "row": "20",
+          "seat": "3",
+          "part": "platform",
+          "position": [
+            2.9999999999999996,
+            0,
+            12.285714285714285
+          ]
+        },
+        {
+          "section": "F15",
+          "row": "20",
+          "seat": "4",
+          "part": "platform",
+          "position": [
+            3.6,
+            0,
+            12.285714285714285
+          ]
+        }
+      ]
+    },
+    {
+      "id": "indonesia-arena",
+      "name": "Indonesia Arena",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 23288,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "indonesia-arena",
+      "name": "Indonesia Arena",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 23288,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "indonesia-arena",
+      "name": "Indonesia Arena",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 23288,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "inspire-arena",
+      "name": "INSPIRE Arena · 迎仕柏",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 16550,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "inspire-arena",
+      "name": "INSPIRE Arena · 迎仕柏",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 16550,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "inspire-arena",
+      "name": "INSPIRE Arena · 迎仕柏",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 16550,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "jakarta-stadium",
+      "name": "雅加达国际体育场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 71732,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "jakarta-stadium",
+      "name": "雅加达国际体育场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 71732,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "jakarta-stadium",
+      "name": "雅加达国际体育场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 71732,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "jamsil-indoor",
+      "name": "蚕室室内体育馆",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 16596,
+      "nonFinite": 0,
+      "collisions": 20,
+      "parts": {
+        "platform": 10,
+        "top": 6,
+        "frame": 4
+      },
+      "examples": [
+        {
+          "section": "1",
+          "row": "1",
+          "seat": "1",
+          "part": "platform",
+          "position": [
+            12.256134534001154,
+            1.1956521739130435,
+            -22.89596148484091
+          ]
+        },
+        {
+          "section": "1",
+          "row": "1",
+          "seat": "1",
+          "part": "top",
+          "position": [
+            12.256134534001154,
+            1.1956521739130435,
+            -22.89596148484091
+          ]
+        },
+        {
+          "section": "1",
+          "row": "1",
+          "seat": "1",
+          "part": "frame",
+          "position": [
+            12.256134534001154,
+            1.1956521739130435,
+            -22.89596148484091
+          ]
+        },
+        {
+          "section": "1",
+          "row": "1",
+          "seat": "2",
+          "part": "platform",
+          "position": [
+            11.90758692136561,
+            1.1956521739130435,
+            -23.16965828832553
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jamsil-indoor",
+      "name": "蚕室室内体育馆",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 16596,
+      "nonFinite": 0,
+      "collisions": 20,
+      "parts": {
+        "platform": 10,
+        "top": 6,
+        "frame": 4
+      },
+      "examples": [
+        {
+          "section": "1",
+          "row": "1",
+          "seat": "1",
+          "part": "platform",
+          "position": [
+            12.256134534001154,
+            1.1956521739130435,
+            -22.89596148484091
+          ]
+        },
+        {
+          "section": "1",
+          "row": "1",
+          "seat": "1",
+          "part": "top",
+          "position": [
+            12.256134534001154,
+            1.1956521739130435,
+            -22.89596148484091
+          ]
+        },
+        {
+          "section": "1",
+          "row": "1",
+          "seat": "1",
+          "part": "frame",
+          "position": [
+            12.256134534001154,
+            1.1956521739130435,
+            -22.89596148484091
+          ]
+        },
+        {
+          "section": "1",
+          "row": "1",
+          "seat": "2",
+          "part": "platform",
+          "position": [
+            11.90758692136561,
+            1.1956521739130435,
+            -23.16965828832553
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jamsil-indoor",
+      "name": "蚕室室内体育馆",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 16596,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "jangchung-arena",
+      "name": "奖忠体育馆",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 7308,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "jangchung-arena",
+      "name": "奖忠体育馆",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 7308,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "jangchung-arena",
+      "name": "奖忠体育馆",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 7308,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "japan-national",
+      "name": "日本国立竞技场 · MUFG",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 330017,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "japan-national",
+      "name": "日本国立竞技场 · MUFG",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 330017,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "japan-national",
+      "name": "日本国立竞技场 · MUFG",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 330017,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "jiaxing-sports-center-stadium",
+      "name": "嘉兴市体育中心体育场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 34416,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "jiaxing-sports-center-stadium",
+      "name": "嘉兴市体育中心体育场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 34416,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "jiaxing-sports-center-stadium",
+      "name": "嘉兴市体育中心体育场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 34416,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "jinan-olympic-gymnasium",
+      "name": "济南奥林匹克体育中心体育馆",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 14400,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "jinan-olympic-gymnasium",
+      "name": "济南奥林匹克体育中心体育馆",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 14400,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "jinan-olympic-gymnasium",
+      "name": "济南奥林匹克体育中心体育馆",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 14400,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "jinan-olympic-stadium",
+      "name": "济南奥林匹克体育中心体育场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 34672,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "jinan-olympic-stadium",
+      "name": "济南奥林匹克体育中心体育场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 34672,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "jinan-olympic-stadium",
+      "name": "济南奥林匹克体育中心体育场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 34672,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "john-cain-arena",
+      "name": "John Cain Arena",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 18556,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "john-cain-arena",
+      "name": "John Cain Arena",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 18556,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "john-cain-arena",
+      "name": "John Cain Arena",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 18556,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "k-arena-yokohama",
+      "name": "K-Arena Yokohama",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 17596,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "k-arena-yokohama",
+      "name": "K-Arena Yokohama",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 17596,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "k-arena-yokohama",
+      "name": "K-Arena Yokohama",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 17596,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "kai-tak-arena",
+      "name": "启德体艺馆",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 12208,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "kai-tak-arena",
+      "name": "启德体艺馆",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 12208,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "kai-tak-arena",
+      "name": "启德体艺馆",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 12208,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "kai-tak-stadium",
+      "name": "启德主场馆",
+      "layout": "bowl",
+      "sourceSeats": true,
+      "chairs": 48483,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "kaohsiung-arena",
+      "name": "高雄巨蛋",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 19507,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "kaohsiung-arena",
+      "name": "高雄巨蛋",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 19507,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "kaohsiung-arena",
+      "name": "高雄巨蛋",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 19507,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "kaohsiung-national",
+      "name": "高雄国家体育场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 53430,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "kaohsiung-national",
+      "name": "高雄国家体育场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 53430,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "kaohsiung-national",
+      "name": "高雄国家体育场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 53430,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "kbs-arena",
+      "name": "KBS Arena",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 2568,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "kbs-arena",
+      "name": "KBS Arena",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 2568,
+      "nonFinite": 0,
+      "collisions": 55,
+      "parts": {
+        "platform": 55
+      },
+      "examples": [
+        {
+          "section": "J",
+          "row": "1",
+          "seat": "9",
+          "part": "platform",
+          "position": [
+            -1.2,
+            0,
+            8.565217391304348
+          ]
+        },
+        {
+          "section": "J",
+          "row": "1",
+          "seat": "10",
+          "part": "platform",
+          "position": [
+            -0.6,
+            0,
+            8.565217391304348
+          ]
+        },
+        {
+          "section": "J",
+          "row": "1",
+          "seat": "11",
+          "part": "platform",
+          "position": [
+            0,
+            0,
+            8.565217391304348
+          ]
+        },
+        {
+          "section": "J",
+          "row": "1",
+          "seat": "12",
+          "part": "platform",
+          "position": [
+            0.6000000000000006,
+            0,
+            8.565217391304348
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kbs-arena",
+      "name": "KBS Arena",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 2568,
+      "nonFinite": 0,
+      "collisions": 195,
+      "parts": {
+        "platform": 195
+      },
+      "examples": [
+        {
+          "section": "J",
+          "row": "4",
+          "seat": "5",
+          "part": "platform",
+          "position": [
+            -3.5999999999999996,
+            0,
+            5.956521739130435
+          ]
+        },
+        {
+          "section": "J",
+          "row": "4",
+          "seat": "6",
+          "part": "platform",
+          "position": [
+            -3,
+            0,
+            5.956521739130435
+          ]
+        },
+        {
+          "section": "J",
+          "row": "4",
+          "seat": "7",
+          "part": "platform",
+          "position": [
+            -2.4,
+            0,
+            5.956521739130435
+          ]
+        },
+        {
+          "section": "J",
+          "row": "4",
+          "seat": "8",
+          "part": "platform",
+          "position": [
+            -1.7999999999999998,
+            0,
+            5.956521739130435
+          ]
+        }
+      ]
+    },
+    {
+      "id": "keio-arena-tokyo",
+      "name": "京王竞技场东京",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 11906,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "keio-arena-tokyo",
+      "name": "京王竞技场东京",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 11906,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "keio-arena-tokyo",
+      "name": "京王竞技场东京",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 11906,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "kintex-hall-1",
+      "name": "KINTEX · 第1展览中心 1号厅",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 13960,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "kintex-hall-1",
+      "name": "KINTEX · 第1展览中心 1号厅",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 13960,
+      "nonFinite": 0,
+      "collisions": 18,
+      "parts": {
+        "platform": 18
+      },
+      "examples": [
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "4",
+          "part": "platform",
+          "position": [
+            25.87300552022953,
+            1.2,
+            -4.181244718371836
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "5",
+          "part": "platform",
+          "position": [
+            25.856865151015622,
+            1.2,
+            -3.6799768625984766
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "6",
+          "part": "platform",
+          "position": [
+            25.842729760743104,
+            1.2,
+            -3.182245431729717
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "7",
+          "part": "platform",
+          "position": [
+            25.830604371648835,
+            1.2,
+            -2.6875603572365208
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kintex-hall-1",
+      "name": "KINTEX · 第1展览中心 1号厅",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 13960,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "kintex-hall-10",
+      "name": "KINTEX · 第2展览中心 10号厅",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 13640,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "kintex-hall-10",
+      "name": "KINTEX · 第2展览中心 10号厅",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 13640,
+      "nonFinite": 0,
+      "collisions": 32,
+      "parts": {
+        "platform": 18,
+        "top": 14
+      },
+      "examples": [
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "16",
+          "part": "platform",
+          "position": [
+            43.80613454621003,
+            1.2,
+            -2.034016617314503
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "17",
+          "part": "platform",
+          "position": [
+            43.803450953104154,
+            1.2,
+            -1.5249397898623864
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "17",
+          "part": "top",
+          "position": [
+            43.803450953104154,
+            1.2,
+            -1.5249397898623864
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "18",
+          "part": "platform",
+          "position": [
+            43.801533842927434,
+            1.2,
+            -1.016353990481064
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kintex-hall-10",
+      "name": "KINTEX · 第2展览中心 10号厅",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 13640,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "kintex-hall-2",
+      "name": "KINTEX · 第1展览中心 2号厅",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 13960,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "kintex-hall-2",
+      "name": "KINTEX · 第1展览中心 2号厅",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 13960,
+      "nonFinite": 0,
+      "collisions": 18,
+      "parts": {
+        "platform": 18
+      },
+      "examples": [
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "4",
+          "part": "platform",
+          "position": [
+            25.87300552022953,
+            1.2,
+            -4.181244718371836
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "5",
+          "part": "platform",
+          "position": [
+            25.856865151015622,
+            1.2,
+            -3.6799768625984766
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "6",
+          "part": "platform",
+          "position": [
+            25.842729760743104,
+            1.2,
+            -3.182245431729717
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "7",
+          "part": "platform",
+          "position": [
+            25.830604371648835,
+            1.2,
+            -2.6875603572365208
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kintex-hall-2",
+      "name": "KINTEX · 第1展览中心 2号厅",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 13960,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "kintex-hall-3",
+      "name": "KINTEX · 第1展览中心 3号厅",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 13960,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "kintex-hall-3",
+      "name": "KINTEX · 第1展览中心 3号厅",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 13960,
+      "nonFinite": 0,
+      "collisions": 18,
+      "parts": {
+        "platform": 18
+      },
+      "examples": [
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "4",
+          "part": "platform",
+          "position": [
+            25.87300552022953,
+            1.2,
+            -4.181244718371836
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "5",
+          "part": "platform",
+          "position": [
+            25.856865151015622,
+            1.2,
+            -3.6799768625984766
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "6",
+          "part": "platform",
+          "position": [
+            25.842729760743104,
+            1.2,
+            -3.182245431729717
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "7",
+          "part": "platform",
+          "position": [
+            25.830604371648835,
+            1.2,
+            -2.6875603572365208
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kintex-hall-3",
+      "name": "KINTEX · 第1展览中心 3号厅",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 13960,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "kintex-hall-4",
+      "name": "KINTEX · 第1展览中心 4号厅",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 13960,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "kintex-hall-4",
+      "name": "KINTEX · 第1展览中心 4号厅",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 13960,
+      "nonFinite": 0,
+      "collisions": 18,
+      "parts": {
+        "platform": 18
+      },
+      "examples": [
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "4",
+          "part": "platform",
+          "position": [
+            25.87300552022953,
+            1.2,
+            -4.181244718371836
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "5",
+          "part": "platform",
+          "position": [
+            25.856865151015622,
+            1.2,
+            -3.6799768625984766
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "6",
+          "part": "platform",
+          "position": [
+            25.842729760743104,
+            1.2,
+            -3.182245431729717
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "7",
+          "part": "platform",
+          "position": [
+            25.830604371648835,
+            1.2,
+            -2.6875603572365208
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kintex-hall-4",
+      "name": "KINTEX · 第1展览中心 4号厅",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 13960,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "kintex-hall-5",
+      "name": "KINTEX · 第1展览中心 5号厅",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 13960,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "kintex-hall-5",
+      "name": "KINTEX · 第1展览中心 5号厅",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 13960,
+      "nonFinite": 0,
+      "collisions": 18,
+      "parts": {
+        "platform": 18
+      },
+      "examples": [
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "4",
+          "part": "platform",
+          "position": [
+            25.87300552022953,
+            1.2,
+            -4.181244718371836
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "5",
+          "part": "platform",
+          "position": [
+            25.856865151015622,
+            1.2,
+            -3.6799768625984766
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "6",
+          "part": "platform",
+          "position": [
+            25.842729760743104,
+            1.2,
+            -3.182245431729717
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "7",
+          "part": "platform",
+          "position": [
+            25.830604371648835,
+            1.2,
+            -2.6875603572365208
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kintex-hall-5",
+      "name": "KINTEX · 第1展览中心 5号厅",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 13960,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "kintex-hall-6",
+      "name": "KINTEX · 第2展览中心 6号厅（Event Hall）",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 9000,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "kintex-hall-6",
+      "name": "KINTEX · 第2展览中心 6号厅（Event Hall）",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 9000,
+      "nonFinite": 0,
+      "collisions": 32,
+      "parts": {
+        "platform": 18,
+        "top": 14
+      },
+      "examples": [
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "8",
+          "part": "platform",
+          "position": [
+            24.31763233651922,
+            1.2,
+            -1.9171813497820818
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "9",
+          "part": "platform",
+          "position": [
+            24.309920428024853,
+            1.2,
+            -1.436130090564613
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "9",
+          "part": "top",
+          "position": [
+            24.309920428024853,
+            1.2,
+            -1.436130090564613
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "10",
+          "part": "platform",
+          "position": [
+            24.304409789940973,
+            1.2,
+            -0.9565853098843525
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kintex-hall-6",
+      "name": "KINTEX · 第2展览中心 6号厅（Event Hall）",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 9000,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "kintex-hall-7",
+      "name": "KINTEX · 第2展览中心 7号厅",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 12640,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "kintex-hall-7",
+      "name": "KINTEX · 第2展览中心 7号厅",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 12640,
+      "nonFinite": 0,
+      "collisions": 32,
+      "parts": {
+        "platform": 18,
+        "top": 14
+      },
+      "examples": [
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "14",
+          "part": "platform",
+          "position": [
+            39.3076165226888,
+            1.2,
+            -2.0340809328051837
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "15",
+          "part": "platform",
+          "position": [
+            39.30428471157447,
+            1.2,
+            -1.5248362799130453
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "15",
+          "part": "top",
+          "position": [
+            39.30428471157447,
+            1.2,
+            -1.5248362799130453
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "16",
+          "part": "platform",
+          "position": [
+            39.30190444882354,
+            1.2,
+            -1.0162128163875934
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kintex-hall-7",
+      "name": "KINTEX · 第2展览中心 7号厅",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 12640,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "kintex-hall-8",
+      "name": "KINTEX · 第2展览中心 8号厅",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 12640,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "kintex-hall-8",
+      "name": "KINTEX · 第2展览中心 8号厅",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 12640,
+      "nonFinite": 0,
+      "collisions": 32,
+      "parts": {
+        "platform": 18,
+        "top": 14
+      },
+      "examples": [
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "14",
+          "part": "platform",
+          "position": [
+            39.3076165226888,
+            1.2,
+            -2.0340809328051837
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "15",
+          "part": "platform",
+          "position": [
+            39.30428471157447,
+            1.2,
+            -1.5248362799130453
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "15",
+          "part": "top",
+          "position": [
+            39.30428471157447,
+            1.2,
+            -1.5248362799130453
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "16",
+          "part": "platform",
+          "position": [
+            39.30190444882354,
+            1.2,
+            -1.0162128163875934
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kintex-hall-8",
+      "name": "KINTEX · 第2展览中心 8号厅",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 12640,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "kintex-hall-9",
+      "name": "KINTEX · 第2展览中心 9号厅",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 13640,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "kintex-hall-9",
+      "name": "KINTEX · 第2展览中心 9号厅",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 13640,
+      "nonFinite": 0,
+      "collisions": 32,
+      "parts": {
+        "platform": 18,
+        "top": 14
+      },
+      "examples": [
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "16",
+          "part": "platform",
+          "position": [
+            43.80613454621003,
+            1.2,
+            -2.034016617314503
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "17",
+          "part": "platform",
+          "position": [
+            43.803450953104154,
+            1.2,
+            -1.5249397898623864
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "17",
+          "part": "top",
+          "position": [
+            43.803450953104154,
+            1.2,
+            -1.5249397898623864
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "18",
+          "part": "platform",
+          "position": [
+            43.801533842927434,
+            1.2,
+            -1.016353990481064
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kintex-hall-9",
+      "name": "KINTEX · 第2展览中心 9号厅",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 13640,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "kspo-dome",
+      "name": "KSPO DOME",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 16633,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "kspo-dome",
+      "name": "KSPO DOME",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 16633,
+      "nonFinite": 0,
+      "collisions": 171,
+      "parts": {
+        "platform": 89,
+        "top": 82
+      },
+      "examples": [
+        {
+          "section": "19",
+          "row": "1",
+          "seat": "1",
+          "part": "platform",
+          "position": [
+            20.250436348203245,
+            1.3875,
+            -2.0105540796926853
+          ]
+        },
+        {
+          "section": "19",
+          "row": "1",
+          "seat": "2",
+          "part": "platform",
+          "position": [
+            20.289750712357797,
+            1.3875,
+            -1.5647734757390268
+          ]
+        },
+        {
+          "section": "19",
+          "row": "1",
+          "seat": "2",
+          "part": "top",
+          "position": [
+            20.289750712357797,
+            1.3875,
+            -1.5647734757390268
+          ]
+        },
+        {
+          "section": "19",
+          "row": "1",
+          "seat": "3",
+          "part": "platform",
+          "position": [
+            20.319253133118448,
+            1.3875,
+            -1.1182361612182687
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kspo-dome",
+      "name": "KSPO DOME",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 16633,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "kunming-tuodong-stadium",
+      "name": "昆明拓东体育场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 39840,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "kunming-tuodong-stadium",
+      "name": "昆明拓东体育场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 39840,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "kunming-tuodong-stadium",
+      "name": "昆明拓东体育场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 39840,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "kyocera-dome",
+      "name": "大阪京瓷巨蛋",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 54292,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "kyocera-dome",
+      "name": "大阪京瓷巨蛋",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 54292,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "kyocera-dome",
+      "name": "大阪京瓷巨蛋",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 54292,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "linyi-olympic-park-stadium",
+      "name": "临沂奥体公园体育场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 47040,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "linyi-olympic-park-stadium",
+      "name": "临沂奥体公园体育场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 47040,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "linyi-olympic-park-stadium",
+      "name": "临沂奥体公园体育场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 47040,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "london-the-o2",
+      "name": "伦敦 The O2 体育馆",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 24495,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "london-the-o2",
+      "name": "伦敦 The O2 体育馆",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 24495,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "london-the-o2",
+      "name": "伦敦 The O2 体育馆",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 24495,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "londoner-arena",
+      "name": "澳门伦敦人综艺馆",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 6718,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "londoner-arena",
+      "name": "澳门伦敦人综艺馆",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 6718,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "londoner-arena",
+      "name": "澳门伦敦人综艺馆",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 6718,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "londoner-theatre",
+      "name": "澳门伦敦人剧场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 2702,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "londoner-theatre",
+      "name": "澳门伦敦人剧场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 2702,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "londoner-theatre",
+      "name": "澳门伦敦人剧场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 2702,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "los-angeles-kia-forum",
+      "name": "洛杉矶 Kia Forum",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 13176,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "los-angeles-kia-forum",
+      "name": "洛杉矶 Kia Forum",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 13176,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "los-angeles-kia-forum",
+      "name": "洛杉矶 Kia Forum",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 13176,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "los-angeles-the-novo",
+      "name": "洛杉矶 The Novo",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 3202,
+      "nonFinite": 0,
+      "collisions": 140,
+      "parts": {
+        "platform": 140
+      },
+      "examples": [
+        {
+          "section": "base-floor-front",
+          "row": "6",
+          "seat": "22",
+          "part": "platform",
+          "position": [
+            1.7513513513513503,
+            0,
+            5
+          ]
+        },
+        {
+          "section": "base-floor-front",
+          "row": "6",
+          "seat": "23",
+          "part": "platform",
+          "position": [
+            2.3351351351351353,
+            0,
+            5
+          ]
+        },
+        {
+          "section": "base-floor-front",
+          "row": "6",
+          "seat": "24",
+          "part": "platform",
+          "position": [
+            2.918918918918918,
+            0,
+            5
+          ]
+        },
+        {
+          "section": "base-floor-front",
+          "row": "6",
+          "seat": "25",
+          "part": "platform",
+          "position": [
+            3.502702702702703,
+            0,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "los-angeles-the-novo",
+      "name": "洛杉矶 The Novo",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 3202,
+      "nonFinite": 0,
+      "collisions": 154,
+      "parts": {
+        "platform": 154
+      },
+      "examples": [
+        {
+          "section": "base-floor-front",
+          "row": "6",
+          "seat": "22",
+          "part": "platform",
+          "position": [
+            1.7513513513513503,
+            0,
+            5
+          ]
+        },
+        {
+          "section": "base-floor-front",
+          "row": "6",
+          "seat": "23",
+          "part": "platform",
+          "position": [
+            2.3351351351351353,
+            0,
+            5
+          ]
+        },
+        {
+          "section": "base-floor-front",
+          "row": "6",
+          "seat": "24",
+          "part": "platform",
+          "position": [
+            2.918918918918918,
+            0,
+            5
+          ]
+        },
+        {
+          "section": "base-floor-front",
+          "row": "6",
+          "seat": "25",
+          "part": "platform",
+          "position": [
+            3.502702702702703,
+            0,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "los-angeles-the-novo",
+      "name": "洛杉矶 The Novo",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 3202,
+      "nonFinite": 0,
+      "collisions": 136,
+      "parts": {
+        "platform": 136
+      },
+      "examples": [
+        {
+          "section": "base-floor-front",
+          "row": "7",
+          "seat": "11",
+          "part": "platform",
+          "position": [
+            -4.6702702702702705,
+            0,
+            4.090909090909091
+          ]
+        },
+        {
+          "section": "base-floor-front",
+          "row": "7",
+          "seat": "12",
+          "part": "platform",
+          "position": [
+            -4.0864864864864865,
+            0,
+            4.090909090909091
+          ]
+        },
+        {
+          "section": "base-floor-front",
+          "row": "7",
+          "seat": "13",
+          "part": "platform",
+          "position": [
+            -3.502702702702703,
+            0,
+            4.090909090909091
+          ]
+        },
+        {
+          "section": "base-floor-front",
+          "row": "7",
+          "seat": "14",
+          "part": "platform",
+          "position": [
+            -2.9189189189189193,
+            0,
+            4.090909090909091
+          ]
+        }
+      ]
+    },
+    {
+      "id": "luoyang-olympic-stadium",
+      "name": "洛阳奥林匹克体育中心体育场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 55056,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "luoyang-olympic-stadium",
+      "name": "洛阳奥林匹克体育中心体育场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 55056,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "luoyang-olympic-stadium",
+      "name": "洛阳奥林匹克体育中心体育场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 55056,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "macau-grand-lisboa-palace",
+      "name": "澳门上葡京综艺馆",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 6760,
+      "nonFinite": 0,
+      "collisions": 44,
+      "parts": {
+        "platform": 36,
+        "top": 8
+      },
+      "examples": [
+        {
+          "section": "L1-03",
+          "row": "2",
+          "seat": "31",
+          "part": "platform",
+          "position": [
+            28.219011374456752,
+            1.6,
+            -10.47918163298033
+          ]
+        },
+        {
+          "section": "L1-03",
+          "row": "2",
+          "seat": "32",
+          "part": "platform",
+          "position": [
+            28.196463232713306,
+            1.6,
+            -10.058057098781232
+          ]
+        },
+        {
+          "section": "L1-03",
+          "row": "2",
+          "seat": "32",
+          "part": "top",
+          "position": [
+            28.196463232713306,
+            1.6,
+            -10.058057098781232
+          ]
+        },
+        {
+          "section": "L1-03",
+          "row": "2",
+          "seat": "33",
+          "part": "platform",
+          "position": [
+            28.17471758851724,
+            1.6,
+            -9.641653153642057
+          ]
+        }
+      ]
+    },
+    {
+      "id": "macau-grand-lisboa-palace",
+      "name": "澳门上葡京综艺馆",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 6760,
+      "nonFinite": 0,
+      "collisions": 80,
+      "parts": {
+        "platform": 56,
+        "top": 24
+      },
+      "examples": [
+        {
+          "section": "L1-03",
+          "row": "2",
+          "seat": "31",
+          "part": "platform",
+          "position": [
+            28.219011374456752,
+            1.6,
+            -10.47918163298033
+          ]
+        },
+        {
+          "section": "L1-03",
+          "row": "2",
+          "seat": "32",
+          "part": "platform",
+          "position": [
+            28.196463232713306,
+            1.6,
+            -10.058057098781232
+          ]
+        },
+        {
+          "section": "L1-03",
+          "row": "2",
+          "seat": "32",
+          "part": "top",
+          "position": [
+            28.196463232713306,
+            1.6,
+            -10.058057098781232
+          ]
+        },
+        {
+          "section": "L1-03",
+          "row": "2",
+          "seat": "33",
+          "part": "platform",
+          "position": [
+            28.17471758851724,
+            1.6,
+            -9.641653153642057
+          ]
+        }
+      ]
+    },
+    {
+      "id": "macau-grand-lisboa-palace",
+      "name": "澳门上葡京综艺馆",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 6760,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "makuhari-halls-1-3",
+      "name": "幕张展览馆 · 国际展示场 1–3 号厅",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 11120,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "makuhari-halls-1-3",
+      "name": "幕张展览馆 · 国际展示场 1–3 号厅",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 11120,
+      "nonFinite": 0,
+      "collisions": 52,
+      "parts": {
+        "platform": 28,
+        "top": 24
+      },
+      "examples": [
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "9",
+          "part": "platform",
+          "position": [
+            32.32735936792167,
+            1.2,
+            -3.178839841390391
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "10",
+          "part": "platform",
+          "position": [
+            32.31959311536838,
+            1.2,
+            -2.6866870513229606
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "10",
+          "part": "top",
+          "position": [
+            32.31959311536838,
+            1.2,
+            -2.6866870513229606
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "11",
+          "part": "platform",
+          "position": [
+            32.313118538354885,
+            1.2,
+            -2.196088422806639
+          ]
+        }
+      ]
+    },
+    {
+      "id": "makuhari-halls-1-3",
+      "name": "幕张展览馆 · 国际展示场 1–3 号厅",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 11120,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "makuhari-halls-4-6",
+      "name": "幕张展览馆 · 国际展示场 4–6 号厅",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 11120,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "makuhari-halls-4-6",
+      "name": "幕张展览馆 · 国际展示场 4–6 号厅",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 11120,
+      "nonFinite": 0,
+      "collisions": 52,
+      "parts": {
+        "platform": 28,
+        "top": 24
+      },
+      "examples": [
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "9",
+          "part": "platform",
+          "position": [
+            32.32735936792167,
+            1.2,
+            -3.178839841390391
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "10",
+          "part": "platform",
+          "position": [
+            32.31959311536838,
+            1.2,
+            -2.6866870513229606
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "10",
+          "part": "top",
+          "position": [
+            32.31959311536838,
+            1.2,
+            -2.6866870513229606
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "11",
+          "part": "platform",
+          "position": [
+            32.313118538354885,
+            1.2,
+            -2.196088422806639
+          ]
+        }
+      ]
+    },
+    {
+      "id": "makuhari-halls-4-6",
+      "name": "幕张展览馆 · 国际展示场 4–6 号厅",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 11120,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "marvel-stadium",
+      "name": "Marvel Stadium · 漫威体育场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 30060,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "marvel-stadium",
+      "name": "Marvel Stadium · 漫威体育场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 30060,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "marvel-stadium",
+      "name": "Marvel Stadium · 漫威体育场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 30060,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "melbourne-rod-laver-arena",
+      "name": "墨尔本罗德·拉沃尔竞技场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 16516,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "melbourne-rod-laver-arena",
+      "name": "墨尔本罗德·拉沃尔竞技场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 16516,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "melbourne-rod-laver-arena",
+      "name": "墨尔本罗德·拉沃尔竞技场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 16516,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "mercedes-benz-arena",
+      "name": "梅赛德斯-奔驰文化中心",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 23012,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "mercedes-benz-arena",
+      "name": "梅赛德斯-奔驰文化中心",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 23012,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "mercedes-benz-arena",
+      "name": "梅赛德斯-奔驰文化中心",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 23012,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "moa-arena",
+      "name": "SM 亚洲购物中心竞技场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 20408,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "moa-arena",
+      "name": "SM 亚洲购物中心竞技场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 20408,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "moa-arena",
+      "name": "SM 亚洲购物中心竞技场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 20408,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "my-dinh",
+      "name": "美亭国家体育场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 51128,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "my-dinh",
+      "name": "美亭国家体育场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 51128,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "my-dinh",
+      "name": "美亭国家体育场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 51128,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "nanchang-international-stadium",
+      "name": "南昌国际体育中心体育场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 57596,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "nanchang-international-stadium",
+      "name": "南昌国际体育中心体育场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 57596,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "nanchang-international-stadium",
+      "name": "南昌国际体育中心体育场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 57596,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "nanjing-olympic-gymnasium",
+      "name": "南京奥体中心国缘V9体育馆",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 23868,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "nanjing-olympic-gymnasium",
+      "name": "南京奥体中心国缘V9体育馆",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 23868,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "nanjing-olympic-gymnasium",
+      "name": "南京奥体中心国缘V9体育馆",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 23868,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "nanjing-olympic-stadium",
+      "name": "南京奥体中心体育场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 56936,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "nanjing-olympic-stadium",
+      "name": "南京奥体中心体育场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 56936,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "nanjing-olympic-stadium",
+      "name": "南京奥体中心体育场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 56936,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "nanjing-youth-olympic-gymnasium",
+      "name": "南京梦之蓝青奥体育公园体育馆",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 8180,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "nanjing-youth-olympic-gymnasium",
+      "name": "南京梦之蓝青奥体育公园体育馆",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 8180,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "nanjing-youth-olympic-gymnasium",
+      "name": "南京梦之蓝青奥体育公园体育馆",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 8180,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "national-hockey",
+      "name": "武吉加里尔国家曲棍球场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 10720,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "national-hockey",
+      "name": "武吉加里尔国家曲棍球场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 10720,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "national-hockey",
+      "name": "武吉加里尔国家曲棍球场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 10720,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "national-indoor",
+      "name": "国家体育馆",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 23900,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "national-indoor",
+      "name": "国家体育馆",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 23900,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "national-indoor",
+      "name": "国家体育馆",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 23900,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "nissan-stadium",
+      "name": "日产体育场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 36914,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "nissan-stadium",
+      "name": "日产体育场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 36914,
+      "nonFinite": 0,
+      "collisions": 55,
+      "parts": {
+        "platform": 28,
+        "top": 27
+      },
+      "examples": [
+        {
+          "section": "W14",
+          "row": "1",
+          "seat": "21",
+          "part": "platform",
+          "position": [
+            68.90429907771373,
+            1.2,
+            -3.5486154589890693
+          ]
+        },
+        {
+          "section": "W14",
+          "row": "1",
+          "seat": "22",
+          "part": "platform",
+          "position": [
+            68.91812317191065,
+            1.2,
+            -3.0092172161330044
+          ]
+        },
+        {
+          "section": "W14",
+          "row": "1",
+          "seat": "22",
+          "part": "top",
+          "position": [
+            68.91812317191065,
+            1.2,
+            -3.0092172161330044
+          ]
+        },
+        {
+          "section": "W14",
+          "row": "1",
+          "seat": "23",
+          "part": "platform",
+          "position": [
+            68.92967292368475,
+            1.2,
+            -2.469719667171966
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nissan-stadium",
+      "name": "日产体育场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 36914,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "ntsu-arena",
+      "name": "国立体育大学综合体育馆",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 10260,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "ntsu-arena",
+      "name": "国立体育大学综合体育馆",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 10260,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "ntsu-arena",
+      "name": "国立体育大学综合体育馆",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 10260,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "olympic-hall",
+      "name": "奥林匹克 Hall",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 4288,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "olympic-hall",
+      "name": "奥林匹克 Hall",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 4288,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "olympic-hall",
+      "name": "奥林匹克 Hall",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 4288,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "oriental-sports",
+      "name": "东方体育中心 · 海上王冠",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 22272,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "oriental-sports",
+      "name": "东方体育中心 · 海上王冠",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 22272,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "oriental-sports",
+      "name": "东方体育中心 · 海上王冠",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 22272,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "ovo-arena-wembley",
+      "name": "OVO Arena Wembley",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 16496,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "ovo-arena-wembley",
+      "name": "OVO Arena Wembley",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 16496,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "ovo-arena-wembley",
+      "name": "OVO Arena Wembley",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 16496,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "paris-stade-de-france",
+      "name": "法兰西体育场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 62688,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "paris-stade-de-france",
+      "name": "法兰西体育场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 62688,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "paris-stade-de-france",
+      "name": "法兰西体育场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 62688,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "paypay-dome",
+      "name": "福冈 Mizuho PayPay Dome",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 56987,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "paypay-dome",
+      "name": "福冈 Mizuho PayPay Dome",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 56987,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "paypay-dome",
+      "name": "福冈 Mizuho PayPay Dome",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 56987,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "philippine-arena",
+      "name": "菲律宾竞技场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 64710,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "philippine-arena",
+      "name": "菲律宾竞技场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 64710,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "philippine-arena",
+      "name": "菲律宾竞技场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 64710,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "qingdao-citizen-stadium",
+      "name": "青岛市民健身中心体育场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 37724,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "qingdao-citizen-stadium",
+      "name": "青岛市民健身中心体育场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 37724,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "qingdao-citizen-stadium",
+      "name": "青岛市民健身中心体育场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 37724,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "qingdao-guoxin-gymnasium",
+      "name": "青岛市体育中心国信体育馆",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 12608,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "qingdao-guoxin-gymnasium",
+      "name": "青岛市体育中心国信体育馆",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 12608,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "qingdao-guoxin-gymnasium",
+      "name": "青岛市体育中心国信体育馆",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 12608,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "qingdao-guoxin-stadium",
+      "name": "青岛国信体育中心体育场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 38448,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "qingdao-guoxin-stadium",
+      "name": "青岛国信体育中心体育场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 38448,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "qingdao-guoxin-stadium",
+      "name": "青岛国信体育中心体育场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 38448,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "qingyuan-sports-center-stadium",
+      "name": "清远体育中心体育场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 27720,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "qingyuan-sports-center-stadium",
+      "name": "清远体育中心体育场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 27720,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "qingyuan-sports-center-stadium",
+      "name": "清远体育中心体育场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 27720,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "rajamangala",
+      "name": "拉加曼加拉国家体育场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 78260,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "rajamangala",
+      "name": "拉加曼加拉国家体育场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 78260,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "rajamangala",
+      "name": "拉加曼加拉国家体育场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 78260,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "saitama-arena",
+      "name": "埼玉超级竞技场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 39109,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "saitama-arena",
+      "name": "埼玉超级竞技场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 39109,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "saitama-arena",
+      "name": "埼玉超级竞技场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 39109,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "sajik-gymnasium",
+      "name": "社稷室内体育馆",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 17384,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "sajik-gymnasium",
+      "name": "社稷室内体育馆",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 17384,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "sajik-gymnasium",
+      "name": "社稷室内体育馆",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 17384,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "sanya-egret-gymnasium",
+      "name": "三亚体育中心白鹭体育馆",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 14832,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "sanya-egret-gymnasium",
+      "name": "三亚体育中心白鹭体育馆",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 14832,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "sanya-egret-gymnasium",
+      "name": "三亚体育中心白鹭体育馆",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 14832,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "sanya-egret-stadium",
+      "name": "三亚国际体育中心白鹭体育场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 34416,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "sanya-egret-stadium",
+      "name": "三亚国际体育中心白鹭体育场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 34416,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "sanya-egret-stadium",
+      "name": "三亚国际体育中心白鹭体育场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 34416,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "shanghai-jingan-gymnasium",
+      "name": "上海静安体育中心体育馆",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 5012,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "shanghai-jingan-gymnasium",
+      "name": "上海静安体育中心体育馆",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 5012,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "shanghai-jingan-gymnasium",
+      "name": "上海静安体育中心体育馆",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 5012,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "shanghai-stadium",
+      "name": "上海体育场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 74044,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "shanghai-stadium",
+      "name": "上海体育场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 74044,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "shanghai-stadium",
+      "name": "上海体育场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 74044,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "shanxi-sports-stadium",
+      "name": "山西体育中心体育场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 303000,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "shanxi-sports-stadium",
+      "name": "山西体育中心体育场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 303000,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "shanxi-sports-stadium",
+      "name": "山西体育中心体育场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 303000,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "shaoxing-olympic-gymnasium",
+      "name": "绍兴奥体中心阿里巴巴文娱体育馆",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 10864,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "shaoxing-olympic-gymnasium",
+      "name": "绍兴奥体中心阿里巴巴文娱体育馆",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 10864,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "shaoxing-olympic-gymnasium",
+      "name": "绍兴奥体中心阿里巴巴文娱体育馆",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 10864,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "shenzhen-baoan-gymnasium",
+      "name": "深圳市宝安体育中心体育馆",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 2926,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "shenzhen-baoan-gymnasium",
+      "name": "深圳市宝安体育中心体育馆",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 2926,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "shenzhen-baoan-gymnasium",
+      "name": "深圳市宝安体育中心体育馆",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 2926,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "shenzhen-baoan-stadium",
+      "name": "深圳市宝安体育中心体育场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 25838,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "shenzhen-baoan-stadium",
+      "name": "深圳市宝安体育中心体育场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 25838,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "shenzhen-baoan-stadium",
+      "name": "深圳市宝安体育中心体育场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 25838,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "shenzhen-bay-gymnasium",
+      "name": "深圳湾体育中心体育馆 · 春茧",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 20930,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "shenzhen-bay-gymnasium",
+      "name": "深圳湾体育中心体育馆 · 春茧",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 20930,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "shenzhen-bay-gymnasium",
+      "name": "深圳湾体育中心体育馆 · 春茧",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 20930,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "shenzhen-sports-center-stadium",
+      "name": "深圳市体育中心体育场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 47348,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "shenzhen-sports-center-stadium",
+      "name": "深圳市体育中心体育场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 47348,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "shenzhen-sports-center-stadium",
+      "name": "深圳市体育中心体育场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 47348,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "shenzhen-universiade-gymnasium",
+      "name": "深圳大运中心体育馆",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 24344,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "shenzhen-universiade-gymnasium",
+      "name": "深圳大运中心体育馆",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 24344,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "shenzhen-universiade-gymnasium",
+      "name": "深圳大运中心体育馆",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 24344,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "shenzhen-universiade-stadium",
+      "name": "深圳大运中心体育场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 74424,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "shenzhen-universiade-stadium",
+      "name": "深圳大运中心体育场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 74424,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "shenzhen-universiade-stadium",
+      "name": "深圳大运中心体育场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 74424,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "singapore-arena-expo",
+      "name": "新加坡 Arena @ EXPO",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 8240,
+      "nonFinite": 0,
+      "collisions": 189,
+      "parts": {
+        "platform": 82,
+        "top": 65,
+        "screen": 27,
+        "frame": 15
+      },
+      "examples": [
+        {
+          "section": "L1-03",
+          "row": "1",
+          "seat": "39",
+          "part": "platform",
+          "position": [
+            34.635382715946186,
+            1.2,
+            -12.437118817940847
+          ]
+        },
+        {
+          "section": "L1-03",
+          "row": "1",
+          "seat": "40",
+          "part": "platform",
+          "position": [
+            34.61541330541282,
+            1.2,
+            -12.020344227350392
+          ]
+        },
+        {
+          "section": "L1-03",
+          "row": "1",
+          "seat": "40",
+          "part": "top",
+          "position": [
+            34.61541330541282,
+            1.2,
+            -12.020344227350392
+          ]
+        },
+        {
+          "section": "L1-03",
+          "row": "1",
+          "seat": "41",
+          "part": "platform",
+          "position": [
+            34.596039881055454,
+            1.2,
+            -11.607222537670289
+          ]
+        }
+      ]
+    },
+    {
+      "id": "singapore-arena-expo",
+      "name": "新加坡 Arena @ EXPO",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 8240,
+      "nonFinite": 0,
+      "collisions": 221,
+      "parts": {
+        "platform": 100,
+        "top": 79,
+        "screen": 27,
+        "frame": 15
+      },
+      "examples": [
+        {
+          "section": "L1-03",
+          "row": "1",
+          "seat": "39",
+          "part": "platform",
+          "position": [
+            34.635382715946186,
+            1.2,
+            -12.437118817940847
+          ]
+        },
+        {
+          "section": "L1-03",
+          "row": "1",
+          "seat": "40",
+          "part": "platform",
+          "position": [
+            34.61541330541282,
+            1.2,
+            -12.020344227350392
+          ]
+        },
+        {
+          "section": "L1-03",
+          "row": "1",
+          "seat": "40",
+          "part": "top",
+          "position": [
+            34.61541330541282,
+            1.2,
+            -12.020344227350392
+          ]
+        },
+        {
+          "section": "L1-03",
+          "row": "1",
+          "seat": "41",
+          "part": "platform",
+          "position": [
+            34.596039881055454,
+            1.2,
+            -11.607222537670289
+          ]
+        }
+      ]
+    },
+    {
+      "id": "singapore-arena-expo",
+      "name": "新加坡 Arena @ EXPO",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 8240,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "singapore-capitol-theatre",
+      "name": "新加坡首都剧院 Capitol Theatre",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 8100,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "singapore-capitol-theatre",
+      "name": "新加坡首都剧院 Capitol Theatre",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 8100,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "singapore-capitol-theatre",
+      "name": "新加坡首都剧院 Capitol Theatre",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 8100,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "singapore-indoor",
+      "name": "新加坡室内体育馆",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 18883,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "singapore-indoor",
+      "name": "新加坡室内体育馆",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 18883,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "singapore-indoor",
+      "name": "新加坡室内体育馆",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 18883,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "singapore-mediacorp-theatre",
+      "name": "新加坡新传媒剧院",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 32600,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "singapore-mediacorp-theatre",
+      "name": "新加坡新传媒剧院",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 32600,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "singapore-mediacorp-theatre",
+      "name": "新加坡新传媒剧院",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 32600,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "singapore-national",
+      "name": "新加坡国家体育场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 321400,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "singapore-national",
+      "name": "新加坡国家体育场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 321400,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "singapore-national",
+      "name": "新加坡国家体育场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 321400,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "singapore-sands-grand-ballroom",
+      "name": "新加坡金沙会展中心五楼大宴会厅",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 10560,
+      "nonFinite": 0,
+      "collisions": 328,
+      "parts": {
+        "platform": 88,
+        "top": 88,
+        "screen": 78,
+        "frame": 74
+      },
+      "examples": [
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "1",
+          "part": "platform",
+          "position": [
+            50.29039719050269,
+            1.2,
+            -11.301573174308444
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "1",
+          "part": "top",
+          "position": [
+            50.29039719050269,
+            1.2,
+            -11.301573174308444
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "2",
+          "part": "platform",
+          "position": [
+            50.2775069369592,
+            1.2,
+            -10.756871114712402
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "2",
+          "part": "top",
+          "position": [
+            50.2775069369592,
+            1.2,
+            -10.756871114712402
+          ]
+        }
+      ]
+    },
+    {
+      "id": "singapore-sands-grand-ballroom",
+      "name": "新加坡金沙会展中心五楼大宴会厅",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 10560,
+      "nonFinite": 0,
+      "collisions": 328,
+      "parts": {
+        "platform": 88,
+        "top": 88,
+        "screen": 78,
+        "frame": 74
+      },
+      "examples": [
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "1",
+          "part": "platform",
+          "position": [
+            50.29039719050269,
+            1.2,
+            -11.301573174308444
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "1",
+          "part": "top",
+          "position": [
+            50.29039719050269,
+            1.2,
+            -11.301573174308444
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "2",
+          "part": "platform",
+          "position": [
+            50.2775069369592,
+            1.2,
+            -10.756871114712402
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "2",
+          "part": "top",
+          "position": [
+            50.2775069369592,
+            1.2,
+            -10.756871114712402
+          ]
+        }
+      ]
+    },
+    {
+      "id": "singapore-sands-grand-ballroom",
+      "name": "新加坡金沙会展中心五楼大宴会厅",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 10560,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "smdc-festival",
+      "name": "SMDC Festival Grounds",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 15680,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "smdc-festival",
+      "name": "SMDC Festival Grounds",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 15680,
+      "nonFinite": 0,
+      "collisions": 32,
+      "parts": {
+        "platform": 18,
+        "top": 14
+      },
+      "examples": [
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "15",
+          "part": "platform",
+          "position": [
+            41.3068155287949,
+            1.2,
+            -2.021802839617837
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "16",
+          "part": "platform",
+          "position": [
+            41.30383406929043,
+            1.2,
+            -1.515713420919395
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "16",
+          "part": "top",
+          "position": [
+            41.30383406929043,
+            1.2,
+            -1.515713420919395
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "17",
+          "part": "platform",
+          "position": [
+            41.301704136942824,
+            1.2,
+            -1.010171671185894
+          ]
+        }
+      ]
+    },
+    {
+      "id": "smdc-festival",
+      "name": "SMDC Festival Grounds",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 15680,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "star-theatre",
+      "name": "星宇表演艺术中心 · 星宇剧场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 8006,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "star-theatre",
+      "name": "星宇表演艺术中心 · 星宇剧场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 8006,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "star-theatre",
+      "name": "星宇表演艺术中心 · 星宇剧场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 8006,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "studio-city",
+      "name": "新濠影汇综艺馆",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 10624,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "studio-city",
+      "name": "新濠影汇综艺馆",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 10624,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "studio-city",
+      "name": "新濠影汇综艺馆",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 10624,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "suzhou-sports-center-gymnasium",
+      "name": "苏州体育中心体育馆",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 13552,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "suzhou-sports-center-gymnasium",
+      "name": "苏州体育中心体育馆",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 13552,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "suzhou-sports-center-gymnasium",
+      "name": "苏州体育中心体育馆",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 13552,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "sydney-accor-stadium",
+      "name": "Accor Stadium（悉尼雅高体育场）",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 53064,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "sydney-accor-stadium",
+      "name": "Accor Stadium（悉尼雅高体育场）",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 53064,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "sydney-accor-stadium",
+      "name": "Accor Stadium（悉尼雅高体育场）",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 53064,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "taipei-arena",
+      "name": "台北小巨蛋",
+      "layout": "end",
+      "sourceSeats": true,
+      "chairs": 10000,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "taipei-arena",
+      "name": "台北小巨蛋",
+      "layout": "center",
+      "sourceSeats": true,
+      "chairs": 12877,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "taipei-dome",
+      "name": "台北大巨蛋",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 108209,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "taipei-dome",
+      "name": "台北大巨蛋",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 108209,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "taipei-dome",
+      "name": "台北大巨蛋",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 108209,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "thunder-dome",
+      "name": "Thunder Dome",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 3892,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "thunder-dome",
+      "name": "Thunder Dome",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 3892,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "thunder-dome",
+      "name": "Thunder Dome",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 3892,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "tianhe-stadium",
+      "name": "天河体育场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 55948,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "tianhe-stadium",
+      "name": "天河体育场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 55948,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "tianhe-stadium",
+      "name": "天河体育场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 55948,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "tianjin-olympic-gymnasium",
+      "name": "天津奥林匹克中心体育馆",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 13792,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "tianjin-olympic-gymnasium",
+      "name": "天津奥林匹克中心体育馆",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 13792,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "tianjin-olympic-gymnasium",
+      "name": "天津奥林匹克中心体育馆",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 13792,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "tianjin-olympic-stadium",
+      "name": "天津奥林匹克中心体育场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 38448,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "tianjin-olympic-stadium",
+      "name": "天津奥林匹克中心体育场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 38448,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "tianjin-olympic-stadium",
+      "name": "天津奥林匹克中心体育场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 38448,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "tiktok-entertainment-centre",
+      "name": "TikTok Entertainment Centre",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 17624,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "tiktok-entertainment-centre",
+      "name": "TikTok Entertainment Centre",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 17624,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "tiktok-entertainment-centre",
+      "name": "TikTok Entertainment Centre",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 17624,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "tokyo-dome",
+      "name": "东京巨蛋",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 33154,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "tokyo-dome",
+      "name": "东京巨蛋",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 33154,
+      "nonFinite": 0,
+      "collisions": 46,
+      "parts": {
+        "platform": 25,
+        "top": 21
+      },
+      "examples": [
+        {
+          "section": "A25",
+          "row": "1",
+          "seat": "5",
+          "part": "platform",
+          "position": [
+            58.534254842739976,
+            1.4444444444444444,
+            -3.7771280615389538
+          ]
+        },
+        {
+          "section": "A25",
+          "row": "1",
+          "seat": "6",
+          "part": "platform",
+          "position": [
+            58.56286003158378,
+            1.4444444444444444,
+            -3.250483769281133
+          ]
+        },
+        {
+          "section": "A25",
+          "row": "1",
+          "seat": "6",
+          "part": "top",
+          "position": [
+            58.56286003158378,
+            1.4444444444444444,
+            -3.250483769281133
+          ]
+        },
+        {
+          "section": "A25",
+          "row": "1",
+          "seat": "7",
+          "part": "platform",
+          "position": [
+            58.58717694610075,
+            1.4444444444444444,
+            -2.7236014598552623
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tokyo-dome",
+      "name": "东京巨蛋",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 33154,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "tokyo-garden-theater",
+      "name": "东京花园剧场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 9058,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "tokyo-garden-theater",
+      "name": "东京花园剧场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 9058,
+      "nonFinite": 0,
+      "collisions": 35,
+      "parts": {
+        "platform": 35
+      },
+      "examples": [
+        {
+          "section": "XB",
+          "row": "1",
+          "seat": "5",
+          "part": "platform",
+          "position": [
+            -1.8000000000000003,
+            0,
+            12
+          ]
+        },
+        {
+          "section": "XB",
+          "row": "1",
+          "seat": "6",
+          "part": "platform",
+          "position": [
+            -1.2000000000000002,
+            0,
+            12
+          ]
+        },
+        {
+          "section": "XB",
+          "row": "1",
+          "seat": "7",
+          "part": "platform",
+          "position": [
+            -0.5999999999999999,
+            0,
+            12
+          ]
+        },
+        {
+          "section": "XB",
+          "row": "1",
+          "seat": "8",
+          "part": "platform",
+          "position": [
+            0,
+            0,
+            12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tokyo-garden-theater",
+      "name": "东京花园剧场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 9058,
+      "nonFinite": 0,
+      "collisions": 323,
+      "parts": {
+        "platform": 323
+      },
+      "examples": [
+        {
+          "section": "XA",
+          "row": "4",
+          "seat": "1",
+          "part": "platform",
+          "position": [
+            8.26153846153846,
+            0,
+            9
+          ]
+        },
+        {
+          "section": "XA",
+          "row": "5",
+          "seat": "1",
+          "part": "platform",
+          "position": [
+            8.26153846153846,
+            0,
+            8
+          ]
+        },
+        {
+          "section": "XB",
+          "row": "4",
+          "seat": "1",
+          "part": "platform",
+          "position": [
+            -4.2,
+            0,
+            9
+          ]
+        },
+        {
+          "section": "XB",
+          "row": "4",
+          "seat": "2",
+          "part": "platform",
+          "position": [
+            -3.6000000000000005,
+            0,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unifi-arena",
+      "name": "Unifi Arena · 原 Axiata",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 21360,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "unifi-arena",
+      "name": "Unifi Arena · 原 Axiata",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 21360,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "unifi-arena",
+      "name": "Unifi Arena · 原 Axiata",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 21360,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "union-hall",
+      "name": "UNION HALL · Hall 2",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 8720,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "union-hall",
+      "name": "UNION HALL · Hall 2",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 8720,
+      "nonFinite": 0,
+      "collisions": 58,
+      "parts": {
+        "platform": 42,
+        "top": 16
+      },
+      "examples": [
+        {
+          "section": "L1-03",
+          "row": "1",
+          "seat": "24",
+          "part": "platform",
+          "position": [
+            18.347567771789304,
+            1.2,
+            -6.1729276232001355
+          ]
+        },
+        {
+          "section": "L1-03",
+          "row": "1",
+          "seat": "25",
+          "part": "platform",
+          "position": [
+            18.315563260497832,
+            1.2,
+            -5.795405967189848
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "1",
+          "part": "platform",
+          "position": [
+            18.1795716956613,
+            1.2,
+            -3.9438495555810364
+          ]
+        },
+        {
+          "section": "L1-04",
+          "row": "1",
+          "seat": "2",
+          "part": "platform",
+          "position": [
+            18.150962670846475,
+            1.2,
+            -3.462481309552326
+          ]
+        }
+      ]
+    },
+    {
+      "id": "union-hall",
+      "name": "UNION HALL · Hall 2",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 8720,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "urumqi-olympic-gymnasium",
+      "name": "乌鲁木齐奥林匹克体育中心综合体育馆",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 14832,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "urumqi-olympic-gymnasium",
+      "name": "乌鲁木齐奥林匹克体育中心综合体育馆",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 14832,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "urumqi-olympic-gymnasium",
+      "name": "乌鲁木齐奥林匹克体育中心综合体育馆",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 14832,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "vancouver-rogers-arena",
+      "name": "Rogers Arena（温哥华罗杰斯体育馆）",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 14552,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "vancouver-rogers-arena",
+      "name": "Rogers Arena（温哥华罗杰斯体育馆）",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 14552,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "vancouver-rogers-arena",
+      "name": "Rogers Arena（温哥华罗杰斯体育馆）",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 14552,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "vantelin-dome",
+      "name": "名古屋 Vantelin Dome",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 58152,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "vantelin-dome",
+      "name": "名古屋 Vantelin Dome",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 58152,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "vantelin-dome",
+      "name": "名古屋 Vantelin Dome",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 58152,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "venetian-arena",
+      "name": "威尼斯人综艺馆",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 17802,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "venetian-arena",
+      "name": "威尼斯人综艺馆",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 17802,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "venetian-arena",
+      "name": "威尼斯人综艺馆",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 17802,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "wembley",
+      "name": "Wembley Stadium",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 48714,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "wembley",
+      "name": "Wembley Stadium",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 48714,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "wembley",
+      "name": "Wembley Stadium",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 48714,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "wenzhou-olympic-stadium",
+      "name": "温州奥体中心体育场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 56936,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "wenzhou-olympic-stadium",
+      "name": "温州奥体中心体育场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 56936,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "wenzhou-olympic-stadium",
+      "name": "温州奥体中心体育场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 56936,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "wuhan-five-rings-stadium",
+      "name": "武汉五环体育中心体育场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 38448,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "wuhan-five-rings-stadium",
+      "name": "武汉五环体育中心体育场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 38448,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "wuhan-five-rings-stadium",
+      "name": "武汉五环体育中心体育场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 38448,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "wuhan-sports-center-gymnasium",
+      "name": "武汉体育中心体育馆",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 16992,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "wuhan-sports-center-gymnasium",
+      "name": "武汉体育中心体育馆",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 16992,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "wuhan-sports-center-gymnasium",
+      "name": "武汉体育中心体育馆",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 16992,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "wukesong",
+      "name": "五棵松体育馆",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 21216,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "wukesong",
+      "name": "五棵松体育馆",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 21216,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "wukesong",
+      "name": "五棵松体育馆",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 21216,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "wuxi-olympic-stadium",
+      "name": "无锡奥体中心体育场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 40704,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "wuxi-olympic-stadium",
+      "name": "无锡奥体中心体育场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 40704,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "wuxi-olympic-stadium",
+      "name": "无锡奥体中心体育场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 40704,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "xiamen-egret-stadium",
+      "name": "厦门白鹭体育场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 72714,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "xiamen-egret-stadium",
+      "name": "厦门白鹭体育场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 72714,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "xiamen-egret-stadium",
+      "name": "厦门白鹭体育场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 72714,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "xiamen-phoenix-gymnasium",
+      "name": "厦门奥林匹克体育中心凤凰体育馆",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 14832,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "xiamen-phoenix-gymnasium",
+      "name": "厦门奥林匹克体育中心凤凰体育馆",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 14832,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "xiamen-phoenix-gymnasium",
+      "name": "厦门奥林匹克体育中心凤凰体育馆",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 14832,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "xian-olympic-stadium",
+      "name": "西安奥体中心体育场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 56364,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "xian-olympic-stadium",
+      "name": "西安奥体中心体育场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 56364,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "xian-olympic-stadium",
+      "name": "西安奥体中心体育场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 56364,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "xuzhou-olympic-stadium",
+      "name": "徐州奥体中心体育场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 32780,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "xuzhou-olympic-stadium",
+      "name": "徐州奥体中心体育场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 32780,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "xuzhou-olympic-stadium",
+      "name": "徐州奥体中心体育场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 32780,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "yantai-bajiaowan-gymnasium",
+      "name": "烟台八角湾国际体育中心体育馆",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 12784,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "yantai-bajiaowan-gymnasium",
+      "name": "烟台八角湾国际体育中心体育馆",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 12784,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "yantai-bajiaowan-gymnasium",
+      "name": "烟台八角湾国际体育中心体育馆",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 12784,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "zenith-paris",
+      "name": "巴黎天顶音乐厅",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 8208,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "zenith-paris",
+      "name": "巴黎天顶音乐厅",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 8208,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "zenith-paris",
+      "name": "巴黎天顶音乐厅",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 8208,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "zhengzhou-olympic-gymnasium",
+      "name": "郑州市奥林匹克体育中心体育馆",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 12016,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "zhengzhou-olympic-gymnasium",
+      "name": "郑州市奥林匹克体育中心体育馆",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 12016,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "zhengzhou-olympic-gymnasium",
+      "name": "郑州市奥林匹克体育中心体育馆",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 12016,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "zhengzhou-olympic-stadium",
+      "name": "郑州奥林匹克体育中心体育场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 54920,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "zhengzhou-olympic-stadium",
+      "name": "郑州奥林匹克体育中心体育场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 54920,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "zhengzhou-olympic-stadium",
+      "name": "郑州奥林匹克体育中心体育场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 54920,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "zhenjiang-sports-exhibition-stadium",
+      "name": "镇江体育会展中心体育场",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 28392,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "zhenjiang-sports-exhibition-stadium",
+      "name": "镇江体育会展中心体育场",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 28392,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "zhenjiang-sports-exhibition-stadium",
+      "name": "镇江体育会展中心体育场",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 28392,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "zhuji-xishi-basketball-center",
+      "name": "诸暨西施篮球中心",
+      "layout": "end",
+      "sourceSeats": false,
+      "chairs": 12544,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "zhuji-xishi-basketball-center",
+      "name": "诸暨西施篮球中心",
+      "layout": "runway",
+      "sourceSeats": false,
+      "chairs": 12544,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    },
+    {
+      "id": "zhuji-xishi-basketball-center",
+      "name": "诸暨西施篮球中心",
+      "layout": "center",
+      "sourceSeats": false,
+      "chairs": 12544,
+      "nonFinite": 0,
+      "collisions": 0,
+      "parts": {},
+      "examples": []
+    }
+  ]
+}

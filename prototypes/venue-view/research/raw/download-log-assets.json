@@ -1,0 +1,13 @@
+[
+  {
+    "file": "sofi-seat-map.jpg",
+    "url": "https://static.clubs.nfl.com/image/private/f_auto/chargers/rctknpt4opij9etqf0vf",
+    "bytes": 6819,
+    "magic": "89504e470d0a1a0a"
+  },
+  {
+    "file": "tottenham-nfl-2026.pdf",
+    "url": "https://static.www.nfl.com/image/upload/league/vd0tfu5j0qg68zjazhl0.pdf",
+    "error": "curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to static.www.nfl.com:443 \n"
+  }
+]

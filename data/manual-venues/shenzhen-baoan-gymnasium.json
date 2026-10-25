@@ -1,0 +1,224 @@
+{
+  "id": "shenzhen-baoan-gymnasium",
+  "name": "深圳市宝安体育中心体育馆",
+  "city": "中国内地 · 深圳",
+  "capacity": "原站目录未提供统一容量字段",
+  "source": "https://i.ifeng.com/c/8x8nDgxfjWq",
+  "sourceTitle": "REA 导出的公开场馆来源索引与参数化座位示意",
+  "sourceLinks": [
+    "https://i.ifeng.com/c/8x8nDgxfjWq",
+    "https://static.maitepiao.com/tickets/2026/09/67868202609231744371800.png"
+  ],
+  "accuracy": {
+    "sectionLabels": "source-layout-reference",
+    "completeSeatInventory": false,
+    "metricCalibrated": false,
+    "stage": "generic",
+    "position": "estimated",
+    "geometryBasis": "source-informed-parametric:reference",
+    "catalogStatus": "source-geometry-and-sections",
+    "seatDataStatus": "section-only",
+    "sourceLayout": "end",
+    "coverage": "9 个来源分区；0 条座位采样。区号来自公开布局参考。",
+    "reuse": "来源页面可公开访问；未建立商业图形、模型或座位数据库再分发许可，发布前需逐源复核。",
+    "sourceDate": "REA capture 2026-10-24",
+    "sourceInventory": {
+      "venueReferenceUrl": "https://i.ifeng.com/c/8x8nDgxfjWq",
+      "mapReferenceUrl": "https://static.maitepiao.com/tickets/2026/09/67868202609231744371800.png",
+      "sectionSource": "https://static.maitepiao.com/tickets/2026/09/67868202609231744371800.png",
+      "geometryEvidenceLabel": "reference",
+      "note": "Missing asset URL does not establish absence of generated seat geometry."
+    },
+    "seatAsset": null
+  },
+  "tiers": [
+    [
+      23,
+      33,
+      2,
+      11,
+      7
+    ]
+  ],
+  "geometry": {
+    "shape": "rounded",
+    "coordinateSystem": "profile-inner-radius",
+    "power": 0.72,
+    "oneSided": false,
+    "stage": {
+      "width": 20,
+      "depth": 8,
+      "z": -25.740000000000002,
+      "height": 1.6,
+      "facing": 1
+    },
+    "floor": [
+      46,
+      66
+    ],
+    "openBowl": true,
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "200 看台",
+        "steps": 14
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "201",
+      "ticketLabels": [
+        "201"
+      ],
+      "sourceLabel": "201 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.2295495514449652,
+      "halfAngle": 0.20071286397934787,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://static.maitepiao.com/tickets/2026/09/67868202609231744371800.png"
+      }
+    },
+    {
+      "id": "202",
+      "ticketLabels": [
+        "202"
+      ],
+      "sourceLabel": "202 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.612247896529762,
+      "halfAngle": 0.20943951023931953,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://static.maitepiao.com/tickets/2026/09/67868202609231744371800.png"
+      }
+    },
+    {
+      "id": "203",
+      "ticketLabels": [
+        "203"
+      ],
+      "sourceLabel": "203 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.9678761849161266,
+      "halfAngle": 0.1832595714594046,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://static.maitepiao.com/tickets/2026/09/67868202609231744371800.png"
+      }
+    },
+    {
+      "id": "209",
+      "ticketLabels": [
+        "209"
+      ],
+      "sourceLabel": "209 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.9715937362228744,
+      "halfAngle": 0.1832595714594046,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://static.maitepiao.com/tickets/2026/09/67868202609231744371800.png"
+      }
+    },
+    {
+      "id": "210",
+      "ticketLabels": [
+        "210"
+      ],
+      "sourceLabel": "210 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.6430180512424222,
+      "halfAngle": 0.20943951023931953,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://static.maitepiao.com/tickets/2026/09/67868202609231744371800.png"
+      }
+    },
+    {
+      "id": "211",
+      "ticketLabels": [
+        "211"
+      ],
+      "sourceLabel": "211 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.2462872589715908,
+      "halfAngle": 0.20071286397934787,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://static.maitepiao.com/tickets/2026/09/67868202609231744371800.png"
+      }
+    },
+    {
+      "id": "212",
+      "ticketLabels": [
+        "212"
+      ],
+      "sourceLabel": "212 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.7175397620799088,
+      "halfAngle": 0.20943951023931953,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://static.maitepiao.com/tickets/2026/09/67868202609231744371800.png"
+      }
+    },
+    {
+      "id": "213",
+      "ticketLabels": [
+        "213"
+      ],
+      "sourceLabel": "213 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.2181661564992912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://static.maitepiao.com/tickets/2026/09/67868202609231744371800.png"
+      }
+    },
+    {
+      "id": "214",
+      "ticketLabels": [
+        "214"
+      ],
+      "sourceLabel": "214 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.6388079595224445,
+      "halfAngle": 0.20943951023931953,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://static.maitepiao.com/tickets/2026/09/67868202609231744371800.png"
+      }
+    }
+  ],
+  "importedAt": "2026-10-24T00:00:00.000Z"
+}

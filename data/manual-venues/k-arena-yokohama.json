@@ -1,0 +1,564 @@
+{
+  "id": "k-arena-yokohama",
+  "name": "K-Arena Yokohama",
+  "city": "日本 · 横滨",
+  "capacity": "原站目录未提供统一容量字段",
+  "source": "https://k-arena.com/",
+  "sourceTitle": "REA 导出的公开场馆来源索引与参数化座位示意",
+  "sourceLinks": [
+    "https://k-arena.com/",
+    "https://k-arena.com/wp-content/themes/k-arena/assets/pdf/seat-map.pdf",
+    "https://k-arena.com/seat/"
+  ],
+  "accuracy": {
+    "sectionLabels": "source-layout-reference",
+    "completeSeatInventory": false,
+    "metricCalibrated": false,
+    "stage": "generic",
+    "position": "estimated",
+    "geometryBasis": "source-informed-parametric:structure",
+    "catalogStatus": "source-geometry-and-sections",
+    "seatDataStatus": "section-only",
+    "sourceLayout": "end",
+    "coverage": "28 个来源分区；0 条座位采样。区号来自公开布局参考。",
+    "reuse": "来源页面可公开访问；未建立商业图形、模型或座位数据库再分发许可，发布前需逐源复核。",
+    "sourceDate": "REA capture 2026-10-24",
+    "sourceInventory": {
+      "venueReferenceUrl": "https://k-arena.com/",
+      "mapReferenceUrl": "https://k-arena.com/wp-content/themes/k-arena/assets/pdf/seat-map.pdf",
+      "sectionSource": "https://k-arena.com/seat/",
+      "geometryEvidenceLabel": "structure",
+      "note": "Missing asset URL does not establish absence of generated seat geometry."
+    },
+    "seatAsset": null
+  },
+  "tiers": [
+    [
+      28,
+      25,
+      2,
+      19,
+      9
+    ],
+    [
+      40,
+      37,
+      16,
+      18,
+      12
+    ],
+    [
+      51,
+      48,
+      32,
+      22,
+      16
+    ]
+  ],
+  "geometry": {
+    "shape": "fan",
+    "coordinateSystem": "profile-inner-radius",
+    "power": 1,
+    "oneSided": true,
+    "floor": [
+      46,
+      40
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "LEVEL 3",
+        "steps": 24
+      },
+      {
+        "id": "middle",
+        "name": "LEVEL 5",
+        "steps": 24
+      },
+      {
+        "id": "upper",
+        "name": "LEVEL 7",
+        "steps": 29
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "gate-301",
+      "ticketLabels": [
+        "gate-301"
+      ],
+      "sourceLabel": "301 入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.9198621771937625,
+      "halfAngle": 0.3316125578789226,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://k-arena.com/seat/"
+      }
+    },
+    {
+      "id": "gate-302",
+      "ticketLabels": [
+        "gate-302"
+      ],
+      "sourceLabel": "302 入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.705260340591211,
+      "halfAngle": 0.3316125578789226,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://k-arena.com/seat/"
+      }
+    },
+    {
+      "id": "gate-303",
+      "ticketLabels": [
+        "gate-303"
+      ],
+      "sourceLabel": "303 入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.5779249665883754,
+      "halfAngle": 0.3316125578789226,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://k-arena.com/seat/"
+      }
+    },
+    {
+      "id": "gate-304",
+      "ticketLabels": [
+        "gate-304"
+      ],
+      "sourceLabel": "304 入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 4.363323129985823,
+      "halfAngle": 0.3316125578789226,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://k-arena.com/seat/"
+      }
+    },
+    {
+      "id": "gate-501",
+      "ticketLabels": [
+        "gate-501"
+      ],
+      "sourceLabel": "501 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.6580627893946132,
+      "halfAngle": 0.11344640137963143,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://k-arena.com/seat/"
+      }
+    },
+    {
+      "id": "gate-502",
+      "ticketLabels": [
+        "gate-502"
+      ],
+      "sourceLabel": "502 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.9278034252903367,
+      "halfAngle": 0.11344640137963143,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://k-arena.com/seat/"
+      }
+    },
+    {
+      "id": "gate-503",
+      "ticketLabels": [
+        "gate-503"
+      ],
+      "sourceLabel": "503 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.1975266078935403,
+      "halfAngle": 0.11344640137963143,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://k-arena.com/seat/"
+      }
+    },
+    {
+      "id": "gate-504",
+      "ticketLabels": [
+        "gate-504"
+      ],
+      "sourceLabel": "504 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.467267243789264,
+      "halfAngle": 0.11344640137963143,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://k-arena.com/seat/"
+      }
+    },
+    {
+      "id": "gate-505",
+      "ticketLabels": [
+        "gate-505"
+      ],
+      "sourceLabel": "505 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.736990426392468,
+      "halfAngle": 0.11344640137963143,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://k-arena.com/seat/"
+      }
+    },
+    {
+      "id": "gate-506",
+      "ticketLabels": [
+        "gate-506"
+      ],
+      "sourceLabel": "506 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.0067310622881913,
+      "halfAngle": 0.11344640137963143,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://k-arena.com/seat/"
+      }
+    },
+    {
+      "id": "gate-507",
+      "ticketLabels": [
+        "gate-507"
+      ],
+      "sourceLabel": "507 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.2764542448913954,
+      "halfAngle": 0.11344640137963143,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://k-arena.com/seat/"
+      }
+    },
+    {
+      "id": "gate-508",
+      "ticketLabels": [
+        "gate-508"
+      ],
+      "sourceLabel": "508 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.546194880787118,
+      "halfAngle": 0.11344640137963143,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://k-arena.com/seat/"
+      }
+    },
+    {
+      "id": "gate-509",
+      "ticketLabels": [
+        "gate-509"
+      ],
+      "sourceLabel": "509 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.8159180633903222,
+      "halfAngle": 0.11344640137963143,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://k-arena.com/seat/"
+      }
+    },
+    {
+      "id": "gate-510",
+      "ticketLabels": [
+        "gate-510"
+      ],
+      "sourceLabel": "510 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 4.085658699286046,
+      "halfAngle": 0.11344640137963143,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://k-arena.com/seat/"
+      }
+    },
+    {
+      "id": "gate-511",
+      "ticketLabels": [
+        "gate-511"
+      ],
+      "sourceLabel": "511 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 4.355381881889249,
+      "halfAngle": 0.11344640137963143,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://k-arena.com/seat/"
+      }
+    },
+    {
+      "id": "gate-512",
+      "ticketLabels": [
+        "gate-512"
+      ],
+      "sourceLabel": "512 入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 4.625122517784973,
+      "halfAngle": 0.11344640137963143,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://k-arena.com/seat/"
+      }
+    },
+    {
+      "id": "gate-701",
+      "ticketLabels": [
+        "gate-701"
+      ],
+      "sourceLabel": "701 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 1.6580627893946132,
+      "halfAngle": 0.11344640137963143,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://k-arena.com/seat/"
+      }
+    },
+    {
+      "id": "gate-702",
+      "ticketLabels": [
+        "gate-702"
+      ],
+      "sourceLabel": "702 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 1.9278034252903367,
+      "halfAngle": 0.11344640137963143,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://k-arena.com/seat/"
+      }
+    },
+    {
+      "id": "gate-703",
+      "ticketLabels": [
+        "gate-703"
+      ],
+      "sourceLabel": "703 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 2.1975266078935403,
+      "halfAngle": 0.11344640137963143,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://k-arena.com/seat/"
+      }
+    },
+    {
+      "id": "gate-704",
+      "ticketLabels": [
+        "gate-704"
+      ],
+      "sourceLabel": "704 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 2.467267243789264,
+      "halfAngle": 0.11344640137963143,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://k-arena.com/seat/"
+      }
+    },
+    {
+      "id": "gate-705",
+      "ticketLabels": [
+        "gate-705"
+      ],
+      "sourceLabel": "705 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 2.736990426392468,
+      "halfAngle": 0.11344640137963143,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://k-arena.com/seat/"
+      }
+    },
+    {
+      "id": "gate-706",
+      "ticketLabels": [
+        "gate-706"
+      ],
+      "sourceLabel": "706 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 3.0067310622881913,
+      "halfAngle": 0.11344640137963143,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://k-arena.com/seat/"
+      }
+    },
+    {
+      "id": "gate-707",
+      "ticketLabels": [
+        "gate-707"
+      ],
+      "sourceLabel": "707 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 3.2764542448913954,
+      "halfAngle": 0.11344640137963143,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://k-arena.com/seat/"
+      }
+    },
+    {
+      "id": "gate-708",
+      "ticketLabels": [
+        "gate-708"
+      ],
+      "sourceLabel": "708 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 3.546194880787118,
+      "halfAngle": 0.11344640137963143,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://k-arena.com/seat/"
+      }
+    },
+    {
+      "id": "gate-709",
+      "ticketLabels": [
+        "gate-709"
+      ],
+      "sourceLabel": "709 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 3.8159180633903222,
+      "halfAngle": 0.11344640137963143,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://k-arena.com/seat/"
+      }
+    },
+    {
+      "id": "gate-710",
+      "ticketLabels": [
+        "gate-710"
+      ],
+      "sourceLabel": "710 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 4.085658699286046,
+      "halfAngle": 0.11344640137963143,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://k-arena.com/seat/"
+      }
+    },
+    {
+      "id": "gate-711",
+      "ticketLabels": [
+        "gate-711"
+      ],
+      "sourceLabel": "711 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 4.355381881889249,
+      "halfAngle": 0.11344640137963143,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://k-arena.com/seat/"
+      }
+    },
+    {
+      "id": "gate-712",
+      "ticketLabels": [
+        "gate-712"
+      ],
+      "sourceLabel": "712 入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 4.625122517784973,
+      "halfAngle": 0.11344640137963143,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://k-arena.com/seat/"
+      }
+    }
+  ],
+  "importedAt": "2026-10-24T00:00:00.000Z"
+}

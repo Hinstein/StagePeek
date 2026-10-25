@@ -1,0 +1,462 @@
+{
+  "id": "studio-city",
+  "name": "新濠影汇综艺馆",
+  "city": "中国澳门 · 澳门",
+  "capacity": "原站目录未提供统一容量字段",
+  "source": "https://www.studiocity-macau.com/en/attractions/studio-city-event-center",
+  "sourceTitle": "REA 导出的公开场馆来源索引与参数化座位示意",
+  "sourceLinks": [
+    "https://www.studiocity-macau.com/en/attractions/studio-city-event-center",
+    "https://studiocity-macau.com/en/events/manifest-wtf-live-2026-macau",
+    "https://www.studiocity-macau.com/assets/public/2025-09/SCsaleskit_SCversion-compressed.pdf"
+  ],
+  "accuracy": {
+    "sectionLabels": "source-layout-reference",
+    "completeSeatInventory": false,
+    "metricCalibrated": false,
+    "stage": "generic",
+    "position": "estimated",
+    "geometryBasis": "source-informed-parametric:plan",
+    "catalogStatus": "source-geometry-and-sections",
+    "seatDataStatus": "section-only",
+    "sourceLayout": "end",
+    "coverage": "22 个来源分区；0 条座位采样。区号来自公开布局参考。",
+    "reuse": "来源页面可公开访问；未建立商业图形、模型或座位数据库再分发许可，发布前需逐源复核。",
+    "sourceDate": "REA capture 2026-10-24",
+    "sourceInventory": {
+      "venueReferenceUrl": "https://www.studiocity-macau.com/en/attractions/studio-city-event-center",
+      "mapReferenceUrl": "https://studiocity-macau.com/en/events/manifest-wtf-live-2026-macau",
+      "sectionSource": "https://www.studiocity-macau.com/assets/public/2025-09/SCsaleskit_SCversion-compressed.pdf",
+      "geometryEvidenceLabel": "plan",
+      "note": "Missing asset URL does not establish absence of generated seat geometry."
+    },
+    "seatAsset": null
+  },
+  "tiers": [
+    [
+      16,
+      23,
+      1,
+      12,
+      6
+    ],
+    [
+      23,
+      30,
+      10,
+      9,
+      6
+    ],
+    [
+      27,
+      34,
+      20,
+      9,
+      7
+    ]
+  ],
+  "geometry": {
+    "shape": "rounded",
+    "coordinateSystem": "profile-inner-radius",
+    "power": 0.48,
+    "oneSided": false,
+    "floor": [
+      28,
+      42
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "100 区",
+        "steps": 16
+      },
+      {
+        "id": "middle",
+        "name": "200 区",
+        "steps": 13
+      },
+      {
+        "id": "upper",
+        "name": "300 区",
+        "steps": 13
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "101",
+      "ticketLabels": [
+        "101"
+      ],
+      "sourceLabel": "101 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.6981317007977318,
+      "halfAngle": 0.1954768762233649,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.studiocity-macau.com/assets/public/2025-09/SCsaleskit_SCversion-compressed.pdf"
+      }
+    },
+    {
+      "id": "102",
+      "ticketLabels": [
+        "102"
+      ],
+      "sourceLabel": "102 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.1424052618928884,
+      "halfAngle": 0.1954768762233649,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.studiocity-macau.com/assets/public/2025-09/SCsaleskit_SCversion-compressed.pdf"
+      }
+    },
+    {
+      "id": "103",
+      "ticketLabels": [
+        "103"
+      ],
+      "sourceLabel": "103 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.5866613696955252,
+      "halfAngle": 0.1954768762233649,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.studiocity-macau.com/assets/public/2025-09/SCsaleskit_SCversion-compressed.pdf"
+      }
+    },
+    {
+      "id": "104",
+      "ticketLabels": [
+        "104"
+      ],
+      "sourceLabel": "104 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.0309349307906817,
+      "halfAngle": 0.1954768762233649,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.studiocity-macau.com/assets/public/2025-09/SCsaleskit_SCversion-compressed.pdf"
+      }
+    },
+    {
+      "id": "106",
+      "ticketLabels": [
+        "106"
+      ],
+      "sourceLabel": "106 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.4751910385933185,
+      "halfAngle": 0.1954768762233649,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.studiocity-macau.com/assets/public/2025-09/SCsaleskit_SCversion-compressed.pdf"
+      }
+    },
+    {
+      "id": "107",
+      "ticketLabels": [
+        "107"
+      ],
+      "sourceLabel": "107 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.919464599688475,
+      "halfAngle": 0.1954768762233649,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.studiocity-macau.com/assets/public/2025-09/SCsaleskit_SCversion-compressed.pdf"
+      }
+    },
+    {
+      "id": "108",
+      "ticketLabels": [
+        "108"
+      ],
+      "sourceLabel": "108 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -3.3637207074911113,
+      "halfAngle": 0.1954768762233649,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.studiocity-macau.com/assets/public/2025-09/SCsaleskit_SCversion-compressed.pdf"
+      }
+    },
+    {
+      "id": "109",
+      "ticketLabels": [
+        "109"
+      ],
+      "sourceLabel": "109 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -3.8079942685862678,
+      "halfAngle": 0.1954768762233649,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.studiocity-macau.com/assets/public/2025-09/SCsaleskit_SCversion-compressed.pdf"
+      }
+    },
+    {
+      "id": "111",
+      "ticketLabels": [
+        "111"
+      ],
+      "sourceLabel": "111 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -4.252250376388904,
+      "halfAngle": 0.1954768762233649,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.studiocity-macau.com/assets/public/2025-09/SCsaleskit_SCversion-compressed.pdf"
+      }
+    },
+    {
+      "id": "112",
+      "ticketLabels": [
+        "112"
+      ],
+      "sourceLabel": "112 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -4.696523937484061,
+      "halfAngle": 0.1954768762233649,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.studiocity-macau.com/assets/public/2025-09/SCsaleskit_SCversion-compressed.pdf"
+      }
+    },
+    {
+      "id": "113",
+      "ticketLabels": [
+        "113"
+      ],
+      "sourceLabel": "113 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -5.140780045286698,
+      "halfAngle": 0.1954768762233649,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.studiocity-macau.com/assets/public/2025-09/SCsaleskit_SCversion-compressed.pdf"
+      }
+    },
+    {
+      "id": "114",
+      "ticketLabels": [
+        "114"
+      ],
+      "sourceLabel": "114 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -5.585053606381854,
+      "halfAngle": 0.1954768762233649,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.studiocity-macau.com/assets/public/2025-09/SCsaleskit_SCversion-compressed.pdf"
+      }
+    },
+    {
+      "id": "205",
+      "ticketLabels": [
+        "205"
+      ],
+      "sourceLabel": "205 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.9198621771937625,
+      "halfAngle": 0.2150245638457014,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.studiocity-macau.com/assets/public/2025-09/SCsaleskit_SCversion-compressed.pdf"
+      }
+    },
+    {
+      "id": "206",
+      "ticketLabels": [
+        "206"
+      ],
+      "sourceLabel": "206 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.4085543677521746,
+      "halfAngle": 0.2150245638457014,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.studiocity-macau.com/assets/public/2025-09/SCsaleskit_SCversion-compressed.pdf"
+      }
+    },
+    {
+      "id": "207",
+      "ticketLabels": [
+        "207"
+      ],
+      "sourceLabel": "207 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.897246558310587,
+      "halfAngle": 0.2150245638457014,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.studiocity-macau.com/assets/public/2025-09/SCsaleskit_SCversion-compressed.pdf"
+      }
+    },
+    {
+      "id": "208",
+      "ticketLabels": [
+        "208"
+      ],
+      "sourceLabel": "208 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -3.385938748868999,
+      "halfAngle": 0.2150245638457014,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.studiocity-macau.com/assets/public/2025-09/SCsaleskit_SCversion-compressed.pdf"
+      }
+    },
+    {
+      "id": "209",
+      "ticketLabels": [
+        "209"
+      ],
+      "sourceLabel": "209 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -3.8746309394274117,
+      "halfAngle": 0.2150245638457014,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.studiocity-macau.com/assets/public/2025-09/SCsaleskit_SCversion-compressed.pdf"
+      }
+    },
+    {
+      "id": "210",
+      "ticketLabels": [
+        "210"
+      ],
+      "sourceLabel": "210 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -4.363323129985823,
+      "halfAngle": 0.2150245638457014,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.studiocity-macau.com/assets/public/2025-09/SCsaleskit_SCversion-compressed.pdf"
+      }
+    },
+    {
+      "id": "306",
+      "ticketLabels": [
+        "306"
+      ],
+      "sourceLabel": "306 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -2.443460952792061,
+      "halfAngle": 0.20478820778275464,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.studiocity-macau.com/assets/public/2025-09/SCsaleskit_SCversion-compressed.pdf"
+      }
+    },
+    {
+      "id": "307",
+      "ticketLabels": [
+        "307"
+      ],
+      "sourceLabel": "307 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -2.9088879044213893,
+      "halfAngle": 0.20477948113649472,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.studiocity-macau.com/assets/public/2025-09/SCsaleskit_SCversion-compressed.pdf"
+      }
+    },
+    {
+      "id": "308",
+      "ticketLabels": [
+        "308"
+      ],
+      "sourceLabel": "308 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -3.3742974027581973,
+      "halfAngle": 0.20477948113649472,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.studiocity-macau.com/assets/public/2025-09/SCsaleskit_SCversion-compressed.pdf"
+      }
+    },
+    {
+      "id": "309",
+      "ticketLabels": [
+        "309"
+      ],
+      "sourceLabel": "309 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -3.839724354387525,
+      "halfAngle": 0.20478820778275464,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.studiocity-macau.com/assets/public/2025-09/SCsaleskit_SCversion-compressed.pdf"
+      }
+    }
+  ],
+  "importedAt": "2026-10-24T00:00:00.000Z"
+}

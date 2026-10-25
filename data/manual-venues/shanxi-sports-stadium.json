@@ -1,0 +1,2425 @@
+{
+  "id": "shanxi-sports-stadium",
+  "name": "山西体育中心体育场",
+  "city": "中国内地 · 太原",
+  "capacity": "原站目录未提供统一容量字段",
+  "source": "https://cnsdc.org.cn/venue_booking/show-40.html",
+  "sourceTitle": "REA 导出的公开场馆来源索引与参数化座位示意",
+  "sourceLinks": [
+    "https://cnsdc.org.cn/venue_booking/show-40.html",
+    "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png",
+    "https://ty.bendibao.com/xiuxian/2026316/80358.shtm"
+  ],
+  "accuracy": {
+    "sectionLabels": "source-layout-reference",
+    "completeSeatInventory": false,
+    "metricCalibrated": false,
+    "stage": "generic",
+    "position": "estimated",
+    "geometryBasis": "source-informed-parametric:reference",
+    "catalogStatus": "source-geometry-and-sections",
+    "seatDataStatus": "section-only",
+    "sourceLayout": "end",
+    "coverage": "137 个来源分区；0 条座位采样。区号来自公开布局参考。",
+    "reuse": "来源页面可公开访问；未建立商业图形、模型或座位数据库再分发许可，发布前需逐源复核。",
+    "sourceDate": "REA capture 2026-10-24",
+    "sourceInventory": {
+      "venueReferenceUrl": "https://cnsdc.org.cn/venue_booking/show-40.html",
+      "mapReferenceUrl": null,
+      "sectionSource": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png",
+      "geometryEvidenceLabel": "reference",
+      "note": "Missing asset URL does not establish absence of generated seat geometry."
+    },
+    "seatAsset": null
+  },
+  "tiers": [
+    [
+      46,
+      72,
+      1.5,
+      15,
+      9
+    ],
+    [
+      63,
+      89,
+      12,
+      8,
+      5
+    ],
+    [
+      73,
+      99,
+      19,
+      16,
+      11
+    ]
+  ],
+  "geometry": {
+    "shape": "oval",
+    "coordinateSystem": "profile-inner-radius",
+    "power": 1,
+    "oneSided": false,
+    "stage": {
+      "width": 40,
+      "depth": 12,
+      "z": -52,
+      "height": 2,
+      "facing": 1
+    },
+    "floor": [
+      92,
+      144
+    ],
+    "openBowl": true,
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "100 看台",
+        "steps": 24
+      },
+      {
+        "id": "middle",
+        "name": "200 看台",
+        "steps": 14
+      },
+      {
+        "id": "upper",
+        "name": "300 看台",
+        "steps": 28
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "101",
+      "ticketLabels": [
+        "101"
+      ],
+      "sourceLabel": "101 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.8741764386935589,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "102",
+      "ticketLabels": [
+        "102"
+      ],
+      "sourceLabel": "102 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.7100578931407762,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "103",
+      "ticketLabels": [
+        "103"
+      ],
+      "sourceLabel": "103 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.542345714658137,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "104",
+      "ticketLabels": [
+        "104"
+      ],
+      "sourceLabel": "104 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.358009275050252,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "105",
+      "ticketLabels": [
+        "105"
+      ],
+      "sourceLabel": "105 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.1936952526212457,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "106",
+      "ticketLabels": [
+        "106"
+      ],
+      "sourceLabel": "106 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.01446041041694,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "107",
+      "ticketLabels": [
+        "107"
+      ],
+      "sourceLabel": "107 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.8921494817664295,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "108",
+      "ticketLabels": [
+        "108"
+      ],
+      "sourceLabel": "108 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.7682555394843601,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "109",
+      "ticketLabels": [
+        "109"
+      ],
+      "sourceLabel": "109 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.4925144616202799,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "110",
+      "ticketLabels": [
+        "110"
+      ],
+      "sourceLabel": "110 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.37223160556058665,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "111",
+      "ticketLabels": [
+        "111"
+      ],
+      "sourceLabel": "111 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.25796839009102185,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "112",
+      "ticketLabels": [
+        "112"
+      ],
+      "sourceLabel": "112 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.14971957922382956,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "113",
+      "ticketLabels": [
+        "113"
+      ],
+      "sourceLabel": "113 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.054274503749267664,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "114",
+      "ticketLabels": [
+        "114"
+      ],
+      "sourceLabel": "114 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.04933696729537571,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "115",
+      "ticketLabels": [
+        "115"
+      ],
+      "sourceLabel": "115 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.14188130555312306,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "116",
+      "ticketLabels": [
+        "116"
+      ],
+      "sourceLabel": "116 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.24143488608687957,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "117",
+      "ticketLabels": [
+        "117"
+      ],
+      "sourceLabel": "117 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.3396812150108924,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "118",
+      "ticketLabels": [
+        "118"
+      ],
+      "sourceLabel": "118 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.4408736597122716,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "119",
+      "ticketLabels": [
+        "119"
+      ],
+      "sourceLabel": "119 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.5748992383021682,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "120",
+      "ticketLabels": [
+        "120"
+      ],
+      "sourceLabel": "120 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.7652483371831736,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "121",
+      "ticketLabels": [
+        "121"
+      ],
+      "sourceLabel": "121 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.8921913696684773,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "122",
+      "ticketLabels": [
+        "122"
+      ],
+      "sourceLabel": "122 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.0296098683242507,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "123",
+      "ticketLabels": [
+        "123"
+      ],
+      "sourceLabel": "123 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.1829126085024246,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "124",
+      "ticketLabels": [
+        "124"
+      ],
+      "sourceLabel": "124 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.3793808317409224,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "125",
+      "ticketLabels": [
+        "125"
+      ],
+      "sourceLabel": "125 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.5707963267948966,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "126",
+      "ticketLabels": [
+        "126"
+      ],
+      "sourceLabel": "126 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.764883920933674,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "127",
+      "ticketLabels": [
+        "127"
+      ],
+      "sourceLabel": "127 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.9558124691263417,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "128",
+      "ticketLabels": [
+        "128"
+      ],
+      "sourceLabel": "128 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.137557094795015,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "129",
+      "ticketLabels": [
+        "129"
+      ],
+      "sourceLabel": "129 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.288400666057129,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "130",
+      "ticketLabels": [
+        "130"
+      ],
+      "sourceLabel": "130 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.5056697233208953,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "131",
+      "ticketLabels": [
+        "131"
+      ],
+      "sourceLabel": "131 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.728916533272742,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "132",
+      "ticketLabels": [
+        "132"
+      ],
+      "sourceLabel": "132 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.8456040110733265,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "133",
+      "ticketLabels": [
+        "133"
+      ],
+      "sourceLabel": "133 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.967468135435327,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "134",
+      "ticketLabels": [
+        "134"
+      ],
+      "sourceLabel": "134 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.0698299507355418,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "135",
+      "ticketLabels": [
+        "135"
+      ],
+      "sourceLabel": "135 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -3.1173465396210878,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "136",
+      "ticketLabels": [
+        "136"
+      ],
+      "sourceLabel": "136 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -3.017602718198864,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "137",
+      "ticketLabels": [
+        "137"
+      ],
+      "sourceLabel": "137 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.9207334540546745,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "138",
+      "ticketLabels": [
+        "138"
+      ],
+      "sourceLabel": "138 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.8249794553025094,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "139",
+      "ticketLabels": [
+        "139"
+      ],
+      "sourceLabel": "139 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.7216873795109815,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "140",
+      "ticketLabels": [
+        "140"
+      ],
+      "sourceLabel": "140 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.6132622903893377,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "141",
+      "ticketLabels": [
+        "141"
+      ],
+      "sourceLabel": "141 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.4540271760836347,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "142",
+      "ticketLabels": [
+        "142"
+      ],
+      "sourceLabel": "142 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.274329821627551,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "143",
+      "ticketLabels": [
+        "143"
+      ],
+      "sourceLabel": "143 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.161660091765057,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "144",
+      "ticketLabels": [
+        "144"
+      ],
+      "sourceLabel": "144 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.030831956364814,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "202",
+      "ticketLabels": [
+        "202"
+      ],
+      "sourceLabel": "202 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.348130711483964,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "203",
+      "ticketLabels": [
+        "203"
+      ],
+      "sourceLabel": "203 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.187157249243275,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "204",
+      "ticketLabels": [
+        "204"
+      ],
+      "sourceLabel": "204 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.0317356793531798,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "205",
+      "ticketLabels": [
+        "205"
+      ],
+      "sourceLabel": "205 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.8703520647382722,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "206",
+      "ticketLabels": [
+        "206"
+      ],
+      "sourceLabel": "206 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.7351710781835554,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "207",
+      "ticketLabels": [
+        "207"
+      ],
+      "sourceLabel": "207 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.5867220986551778,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "208",
+      "ticketLabels": [
+        "208"
+      ],
+      "sourceLabel": "208 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.4754399055480193,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "209",
+      "ticketLabels": [
+        "209"
+      ],
+      "sourceLabel": "209 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.34981459664797143,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "210",
+      "ticketLabels": [
+        "210"
+      ],
+      "sourceLabel": "210 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.20982871866251426,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "211",
+      "ticketLabels": [
+        "211"
+      ],
+      "sourceLabel": "211 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.09432457409478155,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "212",
+      "ticketLabels": [
+        "212"
+      ],
+      "sourceLabel": "212 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.013700834628155488,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "213",
+      "ticketLabels": [
+        "213"
+      ],
+      "sourceLabel": "213 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.1173349949530748,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "214",
+      "ticketLabels": [
+        "214"
+      ],
+      "sourceLabel": "214 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.20714614760219902,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "215",
+      "ticketLabels": [
+        "215"
+      ],
+      "sourceLabel": "215 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.3317102963170343,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "216",
+      "ticketLabels": [
+        "216"
+      ],
+      "sourceLabel": "216 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.4323721609258072,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "217",
+      "ticketLabels": [
+        "217"
+      ],
+      "sourceLabel": "217 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.5412318370311976,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "218",
+      "ticketLabels": [
+        "218"
+      ],
+      "sourceLabel": "218 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.6554741085497384,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "219",
+      "ticketLabels": [
+        "219"
+      ],
+      "sourceLabel": "219 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.7647893155898993,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "220",
+      "ticketLabels": [
+        "220"
+      ],
+      "sourceLabel": "220 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.8877460160636477,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "221",
+      "ticketLabels": [
+        "221"
+      ],
+      "sourceLabel": "221 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.0160870572797989,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "222",
+      "ticketLabels": [
+        "222"
+      ],
+      "sourceLabel": "222 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.1595443951474727,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "223",
+      "ticketLabels": [
+        "223"
+      ],
+      "sourceLabel": "223 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.3093477501753978,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "224",
+      "ticketLabels": [
+        "224"
+      ],
+      "sourceLabel": "224 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.469125661878471,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "225",
+      "ticketLabels": [
+        "225"
+      ],
+      "sourceLabel": "225 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.642101753385125,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "226",
+      "ticketLabels": [
+        "226"
+      ],
+      "sourceLabel": "226 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.811054860965932,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "227",
+      "ticketLabels": [
+        "227"
+      ],
+      "sourceLabel": "227 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.9849629582931512,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "228",
+      "ticketLabels": [
+        "228"
+      ],
+      "sourceLabel": "228 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.148107610123321,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "229",
+      "ticketLabels": [
+        "229"
+      ],
+      "sourceLabel": "229 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.3052727639361583,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "230",
+      "ticketLabels": [
+        "230"
+      ],
+      "sourceLabel": "230 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.4511753080858765,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "231",
+      "ticketLabels": [
+        "231"
+      ],
+      "sourceLabel": "231 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.5871207488529664,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "232",
+      "ticketLabels": [
+        "232"
+      ],
+      "sourceLabel": "232 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.7152628225343904,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "233",
+      "ticketLabels": [
+        "233"
+      ],
+      "sourceLabel": "233 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.844148406477163,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "234",
+      "ticketLabels": [
+        "234"
+      ],
+      "sourceLabel": "234 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.960026051504823,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "235",
+      "ticketLabels": [
+        "235"
+      ],
+      "sourceLabel": "235 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.0818203626967433,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "236",
+      "ticketLabels": [
+        "236"
+      ],
+      "sourceLabel": "236 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -3.0786927326771694,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "237",
+      "ticketLabels": [
+        "237"
+      ],
+      "sourceLabel": "237 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.9777428887418176,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "238",
+      "ticketLabels": [
+        "238"
+      ],
+      "sourceLabel": "238 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.861325936975292,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "239",
+      "ticketLabels": [
+        "239"
+      ],
+      "sourceLabel": "239 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.747675332073177,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "240",
+      "ticketLabels": [
+        "240"
+      ],
+      "sourceLabel": "240 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.6398157296291798,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "241",
+      "ticketLabels": [
+        "241"
+      ],
+      "sourceLabel": "241 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.524269697159399,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "242",
+      "ticketLabels": [
+        "242"
+      ],
+      "sourceLabel": "242 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.410612110940276,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "243",
+      "ticketLabels": [
+        "243"
+      ],
+      "sourceLabel": "243 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.284520799129946,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "244",
+      "ticketLabels": [
+        "244"
+      ],
+      "sourceLabel": "244 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.170357067427745,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "245",
+      "ticketLabels": [
+        "245"
+      ],
+      "sourceLabel": "245 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.040090928046644,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "246",
+      "ticketLabels": [
+        "246"
+      ],
+      "sourceLabel": "246 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.8764558386966637,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "301",
+      "ticketLabels": [
+        "301"
+      ],
+      "sourceLabel": "301 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -1.6347905691485207,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "302",
+      "ticketLabels": [
+        "302"
+      ],
+      "sourceLabel": "302 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -1.4729584049158506,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "303",
+      "ticketLabels": [
+        "303"
+      ],
+      "sourceLabel": "303 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -1.33583137624516,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "304",
+      "ticketLabels": [
+        "304"
+      ],
+      "sourceLabel": "304 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -1.1795284150828076,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "305",
+      "ticketLabels": [
+        "305"
+      ],
+      "sourceLabel": "305 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -1.040982433730246,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "306",
+      "ticketLabels": [
+        "306"
+      ],
+      "sourceLabel": "306 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -0.8930326183679387,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "307",
+      "ticketLabels": [
+        "307"
+      ],
+      "sourceLabel": "307 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -0.7412116627247077,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "308",
+      "ticketLabels": [
+        "308"
+      ],
+      "sourceLabel": "308 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -0.599885371873719,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "309",
+      "ticketLabels": [
+        "309"
+      ],
+      "sourceLabel": "309 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -0.48001441351749646,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "310",
+      "ticketLabels": [
+        "310"
+      ],
+      "sourceLabel": "310 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -0.3498826644887993,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "311",
+      "ticketLabels": [
+        "311"
+      ],
+      "sourceLabel": "311 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -0.21441020794899943,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "312",
+      "ticketLabels": [
+        "312"
+      ],
+      "sourceLabel": "312 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -0.13419138486883603,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "313",
+      "ticketLabels": [
+        "313"
+      ],
+      "sourceLabel": "313 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -0.016636478430009947,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "314",
+      "ticketLabels": [
+        "314"
+      ],
+      "sourceLabel": "314 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 0.12548219190138432,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "315",
+      "ticketLabels": [
+        "315"
+      ],
+      "sourceLabel": "315 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 0.20766800104854533,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "316",
+      "ticketLabels": [
+        "316"
+      ],
+      "sourceLabel": "316 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 0.3225403364270561,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "317",
+      "ticketLabels": [
+        "317"
+      ],
+      "sourceLabel": "317 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 0.4509250108745069,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "318",
+      "ticketLabels": [
+        "318"
+      ],
+      "sourceLabel": "318 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 0.562660989587184,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "319",
+      "ticketLabels": [
+        "319"
+      ],
+      "sourceLabel": "319 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 0.6621185770120808,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "320",
+      "ticketLabels": [
+        "320"
+      ],
+      "sourceLabel": "320 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 0.785803079783911,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "321",
+      "ticketLabels": [
+        "321"
+      ],
+      "sourceLabel": "321 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 0.9088522827080152,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "322",
+      "ticketLabels": [
+        "322"
+      ],
+      "sourceLabel": "322 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 1.0371252560833384,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "323",
+      "ticketLabels": [
+        "323"
+      ],
+      "sourceLabel": "323 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 1.1684036864305958,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "324",
+      "ticketLabels": [
+        "324"
+      ],
+      "sourceLabel": "324 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 1.3231445779124131,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "325",
+      "ticketLabels": [
+        "325"
+      ],
+      "sourceLabel": "325 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 1.464835642577069,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "326",
+      "ticketLabels": [
+        "326"
+      ],
+      "sourceLabel": "326 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 1.623302812011894,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "327",
+      "ticketLabels": [
+        "327"
+      ],
+      "sourceLabel": "327 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 1.7907793710455138,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "328",
+      "ticketLabels": [
+        "328"
+      ],
+      "sourceLabel": "328 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 1.945558659770875,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "329",
+      "ticketLabels": [
+        "329"
+      ],
+      "sourceLabel": "329 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 2.1045075400792506,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "330",
+      "ticketLabels": [
+        "330"
+      ],
+      "sourceLabel": "330 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 2.2733489465879297,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "331",
+      "ticketLabels": [
+        "331"
+      ],
+      "sourceLabel": "331 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 2.439511272694798,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "332",
+      "ticketLabels": [
+        "332"
+      ],
+      "sourceLabel": "332 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 2.588373895255898,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "333",
+      "ticketLabels": [
+        "333"
+      ],
+      "sourceLabel": "333 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 2.710744165100977,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "334",
+      "ticketLabels": [
+        "334"
+      ],
+      "sourceLabel": "334 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 2.8412721038698767,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "335",
+      "ticketLabels": [
+        "335"
+      ],
+      "sourceLabel": "335 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 2.969504934672404,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "336",
+      "ticketLabels": [
+        "336"
+      ],
+      "sourceLabel": "336 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 3.0931458042129343,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "337",
+      "ticketLabels": [
+        "337"
+      ],
+      "sourceLabel": "337 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -3.0885852588774734,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "338",
+      "ticketLabels": [
+        "338"
+      ],
+      "sourceLabel": "338 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -2.942948004774059,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "339",
+      "ticketLabels": [
+        "339"
+      ],
+      "sourceLabel": "339 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -2.8673717575042,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "340",
+      "ticketLabels": [
+        "340"
+      ],
+      "sourceLabel": "340 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -2.73379821919057,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "341",
+      "ticketLabels": [
+        "341"
+      ],
+      "sourceLabel": "341 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -2.6272022351250164,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "342",
+      "ticketLabels": [
+        "342"
+      ],
+      "sourceLabel": "342 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -2.522164830081494,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "343",
+      "ticketLabels": [
+        "343"
+      ],
+      "sourceLabel": "343 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -2.4125703703610135,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "344",
+      "ticketLabels": [
+        "344"
+      ],
+      "sourceLabel": "344 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -2.2855732326688982,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "345",
+      "ticketLabels": [
+        "345"
+      ],
+      "sourceLabel": "345 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -2.1685262170424027,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "346",
+      "ticketLabels": [
+        "346"
+      ],
+      "sourceLabel": "346 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -2.033057251161107,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "347",
+      "ticketLabels": [
+        "347"
+      ],
+      "sourceLabel": "347 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -1.915418568918185,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    },
+    {
+      "id": "348",
+      "ticketLabels": [
+        "348"
+      ],
+      "sourceLabel": "348 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -1.7755984972116674,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png"
+      }
+    }
+  ],
+  "importedAt": "2026-10-24T00:00:00.000Z"
+}

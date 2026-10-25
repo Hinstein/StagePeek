@@ -1,0 +1,486 @@
+{
+  "id": "olympic-hall",
+  "name": "奥林匹克 Hall",
+  "city": "韩国 · 首尔",
+  "capacity": "原站目录未提供统一容量字段",
+  "source": "https://www.ksponco.or.kr/menu.es?mid=a10405050300",
+  "sourceTitle": "REA 导出的公开场馆来源索引与参数化座位示意",
+  "sourceLinks": [
+    "https://www.ksponco.or.kr/menu.es?mid=a10405050300",
+    "https://www.ksponco.or.kr/attachFiles/download/kspo/form3_8.jpg",
+    "https://www.ksponco.or.kr/attachFiles/download/kspo/olympichall_1.pdf"
+  ],
+  "accuracy": {
+    "sectionLabels": "source-layout-reference",
+    "completeSeatInventory": false,
+    "metricCalibrated": false,
+    "stage": "generic",
+    "position": "estimated",
+    "geometryBasis": "source-informed-parametric:dimension",
+    "catalogStatus": "source-geometry-and-sections",
+    "seatDataStatus": "section-only",
+    "sourceLayout": "end",
+    "coverage": "23 个来源分区；0 条座位采样。区号来自公开布局参考。",
+    "reuse": "来源页面可公开访问；未建立商业图形、模型或座位数据库再分发许可，发布前需逐源复核。",
+    "sourceDate": "REA capture 2026-10-24",
+    "sourceInventory": {
+      "venueReferenceUrl": "https://www.ksponco.or.kr/menu.es?mid=a10405050300",
+      "mapReferenceUrl": "https://www.ksponco.or.kr/attachFiles/download/kspo/form3_8.jpg",
+      "sectionSource": "https://www.ksponco.or.kr/attachFiles/download/kspo/form3_8.jpg",
+      "geometryEvidenceLabel": "dimension",
+      "note": "Missing asset URL does not establish absence of generated seat geometry."
+    },
+    "seatAsset": null
+  },
+  "tiers": [
+    [
+      11,
+      14,
+      0.3,
+      7,
+      3
+    ],
+    [
+      14,
+      20,
+      1.2,
+      9,
+      5
+    ],
+    [
+      19,
+      25,
+      7.5,
+      8,
+      6
+    ]
+  ],
+  "geometry": {
+    "shape": "rounded",
+    "coordinateSystem": "profile-inner-radius",
+    "power": 0.75,
+    "oneSided": true,
+    "stage": {
+      "width": 18,
+      "depth": 10,
+      "z": 25,
+      "height": 1.2
+    },
+    "floor": [
+      24,
+      38
+    ],
+    "openBowl": true,
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "F 伸缩座席",
+        "steps": 11
+      },
+      {
+        "id": "middle",
+        "name": "1F 看台",
+        "steps": 13
+      },
+      {
+        "id": "upper",
+        "name": "2F 看台",
+        "steps": 13
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "A1",
+      "ticketLabels": [
+        "A1"
+      ],
+      "sourceLabel": "A1 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -1.1344640137963142,
+      "halfAngle": 0.13962634015954636,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/attachFiles/download/kspo/form3_8.jpg"
+      }
+    },
+    {
+      "id": "A2",
+      "ticketLabels": [
+        "A2"
+      ],
+      "sourceLabel": "A2 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -1.4486232791552935,
+      "halfAngle": 0.13962634015954636,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/attachFiles/download/kspo/form3_8.jpg"
+      }
+    },
+    {
+      "id": "A3",
+      "ticketLabels": [
+        "A3"
+      ],
+      "sourceLabel": "A3 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -1.7627825445142729,
+      "halfAngle": 0.13962634015954636,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/attachFiles/download/kspo/form3_8.jpg"
+      }
+    },
+    {
+      "id": "A4",
+      "ticketLabels": [
+        "A4"
+      ],
+      "sourceLabel": "A4 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -2.076941809873252,
+      "halfAngle": 0.13962634015954636,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/attachFiles/download/kspo/form3_8.jpg"
+      }
+    },
+    {
+      "id": "E1",
+      "ticketLabels": [
+        "E1"
+      ],
+      "sourceLabel": "E1 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 1.1344640137963142,
+      "halfAngle": 0.13962634015954636,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/attachFiles/download/kspo/form3_8.jpg"
+      }
+    },
+    {
+      "id": "E2",
+      "ticketLabels": [
+        "E2"
+      ],
+      "sourceLabel": "E2 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 1.4486232791552935,
+      "halfAngle": 0.13962634015954636,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/attachFiles/download/kspo/form3_8.jpg"
+      }
+    },
+    {
+      "id": "E3",
+      "ticketLabels": [
+        "E3"
+      ],
+      "sourceLabel": "E3 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 1.7627825445142729,
+      "halfAngle": 0.13962634015954636,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/attachFiles/download/kspo/form3_8.jpg"
+      }
+    },
+    {
+      "id": "E4",
+      "ticketLabels": [
+        "E4"
+      ],
+      "sourceLabel": "E4 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 2.076941809873252,
+      "halfAngle": 0.13962634015954636,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/attachFiles/download/kspo/form3_8.jpg"
+      }
+    },
+    {
+      "id": "B1",
+      "ticketLabels": [
+        "B1"
+      ],
+      "sourceLabel": "B1 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.5707963267948966,
+      "halfAngle": 0.2181661564992912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/attachFiles/download/kspo/form3_8.jpg"
+      }
+    },
+    {
+      "id": "B2",
+      "ticketLabels": [
+        "B2"
+      ],
+      "sourceLabel": "B2 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.1816615649929116,
+      "halfAngle": 0.2181661564992912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/attachFiles/download/kspo/form3_8.jpg"
+      }
+    },
+    {
+      "id": "D1",
+      "ticketLabels": [
+        "D1"
+      ],
+      "sourceLabel": "D1 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.5707963267948966,
+      "halfAngle": 0.2181661564992912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/attachFiles/download/kspo/form3_8.jpg"
+      }
+    },
+    {
+      "id": "D2",
+      "ticketLabels": [
+        "D2"
+      ],
+      "sourceLabel": "D2 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.1816615649929116,
+      "halfAngle": 0.2181661564992912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/attachFiles/download/kspo/form3_8.jpg"
+      }
+    },
+    {
+      "id": "G",
+      "ticketLabels": [
+        "G"
+      ],
+      "sourceLabel": "G 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.9599310885968813,
+      "halfAngle": 0.1308996938995747,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/attachFiles/download/kspo/form3_8.jpg"
+      }
+    },
+    {
+      "id": "H",
+      "ticketLabels": [
+        "H"
+      ],
+      "sourceLabel": "H 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.9599310885968813,
+      "halfAngle": 0.1308996938995747,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/attachFiles/download/kspo/form3_8.jpg"
+      }
+    },
+    {
+      "id": "1F-C1",
+      "ticketLabels": [
+        "1F-C1"
+      ],
+      "sourceLabel": "C1 区 · 1–5排（1F）",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.670353755551324,
+      "halfAngle": 0.19198621771937624,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/attachFiles/download/kspo/form3_8.jpg"
+      }
+    },
+    {
+      "id": "2F-C1",
+      "ticketLabels": [
+        "2F-C1"
+      ],
+      "sourceLabel": "C1 区 · 6–12排（2F）",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -2.670353755551324,
+      "halfAngle": 0.19198621771937624,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/attachFiles/download/kspo/form3_8.jpg"
+      }
+    },
+    {
+      "id": "1F-C2",
+      "ticketLabels": [
+        "1F-C2"
+      ],
+      "sourceLabel": "C2 区 · 1–5排（1F）",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.19198621771937624,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/attachFiles/download/kspo/form3_8.jpg"
+      }
+    },
+    {
+      "id": "2F-C2",
+      "ticketLabels": [
+        "2F-C2"
+      ],
+      "sourceLabel": "C2 区 · 6–11排（2F）",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.19198621771937624,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/attachFiles/download/kspo/form3_8.jpg"
+      }
+    },
+    {
+      "id": "1F-C3",
+      "ticketLabels": [
+        "1F-C3"
+      ],
+      "sourceLabel": "C3 区 · 1–5排（1F）",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.670353755551324,
+      "halfAngle": 0.19198621771937624,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/attachFiles/download/kspo/form3_8.jpg"
+      }
+    },
+    {
+      "id": "2F-C3",
+      "ticketLabels": [
+        "2F-C3"
+      ],
+      "sourceLabel": "C3 区 · 6–12排（2F）",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 2.670353755551324,
+      "halfAngle": 0.19198621771937624,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/attachFiles/download/kspo/form3_8.jpg"
+      }
+    },
+    {
+      "id": "F1",
+      "ticketLabels": [
+        "F1"
+      ],
+      "sourceLabel": "F1 区 · 伸缩座席",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.775073510670984,
+      "halfAngle": 0.17453292519943295,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/attachFiles/download/kspo/form3_8.jpg"
+      }
+    },
+    {
+      "id": "F2",
+      "ticketLabels": [
+        "F2"
+      ],
+      "sourceLabel": "F2 区 · 伸缩座席",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.17453292519943295,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/attachFiles/download/kspo/form3_8.jpg"
+      }
+    },
+    {
+      "id": "F3",
+      "ticketLabels": [
+        "F3"
+      ],
+      "sourceLabel": "F3 区 · 伸缩座席",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.775073510670984,
+      "halfAngle": 0.17453292519943295,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ksponco.or.kr/attachFiles/download/kspo/form3_8.jpg"
+      }
+    }
+  ],
+  "importedAt": "2026-10-24T00:00:00.000Z"
+}

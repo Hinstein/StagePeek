@@ -1,0 +1,355 @@
+{
+  "id": "zhengzhou-olympic-gymnasium",
+  "name": "郑州市奥林匹克体育中心体育馆",
+  "city": "中国内地 · 郑州",
+  "capacity": "原站目录未提供统一容量字段",
+  "source": "https://weibo.com/2/detail/5355732066632705",
+  "sourceTitle": "REA 导出的公开场馆来源索引与参数化座位示意",
+  "sourceLinks": [
+    "https://weibo.com/2/detail/5355732066632705",
+    "https://maitepiao.oss-accelerate.aliyuncs.com/tickets/2025/05/1a984202505081539158497.jpg"
+  ],
+  "accuracy": {
+    "sectionLabels": "source-layout-reference",
+    "completeSeatInventory": false,
+    "metricCalibrated": false,
+    "stage": "generic",
+    "position": "estimated",
+    "geometryBasis": "source-informed-parametric:reference",
+    "catalogStatus": "source-geometry-and-sections",
+    "seatDataStatus": "section-only",
+    "sourceLayout": "end",
+    "coverage": "16 个来源分区；0 条座位采样。区号来自公开布局参考。",
+    "reuse": "来源页面可公开访问；未建立商业图形、模型或座位数据库再分发许可，发布前需逐源复核。",
+    "sourceDate": "REA capture 2026-10-24",
+    "sourceInventory": {
+      "venueReferenceUrl": "https://weibo.com/2/detail/5355732066632705",
+      "mapReferenceUrl": "https://maitepiao.oss-accelerate.aliyuncs.com/tickets/2025/05/1a984202505081539158497.jpg",
+      "sectionSource": "https://maitepiao.oss-accelerate.aliyuncs.com/tickets/2025/05/1a984202505081539158497.jpg",
+      "geometryEvidenceLabel": "reference",
+      "note": "Missing asset URL does not establish absence of generated seat geometry."
+    },
+    "seatAsset": null
+  },
+  "tiers": [
+    [
+      24,
+      31,
+      1.5,
+      11,
+      7
+    ],
+    [
+      38,
+      45,
+      10,
+      10,
+      8
+    ]
+  ],
+  "geometry": {
+    "shape": "rounded",
+    "coordinateSystem": "profile-inner-radius",
+    "power": 0.65,
+    "oneSided": false,
+    "stage": {
+      "width": 23,
+      "depth": 9,
+      "z": -25,
+      "height": 1.5,
+      "facing": 1
+    },
+    "floor": [
+      48,
+      62
+    ],
+    "openBowl": true,
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "steps": 14
+      },
+      {
+        "id": "middle",
+        "name": "上层看台",
+        "steps": 16
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "A1",
+      "ticketLabels": [
+        "A1"
+      ],
+      "sourceLabel": "看台 A1 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.5707963267948966,
+      "halfAngle": 0.3665191429188092,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://maitepiao.oss-accelerate.aliyuncs.com/tickets/2025/05/1a984202505081539158497.jpg"
+      }
+    },
+    {
+      "id": "B1",
+      "ticketLabels": [
+        "B1"
+      ],
+      "sourceLabel": "看台 B1 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.356194490192345,
+      "halfAngle": 0.3665191429188092,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://maitepiao.oss-accelerate.aliyuncs.com/tickets/2025/05/1a984202505081539158497.jpg"
+      }
+    },
+    {
+      "id": "C1",
+      "ticketLabels": [
+        "C1"
+      ],
+      "sourceLabel": "看台 C1 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.3665191429188092,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://maitepiao.oss-accelerate.aliyuncs.com/tickets/2025/05/1a984202505081539158497.jpg"
+      }
+    },
+    {
+      "id": "D1",
+      "ticketLabels": [
+        "D1"
+      ],
+      "sourceLabel": "看台 D1 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.356194490192345,
+      "halfAngle": 0.3665191429188092,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://maitepiao.oss-accelerate.aliyuncs.com/tickets/2025/05/1a984202505081539158497.jpg"
+      }
+    },
+    {
+      "id": "E1",
+      "ticketLabels": [
+        "E1"
+      ],
+      "sourceLabel": "看台 E1 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.5707963267948966,
+      "halfAngle": 0.3665191429188092,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://maitepiao.oss-accelerate.aliyuncs.com/tickets/2025/05/1a984202505081539158497.jpg"
+      }
+    },
+    {
+      "id": "F1",
+      "ticketLabels": [
+        "F1"
+      ],
+      "sourceLabel": "看台 F1 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.7853981633974483,
+      "halfAngle": 0.3665191429188092,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://maitepiao.oss-accelerate.aliyuncs.com/tickets/2025/05/1a984202505081539158497.jpg"
+      }
+    },
+    {
+      "id": "G1",
+      "ticketLabels": [
+        "G1"
+      ],
+      "sourceLabel": "看台 G1 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.3665191429188092,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://maitepiao.oss-accelerate.aliyuncs.com/tickets/2025/05/1a984202505081539158497.jpg"
+      }
+    },
+    {
+      "id": "H1",
+      "ticketLabels": [
+        "H1"
+      ],
+      "sourceLabel": "看台 H1 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.7853981633974483,
+      "halfAngle": 0.3665191429188092,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://maitepiao.oss-accelerate.aliyuncs.com/tickets/2025/05/1a984202505081539158497.jpg"
+      }
+    },
+    {
+      "id": "A2",
+      "ticketLabels": [
+        "A2"
+      ],
+      "sourceLabel": "看台 A2 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.5707963267948966,
+      "halfAngle": 0.3665191429188092,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://maitepiao.oss-accelerate.aliyuncs.com/tickets/2025/05/1a984202505081539158497.jpg"
+      }
+    },
+    {
+      "id": "B2",
+      "ticketLabels": [
+        "B2"
+      ],
+      "sourceLabel": "看台 B2 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.356194490192345,
+      "halfAngle": 0.3665191429188092,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://maitepiao.oss-accelerate.aliyuncs.com/tickets/2025/05/1a984202505081539158497.jpg"
+      }
+    },
+    {
+      "id": "C2",
+      "ticketLabels": [
+        "C2"
+      ],
+      "sourceLabel": "看台 C2 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.3665191429188092,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://maitepiao.oss-accelerate.aliyuncs.com/tickets/2025/05/1a984202505081539158497.jpg"
+      }
+    },
+    {
+      "id": "D2",
+      "ticketLabels": [
+        "D2"
+      ],
+      "sourceLabel": "看台 D2 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.356194490192345,
+      "halfAngle": 0.3665191429188092,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://maitepiao.oss-accelerate.aliyuncs.com/tickets/2025/05/1a984202505081539158497.jpg"
+      }
+    },
+    {
+      "id": "E2",
+      "ticketLabels": [
+        "E2"
+      ],
+      "sourceLabel": "看台 E2 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.5707963267948966,
+      "halfAngle": 0.3665191429188092,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://maitepiao.oss-accelerate.aliyuncs.com/tickets/2025/05/1a984202505081539158497.jpg"
+      }
+    },
+    {
+      "id": "F2",
+      "ticketLabels": [
+        "F2"
+      ],
+      "sourceLabel": "看台 F2 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.7853981633974483,
+      "halfAngle": 0.3665191429188092,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://maitepiao.oss-accelerate.aliyuncs.com/tickets/2025/05/1a984202505081539158497.jpg"
+      }
+    },
+    {
+      "id": "G2",
+      "ticketLabels": [
+        "G2"
+      ],
+      "sourceLabel": "看台 G2 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0,
+      "halfAngle": 0.3665191429188092,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://maitepiao.oss-accelerate.aliyuncs.com/tickets/2025/05/1a984202505081539158497.jpg"
+      }
+    },
+    {
+      "id": "H2",
+      "ticketLabels": [
+        "H2"
+      ],
+      "sourceLabel": "看台 H2 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.7853981633974483,
+      "halfAngle": 0.3665191429188092,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://maitepiao.oss-accelerate.aliyuncs.com/tickets/2025/05/1a984202505081539158497.jpg"
+      }
+    }
+  ],
+  "importedAt": "2026-10-24T00:00:00.000Z"
+}

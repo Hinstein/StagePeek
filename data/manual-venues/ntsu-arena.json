@@ -1,0 +1,369 @@
+{
+  "id": "ntsu-arena",
+  "name": "国立体育大学综合体育馆",
+  "city": "中国台湾 · 桃园",
+  "capacity": "原站目录未提供统一容量字段",
+  "source": "https://ntsuarena.ntsu.edu.tw/application",
+  "sourceTitle": "REA 导出的公开场馆来源索引与参数化座位示意",
+  "sourceLinks": [
+    "https://ntsuarena.ntsu.edu.tw/application",
+    "https://phk.ntsu.edu.tw/var/file/8/1008/img/1439/147422320.pdf"
+  ],
+  "accuracy": {
+    "sectionLabels": "source-layout-reference",
+    "completeSeatInventory": false,
+    "metricCalibrated": false,
+    "stage": "generic",
+    "position": "estimated",
+    "geometryBasis": "source-informed-parametric:plan",
+    "catalogStatus": "source-geometry-and-sections",
+    "seatDataStatus": "section-only",
+    "sourceLayout": "end",
+    "coverage": "18 个来源分区；0 条座位采样。区号来自公开布局参考。",
+    "reuse": "来源页面可公开访问；未建立商业图形、模型或座位数据库再分发许可，发布前需逐源复核。",
+    "sourceDate": "REA capture 2026-10-24",
+    "sourceInventory": {
+      "venueReferenceUrl": "https://ntsuarena.ntsu.edu.tw/application",
+      "mapReferenceUrl": "https://phk.ntsu.edu.tw/var/file/8/1008/img/1439/147422320.pdf",
+      "sectionSource": "https://phk.ntsu.edu.tw/var/file/8/1008/img/1439/147422320.pdf",
+      "geometryEvidenceLabel": "plan",
+      "note": "Missing asset URL does not establish absence of generated seat geometry."
+    },
+    "seatAsset": null
+  },
+  "tiers": [
+    [
+      24,
+      27,
+      1,
+      23,
+      14
+    ]
+  ],
+  "geometry": {
+    "shape": "oval",
+    "coordinateSystem": "profile-inner-radius",
+    "power": 1,
+    "oneSided": false,
+    "floor": [
+      44,
+      50
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "固定看台",
+        "steps": 30
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "黄4",
+      "ticketLabels": [
+        "黄4"
+      ],
+      "sourceLabel": "黄4 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.6179938779914944,
+      "halfAngle": 0.14835298641951802,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://phk.ntsu.edu.tw/var/file/8/1008/img/1439/147422320.pdf"
+      }
+    },
+    {
+      "id": "黄2",
+      "ticketLabels": [
+        "黄2"
+      ],
+      "sourceLabel": "黄2 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.9670597283903604,
+      "halfAngle": 0.14835298641951802,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://phk.ntsu.edu.tw/var/file/8/1008/img/1439/147422320.pdf"
+      }
+    },
+    {
+      "id": "黄1",
+      "ticketLabels": [
+        "黄1"
+      ],
+      "sourceLabel": "黄1 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.9670597283903604,
+      "halfAngle": 0.14835298641951802,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://phk.ntsu.edu.tw/var/file/8/1008/img/1439/147422320.pdf"
+      }
+    },
+    {
+      "id": "黄3",
+      "ticketLabels": [
+        "黄3"
+      ],
+      "sourceLabel": "黄3 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.6179938779914944,
+      "halfAngle": 0.14835298641951802,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://phk.ntsu.edu.tw/var/file/8/1008/img/1439/147422320.pdf"
+      }
+    },
+    {
+      "id": "橙4",
+      "ticketLabels": [
+        "橙4"
+      ],
+      "sourceLabel": "橙4 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.5235987755982988,
+      "halfAngle": 0.14835298641951802,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://phk.ntsu.edu.tw/var/file/8/1008/img/1439/147422320.pdf"
+      }
+    },
+    {
+      "id": "橙2",
+      "ticketLabels": [
+        "橙2"
+      ],
+      "sourceLabel": "橙2 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.17453292519943295,
+      "halfAngle": 0.14835298641951802,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://phk.ntsu.edu.tw/var/file/8/1008/img/1439/147422320.pdf"
+      }
+    },
+    {
+      "id": "橙1",
+      "ticketLabels": [
+        "橙1"
+      ],
+      "sourceLabel": "橙1 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.17453292519943295,
+      "halfAngle": 0.14835298641951802,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://phk.ntsu.edu.tw/var/file/8/1008/img/1439/147422320.pdf"
+      }
+    },
+    {
+      "id": "橙3",
+      "ticketLabels": [
+        "橙3"
+      ],
+      "sourceLabel": "橙3 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.5235987755982988,
+      "halfAngle": 0.14835298641951802,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://phk.ntsu.edu.tw/var/file/8/1008/img/1439/147422320.pdf"
+      }
+    },
+    {
+      "id": "蓝5",
+      "ticketLabels": [
+        "蓝5"
+      ],
+      "sourceLabel": "蓝5 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.356194490192345,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://phk.ntsu.edu.tw/var/file/8/1008/img/1439/147422320.pdf"
+      }
+    },
+    {
+      "id": "蓝4",
+      "ticketLabels": [
+        "蓝4"
+      ],
+      "sourceLabel": "蓝4 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.9634954084936207,
+      "halfAngle": 0.14835298641951802,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://phk.ntsu.edu.tw/var/file/8/1008/img/1439/147422320.pdf"
+      }
+    },
+    {
+      "id": "蓝3",
+      "ticketLabels": [
+        "蓝3"
+      ],
+      "sourceLabel": "蓝3 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.5707963267948966,
+      "halfAngle": 0.14835298641951802,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://phk.ntsu.edu.tw/var/file/8/1008/img/1439/147422320.pdf"
+      }
+    },
+    {
+      "id": "蓝2",
+      "ticketLabels": [
+        "蓝2"
+      ],
+      "sourceLabel": "蓝2 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.1780972450961724,
+      "halfAngle": 0.14835298641951802,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://phk.ntsu.edu.tw/var/file/8/1008/img/1439/147422320.pdf"
+      }
+    },
+    {
+      "id": "蓝1",
+      "ticketLabels": [
+        "蓝1"
+      ],
+      "sourceLabel": "蓝1 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.7853981633974483,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://phk.ntsu.edu.tw/var/file/8/1008/img/1439/147422320.pdf"
+      }
+    },
+    {
+      "id": "绿5",
+      "ticketLabels": [
+        "绿5"
+      ],
+      "sourceLabel": "绿5 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.356194490192345,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://phk.ntsu.edu.tw/var/file/8/1008/img/1439/147422320.pdf"
+      }
+    },
+    {
+      "id": "绿4",
+      "ticketLabels": [
+        "绿4"
+      ],
+      "sourceLabel": "绿4 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.9634954084936207,
+      "halfAngle": 0.14835298641951802,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://phk.ntsu.edu.tw/var/file/8/1008/img/1439/147422320.pdf"
+      }
+    },
+    {
+      "id": "绿3",
+      "ticketLabels": [
+        "绿3"
+      ],
+      "sourceLabel": "绿3 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.5707963267948966,
+      "halfAngle": 0.14835298641951802,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://phk.ntsu.edu.tw/var/file/8/1008/img/1439/147422320.pdf"
+      }
+    },
+    {
+      "id": "绿2",
+      "ticketLabels": [
+        "绿2"
+      ],
+      "sourceLabel": "绿2 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.1780972450961724,
+      "halfAngle": 0.14835298641951802,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://phk.ntsu.edu.tw/var/file/8/1008/img/1439/147422320.pdf"
+      }
+    },
+    {
+      "id": "绿1",
+      "ticketLabels": [
+        "绿1"
+      ],
+      "sourceLabel": "绿1 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.7853981633974483,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://phk.ntsu.edu.tw/var/file/8/1008/img/1439/147422320.pdf"
+      }
+    }
+  ],
+  "importedAt": "2026-10-24T00:00:00.000Z"
+}

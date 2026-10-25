@@ -1,0 +1,427 @@
+{
+  "id": "singapore-mediacorp-theatre",
+  "name": "新加坡新传媒剧院",
+  "city": "新加坡 · 新加坡",
+  "capacity": "原站目录未提供统一容量字段",
+  "source": "https://www.xiaohongshu.com/explore/67c2bacb0000000029029f00",
+  "sourceTitle": "REA 导出的公开场馆来源索引与参数化座位示意",
+  "sourceLinks": [
+    "https://www.xiaohongshu.com/explore/67c2bacb0000000029029f00",
+    "https://www.mediacorp.sg/business/production-venue/resources-event-venues/theatre"
+  ],
+  "accuracy": {
+    "sectionLabels": "source-layout-reference",
+    "completeSeatInventory": false,
+    "metricCalibrated": false,
+    "stage": "generic",
+    "position": "estimated",
+    "geometryBasis": "source-informed-parametric:reference",
+    "catalogStatus": "source-geometry-and-sections",
+    "seatDataStatus": "section-only",
+    "sourceLayout": "end",
+    "coverage": "20 个来源分区；0 条座位采样。区号来自公开布局参考。",
+    "reuse": "来源页面可公开访问；未建立商业图形、模型或座位数据库再分发许可，发布前需逐源复核。",
+    "sourceDate": "REA capture 2026-10-24",
+    "sourceInventory": {
+      "venueReferenceUrl": "https://www.xiaohongshu.com/explore/67c2bacb0000000029029f00",
+      "mapReferenceUrl": "https://www.xiaohongshu.com/explore/67c2bacb0000000029029f00",
+      "sectionSource": "https://www.xiaohongshu.com/explore/67c2bacb0000000029029f00",
+      "geometryEvidenceLabel": "reference",
+      "note": "Missing asset URL does not establish absence of generated seat geometry."
+    },
+    "seatAsset": null
+  },
+  "tiers": [
+    [
+      25,
+      12,
+      0.3,
+      24,
+      6.6
+    ],
+    [
+      25,
+      15,
+      10,
+      10,
+      5.4
+    ],
+    [
+      26,
+      18,
+      18,
+      12,
+      6.2
+    ]
+  ],
+  "geometry": {
+    "shape": "rectangle",
+    "coordinateSystem": "profile-inner-radius",
+    "power": 0.2,
+    "oneSided": true,
+    "floor": [
+      62,
+      60
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "steps": 19
+      },
+      {
+        "id": "middle",
+        "name": "中层看台",
+        "steps": 14
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "steps": 16
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "lmsy-lower-Lower-Stalls-左（示意）",
+      "ticketLabels": [
+        "lmsy-lower-Lower Stalls 左（示意）"
+      ],
+      "sourceLabel": "Lower Stalls 左（示意）",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.17453292519943295,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.xiaohongshu.com/explore/67c2bacb0000000029029f00"
+      }
+    },
+    {
+      "id": "lmsy-lower-Upper-Stalls-左（示意）",
+      "ticketLabels": [
+        "lmsy-lower-Upper Stalls 左（示意）"
+      ],
+      "sourceLabel": "Upper Stalls 左（示意）",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.17453292519943295,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.xiaohongshu.com/explore/67c2bacb0000000029029f00"
+      }
+    },
+    {
+      "id": "lmsy-middle-Circle-1-前排-左（示意）",
+      "ticketLabels": [
+        "lmsy-middle-Circle 1 前排 左（示意）"
+      ],
+      "sourceLabel": "Circle 1 前排 左（示意）",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.17453292519943295,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.xiaohongshu.com/explore/67c2bacb0000000029029f00"
+      }
+    },
+    {
+      "id": "lmsy-middle-Circle-1-左（示意）",
+      "ticketLabels": [
+        "lmsy-middle-Circle 1 左（示意）"
+      ],
+      "sourceLabel": "Circle 1 左（示意）",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.17453292519943295,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.xiaohongshu.com/explore/67c2bacb0000000029029f00"
+      }
+    },
+    {
+      "id": "lmsy-upper-Circle-2-前排-左（示意）",
+      "ticketLabels": [
+        "lmsy-upper-Circle 2 前排 左（示意）"
+      ],
+      "sourceLabel": "Circle 2 前排 左（示意）",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.17453292519943295,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.xiaohongshu.com/explore/67c2bacb0000000029029f00"
+      }
+    },
+    {
+      "id": "lmsy-upper-Circle-2-后排-左（示意）",
+      "ticketLabels": [
+        "lmsy-upper-Circle 2 后排 左（示意）"
+      ],
+      "sourceLabel": "Circle 2 后排 左（示意）",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.17453292519943295,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.xiaohongshu.com/explore/67c2bacb0000000029029f00"
+      }
+    },
+    {
+      "id": "lmsy-lower-Lower-Stalls-中（示意）",
+      "ticketLabels": [
+        "lmsy-lower-Lower Stalls 中（示意）"
+      ],
+      "sourceLabel": "Lower Stalls 中（示意）",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.17453292519943295,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.xiaohongshu.com/explore/67c2bacb0000000029029f00"
+      }
+    },
+    {
+      "id": "lmsy-lower-Upper-Stalls-中（示意）",
+      "ticketLabels": [
+        "lmsy-lower-Upper Stalls 中（示意）"
+      ],
+      "sourceLabel": "Upper Stalls 中（示意）",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.17453292519943295,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.xiaohongshu.com/explore/67c2bacb0000000029029f00"
+      }
+    },
+    {
+      "id": "lmsy-middle-Circle-1-前排-中（示意）",
+      "ticketLabels": [
+        "lmsy-middle-Circle 1 前排 中（示意）"
+      ],
+      "sourceLabel": "Circle 1 前排 中（示意）",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.17453292519943295,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.xiaohongshu.com/explore/67c2bacb0000000029029f00"
+      }
+    },
+    {
+      "id": "lmsy-middle-Circle-1-中（示意）",
+      "ticketLabels": [
+        "lmsy-middle-Circle 1 中（示意）"
+      ],
+      "sourceLabel": "Circle 1 中（示意）",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.17453292519943295,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.xiaohongshu.com/explore/67c2bacb0000000029029f00"
+      }
+    },
+    {
+      "id": "lmsy-upper-Circle-2-前排-中（示意）",
+      "ticketLabels": [
+        "lmsy-upper-Circle 2 前排 中（示意）"
+      ],
+      "sourceLabel": "Circle 2 前排 中（示意）",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.17453292519943295,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.xiaohongshu.com/explore/67c2bacb0000000029029f00"
+      }
+    },
+    {
+      "id": "lmsy-upper-Circle-2-后排-中（示意）",
+      "ticketLabels": [
+        "lmsy-upper-Circle 2 后排 中（示意）"
+      ],
+      "sourceLabel": "Circle 2 后排 中（示意）",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.17453292519943295,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.xiaohongshu.com/explore/67c2bacb0000000029029f00"
+      }
+    },
+    {
+      "id": "lmsy-lower-Lower-Stalls-右（示意）",
+      "ticketLabels": [
+        "lmsy-lower-Lower Stalls 右（示意）"
+      ],
+      "sourceLabel": "Lower Stalls 右（示意）",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.17453292519943295,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.xiaohongshu.com/explore/67c2bacb0000000029029f00"
+      }
+    },
+    {
+      "id": "lmsy-lower-Upper-Stalls-右（示意）",
+      "ticketLabels": [
+        "lmsy-lower-Upper Stalls 右（示意）"
+      ],
+      "sourceLabel": "Upper Stalls 右（示意）",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.17453292519943295,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.xiaohongshu.com/explore/67c2bacb0000000029029f00"
+      }
+    },
+    {
+      "id": "lmsy-middle-Circle-1-前排-右（示意）",
+      "ticketLabels": [
+        "lmsy-middle-Circle 1 前排 右（示意）"
+      ],
+      "sourceLabel": "Circle 1 前排 右（示意）",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.17453292519943295,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.xiaohongshu.com/explore/67c2bacb0000000029029f00"
+      }
+    },
+    {
+      "id": "lmsy-middle-Circle-1-右（示意）",
+      "ticketLabels": [
+        "lmsy-middle-Circle 1 右（示意）"
+      ],
+      "sourceLabel": "Circle 1 右（示意）",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.17453292519943295,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.xiaohongshu.com/explore/67c2bacb0000000029029f00"
+      }
+    },
+    {
+      "id": "lmsy-upper-Circle-2-前排-右（示意）",
+      "ticketLabels": [
+        "lmsy-upper-Circle 2 前排 右（示意）"
+      ],
+      "sourceLabel": "Circle 2 前排 右（示意）",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.17453292519943295,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.xiaohongshu.com/explore/67c2bacb0000000029029f00"
+      }
+    },
+    {
+      "id": "lmsy-upper-Circle-2-后排-右（示意）",
+      "ticketLabels": [
+        "lmsy-upper-Circle 2 后排 右（示意）"
+      ],
+      "sourceLabel": "Circle 2 后排 右（示意）",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.17453292519943295,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.xiaohongshu.com/explore/67c2bacb0000000029029f00"
+      }
+    },
+    {
+      "id": "lmsy-upper-Circle-2-侧包厢左（示意）",
+      "ticketLabels": [
+        "lmsy-upper-Circle 2 侧包厢左（示意）"
+      ],
+      "sourceLabel": "Circle 2 侧包厢左（示意）",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.17453292519943295,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.xiaohongshu.com/explore/67c2bacb0000000029029f00"
+      }
+    },
+    {
+      "id": "lmsy-upper-Circle-2-侧包厢右（示意）",
+      "ticketLabels": [
+        "lmsy-upper-Circle 2 侧包厢右（示意）"
+      ],
+      "sourceLabel": "Circle 2 侧包厢右（示意）",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.17453292519943295,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.xiaohongshu.com/explore/67c2bacb0000000029029f00"
+      }
+    }
+  ],
+  "importedAt": "2026-10-24T00:00:00.000Z"
+}

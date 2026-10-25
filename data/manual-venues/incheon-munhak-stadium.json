@@ -1,0 +1,2271 @@
+{
+  "id": "incheon-munhak-stadium",
+  "name": "韩国仁川文鹤竞技场",
+  "city": "韩国 · 仁川",
+  "capacity": "原站目录未提供统一容量字段",
+  "source": "https://www.incheon.go.kr/jp/JP030115/view?contentid=1310265&curPage=6",
+  "sourceTitle": "REA 导出的公开场馆来源索引与参数化座位示意",
+  "sourceLinks": [
+    "https://www.incheon.go.kr/jp/JP030115/view?contentid=1310265&curPage=6",
+    "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+  ],
+  "accuracy": {
+    "sectionLabels": "source-layout-reference",
+    "completeSeatInventory": false,
+    "metricCalibrated": false,
+    "stage": "generic",
+    "position": "estimated",
+    "geometryBasis": "source-informed-parametric:plan",
+    "catalogStatus": "source-geometry-and-sections",
+    "seatDataStatus": "section-only",
+    "sourceLayout": "end",
+    "coverage": "119 个来源分区；0 条座位采样。区号来自公开布局参考。",
+    "reuse": "来源页面可公开访问；未建立商业图形、模型或座位数据库再分发许可，发布前需逐源复核。",
+    "sourceDate": "REA capture 2026-10-24",
+    "sourceInventory": {
+      "venueReferenceUrl": "https://www.incheon.go.kr/jp/JP030115/view?contentid=1310265&curPage=6",
+      "mapReferenceUrl": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/",
+      "sectionSource": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/",
+      "geometryEvidenceLabel": "plan",
+      "note": "Missing asset URL does not establish absence of generated seat geometry."
+    },
+    "seatAsset": null
+  },
+  "tiers": [
+    [
+      68,
+      98,
+      1,
+      23,
+      12
+    ],
+    [
+      87,
+      117,
+      20,
+      20,
+      15
+    ],
+    [
+      1,
+      1,
+      0,
+      1,
+      0
+    ]
+  ],
+  "geometry": {
+    "shape": "oval",
+    "coordinateSystem": "profile-inner-radius",
+    "power": 1,
+    "oneSided": false,
+    "floor": [
+      130,
+      190
+    ],
+    "rectangularFloor": true,
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "2F 看台",
+        "steps": 30
+      },
+      {
+        "id": "middle",
+        "name": "4F 看台",
+        "steps": 25
+      },
+      {
+        "id": "floor",
+        "name": "内场 F1–F20（场次示意）",
+        "steps": 12
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "S5",
+      "ticketLabels": [
+        "S5"
+      ],
+      "sourceLabel": "S5 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.5307274153917776,
+      "halfAngle": 0.06981317007977318,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "S6",
+      "ticketLabels": [
+        "S6"
+      ],
+      "sourceLabel": "S6 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.3641357382889194,
+      "halfAngle": 0.06981317007977318,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "S7",
+      "ticketLabels": [
+        "S7"
+      ],
+      "sourceLabel": "S7 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.1975266078935403,
+      "halfAngle": 0.06981317007977318,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "S8",
+      "ticketLabels": [
+        "S8"
+      ],
+      "sourceLabel": "S8 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.0309349307906817,
+      "halfAngle": 0.06981317007977318,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "S9",
+      "ticketLabels": [
+        "S9"
+      ],
+      "sourceLabel": "S9 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.864325800395303,
+      "halfAngle": 0.06981317007977318,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "S10",
+      "ticketLabels": [
+        "S10"
+      ],
+      "sourceLabel": "S10 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.697734123292444,
+      "halfAngle": 0.06981317007977318,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "S11",
+      "ticketLabels": [
+        "S11"
+      ],
+      "sourceLabel": "S11 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.5311249928970656,
+      "halfAngle": 0.06981317007977318,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "S12",
+      "ticketLabels": [
+        "S12"
+      ],
+      "sourceLabel": "S12 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.3645333157942068,
+      "halfAngle": 0.06981317007977318,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "S13",
+      "ticketLabels": [
+        "S13"
+      ],
+      "sourceLabel": "S13 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.197924185398828,
+      "halfAngle": 0.06981317007977318,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "S14",
+      "ticketLabels": [
+        "S14"
+      ],
+      "sourceLabel": "S14 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.0313325082959692,
+      "halfAngle": 0.06981317007977318,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "S15",
+      "ticketLabels": [
+        "S15"
+      ],
+      "sourceLabel": "S15 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.8647233779005906,
+      "halfAngle": 0.06981317007977318,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "S16",
+      "ticketLabels": [
+        "S16"
+      ],
+      "sourceLabel": "S16 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.6981317007977318,
+      "halfAngle": 0.06981317007977318,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "N1",
+      "ticketLabels": [
+        "N1"
+      ],
+      "sourceLabel": "N1 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.6981317007977318,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "N2",
+      "ticketLabels": [
+        "N2"
+      ],
+      "sourceLabel": "N2 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.7744898555724837,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "N3",
+      "ticketLabels": [
+        "N3"
+      ],
+      "sourceLabel": "N3 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.8508480103472356,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "N4",
+      "ticketLabels": [
+        "N4"
+      ],
+      "sourceLabel": "N4 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.9272061651219875,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "N5",
+      "ticketLabels": [
+        "N5"
+      ],
+      "sourceLabel": "N5 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.0035643198967394,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "N6",
+      "ticketLabels": [
+        "N6"
+      ],
+      "sourceLabel": "N6 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.0799224746714915,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "N7",
+      "ticketLabels": [
+        "N7"
+      ],
+      "sourceLabel": "N7 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.1562806294462433,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "N8",
+      "ticketLabels": [
+        "N8"
+      ],
+      "sourceLabel": "N8 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.2326387842209952,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "N9",
+      "ticketLabels": [
+        "N9"
+      ],
+      "sourceLabel": "N9 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.3089969389957472,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "N10",
+      "ticketLabels": [
+        "N10"
+      ],
+      "sourceLabel": "N10 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.385355093770499,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "N11",
+      "ticketLabels": [
+        "N11"
+      ],
+      "sourceLabel": "N11 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.4617132485452509,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "N12",
+      "ticketLabels": [
+        "N12"
+      ],
+      "sourceLabel": "N12 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.538071403320003,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "N13",
+      "ticketLabels": [
+        "N13"
+      ],
+      "sourceLabel": "N13 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.6144295580947547,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "N14",
+      "ticketLabels": [
+        "N14"
+      ],
+      "sourceLabel": "N14 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.6907877128695068,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "N15",
+      "ticketLabels": [
+        "N15"
+      ],
+      "sourceLabel": "N15 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.7671458676442584,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "N16",
+      "ticketLabels": [
+        "N16"
+      ],
+      "sourceLabel": "N16 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.8435040224190105,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "N17",
+      "ticketLabels": [
+        "N17"
+      ],
+      "sourceLabel": "N17 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.9198621771937625,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "N18",
+      "ticketLabels": [
+        "N18"
+      ],
+      "sourceLabel": "N18 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.9962203319685143,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "N19",
+      "ticketLabels": [
+        "N19"
+      ],
+      "sourceLabel": "N19 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.072578486743266,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "N20",
+      "ticketLabels": [
+        "N20"
+      ],
+      "sourceLabel": "N20 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.148936641518018,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "N21",
+      "ticketLabels": [
+        "N21"
+      ],
+      "sourceLabel": "N21 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.2252947962927703,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "N22",
+      "ticketLabels": [
+        "N22"
+      ],
+      "sourceLabel": "N22 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.301652951067522,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "N23",
+      "ticketLabels": [
+        "N23"
+      ],
+      "sourceLabel": "N23 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.378011105842274,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "N24",
+      "ticketLabels": [
+        "N24"
+      ],
+      "sourceLabel": "N24 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.454369260617026,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "N25",
+      "ticketLabels": [
+        "N25"
+      ],
+      "sourceLabel": "N25 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.5307274153917776,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E1",
+      "ticketLabels": [
+        "E1"
+      ],
+      "sourceLabel": "E1 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.6179938779914944,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E2",
+      "ticketLabels": [
+        "E2"
+      ],
+      "sourceLabel": "E2 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.57013694990181,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E3",
+      "ticketLabels": [
+        "E3"
+      ],
+      "sourceLabel": "E3 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.6095464844118417,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E4",
+      "ticketLabels": [
+        "E4"
+      ],
+      "sourceLabel": "E4 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.6489560189218735,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E5",
+      "ticketLabels": [
+        "E5"
+      ],
+      "sourceLabel": "E5 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.6883655534319058,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E6",
+      "ticketLabels": [
+        "E6"
+      ],
+      "sourceLabel": "E6 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.7277750879419376,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E7",
+      "ticketLabels": [
+        "E7"
+      ],
+      "sourceLabel": "E7 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.7671846224519694,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E8",
+      "ticketLabels": [
+        "E8"
+      ],
+      "sourceLabel": "E8 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.8065941569620017,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E9",
+      "ticketLabels": [
+        "E9"
+      ],
+      "sourceLabel": "E9 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.846021144764553,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E10",
+      "ticketLabels": [
+        "E10"
+      ],
+      "sourceLabel": "E10 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.8854306792745854,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E11",
+      "ticketLabels": [
+        "E11"
+      ],
+      "sourceLabel": "E11 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.9248402137846172,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E12",
+      "ticketLabels": [
+        "E12"
+      ],
+      "sourceLabel": "E12 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.964249748294649,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E13",
+      "ticketLabels": [
+        "E13"
+      ],
+      "sourceLabel": "E13 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.0036592828046813,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E14",
+      "ticketLabels": [
+        "E14"
+      ],
+      "sourceLabel": "E14 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.043068817314713,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E15",
+      "ticketLabels": [
+        "E15"
+      ],
+      "sourceLabel": "E15 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.082478351824745,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E16",
+      "ticketLabels": [
+        "E16"
+      ],
+      "sourceLabel": "E16 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.121887886334777,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E17",
+      "ticketLabels": [
+        "E17"
+      ],
+      "sourceLabel": "E17 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.161297420844809,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E18",
+      "ticketLabels": [
+        "E18"
+      ],
+      "sourceLabel": "E18 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.200706955354841,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E19",
+      "ticketLabels": [
+        "E19"
+      ],
+      "sourceLabel": "E19 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.240116489864873,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E20",
+      "ticketLabels": [
+        "E20"
+      ],
+      "sourceLabel": "E20 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.279526024374905,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E21",
+      "ticketLabels": [
+        "E21"
+      ],
+      "sourceLabel": "E21 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.3189355588849367,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E22",
+      "ticketLabels": [
+        "E22"
+      ],
+      "sourceLabel": "E22 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.358345093394969,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E23",
+      "ticketLabels": [
+        "E23"
+      ],
+      "sourceLabel": "E23 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.397754627905001,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E24",
+      "ticketLabels": [
+        "E24"
+      ],
+      "sourceLabel": "E24 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.437164162415033,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E25",
+      "ticketLabels": [
+        "E25"
+      ],
+      "sourceLabel": "E25 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.476591150217584,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E26",
+      "ticketLabels": [
+        "E26"
+      ],
+      "sourceLabel": "E26 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.516000684727617,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E27",
+      "ticketLabels": [
+        "E27"
+      ],
+      "sourceLabel": "E27 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.555410219237649,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E28",
+      "ticketLabels": [
+        "E28"
+      ],
+      "sourceLabel": "E28 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.59481975374768,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E29",
+      "ticketLabels": [
+        "E29"
+      ],
+      "sourceLabel": "E29 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.6342292882577123,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E30",
+      "ticketLabels": [
+        "E30"
+      ],
+      "sourceLabel": "E30 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.673638822767745,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E31",
+      "ticketLabels": [
+        "E31"
+      ],
+      "sourceLabel": "E31 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.713048357277777,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E32",
+      "ticketLabels": [
+        "E32"
+      ],
+      "sourceLabel": "E32 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.752457891787808,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E33",
+      "ticketLabels": [
+        "E33"
+      ],
+      "sourceLabel": "E33 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.443460952792061,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E34",
+      "ticketLabels": [
+        "E34"
+      ],
+      "sourceLabel": "E34 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.4916145868545847,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E35",
+      "ticketLabels": [
+        "E35"
+      ],
+      "sourceLabel": "E35 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.5397507676245885,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E36",
+      "ticketLabels": [
+        "E36"
+      ],
+      "sourceLabel": "E36 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.5879044016871124,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E37",
+      "ticketLabels": [
+        "E37"
+      ],
+      "sourceLabel": "E37 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.6360405824571154,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E38",
+      "ticketLabels": [
+        "E38"
+      ],
+      "sourceLabel": "E38 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.6841942165196393,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E39",
+      "ticketLabels": [
+        "E39"
+      ],
+      "sourceLabel": "E39 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.7323478505821623,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E40",
+      "ticketLabels": [
+        "E40"
+      ],
+      "sourceLabel": "E40 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.7804840313521666,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E41",
+      "ticketLabels": [
+        "E41"
+      ],
+      "sourceLabel": "E41 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.8286376654146896,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E42",
+      "ticketLabels": [
+        "E42"
+      ],
+      "sourceLabel": "E42 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.876791299477213,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E43",
+      "ticketLabels": [
+        "E43"
+      ],
+      "sourceLabel": "E43 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.9249274802472174,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E44",
+      "ticketLabels": [
+        "E44"
+      ],
+      "sourceLabel": "E44 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.9730811143097404,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E45",
+      "ticketLabels": [
+        "E45"
+      ],
+      "sourceLabel": "E45 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.0212172950797442,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E46",
+      "ticketLabels": [
+        "E46"
+      ],
+      "sourceLabel": "E46 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.069370929142268,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E47",
+      "ticketLabels": [
+        "E47"
+      ],
+      "sourceLabel": "E47 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.1175245632047917,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E48",
+      "ticketLabels": [
+        "E48"
+      ],
+      "sourceLabel": "E48 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.1656607439747946,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E49",
+      "ticketLabels": [
+        "E49"
+      ],
+      "sourceLabel": "E49 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.2138143780373185,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E50",
+      "ticketLabels": [
+        "E50"
+      ],
+      "sourceLabel": "E50 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.261968012099842,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E51",
+      "ticketLabels": [
+        "E51"
+      ],
+      "sourceLabel": "E51 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.310104192869846,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E52",
+      "ticketLabels": [
+        "E52"
+      ],
+      "sourceLabel": "E52 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.358257826932369,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E53",
+      "ticketLabels": [
+        "E53"
+      ],
+      "sourceLabel": "E53 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.4063940077023727,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E54",
+      "ticketLabels": [
+        "E54"
+      ],
+      "sourceLabel": "E54 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.454547641764896,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E55",
+      "ticketLabels": [
+        "E55"
+      ],
+      "sourceLabel": "E55 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.50270127582742,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E56",
+      "ticketLabels": [
+        "E56"
+      ],
+      "sourceLabel": "E56 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.5508374565974234,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E57",
+      "ticketLabels": [
+        "E57"
+      ],
+      "sourceLabel": "E57 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.5989910906599465,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E58",
+      "ticketLabels": [
+        "E58"
+      ],
+      "sourceLabel": "E58 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.647144724722471,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E59",
+      "ticketLabels": [
+        "E59"
+      ],
+      "sourceLabel": "E59 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.6952809054924742,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E60",
+      "ticketLabels": [
+        "E60"
+      ],
+      "sourceLabel": "E60 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.7434345395549977,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E61",
+      "ticketLabels": [
+        "E61"
+      ],
+      "sourceLabel": "E61 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.7915707203250015,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "E62",
+      "ticketLabels": [
+        "E62"
+      ],
+      "sourceLabel": "E62 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.839724354387525,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "F1",
+      "ticketLabels": [
+        "F1"
+      ],
+      "sourceLabel": "F1 区（场次示意）",
+      "levelName": "Level 3",
+      "tier": 2,
+      "block": {
+        "x": 54,
+        "z": 45,
+        "width": 10,
+        "depth": 18,
+        "base": 0,
+        "facing": -1
+      },
+      "angle": 0,
+      "halfAngle": 0.012,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "F2",
+      "ticketLabels": [
+        "F2"
+      ],
+      "sourceLabel": "F2 区（场次示意）",
+      "levelName": "Level 3",
+      "tier": 2,
+      "block": {
+        "x": 42,
+        "z": 45,
+        "width": 10,
+        "depth": 18,
+        "base": 0,
+        "facing": -1
+      },
+      "angle": 0,
+      "halfAngle": 0.012,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "F3",
+      "ticketLabels": [
+        "F3"
+      ],
+      "sourceLabel": "F3 区（场次示意）",
+      "levelName": "Level 3",
+      "tier": 2,
+      "block": {
+        "x": 30,
+        "z": 45,
+        "width": 10,
+        "depth": 18,
+        "base": 0,
+        "facing": -1
+      },
+      "angle": 0,
+      "halfAngle": 0.012,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "F4",
+      "ticketLabels": [
+        "F4"
+      ],
+      "sourceLabel": "F4 区（场次示意）",
+      "levelName": "Level 3",
+      "tier": 2,
+      "block": {
+        "x": 18,
+        "z": 45,
+        "width": 10,
+        "depth": 18,
+        "base": 0,
+        "facing": -1
+      },
+      "angle": 0,
+      "halfAngle": 0.012,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "F5",
+      "ticketLabels": [
+        "F5"
+      ],
+      "sourceLabel": "F5 区（场次示意）",
+      "levelName": "Level 3",
+      "tier": 2,
+      "block": {
+        "x": 6,
+        "z": 45,
+        "width": 10,
+        "depth": 18,
+        "base": 0,
+        "facing": -1
+      },
+      "angle": 0,
+      "halfAngle": 0.012,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "F6",
+      "ticketLabels": [
+        "F6"
+      ],
+      "sourceLabel": "F6 区（场次示意）",
+      "levelName": "Level 3",
+      "tier": 2,
+      "block": {
+        "x": -6,
+        "z": 45,
+        "width": 10,
+        "depth": 18,
+        "base": 0,
+        "facing": -1
+      },
+      "angle": 0,
+      "halfAngle": 0.012,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "F7",
+      "ticketLabels": [
+        "F7"
+      ],
+      "sourceLabel": "F7 区（场次示意）",
+      "levelName": "Level 3",
+      "tier": 2,
+      "block": {
+        "x": -18,
+        "z": 45,
+        "width": 10,
+        "depth": 18,
+        "base": 0,
+        "facing": -1
+      },
+      "angle": 0,
+      "halfAngle": 0.012,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "F8",
+      "ticketLabels": [
+        "F8"
+      ],
+      "sourceLabel": "F8 区（场次示意）",
+      "levelName": "Level 3",
+      "tier": 2,
+      "block": {
+        "x": -30,
+        "z": 45,
+        "width": 10,
+        "depth": 18,
+        "base": 0,
+        "facing": -1
+      },
+      "angle": 0,
+      "halfAngle": 0.012,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "F9",
+      "ticketLabels": [
+        "F9"
+      ],
+      "sourceLabel": "F9 区（场次示意）",
+      "levelName": "Level 3",
+      "tier": 2,
+      "block": {
+        "x": -42,
+        "z": 45,
+        "width": 10,
+        "depth": 18,
+        "base": 0,
+        "facing": -1
+      },
+      "angle": 0,
+      "halfAngle": 0.012,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "F10",
+      "ticketLabels": [
+        "F10"
+      ],
+      "sourceLabel": "F10 区（场次示意）",
+      "levelName": "Level 3",
+      "tier": 2,
+      "block": {
+        "x": -54,
+        "z": 45,
+        "width": 10,
+        "depth": 18,
+        "base": 0,
+        "facing": -1
+      },
+      "angle": 0,
+      "halfAngle": 0.012,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "F11",
+      "ticketLabels": [
+        "F11"
+      ],
+      "sourceLabel": "F11 区（场次示意）",
+      "levelName": "Level 3",
+      "tier": 2,
+      "block": {
+        "x": 54,
+        "z": 20,
+        "width": 10,
+        "depth": 18,
+        "base": 0,
+        "facing": -1
+      },
+      "angle": 0,
+      "halfAngle": 0.012,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "F12",
+      "ticketLabels": [
+        "F12"
+      ],
+      "sourceLabel": "F12 区（场次示意）",
+      "levelName": "Level 3",
+      "tier": 2,
+      "block": {
+        "x": 42,
+        "z": 20,
+        "width": 10,
+        "depth": 18,
+        "base": 0,
+        "facing": -1
+      },
+      "angle": 0,
+      "halfAngle": 0.012,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "F13",
+      "ticketLabels": [
+        "F13"
+      ],
+      "sourceLabel": "F13 区（场次示意）",
+      "levelName": "Level 3",
+      "tier": 2,
+      "block": {
+        "x": 30,
+        "z": 20,
+        "width": 10,
+        "depth": 18,
+        "base": 0,
+        "facing": -1
+      },
+      "angle": 0,
+      "halfAngle": 0.012,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "F14",
+      "ticketLabels": [
+        "F14"
+      ],
+      "sourceLabel": "F14 区（场次示意）",
+      "levelName": "Level 3",
+      "tier": 2,
+      "block": {
+        "x": 18,
+        "z": 20,
+        "width": 10,
+        "depth": 18,
+        "base": 0,
+        "facing": -1
+      },
+      "angle": 0,
+      "halfAngle": 0.012,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "F15",
+      "ticketLabels": [
+        "F15"
+      ],
+      "sourceLabel": "F15 区（场次示意）",
+      "levelName": "Level 3",
+      "tier": 2,
+      "block": {
+        "x": 6,
+        "z": 20,
+        "width": 10,
+        "depth": 18,
+        "base": 0,
+        "facing": -1
+      },
+      "angle": 0,
+      "halfAngle": 0.012,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "F16",
+      "ticketLabels": [
+        "F16"
+      ],
+      "sourceLabel": "F16 区（场次示意）",
+      "levelName": "Level 3",
+      "tier": 2,
+      "block": {
+        "x": -6,
+        "z": 20,
+        "width": 10,
+        "depth": 18,
+        "base": 0,
+        "facing": -1
+      },
+      "angle": 0,
+      "halfAngle": 0.012,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "F17",
+      "ticketLabels": [
+        "F17"
+      ],
+      "sourceLabel": "F17 区（场次示意）",
+      "levelName": "Level 3",
+      "tier": 2,
+      "block": {
+        "x": -18,
+        "z": 20,
+        "width": 10,
+        "depth": 18,
+        "base": 0,
+        "facing": -1
+      },
+      "angle": 0,
+      "halfAngle": 0.012,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "F18",
+      "ticketLabels": [
+        "F18"
+      ],
+      "sourceLabel": "F18 区（场次示意）",
+      "levelName": "Level 3",
+      "tier": 2,
+      "block": {
+        "x": -30,
+        "z": 20,
+        "width": 10,
+        "depth": 18,
+        "base": 0,
+        "facing": -1
+      },
+      "angle": 0,
+      "halfAngle": 0.012,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "F19",
+      "ticketLabels": [
+        "F19"
+      ],
+      "sourceLabel": "F19 区（场次示意）",
+      "levelName": "Level 3",
+      "tier": 2,
+      "block": {
+        "x": -42,
+        "z": 20,
+        "width": 10,
+        "depth": 18,
+        "base": 0,
+        "facing": -1
+      },
+      "angle": 0,
+      "halfAngle": 0.012,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    },
+    {
+      "id": "F20",
+      "ticketLabels": [
+        "F20"
+      ],
+      "sourceLabel": "F20 区（场次示意）",
+      "levelName": "Level 3",
+      "tier": 2,
+      "block": {
+        "x": -54,
+        "z": 20,
+        "width": 10,
+        "depth": 18,
+        "base": 0,
+        "facing": -1
+      },
+      "angle": 0,
+      "halfAngle": 0.012,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/"
+      }
+    }
+  ],
+  "importedAt": "2026-10-24T00:00:00.000Z"
+}

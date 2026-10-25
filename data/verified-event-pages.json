@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "venues": {
+    "tottenham": {
+      "events": [
+        {
+          "id": "4f555f37d49d0621ee807663",
+          "venueId": "tottenham",
+          "name": "Karol G",
+          "startDate": "2027-07-06T18:00:00.000Z",
+          "endDate": "2027-07-06T22:00:00.000Z",
+          "localDate": "2027-07-06",
+          "endLocalDate": "2027-07-06",
+          "datePrecision": "source-timestamp",
+          "timezone": "Europe/London",
+          "status": "scheduled",
+          "source": "https://www.tottenhamhotspurstadium.com/events/1021367/karol-g",
+          "layout": {
+            "status": "unconfirmed",
+            "source": null,
+            "model": null
+          }
+        }
+      ],
+      "refreshedAt": "2026-10-23T17:19:39.048Z",
+      "status": "partial",
+      "sources": [
+        {
+          "url": "https://www.tottenhamhotspurstadium.com/events/1021367/karol-g",
+          "parsedEvents": 1
+        }
+      ],
+      "coverage": "One manually verified official detail page; full listing refresh pending"
+    },
+    "metlife": {
+      "events": [
+        {
+          "id": "b0c1744afd0b0bb717f4df98",
+          "venueId": "metlife",
+          "name": "Zach Bryan",
+          "startDate": "2027-05-14T19:00:00-04:00",
+          "endDate": "2027-05-15T22:00:00-04:00",
+          "localDate": "2027-05-14",
+          "endLocalDate": "2027-05-15",
+          "datePrecision": "source-timestamp",
+          "timezone": "America/New_York",
+          "status": "scheduled",
+          "source": "https://www.metlifestadium.com/events/detail/zach-bryan",
+          "layout": {
+            "status": "unconfirmed",
+            "source": null,
+            "model": null
+          }
+        }
+      ],
+      "refreshedAt": "2026-10-23T17:19:39.050Z",
+      "status": "partial",
+      "sources": [
+        {
+          "url": "https://www.metlifestadium.com/events/detail/zach-bryan",
+          "parsedEvents": 1
+        }
+      ],
+      "coverage": "One manually verified official detail page; full listing refresh pending"
+    },
+    "sofi": {
+      "events": [
+        {
+          "category": "music",
+          "id": "654d73f955fdd767fdfbbf6e",
+          "venueId": "sofi",
+          "name": "JAŸ-Z 30",
+          "startDate": "2026-10-24",
+          "endDate": null,
+          "localDate": "2026-10-24",
+          "endLocalDate": "2026-10-24",
+          "datePrecision": "day",
+          "timezone": "America/Los_Angeles",
+          "status": "scheduled",
+          "source": "https://www.sofistadium.com/events/detail/jay-z-october-24-2026",
+          "layout": {
+            "status": "unconfirmed",
+            "source": null,
+            "model": null
+          },
+          "localTime": "20:00",
+          "verifiedAt": "2026-10-23T18:10:38.807Z",
+          "acquisition": "manual-official-page-verification"
+        },
+        {
+          "category": "music",
+          "id": "6f227c4c00e9805a6eef74d3",
+          "venueId": "sofi",
+          "name": "The R&B Tour - Starring Usher Raymond & Chris Brown",
+          "startDate": "2026-11-15",
+          "endDate": null,
+          "localDate": "2026-11-15",
+          "endLocalDate": "2026-11-15",
+          "datePrecision": "day",
+          "timezone": "America/Los_Angeles",
+          "status": "scheduled",
+          "source": "https://www.sofistadium.com/events/detail/chris-brown-usher-november-15",
+          "layout": {
+            "status": "unconfirmed",
+            "source": null,
+            "model": null
+          },
+          "localTime": "19:30",
+          "verifiedAt": "2026-10-23T18:10:38.807Z",
+          "acquisition": "manual-official-page-verification"
+        },
+        {
+          "category": "music",
+          "id": "0f62f8e053e9a9deac512d3f",
+          "venueId": "sofi",
+          "name": "The R&B Tour - Starring Usher Raymond & Chris Brown",
+          "startDate": "2026-11-16",
+          "endDate": null,
+          "localDate": "2026-11-16",
+          "endLocalDate": "2026-11-16",
+          "datePrecision": "day",
+          "timezone": "America/Los_Angeles",
+          "status": "scheduled",
+          "source": "https://www.sofistadium.com/events/detail/chris-brown-usher-november-16",
+          "layout": {
+            "status": "unconfirmed",
+            "source": null,
+            "model": null
+          },
+          "localTime": "19:30",
+          "verifiedAt": "2026-10-23T18:10:38.807Z",
+          "acquisition": "manual-official-page-verification"
+        }
+      ],
+      "refreshedAt": "2026-10-23T18:10:38.807Z",
+      "status": "stale",
+      "coverage": "Three official concert detail pages manually verified via web reader. Local automatic fetch remains unavailable; date and local time only; no confirmed stage layout.",
+      "acquisition": "manual-official-page-verification"
+    }
+  }
+}

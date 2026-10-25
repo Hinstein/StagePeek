@@ -1,0 +1,313 @@
+{
+  "id": "keio-arena-tokyo",
+  "name": "京王竞技场东京",
+  "city": "日本 · 东京",
+  "capacity": "原站目录未提供统一容量字段",
+  "source": "https://keio-arena.tokyo/facility/",
+  "sourceTitle": "REA 导出的公开场馆来源索引与参数化座位示意",
+  "sourceLinks": [
+    "https://keio-arena.tokyo/facility/",
+    "https://keio-arena.tokyo/seat/"
+  ],
+  "accuracy": {
+    "sectionLabels": "source-layout-reference",
+    "completeSeatInventory": false,
+    "metricCalibrated": false,
+    "stage": "generic",
+    "position": "estimated",
+    "geometryBasis": "source-informed-parametric:plan",
+    "catalogStatus": "source-geometry-and-sections",
+    "seatDataStatus": "section-only",
+    "sourceLayout": "end",
+    "coverage": "14 个来源分区；0 条座位采样。区号来自公开布局参考。",
+    "reuse": "来源页面可公开访问；未建立商业图形、模型或座位数据库再分发许可，发布前需逐源复核。",
+    "sourceDate": "REA capture 2026-10-24",
+    "sourceInventory": {
+      "venueReferenceUrl": "https://keio-arena.tokyo/facility/",
+      "mapReferenceUrl": "https://keio-arena.tokyo/seat/",
+      "sectionSource": "https://keio-arena.tokyo/seat/",
+      "geometryEvidenceLabel": "plan",
+      "note": "Missing asset URL does not establish absence of generated seat geometry."
+    },
+    "seatAsset": null
+  },
+  "tiers": [
+    [
+      21,
+      30,
+      1,
+      14,
+      7
+    ],
+    [
+      30,
+      39,
+      11,
+      12,
+      8
+    ]
+  ],
+  "geometry": {
+    "shape": "rounded",
+    "coordinateSystem": "profile-inner-radius",
+    "power": 0.48,
+    "oneSided": false,
+    "floor": [
+      38,
+      56
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "3F 看台",
+        "steps": 19
+      },
+      {
+        "id": "middle",
+        "name": "4F 看台",
+        "steps": 17
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "A",
+      "ticketLabels": [
+        "A"
+      ],
+      "sourceLabel": "A 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.1816615649929116,
+      "halfAngle": 0.2617993877991494,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://keio-arena.tokyo/seat/"
+      }
+    },
+    {
+      "id": "B",
+      "ticketLabels": [
+        "B"
+      ],
+      "sourceLabel": "B 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.5707963267948966,
+      "halfAngle": 0.2617993877991494,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://keio-arena.tokyo/seat/"
+      }
+    },
+    {
+      "id": "C",
+      "ticketLabels": [
+        "C"
+      ],
+      "sourceLabel": "C 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.9599310885968813,
+      "halfAngle": 0.2617993877991494,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://keio-arena.tokyo/seat/"
+      }
+    },
+    {
+      "id": "D",
+      "ticketLabels": [
+        "D"
+      ],
+      "sourceLabel": "D 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.9599310885968813,
+      "halfAngle": 0.2617993877991494,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://keio-arena.tokyo/seat/"
+      }
+    },
+    {
+      "id": "E",
+      "ticketLabels": [
+        "E"
+      ],
+      "sourceLabel": "E 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.5707963267948966,
+      "halfAngle": 0.2617993877991494,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://keio-arena.tokyo/seat/"
+      }
+    },
+    {
+      "id": "F",
+      "ticketLabels": [
+        "F"
+      ],
+      "sourceLabel": "F 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.1816615649929116,
+      "halfAngle": 0.2617993877991494,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://keio-arena.tokyo/seat/"
+      }
+    },
+    {
+      "id": "G",
+      "ticketLabels": [
+        "G"
+      ],
+      "sourceLabel": "G 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.792526803190927,
+      "halfAngle": 0.30543261909900765,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://keio-arena.tokyo/seat/"
+      }
+    },
+    {
+      "id": "H",
+      "ticketLabels": [
+        "H"
+      ],
+      "sourceLabel": "H 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.0943951023931953,
+      "halfAngle": 0.30543261909900765,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://keio-arena.tokyo/seat/"
+      }
+    },
+    {
+      "id": "I",
+      "ticketLabels": [
+        "I"
+      ],
+      "sourceLabel": "I 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.0471975511965976,
+      "halfAngle": 0.30543261909900765,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://keio-arena.tokyo/seat/"
+      }
+    },
+    {
+      "id": "J",
+      "ticketLabels": [
+        "J"
+      ],
+      "sourceLabel": "J 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.3490658503988659,
+      "halfAngle": 0.30543261909900765,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://keio-arena.tokyo/seat/"
+      }
+    },
+    {
+      "id": "K",
+      "ticketLabels": [
+        "K"
+      ],
+      "sourceLabel": "K 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.3490658503988659,
+      "halfAngle": 0.30543261909900765,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://keio-arena.tokyo/seat/"
+      }
+    },
+    {
+      "id": "L",
+      "ticketLabels": [
+        "L"
+      ],
+      "sourceLabel": "L 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.0471975511965976,
+      "halfAngle": 0.30543261909900765,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://keio-arena.tokyo/seat/"
+      }
+    },
+    {
+      "id": "M",
+      "ticketLabels": [
+        "M"
+      ],
+      "sourceLabel": "M 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.0943951023931953,
+      "halfAngle": 0.30543261909900765,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://keio-arena.tokyo/seat/"
+      }
+    },
+    {
+      "id": "N",
+      "ticketLabels": [
+        "N"
+      ],
+      "sourceLabel": "N 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.792526803190927,
+      "halfAngle": 0.30543261909900765,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://keio-arena.tokyo/seat/"
+      }
+    }
+  ],
+  "importedAt": "2026-10-24T00:00:00.000Z"
+}

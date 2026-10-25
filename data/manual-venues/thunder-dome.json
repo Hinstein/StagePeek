@@ -1,0 +1,217 @@
+{
+  "id": "thunder-dome",
+  "name": "Thunder Dome",
+  "city": "泰国 · 曼谷",
+  "capacity": "原站目录未提供统一容量字段",
+  "source": "https://www.impact.co.th/th/organizers/venues/thunder-dome",
+  "sourceTitle": "REA 导出的公开场馆来源索引与参数化座位示意",
+  "sourceLinks": [
+    "https://www.impact.co.th/th/organizers/venues/thunder-dome",
+    "https://application.impact.co.th/vr/thunder-dome/",
+    "https://www.impact.co.th/images/organizers/venues/thunder-dome/document/thunder-dome-facility-guide.pdf"
+  ],
+  "accuracy": {
+    "sectionLabels": "source-layout-reference",
+    "completeSeatInventory": false,
+    "metricCalibrated": false,
+    "stage": "generic",
+    "position": "estimated",
+    "geometryBasis": "source-informed-parametric:plan",
+    "catalogStatus": "source-geometry-and-sections",
+    "seatDataStatus": "section-only",
+    "sourceLayout": "end",
+    "coverage": "9 个来源分区；0 条座位采样。区号来自公开布局参考。",
+    "reuse": "来源页面可公开访问；未建立商业图形、模型或座位数据库再分发许可，发布前需逐源复核。",
+    "sourceDate": "REA capture 2026-10-24",
+    "sourceInventory": {
+      "venueReferenceUrl": "https://www.impact.co.th/th/organizers/venues/thunder-dome",
+      "mapReferenceUrl": "https://application.impact.co.th/vr/thunder-dome/",
+      "sectionSource": "https://www.impact.co.th/images/organizers/venues/thunder-dome/document/thunder-dome-facility-guide.pdf",
+      "geometryEvidenceLabel": "plan",
+      "note": "Missing asset URL does not establish absence of generated seat geometry."
+    },
+    "seatAsset": null
+  },
+  "tiers": [
+    [
+      23,
+      24,
+      1.2,
+      10,
+      7
+    ]
+  ],
+  "geometry": {
+    "shape": "rounded",
+    "coordinateSystem": "profile-inner-radius",
+    "power": 0.48,
+    "oneSided": false,
+    "floor": [
+      42,
+      44
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "LEVEL 2",
+        "steps": 14
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "A",
+      "ticketLabels": [
+        "A"
+      ],
+      "sourceLabel": "A 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.705260340591211,
+      "halfAngle": 0.24434609527920614,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.impact.co.th/images/organizers/venues/thunder-dome/document/thunder-dome-facility-guide.pdf"
+      }
+    },
+    {
+      "id": "B",
+      "ticketLabels": [
+        "B"
+      ],
+      "sourceLabel": "B 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.3161255787892263,
+      "halfAngle": 0.24434609527920614,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.impact.co.th/images/organizers/venues/thunder-dome/document/thunder-dome-facility-guide.pdf"
+      }
+    },
+    {
+      "id": "C",
+      "ticketLabels": [
+        "C"
+      ],
+      "sourceLabel": "C 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.9269908169872414,
+      "halfAngle": 0.24434609527920614,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.impact.co.th/images/organizers/venues/thunder-dome/document/thunder-dome-facility-guide.pdf"
+      }
+    },
+    {
+      "id": "D",
+      "ticketLabels": [
+        "D"
+      ],
+      "sourceLabel": "D 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 4.363323129985823,
+      "halfAngle": 0.24434609527920614,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.impact.co.th/images/organizers/venues/thunder-dome/document/thunder-dome-facility-guide.pdf"
+      }
+    },
+    {
+      "id": "E",
+      "ticketLabels": [
+        "E"
+      ],
+      "sourceLabel": "E 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 4.71238898038469,
+      "halfAngle": 0.24434609527920614,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.impact.co.th/images/organizers/venues/thunder-dome/document/thunder-dome-facility-guide.pdf"
+      }
+    },
+    {
+      "id": "F",
+      "ticketLabels": [
+        "F"
+      ],
+      "sourceLabel": "F 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 5.061454830783555,
+      "halfAngle": 0.24434609527920614,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.impact.co.th/images/organizers/venues/thunder-dome/document/thunder-dome-facility-guide.pdf"
+      }
+    },
+    {
+      "id": "G",
+      "ticketLabels": [
+        "G"
+      ],
+      "sourceLabel": "G 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 5.497787143782138,
+      "halfAngle": 0.24434609527920614,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.impact.co.th/images/organizers/venues/thunder-dome/document/thunder-dome-facility-guide.pdf"
+      }
+    },
+    {
+      "id": "H",
+      "ticketLabels": [
+        "H"
+      ],
+      "sourceLabel": "H 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 6.108652381980153,
+      "halfAngle": 0.24434609527920614,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.impact.co.th/images/organizers/venues/thunder-dome/document/thunder-dome-facility-guide.pdf"
+      }
+    },
+    {
+      "id": "I",
+      "ticketLabels": [
+        "I"
+      ],
+      "sourceLabel": "I 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.4363323129985824,
+      "halfAngle": 0.24434609527920614,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.impact.co.th/images/organizers/venues/thunder-dome/document/thunder-dome-facility-guide.pdf"
+      }
+    }
+  ],
+  "importedAt": "2026-10-24T00:00:00.000Z"
+}

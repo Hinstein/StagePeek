@@ -1,0 +1,666 @@
+elementId,viewId,section,rowToken,seatToken,levelName,numericRowAndSeatTokens,interiorView,cameraAngleTiltX,cameraAngleTiltY,source
+1,Sub_Section_001_4_19,001,4,19,The Tunnel Club,True,False,2.19,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+2,Sub_Section_001_4_4,001,4,4,The Tunnel Club,True,False,6.74,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+3,Sub_Section_101_4_8,101,4,8,West Lower,True,False,7.31,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+4,Sub_Section_101_14_8,101,14,8,West Lower,True,False,5.18,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+5,Sub_Section_101_24_6,101,24,6,West Lower,True,False,3.7,2,https://tottenhamhotspur.io-media.com/web/confignew.json
+6,Sub_Section_102_4_36,102,4,36,West Lower,True,False,11.06,-1,https://tottenhamhotspur.io-media.com/web/confignew.json
+7,Sub_Section_102_4_18,102,4,18,West Lower,True,False,7.26,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+8,Sub_Section_102_14_36,102,14,36,West Lower,True,False,7.08,1,https://tottenhamhotspur.io-media.com/web/confignew.json
+9,Sub_Section_102_14_18,102,14,18,West Lower,True,False,4.89,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+10,Sub_Section_102_24_37,102,24,37,West Lower,True,False,4.56,2,https://tottenhamhotspur.io-media.com/web/confignew.json
+11,Sub_Section_102_24_18,102,24,18,West Lower,True,False,3.16,2,https://tottenhamhotspur.io-media.com/web/confignew.json
+12,Sub_Section_103_4_51,103,4,51,West Lower,True,False,12.17,-1,https://tottenhamhotspur.io-media.com/web/confignew.json
+13,Sub_Section_103_4_68,103,4,68,West Lower,True,False,10.76,-1,https://tottenhamhotspur.io-media.com/web/confignew.json
+14,Sub_Section_103_14_69,103,14,69,West Lower,True,False,6.84,1,https://tottenhamhotspur.io-media.com/web/confignew.json
+15,Sub_Section_103_14_51,103,14,51,West Lower,True,False,7.71,1,https://tottenhamhotspur.io-media.com/web/confignew.json
+16,Sub_Section_103_24_51,103,24,51,West Lower,True,False,4.89,3,https://tottenhamhotspur.io-media.com/web/confignew.json
+17,Sub_Section_103_24_70,103,24,70,West Lower,True,False,4.28,3,https://tottenhamhotspur.io-media.com/web/confignew.json
+18,Sub_Section_104_15_84,104,15,84,West Lower,True,False,4.67,1,https://tottenhamhotspur.io-media.com/web/confignew.json
+19,Sub_Section_104_24_84,104,24,84,West Lower,True,False,3.09,3,https://tottenhamhotspur.io-media.com/web/confignew.json
+20,Sub_Section_105_4_162,105,4,162,West Lower,True,False,-12.12,-1,https://tottenhamhotspur.io-media.com/web/confignew.json
+21,Sub_Section_105_4_139,105,4,139,West Lower,True,False,-9.42,-1,https://tottenhamhotspur.io-media.com/web/confignew.json
+22,Sub_Section_105_11_139,105,11,139,West Lower,True,False,-6.86,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+23,Sub_Section_105_11_161,105,11,161,West Lower,True,False,-8.79,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+24,Sub_Section_105WC_18_134,105WC,18,134,Accessible Seating - West Lower,True,False,-4.97,2,https://tottenhamhotspur.io-media.com/web/confignew.json
+25,Sub_Section_107_4_177,107,4,177,West Lower,True,False,-11.21,-1,https://tottenhamhotspur.io-media.com/web/confignew.json
+26,Sub_Section_107_4_196,107,4,196,West Lower,True,False,-7.01,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+27,Sub_Section_107_14_195,107,14,195,West Lower,True,False,-4.89,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+28,Sub_Section_107_14_176,107,14,176,West Lower,True,False,-7.22,1,https://tottenhamhotspur.io-media.com/web/confignew.json
+29,Sub_Section_107_24_195,107,24,195,West Lower,True,False,-3.2,2,https://tottenhamhotspur.io-media.com/web/confignew.json
+30,Sub_Section_108_4_231,108,4,231,West Lower,True,False,-8.04,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+31,Sub_Section_108_4_210,108,4,210,West Lower,True,False,-7.45,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+32,Sub_Section_108_14_238,108,14,238,West Lower,True,False,-6.2,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+33,Sub_Section_108_14_210,108,14,210,West Lower,True,False,-5.39,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+34,Sub_Section_108_24_235,108,24,235,West Lower,True,False,-4.89,2,https://tottenhamhotspur.io-media.com/web/confignew.json
+35,Sub_Section_108_24_212,108,24,212,West Lower,True,False,-3.9,2,https://tottenhamhotspur.io-media.com/web/confignew.json
+735,Sub_Section_509WC_4_320,509WC,4,320,Accessible Seating - West Upper,True,False,0,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+36,Sub_Section_109_14_269,109,14,269,West Lower,True,False,-7.57,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+37,Sub_Section_109_14_246,109,14,246,West Lower,True,False,-6.6,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+38,Sub_Section_109_24_267,109,24,267,West Lower,True,False,-6.45,2,https://tottenhamhotspur.io-media.com/web/confignew.json
+39,Sub_Section_109_24_250,109,24,250,West Lower,True,False,-5.53,2,https://tottenhamhotspur.io-media.com/web/confignew.json
+40,Sub_Section_110_4_285,110,4,285,North Lower,True,False,-9.26,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+41,Sub_Section_110_4_303,110,4,303,North Lower,True,False,-10.71,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+42,Sub_Section_110_14_279,110,14,279,North Lower,True,False,-8.24,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+43,Sub_Section_110_14_302,110,14,302,North Lower,True,False,-9.45,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+44,Sub_Section_110_26_301,110,26,301,North Lower,True,False,-8.09,2,https://tottenhamhotspur.io-media.com/web/confignew.json
+45,Sub_Section_110_26_281,110,26,281,North Lower,True,False,-6.93,2,https://tottenhamhotspur.io-media.com/web/confignew.json
+46,Sub_Section_111_4_314,111,4,314,North Lower,True,False,-12.11,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+47,Sub_Section_111_4_331,111,4,331,North Lower,True,False,-12.51,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+48,Sub_Section_111_14_313,111,14,313,North Lower,True,False,-10.46,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+49,Sub_Section_111_14_329,111,14,329,North Lower,True,False,-11.27,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+50,Sub_Section_111_26_312,111,26,312,North Lower,True,False,-8.72,2,https://tottenhamhotspur.io-media.com/web/confignew.json
+51,Sub_Section_111_26_330,111,26,330,North Lower,True,False,-8.96,2,https://tottenhamhotspur.io-media.com/web/confignew.json
+52,Sub_Section_112_4_345,112,4,345,North Lower,True,False,-7.22,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+53,Sub_Section_112_4_363,112,4,363,North Lower,True,False,-1.67,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+54,Sub_Section_112_14_345,112,14,345,North Lower,True,False,-6.75,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+55,Sub_Section_112_14_364,112,14,364,North Lower,True,False,-1.46,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+56,Sub_Section_112_26_344,112,26,344,North Lower,True,False,-5.88,2,https://tottenhamhotspur.io-media.com/web/confignew.json
+57,Sub_Section_112_26_364,112,26,364,North Lower,True,False,-1.29,2,https://tottenhamhotspur.io-media.com/web/confignew.json
+58,Sub_Section_113_4_377,113,4,377,North Lower,True,False,1.78,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+59,Sub_Section_113_4_395,113,4,395,North Lower,True,False,7.42,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+60,Sub_Section_113_14_377,113,14,377,North Lower,True,False,1.84,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+61,Sub_Section_113_14_396,113,14,396,North Lower,True,False,7.18,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+62,Sub_Section_113_26_376,113,26,376,North Lower,True,False,1.4,2,https://tottenhamhotspur.io-media.com/web/confignew.json
+63,Sub_Section_113_26_396,113,26,396,North Lower,True,False,6,2,https://tottenhamhotspur.io-media.com/web/confignew.json
+64,Sub_Section_114_4_408,114,4,408,Away Section,True,False,12.37,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+65,Sub_Section_114_4_426,114,4,426,Away Section,True,False,12.03,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+66,Sub_Section_114_14_408,114,14,408,Away Section,True,False,10.59,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+67,Sub_Section_114_14_426,114,14,426,Away Section,True,False,10.47,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+68,Sub_Section_114_26_408,114,26,408,Away Section,True,False,8.64,2,https://tottenhamhotspur.io-media.com/web/confignew.json
+69,Sub_Section_114_26_427,114,26,427,Away Section,True,False,8.7,2,https://tottenhamhotspur.io-media.com/web/confignew.json
+70,Sub_Section_115_4_472,115,4,472,Away Section,True,False,9.46,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+71,Sub_Section_115_4_437,115,4,437,Away Section,True,False,10.64,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+72,Sub_Section_115_18_470,115,18,470,Away Section,True,False,7.65,1,https://tottenhamhotspur.io-media.com/web/confignew.json
+73,Sub_Section_115_18_439,115,18,439,Away Section,True,False,8.89,1,https://tottenhamhotspur.io-media.com/web/confignew.json
+74,Sub_Section_115_26_465,115,26,465,Away Section,True,False,6.81,2,https://tottenhamhotspur.io-media.com/web/confignew.json
+75,Sub_Section_115_26_440,115,26,440,Away Section,True,False,7.96,2,https://tottenhamhotspur.io-media.com/web/confignew.json
+76,Sub_Section_116_13_502,116,13,502,Away Section,True,False,6.7,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+77,Sub_Section_116_13_480,116,13,480,Away Section,True,False,7.58,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+78,Sub_Section_116_21_483,116,21,483,Away Section,True,False,6.62,1,https://tottenhamhotspur.io-media.com/web/confignew.json
+79,Sub_Section_116_21_501,116,21,501,Away Section,True,False,5.64,1,https://tottenhamhotspur.io-media.com/web/confignew.json
+80,Sub_Section_117_4_509,117,4,509,Away Section,True,False,7.79,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+81,Sub_Section_117_4_539,117,4,539,Away Section,True,False,7.33,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+82,Sub_Section_117_14_511,117,14,511,Away Section,True,False,6.12,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+83,Sub_Section_117_14_538,117,14,538,Away Section,True,False,5.31,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+84,Sub_Section_117_23_513,117,23,513,Away Section,True,False,4.91,2,https://tottenhamhotspur.io-media.com/web/confignew.json
+85,Sub_Section_117_23_537,117,23,537,Away Section,True,False,3.91,2,https://tottenhamhotspur.io-media.com/web/confignew.json
+86,Sub_Section_118_4_552,118,4,552,Away Section,True,False,6.98,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+87,Sub_Section_118_4_569,118,4,569,Away Section,True,False,10.81,-1,https://tottenhamhotspur.io-media.com/web/confignew.json
+88,Sub_Section_118_14_553,118,14,553,Away Section,True,False,4.85,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+89,Sub_Section_118_14_568,118,14,568,Away Section,True,False,6.81,1,https://tottenhamhotspur.io-media.com/web/confignew.json
+90,Sub_Section_118_23_570,118,23,570,Away Section,True,False,4.64,2,https://tottenhamhotspur.io-media.com/web/confignew.json
+91,Sub_Section_118_23_552,118,23,552,Away Section,True,False,3.21,2,https://tottenhamhotspur.io-media.com/web/confignew.json
+92,Sub_Section_119_4_584,119,4,584,East Lower,True,False,12.07,-1,https://tottenhamhotspur.io-media.com/web/confignew.json
+93,Sub_Section_119_4_602,119,4,602,East Lower,True,False,10.45,-1,https://tottenhamhotspur.io-media.com/web/confignew.json
+94,Sub_Section_119_14_584,119,14,584,East Lower,True,False,7.62,1,https://tottenhamhotspur.io-media.com/web/confignew.json
+95,Sub_Section_119_14_602,119,14,602,East Lower,True,False,6.62,1,https://tottenhamhotspur.io-media.com/web/confignew.json
+96,Sub_Section_119_24_583,119,24,583,East Lower,True,False,4.81,3,https://tottenhamhotspur.io-media.com/web/confignew.json
+97,Sub_Section_119_24_602,119,24,602,East Lower,True,False,4.13,3,https://tottenhamhotspur.io-media.com/web/confignew.json
+98,Sub_Section_122_4_698,122,4,698,East Lower,True,False,-12.1,-1,https://tottenhamhotspur.io-media.com/web/confignew.json
+99,Sub_Section_122_4_679,122,4,679,East Lower,True,False,-10.53,-1,https://tottenhamhotspur.io-media.com/web/confignew.json
+100,Sub_Section_122_14_679,122,14,679,East Lower,True,False,-6.69,1,https://tottenhamhotspur.io-media.com/web/confignew.json
+101,Sub_Section_122_14_698,122,14,698,East Lower,True,False,-7.66,1,https://tottenhamhotspur.io-media.com/web/confignew.json
+102,Sub_Section_122_24_698,122,24,698,East Lower,True,False,-4.85,3,https://tottenhamhotspur.io-media.com/web/confignew.json
+103,Sub_Section_122_24_679,122,24,679,East Lower,True,False,-4.18,3,https://tottenhamhotspur.io-media.com/web/confignew.json
+104,Sub_Section_123_4_729,123,4,729,East Lower,True,False,-7.18,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+105,Sub_Section_123_4_712,123,4,712,East Lower,True,False,-11,-1,https://tottenhamhotspur.io-media.com/web/confignew.json
+106,Sub_Section_123_14_729,123,14,729,East Lower,True,False,-4.83,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+107,Sub_Section_123_14_711,123,14,711,East Lower,True,False,-7.1,1,https://tottenhamhotspur.io-media.com/web/confignew.json
+108,Sub_Section_123_24_711,123,24,711,East Lower,True,False,-4.56,2,https://tottenhamhotspur.io-media.com/web/confignew.json
+109,Sub_Section_123_24_731,123,24,731,East Lower,True,False,-3.07,2,https://tottenhamhotspur.io-media.com/web/confignew.json
+110,Sub_Section_124_4_739,124,4,739,East Lower,True,False,-7.24,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+111,Sub_Section_124_14_741,124,14,741,East Lower,True,False,-5.22,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+112,Sub_Section_124_24_742,124,24,742,East Lower,True,False,-3.62,2,https://tottenhamhotspur.io-media.com/web/confignew.json
+113,Sub_Section_002_4_634,002,4,634,Lower East Side,True,False,2.03,-1,https://tottenhamhotspur.io-media.com/web/confignew.json
+114,Sub_Section_002_4_616,002,4,616,Lower East Side,True,False,7.49,-1,https://tottenhamhotspur.io-media.com/web/confignew.json
+115,Sub_Section_002_14_634,002,14,634,Lower East Side,True,False,1.29,1,https://tottenhamhotspur.io-media.com/web/confignew.json
+116,Sub_Section_002_13_616,002,13,616,Lower East Side,True,False,4.95,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+117,Sub_Section_201_2_2,201,2,2,Level 2 - Sideline Suite,True,False,3.33,3,https://tottenhamhotspur.io-media.com/web/confignew.json
+118,Sub_Section_202_2_2,202,2,2,Level 2 - Sideline Suite,True,False,2.91,4,https://tottenhamhotspur.io-media.com/web/confignew.json
+119,Sub_Section_203_2_3,203,2,3,Level 2 - Sideline Suite,True,False,2.47,4,https://tottenhamhotspur.io-media.com/web/confignew.json
+120,Sub_Section_204_2_3,204,2,3,Level 2 - Sideline Suite,True,False,3.17,4,https://tottenhamhotspur.io-media.com/web/confignew.json
+121,Sub_Section_205_2_3,205,2,3,Level 2 - Sideline Suite,True,False,3.59,4,https://tottenhamhotspur.io-media.com/web/confignew.json
+122,Sub_Section_206_2_3,206,2,3,Level 2 - Sideline Suite,True,False,3.84,4,https://tottenhamhotspur.io-media.com/web/confignew.json
+123,Sub_Section_207_2_3,207,2,3,Level 2 - Sideline Suite,True,False,3.76,4,https://tottenhamhotspur.io-media.com/web/confignew.json
+124,Sub_Section_208_2_3,208,2,3,Level 2 - Sideline Suite,True,False,3.29,4,https://tottenhamhotspur.io-media.com/web/confignew.json
+125,Sub_Section_209_2_3,209,2,3,Level 2 - Sideline Suite,True,False,2.7,4,https://tottenhamhotspur.io-media.com/web/confignew.json
+126,Sub_Section_210_2_3,210,2,3,Level 2 - Sideline Suite,True,False,1.64,5,https://tottenhamhotspur.io-media.com/web/confignew.json
+127,Sub_Section_211_2_2,211,2,2,Level 2 - Sideline Suite,True,False,0.88,5,https://tottenhamhotspur.io-media.com/web/confignew.json
+128,Sub_Section_212_6_117,212,6,117,Level 2 - Premium Area,True,False,-2.99,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+129,Sub_Section_212_15_117,212,15,117,Level 2 - Premium Area,True,False,-2.04,1,https://tottenhamhotspur.io-media.com/web/confignew.json
+130,Sub_Section_212_15_99,212,15,99,Level 2 - Premium Area,True,False,1.92,1,https://tottenhamhotspur.io-media.com/web/confignew.json
+131,Sub_Section_212_24_98,212,24,98,Level 2 - Premium Area,True,False,1.15,3,https://tottenhamhotspur.io-media.com/web/confignew.json
+132,Sub_Section_212_24_117,212,24,117,Level 2 - Premium Area,True,False,-1.09,3,https://tottenhamhotspur.io-media.com/web/confignew.json
+134,Sub_Section_215_2_3,215,2,3,Level 2 - Sideline Suite,True,False,-2.53,4,https://tottenhamhotspur.io-media.com/web/confignew.json
+135,Sub_Section_216_2_3,216,2,3,Level 2 - Sideline Suite,True,False,-3.15,4,https://tottenhamhotspur.io-media.com/web/confignew.json
+136,Sub_Section_217_2_3,217,2,3,Level 2 - Sideline Suite,True,False,-3.68,4,https://tottenhamhotspur.io-media.com/web/confignew.json
+137,Sub_Section_218_2_3,218,2,3,Level 2 - Sideline Suite,True,False,-3.81,4,https://tottenhamhotspur.io-media.com/web/confignew.json
+138,Sub_Section_219_2_3,219,2,3,Level 2 - Sideline Suite,True,False,-3.62,4,https://tottenhamhotspur.io-media.com/web/confignew.json
+139,Sub_Section_220_2_3,220,2,3,Level 2 - Sideline Suite,True,False,-3.23,4,https://tottenhamhotspur.io-media.com/web/confignew.json
+141,Sub_Section_222_2_3,222,2,3,Level 2 - Sideline Suite,True,False,-2.87,4,https://tottenhamhotspur.io-media.com/web/confignew.json
+142,Sub_Section_223_2_2,223,2,2,Level 2 - Sideline Suite,True,False,-3.4,3,https://tottenhamhotspur.io-media.com/web/confignew.json
+143,Sub_Section_224_2_2,224,2,2,Level 2 - Sideline Suite,True,False,-3.64,3,https://tottenhamhotspur.io-media.com/web/confignew.json
+144,Sub_Section_225_2_2,225,2,2,Level 2 - Sideline Suite,True,False,-4,3,https://tottenhamhotspur.io-media.com/web/confignew.json
+145,Sub_Section_226_2_2,226,2,2,Level 2 - Sideline Suite,True,False,-4.23,3,https://tottenhamhotspur.io-media.com/web/confignew.json
+146,Sub_Section_227_2_2,227,2,2,Level 2 - Sideline Suite,True,False,-4.57,3,https://tottenhamhotspur.io-media.com/web/confignew.json
+147,Sub_Section_228_2_2,228,2,2,Level 2 - Sideline Suite,True,False,-4.78,3,https://tottenhamhotspur.io-media.com/web/confignew.json
+148,Sub_Section_229_2_2,229,2,2,Level 2 - Sideline Suite,True,False,-5.12,3,https://tottenhamhotspur.io-media.com/web/confignew.json
+149,Sub_Section_230_2_2,230,2,2,Level 2 - Sideline Suite,True,False,-5.32,3,https://tottenhamhotspur.io-media.com/web/confignew.json
+150,Sub_Section_231_2_3,231,2,3,Level 2 - Sideline Suite,True,False,-5.79,3,https://tottenhamhotspur.io-media.com/web/confignew.json
+151,Sub_Section_232_29_268,232,29,268,North Lower,True,False,-6.42,3,https://tottenhamhotspur.io-media.com/web/confignew.json
+152,Sub_Section_232WC_31_267,232WC,31,267,Accessible seating - North Lower,True,False,-6.38,3,https://tottenhamhotspur.io-media.com/web/confignew.json
+153,Sub_Section_233WC_31_281,233WC,31,281,Accessible seating - North Lower,True,False,-7.34,3,https://tottenhamhotspur.io-media.com/web/confignew.json
+154,Sub_Section_233WC_31_326,233WC,31,326,Accessible seating - North Lower,True,False,-6.79,3,https://tottenhamhotspur.io-media.com/web/confignew.json
+155,Sub_Section_233WC_31_375,233WC,31,375,Accessible seating - North Lower,True,False,4.12,4,https://tottenhamhotspur.io-media.com/web/confignew.json
+156,Sub_Section_234WC_31_402,234WC,31,402,Accessible seating - North Lower,True,False,7.51,3,https://tottenhamhotspur.io-media.com/web/confignew.json
+157,Sub_Section_234WC_31_463,234WC,31,463,Accessible seating - North Lower,True,False,7.29,3,https://tottenhamhotspur.io-media.com/web/confignew.json
+158,Sub_Section_234WC_31_434,234WC,31,434,Accessible seating - North Lower,True,False,7.88,3,https://tottenhamhotspur.io-media.com/web/confignew.json
+159,Sub_Section_236_4_485,236,4,485,Premium Area,True,False,5.78,3,https://tottenhamhotspur.io-media.com/web/confignew.json
+160,Sub_Section_237_4_513,237,4,513,Premium Area,True,False,4.4,3,https://tottenhamhotspur.io-media.com/web/confignew.json
+161,Sub_Section_237_4_502,237,4,502,Premium Area,True,False,4.89,3,https://tottenhamhotspur.io-media.com/web/confignew.json
+162,Sub_Section_238_4_533,238,4,533,Premium Area,True,False,3.46,3,https://tottenhamhotspur.io-media.com/web/confignew.json
+163,Sub_Section_238_4_521,238,4,521,Premium Area,True,False,4.03,3,https://tottenhamhotspur.io-media.com/web/confignew.json
+164,Sub_Section_239_4_544,239,4,544,Premium Area,True,False,2.88,3,https://tottenhamhotspur.io-media.com/web/confignew.json
+165,Sub_Section_239_4_557,239,4,557,Premium Area,True,False,2.97,4,https://tottenhamhotspur.io-media.com/web/confignew.json
+166,Sub_Section_240_4_569,240,4,569,Premium Area,True,False,3.67,4,https://tottenhamhotspur.io-media.com/web/confignew.json
+167,Sub_Section_240_4_583,240,4,583,Premium Area,True,False,3.93,4,https://tottenhamhotspur.io-media.com/web/confignew.json
+168,Sub_Section_241_4_595,241,4,595,Premium Area,True,False,3.6,4,https://tottenhamhotspur.io-media.com/web/confignew.json
+169,Sub_Section_241_4_608,241,4,608,Premium Area,True,False,2.63,4,https://tottenhamhotspur.io-media.com/web/confignew.json
+170,Sub_Section_242_21_634,242,21,634,Premium Area,True,False,0.96,2,https://tottenhamhotspur.io-media.com/web/confignew.json
+171,Sub_Section_242_21_614,242,21,614,Premium Area,True,False,3.67,2,https://tottenhamhotspur.io-media.com/web/confignew.json
+172,Sub_Section_243_4_622,243,4,622,Premium Area,True,False,0.95,4,https://tottenhamhotspur.io-media.com/web/confignew.json
+173,Sub_Section_243_4_638,243,4,638,Premium Area,True,False,-1.11,4,https://tottenhamhotspur.io-media.com/web/confignew.json
+174,Sub_Section_244_21_647,244,21,647,Premium Area,True,False,-1.02,2,https://tottenhamhotspur.io-media.com/web/confignew.json
+175,Sub_Section_244_21_667,244,21,667,Premium Area,True,False,-3.74,2,https://tottenhamhotspur.io-media.com/web/confignew.json
+176,Sub_Section_245_4_652,245,4,652,Premium Area,True,False,-2.76,4,https://tottenhamhotspur.io-media.com/web/confignew.json
+177,Sub_Section_245_4_665,245,4,665,Premium Area,True,False,-3.7,4,https://tottenhamhotspur.io-media.com/web/confignew.json
+178,Sub_Section_246_4_677,246,4,677,Premium Area,True,False,-3.98,4,https://tottenhamhotspur.io-media.com/web/confignew.json
+179,Sub_Section_246_4_691,246,4,691,Premium Area,True,False,-3.64,4,https://tottenhamhotspur.io-media.com/web/confignew.json
+180,Sub_Section_247_4_703,247,4,703,Premium Area,True,False,-2.89,4,https://tottenhamhotspur.io-media.com/web/confignew.json
+181,Sub_Section_247_4_719,247,4,719,Premium Area,True,False,-3.09,3,https://tottenhamhotspur.io-media.com/web/confignew.json
+182,Sub_Section_248_6_22,248,6,22,South Lower,True,False,-8.26,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+183,Sub_Section_248_14_18,248,14,18,South Lower,True,False,-6.68,1,https://tottenhamhotspur.io-media.com/web/confignew.json
+184,Sub_Section_248_23_20,248,23,20,South Lower,True,False,-5.04,3,https://tottenhamhotspur.io-media.com/web/confignew.json
+185,Sub_Section_248_36_7,248,36,7,South Lower,True,False,-3.31,6,https://tottenhamhotspur.io-media.com/web/confignew.json
+186,Sub_Section_248WC_28_24,248WC,28,24,Accessible Seating - South Lower,True,False,-4.71,4,https://tottenhamhotspur.io-media.com/web/confignew.json
+187,Sub_Section_249_23_54,249,23,54,South Lower,True,False,-6.38,3,https://tottenhamhotspur.io-media.com/web/confignew.json
+188,Sub_Section_249_23_32,249,23,32,South Lower,True,False,-5.58,3,https://tottenhamhotspur.io-media.com/web/confignew.json
+189,Sub_Section_249_37_55,249,37,55,South Lower,True,False,-4.86,6,https://tottenhamhotspur.io-media.com/web/confignew.json
+190,Sub_Section_249_37_30,249,37,30,South Lower,True,False,-4.15,6,https://tottenhamhotspur.io-media.com/web/confignew.json
+191,Sub_Section_249_48_52,249,48,52,South Lower,True,False,-4.04,8,https://tottenhamhotspur.io-media.com/web/confignew.json
+192,Sub_Section_249_47_35,249,47,35,South Lower,True,False,-3.56,8,https://tottenhamhotspur.io-media.com/web/confignew.json
+193,Sub_Section_249_56_49,249,56,49,South Lower,True,False,-3.51,10,https://tottenhamhotspur.io-media.com/web/confignew.json
+194,Sub_Section_249WC_28_53,249WC,28,53,Accessible Seating - South Lower,True,False,-5.2,4,https://tottenhamhotspur.io-media.com/web/confignew.json
+195,Sub_Section_250_6_63,250,6,63,South Lower,True,False,-8.68,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+196,Sub_Section_250_6_91,250,6,91,South Lower,True,False,-9.6,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+197,Sub_Section_250_14_67,250,14,67,South Lower,True,False,-7.51,1,https://tottenhamhotspur.io-media.com/web/confignew.json
+198,Sub_Section_250_16_89,250,16,89,South Lower,True,False,-8.24,2,https://tottenhamhotspur.io-media.com/web/confignew.json
+199,Sub_Section_250_24_86,250,24,86,South Lower,True,False,-7.3,3,https://tottenhamhotspur.io-media.com/web/confignew.json
+200,Sub_Section_250_34_91,250,34,91,South Lower,True,False,-6.22,5,https://tottenhamhotspur.io-media.com/web/confignew.json
+201,Sub_Section_250_37_67,250,37,67,South Lower,True,False,-5.27,6,https://tottenhamhotspur.io-media.com/web/confignew.json
+202,Sub_Section_250_44_88,250,44,88,South Lower,True,False,-5.32,7,https://tottenhamhotspur.io-media.com/web/confignew.json
+203,Sub_Section_250_47_68,250,47,68,South Lower,True,False,-4.56,8,https://tottenhamhotspur.io-media.com/web/confignew.json
+204,Sub_Section_250_57_68,250,57,68,South Lower,True,False,-3.98,10,https://tottenhamhotspur.io-media.com/web/confignew.json
+205,Sub_Section_250_59_87,250,59,87,South Lower,True,False,-4.37,10,https://tottenhamhotspur.io-media.com/web/confignew.json
+206,Sub_Section_250WC_28_91,250WC,28,91,Accessible Seating - South Lower,True,False,-7.31,4,https://tottenhamhotspur.io-media.com/web/confignew.json
+207,Sub_Section_251_6_135,251,6,135,South Lower,True,False,-10.49,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+208,Sub_Section_251_6_158,251,6,158,South Lower,True,False,-12.58,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+209,Sub_Section_251_16_137,251,16,137,South Lower,True,False,-9.23,2,https://tottenhamhotspur.io-media.com/web/confignew.json
+210,Sub_Section_251_16_158,251,16,158,South Lower,True,False,-10.93,2,https://tottenhamhotspur.io-media.com/web/confignew.json
+211,Sub_Section_251_24_138,251,24,138,South Lower,True,False,-8.27,3,https://tottenhamhotspur.io-media.com/web/confignew.json
+212,Sub_Section_251_24_158,251,24,158,South Lower,True,False,-9.65,3,https://tottenhamhotspur.io-media.com/web/confignew.json
+213,Sub_Section_251_35_160,251,35,160,South Lower,True,False,-8.23,6,https://tottenhamhotspur.io-media.com/web/confignew.json
+214,Sub_Section_251_35_139,251,35,139,South Lower,True,False,-7.5,6,https://tottenhamhotspur.io-media.com/web/confignew.json
+215,Sub_Section_251WC_28_154,251WC,28,154,Accessible Seating - South Lower,True,False,-8.04,4,https://tottenhamhotspur.io-media.com/web/confignew.json
+216,Sub_Section_252_8_172,252,8,172,South Lower,True,False,-13.64,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+217,Sub_Section_252_8_193,252,8,193,South Lower,True,False,-6.24,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+218,Sub_Section_252_21_172,252,21,172,South Lower,True,False,-10.88,3,https://tottenhamhotspur.io-media.com/web/confignew.json
+219,Sub_Section_252_21_192,252,21,192,South Lower,True,False,-5.98,3,https://tottenhamhotspur.io-media.com/web/confignew.json
+220,Sub_Section_252_37_193,252,37,193,South Lower,True,False,-4.45,7,https://tottenhamhotspur.io-media.com/web/confignew.json
+221,Sub_Section_252_37_172,252,37,172,South Lower,True,False,-8.02,7,https://tottenhamhotspur.io-media.com/web/confignew.json
+222,Sub_Section_252_47_192,252,47,192,South Lower,True,False,-3.94,9,https://tottenhamhotspur.io-media.com/web/confignew.json
+223,Sub_Section_252_47_174,252,47,174,South Lower,True,False,-6.77,9,https://tottenhamhotspur.io-media.com/web/confignew.json
+224,Sub_Section_252WC_28_169,252WC,28,169,Accessible Seating - South Lower,True,False,-10,4,https://tottenhamhotspur.io-media.com/web/confignew.json
+225,Sub_Section_254_8_208,254,8,208,South Lower,True,False,-1.92,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+226,Sub_Section_254_8_227,254,8,227,South Lower,True,False,2.58,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+227,Sub_Section_254_21_207,254,21,207,South Lower,True,False,-2.17,3,https://tottenhamhotspur.io-media.com/web/confignew.json
+228,Sub_Section_254_21_227,254,21,227,South Lower,True,False,2.54,3,https://tottenhamhotspur.io-media.com/web/confignew.json
+229,Sub_Section_254_37_227,254,37,227,South Lower,True,False,2.02,7,https://tottenhamhotspur.io-media.com/web/confignew.json
+230,Sub_Section_254_37_207,254,37,207,South Lower,True,False,-1.72,7,https://tottenhamhotspur.io-media.com/web/confignew.json
+231,Sub_Section_254_47_226,254,47,226,South Lower,True,False,1.56,9,https://tottenhamhotspur.io-media.com/web/confignew.json
+232,Sub_Section_254_47_207,254,47,207,South Lower,True,False,-1.46,9,https://tottenhamhotspur.io-media.com/web/confignew.json
+233,Sub_Section_256_8_241,256,8,241,South Lower,True,False,6.71,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+234,Sub_Section_256_8_261,256,8,261,South Lower,True,False,13.89,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+235,Sub_Section_256_20_260,256,20,260,South Lower,True,False,11,3,https://tottenhamhotspur.io-media.com/web/confignew.json
+236,Sub_Section_256_21_240,256,21,240,South Lower,True,False,5.84,3,https://tottenhamhotspur.io-media.com/web/confignew.json
+237,Sub_Section_256_37_262,256,37,262,South Lower,True,False,8.16,7,https://tottenhamhotspur.io-media.com/web/confignew.json
+238,Sub_Section_256_37_243,256,37,243,South Lower,True,False,5.13,7,https://tottenhamhotspur.io-media.com/web/confignew.json
+239,Sub_Section_256_47_259,256,47,259,South Lower,True,False,6.71,9,https://tottenhamhotspur.io-media.com/web/confignew.json
+240,Sub_Section_256_47_241,256,47,241,South Lower,True,False,4.03,9,https://tottenhamhotspur.io-media.com/web/confignew.json
+241,Sub_Section_256WC_28_264,256WC,28,264,Accessible Seating - South Lower,True,False,10.13,4,https://tottenhamhotspur.io-media.com/web/confignew.json
+242,Sub_Section_257_6_299,257,6,299,South Lower,True,False,10.58,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+243,Sub_Section_257_6_275,257,6,275,South Lower,True,False,12.64,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+244,Sub_Section_257_16_275,257,16,275,South Lower,True,False,10.99,2,https://tottenhamhotspur.io-media.com/web/confignew.json
+245,Sub_Section_257_16_297,257,16,297,South Lower,True,False,9.31,2,https://tottenhamhotspur.io-media.com/web/confignew.json
+246,Sub_Section_257_24_275,257,24,275,South Lower,True,False,9.75,3,https://tottenhamhotspur.io-media.com/web/confignew.json
+247,Sub_Section_257_24_295,257,24,295,South Lower,True,False,8.38,3,https://tottenhamhotspur.io-media.com/web/confignew.json
+248,Sub_Section_257_35_299,257,35,299,South Lower,True,False,7.37,6,https://tottenhamhotspur.io-media.com/web/confignew.json
+249,Sub_Section_257_35_274,257,35,274,South Lower,True,False,8.29,6,https://tottenhamhotspur.io-media.com/web/confignew.json
+250,Sub_Section_257WC_28_276,257WC,28,276,Accessible Seating - South Lower,True,False,9.36,4,https://tottenhamhotspur.io-media.com/web/confignew.json
+251,Sub_Section_258_5_371,258,5,371,South Lower,True,False,8.97,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+252,Sub_Section_258_6_306,258,6,306,South Lower,True,False,9.77,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+253,Sub_Section_258_16_308,258,16,308,South Lower,True,False,8.4,2,https://tottenhamhotspur.io-media.com/web/confignew.json
+254,Sub_Section_258_14_369,258,14,369,South Lower,True,False,7.5,1,https://tottenhamhotspur.io-media.com/web/confignew.json
+255,Sub_Section_258_24_311,258,24,311,South Lower,True,False,7.4,3,https://tottenhamhotspur.io-media.com/web/confignew.json
+256,Sub_Section_258_35_371,258,35,371,South Lower,True,False,5.42,6,https://tottenhamhotspur.io-media.com/web/confignew.json
+257,Sub_Section_258_33_342,258,33,342,South Lower,True,False,6.42,5,https://tottenhamhotspur.io-media.com/web/confignew.json
+258,Sub_Section_258_45_345,258,45,345,South Lower,True,False,5.34,8,https://tottenhamhotspur.io-media.com/web/confignew.json
+259,Sub_Section_258_45_370,258,45,370,South Lower,True,False,4.67,8,https://tottenhamhotspur.io-media.com/web/confignew.json
+260,Sub_Section_258_55_368,258,55,368,South Lower,True,False,4.11,9,https://tottenhamhotspur.io-media.com/web/confignew.json
+261,Sub_Section_258_58_346,258,58,346,South Lower,True,False,4.48,10,https://tottenhamhotspur.io-media.com/web/confignew.json
+262,Sub_Section_258WC_28_307,258WC,28,307,Accessible Seating - South Lower,True,False,7.48,4,https://tottenhamhotspur.io-media.com/web/confignew.json
+263,Sub_Section_259_21_381,259,21,381,South Lower,True,False,6.65,3,https://tottenhamhotspur.io-media.com/web/confignew.json
+264,Sub_Section_259_21_404,259,21,404,South Lower,True,False,5.87,3,https://tottenhamhotspur.io-media.com/web/confignew.json
+265,Sub_Section_259_37_380,259,37,380,South Lower,True,False,4.9,6,https://tottenhamhotspur.io-media.com/web/confignew.json
+266,Sub_Section_259_37_403,259,37,403,South Lower,True,False,4.27,6,https://tottenhamhotspur.io-media.com/web/confignew.json
+267,Sub_Section_259_48_383,259,48,383,South Lower,True,False,4.08,8,https://tottenhamhotspur.io-media.com/web/confignew.json
+268,Sub_Section_259_47_401,259,47,401,South Lower,True,False,3.61,8,https://tottenhamhotspur.io-media.com/web/confignew.json
+269,Sub_Section_259_56_387,259,56,387,South Lower,True,False,3.53,10,https://tottenhamhotspur.io-media.com/web/confignew.json
+270,Sub_Section_259WC_28_379,259WC,28,379,Accessible Seating - South Lower,True,False,6.36,4,https://tottenhamhotspur.io-media.com/web/confignew.json
+271,Sub_Section_260_7_415,260,7,415,South Lower,True,False,8.03,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+272,Sub_Section_260_15_419,260,15,419,South Lower,True,False,6.52,1,https://tottenhamhotspur.io-media.com/web/confignew.json
+273,Sub_Section_260_22_417,260,22,417,South Lower,True,False,5.16,3,https://tottenhamhotspur.io-media.com/web/confignew.json
+274,Sub_Section_260_38_419,260,38,419,South Lower,True,False,3.59,7,https://tottenhamhotspur.io-media.com/web/confignew.json
+275,Sub_Section_260WC_28_415,260WC,28,415,Accessible Seating - South Lower,True,False,4.7,4,https://tottenhamhotspur.io-media.com/web/confignew.json
+276,Sub_Section_003_4_648,003,4,648,Lower East Side,True,False,-2.42,-1,https://tottenhamhotspur.io-media.com/web/confignew.json
+277,Sub_Section_003_4_666,003,4,666,Lower East Side,True,False,-6.82,-1,https://tottenhamhotspur.io-media.com/web/confignew.json
+278,Sub_Section_003_14_665,003,14,665,Lower East Side,True,False,-4.84,1,https://tottenhamhotspur.io-media.com/web/confignew.json
+279,Sub_Section_003_14_647,003,14,647,Lower East Side,True,False,-1.36,1,https://tottenhamhotspur.io-media.com/web/confignew.json
+280,Sub_Section_301_5_7,301,5,7,Premium Area,True,False,2.61,6,https://tottenhamhotspur.io-media.com/web/confignew.json
+281,Sub_Section_302_5_20,302,5,20,Premium Area,True,False,2.48,7,https://tottenhamhotspur.io-media.com/web/confignew.json
+282,Sub_Section_302_5_34,302,5,34,Premium Area,True,False,3.21,7,https://tottenhamhotspur.io-media.com/web/confignew.json
+283,Sub_Section_303_5_46,303,5,46,Premium Area,True,False,3.4,7,https://tottenhamhotspur.io-media.com/web/confignew.json
+284,Sub_Section_303_5_58,303,5,58,Premium Area,True,False,3.12,8,https://tottenhamhotspur.io-media.com/web/confignew.json
+285,Sub_Section_304_5_67,304,5,67,Premium Area,True,False,2.71,8,https://tottenhamhotspur.io-media.com/web/confignew.json
+286,Sub_Section_304_5_77,304,5,77,Premium Area,True,False,1.85,8,https://tottenhamhotspur.io-media.com/web/confignew.json
+287,Sub_Section_305_E_4,305,E,4,Premium Area,False,False,0.43,8,https://tottenhamhotspur.io-media.com/web/confignew.json
+288,Sub_Section_305_E_12,305,E,12,Premium Area,False,False,0.96,8,https://tottenhamhotspur.io-media.com/web/confignew.json
+289,Sub_Section_306_5_107,306,5,107,Premium Area,True,False,-1.91,8,https://tottenhamhotspur.io-media.com/web/confignew.json
+290,Sub_Section_306_5_118,306,5,118,Premium Area,True,False,-2.68,8,https://tottenhamhotspur.io-media.com/web/confignew.json
+291,Sub_Section_307_5_126,307,5,126,Premium Area,True,False,-3.13,8,https://tottenhamhotspur.io-media.com/web/confignew.json
+292,Sub_Section_307_5_138,307,5,138,Premium Area,True,False,-3.36,7,https://tottenhamhotspur.io-media.com/web/confignew.json
+293,Sub_Section_308_5_150,308,5,150,Premium Area,True,False,-3.14,7,https://tottenhamhotspur.io-media.com/web/confignew.json
+294,Sub_Section_308_5_165,308,5,165,Premium Area,True,False,-2.38,7,https://tottenhamhotspur.io-media.com/web/confignew.json
+295,Sub_Section_309_5_178,309,5,178,Premium Area,True,False,-2.76,6,https://tottenhamhotspur.io-media.com/web/confignew.json
+296,Sub_Section_309_5_192,309,5,192,Premium Area,True,False,-3.28,6,https://tottenhamhotspur.io-media.com/web/confignew.json
+297,Sub_Section_310_5_200,310,5,200,Premium Area,True,False,-3.68,6,https://tottenhamhotspur.io-media.com/web/confignew.json
+298,Sub_Section_310_5_211,310,5,211,Premium Area,True,False,-4.24,6,https://tottenhamhotspur.io-media.com/web/confignew.json
+299,Sub_Section_311_5_220,311,5,220,Premium Area,True,False,-4.57,6,https://tottenhamhotspur.io-media.com/web/confignew.json
+300,Sub_Section_312_5_502,312,5,502,Premium Area,True,False,4.64,6,https://tottenhamhotspur.io-media.com/web/confignew.json
+301,Sub_Section_313_5_510,313,5,510,Premium Area,True,False,4.28,6,https://tottenhamhotspur.io-media.com/web/confignew.json
+302,Sub_Section_313_5_521,313,5,521,Premium Area,True,False,3.77,6,https://tottenhamhotspur.io-media.com/web/confignew.json
+303,Sub_Section_314_5_544,314,5,544,Premium Area,True,False,2.69,6,https://tottenhamhotspur.io-media.com/web/confignew.json
+304,Sub_Section_314_5_530,314,5,530,Premium Area,True,False,3.35,6,https://tottenhamhotspur.io-media.com/web/confignew.json
+305,Sub_Section_315_5_571,315,5,571,Premium Area,True,False,3.27,7,https://tottenhamhotspur.io-media.com/web/confignew.json
+306,Sub_Section_315_5_557,315,5,557,Premium Area,True,False,2.45,7,https://tottenhamhotspur.io-media.com/web/confignew.json
+307,Sub_Section_316_5_599,316,5,599,Premium Area,True,False,3.05,8,https://tottenhamhotspur.io-media.com/web/confignew.json
+308,Sub_Section_316_5_584,316,5,584,Premium Area,True,False,3.48,7,https://tottenhamhotspur.io-media.com/web/confignew.json
+309,Sub_Section_317_5_627,317,5,627,Premium Area,True,False,0.67,8,https://tottenhamhotspur.io-media.com/web/confignew.json
+310,Sub_Section_317_5_612,317,5,612,Premium Area,True,False,2.14,8,https://tottenhamhotspur.io-media.com/web/confignew.json
+311,Sub_Section_318_5_654,318,5,654,Premium Area,True,False,-2.11,8,https://tottenhamhotspur.io-media.com/web/confignew.json
+312,Sub_Section_318_5_639,318,5,639,Premium Area,True,False,-0.62,8,https://tottenhamhotspur.io-media.com/web/confignew.json
+313,Sub_Section_319_5_682,319,5,682,Premium Area,True,False,-3.52,7,https://tottenhamhotspur.io-media.com/web/confignew.json
+314,Sub_Section_319_5_667,319,5,667,Premium Area,True,False,-3.03,8,https://tottenhamhotspur.io-media.com/web/confignew.json
+315,Sub_Section_320_5_709,320,5,709,Premium Area,True,False,-2.54,7,https://tottenhamhotspur.io-media.com/web/confignew.json
+316,Sub_Section_320_5_695,320,5,695,Premium Area,True,False,-3.32,7,https://tottenhamhotspur.io-media.com/web/confignew.json
+317,Sub_Section_321_5_722,321,5,722,Premium Area,True,False,-2.67,6,https://tottenhamhotspur.io-media.com/web/confignew.json
+318,Sub_Section_322_36_103,322,36,103,South Upper Lower,True,False,-6.49,6,https://tottenhamhotspur.io-media.com/web/confignew.json
+319,Sub_Section_322_47_125,322,47,125,South Upper Lower,True,False,-5.99,8,https://tottenhamhotspur.io-media.com/web/confignew.json
+320,Sub_Section_322_47_101,322,47,101,South Upper Lower,True,False,-5.48,8,https://tottenhamhotspur.io-media.com/web/confignew.json
+321,Sub_Section_322_62_104,322,62,104,South Upper Lower,True,False,-4.58,11,https://tottenhamhotspur.io-media.com/web/confignew.json
+322,Sub_Section_322_62_123,322,62,123,South Upper Lower,True,False,-4.93,11,https://tottenhamhotspur.io-media.com/web/confignew.json
+323,Sub_Section_323_45_161,323,45,161,South Upper Lower,True,False,-7.01,8,https://tottenhamhotspur.io-media.com/web/confignew.json
+324,Sub_Section_323_45_135,323,45,135,South Upper Lower,True,False,-6.48,8,https://tottenhamhotspur.io-media.com/web/confignew.json
+325,Sub_Section_323_55_158,323,55,158,South Upper Lower,True,False,-6.01,10,https://tottenhamhotspur.io-media.com/web/confignew.json
+326,Sub_Section_323_55_137,323,55,137,South Upper Lower,True,False,-5.69,10,https://tottenhamhotspur.io-media.com/web/confignew.json
+327,Sub_Section_323_69_138,323,69,138,South Upper Lower,True,False,-4.75,12,https://tottenhamhotspur.io-media.com/web/confignew.json
+328,Sub_Section_323_70_159,323,70,159,South Upper Lower,True,False,-4.86,13,https://tottenhamhotspur.io-media.com/web/confignew.json
+329,Sub_Section_324_45_299,324,45,299,South Upper Lower,True,False,6.54,8,https://tottenhamhotspur.io-media.com/web/confignew.json
+330,Sub_Section_324_45_273,324,45,273,South Upper Lower,True,False,7.08,8,https://tottenhamhotspur.io-media.com/web/confignew.json
+331,Sub_Section_324_55_298,324,55,298,South Upper Lower,True,False,5.73,10,https://tottenhamhotspur.io-media.com/web/confignew.json
+332,Sub_Section_324_55_275,324,55,275,South Upper Lower,True,False,6.09,10,https://tottenhamhotspur.io-media.com/web/confignew.json
+333,Sub_Section_324_69_296,324,69,296,South Upper Lower,True,False,4.81,12,https://tottenhamhotspur.io-media.com/web/confignew.json
+334,Sub_Section_324_69_275,324,69,275,South Upper Lower,True,False,4.99,12,https://tottenhamhotspur.io-media.com/web/confignew.json
+335,Sub_Section_325_36_310,325,36,310,South Upper Lower,True,False,6.81,6,https://tottenhamhotspur.io-media.com/web/confignew.json
+336,Sub_Section_325_47_333,325,47,333,South Upper Lower,True,False,5.54,8,https://tottenhamhotspur.io-media.com/web/confignew.json
+337,Sub_Section_325_47_309,325,47,309,South Upper Lower,True,False,6.06,8,https://tottenhamhotspur.io-media.com/web/confignew.json
+338,Sub_Section_325_62_331,325,62,331,South Upper Lower,True,False,4.6,11,https://tottenhamhotspur.io-media.com/web/confignew.json
+339,Sub_Section_325_63_310,325,63,310,South Upper Lower,True,False,4.95,11,https://tottenhamhotspur.io-media.com/web/confignew.json
+340,Sub_Section_402_2_7,402,2,7,The Loge on Four,True,False,2.48,9,https://tottenhamhotspur.io-media.com/web/confignew.json
+341,Sub_Section_403_2_23,403,2,23,The Loge on Four,True,False,3.07,10,https://tottenhamhotspur.io-media.com/web/confignew.json
+343,Sub_Section_406_2_4,406,2,4,Suite on Four,True,False,3.38,11,https://tottenhamhotspur.io-media.com/web/confignew.json
+344,Sub_Section_407_2_5,407,2,5,The H Club,True,False,2.84,11,https://tottenhamhotspur.io-media.com/web/confignew.json
+345,Sub_Section_408_2_15,408,2,15,The H Club,True,False,1.98,11,https://tottenhamhotspur.io-media.com/web/confignew.json
+346,Sub_Section_409_2_38,409,2,38,The H Club,True,False,-0.52,11,https://tottenhamhotspur.io-media.com/web/confignew.json
+347,Sub_Section_410_2_60,410,2,60,The H Club,True,False,-2.65,11,https://tottenhamhotspur.io-media.com/web/confignew.json
+348,Sub_Section_410_2_65,410,2,65,The H Club,True,False,-2.99,11,https://tottenhamhotspur.io-media.com/web/confignew.json
+349,Sub_Section_411_2_4,411,2,4,Suite on Four,True,False,-3.34,11,https://tottenhamhotspur.io-media.com/web/confignew.json
+350,Sub_Section_412_2_4,412,2,4,Suite on Four,True,False,-3.43,11,https://tottenhamhotspur.io-media.com/web/confignew.json
+351,Sub_Section_414_2_7,414,2,7,The Loge on Four,True,False,-3.09,10,https://tottenhamhotspur.io-media.com/web/confignew.json
+352,Sub_Section_415_2_30,415,2,30,The Loge on Four,True,False,-2.85,9,https://tottenhamhotspur.io-media.com/web/confignew.json
+353,Sub_Section_415_2_24,415,2,24,The Loge on Four,True,False,-2.42,9,https://tottenhamhotspur.io-media.com/web/confignew.json
+354,Sub_Section_416_3_242,416,3,242,North Mid,True,False,-5.6,5,https://tottenhamhotspur.io-media.com/web/confignew.json
+355,Sub_Section_416_2_258,416,2,258,North Mid,True,False,-6.26,5,https://tottenhamhotspur.io-media.com/web/confignew.json
+356,Sub_Section_416_10_242,416,10,242,North Mid,True,False,-5.02,6,https://tottenhamhotspur.io-media.com/web/confignew.json
+357,Sub_Section_416_11_256,416,11,256,North Mid,True,False,-5.41,7,https://tottenhamhotspur.io-media.com/web/confignew.json
+358,Sub_Section_416WC_14_254,416WC,14,254,Accessible Seating - North Mid,True,False,-4.96,8,https://tottenhamhotspur.io-media.com/web/confignew.json
+359,Sub_Section_417_3_266,417,3,266,North Mid,True,False,-6.5,5,https://tottenhamhotspur.io-media.com/web/confignew.json
+360,Sub_Section_417_3_285,417,3,285,North Mid,True,False,-7.13,5,https://tottenhamhotspur.io-media.com/web/confignew.json
+361,Sub_Section_417_10_283,417,10,283,North Mid,True,False,-6.4,6,https://tottenhamhotspur.io-media.com/web/confignew.json
+362,Sub_Section_417_10_266,417,10,266,North Mid,True,False,-5.84,6,https://tottenhamhotspur.io-media.com/web/confignew.json
+363,Sub_Section_417WC_14_271,417WC,14,271,Accessible Seating - North Mid,True,False,-5.61,8,https://tottenhamhotspur.io-media.com/web/confignew.json
+364,Sub_Section_418_4_314,418,4,314,North Mid,True,False,-8.4,6,https://tottenhamhotspur.io-media.com/web/confignew.json
+365,Sub_Section_418_4_296,418,4,296,North Mid,True,False,-7.55,5,https://tottenhamhotspur.io-media.com/web/confignew.json
+366,Sub_Section_418_10_296,418,10,296,North Mid,True,False,-6.9,7,https://tottenhamhotspur.io-media.com/web/confignew.json
+367,Sub_Section_418_12_314,418,12,314,North Mid,True,False,-7.36,7,https://tottenhamhotspur.io-media.com/web/confignew.json
+368,Sub_Section_418WC_14_291,418WC,14,291,Accessible Seating - North Mid,True,False,-6.17,8,https://tottenhamhotspur.io-media.com/web/confignew.json
+369,Sub_Section_419_3_347,419,3,347,North Mid,True,False,-4.91,6,https://tottenhamhotspur.io-media.com/web/confignew.json
+370,Sub_Section_419_4_329,419,4,329,North Mid,True,False,-8.65,6,https://tottenhamhotspur.io-media.com/web/confignew.json
+371,Sub_Section_419_13_347,419,13,347,North Mid,True,False,-4.12,8,https://tottenhamhotspur.io-media.com/web/confignew.json
+372,Sub_Section_419_13_328,419,13,328,North Mid,True,False,-7.49,7,https://tottenhamhotspur.io-media.com/web/confignew.json
+373,Sub_Section_420_3_378,420,3,378,North Mid,True,False,2.07,6,https://tottenhamhotspur.io-media.com/web/confignew.json
+374,Sub_Section_420_3_360,420,3,360,North Mid,True,False,-2.16,6,https://tottenhamhotspur.io-media.com/web/confignew.json
+375,Sub_Section_420_11_378,420,11,378,North Mid,True,False,1.81,7,https://tottenhamhotspur.io-media.com/web/confignew.json
+376,Sub_Section_420_11_360,420,11,360,North Mid,True,False,-1.89,7,https://tottenhamhotspur.io-media.com/web/confignew.json
+377,Sub_Section_421_4_410,421,4,410,North Mid,True,False,8.68,6,https://tottenhamhotspur.io-media.com/web/confignew.json
+378,Sub_Section_421_4_392,421,4,392,North Mid,True,False,4.74,6,https://tottenhamhotspur.io-media.com/web/confignew.json
+379,Sub_Section_421_12_392,421,12,392,North Mid,True,False,4.11,7,https://tottenhamhotspur.io-media.com/web/confignew.json
+380,Sub_Section_421_12_410,421,12,410,North Mid,True,False,7.47,7,https://tottenhamhotspur.io-media.com/web/confignew.json
+381,Sub_Section_422_3_443,422,3,443,North Mid,True,False,7.62,5,https://tottenhamhotspur.io-media.com/web/confignew.json
+382,Sub_Section_422_3_423,422,3,423,North Mid,True,False,8.52,5,https://tottenhamhotspur.io-media.com/web/confignew.json
+383,Sub_Section_422_12_443,422,12,443,North Mid,True,False,6.64,7,https://tottenhamhotspur.io-media.com/web/confignew.json
+384,Sub_Section_422_12_423,422,12,423,North Mid,True,False,7.32,7,https://tottenhamhotspur.io-media.com/web/confignew.json
+385,Sub_Section_422WC_14_447,422WC,14,447,Accessible Seating - North Mid,True,False,6.18,8,https://tottenhamhotspur.io-media.com/web/confignew.json
+386,Sub_Section_423_2_472,423,2,472,North Mid,True,False,6.58,5,https://tottenhamhotspur.io-media.com/web/confignew.json
+387,Sub_Section_423_2_453,423,2,453,North Mid,True,False,7.23,5,https://tottenhamhotspur.io-media.com/web/confignew.json
+388,Sub_Section_423_9_472,423,9,472,North Mid,True,False,5.89,6,https://tottenhamhotspur.io-media.com/web/confignew.json
+389,Sub_Section_423_10_454,423,10,454,North Mid,True,False,6.43,7,https://tottenhamhotspur.io-media.com/web/confignew.json
+390,Sub_Section_423WC_14_460,423WC,14,460,Accessible Seating - North Mid,True,False,5.81,8,https://tottenhamhotspur.io-media.com/web/confignew.json
+391,Sub_Section_424_2_495,424,2,495,North Mid,True,False,5.7,5,https://tottenhamhotspur.io-media.com/web/confignew.json
+392,Sub_Section_424_2_481,424,2,481,North Mid,True,False,6.18,5,https://tottenhamhotspur.io-media.com/web/confignew.json
+393,Sub_Section_424_10_497,424,10,497,North Mid,True,False,4.96,6,https://tottenhamhotspur.io-media.com/web/confignew.json
+394,Sub_Section_424_10_482,424,10,482,North Mid,True,False,5.45,6,https://tottenhamhotspur.io-media.com/web/confignew.json
+395,Sub_Section_424WC_14_485,424WC,14,485,Accessible Seating - North Mid,True,False,4.97,8,https://tottenhamhotspur.io-media.com/web/confignew.json
+396,Sub_Section_425_2_4,425,2,4,Level 4 - Loge Area,True,False,4.7,8,https://tottenhamhotspur.io-media.com/web/confignew.json
+397,Sub_Section_426_2_2,426,2,2,Level 4 - Sideline Suite,True,False,4.28,8,https://tottenhamhotspur.io-media.com/web/confignew.json
+398,Sub_Section_427_2_2,427,2,2,Level 4 - Sideline Suite,True,False,4.07,8,https://tottenhamhotspur.io-media.com/web/confignew.json
+399,Sub_Section_428_2_2,428,2,2,Level 4 - Sideline Suite,True,False,3.71,9,https://tottenhamhotspur.io-media.com/web/confignew.json
+400,Sub_Section_429_2_2,429,2,2,Level 4 - Sideline Suite,True,False,3.41,9,https://tottenhamhotspur.io-media.com/web/confignew.json
+401,Sub_Section_430_2_3,430,2,3,Level 4 - Sideline Suite,True,False,3.13,9,https://tottenhamhotspur.io-media.com/web/confignew.json
+402,Sub_Section_431_2_3,431,2,3,Level 4 - Sideline Suite,True,False,2.66,9,https://tottenhamhotspur.io-media.com/web/confignew.json
+403,Sub_Section_432_2_3,432,2,3,Level 4 - Sideline Suite,True,False,2.13,10,https://tottenhamhotspur.io-media.com/web/confignew.json
+404,Sub_Section_433_2_3,433,2,3,Level 4 - Sideline Suite,True,False,2.77,10,https://tottenhamhotspur.io-media.com/web/confignew.json
+405,Sub_Section_434_2_3,434,2,3,Level 4 - Sideline Suite,True,False,3.16,10,https://tottenhamhotspur.io-media.com/web/confignew.json
+406,Sub_Section_435_2_3,435,2,3,Level 4 - Sideline Suite,True,False,3.39,11,https://tottenhamhotspur.io-media.com/web/confignew.json
+407,Sub_Section_436_2_3,436,2,3,Level 4 - Sideline Suite,True,False,3.31,11,https://tottenhamhotspur.io-media.com/web/confignew.json
+408,Sub_Section_437_2_3,437,2,3,Level 4 - Sideline Suite,True,False,2.89,11,https://tottenhamhotspur.io-media.com/web/confignew.json
+409,Sub_Section_438_2_3,438,2,3,Level 4 - Sideline Suite,True,False,2.36,11,https://tottenhamhotspur.io-media.com/web/confignew.json
+411,Sub_Section_441_2_3,441,2,3,Level 4 - Sideline Suite,True,False,0.75,11,https://tottenhamhotspur.io-media.com/web/confignew.json
+412,Sub_Section_442_2_3,442,2,3,Level 4 - Sideline Suite,True,False,-1.34,11,https://tottenhamhotspur.io-media.com/web/confignew.json
+413,Sub_Section_443_2_3,443,2,3,Level 4 - Sideline Suite,True,False,-2.3,11,https://tottenhamhotspur.io-media.com/web/confignew.json
+414,Sub_Section_444_2_3,444,2,3,Level 4 - Sideline Suite,True,False,-2.86,11,https://tottenhamhotspur.io-media.com/web/confignew.json
+415,Sub_Section_445_2_3,445,2,3,Level 4 - Sideline Suite,True,False,-3.32,11,https://tottenhamhotspur.io-media.com/web/confignew.json
+416,Sub_Section_446_2_3,446,2,3,Level 4 - Sideline Suite,True,False,-3.42,11,https://tottenhamhotspur.io-media.com/web/confignew.json
+417,Sub_Section_447_2_3,447,2,3,Level 4 - Sideline Suite,True,False,-3.24,10,https://tottenhamhotspur.io-media.com/web/confignew.json
+419,Sub_Section_449_2_3,449,2,3,Level 4 - Sideline Suite,True,False,-2.15,10,https://tottenhamhotspur.io-media.com/web/confignew.json
+420,Sub_Section_450_2_3,450,2,3,Level 4 - Sideline Suite,True,False,-2.6,9,https://tottenhamhotspur.io-media.com/web/confignew.json
+421,Sub_Section_451_54_194,451,54,194,South Upper Lower,True,False,-3.28,10,https://tottenhamhotspur.io-media.com/web/confignew.json
+422,Sub_Section_451_54_172,451,54,172,South Upper Lower,True,False,-5.96,10,https://tottenhamhotspur.io-media.com/web/confignew.json
+423,Sub_Section_451_65_193,451,65,193,South Upper Lower,True,False,-2.84,12,https://tottenhamhotspur.io-media.com/web/confignew.json
+424,Sub_Section_451_65_172,451,65,172,South Upper Lower,True,False,-5.18,12,https://tottenhamhotspur.io-media.com/web/confignew.json
+425,Sub_Section_451_76_192,451,76,192,South Upper Lower,True,False,-2.53,14,https://tottenhamhotspur.io-media.com/web/confignew.json
+426,Sub_Section_451_76_173,451,76,173,South Upper Lower,True,False,-4.33,14,https://tottenhamhotspur.io-media.com/web/confignew.json
+427,Sub_Section_452_54_228,452,54,228,South Upper Lower,True,False,1.54,10,https://tottenhamhotspur.io-media.com/web/confignew.json
+428,Sub_Section_452_54_206,452,54,206,South Upper Lower,True,False,-1.47,10,https://tottenhamhotspur.io-media.com/web/confignew.json
+429,Sub_Section_452_65_227,452,65,227,South Upper Lower,True,False,1.31,12,https://tottenhamhotspur.io-media.com/web/confignew.json
+430,Sub_Section_452_65_206,452,65,206,South Upper Lower,True,False,-1.22,12,https://tottenhamhotspur.io-media.com/web/confignew.json
+431,Sub_Section_452_77_227,452,77,227,South Upper Lower,True,False,1.1,14,https://tottenhamhotspur.io-media.com/web/confignew.json
+432,Sub_Section_452_77_206,452,77,206,South Upper Lower,True,False,-1.02,14,https://tottenhamhotspur.io-media.com/web/confignew.json
+433,Sub_Section_453_54_262,453,54,262,South Upper Lower,True,False,6.29,10,https://tottenhamhotspur.io-media.com/web/confignew.json
+434,Sub_Section_453_54_239,453,54,239,South Upper Lower,True,False,3.37,10,https://tottenhamhotspur.io-media.com/web/confignew.json
+435,Sub_Section_453_65_261,453,65,261,South Upper Lower,True,False,5.19,12,https://tottenhamhotspur.io-media.com/web/confignew.json
+436,Sub_Section_453_65_241,453,65,241,South Upper Lower,True,False,3.05,12,https://tottenhamhotspur.io-media.com/web/confignew.json
+437,Sub_Section_453_77_260,453,77,260,South Upper Lower,True,False,4.28,14,https://tottenhamhotspur.io-media.com/web/confignew.json
+438,Sub_Section_453_77_240,453,77,240,South Upper Lower,True,False,2.46,14,https://tottenhamhotspur.io-media.com/web/confignew.json
+439,Sub_Section_501_8_39,501,8,39,West Upper,True,False,2.86,12,https://tottenhamhotspur.io-media.com/web/confignew.json
+440,Sub_Section_501_8_67,501,8,67,West Upper,True,False,1.85,13,https://tottenhamhotspur.io-media.com/web/confignew.json
+441,Sub_Section_501_16_10,501,16,10,West Upper,True,False,3.26,13,https://tottenhamhotspur.io-media.com/web/confignew.json
+442,Sub_Section_501_15_35,501,15,35,West Upper,True,False,2.46,14,https://tottenhamhotspur.io-media.com/web/confignew.json
+443,Sub_Section_501_20_65,501,20,65,West Upper,True,False,1.08,16,https://tottenhamhotspur.io-media.com/web/confignew.json
+444,Sub_Section_502_6_99,502,6,99,West Upper,True,False,2.34,14,https://tottenhamhotspur.io-media.com/web/confignew.json
+445,Sub_Section_502_9_78,502,9,78,West Upper,True,False,1.33,14,https://tottenhamhotspur.io-media.com/web/confignew.json
+446,Sub_Section_502_19_99,502,19,99,West Upper,True,False,1.13,16,https://tottenhamhotspur.io-media.com/web/confignew.json
+447,Sub_Section_502_19_78,502,19,78,West Upper,True,False,0.66,16,https://tottenhamhotspur.io-media.com/web/confignew.json
+448,Sub_Section_502_26_92,502,26,92,West Upper,True,False,0.58,17,https://tottenhamhotspur.io-media.com/web/confignew.json
+449,Sub_Section_503_5_112,503,5,112,West Upper,True,False,2.64,14,https://tottenhamhotspur.io-media.com/web/confignew.json
+450,Sub_Section_503_5_131,503,5,131,West Upper,True,False,2.31,14,https://tottenhamhotspur.io-media.com/web/confignew.json
+451,Sub_Section_503_15_131,503,15,131,West Upper,True,False,1.4,17,https://tottenhamhotspur.io-media.com/web/confignew.json
+452,Sub_Section_503_15_112,503,15,112,West Upper,True,False,1.58,16,https://tottenhamhotspur.io-media.com/web/confignew.json
+453,Sub_Section_503_27_131,503,27,131,West Upper,True,False,0.72,19,https://tottenhamhotspur.io-media.com/web/confignew.json
+454,Sub_Section_503_27_112,503,27,112,West Upper,True,False,0.77,18,https://tottenhamhotspur.io-media.com/web/confignew.json
+455,Sub_Section_504_13_144,504,13,144,West Upper,True,False,1.15,16,https://tottenhamhotspur.io-media.com/web/confignew.json
+456,Sub_Section_504_21_144,504,21,144,West Upper,True,False,0.77,18,https://tottenhamhotspur.io-media.com/web/confignew.json
+457,Sub_Section_504_27_156,504,27,156,West Upper,True,False,0.31,19,https://tottenhamhotspur.io-media.com/web/confignew.json
+458,Sub_Section_505_13_192,505,13,192,West Upper,True,False,-1.12,16,https://tottenhamhotspur.io-media.com/web/confignew.json
+459,Sub_Section_505_21_191,505,21,191,West Upper,True,False,-0.71,18,https://tottenhamhotspur.io-media.com/web/confignew.json
+460,Sub_Section_505_27_180,505,27,180,West Upper,True,False,-0.28,19,https://tottenhamhotspur.io-media.com/web/confignew.json
+461,Sub_Section_506_5_224,506,5,224,West Upper,True,False,-2.61,14,https://tottenhamhotspur.io-media.com/web/confignew.json
+462,Sub_Section_506_5_206,506,5,206,West Upper,True,False,-2.31,14,https://tottenhamhotspur.io-media.com/web/confignew.json
+463,Sub_Section_506_15_206,506,15,206,West Upper,True,False,-1.38,17,https://tottenhamhotspur.io-media.com/web/confignew.json
+464,Sub_Section_506_15_224,506,15,224,West Upper,True,False,-1.54,16,https://tottenhamhotspur.io-media.com/web/confignew.json
+465,Sub_Section_506_27_223,506,27,223,West Upper,True,False,-0.74,18,https://tottenhamhotspur.io-media.com/web/confignew.json
+466,Sub_Section_506_27_206,506,27,206,West Upper,True,False,-0.7,19,https://tottenhamhotspur.io-media.com/web/confignew.json
+467,Sub_Section_507_5_237,507,5,237,West Upper,True,False,-2.42,13,https://tottenhamhotspur.io-media.com/web/confignew.json
+468,Sub_Section_507_5_255,507,5,255,West Upper,True,False,-1.66,13,https://tottenhamhotspur.io-media.com/web/confignew.json
+469,Sub_Section_507_18_237,507,18,237,West Upper,True,False,-1.17,16,https://tottenhamhotspur.io-media.com/web/confignew.json
+470,Sub_Section_507_18_255,507,18,255,West Upper,True,False,-0.69,16,https://tottenhamhotspur.io-media.com/web/confignew.json
+471,Sub_Section_507_26_237,507,26,237,West Upper,True,False,-0.67,18,https://tottenhamhotspur.io-media.com/web/confignew.json
+472,Sub_Section_507_26_255,507,26,255,West Upper,True,False,-0.28,17,https://tottenhamhotspur.io-media.com/web/confignew.json
+473,Sub_Section_508_7_267,508,7,267,West Upper,True,False,-1.98,13,https://tottenhamhotspur.io-media.com/web/confignew.json
+474,Sub_Section_508_7_287,508,7,287,West Upper,True,False,-2.66,12,https://tottenhamhotspur.io-media.com/web/confignew.json
+475,Sub_Section_508_18_285,508,18,285,West Upper,True,False,-1.83,14,https://tottenhamhotspur.io-media.com/web/confignew.json
+476,Sub_Section_508_18_267,508,18,267,West Upper,True,False,-1.13,15,https://tottenhamhotspur.io-media.com/web/confignew.json
+477,Sub_Section_508_27_267,508,27,267,West Upper,True,False,-0.64,17,https://tottenhamhotspur.io-media.com/web/confignew.json
+478,Sub_Section_508_27_284,508,27,284,West Upper,True,False,-1.26,16,https://tottenhamhotspur.io-media.com/web/confignew.json
+479,Sub_Section_509_6_296,509,6,296,West Upper,True,False,-3.08,12,https://tottenhamhotspur.io-media.com/web/confignew.json
+480,Sub_Section_509_7_320,509,7,320,West Upper,True,False,-3.67,11,https://tottenhamhotspur.io-media.com/web/confignew.json
+481,Sub_Section_509_20_316,509,20,316,West Upper,True,False,-2.75,14,https://tottenhamhotspur.io-media.com/web/confignew.json
+482,Sub_Section_509_20_298,509,20,298,West Upper,True,False,-2.16,14,https://tottenhamhotspur.io-media.com/web/confignew.json
+483,Sub_Section_510_7_352,510,7,352,West Upper,True,False,-4.56,11,https://tottenhamhotspur.io-media.com/web/confignew.json
+484,Sub_Section_510_7_329,510,7,329,West Upper,True,False,-3.99,11,https://tottenhamhotspur.io-media.com/web/confignew.json
+485,Sub_Section_510_17_349,510,17,349,West Upper,True,False,-3.85,13,https://tottenhamhotspur.io-media.com/web/confignew.json
+486,Sub_Section_510_17_330,510,17,330,West Upper,True,False,-3.32,13,https://tottenhamhotspur.io-media.com/web/confignew.json
+487,Sub_Section_511_10_380,511,10,380,North Upper,True,False,-5.1,12,https://tottenhamhotspur.io-media.com/web/confignew.json
+488,Sub_Section_511_7_360,511,7,360,North Upper,True,False,-4.81,11,https://tottenhamhotspur.io-media.com/web/confignew.json
+489,Sub_Section_511_19_363,511,19,363,North Upper,True,False,-4.1,13,https://tottenhamhotspur.io-media.com/web/confignew.json
+490,Sub_Section_511_19_378,511,19,378,North Upper,True,False,-4.51,13,https://tottenhamhotspur.io-media.com/web/confignew.json
+491,Sub_Section_511WC_4_377,511WC,4,377,Accessible Seating - North Upper,True,False,-5.46,10,https://tottenhamhotspur.io-media.com/web/confignew.json
+492,Sub_Section_512_10_392,512,10,392,North Upper,True,False,-5.46,12,https://tottenhamhotspur.io-media.com/web/confignew.json
+493,Sub_Section_512_9_415,512,9,415,North Upper,True,False,-6.06,12,https://tottenhamhotspur.io-media.com/web/confignew.json
+494,Sub_Section_512_19_392,512,19,392,North Upper,True,False,-4.84,13,https://tottenhamhotspur.io-media.com/web/confignew.json
+495,Sub_Section_512_20_414,512,20,414,North Upper,True,False,-5.27,14,https://tottenhamhotspur.io-media.com/web/confignew.json
+496,Sub_Section_512WC_4_391,512WC,4,391,Accessible Seating - North Upper,True,False,-5.98,10,https://tottenhamhotspur.io-media.com/web/confignew.json
+497,Sub_Section_513_4_426,513,4,426,North Upper,True,False,-6.93,11,https://tottenhamhotspur.io-media.com/web/confignew.json
+498,Sub_Section_513_4_448,513,4,448,North Upper,True,False,-7.66,11,https://tottenhamhotspur.io-media.com/web/confignew.json
+499,Sub_Section_513_14_428,513,14,428,North Upper,True,False,-6.06,13,https://tottenhamhotspur.io-media.com/web/confignew.json
+500,Sub_Section_513_14_448,513,14,448,North Upper,True,False,-6.56,13,https://tottenhamhotspur.io-media.com/web/confignew.json
+501,Sub_Section_513_25_430,513,25,430,North Upper,True,False,-5.26,15,https://tottenhamhotspur.io-media.com/web/confignew.json
+502,Sub_Section_513_25_449,513,25,449,North Upper,True,False,-5.57,15,https://tottenhamhotspur.io-media.com/web/confignew.json
+503,Sub_Section_514_4_478,514,4,478,North Upper,True,False,-4.54,11,https://tottenhamhotspur.io-media.com/web/confignew.json
+504,Sub_Section_514_4_462,514,4,462,North Upper,True,False,-7.76,11,https://tottenhamhotspur.io-media.com/web/confignew.json
+505,Sub_Section_514_15_460,514,15,460,North Upper,True,False,-6.62,13,https://tottenhamhotspur.io-media.com/web/confignew.json
+506,Sub_Section_514_15_479,514,15,479,North Upper,True,False,-3.63,14,https://tottenhamhotspur.io-media.com/web/confignew.json
+507,Sub_Section_514_27_462,514,27,462,North Upper,True,False,-5.33,16,https://tottenhamhotspur.io-media.com/web/confignew.json
+508,Sub_Section_514_27_479,514,27,479,North Upper,True,False,-3,16,https://tottenhamhotspur.io-media.com/web/confignew.json
+509,Sub_Section_515_4_510,515,4,510,North Upper,True,False,1.84,12,https://tottenhamhotspur.io-media.com/web/confignew.json
+510,Sub_Section_515_4_493,515,4,493,North Upper,True,False,-1.74,12,https://tottenhamhotspur.io-media.com/web/confignew.json
+511,Sub_Section_515_15_493,515,15,493,North Upper,True,False,-1.46,14,https://tottenhamhotspur.io-media.com/web/confignew.json
+512,Sub_Section_515_15_510,515,15,510,North Upper,True,False,1.53,14,https://tottenhamhotspur.io-media.com/web/confignew.json
+513,Sub_Section_515_27_493,515,27,493,North Upper,True,False,-1.21,16,https://tottenhamhotspur.io-media.com/web/confignew.json
+514,Sub_Section_515_27_510,515,27,510,North Upper,True,False,1.26,16,https://tottenhamhotspur.io-media.com/web/confignew.json
+515,Sub_Section_516_4_540,516,4,540,North Upper,True,False,7.68,11,https://tottenhamhotspur.io-media.com/web/confignew.json
+516,Sub_Section_516_4_523,516,4,523,North Upper,True,False,4.27,11,https://tottenhamhotspur.io-media.com/web/confignew.json
+517,Sub_Section_516_15_523,516,15,523,North Upper,True,False,3.55,14,https://tottenhamhotspur.io-media.com/web/confignew.json
+518,Sub_Section_516_15_541,516,15,541,North Upper,True,False,6.51,14,https://tottenhamhotspur.io-media.com/web/confignew.json
+519,Sub_Section_516_27_541,516,27,541,North Upper,True,False,5.37,16,https://tottenhamhotspur.io-media.com/web/confignew.json
+520,Sub_Section_516_27_523,516,27,523,North Upper,True,False,2.93,16,https://tottenhamhotspur.io-media.com/web/confignew.json
+521,Sub_Section_517_4_554,517,4,554,North Upper,True,False,7.58,11,https://tottenhamhotspur.io-media.com/web/confignew.json
+522,Sub_Section_517_4_574,517,4,574,North Upper,True,False,6.93,11,https://tottenhamhotspur.io-media.com/web/confignew.json
+523,Sub_Section_517_14_553,517,14,553,North Upper,True,False,6.5,13,https://tottenhamhotspur.io-media.com/web/confignew.json
+524,Sub_Section_517_14_573,517,14,573,North Upper,True,False,6.01,13,https://tottenhamhotspur.io-media.com/web/confignew.json
+525,Sub_Section_517_25_572,517,25,572,North Upper,True,False,5.17,15,https://tottenhamhotspur.io-media.com/web/confignew.json
+526,Sub_Section_517_25_554,517,25,554,North Upper,True,False,5.5,15,https://tottenhamhotspur.io-media.com/web/confignew.json
+527,Sub_Section_518_6_586,518,6,586,North Upper,True,False,6.29,11,https://tottenhamhotspur.io-media.com/web/confignew.json
+528,Sub_Section_518_8_615,518,8,615,North Upper,True,False,5.4,11,https://tottenhamhotspur.io-media.com/web/confignew.json
+529,Sub_Section_518_17_611,518,17,611,North Upper,True,False,4.88,13,https://tottenhamhotspur.io-media.com/web/confignew.json
+530,Sub_Section_518_17_588,518,17,588,North Upper,True,False,5.4,13,https://tottenhamhotspur.io-media.com/web/confignew.json
+531,Sub_Section_518WC_4_612,518WC,4,612,Accessible Seating - North Upper,True,False,5.86,10,https://tottenhamhotspur.io-media.com/web/confignew.json
+532,Sub_Section_519_6_644,519,6,644,North Upper,True,False,4.77,11,https://tottenhamhotspur.io-media.com/web/confignew.json
+533,Sub_Section_519_8_622,519,8,622,North Upper,True,False,5.19,11,https://tottenhamhotspur.io-media.com/web/confignew.json
+534,Sub_Section_519_17_641,519,17,641,North Upper,True,False,4.12,13,https://tottenhamhotspur.io-media.com/web/confignew.json
+535,Sub_Section_519_17_623,519,17,623,North Upper,True,False,4.57,13,https://tottenhamhotspur.io-media.com/web/confignew.json
+536,Sub_Section_519WC_4_620,519WC,4,620,Accessible Seating - North Upper,True,False,5.56,10,https://tottenhamhotspur.io-media.com/web/confignew.json
+537,Sub_Section_520_6_651,520,6,651,East Upper,True,False,4.55,11,https://tottenhamhotspur.io-media.com/web/confignew.json
+538,Sub_Section_520_8_674,520,8,674,East Upper,True,False,3.78,12,https://tottenhamhotspur.io-media.com/web/confignew.json
+539,Sub_Section_520_16_653,520,16,653,East Upper,True,False,3.86,13,https://tottenhamhotspur.io-media.com/web/confignew.json
+540,Sub_Section_520_17_671,520,17,671,East Upper,True,False,3.26,13,https://tottenhamhotspur.io-media.com/web/confignew.json
+541,Sub_Section_520WC_4_670,520WC,4,670,Accessible Seating - East Upper,True,False,4.25,11,https://tottenhamhotspur.io-media.com/web/confignew.json
+542,Sub_Section_521_9_683,521,9,683,East Upper,True,False,3.38,12,https://tottenhamhotspur.io-media.com/web/confignew.json
+543,Sub_Section_521_7_706,521,7,706,East Upper,True,False,2.93,12,https://tottenhamhotspur.io-media.com/web/confignew.json
+544,Sub_Section_521_19_684,521,19,684,East Upper,True,False,2.76,14,https://tottenhamhotspur.io-media.com/web/confignew.json
+545,Sub_Section_521_20_703,521,20,703,East Upper,True,False,2.13,14,https://tottenhamhotspur.io-media.com/web/confignew.json
+546,Sub_Section_521WC_4_681,521WC,4,681,Accessible Seating - East Upper,True,False,3.85,11,https://tottenhamhotspur.io-media.com/web/confignew.json
+547,Sub_Section_522_7_714,522,7,714,East Upper,True,False,2.61,12,https://tottenhamhotspur.io-media.com/web/confignew.json
+548,Sub_Section_522_7_735,522,7,735,East Upper,True,False,1.88,13,https://tottenhamhotspur.io-media.com/web/confignew.json
+549,Sub_Section_522_18_734,522,18,734,East Upper,True,False,1.09,15,https://tottenhamhotspur.io-media.com/web/confignew.json
+550,Sub_Section_522_18_716,522,18,716,East Upper,True,False,1.79,14,https://tottenhamhotspur.io-media.com/web/confignew.json
+551,Sub_Section_522_27_718,522,27,718,East Upper,True,False,1.16,16,https://tottenhamhotspur.io-media.com/web/confignew.json
+552,Sub_Section_522_27_734,522,27,734,East Upper,True,False,0.61,17,https://tottenhamhotspur.io-media.com/web/confignew.json
+553,Sub_Section_523_7_764,523,7,764,East Upper,True,False,2.15,14,https://tottenhamhotspur.io-media.com/web/confignew.json
+554,Sub_Section_523_7_746,523,7,746,East Upper,True,False,1.44,13,https://tottenhamhotspur.io-media.com/web/confignew.json
+555,Sub_Section_523_18_746,523,18,746,East Upper,True,False,0.66,16,https://tottenhamhotspur.io-media.com/web/confignew.json
+556,Sub_Section_523_18_764,523,18,764,East Upper,True,False,1.14,16,https://tottenhamhotspur.io-media.com/web/confignew.json
+557,Sub_Section_523_27_746,523,27,746,East Upper,True,False,0.21,17,https://tottenhamhotspur.io-media.com/web/confignew.json
+558,Sub_Section_523_27_764,523,27,764,East Upper,True,False,0.59,18,https://tottenhamhotspur.io-media.com/web/confignew.json
+559,Sub_Section_524_7_778,524,7,778,East Upper,True,False,2.33,14,https://tottenhamhotspur.io-media.com/web/confignew.json
+560,Sub_Section_524_7_796,524,7,796,East Upper,True,False,2.04,15,https://tottenhamhotspur.io-media.com/web/confignew.json
+561,Sub_Section_524_18_796,524,18,796,East Upper,True,False,1.15,17,https://tottenhamhotspur.io-media.com/web/confignew.json
+562,Sub_Section_524_18_777,524,18,777,East Upper,True,False,1.28,17,https://tottenhamhotspur.io-media.com/web/confignew.json
+563,Sub_Section_524_27_777,524,27,777,East Upper,True,False,0.71,18,https://tottenhamhotspur.io-media.com/web/confignew.json
+564,Sub_Section_524_27_796,524,27,796,East Upper,True,False,0.67,19,https://tottenhamhotspur.io-media.com/web/confignew.json
+565,Sub_Section_525_7_810,525,7,810,East Upper,True,False,1.47,15,https://tottenhamhotspur.io-media.com/web/confignew.json
+566,Sub_Section_525_18_810,525,18,810,East Upper,True,False,0.83,17,https://tottenhamhotspur.io-media.com/web/confignew.json
+567,Sub_Section_525_27_821,525,27,821,East Upper,True,False,0.27,19,https://tottenhamhotspur.io-media.com/web/confignew.json
+568,Sub_Section_527_7_858,527,7,858,East Upper,True,False,-1.52,15,https://tottenhamhotspur.io-media.com/web/confignew.json
+569,Sub_Section_527_18_858,527,18,858,East Upper,True,False,-0.87,17,https://tottenhamhotspur.io-media.com/web/confignew.json
+570,Sub_Section_527_27_847,527,27,847,East Upper,True,False,-0.31,19,https://tottenhamhotspur.io-media.com/web/confignew.json
+571,Sub_Section_528_7_891,528,7,891,East Upper,True,False,-2.36,14,https://tottenhamhotspur.io-media.com/web/confignew.json
+572,Sub_Section_528_7_873,528,7,873,East Upper,True,False,-2.1,15,https://tottenhamhotspur.io-media.com/web/confignew.json
+573,Sub_Section_528_18_873,528,18,873,East Upper,True,False,-1.19,17,https://tottenhamhotspur.io-media.com/web/confignew.json
+574,Sub_Section_528_18_891,528,18,891,East Upper,True,False,-1.31,17,https://tottenhamhotspur.io-media.com/web/confignew.json
+575,Sub_Section_528_27_873,528,27,873,East Upper,True,False,-0.71,19,https://tottenhamhotspur.io-media.com/web/confignew.json
+576,Sub_Section_528_27_891,528,27,891,East Upper,True,False,-0.75,18,https://tottenhamhotspur.io-media.com/web/confignew.json
+577,Sub_Section_529_7_926,529,7,926,East Upper,True,False,-1.44,13,https://tottenhamhotspur.io-media.com/web/confignew.json
+578,Sub_Section_529_7_906,529,7,906,East Upper,True,False,-2.16,14,https://tottenhamhotspur.io-media.com/web/confignew.json
+579,Sub_Section_529_18_925,529,18,925,East Upper,True,False,-0.68,16,https://tottenhamhotspur.io-media.com/web/confignew.json
+580,Sub_Section_529_18_906,529,18,906,East Upper,True,False,-1.16,16,https://tottenhamhotspur.io-media.com/web/confignew.json
+581,Sub_Section_529_26_912,529,26,912,East Upper,True,False,-0.55,17,https://tottenhamhotspur.io-media.com/web/confignew.json
+582,Sub_Section_530_10_936,530,10,936,East Upper,True,False,-1.64,13,https://tottenhamhotspur.io-media.com/web/confignew.json
+583,Sub_Section_530_8_961,530,8,961,East Upper,True,False,-2.95,12,https://tottenhamhotspur.io-media.com/web/confignew.json
+584,Sub_Section_530_16_990,530,16,990,East Upper,True,False,-3.2,13,https://tottenhamhotspur.io-media.com/web/confignew.json
+585,Sub_Section_530_16_963,530,16,963,East Upper,True,False,-2.3,14,https://tottenhamhotspur.io-media.com/web/confignew.json
+586,Sub_Section_530_19_938,530,19,938,East Upper,True,False,-1.1,15,https://tottenhamhotspur.io-media.com/web/confignew.json
+587,Sub_Section_530WC_4_946,530WC,4,946,Accessible Seating - East Upper,True,False,-1.66,12,https://tottenhamhotspur.io-media.com/web/confignew.json
+588,Sub_Section_801_10_176,801,10,176,Stratus West,True,False,-0.4,16,https://tottenhamhotspur.io-media.com/web/confignew.json
+589,Sub_Section_801_10_160,801,10,160,Stratus West,True,False,0.5,16,https://tottenhamhotspur.io-media.com/web/confignew.json
+590,Sub_Section_801_19_177,801,19,177,Stratus West,True,False,-0.29,18,https://tottenhamhotspur.io-media.com/web/confignew.json
+591,Sub_Section_801_19_160,801,19,160,Stratus West,True,False,0.33,18,https://tottenhamhotspur.io-media.com/web/confignew.json
+592,Sub_Section_802_9_843,802,9,843,Stratus East,True,False,-0.48,16,https://tottenhamhotspur.io-media.com/web/confignew.json
+593,Sub_Section_802_9_825,802,9,825,Stratus East,True,False,0.47,16,https://tottenhamhotspur.io-media.com/web/confignew.json
+594,Sub_Section_802_18_825,802,18,825,Stratus East,True,False,0.31,17,https://tottenhamhotspur.io-media.com/web/confignew.json
+595,Sub_Section_802_18_843,802,18,843,Stratus East,True,False,-0.34,17,https://tottenhamhotspur.io-media.com/web/confignew.json
+596,Sub_Section_900_A_3,900,A,3,Broadcast Booths,False,False,0.98,18,https://tottenhamhotspur.io-media.com/web/confignew.json
+597,Sub_Section_900_C_3,900,C,3,Broadcast Booths,False,False,1.98,18,https://tottenhamhotspur.io-media.com/web/confignew.json
+598,Sub_Section_900_D_3,900,D,3,Broadcast Booths,False,False,2.27,18,https://tottenhamhotspur.io-media.com/web/confignew.json
+599,Sub_Section_900_E_3,900,E,3,Broadcast Booths,False,False,2.57,18,https://tottenhamhotspur.io-media.com/web/confignew.json
+600,Sub_Section_900_F_3,900,F,3,Broadcast Booths,False,False,2.82,17,https://tottenhamhotspur.io-media.com/web/confignew.json
+601,Sub_Section_900_G_3,900,G,3,Broadcast Booths,False,False,3.08,17,https://tottenhamhotspur.io-media.com/web/confignew.json
+602,Sub_Section_900_H_3,900,H,3,Broadcast Booths,False,False,3.29,17,https://tottenhamhotspur.io-media.com/web/confignew.json
+603,Sub_Section_900_B_3,900,B,3,Broadcast Booths,False,False,1.64,18,https://tottenhamhotspur.io-media.com/web/confignew.json
+607,Sub_Section_450_Interior_1,450,Interior,1,Level 4 - Sideline Suite,False,True,0,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+608,Sub_Section_449_Interior_1,449,Interior,1,Level 4 - Sideline Suite,False,True,160,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+609,Sub_Section_448_Interior_1,448,Interior,1,Level 4 - Sideline Suite,False,True,0,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+610,Sub_Section_447_Interior_1,447,Interior,1,Level 4 - Sideline Suite,False,True,0,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+611,Sub_Section_446_Interior_1,446,Interior,1,Level 4 - Sideline Suite,False,True,0,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+612,Sub_Section_445_Interior_1,445,Interior,1,Level 4 - Sideline Suite,False,True,180,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+613,Sub_Section_444_Interior_1,444,Interior,1,Level 4 - Sideline Suite,False,True,0,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+614,Sub_Section_443_Interior_1,443,Interior,1,Level 4 - Sideline Suite,False,True,0,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+615,Sub_Section_442_Interior_1,442,Interior,1,Level 4 - Sideline Suite,False,True,0,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+616,Sub_Section_439_Interior_1,439,Interior,1,Level 4 - Sideline Suite,False,True,180,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+617,Sub_Section_438_Interior_1,438,Interior,1,Level 4 - Sideline Suite,False,True,0,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+618,Sub_Section_437_Interior_1,437,Interior,1,Level 4 - Sideline Suite,False,True,0,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+619,Sub_Section_436_Interior_1,436,Interior,1,Level 4 - Sideline Suite,False,True,0,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+620,Sub_Section_435_Interior_1,435,Interior,1,Level 4 - Sideline Suite,False,True,0,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+622,Sub_Section_433_Interior_1,433,Interior,1,Level 4 - Sideline Suite,False,True,0,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+623,Sub_Section_432_Interior_1,432,Interior,1,Level 4 - Sideline Suite,False,True,0,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+624,Sub_Section_431_Interior_1,431,Interior,1,Level 4 - Sideline Suite,False,True,0,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+625,Sub_Section_430_Interior_1,430,Interior,1,Level 4 - Sideline Suite,False,True,220,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+626,Sub_Section_429_Interior_1,429,Interior,1,Level 4 - Sideline Suite,False,True,0,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+627,Sub_Section_428_Interior_1,428,Interior,1,Level 4 - Sideline Suite,False,True,0,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+628,Sub_Section_427_Interior_1,427,Interior,1,Level 4 - Sideline Suite,False,True,0,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+631,Sub_Section_406_Interior_1,406,Interior,1,Suite on Four,False,True,0,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+633,Sub_Section_412_Interior_1,412,Interior,1,Suite on Four,False,True,0,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+634,Sub_Section_441_Interior_1,441,Interior,1,Level 4 - Sideline Suite,False,True,0,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+635,Sub_Section_231_Interior_1,231,Interior,1,Level 2 - Sideline Suite,False,True,0,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+636,Sub_Section_230_Interior_1,230,Interior,1,Level 2 - Sideline Suite,False,True,0,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+638,Sub_Section_228_Interior_1,228,Interior,1,Level 2 - Sideline Suite,False,True,0,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+639,Sub_Section_227_Interior_1,227,Interior,1,Level 2 - Sideline Suite,False,True,0,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+640,Sub_Section_226_Interior_1,226,Interior,1,Level 2 - Sideline Suite,False,True,0,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+641,Sub_Section_225_Interior_1,225,Interior,1,Level 2 - Sideline Suite,False,True,160,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+642,Sub_Section_224_Interior_1,224,Interior,1,Level 2 - Sideline Suite,False,True,0,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+643,Sub_Section_223_Interior_1,223,Interior,1,Level 2 - Sideline Suite,False,True,0,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+644,Sub_Section_222_Interior_1,222,Interior,1,Level 2 - Sideline Suite,False,True,0,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+645,Sub_Section_221_Interior_1,221,Interior,1,Level 2 - Sideline Suite,False,True,0,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+646,Sub_Section_220_Interior_1,220,Interior,1,Level 2 - Sideline Suite,False,True,160,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+647,Sub_Section_219_Interior_1,219,Interior,1,Level 2 - Sideline Suite,False,True,0,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+648,Sub_Section_218_Interior_1,218,Interior,1,Level 2 - Sideline Suite,False,True,0,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+649,Sub_Section_217_Interior_1,217,Interior,1,Level 2 - Sideline Suite,False,True,200,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+651,Sub_Section_215_Interior_1,215,Interior,1,Level 2 - Sideline Suite,False,True,170,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+652,Sub_Section_211_Interior_1,211,Interior,1,Level 2 - Sideline Suite,False,True,0,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+653,Sub_Section_210_Interior_1,210,Interior,1,Level 2 - Sideline Suite,False,True,0,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+654,Sub_Section_209_Interior_1,209,Interior,1,Level 2 - Sideline Suite,False,True,0,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+655,Sub_Section_208_Interior_1,208,Interior,1,Level 2 - Sideline Suite,False,True,195,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+656,Sub_Section_207_Interior_1,207,Interior,1,Level 2 - Sideline Suite,False,True,0,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+657,Sub_Section_206_Interior_1,206,Interior,1,Level 2 - Sideline Suite,False,True,205,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+658,Sub_Section_205_Interior_1,205,Interior,1,Level 2 - Sideline Suite,False,True,0,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+659,Sub_Section_204_Interior_1,204,Interior,1,Level 2 - Sideline Suite,False,True,210,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+660,Sub_Section_203_Interior_1,203,Interior,1,Level 2 - Sideline Suite,False,True,0,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+661,Sub_Section_202_Interior_1,202,Interior,1,Level 2 - Sideline Suite,False,True,215,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+662,Sub_Section_201_Interior_1,201,Interior,1,Level 2 - Sideline Suite,False,True,0,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+679,Sub_Section_529WC_4_936,529WC,4,936,Accessible Seating - East Upper,True,False,0,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+733,Sub_Section_501WC_4_56,501WC,4,56,Accessible Seating - West Upper,True,False,0,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+734,Sub_Section_502WC_4_67,502WC,4,67,Accessible Seating - West Upper,True,False,0,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+736,Sub_Section_510WC_4_330,510WC,4,330,Accessible Seating - West Upper,True,False,0,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+737,Sub_Section_526WC_4_844,526WC,4,844,Accessible Seating - East Upper,True,False,0,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+650,Sub_Section_216_Interior_1,216,Interior,1,Level 2 - Sideline Suite,False,True,0,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+637,Sub_Section_229_Interior_1,229,Interior,1,Level 2 - Sideline Suite,False,True,0,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+140,Sub_Section_221_2_3,221,2,3,Level 2 - Sideline Suite,True,False,-2.42,4,https://tottenhamhotspur.io-media.com/web/confignew.json
+133,Sub_Section_214_2_5,214,2,5,Level 2 - Sideline Suite,True,False,-1.05,5,https://tottenhamhotspur.io-media.com/web/confignew.json
+629,Sub_Section_426_Interior_1,426,Interior,1,Level 4 - Sideline Suite,False,True,0,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+621,Sub_Section_434_Interior_1,434,Interior,1,Level 4 - Sideline Suite,False,True,210,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+418,Sub_Section_448_2_3,448,2,3,Level 4 - Sideline Suite,True,False,-2.87,10,https://tottenhamhotspur.io-media.com/web/confignew.json
+410,Sub_Section_439_2_3,439,2,3,Level 4 - Sideline Suite,True,False,1.43,11,https://tottenhamhotspur.io-media.com/web/confignew.json
+632,Sub_Section_411_Interior_1,411,Interior,1,Suite on Four,False,True,0,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+630,Sub_Section_405_Interior_1,405,Interior,1,Suite on Four,False,True,180,0,https://tottenhamhotspur.io-media.com/web/confignew.json
+342,Sub_Section_405_2_4,405,2,4,Suite on Four,True,False,3.46,11,https://tottenhamhotspur.io-media.com/web/confignew.json

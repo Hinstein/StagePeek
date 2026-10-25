@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>座位視野模擬</title>
+    <meta name="description" content="3D 場館座位視野模擬：點選任何座位，切換至第一人稱視角。" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Flytix" />
+    <meta property="og:title" content="座位視野模擬 | Flytix" />
+    <meta property="og:description" content="3D 場館座位視野模擬：點選任何座位，切換至第一人稱視角。" />
+    <meta property="og:image" content="https://venue.flytix.live/og.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#0a0e1f" />
+    <link rel="icon" href="data:," />
+    <script type="module" crossorigin src="/assets/viewer-DTZmpK2K.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/site-links-E99H4fnu.js">
+    <link rel="stylesheet" crossorigin href="/assets/viewer-CQ_JhbNl.css">
+  </head>
+  <body>
+    <!-- viewer.js 會將 canvas + 面板成套生入 #app；呢頁只留頁面級嘢 -->
+    <div id="app"></div>
+    <div id="refLayer"><img id="refImg" alt="" hidden /></div>
+
+    <!-- 面板頂：主站標誌 + 返回入口 + 標題（main.js 塞入 viewer 嘅 head slot）。
+         3D 頁唔加頁首頁尾（食高度），淨係面板頂一個細標誌連返主站；手機頂 bar 冇位，唔出。 -->
+    <template id="panelHead">
+      <a id="brand" class="brand"><img src="/brand-logo.png" alt="Flytix" width="69" height="18" /></a>
+      <a id="home" href="./"></a>
+      <h1 id="title"></h1>
+      <p class="hint" id="noModelFiles"></p>
+    </template>
+
+    <!-- 手機頂 bar 左邊：返回入口（bar slot）。場館／座位名由 viewer 自己寫入 #barTitle。 -->
+    <template id="topbarHead">
+      <a id="barHome" href="./" aria-label=""><span aria-hidden="true">←</span><span id="barHomeLabel"></span></a>
+    </template>
+
+    <!-- 面板中段：校準工具（foot slot） -->
+    <template id="panelFoot">
+    <!-- 校準用工具，出街版收起；?ref=1 先顯示（overlay.js） -->
+    <div id="refTool" hidden>
+      <label>對照圖片</label>
+      <div class="row">
+        <button id="refPick">選圖片</button>
+        <button id="refAdjust">調整</button>
+        <button id="refClear">清除</button>
+      </div>
+      <input id="refFile" type="file" accept="image/*" hidden />
+      <div id="refCtl" hidden>
+        <label>透明度 <span id="refOpVal">45</span>%</label>
+        <input id="refOp" type="range" min="5" max="100" value="45" />
+        <div class="row" id="refBlend">
+          <button data-blend="normal" class="on">半透明</button>
+          <button data-blend="difference">差異疊加</button>
+        </div>
+        <div class="row" style="margin-top: 6px">
+          <button id="refReset">重設位置</button>
+        </div>
+      </div>
+      <p class="hint" id="refHint"></p>
+    </div>
+    </template>
+
+    <!-- 面板底：資料來源（provenance slot） -->
+    <template id="panelProvenance">
+    <div class="hint" id="provenance"><b id="provenanceTitle"></b> <span id="provenanceText"></span> <a id="ktsPhotoReview" href="/tools/kai-tak/research/photo-review.html" target="_blank" hidden></a></div>
+    </template>
+
+    <!-- 由入口頁跳過嚟到 three.js 起好 scene 之間嘅過場；搵唔到場館 id 亦喺呢度講 -->
+    <div id="loading">
+      <div class="spinner" aria-hidden="true"></div>
+      <p id="loadingText"></p>
+      <a id="loadingBack" href="./" hidden></a>
+    </div>
+
+  </body>
+</html>

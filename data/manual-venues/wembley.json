@@ -1,0 +1,60 @@
+{
+  "id": "wembley",
+  "name": "Wembley Stadium",
+  "city": "伦敦 · Wembley",
+  "capacity": "90,000（体育用途）",
+  "source": "https://help.wembleystadium.com/support/solutions/folders/7000017805",
+  "sourceTitle": "Wembley 官方 Stadium Maps / Concert Seating Layout",
+  "sourceLinks": [
+    "https://help.wembleystadium.com/support/solutions/folders/7000017805",
+    "https://help.wembleystadium.com/support/solutions/articles/7000028429-concert-stadium-seating-layout",
+    "https://www.wembleystadium.com/plan-your-visit/stadium-guide/view-from-your-seat"
+  ],
+  "accuracy": {
+    "sectionLabels": "official-support-observed",
+    "completeSeatInventory": false,
+    "metricCalibrated": false,
+    "stage": "generic",
+    "position": "estimated",
+    "geometryBasis": "estimated-anchor-layout",
+    "coverage": "Wembley 官方支持页确认 Level 1/2/3/4/5 的区号体系；本批只导入公开页面明确出现的 25 个分区锚点，没有推断未列出的区号或逐座排座。",
+    "reuse": "官方页面可公开访问；未建立商业图形再分发许可。"
+  },
+  "tiers": [[78, 54, 3, 18, 10], [104, 70, 18, 18, 12], [136, 92, 34, 24, 18]],
+  "geometry": {
+    "shape": "oval",
+    "floor": [190, 135],
+    "tiers": [
+      {"id": "lower", "name": "Level 1", "steps": 27},
+      {"id": "middle", "name": "Level 2", "steps": 26},
+      {"id": "upper", "name": "Level 5", "steps": 35}
+    ]
+  },
+  "sections": [
+    {"id":"103","ticketLabels":["103"],"levelName":"Level 1","tier":0,"angle":-2.80,"halfAngle":0.07,"samples":[]},
+    {"id":"108","ticketLabels":["108"],"levelName":"Level 1","tier":0,"angle":-2.35,"halfAngle":0.07,"samples":[]},
+    {"id":"111","ticketLabels":["111"],"levelName":"Level 1","tier":0,"angle":-1.95,"halfAngle":0.07,"samples":[]},
+    {"id":"121","ticketLabels":["121"],"levelName":"Level 1","tier":0,"angle":-1.25,"halfAngle":0.07,"samples":[]},
+    {"id":"122","ticketLabels":["122"],"levelName":"Level 1","tier":0,"angle":-1.05,"halfAngle":0.07,"samples":[]},
+    {"id":"123","ticketLabels":["123"],"levelName":"Level 1","tier":0,"angle":-0.85,"halfAngle":0.07,"samples":[]},
+    {"id":"127","ticketLabels":["127"],"levelName":"Level 1","tier":0,"angle":-0.25,"halfAngle":0.07,"samples":[]},
+    {"id":"134","ticketLabels":["134"],"levelName":"Level 1","tier":0,"angle":0.95,"halfAngle":0.07,"samples":[]},
+    {"id":"137","ticketLabels":["137"],"levelName":"Level 1","tier":0,"angle":1.55,"halfAngle":0.07,"samples":[]},
+    {"id":"142","ticketLabels":["142"],"levelName":"Level 1","tier":0,"angle":2.55,"halfAngle":0.07,"samples":[]},
+    {"id":"203","ticketLabels":["203"],"levelName":"Level 2","tier":1,"angle":-2.85,"halfAngle":0.07,"samples":[]},
+    {"id":"212","ticketLabels":["212"],"levelName":"Level 2","tier":1,"angle":-2.00,"halfAngle":0.07,"samples":[]},
+    {"id":"215","ticketLabels":["215"],"levelName":"Level 2","tier":1,"angle":-1.70,"halfAngle":0.07,"samples":[]},
+    {"id":"238","ticketLabels":["238"],"levelName":"Level 2","tier":1,"angle":1.65,"halfAngle":0.07,"samples":[]},
+    {"id":"241","ticketLabels":["241"],"levelName":"Level 2","tier":1,"angle":2.05,"halfAngle":0.07,"samples":[]},
+    {"id":"242","ticketLabels":["242"],"levelName":"Level 2","tier":1,"angle":2.25,"halfAngle":0.07,"samples":[]},
+    {"id":"243","ticketLabels":["243"],"levelName":"Level 2","tier":1,"angle":2.45,"halfAngle":0.07,"samples":[]},
+    {"id":"501","ticketLabels":["501"],"levelName":"Level 5","tier":2,"angle":-2.90,"halfAngle":0.07,"samples":[]},
+    {"id":"505","ticketLabels":["505"],"levelName":"Level 5","tier":2,"angle":-2.50,"halfAngle":0.07,"samples":[]},
+    {"id":"514","ticketLabels":["514"],"levelName":"Level 5","tier":2,"angle":-1.55,"halfAngle":0.07,"samples":[]},
+    {"id":"521","ticketLabels":["521"],"levelName":"Level 5","tier":2,"angle":-0.30,"halfAngle":0.07,"samples":[]},
+    {"id":"532","ticketLabels":["532"],"levelName":"Level 5","tier":2,"angle":1.15,"halfAngle":0.07,"samples":[]},
+    {"id":"539","ticketLabels":["539"],"levelName":"Level 5","tier":2,"angle":1.85,"halfAngle":0.07,"samples":[]},
+    {"id":"548","ticketLabels":["548"],"levelName":"Level 5","tier":2,"angle":2.55,"halfAngle":0.07,"samples":[]},
+    {"id":"552","ticketLabels":["552"],"levelName":"Level 5","tier":2,"angle":2.95,"halfAngle":0.07,"samples":[]}
+  ]
+}

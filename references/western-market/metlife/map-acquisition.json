@@ -1,0 +1,67 @@
+[
+  {
+    "file": "virtual-venue-FullStadium-map.json",
+    "url": "https://newyorkjets.io-media.com/media/venueview/models/FullStadium.json",
+    "bytes": 441865,
+    "sha256": "ae52e58f84e5d3dd6251285317737d8747e7a2dac5a64702fa6bf3f651cc46e5",
+    "cameras": [
+      "Aerial_Camera_Northwest",
+      "Aerial_Camera_Overview",
+      "Aerial_Camera_Southwest",
+      "Aerial_Camera_Southeast",
+      "Aerial_Camera_Northeast"
+    ]
+  },
+  {
+    "file": "virtual-venue-LevelLower-map.json",
+    "url": "https://newyorkjets.io-media.com/media/venueview/models/LevelLower.json",
+    "bytes": 147269,
+    "sha256": "8791e680abbbc71ad8fab1c622b64249940befa1a51417d9e2a56e3128b4ab7d",
+    "cameras": [
+      "Aerial_Camera_Northwest",
+      "Aerial_Camera_Overview",
+      "Aerial_Camera_Southwest",
+      "Aerial_Camera_Southeast",
+      "Aerial_Camera_Northeast"
+    ]
+  },
+  {
+    "file": "virtual-venue-LevelUpper-map.json",
+    "url": "https://newyorkjets.io-media.com/media/venueview/models/LevelUpper.json",
+    "bytes": 272257,
+    "sha256": "4cd956d574a7e9031847bbc57f28a71e2a74de400697bb6cc4fb2a1c8460b59f",
+    "cameras": [
+      "Aerial_Camera_Northwest",
+      "Aerial_Camera_Overview",
+      "Aerial_Camera_Southwest",
+      "Aerial_Camera_Southeast",
+      "Aerial_Camera_Northeast"
+    ]
+  },
+  {
+    "file": "virtual-venue-LevelSuiteLower-map.json",
+    "url": "https://newyorkjets.io-media.com/media/venueview/models/LevelSuiteLower.json",
+    "bytes": 51905,
+    "sha256": "e9f4cd9c773ec40b1b992d3d3b43ea054c051505e567ffd38aa74f48726cdd64",
+    "cameras": [
+      "Aerial_Camera_Northwest",
+      "Aerial_Camera_Overview",
+      "Aerial_Camera_Southwest",
+      "Aerial_Camera_Southeast",
+      "Aerial_Camera_Northeast"
+    ]
+  },
+  {
+    "file": "virtual-venue-LevelSuite-map.json",
+    "url": "https://newyorkjets.io-media.com/media/venueview/models/LevelSuite.json",
+    "bytes": 112487,
+    "sha256": "81053ee83f30f87799ddb6097c21470ee25883c3a917cb834d025c31df2df7b8",
+    "cameras": [
+      "Aerial_Camera_Northwest",
+      "Aerial_Camera_Overview",
+      "Aerial_Camera_Southwest",
+      "Aerial_Camera_Southeast",
+      "Aerial_Camera_Northeast"
+    ]
+  }
+]

@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <meta name="viewport" content="user-scalable = no,initial-scale=1,maximum-scale=1.0">
+    <link rel="apple-touch-icon" href="images/touch-icon.png"/>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="canonical" href="//rams.io-media.com">
+    <meta name="keywords" content="Virtual Venue, 3D Venue, 3D Seats, 3D Seat Viewer, Virtual Seating Application, Virtual Seat Map, Seat Data, Seat Viewer, Interactive Seat Viewer, Seat Selector, 3D Seat Selector, Seating Application, 3D Seating Application, 3D Seating Chart, Seating Chart, View from Seat, 3D View from Seat, Virtual Seat Viewer, 3D Seating, Venue Seating Map, Virtual Seating Chart, 3D Seating Map, 3D Virtual Seating Map, 3D Stadium Map, 3D Arena Map, Virtual Viewer, Virtual Venue Viewer, 3D Virtual Viewer, IOMEDIA">
+    <meta name="description" content="3D Interactive Seat Views for Los Angeles Rams at Los Angeles Memorial Coliseum interactive seat map using Virtual Venue™ by IOMEDIA">
+    <title>Los Angeles Rams Virtual Venue™ by IOMEDIA</title>
+    <!-- Facebook open graph meta tags-->
+    <meta property="og:title" content="Los Angeles Rams Virtual Venue™ by IOMEDIA">
+    <meta property="og:site_name" content="Virtual Venue">
+    <meta property="og:image" content="//rams.io-media.com/web/images/VV_fbshareicon.jpg"/>
+    <meta property="og:image" content="//rams.io-media.com/web/images/VV_fbshareicon_Retina.jpg"/>
+    <meta property="og:url" content="//rams.io-media.com">
+    <meta name="og:description" content="Experience 3D Interactive Seat Views for the Los Angeles Rams at Los Angeles Memorial Coliseum with our interactive Virtual Venue™ by IOMEDIA">
+
+    <meta property="twitter:card" content="Los Angeles Rams Virtual Venue™ by IOMEDIA">
+    <meta property="twitter:title" content="Los Angeles Rams Virtual Venue™ by IOMEDIA">
+    <meta property="twitter:image" content="//rams.io-media.com/web/images/Twitter_Share.png"/>
+    <meta name="twitter:description" content="Check out 3D Interactive seat views for the Los Angeles Rams with Virtual Venue™ by IOMEDIA">
+    <meta property="twitter:creator" content="@IOMEDIAsports">
+    <meta property="twitter:url" content="//rams.io-media.com">
+	<link href='https://fonts.googleapis.com/css?family=Oswald|Roboto' rel='stylesheet' type='text/css'>
+
+	<!-- <link rel="stylesheet" href="css/compress.css" type="text/css" charset="utf-8"> -->
+    <link rel="stylesheet" href="css/compress.css" type="text/css" charset="utf-8"> 
+	<link rel="stylesheet" href="shell/styles.css" type="text/css" charset="utf-8">
+    <!-- Mobile Detect : PERMANENTLY HERE-->
+    <script type="text/javascript" src="../scripts/mobile-detect.min.js"></script>
+    <script>
+        // var url= window.location.href;
+        var md = new MobileDetect(window.navigator.userAgent);
+        var device;
+        var webroot = "/web/index.html";
+        var mobileroot="/mobile/index.html";
+        var vvtype;
+        var hash = window.location.hash;
+        if (md.mobile())
+        {
+            if (md.tablet()){
+                device="tablet";
+            } else if (md.phone()){
+                device="phone";
+            }
+        }
+        else{
+            device="desktop";
+        }
+
+        //Random Comment
+        if (device == "phone")
+        {
+            //Redirect them back to mobile
+            window.location.href=mobileroot+hash;
+        }
+    </script>
+    
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-F5CMZ9L65N"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-F5CMZ9L65N');
+</script>
+
+    <!-- The following two variables need to be on the document scope -->
+    <script>
+        var addthis_config = addthis_config || {};
+        addthis_config.data_track_addressbar = false;
+        addthis_config.data_track_clickback = false;
+        var addthis_share = {};
+        //The address bar wasnt getting tracked initially from within the SocialManager class.
+       // var _gaq = _gaq || [];
+    </script>
+    <script type="text/javascript"
+            src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4fb6367a5ea88539"></script>
+    <script>
+        var touchHandler = function(e){
+            if(e.target.className != "ui-corner-all")
+                e.preventDefault();
+        }
+        document.addEventListener('touchmove',touchHandler, false);
+    </script>
+
+	<script type="text/javascript" src="clientConfig.js"></script>
+    <!--NOTE: All Require.js paths will be relative to the data-main path-->
+    <!--<script data-main="js/com/iomedia/vv/main" src="js/com/iomedia/vv/script.min.js"></script>-->
+    <!--<script data-main="js/com/iomedia/vv/main" src="js/com/iomedia/vv/libs/require/require.js"></script>
+    <script type="text/javascript" src="js/com/iomedia/vv/libs/mobilebubble/mobile-bubble.js"></script>
+    <script type="text/javascript" src="js/com/iomedia/vv/libs/ol.js"></script>-->
+     <script type="text/javascript">
+		var appVersion = clientConfig.APP_VERSION;
+        var siteURL = window.location.href;
+        var matchDomain = "uat.io-media.com";
+		var devURL = "../vv-iom-007-common-code-base/"+appVersion;
+		var liveURL = "//d32ikx2sw2easi.cloudfront.net/"+appVersion;
+        if(siteURL.match(matchDomain)){
+            /* NSI : 9/12/13 11:09 AM -- script module load if project running on development server*/
+            document.write('<script type="text/javascript" src='+devURL+'/web/js/com/iomedia/vv/script.min.js><\/script>');
+			document.write('<script type="text/javascript" src='+devURL+'/web/js/com/iomedia/vv/libs/mobilebubble/mobile-bubble.js><\/script>');
+        }else{
+            /* NSI : 9/12/13 11:10 AM -- script module load if project running on live server*/
+            document.write('<script type="text/javascript" src='+liveURL+'/web/js/com/iomedia/vv/script.min.js><\/script>');
+			document.write('<script type="text/javascript" src='+liveURL+'/web/js/com/iomedia/vv/libs/mobilebubble/mobile-bubble.js><\/script>');
+        }
+    </script>
+	<!--[if IE 8]>
+			<link rel="stylesheet" href="ie_css/ie8.css" type="text/css" charset="utf-8">		
+    <![endif]-->
+</head>
+<body class="app-position team" onload="checkView();" onorientationchange="updateOrientation();" >
+
+ <!--header starts here-->
+   <!--  <div class="header" id="Shell_Header">
+		<esi:include onerror="continue" src="/fragments/mid-header-frag.html"> </esi:include>
+	</div> -->
+    
+    <div class="header" id="Shell_Header">
+      <div class="top">
+        <div class="logo"> <a href="https://www.therams.com/">
+            <img class="logo1" src="shell/images/LA-ltyp.png"></a>
+        </div>
+      </div>
+        <!-- <div class="d3-o-header__branded-header">
+    
+            <a href="https://www.therams.com/"> <img src="shell/images/site_header_1125.jpg" class="img-responsive "> </a>
+            
+            </div>
+            <div class="nfl-c-header" role="banner" data-require="modules/navigation">
+            <div class="d3-o-nav__wrap" data-reuire="modules/search">
+            <a class="d3-o-nav__logo" href="https://www.therams.com/" target="_blank" target="_blank" title="Link to club's homepage" data-event_name="click action" data-link_module="Primary Navigation" data-link_type="Home" data-link_name="" data-link_url="/index">
+                  <img class="d3-o-club-logo" src="https://res.cloudinary.com/nflleague/image/private/t_q-best/league/rvmujtvvqlhlviuwafzg" alt="Club logo">
+                </a>
+            <ul class="d3-o-nav__listd3-o-list">
+                    <li class="d3-o-nav__item">
+                            <a href="https://www.therams.com/team/players-roster/index" target="_blank" title="TEAM" data-link_module="Primary Navigation" data-event_name="click action" data-link_type="TEAM LandingPage" data-link_name="TEAM" data-link_url="/team/">
+                    <span class="d3-o-nav__item-label">
+                      TEAM
+                    </span>
+                  </a>
+                       </li>
+            <li class="d3-o-nav__item">
+                          <a href="https://www.therams.com/news/index" target="_blank" title="NEWS" data-link_module="Primary Navigation" data-event_name="click action" data-link_type="NEWS LandingPage" data-link_name="NEWS" data-link_url="/news/">
+                  <span class="d3-o-nav__item-label">
+                    NEWS
+                  </span>
+                </a>
+                     </li>
+                     <li class="d3-o-nav__item">
+                            <a href="https://www.therams.com/schedule/index" target="_blank" title="SCHEDULE" data-link_module="Primary Navigation" data-event_name="click action" data-link_type="SCHEDULE LandingPage" data-link_name="SCHEDULE" data-link_url="/schedule/">
+                    <span class="d3-o-nav__item-label">
+                            SCHEDULE
+                    </span>
+                  </a>
+                       </li>
+            <li class="d3-o-nav__item">
+                          <a href="https://www.therams.com/video/index" title="VIDEO" data-link_module="Primary Navigation" data-event_name="click action" data-link_type="VIDEO LandingPage" data-link_name="VIDEO" data-link_url="/video/">
+                  <span class="d3-o-nav__item-label">
+                    VIDEO
+                  </span>
+                </a>
+                    </li>
+            <li class="d3-o-nav__item">
+                          <a href="https://www.therams.com/photos/index" title="PHOTOS" data-link_module="Primary Navigation" data-event_name="click action" data-link_type="PHOTOS LandingPage" data-link_name="PHOTOS" data-link_url="/photos/">
+                  <span class="d3-o-nav__item-label">
+                    PHOTOS
+                  </span>
+                </a>
+                    </li>
+                    <li class="d3-o-nav__item">
+                            <a href="https://www.therams.com/community/index" title="COMMUNITY" data-link_module="Primary Navigation" data-event_name="click action" data-link_type="COMMUNITY LandingPage" data-link_name="COMMUNITY" data-link_url="/community/">
+                    <span class="d3-o-nav__item-label">
+                      COMMUNITY
+                    </span>
+                  </a>
+                      </li>
+                      <li class="d3-o-nav__item  ">
+                            <a href="https://www.therams.com/cheerleaders/index" title="CHEERLEADERS" data-link_module="Primary Navigation" data-event_name="click action" data-link_type="CHEERLEADERS LandingPage" data-link_name="CHEERLEADERS" data-link_url="/cheerleaders/index">
+                    <span class="d3-o-nav__item-label">
+                      CHEERLEADERS
+                    </span>
+                  </a>
+                </li>
+                <li class="d3-o-nav__item  ">
+                        <a href="https://www.therams.com/vamos-rams" title="VAMOS RAMS" data-link_module="Primary Navigation" data-event_name="click action" data-link_type="VAMOS RAMS LandingPage" data-link_name="VAMOS RAMS" data-link_url="/vamos-rams">
+                <span class="d3-o-nav__item-label">
+                  VAMOS RAMS
+                </span>
+              </a>
+          </li>		
+            <li class="d3-o-nav__item d3-o-nav__item--has-submenu ">
+                          <a href="https://www.therams.com/#2ndlevel" title="..." data-value="dropdown_trigger" aria-label="Toogle navigation">
+            <span class="d3-o-nav__item-label">
+                      <span class="nfl-o-icon--small">
+            
+                <svg id="dots" width="16px" height="16px" viewBox="0 0 24 24">
+                <desc>Three dots icon</desc>
+                <circle id="dotsDot3" cx="21.6" cy="12" r="2.5"></circle>
+                <circle id="dotsDot2" cx="12" cy="12" r="2.5"></circle>
+                <circle id="dotsDot1" cx="2.4" cy="12" r="2.5"></circle>
+                </svg>
+              </span>
+            
+                  </span>       
+                   </li>
+                   </ul>
+            <ul class="d3-o-nav__listd3-o-list2">
+                    <li class="d3-o-nav__item">
+                          <a href="https://www.therams.com/tickets" title="TICKETS" data-link_module="Primary Navigation" data-event_name="click action" data-link_type="TICKETS LandingPage" data-link_name="TICKETS" data-link_url="/tickets/">
+                  <span class="d3-o-nav__item-label">
+                    TICKETS
+                  </span>
+                </a>
+            </li>
+            <li class="d3-o-nav__item  ">
+                    <a href="https://www.therams.com/stadium/la-stadium" title="NEW LA STADIUM" data-link_module="Primary Navigation" data-event_name="click action" data-link_type="NEW LA STADIUM LandingPage" data-link_name="NEW LA STADIUM" data-link_url="/stadium/la-stadium">
+            <span class="d3-o-nav__item-label">
+              NEW LA STADIUM
+            </span>
+          </a>
+      </li>
+      <li class="d3-o-nav__item  ">
+            <a href="https://www.ramsfanshop.com/?_s=bm-Rams-TopNav-0124" title="RAMS SHOP" target="_blank" data-link_module="Primary Navigation" data-event_name="click action" data-link_type="RAMS SHOP LandingPage" data-link_name="RAMS SHOP" data-link_url="https://www.ramsfanshop.com/?_s=bm-Rams-TopNav-0124">
+    <span class="d3-o-nav__item-label">
+      RAMS SHOP
+    </span>
+  </a>
+</li>
+<li class="d3-o-nav__item  ">
+        <a href="http://www.pjtra.com/t/2-361899-57835-160859" title="GAME PASS" target="_blank" data-link_module="Primary Navigation" data-event_name="click action" data-link_type="GAME PASS LandingPage" data-link_name="GAME PASS" data-link_url="http://www.gopjn.com/t/2-318247-57835-55814" data-flk-success="atNodeInserted675">
+<span class="d3-o-nav__item-label">
+  GAME PASS
+</span>
+</a>
+
+    
+  </li>
+                </ul>	   
+            </div>
+            </div> -->
+    </div>
+<!--header ends here -->
+
+
+
+<div class="App_Holder">
+    <!-- venue view application  -->
+    <div id="appView">
+        <div id="splashScreenView"></div>
+        <div id="venueView"></div>
+        <div id="vrView"></div>
+        <div id="helpTour"></div>
+		<div id="tour_View"></div>
+		<div id="ie_tour_View"></div>
+        <div id="videoView"></div>
+        <div id="hotspotGalleryView"></div>
+        <div id="vrGalleryView"></div>
+        <div id="footerNavigationView"></div>
+        <div id="parkingView"></div>
+        <div id="disclaimerScreenPopupView"></div>
+        <div id="loaderBig">
+            <div class="Loader_Container">
+                <div id="Client_Logo"><img src="images/logo.png" alt="" /></div>
+                <div id="Loader"><img src="images/loader_big.gif" alt="" /></div>
+                <div id="Branding_Logo"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--footer starts here-->
+<div id="Shell_Footer">
+  <div class="footer1">
+
+  </div>
+    <!-- <div class="footer">
+    <div class="footer_1">
+    <ul class="footer_1-1">
+    <li class="club">
+    <a href="https://www.therams.com/" target="_blank"> CLUB LINKS</a>
+    </li>
+    <li>
+    <a href="https://www.therams.com/" target="_blank"> NFL CLUBS</a>
+    </li>
+    <li>
+    <a href="https://www.therams.com/" target="_blank"> MORE NFL SITES</a>
+    </li>
+    </ul>
+    </div>
+    
+    <div class="footer_2">
+    <ul class="d3-o-footer__panel-links">
+            <li class="d3-o-footer__panel-link-category">
+                    <a href="https://www.therams.com/team/players-roster" class="d3-o-footer__panel-links_1">
+                  TEAM
+                    </a>
+                            </li>
+              <li>
+                    <a href="https://www.therams.com/team/players-roster" class="d3-o-footer__panel-links2">
+                    Roster
+                    </a>
+            </li>
+                <li>
+                    <a href="https://www.therams.com/team/depth-chart">
+                        Depth Chart
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.therams.com/team/coaches-roster">
+                    Coaches
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.therams.com/team/front-office-roster">
+                    Staff
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.therams.com/team/stats">
+                    Stats
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.therams.com/team/injury-report">
+                    Injury Report
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.therams.com/team/transactions">
+                    Transactions
+                    </a>
+                </li>
+                <li>
+                    <a href="http://syckfeed.com/temp/rams_careers_v3/careers.html#center">
+                    Careers
+                    </a>
+                </li>
+            </ul>
+    <ul class="d3-o-footer__panel-links">
+            <li class="d3-o-footer__panel-link-category">
+                  <a href="https://www.therams.com/schedule"class="d3-o-footer__panel-links_1">Schedule</a>
+                            </li>
+            <li>
+                <a href="https://www.therams.com/schedule">
+                2018 Schedule
+                </a>
+            </li>
+            <li>
+                <a href="https://www.stanza.co/button/launch?calendar=https:%2F%2Fspoton.it%2Fschedules%2Fnfl-rams#/" target="new">
+                Add to Calendar
+                </a>
+            </li>
+            <li>
+                <a href="https://www.therams.com/schedule/standings">
+                Standings
+                </a>
+            </li>
+                
+            </ul>
+    <ul class="d3-o-footer__panel-links">
+            <li class="d3-o-footer__panel-link-category">
+                    <a href="https://www.therams.com/news"class="d3-o-footer__panel-links_1">
+                  NEWS
+                    </a>
+                            </li>
+              <li>
+                    <a href="https://www.therams.com/news/all-news">
+    All News
+      </a>
+    
+                </li>
+                <li>
+                        <a href="https://www.therams.com/news/community">
+        Community
+          </a>
+        
+                    </li>
+                    <li>
+                            <a href="https://www.therams.com/vamos-rams">
+            Vamos Rams
+              </a>
+            
+                        </li>
+                        <li>
+                                <a href="https://www.therams.com/app">
+                Mobile App
+                  </a>
+                
+                            </li>
+                            <li>
+                                    <a href="https://www.therams.com/podcasts">
+                    Podcasts
+                      </a>
+                    
+                                </li>
+                                <li>
+                                        <a href="http://preferencecenter.therams.info/Pages/signup" target="new">
+                        Sign Up
+                          </a>
+                        
+                                    </li>
+            </ul>
+    <ul class="d3-o-footer__panel-links">
+            <li class="d3-o-footer__panel-link-category">
+                    <a href="https://www.therams.com/video"class="d3-o-footer__panel-links_1">
+                  Video
+                    </a>
+                            </li>
+              <li>
+                    <a href="https://www.therams.com/video/all-videos">
+    All Videos
+      </a>
+    
+                </li>
+                <li>
+                        <a href="https://www.therams.com/video/press-conferences">
+        Press Conferences
+          </a>
+        
+                    </li>
+                    <li>
+                            <a href="https://www.therams.com/video/interviews">
+            Interviews
+              </a>
+            
+                        </li>
+                        <li>
+                                <a href="https://www.therams.com/video/behind-the-grind" target="new">
+                Behind the Grind
+                  </a>
+                
+                            </li>
+                            <li>
+                                    <a href="https://www.therams.com/video/highlights">
+                    Highlights
+                      </a>
+                    
+                                </li>
+                                <li>
+                                        <a href="https://www.therams.com/video/cheerleaders">
+                        Cheerleaders
+                          </a>
+                        
+                                    </li>
+            </ul>
+    <ul class="d3-o-footer__panel-links">
+            <li class="d3-o-footer__panel-link-category">
+                    <a href="https://www.therams.com/photos"class="d3-o-footer__panel-links_1">
+                  PHOTOS
+                    </a>
+                            </li>
+              <li>
+                    <a href="https://www.therams.com/photos/cheerleaders">
+    Cheerleaders
+      </a>
+    
+                </li>
+                <li>
+                        <a href="https://www.therams.com/photos/community">
+        Community
+          </a>
+        
+                    </li>
+                    <li>
+                            <a href="https://www.therams.com/photos/gameday">
+            Gameday
+              </a>
+            
+                        </li>
+            </ul>
+            <ul class="d3-o-footer__panel-links">
+                    <li class="d3-o-footer__panel-link-category">
+                            <a href="https://www.therams.com/tickets"class="d3-o-footer__panel-links_1">
+                          TICKETS
+                            </a>
+                                    </li>
+                    <li>
+                            <a href="https://am.ticketmaster.com/rams/" target="new">
+            Account Manager
+              </a>
+            
+                        </li>
+                        <li>
+                                <a href="https://www.therams.com/tickets/season-tickets">
+                Season Tickets
+                  </a>
+                
+                            </li>
+                            <li>
+                                    <a href="https://www.therams.com/tickets/single-game-tickets">
+                    Single Game Tickets
+                      </a>
+                    
+                                </li>
+                                <li>
+                                        <a href="https://www.therams.com/tickets/group-tickets">
+                        Group Tickets
+                          </a>
+                        
+                                    </li>
+                                    <li>
+                                            <a href="https://www.therams.com/tickets/mobile-ticketing">
+                            Mobile Ticketing
+                              </a>
+                            
+                                        </li>
+                  </ul>
+                  <ul class="d3-o-footer__panel-links">
+                        <li class="d3-o-footer__panel-link-category">
+                                <a href="https://www.therams.com/game-day"class="d3-o-footer__panel-links_1">
+                              GAMEDAY
+                                </a>
+                                        </li>
+                        <li>
+                                <a href="https://www.therams.com/game-day/parking">
+                Parking
+                  </a>
+                
+                            </li>
+                            <li>
+                                    <a href="https://www.therams.com/tickets/pregame-hospitality">
+                    Pregame Hospitality
+                      </a>
+                    
+                                </li>
+                                <li>
+                                        <a href="https://www.therams.com/game-day/a-z-guide">
+                        A to Z Guide
+                          </a>
+                        
+                                    </li>
+                                    <li>
+                                            <a href="http://www.nfl.com/allclear" target="new">
+                            NFL Bag Policy
+                              </a>
+                            
+                                        </li>
+                                        <li>
+                                                <a href="https://www.metro.net/riding/gameday/" target="new">
+                                Metro
+                                  </a>
+                                
+                                            </li>
+                                            <li>
+                                                    <a href="https://www.therams.com/game-day/seating-guide">
+                                    Seating Guide
+                                      </a>
+                                    
+                                                </li>
+                      </ul>
+                      <ul class="d3-o-footer__panel-links">
+                            <li class="d3-o-footer__panel-link-category">
+                                    <a href="https://www.therams.com/stadium/la-stadium"class="d3-o-footer__panel-links_1">
+                                  NEW LA STADIUM
+                                    </a>
+                                            </li>
+                            <li>
+                                    <a href="https://www.therams.com/stadium/la-stadium">
+                    LA Stadium Info
+                      </a>
+                    
+                                </li>
+                                <li>
+                                        <a href="https://www.therams.com/stadium/live-stadium-cam">
+                        Live LA Stadium Cam
+                          </a>
+                        
+                                    </li>
+                                    <li>
+                                            <a href="http://www.lased.com/" target="new">
+                            Visit LASED.com
+                              </a>
+                            
+                                        </li>
+                                                                  </ul>
+    </div>
+    
+    <div class="footer_3">
+    <span>
+          Download Official Team Mobile App
+        </span>
+        <ul class="d3-o-footer__apps-links">
+          <li>
+            <a href="https://itunes.apple.com/app/los-angeles-rams/id467623653?mt=8" title="Apple App Store" target="_blank">
+              <img src="shell/images/app_store_badge.svg" alt="Download on the Apple Store">
+            </a>
+          </li>
+          <li>
+            <a id="league-play-store-app" href="https://play.google.com/store/apps/details?id=com.yinzcam.nfl.rams" target="_blank">
+              <img alt="Get it on Google Play" src="shell/images/en_badge_web_generic.png" width="135">
+            </a>
+          </li>
+        </ul>
+    </div>
+    
+    <div class="footer4">
+    <div class="footer4_1">
+    <a class="d3-o-footer__club-legal-logo" href="https://www.therams.com/" title="Los Angeles Rams">
+        <img src="https://res.cloudinary.com/nflleague/image/private/t_q-best/league/rvmujtvvqlhlviuwafzg" alt="Los Angeles Rams">
+      </a>
+    </div>
+    <div class="footer4_2">
+    <p class="d3-o-footer__club-copyright">
+            © 2018 Los Angeles Rams. All rights reserved
+      </p>
+    </div>
+    <div class="footer4_3">
+    <ul class="d3-o-footer__club-legal-links">
+            <li>
+              <a href="https://www.therams.com/privacy-policy" title="Privacy Policy">
+                Privacy Policy
+              </a>
+            </li>
+            <li>
+              <a href="https://www.therams.com/news/website-accessibility" title="Accessibility">
+                Accessibility
+              </a>
+            </li>
+            <li>
+              <a href="https://www.therams.com/contact" title="Contact Us">
+                Contact Us
+              </a>
+            </li>
+        </ul>
+    </div>
+    </div>
+    </div> -->
+    </div>
+<!--footer ends here-->
+
+<script type="text/javascript">
+    /* NSI : 7/13/12 4:27 PM --- User agent add site as home screen on ipad case check*/
+    var ua = navigator.userAgent.toLowerCase();
+    var bool = false;
+    if ((ua.indexOf('ipad')!=-1) || (ua.indexOf('iphone')!=-1) || (ua.indexOf('mobile')!=-1)) {
+        document.getElementById("Shell_Header").style.display = "none";
+        document.getElementById("Shell_Footer").style.display = "none";
+        document.title = "Los Angeles Rams";
+        bool = true;
+    }
+
+    function updateOrientation()
+    {
+        viewport = document.querySelector("meta[name=viewport]");
+        switch(window.orientation)
+        {
+            case 0:
+                window.scrollTo(0,0)
+                $('#alertMsg').css('z-index','2147483647');
+                counter++
+                viewport.setAttribute('content', 'initial-scale=1,maximum-scale=1,user-scalable=no');
+                workAroundAdjust()
+                $("#alertMsg img").css({"left":"55%"})
+                break;
+            case -90:
+                window.scrollTo(0,0)
+                counter++
+                $("#appView").css("margin-left","0px")
+                viewport.setAttribute('content', ' initial-scale=1, maximum-scale=1,user-scalable=no');
+                $("#alertMsg").hide();
+                $('#sectionSelectorBoxView').css({"bottom":(Constants.MAIN_VIEW_HEIGHT-window.innerHeight + 37)});
+                setTimeout(function(){$("#appView").width(1024); $("#appView").height(window.innerHeight);},300);
+                break;
+            case 90:
+                counter++
+                window.scrollTo(0,0)
+                $("#appView").css("margin-left","0px")
+                viewport.setAttribute('content', 'initial-scale=1, maximum-scale=1,user-scalable=no');
+                $("#alertMsg").hide();
+                $('#sectionSelectorBoxView').css({"bottom":(Constants.MAIN_VIEW_HEIGHT-window.innerHeight + 37)})
+                setTimeout(function(){$("#appView").width(1024); $("#appView").height(window.innerHeight);},300)
+                break;
+            case 180:
+                $('#alertMsg').css('z-index','2147483647');
+                counter++
+                viewport.setAttribute('content', 'initial-scale=1, maximum-scale=1,user-scalable=no');
+                workAroundAdjust()
+                var userAgent = navigator.userAgent.toLowerCase();
+                $.browser.chrome = /crios/.test(navigator.userAgent.toLowerCase());
+                if($.browser.chrome){
+                    $("#alertMsg img").css({"left":"55%"})
+                }
+                break;
+        }
+
+    }
+    function workAroundAdjust(){
+        if(Constants.BROWSER_TYPE == Constants.BROWSER_SAFARI_MOBILE){
+            document.activeElement.blur();
+
+        }
+        $("#alertMsg").width(document.documentElement.clientWidth);
+        $("#alertMsg").height(document.documentElement.clientHeight);
+        $("#alertMsg").show();
+
+        if(isClicked){
+            $("#alertMsg").width(900)
+            $("#alertMsg").height(1024)
+            $("#alertMsg img").width(409.33333)
+            $("#alertMsg img").height(204.6666)
+            $("#alertMsg img").css({"left":"68%"})
+        }
+        if(counter !==0){
+
+            $("#alertMsg").width(900)
+            $("#alertMsg").height(1024)
+            $("#alertMsg img").width(409.33333)
+            $("#alertMsg img").height(204.6666)
+            $("#alertMsg img").css({"left":"68%"})
+        }
+
+    }
+    function checkView()
+    {
+        if ((ua.indexOf('ipad')!=-1) || (ua.indexOf('iphone')!=-1) || (ua.indexOf('mobile')!=-1)) {
+            viewport = document.querySelector("meta[name=viewport]");
+            isClicked = false
+
+            $("#Search_Box").bind("click",function(){
+                isClicked = true
+            })
+            counter =0;
+            if(window.orientation == 0 || window.orientation == 180)
+            {
+                $('#alertMsg').css('z-index','2147483647');
+                $("#alertMsg").width(document.documentElement.clientWidth+300)
+                $("#alertMsg").height(document.documentElement.clientHeight+335)
+                $("#alertMsg").show();
+                $("#appView")[0].style.height=672+"px";
+                $("#appView")[0].style.width=1024+"px";
+                viewport.setAttribute('content', ' initial-scale=0.75, maximum-scale=0.75,user-scalable=no');
+            }
+            else
+            {
+                viewport.setAttribute('content', 'initial-scale=1, maximum-scale=1');
+                $("#appView")[0].style.height=document.documentElement.clientHeight+"px";
+                setTimeout(function(){$("#appView").width(1024)},300)
+
+            }
+        }
+    }
+
+</script>
+
+<script type="text/javascript">// <![CDATA[
+        var versaTag = {};
+        versaTag.id = "250";
+        versaTag.sync = 1;
+        versaTag.dispType = "js";
+        versaTag.ptcl = "";
+        versaTag.bsUrl = "bs.serving-sys.com/BurstingPipe";
+        //versaTag.mobile = 1;
+        versaTag.activityParams = {}; //"Param1":"[value]" , "Param2":"[value]" ,"Param3":"[value]", "Param4":"[value]" versaTag.retargetParams = {}; //"TagID":"[value]", "TagID":"[value]"
+        versaTag.conditionalParams = {}; //"1":"[value]","2":"[value]","3":"[value]","4":"[value]","a":"[value]","b":"[value]","c":"[value]", "d":"[value]","e":"[value]","f":"[value]","g":"[value]","h":"[value]"
+        // ]]></script>
+        <script id="ebOneTagUrlId" src="http://ds.serving-sys.com/SemiCachedScripts/ebOneTag.js" type="text/javascript"></script>
+        <noscript><iframe src="http://bs.serving- sys.com/BurstingPipe?cn=ot&onetagid=250&ns=1&activityValues=$$Value=[Revenue]&OrderID=[OrderID] &ProductID=[ProductID]&ProductInfo=[ProductInfo]&Quantity=[Quantity]$$" style="display:none;width:0px;height:0px"></iframe></noscript>
+
+    <div id="alertMsg">
+        <img src="images/alertMsg.png" alt="Landscape is the valid orientation"/>
+    </div>
+    <div id="tourInitiator"></div>
+    </body>
+</html>

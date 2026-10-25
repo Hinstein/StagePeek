@@ -1,0 +1,626 @@
+[
+  {
+    "artist": "BIGBANG",
+    "venue": "goyang-stadium",
+    "dates": [
+      "2026-08-21",
+      "2026-08-22",
+      "2026-08-23"
+    ],
+    "url": "https://artist.ygfamily.com/ARTISTS/BIGBANG/concert/worldtour/index.html"
+  },
+  {
+    "artist": "BIGBANG",
+    "venue": "taipei-dome",
+    "dates": [
+      "2026-10-09",
+      "2026-10-10",
+      "2026-10-11"
+    ],
+    "url": "https://artist.ygfamily.com/ARTISTS/BIGBANG/concert/worldtour/index.html"
+  },
+  {
+    "artist": "BIGBANG",
+    "venue": "singapore-national",
+    "dates": [
+      "2026-10-17",
+      "2026-10-18"
+    ],
+    "url": "https://ticketmaster.sg/ticket/area/26sg_bigbang2026/3750",
+    "title": "2026-2027 WORLD TOUR < XX : COSMOS >"
+  },
+  {
+    "artist": "BIGBANG",
+    "venue": "my-dinh",
+    "dates": [
+      "2026-10-24",
+      "2026-10-25"
+    ],
+    "url": "https://artist.ygfamily.com/ARTISTS/BIGBANG/concert/worldtour/index.html"
+  },
+  {
+    "artist": "BIGBANG",
+    "venue": "rajamangala",
+    "dates": [
+      "2026-11-07",
+      "2026-11-08"
+    ],
+    "url": "https://artist.ygfamily.com/ARTISTS/BIGBANG/concert/worldtour/index.html"
+  },
+  {
+    "artist": "BIGBANG",
+    "venue": "kai-tak-stadium",
+    "dates": [
+      "2026-11-13",
+      "2026-11-14",
+      "2026-11-15"
+    ],
+    "url": "https://hkt.hkticketing.com/#/allEvents/detail?projectId=50000001568003",
+    "title": "BIGBANG 2026-2027 WORLD TOUR〈XX : COSMOS〉香港站"
+  },
+  {
+    "artist": "BIGBANG",
+    "venue": "kyocera-dome",
+    "dates": [
+      "2026-11-27",
+      "2026-11-28",
+      "2026-11-29"
+    ],
+    "url": "https://artist.ygfamily.com/ARTISTS/BIGBANG/concert/worldtour/index.html"
+  },
+  {
+    "artist": "BIGBANG",
+    "venue": "vantelin-dome",
+    "dates": [
+      "2026-12-05",
+      "2026-12-06"
+    ],
+    "url": "https://artist.ygfamily.com/ARTISTS/BIGBANG/concert/worldtour/index.html"
+  },
+  {
+    "artist": "BIGBANG",
+    "venue": "tokyo-dome",
+    "dates": [
+      "2026-12-13",
+      "2026-12-14",
+      "2026-12-15"
+    ],
+    "url": "https://artist.ygfamily.com/ARTISTS/BIGBANG/concert/worldtour/index.html"
+  },
+  {
+    "artist": "BIGBANG",
+    "venue": "paypay-dome",
+    "dates": [
+      "2026-12-26",
+      "2026-12-27"
+    ],
+    "url": "https://artist.ygfamily.com/ARTISTS/BIGBANG/concert/worldtour/index.html"
+  },
+  {
+    "artist": "BIGBANG",
+    "venue": "bukit-jalil",
+    "dates": [
+      "2027-01-09"
+    ],
+    "url": "https://artist.ygfamily.com/ARTISTS/BIGBANG/concert/worldtour/index.html"
+  },
+  {
+    "artist": "BIGBANG",
+    "venue": "jakarta-stadium",
+    "dates": [
+      "2027-01-16"
+    ],
+    "url": "https://artist.ygfamily.com/ARTISTS/BIGBANG/concert/worldtour/index.html"
+  },
+  {
+    "artist": "BIGBANG",
+    "venue": "smdc-festival",
+    "dates": [
+      "2027-02-20"
+    ],
+    "url": "https://artist.ygfamily.com/ARTISTS/BIGBANG/concert/worldtour/index.html"
+  },
+  {
+    "artist": "BIGBANG",
+    "venue": "kaohsiung-national",
+    "dates": [
+      "2027-02-27",
+      "2027-02-28"
+    ],
+    "url": "https://artist.ygfamily.com/ARTISTS/BIGBANG/concert/worldtour/index.html"
+  },
+  {
+    "artist": "TWICE",
+    "venue": "kyocera-dome",
+    "dates": [
+      "2025-07-26",
+      "2025-07-27"
+    ],
+    "url": "https://www.twicejapan.com/feature/dometour2025"
+  },
+  {
+    "artist": "TWICE",
+    "venue": "vantelin-dome",
+    "dates": [
+      "2025-08-23",
+      "2025-08-24"
+    ],
+    "url": "https://www.twicejapan.com/feature/dometour2025"
+  },
+  {
+    "artist": "TWICE",
+    "venue": "paypay-dome",
+    "dates": [
+      "2025-08-30",
+      "2025-08-31"
+    ],
+    "url": "https://www.twicejapan.com/feature/dometour2025"
+  },
+  {
+    "artist": "TWICE",
+    "venue": "tokyo-dome",
+    "dates": [
+      "2025-09-16",
+      "2025-09-17"
+    ],
+    "url": "https://www.twicejapan.com/feature/dometour2025"
+  },
+  {
+    "artist": "TWICE",
+    "venue": "japan-national",
+    "dates": [
+      "2026-04-25",
+      "2026-04-26",
+      "2026-04-28"
+    ],
+    "url": "https://www.twicejapan.com/feature/dometour2025"
+  },
+  {
+    "artist": "TWICE",
+    "venue": "kspo-dome",
+    "dates": [
+      "2026-07-10",
+      "2026-07-11",
+      "2026-07-12"
+    ],
+    "url": "https://world.nol.com/en/ticket/places/26000627/products/26007949"
+  },
+  {
+    "artist": "TWICE",
+    "venue": "singapore-indoor",
+    "dates": [
+      "2025-10-11",
+      "2025-10-12"
+    ],
+    "url": "https://www.sportshub.com.sg/events/twice-world-tour-singapore"
+  },
+  {
+    "artist": "TWICE",
+    "venue": "impact-arena",
+    "dates": [
+      "2025-12-13",
+      "2025-12-14"
+    ],
+    "url": "https://www.impact.co.th/en/visitors/event-calendar/concert/twice-this-is-for-world-tour-in-bangkok"
+  },
+  {
+    "artist": "TWICE",
+    "venue": "kai-tak-stadium",
+    "dates": [
+      "2025-12-06",
+      "2025-12-07"
+    ],
+    "url": "https://www.kaitaksportspark.com.hk/events-tickets/twice-this-is-for-world-tour-in-hong-kong"
+  },
+  {
+    "artist": "TWICE",
+    "venue": "venetian-arena",
+    "dates": [
+      "2025-09-27",
+      "2025-09-28"
+    ],
+    "url": "https://assets.sandsresortsmacao.cn/cotaiticketing/twice2025/TWICE_Admission_Rules_Regulations_ENSCTC.pdf"
+  },
+  {
+    "artist": "TWICE",
+    "venue": "national-hockey",
+    "dates": [
+      "2025-10-25"
+    ],
+    "url": "https://myrt.global/shop"
+  },
+  {
+    "artist": "TWICE",
+    "venue": "taipei-dome",
+    "dates": [
+      "2026-03-20",
+      "2026-03-21",
+      "2026-03-22"
+    ],
+    "url": "https://www.ocac.gov.tw/OCAC/Eng/Pages/Detail.aspx?nodeid=329&pid=84799832"
+  },
+  {
+    "artist": "TWICE",
+    "venue": "kaohsiung-national",
+    "dates": [
+      "2025-11-22",
+      "2025-11-23"
+    ],
+    "url": "https://www.tbkc.gov.tw/Message/Bulletin/News?id=31e5cef9-a843-4be9-889c-1a902c9d9459"
+  },
+  {
+    "artist": "TWICE",
+    "venue": "inspire-arena",
+    "dates": [
+      "2025-07-19",
+      "2025-07-20"
+    ],
+    "url": "https://app.fans/community/twice/notice/94a09c5v09"
+  },
+  {
+    "artist": "TWICE",
+    "venue": "philippine-arena",
+    "dates": [
+      "2025-10-04"
+    ],
+    "url": "https://www.gmanetwork.com/entertainment/showbiznews/twice-this-is-for-in-bulacan-ticket-prices-seat-plan-revealed/124919/"
+  },
+  {
+    "artist": "Young K",
+    "venue": "inspire-arena",
+    "title": "Solo Tour 〈YOUNGEST〉 in INCHEON",
+    "dates": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "url": "https://world.nol.com/zh-CN/ticket/places/26000804/products/26009887",
+    "guideUrl": "https://ticketimage.interpark.com/Play/ITM/Data/Modify/2026/7/2026072018001574.jpg"
+  },
+  {
+    "artist": "DAY6",
+    "venue": "inspire-arena",
+    "title": "5TH FANMEETING 〈EVERY DAY6, EVERY My Day〉",
+    "dates": [
+      "2026-10-23",
+      "2026-10-24",
+      "2026-10-25"
+    ],
+    "url": "https://world.nol.com/zh-CN/ticket/places/26001085/products/26012624",
+    "guideUrl": "https://ticketimage.interpark.com/Play/ITM/Data/Modify/2026/9/2026090811461410.JPG"
+  },
+  {
+    "artist": "HxW",
+    "venue": "jamsil-indoor",
+    "title": "SEVENTEEN · HOSHI X WOOZI · WARNING",
+    "dates": [
+      "2025-07-11",
+      "2025-07-12",
+      "2025-07-13"
+    ],
+    "url": "https://tickets.interpark.com/contents/notice/detail/9942"
+  },
+  {
+    "artist": "HxW",
+    "venue": "sajik-gymnasium",
+    "title": "SEVENTEEN · HOSHI X WOOZI · WARNING",
+    "dates": [
+      "2025-07-19",
+      "2025-07-20"
+    ],
+    "url": "https://tickets.interpark.com/contents/notice/detail/9894"
+  },
+  {
+    "artist": "HxW",
+    "venue": "ntsu-arena",
+    "title": "SEVENTEEN · HOSHI X WOOZI · WARNING",
+    "dates": [
+      "2025-07-26",
+      "2025-07-27"
+    ],
+    "url": "https://www.pledis.co.kr/artist/detail/seventeen/notice/16607/?currentPage=1",
+    "sourceNote": "日期据用户提供的巡演汇总图录入，尚未从可读取的官方正文独立核验；演出以 TAIPEI 命名，场馆实际位于桃园。"
+  },
+  {
+    "artist": "HxW",
+    "venue": "k-arena-yokohama",
+    "title": "SEVENTEEN · HOSHI X WOOZI · WARNING",
+    "dates": [
+      "2025-08-06",
+      "2025-08-07"
+    ],
+    "url": "https://www.seventeen-17.jp/posts/schedule/gjqzcd"
+  },
+  {
+    "artist": "HxW",
+    "venue": "gwangju-universiade",
+    "title": "SEVENTEEN · HOSHI X WOOZI · WARNING",
+    "dates": [
+      "2025-08-23",
+      "2025-08-24"
+    ],
+    "url": "https://tickets.interpark.com/contents/notice/detail/9895"
+  },
+  {
+    "artist": "CxM",
+    "venue": "inspire-arena",
+    "title": "SEVENTEEN · S.COUPS X MINGYU · DOUBLE UP",
+    "dates": [
+      "2026-01-23",
+      "2026-01-24",
+      "2026-01-25"
+    ],
+    "url": "https://world.nol.com/en/ticket/genre/CONCERT/products/25017211?placeCode=25001581"
+  },
+  {
+    "artist": "CxM",
+    "venue": "ig-arena",
+    "title": "SEVENTEEN · S.COUPS X MINGYU · DOUBLE UP",
+    "dates": [
+      "2026-01-31",
+      "2026-02-01"
+    ],
+    "url": "https://www.seventeen-17.jp/posts/information/yskmaj"
+  },
+  {
+    "artist": "CxM",
+    "venue": "makuhari-halls-1-3",
+    "title": "SEVENTEEN · S.COUPS X MINGYU · DOUBLE UP",
+    "dates": [
+      "2026-02-05",
+      "2026-02-06"
+    ],
+    "url": "https://www.m-messe.co.jp/event/detail/8596",
+    "sourceNote": "当前幕张场馆与HYBE专题为1–3号厅；旧艺人日程页仍写2–3，采用当前主办及场馆一致的厅名，保留历史差异。"
+  },
+  {
+    "artist": "CxM",
+    "venue": "bexco-halls-1-2",
+    "title": "SEVENTEEN · S.COUPS X MINGYU · DOUBLE UP",
+    "dates": [
+      "2026-02-13",
+      "2026-02-14"
+    ],
+    "url": "https://world.nol.com/ticket/places/25001711/products/25018276"
+  },
+  {
+    "artist": "CxM",
+    "venue": "kaohsiung-arena",
+    "title": "SEVENTEEN · S.COUPS X MINGYU · DOUBLE UP",
+    "dates": [
+      "2026-04-24",
+      "2026-04-25",
+      "2026-04-26"
+    ],
+    "url": "https://www.kaoarena.com.tw/Home/CalendarDetail?id=247"
+  },
+  {
+    "artist": "DxS",
+    "venue": "inspire-arena",
+    "title": "SEVENTEEN · DK X SEUNGKWAN · [SERENADE] ON STAGE",
+    "dates": [
+      "2026-04-17",
+      "2026-04-18",
+      "2026-04-19"
+    ],
+    "url": "https://world.nol.com/ticket/places/26000248/products/26003301"
+  },
+  {
+    "artist": "DxS",
+    "venue": "makuhari-halls-4-6",
+    "title": "SEVENTEEN · DK X SEUNGKWAN · [SERENADE] ON STAGE",
+    "dates": [
+      "2026-04-29",
+      "2026-04-30"
+    ],
+    "url": "https://www.seventeen-17.jp/posts/schedule/ksjoct"
+  },
+  {
+    "artist": "DxS",
+    "venue": "exco-east",
+    "title": "SEVENTEEN · DK X SEUNGKWAN · [SERENADE] ON STAGE",
+    "dates": [
+      "2026-05-30",
+      "2026-05-31"
+    ],
+    "url": "https://weverse.io/seventeen/notice/36203?hl=zh-cn"
+  },
+  {
+    "artist": "DxS",
+    "venue": "venetian-arena",
+    "title": "SEVENTEEN · DK X SEUNGKWAN · [SERENADE] ON STAGE",
+    "dates": [
+      "2026-06-06",
+      "2026-06-07"
+    ],
+    "url": "https://hk.venetianmacao.com/entertainment/d-x-s-serenade.html",
+    "sourceNote": "场馆官网列有 6 月 6、7 日，补充汇总图未列的 6 月 7 日。"
+  },
+  {
+    "artist": "DxS",
+    "venue": "kaohsiung-arena",
+    "title": "SEVENTEEN · DK X SEUNGKWAN · [SERENADE] ON STAGE",
+    "dates": [
+      "2026-07-24",
+      "2026-07-25",
+      "2026-07-26"
+    ],
+    "url": "https://www.kaoarena.com.tw/Home/CalendarDetail?id=261",
+    "sourceNote": "场馆官网已公布 7 月 24、26 日加场，与原 7 月 25 日一起收录。"
+  },
+  {
+    "artist": "ITZY",
+    "title": "3RD WORLD TOUR · TUNNEL VISION",
+    "venue": "jamsil-indoor",
+    "dates": [
+      "2026-02-13",
+      "2026-02-14",
+      "2026-02-15"
+    ],
+    "url": "https://m.ticket.yes24.com/Notice/Detail.aspx?bid=17069",
+    "sourceNote": "日期与场馆已对照官方公告；售票分区和舞台配置以当场说明为准。"
+  },
+  {
+    "artist": "ITZY",
+    "title": "3RD WORLD TOUR · TUNNEL VISION",
+    "venue": "john-cain-arena",
+    "dates": [
+      "2026-04-17"
+    ],
+    "url": "https://www.melbournepark.com.au/news/biggest-concerts-2026/",
+    "sourceNote": "日期与场馆已对照官方公告；售票分区和舞台配置以当场说明为准。"
+  },
+  {
+    "artist": "ITZY",
+    "title": "3RD WORLD TOUR · TUNNEL VISION",
+    "venue": "tiktok-entertainment-centre",
+    "dates": [
+      "2026-04-19"
+    ],
+    "url": "https://www.darlingharbour.com/whats-on/archive/events/itzy",
+    "sourceNote": "日期与场馆已对照官方公告；售票分区和舞台配置以当场说明为准。"
+  },
+  {
+    "artist": "ITZY",
+    "title": "3RD WORLD TOUR · TUNNEL VISION",
+    "venue": "keio-arena-tokyo",
+    "dates": [
+      "2026-05-09",
+      "2026-05-10"
+    ],
+    "url": "https://www.itzyjapan.com/news/detail/571",
+    "sourceNote": "日期与场馆已对照官方公告；售票分区和舞台配置以当场说明为准。"
+  },
+  {
+    "artist": "ITZY",
+    "title": "3RD WORLD TOUR · TUNNEL VISION",
+    "venue": "asiaworld-arena",
+    "dates": [
+      "2026-06-20"
+    ],
+    "url": "https://www.asiaworld-expo.com/en-us/whats-on/upcoming-events/events/itzy-tour-in-hong-kong-2026/",
+    "sourceNote": "日期与场馆已对照官方公告；售票分区和舞台配置以当场说明为准。"
+  },
+  {
+    "artist": "ITZY",
+    "title": "3RD WORLD TOUR · TUNNEL VISION",
+    "venue": "kaohsiung-arena",
+    "dates": [
+      "2026-06-27",
+      "2026-06-28"
+    ],
+    "url": "https://www.livenation.com.tw/itzy-khh",
+    "sourceNote": "日期与场馆已对照官方公告；售票分区和舞台配置以当场说明为准。"
+  },
+  {
+    "artist": "ITZY",
+    "title": "3RD WORLD TOUR · TUNNEL VISION",
+    "venue": "impact-arena",
+    "dates": [
+      "2026-07-04"
+    ],
+    "url": "https://www.thaiticketmajor.com/concert/itzy-3rd-world-tour-tunnel-vision-bangkok.html",
+    "sourceNote": "日期与场馆已对照官方公告；售票分区和舞台配置以当场说明为准。"
+  },
+  {
+    "artist": "ITZY",
+    "title": "3RD WORLD TOUR · TUNNEL VISION",
+    "venue": "moa-arena",
+    "dates": [
+      "2026-07-11"
+    ],
+    "url": "https://www.livenation.com/event/intl_1657378/itzy-3rd-world-tour-tunnel-vision-in-manila",
+    "sourceNote": "日期与场馆已对照官方公告；售票分区和舞台配置以当场说明为准。"
+  },
+  {
+    "artist": "ITZY",
+    "title": "3RD WORLD TOUR · TUNNEL VISION",
+    "venue": "venetian-arena",
+    "dates": [
+      "2026-08-15"
+    ],
+    "url": "https://itzy.jype.com/Mobile/NoticeView?AnSeq=7037&NoticeNumber=1573",
+    "sourceNote": "日期与场馆已对照官方公告；售票分区和舞台配置以当场说明为准。"
+  },
+  {
+    "artist": "ITZY",
+    "title": "3RD WORLD TOUR · TUNNEL VISION",
+    "venue": "taipei-arena",
+    "dates": [
+      "2026-09-05"
+    ],
+    "url": "https://www.livenation.com.tw/en/itzy-tpe26",
+    "sourceNote": "日期与场馆已对照官方公告；售票分区和舞台配置以当场说明为准。"
+  },
+  {
+    "artist": "ITZY",
+    "title": "3RD WORLD TOUR · TUNNEL VISION",
+    "venue": "ovo-arena-wembley",
+    "dates": [
+      "2026-09-11"
+    ],
+    "url": "https://itzy.jype.com/Mobile/NoticeView?AnSeq=7021",
+    "sourceNote": "日期与场馆已对照官方公告；售票分区和舞台配置以当场说明为准。"
+  },
+  {
+    "artist": "ITZY",
+    "title": "3RD WORLD TOUR · TUNNEL VISION",
+    "venue": "afas-live",
+    "dates": [
+      "2026-09-13"
+    ],
+    "url": "https://itzy.jype.com/Mobile/NoticeView?AnSeq=7021",
+    "sourceNote": "日期与场馆已对照官方公告；售票分区和舞台配置以当场说明为准。"
+  },
+  {
+    "artist": "ITZY",
+    "title": "3RD WORLD TOUR · TUNNEL VISION",
+    "venue": "zenith-paris",
+    "dates": [
+      "2026-09-15"
+    ],
+    "url": "https://itzy.jype.com/Mobile/NoticeView?AnSeq=7021",
+    "sourceNote": "日期与场馆已对照官方公告；售票分区和舞台配置以当场说明为准。"
+  },
+  {
+    "artist": "ITZY",
+    "title": "3RD WORLD TOUR · TUNNEL VISION",
+    "venue": "festhalle-frankfurt",
+    "dates": [
+      "2026-09-17"
+    ],
+    "url": "https://itzy.jype.com/Mobile/NoticeView?AnSeq=7021",
+    "sourceNote": "日期与场馆已对照官方公告；售票分区和舞台配置以当场说明为准。"
+  },
+  {
+    "artist": "ITZY",
+    "title": "3RD WORLD TOUR · TUNNEL VISION",
+    "venue": "singapore-indoor",
+    "dates": [
+      "2026-10-03"
+    ],
+    "url": "https://www.livenation.sg/itzy2026",
+    "sourceNote": "日期与场馆已对照官方公告；售票分区和舞台配置以当场说明为准。"
+  },
+  {
+    "artist": "STAYC",
+    "title": "2ND TOUR · STAY TUNED",
+    "venue": "star-theatre",
+    "dates": [
+      "2025-08-16"
+    ],
+    "url": "https://www.thestar.sg/events/2025-stayc-tour-stay-tuned-in-singapore",
+    "sourceNote": "2025 年历史场次。官方售票页标注 CAT5 为受限视野票档，不能据网友体验认定全场无遮挡。"
+  },
+  {
+    "artist": "TMA",
+    "title": "2026 THE FACT MUSIC AWARDS",
+    "venue": "busan-asiad",
+    "dates": [
+      "2026-09-19"
+    ],
+    "url": "https://ticket.yes24.com/Perf/59564",
+    "guideUrl": "https://www.tfmusicawards.com/way.html?lang=en",
+    "sourceNote": "颁奖礼；主办方与 YES24 均确认釜山亚运会主体育场、9 月 19 日 18:00（韩国时间）。"
+  }
+]

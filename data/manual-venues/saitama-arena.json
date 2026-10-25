@@ -1,0 +1,1697 @@
+{
+  "id": "saitama-arena",
+  "name": "埼玉超级竞技场",
+  "city": "日本 · 埼玉",
+  "capacity": "原站目录未提供统一容量字段",
+  "source": "https://www.saitama-arena.co.jp/e/floor_map/stadium.html",
+  "sourceTitle": "REA 导出的公开场馆来源索引与参数化座位示意",
+  "sourceLinks": [
+    "https://www.saitama-arena.co.jp/e/floor_map/stadium.html",
+    "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+  ],
+  "accuracy": {
+    "sectionLabels": "source-layout-reference",
+    "completeSeatInventory": false,
+    "metricCalibrated": false,
+    "stage": "generic",
+    "position": "estimated",
+    "geometryBasis": "source-informed-parametric:plan",
+    "catalogStatus": "source-geometry-and-sections",
+    "seatDataStatus": "section-only",
+    "sourceLayout": "end",
+    "coverage": "94 个来源分区；0 条座位采样。区号来自公开布局参考。",
+    "reuse": "来源页面可公开访问；未建立商业图形、模型或座位数据库再分发许可，发布前需逐源复核。",
+    "sourceDate": "REA capture 2026-10-24",
+    "sourceInventory": {
+      "venueReferenceUrl": "https://www.saitama-arena.co.jp/e/floor_map/stadium.html",
+      "mapReferenceUrl": "https://www.saitama-arena.co.jp/e/floor_map/stadium.html",
+      "sectionSource": "https://www.saitama-arena.co.jp/seat_view/arena_center/",
+      "geometryEvidenceLabel": "plan",
+      "note": "Missing asset URL does not establish absence of generated seat geometry."
+    },
+    "seatAsset": null
+  },
+  "tiers": [
+    [
+      24,
+      42,
+      1,
+      22,
+      11
+    ],
+    [
+      38,
+      56,
+      17,
+      7,
+      3
+    ],
+    [
+      40,
+      58,
+      24,
+      18,
+      13
+    ],
+    [
+      52,
+      70,
+      40,
+      7,
+      6
+    ]
+  ],
+  "geometry": {
+    "shape": "rounded",
+    "coordinateSystem": "profile-inner-radius",
+    "power": 0.48,
+    "oneSided": false,
+    "floor": [
+      44,
+      80
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "200 LEVEL",
+        "steps": 29
+      },
+      {
+        "id": "middle",
+        "name": "300 LEVEL",
+        "steps": 8
+      },
+      {
+        "id": "upper",
+        "name": "400 LEVEL",
+        "steps": 25
+      },
+      {
+        "id": "top",
+        "name": "500 LEVEL",
+        "steps": 10
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "gate-207",
+      "ticketLabels": [
+        "gate-207"
+      ],
+      "sourceLabel": "207 扉／入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.28543114587115265,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-208",
+      "ticketLabels": [
+        "gate-208"
+      ],
+      "sourceLabel": "208 扉／入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.12461650859239512,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-209",
+      "ticketLabels": [
+        "gate-209"
+      ],
+      "sourceLabel": "209 扉／入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.12189379495928397,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-210",
+      "ticketLabels": [
+        "gate-210"
+      ],
+      "sourceLabel": "210 扉／入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.28733355475582645,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-211",
+      "ticketLabels": [
+        "gate-211"
+      ],
+      "sourceLabel": "211 扉／入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.5042081676086418,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-212",
+      "ticketLabels": [
+        "gate-212"
+      ],
+      "sourceLabel": "212 扉／入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.7553785002631459,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-213",
+      "ticketLabels": [
+        "gate-213"
+      ],
+      "sourceLabel": "213 扉／入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.9702459844761677,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-214",
+      "ticketLabels": [
+        "gate-214"
+      ],
+      "sourceLabel": "214 扉／入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.1878885421998606,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-215",
+      "ticketLabels": [
+        "gate-215"
+      ],
+      "sourceLabel": "215 扉／入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.4436316374945897,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-216",
+      "ticketLabels": [
+        "gate-216"
+      ],
+      "sourceLabel": "216 扉／入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.741227728252143,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-217",
+      "ticketLabels": [
+        "gate-217"
+      ],
+      "sourceLabel": "217 扉／入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.989832426906215,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-218",
+      "ticketLabels": [
+        "gate-218"
+      ],
+      "sourceLabel": "218 扉／入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.2067419463440703,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-219",
+      "ticketLabels": [
+        "gate-219"
+      ],
+      "sourceLabel": "219 扉／入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.408432194704535,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-220",
+      "ticketLabels": [
+        "gate-220"
+      ],
+      "sourceLabel": "220 扉／入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.657979371154684,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-221",
+      "ticketLabels": [
+        "gate-221"
+      ],
+      "sourceLabel": "221 扉／入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.8711364327007516,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-222",
+      "ticketLabels": [
+        "gate-222"
+      ],
+      "sourceLabel": "222 扉／入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -3.0250919260191718,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-223",
+      "ticketLabels": [
+        "gate-223"
+      ],
+      "sourceLabel": "223 扉／入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.023084797379378,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-224",
+      "ticketLabels": [
+        "gate-224"
+      ],
+      "sourceLabel": "224 扉／入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.867453787979044,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-231",
+      "ticketLabels": [
+        "gate-231"
+      ],
+      "sourceLabel": "231 扉／入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.660562458447636,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-232",
+      "ticketLabels": [
+        "gate-232"
+      ],
+      "sourceLabel": "232 扉／入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.408222755194296,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-233",
+      "ticketLabels": [
+        "gate-233"
+      ],
+      "sourceLabel": "233 扉／入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.201715398098327,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-234",
+      "ticketLabels": [
+        "gate-234"
+      ],
+      "sourceLabel": "234 扉／入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.9946495356417193,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-235",
+      "ticketLabels": [
+        "gate-235"
+      ],
+      "sourceLabel": "235 扉／入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.7425890850686987,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-236",
+      "ticketLabels": [
+        "gate-236"
+      ],
+      "sourceLabel": "236 扉／入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.4481869468422948,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-237",
+      "ticketLabels": [
+        "gate-237"
+      ],
+      "sourceLabel": "237 扉／入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.185619614172268,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-238",
+      "ticketLabels": [
+        "gate-238"
+      ],
+      "sourceLabel": "238 扉／入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.9716771544628031,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-239",
+      "ticketLabels": [
+        "gate-239"
+      ],
+      "sourceLabel": "239 扉／入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.7541916763717897,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-240",
+      "ticketLabels": [
+        "gate-240"
+      ],
+      "sourceLabel": "240 扉／入口附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.4934220328313169,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-321",
+      "ticketLabels": [
+        "gate-321"
+      ],
+      "sourceLabel": "321 扉／入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.11414453308042916,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-322",
+      "ticketLabels": [
+        "gate-322"
+      ],
+      "sourceLabel": "322 扉／入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.2363524873050721,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-323",
+      "ticketLabels": [
+        "gate-323"
+      ],
+      "sourceLabel": "323 扉／入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.3901509009908124,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-324",
+      "ticketLabels": [
+        "gate-324"
+      ],
+      "sourceLabel": "324 扉／入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.530667359068876,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-325",
+      "ticketLabels": [
+        "gate-325"
+      ],
+      "sourceLabel": "325 扉／入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.630158822877895,
+      "halfAngle": 0.05867796945204936,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-326",
+      "ticketLabels": [
+        "gate-326"
+      ],
+      "sourceLabel": "326 扉／入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.763519431022781,
+      "halfAngle": 0.05867796945204936,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-327",
+      "ticketLabels": [
+        "gate-327"
+      ],
+      "sourceLabel": "327 扉／入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.9148918370482497,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-328",
+      "ticketLabels": [
+        "gate-328"
+      ],
+      "sourceLabel": "328 扉／入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -3.033888385449223,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-329",
+      "ticketLabels": [
+        "gate-329"
+      ],
+      "sourceLabel": "329 扉／入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.0287745707408797,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-330",
+      "ticketLabels": [
+        "gate-330"
+      ],
+      "sourceLabel": "330 扉／入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.9140191724222526,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-331",
+      "ticketLabels": [
+        "gate-331"
+      ],
+      "sourceLabel": "331 扉／入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.7623849670089853,
+      "halfAngle": 0.060091686146164766,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-332",
+      "ticketLabels": [
+        "gate-332"
+      ],
+      "sourceLabel": "332 扉／入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.625812953040429,
+      "halfAngle": 0.060091686146164766,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-333",
+      "ticketLabels": [
+        "gate-333"
+      ],
+      "sourceLabel": "333 扉／入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.5312084111369941,
+      "halfAngle": 0.06055419839794326,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-334",
+      "ticketLabels": [
+        "gate-334"
+      ],
+      "sourceLabel": "334 扉／入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.39358919961724126,
+      "halfAngle": 0.06055419839794326,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-335",
+      "ticketLabels": [
+        "gate-335"
+      ],
+      "sourceLabel": "335 扉／入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.23649211364523165,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-336",
+      "ticketLabels": [
+        "gate-336"
+      ],
+      "sourceLabel": "336 扉／入口附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.11639600781550183,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-403",
+      "ticketLabels": [
+        "gate-403"
+      ],
+      "sourceLabel": "403 扉／入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -0.09101892049150427,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-404",
+      "ticketLabels": [
+        "gate-404"
+      ],
+      "sourceLabel": "404 扉／入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -0.27529078291706555,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-405",
+      "ticketLabels": [
+        "gate-405"
+      ],
+      "sourceLabel": "405 扉／入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -0.5000019241113355,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-406",
+      "ticketLabels": [
+        "gate-406"
+      ],
+      "sourceLabel": "406 扉／入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -0.7040658202545126,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-407",
+      "ticketLabels": [
+        "gate-407"
+      ],
+      "sourceLabel": "407 扉／入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -0.8585274590560107,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-408",
+      "ticketLabels": [
+        "gate-408"
+      ],
+      "sourceLabel": "408 扉／入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -1.0291159401459364,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-409",
+      "ticketLabels": [
+        "gate-409"
+      ],
+      "sourceLabel": "409 扉／入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -1.2255352941653785,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-410",
+      "ticketLabels": [
+        "gate-410"
+      ],
+      "sourceLabel": "410 扉／入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -1.455604596163271,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-411",
+      "ticketLabels": [
+        "gate-411"
+      ],
+      "sourceLabel": "411 扉／入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -1.715065242764748,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-412",
+      "ticketLabels": [
+        "gate-412"
+      ],
+      "sourceLabel": "412 扉／入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -1.9405443288298954,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-413",
+      "ticketLabels": [
+        "gate-413"
+      ],
+      "sourceLabel": "413 扉／入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -2.1359513918831805,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-414",
+      "ticketLabels": [
+        "gate-414"
+      ],
+      "sourceLabel": "414 扉／入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -2.2985113584139323,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-415",
+      "ticketLabels": [
+        "gate-415"
+      ],
+      "sourceLabel": "415 扉／入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -2.4477021028744073,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-416",
+      "ticketLabels": [
+        "gate-416"
+      ],
+      "sourceLabel": "416 扉／入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -2.6465998244316813,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-417",
+      "ticketLabels": [
+        "gate-417"
+      ],
+      "sourceLabel": "417 扉／入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -2.8734751738984246,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-418",
+      "ticketLabels": [
+        "gate-418"
+      ],
+      "sourceLabel": "418 扉／入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -3.0505213732207292,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-421",
+      "ticketLabels": [
+        "gate-421"
+      ],
+      "sourceLabel": "421 扉／入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 3.05022466724789,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-422",
+      "ticketLabels": [
+        "gate-422"
+      ],
+      "sourceLabel": "422 扉／入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 2.872742135612587,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-423",
+      "ticketLabels": [
+        "gate-423"
+      ],
+      "sourceLabel": "423 扉／入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 2.653755674364858,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-424",
+      "ticketLabels": [
+        "gate-424"
+      ],
+      "sourceLabel": "424 扉／入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 2.4507738823579177,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-425",
+      "ticketLabels": [
+        "gate-425"
+      ],
+      "sourceLabel": "425 扉／入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 2.302909588128958,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-426",
+      "ticketLabels": [
+        "gate-426"
+      ],
+      "sourceLabel": "426 扉／入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 2.1331239584949495,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-427",
+      "ticketLabels": [
+        "gate-427"
+      ],
+      "sourceLabel": "427 扉／入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 1.9401254498094167,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-428",
+      "ticketLabels": [
+        "gate-428"
+      ],
+      "sourceLabel": "428 扉／入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 1.715030336179708,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-429",
+      "ticketLabels": [
+        "gate-429"
+      ],
+      "sourceLabel": "429 扉／入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 1.4584320295515014,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-430",
+      "ticketLabels": [
+        "gate-430"
+      ],
+      "sourceLabel": "430 扉／入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 1.2284150874311688,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-431",
+      "ticketLabels": [
+        "gate-431"
+      ],
+      "sourceLabel": "431 扉／入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 1.0288366874656174,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-432",
+      "ticketLabels": [
+        "gate-432"
+      ],
+      "sourceLabel": "432 扉／入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 0.8615294253694409,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-433",
+      "ticketLabels": [
+        "gate-433"
+      ],
+      "sourceLabel": "433 扉／入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 0.7052526441458687,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-434",
+      "ticketLabels": [
+        "gate-434"
+      ],
+      "sourceLabel": "434 扉／入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 0.5048015795543199,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-435",
+      "ticketLabels": [
+        "gate-435"
+      ],
+      "sourceLabel": "435 扉／入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 0.27757716423717815,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-436",
+      "ticketLabels": [
+        "gate-436"
+      ],
+      "sourceLabel": "436 扉／入口附近",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 0.09512044423369097,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-503",
+      "ticketLabels": [
+        "gate-503"
+      ],
+      "sourceLabel": "503 扉／入口附近",
+      "levelName": "top",
+      "tier": 3,
+      "angle": -0.0898146433076282,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-504",
+      "ticketLabels": [
+        "gate-504"
+      ],
+      "sourceLabel": "504 扉／入口附近",
+      "levelName": "top",
+      "tier": 3,
+      "angle": -0.27370253329775074,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-505",
+      "ticketLabels": [
+        "gate-505"
+      ],
+      "sourceLabel": "505 扉／入口附近",
+      "levelName": "top",
+      "tier": 3,
+      "angle": -0.5017472533633298,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-506",
+      "ticketLabels": [
+        "gate-506"
+      ],
+      "sourceLabel": "506 扉／入口附近",
+      "levelName": "top",
+      "tier": 3,
+      "angle": -0.7060554956017862,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-507",
+      "ticketLabels": [
+        "gate-507"
+      ],
+      "sourceLabel": "507 扉／入口附近",
+      "levelName": "top",
+      "tier": 3,
+      "angle": -0.9204342876242495,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-508",
+      "ticketLabels": [
+        "gate-508"
+      ],
+      "sourceLabel": "508 扉／入口附近",
+      "levelName": "top",
+      "tier": 3,
+      "angle": -2.4465676388606115,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-509",
+      "ticketLabels": [
+        "gate-509"
+      ],
+      "sourceLabel": "509 扉／入口附近",
+      "levelName": "top",
+      "tier": 3,
+      "angle": -2.648188074050996,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-510",
+      "ticketLabels": [
+        "gate-510"
+      ],
+      "sourceLabel": "510 扉／入口附近",
+      "levelName": "top",
+      "tier": 3,
+      "angle": -2.8730912014629855,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-511",
+      "ticketLabels": [
+        "gate-511"
+      ],
+      "sourceLabel": "511 扉／入口附近",
+      "levelName": "top",
+      "tier": 3,
+      "angle": -3.0509926121187676,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-514",
+      "ticketLabels": [
+        "gate-514"
+      ],
+      "sourceLabel": "514 扉／入口附近",
+      "levelName": "top",
+      "tier": 3,
+      "angle": 3.0507831726085284,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-515",
+      "ticketLabels": [
+        "gate-515"
+      ],
+      "sourceLabel": "515 扉／入口附近",
+      "levelName": "top",
+      "tier": 3,
+      "angle": 2.8756742887559374,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-516",
+      "ticketLabels": [
+        "gate-516"
+      ],
+      "sourceLabel": "516 扉／入口附近",
+      "levelName": "top",
+      "tier": 3,
+      "angle": 2.649479617697472,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-517",
+      "ticketLabels": [
+        "gate-517"
+      ],
+      "sourceLabel": "517 扉／入口附近",
+      "levelName": "top",
+      "tier": 3,
+      "angle": 2.448208248357486,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-518",
+      "ticketLabels": [
+        "gate-518"
+      ],
+      "sourceLabel": "518 扉／入口附近",
+      "levelName": "top",
+      "tier": 3,
+      "angle": 2.233532750362183,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-519",
+      "ticketLabels": [
+        "gate-519"
+      ],
+      "sourceLabel": "519 扉／入口附近",
+      "levelName": "top",
+      "tier": 3,
+      "angle": 0.7054271770710681,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-520",
+      "ticketLabels": [
+        "gate-520"
+      ],
+      "sourceLabel": "520 扉／入口附近",
+      "levelName": "top",
+      "tier": 3,
+      "angle": 0.5037020221255635,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-521",
+      "ticketLabels": [
+        "gate-521"
+      ],
+      "sourceLabel": "521 扉／入口附近",
+      "levelName": "top",
+      "tier": 3,
+      "angle": 0.274557744631228,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    },
+    {
+      "id": "gate-522",
+      "ticketLabels": [
+        "gate-522"
+      ],
+      "sourceLabel": "522 扉／入口附近",
+      "levelName": "top",
+      "tier": 3,
+      "angle": 0.09290387608365817,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.saitama-arena.co.jp/seat_view/arena_center/"
+      }
+    }
+  ],
+  "importedAt": "2026-10-24T00:00:00.000Z"
+}

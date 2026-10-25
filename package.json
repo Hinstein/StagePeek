@@ -1,0 +1,20 @@
+{
+  "name": "seatpeep",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=24.0.0" },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server/main.mjs",
+    "start:local": "node scripts/start-local.mjs",
+    "local:seed": "node scripts/seed-local.mjs",
+    "venue:validate": "node scripts/add-venue.mjs",
+    "venue:add": "node scripts/add-venue.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "data:build": "node scripts/build-source-seats.mjs && node scripts/build-venues.mjs",
+    "events:refresh": "node --env-file-if-exists=.env scripts/refresh-events.mjs"
+    ,"ticketing:sync": "node --env-file-if-exists=.env scripts/ticketmaster-sync.mjs"
+    ,"artist:validate": "node --test tests/artist-tour-data.test.mjs"
+    ,"artist:import:weeknd": "node scripts/import-weeknd-tour.mjs"
+  }
+}

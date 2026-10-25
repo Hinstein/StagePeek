@@ -1,0 +1,215 @@
+{
+  "source": "https://www.ksponco.or.kr/attachFiles/download/kspo/kspodome_dae.zip",
+  "retrieved": "2026-10-24",
+  "archiveBytes": 58775583,
+  "method": "HTTP Range, last 65536 bytes only; model not fully downloaded",
+  "entries": [
+    {
+      "name": "kspodome_dae/",
+      "filenameEncoding": "cp949",
+      "compressedBytes": 0,
+      "uncompressedBytes": 0,
+      "localHeaderOffset": 0
+    },
+    {
+      "name": "kspodome_dae/sketchfab(설계용)/",
+      "filenameEncoding": "cp949",
+      "compressedBytes": 0,
+      "uncompressedBytes": 0,
+      "localHeaderOffset": 43
+    },
+    {
+      "name": "kspodome_dae/sketchfab(설계용)/source/",
+      "filenameEncoding": "cp949",
+      "compressedBytes": 0,
+      "uncompressedBytes": 0,
+      "localHeaderOffset": 147
+    },
+    {
+      "name": "kspodome_dae/sketchfab(설계용)/source/temp_export.zip",
+      "filenameEncoding": "cp949",
+      "compressedBytes": 26187020,
+      "uncompressedBytes": 27896196,
+      "localHeaderOffset": 265
+    },
+    {
+      "name": "kspodome_dae/sketchfab(설계용)/source/temp_export/",
+      "filenameEncoding": "cp949",
+      "compressedBytes": 0,
+      "uncompressedBytes": 0,
+      "localHeaderOffset": 26187433
+    },
+    {
+      "name": "kspodome_dae/sketchfab(설계용)/source/temp_export/temp_export.dae",
+      "filenameEncoding": "cp949",
+      "compressedBytes": 23358876,
+      "uncompressedBytes": 475561443,
+      "localHeaderOffset": 26187575
+    },
+    {
+      "name": "kspodome_dae/sketchfab(설계용)/source/temp_export/temp_export/",
+      "filenameEncoding": "cp949",
+      "compressedBytes": 0,
+      "uncompressedBytes": 0,
+      "localHeaderOffset": 49546623
+    },
+    {
+      "name": "kspodome_dae/sketchfab(설계용)/source/temp_export/temp_export/__sliding_wall.jpg",
+      "filenameEncoding": "cp949",
+      "compressedBytes": 1698,
+      "uncompressedBytes": 2083,
+      "localHeaderOffset": 49546789
+    },
+    {
+      "name": "kspodome_dae/sketchfab(설계용)/source/temp_export/temp_export/Basic_Tile.png",
+      "filenameEncoding": "cp949",
+      "compressedBytes": 1485486,
+      "uncompressedBytes": 1484976,
+      "localHeaderOffset": 49548689
+    },
+    {
+      "name": "kspodome_dae/sketchfab(설계용)/source/temp_export/temp_export/material_12.png",
+      "filenameEncoding": "cp949",
+      "compressedBytes": 1228102,
+      "uncompressedBytes": 1227682,
+      "localHeaderOffset": 51034369
+    },
+    {
+      "name": "kspodome_dae/sketchfab(설계용)/source/temp_export/temp_export/material_12_0.png",
+      "filenameEncoding": "cp949",
+      "compressedBytes": 1228102,
+      "uncompressedBytes": 1227682,
+      "localHeaderOffset": 52262667
+    },
+    {
+      "name": "kspodome_dae/sketchfab(설계용)/source/temp_export/temp_export/material_13.jpg",
+      "filenameEncoding": "cp949",
+      "compressedBytes": 1698,
+      "uncompressedBytes": 2083,
+      "localHeaderOffset": 53490969
+    },
+    {
+      "name": "kspodome_dae/sketchfab(설계용)/source/temp_export/temp_export/material_42.jpg",
+      "filenameEncoding": "cp949",
+      "compressedBytes": 1709,
+      "uncompressedBytes": 2095,
+      "localHeaderOffset": 53492863
+    },
+    {
+      "name": "kspodome_dae/sketchfab(설계용)/source/temp_export/temp_export/Metal_Steel_Textured_White.jpg",
+      "filenameEncoding": "cp949",
+      "compressedBytes": 9882,
+      "uncompressedBytes": 10277,
+      "localHeaderOffset": 53494768
+    },
+    {
+      "name": "kspodome_dae/sketchfab(설계용)/source/temp_export/temp_export/roof.jpg",
+      "filenameEncoding": "cp949",
+      "compressedBytes": 1698,
+      "uncompressedBytes": 2083,
+      "localHeaderOffset": 53504876
+    },
+    {
+      "name": "kspodome_dae/sketchfab(설계용)/source/temp_export/temp_export/roof_1.jpg",
+      "filenameEncoding": "cp949",
+      "compressedBytes": 1698,
+      "uncompressedBytes": 2083,
+      "localHeaderOffset": 53506756
+    },
+    {
+      "name": "kspodome_dae/sketchfab(설계용)/textures/",
+      "filenameEncoding": "cp949",
+      "compressedBytes": 0,
+      "uncompressedBytes": 0,
+      "localHeaderOffset": 53508640
+    },
+    {
+      "name": "kspodome_dae/sketchfab(설계용)/textures/1f_floor_Albedo.png",
+      "filenameEncoding": "cp949",
+      "compressedBytes": 1333652,
+      "uncompressedBytes": 1333192,
+      "localHeaderOffset": 53508762
+    },
+    {
+      "name": "kspodome_dae/sketchfab(설계용)/textures/1f_floor_AO.png",
+      "filenameEncoding": "cp949",
+      "compressedBytes": 418596,
+      "uncompressedBytes": 419297,
+      "localHeaderOffset": 54842574
+    },
+    {
+      "name": "kspodome_dae/sketchfab(설계용)/textures/1f_floor_Metalness.png",
+      "filenameEncoding": "cp949",
+      "compressedBytes": 76,
+      "uncompressedBytes": 207,
+      "localHeaderOffset": 55261322
+    },
+    {
+      "name": "kspodome_dae/sketchfab(설계용)/textures/1f_floor_Normal.png",
+      "filenameEncoding": "cp949",
+      "compressedBytes": 2262090,
+      "uncompressedBytes": 2261310,
+      "localHeaderOffset": 55261564
+    },
+    {
+      "name": "kspodome_dae/sketchfab(설계용)/textures/__sliding_wall.jpeg",
+      "filenameEncoding": "cp949",
+      "compressedBytes": 1698,
+      "uncompressedBytes": 2083,
+      "localHeaderOffset": 57523814
+    },
+    {
+      "name": "kspodome_dae/sketchfab(설계용)/textures/material_12_0.png",
+      "filenameEncoding": "cp949",
+      "compressedBytes": 1226293,
+      "uncompressedBytes": 1225873,
+      "localHeaderOffset": 57525672
+    },
+    {
+      "name": "kspodome_dae/sketchfab(설계용)/textures/material_13.jpeg",
+      "filenameEncoding": "cp949",
+      "compressedBytes": 1698,
+      "uncompressedBytes": 2083,
+      "localHeaderOffset": 58752121
+    },
+    {
+      "name": "kspodome_dae/sketchfab(설계용)/textures/material_42.jpeg",
+      "filenameEncoding": "cp949",
+      "compressedBytes": 1709,
+      "uncompressedBytes": 2095,
+      "localHeaderOffset": 58753973
+    },
+    {
+      "name": "kspodome_dae/sketchfab(설계용)/textures/Metal_Steel_Textured_White.jpeg",
+      "filenameEncoding": "cp949",
+      "compressedBytes": 9882,
+      "uncompressedBytes": 10277,
+      "localHeaderOffset": 58755836
+    },
+    {
+      "name": "kspodome_dae/sketchfab(설계용)/textures/roof.jpeg",
+      "filenameEncoding": "cp949",
+      "compressedBytes": 1698,
+      "uncompressedBytes": 2083,
+      "localHeaderOffset": 58765902
+    },
+    {
+      "name": "kspodome_dae/sketchfab(설계용)/textures/roof_1.jpeg",
+      "filenameEncoding": "cp949",
+      "compressedBytes": 1698,
+      "uncompressedBytes": 2083,
+      "localHeaderOffset": 58767740
+    }
+  ],
+  "rangeBytes": 65536,
+  "tailSha256": "bb854ed775fb06142273f243f443fd23d33288a9c7f1ed2baf68015db54f236a",
+  "filenameDecoding": "ZIP UTF-8 flag when set; otherwise CP949, with CP437 fallback",
+  "httpStatus": 206,
+  "responseHeaders": {
+    "content-type": "application/zip",
+    "content-length": "65536",
+    "last-modified": "Mon, 23 Feb 2026 01:24:10 GMT",
+    "content-range": "bytes 58710047-58775582/58775583",
+    "accept-ranges": "bytes"
+  }
+}

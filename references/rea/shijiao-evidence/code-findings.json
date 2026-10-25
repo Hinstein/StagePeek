@@ -1,0 +1,165 @@
+{
+  "note": "Offsets refer to captured minified source. Findings are manual source anchors, not runtime execution traces.",
+  "findings": [
+    {
+      "file": "/Users/lilinhai/Projects/rea/shijiao-evidence/scripts/files/origins/08a3d92a8dd745d136ae160b17d72397ead1e154bac0df91bfaf44e738c7c679/releases/photo-protection-20261023/assets/Stadium-hdz890bx.js",
+      "sha256": "a040e94298443532c3671ebe0c58c5bc8ff77db3a18bb27e92d63c5c38bac254",
+      "anchor": "estimated-seats",
+      "unicode_character_offset": 9871,
+      "utf8_byte_offset": 9871,
+      "context": ".set(0,e.yaw,0),f.updateMatrix(),t.setMatrixAt(n,f.matrix)}),t.userData.kaitakSeats=h.seats,t.name=`estimated-seats`,t.computeBoundingSphere(),e.add(t),r.unshift(t);h.seats.forEach(e=>y.add(new W(...e.position))),y.divideScalar(h.seats.length),d.push({near:_,far:v,center:y})"
+    },
+    {
+      "file": "/Users/lilinhai/Projects/rea/shijiao-evidence/scripts/files/origins/08a3d92a8dd745d136ae160b17d72397ead1e154bac0df91bfaf44e738c7c679/releases/photo-protection-20261023/assets/Stadium-hdz890bx.js",
+      "sha256": "a040e94298443532c3671ebe0c58c5bc8ff77db3a18bb27e92d63c5c38bac254",
+      "anchor": "kaitakSeats",
+      "unicode_character_offset": 9843,
+      "utf8_byte_offset": 9843,
+      "context": "et(...e.position),f.rotation.set(0,e.yaw,0),f.updateMatrix(),t.setMatrixAt(n,f.matrix)}),t.userData.kaitakSeats=h.seats,t.name=`estimated-seats`,t.computeBoundingSphere(),e.add(t),r.unshift(t);h.seats.forEach(e=>y.add(new W(...e.position))),y.divideScalar(h.seats.length)"
+    },
+    {
+      "file": "/Users/lilinhai/Projects/rea/shijiao-evidence/scripts/files/origins/08a3d92a8dd745d136ae160b17d72397ead1e154bac0df91bfaf44e738c7c679/releases/photo-protection-20261023/assets/Stadium-hdz890bx.js",
+      "sha256": "a040e94298443532c3671ebe0c58c5bc8ff77db3a18bb27e92d63c5c38bac254",
+      "anchor": "distanceTo(n.center)<65",
+      "unicode_character_offset": 10531,
+      "utf8_byte_offset": 10531,
+      "context": "o,sectionRows:a,sectionPoints:m,sections:p,updateDetail(e){let t=0;for(let n of d){let r=e.position.distanceTo(n.center)<65;n.near.visible=r,n.far.visible=!r,r&&(t+=n.near.count)}return t}}}function dt(e,t){let n;return(r,i,a)=>{if(n&&(n.visible=!1),!a)return;let o,s=1/0;for(let e o"
+    },
+    {
+      "file": "/Users/lilinhai/Projects/rea/shijiao-evidence/scripts/files/origins/08a3d92a8dd745d136ae160b17d72397ead1e154bac0df91bfaf44e738c7c679/releases/photo-protection-20261023/assets/Stadium-hdz890bx.js",
+      "sha256": "a040e94298443532c3671ebe0c58c5bc8ff77db3a18bb27e92d63c5c38bac254",
+      "anchor": "instanceId",
+      "unicode_character_offset": 102667,
+      "utf8_byte_offset": 102910,
+      "context": ")/n.height*2+1),ze.setFromCamera(We,O);let r=ze.intersectObjects(R.filter(e=>e.visible),!1)[0],i=r?.instanceId===void 0?void 0:r.object.userData.kaitakSeats?.[r.instanceId];if(i){let t=-new W(...i.position).applyMatrix4(O.matrixWorldInverse).z;(.5*e.clientHeight/(2*Math"
+    },
+    {
+      "file": "/Users/lilinhai/Projects/rea/shijiao-evidence/scripts/files/origins/08a3d92a8dd745d136ae160b17d72397ead1e154bac0df91bfaf44e738c7c679/releases/photo-protection-20261023/assets/Stadium-hdz890bx.js",
+      "sha256": "a040e94298443532c3671ebe0c58c5bc8ff77db3a18bb27e92d63c5c38bac254",
+      "anchor": "scene-software-surface",
+      "unicode_character_offset": 68231,
+      "utf8_byte_offset": 68273,
+      "context": "s=new WeakMap;floorLayers=new WeakMap;width=300;height=150;constructor(){this.domElement.className=`scene-software-surface`,this.domElement.dataset.renderProfile=`software`,this.domElement.dataset.renderer=`software`,this.svg.setPrecision(2),this.svg.setSize(this.width,this.height)"
+    },
+    {
+      "file": "/Users/lilinhai/Projects/rea/shijiao-evidence/scripts/files/origins/08a3d92a8dd745d136ae160b17d72397ead1e154bac0df91bfaf44e738c7c679/releases/photo-protection-20261023/assets/Stadium-hdz890bx.js",
+      "sha256": "a040e94298443532c3671ebe0c58c5bc8ff77db3a18bb27e92d63c5c38bac254",
+      "anchor": "pixelRatio:1.6",
+      "unicode_character_offset": 71143,
+      "utf8_byte_offset": 71185,
+      "context": "ceChildren()}},Dt=[{name:`standard`,antialias:!0,preserveDrawingBuffer:!0,powerPreference:`default`,pixelRatio:1.6},{name:`compatible`,antialias:!1,preserveDrawingBuffer:!1,powerPreference:`low-power`,pixelRatio:1}],Ot=class extends Error{attempts;constructor(e){super(`3D r"
+    },
+    {
+      "file": "/Users/lilinhai/Projects/rea/shijiao-evidence/scripts/files/origins/08a3d92a8dd745d136ae160b17d72397ead1e154bac0df91bfaf44e738c7c679/releases/photo-protection-20261023/assets/Stadium-hdz890bx.js",
+      "sha256": "a040e94298443532c3671ebe0c58c5bc8ff77db3a18bb27e92d63c5c38bac254",
+      "anchor": "pixelRatio:1}",
+      "unicode_character_offset": 71244,
+      "utf8_byte_offset": 71286,
+      "context": "ixelRatio:1.6},{name:`compatible`,antialias:!1,preserveDrawingBuffer:!1,powerPreference:`low-power`,pixelRatio:1}],Ot=class extends Error{attempts;constructor(e){super(`3D renderer initialization failed`),this.attempts=e}};function kt(){let e=[];for(let t of Dt){let n=docu"
+    },
+    {
+      "file": "/Users/lilinhai/Projects/rea/shijiao-evidence/scripts/files/origins/08a3d92a8dd745d136ae160b17d72397ead1e154bac0df91bfaf44e738c7c679/releases/photo-protection-20261023/assets/data-CI2ywFAf.js",
+      "sha256": "4f2a15832526950f3ea07d366bd5c6e9a493b8c1c268d0f1bab6072064553823",
+      "anchor": "depth:(e.row-.5)/t.length*100",
+      "unicode_character_offset": 1115581,
+      "utf8_byte_offset": 1309121,
+      "context": "eats.length)))].position]},seatView(e){let t=l.get(e.section),n=t[e.row-1];return{section:e.section,depth:(e.row-.5)/t.length*100,lateral:(n.seats.indexOf(e)+.5)/n.seats.length*100}},polygons(e){return(l.get(e)??[]).flatMap(e=>Gd(e).map(e=>Kd(e)))}};return Ud.set(i,d),d}function Gd(e){let"
+    },
+    {
+      "file": "/Users/lilinhai/Projects/rea/shijiao-evidence/scripts/files/origins/08a3d92a8dd745d136ae160b17d72397ead1e154bac0df91bfaf44e738c7c679/releases/photo-protection-20261023/assets/data-CI2ywFAf.js",
+      "sha256": "4f2a15832526950f3ea07d366bd5c6e9a493b8c1c268d0f1bab6072064553823",
+      "anchor": "lateral:(n.seats.indexOf(e)+.5)/n.seats.length*100",
+      "unicode_character_offset": 1115611,
+      "utf8_byte_offset": 1309151,
+      "context": "tView(e){let t=l.get(e.section),n=t[e.row-1];return{section:e.section,depth:(e.row-.5)/t.length*100,lateral:(n.seats.indexOf(e)+.5)/n.seats.length*100}},polygons(e){return(l.get(e)??[]).flatMap(e=>Gd(e).map(e=>Kd(e)))}};return Ud.set(i,d),d}function Gd(e){let t=[];for(let n of e.seats){let e=t.at(-1)?.at(-1),"
+    },
+    {
+      "file": "/Users/lilinhai/Projects/rea/shijiao-evidence/scripts/files/origins/08a3d92a8dd745d136ae160b17d72397ead1e154bac0df91bfaf44e738c7c679/releases/photo-protection-20261023/assets/data-CI2ywFAf.js",
+      "sha256": "4f2a15832526950f3ea07d366bd5c6e9a493b8c1c268d0f1bab6072064553823",
+      "anchor": "id:`kspo-dome`",
+      "unicode_character_offset": 1150088,
+      "utf8_byte_offset": 1345019,
+      "context": ",kind:`stadium`,geometry:{a:77,b:106,levels:4},url:qf[2].url,mapUrl:qf[1].url,defaultLayout:`end`},{id:`kspo-dome`,name:`KSPO DOME`,short:`KSPO DOME`,city:`首尔`,region:`韩国`,badge:`KSPO DOME`,english:`Olympic Gymnastics Arena`,aliases:`奥林匹克体操竞技场 Seoul`,event:`四面舞台 · 视野预览`,kin"
+    },
+    {
+      "file": "/Users/lilinhai/Projects/rea/shijiao-evidence/scripts/files/origins/08a3d92a8dd745d136ae160b17d72397ead1e154bac0df91bfaf44e738c7c679/releases/photo-protection-20261023/assets/data-CI2ywFAf.js",
+      "sha256": "4f2a15832526950f3ea07d366bd5c6e9a493b8c1c268d0f1bab6072064553823",
+      "anchor": "...Df]",
+      "unicode_character_offset": 1150499,
+      "utf8_byte_offset": 1345473,
+      "context": "0`,mapUrl:`https://www.ksponco.or.kr/olympicpark/img/sub/s3_01_03_seat.jpg`,defaultLayout:`center`},...Df],np=e=>e.region.startsWith(`中国`)?`中国`:e.region,rp=[...new Set(tp.map(np))].map(e=>{let t=tp.filter(t=>np(t)===e);return{country:e,venues:[...new Set(t.map(e=>e."
+    },
+    {
+      "file": "/Users/lilinhai/Projects/rea/shijiao-evidence/scripts/files/origins/08a3d92a8dd745d136ae160b17d72397ead1e154bac0df91bfaf44e738c7c679/releases/photo-protection-20261023/assets/OrbitControls-DcB4Swpe.js",
+      "sha256": "1bc51d9ba5cdf8b5f80e81378096b0502b2e8269531a5a2ddfd38befe30cdb31",
+      "anchor": "three.js r185",
+      "unicode_character_offset": 542452,
+      "utf8_byte_offset": 542452,
+      "context": "erPreference:l,failIfMajorPerformanceCaveat:f};if(`setAttribute`in t&&t.setAttribute(`data-engine`,`three.js r185`),t.addEventListener(`webglcontextlost`,W,!1),t.addEventListener(`webglcontextrestored`,at,!1),t.addEventListener(`webglcontextcreationerror`,ot,!1),I===null){"
+    },
+    {
+      "file": "/Users/lilinhai/Projects/rea/shijiao-evidence/scripts/files/origins/08a3d92a8dd745d136ae160b17d72397ead1e154bac0df91bfaf44e738c7c679/releases/photo-protection-20261023/assets/AppRoute-FKjE7l3d.js",
+      "sha256": "8a0c43248b569d1a8b794373043ee9330c277bb42bc0823ba92761be03081260",
+      "anchor": "Idempotency-Key",
+      "unicode_character_offset": 114611,
+      "utf8_byte_offset": 123007,
+      "context": "t f=await n(`/api/photos`,{method:`POST`,body:a,timeoutMs:9e4,headers:{...He(),\"X-Account-ID\":o.id,\"Idempotency-Key\":he.current.id}});g(`upload_success`,{venue:e.venue,section:e.section}),me.commit(),s(f.id)}catch(t){g(`upload_failure`,{venue:e.venue,section:e.section}),G(ya"
+    },
+    {
+      "file": "/Users/lilinhai/Projects/rea/shijiao-evidence/scripts/files/origins/08a3d92a8dd745d136ae160b17d72397ead1e154bac0df91bfaf44e738c7c679/releases/photo-protection-20261023/assets/AppRoute-FKjE7l3d.js",
+      "sha256": "8a0c43248b569d1a8b794373043ee9330c277bb42bc0823ba92761be03081260",
+      "anchor": "SHA-256",
+      "unicode_character_offset": 114324,
+      "utf8_byte_offset": 122720,
+      "context": "return}let c=await Promise.all(J.map(async e=>Array.from(new Uint8Array(await crypto.subtle.digest(`SHA-256`,await e.arrayBuffer())),e=>e.toString(16).padStart(2,`0`)).join(``))),l=JSON.stringify([o.id,i,c]);he.current?.signature!==l&&(he.current={signature:l,id:cryp"
+    },
+    {
+      "file": "/Users/lilinhai/Projects/rea/shijiao-evidence/scripts/files/origins/08a3d92a8dd745d136ae160b17d72397ead1e154bac0df91bfaf44e738c7c679/releases/photo-protection-20261023/assets/AppRoute-FKjE7l3d.js",
+      "sha256": "8a0c43248b569d1a8b794373043ee9330c277bb42bc0823ba92761be03081260",
+      "anchor": "timeoutMs:9e4",
+      "unicode_character_offset": 114559,
+      "utf8_byte_offset": 122955,
+      "context": "(he.current={signature:l,id:crypto.randomUUID()});let f=await n(`/api/photos`,{method:`POST`,body:a,timeoutMs:9e4,headers:{...He(),\"X-Account-ID\":o.id,\"Idempotency-Key\":he.current.id}});g(`upload_success`,{venue:e.venue,section:e.section}),me.commit(),s(f.id)}catch(t){g(`u"
+    },
+    {
+      "file": "/Users/lilinhai/Projects/rea/shijiao-evidence/scripts/files/origins/08a3d92a8dd745d136ae160b17d72397ead1e154bac0df91bfaf44e738c7c679/releases/photo-protection-20261023/assets/AppRoute-FKjE7l3d.js",
+      "sha256": "8a0c43248b569d1a8b794373043ee9330c277bb42bc0823ba92761be03081260",
+      "anchor": "s.width=1080,s.height=1440",
+      "unicode_character_offset": 169081,
+      "utf8_byte_offset": 183257,
+      "context": "some(e=>e.status!==`approved`)))throw Error(`海报仅使用审核通过的实拍。`);let s=document.createElement(`canvas`);s.width=1080,s.height=1440;let c=s.getContext(`2d`);if(!c)throw Error(`当前浏览器无法生成海报。`);let l=Xi(e),u=new Map;try{for(let e of l){let t=await at(tt(e.cover,e.coverImage),{signal:AbortSigna"
+    },
+    {
+      "file": "/Users/lilinhai/Projects/rea/shijiao-evidence/scripts/files/origins/08a3d92a8dd745d136ae160b17d72397ead1e154bac0df91bfaf44e738c7c679/releases/photo-protection-20261023/assets/AppRoute-FKjE7l3d.js",
+      "sha256": "8a0c43248b569d1a8b794373043ee9330c277bb42bc0823ba92761be03081260",
+      "anchor": "/api/account/claim-photos",
+      "unicode_character_offset": 65888,
+      "utf8_byte_offset": 68996,
+      "context": "(),a={claimed:0,error:``};if(r.user&&i){let e=r.user.id+`:`+i,t=_.current.get(e);t||(t=(async()=>w(`/api/account/claim-photos`,{method:`POST`,credentials:`same-origin`,headers:{\"X-Contributor-Key\":i,\"X-Account-ID\":r.user.id},signal:AbortSignal.timeout(1e4)}))(),_.current.set(e,t));try"
+    },
+    {
+      "file": "/Users/lilinhai/Projects/rea/shijiao-evidence/scripts/files/origins/08a3d92a8dd745d136ae160b17d72397ead1e154bac0df91bfaf44e738c7c679/releases/photo-protection-20261023/assets/AppRoute-FKjE7l3d.js",
+      "sha256": "8a0c43248b569d1a8b794373043ee9330c277bb42bc0823ba92761be03081260",
+      "anchor": "revision:o,settings:r",
+      "unicode_character_offset": 167389,
+      "utf8_byte_offset": 181494,
+      "context": "{if(!e.user||v)return;let c=i;r=Ji(r,n),a(r),y(!0),x(``);try{let n=await vi(`/api/account/journey`,{revision:o,settings:r},e.user.id);t.current&&(a(n.settings),s(n.revision),x(`足迹设置已同步。`))}catch(e){t.current&&(a(c),x(e.message))}finally{t.current&&y(!1)}}return{photos:n,settings:i"
+    },
+    {
+      "file": "/Users/lilinhai/Projects/rea/shijiao-evidence/scripts/files/origins/08a3d92a8dd745d136ae160b17d72397ead1e154bac0df91bfaf44e738c7c679/releases/photo-protection-20261023/assets/request-B-vpbw8E.js",
+      "sha256": "b46d0761720cd0be80417fc32bded299e3b5d5fd1d6b2467c36eb88214d03c15",
+      "anchor": "timeoutMs:n=15e3",
+      "unicode_character_offset": 154,
+      "utf8_byte_offset": 154,
+      "context": "(e,t=0,n=!1){super(e),this.status=t,this.retryable=n,this.name=`RequestError`}};async function t(t,{timeoutMs:n=15e3,signal:r,...i}={}){let a=new AbortController,o=!1,s=()=>a.abort(r?.reason);r?.aborted?s():r?.addEventListener(`abort`,s,{once:!0});let c=setTimeout(()=>{o=!0,a"
+    },
+    {
+      "file": "/Users/lilinhai/Projects/rea/shijiao-evidence/scripts/files/origins/08a3d92a8dd745d136ae160b17d72397ead1e154bac0df91bfaf44e738c7c679/releases/photo-protection-20261023/assets/request-B-vpbw8E.js",
+      "sha256": "b46d0761720cd0be80417fc32bded299e3b5d5fd1d6b2467c36eb88214d03c15",
+      "anchor": "credentials:`same-origin`",
+      "unicode_character_offset": 368,
+      "utf8_byte_offset": 368,
+      "context": "ventListener(`abort`,s,{once:!0});let c=setTimeout(()=>{o=!0,a.abort()},n);try{let n=await fetch(t,{credentials:`same-origin`,...i,signal:a.signal});if(!n.headers.get(`content-type`)?.includes(`application/json`))throw new e(`服务暂时无法响应，请稍后重试。`,n.status,!0);let r;try{r=await n.json()}ca"
+    }
+  ]
+}

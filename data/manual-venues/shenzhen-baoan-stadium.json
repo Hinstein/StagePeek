@@ -1,0 +1,1307 @@
+{
+  "id": "shenzhen-baoan-stadium",
+  "name": "深圳市宝安体育中心体育场",
+  "city": "中国内地 · 深圳",
+  "capacity": "原站目录未提供统一容量字段",
+  "source": "https://chat.shenchuang.com/hd/20190725/1497455.shtml",
+  "sourceTitle": "REA 导出的公开场馆来源索引与参数化座位示意",
+  "sourceLinks": [
+    "https://chat.shenchuang.com/hd/20190725/1497455.shtml",
+    "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+  ],
+  "accuracy": {
+    "sectionLabels": "source-layout-reference",
+    "completeSeatInventory": false,
+    "metricCalibrated": false,
+    "stage": "generic",
+    "position": "estimated",
+    "geometryBasis": "source-informed-parametric:reference",
+    "catalogStatus": "source-geometry-and-sections",
+    "seatDataStatus": "section-only",
+    "sourceLayout": "end",
+    "coverage": "72 个来源分区；0 条座位采样。区号来自公开布局参考。",
+    "reuse": "来源页面可公开访问；未建立商业图形、模型或座位数据库再分发许可，发布前需逐源复核。",
+    "sourceDate": "REA capture 2026-10-24",
+    "sourceInventory": {
+      "venueReferenceUrl": "https://chat.shenchuang.com/hd/20190725/1497455.shtml",
+      "mapReferenceUrl": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg",
+      "sectionSource": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg",
+      "geometryEvidenceLabel": "reference",
+      "note": "Missing asset URL does not establish absence of generated seat geometry."
+    },
+    "seatAsset": null
+  },
+  "tiers": [
+    [
+      44,
+      70,
+      1.5,
+      15,
+      9
+    ],
+    [
+      61,
+      87,
+      12,
+      13,
+      9
+    ]
+  ],
+  "geometry": {
+    "shape": "oval",
+    "coordinateSystem": "profile-inner-radius",
+    "power": 1,
+    "oneSided": false,
+    "stage": {
+      "width": 32,
+      "depth": 10,
+      "z": -54.6,
+      "height": 2,
+      "facing": 1
+    },
+    "floor": [
+      88,
+      140
+    ],
+    "openBowl": true,
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "100 看台",
+        "steps": 22
+      },
+      {
+        "id": "middle",
+        "name": "200 看台",
+        "steps": 20
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "101",
+      "ticketLabels": [
+        "101"
+      ],
+      "sourceLabel": "101 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.649144156916922,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "102",
+      "ticketLabels": [
+        "102"
+      ],
+      "sourceLabel": "102 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.85298116025734,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "103",
+      "ticketLabels": [
+        "103"
+      ],
+      "sourceLabel": "103 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.0429951559219623,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "104",
+      "ticketLabels": [
+        "104"
+      ],
+      "sourceLabel": "104 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.2164808835701986,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "105",
+      "ticketLabels": [
+        "105"
+      ],
+      "sourceLabel": "105 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.368184902153546,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "106",
+      "ticketLabels": [
+        "106"
+      ],
+      "sourceLabel": "106 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.5284759406567052,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "107",
+      "ticketLabels": [
+        "107"
+      ],
+      "sourceLabel": "107 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.6604751919850362,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "108",
+      "ticketLabels": [
+        "108"
+      ],
+      "sourceLabel": "108 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.805197893560406,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "109",
+      "ticketLabels": [
+        "109"
+      ],
+      "sourceLabel": "109 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.962504419042655,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "110",
+      "ticketLabels": [
+        "110"
+      ],
+      "sourceLabel": "110 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.1387826734940822,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "111",
+      "ticketLabels": [
+        "111"
+      ],
+      "sourceLabel": "111 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.968072019356517,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "112",
+      "ticketLabels": [
+        "112"
+      ],
+      "sourceLabel": "112 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.799735013001664,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "113",
+      "ticketLabels": [
+        "113"
+      ],
+      "sourceLabel": "113 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.64703615674468,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "114",
+      "ticketLabels": [
+        "114"
+      ],
+      "sourceLabel": "114 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.4955241243790525,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "115",
+      "ticketLabels": [
+        "115"
+      ],
+      "sourceLabel": "115 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.358620497852617,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "116",
+      "ticketLabels": [
+        "116"
+      ],
+      "sourceLabel": "116 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.2128331454335304,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "117",
+      "ticketLabels": [
+        "117"
+      ],
+      "sourceLabel": "117 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.0291023350760877,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "118",
+      "ticketLabels": [
+        "118"
+      ],
+      "sourceLabel": "118 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.1053693751655687,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "119",
+      "ticketLabels": [
+        "119"
+      ],
+      "sourceLabel": "119 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.9190031176376142,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "120",
+      "ticketLabels": [
+        "120"
+      ],
+      "sourceLabel": "120 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.7375761418928036,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "121",
+      "ticketLabels": [
+        "121"
+      ],
+      "sourceLabel": "121 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.5739689778108552,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "122",
+      "ticketLabels": [
+        "122"
+      ],
+      "sourceLabel": "122 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.3923325625558053,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "123",
+      "ticketLabels": [
+        "123"
+      ],
+      "sourceLabel": "123 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.24207716725161352,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "124",
+      "ticketLabels": [
+        "124"
+      ],
+      "sourceLabel": "124 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.11220721761071545,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "125",
+      "ticketLabels": [
+        "125"
+      ],
+      "sourceLabel": "125 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "126",
+      "ticketLabels": [
+        "126"
+      ],
+      "sourceLabel": "126 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.14110987002374156,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "127",
+      "ticketLabels": [
+        "127"
+      ],
+      "sourceLabel": "127 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.28438394831995606,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "128",
+      "ticketLabels": [
+        "128"
+      ],
+      "sourceLabel": "128 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.4482005519121438,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "129",
+      "ticketLabels": [
+        "129"
+      ],
+      "sourceLabel": "129 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.6268350008537634,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "130",
+      "ticketLabels": [
+        "130"
+      ],
+      "sourceLabel": "130 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.7828848892745764,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "131",
+      "ticketLabels": [
+        "131"
+      ],
+      "sourceLabel": "131 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.9539969691401005,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "132",
+      "ticketLabels": [
+        "132"
+      ],
+      "sourceLabel": "132 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.1297167182308896,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "133",
+      "ticketLabels": [
+        "133"
+      ],
+      "sourceLabel": "133 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.2947026924219136,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "134",
+      "ticketLabels": [
+        "134"
+      ],
+      "sourceLabel": "134 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.4570008595648662,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "201",
+      "ticketLabels": [
+        "201"
+      ],
+      "sourceLabel": "201 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.6363334402072833,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "202",
+      "ticketLabels": [
+        "202"
+      ],
+      "sourceLabel": "202 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.7985268875951166,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "203",
+      "ticketLabels": [
+        "203"
+      ],
+      "sourceLabel": "203 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.9623783977723444,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "204",
+      "ticketLabels": [
+        "204"
+      ],
+      "sourceLabel": "204 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.1176952479073194,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "205",
+      "ticketLabels": [
+        "205"
+      ],
+      "sourceLabel": "205 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.268770947959949,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "206",
+      "ticketLabels": [
+        "206"
+      ],
+      "sourceLabel": "206 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.424785929795722,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "207",
+      "ticketLabels": [
+        "207"
+      ],
+      "sourceLabel": "207 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.605706760057454,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "208",
+      "ticketLabels": [
+        "208"
+      ],
+      "sourceLabel": "208 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.768807778656324,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "209",
+      "ticketLabels": [
+        "209"
+      ],
+      "sourceLabel": "209 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.9598864251646635,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "210",
+      "ticketLabels": [
+        "210"
+      ],
+      "sourceLabel": "210 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "211",
+      "ticketLabels": [
+        "211"
+      ],
+      "sourceLabel": "211 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.968403631914396,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "212",
+      "ticketLabels": [
+        "212"
+      ],
+      "sourceLabel": "212 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.7983911094776284,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "213",
+      "ticketLabels": [
+        "213"
+      ],
+      "sourceLabel": "213 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.6167896008076186,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "214",
+      "ticketLabels": [
+        "214"
+      ],
+      "sourceLabel": "214 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.439813214655393,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "215",
+      "ticketLabels": [
+        "215"
+      ],
+      "sourceLabel": "215 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.2612485788838534,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "216",
+      "ticketLabels": [
+        "216"
+      ],
+      "sourceLabel": "216 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.1186551789959163,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "217",
+      "ticketLabels": [
+        "217"
+      ],
+      "sourceLabel": "217 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.9573693028191208,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "218",
+      "ticketLabels": [
+        "218"
+      ],
+      "sourceLabel": "218 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.7971306241935212,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "219",
+      "ticketLabels": [
+        "219"
+      ],
+      "sourceLabel": "219 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.632633342193056,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "220",
+      "ticketLabels": [
+        "220"
+      ],
+      "sourceLabel": "220 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.4751173772005675,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "221",
+      "ticketLabels": [
+        "221"
+      ],
+      "sourceLabel": "221 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.3198703402356717,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "222",
+      "ticketLabels": [
+        "222"
+      ],
+      "sourceLabel": "222 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.1604345130659899,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "223",
+      "ticketLabels": [
+        "223"
+      ],
+      "sourceLabel": "223 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.0060601407270913,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "224",
+      "ticketLabels": [
+        "224"
+      ],
+      "sourceLabel": "224 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.8450884238156544,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "225",
+      "ticketLabels": [
+        "225"
+      ],
+      "sourceLabel": "225 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.6841865200742971,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "226",
+      "ticketLabels": [
+        "226"
+      ],
+      "sourceLabel": "226 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.5168094448080409,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "227",
+      "ticketLabels": [
+        "227"
+      ],
+      "sourceLabel": "227 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.330862066300565,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "228",
+      "ticketLabels": [
+        "228"
+      ],
+      "sourceLabel": "228 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.16055283789095837,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "229",
+      "ticketLabels": [
+        "229"
+      ],
+      "sourceLabel": "229 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.005044001538263612,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "230",
+      "ticketLabels": [
+        "230"
+      ],
+      "sourceLabel": "230 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.17554521616558966,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "231",
+      "ticketLabels": [
+        "231"
+      ],
+      "sourceLabel": "231 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.3503224874603018,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "232",
+      "ticketLabels": [
+        "232"
+      ],
+      "sourceLabel": "232 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.5263563958164499,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "233",
+      "ticketLabels": [
+        "233"
+      ],
+      "sourceLabel": "233 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.7019365185670795,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "234",
+      "ticketLabels": [
+        "234"
+      ],
+      "sourceLabel": "234 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.8535183641027869,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "235",
+      "ticketLabels": [
+        "235"
+      ],
+      "sourceLabel": "235 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.0088701208228024,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "236",
+      "ticketLabels": [
+        "236"
+      ],
+      "sourceLabel": "236 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.1624241884132636,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "237",
+      "ticketLabels": [
+        "237"
+      ],
+      "sourceLabel": "237 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.3206906449841092,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    },
+    {
+      "id": "238",
+      "ticketLabels": [
+        "238"
+      ],
+      "sourceLabel": "238 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.4818019882357056,
+      "halfAngle": 0.06544984694978735,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg"
+      }
+    }
+  ],
+  "importedAt": "2026-10-24T00:00:00.000Z"
+}

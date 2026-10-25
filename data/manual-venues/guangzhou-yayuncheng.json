@@ -1,0 +1,242 @@
+{
+  "id": "guangzhou-yayuncheng",
+  "name": "广州亚运城综合体育馆 · 体操馆",
+  "city": "中国内地 · 广州",
+  "capacity": "原站目录未提供统一容量字段",
+  "source": "https://wglj.gz.gov.cn/zwgk/xyxxsgs/xzxk/content/post_11012372.html",
+  "sourceTitle": "REA 导出的公开场馆来源索引与参数化座位示意",
+  "sourceLinks": [
+    "https://wglj.gz.gov.cn/zwgk/xyxxsgs/xzxk/content/post_11012372.html"
+  ],
+  "accuracy": {
+    "sectionLabels": "synthetic-tier-labels",
+    "completeSeatInventory": false,
+    "metricCalibrated": false,
+    "stage": "generic",
+    "position": "estimated",
+    "geometryBasis": "source-informed-parametric:reference",
+    "catalogStatus": "source-geometry-only",
+    "seatDataStatus": "section-only",
+    "sourceLayout": "end",
+    "coverage": "12 个示意分区；0 条座位采样。未找到逐区公开布局，标签仅用于浏览。",
+    "reuse": "来源页面可公开访问；未建立商业图形、模型或座位数据库再分发许可，发布前需逐源复核。",
+    "sourceDate": "REA capture 2026-10-24",
+    "sourceInventory": {
+      "venueReferenceUrl": "https://wglj.gz.gov.cn/zwgk/xyxxsgs/xzxk/content/post_11012372.html",
+      "mapReferenceUrl": null,
+      "sectionSource": null,
+      "geometryEvidenceLabel": "reference",
+      "note": "Missing asset URL does not establish absence of generated seat geometry."
+    },
+    "seatAsset": null
+  },
+  "tiers": [
+    [
+      28,
+      35,
+      1.2,
+      12,
+      7.5
+    ]
+  ],
+  "geometry": {
+    "shape": "rounded",
+    "coordinateSystem": "profile-inner-radius",
+    "power": 0.48,
+    "oneSided": false,
+    "floor": [
+      56,
+      70
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "看台",
+        "steps": 20
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "L1-01",
+      "ticketLabels": [
+        "L1-01"
+      ],
+      "levelName": "Level 1 · 示意分区",
+      "tier": 0,
+      "angle": -1.5707963267948966,
+      "halfAngle": 0.18849555921538758,
+      "samples": [],
+      "positionBasis": {
+        "kind": "synthetic-geometry",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "L1-02",
+      "ticketLabels": [
+        "L1-02"
+      ],
+      "levelName": "Level 1 · 示意分区",
+      "tier": 0,
+      "angle": -1.0471975511965979,
+      "halfAngle": 0.18849555921538758,
+      "samples": [],
+      "positionBasis": {
+        "kind": "synthetic-geometry",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "L1-03",
+      "ticketLabels": [
+        "L1-03"
+      ],
+      "levelName": "Level 1 · 示意分区",
+      "tier": 0,
+      "angle": -0.5235987755982989,
+      "halfAngle": 0.18849555921538758,
+      "samples": [],
+      "positionBasis": {
+        "kind": "synthetic-geometry",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "L1-04",
+      "ticketLabels": [
+        "L1-04"
+      ],
+      "levelName": "Level 1 · 示意分区",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.18849555921538758,
+      "samples": [],
+      "positionBasis": {
+        "kind": "synthetic-geometry",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "L1-05",
+      "ticketLabels": [
+        "L1-05"
+      ],
+      "levelName": "Level 1 · 示意分区",
+      "tier": 0,
+      "angle": 0.5235987755982987,
+      "halfAngle": 0.18849555921538758,
+      "samples": [],
+      "positionBasis": {
+        "kind": "synthetic-geometry",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "L1-06",
+      "ticketLabels": [
+        "L1-06"
+      ],
+      "levelName": "Level 1 · 示意分区",
+      "tier": 0,
+      "angle": 1.0471975511965979,
+      "halfAngle": 0.18849555921538758,
+      "samples": [],
+      "positionBasis": {
+        "kind": "synthetic-geometry",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "L1-07",
+      "ticketLabels": [
+        "L1-07"
+      ],
+      "levelName": "Level 1 · 示意分区",
+      "tier": 0,
+      "angle": 1.5707963267948966,
+      "halfAngle": 0.18849555921538758,
+      "samples": [],
+      "positionBasis": {
+        "kind": "synthetic-geometry",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "L1-08",
+      "ticketLabels": [
+        "L1-08"
+      ],
+      "levelName": "Level 1 · 示意分区",
+      "tier": 0,
+      "angle": 2.0943951023931953,
+      "halfAngle": 0.18849555921538758,
+      "samples": [],
+      "positionBasis": {
+        "kind": "synthetic-geometry",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "L1-09",
+      "ticketLabels": [
+        "L1-09"
+      ],
+      "levelName": "Level 1 · 示意分区",
+      "tier": 0,
+      "angle": 2.617993877991494,
+      "halfAngle": 0.18849555921538758,
+      "samples": [],
+      "positionBasis": {
+        "kind": "synthetic-geometry",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "L1-10",
+      "ticketLabels": [
+        "L1-10"
+      ],
+      "levelName": "Level 1 · 示意分区",
+      "tier": 0,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.18849555921538758,
+      "samples": [],
+      "positionBasis": {
+        "kind": "synthetic-geometry",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "L1-11",
+      "ticketLabels": [
+        "L1-11"
+      ],
+      "levelName": "Level 1 · 示意分区",
+      "tier": 0,
+      "angle": 3.6651914291880923,
+      "halfAngle": 0.18849555921538758,
+      "samples": [],
+      "positionBasis": {
+        "kind": "synthetic-geometry",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    },
+    {
+      "id": "L1-12",
+      "ticketLabels": [
+        "L1-12"
+      ],
+      "levelName": "Level 1 · 示意分区",
+      "tier": 0,
+      "angle": 4.1887902047863905,
+      "halfAngle": 0.18849555921538758,
+      "samples": [],
+      "positionBasis": {
+        "kind": "synthetic-geometry",
+        "coordinateSystem": "estimated-metre-frame"
+      }
+    }
+  ],
+  "importedAt": "2026-10-24T00:00:00.000Z"
+}

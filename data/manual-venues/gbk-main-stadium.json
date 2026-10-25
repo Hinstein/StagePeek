@@ -1,0 +1,687 @@
+{
+  "id": "gbk-main-stadium",
+  "name": "印尼格罗拉蓬卡诺体育场",
+  "city": "印度尼西亚 · 雅加达",
+  "capacity": "原站目录未提供统一容量字段",
+  "source": "https://gbk.id/venue/stadion-utama-gelora-bung-karno-1",
+  "sourceTitle": "REA 导出的公开场馆来源索引与参数化座位示意",
+  "sourceLinks": [
+    "https://gbk.id/venue/stadion-utama-gelora-bung-karno-1",
+    "https://www.mirifica.net/wp-content/uploads/GUIDEBOOK-GBKINDUPDATE250824.pdf"
+  ],
+  "accuracy": {
+    "sectionLabels": "source-layout-reference",
+    "completeSeatInventory": false,
+    "metricCalibrated": false,
+    "stage": "generic",
+    "position": "estimated",
+    "geometryBasis": "source-informed-parametric:plan",
+    "catalogStatus": "source-geometry-and-sections",
+    "seatDataStatus": "section-only",
+    "sourceLayout": "end",
+    "coverage": "36 个来源分区；0 条座位采样。区号来自公开布局参考。",
+    "reuse": "来源页面可公开访问；未建立商业图形、模型或座位数据库再分发许可，发布前需逐源复核。",
+    "sourceDate": "REA capture 2026-10-24",
+    "sourceInventory": {
+      "venueReferenceUrl": "https://gbk.id/venue/stadion-utama-gelora-bung-karno-1",
+      "mapReferenceUrl": "https://www.mirifica.net/wp-content/uploads/GUIDEBOOK-GBKINDUPDATE250824.pdf",
+      "sectionSource": "https://www.mirifica.net/wp-content/uploads/GUIDEBOOK-GBKINDUPDATE250824.pdf",
+      "geometryEvidenceLabel": "plan",
+      "note": "Missing asset URL does not establish absence of generated seat geometry."
+    },
+    "seatAsset": null
+  },
+  "tiers": [
+    [
+      76,
+      108,
+      1,
+      24,
+      12
+    ],
+    [
+      96,
+      128,
+      20,
+      26,
+      18
+    ]
+  ],
+  "geometry": {
+    "shape": "oval",
+    "coordinateSystem": "profile-inner-radius",
+    "power": 1,
+    "oneSided": false,
+    "floor": [
+      140,
+      210
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "Tribun Lantai 2",
+        "steps": 31
+      },
+      {
+        "id": "upper",
+        "name": "Tribun Lantai 4",
+        "steps": 34
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "1",
+      "ticketLabels": [
+        "1"
+      ],
+      "sourceLabel": "2层 1 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.0245819323134224,
+      "halfAngle": 0.2181661564992912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.mirifica.net/wp-content/uploads/GUIDEBOOK-GBKINDUPDATE250824.pdf"
+      }
+    },
+    {
+      "id": "2",
+      "ticketLabels": [
+        "2"
+      ],
+      "sourceLabel": "2层 2 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.548180707911721,
+      "halfAngle": 0.2181661564992912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.mirifica.net/wp-content/uploads/GUIDEBOOK-GBKINDUPDATE250824.pdf"
+      }
+    },
+    {
+      "id": "3",
+      "ticketLabels": [
+        "3"
+      ],
+      "sourceLabel": "2层 3 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -3.0019663134302466,
+      "halfAngle": 0.2181661564992912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.mirifica.net/wp-content/uploads/GUIDEBOOK-GBKINDUPDATE250824.pdf"
+      }
+    },
+    {
+      "id": "4",
+      "ticketLabels": [
+        "4"
+      ],
+      "sourceLabel": "2层 4 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.0019663134302466,
+      "halfAngle": 0.2181661564992912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.mirifica.net/wp-content/uploads/GUIDEBOOK-GBKINDUPDATE250824.pdf"
+      }
+    },
+    {
+      "id": "5",
+      "ticketLabels": [
+        "5"
+      ],
+      "sourceLabel": "2层 5 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.548180707911721,
+      "halfAngle": 0.2181661564992912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.mirifica.net/wp-content/uploads/GUIDEBOOK-GBKINDUPDATE250824.pdf"
+      }
+    },
+    {
+      "id": "6",
+      "ticketLabels": [
+        "6"
+      ],
+      "sourceLabel": "2层 6 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.0245819323134224,
+      "halfAngle": 0.2181661564992912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.mirifica.net/wp-content/uploads/GUIDEBOOK-GBKINDUPDATE250824.pdf"
+      }
+    },
+    {
+      "id": "7",
+      "ticketLabels": [
+        "7"
+      ],
+      "sourceLabel": "2层 7 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.5009831567151233,
+      "halfAngle": 0.2181661564992912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.mirifica.net/wp-content/uploads/GUIDEBOOK-GBKINDUPDATE250824.pdf"
+      }
+    },
+    {
+      "id": "8",
+      "ticketLabels": [
+        "8"
+      ],
+      "sourceLabel": "2层 8 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.9773843811168246,
+      "halfAngle": 0.2181661564992912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.mirifica.net/wp-content/uploads/GUIDEBOOK-GBKINDUPDATE250824.pdf"
+      }
+    },
+    {
+      "id": "9",
+      "ticketLabels": [
+        "9"
+      ],
+      "sourceLabel": "2层 9 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.4537856055185257,
+      "halfAngle": 0.2181661564992912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.mirifica.net/wp-content/uploads/GUIDEBOOK-GBKINDUPDATE250824.pdf"
+      }
+    },
+    {
+      "id": "10",
+      "ticketLabels": [
+        "10"
+      ],
+      "sourceLabel": "2层 10 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.2181661564992912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.mirifica.net/wp-content/uploads/GUIDEBOOK-GBKINDUPDATE250824.pdf"
+      }
+    },
+    {
+      "id": "11",
+      "ticketLabels": [
+        "11"
+      ],
+      "sourceLabel": "2层 11 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.9773843811168246,
+      "halfAngle": 0.2181661564992912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.mirifica.net/wp-content/uploads/GUIDEBOOK-GBKINDUPDATE250824.pdf"
+      }
+    },
+    {
+      "id": "12",
+      "ticketLabels": [
+        "12"
+      ],
+      "sourceLabel": "2层 12 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.5009831567151233,
+      "halfAngle": 0.2181661564992912,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.mirifica.net/wp-content/uploads/GUIDEBOOK-GBKINDUPDATE250824.pdf"
+      }
+    },
+    {
+      "id": "1A",
+      "ticketLabels": [
+        "1A"
+      ],
+      "sourceLabel": "4层 1A 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": -2.1380283336930535,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.mirifica.net/wp-content/uploads/GUIDEBOOK-GBKINDUPDATE250824.pdf"
+      }
+    },
+    {
+      "id": "1B",
+      "ticketLabels": [
+        "1B"
+      ],
+      "sourceLabel": "4层 1B 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": -1.911135530933791,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.mirifica.net/wp-content/uploads/GUIDEBOOK-GBKINDUPDATE250824.pdf"
+      }
+    },
+    {
+      "id": "2A",
+      "ticketLabels": [
+        "2A"
+      ],
+      "sourceLabel": "4层 2A 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": -2.6616271092913526,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.mirifica.net/wp-content/uploads/GUIDEBOOK-GBKINDUPDATE250824.pdf"
+      }
+    },
+    {
+      "id": "2B",
+      "ticketLabels": [
+        "2B"
+      ],
+      "sourceLabel": "4层 2B 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": -2.4347343065320897,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.mirifica.net/wp-content/uploads/GUIDEBOOK-GBKINDUPDATE250824.pdf"
+      }
+    },
+    {
+      "id": "3A",
+      "ticketLabels": [
+        "3A"
+      ],
+      "sourceLabel": "4层 3A 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": -3.115412714809878,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.mirifica.net/wp-content/uploads/GUIDEBOOK-GBKINDUPDATE250824.pdf"
+      }
+    },
+    {
+      "id": "3B",
+      "ticketLabels": [
+        "3B"
+      ],
+      "sourceLabel": "4层 3B 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": -2.8885199120506155,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.mirifica.net/wp-content/uploads/GUIDEBOOK-GBKINDUPDATE250824.pdf"
+      }
+    },
+    {
+      "id": "4A",
+      "ticketLabels": [
+        "4A"
+      ],
+      "sourceLabel": "4层 4A 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": 2.8885199120506155,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.mirifica.net/wp-content/uploads/GUIDEBOOK-GBKINDUPDATE250824.pdf"
+      }
+    },
+    {
+      "id": "4B",
+      "ticketLabels": [
+        "4B"
+      ],
+      "sourceLabel": "4层 4B 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": 3.115412714809878,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.mirifica.net/wp-content/uploads/GUIDEBOOK-GBKINDUPDATE250824.pdf"
+      }
+    },
+    {
+      "id": "5A",
+      "ticketLabels": [
+        "5A"
+      ],
+      "sourceLabel": "4层 5A 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": 2.4347343065320897,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.mirifica.net/wp-content/uploads/GUIDEBOOK-GBKINDUPDATE250824.pdf"
+      }
+    },
+    {
+      "id": "5B",
+      "ticketLabels": [
+        "5B"
+      ],
+      "sourceLabel": "4层 5B 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": 2.6616271092913526,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.mirifica.net/wp-content/uploads/GUIDEBOOK-GBKINDUPDATE250824.pdf"
+      }
+    },
+    {
+      "id": "6A",
+      "ticketLabels": [
+        "6A"
+      ],
+      "sourceLabel": "4层 6A 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": 1.911135530933791,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.mirifica.net/wp-content/uploads/GUIDEBOOK-GBKINDUPDATE250824.pdf"
+      }
+    },
+    {
+      "id": "6B",
+      "ticketLabels": [
+        "6B"
+      ],
+      "sourceLabel": "4层 6B 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": 2.1380283336930535,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.mirifica.net/wp-content/uploads/GUIDEBOOK-GBKINDUPDATE250824.pdf"
+      }
+    },
+    {
+      "id": "7A",
+      "ticketLabels": [
+        "7A"
+      ],
+      "sourceLabel": "4层 7A 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": 1.387536755335492,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.mirifica.net/wp-content/uploads/GUIDEBOOK-GBKINDUPDATE250824.pdf"
+      }
+    },
+    {
+      "id": "7B",
+      "ticketLabels": [
+        "7B"
+      ],
+      "sourceLabel": "4层 7B 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": 1.6144295580947547,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.mirifica.net/wp-content/uploads/GUIDEBOOK-GBKINDUPDATE250824.pdf"
+      }
+    },
+    {
+      "id": "8A",
+      "ticketLabels": [
+        "8A"
+      ],
+      "sourceLabel": "4层 8A 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": 0.8639379797371932,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.mirifica.net/wp-content/uploads/GUIDEBOOK-GBKINDUPDATE250824.pdf"
+      }
+    },
+    {
+      "id": "8B",
+      "ticketLabels": [
+        "8B"
+      ],
+      "sourceLabel": "4层 8B 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": 1.0908307824964558,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.mirifica.net/wp-content/uploads/GUIDEBOOK-GBKINDUPDATE250824.pdf"
+      }
+    },
+    {
+      "id": "9A",
+      "ticketLabels": [
+        "9A"
+      ],
+      "sourceLabel": "4层 9A 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": 0.34033920413889424,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.mirifica.net/wp-content/uploads/GUIDEBOOK-GBKINDUPDATE250824.pdf"
+      }
+    },
+    {
+      "id": "9B",
+      "ticketLabels": [
+        "9B"
+      ],
+      "sourceLabel": "4层 9B 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": 0.5672320068981571,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.mirifica.net/wp-content/uploads/GUIDEBOOK-GBKINDUPDATE250824.pdf"
+      }
+    },
+    {
+      "id": "10A",
+      "ticketLabels": [
+        "10A"
+      ],
+      "sourceLabel": "4层 10A 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": -0.11344640137963143,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.mirifica.net/wp-content/uploads/GUIDEBOOK-GBKINDUPDATE250824.pdf"
+      }
+    },
+    {
+      "id": "10B",
+      "ticketLabels": [
+        "10B"
+      ],
+      "sourceLabel": "4层 10B 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": 0.11344640137963143,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.mirifica.net/wp-content/uploads/GUIDEBOOK-GBKINDUPDATE250824.pdf"
+      }
+    },
+    {
+      "id": "11A",
+      "ticketLabels": [
+        "11A"
+      ],
+      "sourceLabel": "4层 11A 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": -1.0908307824964558,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.mirifica.net/wp-content/uploads/GUIDEBOOK-GBKINDUPDATE250824.pdf"
+      }
+    },
+    {
+      "id": "11B",
+      "ticketLabels": [
+        "11B"
+      ],
+      "sourceLabel": "4层 11B 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": -0.8639379797371932,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.mirifica.net/wp-content/uploads/GUIDEBOOK-GBKINDUPDATE250824.pdf"
+      }
+    },
+    {
+      "id": "12A",
+      "ticketLabels": [
+        "12A"
+      ],
+      "sourceLabel": "4层 12A 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": -1.6144295580947547,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.mirifica.net/wp-content/uploads/GUIDEBOOK-GBKINDUPDATE250824.pdf"
+      }
+    },
+    {
+      "id": "12B",
+      "ticketLabels": [
+        "12B"
+      ],
+      "sourceLabel": "4层 12B 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": -1.387536755335492,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.mirifica.net/wp-content/uploads/GUIDEBOOK-GBKINDUPDATE250824.pdf"
+      }
+    }
+  ],
+  "importedAt": "2026-10-24T00:00:00.000Z"
+}

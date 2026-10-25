@@ -1,0 +1,30 @@
+[
+  {
+    "file": "sofi-maps.html",
+    "url": "https://www.sofistadium.com/plan-your-visit/seating-map",
+    "exit": 0,
+    "error": "",
+    "bytes": 74364
+  },
+  {
+    "file": "metlife-map-2024.pdf",
+    "url": "https://www.metlifestadium.com/docs/default-source/seating-maps-2016/may-2024-maps/metlife-stadium-seating-map-%285-13-24%292.pdf?sfvrsn=a6b77c7b_2",
+    "exit": 56,
+    "error": "curl: (56) The requested URL returned error: 404",
+    "bytes": null
+  },
+  {
+    "file": "tottenham-map-2026.pdf",
+    "url": "https://resources.thfc.pulselive.com/thfc/document/2026/03/12/717e595c-0e87-42f1-9f93-054b42607733/Stadium-Map.pdf",
+    "exit": 0,
+    "error": "",
+    "bytes": 602543
+  },
+  {
+    "file": "tottenham-concert-2022.pdf",
+    "url": "https://www.tottenhamhotspur.com/media/omtgqan1/th-stadium-plan_lady-gaga.pdf",
+    "exit": 56,
+    "error": "curl: (56) The requested URL returned error: 404",
+    "bytes": null
+  }
+]

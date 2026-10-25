@@ -1,0 +1,64 @@
+{
+  "prepared_at": "2026-10-23T15:06:47.309264+00:00",
+  "queried_local_date": "2026-10-23",
+  "endpoint": "https://query.wikidata.org/sparql",
+  "license_url": "https://www.wikidata.org/wiki/Wikidata:Copyright",
+  "sample_raw_rows": 300,
+  "sample_unique_venues": 290,
+  "sample_unique_by_country": {
+    "法国": 37,
+    "美国": 148,
+    "英国": 58,
+    "德国": 30,
+    "荷兰": 6,
+    "加拿大": 11
+  },
+  "aggregate_by_country": {
+    "法国": 399,
+    "英国": 342,
+    "美国": 1937,
+    "德国": 179,
+    "加拿大": 344,
+    "荷兰": 33
+  },
+  "aggregate_sum_of_country_counts": 3234,
+  "limits": [
+    "Counts are per country; sum is not an independently globally deduplicated entity count.",
+    "Exact P31 stadium/arena classes only; no subclass traversal.",
+    "Sample LIMIT 300 applies to rows before entity deduplication; sample is not representative.",
+    "May include historic, demolished, closed, sports-only venues; not validated concert coverage.",
+    "No seat geometry, floorplans, photos or 3D assets are included."
+  ],
+  "files": [
+    {
+      "file": "venue-metadata-sample.csv",
+      "bytes": 40580,
+      "sha256": "0d0643e650c775885d22e8a56328e3e94f41bdffd0e4e058125d933670dc2a53"
+    },
+    {
+      "file": "venue-metadata-sample.json",
+      "bytes": 96756,
+      "sha256": "614900212db2f9d09492468bc8ef37a83178fa3f02bd2daef7c1352b87d5d564"
+    },
+    {
+      "file": "wikidata-counts-query.rq",
+      "bytes": 341,
+      "sha256": "54de3367db2d6a0ff1c9190f24a945afea0a0e1114435661a3fa91cb802be93b"
+    },
+    {
+      "file": "wikidata-counts-raw.json",
+      "bytes": 1667,
+      "sha256": "9e35403f6e1b5a29cfc66627aad8b0bd3be0ccf17740d419ca6fda1fb1c71e7b"
+    },
+    {
+      "file": "wikidata-sample-query.rq",
+      "bytes": 556,
+      "sha256": "a9364b0a2eae1005c7dbcdf56c524512d2e43fb6d5384cdd0d625981d4d50d38"
+    },
+    {
+      "file": "wikidata-sample-raw.json",
+      "bytes": 246470,
+      "sha256": "41a16f094d692d74a61b8ce6116389b61ab20dd3591e612644b28f7de846a887"
+    }
+  ]
+}

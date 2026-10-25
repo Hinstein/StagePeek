@@ -1,0 +1,7915 @@
+{
+  "guangzhou-yayuncheng": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.48,
+    "floor": [
+      56,
+      70
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "看台",
+        "a": 28,
+        "b": 35,
+        "base": 1.2,
+        "depth": 12,
+        "rise": 7.5,
+        "steps": 20
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://wglj.gz.gov.cn/zwgk/xyxxsgs/xzxk/content/post_11012372.html",
+        "note": "广州市文旅局确认场馆为亚运城综合体育馆体操馆及威神V演出日期；本场区界来自用户提供的座位图。基础场馆、尺寸、层高与排座为示意估算，完整场馆区号尚未核验。"
+      }
+    ]
+  },
+  "wukesong": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.48,
+    "floor": [
+      40,
+      64
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层",
+        "a": 22,
+        "b": 34,
+        "base": 1,
+        "depth": 18,
+        "rise": 9,
+        "steps": 24
+      },
+      {
+        "id": "middle",
+        "name": "中层",
+        "a": 33,
+        "b": 45,
+        "base": 14,
+        "depth": 17,
+        "rise": 12,
+        "steps": 24
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.beijing.gov.cn/renwen/rwzyd/qxdw/myhdlzqzh/wkstyzhx/202309/t20230921_3263793.html",
+        "note": "官方场馆资料仅支持场馆身份和类型；本轮重做形态和独立剖面，尺度仍为初步估计，待尺寸图补强。"
+      }
+    ]
+  },
+  "national-indoor": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.48,
+    "floor": [
+      44,
+      70
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层",
+        "a": 24,
+        "b": 37,
+        "base": 1,
+        "depth": 19,
+        "rise": 9,
+        "steps": 25
+      },
+      {
+        "id": "middle",
+        "name": "中层",
+        "a": 36,
+        "b": 49,
+        "base": 14,
+        "depth": 18,
+        "rise": 12,
+        "steps": 25
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.nis-cn.com/",
+        "note": "官方场馆资料仅支持场馆身份和类型；本轮重做形态和独立剖面，尺度仍为初步估计，待尺寸图补强。"
+      }
+    ]
+  },
+  "capital-indoor": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.48,
+    "floor": [
+      40,
+      88
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层",
+        "a": 22,
+        "b": 46,
+        "base": 1,
+        "depth": 17,
+        "rise": 8,
+        "steps": 22
+      },
+      {
+        "id": "middle",
+        "name": "中层",
+        "a": 33,
+        "b": 57,
+        "base": 12,
+        "depth": 15,
+        "rise": 11,
+        "steps": 22
+      }
+    ],
+    "evidence": "dimension",
+    "sources": [
+      {
+        "url": "https://s.visitbeijing.com.cn/attraction/117978",
+        "note": "北京官方旅游资料：比赛大厅 88×40 m、活动／半活动／固定看台；此为公开历史配置，未将冰球场尺寸混作完整大厅，演出收放状态仍待核验。"
+      }
+    ]
+  },
+  "mercedes-benz-arena": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.48,
+    "floor": [
+      42,
+      62
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层",
+        "a": 23,
+        "b": 33,
+        "base": 1,
+        "depth": 18,
+        "rise": 9,
+        "steps": 25
+      },
+      {
+        "id": "middle",
+        "name": "中层",
+        "a": 35,
+        "b": 45,
+        "base": 15,
+        "depth": 18,
+        "rise": 13,
+        "steps": 26
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.mercedes-benzarena.com/AboutUs/",
+        "note": "官方场馆资料仅支持场馆身份和类型；本轮重做形态和独立剖面，尺度仍为初步估计，待尺寸图补强。"
+      }
+    ]
+  },
+  "shanghai-stadium": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.48,
+    "floor": [
+      76,
+      116
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层",
+        "a": 43,
+        "b": 63,
+        "base": 2.6,
+        "depth": 27,
+        "rise": 12,
+        "steps": 34
+      },
+      {
+        "id": "middle",
+        "name": "中层",
+        "a": 62,
+        "b": 82,
+        "base": 19,
+        "depth": 16,
+        "rise": 9,
+        "steps": 20
+      },
+      {
+        "id": "upper",
+        "name": "上层",
+        "a": 71,
+        "b": 91,
+        "base": 32,
+        "depth": 27,
+        "rise": 19,
+        "steps": 34
+      }
+    ],
+    "evidence": "structure",
+    "sources": [
+      {
+        "url": "https://www.xuhui.gov.cn/xwzx_bmlf/20230808/520860.html",
+        "note": "徐汇区政府：改造为专业足球场，原跑道增设永久与临时看台，下层抬高 1.6 m；不再按完整跑道建模。"
+      }
+    ]
+  },
+  "oriental-sports": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.48,
+    "floor": [
+      42,
+      68
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层",
+        "a": 23,
+        "b": 36,
+        "base": 1,
+        "depth": 18,
+        "rise": 8.5,
+        "steps": 24
+      },
+      {
+        "id": "middle",
+        "name": "中层",
+        "a": 35,
+        "b": 48,
+        "base": 14,
+        "depth": 17,
+        "rise": 12,
+        "steps": 24
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://tyj.sh.gov.cn/zsdw/20090703/0027-66800.html",
+        "note": "官方场馆资料仅支持场馆身份和类型；本轮重做形态和独立剖面，尺度仍为初步估计，待尺寸图补强。"
+      }
+    ]
+  },
+  "guangzhou-arena": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.48,
+    "floor": [
+      42,
+      66
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "1层",
+        "a": 23,
+        "b": 35,
+        "base": 1,
+        "depth": 18,
+        "rise": 9,
+        "steps": 24
+      },
+      {
+        "id": "middle",
+        "name": "3层",
+        "a": 35,
+        "b": 47,
+        "base": 14,
+        "depth": 20,
+        "rise": 14,
+        "steps": 28
+      }
+    ],
+    "evidence": "plan",
+    "sources": [
+      {
+        "url": "https://www.bisacn.com/serviceGiuSeat.html",
+        "note": "已有官方座位图支持分区和层次；看台尺寸与坡度由形态推算，未取得建筑剖面。"
+      }
+    ]
+  },
+  "guangdong-olympic": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      114,
+      178
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层",
+        "a": 60,
+        "b": 92,
+        "base": 1,
+        "depth": 26,
+        "rise": 11,
+        "steps": 32
+      },
+      {
+        "id": "middle",
+        "name": "中层",
+        "a": 77,
+        "b": 109,
+        "base": 17,
+        "depth": 15,
+        "rise": 9,
+        "steps": 18
+      },
+      {
+        "id": "upper",
+        "name": "上层",
+        "a": 86,
+        "b": 118,
+        "base": 30,
+        "depth": 26,
+        "rise": 18,
+        "steps": 32
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://tyj.gd.gov.cn/sjzw_zsdw/content/post_1948985.html",
+        "note": "官方场馆资料仅支持场馆身份和类型；本轮重做形态和独立剖面，尺度仍为初步估计，待尺寸图补强。"
+      }
+    ],
+    "track": true
+  },
+  "tianhe-stadium": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      112,
+      174
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层",
+        "a": 59,
+        "b": 90,
+        "base": 1,
+        "depth": 26,
+        "rise": 11,
+        "steps": 32
+      },
+      {
+        "id": "middle",
+        "name": "中层",
+        "a": 77,
+        "b": 108,
+        "base": 17,
+        "depth": 25,
+        "rise": 17,
+        "steps": 30
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://tyj.gz.gov.cn/bmzc/jckx/content/post_9582759.html",
+        "note": "官方场馆资料仅支持场馆身份和类型；本轮重做形态和独立剖面，尺度仍为初步估计，待尺寸图补强。"
+      }
+    ],
+    "track": true
+  },
+  "kai-tak-stadium": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.48,
+    "floor": [
+      86,
+      142
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层",
+        "a": 46,
+        "b": 74,
+        "base": 1,
+        "depth": 23,
+        "rise": 10,
+        "steps": 29
+      },
+      {
+        "id": "middle",
+        "name": "中层",
+        "a": 61,
+        "b": 89,
+        "base": 15,
+        "depth": 11,
+        "rise": 6,
+        "steps": 14
+      },
+      {
+        "id": "upper",
+        "name": "上层",
+        "a": 67,
+        "b": 95,
+        "base": 25,
+        "depth": 25,
+        "rise": 17,
+        "steps": 30
+      }
+    ],
+    "evidence": "dimension",
+    "sources": [
+      {
+        "url": "https://media-webapp.kaitaksportspark.com.hk/assets/66563159-fee8-4ad5-aeb0-086275c8b124",
+        "note": "官方第 3 页：Field of Play 12,200㎡，净高 40 m；86×142 m 为等面积量级推算，不是官方长宽。"
+      }
+    ],
+    "stage": {
+      "width": 34.4,
+      "depth": 16,
+      "z": -55.38,
+      "height": 1.8,
+      "facing": 1
+    }
+  },
+  "hong-kong-coliseum": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.48,
+    "floor": [
+      41,
+      41
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "看台",
+        "a": 22,
+        "b": 22,
+        "base": 1,
+        "depth": 26,
+        "rise": 17.5,
+        "steps": 36
+      }
+    ],
+    "evidence": "dimension",
+    "sources": [
+      {
+        "url": "https://fpf.ccidahk.gov.hk/en/location/detail.php?id=34",
+        "note": "香港政府电影拍摄场地资料：无柱平地 1,680㎡、净高 23 m；平地按约 41×41 m 方形估计，最高看台高度按净高约束，仍非实测剖面。"
+      },
+      {
+        "url": "https://www.lcsd.gov.hk/en/hkc/common/form/hkc_center_stage.pdf",
+        "note": "已有官方座位图支持分区和层次；看台尺寸与坡度由形态推算，未取得建筑剖面。"
+      }
+    ],
+    "roofHeight": 23
+  },
+  "asiaworld-arena": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.48,
+    "floor": [
+      60,
+      90
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层",
+        "a": 32,
+        "b": 47,
+        "base": 1,
+        "depth": 17,
+        "rise": 10,
+        "steps": 22
+      },
+      {
+        "id": "middle",
+        "name": "中层",
+        "a": 43,
+        "b": 58,
+        "base": 14,
+        "depth": 12,
+        "rise": 9,
+        "steps": 16
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.asiaworld-expo.com/zh-sc/visiting/venue-map/",
+        "note": "官方场馆资料仅支持场馆身份和类型；本轮重做形态和独立剖面，尺度仍为初步估计，待尺寸图补强。"
+      }
+    ]
+  },
+  "kai-tak-arena": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.48,
+    "floor": [
+      42,
+      66
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层",
+        "a": 23,
+        "b": 35,
+        "base": 0.6,
+        "depth": 13,
+        "rise": 4.5,
+        "steps": 17
+      },
+      {
+        "id": "middle",
+        "name": "中层",
+        "a": 32,
+        "b": 44,
+        "base": 6.5,
+        "depth": 10,
+        "rise": 3.5,
+        "steps": 13
+      }
+    ],
+    "evidence": "plan",
+    "sources": [
+      {
+        "url": "https://media-webapp.kaitaksportspark.com.hk/assets/66563159-fee8-4ad5-aeb0-086275c8b124",
+        "note": "官方第 4 页：竞赛场馆总面积 7,066㎡，净高 12.5 m；座席可收纳，模型为展开示意。"
+      }
+    ],
+    "roofHeight": 12.5
+  },
+  "venetian-arena": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.48,
+    "floor": [
+      42,
+      66
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "100 看台",
+        "a": 23,
+        "b": 35,
+        "base": 1,
+        "depth": 17,
+        "rise": 8,
+        "steps": 23
+      },
+      {
+        "id": "middle",
+        "name": "200 看台",
+        "a": 34,
+        "b": 46,
+        "base": 13,
+        "depth": 16,
+        "rise": 11,
+        "steps": 23
+      }
+    ],
+    "evidence": "plan",
+    "sources": [
+      {
+        "url": "https://assets.sandsresortsmacao.cn/cotaiticketing/ateez2026/Ateez_Admission_Rules_V1.pdf",
+        "note": "已有官方座位图支持分区和层次；看台尺寸与坡度由形态推算，未取得建筑剖面。"
+      }
+    ]
+  },
+  "galaxy-arena": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.48,
+    "floor": [
+      42,
+      64
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "LEVEL 1",
+        "a": 23,
+        "b": 34,
+        "base": 1,
+        "depth": 16,
+        "rise": 8,
+        "steps": 22
+      },
+      {
+        "id": "middle",
+        "name": "LEVEL 2",
+        "a": 33,
+        "b": 44,
+        "base": 13,
+        "depth": 11,
+        "rise": 7,
+        "steps": 16
+      },
+      {
+        "id": "upper",
+        "name": "LEVEL 3",
+        "a": 38,
+        "b": 49,
+        "base": 24,
+        "depth": 15,
+        "rise": 11,
+        "steps": 21
+      }
+    ],
+    "evidence": "plan",
+    "sources": [
+      {
+        "url": "https://img.galaxymacau.com/2026-04/2026_wiea_seat_map_0407.jpg",
+        "note": "已有官方座位图支持分区和层次；看台尺寸与坡度由形态推算，未取得建筑剖面。"
+      }
+    ]
+  },
+  "studio-city": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.48,
+    "floor": [
+      28,
+      42
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "100 区",
+        "a": 16,
+        "b": 23,
+        "base": 1,
+        "depth": 12,
+        "rise": 6,
+        "steps": 16
+      },
+      {
+        "id": "middle",
+        "name": "200 区",
+        "a": 23,
+        "b": 30,
+        "base": 10,
+        "depth": 9,
+        "rise": 6,
+        "steps": 13
+      },
+      {
+        "id": "upper",
+        "name": "300 区",
+        "a": 27,
+        "b": 34,
+        "base": 20,
+        "depth": 9,
+        "rise": 7,
+        "steps": 13
+      }
+    ],
+    "evidence": "plan",
+    "sources": [
+      {
+        "url": "https://www.studiocity-macau.com/assets/public/2025-09/SCsaleskit_SCversion-compressed.pdf",
+        "note": "已有官方座位图支持分区和层次；看台尺寸与坡度由形态推算，未取得建筑剖面。"
+      }
+    ]
+  },
+  "inspire-arena": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.48,
+    "floor": [
+      44,
+      64
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "2F 前段",
+        "a": 24,
+        "b": 34,
+        "base": 1,
+        "depth": 18,
+        "rise": 10,
+        "steps": 25
+      },
+      {
+        "id": "middle",
+        "name": "2F 后段",
+        "a": 34,
+        "b": 44,
+        "base": 14,
+        "depth": 18,
+        "rise": 13,
+        "steps": 25
+      }
+    ],
+    "evidence": "plan",
+    "sources": [
+      {
+        "url": "https://ticketimage.interpark.com/Play/ITM/Data/Modify/2026/9/2026090811461410.JPG",
+        "note": "已有官方座位图支持分区和层次；看台尺寸与坡度由形态推算，未取得建筑剖面。"
+      }
+    ]
+  },
+  "goyang-stadium": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      112,
+      174
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层",
+        "a": 59,
+        "b": 90,
+        "base": 1,
+        "depth": 25,
+        "rise": 10,
+        "steps": 31
+      },
+      {
+        "id": "middle",
+        "name": "中层",
+        "a": 76,
+        "b": 107,
+        "base": 16,
+        "depth": 23,
+        "rise": 16,
+        "steps": 29
+      }
+    ],
+    "evidence": "structure",
+    "sources": [
+      {
+        "url": "https://www.gys.or.kr/index.php/subpage/index/293",
+        "note": "运营方公开平面、剖面和屋面结构；场地海拔 11.5 m 不是看台离地高度。两层剖面按图推算。"
+      }
+    ],
+    "track": true
+  },
+  "gocheok-dome": {
+    "revision": "VM-02",
+    "shape": "baseball",
+    "power": 1,
+    "floor": [
+      126,
+      144
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "1F",
+        "a": 79,
+        "b": 79,
+        "base": 1.5,
+        "depth": 15,
+        "rise": 6,
+        "steps": 20
+      },
+      {
+        "id": "middle",
+        "name": "2F",
+        "a": 89,
+        "b": 89,
+        "base": 10,
+        "depth": 9,
+        "rise": 5,
+        "steps": 12
+      },
+      {
+        "id": "upper",
+        "name": "3F",
+        "a": 99,
+        "b": 99,
+        "base": 18,
+        "depth": 11,
+        "rise": 8,
+        "steps": 16
+      },
+      {
+        "id": "top",
+        "name": "4F",
+        "a": 102,
+        "b": 102,
+        "base": 30,
+        "depth": 14,
+        "rise": 11,
+        "steps": 20
+      }
+    ],
+    "evidence": "plan",
+    "sources": [
+      {
+        "url": "https://heroesbaseball.co.kr/ticket/normal/view.do",
+        "note": "球队官方四层座位图；本轮未取得可直接核验的场地长宽与剖面，只按图形比例重建。"
+      }
+    ],
+    "radial": [
+      49,
+      46,
+      68,
+      75,
+      79
+    ]
+  },
+  "jamsil-indoor": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      40,
+      50
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "2F",
+        "a": 22,
+        "b": 27,
+        "base": 1,
+        "depth": 17,
+        "rise": 9,
+        "steps": 23
+      },
+      {
+        "id": "middle",
+        "name": "3F",
+        "a": 33,
+        "b": 38,
+        "base": 14,
+        "depth": 17,
+        "rise": 12,
+        "steps": 24
+      }
+    ],
+    "stage": {
+      "width": 28,
+      "depth": 7,
+      "z": -19.5,
+      "height": 1.8,
+      "facing": 1
+    },
+    "evidence": "plan",
+    "sources": [
+      {
+        "url": "https://stadium.seoul.go.kr/files/2016/08/jamsil_drawing_indoormain.jpg",
+        "note": "已有官方座位图支持分区和层次；看台尺寸与坡度由形态推算，未取得建筑剖面。"
+      }
+    ]
+  },
+  "singapore-indoor": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.48,
+    "floor": [
+      40,
+      60
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "Terrace",
+        "a": 22,
+        "b": 32,
+        "base": 1,
+        "depth": 17,
+        "rise": 8,
+        "steps": 23
+      },
+      {
+        "id": "middle",
+        "name": "Balcony",
+        "a": 33,
+        "b": 43,
+        "base": 13,
+        "depth": 16,
+        "rise": 11,
+        "steps": 23
+      }
+    ],
+    "evidence": "plan",
+    "sources": [
+      {
+        "url": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf",
+        "note": "已有官方座位图支持分区和层次；看台尺寸与坡度由形态推算，未取得建筑剖面。"
+      }
+    ]
+  },
+  "singapore-national": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      108,
+      172
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "100 看台",
+        "a": 57,
+        "b": 89,
+        "base": 1,
+        "depth": 26,
+        "rise": 10,
+        "steps": 32
+      },
+      {
+        "id": "middle",
+        "name": "400 看台",
+        "a": 74,
+        "b": 106,
+        "base": 16,
+        "depth": 13,
+        "rise": 7,
+        "steps": 17
+      },
+      {
+        "id": "upper",
+        "name": "600 看台",
+        "a": 82,
+        "b": 114,
+        "base": 27,
+        "depth": 23,
+        "rise": 16,
+        "steps": 30
+      }
+    ],
+    "evidence": "plan",
+    "sources": [
+      {
+        "url": "https://static.ticketmaster.sg/images/activity/field/26sg_bts_0876bf8a9dcf548dda597b4554191e29.jpg",
+        "note": "已有官方座位图支持分区和层次；看台尺寸与坡度由形态推算，未取得建筑剖面。"
+      }
+    ],
+    "track": true
+  },
+  "impact-arena": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.48,
+    "floor": [
+      45.4,
+      71.45
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "LEVEL 3",
+        "a": 24.7,
+        "b": 37.7,
+        "base": 2,
+        "depth": 14,
+        "rise": 7,
+        "steps": 19
+      },
+      {
+        "id": "middle",
+        "name": "LEVEL 4–5",
+        "a": 33.7,
+        "b": 46.7,
+        "base": 11,
+        "depth": 14,
+        "rise": 8,
+        "steps": 20
+      }
+    ],
+    "evidence": "dimension",
+    "sources": [
+      {
+        "url": "https://www.impact.co.th/images/organizers/venues/impact-arena/document/impact-arena-facility-guide-2025-08-27.pdf",
+        "note": "运营方手册第 2–5 页：平地 71.45×45.40 m、高 21 m；楼层平面，宽深和层高不可混用。"
+      }
+    ],
+    "roofHeight": 21
+  },
+  "rajamangala": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      114,
+      178
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层",
+        "a": 60,
+        "b": 92,
+        "base": 1,
+        "depth": 28,
+        "rise": 11,
+        "steps": 34
+      },
+      {
+        "id": "middle",
+        "name": "中层",
+        "a": 79,
+        "b": 111,
+        "base": 17,
+        "depth": 14,
+        "rise": 8,
+        "steps": 18
+      },
+      {
+        "id": "upper",
+        "name": "上层",
+        "a": 87,
+        "b": 119,
+        "base": 29,
+        "depth": 24,
+        "rise": 17,
+        "steps": 30
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://artist.ygfamily.com/ARTISTS/BIGBANG/concert/worldtour/index.html",
+        "note": "官方场馆资料仅支持场馆身份和类型；本轮重做形态和独立剖面，尺度仍为初步估计，待尺寸图补强。"
+      }
+    ],
+    "track": true
+  },
+  "thunder-dome": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.48,
+    "floor": [
+      42,
+      44
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "LEVEL 2",
+        "a": 23,
+        "b": 24,
+        "base": 1.2,
+        "depth": 10,
+        "rise": 7,
+        "steps": 14
+      }
+    ],
+    "evidence": "plan",
+    "sources": [
+      {
+        "url": "https://www.impact.co.th/images/organizers/venues/thunder-dome/document/thunder-dome-facility-guide.pdf",
+        "note": "运营方第 4 页：平地 1,831㎡及单层八角看台；42×44 m 是按平面长宽比推算，不是直接标注。"
+      }
+    ]
+  },
+  "kyocera-dome": {
+    "revision": "VM-02",
+    "shape": "baseball",
+    "power": 1,
+    "floor": [
+      146,
+      154
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下段 通路",
+        "a": 84,
+        "b": 84,
+        "base": 1,
+        "depth": 29,
+        "rise": 12,
+        "steps": 36
+      },
+      {
+        "id": "middle",
+        "name": "上段 通路",
+        "a": 103,
+        "b": 103,
+        "base": 19,
+        "depth": 21,
+        "rise": 16,
+        "steps": 28
+      }
+    ],
+    "evidence": "dimension",
+    "sources": [
+      {
+        "url": "https://www.kyoceradome-osaka.jp/download/img/guidemap2022.pdf",
+        "note": "官方：两翼 100 m、中外野 122 m；结合官方座位图，内野与外野采用不同径向轮廓。"
+      }
+    ],
+    "radial": [
+      53,
+      52,
+      75,
+      82,
+      84
+    ],
+    "diamond": [
+      100,
+      122
+    ]
+  },
+  "vantelin-dome": {
+    "revision": "VM-02",
+    "shape": "baseball",
+    "power": 1,
+    "floor": [
+      146,
+      154
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下段 2–3F",
+        "a": 83,
+        "b": 83,
+        "base": 1,
+        "depth": 32,
+        "rise": 12,
+        "steps": 39
+      },
+      {
+        "id": "middle",
+        "name": "上段 5F",
+        "a": 104,
+        "b": 104,
+        "base": 20,
+        "depth": 23,
+        "rise": 17,
+        "steps": 30
+      }
+    ],
+    "evidence": "dimension",
+    "sources": [
+      {
+        "url": "https://www.nagoya-dome.co.jp/aboutus/gaiyo.php",
+        "note": "官方 2026：两翼 100 m、中外野 122 m、场地 12,315㎡；新设前排区域尚无完整剖面，未把旧面积当现状。"
+      }
+    ],
+    "radial": [
+      54,
+      51,
+      74,
+      82,
+      83
+    ],
+    "diamond": [
+      100,
+      122
+    ]
+  },
+  "paypay-dome": {
+    "revision": "VM-02",
+    "shape": "baseball",
+    "power": 1,
+    "floor": [
+      146,
+      154
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层",
+        "a": 81,
+        "b": 81,
+        "base": 1,
+        "depth": 22,
+        "rise": 9,
+        "steps": 28
+      },
+      {
+        "id": "middle",
+        "name": "中层",
+        "a": 96,
+        "b": 96,
+        "base": 14,
+        "depth": 11,
+        "rise": 6,
+        "steps": 14
+      },
+      {
+        "id": "upper",
+        "name": "上层",
+        "a": 101,
+        "b": 101,
+        "base": 24,
+        "depth": 21,
+        "rise": 15,
+        "steps": 27
+      }
+    ],
+    "evidence": "dimension",
+    "sources": [
+      {
+        "url": "https://www.softbankhawks.co.jp/stadium/institution.html",
+        "note": "运营方：两翼约 100 m、中外野 122 m；建筑直径 222 m、屋顶高 68 m 不等同于坐席范围或末排高度。"
+      }
+    ],
+    "radial": [
+      48,
+      48,
+      72,
+      80,
+      81
+    ],
+    "diamond": [
+      100,
+      122
+    ]
+  },
+  "japan-national": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      112,
+      176
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "1层",
+        "a": 59,
+        "b": 91,
+        "base": 1,
+        "depth": 25,
+        "rise": 10,
+        "steps": 31
+      },
+      {
+        "id": "middle",
+        "name": "2层",
+        "a": 76,
+        "b": 108,
+        "base": 16,
+        "depth": 18,
+        "rise": 11,
+        "steps": 23
+      },
+      {
+        "id": "upper",
+        "name": "3层",
+        "a": 87,
+        "b": 119,
+        "base": 31,
+        "depth": 22,
+        "rise": 16,
+        "steps": 28
+      }
+    ],
+    "evidence": "plan",
+    "sources": [
+      {
+        "url": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg",
+        "note": "已有官方座位图支持分区和层次；看台尺寸与坡度由形态推算，未取得建筑剖面。"
+      }
+    ],
+    "track": true
+  },
+  "saitama-arena": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.48,
+    "floor": [
+      44,
+      80
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "200 LEVEL",
+        "a": 24,
+        "b": 42,
+        "base": 1,
+        "depth": 22,
+        "rise": 11,
+        "steps": 29
+      },
+      {
+        "id": "middle",
+        "name": "300 LEVEL",
+        "a": 38,
+        "b": 56,
+        "base": 17,
+        "depth": 7,
+        "rise": 3,
+        "steps": 8
+      },
+      {
+        "id": "upper",
+        "name": "400 LEVEL",
+        "a": 40,
+        "b": 58,
+        "base": 24,
+        "depth": 18,
+        "rise": 13,
+        "steps": 25
+      },
+      {
+        "id": "top",
+        "name": "500 LEVEL",
+        "a": 52,
+        "b": 70,
+        "base": 40,
+        "depth": 7,
+        "rise": 6,
+        "steps": 10
+      }
+    ],
+    "evidence": "plan",
+    "sources": [
+      {
+        "url": "https://www.saitama-arena.co.jp/seat_view/arena_center/",
+        "note": "已有官方座位图支持分区和层次；看台尺寸与坡度由形态推算，未取得建筑剖面。"
+      }
+    ]
+  },
+  "taipei-dome": {
+    "revision": "VM-02",
+    "shape": "baseball",
+    "power": 1,
+    "floor": [
+      148,
+      156
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "L1",
+        "a": 84,
+        "b": 84,
+        "base": 1,
+        "depth": 24,
+        "rise": 10,
+        "steps": 30
+      },
+      {
+        "id": "middle",
+        "name": "L2",
+        "a": 100,
+        "b": 100,
+        "base": 15,
+        "depth": 12,
+        "rise": 7,
+        "steps": 16
+      },
+      {
+        "id": "upper",
+        "name": "L4",
+        "a": 107,
+        "b": 107,
+        "base": 27,
+        "depth": 17,
+        "rise": 12,
+        "steps": 23
+      },
+      {
+        "id": "top",
+        "name": "L5",
+        "a": 117,
+        "b": 117,
+        "base": 42,
+        "depth": 9,
+        "rise": 7,
+        "steps": 13
+      }
+    ],
+    "evidence": "dimension",
+    "sources": [
+      {
+        "url": "https://cpbl.com.tw/field/cont?sid=0O061544675303751530",
+        "note": "联盟场馆资料：两翼 335 ft、中外野 400 ft；米制换算 102.108 / 121.92 m。四层看台剖面为推算。"
+      }
+    ],
+    "radial": [
+      52,
+      51,
+      76,
+      83,
+      84
+    ],
+    "diamond": [
+      102.108,
+      121.92
+    ]
+  },
+  "taipei-arena": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.48,
+    "floor": [
+      40,
+      64
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "2F",
+        "a": 22,
+        "b": 34,
+        "base": 1,
+        "depth": 17,
+        "rise": 8,
+        "steps": 23
+      },
+      {
+        "id": "middle",
+        "name": "3F",
+        "a": 33,
+        "b": 45,
+        "base": 13,
+        "depth": 18,
+        "rise": 12,
+        "steps": 25
+      }
+    ],
+    "evidence": "plan",
+    "sources": [
+      {
+        "url": "https://web.metro.taipei/taipeiarenaseatview/taipeiarenaseat-center-tw.html",
+        "note": "已有官方座位图支持分区和层次；看台尺寸与坡度由形态推算，未取得建筑剖面。"
+      }
+    ]
+  },
+  "kaohsiung-national": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      112,
+      174
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层",
+        "a": 59,
+        "b": 90,
+        "base": 1,
+        "depth": 25,
+        "rise": 10,
+        "steps": 31
+      },
+      {
+        "id": "middle",
+        "name": "中层",
+        "a": 76,
+        "b": 107,
+        "base": 16,
+        "depth": 23,
+        "rise": 16,
+        "steps": 29
+      }
+    ],
+    "evidence": "structure",
+    "sources": [
+      {
+        "url": "https://iplay.sports.gov.tw/gyminfo/IndexPrint/11825",
+        "note": "体育主管部门：400 m 跑道、4 万固定席、南北端屏幕；采用田径场碗形，末排高度尚未测定。"
+      }
+    ],
+    "track": true
+  },
+  "bukit-jalil": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      114,
+      178
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层",
+        "a": 60,
+        "b": 92,
+        "base": 1,
+        "depth": 28,
+        "rise": 11,
+        "steps": 35
+      },
+      {
+        "id": "middle",
+        "name": "中层",
+        "a": 79,
+        "b": 111,
+        "base": 17,
+        "depth": 18,
+        "rise": 10,
+        "steps": 23
+      },
+      {
+        "id": "upper",
+        "name": "上层",
+        "a": 90,
+        "b": 122,
+        "base": 31,
+        "depth": 27,
+        "rise": 19,
+        "steps": 34
+      }
+    ],
+    "evidence": "dimension",
+    "sources": [
+      {
+        "url": "https://www.stadium.gov.my/venues/kuala-lumpur-sports-city/tm-stadium-nasional?format=html",
+        "note": "运营方：108×65 m 草坪、400 m 九道跑道；草坪与看台包络分别建模，剖面为推算。"
+      }
+    ],
+    "track": true,
+    "pitch": [
+      65,
+      108
+    ]
+  },
+  "national-hockey": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.48,
+    "floor": [
+      62,
+      103
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层",
+        "a": 34,
+        "b": 54,
+        "base": 1,
+        "depth": 15,
+        "rise": 8,
+        "steps": 20
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.stadium.gov.my/index.php/venues/kuala-lumpur-sports-city/national-hockey-stadium",
+        "note": "官方场馆资料仅支持场馆身份和类型；本轮重做形态和独立剖面，尺度仍为初步估计，待尺寸图补强。"
+      }
+    ]
+  },
+  "unifi-arena": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.48,
+    "floor": [
+      35,
+      66
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "300 看台",
+        "a": 19.5,
+        "b": 35,
+        "base": 1,
+        "depth": 18,
+        "rise": 9,
+        "steps": 24
+      },
+      {
+        "id": "middle",
+        "name": "400 看台",
+        "a": 31.5,
+        "b": 47,
+        "base": 14,
+        "depth": 17,
+        "rise": 12,
+        "steps": 24
+      }
+    ],
+    "evidence": "dimension",
+    "sources": [
+      {
+        "url": "https://www.stadium.gov.my/venues/kuala-lumpur-sports-city/unifi-arena?format=html",
+        "note": "官网同页尺寸冲突：规格 66×35 m，正文 69×35 m。本轮采用规格 66×35 m，待技术图确认。"
+      }
+    ]
+  },
+  "philippine-arena": {
+    "revision": "VM-02",
+    "shape": "fan",
+    "power": 1,
+    "floor": [
+      76,
+      92
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层",
+        "a": 43,
+        "b": 49,
+        "base": 1,
+        "depth": 28,
+        "rise": 12,
+        "steps": 35
+      },
+      {
+        "id": "middle",
+        "name": "中层",
+        "a": 61,
+        "b": 67,
+        "base": 18,
+        "depth": 20,
+        "rise": 12,
+        "steps": 25
+      },
+      {
+        "id": "upper",
+        "name": "上层",
+        "a": 73,
+        "b": 79,
+        "base": 34,
+        "depth": 27,
+        "rise": 19,
+        "steps": 34
+      }
+    ],
+    "evidence": "structure",
+    "sources": [
+      {
+        "url": "https://populous.com/project/philippine-arena",
+        "note": "设计方：单侧马鞍形观众碗；中央高、两翼低。剖面具体数值未公开，按结构特征推算。"
+      }
+    ],
+    "oneSided": true,
+    "saddle": 0.28
+  },
+  "smdc-festival": {
+    "revision": "VM-02",
+    "shape": "rectangle",
+    "power": 1,
+    "floor": [
+      94,
+      170
+    ],
+    "tiers": [],
+    "evidence": "structure",
+    "sources": [
+      {
+        "url": "https://ticketmaster.ph/venues/smdc-festival-grounds",
+        "note": "售票方确认户外多用途平地场馆；BIGBANG 2027-02-20已接入独立分区图并作为默认。场地边界尺寸、临时设备高度仍未取得，保留平地估计范围，不把图示阴影当作阶梯。"
+      }
+    ]
+  },
+  "moa-arena": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.48,
+    "floor": [
+      40,
+      62
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层",
+        "a": 22,
+        "b": 33,
+        "base": 1,
+        "depth": 17,
+        "rise": 9,
+        "steps": 23
+      },
+      {
+        "id": "middle",
+        "name": "中层",
+        "a": 33,
+        "b": 44,
+        "base": 14,
+        "depth": 17,
+        "rise": 12,
+        "steps": 24
+      }
+    ],
+    "evidence": "structure",
+    "sources": [
+      {
+        "url": "https://www.sm-arena.com/MOA/about-us/",
+        "note": "运营方场馆资料及内景；体育／演唱会转换配置，固定层数和剖面按可见结构推算。"
+      }
+    ]
+  },
+  "jakarta-stadium": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.48,
+    "floor": [
+      80,
+      120
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层",
+        "a": 43,
+        "b": 63,
+        "base": 1,
+        "depth": 26,
+        "rise": 12,
+        "steps": 32
+      },
+      {
+        "id": "middle",
+        "name": "中层",
+        "a": 60,
+        "b": 80,
+        "base": 18,
+        "depth": 15,
+        "rise": 9,
+        "steps": 19
+      },
+      {
+        "id": "upper",
+        "name": "上层",
+        "a": 69,
+        "b": 89,
+        "base": 31,
+        "depth": 28,
+        "rise": 20,
+        "steps": 35
+      }
+    ],
+    "evidence": "structure",
+    "sources": [
+      {
+        "url": "https://bpad.jakarta.go.id/portal/content/berita/6942",
+        "note": "雅加达政府场馆介绍：8.2 万席、可开合屋面。足球看台按近场多层结构推算，无完整测量数据。"
+      }
+    ]
+  },
+  "indonesia-arena": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.48,
+    "floor": [
+      44,
+      70
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层",
+        "a": 24,
+        "b": 37,
+        "base": 1,
+        "depth": 18,
+        "rise": 9,
+        "steps": 24
+      },
+      {
+        "id": "middle",
+        "name": "中层",
+        "a": 36,
+        "b": 49,
+        "base": 14,
+        "depth": 18,
+        "rise": 13,
+        "steps": 25
+      }
+    ],
+    "evidence": "structure",
+    "sources": [
+      {
+        "url": "https://www.kemenpora.go.id/detail/4007/menpora-dito-dampingi-presiden-jokowi-resmikan-indonesia-arena",
+        "note": "印尼体育部开馆记录和内景：室内多用途体育馆，约 1.6 万席；未取得完整剖面。"
+      }
+    ]
+  },
+  "my-dinh": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      112,
+      174
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层",
+        "a": 59,
+        "b": 90,
+        "base": 1,
+        "depth": 24,
+        "rise": 10,
+        "steps": 30
+      },
+      {
+        "id": "middle",
+        "name": "中层",
+        "a": 75,
+        "b": 106,
+        "base": 16,
+        "depth": 22,
+        "rise": 15,
+        "steps": 28
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://artist.ygfamily.com/ARTISTS/BIGBANG/concert/worldtour/index.html",
+        "note": "官方场馆资料仅支持场馆身份和类型；本轮重做形态和独立剖面，尺度仍为初步估计，待尺寸图补强。"
+      }
+    ],
+    "track": true
+  },
+  "sajik-gymnasium": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      42,
+      52
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层",
+        "a": 23,
+        "b": 28,
+        "base": 1,
+        "depth": 18,
+        "rise": 9,
+        "steps": 24
+      },
+      {
+        "id": "middle",
+        "name": "中层",
+        "a": 35,
+        "b": 40,
+        "base": 14,
+        "depth": 16,
+        "rise": 11,
+        "steps": 23
+      }
+    ],
+    "evidence": "dimension",
+    "sources": [
+      {
+        "url": "https://www.kccegis.com/busan_gym",
+        "note": "主队官方：比赛场地 2,184㎡，约 1.4 万席。42×52 m 为等面积推算，非官方直接标注长宽。"
+      }
+    ]
+  },
+  "ntsu-arena": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      44,
+      50
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "固定看台",
+        "a": 24,
+        "b": 27,
+        "base": 1,
+        "depth": 23,
+        "rise": 14,
+        "steps": 30
+      }
+    ],
+    "evidence": "plan",
+    "sources": [
+      {
+        "url": "https://phk.ntsu.edu.tw/var/file/8/1008/img/1439/147422320.pdf",
+        "note": "已有官方座位图支持分区和层次；看台尺寸与坡度由形态推算，未取得建筑剖面。"
+      }
+    ]
+  },
+  "k-arena-yokohama": {
+    "revision": "VM-02",
+    "shape": "fan",
+    "power": 1,
+    "floor": [
+      46,
+      40
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "LEVEL 3",
+        "a": 28,
+        "b": 25,
+        "base": 2,
+        "depth": 19,
+        "rise": 9,
+        "steps": 24
+      },
+      {
+        "id": "middle",
+        "name": "LEVEL 5",
+        "a": 40,
+        "b": 37,
+        "base": 16,
+        "depth": 18,
+        "rise": 12,
+        "steps": 24
+      },
+      {
+        "id": "upper",
+        "name": "LEVEL 7",
+        "a": 51,
+        "b": 48,
+        "base": 32,
+        "depth": 22,
+        "rise": 16,
+        "steps": 29
+      }
+    ],
+    "evidence": "structure",
+    "sources": [
+      {
+        "url": "https://k-arena.com/seat/",
+        "note": "官方 L3 / L5 / L7 座位图：单向扇形看台，避免原模型向舞台背后环绕；高度深度为推算。"
+      }
+    ],
+    "oneSided": true
+  },
+  "gwangju-universiade": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.48,
+    "floor": [
+      40,
+      48
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层",
+        "a": 22,
+        "b": 26,
+        "base": 1,
+        "depth": 15,
+        "rise": 8,
+        "steps": 20
+      },
+      {
+        "id": "middle",
+        "name": "中层",
+        "a": 32,
+        "b": 36,
+        "base": 12,
+        "depth": 13,
+        "rise": 10,
+        "steps": 18
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://en.kwu.ac.kr/mod/page/view.do?MID=EN_P04010401",
+        "note": "大学官网确认校内大运会体育馆；尚未取得尺寸、完整座位图和剖面，本轮仍为独立形态估计。"
+      }
+    ]
+  },
+  "ig-arena": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.48,
+    "floor": [
+      46,
+      66
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "2F",
+        "a": 25,
+        "b": 35,
+        "base": 1,
+        "depth": 19,
+        "rise": 10,
+        "steps": 25
+      },
+      {
+        "id": "middle",
+        "name": "4F",
+        "a": 37,
+        "b": 47,
+        "base": 15,
+        "depth": 19,
+        "rise": 14,
+        "steps": 26
+      }
+    ],
+    "evidence": "plan",
+    "sources": [
+      {
+        "url": "https://www.ig-arena.jp/seat/",
+        "note": "已有官方座位图支持分区和层次；看台尺寸与坡度由形态推算，未取得建筑剖面。"
+      }
+    ]
+  },
+  "makuhari-halls-1-3": {
+    "revision": "VM-02",
+    "shape": "rectangle",
+    "power": 1,
+    "floor": [
+      180,
+      112.5
+    ],
+    "tiers": [],
+    "evidence": "dimension",
+    "sources": [
+      {
+        "url": "https://www.m-messe.co.jp/docs/pamphlet_en.pdf",
+        "note": "运营方第 3 页：单厅 60×112.5 m；基础模型显示 1–3 整组。CxM 当前主办及场馆活动页写1–3，旧日程页写2–3；场次布局按现场导览牌另建，不把整组面积当作实际座区尺寸。"
+      }
+    ],
+    "roofHeight": 20,
+    "hallDivisions": 3
+  },
+  "makuhari-halls-4-6": {
+    "revision": "VM-02",
+    "shape": "rectangle",
+    "power": 1,
+    "floor": [
+      180,
+      112.5
+    ],
+    "tiers": [],
+    "evidence": "dimension",
+    "sources": [
+      {
+        "url": "https://www.m-messe.co.jp/docs/pamphlet_en.pdf",
+        "note": "运营方第 3 页：每厅 60×112.5 m，三厅合计 20,250㎡，平地无固定环形看台。"
+      }
+    ],
+    "roofHeight": 20,
+    "hallDivisions": 3
+  },
+  "bexco-halls-1-2": {
+    "revision": "VM-02",
+    "shape": "rectangle",
+    "power": 1,
+    "floor": [
+      162,
+      108
+    ],
+    "tiers": [],
+    "evidence": "dimension",
+    "sources": [
+      {
+        "url": "https://ictca2025.org/download/2023_BEXCO_Brochure_English.pdf",
+        "note": "BEXCO 官方手册第 4 页：1 厅 81×108 m，2A / 2B 各 40.5×108 m；组合按 162×108 m 简化，实际有弧形边界，非精确面积复刻。"
+      }
+    ],
+    "roofHeight": 20,
+    "hallDivisions": 2
+  },
+  "kaohsiung-arena": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.48,
+    "floor": [
+      42,
+      60
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "2F",
+        "a": 23,
+        "b": 32,
+        "base": 1,
+        "depth": 17,
+        "rise": 8,
+        "steps": 23
+      },
+      {
+        "id": "middle",
+        "name": "4F 包厢",
+        "a": 34,
+        "b": 43,
+        "base": 13,
+        "depth": 6,
+        "rise": 3,
+        "steps": 7
+      },
+      {
+        "id": "upper",
+        "name": "5F／6F",
+        "a": 35,
+        "b": 44,
+        "base": 21,
+        "depth": 18,
+        "rise": 13,
+        "steps": 25
+      }
+    ],
+    "evidence": "plan",
+    "sources": [
+      {
+        "url": "https://www.kaoarena.com.tw/Home/Seat2",
+        "note": "已有官方座位图支持分区和层次；看台尺寸与坡度由形态推算，未取得建筑剖面。"
+      }
+    ]
+  },
+  "exco-east": {
+    "revision": "VM-02",
+    "shape": "rectangle",
+    "power": 1,
+    "floor": [
+      144,
+      104
+    ],
+    "tiers": [],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://weverse.io/seventeen/notice/36203?hl=zh-cn",
+        "note": "官方场馆资料仅支持场馆身份和类型；本轮重做形态和独立剖面，尺度仍为初步估计，待尺寸图补强。"
+      }
+    ]
+  },
+  "keio-arena-tokyo": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.48,
+    "floor": [
+      38,
+      56
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "3F 看台",
+        "a": 21,
+        "b": 30,
+        "base": 1,
+        "depth": 14,
+        "rise": 7,
+        "steps": 19
+      },
+      {
+        "id": "middle",
+        "name": "4F 看台",
+        "a": 30,
+        "b": 39,
+        "base": 11,
+        "depth": 12,
+        "rise": 8,
+        "steps": 17
+      }
+    ],
+    "evidence": "plan",
+    "sources": [
+      {
+        "url": "https://keio-arena.tokyo/seat/",
+        "note": "已有官方座位图支持分区和层次；看台尺寸与坡度由形态推算，未取得建筑剖面。"
+      }
+    ]
+  },
+  "john-cain-arena": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.48,
+    "floor": [
+      38,
+      62
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层",
+        "a": 21,
+        "b": 33,
+        "base": 1,
+        "depth": 17,
+        "rise": 8,
+        "steps": 23
+      },
+      {
+        "id": "middle",
+        "name": "中层",
+        "a": 32,
+        "b": 44,
+        "base": 13,
+        "depth": 15,
+        "rise": 11,
+        "steps": 21
+      }
+    ],
+    "evidence": "structure",
+    "sources": [
+      {
+        "url": "https://www.melbournepark.com.au/about/our-history/",
+        "note": "运营方：带 250 m 自行车赛道的可变座席场馆；演唱会不自动显示裸露赛道，伸缩看台按展开示意。"
+      }
+    ]
+  },
+  "tiktok-entertainment-centre": {
+    "revision": "VM-02",
+    "shape": "fan",
+    "power": 1,
+    "floor": [
+      32,
+      26
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层",
+        "a": 20,
+        "b": 18,
+        "base": 1,
+        "depth": 15,
+        "rise": 6,
+        "steps": 20
+      },
+      {
+        "id": "middle",
+        "name": "中层",
+        "a": 29,
+        "b": 27,
+        "base": 11,
+        "depth": 13,
+        "rise": 9,
+        "steps": 18
+      },
+      {
+        "id": "upper",
+        "name": "上层",
+        "a": 37,
+        "b": 35,
+        "base": 24,
+        "depth": 13,
+        "rise": 10,
+        "steps": 18
+      }
+    ],
+    "evidence": "plan",
+    "sources": [
+      {
+        "url": "https://tiktokentcent.com/venue/seating-maps/",
+        "note": "官方三层剧院座位图；单向扇形。ICC 舞台拼装包 18.3×12.2 m 不是固定舞台建筑尺寸，未混用。"
+      }
+    ],
+    "oneSided": true,
+    "layouts": [
+      "end",
+      "thrust"
+    ]
+  },
+  "ovo-arena-wembley": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.48,
+    "floor": [
+      42,
+      76
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层",
+        "a": 23,
+        "b": 40,
+        "base": 1,
+        "depth": 14,
+        "rise": 7,
+        "steps": 19
+      },
+      {
+        "id": "middle",
+        "name": "中层",
+        "a": 32,
+        "b": 49,
+        "base": 11,
+        "depth": 13,
+        "rise": 9,
+        "steps": 18
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.ovoarena.co.uk/info/corporate-hire",
+        "note": "运营方租赁介绍用于核对长方形演出场馆类型；详细尺寸／剖面未取得。"
+      }
+    ]
+  },
+  "afas-live": {
+    "revision": "VM-02",
+    "shape": "rear",
+    "power": 1,
+    "floor": [
+      42,
+      58
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层",
+        "a": 22,
+        "b": 22,
+        "base": 1,
+        "depth": 10,
+        "rise": 5,
+        "steps": 13
+      },
+      {
+        "id": "middle",
+        "name": "中层",
+        "a": 22,
+        "b": 25,
+        "base": 9,
+        "depth": 7,
+        "rise": 5,
+        "steps": 10
+      }
+    ],
+    "evidence": "structure",
+    "sources": [
+      {
+        "url": "https://www.afaslive.nl/over-afas-live/het-gebouw-zalen",
+        "note": "运营方：Black Box 后方伸缩看台和固定楼座，不是完整环形看台；尺寸未取得。"
+      }
+    ],
+    "oneSided": true,
+    "layouts": [
+      "end",
+      "thrust"
+    ]
+  },
+  "zenith-paris": {
+    "revision": "VM-02",
+    "shape": "fan",
+    "power": 1,
+    "floor": [
+      40,
+      34
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层",
+        "a": 24,
+        "b": 21,
+        "base": 1,
+        "depth": 21,
+        "rise": 13,
+        "steps": 27
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://le-zenith.com/shows/Itzy-22003",
+        "note": "官方场馆资料仅支持场馆身份和类型；本轮重做形态和独立剖面，尺度仍为初步估计，待尺寸图补强。"
+      }
+    ],
+    "oneSided": true,
+    "layouts": [
+      "end",
+      "thrust"
+    ]
+  },
+  "festhalle-frankfurt": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      58,
+      78
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "1.Rang 看台",
+        "a": 31,
+        "b": 41,
+        "base": 8,
+        "depth": 9,
+        "rise": 5,
+        "steps": 12
+      },
+      {
+        "id": "middle",
+        "name": "2.Rang 看台",
+        "a": 35,
+        "b": 45,
+        "base": 17,
+        "depth": 9,
+        "rise": 6,
+        "steps": 12
+      }
+    ],
+    "evidence": "plan",
+    "sources": [
+      {
+        "url": "https://festhalle.messefrankfurt.com/content/dam/messefrankfurt-redaktion/locations/festhalle-events/fh-003a-02.pdf",
+        "note": "已有官方座位图支持分区和层次；看台尺寸与坡度由形态推算，未取得建筑剖面。"
+      }
+    ]
+  },
+  "star-theatre": {
+    "revision": "VM-02",
+    "shape": "fan",
+    "power": 1,
+    "floor": [
+      20,
+      20
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "Stalls 池座",
+        "a": 19,
+        "b": 14,
+        "base": 0.4,
+        "depth": 18,
+        "rise": 5,
+        "steps": 24
+      },
+      {
+        "id": "middle",
+        "name": "Circle 1 楼座",
+        "a": 24,
+        "b": 29,
+        "base": 8,
+        "depth": 11,
+        "rise": 7,
+        "steps": 15
+      },
+      {
+        "id": "upper",
+        "name": "Circle 2 楼座",
+        "a": 26,
+        "b": 32,
+        "base": 16,
+        "depth": 12,
+        "rise": 7,
+        "steps": 16
+      }
+    ],
+    "evidence": "dimension",
+    "sources": [
+      {
+        "url": "https://www.thestar.sg/the-star-theatre",
+        "note": "官方：马蹄形 Stalls / Circle 1 / Circle 2，最末排距舞台 56 m；采用平面距离作为约束，原文未说明量距端点。"
+      }
+    ],
+    "oneSided": true,
+    "stage": {
+      "width": 20,
+      "depth": 8,
+      "z": 16,
+      "height": 1.2
+    },
+    "layouts": [
+      "end"
+    ]
+  },
+  "londoner-arena": {
+    "revision": "VM-02",
+    "shape": "fan",
+    "power": 1,
+    "floor": [
+      53,
+      24
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层 100 区",
+        "a": 26.5,
+        "b": 12,
+        "base": 1,
+        "depth": 9,
+        "rise": 5,
+        "steps": 12
+      },
+      {
+        "id": "middle",
+        "name": "中层 200 区",
+        "a": 31,
+        "b": 20,
+        "base": 7,
+        "depth": 10,
+        "rise": 6,
+        "steps": 14
+      },
+      {
+        "id": "upper",
+        "name": "上层 300 区",
+        "a": 35,
+        "b": 29,
+        "base": 14,
+        "depth": 11,
+        "rise": 7,
+        "steps": 16
+      }
+    ],
+    "evidence": "dimension",
+    "sources": [
+      {
+        "url": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/arena/lm_arena_floor-plan.pdf",
+        "note": "官方图标注内场横向 53m、中央纵向 24m，三层扇形座席；看台进深与层高为估算。"
+      }
+    ],
+    "oneSided": true,
+    "layouts": [
+      "end",
+      "center",
+      "thrust"
+    ],
+    "stage": {
+      "width": 22,
+      "depth": 8,
+      "z": 11,
+      "height": 1.5
+    }
+  },
+  "hangzhou-olympic-stadium": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      130,
+      188
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 66,
+        "b": 95,
+        "base": 1.2,
+        "depth": 24,
+        "rise": 12,
+        "steps": 30
+      },
+      {
+        "id": "middle",
+        "name": "中层看台",
+        "a": 85,
+        "b": 114,
+        "base": 16,
+        "depth": 13,
+        "rise": 9,
+        "steps": 18
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 96,
+        "b": 125,
+        "base": 29,
+        "depth": 23,
+        "rise": 17,
+        "steps": 28
+      }
+    ],
+    "evidence": "structure",
+    "sources": [
+      {
+        "url": "https://www.hangzhou2022.cn/dgyy/ed/202203/t20220329_46060.shtml",
+        "note": "亚运官方确认 80800 席、田径跑道；三层看台轮廓、间距与坡度估算，未取得可靠票面分区编号。"
+      }
+    ],
+    "track": true,
+    "pitch": [
+      68,
+      105
+    ]
+  },
+  "hangzhou-olympic-arena": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.75,
+    "floor": [
+      44,
+      68
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 24,
+        "b": 36,
+        "base": 1,
+        "depth": 17,
+        "rise": 9,
+        "steps": 24
+      },
+      {
+        "id": "middle",
+        "name": "上层看台",
+        "a": 36,
+        "b": 48,
+        "base": 14,
+        "depth": 17,
+        "rise": 12,
+        "steps": 22
+      }
+    ],
+    "evidence": "dimension",
+    "sources": [
+      {
+        "url": "https://www.hangzhou2022.cn/shipin/202310/P020231016575248816044.pdf#page=79",
+        "note": "亚运官方确认约18000席，冰场尺寸60×30m（只作可用内场下限）；导视图显示上下看台。内场边界及看台坡度为估算，导视图没有票面区号。"
+      },
+      {
+        "url": "https://www.hangzhou2022.cn/hzhyn/hlhz/202109/t20210924_39388.shtml",
+        "note": "官方披露60×30m冰场；不把冰场尺寸等同建筑外围或全部内场。"
+      }
+    ]
+  },
+  "incheon-asiad": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      130,
+      190
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "2F 看台",
+        "a": 66,
+        "b": 96,
+        "base": 1,
+        "depth": 23,
+        "rise": 11,
+        "steps": 28
+      },
+      {
+        "id": "middle",
+        "name": "5F 西侧上层",
+        "a": 85,
+        "b": 115,
+        "base": 23,
+        "depth": 17,
+        "rise": 12,
+        "steps": 22
+      }
+    ],
+    "evidence": "structure",
+    "sources": [
+      {
+        "url": "https://tkfile.yes24.com/Upload2/Board/202509/20250909/MAP.jpg",
+        "note": "仁川市官网公布场地21383㎡、29376席及田径跑道；YES24图仅支持对应演出开放的看台，几何与舞台为估算，未补造关闭区域区号。"
+      }
+    ],
+    "track": true,
+    "pitch": [
+      68,
+      105
+    ]
+  },
+  "marvel-stadium": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      128,
+      160
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "Level 1",
+        "a": 65,
+        "b": 81,
+        "base": 1,
+        "depth": 21,
+        "rise": 11,
+        "steps": 28
+      },
+      {
+        "id": "middle",
+        "name": "Level 2",
+        "a": 81,
+        "b": 97,
+        "base": 15,
+        "depth": 10,
+        "rise": 7,
+        "steps": 16
+      },
+      {
+        "id": "upper",
+        "name": "Level 3",
+        "a": 88,
+        "b": 104,
+        "base": 27,
+        "depth": 23,
+        "rise": 17,
+        "steps": 30
+      }
+    ],
+    "evidence": "plan",
+    "sources": [
+      {
+        "url": "https://resources.marvelstadium.mediaservices.com.au/marvelstadium/document/2026/05/01/229e0479-1ed7-4192-82bb-8a712de920c9/Marvel-Stadium-Public-Stadium-Map_APR26.pdf",
+        "note": "2026年官方图确认 Level 1/2/3 与 Aisle 1–48；尺寸按球场与看台形态估算。上层通道图不等于精确座区边界；未把企业包厢 C/D 环误标成普通楼层。"
+      }
+    ]
+  },
+  "olympic-hall": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.75,
+    "floor": [
+      24,
+      38
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "F 伸缩座席",
+        "a": 11,
+        "b": 14,
+        "base": 0.3,
+        "depth": 7,
+        "rise": 3,
+        "steps": 11
+      },
+      {
+        "id": "middle",
+        "name": "1F 看台",
+        "a": 14,
+        "b": 20,
+        "base": 1.2,
+        "depth": 9,
+        "rise": 5,
+        "steps": 13
+      },
+      {
+        "id": "upper",
+        "name": "2F 看台",
+        "a": 19,
+        "b": 25,
+        "base": 7.5,
+        "depth": 8,
+        "rise": 6,
+        "steps": 13
+      }
+    ],
+    "evidence": "dimension",
+    "sources": [
+      {
+        "url": "https://www.ksponco.or.kr/attachFiles/download/kspo/form3_8.jpg",
+        "note": "官方平面图有69m横向建筑轴网、71m纵向轴网，不能直接当内场尺寸；按轴网比例估算内场约24×38m。官方座位图区分C1–C3前后排楼层及F伸缩席。"
+      },
+      {
+        "url": "https://www.ksponco.or.kr/attachFiles/download/kspo/olympichall_1.pdf",
+        "note": "地上一层建筑平面，内场按轴网比例读图，层高未测量。"
+      }
+    ],
+    "oneSided": true,
+    "layouts": [
+      "end"
+    ],
+    "stage": {
+      "width": 18,
+      "depth": 10,
+      "z": 25,
+      "height": 1.2
+    }
+  },
+  "hwajeong-gymnasium": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.75,
+    "floor": [
+      32,
+      55
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "1–2F 固定看台",
+        "a": 16,
+        "b": 27.5,
+        "base": 1,
+        "depth": 11,
+        "rise": 8,
+        "steps": 27
+      }
+    ],
+    "evidence": "dimension",
+    "sources": [
+      {
+        "url": "https://kuhj.korea.ac.kr/_res/kuhj/etc/pdf_seat01.pdf",
+        "note": "高丽大学官方公布主场地32×55m、舞台25×11m；A–N为同一固定看台带，VIP伸缩席不当固定区。官网舞台高度8m不解释成舞台台面高度。"
+      },
+      {
+        "url": "https://kuhj.korea.ac.kr/kuhj/facility/main.do",
+        "note": "32×55m场地与25×11m舞台尺寸来源；看台坡度和舞台台面高度为估算。"
+      }
+    ],
+    "layouts": [
+      "end"
+    ],
+    "stage": {
+      "width": 25,
+      "depth": 11,
+      "z": 33,
+      "height": 1.2
+    }
+  },
+  "jangchung-arena": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      36,
+      40
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层可变看台",
+        "a": 19,
+        "b": 21,
+        "base": 0.5,
+        "depth": 7,
+        "rise": 4,
+        "steps": 10
+      },
+      {
+        "id": "middle",
+        "name": "上层看台",
+        "a": 24,
+        "b": 26,
+        "base": 6.5,
+        "depth": 11,
+        "rise": 8,
+        "steps": 18
+      }
+    ],
+    "evidence": "structure",
+    "sources": [
+      {
+        "url": "https://www.sisul.or.kr/open_content/jangchung/guidance/seat.jsp",
+        "note": "首尔设施公团确认4507席（含1324可变席）、圆形场馆与下上层结构；建筑屋顶高26.53m不作看台高度。官方座位页可访问但图文件下载失败，暂不杜撰字母区号。"
+      }
+    ],
+    "roofHeight": 26.53
+  },
+  "broadway-theatre": {
+    "revision": "VM-02",
+    "shape": "fan",
+    "power": 1,
+    "floor": [
+      30,
+      20
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "池座",
+        "a": 15,
+        "b": 9,
+        "base": 0.3,
+        "depth": 19,
+        "rise": 6.5,
+        "steps": 27
+      },
+      {
+        "id": "middle",
+        "name": "后部楼座",
+        "a": 19,
+        "b": 27,
+        "base": 10,
+        "depth": 8,
+        "rise": 5,
+        "steps": 10
+      }
+    ],
+    "evidence": "plan",
+    "sources": [
+      {
+        "url": "https://img.galaxymacau.com/2019-09/floor-plan.pdf#page=6",
+        "note": "银河官方PDF第6页展示扇形池座和后部楼座；2019册3000席与现售票页2500席不同，不用旧总席数生成排座。图未清晰标出可核验票面区号，先保留方位。"
+      }
+    ],
+    "oneSided": true,
+    "layouts": [
+      "end"
+    ],
+    "stage": {
+      "width": 20,
+      "depth": 8,
+      "z": 14,
+      "height": 1.2
+    }
+  },
+  "kintex-hall-1": {
+    "revision": "VM-02",
+    "shape": "rectangle",
+    "power": 0.5,
+    "floor": [
+      63,
+      171
+    ],
+    "tiers": [],
+    "evidence": "dimension",
+    "sources": [
+      {
+        "url": "https://www.kintex.com/web/ko/html/facility/exhibition_facility_01.do",
+        "note": "官方第1展览中心第1厅，平面约63×171m、净高15m；仅模拟单厅。演唱会座席、舞台及拼厅范围由主办方另定。"
+      },
+      {
+        "url": "https://www.kintex.com/download/formatModal/KINTEX_Organizer%27s%20Guide.pdf",
+        "note": "官方主办方指南；6厅旧英文细表93×61m与5580㎡相矛盾，采用当前韩文官网93×60m。1/5及9/10非完整矩形，采用包络尺寸而非把乘积当净面积。"
+      }
+    ],
+    "roofHeight": 15,
+    "hallDivisions": 1
+  },
+  "kintex-hall-2": {
+    "revision": "VM-02",
+    "shape": "rectangle",
+    "power": 0.5,
+    "floor": [
+      63,
+      171
+    ],
+    "tiers": [],
+    "evidence": "dimension",
+    "sources": [
+      {
+        "url": "https://www.kintex.com/web/ko/html/facility/exhibition_facility_01.do",
+        "note": "官方第1展览中心第2厅，平面约63×171m、净高15m；仅模拟单厅。演唱会座席、舞台及拼厅范围由主办方另定。"
+      },
+      {
+        "url": "https://www.kintex.com/download/formatModal/KINTEX_Organizer%27s%20Guide.pdf",
+        "note": "官方主办方指南；6厅旧英文细表93×61m与5580㎡相矛盾，采用当前韩文官网93×60m。1/5及9/10非完整矩形，采用包络尺寸而非把乘积当净面积。"
+      }
+    ],
+    "roofHeight": 15,
+    "hallDivisions": 1
+  },
+  "kintex-hall-3": {
+    "revision": "VM-02",
+    "shape": "rectangle",
+    "power": 0.5,
+    "floor": [
+      63,
+      171
+    ],
+    "tiers": [],
+    "evidence": "dimension",
+    "sources": [
+      {
+        "url": "https://www.kintex.com/web/ko/html/facility/exhibition_facility_01.do",
+        "note": "官方第1展览中心第3厅，平面约63×171m、净高15m；仅模拟单厅。演唱会座席、舞台及拼厅范围由主办方另定。"
+      },
+      {
+        "url": "https://www.kintex.com/download/formatModal/KINTEX_Organizer%27s%20Guide.pdf",
+        "note": "官方主办方指南；6厅旧英文细表93×61m与5580㎡相矛盾，采用当前韩文官网93×60m。1/5及9/10非完整矩形，采用包络尺寸而非把乘积当净面积。"
+      }
+    ],
+    "roofHeight": 15,
+    "hallDivisions": 1
+  },
+  "kintex-hall-4": {
+    "revision": "VM-02",
+    "shape": "rectangle",
+    "power": 0.5,
+    "floor": [
+      63,
+      171
+    ],
+    "tiers": [],
+    "evidence": "dimension",
+    "sources": [
+      {
+        "url": "https://www.kintex.com/web/ko/html/facility/exhibition_facility_01.do",
+        "note": "官方第1展览中心第4厅，平面约63×171m、净高15m；仅模拟单厅。演唱会座席、舞台及拼厅范围由主办方另定。"
+      },
+      {
+        "url": "https://www.kintex.com/download/formatModal/KINTEX_Organizer%27s%20Guide.pdf",
+        "note": "官方主办方指南；6厅旧英文细表93×61m与5580㎡相矛盾，采用当前韩文官网93×60m。1/5及9/10非完整矩形，采用包络尺寸而非把乘积当净面积。"
+      }
+    ],
+    "roofHeight": 15,
+    "hallDivisions": 1
+  },
+  "kintex-hall-5": {
+    "revision": "VM-02",
+    "shape": "rectangle",
+    "power": 0.5,
+    "floor": [
+      63,
+      171
+    ],
+    "tiers": [],
+    "evidence": "dimension",
+    "sources": [
+      {
+        "url": "https://www.kintex.com/web/ko/html/facility/exhibition_facility_01.do",
+        "note": "官方第1展览中心第5厅，平面约63×171m、净高15m；仅模拟单厅。演唱会座席、舞台及拼厅范围由主办方另定。"
+      },
+      {
+        "url": "https://www.kintex.com/download/formatModal/KINTEX_Organizer%27s%20Guide.pdf",
+        "note": "官方主办方指南；6厅旧英文细表93×61m与5580㎡相矛盾，采用当前韩文官网93×60m。1/5及9/10非完整矩形，采用包络尺寸而非把乘积当净面积。"
+      }
+    ],
+    "roofHeight": 15,
+    "hallDivisions": 1
+  },
+  "kintex-hall-6": {
+    "revision": "VM-02",
+    "shape": "rectangle",
+    "power": 0.5,
+    "floor": [
+      60,
+      93
+    ],
+    "tiers": [],
+    "evidence": "dimension",
+    "sources": [
+      {
+        "url": "https://www.kintex.com/web/ko/html/facility/exhibition_facility_02.do",
+        "note": "官方第2展览中心第6厅，平面约60×93m、净高10m；仅模拟单厅。演唱会座席、舞台及拼厅范围由主办方另定。"
+      },
+      {
+        "url": "https://www.kintex.com/download/formatModal/KINTEX_Organizer%27s%20Guide.pdf",
+        "note": "官方主办方指南；6厅旧英文细表93×61m与5580㎡相矛盾，采用当前韩文官网93×60m。1/5及9/10非完整矩形，采用包络尺寸而非把乘积当净面积。"
+      }
+    ],
+    "roofHeight": 10,
+    "hallDivisions": 1
+  },
+  "kintex-hall-7": {
+    "revision": "VM-02",
+    "shape": "rectangle",
+    "power": 0.5,
+    "floor": [
+      90,
+      126
+    ],
+    "tiers": [],
+    "evidence": "dimension",
+    "sources": [
+      {
+        "url": "https://www.kintex.com/web/ko/html/facility/exhibition_facility_02.do",
+        "note": "官方第2展览中心第7厅，平面约90×126m、净高12m；仅模拟单厅。演唱会座席、舞台及拼厅范围由主办方另定。"
+      },
+      {
+        "url": "https://www.kintex.com/download/formatModal/KINTEX_Organizer%27s%20Guide.pdf",
+        "note": "官方主办方指南；6厅旧英文细表93×61m与5580㎡相矛盾，采用当前韩文官网93×60m。1/5及9/10非完整矩形，采用包络尺寸而非把乘积当净面积。"
+      }
+    ],
+    "roofHeight": 12,
+    "hallDivisions": 1
+  },
+  "kintex-hall-8": {
+    "revision": "VM-02",
+    "shape": "rectangle",
+    "power": 0.5,
+    "floor": [
+      90,
+      126
+    ],
+    "tiers": [],
+    "evidence": "dimension",
+    "sources": [
+      {
+        "url": "https://www.kintex.com/web/ko/html/facility/exhibition_facility_02.do",
+        "note": "官方第2展览中心第8厅，平面约90×126m、净高12m；仅模拟单厅。演唱会座席、舞台及拼厅范围由主办方另定。"
+      },
+      {
+        "url": "https://www.kintex.com/download/formatModal/KINTEX_Organizer%27s%20Guide.pdf",
+        "note": "官方主办方指南；6厅旧英文细表93×61m与5580㎡相矛盾，采用当前韩文官网93×60m。1/5及9/10非完整矩形，采用包络尺寸而非把乘积当净面积。"
+      }
+    ],
+    "roofHeight": 12,
+    "hallDivisions": 1
+  },
+  "kintex-hall-9": {
+    "revision": "VM-02",
+    "shape": "rectangle",
+    "power": 0.5,
+    "floor": [
+      99,
+      132
+    ],
+    "tiers": [],
+    "evidence": "dimension",
+    "sources": [
+      {
+        "url": "https://www.kintex.com/web/ko/html/facility/exhibition_facility_02.do",
+        "note": "官方第2展览中心第9厅，平面约99×132m、净高15m；仅模拟单厅。演唱会座席、舞台及拼厅范围由主办方另定。"
+      },
+      {
+        "url": "https://www.kintex.com/download/formatModal/KINTEX_Organizer%27s%20Guide.pdf",
+        "note": "官方主办方指南；6厅旧英文细表93×61m与5580㎡相矛盾，采用当前韩文官网93×60m。1/5及9/10非完整矩形，采用包络尺寸而非把乘积当净面积。"
+      }
+    ],
+    "roofHeight": 15,
+    "hallDivisions": 1
+  },
+  "kintex-hall-10": {
+    "revision": "VM-02",
+    "shape": "rectangle",
+    "power": 0.5,
+    "floor": [
+      99,
+      132
+    ],
+    "tiers": [],
+    "evidence": "dimension",
+    "sources": [
+      {
+        "url": "https://www.kintex.com/web/ko/html/facility/exhibition_facility_02.do",
+        "note": "官方第2展览中心第10厅，平面约99×132m、净高15m；仅模拟单厅。演唱会座席、舞台及拼厅范围由主办方另定。"
+      },
+      {
+        "url": "https://www.kintex.com/download/formatModal/KINTEX_Organizer%27s%20Guide.pdf",
+        "note": "官方主办方指南；6厅旧英文细表93×61m与5580㎡相矛盾，采用当前韩文官网93×60m。1/5及9/10非完整矩形，采用包络尺寸而非把乘积当净面积。"
+      }
+    ],
+    "roofHeight": 15,
+    "hallDivisions": 1
+  },
+  "londoner-theatre": {
+    "revision": "VM-02",
+    "shape": "fan",
+    "power": 1,
+    "floor": [
+      30,
+      16
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层池座",
+        "a": 16,
+        "b": 8,
+        "base": 0.3,
+        "depth": 24,
+        "rise": 10,
+        "steps": 30
+      },
+      {
+        "id": "middle",
+        "name": "上层楼座",
+        "a": 22,
+        "b": 29,
+        "base": 12,
+        "depth": 14,
+        "rise": 6,
+        "steps": 16
+      }
+    ],
+    "evidence": "plan",
+    "sources": [
+      {
+        "url": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/theatre/lm_theatre_floor-plan.pdf",
+        "note": "官方单页图标示101–303下层与401–503上层，各编号段左右分三块；下层1260席、上层422席。两层不是五层；区号位置按图录入，水平尺寸、坡度和逐排数为模型估算。"
+      }
+    ],
+    "oneSided": true,
+    "layouts": [
+      "end"
+    ],
+    "stage": {
+      "width": 16,
+      "depth": 6,
+      "z": 10,
+      "height": 1.2
+    }
+  },
+  "union-hall": {
+    "revision": "VM-02",
+    "shape": "rectangle",
+    "power": 0.5,
+    "floor": [
+      47.5,
+      98
+    ],
+    "tiers": [],
+    "evidence": "dimension",
+    "sources": [
+      {
+        "url": "https://unionhallthailand.com/room/hall-1-and-hall-2/",
+        "note": "官网分开列出Hall 1和Hall 2：本条为Hall 2，47.5×98m、净高10m、剧院式4620人。Hall 1不是本模型。"
+      },
+      {
+        "url": "https://unionhallthailand.com/wp-content/uploads/2019/08/UNION-HALL-PLAN-HALL-OVERVIEW.pdf",
+        "note": "官方建筑平面区分H-1/H-2；无固定演出票区编号。按单厅平地建模，活动临时阶梯和排座需具体场次资料。"
+      }
+    ],
+    "roofHeight": 10,
+    "hallDivisions": 1,
+    "layouts": [
+      "end",
+      "thrust"
+    ]
+  },
+  "bitec-live": {
+    "revision": "VM-02",
+    "shape": "rear",
+    "power": 0.5,
+    "floor": [
+      120,
+      59
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "2F 固定看台",
+        "a": 58,
+        "b": 29.5,
+        "base": 6,
+        "depth": 14,
+        "rise": 4,
+        "steps": 9
+      }
+    ],
+    "evidence": "dimension",
+    "sources": [
+      {
+        "url": "https://wordpress-1328545-5763448.cloudwaysapps.com/wp-content/uploads/2025/09/Fast-Fact-BITEC-Live-as-of-25.10.2024.pdf",
+        "note": "官方尺寸为120×59m、净高12m；二层Amphitheater为116×14m、1411固定席。本预览将示意舞台置于长边固定看台对侧；看台基高、坡度与排数推算，非逐座测绘。"
+      },
+      {
+        "url": "https://www.bitec.co.th/wp-content/uploads/2025/08/Fact-Sheet-2025.pdf",
+        "note": "2025容量表区分South stage与East stage；本模型未绑定具体演出的朝向，不把会展EH厅或两种活动布置混为一体。"
+      }
+    ],
+    "oneSided": true,
+    "roofHeight": 12,
+    "layouts": [
+      "end"
+    ],
+    "stage": {
+      "width": 22,
+      "depth": 10,
+      "z": 23,
+      "height": 1.5
+    }
+  },
+  "beijing-workers-stadium": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.65,
+    "floor": [
+      85,
+      125
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 42.5,
+        "b": 62.5,
+        "base": 1,
+        "depth": 21,
+        "rise": 12,
+        "steps": 27
+      },
+      {
+        "id": "middle",
+        "name": "中层看台",
+        "a": 61,
+        "b": 81,
+        "base": 16,
+        "depth": 10,
+        "rise": 7,
+        "steps": 14
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 67,
+        "b": 87,
+        "base": 27,
+        "depth": 24,
+        "rise": 17,
+        "steps": 30
+      }
+    ],
+    "evidence": "structure",
+    "sources": [
+      {
+        "url": "https://www.beijing.gov.cn/ywdt/gzdt/202210/t20221009_2830364.html",
+        "note": "2023新工体为无跑道专业足球场；官方介绍东西首排距草坪8.5m、南北10m。以标准68×105m球场加距离构成85×125m下层内缘；上层包络、层高与坡度仍是结构估算。"
+      },
+      {
+        "url": "https://www.sinobo.com/bjgrtyg",
+        "note": "运营方资料用于区分新工人体育场、老工体及工人体育馆；尚未取得可独立核验的完整票面分区图，保留明确的方位示意。"
+      }
+    ],
+    "track": false,
+    "pitch": [
+      68,
+      105
+    ],
+    "layouts": [
+      "end",
+      "thrust",
+      "center"
+    ]
+  },
+  "suzhou-sports-center-gymnasium": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.6,
+    "floor": [
+      38,
+      60
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 21,
+        "b": 32,
+        "base": 1.2,
+        "depth": 10,
+        "rise": 5.5,
+        "steps": 16
+      },
+      {
+        "id": "middle",
+        "name": "上层看台",
+        "a": 29,
+        "b": 40,
+        "base": 9,
+        "depth": 13,
+        "rise": 8,
+        "steps": 20
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.jszwfw.gov.cn/art/2016/11/7/art_95371_133120.html",
+        "note": "江苏政务服务网确认三香路1131号体育馆约6000席，与1151号体育场、园区苏州奥体中心分别建档。38×60m内场、两层剖面及坡度为初步建模估算，非官方尺寸或逐座测绘；未核验永久分区编号。"
+      }
+    ],
+    "layouts": [
+      "end",
+      "thrust",
+      "center"
+    ]
+  },
+  "shenzhen-universiade-stadium": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      110,
+      180
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 56,
+        "b": 91,
+        "base": 1.5,
+        "depth": 21,
+        "rise": 10,
+        "steps": 27
+      },
+      {
+        "id": "middle",
+        "name": "中层看台",
+        "a": 74,
+        "b": 109,
+        "base": 15,
+        "depth": 17,
+        "rise": 11,
+        "steps": 23
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 87,
+        "b": 122,
+        "base": 31,
+        "depth": 22,
+        "rise": 17,
+        "steps": 29
+      }
+    ],
+    "evidence": "structure",
+    "sources": [
+      {
+        "url": "https://www.sz2011.org/cg/xjcg/20652.shtml",
+        "note": "2011大运会官网确认体育场为6万席、高中低三层碗形看台，设标准9道400米跑道。按田径场结构估算110×180m内场包络；看台内缘、层高、坡度和模型台阶数均未测绘，不作为真实排座号。"
+      },
+      {
+        "url": "https://wtl.sz.gov.cn/ggfw/tyl/zytycgylb/content/post_11664507.html",
+        "note": "深圳市文化广电旅游体育局确认体育场位于龙翔大道3001号；不与黄阁路99号大运中心体育馆混用。"
+      }
+    ],
+    "track": true,
+    "pitch": [
+      68,
+      105
+    ],
+    "layouts": [
+      "end",
+      "thrust",
+      "center"
+    ]
+  },
+  "shenzhen-bay-gymnasium": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.58,
+    "floor": [
+      40,
+      70
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 22,
+        "b": 37,
+        "base": 1.2,
+        "depth": 15,
+        "rise": 8,
+        "steps": 21
+      },
+      {
+        "id": "middle",
+        "name": "上层看台",
+        "a": 34,
+        "b": 49,
+        "base": 13,
+        "depth": 18,
+        "rise": 12,
+        "steps": 25
+      }
+    ],
+    "evidence": "dimension",
+    "sources": [
+      {
+        "url": "https://www.sz2011.org/cg/xjcg/3873.shtml",
+        "note": "大运会官网提供体育馆比赛场地长70米、宽40米，约1.3万席；用于内场尺寸锚点。两层看台内缘、层高、坡度及模型台阶数仍为估算，尚未核验完整永久分区编号。"
+      },
+      {
+        "url": "https://www.szns.gov.cn/mlns/whns/tycg/content/post_12589347.html",
+        "note": "南山区政府确认深圳湾体育中心别称春茧，包括2万席体育场与1.3万席体育馆；本记录仅为室内体育馆。春蚕作为用户常用误写检索别名。"
+      }
+    ],
+    "layouts": [
+      "end",
+      "thrust",
+      "center"
+    ]
+  },
+  "chengdu-dongan-lake-gymnasium": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.6,
+    "floor": [
+      44,
+      72
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 24,
+        "b": 38,
+        "base": 1.2,
+        "depth": 15,
+        "rise": 8,
+        "steps": 21
+      },
+      {
+        "id": "middle",
+        "name": "中层看台",
+        "a": 36,
+        "b": 50,
+        "base": 13,
+        "depth": 11,
+        "rise": 7,
+        "steps": 18
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 45,
+        "b": 59,
+        "base": 24,
+        "depth": 15,
+        "rise": 10,
+        "steps": 24
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.cscec.com/xwzx_new/zqydt_new/202009/3193630.html",
+        "note": "建设方确认东安湖一场三馆中包含1.8万座多功能体育馆，与4万座体育场分开建档。内场44×72米、看台层次与坡度为初步模型估算，未取得完整永久票区及逐排逐座图。"
+      }
+    ],
+    "layouts": [
+      "end",
+      "thrust",
+      "center"
+    ]
+  },
+  "chengdu-wuliangye-gymnasium": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.6,
+    "floor": [
+      42,
+      70
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 23,
+        "b": 37,
+        "base": 1.2,
+        "depth": 16,
+        "rise": 9,
+        "steps": 23
+      },
+      {
+        "id": "middle",
+        "name": "中层看台",
+        "a": 36,
+        "b": 50,
+        "base": 14,
+        "depth": 10,
+        "rise": 6,
+        "steps": 16
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 44,
+        "b": 58,
+        "base": 24,
+        "depth": 17,
+        "rise": 12,
+        "steps": 27
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://tradeinservices.mofcom.gov.cn/article/difang/maoydt/202506/176951.html",
+        "note": "核对五粮液文化体育中心综合体育馆名称及演出用途，与同园区专业足球场分开。内场42×70米、三层示意剖面与台阶数为初步估算，不作为官方层数、尺寸或实际排座。"
+      }
+    ],
+    "layouts": [
+      "end",
+      "thrust",
+      "center"
+    ]
+  },
+  "haikou-wuyuanhe-stadium": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      110,
+      180
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 56,
+        "b": 91,
+        "base": 1.5,
+        "depth": 21,
+        "rise": 10,
+        "steps": 27
+      },
+      {
+        "id": "middle",
+        "name": "上层看台",
+        "a": 74,
+        "b": 109,
+        "base": 15,
+        "depth": 23,
+        "rise": 14,
+        "steps": 30
+      }
+    ],
+    "evidence": "structure",
+    "sources": [
+      {
+        "url": "https://www.gmp.de/en/news/41/press/4909/a-stadium-with-an-ocean-view-by-gmp",
+        "note": "设计方确认海口五源河体育场设400米跑道及逾4.1万席，西侧为月牙形膜屋盖。内场110×180米及两层模型剖面为估算；当前模型仅表达田径场和环形看台，尚未复原西高东低的不对称看台及屋盖，不代表完整建筑或真实票区。"
+      },
+      {
+        "url": "https://www.sbp.de/en/project/wuyuanhe-stadium/",
+        "note": "结构设计方确认西侧看台明显高于东侧。本次为基础空间预览，非不对称剖面测绘。"
+      }
+    ],
+    "layouts": [
+      "end",
+      "thrust",
+      "center"
+    ],
+    "track": true,
+    "pitch": [
+      68,
+      105
+    ]
+  },
+  "changsha-helong-gymnasium": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.6,
+    "floor": [
+      30,
+      58
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 17,
+        "b": 31,
+        "base": 1.2,
+        "depth": 11,
+        "rise": 6,
+        "steps": 17
+      },
+      {
+        "id": "middle",
+        "name": "上层看台",
+        "a": 26,
+        "b": 40,
+        "base": 10,
+        "depth": 12,
+        "rise": 8,
+        "steps": 21
+      }
+    ],
+    "evidence": "dimension",
+    "sources": [
+      {
+        "url": "https://tyj.hunan.gov.cn/tyj/tslm/tyws/200309/t20030916_3464691.html",
+        "note": "省体育局资料确认室内贺龙体育馆位于侯家塘，比赛大厅58×30米，历史资料约6500席；与毗邻贺龙体育场分别建档。大厅尺寸作为锚点，看台层次、层高、坡度和台阶数为估算，未获得当前正式票区或排座图。"
+      }
+    ],
+    "layouts": [
+      "end",
+      "thrust",
+      "center"
+    ]
+  },
+  "asiaworld-summit-hall-2": {
+    "revision": "VM-02",
+    "shape": "rectangle",
+    "power": 0.25,
+    "floor": [
+      82,
+      100
+    ],
+    "tiers": [],
+    "roofHeight": 10,
+    "evidence": "dimension",
+    "layouts": [
+      "end",
+      "thrust"
+    ],
+    "sources": [
+      {
+        "url": "https://www.asiaworld-expo.com/en-us/planning/capacity-table/",
+        "note": "亚博官方确认 AsiaWorld-Summit 为 2号馆，面积 8,200㎡、净高 10米、剧院式最多 5,000 人；82×100米仅为按面积建立的等面积长方形估算，座椅分块以官方 5,000 人平面图及演出图为准。"
+      }
+    ]
+  },
+  "asiaworld-hall-10": {
+    "revision": "VM-02",
+    "shape": "rectangle",
+    "power": 0.25,
+    "floor": [
+      52,
+      80
+    ],
+    "tiers": [],
+    "evidence": "reference",
+    "layouts": [
+      "end",
+      "center",
+      "thrust"
+    ],
+    "sources": [
+      {
+        "url": "https://www.asiaworld-expo.com/en-us/planning/venues/hall-6-8-n-10/",
+        "note": "官方页面确认独立展厅身份；长宽、舞台和观众区域为估算，未核验本场座位图。不与 Arena 1号馆混用。"
+      }
+    ]
+  },
+  "asiaworld-runway-11": {
+    "revision": "VM-02",
+    "shape": "rectangle",
+    "power": 0.25,
+    "floor": [
+      52,
+      80
+    ],
+    "tiers": [],
+    "evidence": "reference",
+    "layouts": [
+      "end",
+      "center",
+      "thrust"
+    ],
+    "sources": [
+      {
+        "url": "https://www.asiaworld-expo.com/en-us/planning/venues/runway-11/",
+        "note": "官方页面确认独立展厅身份；长宽、舞台和观众区域为估算，未核验本场座位图。不与 Arena 1号馆混用。"
+      }
+    ]
+  },
+  "kbs-arena": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.62,
+    "floor": [
+      20,
+      32
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "固定看台",
+        "a": 11,
+        "b": 17,
+        "base": 1.2,
+        "depth": 7,
+        "rise": 7,
+        "steps": 15
+      }
+    ],
+    "evidence": "plan",
+    "layouts": [
+      "end"
+    ],
+    "stage": {
+      "width": 12,
+      "depth": 6,
+      "z": 13,
+      "height": 1.5
+    },
+    "sources": [
+      {
+        "url": "https://www.kbsarena.com/intro/viewKBSarenaSheet.do?type=arena",
+        "note": "KBS Arena 官方座位图确认固定看台 A–I、中央 J 区及舞台侧开口；官方场馆页公布固定席 2,222 席、场地约 20×32 米。分区边界据图建立，坡度、层高、台阶数和逐排逐座仍为估算。"
+      }
+    ]
+  },
+  "galaxy-g-box": {
+    "revision": "VM-02",
+    "shape": "rectangle",
+    "power": 0.25,
+    "floor": [
+      50,
+      32
+    ],
+    "tiers": [],
+    "evidence": "reference",
+    "layouts": [
+      "end",
+      "thrust",
+      "center"
+    ],
+    "hallDivisions": 1,
+    "sources": [
+      {
+        "url": "https://www.galaxymacau.com/zh-hant/entertainment/performance-venue-infinite-possibilities-galaxy-macau/",
+        "note": "澳门银河官方资料确认 G Box 为最多约 850 人的可变黑盒场地，并列出 OMEGA X 2026年12月5日演出。50×32 米包络为容纳本场非对称侧区的示意估算，不是官方实测尺寸。"
+      }
+    ]
+  },
+  "incheon-munhak-stadium": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      130,
+      190
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "2F 看台",
+        "a": 68,
+        "b": 98,
+        "base": 1,
+        "depth": 23,
+        "rise": 12,
+        "steps": 30
+      },
+      {
+        "id": "middle",
+        "name": "4F 看台",
+        "a": 87,
+        "b": 117,
+        "base": 20,
+        "depth": 20,
+        "rise": 15,
+        "steps": 25
+      }
+    ],
+    "evidence": "plan",
+    "track": true,
+    "pitch": [
+      68,
+      105
+    ],
+    "layouts": [
+      "end"
+    ],
+    "sources": [
+      {
+        "url": "https://www.incheon.go.kr/jp/JP030115/view?contentid=1310265&curPage=6",
+        "note": "仁川市官方页面确认文鹤主体育场身份、地址及49,084人容量；用户提供的两张演出图与场馆指南共同确认 S、N、E 固定看台和上下层关系。看台尺度、坡度、逐排逐座及舞台为估算。"
+      }
+    ]
+  },
+  "huanglong-gymnasium": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      36,
+      52
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 24,
+        "b": 32,
+        "base": 1.2,
+        "depth": 10,
+        "rise": 8,
+        "steps": 17
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 34,
+        "b": 43,
+        "base": 12,
+        "depth": 11,
+        "rise": 10,
+        "steps": 20
+      }
+    ],
+    "evidence": "plan",
+    "layouts": [
+      "end",
+      "thrust",
+      "center"
+    ],
+    "sources": [
+      {
+        "url": "https://www.zjhlsports.cn/changguanzulin/",
+        "note": "浙江省黄龙体育中心官方资料确认体育馆7,922席、建筑面积22,271平方米；用户提供的 HE ART 杭州站图确认固定看台相邻关系与本场内场。尺寸、层高、坡度和逐排逐座为估算。"
+      }
+    ]
+  },
+  "gbk-main-stadium": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      140,
+      210
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "Tribun Lantai 2",
+        "a": 76,
+        "b": 108,
+        "base": 1,
+        "depth": 24,
+        "rise": 12,
+        "steps": 31
+      },
+      {
+        "id": "upper",
+        "name": "Tribun Lantai 4",
+        "a": 96,
+        "b": 128,
+        "base": 20,
+        "depth": 26,
+        "rise": 18,
+        "steps": 34
+      }
+    ],
+    "evidence": "plan",
+    "track": true,
+    "pitch": [
+      68,
+      105
+    ],
+    "layouts": [
+      "end",
+      "center"
+    ],
+    "sources": [
+      {
+        "url": "https://gbk.id/venue/stadion-utama-gelora-bung-karno-1",
+        "note": "GBK 官方场馆页确认主体育场约78,000席、田径跑道及12座大门；2024公开入场指南给出 Lantai 2 的1–12区和 Lantai 4 的1A/1B–12A/12B。几何、层高、坡度和逐排逐座为估算。"
+      },
+      {
+        "url": "https://www.mirifica.net/wp-content/uploads/GUIDEBOOK-GBKINDUPDATE250824.pdf",
+        "note": "2024年8月公开活动指南第7–8、14–15页用于核对两层看台分区和门号；活动颜色仅是当场类别，未写入永久分区。"
+      }
+    ]
+  },
+  "hkcec-hall-5bc": {
+    "revision": "VM-02",
+    "shape": "rectangle",
+    "power": 0.25,
+    "floor": [
+      78,
+      104
+    ],
+    "tiers": [],
+    "roofHeight": 10.5,
+    "evidence": "dimension",
+    "layouts": [
+      "end",
+      "center"
+    ],
+    "stage": {
+      "width": 44,
+      "depth": 10,
+      "z": 45,
+      "height": 1.6
+    },
+    "sources": [
+      {
+        "url": "https://www.hkcec.com/zh/%E5%B1%95%E8%A6%BD%E5%BB%B35BC",
+        "note": "香港会议展览中心官方资料确认展览厅5BC位于5楼，面积8,410平方米，尺寸104×78×10.5米。基础模型保留无永久演唱会座椅的大厅；王菀之×苏打绿2026-02-28的舞台、票档色块及临时后排阶梯由场次布局提供，尺寸、高度与排座为估算，不据此改变大厅永久层级。"
+      }
+    ]
+  },
+  "ajinomoto-stadium": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      135,
+      210
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 72,
+        "b": 110,
+        "base": 1.5,
+        "depth": 22,
+        "rise": 12,
+        "steps": 31
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 93,
+        "b": 131,
+        "base": 20,
+        "depth": 24,
+        "rise": 16,
+        "steps": 24
+      }
+    ],
+    "evidence": "plan",
+    "track": true,
+    "pitch": [
+      71,
+      107
+    ],
+    "layouts": [
+      "end"
+    ],
+    "stage": {
+      "width": 60,
+      "depth": 18,
+      "z": 88,
+      "height": 2.5
+    },
+    "sources": [
+      {
+        "url": "https://www.ajinomotostadium.com/overview/stadium.php",
+        "note": "场馆官方资料确认约4.8万席、两层固定看台及107×71米天然草坪；看台包络、层高、坡度和逐排逐座为估算。"
+      },
+      {
+        "url": "https://www.livehis.com/seat/seat2_ajinomoto.html",
+        "note": "公开历史演唱会示例用于确认常见南侧端台与纵向内场分区关系；内场会随演出改变，本站 A–K 仅为通用预览。"
+      }
+    ]
+  },
+  "asiaworld-viva": {
+    "revision": "reference-20261016",
+    "shape": "rectangle",
+    "power": 0.48,
+    "floor": [
+      68,
+      166
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "后部看台",
+        "a": 28,
+        "b": 32,
+        "base": 0,
+        "depth": 13,
+        "rise": 2.6416,
+        "steps": 14
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://venue.flytix.live/viewer?venue=viva",
+        "note": "参考公开模型的两种连馆布局；座号与三维尺寸含模拟，非本场售票图。"
+      }
+    ],
+    "roofHeight": 10,
+    "layouts": [
+      "end"
+    ]
+  },
+  "shenzhen-baoan-stadium": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      88,
+      140
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "100 看台",
+        "a": 44,
+        "b": 70,
+        "base": 1.5,
+        "depth": 15,
+        "rise": 9,
+        "steps": 22
+      },
+      {
+        "id": "middle",
+        "name": "200 看台",
+        "a": 61,
+        "b": 87,
+        "base": 12,
+        "depth": 13,
+        "rise": 9,
+        "steps": 20
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg",
+        "note": "椭圆形看台与编号顺序按历史图核对；尺寸、坡度、排数和预览舞台均为估算，不提取历史演出票价或内场。"
+      }
+    ],
+    "track": true,
+    "stage": {
+      "width": 32,
+      "depth": 10,
+      "z": -54.6,
+      "height": 2,
+      "facing": 1
+    }
+  },
+  "shenzhen-baoan-gymnasium": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.72,
+    "floor": [
+      46,
+      66
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "200 看台",
+        "a": 23,
+        "b": 33,
+        "base": 2,
+        "depth": 11,
+        "rise": 7,
+        "steps": 14
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://static.maitepiao.com/tickets/2026/09/67868202609231744371800.png",
+        "note": "仅为部分固定看台方位参考，未测绘尺寸与排座。基础预览舞台不代表石凯演唱会，未借用李佳薇内场VIP及票价。"
+      }
+    ],
+    "track": false,
+    "stage": {
+      "width": 20,
+      "depth": 8,
+      "z": -25.740000000000002,
+      "height": 1.6,
+      "facing": 1
+    }
+  },
+  "zhengzhou-olympic-gymnasium": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.65,
+    "floor": [
+      48,
+      62
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 24,
+        "b": 31,
+        "base": 1.5,
+        "depth": 11,
+        "rise": 7,
+        "steps": 14
+      },
+      {
+        "id": "middle",
+        "name": "上层看台",
+        "a": 38,
+        "b": 45,
+        "base": 10,
+        "depth": 10,
+        "rise": 8,
+        "steps": 16
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://maitepiao.oss-accelerate.aliyuncs.com/tickets/2025/05/1a984202505081539158497.jpg",
+        "note": "仅提取固定A–H两层看台编号和相对方位，旋转至C侧端台在上；尺寸、高度和排座为估算，不复用毛不易场次舞台、价格或开放范围。"
+      }
+    ],
+    "track": false,
+    "stage": {
+      "width": 23,
+      "depth": 9,
+      "z": -25,
+      "height": 1.5,
+      "facing": 1
+    }
+  },
+  "nanjing-youth-olympic-gymnasium": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.65,
+    "floor": [
+      43,
+      60
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "100 看台",
+        "a": 21.5,
+        "b": 30,
+        "base": 1.5,
+        "depth": 6.2,
+        "rise": 3,
+        "steps": 6
+      },
+      {
+        "id": "middle",
+        "name": "200 看台",
+        "a": 29,
+        "b": 37,
+        "base": 6,
+        "depth": 6,
+        "rise": 5,
+        "steps": 10
+      },
+      {
+        "id": "upper",
+        "name": "300 看台",
+        "a": 38,
+        "b": 45,
+        "base": 13,
+        "depth": 10,
+        "rise": 8,
+        "steps": 16
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "/maps/xiaozhan-nanjing-202610.jpg",
+        "note": "大麦肖战南京站图核对固定分区。仅记录图中清晰区号；未补造舞台背后未标编号。基础舞台、尺寸、高度、排座为估算；本场使用独立描图。"
+      }
+    ],
+    "stage": {
+      "width": 25.08,
+      "depth": 12.36,
+      "z": -19.74,
+      "height": 1.5,
+      "facing": 1
+    },
+    "track": false
+  },
+  "qingdao-citizen-stadium": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      92,
+      144
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 46,
+        "b": 72,
+        "base": 1.5,
+        "depth": 17,
+        "rise": 10,
+        "steps": 24
+      },
+      {
+        "id": "middle",
+        "name": "上层看台",
+        "a": 65,
+        "b": 91,
+        "base": 14,
+        "depth": 17,
+        "rise": 12,
+        "steps": 28
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://weibo.com/2/detail/5346627721364096",
+        "note": "场馆身份按来源核对；自由预览为完整环形看台方位示意，非票面分区。米制尺度、层高、坡度、排座与预览舞台为估算。演出专属分区另按本场图配置。"
+      }
+    ],
+    "track": true,
+    "stage": {
+      "width": 40,
+      "depth": 12,
+      "z": -52,
+      "height": 2,
+      "facing": 1
+    }
+  },
+  "guangxi-sports-stadium": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      92,
+      144
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 46,
+        "b": 72,
+        "base": 1.5,
+        "depth": 17,
+        "rise": 10,
+        "steps": 24
+      },
+      {
+        "id": "middle",
+        "name": "上层看台",
+        "a": 65,
+        "b": 91,
+        "base": 14,
+        "depth": 17,
+        "rise": 12,
+        "steps": 28
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.taihemusic.cn/news/2218",
+        "note": "场馆身份按来源核对；自由预览为完整环形看台方位示意，非票面分区。米制尺度、层高、坡度、排座与预览舞台为估算。演出专属分区另按本场图配置。"
+      }
+    ],
+    "track": true,
+    "stage": {
+      "width": 40,
+      "depth": 12,
+      "z": -52,
+      "height": 2,
+      "facing": 1
+    }
+  },
+  "shanxi-sports-stadium": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      92,
+      144
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "100 看台",
+        "a": 46,
+        "b": 72,
+        "base": 1.5,
+        "depth": 15,
+        "rise": 9,
+        "steps": 24
+      },
+      {
+        "id": "middle",
+        "name": "200 看台",
+        "a": 63,
+        "b": 89,
+        "base": 12,
+        "depth": 8,
+        "rise": 5,
+        "steps": 14
+      },
+      {
+        "id": "upper",
+        "name": "300 看台",
+        "a": 73,
+        "b": 99,
+        "base": 19,
+        "depth": 16,
+        "rise": 11,
+        "steps": 28
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://cnsdc.org.cn/venue_booking/show-40.html",
+        "note": "场馆身份按来源核对；自由预览为完整环形看台方位示意，非票面分区。米制尺度、层高、坡度、排座与预览舞台为估算。演出专属分区另按本场图配置。"
+      },
+      {
+        "url": "https://ty.bendibao.com/xiuxian/2026316/80358.shtm",
+        "note": "参考2026薛之谦太原站图，仅提取101–144、202–246、301–348固定看台；不复用四面舞台、内场、票价、控台或演出遮挡范围。源图未标201，未推断。尺寸、排座与高度为估算。"
+      }
+    ],
+    "track": true,
+    "stage": {
+      "width": 40,
+      "depth": 12,
+      "z": -52,
+      "height": 2,
+      "facing": 1
+    }
+  },
+  "xiamen-egret-stadium": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      114,
+      86
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "A 看台",
+        "a": 57,
+        "b": 43,
+        "base": 1.5,
+        "depth": 9,
+        "rise": 7,
+        "steps": 18
+      },
+      {
+        "id": "middle",
+        "name": "B 看台",
+        "a": 67,
+        "b": 53,
+        "base": 10,
+        "depth": 7,
+        "rise": 5,
+        "steps": 12
+      },
+      {
+        "id": "upper",
+        "name": "C 看台",
+        "a": 76,
+        "b": 62,
+        "base": 18,
+        "depth": 18,
+        "rise": 14,
+        "steps": 30
+      }
+    ],
+    "evidence": "plan",
+    "sources": [
+      {
+        "url": "https://detail.damai.cn/item.htm?id=1083650546473",
+        "note": "官方票务座位图确认编号及长轴方向、B/C 层右侧开口；尺寸、层高和排座为估算。"
+      }
+    ],
+    "track": true,
+    "stage": {
+      "width": 38,
+      "depth": 10,
+      "z": -30,
+      "height": 2,
+      "facing": 1
+    }
+  },
+  "guangzhou-gba-stadium": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      132,
+      180
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 66,
+        "b": 90,
+        "base": 1.5,
+        "depth": 13,
+        "rise": 9,
+        "steps": 22
+      },
+      {
+        "id": "middle",
+        "name": "中层看台",
+        "a": 81,
+        "b": 105,
+        "base": 13.5,
+        "depth": 13,
+        "rise": 9,
+        "steps": 22
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 96,
+        "b": 120,
+        "base": 25.5,
+        "depth": 13,
+        "rise": 9,
+        "steps": 22
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.gdfa.gd.cn/news/1971",
+        "note": "公开资料核对场馆身份与类型；座位图另列小红书参考。基础场馆尺寸、看台层高与排座均为示意估算，未取得建筑实测图；方位示意区不等于票面区号。"
+      }
+    ]
+  },
+  "wenzhou-olympic-stadium": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      116,
+      166
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 58,
+        "b": 83,
+        "base": 1.5,
+        "depth": 13,
+        "rise": 9,
+        "steps": 22
+      },
+      {
+        "id": "middle",
+        "name": "中层看台",
+        "a": 73,
+        "b": 98,
+        "base": 13.5,
+        "depth": 13,
+        "rise": 9,
+        "steps": 22
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 88,
+        "b": 113,
+        "base": 25.5,
+        "depth": 13,
+        "rise": 9,
+        "steps": 22
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://wdapp.wzrb.com.cn/app_pub/xw/tj/202610/t20261016_635878.html",
+        "note": "公开资料核对场馆身份与类型；座位图另列小红书参考。基础场馆尺寸、看台层高与排座均为示意估算，未取得建筑实测图；方位示意区不等于票面区号。"
+      }
+    ]
+  },
+  "hubei-olympic-arena": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.55,
+    "floor": [
+      48,
+      66
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "看台",
+        "a": 24,
+        "b": 33,
+        "base": 1.5,
+        "depth": 11,
+        "rise": 7,
+        "steps": 18
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.wuhan.gov.cn/hdjl/rdhy/202608/t20260822_2837519.shtml",
+        "note": "公开资料核对场馆身份与类型；座位图另列小红书参考。基础场馆尺寸、看台层高与排座均为示意估算，未取得建筑实测图；方位示意区不等于票面区号。"
+      }
+    ]
+  },
+  "chengdu-dongan-lake-stadium": {
+    "revision": "VM-01",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      90,
+      142
+    ],
+    "track": true,
+    "pitch": [
+      68,
+      105
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台（示意）",
+        "a": 48,
+        "b": 76,
+        "base": 1.5,
+        "depth": 20,
+        "rise": 11,
+        "steps": 28
+      },
+      {
+        "id": "upper",
+        "name": "上层看台（示意）",
+        "a": 68,
+        "b": 96,
+        "base": 16,
+        "depth": 18,
+        "rise": 13,
+        "steps": 30
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://2bur.cscec.com/xwzx6/qykw6/202305/P020230512520523007082.pdf",
+        "note": "4万座主体育场，与1.8万座多功能体育馆分别建档。固定看台按环形体育场作方位示意，内场尺度、层高、坡度、排座及距离均为估算；非实测座位模型。"
+      }
+    ],
+    "layouts": [
+      "end",
+      "thrust",
+      "center"
+    ]
+  },
+  "macau-grand-lisboa-palace": {
+    "revision": "VM-02",
+    "shape": "rectangle",
+    "power": 0.25,
+    "floor": [
+      66,
+      50
+    ],
+    "tiers": [],
+    "evidence": "reference",
+    "layouts": [
+      "end"
+    ],
+    "hallDivisions": 1,
+    "sources": [
+      {
+        "url": "https://168production.kktix.cc/events/hwangminhyun-macau-2026",
+        "note": "演出分区按对应座位图独立建模，阶梯席作为演出布局表面处理；包络尺寸、台高和阶梯高度均为估算，并非实测建筑或完整逐座模型。"
+      }
+    ]
+  },
+  "hong-kong-axa-dreamland": {
+    "revision": "VM-02",
+    "shape": "rectangle",
+    "power": 0.25,
+    "floor": [
+      44,
+      52
+    ],
+    "tiers": [],
+    "evidence": "reference",
+    "layouts": [
+      "end"
+    ],
+    "hallDivisions": 1,
+    "sources": [
+      {
+        "url": "https://tix-get-go.kktix.cc/events/sf9-2026",
+        "note": "演出分区按对应座位图独立建模，阶梯席作为演出布局表面处理；包络尺寸、台高和阶梯高度均为估算，并非实测建筑或完整逐座模型。"
+      }
+    ]
+  },
+  "genting-arena-of-stars": {
+    "revision": "VM-02",
+    "shape": "rectangle",
+    "power": 0.25,
+    "floor": [
+      84,
+      76
+    ],
+    "tiers": [],
+    "evidence": "reference",
+    "layouts": [
+      "end"
+    ],
+    "hallDivisions": 1,
+    "sources": [
+      {
+        "url": "https://www.klook.cn/zh-CN/event-detail/101028010-2025-azorachin-eveai-concert/",
+        "note": "演出分区按对应座位图独立建模，阶梯席作为演出布局表面处理；包络尺寸、台高和阶梯高度均为估算，并非实测建筑或完整逐座模型。"
+      }
+    ]
+  },
+  "zhengzhou-olympic-stadium": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      116,
+      166
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 58,
+        "b": 83,
+        "base": 1.5,
+        "depth": 13,
+        "rise": 9,
+        "steps": 22
+      },
+      {
+        "id": "middle",
+        "name": "中层看台",
+        "a": 73,
+        "b": 98,
+        "base": 13.5,
+        "depth": 11,
+        "rise": 8,
+        "steps": 18
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 86,
+        "b": 111,
+        "base": 24.5,
+        "depth": 14,
+        "rise": 11,
+        "steps": 24
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/69f213710000000036002fb9",
+        "note": "本场票图显示三层环形看台和椭圆内场。沿用现有场馆3D建模方式；尺寸、层高、坡度与排座为估算，非实测逐座模型。"
+      }
+    ],
+    "track": true,
+    "pitch": [
+      68,
+      105
+    ]
+  },
+  "shenzhen-sports-center-stadium": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.65,
+    "floor": [
+      86,
+      124
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 43,
+        "b": 62,
+        "base": 1.5,
+        "depth": 13,
+        "rise": 9,
+        "steps": 22
+      },
+      {
+        "id": "middle",
+        "name": "中层看台",
+        "a": 58,
+        "b": 77,
+        "base": 13,
+        "depth": 9,
+        "rise": 7,
+        "steps": 16
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 69,
+        "b": 88,
+        "base": 23,
+        "depth": 16,
+        "rise": 12,
+        "steps": 26
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://zjj.sz.gov.cn/xxgk/csyjgx/content/post_12884176.html",
+        "note": "改造后为专业足球场，已拆除田径跑道；2026年小红书现场照片支持三层围合看台。沿用现有场馆3D建模方式；尺寸、层高、坡度与排座为估算，非实测逐座模型。"
+      }
+    ],
+    "track": false,
+    "pitch": [
+      68,
+      105
+    ]
+  },
+  "foshan-international-arena": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.6,
+    "floor": [
+      50,
+      68
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "一层看台",
+        "a": 25,
+        "b": 34,
+        "base": 1.5,
+        "depth": 10,
+        "rise": 7,
+        "steps": 18
+      },
+      {
+        "id": "upper",
+        "name": "三层看台",
+        "a": 37,
+        "b": 46,
+        "base": 14,
+        "depth": 11,
+        "rise": 9,
+        "steps": 20
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a0eeeef0000000035031087",
+        "note": "本场图开放1xx及3xx两层看台；不将三层楼号误作三层连续观众席。沿用现有场馆3D建模方式；尺寸、层高、坡度与排座为估算，非实测逐座模型。"
+      }
+    ]
+  },
+  "hefei-sports-center-stadium": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      116,
+      166
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 58,
+        "b": 83,
+        "base": 1.5,
+        "depth": 13,
+        "rise": 9,
+        "steps": 22
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 73,
+        "b": 98,
+        "base": 14.5,
+        "depth": 13,
+        "rise": 9,
+        "steps": 22
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a4f417c0000000015027cfa",
+        "note": "两层看台；VIP1/2和尊享1/2共四块内场，矩形端台，后内场避开控台。同区多票档以原图为准。 沿用既有场馆VM-02模型；尺寸、层高、坡度与排座为估算，非逐座实测。"
+      }
+    ],
+    "track": true,
+    "pitch": [
+      68,
+      105
+    ]
+  },
+  "nanjing-olympic-stadium": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      116,
+      166
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 58,
+        "b": 83,
+        "base": 1.5,
+        "depth": 13,
+        "rise": 9,
+        "steps": 22
+      },
+      {
+        "id": "middle",
+        "name": "中层看台",
+        "a": 73,
+        "b": 98,
+        "base": 14.5,
+        "depth": 13,
+        "rise": 9,
+        "steps": 22
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 88,
+        "b": 113,
+        "base": 27.5,
+        "depth": 13,
+        "rise": 9,
+        "steps": 22
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a5e2cd7000000001d0221e4",
+        "note": "三层看台与14块内场按本场图核对，弧形主舞台连接分叉延伸台。保留原图看台区号，不套用郑州场的区号与坐标。 沿用既有场馆VM-02模型；尺寸、层高、坡度与排座为估算，非逐座实测。"
+      }
+    ],
+    "track": true,
+    "pitch": [
+      68,
+      105
+    ]
+  },
+  "nanchang-international-stadium": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      118,
+      168
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 59,
+        "b": 84,
+        "base": 1.5,
+        "depth": 13,
+        "rise": 9,
+        "steps": 22
+      },
+      {
+        "id": "middle",
+        "name": "中层看台",
+        "a": 74,
+        "b": 99,
+        "base": 14.5,
+        "depth": 13,
+        "rise": 9,
+        "steps": 22
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 89,
+        "b": 114,
+        "base": 27.5,
+        "depth": 13,
+        "rise": 9,
+        "steps": 22
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6aceff1e000000001802ffb4",
+        "note": "本场三层看台、24块内场、十字延伸台，灰色未开放区未列入可选票区；不采用二开预测或作者手绘信息。 沿用既有场馆VM-02模型；尺寸、层高、坡度与排座为估算，非逐座实测。"
+      }
+    ],
+    "track": true,
+    "pitch": [
+      68,
+      105
+    ]
+  },
+  "tokyo-garden-theater": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.68,
+    "floor": [
+      46,
+      54
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "1层楼座（3F）",
+        "a": 23,
+        "b": 27,
+        "base": 6,
+        "depth": 8,
+        "rise": 4.8,
+        "steps": 12
+      },
+      {
+        "id": "middle",
+        "name": "2层楼座（4F）",
+        "a": 25,
+        "b": 29,
+        "base": 13,
+        "depth": 8,
+        "rise": 4.8,
+        "steps": 12
+      },
+      {
+        "id": "upper",
+        "name": "3层楼座（5F）",
+        "a": 27,
+        "b": 31,
+        "base": 20,
+        "depth": 8,
+        "rise": 4.8,
+        "steps": 12
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.shopping-sumitomo-rd.com/tokyo_garden_theater/visitor/floor/",
+        "note": "官网Pattern A的2F内场与三层U形楼座；实际演出可调整内场，不虚构用户未提供的2027场次。 沿用既有场馆VM-02模型；尺寸、层高、坡度与排座为估算，非逐座实测。"
+      }
+    ],
+    "track": false,
+    "roofHeight": 33,
+    "stage": {
+      "width": 36,
+      "depth": 12,
+      "z": 21,
+      "height": 1.5,
+      "facing": -1
+    }
+  },
+  "tianjin-olympic-gymnasium": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.55,
+    "floor": [
+      50,
+      74
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 25,
+        "b": 37,
+        "base": 1.5,
+        "depth": 10,
+        "rise": 7,
+        "steps": 16
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 37,
+        "b": 49,
+        "base": 11.5,
+        "depth": 10,
+        "rise": 7,
+        "steps": 16
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a5329f9000000001101f91f",
+        "note": "原版票图为矩形端台、3×3九块VIP内场（1580）。临时与固定看台分层；细小区号未完全辨清，按方位示意，同区多票档不绑定单价。 沿用既有场馆VM-02模型；尺寸、层高、坡度与排座为估算，非逐座实测。"
+      }
+    ],
+    "track": false,
+    "roofHeight": 33
+  },
+  "chongqing-olympic-stadium": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      116,
+      166
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 58,
+        "b": 83,
+        "base": 1.5,
+        "depth": 13,
+        "rise": 9,
+        "steps": 22
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 73,
+        "b": 98,
+        "base": 14.5,
+        "depth": 13,
+        "rise": 9,
+        "steps": 22
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6acc8c8b00000000140380b7",
+        "note": "两层环形看台，16块内场，单端主舞台连接中央阶梯形短延伸台；作者红圈未纳入模型，不套用南昌十字台。 沿用既有场馆VM-02模型；尺寸、层高、坡度与排座为估算，非逐座实测。"
+      }
+    ],
+    "track": true,
+    "pitch": [
+      68,
+      105
+    ]
+  },
+  "shanghai-jingan-gymnasium": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.5,
+    "floor": [
+      46,
+      74
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "固定看台",
+        "a": 23,
+        "b": 37,
+        "base": 4.5,
+        "depth": 9,
+        "rise": 6,
+        "steps": 14
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a1e5c6b000000000602289b",
+        "note": "官方确认7月4/5日，已纠正原反馈7月24日笔误。8块内场按方位示意；一层固定高架看台，近台两侧标注视线不良。A/B/C为入口，不当作内场块号。 沿用既有场馆VM-02模型；尺寸、层高、坡度与排座为估算，非逐座实测。"
+      }
+    ],
+    "track": false,
+    "roofHeight": 23
+  },
+  "zhuji-xishi-basketball-center": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.55,
+    "floor": [
+      46,
+      62
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 23,
+        "b": 31,
+        "base": 1.5,
+        "depth": 10,
+        "rise": 7,
+        "steps": 16
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 35,
+        "b": 43,
+        "base": 11.5,
+        "depth": 10,
+        "rise": 7,
+        "steps": 16
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/68cb85a4000000001301df84",
+        "note": "2025年历史场次；矩形端台，A1/A2前内场1180、B1/B2后内场980。C/L两层看台保留原图区号，C看台同区含多个票档。 沿用既有场馆VM-02模型；尺寸、层高、坡度与排座为估算，非逐座实测。"
+      }
+    ],
+    "track": false,
+    "roofHeight": 33
+  },
+  "qingdao-guoxin-gymnasium": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.65,
+    "floor": [
+      48,
+      66
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 24,
+        "b": 33,
+        "base": 1.5,
+        "depth": 10,
+        "rise": 7,
+        "steps": 16
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 36,
+        "b": 45,
+        "base": 11.5,
+        "depth": 10,
+        "rise": 7,
+        "steps": 16
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a9d940b0000000026033056",
+        "note": "VIP1/2为L形、VIP3/4外侧缺角。阶梯主舞台与前方小平台按图示建模，虚线通道仅作地面示意，固定高架结构待核验。看台两层、同区跨票档。 沿用既有场馆VM-02模型；尺寸、层高、坡度与排座为估算，非逐座实测。"
+      }
+    ],
+    "track": false,
+    "roofHeight": 33
+  },
+  "foshan-century-lotus-stadium": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      114,
+      164
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 57,
+        "b": 82,
+        "base": 1.5,
+        "depth": 13,
+        "rise": 9,
+        "steps": 22
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 72,
+        "b": 97,
+        "base": 14.5,
+        "depth": 13,
+        "rise": 9,
+        "steps": 22
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/69a3d42f000000002303a9b5",
+        "note": "日期场馆已核对联诚发参与制作的现场报道。2019本场完整座位图尚未找到，当前仅为两层看台的基础场馆预览，不借用2025/2026舞台、内场或票价。 沿用既有场馆VM-02模型；尺寸、层高、坡度与排座为估算，非逐座实测。"
+      }
+    ],
+    "track": true,
+    "pitch": [
+      68,
+      105
+    ]
+  },
+  "qingyuan-sports-center-stadium": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      116,
+      166
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 58,
+        "b": 83,
+        "base": 1.5,
+        "depth": 13,
+        "rise": 9,
+        "steps": 22
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 75,
+        "b": 100,
+        "base": 17,
+        "depth": 12,
+        "rise": 9,
+        "steps": 22
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/66cf4615000000001d01b73f",
+        "note": "原图八块VIP内场、矩形端台；西侧两层，东侧单层深看台。看台同区多票档及视线不良区以原票图为准。 复用现有VM-02场馆绘制方式；尺寸、层高、坡度与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://cn.iamgem.com/tours/",
+        "note": "邓紫棋官方巡演记录，2024年9月21/22日清远"
+      }
+    ],
+    "track": true,
+    "pitch": [
+      68,
+      105
+    ]
+  },
+  "vancouver-rogers-arena": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.55,
+    "floor": [
+      50,
+      78
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "100层看台",
+        "a": 25,
+        "b": 39,
+        "base": 1.5,
+        "depth": 9,
+        "rise": 7,
+        "steps": 17
+      },
+      {
+        "id": "upper",
+        "name": "300层看台",
+        "a": 35,
+        "b": 49,
+        "base": 10.5,
+        "depth": 9,
+        "rise": 7,
+        "steps": 17
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a77bd90000000002500292f",
+        "note": "Ticketmaster与小红书核对端台加中央延伸平台，FLOOR为坐席，中央后方MIX留空；100/300两层，包厢不加整圈。 复用现有VM-02场馆绘制方式；尺寸、层高、坡度与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.ticketmaster.ca/aespa-live-tour-synk-complxity-in-vancouver-british-columbia-10-11-2026/event/11006494D8E6A5FC",
+        "note": "Ticketmaster，2026-10-11 20:00"
+      }
+    ],
+    "track": false,
+    "roofHeight": 40
+  },
+  "jinan-olympic-stadium": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      116,
+      170
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 58,
+        "b": 85,
+        "base": 1.5,
+        "depth": 12,
+        "rise": 9,
+        "steps": 22
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 71,
+        "b": 98,
+        "base": 13.5,
+        "depth": 12,
+        "rise": 9,
+        "steps": 22
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6ac8e96b000000001500186b",
+        "note": "采用10月9日票图：20块内场、短T形舞台、200/400两层看台；看台部分票档曾调整，舞台后重复灰色区号未录入。 复用现有VM-02场馆绘制方式；尺寸、层高、坡度与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.jinanaoti.com/enterprise_qualification?tab=3",
+        "note": "济南奥体中心场馆介绍"
+      }
+    ],
+    "track": true,
+    "pitch": [
+      68,
+      105
+    ]
+  },
+  "shenzhen-universiade-gymnasium": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.55,
+    "floor": [
+      78,
+      64
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "100层看台",
+        "a": 39,
+        "b": 32,
+        "base": 1.5,
+        "depth": 9,
+        "rise": 7,
+        "steps": 17
+      },
+      {
+        "id": "middle",
+        "name": "200层看台",
+        "a": 49,
+        "b": 42,
+        "base": 10.5,
+        "depth": 9,
+        "rise": 7,
+        "steps": 17
+      },
+      {
+        "id": "upper",
+        "name": "300层看台",
+        "a": 59,
+        "b": 52,
+        "base": 19.5,
+        "depth": 9,
+        "rise": 7,
+        "steps": 17
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/69aebdeb000000001b01d889",
+        "note": "中央四面台，A/B和C1/C2、D1/D2共6块坐席；100、200、300三层，300高层只在两侧，包厢侧不补整圈。 复用现有VM-02场馆绘制方式；尺寸、层高、坡度与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.gmp.de/de/projekte/531/sportzentrum-universiade-2011",
+        "note": "设计方gmp确认18000座体育馆，与体育场分开"
+      }
+    ],
+    "track": false,
+    "roofHeight": 40
+  },
+  "sydney-accor-stadium": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      94,
+      164
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 47,
+        "b": 82,
+        "base": 1.5,
+        "depth": 22,
+        "rise": 12,
+        "steps": 22
+      },
+      {
+        "id": "middle",
+        "name": "中层看台",
+        "a": 71,
+        "b": 106,
+        "base": 16,
+        "depth": 10,
+        "rise": 8,
+        "steps": 22
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 84,
+        "b": 119,
+        "base": 28,
+        "depth": 20,
+        "rise": 16,
+        "steps": 22
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a1e70f2000000000f03ac00",
+        "note": "按Accor官方原图描绘中央椭圆加X形四臂台、55块坐席；100前后带不是不同层，400/600层只在长边，北端317–321独立看台。没有田径跑道。 复用现有VM-02场馆绘制方式；尺寸、层高、坡度与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.accorstadium.com.au/events/bts_world_tour_arirang_show_1",
+        "note": "Accor官网原票图，2027-02-20/21"
+      }
+    ],
+    "track": false,
+    "pitch": [
+      68,
+      105
+    ]
+  },
+  "xuzhou-olympic-stadium": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      116,
+      170
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 58,
+        "b": 85,
+        "base": 1.5,
+        "depth": 12,
+        "rise": 9,
+        "steps": 22
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 71,
+        "b": 98,
+        "base": 13.5,
+        "depth": 12,
+        "rise": 9,
+        "steps": 22
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a86d490000000002402623c",
+        "note": "官方确认为2026年主体育场，已纠正原反馈的2025年体育馆；二开版T形台、14块内场，新增5/20/51/58区。上层仅长边。 复用现有VM-02场馆绘制方式；尺寸、层高、坡度与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.thepaper.cn/newsDetail_forward_33850638",
+        "note": "政务发布确认2026-08-25/26/28/29 19:00主体育场"
+      }
+    ],
+    "track": true,
+    "pitch": [
+      68,
+      105
+    ]
+  },
+  "xian-olympic-stadium": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      116,
+      172
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 58,
+        "b": 86,
+        "base": 1.5,
+        "depth": 12,
+        "rise": 9,
+        "steps": 22
+      },
+      {
+        "id": "middle",
+        "name": "中层看台",
+        "a": 71,
+        "b": 99,
+        "base": 13.5,
+        "depth": 12,
+        "rise": 9,
+        "steps": 22
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 84,
+        "b": 112,
+        "base": 25.5,
+        "depth": 12,
+        "rise": 9,
+        "steps": 22
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/64be14040000000010032ffd",
+        "note": "采用2023年大麦原图，8块内场与矩形端台，无延伸台；200/300/500三层看台，400包厢不作第四层。 复用现有VM-02场馆绘制方式；尺寸、层高、坡度与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://sn.ifeng.com/c/8S0IWkwJxYp",
+        "note": "西安市委网信办供稿，2023-08-06 19:30"
+      }
+    ],
+    "track": true,
+    "pitch": [
+      68,
+      105
+    ]
+  },
+  "nanjing-olympic-gymnasium": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.55,
+    "floor": [
+      54,
+      72
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "3F 看台",
+        "a": 27,
+        "b": 36,
+        "base": 1.5,
+        "depth": 9,
+        "rise": 7,
+        "steps": 17
+      },
+      {
+        "id": "middle",
+        "name": "5F 看台",
+        "a": 38,
+        "b": 47,
+        "base": 12,
+        "depth": 8,
+        "rise": 5,
+        "steps": 17
+      },
+      {
+        "id": "upper",
+        "name": "6F 看台",
+        "a": 46,
+        "b": 55,
+        "base": 17.5,
+        "depth": 7,
+        "rise": 5,
+        "steps": 17
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6ab63a08000000001b01f2c4",
+        "note": "官网分区图确认为3F、5F、6F三层普通看台，4F包厢；本场矩形端台、VIP1–4四块内场，低看台采用原图标注的后区。 复用现有VM-02场馆绘制方式；尺寸、层高、坡度与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.njaoti.com/fit/venue/?id=3&type=detail",
+        "note": "官网看台图确认3F/5F/6F及4F包厢"
+      }
+    ],
+    "track": false,
+    "roofHeight": 40
+  },
+  "guangzhou-university-town-stadium": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      116,
+      166
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 58,
+        "b": 83,
+        "base": 1.5,
+        "depth": 12,
+        "rise": 9,
+        "steps": 22
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 71,
+        "b": 96,
+        "base": 13.5,
+        "depth": 12,
+        "rise": 9,
+        "steps": 22
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6ad097f4000000001500057c",
+        "note": "弧形主台加中央短凸台、8块内场；3/4区含1080及880，同一看台区可含不同票档及视线不良席。1月2日加场待官方进一步核验，暂未列作确定场次。 复用现有VM-02场馆绘制方式；尺寸、层高、坡度与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://m.weibo.cn/2/detail/5356055999809587",
+        "note": "官方售票公告确认2027年1月1日加场"
+      }
+    ],
+    "track": true,
+    "pitch": [
+      68,
+      105
+    ]
+  },
+  "hangzhou-huanglong-stadium": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      116,
+      170
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 58,
+        "b": 85,
+        "base": 1.5,
+        "depth": 12,
+        "rise": 9,
+        "steps": 22
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 71,
+        "b": 98,
+        "base": 13.5,
+        "depth": 12,
+        "rise": 9,
+        "steps": 22
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6ac4bed9000000001a0304a0",
+        "note": "十字延伸台、16块内场，上下两层固定看台；上层前中后票档是同层径向分带，不误作额外楼层。 复用现有VM-02场馆绘制方式；尺寸、层高、坡度与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.sina.cn/news/detail/5348824618108478.html",
+        "note": "主办官方发布，2026-10-17 19:00"
+      }
+    ],
+    "track": true,
+    "pitch": [
+      68,
+      105
+    ]
+  },
+  "guiyang-olympic-stadium": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      168,
+      116
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 84,
+        "b": 58,
+        "base": 1.5,
+        "depth": 14,
+        "rise": 8,
+        "steps": 24
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 100,
+        "b": 74,
+        "base": 13,
+        "depth": 15,
+        "rise": 10,
+        "steps": 24
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6abc4c330000000018019683",
+        "note": "采用本场字母看台原图；中央四面矩形台和16块内场，A/B上下层分开，其余连续深看台不按票档加楼层。 复用现有VM-02场馆绘制方式；尺寸、层高、坡度与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.sina.cn/news/detail/5348433177351557.html",
+        "note": "主办方阔景官宣2026年10月17/18/24/25日"
+      }
+    ],
+    "track": true,
+    "pitch": [
+      105,
+      68
+    ]
+  },
+  "hangzhou-qiantang-basketball-arena": {
+    "revision": "VM-02",
+    "shape": "rectangle",
+    "power": 0.2,
+    "floor": [
+      50,
+      68
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 25,
+        "b": 34,
+        "base": 1.5,
+        "depth": 10,
+        "rise": 6,
+        "steps": 18
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 36,
+        "b": 45,
+        "base": 9.5,
+        "depth": 10,
+        "rise": 6,
+        "steps": 18
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6ac868ab000000001303e7ae",
+        "note": "QQ音乐巅峰榜原图：矩形端台、A/B/C/D四块内场，南北西三面两层矩形看台；680/480为同一上层前后票档。 复用现有VM-02场馆绘制方式；尺寸、层高、坡度与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.sina.cn/news/detail/5352100587372975.html",
+        "note": "QQ音乐官方生日会公告，2026-10-31 19:00"
+      }
+    ],
+    "track": false,
+    "roofHeight": 32
+  },
+  "hebei-olympic-stadium": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      116,
+      168
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 58,
+        "b": 84,
+        "base": 1.5,
+        "depth": 14,
+        "rise": 9,
+        "steps": 24
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 73,
+        "b": 99,
+        "base": 13.5,
+        "depth": 14,
+        "rise": 9,
+        "steps": 24
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6822a6f8000000002300dc44",
+        "note": "大麦原图：A/B/C/D共12块内场、矩形端台加短直延伸台；两层普通看台，上层仅长边。 复用现有VM-02场馆绘制方式；尺寸、层高、坡度与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.weibo.com/7785024037/PwviOjvnF",
+        "note": "纷玩岛2025年6月14/15日演出公告"
+      }
+    ],
+    "track": true,
+    "pitch": [
+      68,
+      105
+    ]
+  },
+  "chengdu-financial-city-arena": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.8,
+    "floor": [
+      50,
+      70
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 25,
+        "b": 35,
+        "base": 1.5,
+        "depth": 10,
+        "rise": 6,
+        "steps": 18
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 36,
+        "b": 46,
+        "base": 9.5,
+        "depth": 10,
+        "rise": 6,
+        "steps": 18
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6ad88264000000002a010fe2",
+        "note": "本场原图：VIP2/1/3与A2/1/3共6块内场，舞台端永久开口的马蹄形看台；200和500两层，300/400包厢不作普通看台圈。 复用现有VM-02场馆绘制方式；尺寸、层高、坡度与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.sina.cn/news/detail/5354615273947884.html",
+        "note": "大麦确认2026年11月21日19:00"
+      }
+    ],
+    "track": false,
+    "roofHeight": 30
+  },
+  "sanya-egret-stadium": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      116,
+      168
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 58,
+        "b": 84,
+        "base": 1.5,
+        "depth": 14,
+        "rise": 9,
+        "steps": 24
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 73,
+        "b": 99,
+        "base": 13.5,
+        "depth": 14,
+        "rise": 9,
+        "steps": 24
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/693e07a0000000001e0149e0",
+        "note": "2026新年音乐会实际演出为2025年12月；大麦原图12块内场、宽直延伸台、两层普通看台，300包厢不单独加层。 复用现有VM-02场馆绘制方式；尺寸、层高、坡度与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.sina.cn/news/detail/5247547073365375.html",
+        "note": "三亚市官方发布，2025年12月26/27/28日17:30"
+      }
+    ],
+    "track": true,
+    "pitch": [
+      68,
+      105
+    ]
+  },
+  "chongqing-expo-s1-hall": {
+    "revision": "VM-02",
+    "shape": "rectangle",
+    "power": 0.15,
+    "floor": [
+      90,
+      130
+    ],
+    "tiers": [],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a7686d1000000003301f2dc",
+        "note": "S1为无固定看台的平层展厅；A/B平层、C低阶梯和D后排临时坡台，票价分带不作额外楼层。按已核对本场布局作为场馆默认预览。 复用现有VM-02场馆绘制方式；尺寸、层高、坡度与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://sina.cn/news/detail/5329255585022472.html",
+        "note": "TF家族FanClub官宣2026年8月22/23日"
+      }
+    ],
+    "track": false,
+    "roofHeight": 16
+  },
+  "guangzhou-gymnasium-hall-1": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.5,
+    "floor": [
+      54,
+      80
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 27,
+        "b": 40,
+        "base": 1.5,
+        "depth": 8,
+        "rise": 4,
+        "steps": 13
+      },
+      {
+        "id": "middle",
+        "name": "中层看台",
+        "a": 36,
+        "b": 49,
+        "base": 6,
+        "depth": 10,
+        "rise": 7,
+        "steps": 17
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 47,
+        "b": 60,
+        "base": 14,
+        "depth": 5,
+        "rise": 3,
+        "steps": 7
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/67652a4b000000000900d81d",
+        "note": "已核对场馆固定看台总览和现场照片，按三段看台绘制基础预览。王嘉尔广州场专属舞台图尚待核验，当前不提供该场价格、内场分区或演出确认信息。 复用现有VM-02场馆绘制方式；尺寸、层高、坡度与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.mice-gz.org/hz/a/11/1537857989657.html",
+        "note": "广州市会展业公共服务平台场馆资料，常规11466席及24包厢"
+      }
+    ],
+    "track": false,
+    "roofHeight": 32
+  },
+  "changzhou-olympic-stadium": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      116,
+      168
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 58,
+        "b": 84,
+        "base": 1.5,
+        "depth": 14,
+        "rise": 9,
+        "steps": 24
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 73,
+        "b": 99,
+        "base": 13.5,
+        "depth": 14,
+        "rise": 9,
+        "steps": 24
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6abf4dc3000000000a027d48",
+        "note": "本场原图16块内场、长直延伸台，200/300/400区号分属两层普通看台；上层只在两长边，E1–E3包厢不加第三层。 复用现有VM-02场馆绘制方式；尺寸、层高、坡度与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://weibo.com/2/detail/5345207844864265",
+        "note": "周深工作室官宣2026年11月7/8日19:00"
+      }
+    ],
+    "track": true,
+    "pitch": [
+      68,
+      105
+    ]
+  },
+  "harbin-international-convention-gymnasium": {
+    "revision": "VM-02",
+    "shape": "rectangle",
+    "power": 0.2,
+    "floor": [
+      54,
+      74
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 27,
+        "b": 37,
+        "base": 1.5,
+        "depth": 10,
+        "rise": 6,
+        "steps": 18
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 38,
+        "b": 48,
+        "base": 9.5,
+        "depth": 10,
+        "rise": 6,
+        "steps": 18
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6910ade0000000000301e9c6",
+        "note": "大麦原图及小红书核对：矩形端台、A1–A4四块内场，两层矩形看台；上层南北零区为边角480席，普通西区仅低层。 复用现有VM-02场馆绘制方式；尺寸、层高、坡度与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.sina.cn/news/detail/5234321300654737.html",
+        "note": "黄子弘凡工作室确认2025年12月6/7日"
+      }
+    ],
+    "track": false,
+    "roofHeight": 32
+  },
+  "belluna-dome": {
+    "revision": "VM-02",
+    "shape": "baseball",
+    "power": 1,
+    "floor": [
+      146,
+      160
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "连续看台",
+        "a": 73,
+        "b": 80,
+        "base": 1.2,
+        "depth": 33,
+        "rise": 20,
+        "steps": 55
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6aba1da400000000150069df",
+        "note": "按西武狮官方球场图绘制连续单层碗形基础看台，环形走道不作额外楼层。JxJ 2026年11月21/22日已官宣，但本场内场与舞台图未核实，暂不提供专属布局。 复用现有VM-02场馆绘制方式；尺寸、层高、坡度与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.seibulions.jp/cmn/images/ticket/2026/dome/seat_2026.pdf",
+        "note": "西武狮官方固定座位图，演出内场配置另定"
+      },
+      {
+        "url": "https://www.seibulions.jp/stadium/dome.html",
+        "note": "官方尺度锚点：两翼100m、中外野122m、屋顶最高64.5m；看台剖面仍为估算。"
+      }
+    ],
+    "track": false,
+    "diamond": [
+      100,
+      122
+    ],
+    "radial": [
+      47,
+      60,
+      73,
+      80,
+      80
+    ],
+    "roofHeight": 64.5
+  },
+  "dongguan-sports-center-gymnasium": {
+    "revision": "VM-02",
+    "shape": "rectangle",
+    "power": 0.2,
+    "floor": [
+      28,
+      46
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "连续看台",
+        "a": 14,
+        "b": 23,
+        "base": 0.6,
+        "depth": 12,
+        "rise": 7,
+        "steps": 18
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a12d6f1000000000803c6ac",
+        "note": "2025改造后的老体育馆，3988席；长边连续坡台、短边较低，横通道不是额外楼层。用户未指定演出，提供基础预览。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.baygames.cn/node_19d1ca3d6f/43c1db6001.shtml",
+        "note": "十五运会官方老馆资料"
+      }
+    ],
+    "track": false,
+    "roofHeight": 17
+  },
+  "luoyang-olympic-stadium": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      168,
+      116
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 84,
+        "b": 58,
+        "base": 1.5,
+        "depth": 14,
+        "rise": 9,
+        "steps": 24
+      },
+      {
+        "id": "middle",
+        "name": "中层看台",
+        "a": 99,
+        "b": 73,
+        "base": 13.5,
+        "depth": 14,
+        "rise": 9,
+        "steps": 24
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 114,
+        "b": 88,
+        "base": 25.5,
+        "depth": 14,
+        "rise": 9,
+        "steps": 24
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a167195000000000702b88c",
+        "note": "本场原图中央矩形四面台和12块内场；三层真实看台，中上层仅在两长边。同区价格带不增加楼层。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://detail.damai.cn/item.htm?id=1050747499269",
+        "note": "大麦本场演出日期"
+      }
+    ],
+    "track": true,
+    "pitch": [
+      105,
+      68
+    ]
+  },
+  "qingdao-guoxin-stadium": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      116,
+      168
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 58,
+        "b": 84,
+        "base": 1.5,
+        "depth": 14,
+        "rise": 9,
+        "steps": 24
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 73,
+        "b": 99,
+        "base": 13.5,
+        "depth": 14,
+        "rise": 9,
+        "steps": 24
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6ac49c8e0000000018004a42",
+        "note": "本场票图端台和长直延伸、14块内场；票面二层及四层对应两层看台，不是四层。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://3g.sina.com.cn/news/detail/5348444352808324.html",
+        "note": "王源工作室青岛官宣"
+      }
+    ],
+    "track": true,
+    "pitch": [
+      68,
+      105
+    ]
+  },
+  "dalian-sports-center-stadium": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      116,
+      168
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 58,
+        "b": 84,
+        "base": 1.5,
+        "depth": 14,
+        "rise": 9,
+        "steps": 24
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 73,
+        "b": 99,
+        "base": 13.5,
+        "depth": 14,
+        "rise": 9,
+        "steps": 24
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/686274bd0000000020018bed",
+        "note": "采用大麦最终票图，非自绘第二图；12内场、短直延伸与菱形末端，真实上下两圈。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.sina.cn/news/detail/5183204447487733.html",
+        "note": "时代少年团FanClub大连2025官宣"
+      }
+    ],
+    "track": true,
+    "pitch": [
+      68,
+      105
+    ]
+  },
+  "guiyang-new-gymnasium": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.65,
+    "floor": [
+      41.2,
+      71.8
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 20.6,
+        "b": 35.9,
+        "base": 1.5,
+        "depth": 10,
+        "rise": 6,
+        "steps": 18
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 31.6,
+        "b": 46.9,
+        "base": 9.5,
+        "depth": 10,
+        "rise": 6,
+        "steps": 18
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6ac9ff69000000001800493e",
+        "note": "业主确认11341席、场地71.8×41.2米；矩形端台和4VIP区，两层普通看台，后侧300区低于两侧400区，包厢不增加一圈。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://gytzkg.com/item/15-4650-1.html",
+        "note": "贵阳投控场馆业主资料"
+      }
+    ],
+    "track": false,
+    "roofHeight": 32
+  },
+  "jinan-olympic-gymnasium": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.65,
+    "floor": [
+      50,
+      68
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 25,
+        "b": 34,
+        "base": 1.5,
+        "depth": 10,
+        "rise": 6,
+        "steps": 18
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 36,
+        "b": 45,
+        "base": 9.5,
+        "depth": 10,
+        "rise": 6,
+        "steps": 18
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/67cfa0f5000000002901b051",
+        "note": "大麦原图矩形端台和A1/A2/B1/B2四块内场；二层及四层是两层看台，3000包厢不作第三层。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.qlwb.com.cn/detail/25866407.html",
+        "note": "济南地铁演出交通公告"
+      }
+    ],
+    "track": false,
+    "roofHeight": 32
+  },
+  "tianjin-olympic-stadium": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      116,
+      168
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 58,
+        "b": 84,
+        "base": 1.5,
+        "depth": 14,
+        "rise": 9,
+        "steps": 24
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 73,
+        "b": 99,
+        "base": 13.5,
+        "depth": 14,
+        "rise": 9,
+        "steps": 24
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/69d2102b00000000220298d5",
+        "note": "端台、长直延伸及后方圆形控台，A/B/C六块内场。200及500/600区号属于两层真实看台。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.sina.cn/news/detail/5302425338513624.html",
+        "note": "人民文娱天津演出报道"
+      }
+    ],
+    "track": true,
+    "pitch": [
+      68,
+      105
+    ]
+  },
+  "haikou-wuyuanhe-gymnasium": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.65,
+    "floor": [
+      58,
+      76
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 29,
+        "b": 38,
+        "base": 1.5,
+        "depth": 10,
+        "rise": 6,
+        "steps": 18
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 40,
+        "b": 49,
+        "base": 9.5,
+        "depth": 10,
+        "rise": 6,
+        "steps": 18
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a155b4000000000350206c9",
+        "note": "四块内场站席、两层看台坐席；短直延伸加菱形末端，价格分带不是楼层。区别同体育中心体育场。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://news.hainan.net/wenti/wentiliebiao/2026/06/29/4805435.shtml",
+        "note": "海口旅游演出报道"
+      }
+    ],
+    "track": false,
+    "roofHeight": 32
+  },
+  "hong-kong-macpherson-stadium": {
+    "revision": "VM-02",
+    "shape": "rectangle",
+    "power": 0.2,
+    "floor": [
+      20.5,
+      37
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "连续看台",
+        "a": 10.25,
+        "b": 18.5,
+        "base": 0.5,
+        "depth": 7,
+        "rise": 4.5,
+        "steps": 12
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6aafb4340000000014010537",
+        "note": "主办票图：前VIP后A两块站席，三面一层浅坡坐席。价格为港币，右后角B区不能镜像复制；官网场地37×20.5米。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://kard.bstage.in/notice/6ab1e768d9599d6c570195d5",
+        "note": "KARD官方香港场公告"
+      }
+    ],
+    "track": false,
+    "roofHeight": 12.5
+  },
+  "jiaxing-sports-center-stadium": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      116,
+      168
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 58,
+        "b": 84,
+        "base": 1.5,
+        "depth": 14,
+        "rise": 9,
+        "steps": 24
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 73,
+        "b": 99,
+        "base": 13.5,
+        "depth": 14,
+        "rise": 9,
+        "steps": 24
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6ab9f4ae0000000018006c3d",
+        "note": "纷玩岛原图16内场、宽端台和短圆头延伸；实景确认东西两层、南侧低层，400/500受限视线单独标记。反馈所写体育馆已纠正为本场体育场。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://weibo.com/2/detail/5334337060082552",
+        "note": "CMELive主办嘉兴公告"
+      }
+    ],
+    "track": true,
+    "pitch": [
+      68,
+      105
+    ]
+  },
+  "zhenjiang-sports-exhibition-stadium": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      116,
+      168
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 58,
+        "b": 84,
+        "base": 1.5,
+        "depth": 14,
+        "rise": 9,
+        "steps": 24
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 73,
+        "b": 99,
+        "base": 13.5,
+        "depth": 14,
+        "rise": 9,
+        "steps": 24
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6acf369c0000000012036e26",
+        "note": "端台短圆头延伸、16内场；全周下层分前后价格带，独立上层仅L/M/N侧，不能补成全环双层。用户11月27日已按大麦更正。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.sina.cn/news/detail/5354222649606679.html",
+        "note": "大麦镇江官宣"
+      }
+    ],
+    "track": true,
+    "pitch": [
+      68,
+      105
+    ]
+  },
+  "wuhan-five-rings-stadium": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      116,
+      168
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 58,
+        "b": 84,
+        "base": 1.5,
+        "depth": 14,
+        "rise": 9,
+        "steps": 24
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 73,
+        "b": 99,
+        "base": 13.5,
+        "depth": 14,
+        "rise": 9,
+        "steps": 24
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6ac8a6e5000000000100ba25",
+        "note": "主办明确主体育场，纠正反馈体育馆；短矩形延伸和14内场，上下两层。公开图区号有歧义，仅作示意，不声称官方分区已确认。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://3g.sina.com.cn/news/detail/5341584994338485.html",
+        "note": "天娱传媒武汉主体育场官宣"
+      }
+    ],
+    "track": true,
+    "pitch": [
+      68,
+      105
+    ]
+  },
+  "urumqi-olympic-gymnasium": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.65,
+    "floor": [
+      50,
+      72
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 25,
+        "b": 36,
+        "base": 1.5,
+        "depth": 10,
+        "rise": 6,
+        "steps": 18
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 36,
+        "b": 47,
+        "base": 9.5,
+        "depth": 10,
+        "rise": 6,
+        "steps": 18
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a6dedf700000000060047e9",
+        "note": "实景两层大看台，中间包厢及下层横向通道不增加楼层。仅基础场馆；陈小春10月25日对应城市和场次仍待核。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://deco.cscec.com/xwzx/jyjb/202008/3162691.html",
+        "note": "中建装饰综合体育馆施工资料"
+      }
+    ],
+    "track": false,
+    "roofHeight": 32
+  },
+  "los-angeles-kia-forum": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      66,
+      48
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 33,
+        "b": 24,
+        "base": 1.5,
+        "depth": 10,
+        "rise": 6,
+        "steps": 18
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 44,
+        "b": 35,
+        "base": 9.5,
+        "depth": 10,
+        "rise": 6,
+        "steps": 18
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/69bad892000000002302452b",
+        "note": "主办原图中央方形四面台、两层满环、无内场观众；票价以美元US$显示，原图无区号，用方位示意，不编区号。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://thekiaforum.com/event/rene-liu/",
+        "note": "Kia Forum刘若英官方演出页"
+      }
+    ],
+    "track": false,
+    "roofHeight": 32
+  },
+  "los-angeles-the-novo": {
+    "revision": "VM-02",
+    "shape": "rectangle",
+    "power": 0.2,
+    "floor": [
+      28,
+      40
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "后部楼座",
+        "a": 14,
+        "b": 12,
+        "base": 5,
+        "depth": 8,
+        "rise": 5,
+        "steps": 12
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/69b93185000000002300517f",
+        "note": "平地站席和后方一片弧形抬高楼座；前黑后黄为同一坡台。暂无袁娅维本场分区图，仅基础预览，不把VIP Upgrade画成独立票区。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.thenovodtla.com/special-events/",
+        "note": "The Novo官方容量和楼座资料"
+      }
+    ],
+    "track": false,
+    "roofHeight": 18
+  },
+  "sanya-egret-gymnasium": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.65,
+    "floor": [
+      50,
+      72
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 25,
+        "b": 36,
+        "base": 1.5,
+        "depth": 10,
+        "rise": 6,
+        "steps": 18
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 36,
+        "b": 47,
+        "base": 9.5,
+        "depth": 10,
+        "rise": 6,
+        "steps": 18
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6ad2e625000000001803be3f",
+        "note": "采用海南广电10月11日和后续出票图：4内场A1/A2/B1/B2，短矩形延伸；早期6内场版本废弃。上下两层，包厢不增加楼层。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://finance.sina.cn/2026-10-11/detail-iniuvxsm8859615.d.html",
+        "note": "海南广电最终演出票图"
+      }
+    ],
+    "track": false,
+    "roofHeight": 32
+  },
+  "yantai-bajiaowan-gymnasium": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.65,
+    "floor": [
+      50,
+      72
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 25,
+        "b": 36,
+        "base": 1.5,
+        "depth": 10,
+        "rise": 6,
+        "steps": 18
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 36,
+        "b": 47,
+        "base": 9.5,
+        "depth": 8,
+        "rise": 5,
+        "steps": 14
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a883b8300000000030294aa",
+        "note": "最终二开图与真实出票吻合：4VIP内场1680/1280，平直端台无延伸；200/400是两层普通看台，300包厢不是第三层。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a90f1040000000025010f33",
+        "note": "悠游黄渤海官方观演指南"
+      }
+    ],
+    "track": false,
+    "roofHeight": 32
+  },
+  "chengdu-hightech-gymnasium": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.65,
+    "floor": [
+      40,
+      70
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 20,
+        "b": 35,
+        "base": 1.5,
+        "depth": 10,
+        "rise": 6,
+        "steps": 18
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 31,
+        "b": 46,
+        "base": 9.5,
+        "depth": 10,
+        "rise": 6,
+        "steps": 18
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/69e1ef82000000001a02650f",
+        "note": "本场4VIP内场1680/1280、平直端台无延伸；真实上下两层中间包厢。反馈5月1日按官宣修正至5月2/3日，开演时间未充分核实留空。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.sina.cn/news/detail/5293764194602662.html",
+        "note": "成都地铁演出交通公告"
+      }
+    ],
+    "track": false,
+    "roofHeight": 32
+  },
+  "hangzhou-olympic-tennis-center": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      54,
+      64
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 27,
+        "b": 32,
+        "base": 1.5,
+        "depth": 10,
+        "rise": 6,
+        "steps": 18
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 38,
+        "b": 43,
+        "base": 9.5,
+        "depth": 10,
+        "rise": 6,
+        "steps": 18
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6acf7241000000001303dbb0",
+        "note": "端台无延伸，4内场均1380。蓝色下层前后通道两带为同一坡层，上层红色大看台；重复西4/东1区号注明前后部，不增加真实楼层。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.hangzhou2022.cn/paragames/ss/sscg/202204/t20220427_48101.shtml",
+        "note": "杭州亚残运会网球中心资料"
+      }
+    ],
+    "track": false,
+    "roofHeight": 32
+  },
+  "xiamen-phoenix-gymnasium": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.65,
+    "floor": [
+      72,
+      50
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 36,
+        "b": 25,
+        "base": 1.5,
+        "depth": 10,
+        "rise": 6,
+        "steps": 18
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 47,
+        "b": 36,
+        "base": 9.5,
+        "depth": 10,
+        "rise": 6,
+        "steps": 18
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a671047000000001d00f3f1",
+        "note": "原票图中央方形四面台，左A1/A2前区、右B2/B1前区4块；A层前1720后1520，B层999/720/520带。两层大看台，中间包厢不另作第三层。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.sina.cn/news/detail/5325710123075439.html",
+        "note": "厦门文旅演出公告"
+      }
+    ],
+    "track": false,
+    "roofHeight": 32
+  },
+  "kunming-tuodong-stadium": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      116,
+      168
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 58,
+        "b": 84,
+        "base": 1.5,
+        "depth": 16,
+        "rise": 10,
+        "steps": 24
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 75,
+        "b": 101,
+        "base": 15,
+        "depth": 20,
+        "rise": 13,
+        "steps": 24
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6ad9b1e900000000250079bb",
+        "note": "官方确认11月28日演出，但尚无可靠本场座位图。成都参考图不借作昆明票图；现仅两层固定看台的基础场馆。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.kunming.cn/news/c/2026-05-08/14039212.shtml",
+        "note": "昆明信息港拓东改造实景"
+      }
+    ],
+    "track": true,
+    "pitch": [
+      68,
+      105
+    ]
+  },
+  "changsha-qicai-box-f": {
+    "revision": "VM-02",
+    "shape": "rectangle",
+    "power": 0.2,
+    "floor": [
+      56,
+      76
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "L2池座",
+        "a": 27,
+        "b": 18,
+        "base": 1.2,
+        "depth": 14,
+        "rise": 7,
+        "steps": 18
+      },
+      {
+        "id": "upper",
+        "name": "L3/L4楼座",
+        "a": 28,
+        "b": 26,
+        "base": 11,
+        "depth": 16,
+        "rise": 9,
+        "steps": 24
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6acdb2ab000000001c01fe18",
+        "note": "官方票图六块平层席，L2池座加一个楼座；L3和L4仅同一楼座前后部，不增加物理楼层。G1至G10和G11至G13票价分别建图，不采用早鸟折扣价。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://news.17173.com/content/10122026/160407192.shtml",
+        "note": "KPL官方淘汰赛购票指南转载"
+      }
+    ],
+    "track": false,
+    "roofHeight": 29
+  },
+  "wuxi-olympic-stadium": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      116,
+      168
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 58,
+        "b": 84,
+        "base": 1.5,
+        "depth": 17,
+        "rise": 11,
+        "steps": 24
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 76,
+        "b": 102,
+        "base": 17,
+        "depth": 24,
+        "rise": 16,
+        "steps": 24
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6ad4d0d7000000001e034b61",
+        "note": "新建六万人体育场，不是旧无锡体育中心；实景上下两层大看台。预约页确认演出但未取得可信官方票图，排除AI改图，仅收录基础场馆。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.sbp.de/zh-hans/project/无锡奥体中心/",
+        "note": "场馆设计方无锡奥体资料"
+      }
+    ],
+    "track": true,
+    "pitch": [
+      68,
+      105
+    ]
+  },
+  "chongqing-huaxi-ecm-center": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.65,
+    "floor": [
+      50,
+      72
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 25,
+        "b": 36,
+        "base": 1.5,
+        "depth": 12,
+        "rise": 8,
+        "steps": 22
+      },
+      {
+        "id": "middle",
+        "name": "中层看台",
+        "a": 38,
+        "b": 49,
+        "base": 14,
+        "depth": 12,
+        "rise": 8,
+        "steps": 22
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 51,
+        "b": 62,
+        "base": 27,
+        "depth": 4,
+        "rise": 2,
+        "steps": 4
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/68c37903000000001b01e542",
+        "note": "按官方交通通告及大麦图更正为2025年10月3日。中央四面台无内场观众。100、500、600是三层；600吊台仅三侧少量排，包厢不作普通看台层。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.cqnews.net/1/detail/1423653997445898240/web/content_1423653997445898240.html",
+        "note": "华龙网官方交通公告"
+      }
+    ],
+    "track": false,
+    "roofHeight": 35
+  },
+  "paris-stade-de-france": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      116,
+      168
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 58,
+        "b": 84,
+        "base": 1.5,
+        "depth": 14,
+        "rise": 9,
+        "steps": 24
+      },
+      {
+        "id": "middle",
+        "name": "中层看台",
+        "a": 73,
+        "b": 99,
+        "base": 14,
+        "depth": 12,
+        "rise": 8,
+        "steps": 24
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 86,
+        "b": 112,
+        "base": 27,
+        "depth": 20,
+        "rise": 14,
+        "steps": 24
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/686debe4000000002400c4f0",
+        "note": "场馆官方2025票图与小红书交叉核对；空心三角形舞台包围PIT站区，其余地面分座席。三层固定看台；类别和票价不确定处保留示意，绝不把欧元标成人民币。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.stadefrance.com/fr/node?page=35",
+        "note": "法兰西体育场BLACKPINK2025官方票图"
+      }
+    ],
+    "track": true,
+    "pitch": [
+      68,
+      105
+    ]
+  },
+  "linyi-olympic-park-stadium": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      116,
+      168
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 58,
+        "b": 84,
+        "base": 1.5,
+        "depth": 16,
+        "rise": 10,
+        "steps": 24
+      },
+      {
+        "id": "middle",
+        "name": "中层看台",
+        "a": 75,
+        "b": 101,
+        "base": 15,
+        "depth": 7,
+        "rise": 4,
+        "steps": 12
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 83,
+        "b": 109,
+        "base": 23,
+        "depth": 17,
+        "rise": 11,
+        "steps": 24
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a8441e30000000026036ae9",
+        "note": "短圆头T台、A1至A4/B1至B4/C1/C2十内场；2层、3层、5层对应三层固定看台，包厢不增加层数，侧后受限票单列。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://wgxj.linyi.gov.cn/info/1003/75317.htm",
+        "note": "临沂文旅演出公告"
+      }
+    ],
+    "track": true,
+    "pitch": [
+      68,
+      105
+    ]
+  },
+  "wuhan-sports-center-gymnasium": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.65,
+    "floor": [
+      56,
+      76
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 28,
+        "b": 38,
+        "base": 1,
+        "depth": 14,
+        "rise": 9,
+        "steps": 18
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 43,
+        "b": 53,
+        "base": 14,
+        "depth": 12,
+        "rise": 8,
+        "steps": 18
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a4e458b00000000070288d2",
+        "note": "平直端台无延伸，四VIP内场。100/200为同一下层、400/500为同一上层；300夹层少排包厢只按局部面绘制，不多增完整环形看台。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://tyj.wuhan.gov.cn/zwgk_47/fdzdgknr/tjxx/cgtj/202004/t20200429_1187572.html",
+        "note": "武汉市体育局场馆资料"
+      }
+    ],
+    "track": false,
+    "roofHeight": 32
+  },
+  "baotou-olympic-stadium": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      116,
+      168
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 58,
+        "b": 84,
+        "base": 1.5,
+        "depth": 22,
+        "rise": 14,
+        "steps": 24
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 81,
+        "b": 107,
+        "base": 20,
+        "depth": 12,
+        "rise": 8,
+        "steps": 24
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a7b3a7f0000000025007841",
+        "note": "采用包头日报原图，排除小红书第二张重复编号的AI改图。12内场、短星形头延伸；下层全周，独立上层只在西侧202至208，东西侧非对称。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://finance.sina.com.cn/wm/2026-08-12/doc-inimzivt3726769.shtml",
+        "note": "包头日报官方演出票图"
+      }
+    ],
+    "track": true,
+    "pitch": [
+      68,
+      105
+    ]
+  },
+  "baotou-olympic-gymnasium": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.65,
+    "floor": [
+      40,
+      70
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 20,
+        "b": 35,
+        "base": 2,
+        "depth": 8,
+        "rise": 4.5,
+        "steps": 12
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 29,
+        "b": 44,
+        "base": 10,
+        "depth": 13,
+        "rise": 8,
+        "steps": 22
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.nfty.com.cn/index.php?a=index&aid=712&c=View&m=home",
+        "note": "官方体育局及建设方确认6055座蒙古包造型主馆，两层固定看台。小红书同名新羽毛球中心并非本馆，已排除；采用施工方本馆实景建模，无可靠专属演出票图。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.nfty.com.cn/index.php?a=index&aid=712&c=View&m=home",
+        "note": "建设方包头奥体体育馆实景"
+      }
+    ],
+    "track": false,
+    "roofHeight": 27
+  },
+  "fuzhou-strait-olympic-stadium": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      116,
+      168
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 58,
+        "b": 84,
+        "base": 1.5,
+        "depth": 17,
+        "rise": 11,
+        "steps": 24
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 76,
+        "b": 102,
+        "base": 17,
+        "depth": 20,
+        "rise": 14,
+        "steps": 24
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a55cb730000000022014ffb",
+        "note": "原始大麦出票图确认16内场、长延伸台和阶梯心形头，2层固定看台；纠正反馈体育馆为体育场，排除AI生成视角和改图。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.sina.cn/news/detail/5305330637472281.html",
+        "note": "凤凰传奇工作室官宣"
+      }
+    ],
+    "track": true,
+    "pitch": [
+      68,
+      105
+    ]
+  },
+  "shaoxing-olympic-gymnasium": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.5,
+    "floor": [
+      44,
+      68
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "连续看台",
+        "a": 22,
+        "b": 34,
+        "base": 1.5,
+        "depth": 18,
+        "rise": 11,
+        "steps": 28
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/688ef68600000000250214da",
+        "note": "建筑方平面图及小红书现场照片确认单一连续看台，中间通道不另算楼层。2025年8月3日张峻豪票区图仍待核验，本次先提供基础场馆，不编造本场票区。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.gooood.cn/shaoxing-olympic-sports-center-china-aviation-planning-and-design-institute.htm",
+        "note": "中国航空规划设计研究总院提供的建筑图与实景"
+      }
+    ],
+    "track": false,
+    "roofHeight": 27
+  },
+  "guigang-sports-center-stadium": {
+    "revision": "VM-02",
+    "shape": "oval",
+    "power": 1,
+    "floor": [
+      116,
+      168
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 58,
+        "b": 84,
+        "base": 1.5,
+        "depth": 14,
+        "rise": 9,
+        "steps": 24
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 73,
+        "b": 99,
+        "base": 15,
+        "depth": 18,
+        "rise": 12,
+        "steps": 30
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/66a24373000000000d00c4ed",
+        "note": "主办票图和贵港日报确认日期为2024年8月3日，纠正提交年份2021。16内场与短方头T台，上层仅两条长边，下层连续看台。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.ggnews.com.cn/news/yaowen/2024-08-11/88747.html",
+        "note": "贵港日报港人港夜演出报道"
+      }
+    ],
+    "track": true,
+    "pitch": [
+      68,
+      105
+    ]
+  },
+  "melbourne-rod-laver-arena": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.65,
+    "floor": [
+      46,
+      72
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 23,
+        "b": 36,
+        "base": 1,
+        "depth": 15,
+        "rise": 9,
+        "steps": 21
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 39,
+        "b": 52,
+        "base": 14,
+        "depth": 17,
+        "rise": 12,
+        "steps": 16
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6847ff02000000002102db9e",
+        "note": "澳网官方座位图与小红书售票页面核对上下两层固定看台。用户未指定演出；不将其他演出舞台套用为默认正式图，保留基础预览。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.tennis.com.au/doc/ao-rla-map",
+        "note": "澳大利亚网球协会官方座位图"
+      }
+    ],
+    "track": false,
+    "roofHeight": 35
+  },
+  "singapore-mediacorp-theatre": {
+    "revision": "VM-02",
+    "shape": "rectangle",
+    "power": 0.2,
+    "floor": [
+      62,
+      60
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "a": 25,
+        "b": 12,
+        "base": 0.3,
+        "depth": 24,
+        "rise": 6.6,
+        "steps": 19
+      },
+      {
+        "id": "middle",
+        "name": "中层看台",
+        "a": 25,
+        "b": 15,
+        "base": 10,
+        "depth": 10,
+        "rise": 5.4,
+        "steps": 14
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "a": 26,
+        "b": 18,
+        "base": 18,
+        "depth": 12,
+        "rise": 6.2,
+        "steps": 16
+      }
+    ],
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/67c2bacb0000000029029f00",
+        "note": "主办方原图与小红书实景核对：Lower/Upper Stalls同一池座楼层，Circle 1/2为独立两层楼座。保留坡度与控台空位，SGD票价不显示为人民币。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.mediacorp.sg/business/production-venue/resources-event-venues/theatre",
+        "note": "新传媒官方剧院资料"
+      }
+    ],
+    "track": false,
+    "roofHeight": 31,
+    "oneSided": true
+  },
+  "london-the-o2": {
+    "revision": "VM-02",
+    "shape": "rounded",
+    "power": 0.65,
+    "floor": [
+      54,
+      78
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "Level 1",
+        "a": 27,
+        "b": 39,
+        "base": 1,
+        "depth": 15,
+        "rise": 10,
+        "steps": 25
+      },
+      {
+        "id": "upper",
+        "name": "Level 4",
+        "a": 43,
+        "b": 55,
+        "base": 20,
+        "depth": 20,
+        "rise": 18,
+        "steps": 30
+      }
+    ],
+    "roofHeight": 45,
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.theo2.co.uk/events/detail/aespa-2027",
+        "note": "上下两层公众看台分别为Level 1/4，中间包厢不当作两层完整公众看台；18:30仅为开门时间，开演时间待确认。 尺寸、层高、坡度和排座为估算，以现场为准；原币票价不写成人民币。"
+      },
+      {
+        "url": "https://www.xiaohongshu.com/explore/6aca60e1000000001c02f259",
+        "note": "小红书公开原票图／实景交叉核对。"
+      }
+    ]
+  },
+  "singapore-arena-expo": {
+    "revision": "VM-02",
+    "shape": "rectangle",
+    "power": 0.2,
+    "floor": [
+      80,
+      60
+    ],
+    "tiers": [],
+    "roofHeight": 18,
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.instagram.com/p/DPQsQyFkva0/",
+        "note": "展厅内可变座席系统，不建永久环形看台。按本场主办票图还原五个前方座块及三个后块；本场临时台阶高度未核实，当前按同层示意，不由透视图块厚度推断高度。 尺寸、层高、坡度和排座为估算，以现场为准；原币票价不写成人民币。"
+      },
+      {
+        "url": "https://www.xiaohongshu.com/explore/67dacd82000000000d014829",
+        "note": "小红书公开原票图／实景交叉核对。"
+      }
+    ]
+  },
+  "singapore-capitol-theatre": {
+    "revision": "VM-02",
+    "shape": "rectangle",
+    "power": 0.2,
+    "floor": [
+      32,
+      44
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "池座",
+        "a": 15,
+        "b": 14,
+        "base": 0.3,
+        "depth": 18,
+        "rise": 1.5,
+        "steps": 15
+      },
+      {
+        "id": "upper",
+        "name": "楼座",
+        "a": 16,
+        "b": 17,
+        "base": 5.5,
+        "depth": 10,
+        "rise": 4,
+        "steps": 12
+      }
+    ],
+    "roofHeight": 14,
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.instagram.com/p/DOhv_uOCa3T/",
+        "note": "官方内景确认池座及单层挑台；本场楼下VIP/CAT1站席，楼上CAT1/CAT2坐席。不得混同悉尼同名剧院。 尺寸、层高、坡度和排座为估算，以现场为准；原币票价不写成人民币。"
+      },
+      {
+        "url": "https://www.xiaohongshu.com/explore/69ada6f8000000001b017687",
+        "note": "小红书公开原票图／实景交叉核对。"
+      }
+    ],
+    "oneSided": true
+  },
+  "singapore-sands-grand-ballroom": {
+    "revision": "VM-02",
+    "shape": "rectangle",
+    "power": 0.2,
+    "floor": [
+      112,
+      68
+    ],
+    "tiers": [],
+    "roofHeight": 18,
+    "evidence": "reference",
+    "sources": [
+      {
+        "url": "https://www.instagram.com/p/DZ9FXZjDimO/",
+        "note": "官方海报与小红书本场票图核对。101—107/201—205是座块编号，并非永久楼层；未核实的临时台阶高度按同层示意，不能套用金沙剧院。 尺寸、层高、坡度和排座为估算，以现场为准；原币票价不写成人民币。"
+      },
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a3b592f000000000602189b",
+        "note": "小红书公开原票图／实景交叉核对。"
+      }
+    ]
+  }
+}

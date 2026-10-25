@@ -1,0 +1,1766 @@
+{
+  "id": "guangxi-sports-stadium",
+  "name": "广西体育中心主体育场",
+  "city": "中国内地 · 南宁",
+  "capacity": "原站目录未提供统一容量字段",
+  "source": "https://www.taihemusic.cn/news/2218",
+  "sourceTitle": "REA 导出的公开场馆来源索引与参数化座位示意",
+  "sourceLinks": [
+    "https://www.taihemusic.cn/news/2218",
+    "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+  ],
+  "accuracy": {
+    "sectionLabels": "source-layout-reference",
+    "completeSeatInventory": false,
+    "metricCalibrated": false,
+    "stage": "generic",
+    "position": "estimated",
+    "geometryBasis": "source-informed-parametric:reference",
+    "catalogStatus": "source-geometry-and-sections",
+    "seatDataStatus": "section-only",
+    "sourceLayout": "end",
+    "coverage": "99 个来源分区；0 条座位采样。区号来自公开布局参考。",
+    "reuse": "来源页面可公开访问；未建立商业图形、模型或座位数据库再分发许可，发布前需逐源复核。",
+    "sourceDate": "REA capture 2026-10-24",
+    "sourceInventory": {
+      "venueReferenceUrl": "https://www.taihemusic.cn/news/2218",
+      "mapReferenceUrl": null,
+      "sectionSource": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg",
+      "geometryEvidenceLabel": "reference",
+      "note": "Missing asset URL does not establish absence of generated seat geometry."
+    },
+    "seatAsset": null
+  },
+  "tiers": [
+    [
+      46,
+      72,
+      1.5,
+      17,
+      10
+    ],
+    [
+      65,
+      91,
+      14,
+      17,
+      12
+    ]
+  ],
+  "geometry": {
+    "shape": "oval",
+    "coordinateSystem": "profile-inner-radius",
+    "power": 1,
+    "oneSided": false,
+    "stage": {
+      "width": 40,
+      "depth": 12,
+      "z": -52,
+      "height": 2,
+      "facing": 1
+    },
+    "floor": [
+      92,
+      144
+    ],
+    "openBowl": true,
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "steps": 24
+      },
+      {
+        "id": "middle",
+        "name": "上层看台",
+        "steps": 28
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "A1",
+      "ticketLabels": [
+        "A1"
+      ],
+      "sourceLabel": "A1 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.3490658503988659,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "A2",
+      "ticketLabels": [
+        "A2"
+      ],
+      "sourceLabel": "A2 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.3490658503988659,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "A4",
+      "ticketLabels": [
+        "A4"
+      ],
+      "sourceLabel": "A4 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.5969026041820608,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "A3",
+      "ticketLabels": [
+        "A3"
+      ],
+      "sourceLabel": "A3 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.5969026041820608,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "A6",
+      "ticketLabels": [
+        "A6"
+      ],
+      "sourceLabel": "A6 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.8447393579652556,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "A5",
+      "ticketLabels": [
+        "A5"
+      ],
+      "sourceLabel": "A5 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.8447393579652556,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "A7",
+      "ticketLabels": [
+        "A7"
+      ],
+      "sourceLabel": "A7 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.09257611174845,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "A8",
+      "ticketLabels": [
+        "A8"
+      ],
+      "sourceLabel": "A8 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.09257611174845,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "A9",
+      "ticketLabels": [
+        "A9"
+      ],
+      "sourceLabel": "A9 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.340412865531645,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "A10",
+      "ticketLabels": [
+        "A10"
+      ],
+      "sourceLabel": "A10 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.340412865531645,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "A11",
+      "ticketLabels": [
+        "A11"
+      ],
+      "sourceLabel": "A11 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.5882496193148399,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "A12",
+      "ticketLabels": [
+        "A12"
+      ],
+      "sourceLabel": "A12 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.5882496193148399,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "A13",
+      "ticketLabels": [
+        "A13"
+      ],
+      "sourceLabel": "A13 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.8360863730980344,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "A14",
+      "ticketLabels": [
+        "A14"
+      ],
+      "sourceLabel": "A14 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.8360863730980344,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "A15",
+      "ticketLabels": [
+        "A15"
+      ],
+      "sourceLabel": "A15 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.0839231268812295,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "A16",
+      "ticketLabels": [
+        "A16"
+      ],
+      "sourceLabel": "A16 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.0839231268812295,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "A17",
+      "ticketLabels": [
+        "A17"
+      ],
+      "sourceLabel": "A17 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.3317598806644235,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "A18",
+      "ticketLabels": [
+        "A18"
+      ],
+      "sourceLabel": "A18 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.3317598806644235,
+      "halfAngle": 0.10471975511965977,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "C8",
+      "ticketLabels": [
+        "C8"
+      ],
+      "sourceLabel": "C8 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.3911010752322315,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "C9",
+      "ticketLabels": [
+        "C9"
+      ],
+      "sourceLabel": "C9 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.3911010752322315,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "C10",
+      "ticketLabels": [
+        "C10"
+      ],
+      "sourceLabel": "C10 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.1816615649929116,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "C11",
+      "ticketLabels": [
+        "C11"
+      ],
+      "sourceLabel": "C11 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.1816615649929116,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "C12",
+      "ticketLabels": [
+        "C12"
+      ],
+      "sourceLabel": "C12 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.9722220547535922,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "C13",
+      "ticketLabels": [
+        "C13"
+      ],
+      "sourceLabel": "C13 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.9722220547535922,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "C14",
+      "ticketLabels": [
+        "C14"
+      ],
+      "sourceLabel": "C14 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.7627825445142729,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "C15",
+      "ticketLabels": [
+        "C15"
+      ],
+      "sourceLabel": "C15 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.7627825445142729,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "C16",
+      "ticketLabels": [
+        "C16"
+      ],
+      "sourceLabel": "C16 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.5533430342749535,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "C17",
+      "ticketLabels": [
+        "C17"
+      ],
+      "sourceLabel": "C17 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.5533430342749535,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "C18",
+      "ticketLabels": [
+        "C18"
+      ],
+      "sourceLabel": "C18 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.3439035240356338,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "C19",
+      "ticketLabels": [
+        "C19"
+      ],
+      "sourceLabel": "C19 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.3439035240356338,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "C20",
+      "ticketLabels": [
+        "C20"
+      ],
+      "sourceLabel": "C20 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.1344640137963142,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "C21",
+      "ticketLabels": [
+        "C21"
+      ],
+      "sourceLabel": "C21 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.1344640137963142,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "C22",
+      "ticketLabels": [
+        "C22"
+      ],
+      "sourceLabel": "C22 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.9250245035569946,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "C23",
+      "ticketLabels": [
+        "C23"
+      ],
+      "sourceLabel": "C23 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.9250245035569946,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "C24",
+      "ticketLabels": [
+        "C24"
+      ],
+      "sourceLabel": "C24 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.715584993317675,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "C25",
+      "ticketLabels": [
+        "C25"
+      ],
+      "sourceLabel": "C25 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.715584993317675,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "C27",
+      "ticketLabels": [
+        "C27"
+      ],
+      "sourceLabel": "C27 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.5410520681182421,
+      "halfAngle": 0.06981317007977318,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "C26",
+      "ticketLabels": [
+        "C26"
+      ],
+      "sourceLabel": "C26 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.5410520681182421,
+      "halfAngle": 0.06981317007977318,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "C28",
+      "ticketLabels": [
+        "C28"
+      ],
+      "sourceLabel": "C28 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.3839724354387525,
+      "halfAngle": 0.061086523819801536,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "A25",
+      "ticketLabels": [
+        "A25"
+      ],
+      "sourceLabel": "A25 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.3141592653589793,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "A26",
+      "ticketLabels": [
+        "A26"
+      ],
+      "sourceLabel": "A26 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.4241150082346221,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "A27",
+      "ticketLabels": [
+        "A27"
+      ],
+      "sourceLabel": "A27 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.5340707511102648,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "A28",
+      "ticketLabels": [
+        "A28"
+      ],
+      "sourceLabel": "A28 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.6440264939859076,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "A29",
+      "ticketLabels": [
+        "A29"
+      ],
+      "sourceLabel": "A29 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.7539822368615503,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "A30",
+      "ticketLabels": [
+        "A30"
+      ],
+      "sourceLabel": "A30 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.8639379797371932,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "A31",
+      "ticketLabels": [
+        "A31"
+      ],
+      "sourceLabel": "A31 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.9738937226128358,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "A32",
+      "ticketLabels": [
+        "A32"
+      ],
+      "sourceLabel": "A32 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.0838494654884787,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "A33",
+      "ticketLabels": [
+        "A33"
+      ],
+      "sourceLabel": "A33 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.1938052083641215,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "A34",
+      "ticketLabels": [
+        "A34"
+      ],
+      "sourceLabel": "A34 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.303760951239764,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "A35",
+      "ticketLabels": [
+        "A35"
+      ],
+      "sourceLabel": "A35 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.413716694115407,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "A36",
+      "ticketLabels": [
+        "A36"
+      ],
+      "sourceLabel": "A36 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.5236724369910497,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "A37",
+      "ticketLabels": [
+        "A37"
+      ],
+      "sourceLabel": "A37 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.6336281798666923,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "A38",
+      "ticketLabels": [
+        "A38"
+      ],
+      "sourceLabel": "A38 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.743583922742335,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "A39",
+      "ticketLabels": [
+        "A39"
+      ],
+      "sourceLabel": "A39 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.853539665617978,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "A40",
+      "ticketLabels": [
+        "A40"
+      ],
+      "sourceLabel": "A40 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.9634954084936207,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "A41",
+      "ticketLabels": [
+        "A41"
+      ],
+      "sourceLabel": "A41 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.0734511513692633,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "A42",
+      "ticketLabels": [
+        "A42"
+      ],
+      "sourceLabel": "A42 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.183406894244906,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "A43",
+      "ticketLabels": [
+        "A43"
+      ],
+      "sourceLabel": "A43 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.2933626371205484,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "A44",
+      "ticketLabels": [
+        "A44"
+      ],
+      "sourceLabel": "A44 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.4033183799961915,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "C39",
+      "ticketLabels": [
+        "C39"
+      ],
+      "sourceLabel": "C39 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.426007660272118,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "C40",
+      "ticketLabels": [
+        "C40"
+      ],
+      "sourceLabel": "C40 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.319542575900464,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "C41",
+      "ticketLabels": [
+        "C41"
+      ],
+      "sourceLabel": "C41 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.21307749152881,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "C42",
+      "ticketLabels": [
+        "C42"
+      ],
+      "sourceLabel": "C42 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.1066124071571557,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "C43",
+      "ticketLabels": [
+        "C43"
+      ],
+      "sourceLabel": "C43 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.0001473227855016,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "C44",
+      "ticketLabels": [
+        "C44"
+      ],
+      "sourceLabel": "C44 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.8936822384138474,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "C45",
+      "ticketLabels": [
+        "C45"
+      ],
+      "sourceLabel": "C45 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.7872171540421935,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "C46",
+      "ticketLabels": [
+        "C46"
+      ],
+      "sourceLabel": "C46 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.6807520696705394,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "C47",
+      "ticketLabels": [
+        "C47"
+      ],
+      "sourceLabel": "C47 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.5742869852988852,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "C48",
+      "ticketLabels": [
+        "C48"
+      ],
+      "sourceLabel": "C48 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.467821900927231,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "C49",
+      "ticketLabels": [
+        "C49"
+      ],
+      "sourceLabel": "C49 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.361356816555577,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "C50",
+      "ticketLabels": [
+        "C50"
+      ],
+      "sourceLabel": "C50 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.254891732183923,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "C51",
+      "ticketLabels": [
+        "C51"
+      ],
+      "sourceLabel": "C51 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.1484266478122689,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "C52",
+      "ticketLabels": [
+        "C52"
+      ],
+      "sourceLabel": "C52 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.0419615634406147,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "C53",
+      "ticketLabels": [
+        "C53"
+      ],
+      "sourceLabel": "C53 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.9354964790689607,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "C54",
+      "ticketLabels": [
+        "C54"
+      ],
+      "sourceLabel": "C54 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.8290313946973066,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "C55",
+      "ticketLabels": [
+        "C55"
+      ],
+      "sourceLabel": "C55 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.7225663103256525,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "C56",
+      "ticketLabels": [
+        "C56"
+      ],
+      "sourceLabel": "C56 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.6161012259539985,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "C57",
+      "ticketLabels": [
+        "C57"
+      ],
+      "sourceLabel": "C57 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.5096361415823443,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "C58",
+      "ticketLabels": [
+        "C58"
+      ],
+      "sourceLabel": "C58 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.40317105721069024,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "D1",
+      "ticketLabels": [
+        "D1"
+      ],
+      "sourceLabel": "D1 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.2792526803190927,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "D2",
+      "ticketLabels": [
+        "D2"
+      ],
+      "sourceLabel": "D2 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.2792526803190927,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "D3",
+      "ticketLabels": [
+        "D3"
+      ],
+      "sourceLabel": "D3 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.13962634015954636,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "D4",
+      "ticketLabels": [
+        "D4"
+      ],
+      "sourceLabel": "D4 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.13962634015954636,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "D9",
+      "ticketLabels": [
+        "D9"
+      ],
+      "sourceLabel": "D9 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.10471975511965977,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "D10",
+      "ticketLabels": [
+        "D10"
+      ],
+      "sourceLabel": "D10 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.10471975511965977,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "D11",
+      "ticketLabels": [
+        "D11"
+      ],
+      "sourceLabel": "D11 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.24434609527920614,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "D12",
+      "ticketLabels": [
+        "D12"
+      ],
+      "sourceLabel": "D12 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.24434609527920614,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "D13",
+      "ticketLabels": [
+        "D13"
+      ],
+      "sourceLabel": "D13 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.2792526803190927,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "D14",
+      "ticketLabels": [
+        "D14"
+      ],
+      "sourceLabel": "D14 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.15707963267948966,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "D17",
+      "ticketLabels": [
+        "D17"
+      ],
+      "sourceLabel": "D17 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.13962634015954636,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "D18",
+      "ticketLabels": [
+        "D18"
+      ],
+      "sourceLabel": "D18 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.2617993877991494,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "unmapped-lower-rear-left",
+      "ticketLabels": [
+        "unmapped-lower-rear-left"
+      ],
+      "sourceLabel": "下层图上方看台（区号待核）",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.740166925631097,
+      "halfAngle": 0.2617993877991494,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "unmapped-lower-rear-right",
+      "ticketLabels": [
+        "unmapped-lower-rear-right"
+      ],
+      "sourceLabel": "下层图上方看台（区号待核）",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.740166925631097,
+      "halfAngle": 0.2617993877991494,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "unmapped-lower-rear-center",
+      "ticketLabels": [
+        "unmapped-lower-rear-center"
+      ],
+      "sourceLabel": "下层图上方看台（区号待核）",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.12217304763960307,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "unmapped-lower-front-center",
+      "ticketLabels": [
+        "unmapped-lower-front-center"
+      ],
+      "sourceLabel": "下层图下方看台（区号待核）",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "unmapped-middle-rear-left",
+      "ticketLabels": [
+        "unmapped-middle-rear-left"
+      ],
+      "sourceLabel": "上层图上方看台（区号待核）",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.740166925631097,
+      "halfAngle": 0.2617993877991494,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "unmapped-middle-rear-right",
+      "ticketLabels": [
+        "unmapped-middle-rear-right"
+      ],
+      "sourceLabel": "上层图上方看台（区号待核）",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.740166925631097,
+      "halfAngle": 0.2617993877991494,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "unmapped-middle-rear-center",
+      "ticketLabels": [
+        "unmapped-middle-rear-center"
+      ],
+      "sourceLabel": "上层图上方看台（区号待核）",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.12217304763960307,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    },
+    {
+      "id": "unmapped-middle-front-center",
+      "ticketLabels": [
+        "unmapped-middle-front-center"
+      ],
+      "sourceLabel": "上层图下方看台（区号待核）",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg"
+      }
+    }
+  ],
+  "importedAt": "2026-10-24T00:00:00.000Z"
+}

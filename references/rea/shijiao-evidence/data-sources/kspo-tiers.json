@@ -1,0 +1,18 @@
+{
+  "lower": {
+    "a": 27,
+    "b": 27,
+    "base": 1.2,
+    "depth": 14,
+    "rise": 7.5,
+    "steps": 20
+  },
+  "middle": {
+    "a": 37,
+    "b": 37,
+    "base": 12,
+    "depth": 16,
+    "rise": 12,
+    "steps": 21
+  }
+}

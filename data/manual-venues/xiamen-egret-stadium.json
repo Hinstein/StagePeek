@@ -1,0 +1,1761 @@
+{
+  "id": "xiamen-egret-stadium",
+  "name": "厦门白鹭体育场",
+  "city": "中国内地 · 厦门",
+  "capacity": "原站目录未提供统一容量字段",
+  "source": "https://detail.damai.cn/item.htm?id=1083650546473",
+  "sourceTitle": "REA 导出的公开场馆来源索引与参数化座位示意",
+  "sourceLinks": [
+    "https://detail.damai.cn/item.htm?id=1083650546473",
+    "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+  ],
+  "accuracy": {
+    "sectionLabels": "source-layout-reference",
+    "completeSeatInventory": false,
+    "metricCalibrated": false,
+    "stage": "generic",
+    "position": "estimated",
+    "geometryBasis": "source-informed-parametric:plan",
+    "catalogStatus": "source-geometry-and-sections",
+    "seatDataStatus": "section-only",
+    "sourceLayout": "end",
+    "coverage": "98 个来源分区；0 条座位采样。区号来自公开布局参考。",
+    "reuse": "来源页面可公开访问；未建立商业图形、模型或座位数据库再分发许可，发布前需逐源复核。",
+    "sourceDate": "REA capture 2026-10-24",
+    "sourceInventory": {
+      "venueReferenceUrl": "https://detail.damai.cn/item.htm?id=1083650546473",
+      "mapReferenceUrl": null,
+      "sectionSource": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg",
+      "geometryEvidenceLabel": "plan",
+      "note": "Missing asset URL does not establish absence of generated seat geometry."
+    },
+    "seatAsset": null
+  },
+  "tiers": [
+    [
+      57,
+      43,
+      1.5,
+      9,
+      7
+    ],
+    [
+      67,
+      53,
+      10,
+      7,
+      5
+    ],
+    [
+      76,
+      62,
+      18,
+      18,
+      14
+    ]
+  ],
+  "geometry": {
+    "shape": "oval",
+    "coordinateSystem": "profile-inner-radius",
+    "power": 1,
+    "oneSided": false,
+    "stage": {
+      "width": 38,
+      "depth": 10,
+      "z": -30,
+      "height": 2,
+      "facing": 1
+    },
+    "floor": [
+      114,
+      86
+    ],
+    "openBowl": true,
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "A 看台",
+        "steps": 18
+      },
+      {
+        "id": "middle",
+        "name": "B 看台",
+        "steps": 12
+      },
+      {
+        "id": "upper",
+        "name": "C 看台",
+        "steps": 30
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "A1",
+      "ticketLabels": [
+        "A1"
+      ],
+      "sourceLabel": "看台 A1 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.5790096944616676,
+      "halfAngle": 0.07674466415341552,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "A2",
+      "ticketLabels": [
+        "A2"
+      ],
+      "sourceLabel": "看台 A2 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.757485657609146,
+      "halfAngle": 0.07674466415341552,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "A3",
+      "ticketLabels": [
+        "A3"
+      ],
+      "sourceLabel": "看台 A3 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.9562901937242256,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "A4",
+      "ticketLabels": [
+        "A4"
+      ],
+      "sourceLabel": "看台 A4 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.0828308751387072,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "A5",
+      "ticketLabels": [
+        "A5"
+      ],
+      "sourceLabel": "看台 A5 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.445630494797596,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "A6",
+      "ticketLabels": [
+        "A6"
+      ],
+      "sourceLabel": "看台 A6 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.515907031666362,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "A7",
+      "ticketLabels": [
+        "A7"
+      ],
+      "sourceLabel": "看台 A7 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.677945044588987,
+      "halfAngle": 0.06967634555672862,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "A8",
+      "ticketLabels": [
+        "A8"
+      ],
+      "sourceLabel": "看台 A8 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.8807265487683966,
+      "halfAngle": 0.08719604679714626,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "A9",
+      "ticketLabels": [
+        "A9"
+      ],
+      "sourceLabel": "看台 A9 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.129134826343387,
+      "halfAngle": 0.1055203372092535,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "A10",
+      "ticketLabels": [
+        "A10"
+      ],
+      "sourceLabel": "看台 A10 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.9086543477914235,
+      "halfAngle": 0.094702547130028,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "A11",
+      "ticketLabels": [
+        "A11"
+      ],
+      "sourceLabel": "看台 A11 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.688415866093684,
+      "halfAngle": 0.0711773391064124,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "A12",
+      "ticketLabels": [
+        "A12"
+      ],
+      "sourceLabel": "看台 A12 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.522887170497376,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "A13",
+      "ticketLabels": [
+        "A13"
+      ],
+      "sourceLabel": "看台 A13 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.445630494797596,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "A14",
+      "ticketLabels": [
+        "A14"
+      ],
+      "sourceLabel": "看台 A14 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.0738426246411676,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "A15",
+      "ticketLabels": [
+        "A15"
+      ],
+      "sourceLabel": "看台 A15 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.9462952344944622,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "A16",
+      "ticketLabels": [
+        "A16"
+      ],
+      "sourceLabel": "看台 A16 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.7704564358575503,
+      "halfAngle": 0.07561068341387212,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "A17",
+      "ticketLabels": [
+        "A17"
+      ],
+      "sourceLabel": "看台 A17 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.5762832401807607,
+      "halfAngle": 0.08345858571062748,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "A18",
+      "ticketLabels": [
+        "A18"
+      ],
+      "sourceLabel": "看台 A18 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.382193505969999,
+      "halfAngle": 0.07463544913213685,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "A19",
+      "ticketLabels": [
+        "A19"
+      ],
+      "sourceLabel": "看台 A19 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.208622694034797,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "A20",
+      "ticketLabels": [
+        "A20"
+      ],
+      "sourceLabel": "看台 A20 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.082719728673986,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "A21",
+      "ticketLabels": [
+        "A21"
+      ],
+      "sourceLabel": "看台 A21 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.7030251357811317,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "A22",
+      "ticketLabels": [
+        "A22"
+      ],
+      "sourceLabel": "看台 A22 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.6207578743477664,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "A23",
+      "ticketLabels": [
+        "A23"
+      ],
+      "sourceLabel": "看台 A23 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.46577300431266827,
+      "halfAngle": 0.06664349411509225,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "A24",
+      "ticketLabels": [
+        "A24"
+      ],
+      "sourceLabel": "看台 A24 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.24252618490462982,
+      "halfAngle": 0.09599613234545643,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "A25",
+      "ticketLabels": [
+        "A25"
+      ],
+      "sourceLabel": "看台 A25 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.10251598382805037,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "A26",
+      "ticketLabels": [
+        "A26"
+      ],
+      "sourceLabel": "看台 A26 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.23840926471639598,
+      "halfAngle": 0.0992939096429598,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "A27",
+      "ticketLabels": [
+        "A27"
+      ],
+      "sourceLabel": "看台 A27 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.46932533365351203,
+      "halfAngle": 0.06427265301236001,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "A28",
+      "ticketLabels": [
+        "A28"
+      ],
+      "sourceLabel": "看台 A28 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.6187966197287676,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "A29",
+      "ticketLabels": [
+        "A29"
+      ],
+      "sourceLabel": "看台 A29 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.6984686079477085,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "A30",
+      "ticketLabels": [
+        "A30"
+      ],
+      "sourceLabel": "看台 A30 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.081307768818094,
+      "halfAngle": 0.057835930871131244,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "A31",
+      "ticketLabels": [
+        "A31"
+      ],
+      "sourceLabel": "看台 A31 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.2158099336346784,
+      "halfAngle": 0.057835930871131244,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "A32",
+      "ticketLabels": [
+        "A32"
+      ],
+      "sourceLabel": "看台 A32 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.385987885378995,
+      "halfAngle": 0.07317651925005632,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "B1",
+      "ticketLabels": [
+        "B1"
+      ],
+      "sourceLabel": "看台 B1 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.9626772551538223,
+      "halfAngle": 0.06546944941197383,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "B2",
+      "ticketLabels": [
+        "B2"
+      ],
+      "sourceLabel": "看台 B2 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.1149317886700407,
+      "halfAngle": 0.06546944941197383,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "B3",
+      "ticketLabels": [
+        "B3"
+      ],
+      "sourceLabel": "看台 B3 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.2807221433501974,
+      "halfAngle": 0.05891255428221216,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "B4",
+      "ticketLabels": [
+        "B4"
+      ],
+      "sourceLabel": "看台 B4 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.4177280835413884,
+      "halfAngle": 0.05891255428221216,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "B5",
+      "ticketLabels": [
+        "B5"
+      ],
+      "sourceLabel": "看台 B5 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.5711691110493025,
+      "halfAngle": 0.06597964182840313,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "B6",
+      "ticketLabels": [
+        "B6"
+      ],
+      "sourceLabel": "看台 B6 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.7406430282236998,
+      "halfAngle": 0.07287378438499079,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "B7",
+      "ticketLabels": [
+        "B7"
+      ],
+      "sourceLabel": "看台 B7 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.9310830914624377,
+      "halfAngle": 0.08188922719265726,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "B8",
+      "ticketLabels": [
+        "B8"
+      ],
+      "sourceLabel": "看台 B8 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.08499754498000082,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "B9",
+      "ticketLabels": [
+        "B9"
+      ],
+      "sourceLabel": "看台 B9 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.943923944333977,
+      "halfAngle": 0.07819148346194228,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "B10",
+      "ticketLabels": [
+        "B10"
+      ],
+      "sourceLabel": "看台 B10 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.762083285120158,
+      "halfAngle": 0.07398669690542221,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "B11",
+      "ticketLabels": [
+        "B11"
+      ],
+      "sourceLabel": "看台 B11 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.5900211992935946,
+      "halfAngle": 0.06855955063255073,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "B12",
+      "ticketLabels": [
+        "B12"
+      ],
+      "sourceLabel": "看台 B12 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.4305803838690583,
+      "halfAngle": 0.0644390434231102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "B13",
+      "ticketLabels": [
+        "B13"
+      ],
+      "sourceLabel": "看台 B13 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.2807221433501974,
+      "halfAngle": 0.0644390434231102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "B14",
+      "ticketLabels": [
+        "B14"
+      ],
+      "sourceLabel": "看台 B14 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.1280698853394324,
+      "halfAngle": 0.06564047094462896,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "B15",
+      "ticketLabels": [
+        "B15"
+      ],
+      "sourceLabel": "看台 B15 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.953764926127896,
+      "halfAngle": 0.07495113246096052,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "B16",
+      "ticketLabels": [
+        "B16"
+      ],
+      "sourceLabel": "看台 B16 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.7681918866447774,
+      "halfAngle": 0.07979640697774114,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "B17",
+      "ticketLabels": [
+        "B17"
+      ],
+      "sourceLabel": "看台 B17 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.5757345582579918,
+      "halfAngle": 0.08275665120631774,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "B18",
+      "ticketLabels": [
+        "B18"
+      ],
+      "sourceLabel": "看台 B18 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.375069418554806,
+      "halfAngle": 0.07935956294516924,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "B19",
+      "ticketLabels": [
+        "B19"
+      ],
+      "sourceLabel": "看台 B19 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.1905122954265053,
+      "halfAngle": 0.07132948878812054,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "B20",
+      "ticketLabels": [
+        "B20"
+      ],
+      "sourceLabel": "看台 B20 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.0246297633611088,
+      "halfAngle": 0.06319154215061251,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "B21",
+      "ticketLabels": [
+        "B21"
+      ],
+      "sourceLabel": "看台 B21 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.8776726885922426,
+      "halfAngle": 0.06276596549687699,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "B22",
+      "ticketLabels": [
+        "B22"
+      ],
+      "sourceLabel": "看台 B22 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.7317053269715986,
+      "halfAngle": 0.06276596549687699,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "B23",
+      "ticketLabels": [
+        "B23"
+      ],
+      "sourceLabel": "看台 B23 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.5635774945058794,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "B24",
+      "ticketLabels": [
+        "B24"
+      ],
+      "sourceLabel": "看台 B24 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.47197084128950617,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "B25",
+      "ticketLabels": [
+        "B25"
+      ],
+      "sourceLabel": "看台 B25 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.48432413020710696,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "B26",
+      "ticketLabels": [
+        "B26"
+      ],
+      "sourceLabel": "看台 B26 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.5760466515213581,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "B27",
+      "ticketLabels": [
+        "B27"
+      ],
+      "sourceLabel": "看台 B27 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.7387031593541178,
+      "halfAngle": 0.060969390176492194,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "B28",
+      "ticketLabels": [
+        "B28"
+      ],
+      "sourceLabel": "看台 B28 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.8804924388343324,
+      "halfAngle": 0.060969390176492194,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "B29",
+      "ticketLabels": [
+        "B29"
+      ],
+      "sourceLabel": "看台 B29 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.0381527195653795,
+      "halfAngle": 0.06339956723920506,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "B30",
+      "ticketLabels": [
+        "B30"
+      ],
+      "sourceLabel": "看台 B30 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.1855935736100425,
+      "halfAngle": 0.06339956723920506,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "主席台一区",
+      "ticketLabels": [
+        "主席台一区"
+      ],
+      "sourceLabel": "主席台一区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.2617993877991494,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "主席台二区",
+      "ticketLabels": [
+        "主席台二区"
+      ],
+      "sourceLabel": "主席台二区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "主席台三区",
+      "ticketLabels": [
+        "主席台三区"
+      ],
+      "sourceLabel": "主席台三区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.2617993877991494,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "C1",
+      "ticketLabels": [
+        "C1"
+      ],
+      "sourceLabel": "看台 C1 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 2.0054665419441413,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "C2",
+      "ticketLabels": [
+        "C2"
+      ],
+      "sourceLabel": "看台 C2 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 2.1346856951802047,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "C3",
+      "ticketLabels": [
+        "C3"
+      ],
+      "sourceLabel": "看台 C3 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 2.324069440115163,
+      "halfAngle": 0.06493671579996611,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "C4",
+      "ticketLabels": [
+        "C4"
+      ],
+      "sourceLabel": "看台 C4 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 2.475085058254619,
+      "halfAngle": 0.06493671579996611,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "C5",
+      "ticketLabels": [
+        "C5"
+      ],
+      "sourceLabel": "看台 C5 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 2.635540392799805,
+      "halfAngle": 0.0689957938544299,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "C6",
+      "ticketLabels": [
+        "C6"
+      ],
+      "sourceLabel": "看台 C6 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 2.8040028516143334,
+      "halfAngle": 0.07243885729024732,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "C7",
+      "ticketLabels": [
+        "C7"
+      ],
+      "sourceLabel": "看台 C7 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 2.9780660347688,
+      "halfAngle": 0.07031644609302712,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "C8",
+      "ticketLabels": [
+        "C8"
+      ],
+      "sourceLabel": "看台 C8 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.07031644609302712,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "C9",
+      "ticketLabels": [
+        "C9"
+      ],
+      "sourceLabel": "看台 C9 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -2.963499715358596,
+      "halfAngle": 0.06954743088268606,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "C10",
+      "ticketLabels": [
+        "C10"
+      ],
+      "sourceLabel": "看台 C10 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -2.801761504003512,
+      "halfAngle": 0.06954743088268606,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "C11",
+      "ticketLabels": [
+        "C11"
+      ],
+      "sourceLabel": "看台 C11 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -2.6295532209752874,
+      "halfAngle": 0.0722962757473567,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "C12",
+      "ticketLabels": [
+        "C12"
+      ],
+      "sourceLabel": "看台 C12 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -2.4614223471442256,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "C13",
+      "ticketLabels": [
+        "C13"
+      ],
+      "sourceLabel": "看台 C13 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -2.329415179172579,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "C14",
+      "ticketLabels": [
+        "C14"
+      ],
+      "sourceLabel": "看台 C14 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -2.1312625781907357,
+      "halfAngle": 0.06932226218857637,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "C15",
+      "ticketLabels": [
+        "C15"
+      ],
+      "sourceLabel": "看台 C15 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -1.9700480149614883,
+      "halfAngle": 0.06932226218857637,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "C16",
+      "ticketLabels": [
+        "C16"
+      ],
+      "sourceLabel": "看台 C16 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -1.7673313016592946,
+      "halfAngle": 0.08260212048654794,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "C17",
+      "ticketLabels": [
+        "C17"
+      ],
+      "sourceLabel": "看台 C17 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -1.5752333470394158,
+      "halfAngle": 0.08059407106641901,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "C18",
+      "ticketLabels": [
+        "C18"
+      ],
+      "sourceLabel": "看台 C18 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -1.38780527479193,
+      "halfAngle": 0.08059407106641901,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "C19",
+      "ticketLabels": [
+        "C19"
+      ],
+      "sourceLabel": "看台 C19 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -1.1961207873914812,
+      "halfAngle": 0.07512862094332164,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "C20",
+      "ticketLabels": [
+        "C20"
+      ],
+      "sourceLabel": "看台 C20 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -1.0214030642674774,
+      "halfAngle": 0.07512862094332164,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "C21",
+      "ticketLabels": [
+        "C21"
+      ],
+      "sourceLabel": "看台 C21 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -0.8287508398264871,
+      "halfAngle": 0.06149917143568641,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "C22",
+      "ticketLabels": [
+        "C22"
+      ],
+      "sourceLabel": "看台 C22 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -0.6857295109062862,
+      "halfAngle": 0.06149917143568641,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "C23",
+      "ticketLabels": [
+        "C23"
+      ],
+      "sourceLabel": "看台 C23 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -0.5148600435193862,
+      "halfAngle": 0.07078903913199713,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "C24",
+      "ticketLabels": [
+        "C24"
+      ],
+      "sourceLabel": "看台 C24 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -0.35023437111939304,
+      "halfAngle": 0.07078903913199713,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "C25",
+      "ticketLabels": [
+        "C25"
+      ],
+      "sourceLabel": "看台 C25 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -0.18208232225336146,
+      "halfAngle": 0.07230538101239364,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "C26",
+      "ticketLabels": [
+        "C26"
+      ],
+      "sourceLabel": "看台 C26 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 0,
+      "halfAngle": 0.07227538714881307,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "C27",
+      "ticketLabels": [
+        "C27"
+      ],
+      "sourceLabel": "看台 C27 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 0.16808229569491417,
+      "halfAngle": 0.07227538714881307,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "C28",
+      "ticketLabels": [
+        "C28"
+      ],
+      "sourceLabel": "看台 C28 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 0.34399246312028814,
+      "halfAngle": 0.07302268098226733,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "C29",
+      "ticketLabels": [
+        "C29"
+      ],
+      "sourceLabel": "看台 C29 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 0.5138126514511423,
+      "halfAngle": 0.0702502418328988,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "C30",
+      "ticketLabels": [
+        "C30"
+      ],
+      "sourceLabel": "看台 C30 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 0.6771853068764885,
+      "halfAngle": 0.06088641843644539,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "C31",
+      "ticketLabels": [
+        "C31"
+      ],
+      "sourceLabel": "看台 C31 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 0.8187816288217106,
+      "halfAngle": 0.06088641843644539,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "C32",
+      "ticketLabels": [
+        "C32"
+      ],
+      "sourceLabel": "看台 C32 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 1.0080591040338134,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    },
+    {
+      "id": "C33",
+      "ticketLabels": [
+        "C33"
+      ],
+      "sourceLabel": "看台 C33 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 1.1374058248521262,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg"
+      }
+    }
+  ],
+  "importedAt": "2026-10-24T00:00:00.000Z"
+}

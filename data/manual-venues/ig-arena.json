@@ -1,0 +1,1011 @@
+{
+  "id": "ig-arena",
+  "name": "IG Arena",
+  "city": "日本 · 名古屋",
+  "capacity": "原站目录未提供统一容量字段",
+  "source": "https://www.ig-arena.jp/en/",
+  "sourceTitle": "REA 导出的公开场馆来源索引与参数化座位示意",
+  "sourceLinks": [
+    "https://www.ig-arena.jp/en/",
+    "https://www.ig-arena.jp/uploads/2025/07/250701_riyouannai.pdf",
+    "https://www.ig-arena.jp/seat/"
+  ],
+  "accuracy": {
+    "sectionLabels": "source-layout-reference",
+    "completeSeatInventory": false,
+    "metricCalibrated": false,
+    "stage": "generic",
+    "position": "estimated",
+    "geometryBasis": "source-informed-parametric:plan",
+    "catalogStatus": "source-geometry-and-sections",
+    "seatDataStatus": "section-only",
+    "sourceLayout": "end",
+    "coverage": "55 个来源分区；0 条座位采样。区号来自公开布局参考。",
+    "reuse": "来源页面可公开访问；未建立商业图形、模型或座位数据库再分发许可，发布前需逐源复核。",
+    "sourceDate": "REA capture 2026-10-24",
+    "sourceInventory": {
+      "venueReferenceUrl": "https://www.ig-arena.jp/en/",
+      "mapReferenceUrl": "https://www.ig-arena.jp/uploads/2025/07/250701_riyouannai.pdf",
+      "sectionSource": "https://www.ig-arena.jp/seat/",
+      "geometryEvidenceLabel": "plan",
+      "note": "Missing asset URL does not establish absence of generated seat geometry."
+    },
+    "seatAsset": null
+  },
+  "tiers": [
+    [
+      25,
+      35,
+      1,
+      19,
+      10
+    ],
+    [
+      37,
+      47,
+      15,
+      19,
+      14
+    ]
+  ],
+  "geometry": {
+    "shape": "rounded",
+    "coordinateSystem": "profile-inner-radius",
+    "power": 0.48,
+    "oneSided": false,
+    "floor": [
+      46,
+      66
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "2F",
+        "steps": 25
+      },
+      {
+        "id": "middle",
+        "name": "4F",
+        "steps": 26
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "201",
+      "ticketLabels": [
+        "201"
+      ],
+      "sourceLabel": "201 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.4835298641951802,
+      "halfAngle": 0.09461429875061261,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ig-arena.jp/seat/"
+      }
+    },
+    {
+      "id": "202",
+      "ticketLabels": [
+        "202"
+      ],
+      "sourceLabel": "202 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.2684878470569587,
+      "halfAngle": 0.09461429875061261,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ig-arena.jp/seat/"
+      }
+    },
+    {
+      "id": "203",
+      "ticketLabels": [
+        "203"
+      ],
+      "sourceLabel": "203 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.0534283766262174,
+      "halfAngle": 0.09461429875061261,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ig-arena.jp/seat/"
+      }
+    },
+    {
+      "id": "204",
+      "ticketLabels": [
+        "204"
+      ],
+      "sourceLabel": "204 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.8383863594879961,
+      "halfAngle": 0.09461429875061261,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ig-arena.jp/seat/"
+      }
+    },
+    {
+      "id": "205",
+      "ticketLabels": [
+        "205"
+      ],
+      "sourceLabel": "205 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.6233268890572549,
+      "halfAngle": 0.09461429875061261,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ig-arena.jp/seat/"
+      }
+    },
+    {
+      "id": "206",
+      "ticketLabels": [
+        "206"
+      ],
+      "sourceLabel": "206 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.40828487191903357,
+      "halfAngle": 0.09461429875061261,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ig-arena.jp/seat/"
+      }
+    },
+    {
+      "id": "207",
+      "ticketLabels": [
+        "207"
+      ],
+      "sourceLabel": "207 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.19322540148829223,
+      "halfAngle": 0.09461429875061261,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ig-arena.jp/seat/"
+      }
+    },
+    {
+      "id": "208",
+      "ticketLabels": [
+        "208"
+      ],
+      "sourceLabel": "208 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.02181661564992912,
+      "halfAngle": 0.09461429875061261,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ig-arena.jp/seat/"
+      }
+    },
+    {
+      "id": "209",
+      "ticketLabels": [
+        "209"
+      ],
+      "sourceLabel": "209 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.23685863278815045,
+      "halfAngle": 0.09461429875061261,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ig-arena.jp/seat/"
+      }
+    },
+    {
+      "id": "210",
+      "ticketLabels": [
+        "210"
+      ],
+      "sourceLabel": "210 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.4519181032188918,
+      "halfAngle": 0.09461429875061261,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ig-arena.jp/seat/"
+      }
+    },
+    {
+      "id": "211",
+      "ticketLabels": [
+        "211"
+      ],
+      "sourceLabel": "211 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.666960120357113,
+      "halfAngle": 0.09461429875061261,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ig-arena.jp/seat/"
+      }
+    },
+    {
+      "id": "212",
+      "ticketLabels": [
+        "212"
+      ],
+      "sourceLabel": "212 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.8820195907878544,
+      "halfAngle": 0.09461429875061261,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ig-arena.jp/seat/"
+      }
+    },
+    {
+      "id": "213",
+      "ticketLabels": [
+        "213"
+      ],
+      "sourceLabel": "213 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.0970616079260758,
+      "halfAngle": 0.09461429875061261,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ig-arena.jp/seat/"
+      }
+    },
+    {
+      "id": "214",
+      "ticketLabels": [
+        "214"
+      ],
+      "sourceLabel": "214 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.3121210783568171,
+      "halfAngle": 0.09461429875061261,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ig-arena.jp/seat/"
+      }
+    },
+    {
+      "id": "215",
+      "ticketLabels": [
+        "215"
+      ],
+      "sourceLabel": "215 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.5271630954950381,
+      "halfAngle": 0.09461429875061261,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ig-arena.jp/seat/"
+      }
+    },
+    {
+      "id": "216",
+      "ticketLabels": [
+        "216"
+      ],
+      "sourceLabel": "216 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.7422051126332596,
+      "halfAngle": 0.09461429875061261,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ig-arena.jp/seat/"
+      }
+    },
+    {
+      "id": "217",
+      "ticketLabels": [
+        "217"
+      ],
+      "sourceLabel": "217 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.9572645830640008,
+      "halfAngle": 0.09461429875061261,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ig-arena.jp/seat/"
+      }
+    },
+    {
+      "id": "218",
+      "ticketLabels": [
+        "218"
+      ],
+      "sourceLabel": "218 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.172306600202222,
+      "halfAngle": 0.09461429875061261,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ig-arena.jp/seat/"
+      }
+    },
+    {
+      "id": "219",
+      "ticketLabels": [
+        "219"
+      ],
+      "sourceLabel": "219 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.3873660706329636,
+      "halfAngle": 0.09461429875061261,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ig-arena.jp/seat/"
+      }
+    },
+    {
+      "id": "220",
+      "ticketLabels": [
+        "220"
+      ],
+      "sourceLabel": "220 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.602408087771185,
+      "halfAngle": 0.09461429875061261,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ig-arena.jp/seat/"
+      }
+    },
+    {
+      "id": "221",
+      "ticketLabels": [
+        "221"
+      ],
+      "sourceLabel": "221 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.817467558201926,
+      "halfAngle": 0.09461429875061261,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ig-arena.jp/seat/"
+      }
+    },
+    {
+      "id": "222",
+      "ticketLabels": [
+        "222"
+      ],
+      "sourceLabel": "222 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.0325095753401476,
+      "halfAngle": 0.09461429875061261,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ig-arena.jp/seat/"
+      }
+    },
+    {
+      "id": "223",
+      "ticketLabels": [
+        "223"
+      ],
+      "sourceLabel": "223 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.247551592478369,
+      "halfAngle": 0.09461429875061261,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ig-arena.jp/seat/"
+      }
+    },
+    {
+      "id": "224",
+      "ticketLabels": [
+        "224"
+      ],
+      "sourceLabel": "224 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.4626110629091102,
+      "halfAngle": 0.09461429875061261,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ig-arena.jp/seat/"
+      }
+    },
+    {
+      "id": "225",
+      "ticketLabels": [
+        "225"
+      ],
+      "sourceLabel": "225 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.6776530800473313,
+      "halfAngle": 0.09461429875061261,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ig-arena.jp/seat/"
+      }
+    },
+    {
+      "id": "226",
+      "ticketLabels": [
+        "226"
+      ],
+      "sourceLabel": "226 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.892712550478073,
+      "halfAngle": 0.09461429875061261,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ig-arena.jp/seat/"
+      }
+    },
+    {
+      "id": "227",
+      "ticketLabels": [
+        "227"
+      ],
+      "sourceLabel": "227 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 4.107754567616293,
+      "halfAngle": 0.09461429875061261,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ig-arena.jp/seat/"
+      }
+    },
+    {
+      "id": "228",
+      "ticketLabels": [
+        "228"
+      ],
+      "sourceLabel": "228 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 4.322814038047036,
+      "halfAngle": 0.09461429875061261,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ig-arena.jp/seat/"
+      }
+    },
+    {
+      "id": "229",
+      "ticketLabels": [
+        "229"
+      ],
+      "sourceLabel": "229 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 4.537856055185257,
+      "halfAngle": 0.09461429875061261,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ig-arena.jp/seat/"
+      }
+    },
+    {
+      "id": "401",
+      "ticketLabels": [
+        "401"
+      ],
+      "sourceLabel": "401 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.8726646259971648,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ig-arena.jp/seat/"
+      }
+    },
+    {
+      "id": "402",
+      "ticketLabels": [
+        "402"
+      ],
+      "sourceLabel": "402 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.5235987755982988,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ig-arena.jp/seat/"
+      }
+    },
+    {
+      "id": "403",
+      "ticketLabels": [
+        "403"
+      ],
+      "sourceLabel": "403 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.17453292519943295,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ig-arena.jp/seat/"
+      }
+    },
+    {
+      "id": "404",
+      "ticketLabels": [
+        "404"
+      ],
+      "sourceLabel": "404 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.17453292519943295,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ig-arena.jp/seat/"
+      }
+    },
+    {
+      "id": "405",
+      "ticketLabels": [
+        "405"
+      ],
+      "sourceLabel": "405 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.5235987755982988,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ig-arena.jp/seat/"
+      }
+    },
+    {
+      "id": "406",
+      "ticketLabels": [
+        "406"
+      ],
+      "sourceLabel": "406 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.8726646259971648,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ig-arena.jp/seat/"
+      }
+    },
+    {
+      "id": "407",
+      "ticketLabels": [
+        "407"
+      ],
+      "sourceLabel": "407 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.9599310885968813,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ig-arena.jp/seat/"
+      }
+    },
+    {
+      "id": "408",
+      "ticketLabels": [
+        "408"
+      ],
+      "sourceLabel": "408 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.0559241974565694,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ig-arena.jp/seat/"
+      }
+    },
+    {
+      "id": "409",
+      "ticketLabels": [
+        "409"
+      ],
+      "sourceLabel": "409 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.1519173063162575,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ig-arena.jp/seat/"
+      }
+    },
+    {
+      "id": "410",
+      "ticketLabels": [
+        "410"
+      ],
+      "sourceLabel": "410 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.2479104151759457,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ig-arena.jp/seat/"
+      }
+    },
+    {
+      "id": "411",
+      "ticketLabels": [
+        "411"
+      ],
+      "sourceLabel": "411 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.3439035240356338,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ig-arena.jp/seat/"
+      }
+    },
+    {
+      "id": "412",
+      "ticketLabels": [
+        "412"
+      ],
+      "sourceLabel": "412 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.4398966328953218,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ig-arena.jp/seat/"
+      }
+    },
+    {
+      "id": "413",
+      "ticketLabels": [
+        "413"
+      ],
+      "sourceLabel": "413 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.53588974175501,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ig-arena.jp/seat/"
+      }
+    },
+    {
+      "id": "414",
+      "ticketLabels": [
+        "414"
+      ],
+      "sourceLabel": "414 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.6580627893946132,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ig-arena.jp/seat/"
+      }
+    },
+    {
+      "id": "415",
+      "ticketLabels": [
+        "415"
+      ],
+      "sourceLabel": "415 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.7598678446634421,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ig-arena.jp/seat/"
+      }
+    },
+    {
+      "id": "416",
+      "ticketLabels": [
+        "416"
+      ],
+      "sourceLabel": "416 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.8616903532247915,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ig-arena.jp/seat/"
+      }
+    },
+    {
+      "id": "417",
+      "ticketLabels": [
+        "417"
+      ],
+      "sourceLabel": "417 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.9634954084936207,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ig-arena.jp/seat/"
+      }
+    },
+    {
+      "id": "418",
+      "ticketLabels": [
+        "418"
+      ],
+      "sourceLabel": "418 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.06530046376245,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ig-arena.jp/seat/"
+      }
+    },
+    {
+      "id": "419",
+      "ticketLabels": [
+        "419"
+      ],
+      "sourceLabel": "419 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.1671229723237992,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ig-arena.jp/seat/"
+      }
+    },
+    {
+      "id": "420",
+      "ticketLabels": [
+        "420"
+      ],
+      "sourceLabel": "420 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.2689280275926285,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ig-arena.jp/seat/"
+      }
+    },
+    {
+      "id": "421",
+      "ticketLabels": [
+        "421"
+      ],
+      "sourceLabel": "421 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.356194490192345,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ig-arena.jp/seat/"
+      }
+    },
+    {
+      "id": "422",
+      "ticketLabels": [
+        "422"
+      ],
+      "sourceLabel": "422 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.6529004630313806,
+      "halfAngle": 0.13055062804917586,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ig-arena.jp/seat/"
+      }
+    },
+    {
+      "id": "423",
+      "ticketLabels": [
+        "423"
+      ],
+      "sourceLabel": "423 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.949606435870417,
+      "halfAngle": 0.13055062804917586,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ig-arena.jp/seat/"
+      }
+    },
+    {
+      "id": "424",
+      "ticketLabels": [
+        "424"
+      ],
+      "sourceLabel": "424 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.2463124087094526,
+      "halfAngle": 0.13055062804917586,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ig-arena.jp/seat/"
+      }
+    },
+    {
+      "id": "425",
+      "ticketLabels": [
+        "425"
+      ],
+      "sourceLabel": "425 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.543018381548489,
+      "halfAngle": 0.13055062804917586,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ig-arena.jp/seat/"
+      }
+    },
+    {
+      "id": "426",
+      "ticketLabels": [
+        "426"
+      ],
+      "sourceLabel": "426 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.839724354387525,
+      "halfAngle": 0.13055062804917586,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ig-arena.jp/seat/"
+      }
+    }
+  ],
+  "importedAt": "2026-10-24T00:00:00.000Z"
+}

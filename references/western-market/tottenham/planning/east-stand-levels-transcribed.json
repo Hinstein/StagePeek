@@ -1,0 +1,96 @@
+{
+  "sourceFile": "POP-4494-PLN-SC-0183-east-stand.pdf",
+  "sourceSha256": "22dee055e8d26f6ed36d25a95d7e04ccf82fbe06c221136b8658116dcaab1f59",
+  "drawingDate": "2015-09-18",
+  "drawingStatus": "PLANNING",
+  "revision": "0",
+  "page": 1,
+  "transcriptionMethod": "Manual visual transcription from locally rendered PDF detail crops; source PDF has no text layer.",
+  "unitsAsExplicitlyPrintedInLevelLabels": null,
+  "interpretedUnit": "metres",
+  "unitStatus": "Inference from architectural level notation and scale; not a surveyed seat coordinate unit declaration.",
+  "datum": "Drawing level reference; external datum name not shown in reviewed title/level labels.",
+  "aodVerified": false,
+  "metricSeatCalibrationPermitted": false,
+  "notes": [
+    "FOP label is explicit, but no football/NFL pitch-coordinate transform is provided.",
+    "LEVEL 00 is 11.530, not 13.530.",
+    "Floor levels are not row, eye, or seat elevations.",
+    "Do not combine drawing values with IOMEDIA projected polygon coordinates as if they were one 3D coordinate frame.",
+    "Design issue, not certified as-built."
+  ],
+  "levels": [
+    {
+      "labelAsPrinted": "FOP",
+      "valueAsPrinted": "12.298",
+      "numericValue": 12.298,
+      "isSeatElevation": false
+    },
+    {
+      "labelAsPrinted": "LEVEL B1 East",
+      "valueAsPrinted": "7.313",
+      "numericValue": 7.313,
+      "isSeatElevation": false
+    },
+    {
+      "labelAsPrinted": "LEVEL 00",
+      "valueAsPrinted": "11.530",
+      "numericValue": 11.53,
+      "isSeatElevation": false
+    },
+    {
+      "labelAsPrinted": "LEVEL 1",
+      "valueAsPrinted": "15.530",
+      "numericValue": 15.53,
+      "isSeatElevation": false
+    },
+    {
+      "labelAsPrinted": "LEVEL 2",
+      "valueAsPrinted": "19.530",
+      "numericValue": 19.53,
+      "isSeatElevation": false
+    },
+    {
+      "labelAsPrinted": "LEVEL 4",
+      "valueAsPrinted": "28.155",
+      "numericValue": 28.155,
+      "isSeatElevation": false
+    },
+    {
+      "labelAsPrinted": "LEVEL 5",
+      "valueAsPrinted": "32.345",
+      "numericValue": 32.345,
+      "isSeatElevation": false
+    },
+    {
+      "labelAsPrinted": "LEVEL 6",
+      "valueAsPrinted": "36.970",
+      "numericValue": 36.97,
+      "isSeatElevation": false
+    },
+    {
+      "labelAsPrinted": "LEVEL 8",
+      "valueAsPrinted": "44.420",
+      "numericValue": 44.42,
+      "isSeatElevation": false
+    },
+    {
+      "labelAsPrinted": "LEVEL 9",
+      "valueAsPrinted": "47.865",
+      "numericValue": 47.865,
+      "isSeatElevation": false
+    },
+    {
+      "labelAsPrinted": "Top of Eaves",
+      "valueAsPrinted": "55.600",
+      "numericValue": 55.6,
+      "isSeatElevation": false
+    },
+    {
+      "labelAsPrinted": "Top of Roof",
+      "valueAsPrinted": "59.154",
+      "numericValue": 59.154,
+      "isSeatElevation": false
+    }
+  ]
+}

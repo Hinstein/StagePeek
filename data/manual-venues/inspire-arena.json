@@ -1,0 +1,450 @@
+{
+  "id": "inspire-arena",
+  "name": "INSPIRE Arena · 迎仕柏",
+  "city": "韩国 · 仁川",
+  "capacity": "原站目录未提供统一容量字段",
+  "source": "https://world.nol.com/zh-CN/content/pois/ab02dd97-2eb9-48b8-aa3a-d19c34730d46",
+  "sourceTitle": "REA 导出的公开场馆来源索引与参数化座位示意",
+  "sourceLinks": [
+    "https://world.nol.com/zh-CN/content/pois/ab02dd97-2eb9-48b8-aa3a-d19c34730d46",
+    "https://ticketimage.interpark.com/Play/ITM/Data/Modify/2026/9/2026090720203215.jpg",
+    "https://ticketimage.interpark.com/Play/ITM/Data/Modify/2026/9/2026090811461410.JPG"
+  ],
+  "accuracy": {
+    "sectionLabels": "source-layout-reference",
+    "completeSeatInventory": false,
+    "metricCalibrated": false,
+    "stage": "generic",
+    "position": "estimated",
+    "geometryBasis": "source-informed-parametric:plan",
+    "catalogStatus": "source-geometry-and-sections",
+    "seatDataStatus": "section-only",
+    "sourceLayout": "center",
+    "coverage": "22 个来源分区；0 条座位采样。区号来自公开布局参考。",
+    "reuse": "来源页面可公开访问；未建立商业图形、模型或座位数据库再分发许可，发布前需逐源复核。",
+    "sourceDate": "REA capture 2026-10-24",
+    "sourceInventory": {
+      "venueReferenceUrl": "https://world.nol.com/zh-CN/content/pois/ab02dd97-2eb9-48b8-aa3a-d19c34730d46",
+      "mapReferenceUrl": null,
+      "sectionSource": "https://ticketimage.interpark.com/Play/ITM/Data/Modify/2026/9/2026090720203215.jpg",
+      "geometryEvidenceLabel": "plan",
+      "note": "Missing asset URL does not establish absence of generated seat geometry."
+    },
+    "seatAsset": null
+  },
+  "tiers": [
+    [
+      24,
+      34,
+      1,
+      18,
+      10
+    ],
+    [
+      34,
+      44,
+      14,
+      18,
+      13
+    ]
+  ],
+  "geometry": {
+    "shape": "rounded",
+    "coordinateSystem": "profile-inner-radius",
+    "power": 0.48,
+    "oneSided": false,
+    "floor": [
+      44,
+      64
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "2F 前段",
+        "steps": 25
+      },
+      {
+        "id": "middle",
+        "name": "2F 后段",
+        "steps": 25
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "201",
+      "ticketLabels": [
+        "201"
+      ],
+      "sourceLabel": "201 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.6981317007977318,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticketimage.interpark.com/Play/ITM/Data/Modify/2026/9/2026090720203215.jpg"
+      }
+    },
+    {
+      "id": "202",
+      "ticketLabels": [
+        "202"
+      ],
+      "sourceLabel": "202 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.0471975511965976,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticketimage.interpark.com/Play/ITM/Data/Modify/2026/9/2026090720203215.jpg"
+      }
+    },
+    {
+      "id": "203",
+      "ticketLabels": [
+        "203"
+      ],
+      "sourceLabel": "203 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.3962634015954636,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticketimage.interpark.com/Play/ITM/Data/Modify/2026/9/2026090720203215.jpg"
+      }
+    },
+    {
+      "id": "204",
+      "ticketLabels": [
+        "204"
+      ],
+      "sourceLabel": "204 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.7453292519943295,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticketimage.interpark.com/Play/ITM/Data/Modify/2026/9/2026090720203215.jpg"
+      }
+    },
+    {
+      "id": "205",
+      "ticketLabels": [
+        "205"
+      ],
+      "sourceLabel": "205 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.0943951023931953,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticketimage.interpark.com/Play/ITM/Data/Modify/2026/9/2026090720203215.jpg"
+      }
+    },
+    {
+      "id": "206",
+      "ticketLabels": [
+        "206"
+      ],
+      "sourceLabel": "206 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.443460952792061,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticketimage.interpark.com/Play/ITM/Data/Modify/2026/9/2026090720203215.jpg"
+      }
+    },
+    {
+      "id": "207",
+      "ticketLabels": [
+        "207"
+      ],
+      "sourceLabel": "207 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.792526803190927,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticketimage.interpark.com/Play/ITM/Data/Modify/2026/9/2026090720203215.jpg"
+      }
+    },
+    {
+      "id": "208",
+      "ticketLabels": [
+        "208"
+      ],
+      "sourceLabel": "208 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -3.141592653589793,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticketimage.interpark.com/Play/ITM/Data/Modify/2026/9/2026090720203215.jpg"
+      }
+    },
+    {
+      "id": "209",
+      "ticketLabels": [
+        "209"
+      ],
+      "sourceLabel": "209 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -3.490658503988659,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticketimage.interpark.com/Play/ITM/Data/Modify/2026/9/2026090720203215.jpg"
+      }
+    },
+    {
+      "id": "210",
+      "ticketLabels": [
+        "210"
+      ],
+      "sourceLabel": "210 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -3.839724354387525,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticketimage.interpark.com/Play/ITM/Data/Modify/2026/9/2026090720203215.jpg"
+      }
+    },
+    {
+      "id": "211",
+      "ticketLabels": [
+        "211"
+      ],
+      "sourceLabel": "211 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -4.1887902047863905,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticketimage.interpark.com/Play/ITM/Data/Modify/2026/9/2026090720203215.jpg"
+      }
+    },
+    {
+      "id": "212",
+      "ticketLabels": [
+        "212"
+      ],
+      "sourceLabel": "212 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -4.537856055185257,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticketimage.interpark.com/Play/ITM/Data/Modify/2026/9/2026090720203215.jpg"
+      }
+    },
+    {
+      "id": "213",
+      "ticketLabels": [
+        "213"
+      ],
+      "sourceLabel": "213 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -4.886921905584122,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticketimage.interpark.com/Play/ITM/Data/Modify/2026/9/2026090720203215.jpg"
+      }
+    },
+    {
+      "id": "214",
+      "ticketLabels": [
+        "214"
+      ],
+      "sourceLabel": "214 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -5.235987755982989,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticketimage.interpark.com/Play/ITM/Data/Modify/2026/9/2026090720203215.jpg"
+      }
+    },
+    {
+      "id": "215",
+      "ticketLabels": [
+        "215"
+      ],
+      "sourceLabel": "215 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -5.585053606381854,
+      "halfAngle": 0.15358897417550102,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticketimage.interpark.com/Play/ITM/Data/Modify/2026/9/2026090720203215.jpg"
+      }
+    },
+    {
+      "id": "308",
+      "ticketLabels": [
+        "308"
+      ],
+      "sourceLabel": "308 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -3.141592653589793,
+      "halfAngle": 0.14835298641951802,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticketimage.interpark.com/Play/ITM/Data/Modify/2026/9/2026090720203215.jpg"
+      }
+    },
+    {
+      "id": "309",
+      "ticketLabels": [
+        "309"
+      ],
+      "sourceLabel": "309 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -3.5779249665883754,
+      "halfAngle": 0.14835298641951802,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticketimage.interpark.com/Play/ITM/Data/Modify/2026/9/2026090720203215.jpg"
+      }
+    },
+    {
+      "id": "310",
+      "ticketLabels": [
+        "310"
+      ],
+      "sourceLabel": "310 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -4.014257279586958,
+      "halfAngle": 0.14835298641951802,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticketimage.interpark.com/Play/ITM/Data/Modify/2026/9/2026090720203215.jpg"
+      }
+    },
+    {
+      "id": "311",
+      "ticketLabels": [
+        "311"
+      ],
+      "sourceLabel": "311 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -4.363323129985823,
+      "halfAngle": 0.1382300767579509,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticketimage.interpark.com/Play/ITM/Data/Modify/2026/9/2026090720203215.jpg"
+      }
+    },
+    {
+      "id": "312",
+      "ticketLabels": [
+        "312"
+      ],
+      "sourceLabel": "312 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -4.677482395344803,
+      "halfAngle": 0.1382300767579509,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticketimage.interpark.com/Play/ITM/Data/Modify/2026/9/2026090720203215.jpg"
+      }
+    },
+    {
+      "id": "313",
+      "ticketLabels": [
+        "313"
+      ],
+      "sourceLabel": "313 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -4.991641660703783,
+      "halfAngle": 0.1382300767579509,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticketimage.interpark.com/Play/ITM/Data/Modify/2026/9/2026090720203215.jpg"
+      }
+    },
+    {
+      "id": "314",
+      "ticketLabels": [
+        "314"
+      ],
+      "sourceLabel": "314 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -5.305800926062761,
+      "halfAngle": 0.1382300767579509,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticketimage.interpark.com/Play/ITM/Data/Modify/2026/9/2026090720203215.jpg"
+      }
+    }
+  ],
+  "importedAt": "2026-10-24T00:00:00.000Z"
+}

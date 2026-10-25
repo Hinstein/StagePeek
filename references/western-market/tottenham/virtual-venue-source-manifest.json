@@ -1,0 +1,61 @@
+{
+  "retrieved": "2026-10-24",
+  "successfulDownloads": [
+    {
+      "file": "virtual-venue-public-config.json",
+      "url": "https://tottenhamhotspur.io-media.com/web/confignew.json",
+      "bytes": 717115,
+      "sha256": "e53668f37139da7f279c135dd8ae134c672fb45067f5b4813a0a87c4d7f91c24"
+    },
+    {
+      "file": "virtual-venue-FullStadium-map.json",
+      "url": "https://tottenhamhotspur.io-media.com/media/venueview/models/FullStadium.json",
+      "bytes": 463232,
+      "sha256": "94c7d4789dbd9a37638935392ed29436680004d0cfe644d3897df0137648680b"
+    },
+    {
+      "file": "virtual-venue-Level100-map.json",
+      "url": "https://tottenhamhotspur.io-media.com/media/venueview/models/Level100.json",
+      "bytes": 112159,
+      "sha256": "ec35ce46b926fd6654df767b8265f2be830802f680768f62ea9f0e360460e2ef"
+    },
+    {
+      "file": "virtual-venue-Level200-map.json",
+      "url": "https://tottenhamhotspur.io-media.com/media/venueview/models/Level200.json",
+      "bytes": 170766,
+      "sha256": "317b863a3a824c05a6ed711c2e2e3437dc05ab086e59c4ab8a8f9c3abd5c65b1"
+    },
+    {
+      "file": "virtual-venue-Level300-map.json",
+      "url": "https://tottenhamhotspur.io-media.com/media/venueview/models/Level300.json",
+      "bytes": 69808,
+      "sha256": "ca65395a9a02496273da1144329bb10717ce3d74d93948537ab563d32058e3de"
+    },
+    {
+      "file": "virtual-venue-Level400-map.json",
+      "url": "https://tottenhamhotspur.io-media.com/media/venueview/models/Level400.json",
+      "bytes": 104044,
+      "sha256": "b98b6ee0ab922b1a935191e37d7bdac1e8836088ba2df42d0a1c89860f895a8a"
+    },
+    {
+      "file": "virtual-venue-Level500-map.json",
+      "url": "https://tottenhamhotspur.io-media.com/media/venueview/models/Level500.json",
+      "bytes": 190426,
+      "sha256": "d8e1fe5899fe2095b280ee93487266637585266b98acc6cc97693f3ec0e6b2ce"
+    },
+    {
+      "file": "virtual-venue-LevelTunnel-map.json",
+      "url": "https://tottenhamhotspur.io-media.com/media/venueview/models/LevelTunnel.json",
+      "bytes": 12697,
+      "sha256": "6564ad68bc22c9fa9976763daa3705d88d2cf6cab70d472760dcc9d9479b779a"
+    },
+    {
+      "file": "Stadium-Map-official-2026.pdf",
+      "url": "https://resources.thfc.pulselive.com/thfc/document/2026/03/12/717e595c-0e87-42f1-9f93-054b42607733/Stadium-Map.pdf",
+      "bytes": 602543,
+      "sha256": "3d1ded96bd69e73b7e23d7b2448165e02266264e3b3eb512f9ee104654bbc8df"
+    }
+  ],
+  "pathResolution": "Runtime prepends ../media/ to areaMapFileName from /web/. The correct files are /media/venueview/models/*.json. Initial /web/venueview/ and /web/media/ requests failed; not evidence that the correctly resolved public files are restricted.",
+  "license": "No open commercial reuse license established; retained for research, not bundled into prototype."
+}

@@ -1,0 +1,688 @@
+{
+  "id": "jakarta-international-stadium",
+  "name": "Jakarta International Stadium",
+  "city": "印度尼西亚 · Jakarta",
+  "capacity": "未从本次公开事件资料确认",
+  "source": "https://www.jakartainternationalstadium.com/",
+  "sourceTitle": "公开场馆/票务座位参考；仅身份和分区候选",
+  "sourceLinks": [
+    "https://www.jakartainternationalstadium.com/"
+  ],
+  "accuracy": {
+    "sectionLabels": "identity-only-candidate",
+    "completeSeatInventory": false,
+    "metricCalibrated": false,
+    "stage": "generic",
+    "position": "estimated",
+    "geometryBasis": "identity-only-parametric",
+    "catalogStatus": "identity-only-candidate",
+    "seatDataStatus": "section-only",
+    "sourceLayout": "end",
+    "coverage": "仅导入场馆身份和示意分区；0 条逐座采样。The Weeknd 事件舞台和最终封区尚未核验。",
+    "reuse": "公开来源可访问；未建立商业图形、模型或座位数据库再分发许可。"
+  },
+  "tiers": [
+    [
+      50,
+      36,
+      2,
+      18,
+      10
+    ],
+    [
+      70,
+      52,
+      16,
+      18,
+      12
+    ],
+    [
+      88,
+      68,
+      31,
+      22,
+      14
+    ]
+  ],
+  "geometry": {
+    "shape": "oval",
+    "coordinateSystem": "profile-inner-radius",
+    "power": 1,
+    "oneSided": false,
+    "floor": [
+      100,
+      150
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "Level 1",
+        "steps": 24
+      },
+      {
+        "id": "middle",
+        "name": "Level 2",
+        "steps": 26
+      },
+      {
+        "id": "upper",
+        "name": "Level 3",
+        "steps": 30
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "L1-01",
+      "ticketLabels": [
+        "L1-01"
+      ],
+      "sourceLabel": "Jakarta International Stadium · Level 1 · reference block 1",
+      "levelName": "Level 1 · reference",
+      "tier": 0,
+      "angle": -1.5707963267948966,
+      "halfAngle": 0.17,
+      "samples": [],
+      "positionBasis": {
+        "kind": "identity-only-candidate",
+        "coordinateSystem": "estimated-metre-frame",
+        "sourceGeometry": "venue-reference-only"
+      }
+    },
+    {
+      "id": "L1-02",
+      "ticketLabels": [
+        "L1-02"
+      ],
+      "sourceLabel": "Jakarta International Stadium · Level 1 · reference block 2",
+      "levelName": "Level 1 · reference",
+      "tier": 0,
+      "angle": -1.0471975511965979,
+      "halfAngle": 0.17,
+      "samples": [],
+      "positionBasis": {
+        "kind": "identity-only-candidate",
+        "coordinateSystem": "estimated-metre-frame",
+        "sourceGeometry": "venue-reference-only"
+      }
+    },
+    {
+      "id": "L1-03",
+      "ticketLabels": [
+        "L1-03"
+      ],
+      "sourceLabel": "Jakarta International Stadium · Level 1 · reference block 3",
+      "levelName": "Level 1 · reference",
+      "tier": 0,
+      "angle": -0.5235987755982989,
+      "halfAngle": 0.17,
+      "samples": [],
+      "positionBasis": {
+        "kind": "identity-only-candidate",
+        "coordinateSystem": "estimated-metre-frame",
+        "sourceGeometry": "venue-reference-only"
+      }
+    },
+    {
+      "id": "L1-04",
+      "ticketLabels": [
+        "L1-04"
+      ],
+      "sourceLabel": "Jakarta International Stadium · Level 1 · reference block 4",
+      "levelName": "Level 1 · reference",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.17,
+      "samples": [],
+      "positionBasis": {
+        "kind": "identity-only-candidate",
+        "coordinateSystem": "estimated-metre-frame",
+        "sourceGeometry": "venue-reference-only"
+      }
+    },
+    {
+      "id": "L1-05",
+      "ticketLabels": [
+        "L1-05"
+      ],
+      "sourceLabel": "Jakarta International Stadium · Level 1 · reference block 5",
+      "levelName": "Level 1 · reference",
+      "tier": 0,
+      "angle": 0.5235987755982987,
+      "halfAngle": 0.17,
+      "samples": [],
+      "positionBasis": {
+        "kind": "identity-only-candidate",
+        "coordinateSystem": "estimated-metre-frame",
+        "sourceGeometry": "venue-reference-only"
+      }
+    },
+    {
+      "id": "L1-06",
+      "ticketLabels": [
+        "L1-06"
+      ],
+      "sourceLabel": "Jakarta International Stadium · Level 1 · reference block 6",
+      "levelName": "Level 1 · reference",
+      "tier": 0,
+      "angle": 1.0471975511965979,
+      "halfAngle": 0.17,
+      "samples": [],
+      "positionBasis": {
+        "kind": "identity-only-candidate",
+        "coordinateSystem": "estimated-metre-frame",
+        "sourceGeometry": "venue-reference-only"
+      }
+    },
+    {
+      "id": "L1-07",
+      "ticketLabels": [
+        "L1-07"
+      ],
+      "sourceLabel": "Jakarta International Stadium · Level 1 · reference block 7",
+      "levelName": "Level 1 · reference",
+      "tier": 0,
+      "angle": 1.5707963267948966,
+      "halfAngle": 0.17,
+      "samples": [],
+      "positionBasis": {
+        "kind": "identity-only-candidate",
+        "coordinateSystem": "estimated-metre-frame",
+        "sourceGeometry": "venue-reference-only"
+      }
+    },
+    {
+      "id": "L1-08",
+      "ticketLabels": [
+        "L1-08"
+      ],
+      "sourceLabel": "Jakarta International Stadium · Level 1 · reference block 8",
+      "levelName": "Level 1 · reference",
+      "tier": 0,
+      "angle": 2.0943951023931953,
+      "halfAngle": 0.17,
+      "samples": [],
+      "positionBasis": {
+        "kind": "identity-only-candidate",
+        "coordinateSystem": "estimated-metre-frame",
+        "sourceGeometry": "venue-reference-only"
+      }
+    },
+    {
+      "id": "L1-09",
+      "ticketLabels": [
+        "L1-09"
+      ],
+      "sourceLabel": "Jakarta International Stadium · Level 1 · reference block 9",
+      "levelName": "Level 1 · reference",
+      "tier": 0,
+      "angle": 2.617993877991494,
+      "halfAngle": 0.17,
+      "samples": [],
+      "positionBasis": {
+        "kind": "identity-only-candidate",
+        "coordinateSystem": "estimated-metre-frame",
+        "sourceGeometry": "venue-reference-only"
+      }
+    },
+    {
+      "id": "L1-10",
+      "ticketLabels": [
+        "L1-10"
+      ],
+      "sourceLabel": "Jakarta International Stadium · Level 1 · reference block 10",
+      "levelName": "Level 1 · reference",
+      "tier": 0,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.17,
+      "samples": [],
+      "positionBasis": {
+        "kind": "identity-only-candidate",
+        "coordinateSystem": "estimated-metre-frame",
+        "sourceGeometry": "venue-reference-only"
+      }
+    },
+    {
+      "id": "L1-11",
+      "ticketLabels": [
+        "L1-11"
+      ],
+      "sourceLabel": "Jakarta International Stadium · Level 1 · reference block 11",
+      "levelName": "Level 1 · reference",
+      "tier": 0,
+      "angle": 3.6651914291880923,
+      "halfAngle": 0.17,
+      "samples": [],
+      "positionBasis": {
+        "kind": "identity-only-candidate",
+        "coordinateSystem": "estimated-metre-frame",
+        "sourceGeometry": "venue-reference-only"
+      }
+    },
+    {
+      "id": "L1-12",
+      "ticketLabels": [
+        "L1-12"
+      ],
+      "sourceLabel": "Jakarta International Stadium · Level 1 · reference block 12",
+      "levelName": "Level 1 · reference",
+      "tier": 0,
+      "angle": 4.1887902047863905,
+      "halfAngle": 0.17,
+      "samples": [],
+      "positionBasis": {
+        "kind": "identity-only-candidate",
+        "coordinateSystem": "estimated-metre-frame",
+        "sourceGeometry": "venue-reference-only"
+      }
+    },
+    {
+      "id": "L2-01",
+      "ticketLabels": [
+        "L2-01"
+      ],
+      "sourceLabel": "Jakarta International Stadium · Level 2 · reference block 1",
+      "levelName": "Level 2 · reference",
+      "tier": 1,
+      "angle": -1.5707963267948966,
+      "halfAngle": 0.17,
+      "samples": [],
+      "positionBasis": {
+        "kind": "identity-only-candidate",
+        "coordinateSystem": "estimated-metre-frame",
+        "sourceGeometry": "venue-reference-only"
+      }
+    },
+    {
+      "id": "L2-02",
+      "ticketLabels": [
+        "L2-02"
+      ],
+      "sourceLabel": "Jakarta International Stadium · Level 2 · reference block 2",
+      "levelName": "Level 2 · reference",
+      "tier": 1,
+      "angle": -1.0471975511965979,
+      "halfAngle": 0.17,
+      "samples": [],
+      "positionBasis": {
+        "kind": "identity-only-candidate",
+        "coordinateSystem": "estimated-metre-frame",
+        "sourceGeometry": "venue-reference-only"
+      }
+    },
+    {
+      "id": "L2-03",
+      "ticketLabels": [
+        "L2-03"
+      ],
+      "sourceLabel": "Jakarta International Stadium · Level 2 · reference block 3",
+      "levelName": "Level 2 · reference",
+      "tier": 1,
+      "angle": -0.5235987755982989,
+      "halfAngle": 0.17,
+      "samples": [],
+      "positionBasis": {
+        "kind": "identity-only-candidate",
+        "coordinateSystem": "estimated-metre-frame",
+        "sourceGeometry": "venue-reference-only"
+      }
+    },
+    {
+      "id": "L2-04",
+      "ticketLabels": [
+        "L2-04"
+      ],
+      "sourceLabel": "Jakarta International Stadium · Level 2 · reference block 4",
+      "levelName": "Level 2 · reference",
+      "tier": 1,
+      "angle": 0,
+      "halfAngle": 0.17,
+      "samples": [],
+      "positionBasis": {
+        "kind": "identity-only-candidate",
+        "coordinateSystem": "estimated-metre-frame",
+        "sourceGeometry": "venue-reference-only"
+      }
+    },
+    {
+      "id": "L2-05",
+      "ticketLabels": [
+        "L2-05"
+      ],
+      "sourceLabel": "Jakarta International Stadium · Level 2 · reference block 5",
+      "levelName": "Level 2 · reference",
+      "tier": 1,
+      "angle": 0.5235987755982987,
+      "halfAngle": 0.17,
+      "samples": [],
+      "positionBasis": {
+        "kind": "identity-only-candidate",
+        "coordinateSystem": "estimated-metre-frame",
+        "sourceGeometry": "venue-reference-only"
+      }
+    },
+    {
+      "id": "L2-06",
+      "ticketLabels": [
+        "L2-06"
+      ],
+      "sourceLabel": "Jakarta International Stadium · Level 2 · reference block 6",
+      "levelName": "Level 2 · reference",
+      "tier": 1,
+      "angle": 1.0471975511965979,
+      "halfAngle": 0.17,
+      "samples": [],
+      "positionBasis": {
+        "kind": "identity-only-candidate",
+        "coordinateSystem": "estimated-metre-frame",
+        "sourceGeometry": "venue-reference-only"
+      }
+    },
+    {
+      "id": "L2-07",
+      "ticketLabels": [
+        "L2-07"
+      ],
+      "sourceLabel": "Jakarta International Stadium · Level 2 · reference block 7",
+      "levelName": "Level 2 · reference",
+      "tier": 1,
+      "angle": 1.5707963267948966,
+      "halfAngle": 0.17,
+      "samples": [],
+      "positionBasis": {
+        "kind": "identity-only-candidate",
+        "coordinateSystem": "estimated-metre-frame",
+        "sourceGeometry": "venue-reference-only"
+      }
+    },
+    {
+      "id": "L2-08",
+      "ticketLabels": [
+        "L2-08"
+      ],
+      "sourceLabel": "Jakarta International Stadium · Level 2 · reference block 8",
+      "levelName": "Level 2 · reference",
+      "tier": 1,
+      "angle": 2.0943951023931953,
+      "halfAngle": 0.17,
+      "samples": [],
+      "positionBasis": {
+        "kind": "identity-only-candidate",
+        "coordinateSystem": "estimated-metre-frame",
+        "sourceGeometry": "venue-reference-only"
+      }
+    },
+    {
+      "id": "L2-09",
+      "ticketLabels": [
+        "L2-09"
+      ],
+      "sourceLabel": "Jakarta International Stadium · Level 2 · reference block 9",
+      "levelName": "Level 2 · reference",
+      "tier": 1,
+      "angle": 2.617993877991494,
+      "halfAngle": 0.17,
+      "samples": [],
+      "positionBasis": {
+        "kind": "identity-only-candidate",
+        "coordinateSystem": "estimated-metre-frame",
+        "sourceGeometry": "venue-reference-only"
+      }
+    },
+    {
+      "id": "L2-10",
+      "ticketLabels": [
+        "L2-10"
+      ],
+      "sourceLabel": "Jakarta International Stadium · Level 2 · reference block 10",
+      "levelName": "Level 2 · reference",
+      "tier": 1,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.17,
+      "samples": [],
+      "positionBasis": {
+        "kind": "identity-only-candidate",
+        "coordinateSystem": "estimated-metre-frame",
+        "sourceGeometry": "venue-reference-only"
+      }
+    },
+    {
+      "id": "L2-11",
+      "ticketLabels": [
+        "L2-11"
+      ],
+      "sourceLabel": "Jakarta International Stadium · Level 2 · reference block 11",
+      "levelName": "Level 2 · reference",
+      "tier": 1,
+      "angle": 3.6651914291880923,
+      "halfAngle": 0.17,
+      "samples": [],
+      "positionBasis": {
+        "kind": "identity-only-candidate",
+        "coordinateSystem": "estimated-metre-frame",
+        "sourceGeometry": "venue-reference-only"
+      }
+    },
+    {
+      "id": "L2-12",
+      "ticketLabels": [
+        "L2-12"
+      ],
+      "sourceLabel": "Jakarta International Stadium · Level 2 · reference block 12",
+      "levelName": "Level 2 · reference",
+      "tier": 1,
+      "angle": 4.1887902047863905,
+      "halfAngle": 0.17,
+      "samples": [],
+      "positionBasis": {
+        "kind": "identity-only-candidate",
+        "coordinateSystem": "estimated-metre-frame",
+        "sourceGeometry": "venue-reference-only"
+      }
+    },
+    {
+      "id": "L3-01",
+      "ticketLabels": [
+        "L3-01"
+      ],
+      "sourceLabel": "Jakarta International Stadium · Level 3 · reference block 1",
+      "levelName": "Level 3 · reference",
+      "tier": 2,
+      "angle": -1.5707963267948966,
+      "halfAngle": 0.17,
+      "samples": [],
+      "positionBasis": {
+        "kind": "identity-only-candidate",
+        "coordinateSystem": "estimated-metre-frame",
+        "sourceGeometry": "venue-reference-only"
+      }
+    },
+    {
+      "id": "L3-02",
+      "ticketLabels": [
+        "L3-02"
+      ],
+      "sourceLabel": "Jakarta International Stadium · Level 3 · reference block 2",
+      "levelName": "Level 3 · reference",
+      "tier": 2,
+      "angle": -1.0471975511965979,
+      "halfAngle": 0.17,
+      "samples": [],
+      "positionBasis": {
+        "kind": "identity-only-candidate",
+        "coordinateSystem": "estimated-metre-frame",
+        "sourceGeometry": "venue-reference-only"
+      }
+    },
+    {
+      "id": "L3-03",
+      "ticketLabels": [
+        "L3-03"
+      ],
+      "sourceLabel": "Jakarta International Stadium · Level 3 · reference block 3",
+      "levelName": "Level 3 · reference",
+      "tier": 2,
+      "angle": -0.5235987755982989,
+      "halfAngle": 0.17,
+      "samples": [],
+      "positionBasis": {
+        "kind": "identity-only-candidate",
+        "coordinateSystem": "estimated-metre-frame",
+        "sourceGeometry": "venue-reference-only"
+      }
+    },
+    {
+      "id": "L3-04",
+      "ticketLabels": [
+        "L3-04"
+      ],
+      "sourceLabel": "Jakarta International Stadium · Level 3 · reference block 4",
+      "levelName": "Level 3 · reference",
+      "tier": 2,
+      "angle": 0,
+      "halfAngle": 0.17,
+      "samples": [],
+      "positionBasis": {
+        "kind": "identity-only-candidate",
+        "coordinateSystem": "estimated-metre-frame",
+        "sourceGeometry": "venue-reference-only"
+      }
+    },
+    {
+      "id": "L3-05",
+      "ticketLabels": [
+        "L3-05"
+      ],
+      "sourceLabel": "Jakarta International Stadium · Level 3 · reference block 5",
+      "levelName": "Level 3 · reference",
+      "tier": 2,
+      "angle": 0.5235987755982987,
+      "halfAngle": 0.17,
+      "samples": [],
+      "positionBasis": {
+        "kind": "identity-only-candidate",
+        "coordinateSystem": "estimated-metre-frame",
+        "sourceGeometry": "venue-reference-only"
+      }
+    },
+    {
+      "id": "L3-06",
+      "ticketLabels": [
+        "L3-06"
+      ],
+      "sourceLabel": "Jakarta International Stadium · Level 3 · reference block 6",
+      "levelName": "Level 3 · reference",
+      "tier": 2,
+      "angle": 1.0471975511965979,
+      "halfAngle": 0.17,
+      "samples": [],
+      "positionBasis": {
+        "kind": "identity-only-candidate",
+        "coordinateSystem": "estimated-metre-frame",
+        "sourceGeometry": "venue-reference-only"
+      }
+    },
+    {
+      "id": "L3-07",
+      "ticketLabels": [
+        "L3-07"
+      ],
+      "sourceLabel": "Jakarta International Stadium · Level 3 · reference block 7",
+      "levelName": "Level 3 · reference",
+      "tier": 2,
+      "angle": 1.5707963267948966,
+      "halfAngle": 0.17,
+      "samples": [],
+      "positionBasis": {
+        "kind": "identity-only-candidate",
+        "coordinateSystem": "estimated-metre-frame",
+        "sourceGeometry": "venue-reference-only"
+      }
+    },
+    {
+      "id": "L3-08",
+      "ticketLabels": [
+        "L3-08"
+      ],
+      "sourceLabel": "Jakarta International Stadium · Level 3 · reference block 8",
+      "levelName": "Level 3 · reference",
+      "tier": 2,
+      "angle": 2.0943951023931953,
+      "halfAngle": 0.17,
+      "samples": [],
+      "positionBasis": {
+        "kind": "identity-only-candidate",
+        "coordinateSystem": "estimated-metre-frame",
+        "sourceGeometry": "venue-reference-only"
+      }
+    },
+    {
+      "id": "L3-09",
+      "ticketLabels": [
+        "L3-09"
+      ],
+      "sourceLabel": "Jakarta International Stadium · Level 3 · reference block 9",
+      "levelName": "Level 3 · reference",
+      "tier": 2,
+      "angle": 2.617993877991494,
+      "halfAngle": 0.17,
+      "samples": [],
+      "positionBasis": {
+        "kind": "identity-only-candidate",
+        "coordinateSystem": "estimated-metre-frame",
+        "sourceGeometry": "venue-reference-only"
+      }
+    },
+    {
+      "id": "L3-10",
+      "ticketLabels": [
+        "L3-10"
+      ],
+      "sourceLabel": "Jakarta International Stadium · Level 3 · reference block 10",
+      "levelName": "Level 3 · reference",
+      "tier": 2,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.17,
+      "samples": [],
+      "positionBasis": {
+        "kind": "identity-only-candidate",
+        "coordinateSystem": "estimated-metre-frame",
+        "sourceGeometry": "venue-reference-only"
+      }
+    },
+    {
+      "id": "L3-11",
+      "ticketLabels": [
+        "L3-11"
+      ],
+      "sourceLabel": "Jakarta International Stadium · Level 3 · reference block 11",
+      "levelName": "Level 3 · reference",
+      "tier": 2,
+      "angle": 3.6651914291880923,
+      "halfAngle": 0.17,
+      "samples": [],
+      "positionBasis": {
+        "kind": "identity-only-candidate",
+        "coordinateSystem": "estimated-metre-frame",
+        "sourceGeometry": "venue-reference-only"
+      }
+    },
+    {
+      "id": "L3-12",
+      "ticketLabels": [
+        "L3-12"
+      ],
+      "sourceLabel": "Jakarta International Stadium · Level 3 · reference block 12",
+      "levelName": "Level 3 · reference",
+      "tier": 2,
+      "angle": 4.1887902047863905,
+      "halfAngle": 0.17,
+      "samples": [],
+      "positionBasis": {
+        "kind": "identity-only-candidate",
+        "coordinateSystem": "estimated-metre-frame",
+        "sourceGeometry": "venue-reference-only"
+      }
+    }
+  ]
+}

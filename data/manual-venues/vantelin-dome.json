@@ -1,0 +1,1001 @@
+{
+  "id": "vantelin-dome",
+  "name": "名古屋 Vantelin Dome",
+  "city": "日本 · 名古屋",
+  "capacity": "原站目录未提供统一容量字段",
+  "source": "https://www.twicejapan.com/feature/dometour2025",
+  "sourceTitle": "REA 导出的公开场馆来源索引与参数化座位示意",
+  "sourceLinks": [
+    "https://www.twicejapan.com/feature/dometour2025",
+    "https://www.nagoya-dome.co.jp/images/zaseki_ryokin_2026.png",
+    "https://www.nagoya-dome.co.jp/aboutus/gaiyo.php"
+  ],
+  "accuracy": {
+    "sectionLabels": "source-layout-reference",
+    "completeSeatInventory": false,
+    "metricCalibrated": false,
+    "stage": "generic",
+    "position": "estimated",
+    "geometryBasis": "source-informed-parametric:dimension",
+    "catalogStatus": "source-geometry-and-sections",
+    "seatDataStatus": "section-only",
+    "sourceLayout": "center",
+    "coverage": "54 个来源分区；0 条座位采样。区号来自公开布局参考。",
+    "reuse": "来源页面可公开访问；未建立商业图形、模型或座位数据库再分发许可，发布前需逐源复核。",
+    "sourceDate": "REA capture 2026-10-24",
+    "sourceInventory": {
+      "venueReferenceUrl": "https://www.twicejapan.com/feature/dometour2025",
+      "mapReferenceUrl": null,
+      "sectionSource": "https://www.nagoya-dome.co.jp/images/zaseki_ryokin_2026.png",
+      "geometryEvidenceLabel": "dimension",
+      "note": "Missing asset URL does not establish absence of generated seat geometry."
+    },
+    "seatAsset": null
+  },
+  "tiers": [
+    [
+      83,
+      83,
+      1,
+      32,
+      12
+    ],
+    [
+      104,
+      104,
+      20,
+      23,
+      17
+    ]
+  ],
+  "geometry": {
+    "shape": "baseball",
+    "coordinateSystem": "profile-inner-radius",
+    "power": 1,
+    "oneSided": false,
+    "radial": [
+      54,
+      51,
+      74,
+      82,
+      83
+    ],
+    "floor": [
+      146,
+      154
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下段 2–3F",
+        "steps": 39
+      },
+      {
+        "id": "middle",
+        "name": "上段 5F",
+        "steps": 30
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "aisle-11",
+      "ticketLabels": [
+        "aisle-11"
+      ],
+      "sourceLabel": "11 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.17453292519943295,
+      "halfAngle": 0.08191702844235385,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nagoya-dome.co.jp/images/zaseki_ryokin_2026.png"
+      }
+    },
+    {
+      "id": "aisle-12",
+      "ticketLabels": [
+        "aisle-12"
+      ],
+      "sourceLabel": "12 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.3607071965096681,
+      "halfAngle": 0.08190830179609389,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nagoya-dome.co.jp/images/zaseki_ryokin_2026.png"
+      }
+    },
+    {
+      "id": "aisle-13",
+      "ticketLabels": [
+        "aisle-13"
+      ],
+      "sourceLabel": "13 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.5468640145273832,
+      "halfAngle": 0.08190830179609389,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nagoya-dome.co.jp/images/zaseki_ryokin_2026.png"
+      }
+    },
+    {
+      "id": "aisle-14",
+      "ticketLabels": [
+        "aisle-14"
+      ],
+      "sourceLabel": "14 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.7330382858376184,
+      "halfAngle": 0.08191702844235385,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nagoya-dome.co.jp/images/zaseki_ryokin_2026.png"
+      }
+    },
+    {
+      "id": "aisle-15",
+      "ticketLabels": [
+        "aisle-15"
+      ],
+      "sourceLabel": "15 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.9192125571478535,
+      "halfAngle": 0.08190830179609389,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nagoya-dome.co.jp/images/zaseki_ryokin_2026.png"
+      }
+    },
+    {
+      "id": "aisle-16",
+      "ticketLabels": [
+        "aisle-16"
+      ],
+      "sourceLabel": "16 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.1053693751655687,
+      "halfAngle": 0.08190830179609389,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nagoya-dome.co.jp/images/zaseki_ryokin_2026.png"
+      }
+    },
+    {
+      "id": "aisle-17",
+      "ticketLabels": [
+        "aisle-17"
+      ],
+      "sourceLabel": "17 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.2915436464758039,
+      "halfAngle": 0.08191702844235385,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nagoya-dome.co.jp/images/zaseki_ryokin_2026.png"
+      }
+    },
+    {
+      "id": "aisle-18",
+      "ticketLabels": [
+        "aisle-18"
+      ],
+      "sourceLabel": "18 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.4777179177860391,
+      "halfAngle": 0.08190830179609389,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nagoya-dome.co.jp/images/zaseki_ryokin_2026.png"
+      }
+    },
+    {
+      "id": "aisle-19",
+      "ticketLabels": [
+        "aisle-19"
+      ],
+      "sourceLabel": "19 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.663874735803754,
+      "halfAngle": 0.08190830179609389,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nagoya-dome.co.jp/images/zaseki_ryokin_2026.png"
+      }
+    },
+    {
+      "id": "aisle-20",
+      "ticketLabels": [
+        "aisle-20"
+      ],
+      "sourceLabel": "20 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.8500490071139892,
+      "halfAngle": 0.08191702844235385,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nagoya-dome.co.jp/images/zaseki_ryokin_2026.png"
+      }
+    },
+    {
+      "id": "aisle-21",
+      "ticketLabels": [
+        "aisle-21"
+      ],
+      "sourceLabel": "21 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.0362232784242247,
+      "halfAngle": 0.08190830179609389,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nagoya-dome.co.jp/images/zaseki_ryokin_2026.png"
+      }
+    },
+    {
+      "id": "aisle-22",
+      "ticketLabels": [
+        "aisle-22"
+      ],
+      "sourceLabel": "22 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.2223800964419396,
+      "halfAngle": 0.08190830179609389,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nagoya-dome.co.jp/images/zaseki_ryokin_2026.png"
+      }
+    },
+    {
+      "id": "aisle-23",
+      "ticketLabels": [
+        "aisle-23"
+      ],
+      "sourceLabel": "23 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.4085543677521746,
+      "halfAngle": 0.08191702844235385,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nagoya-dome.co.jp/images/zaseki_ryokin_2026.png"
+      }
+    },
+    {
+      "id": "aisle-24",
+      "ticketLabels": [
+        "aisle-24"
+      ],
+      "sourceLabel": "24 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.59472863906241,
+      "halfAngle": 0.08190830179609389,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nagoya-dome.co.jp/images/zaseki_ryokin_2026.png"
+      }
+    },
+    {
+      "id": "aisle-25",
+      "ticketLabels": [
+        "aisle-25"
+      ],
+      "sourceLabel": "25 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.780885457080125,
+      "halfAngle": 0.08190830179609389,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nagoya-dome.co.jp/images/zaseki_ryokin_2026.png"
+      }
+    },
+    {
+      "id": "aisle-26",
+      "ticketLabels": [
+        "aisle-26"
+      ],
+      "sourceLabel": "26 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.9670597283903604,
+      "halfAngle": 0.08191702844235385,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nagoya-dome.co.jp/images/zaseki_ryokin_2026.png"
+      }
+    },
+    {
+      "id": "aisle-31",
+      "ticketLabels": [
+        "aisle-31"
+      ],
+      "sourceLabel": "31 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.17453292519943295,
+      "halfAngle": 0.08191702844235385,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nagoya-dome.co.jp/images/zaseki_ryokin_2026.png"
+      }
+    },
+    {
+      "id": "aisle-32",
+      "ticketLabels": [
+        "aisle-32"
+      ],
+      "sourceLabel": "32 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.3607071965096681,
+      "halfAngle": 0.08190830179609389,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nagoya-dome.co.jp/images/zaseki_ryokin_2026.png"
+      }
+    },
+    {
+      "id": "aisle-33",
+      "ticketLabels": [
+        "aisle-33"
+      ],
+      "sourceLabel": "33 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.5468640145273832,
+      "halfAngle": 0.08190830179609389,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nagoya-dome.co.jp/images/zaseki_ryokin_2026.png"
+      }
+    },
+    {
+      "id": "aisle-34",
+      "ticketLabels": [
+        "aisle-34"
+      ],
+      "sourceLabel": "34 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.7330382858376184,
+      "halfAngle": 0.08191702844235385,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nagoya-dome.co.jp/images/zaseki_ryokin_2026.png"
+      }
+    },
+    {
+      "id": "aisle-35",
+      "ticketLabels": [
+        "aisle-35"
+      ],
+      "sourceLabel": "35 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.9192125571478535,
+      "halfAngle": 0.08190830179609389,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nagoya-dome.co.jp/images/zaseki_ryokin_2026.png"
+      }
+    },
+    {
+      "id": "aisle-36",
+      "ticketLabels": [
+        "aisle-36"
+      ],
+      "sourceLabel": "36 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.1053693751655687,
+      "halfAngle": 0.08190830179609389,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nagoya-dome.co.jp/images/zaseki_ryokin_2026.png"
+      }
+    },
+    {
+      "id": "aisle-37",
+      "ticketLabels": [
+        "aisle-37"
+      ],
+      "sourceLabel": "37 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.2915436464758039,
+      "halfAngle": 0.08191702844235385,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nagoya-dome.co.jp/images/zaseki_ryokin_2026.png"
+      }
+    },
+    {
+      "id": "aisle-38",
+      "ticketLabels": [
+        "aisle-38"
+      ],
+      "sourceLabel": "38 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.4777179177860391,
+      "halfAngle": 0.08190830179609389,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nagoya-dome.co.jp/images/zaseki_ryokin_2026.png"
+      }
+    },
+    {
+      "id": "aisle-39",
+      "ticketLabels": [
+        "aisle-39"
+      ],
+      "sourceLabel": "39 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.663874735803754,
+      "halfAngle": 0.08190830179609389,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nagoya-dome.co.jp/images/zaseki_ryokin_2026.png"
+      }
+    },
+    {
+      "id": "aisle-40",
+      "ticketLabels": [
+        "aisle-40"
+      ],
+      "sourceLabel": "40 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.8500490071139892,
+      "halfAngle": 0.08191702844235385,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nagoya-dome.co.jp/images/zaseki_ryokin_2026.png"
+      }
+    },
+    {
+      "id": "aisle-41",
+      "ticketLabels": [
+        "aisle-41"
+      ],
+      "sourceLabel": "41 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.0362232784242247,
+      "halfAngle": 0.08190830179609389,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nagoya-dome.co.jp/images/zaseki_ryokin_2026.png"
+      }
+    },
+    {
+      "id": "aisle-42",
+      "ticketLabels": [
+        "aisle-42"
+      ],
+      "sourceLabel": "42 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.2223800964419396,
+      "halfAngle": 0.08190830179609389,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nagoya-dome.co.jp/images/zaseki_ryokin_2026.png"
+      }
+    },
+    {
+      "id": "aisle-43",
+      "ticketLabels": [
+        "aisle-43"
+      ],
+      "sourceLabel": "43 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.4085543677521746,
+      "halfAngle": 0.08191702844235385,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nagoya-dome.co.jp/images/zaseki_ryokin_2026.png"
+      }
+    },
+    {
+      "id": "aisle-44",
+      "ticketLabels": [
+        "aisle-44"
+      ],
+      "sourceLabel": "44 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.59472863906241,
+      "halfAngle": 0.08190830179609389,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nagoya-dome.co.jp/images/zaseki_ryokin_2026.png"
+      }
+    },
+    {
+      "id": "aisle-45",
+      "ticketLabels": [
+        "aisle-45"
+      ],
+      "sourceLabel": "45 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.780885457080125,
+      "halfAngle": 0.08190830179609389,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nagoya-dome.co.jp/images/zaseki_ryokin_2026.png"
+      }
+    },
+    {
+      "id": "aisle-46",
+      "ticketLabels": [
+        "aisle-46"
+      ],
+      "sourceLabel": "46 通路附近",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.9670597283903604,
+      "halfAngle": 0.08191702844235385,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nagoya-dome.co.jp/images/zaseki_ryokin_2026.png"
+      }
+    },
+    {
+      "id": "aisle-51",
+      "ticketLabels": [
+        "aisle-51"
+      ],
+      "sourceLabel": "51 通路附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.12217304763960307,
+      "halfAngle": 0.1075122819228507,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nagoya-dome.co.jp/images/zaseki_ryokin_2026.png"
+      }
+    },
+    {
+      "id": "aisle-52",
+      "ticketLabels": [
+        "aisle-52"
+      ],
+      "sourceLabel": "52 通路附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.4118977034706618,
+      "halfAngle": 0.12747884856566583,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nagoya-dome.co.jp/images/zaseki_ryokin_2026.png"
+      }
+    },
+    {
+      "id": "aisle-53",
+      "ticketLabels": [
+        "aisle-53"
+      ],
+      "sourceLabel": "53 通路附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.7016223593017205,
+      "halfAngle": 0.12747884856566583,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nagoya-dome.co.jp/images/zaseki_ryokin_2026.png"
+      }
+    },
+    {
+      "id": "aisle-54",
+      "ticketLabels": [
+        "aisle-54"
+      ],
+      "sourceLabel": "54 通路附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.9913470151327791,
+      "halfAngle": 0.12747884856566583,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nagoya-dome.co.jp/images/zaseki_ryokin_2026.png"
+      }
+    },
+    {
+      "id": "aisle-55",
+      "ticketLabels": [
+        "aisle-55"
+      ],
+      "sourceLabel": "55 通路附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.281071670963838,
+      "halfAngle": 0.12747884856566583,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nagoya-dome.co.jp/images/zaseki_ryokin_2026.png"
+      }
+    },
+    {
+      "id": "aisle-56",
+      "ticketLabels": [
+        "aisle-56"
+      ],
+      "sourceLabel": "56 通路附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.5707963267948966,
+      "halfAngle": 0.12747884856566583,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nagoya-dome.co.jp/images/zaseki_ryokin_2026.png"
+      }
+    },
+    {
+      "id": "aisle-57",
+      "ticketLabels": [
+        "aisle-57"
+      ],
+      "sourceLabel": "57 通路附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.8605209826259552,
+      "halfAngle": 0.12747884856566583,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nagoya-dome.co.jp/images/zaseki_ryokin_2026.png"
+      }
+    },
+    {
+      "id": "aisle-58",
+      "ticketLabels": [
+        "aisle-58"
+      ],
+      "sourceLabel": "58 通路附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.1502456384570143,
+      "halfAngle": 0.12747884856566583,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nagoya-dome.co.jp/images/zaseki_ryokin_2026.png"
+      }
+    },
+    {
+      "id": "aisle-59",
+      "ticketLabels": [
+        "aisle-59"
+      ],
+      "sourceLabel": "59 通路附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.4399702942880728,
+      "halfAngle": 0.12747884856566583,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nagoya-dome.co.jp/images/zaseki_ryokin_2026.png"
+      }
+    },
+    {
+      "id": "aisle-60",
+      "ticketLabels": [
+        "aisle-60"
+      ],
+      "sourceLabel": "60 通路附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.729694950119131,
+      "halfAngle": 0.12747884856566583,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nagoya-dome.co.jp/images/zaseki_ryokin_2026.png"
+      }
+    },
+    {
+      "id": "aisle-61",
+      "ticketLabels": [
+        "aisle-61"
+      ],
+      "sourceLabel": "61 通路附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.01941960595019,
+      "halfAngle": 0.1075122819228507,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nagoya-dome.co.jp/images/zaseki_ryokin_2026.png"
+      }
+    },
+    {
+      "id": "aisle-71",
+      "ticketLabels": [
+        "aisle-71"
+      ],
+      "sourceLabel": "71 通路附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.12217304763960307,
+      "halfAngle": 0.1075122819228507,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nagoya-dome.co.jp/images/zaseki_ryokin_2026.png"
+      }
+    },
+    {
+      "id": "aisle-72",
+      "ticketLabels": [
+        "aisle-72"
+      ],
+      "sourceLabel": "72 通路附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.4118977034706618,
+      "halfAngle": 0.12747884856566583,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nagoya-dome.co.jp/images/zaseki_ryokin_2026.png"
+      }
+    },
+    {
+      "id": "aisle-73",
+      "ticketLabels": [
+        "aisle-73"
+      ],
+      "sourceLabel": "73 通路附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.7016223593017205,
+      "halfAngle": 0.12747884856566583,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nagoya-dome.co.jp/images/zaseki_ryokin_2026.png"
+      }
+    },
+    {
+      "id": "aisle-74",
+      "ticketLabels": [
+        "aisle-74"
+      ],
+      "sourceLabel": "74 通路附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.9913470151327791,
+      "halfAngle": 0.12747884856566583,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nagoya-dome.co.jp/images/zaseki_ryokin_2026.png"
+      }
+    },
+    {
+      "id": "aisle-75",
+      "ticketLabels": [
+        "aisle-75"
+      ],
+      "sourceLabel": "75 通路附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.281071670963838,
+      "halfAngle": 0.12747884856566583,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nagoya-dome.co.jp/images/zaseki_ryokin_2026.png"
+      }
+    },
+    {
+      "id": "aisle-76",
+      "ticketLabels": [
+        "aisle-76"
+      ],
+      "sourceLabel": "76 通路附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.5707963267948966,
+      "halfAngle": 0.12747884856566583,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nagoya-dome.co.jp/images/zaseki_ryokin_2026.png"
+      }
+    },
+    {
+      "id": "aisle-77",
+      "ticketLabels": [
+        "aisle-77"
+      ],
+      "sourceLabel": "77 通路附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.8605209826259552,
+      "halfAngle": 0.12747884856566583,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nagoya-dome.co.jp/images/zaseki_ryokin_2026.png"
+      }
+    },
+    {
+      "id": "aisle-78",
+      "ticketLabels": [
+        "aisle-78"
+      ],
+      "sourceLabel": "78 通路附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.1502456384570143,
+      "halfAngle": 0.12747884856566583,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nagoya-dome.co.jp/images/zaseki_ryokin_2026.png"
+      }
+    },
+    {
+      "id": "aisle-79",
+      "ticketLabels": [
+        "aisle-79"
+      ],
+      "sourceLabel": "79 通路附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.4399702942880728,
+      "halfAngle": 0.12747884856566583,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nagoya-dome.co.jp/images/zaseki_ryokin_2026.png"
+      }
+    },
+    {
+      "id": "aisle-80",
+      "ticketLabels": [
+        "aisle-80"
+      ],
+      "sourceLabel": "80 通路附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.729694950119131,
+      "halfAngle": 0.12747884856566583,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nagoya-dome.co.jp/images/zaseki_ryokin_2026.png"
+      }
+    },
+    {
+      "id": "aisle-81",
+      "ticketLabels": [
+        "aisle-81"
+      ],
+      "sourceLabel": "81 通路附近",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -3.01941960595019,
+      "halfAngle": 0.1075122819228507,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nagoya-dome.co.jp/images/zaseki_ryokin_2026.png"
+      }
+    }
+  ],
+  "importedAt": "2026-10-24T00:00:00.000Z"
+}

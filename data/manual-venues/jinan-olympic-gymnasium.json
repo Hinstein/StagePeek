@@ -1,0 +1,483 @@
+{
+  "id": "jinan-olympic-gymnasium",
+  "name": "济南奥林匹克体育中心体育馆",
+  "city": "中国内地 · 济南",
+  "capacity": "原站目录未提供统一容量字段",
+  "source": "https://www.xiaohongshu.com/explore/67cfa0f5000000002901b051",
+  "sourceTitle": "REA 导出的公开场馆来源索引与参数化座位示意",
+  "sourceLinks": [
+    "https://www.xiaohongshu.com/explore/67cfa0f5000000002901b051",
+    "https://www.qlwb.com.cn/detail/25866407.html"
+  ],
+  "accuracy": {
+    "sectionLabels": "source-layout-reference",
+    "completeSeatInventory": false,
+    "metricCalibrated": false,
+    "stage": "generic",
+    "position": "estimated",
+    "geometryBasis": "source-informed-parametric:reference",
+    "catalogStatus": "source-geometry-and-sections",
+    "seatDataStatus": "section-only",
+    "sourceLayout": "end",
+    "coverage": "24 个来源分区；0 条座位采样。区号来自公开布局参考。",
+    "reuse": "来源页面可公开访问；未建立商业图形、模型或座位数据库再分发许可，发布前需逐源复核。",
+    "sourceDate": "REA capture 2026-10-24",
+    "sourceInventory": {
+      "venueReferenceUrl": "https://www.xiaohongshu.com/explore/67cfa0f5000000002901b051",
+      "mapReferenceUrl": "https://www.xiaohongshu.com/explore/67cfa0f5000000002901b051",
+      "sectionSource": "https://www.xiaohongshu.com/explore/67cfa0f5000000002901b051",
+      "geometryEvidenceLabel": "reference",
+      "note": "Missing asset URL does not establish absence of generated seat geometry."
+    },
+    "seatAsset": null
+  },
+  "tiers": [
+    [
+      25,
+      34,
+      1.5,
+      10,
+      6
+    ],
+    [
+      36,
+      45,
+      9.5,
+      10,
+      6
+    ]
+  ],
+  "geometry": {
+    "shape": "rounded",
+    "coordinateSystem": "profile-inner-radius",
+    "power": 0.65,
+    "oneSided": false,
+    "floor": [
+      50,
+      68
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "steps": 18
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "steps": 18
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "base-lower-1",
+      "ticketLabels": [
+        "base-lower-1"
+      ],
+      "sourceLabel": "下层看台 · 方位1（示意）",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.20071286397934787,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.xiaohongshu.com/explore/67cfa0f5000000002901b051"
+      }
+    },
+    {
+      "id": "base-lower-2",
+      "ticketLabels": [
+        "base-lower-2"
+      ],
+      "sourceLabel": "下层看台 · 方位2（示意）",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 5.759586531581287,
+      "halfAngle": 0.20071286397934787,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.xiaohongshu.com/explore/67cfa0f5000000002901b051"
+      }
+    },
+    {
+      "id": "base-lower-3",
+      "ticketLabels": [
+        "base-lower-3"
+      ],
+      "sourceLabel": "下层看台 · 方位3（示意）",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 5.235987755982989,
+      "halfAngle": 0.20071286397934787,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.xiaohongshu.com/explore/67cfa0f5000000002901b051"
+      }
+    },
+    {
+      "id": "base-lower-4",
+      "ticketLabels": [
+        "base-lower-4"
+      ],
+      "sourceLabel": "下层看台 · 方位4（示意）",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 4.71238898038469,
+      "halfAngle": 0.20071286397934787,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.xiaohongshu.com/explore/67cfa0f5000000002901b051"
+      }
+    },
+    {
+      "id": "base-lower-5",
+      "ticketLabels": [
+        "base-lower-5"
+      ],
+      "sourceLabel": "下层看台 · 方位5（示意）",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 4.1887902047863905,
+      "halfAngle": 0.20071286397934787,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.xiaohongshu.com/explore/67cfa0f5000000002901b051"
+      }
+    },
+    {
+      "id": "base-lower-6",
+      "ticketLabels": [
+        "base-lower-6"
+      ],
+      "sourceLabel": "下层看台 · 方位6（示意）",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.6651914291880923,
+      "halfAngle": 0.20071286397934787,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.xiaohongshu.com/explore/67cfa0f5000000002901b051"
+      }
+    },
+    {
+      "id": "base-lower-7",
+      "ticketLabels": [
+        "base-lower-7"
+      ],
+      "sourceLabel": "下层看台 · 方位7（示意）",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.20071286397934787,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.xiaohongshu.com/explore/67cfa0f5000000002901b051"
+      }
+    },
+    {
+      "id": "base-lower-8",
+      "ticketLabels": [
+        "base-lower-8"
+      ],
+      "sourceLabel": "下层看台 · 方位8（示意）",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.6179938779914944,
+      "halfAngle": 0.20071286397934787,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.xiaohongshu.com/explore/67cfa0f5000000002901b051"
+      }
+    },
+    {
+      "id": "base-lower-9",
+      "ticketLabels": [
+        "base-lower-9"
+      ],
+      "sourceLabel": "下层看台 · 方位9（示意）",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.0943951023931953,
+      "halfAngle": 0.20071286397934787,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.xiaohongshu.com/explore/67cfa0f5000000002901b051"
+      }
+    },
+    {
+      "id": "base-lower-10",
+      "ticketLabels": [
+        "base-lower-10"
+      ],
+      "sourceLabel": "下层看台 · 方位10（示意）",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.5707963267948966,
+      "halfAngle": 0.20071286397934787,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.xiaohongshu.com/explore/67cfa0f5000000002901b051"
+      }
+    },
+    {
+      "id": "base-lower-11",
+      "ticketLabels": [
+        "base-lower-11"
+      ],
+      "sourceLabel": "下层看台 · 方位11（示意）",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.0471975511965976,
+      "halfAngle": 0.20071286397934787,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.xiaohongshu.com/explore/67cfa0f5000000002901b051"
+      }
+    },
+    {
+      "id": "base-lower-12",
+      "ticketLabels": [
+        "base-lower-12"
+      ],
+      "sourceLabel": "下层看台 · 方位12（示意）",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.5235987755982988,
+      "halfAngle": 0.20071286397934787,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.xiaohongshu.com/explore/67cfa0f5000000002901b051"
+      }
+    },
+    {
+      "id": "base-upper-1",
+      "ticketLabels": [
+        "base-upper-1"
+      ],
+      "sourceLabel": "上层看台 · 方位1（示意）",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": 0,
+      "halfAngle": 0.20071286397934787,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.xiaohongshu.com/explore/67cfa0f5000000002901b051"
+      }
+    },
+    {
+      "id": "base-upper-2",
+      "ticketLabels": [
+        "base-upper-2"
+      ],
+      "sourceLabel": "上层看台 · 方位2（示意）",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": 5.759586531581287,
+      "halfAngle": 0.20071286397934787,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.xiaohongshu.com/explore/67cfa0f5000000002901b051"
+      }
+    },
+    {
+      "id": "base-upper-3",
+      "ticketLabels": [
+        "base-upper-3"
+      ],
+      "sourceLabel": "上层看台 · 方位3（示意）",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": 5.235987755982989,
+      "halfAngle": 0.20071286397934787,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.xiaohongshu.com/explore/67cfa0f5000000002901b051"
+      }
+    },
+    {
+      "id": "base-upper-4",
+      "ticketLabels": [
+        "base-upper-4"
+      ],
+      "sourceLabel": "上层看台 · 方位4（示意）",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": 4.71238898038469,
+      "halfAngle": 0.20071286397934787,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.xiaohongshu.com/explore/67cfa0f5000000002901b051"
+      }
+    },
+    {
+      "id": "base-upper-5",
+      "ticketLabels": [
+        "base-upper-5"
+      ],
+      "sourceLabel": "上层看台 · 方位5（示意）",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": 4.1887902047863905,
+      "halfAngle": 0.20071286397934787,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.xiaohongshu.com/explore/67cfa0f5000000002901b051"
+      }
+    },
+    {
+      "id": "base-upper-6",
+      "ticketLabels": [
+        "base-upper-6"
+      ],
+      "sourceLabel": "上层看台 · 方位6（示意）",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": 3.6651914291880923,
+      "halfAngle": 0.20071286397934787,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.xiaohongshu.com/explore/67cfa0f5000000002901b051"
+      }
+    },
+    {
+      "id": "base-upper-7",
+      "ticketLabels": [
+        "base-upper-7"
+      ],
+      "sourceLabel": "上层看台 · 方位7（示意）",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.20071286397934787,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.xiaohongshu.com/explore/67cfa0f5000000002901b051"
+      }
+    },
+    {
+      "id": "base-upper-8",
+      "ticketLabels": [
+        "base-upper-8"
+      ],
+      "sourceLabel": "上层看台 · 方位8（示意）",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": 2.6179938779914944,
+      "halfAngle": 0.20071286397934787,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.xiaohongshu.com/explore/67cfa0f5000000002901b051"
+      }
+    },
+    {
+      "id": "base-upper-9",
+      "ticketLabels": [
+        "base-upper-9"
+      ],
+      "sourceLabel": "上层看台 · 方位9（示意）",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": 2.0943951023931953,
+      "halfAngle": 0.20071286397934787,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.xiaohongshu.com/explore/67cfa0f5000000002901b051"
+      }
+    },
+    {
+      "id": "base-upper-10",
+      "ticketLabels": [
+        "base-upper-10"
+      ],
+      "sourceLabel": "上层看台 · 方位10（示意）",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": 1.5707963267948966,
+      "halfAngle": 0.20071286397934787,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.xiaohongshu.com/explore/67cfa0f5000000002901b051"
+      }
+    },
+    {
+      "id": "base-upper-11",
+      "ticketLabels": [
+        "base-upper-11"
+      ],
+      "sourceLabel": "上层看台 · 方位11（示意）",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": 1.0471975511965976,
+      "halfAngle": 0.20071286397934787,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.xiaohongshu.com/explore/67cfa0f5000000002901b051"
+      }
+    },
+    {
+      "id": "base-upper-12",
+      "ticketLabels": [
+        "base-upper-12"
+      ],
+      "sourceLabel": "上层看台 · 方位12（示意）",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": 0.5235987755982988,
+      "halfAngle": 0.20071286397934787,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.xiaohongshu.com/explore/67cfa0f5000000002901b051"
+      }
+    }
+  ],
+  "importedAt": "2026-10-24T00:00:00.000Z"
+}

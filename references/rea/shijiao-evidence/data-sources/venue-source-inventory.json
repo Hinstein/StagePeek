@@ -1,0 +1,4421 @@
+[
+  {
+    "id": "birds-nest",
+    "name": "国家体育场 · 鸟巢",
+    "city": "北京",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.n-s.cn/article_7d53c11105fe4768bf23b76d596d2b7b.html",
+    "map_reference_url": "https://img.alicdn.com/imgextra/i1/2251059038/O1CN01GDJUTfmIfBD29Z6P_!!2251059038.png",
+    "geometry_evidence_label": null,
+    "geometry_sources": [],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "kspo-dome",
+    "name": "KSPO DOME",
+    "city": "首尔",
+    "region": "韩国",
+    "venue_reference_url": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=4915&mid=a20301010300",
+    "map_reference_url": "https://www.ksponco.or.kr/olympicpark/img/sub/s3_01_03_seat.jpg",
+    "geometry_evidence_label": null,
+    "geometry_sources": [],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "guangzhou-yayuncheng",
+    "name": "广州亚运城综合体育馆 · 体操馆",
+    "city": "广州",
+    "region": "中国内地",
+    "venue_reference_url": "https://wglj.gz.gov.cn/zwgk/xyxxsgs/xzxk/content/post_11012372.html",
+    "map_reference_url": null,
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://wglj.gz.gov.cn/zwgk/xyxxsgs/xzxk/content/post_11012372.html",
+        "note": "广州市文旅局确认场馆为亚运城综合体育馆体操馆及威神V演出日期；本场区界来自用户提供的座位图。基础场馆、尺寸、层高与排座为示意估算，完整场馆区号尚未核验。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "wukesong",
+    "name": "五棵松体育馆",
+    "city": "北京",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.beijing.gov.cn/renwen/rwzyd/qxdw/myhdlzqzh/wkstyzhx/202309/t20230921_3263793.html",
+    "map_reference_url": null,
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.beijing.gov.cn/renwen/rwzyd/qxdw/myhdlzqzh/wkstyzhx/202309/t20230921_3263793.html",
+        "note": "官方场馆资料仅支持场馆身份和类型；本轮重做形态和独立剖面，尺度仍为初步估计，待尺寸图补强。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "national-indoor",
+    "name": "国家体育馆",
+    "city": "北京",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.nis-cn.com/",
+    "map_reference_url": null,
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.nis-cn.com/",
+        "note": "官方场馆资料仅支持场馆身份和类型；本轮重做形态和独立剖面，尺度仍为初步估计，待尺寸图补强。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "capital-indoor",
+    "name": "首都体育馆",
+    "city": "北京",
+    "region": "中国内地",
+    "venue_reference_url": "https://s.visitbeijing.com.cn/attraction/117978",
+    "map_reference_url": null,
+    "geometry_evidence_label": "dimension",
+    "geometry_sources": [
+      {
+        "url": "https://s.visitbeijing.com.cn/attraction/117978",
+        "note": "北京官方旅游资料：比赛大厅 88×40 m、活动／半活动／固定看台；此为公开历史配置，未将冰球场尺寸混作完整大厅，演出收放状态仍待核验。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "mercedes-benz-arena",
+    "name": "梅赛德斯-奔驰文化中心",
+    "city": "上海",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.mercedes-benzarena.com/3DSeatMap/",
+    "map_reference_url": "https://www.mercedes-benzarena.com/3DSeatMap/",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.mercedes-benzarena.com/AboutUs/",
+        "note": "官方场馆资料仅支持场馆身份和类型；本轮重做形态和独立剖面，尺度仍为初步估计，待尺寸图补强。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "shanghai-stadium",
+    "name": "上海体育场",
+    "city": "上海",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.gzw.sh.gov.cn/shgzw_zxzx_gqdt/20230426/536c3e7f6f994e42914517dd0d37f65c.html",
+    "map_reference_url": null,
+    "geometry_evidence_label": "structure",
+    "geometry_sources": [
+      {
+        "url": "https://www.xuhui.gov.cn/xwzx_bmlf/20230808/520860.html",
+        "note": "徐汇区政府：改造为专业足球场，原跑道增设永久与临时看台，下层抬高 1.6 m；不再按完整跑道建模。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "oriental-sports",
+    "name": "东方体育中心 · 海上王冠",
+    "city": "上海",
+    "region": "中国内地",
+    "venue_reference_url": "https://tyj.sh.gov.cn/zsdw/20090703/0027-66800.html",
+    "map_reference_url": null,
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://tyj.sh.gov.cn/zsdw/20090703/0027-66800.html",
+        "note": "官方场馆资料仅支持场馆身份和类型；本轮重做形态和独立剖面，尺度仍为初步估计，待尺寸图补强。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "guangzhou-arena",
+    "name": "宝能广州国际体育演艺中心",
+    "city": "广州",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.bisacn.com/aboUs.html",
+    "map_reference_url": null,
+    "geometry_evidence_label": "plan",
+    "geometry_sources": [
+      {
+        "url": "https://www.bisacn.com/serviceGiuSeat.html",
+        "note": "已有官方座位图支持分区和层次；看台尺寸与坡度由形态推算，未取得建筑剖面。"
+      }
+    ],
+    "section_source": "https://www.bisacn.com/serviceGiuSeat.html",
+    "section_note": "保留官网实际出现的 100／200 系列区号（跳过 104、114、124、204、214、224 等空号）；二层 A 系列包厢未混入普通看台。 区号／通道名称已核对，三维方位和尺寸为估算；不代表当前演出全部开放，内场另按演出配置。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "guangdong-olympic",
+    "name": "广东奥林匹克体育场",
+    "city": "广州",
+    "region": "中国内地",
+    "venue_reference_url": "https://tyj.gd.gov.cn/sjzw_zsdw/content/post_1948985.html",
+    "map_reference_url": null,
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://tyj.gd.gov.cn/sjzw_zsdw/content/post_1948985.html",
+        "note": "官方场馆资料仅支持场馆身份和类型；本轮重做形态和独立剖面，尺度仍为初步估计，待尺寸图补强。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "tianhe-stadium",
+    "name": "天河体育场",
+    "city": "广州",
+    "region": "中国内地",
+    "venue_reference_url": "https://tyj.gz.gov.cn/bmzc/jckx/content/post_9582759.html",
+    "map_reference_url": null,
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://tyj.gz.gov.cn/bmzc/jckx/content/post_9582759.html",
+        "note": "官方场馆资料仅支持场馆身份和类型；本轮重做形态和独立剖面，尺度仍为初步估计，待尺寸图补强。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "kai-tak-stadium",
+    "name": "启德主场馆",
+    "city": "香港",
+    "region": "中国香港",
+    "venue_reference_url": "https://www.kaitaksportspark.com.hk/sc/venues-spaces/4",
+    "map_reference_url": "https://media-webapp.kaitaksportspark.com.hk/media/82f5bc39-93db-4606-96c5-65e1a148a160.png?x-oss-process=image/resize,w_1600,h_900",
+    "geometry_evidence_label": "dimension",
+    "geometry_sources": [
+      {
+        "url": "https://media-webapp.kaitaksportspark.com.hk/assets/66563159-fee8-4ad5-aeb0-086275c8b124",
+        "note": "官方第 3 页：Field of Play 12,200㎡，净高 40 m；86×142 m 为等面积量级推算，不是官方长宽。"
+      }
+    ],
+    "section_source": "https://venue.flytix.live/viewer?venue=kts",
+    "section_note": "分区与逐座平面坐标、排号、座号参考 Flytix 公开 CAD 派生数据；保留缺座与分段。来源中的区界仍待票面核对，部分排归属为来源推定；三维层高、坡度仍为估算，演出设备为示意。",
+    "static_seat_asset_url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/kaitakSeatSource-jer28SXf.json",
+    "static_seat_asset_local_path": "/Users/lilinhai/Projects/rea/shijiao-evidence/data-sources/seat-assets/kai-tak-stadium.json",
+    "static_seat_asset_sha256": "7a2a28335d337a82cad8c6e11f7bdf9d7650199b9fa1bbd81d633c9ff5fa81f8",
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "hong-kong-coliseum",
+    "name": "香港体育馆 · 红馆",
+    "city": "香港",
+    "region": "中国香港",
+    "venue_reference_url": "https://www.lcsd.gov.hk/sc/hkc/downloads.html",
+    "map_reference_url": "https://www.lcsd.gov.hk/sc/hkc/downloads.html",
+    "geometry_evidence_label": "dimension",
+    "geometry_sources": [
+      {
+        "url": "https://fpf.ccidahk.gov.hk/en/location/detail.php?id=34",
+        "note": "香港政府电影拍摄场地资料：无柱平地 1,680㎡、净高 23 m；平地按约 41×41 m 方形估计，最高看台高度按净高约束，仍非实测剖面。"
+      },
+      {
+        "url": "https://www.lcsd.gov.hk/en/hkc/common/form/hkc_center_stage.pdf",
+        "note": "已有官方座位图支持分区和层次；看台尺寸与坡度由形态推算，未取得建筑剖面。"
+      }
+    ],
+    "section_source": "https://www.lcsd.gov.hk/en/hkc/common/form/hkc_center_stage.pdf",
+    "section_note": "官网标注红门 40–49、蓝门 50–59、绿门 60–69、黄门 70–79 段／通道。入口附近方位不等同单独售票区域；中央可变座位未作为固定分区录入。 区号／通道名称已核对，三维方位和尺寸为估算；不代表当前演出全部开放，内场另按演出配置。",
+    "static_seat_asset_url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/hkc-Gbi7T1FS.json",
+    "static_seat_asset_local_path": "/Users/lilinhai/Projects/rea/shijiao-evidence/data-sources/seat-assets/hong-kong-coliseum.json",
+    "static_seat_asset_sha256": "926e37787d56b6dd4e100ae5da5c023f8a9ee4004d9524403c31e9f3b9f0859c",
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "asiaworld-arena",
+    "name": "亚洲国际博览馆 Arena",
+    "city": "香港",
+    "region": "中国香港",
+    "venue_reference_url": "https://www.asiaworld-expo.com/zh-sc/visiting/venue-map/",
+    "map_reference_url": "https://www2.asiaworld-expo.com/2026/website/asiaworld-arena-hall-1.pdf",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.asiaworld-expo.com/zh-sc/visiting/venue-map/",
+        "note": "官方场馆资料仅支持场馆身份和类型；本轮重做形态和独立剖面，尺度仍为初步估计，待尺寸图补强。"
+      }
+    ],
+    "section_source": "https://www2.asiaworld-expo.com/2026/website/asiaworld-arena-hall-1.pdf",
+    "section_note": "官方看台图标注 BLOCK 1–17，按舞台朝上显示：1–7 在左侧、8–10 在后方、11–17 在右侧。区号已核对，三维方位和尺寸为估算；内场及开放分区以具体演出为准，官方栏障图仅标注部分排座，不作为完整逐座数据。",
+    "static_seat_asset_url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/awe-Ca55Pf13.json",
+    "static_seat_asset_local_path": "/Users/lilinhai/Projects/rea/shijiao-evidence/data-sources/seat-assets/asiaworld-arena.json",
+    "static_seat_asset_sha256": "879784a41602b70771e8a4a4d951bf0bb7dcf808365060eec6f96ed16ced68af",
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "kai-tak-arena",
+    "name": "启德体艺馆",
+    "city": "香港",
+    "region": "中国香港",
+    "venue_reference_url": "https://media-webapp.kaitaksportspark.com.hk/assets/1698c96f-473d-4cf3-92ba-6e3609c3cce4",
+    "map_reference_url": null,
+    "geometry_evidence_label": "plan",
+    "geometry_sources": [
+      {
+        "url": "https://media-webapp.kaitaksportspark.com.hk/assets/66563159-fee8-4ad5-aeb0-086275c8b124",
+        "note": "官方第 4 页：竞赛场馆总面积 7,066㎡，净高 12.5 m；座席可收纳，模型为展开示意。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "venetian-arena",
+    "name": "威尼斯人综艺馆",
+    "city": "澳门",
+    "region": "中国澳门",
+    "venue_reference_url": "https://en.sandsresortsmacao.com/meetings/venues/venetian/venetian-arena.html",
+    "map_reference_url": null,
+    "geometry_evidence_label": "plan",
+    "geometry_sources": [
+      {
+        "url": "https://assets.sandsresortsmacao.cn/cotaiticketing/ateez2026/Ateez_Admission_Rules_V1.pdf",
+        "note": "已有官方座位图支持分区和层次；看台尺寸与坡度由形态推算，未取得建筑剖面。"
+      }
+    ],
+    "section_source": "https://assets.sandsresortsmacao.cn/cotaiticketing/ateez2026/Ateez_Admission_Rules_V1.pdf",
+    "section_note": "按官方 2026 图录入已出现的 101–103／111–126、201–203／214–232；为已核实部分看台。GA Standing 和 VIP 票种不作为固定分区。 区号／通道名称已核对，三维方位和尺寸为估算；不代表当前演出全部开放，内场另按演出配置。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "galaxy-arena",
+    "name": "银河综艺馆",
+    "city": "澳门",
+    "region": "中国澳门",
+    "venue_reference_url": "https://www.galaxymacau.com/zh-hant/mice/gicc/concerts/",
+    "map_reference_url": "https://www.galaxymacau.com/zh-hant/mice/gicc/concerts/",
+    "geometry_evidence_label": "plan",
+    "geometry_sources": [
+      {
+        "url": "https://img.galaxymacau.com/2026-04/2026_wiea_seat_map_0407.jpg",
+        "note": "已有官方座位图支持分区和层次；看台尺寸与坡度由形态推算，未取得建筑剖面。"
+      }
+    ],
+    "section_source": "https://img.galaxymacau.com/2026-04/2026_wiea_seat_map_0407.jpg",
+    "section_note": "录入该图已出现的 102–114、202–218、302–316 看台；这是部分看台资料，不能据此认定其他区号不存在。Floor L／R 是这场活动内场。 区号／通道名称已核对，三维方位和尺寸为估算；不代表当前演出全部开放，内场另按演出配置。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "studio-city",
+    "name": "新濠影汇综艺馆",
+    "city": "澳门",
+    "region": "中国澳门",
+    "venue_reference_url": "https://www.studiocity-macau.com/en/attractions/studio-city-event-center",
+    "map_reference_url": "https://studiocity-macau.com/en/events/manifest-wtf-live-2026-macau",
+    "geometry_evidence_label": "plan",
+    "geometry_sources": [
+      {
+        "url": "https://www.studiocity-macau.com/assets/public/2025-09/SCsaleskit_SCversion-compressed.pdf",
+        "note": "已有官方座位图支持分区和层次；看台尺寸与坡度由形态推算，未取得建筑剖面。"
+      }
+    ],
+    "section_source": "https://www.studiocity-macau.com/assets/public/2025-09/SCsaleskit_SCversion-compressed.pdf",
+    "section_note": "按图录入 101–104、106–109、111–114、205–210、306–309；图上没有 105／110，不补造。E／A 内场和贵宾房未列为普通看台。 区号／通道名称已核对，三维方位和尺寸为估算；不代表当前演出全部开放，内场另按演出配置。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "inspire-arena",
+    "name": "INSPIRE Arena · 迎仕柏",
+    "city": "仁川",
+    "region": "韩国",
+    "venue_reference_url": "https://world.nol.com/zh-CN/content/pois/ab02dd97-2eb9-48b8-aa3a-d19c34730d46",
+    "map_reference_url": null,
+    "geometry_evidence_label": "plan",
+    "geometry_sources": [
+      {
+        "url": "https://ticketimage.interpark.com/Play/ITM/Data/Modify/2026/9/2026090811461410.JPG",
+        "note": "已有官方座位图支持分区和层次；看台尺寸与坡度由形态推算，未取得建筑剖面。"
+      }
+    ],
+    "section_source": "https://ticketimage.interpark.com/Play/ITM/Data/Modify/2026/9/2026090720203215.jpg",
+    "section_note": "已核实 201–215、308–314 区；ILLIT 官方图补充 201、215 区，原有分区参考 DAY6 官方图。区号已核对，三维方位和尺寸为估算；不代表每场演出全部开放，F1–F5 内场按各场独立配置。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "goyang-stadium",
+    "name": "高阳综合运动场",
+    "city": "高阳",
+    "region": "韩国",
+    "venue_reference_url": "https://artist.ygfamily.com/ARTISTS/BIGBANG/concert/worldtour/index.html",
+    "map_reference_url": null,
+    "geometry_evidence_label": "structure",
+    "geometry_sources": [
+      {
+        "url": "https://www.gys.or.kr/index.php/subpage/index/293",
+        "note": "运营方公开平面、剖面和屋面结构；场地海拔 11.5 m 不是看台离地高度。两层剖面按图推算。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "gocheok-dome",
+    "name": "高尺天空巨蛋",
+    "city": "首尔",
+    "region": "韩国",
+    "venue_reference_url": "https://www.sisul.or.kr/open_content/skydome/introduce/intro.jsp",
+    "map_reference_url": null,
+    "geometry_evidence_label": "plan",
+    "geometry_sources": [
+      {
+        "url": "https://heroesbaseball.co.kr/ticket/normal/view.do",
+        "note": "球队官方四层座位图；本轮未取得可直接核验的场地长宽与剖面，只按图形比例重建。"
+      }
+    ],
+    "section_source": "https://heroesbaseball.co.kr/ticket/normal/view.do",
+    "section_note": "依棒球常设看台图录入 100／200／300／400 系列普通分区。T／S／D 付费特色席和临时内场未混入普通看台。 区号／通道名称已核对，三维方位和尺寸为估算；不代表当前演出全部开放，内场另按演出配置。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "jamsil-indoor",
+    "name": "蚕室室内体育馆",
+    "city": "首尔",
+    "region": "韩国",
+    "venue_reference_url": "https://stadium.seoul.go.kr/reserve/jamsil/inside-stadium",
+    "map_reference_url": "https://stadium.seoul.go.kr/files/2016/08/jamsil_drawing_indoormain.jpg",
+    "geometry_evidence_label": "plan",
+    "geometry_sources": [
+      {
+        "url": "https://stadium.seoul.go.kr/files/2016/08/jamsil_drawing_indoormain.jpg",
+        "note": "已有官方座位图支持分区和层次；看台尺寸与坡度由形态推算，未取得建筑剖面。"
+      }
+    ],
+    "section_source": "https://stadium.seoul.go.kr/files/2016/08/jamsil_drawing_indoormain.jpg",
+    "section_note": "固定看台 1–18、20–37 区；官网图没有 19 区，不补造编号。用户提供的多张演出售票图确认通用端台位于 4、5 区一侧，9–12 区位于舞台右侧；2025 DOYOUNG 票务图进一步提供了 2F 9–17 区逐排座位轮廓和通道缺口，已用于排座输入、2D 细图与 3D 座椅。其余分区逐座仍为估算，具体演出舞台和开放范围可能变化。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "singapore-indoor",
+    "name": "新加坡室内体育馆",
+    "city": "新加坡",
+    "region": "新加坡",
+    "venue_reference_url": "https://www.sportshub.com.sg/events/twice-world-tour-singapore",
+    "map_reference_url": null,
+    "geometry_evidence_label": "plan",
+    "geometry_sources": [
+      {
+        "url": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf",
+        "note": "已有官方座位图支持分区和层次；看台尺寸与坡度由形态推算，未取得建筑剖面。"
+      }
+    ],
+    "section_source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf",
+    "section_note": "按场馆座位附件录入固定 Terrace 与 Balcony 区号；100 系列 Arena 为可伸缩座位，未当作所有演出固定开放看台。 区号／通道名称已核对，三维方位和尺寸为估算；不代表当前演出全部开放，内场另按演出配置。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "singapore-national",
+    "name": "新加坡国家体育场",
+    "city": "新加坡",
+    "region": "新加坡",
+    "venue_reference_url": "https://www.sportshub.com.sg/sites/default/files/2022-12/SSH%20Fact%20Sheet.pdf",
+    "map_reference_url": null,
+    "geometry_evidence_label": "plan",
+    "geometry_sources": [
+      {
+        "url": "https://static.ticketmaster.sg/images/activity/field/26sg_bts_0876bf8a9dcf548dda597b4554191e29.jpg",
+        "note": "已有官方座位图支持分区和层次；看台尺寸与坡度由形态推算，未取得建筑剖面。"
+      }
+    ],
+    "section_source": "https://static.ticketmaster.sg/images/activity/field/26sg_bts_0876bf8a9dcf548dda597b4554191e29.jpg",
+    "section_note": "录入该场图中的固定看台，保留 107A／B、119A／B、132A／B、144A／B；未显示的看台尚未收录，不视为不存在。PA–PD 为该场临时内场，不用于通用模型。 编号已核对；三维方位、尺寸和排座为估算，当前演出开放范围以票务为准。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "impact-arena",
+    "name": "IMPACT Arena",
+    "city": "曼谷",
+    "region": "泰国",
+    "venue_reference_url": "https://www.impact.co.th/en/organizers/venues/impact-arena",
+    "map_reference_url": "https://www.impact.co.th/en/organizers/venues/impact-arena",
+    "geometry_evidence_label": "dimension",
+    "geometry_sources": [
+      {
+        "url": "https://www.impact.co.th/images/organizers/venues/impact-arena/document/impact-arena-facility-guide-2025-08-27.pdf",
+        "note": "运营方手册第 2–5 页：平地 71.45×45.40 m、高 21 m；楼层平面，宽深和层高不可混用。"
+      }
+    ],
+    "section_source": "https://www.impact.co.th/images/organizers/venues/impact-arena/document/impact-arena-facility-guide-2025-08-27.pdf",
+    "section_note": "固定看台 A–U、SB–SN；AA–MM 可移动阶梯席与平地座席按活动搭建，不作为固定分区。 区号／通道名称已核对，三维方位和尺寸为估算；不代表当前演出全部开放，内场另按演出配置。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "rajamangala",
+    "name": "拉加曼加拉国家体育场",
+    "city": "曼谷",
+    "region": "泰国",
+    "venue_reference_url": "https://artist.ygfamily.com/ARTISTS/BIGBANG/concert/worldtour/index.html",
+    "map_reference_url": null,
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://artist.ygfamily.com/ARTISTS/BIGBANG/concert/worldtour/index.html",
+        "note": "官方场馆资料仅支持场馆身份和类型；本轮重做形态和独立剖面，尺度仍为初步估计，待尺寸图补强。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "thunder-dome",
+    "name": "Thunder Dome",
+    "city": "曼谷",
+    "region": "泰国",
+    "venue_reference_url": "https://www.impact.co.th/th/organizers/venues/thunder-dome",
+    "map_reference_url": "https://application.impact.co.th/vr/thunder-dome/",
+    "geometry_evidence_label": "plan",
+    "geometry_sources": [
+      {
+        "url": "https://www.impact.co.th/images/organizers/venues/thunder-dome/document/thunder-dome-facility-guide.pdf",
+        "note": "运营方第 4 页：平地 1,831㎡及单层八角看台；42×44 m 是按平面长宽比推算，不是直接标注。"
+      }
+    ],
+    "section_source": "https://www.impact.co.th/images/organizers/venues/thunder-dome/document/thunder-dome-facility-guide.pdf",
+    "section_note": "按 Level 2 图录入 A–I 九个固定看台；字母后面的 180／310／192／264 是座位容量，不是区号。平层会议、宴会及演出座位另按配置。 编号已核对；三维方位、尺寸和排座为估算，当前演出开放范围以票务为准。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "tokyo-dome",
+    "name": "东京巨蛋",
+    "city": "东京",
+    "region": "日本",
+    "venue_reference_url": "https://www.tokyo-dome.co.jp/en/dome/about/",
+    "map_reference_url": "https://www.tokyo-dome.co.jp/ko/dome/seat/?wovnDisableTranslation=true",
+    "geometry_evidence_label": null,
+    "geometry_sources": [],
+    "section_source": "https://www.tokyo-dome.co.jp/dome/seat/pdf/dome_seating-map.pdf",
+    "section_note": "保留官方图 A01–A49、B02–B48、C01–C48／C50–C97、D01–D51、E06–E46、F01–F20；未将缺失的 B01、C49、E01–E05 补齐。套房、特色席、演出内场另外配置。 区号／通道名称已核对，三维方位和尺寸为估算；不代表当前演出全部开放，内场另按演出配置。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "kyocera-dome",
+    "name": "大阪京瓷巨蛋",
+    "city": "大阪",
+    "region": "日本",
+    "venue_reference_url": "https://www.kyoceradome-osaka.jp/events/",
+    "map_reference_url": "https://www.kyoceradome-osaka.jp/seat/",
+    "geometry_evidence_label": "dimension",
+    "geometry_sources": [
+      {
+        "url": "https://www.kyoceradome-osaka.jp/download/img/guidemap2022.pdf",
+        "note": "官方：两翼 100 m、中外野 122 m；结合官方座位图，内野与外野采用不同径向轮廓。"
+      }
+    ],
+    "section_source": "https://www.kyoceradome-osaka.jp/seat/pdf/kyoceradome_seat.pdf",
+    "section_note": "录入下段 1–36、上段 51–66 通路，表示通路附近看台，不将通路号冒充票面区号。场地内的 A–L 及 FA／FB 等特殊席另按活动配置。 编号已核对；三维方位、尺寸和排座为估算，当前演出开放范围以票务为准。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "vantelin-dome",
+    "name": "名古屋 Vantelin Dome",
+    "city": "名古屋",
+    "region": "日本",
+    "venue_reference_url": "https://www.twicejapan.com/feature/dometour2025",
+    "map_reference_url": null,
+    "geometry_evidence_label": "dimension",
+    "geometry_sources": [
+      {
+        "url": "https://www.nagoya-dome.co.jp/aboutus/gaiyo.php",
+        "note": "官方 2026：两翼 100 m、中外野 122 m、场地 12,315㎡；新设前排区域尚无完整剖面，未把旧面积当现状。"
+      }
+    ],
+    "section_source": "https://www.nagoya-dome.co.jp/images/zaseki_ryokin_2026.png",
+    "section_note": "使用图例标为通路番号的 11–26、31–46、51–61、71–81 定位附近座位；不把彩色票种数字当成分区。包厢／4F 未录入。 区号／通道名称已核对，三维方位和尺寸为估算；不代表当前演出全部开放，内场另按演出配置。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "paypay-dome",
+    "name": "福冈 Mizuho PayPay Dome",
+    "city": "福冈",
+    "region": "日本",
+    "venue_reference_url": "https://www.twicejapan.com/feature/dometour2025",
+    "map_reference_url": null,
+    "geometry_evidence_label": "dimension",
+    "geometry_sources": [
+      {
+        "url": "https://www.softbankhawks.co.jp/stadium/institution.html",
+        "note": "运营方：两翼约 100 m、中外野 122 m；建筑直径 222 m、屋顶高 68 m 不等同于坐席范围或末排高度。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "japan-national",
+    "name": "日本国立竞技场 · MUFG",
+    "city": "东京",
+    "region": "日本",
+    "venue_reference_url": "https://www.jpnsport.go.jp/newstadium/tabid/676/Default.aspx",
+    "map_reference_url": "https://www.jpnsport.go.jp/newstadium/tabid/676/Default.aspx",
+    "geometry_evidence_label": "plan",
+    "geometry_sources": [
+      {
+        "url": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg",
+        "note": "已有官方座位图支持分区和层次；看台尺寸与坡度由形态推算，未取得建筑剖面。"
+      }
+    ],
+    "section_source": "https://www.jpnsport.go.jp/newstadium/Portals/0/shunkougo/seatmap.jpg",
+    "section_note": "按官方案内图录入 101–146、201–262、301–358。看台入口编号定位为附近位置；场馆大门 A–H 不作分区。 区号／通道名称已核对，三维方位和尺寸为估算；不代表当前演出全部开放，内场另按演出配置。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "nissan-stadium",
+    "name": "日产体育场",
+    "city": "横滨",
+    "region": "日本",
+    "venue_reference_url": "https://www.nissan-stadium.jp/english/",
+    "map_reference_url": "https://www.nissan-stadium.jp/floor/",
+    "geometry_evidence_label": null,
+    "geometry_sources": [],
+    "section_source": "https://www.nissan-stadium.jp/floor/img/mapsheet.pdf",
+    "section_note": "按官网 E／S／W／N 看台入口号定位，保留入口名称；体育赛事座位资料不定义演唱会内场。 区号／通道名称已核对，三维方位和尺寸为估算；不代表当前演出全部开放，内场另按演出配置。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "saitama-arena",
+    "name": "埼玉超级竞技场",
+    "city": "埼玉",
+    "region": "日本",
+    "venue_reference_url": "https://www.saitama-arena.co.jp/e/floor_map/stadium.html",
+    "map_reference_url": "https://www.saitama-arena.co.jp/e/floor_map/stadium.html",
+    "geometry_evidence_label": "plan",
+    "geometry_sources": [
+      {
+        "url": "https://www.saitama-arena.co.jp/seat_view/arena_center/",
+        "note": "已有官方座位图支持分区和层次；看台尺寸与坡度由形态推算，未取得建筑剖面。"
+      }
+    ],
+    "section_source": "https://www.saitama-arena.co.jp/seat_view/arena_center/",
+    "section_note": "使用主竞技场（Main Arena）模式的扉／入口编号定位附近看台；Stadium 模式布局不同，不混用。当前模型是主竞技场估算，演出内场另配置。 区号／通道名称已核对，三维方位和尺寸为估算；不代表当前演出全部开放，内场另按演出配置。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "taipei-dome",
+    "name": "台北大巨蛋",
+    "city": "台北",
+    "region": "中国台湾",
+    "venue_reference_url": "https://artist.ygfamily.com/ARTISTS/BIGBANG/concert/worldtour/index.html",
+    "map_reference_url": null,
+    "geometry_evidence_label": "dimension",
+    "geometry_sources": [
+      {
+        "url": "https://cpbl.com.tw/field/cont?sid=0O061544675303751530",
+        "note": "联盟场馆资料：两翼 335 ft、中外野 400 ft；米制换算 102.108 / 121.92 m。四层看台剖面为推算。"
+      }
+    ],
+    "section_source": "https://www.farglorydome.com.tw/park-detail/map/",
+    "section_note": "录入官方图上普通看台；没有 101、125–130 等编号，不补造。L3 贵宾区与 S 系列包厢不作为普通看台。棒球区号仅用于识别固定看台。 区号／通道名称已核对，三维方位和尺寸为估算；不代表当前演出全部开放，内场另按演出配置。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "taipei-arena",
+    "name": "台北小巨蛋",
+    "city": "台北",
+    "region": "中国台湾",
+    "venue_reference_url": "https://www.arena.taipei/",
+    "map_reference_url": null,
+    "geometry_evidence_label": "plan",
+    "geometry_sources": [
+      {
+        "url": "https://web.metro.taipei/taipeiarenaseatview/taipeiarenaseat-center-tw.html",
+        "note": "已有官方座位图支持分区和层次；看台尺寸与坡度由形态推算，未取得建筑剖面。"
+      }
+    ],
+    "section_source": "https://web.metro.taipei/taipeiarenaseatview/taipeiarenaseat-center-tw.html",
+    "section_note": "依官网黄／紫／红／蓝区分区图录入；1A、2A 等是同一楼层的不同分区，非一楼／二楼。中央舞台导览不代表所有演出的舞台配置。 区号／通道名称已核对，三维方位和尺寸为估算；不代表当前演出全部开放，内场另按演出配置。",
+    "static_seat_asset_url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/tpa-hUGCMqZh.json",
+    "static_seat_asset_local_path": "/Users/lilinhai/Projects/rea/shijiao-evidence/data-sources/seat-assets/taipei-arena.json",
+    "static_seat_asset_sha256": "f1b66f49d6ef8dc34f3a7aaf1cdfe621d45e1b6a28316c39d8539869344f6b5d",
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "kaohsiung-national",
+    "name": "高雄国家体育场",
+    "city": "高雄",
+    "region": "中国台湾",
+    "venue_reference_url": "https://artist.ygfamily.com/ARTISTS/BIGBANG/concert/worldtour/index.html",
+    "map_reference_url": null,
+    "geometry_evidence_label": "structure",
+    "geometry_sources": [
+      {
+        "url": "https://iplay.sports.gov.tw/gyminfo/IndexPrint/11825",
+        "note": "体育主管部门：400 m 跑道、4 万固定席、南北端屏幕；采用田径场碗形，末排高度尚未测定。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "bukit-jalil",
+    "name": "武吉加里尔国家体育场",
+    "city": "吉隆坡",
+    "region": "马来西亚",
+    "venue_reference_url": "https://artist.ygfamily.com/ARTISTS/BIGBANG/concert/worldtour/index.html",
+    "map_reference_url": null,
+    "geometry_evidence_label": "dimension",
+    "geometry_sources": [
+      {
+        "url": "https://www.stadium.gov.my/venues/kuala-lumpur-sports-city/tm-stadium-nasional?format=html",
+        "note": "运营方：108×65 m 草坪、400 m 九道跑道；草坪与看台包络分别建模，剖面为推算。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "national-hockey",
+    "name": "武吉加里尔国家曲棍球场",
+    "city": "吉隆坡",
+    "region": "马来西亚",
+    "venue_reference_url": "https://www.stadium.gov.my/index.php/venues/kuala-lumpur-sports-city/national-hockey-stadium",
+    "map_reference_url": null,
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.stadium.gov.my/index.php/venues/kuala-lumpur-sports-city/national-hockey-stadium",
+        "note": "官方场馆资料仅支持场馆身份和类型；本轮重做形态和独立剖面，尺度仍为初步估计，待尺寸图补强。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "unifi-arena",
+    "name": "Unifi Arena · 原 Axiata",
+    "city": "吉隆坡",
+    "region": "马来西亚",
+    "venue_reference_url": "https://www.stadium.gov.my/venues/kuala-lumpur-sports-city/unifi-arena.html",
+    "map_reference_url": null,
+    "geometry_evidence_label": "dimension",
+    "geometry_sources": [
+      {
+        "url": "https://www.stadium.gov.my/venues/kuala-lumpur-sports-city/unifi-arena?format=html",
+        "note": "官网同页尺寸冲突：规格 66×35 m，正文 69×35 m。本轮采用规格 66×35 m，待技术图确认。"
+      }
+    ],
+    "section_source": "https://stadium.gov.my/images/dokumen/venues/floor-plan/Axiata-Arena-Floor-Plan.pdf",
+    "section_note": "官网发布的 2017 竣工图：301–322、401–420。100 系列可伸缩席与 S1–S5 套房另行配置；演出开放范围以票务为准。 区号／通道名称已核对，三维方位和尺寸为估算；不代表当前演出全部开放，内场另按演出配置。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "philippine-arena",
+    "name": "菲律宾竞技场",
+    "city": "布拉干",
+    "region": "菲律宾",
+    "venue_reference_url": "https://www.livenation.ph/philippine-arena-tickets-vdp1150840",
+    "map_reference_url": null,
+    "geometry_evidence_label": "structure",
+    "geometry_sources": [
+      {
+        "url": "https://populous.com/project/philippine-arena",
+        "note": "设计方：单侧马鞍形观众碗；中央高、两翼低。剖面具体数值未公开，按结构特征推算。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "smdc-festival",
+    "name": "SMDC Festival Grounds",
+    "city": "马尼拉",
+    "region": "菲律宾",
+    "venue_reference_url": "https://artist.ygfamily.com/ARTISTS/BIGBANG/concert/worldtour/index.html",
+    "map_reference_url": null,
+    "geometry_evidence_label": "structure",
+    "geometry_sources": [
+      {
+        "url": "https://ticketmaster.ph/venues/smdc-festival-grounds",
+        "note": "售票方确认户外多用途平地场馆；BIGBANG 2027-02-20已接入独立分区图并作为默认。场地边界尺寸、临时设备高度仍未取得，保留平地估计范围，不把图示阴影当作阶梯。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "moa-arena",
+    "name": "SM 亚洲购物中心竞技场",
+    "city": "马尼拉",
+    "region": "菲律宾",
+    "venue_reference_url": "https://www.livenation.ph/sm-mall-of-asia-arena-tickets-vdp764214",
+    "map_reference_url": null,
+    "geometry_evidence_label": "structure",
+    "geometry_sources": [
+      {
+        "url": "https://www.sm-arena.com/MOA/about-us/",
+        "note": "运营方场馆资料及内景；体育／演唱会转换配置，固定层数和剖面按可见结构推算。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "jakarta-stadium",
+    "name": "雅加达国际体育场",
+    "city": "雅加达",
+    "region": "印度尼西亚",
+    "venue_reference_url": "https://artist.ygfamily.com/ARTISTS/BIGBANG/concert/worldtour/index.html",
+    "map_reference_url": null,
+    "geometry_evidence_label": "structure",
+    "geometry_sources": [
+      {
+        "url": "https://bpad.jakarta.go.id/portal/content/berita/6942",
+        "note": "雅加达政府场馆介绍：8.2 万席、可开合屋面。足球看台按近场多层结构推算，无完整测量数据。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "indonesia-arena",
+    "name": "Indonesia Arena",
+    "city": "雅加达",
+    "region": "印度尼西亚",
+    "venue_reference_url": "https://gbk.id/berita/232-gbk-cetak-rekor-pendapatan-tertinggi-sepanjang-sejarah-pada-tahun-2024?page=10",
+    "map_reference_url": null,
+    "geometry_evidence_label": "structure",
+    "geometry_sources": [
+      {
+        "url": "https://www.kemenpora.go.id/detail/4007/menpora-dito-dampingi-presiden-jokowi-resmikan-indonesia-arena",
+        "note": "印尼体育部开馆记录和内景：室内多用途体育馆，约 1.6 万席；未取得完整剖面。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "my-dinh",
+    "name": "美亭国家体育场",
+    "city": "河内",
+    "region": "越南",
+    "venue_reference_url": "https://artist.ygfamily.com/ARTISTS/BIGBANG/concert/worldtour/index.html",
+    "map_reference_url": null,
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://artist.ygfamily.com/ARTISTS/BIGBANG/concert/worldtour/index.html",
+        "note": "官方场馆资料仅支持场馆身份和类型；本轮重做形态和独立剖面，尺度仍为初步估计，待尺寸图补强。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "sajik-gymnasium",
+    "name": "社稷室内体育馆",
+    "city": "釜山",
+    "region": "韩国",
+    "venue_reference_url": "https://tickets.interpark.com/contents/notice/detail/9894",
+    "map_reference_url": null,
+    "geometry_evidence_label": "dimension",
+    "geometry_sources": [
+      {
+        "url": "https://www.kccegis.com/busan_gym",
+        "note": "主队官方：比赛场地 2,184㎡，约 1.4 万席。42×52 m 为等面积推算，非官方直接标注长宽。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "ntsu-arena",
+    "name": "国立体育大学综合体育馆",
+    "city": "桃园",
+    "region": "中国台湾",
+    "venue_reference_url": "https://ntsuarena.ntsu.edu.tw/application",
+    "map_reference_url": "https://phk.ntsu.edu.tw/var/file/8/1008/img/1439/147422320.pdf",
+    "geometry_evidence_label": "plan",
+    "geometry_sources": [
+      {
+        "url": "https://phk.ntsu.edu.tw/var/file/8/1008/img/1439/147422320.pdf",
+        "note": "已有官方座位图支持分区和层次；看台尺寸与坡度由形态推算，未取得建筑剖面。"
+      }
+    ],
+    "section_source": "https://phk.ntsu.edu.tw/var/file/8/1008/img/1439/147422320.pdf",
+    "section_note": "录入黄／橙 1–4、蓝／绿 1–5 共 18 个主分区。每区的上／中／下及更细小区尚未单独建模；图中 205、304 等是座位容量，不是分区号。红色活动座椅随演出变化。编号已核对，三维方位和尺寸为估算。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "k-arena-yokohama",
+    "name": "K-Arena Yokohama",
+    "city": "横滨",
+    "region": "日本",
+    "venue_reference_url": "https://k-arena.com/",
+    "map_reference_url": "https://k-arena.com/wp-content/themes/k-arena/assets/pdf/seat-map.pdf",
+    "geometry_evidence_label": "structure",
+    "geometry_sources": [
+      {
+        "url": "https://k-arena.com/seat/",
+        "note": "官方 L3 / L5 / L7 座位图：单向扇形看台，避免原模型向舞台背后环绕；高度深度为推算。"
+      }
+    ],
+    "section_source": "https://k-arena.com/seat/",
+    "section_note": "按看台入口 Gate 定位附近看台，不将入口编号称为真实分区；LEVEL 1 演出内场不套用固定配置。 区号／通道名称已核对，三维方位和尺寸为估算；不代表当前演出全部开放，内场另按演出配置。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "gwangju-universiade",
+    "name": "光州女子大学大运会体育馆",
+    "city": "光州",
+    "region": "韩国",
+    "venue_reference_url": "https://tickets.interpark.com/contents/notice/detail/9895",
+    "map_reference_url": null,
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://en.kwu.ac.kr/mod/page/view.do?MID=EN_P04010401",
+        "note": "大学官网确认校内大运会体育馆；尚未取得尺寸、完整座位图和剖面，本轮仍为独立形态估计。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "ig-arena",
+    "name": "IG Arena",
+    "city": "名古屋",
+    "region": "日本",
+    "venue_reference_url": "https://www.ig-arena.jp/en/",
+    "map_reference_url": "https://www.ig-arena.jp/uploads/2025/07/250701_riyouannai.pdf",
+    "geometry_evidence_label": "plan",
+    "geometry_sources": [
+      {
+        "url": "https://www.ig-arena.jp/seat/",
+        "note": "已有官方座位图支持分区和层次；看台尺寸与坡度由形态推算，未取得建筑剖面。"
+      }
+    ],
+    "section_source": "https://www.ig-arena.jp/seat/",
+    "section_note": "录入 2F 201–229、4F 401–426 区；1F 临时内场、3F 未编号区域和 BOX 包厢不作为普通固定分区。 区号／通道名称已核对，三维方位和尺寸为估算；不代表当前演出全部开放，内场另按演出配置。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "makuhari-halls-1-3",
+    "name": "幕张展览馆 · 国际展示场 1–3 号厅",
+    "city": "千叶",
+    "region": "日本",
+    "venue_reference_url": "https://www.m-messe.co.jp/event/detail/8596",
+    "map_reference_url": "https://www.m-messe.co.jp/en/organizers/support/layout/",
+    "geometry_evidence_label": "dimension",
+    "geometry_sources": [
+      {
+        "url": "https://www.m-messe.co.jp/docs/pamphlet_en.pdf",
+        "note": "运营方第 3 页：单厅 60×112.5 m；基础模型显示 1–3 整组。CxM 当前主办及场馆活动页写1–3，旧日程页写2–3；场次布局按现场导览牌另建，不把整组面积当作实际座区尺寸。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "makuhari-halls-4-6",
+    "name": "幕张展览馆 · 国际展示场 4–6 号厅",
+    "city": "千叶",
+    "region": "日本",
+    "venue_reference_url": "https://www.m-messe.co.jp/event/detail/8756",
+    "map_reference_url": "https://www.m-messe.co.jp/en/organizers/support/layout/",
+    "geometry_evidence_label": "dimension",
+    "geometry_sources": [
+      {
+        "url": "https://www.m-messe.co.jp/docs/pamphlet_en.pdf",
+        "note": "运营方第 3 页：每厅 60×112.5 m，三厅合计 20,250㎡，平地无固定环形看台。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "bexco-halls-1-2",
+    "name": "BEXCO · 第一展览中心 1–2 号厅",
+    "city": "釜山",
+    "region": "韩国",
+    "venue_reference_url": "https://world.nol.com/ticket/places/25001711/products/25018276",
+    "map_reference_url": null,
+    "geometry_evidence_label": "dimension",
+    "geometry_sources": [
+      {
+        "url": "https://ictca2025.org/download/2023_BEXCO_Brochure_English.pdf",
+        "note": "BEXCO 官方手册第 4 页：1 厅 81×108 m，2A / 2B 各 40.5×108 m；组合按 162×108 m 简化，实际有弧形边界，非精确面积复刻。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "kaohsiung-arena",
+    "name": "高雄巨蛋",
+    "city": "高雄",
+    "region": "中国台湾",
+    "venue_reference_url": "https://www.kaoarena.com.tw/Home/",
+    "map_reference_url": "https://www.kaoarena.com.tw/Home/Seat",
+    "geometry_evidence_label": "plan",
+    "geometry_sources": [
+      {
+        "url": "https://www.kaoarena.com.tw/Home/Seat2",
+        "note": "已有官方座位图支持分区和层次；看台尺寸与坡度由形态推算，未取得建筑剖面。"
+      }
+    ],
+    "section_source": "https://www.kaoarena.com.tw/Home/Seat2",
+    "section_note": "已录入图上 201–222、401–410、501–518 区；R1–R8 贵宾房和 VIP 未当作普通看台分区。 区号／通道名称已核对，三维方位和尺寸为估算；不代表当前演出全部开放，内场另按演出配置。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "exco-east",
+    "name": "EXCO · 东馆",
+    "city": "大邱",
+    "region": "韩国",
+    "venue_reference_url": "https://weverse.io/seventeen/notice/36203?hl=zh-cn",
+    "map_reference_url": null,
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://weverse.io/seventeen/notice/36203?hl=zh-cn",
+        "note": "官方场馆资料仅支持场馆身份和类型；本轮重做形态和独立剖面，尺度仍为初步估计，待尺寸图补强。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "keio-arena-tokyo",
+    "name": "京王竞技场东京",
+    "city": "东京",
+    "region": "日本",
+    "venue_reference_url": "https://keio-arena.tokyo/facility/",
+    "map_reference_url": "https://keio-arena.tokyo/seat/",
+    "geometry_evidence_label": "plan",
+    "geometry_sources": [
+      {
+        "url": "https://keio-arena.tokyo/seat/",
+        "note": "已有官方座位图支持分区和层次；看台尺寸与坡度由形态推算，未取得建筑剖面。"
+      }
+    ],
+    "section_source": "https://keio-arena.tokyo/seat/",
+    "section_note": "已核对 3F A–F、4F G–N 共 14 个看台区；大小写按官方图。方位参考大型影像装置侧，舞台朝向、尺寸、排座和内场均为估算；不代表 ITZY 当场开放分区或舞台配置。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "john-cain-arena",
+    "name": "John Cain Arena",
+    "city": "墨尔本",
+    "region": "澳大利亚",
+    "venue_reference_url": "https://www.melbournepark.com.au/news/biggest-concerts-2026/",
+    "map_reference_url": null,
+    "geometry_evidence_label": "structure",
+    "geometry_sources": [
+      {
+        "url": "https://www.melbournepark.com.au/about/our-history/",
+        "note": "运营方：带 250 m 自行车赛道的可变座席场馆；演唱会不自动显示裸露赛道，伸缩看台按展开示意。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "tiktok-entertainment-centre",
+    "name": "TikTok Entertainment Centre",
+    "city": "悉尼",
+    "region": "澳大利亚",
+    "venue_reference_url": "https://www.darlingharbour.com/whats-on/archive/events/itzy",
+    "map_reference_url": null,
+    "geometry_evidence_label": "plan",
+    "geometry_sources": [
+      {
+        "url": "https://tiktokentcent.com/venue/seating-maps/",
+        "note": "官方三层剧院座位图；单向扇形。ICC 舞台拼装包 18.3×12.2 m 不是固定舞台建筑尺寸，未混用。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "ovo-arena-wembley",
+    "name": "OVO Arena Wembley",
+    "city": "伦敦",
+    "region": "英国",
+    "venue_reference_url": "https://help.ticketmaster.co.uk/hc/en-us/articles/47521461703057-ITZY-3RD-WORLD-TOUR-TUNNEL-VISION-in-LONDON",
+    "map_reference_url": null,
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.ovoarena.co.uk/info/corporate-hire",
+        "note": "运营方租赁介绍用于核对长方形演出场馆类型；详细尺寸／剖面未取得。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "afas-live",
+    "name": "AFAS Live",
+    "city": "阿姆斯特丹",
+    "region": "荷兰",
+    "venue_reference_url": "https://www.livenation.nl/en/event/itzy-3rd-world-tour-tunnel-vision-in-amsterdam-amsterdam-tickets-edp1679992",
+    "map_reference_url": null,
+    "geometry_evidence_label": "structure",
+    "geometry_sources": [
+      {
+        "url": "https://www.afaslive.nl/over-afas-live/het-gebouw-zalen",
+        "note": "运营方：Black Box 后方伸缩看台和固定楼座，不是完整环形看台；尺寸未取得。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "zenith-paris",
+    "name": "巴黎天顶音乐厅",
+    "city": "巴黎",
+    "region": "法国",
+    "venue_reference_url": "https://le-zenith.com/shows/Itzy-22003",
+    "map_reference_url": null,
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://le-zenith.com/shows/Itzy-22003",
+        "note": "官方场馆资料仅支持场馆身份和类型；本轮重做形态和独立剖面，尺度仍为初步估计，待尺寸图补强。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "festhalle-frankfurt",
+    "name": "法兰克福 Festhalle",
+    "city": "法兰克福",
+    "region": "德国",
+    "venue_reference_url": "https://festhalle.messefrankfurt.com/frankfurt/en/event-calendar/itzy.html",
+    "map_reference_url": "https://festhalle.messefrankfurt.com/content/dam/messefrankfurt-redaktion/locations/festhalle-events/fh-003a-02.pdf",
+    "geometry_evidence_label": "plan",
+    "geometry_sources": [
+      {
+        "url": "https://festhalle.messefrankfurt.com/content/dam/messefrankfurt-redaktion/locations/festhalle-events/fh-003a-02.pdf",
+        "note": "已有官方座位图支持分区和层次；看台尺寸与坡度由形态推算，未取得建筑剖面。"
+      }
+    ],
+    "section_source": "https://festhalle.messefrankfurt.com/content/dam/messefrankfurt-redaktion/locations/festhalle-events/fh-003a-02.pdf",
+    "section_note": "已核对 1.Rang / 2.Rang 两层各 A/B/C/D/E/F/G/H/J/K/L，共 22 个固定看台区，没有 I 区。本图内场临时字母区未作为固定分区收录。舞台、距离、角度和排座为估算，不代表 ITZY 本场开放范围。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "star-theatre",
+    "name": "星宇表演艺术中心 · 星宇剧场",
+    "city": "新加坡",
+    "region": "新加坡",
+    "venue_reference_url": "https://www.thestar.sg/the-star-theatre",
+    "map_reference_url": "https://dopinrae12872.cloudfront.net/wp-content/uploads/2015/07/The-Star-Theatre-layout-seating-plan.pdf",
+    "geometry_evidence_label": "dimension",
+    "geometry_sources": [
+      {
+        "url": "https://www.thestar.sg/the-star-theatre",
+        "note": "官方：马蹄形 Stalls / Circle 1 / Circle 2，最末排距舞台 56 m；采用平面距离作为约束，原文未说明量距端点。"
+      }
+    ],
+    "section_source": "https://dopinrae12872.cloudfront.net/wp-content/uploads/2015/07/The-Star-Theatre-layout-seating-plan.pdf",
+    "section_note": "已核对 Stalls A–F、Circle 1 G/H/J/K/L/M/N、Circle 2 P/Q/R/S/T/U/V 共 20 个普通座席区；包厢尚未建模。BK 是 B 区 K 排的行标，不是独立分区。部分座位有受限视野标注，请查看原图；本站角度、距离、楼层高度及排座为估算，未复刻实际剧院。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "busan-asiad",
+    "name": "釜山亚运会主体育场",
+    "city": "釜山",
+    "region": "韩国",
+    "venue_reference_url": "https://www.busan.go.kr/depart/culture0501010102",
+    "map_reference_url": "https://ticket.yes24.com/Perf/59564",
+    "geometry_evidence_label": null,
+    "geometry_sources": [],
+    "section_source": "https://ticket.yes24.com/Perf/59564",
+    "section_note": "YES24 2026 TMA 官方图使用 S11–S15、E16–E22、N23–N27 及 S47–S51、E52–E58、N59–N63；同一区号跨前后两带，未把网友红字编号当成独立官方分区。其余固定看台编号参照用户提供的全场图，不代表本场开放。看台轮廓、层高、舞台尺寸与区内位置为估算，未取得逐排逐座测量。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "londoner-arena",
+    "name": "澳门伦敦人综艺馆",
+    "city": "澳门",
+    "region": "中国澳门",
+    "venue_reference_url": "https://www.sandsresortsmacao.com.cn/meetings/venues/londoner/arena.html",
+    "map_reference_url": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/arena/lm_arena_floor-plan.pdf",
+    "geometry_evidence_label": "dimension",
+    "geometry_sources": [
+      {
+        "url": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/arena/lm_arena_floor-plan.pdf",
+        "note": "官方图标注内场横向 53m、中央纵向 24m，三层扇形座席；看台进深与层高为估算。"
+      }
+    ],
+    "section_source": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/arena/lm_arena_floor-plan.pdf",
+    "section_note": "官方三层扇形图：101–111、201–211、301–310；括号内为席数，不作区号。 看台几何、排座位置与舞台尺寸为估算。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "hangzhou-olympic-stadium",
+    "name": "杭州奥体中心体育场 · 大莲花",
+    "city": "杭州",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.hangzhou2022.cn/dgyy/ed/202203/t20220329_46060.shtml",
+    "map_reference_url": null,
+    "geometry_evidence_label": "structure",
+    "geometry_sources": [
+      {
+        "url": "https://www.hangzhou2022.cn/dgyy/ed/202203/t20220329_46060.shtml",
+        "note": "亚运官方确认 80800 席、田径跑道；三层看台轮廓、间距与坡度估算，未取得可靠票面分区编号。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "hangzhou-olympic-arena",
+    "name": "杭州奥体中心体育馆",
+    "city": "杭州",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.hangzhou2022.cn/sssg/sscg/202203/t20220330_46224.shtml",
+    "map_reference_url": "https://www.hangzhou2022.cn/shipin/202310/P020231016575248816044.pdf#page=79",
+    "geometry_evidence_label": "dimension",
+    "geometry_sources": [
+      {
+        "url": "https://www.hangzhou2022.cn/shipin/202310/P020231016575248816044.pdf#page=79",
+        "note": "亚运官方确认约18000席，冰场尺寸60×30m（只作可用内场下限）；导视图显示上下看台。内场边界及看台坡度为估算，导视图没有票面区号。"
+      },
+      {
+        "url": "https://www.hangzhou2022.cn/hzhyn/hlhz/202109/t20210924_39388.shtml",
+        "note": "官方披露60×30m冰场；不把冰场尺寸等同建筑外围或全部内场。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "incheon-asiad",
+    "name": "仁川亚运会主体育场",
+    "city": "仁川",
+    "region": "韩国",
+    "venue_reference_url": "https://www.incheon.go.kr/health/HE050211",
+    "map_reference_url": "https://tkfile.yes24.com/Upload2/Board/202509/20250909/MAP.jpg",
+    "geometry_evidence_label": "structure",
+    "geometry_sources": [
+      {
+        "url": "https://tkfile.yes24.com/Upload2/Board/202509/20250909/MAP.jpg",
+        "note": "仁川市官网公布场地21383㎡、29376席及田径跑道；YES24图仅支持对应演出开放的看台，几何与舞台为估算，未补造关闭区域区号。"
+      }
+    ],
+    "section_source": "https://tkfile.yes24.com/Upload2/Board/202509/20250909/MAP.jpg",
+    "section_note": "参照YES24 Stray Kids 2025官方演出图，录入清晰可辨的N1–N8、S6–S13、W1–W14和W55–W68。未将演出内场F区或图中细小的其他带区号推定为永久分区，不代表全场开放范围。 看台几何、排座位置与舞台尺寸为估算。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "marvel-stadium",
+    "name": "Marvel Stadium · 漫威体育场",
+    "city": "墨尔本",
+    "region": "澳大利亚",
+    "venue_reference_url": "https://www.marvelstadium.com.au/about-the-stadium/",
+    "map_reference_url": "https://resources.marvelstadium.mediaservices.com.au/marvelstadium/document/2026/05/01/229e0479-1ed7-4192-82bb-8a712de920c9/Marvel-Stadium-Public-Stadium-Map_APR26.pdf",
+    "geometry_evidence_label": "plan",
+    "geometry_sources": [
+      {
+        "url": "https://resources.marvelstadium.mediaservices.com.au/marvelstadium/document/2026/05/01/229e0479-1ed7-4192-82bb-8a712de920c9/Marvel-Stadium-Public-Stadium-Map_APR26.pdf",
+        "note": "2026年官方图确认 Level 1/2/3 与 Aisle 1–48；尺寸按球场与看台形态估算。上层通道图不等于精确座区边界；未把企业包厢 C/D 环误标成普通楼层。"
+      }
+    ],
+    "section_source": "https://resources.marvelstadium.mediaservices.com.au/marvelstadium/document/2026/05/01/229e0479-1ed7-4192-82bb-8a712de920c9/Marvel-Stadium-Public-Stadium-Map_APR26.pdf",
+    "section_note": "2026年4月官方总图仅在Level 3完整标注 Aisle 1–48；保留“通道”名称，不把外圈编号投射成各楼层通用座区。Level 1/2保留方位示意，企业包厢编号未录入。 看台几何、排座位置与舞台尺寸为估算。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "olympic-hall",
+    "name": "奥林匹克 Hall",
+    "city": "首尔",
+    "region": "韩国",
+    "venue_reference_url": "https://www.ksponco.or.kr/menu.es?mid=a10405050300",
+    "map_reference_url": "https://www.ksponco.or.kr/attachFiles/download/kspo/form3_8.jpg",
+    "geometry_evidence_label": "dimension",
+    "geometry_sources": [
+      {
+        "url": "https://www.ksponco.or.kr/attachFiles/download/kspo/form3_8.jpg",
+        "note": "官方平面图有69m横向建筑轴网、71m纵向轴网，不能直接当内场尺寸；按轴网比例估算内场约24×38m。官方座位图区分C1–C3前后排楼层及F伸缩席。"
+      },
+      {
+        "url": "https://www.ksponco.or.kr/attachFiles/download/kspo/olympichall_1.pdf",
+        "note": "地上一层建筑平面，内场按轴网比例读图，层高未测量。"
+      }
+    ],
+    "section_source": "https://www.ksponco.or.kr/attachFiles/download/kspo/form3_8.jpg",
+    "section_note": "依据官方座位图，C1/C3的1–5排在1F、6–12排在2F；C2的1–5排在1F、6–11排在2F。用楼层前缀区分同名区域，G/H属于1F。F1–F3为伸缩席，开设情况以演出为准。 看台几何、排座位置与舞台尺寸为估算。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "hwajeong-gymnasium",
+    "name": "高丽大学化汀体育馆",
+    "city": "首尔",
+    "region": "韩国",
+    "venue_reference_url": "https://kuhj.korea.ac.kr/kuhj/facility/main.do",
+    "map_reference_url": "https://kuhj.korea.ac.kr/_res/kuhj/etc/pdf_seat01.pdf",
+    "geometry_evidence_label": "dimension",
+    "geometry_sources": [
+      {
+        "url": "https://kuhj.korea.ac.kr/_res/kuhj/etc/pdf_seat01.pdf",
+        "note": "高丽大学官方公布主场地32×55m、舞台25×11m；A–N为同一固定看台带，VIP伸缩席不当固定区。官网舞台高度8m不解释成舞台台面高度。"
+      },
+      {
+        "url": "https://kuhj.korea.ac.kr/kuhj/facility/main.do",
+        "note": "32×55m场地与25×11m舞台尺寸来源；看台坡度和舞台台面高度为估算。"
+      }
+    ],
+    "section_source": "https://kuhj.korea.ac.kr/_res/kuhj/etc/pdf_seat01.pdf",
+    "section_note": "大学官方图固定看台 A–N；内场可变VIP席不作为固定区。A/N有前后排带，未拆成独立票面区。 看台几何、排座位置与舞台尺寸为估算。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "jangchung-arena",
+    "name": "奖忠体育馆",
+    "city": "首尔",
+    "region": "韩国",
+    "venue_reference_url": "https://www.sisul.or.kr/open_content/jangchung/introduce/intro.jsp",
+    "map_reference_url": "https://www.sisul.or.kr/open_content/jangchung/guidance/seat.jsp",
+    "geometry_evidence_label": "structure",
+    "geometry_sources": [
+      {
+        "url": "https://www.sisul.or.kr/open_content/jangchung/guidance/seat.jsp",
+        "note": "首尔设施公团确认4507席（含1324可变席）、圆形场馆与下上层结构；建筑屋顶高26.53m不作看台高度。官方座位页可访问但图文件下载失败，暂不杜撰字母区号。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "broadway-theatre",
+    "name": "澳门百老汇舞台",
+    "city": "澳门",
+    "region": "中国澳门",
+    "venue_reference_url": "https://gmicc.com/ticketing/",
+    "map_reference_url": "https://img.galaxymacau.com/2019-09/floor-plan.pdf#page=6",
+    "geometry_evidence_label": "plan",
+    "geometry_sources": [
+      {
+        "url": "https://img.galaxymacau.com/2019-09/floor-plan.pdf#page=6",
+        "note": "银河官方PDF第6页展示扇形池座和后部楼座；2019册3000席与现售票页2500席不同，不用旧总席数生成排座。图未清晰标出可核验票面区号，先保留方位。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "kintex-hall-1",
+    "name": "KINTEX · 第1展览中心 1号厅",
+    "city": "高阳",
+    "region": "韩国",
+    "venue_reference_url": "https://www.kintex.com/web/ko/html/facility/exhibition_facility_01.do",
+    "map_reference_url": "https://www.kintex.com/web/ko/html/facility/exhibition_facility_01.do",
+    "geometry_evidence_label": "dimension",
+    "geometry_sources": [
+      {
+        "url": "https://www.kintex.com/web/ko/html/facility/exhibition_facility_01.do",
+        "note": "官方第1展览中心第1厅，平面约63×171m、净高15m；仅模拟单厅。演唱会座席、舞台及拼厅范围由主办方另定。"
+      },
+      {
+        "url": "https://www.kintex.com/download/formatModal/KINTEX_Organizer%27s%20Guide.pdf",
+        "note": "官方主办方指南；6厅旧英文细表93×61m与5580㎡相矛盾，采用当前韩文官网93×60m。1/5及9/10非完整矩形，采用包络尺寸而非把乘积当净面积。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "kintex-hall-2",
+    "name": "KINTEX · 第1展览中心 2号厅",
+    "city": "高阳",
+    "region": "韩国",
+    "venue_reference_url": "https://www.kintex.com/web/ko/html/facility/exhibition_facility_01.do",
+    "map_reference_url": "https://www.kintex.com/web/ko/html/facility/exhibition_facility_01.do",
+    "geometry_evidence_label": "dimension",
+    "geometry_sources": [
+      {
+        "url": "https://www.kintex.com/web/ko/html/facility/exhibition_facility_01.do",
+        "note": "官方第1展览中心第2厅，平面约63×171m、净高15m；仅模拟单厅。演唱会座席、舞台及拼厅范围由主办方另定。"
+      },
+      {
+        "url": "https://www.kintex.com/download/formatModal/KINTEX_Organizer%27s%20Guide.pdf",
+        "note": "官方主办方指南；6厅旧英文细表93×61m与5580㎡相矛盾，采用当前韩文官网93×60m。1/5及9/10非完整矩形，采用包络尺寸而非把乘积当净面积。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "kintex-hall-3",
+    "name": "KINTEX · 第1展览中心 3号厅",
+    "city": "高阳",
+    "region": "韩国",
+    "venue_reference_url": "https://www.kintex.com/web/ko/html/facility/exhibition_facility_01.do",
+    "map_reference_url": "https://www.kintex.com/web/ko/html/facility/exhibition_facility_01.do",
+    "geometry_evidence_label": "dimension",
+    "geometry_sources": [
+      {
+        "url": "https://www.kintex.com/web/ko/html/facility/exhibition_facility_01.do",
+        "note": "官方第1展览中心第3厅，平面约63×171m、净高15m；仅模拟单厅。演唱会座席、舞台及拼厅范围由主办方另定。"
+      },
+      {
+        "url": "https://www.kintex.com/download/formatModal/KINTEX_Organizer%27s%20Guide.pdf",
+        "note": "官方主办方指南；6厅旧英文细表93×61m与5580㎡相矛盾，采用当前韩文官网93×60m。1/5及9/10非完整矩形，采用包络尺寸而非把乘积当净面积。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "kintex-hall-4",
+    "name": "KINTEX · 第1展览中心 4号厅",
+    "city": "高阳",
+    "region": "韩国",
+    "venue_reference_url": "https://www.kintex.com/web/ko/html/facility/exhibition_facility_01.do",
+    "map_reference_url": "https://www.kintex.com/web/ko/html/facility/exhibition_facility_01.do",
+    "geometry_evidence_label": "dimension",
+    "geometry_sources": [
+      {
+        "url": "https://www.kintex.com/web/ko/html/facility/exhibition_facility_01.do",
+        "note": "官方第1展览中心第4厅，平面约63×171m、净高15m；仅模拟单厅。演唱会座席、舞台及拼厅范围由主办方另定。"
+      },
+      {
+        "url": "https://www.kintex.com/download/formatModal/KINTEX_Organizer%27s%20Guide.pdf",
+        "note": "官方主办方指南；6厅旧英文细表93×61m与5580㎡相矛盾，采用当前韩文官网93×60m。1/5及9/10非完整矩形，采用包络尺寸而非把乘积当净面积。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "kintex-hall-5",
+    "name": "KINTEX · 第1展览中心 5号厅",
+    "city": "高阳",
+    "region": "韩国",
+    "venue_reference_url": "https://www.kintex.com/web/ko/html/facility/exhibition_facility_01.do",
+    "map_reference_url": "https://www.kintex.com/web/ko/html/facility/exhibition_facility_01.do",
+    "geometry_evidence_label": "dimension",
+    "geometry_sources": [
+      {
+        "url": "https://www.kintex.com/web/ko/html/facility/exhibition_facility_01.do",
+        "note": "官方第1展览中心第5厅，平面约63×171m、净高15m；仅模拟单厅。演唱会座席、舞台及拼厅范围由主办方另定。"
+      },
+      {
+        "url": "https://www.kintex.com/download/formatModal/KINTEX_Organizer%27s%20Guide.pdf",
+        "note": "官方主办方指南；6厅旧英文细表93×61m与5580㎡相矛盾，采用当前韩文官网93×60m。1/5及9/10非完整矩形，采用包络尺寸而非把乘积当净面积。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "kintex-hall-6",
+    "name": "KINTEX · 第2展览中心 6号厅（Event Hall）",
+    "city": "高阳",
+    "region": "韩国",
+    "venue_reference_url": "https://www.kintex.com/web/ko/html/facility/exhibition_facility_02.do",
+    "map_reference_url": "https://www.kintex.com/web/ko/html/facility/exhibition_facility_02.do",
+    "geometry_evidence_label": "dimension",
+    "geometry_sources": [
+      {
+        "url": "https://www.kintex.com/web/ko/html/facility/exhibition_facility_02.do",
+        "note": "官方第2展览中心第6厅，平面约60×93m、净高10m；仅模拟单厅。演唱会座席、舞台及拼厅范围由主办方另定。"
+      },
+      {
+        "url": "https://www.kintex.com/download/formatModal/KINTEX_Organizer%27s%20Guide.pdf",
+        "note": "官方主办方指南；6厅旧英文细表93×61m与5580㎡相矛盾，采用当前韩文官网93×60m。1/5及9/10非完整矩形，采用包络尺寸而非把乘积当净面积。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "kintex-hall-7",
+    "name": "KINTEX · 第2展览中心 7号厅",
+    "city": "高阳",
+    "region": "韩国",
+    "venue_reference_url": "https://www.kintex.com/web/ko/html/facility/exhibition_facility_02.do",
+    "map_reference_url": "https://www.kintex.com/web/ko/html/facility/exhibition_facility_02.do",
+    "geometry_evidence_label": "dimension",
+    "geometry_sources": [
+      {
+        "url": "https://www.kintex.com/web/ko/html/facility/exhibition_facility_02.do",
+        "note": "官方第2展览中心第7厅，平面约90×126m、净高12m；仅模拟单厅。演唱会座席、舞台及拼厅范围由主办方另定。"
+      },
+      {
+        "url": "https://www.kintex.com/download/formatModal/KINTEX_Organizer%27s%20Guide.pdf",
+        "note": "官方主办方指南；6厅旧英文细表93×61m与5580㎡相矛盾，采用当前韩文官网93×60m。1/5及9/10非完整矩形，采用包络尺寸而非把乘积当净面积。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "kintex-hall-8",
+    "name": "KINTEX · 第2展览中心 8号厅",
+    "city": "高阳",
+    "region": "韩国",
+    "venue_reference_url": "https://www.kintex.com/web/ko/html/facility/exhibition_facility_02.do",
+    "map_reference_url": "https://www.kintex.com/web/ko/html/facility/exhibition_facility_02.do",
+    "geometry_evidence_label": "dimension",
+    "geometry_sources": [
+      {
+        "url": "https://www.kintex.com/web/ko/html/facility/exhibition_facility_02.do",
+        "note": "官方第2展览中心第8厅，平面约90×126m、净高12m；仅模拟单厅。演唱会座席、舞台及拼厅范围由主办方另定。"
+      },
+      {
+        "url": "https://www.kintex.com/download/formatModal/KINTEX_Organizer%27s%20Guide.pdf",
+        "note": "官方主办方指南；6厅旧英文细表93×61m与5580㎡相矛盾，采用当前韩文官网93×60m。1/5及9/10非完整矩形，采用包络尺寸而非把乘积当净面积。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "kintex-hall-9",
+    "name": "KINTEX · 第2展览中心 9号厅",
+    "city": "高阳",
+    "region": "韩国",
+    "venue_reference_url": "https://www.kintex.com/web/ko/html/facility/exhibition_facility_02.do",
+    "map_reference_url": "https://www.kintex.com/web/ko/html/facility/exhibition_facility_02.do",
+    "geometry_evidence_label": "dimension",
+    "geometry_sources": [
+      {
+        "url": "https://www.kintex.com/web/ko/html/facility/exhibition_facility_02.do",
+        "note": "官方第2展览中心第9厅，平面约99×132m、净高15m；仅模拟单厅。演唱会座席、舞台及拼厅范围由主办方另定。"
+      },
+      {
+        "url": "https://www.kintex.com/download/formatModal/KINTEX_Organizer%27s%20Guide.pdf",
+        "note": "官方主办方指南；6厅旧英文细表93×61m与5580㎡相矛盾，采用当前韩文官网93×60m。1/5及9/10非完整矩形，采用包络尺寸而非把乘积当净面积。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "kintex-hall-10",
+    "name": "KINTEX · 第2展览中心 10号厅",
+    "city": "高阳",
+    "region": "韩国",
+    "venue_reference_url": "https://www.kintex.com/web/ko/html/facility/exhibition_facility_02.do",
+    "map_reference_url": "https://www.kintex.com/web/ko/html/facility/exhibition_facility_02.do",
+    "geometry_evidence_label": "dimension",
+    "geometry_sources": [
+      {
+        "url": "https://www.kintex.com/web/ko/html/facility/exhibition_facility_02.do",
+        "note": "官方第2展览中心第10厅，平面约99×132m、净高15m；仅模拟单厅。演唱会座席、舞台及拼厅范围由主办方另定。"
+      },
+      {
+        "url": "https://www.kintex.com/download/formatModal/KINTEX_Organizer%27s%20Guide.pdf",
+        "note": "官方主办方指南；6厅旧英文细表93×61m与5580㎡相矛盾，采用当前韩文官网93×60m。1/5及9/10非完整矩形，采用包络尺寸而非把乘积当净面积。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "londoner-theatre",
+    "name": "澳门伦敦人剧场",
+    "city": "澳门",
+    "region": "中国澳门",
+    "venue_reference_url": "https://en.sandsresortsmacao.com/meetings/venues/londoner/theatre.html",
+    "map_reference_url": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/theatre/lm_theatre_floor-plan.pdf",
+    "geometry_evidence_label": "plan",
+    "geometry_sources": [
+      {
+        "url": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/theatre/lm_theatre_floor-plan.pdf",
+        "note": "官方单页图标示101–303下层与401–503上层，各编号段左右分三块；下层1260席、上层422席。两层不是五层；区号位置按图录入，水平尺寸、坡度和逐排数为模型估算。"
+      }
+    ],
+    "section_source": "https://assets.sandsresortsmacao.cn/content/meetings/venues/londoner/theatre/lm_theatre_floor-plan.pdf",
+    "section_note": "共15个票面区号，101–303属下层，401–503属上层；图中的1–5编号段不是五个楼层。舞台在图下方，101/201/301/401/501在图左。区内排座位置为估算，仍需场次校准。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "union-hall",
+    "name": "UNION HALL · Hall 2",
+    "city": "曼谷",
+    "region": "泰国",
+    "venue_reference_url": "https://unionhallthailand.com/room/hall-1-and-hall-2/",
+    "map_reference_url": "https://unionhallthailand.com/wp-content/uploads/2019/08/UNION-HALL-PLAN-HALL-OVERVIEW.pdf",
+    "geometry_evidence_label": "dimension",
+    "geometry_sources": [
+      {
+        "url": "https://unionhallthailand.com/room/hall-1-and-hall-2/",
+        "note": "官网分开列出Hall 1和Hall 2：本条为Hall 2，47.5×98m、净高10m、剧院式4620人。Hall 1不是本模型。"
+      },
+      {
+        "url": "https://unionhallthailand.com/wp-content/uploads/2019/08/UNION-HALL-PLAN-HALL-OVERVIEW.pdf",
+        "note": "官方建筑平面区分H-1/H-2；无固定演出票区编号。按单厅平地建模，活动临时阶梯和排座需具体场次资料。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "bitec-live",
+    "name": "BITEC LIVE",
+    "city": "曼谷",
+    "region": "泰国",
+    "venue_reference_url": "https://www.bitec.co.th/th/bitec-live",
+    "map_reference_url": "https://wordpress-1328545-5763448.cloudwaysapps.com/wp-content/uploads/2025/09/Fast-Fact-BITEC-Live-as-of-25.10.2024.pdf",
+    "geometry_evidence_label": "dimension",
+    "geometry_sources": [
+      {
+        "url": "https://wordpress-1328545-5763448.cloudwaysapps.com/wp-content/uploads/2025/09/Fast-Fact-BITEC-Live-as-of-25.10.2024.pdf",
+        "note": "官方尺寸为120×59m、净高12m；二层Amphitheater为116×14m、1411固定席。本预览将示意舞台置于长边固定看台对侧；看台基高、坡度与排数推算，非逐座测绘。"
+      },
+      {
+        "url": "https://www.bitec.co.th/wp-content/uploads/2025/08/Fact-Sheet-2025.pdf",
+        "note": "2025容量表区分South stage与East stage；本模型未绑定具体演出的朝向，不把会展EH厅或两种活动布置混为一体。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "beijing-workers-stadium",
+    "name": "北京工人体育场 · 新工体",
+    "city": "北京",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.sinobo.com/bjgrtyg",
+    "map_reference_url": null,
+    "geometry_evidence_label": "structure",
+    "geometry_sources": [
+      {
+        "url": "https://www.beijing.gov.cn/ywdt/gzdt/202210/t20221009_2830364.html",
+        "note": "2023新工体为无跑道专业足球场；官方介绍东西首排距草坪8.5m、南北10m。以标准68×105m球场加距离构成85×125m下层内缘；上层包络、层高与坡度仍是结构估算。"
+      },
+      {
+        "url": "https://www.sinobo.com/bjgrtyg",
+        "note": "运营方资料用于区分新工人体育场、老工体及工人体育馆；尚未取得可独立核验的完整票面分区图，保留明确的方位示意。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "suzhou-sports-center-gymnasium",
+    "name": "苏州体育中心体育馆",
+    "city": "苏州",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.jszwfw.gov.cn/art/2016/11/7/art_95371_133120.html",
+    "map_reference_url": null,
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.jszwfw.gov.cn/art/2016/11/7/art_95371_133120.html",
+        "note": "江苏政务服务网确认三香路1131号体育馆约6000席，与1151号体育场、园区苏州奥体中心分别建档。38×60m内场、两层剖面及坡度为初步建模估算，非官方尺寸或逐座测绘；未核验永久分区编号。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "shenzhen-universiade-stadium",
+    "name": "深圳大运中心体育场",
+    "city": "深圳",
+    "region": "中国内地",
+    "venue_reference_url": "https://wtl.sz.gov.cn/ggfw/tyl/zytycgylb/content/post_11664507.html",
+    "map_reference_url": null,
+    "geometry_evidence_label": "structure",
+    "geometry_sources": [
+      {
+        "url": "https://www.sz2011.org/cg/xjcg/20652.shtml",
+        "note": "2011大运会官网确认体育场为6万席、高中低三层碗形看台，设标准9道400米跑道。按田径场结构估算110×180m内场包络；看台内缘、层高、坡度和模型台阶数均未测绘，不作为真实排座号。"
+      },
+      {
+        "url": "https://wtl.sz.gov.cn/ggfw/tyl/zytycgylb/content/post_11664507.html",
+        "note": "深圳市文化广电旅游体育局确认体育场位于龙翔大道3001号；不与黄阁路99号大运中心体育馆混用。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "shenzhen-bay-gymnasium",
+    "name": "深圳湾体育中心体育馆 · 春茧",
+    "city": "深圳",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.szns.gov.cn/mlns/whns/tycg/content/post_12589347.html",
+    "map_reference_url": null,
+    "geometry_evidence_label": "dimension",
+    "geometry_sources": [
+      {
+        "url": "https://www.sz2011.org/cg/xjcg/3873.shtml",
+        "note": "大运会官网提供体育馆比赛场地长70米、宽40米，约1.3万席；用于内场尺寸锚点。两层看台内缘、层高、坡度及模型台阶数仍为估算，尚未核验完整永久分区编号。"
+      },
+      {
+        "url": "https://www.szns.gov.cn/mlns/whns/tycg/content/post_12589347.html",
+        "note": "南山区政府确认深圳湾体育中心别称春茧，包括2万席体育场与1.3万席体育馆；本记录仅为室内体育馆。春蚕作为用户常用误写检索别名。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "chengdu-dongan-lake-gymnasium",
+    "name": "成都东安湖体育公园多功能体育馆",
+    "city": "成都",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.cscec.com/xwzx_new/zqydt_new/202009/3193630.html",
+    "map_reference_url": null,
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.cscec.com/xwzx_new/zqydt_new/202009/3193630.html",
+        "note": "建设方确认东安湖一场三馆中包含1.8万座多功能体育馆，与4万座体育场分开建档。内场44×72米、看台层次与坡度为初步模型估算，未取得完整永久票区及逐排逐座图。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "chengdu-wuliangye-gymnasium",
+    "name": "成都五粮液文化体育中心综合体育馆",
+    "city": "成都",
+    "region": "中国内地",
+    "venue_reference_url": "https://tradeinservices.mofcom.gov.cn/article/difang/maoydt/202506/176951.html",
+    "map_reference_url": null,
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://tradeinservices.mofcom.gov.cn/article/difang/maoydt/202506/176951.html",
+        "note": "核对五粮液文化体育中心综合体育馆名称及演出用途，与同园区专业足球场分开。内场42×70米、三层示意剖面与台阶数为初步估算，不作为官方层数、尺寸或实际排座。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "haikou-wuyuanhe-stadium",
+    "name": "海口五源河体育场",
+    "city": "海口",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.gmp.de/en/news/41/press/4909/a-stadium-with-an-ocean-view-by-gmp",
+    "map_reference_url": null,
+    "geometry_evidence_label": "structure",
+    "geometry_sources": [
+      {
+        "url": "https://www.gmp.de/en/news/41/press/4909/a-stadium-with-an-ocean-view-by-gmp",
+        "note": "设计方确认海口五源河体育场设400米跑道及逾4.1万席，西侧为月牙形膜屋盖。内场110×180米及两层模型剖面为估算；当前模型仅表达田径场和环形看台，尚未复原西高东低的不对称看台及屋盖，不代表完整建筑或真实票区。"
+      },
+      {
+        "url": "https://www.sbp.de/en/project/wuyuanhe-stadium/",
+        "note": "结构设计方确认西侧看台明显高于东侧。本次为基础空间预览，非不对称剖面测绘。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "changsha-helong-gymnasium",
+    "name": "长沙贺龙体育馆",
+    "city": "长沙",
+    "region": "中国内地",
+    "venue_reference_url": "https://tyj.hunan.gov.cn/tyj/tslm/tyws/200309/t20030916_3464691.html",
+    "map_reference_url": null,
+    "geometry_evidence_label": "dimension",
+    "geometry_sources": [
+      {
+        "url": "https://tyj.hunan.gov.cn/tyj/tslm/tyws/200309/t20030916_3464691.html",
+        "note": "省体育局资料确认室内贺龙体育馆位于侯家塘，比赛大厅58×30米，历史资料约6500席；与毗邻贺龙体育场分别建档。大厅尺寸作为锚点，看台层次、层高、坡度和台阶数为估算，未获得当前正式票区或排座图。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "asiaworld-summit-hall-2",
+    "name": "亚洲国际博览馆 · 2号馆",
+    "city": "香港",
+    "region": "中国香港",
+    "venue_reference_url": "https://www.asiaworld-expo.com/en-us/planning/venues/asiaworld-arena-%28hall-1%29-asiaworld-summit-%28hall-2%29/",
+    "map_reference_url": "https://www.asiaworld-expo.com/assets/images/capacityTable/AWE-H2-summit-th5000.jpg",
+    "geometry_evidence_label": "dimension",
+    "geometry_sources": [
+      {
+        "url": "https://www.asiaworld-expo.com/en-us/planning/capacity-table/",
+        "note": "亚博官方确认 AsiaWorld-Summit 为 2号馆，面积 8,200㎡、净高 10米、剧院式最多 5,000 人；82×100米仅为按面积建立的等面积长方形估算，座椅分块以官方 5,000 人平面图及演出图为准。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/summit-B0YE2Xxi.json",
+    "static_seat_asset_local_path": "/Users/lilinhai/Projects/rea/shijiao-evidence/data-sources/seat-assets/asiaworld-summit-hall-2.json",
+    "static_seat_asset_sha256": "961dc4aa236cecec4a6c18a763e78627e1c4f99113fcbb7325dcb8773052d365",
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "asiaworld-hall-10",
+    "name": "亚洲国际博览馆 · 10号馆",
+    "city": "香港",
+    "region": "中国香港",
+    "venue_reference_url": "https://www.asiaworld-expo.com/en-us/planning/venues/hall-6-8-n-10/",
+    "map_reference_url": null,
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.asiaworld-expo.com/en-us/planning/venues/hall-6-8-n-10/",
+        "note": "官方页面确认独立展厅身份；长宽、舞台和观众区域为估算，未核验本场座位图。不与 Arena 1号馆混用。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "asiaworld-runway-11",
+    "name": "亚洲国际博览馆 · Runway 11",
+    "city": "香港",
+    "region": "中国香港",
+    "venue_reference_url": "https://www.asiaworld-expo.com/en-us/planning/venues/runway-11/",
+    "map_reference_url": null,
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.asiaworld-expo.com/en-us/planning/venues/runway-11/",
+        "note": "官方页面确认独立展厅身份；长宽、舞台和观众区域为估算，未核验本场座位图。不与 Arena 1号馆混用。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/r11-DBeBuvo4.json",
+    "static_seat_asset_local_path": "/Users/lilinhai/Projects/rea/shijiao-evidence/data-sources/seat-assets/asiaworld-runway-11.json",
+    "static_seat_asset_sha256": "e22cf93cbcb1ece164adda8300a16e5481442772be66077262055226aae1af8e",
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "kbs-arena",
+    "name": "KBS Arena",
+    "city": "首尔",
+    "region": "韩国",
+    "venue_reference_url": "https://kbsarena.com/intro/viewKBSarena.do",
+    "map_reference_url": "https://www.kbsarena.com/intro/viewKBSarenaSheet.do?type=arena",
+    "geometry_evidence_label": "plan",
+    "geometry_sources": [
+      {
+        "url": "https://www.kbsarena.com/intro/viewKBSarenaSheet.do?type=arena",
+        "note": "KBS Arena 官方座位图确认固定看台 A–I、中央 J 区及舞台侧开口；官方场馆页公布固定席 2,222 席、场地约 20×32 米。分区边界据图建立，坡度、层高、台阶数和逐排逐座仍为估算。"
+      }
+    ],
+    "section_source": "https://www.kbsarena.com/intro/viewKBSarenaSheet.do?type=arena",
+    "section_note": "官方图确认固定看台 A–I 与中央 J 区；模型旋转舞台到上方以统一浏览方向。分区相邻关系已核对，几何尺度、坡度和逐排逐座为估算。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "galaxy-g-box",
+    "name": "澳门银河 G Box",
+    "city": "澳门",
+    "region": "中国澳门",
+    "venue_reference_url": "https://www.galaxymacau.com/zh-hant/entertainment/performance-venue-infinite-possibilities-galaxy-macau/",
+    "map_reference_url": "https://www.galaxyticketing.com/#/allEvents/detail?projectId=50000001592002",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.galaxymacau.com/zh-hant/entertainment/performance-venue-infinite-possibilities-galaxy-macau/",
+        "note": "澳门银河官方资料确认 G Box 为最多约 850 人的可变黑盒场地，并列出 OMEGA X 2026年12月5日演出。50×32 米包络为容纳本场非对称侧区的示意估算，不是官方实测尺寸。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "incheon-munhak-stadium",
+    "name": "韩国仁川文鹤竞技场",
+    "city": "仁川",
+    "region": "韩国",
+    "venue_reference_url": "https://www.incheon.go.kr/jp/JP030115/view?contentid=1310265&curPage=6",
+    "map_reference_url": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/",
+    "geometry_evidence_label": "plan",
+    "geometry_sources": [
+      {
+        "url": "https://www.incheon.go.kr/jp/JP030115/view?contentid=1310265&curPage=6",
+        "note": "仁川市官方页面确认文鹤主体育场身份、地址及49,084人容量；用户提供的两张演出图与场馆指南共同确认 S、N、E 固定看台和上下层关系。看台尺度、坡度、逐排逐座及舞台为估算。"
+      }
+    ],
+    "section_source": "https://kconcertguide.com/venue/incheon-munhak-main-stadium/",
+    "section_note": "用户提供的两张实际演出图和场馆指南共同确认 S5–S16、N1–N25、E1–E62；E1–E32 为2F、E33–E62 为4F。内场新增两排 F1–F20 作为历史演出图方位参考，可直接选择区号；不同场次仍可能重新分区。方位已按舞台在图上方校对；分区角度、尺寸、坡度与排座为估算。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "huanglong-gymnasium",
+    "name": "黄龙体育中心体育馆",
+    "city": "杭州",
+    "region": "中国大陆",
+    "venue_reference_url": "https://www.zjhlsports.cn/changguanzulin/",
+    "map_reference_url": "https://www.dahepiao.com/news1/yanchu/20260910549629.html",
+    "geometry_evidence_label": "plan",
+    "geometry_sources": [
+      {
+        "url": "https://www.zjhlsports.cn/changguanzulin/",
+        "note": "浙江省黄龙体育中心官方资料确认体育馆7,922席、建筑面积22,271平方米；用户提供的 HE ART 杭州站图确认固定看台相邻关系与本场内场。尺寸、层高、坡度和逐排逐座为估算。"
+      }
+    ],
+    "section_source": "https://www.zjhlsports.cn/changguanzulin/",
+    "section_note": "固定看台编号和相邻关系按用户提供的本场图录入：下层1–3、6–9及贵宾区，上层1–10。A1/A2、B1/B2、C1/C2是本场内场坐席，按演出日期单独呈现；图上的红色手绘圈不是官方分区，已忽略。尺度、层高、坡度与排座为估算。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "gbk-main-stadium",
+    "name": "印尼格罗拉蓬卡诺体育场",
+    "city": "雅加达",
+    "region": "印度尼西亚",
+    "venue_reference_url": "https://gbk.id/venue/stadion-utama-gelora-bung-karno-1",
+    "map_reference_url": "https://www.mirifica.net/wp-content/uploads/GUIDEBOOK-GBKINDUPDATE250824.pdf",
+    "geometry_evidence_label": "plan",
+    "geometry_sources": [
+      {
+        "url": "https://gbk.id/venue/stadion-utama-gelora-bung-karno-1",
+        "note": "GBK 官方场馆页确认主体育场约78,000席、田径跑道及12座大门；2024公开入场指南给出 Lantai 2 的1–12区和 Lantai 4 的1A/1B–12A/12B。几何、层高、坡度和逐排逐座为估算。"
+      },
+      {
+        "url": "https://www.mirifica.net/wp-content/uploads/GUIDEBOOK-GBKINDUPDATE250824.pdf",
+        "note": "2024年8月公开活动指南第7–8、14–15页用于核对两层看台分区和门号；活动颜色仅是当场类别，未写入永久分区。"
+      }
+    ],
+    "section_source": "https://www.mirifica.net/wp-content/uploads/GUIDEBOOK-GBKINDUPDATE250824.pdf",
+    "section_note": "公开指南第7–8及14–15页确认：2层为1–12区，4层为1A/1B–12A/12B；门号1–94仅作为入口依据，没有冒充座位区。指南中的红、蓝、绿等颜色是2024年特定活动类别，不作为场馆永久票价。方位、层高、坡度与逐排逐座为估算。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "hkcec-hall-5bc",
+    "name": "香港会议展览中心 · Hall 5BC",
+    "city": "香港",
+    "region": "中国香港",
+    "venue_reference_url": "https://www.hkcec.com/zh/%E5%B1%95%E8%A6%BD%E5%BB%B35BC",
+    "map_reference_url": "https://www.hkcec.com/en/virtual-tour",
+    "geometry_evidence_label": "dimension",
+    "geometry_sources": [
+      {
+        "url": "https://www.hkcec.com/zh/%E5%B1%95%E8%A6%BD%E5%BB%B35BC",
+        "note": "香港会议展览中心官方资料确认展览厅5BC位于5楼，面积8,410平方米，尺寸104×78×10.5米。基础模型保留无永久演唱会座椅的大厅；王菀之×苏打绿2026-02-28的舞台、票档色块及临时后排阶梯由场次布局提供，尺寸、高度与排座为估算，不据此改变大厅永久层级。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "ajinomoto-stadium",
+    "name": "日本味之素体育场",
+    "city": "东京",
+    "region": "日本",
+    "venue_reference_url": "https://www.ajinomotostadium.com/overview/stadium.php",
+    "map_reference_url": "https://www.ajinomotostadium.com/seat/",
+    "geometry_evidence_label": "plan",
+    "geometry_sources": [
+      {
+        "url": "https://www.ajinomotostadium.com/overview/stadium.php",
+        "note": "场馆官方资料确认约4.8万席、两层固定看台及107×71米天然草坪；看台包络、层高、坡度和逐排逐座为估算。"
+      },
+      {
+        "url": "https://www.livehis.com/seat/seat2_ajinomoto.html",
+        "note": "公开历史演唱会示例用于确认常见南侧端台与纵向内场分区关系；内场会随演出改变，本站 A–K 仅为通用预览。"
+      }
+    ],
+    "section_source": "https://www.ajinomotostadium.com/seat/",
+    "section_note": "官方座位查询确认上下层及 M1–M16、S17–S27、B28–B41、N42–N52 区号；演唱会内场不是固定座位。A–K 内场排区依据公开历史端台示例合并表达，每排图示1–17块仅供方位参考，不代表任何未来场次票面。几何、坡度与逐排逐座为估算。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "asiaworld-viva",
+    "name": "亚洲国际博览馆 · VIVA",
+    "city": "香港",
+    "region": "中国香港",
+    "venue_reference_url": "https://www.asiaworld-expo.com/en-us/planning/venues/hall-6-8-n-10/",
+    "map_reference_url": null,
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://venue.flytix.live/viewer?venue=viva",
+        "note": "参考公开模型的两种连馆布局；座号与三维尺寸含模拟，非本场售票图。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": "https://shijiao-static-cn.oss-cn-beijing.aliyuncs.com/releases/photo-protection-20261023/assets/viva-rS3OQoqC.json",
+    "static_seat_asset_local_path": "/Users/lilinhai/Projects/rea/shijiao-evidence/data-sources/seat-assets/asiaworld-viva.json",
+    "static_seat_asset_sha256": "7a6fc48cb2322955901357e9d49650d28b6d649ee408974b064f219e27cb0778",
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "shenzhen-baoan-stadium",
+    "name": "深圳市宝安体育中心体育场",
+    "city": "深圳",
+    "region": "中国内地",
+    "venue_reference_url": "https://chat.shenchuang.com/hd/20190725/1497455.shtml",
+    "map_reference_url": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg",
+        "note": "椭圆形看台与编号顺序按历史图核对；尺寸、坡度、排数和预览舞台均为估算，不提取历史演出票价或内场。"
+      }
+    ],
+    "section_source": "https://img1.shenchuang.com/2019/0809/fad1ccfe000c13066fa2171f878970eb.jpg",
+    "section_note": "参考2019年TFBOYS场次图，仅提取固定看台101–134、201–238区及相对方位；不沿用VIP1–12、票价或四面台。西侧117与118之间有看台缺口。角度、排数、尺寸和高度为估算，不是逐座测绘。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "shenzhen-baoan-gymnasium",
+    "name": "深圳市宝安体育中心体育馆",
+    "city": "深圳",
+    "region": "中国内地",
+    "venue_reference_url": "https://i.ifeng.com/c/8x8nDgxfjWq",
+    "map_reference_url": "https://static.maitepiao.com/tickets/2026/09/67868202609231744371800.png",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://static.maitepiao.com/tickets/2026/09/67868202609231744371800.png",
+        "note": "仅为部分固定看台方位参考，未测绘尺寸与排座。基础预览舞台不代表石凯演唱会，未借用李佳薇内场VIP及票价。"
+      }
+    ],
+    "section_source": "https://static.maitepiao.com/tickets/2026/09/67868202609231744371800.png",
+    "section_note": "参考李佳薇2026深圳站图，仅提取图中清晰可见的201–203、209–214固定看台编号及方位，未补造图中未标注的分区。本图不是石凯场次图，不沿用VIP1–4、票价、舞台或开放范围；几何、排数与高度为估算，场馆基础图仍待补全。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "zhengzhou-olympic-gymnasium",
+    "name": "郑州市奥林匹克体育中心体育馆",
+    "city": "郑州",
+    "region": "中国内地",
+    "venue_reference_url": "https://weibo.com/2/detail/5355732066632705",
+    "map_reference_url": "https://maitepiao.oss-accelerate.aliyuncs.com/tickets/2025/05/1a984202505081539158497.jpg",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://maitepiao.oss-accelerate.aliyuncs.com/tickets/2025/05/1a984202505081539158497.jpg",
+        "note": "仅提取固定A–H两层看台编号和相对方位，旋转至C侧端台在上；尺寸、高度和排座为估算，不复用毛不易场次舞台、价格或开放范围。"
+      }
+    ],
+    "section_source": "https://maitepiao.oss-accelerate.aliyuncs.com/tickets/2025/05/1a984202505081539158497.jpg",
+    "section_note": "从毛不易郑州站历史图提取A–H上下两层固定看台编号，旋转至C侧在上。A1区域中含独立贵宾区，基础图为概略方位，不含逐座坐标；历史演出的舞台、内场和价格不用于侯明昊场次。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "nanjing-youth-olympic-gymnasium",
+    "name": "南京梦之蓝青奥体育公园体育馆",
+    "city": "南京",
+    "region": "中国内地",
+    "venue_reference_url": "https://weibo.com/2/detail/5353562416351919",
+    "map_reference_url": "/maps/xiaozhan-nanjing-202610.jpg",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "/maps/xiaozhan-nanjing-202610.jpg",
+        "note": "大麦肖战南京站图核对固定分区。仅记录图中清晰区号；未补造舞台背后未标编号。基础舞台、尺寸、高度、排座为估算；本场使用独立描图。"
+      }
+    ],
+    "section_source": "/maps/xiaozhan-nanjing-202610.jpg",
+    "section_note": "仅提取本场大麦图中可辨认的100/200/300固定区号，包含未着色的106/107；不补造舞台背面未标编号。基础场馆图为部分已核实分区，与本场开放范围及九个VIP区隔离；方位和尺寸为估算。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "qingdao-citizen-stadium",
+    "name": "青岛市民健身中心体育场",
+    "city": "青岛",
+    "region": "中国内地",
+    "venue_reference_url": "https://weibo.com/2/detail/5346627721364096",
+    "map_reference_url": "/maps/wangsulong-qingdao-202610.jpg",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://weibo.com/2/detail/5346627721364096",
+        "note": "场馆身份按来源核对；自由预览为完整环形看台方位示意，非票面分区。米制尺度、层高、坡度、排座与预览舞台为估算。演出专属分区另按本场图配置。"
+      }
+    ],
+    "section_source": "https://statics.ypiao.com/event/seat/ef151beda9351165aea965ec4bec2cd3.jpg",
+    "section_note": "从本场座位图提取固定看台区号与前后分块，移除票价、演出配色和内场。演出图未标号的端部保留无编号看台，不推断区号。座椅排列、排座号和尺度为估算。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "guangxi-sports-stadium",
+    "name": "广西体育中心主体育场",
+    "city": "南宁",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.taihemusic.cn/news/2218",
+    "map_reference_url": "/maps/xusong-nanning-202610.jpg",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.taihemusic.cn/news/2218",
+        "note": "场馆身份按来源核对；自由预览为完整环形看台方位示意，非票面分区。米制尺度、层高、坡度、排座与预览舞台为估算。演出专属分区另按本场图配置。"
+      }
+    ],
+    "section_source": "https://wx3.sinaimg.cn/large/007xDhSSgy1ihkkgj83naj30zk0iv126.jpg",
+    "section_note": "从本场座位图提取固定看台区号与前后分块，移除票价、演出配色和内场。演出图未标号的端部保留无编号看台，不推断区号。座椅排列、排座号和尺度为估算。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "shanxi-sports-stadium",
+    "name": "山西体育中心体育场",
+    "city": "太原",
+    "region": "中国内地",
+    "venue_reference_url": "https://cnsdc.org.cn/venue_booking/show-40.html",
+    "map_reference_url": "/maps/shanxi-fixed-stands-reference.png",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://cnsdc.org.cn/venue_booking/show-40.html",
+        "note": "场馆身份按来源核对；自由预览为完整环形看台方位示意，非票面分区。米制尺度、层高、坡度、排座与预览舞台为估算。演出专属分区另按本场图配置。"
+      },
+      {
+        "url": "https://ty.bendibao.com/xiuxian/2026316/80358.shtm",
+        "note": "参考2026薛之谦太原站图，仅提取101–144、202–246、301–348固定看台；不复用四面舞台、内场、票价、控台或演出遮挡范围。源图未标201，未推断。尺寸、排座与高度为估算。"
+      }
+    ],
+    "section_source": "https://imgbdb3.bendibao.com/tybdb/xiuxian/20264/01/2026401172520_46959.png",
+    "section_note": "参考2026薛之谦太原站图，仅提取101–144、202–246、301–348固定看台；不复用四面舞台、内场、票价、控台或演出遮挡范围。源图未标201，未推断。尺寸、排座与高度为估算。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "xiamen-egret-stadium",
+    "name": "厦门白鹭体育场",
+    "city": "厦门",
+    "region": "中国内地",
+    "venue_reference_url": "https://detail.damai.cn/item.htm?id=1083650546473",
+    "map_reference_url": "/maps/xue-xiamen-202610.jpg",
+    "geometry_evidence_label": "plan",
+    "geometry_sources": [
+      {
+        "url": "https://detail.damai.cn/item.htm?id=1083650546473",
+        "note": "官方票务座位图确认编号及长轴方向、B/C 层右侧开口；尺寸、层高和排座为估算。"
+      }
+    ],
+    "section_source": "https://img.alicdn.com/imgextra/i3/2251059038/O1CN01koNtIGwYmZJ7Vlpd_!!2251059038.jpg",
+    "section_note": "按大麦厦门站座位图核对 A1–A32、B1–B30、C1–C33 及主席台编号与方位。自由预览保留未售卖固定看台，移除演出票价与内场；米制尺度、台阶、层高与逐排逐座为估算。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "guangzhou-gba-stadium",
+    "name": "大湾区文化体育中心体育场",
+    "city": "广州",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.gdfa.gd.cn/news/1971",
+    "map_reference_url": null,
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.gdfa.gd.cn/news/1971",
+        "note": "公开资料核对场馆身份与类型；座位图另列小红书参考。基础场馆尺寸、看台层高与排座均为示意估算，未取得建筑实测图；方位示意区不等于票面区号。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "wenzhou-olympic-stadium",
+    "name": "温州奥体中心体育场",
+    "city": "温州",
+    "region": "中国内地",
+    "venue_reference_url": "https://wdapp.wzrb.com.cn/app_pub/xw/tj/202610/t20261016_635878.html",
+    "map_reference_url": null,
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://wdapp.wzrb.com.cn/app_pub/xw/tj/202610/t20261016_635878.html",
+        "note": "公开资料核对场馆身份与类型；座位图另列小红书参考。基础场馆尺寸、看台层高与排座均为示意估算，未取得建筑实测图；方位示意区不等于票面区号。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "hubei-olympic-arena",
+    "name": "湖北省奥林匹克体育中心体育馆",
+    "city": "武汉",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.wuhan.gov.cn/hdjl/rdhy/202608/t20260822_2837519.shtml",
+    "map_reference_url": null,
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.wuhan.gov.cn/hdjl/rdhy/202608/t20260822_2837519.shtml",
+        "note": "公开资料核对场馆身份与类型；座位图另列小红书参考。基础场馆尺寸、看台层高与排座均为示意估算，未取得建筑实测图；方位示意区不等于票面区号。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "guangzhou-gba-stadium",
+    "name": "大湾区文化体育中心体育场",
+    "city": "广州",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.gdfa.gd.cn/news/1971",
+    "map_reference_url": null,
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.gdfa.gd.cn/news/1971",
+        "note": "公开资料核对场馆身份与类型；座位图另列小红书参考。基础场馆尺寸、看台层高与排座均为示意估算，未取得建筑实测图；方位示意区不等于票面区号。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "wenzhou-olympic-stadium",
+    "name": "温州奥体中心体育场",
+    "city": "温州",
+    "region": "中国内地",
+    "venue_reference_url": "https://wdapp.wzrb.com.cn/app_pub/xw/tj/202610/t20261016_635878.html",
+    "map_reference_url": null,
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://wdapp.wzrb.com.cn/app_pub/xw/tj/202610/t20261016_635878.html",
+        "note": "公开资料核对场馆身份与类型；座位图另列小红书参考。基础场馆尺寸、看台层高与排座均为示意估算，未取得建筑实测图；方位示意区不等于票面区号。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "hubei-olympic-arena",
+    "name": "湖北省奥林匹克体育中心体育馆",
+    "city": "武汉",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.wuhan.gov.cn/hdjl/rdhy/202608/t20260822_2837519.shtml",
+    "map_reference_url": null,
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.wuhan.gov.cn/hdjl/rdhy/202608/t20260822_2837519.shtml",
+        "note": "公开资料核对场馆身份与类型；座位图另列小红书参考。基础场馆尺寸、看台层高与排座均为示意估算，未取得建筑实测图；方位示意区不等于票面区号。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "chengdu-dongan-lake-stadium",
+    "name": "成都东安湖体育公园主体育场",
+    "city": "成都",
+    "region": "中国内地",
+    "venue_reference_url": "https://2bur.cscec.com/xwzx6/qykw6/202305/P020230512520523007082.pdf",
+    "map_reference_url": null,
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://2bur.cscec.com/xwzx6/qykw6/202305/P020230512520523007082.pdf",
+        "note": "4万座主体育场，与1.8万座多功能体育馆分别建档。固定看台按环形体育场作方位示意，内场尺度、层高、坡度、排座及距离均为估算；非实测座位模型。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "macau-grand-lisboa-palace",
+    "name": "澳门上葡京综艺馆",
+    "city": "澳门",
+    "region": "中国澳门",
+    "venue_reference_url": "https://168production.kktix.cc/events/hwangminhyun-macau-2026",
+    "map_reference_url": "https://168production.kktix.cc/events/hwangminhyun-macau-2026",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://168production.kktix.cc/events/hwangminhyun-macau-2026",
+        "note": "演出分区按对应座位图独立建模，阶梯席作为演出布局表面处理；包络尺寸、台高和阶梯高度均为估算，并非实测建筑或完整逐座模型。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "hong-kong-axa-dreamland",
+    "name": "香港 AXA 安盛创梦馆",
+    "city": "香港",
+    "region": "中国香港",
+    "venue_reference_url": "https://tix-get-go.kktix.cc/events/sf9-2026",
+    "map_reference_url": "https://tix-get-go.kktix.cc/events/sf9-2026",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://tix-get-go.kktix.cc/events/sf9-2026",
+        "note": "演出分区按对应座位图独立建模，阶梯席作为演出布局表面处理；包络尺寸、台高和阶梯高度均为估算，并非实测建筑或完整逐座模型。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "genting-arena-of-stars",
+    "name": "云顶世界云星剧场",
+    "city": "云顶高原",
+    "region": "马来西亚",
+    "venue_reference_url": "https://www.klook.cn/zh-CN/event-detail/101028010-2025-azorachin-eveai-concert/",
+    "map_reference_url": "https://www.klook.cn/zh-CN/event-detail/101028010-2025-azorachin-eveai-concert/",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.klook.cn/zh-CN/event-detail/101028010-2025-azorachin-eveai-concert/",
+        "note": "演出分区按对应座位图独立建模，阶梯席作为演出布局表面处理；包络尺寸、台高和阶梯高度均为估算，并非实测建筑或完整逐座模型。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "zhengzhou-olympic-stadium",
+    "name": "郑州奥林匹克体育中心体育场",
+    "city": "郑州",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/69f213710000000036002fb9",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/69f213710000000036002fb9",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/69f213710000000036002fb9",
+        "note": "本场票图显示三层环形看台和椭圆内场。沿用现有场馆3D建模方式；尺寸、层高、坡度与排座为估算，非实测逐座模型。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "shenzhen-sports-center-stadium",
+    "name": "深圳市体育中心体育场",
+    "city": "深圳",
+    "region": "中国内地",
+    "venue_reference_url": "https://zjj.sz.gov.cn/xxgk/csyjgx/content/post_12884176.html",
+    "map_reference_url": null,
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://zjj.sz.gov.cn/xxgk/csyjgx/content/post_12884176.html",
+        "note": "改造后为专业足球场，已拆除田径跑道；2026年小红书现场照片支持三层围合看台。沿用现有场馆3D建模方式；尺寸、层高、坡度与排座为估算，非实测逐座模型。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "foshan-international-arena",
+    "name": "佛山国际体育文化演艺中心",
+    "city": "佛山",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/6a0eeeef0000000035031087",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/6a0eeeef0000000035031087",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a0eeeef0000000035031087",
+        "note": "本场图开放1xx及3xx两层看台；不将三层楼号误作三层连续观众席。沿用现有场馆3D建模方式；尺寸、层高、坡度与排座为估算，非实测逐座模型。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "hefei-sports-center-stadium",
+    "name": "合肥体育中心体育场",
+    "city": "合肥",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/6a4f417c0000000015027cfa",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/6a4f417c0000000015027cfa",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a4f417c0000000015027cfa",
+        "note": "两层看台；VIP1/2和尊享1/2共四块内场，矩形端台，后内场避开控台。同区多票档以原图为准。 沿用既有场馆VM-02模型；尺寸、层高、坡度与排座为估算，非逐座实测。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "nanjing-olympic-stadium",
+    "name": "南京奥体中心体育场",
+    "city": "南京",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/6a5e2cd7000000001d0221e4",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/6a5e2cd7000000001d0221e4",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a5e2cd7000000001d0221e4",
+        "note": "三层看台与14块内场按本场图核对，弧形主舞台连接分叉延伸台。保留原图看台区号，不套用郑州场的区号与坐标。 沿用既有场馆VM-02模型；尺寸、层高、坡度与排座为估算，非逐座实测。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "nanchang-international-stadium",
+    "name": "南昌国际体育中心体育场",
+    "city": "南昌",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/6aceff1e000000001802ffb4",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/6aceff1e000000001802ffb4",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6aceff1e000000001802ffb4",
+        "note": "本场三层看台、24块内场、十字延伸台，灰色未开放区未列入可选票区；不采用二开预测或作者手绘信息。 沿用既有场馆VM-02模型；尺寸、层高、坡度与排座为估算，非逐座实测。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "tokyo-garden-theater",
+    "name": "东京花园剧场",
+    "city": "东京",
+    "region": "日本",
+    "venue_reference_url": "https://www.shopping-sumitomo-rd.com/tokyo_garden_theater/visitor/floor/",
+    "map_reference_url": "https://www.shopping-sumitomo-rd.com/tokyo_garden_theater/visitor/floor/",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.shopping-sumitomo-rd.com/tokyo_garden_theater/visitor/floor/",
+        "note": "官网Pattern A的2F内场与三层U形楼座；实际演出可调整内场，不虚构用户未提供的2027场次。 沿用既有场馆VM-02模型；尺寸、层高、坡度与排座为估算，非逐座实测。"
+      }
+    ],
+    "section_source": "https://www.shopping-sumitomo-rd.com/tokyo_garden_theater/visitor/floor/",
+    "section_note": "2F内场XA/XB/XC、A/B/C、D/E/F；3F至5F三层楼座1A–3I。内场采用各块保守矩形取点示意，非完整边界或逐座实测；具体演出可能采用Pattern B或专属配置。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "tianjin-olympic-gymnasium",
+    "name": "天津奥林匹克中心体育馆",
+    "city": "天津",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/6a5329f9000000001101f91f",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/6a5329f9000000001101f91f",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a5329f9000000001101f91f",
+        "note": "原版票图为矩形端台、3×3九块VIP内场（1580）。临时与固定看台分层；细小区号未完全辨清，按方位示意，同区多票档不绑定单价。 沿用既有场馆VM-02模型；尺寸、层高、坡度与排座为估算，非逐座实测。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "chongqing-olympic-stadium",
+    "name": "重庆奥林匹克体育中心体育场",
+    "city": "重庆",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/6acc8c8b00000000140380b7",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/6acc8c8b00000000140380b7",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6acc8c8b00000000140380b7",
+        "note": "两层环形看台，16块内场，单端主舞台连接中央阶梯形短延伸台；作者红圈未纳入模型，不套用南昌十字台。 沿用既有场馆VM-02模型；尺寸、层高、坡度与排座为估算，非逐座实测。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "shanghai-jingan-gymnasium",
+    "name": "上海静安体育中心体育馆",
+    "city": "上海",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/6a1e5c6b000000000602289b",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/6a1e5c6b000000000602289b",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a1e5c6b000000000602289b",
+        "note": "官方确认7月4/5日，已纠正原反馈7月24日笔误。8块内场按方位示意；一层固定高架看台，近台两侧标注视线不良。A/B/C为入口，不当作内场块号。 沿用既有场馆VM-02模型；尺寸、层高、坡度与排座为估算，非逐座实测。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "zhuji-xishi-basketball-center",
+    "name": "诸暨西施篮球中心",
+    "city": "诸暨",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/68cb85a4000000001301df84",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/68cb85a4000000001301df84",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/68cb85a4000000001301df84",
+        "note": "2025年历史场次；矩形端台，A1/A2前内场1180、B1/B2后内场980。C/L两层看台保留原图区号，C看台同区含多个票档。 沿用既有场馆VM-02模型；尺寸、层高、坡度与排座为估算，非逐座实测。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "qingdao-guoxin-gymnasium",
+    "name": "青岛市体育中心国信体育馆",
+    "city": "青岛",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/6a9d940b0000000026033056",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/6a9d940b0000000026033056",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a9d940b0000000026033056",
+        "note": "VIP1/2为L形、VIP3/4外侧缺角。阶梯主舞台与前方小平台按图示建模，虚线通道仅作地面示意，固定高架结构待核验。看台两层、同区跨票档。 沿用既有场馆VM-02模型；尺寸、层高、坡度与排座为估算，非逐座实测。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "foshan-century-lotus-stadium",
+    "name": "佛山世纪莲体育中心体育场",
+    "city": "佛山",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/69a3d42f000000002303a9b5",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/69a3d42f000000002303a9b5",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/69a3d42f000000002303a9b5",
+        "note": "日期场馆已核对联诚发参与制作的现场报道。2019本场完整座位图尚未找到，当前仅为两层看台的基础场馆预览，不借用2025/2026舞台、内场或票价。 沿用既有场馆VM-02模型；尺寸、层高、坡度与排座为估算，非逐座实测。"
+      }
+    ],
+    "section_source": null,
+    "section_note": null,
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "qingyuan-sports-center-stadium",
+    "name": "清远体育中心体育场",
+    "city": "清远",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/66cf4615000000001d01b73f",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/66cf4615000000001d01b73f",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/66cf4615000000001d01b73f",
+        "note": "原图八块VIP内场、矩形端台；西侧两层，东侧单层深看台。看台同区多票档及视线不良区以原票图为准。 复用现有VM-02场馆绘制方式；尺寸、层高、坡度与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://cn.iamgem.com/tours/",
+        "note": "邓紫棋官方巡演记录，2024年9月21/22日清远"
+      }
+    ],
+    "section_source": "https://www.xiaohongshu.com/explore/66cf4615000000001d01b73f",
+    "section_note": "原图八块VIP内场、矩形端台；西侧两层，东侧单层深看台。看台同区多票档及视线不良区以原票图为准。 基础场馆仅示意固定看台方位；本场区号请切换对应日期。复用现有VM-02场馆绘制方式；尺寸、层高、坡度与排座为估算，不是逐座实测。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "vancouver-rogers-arena",
+    "name": "Rogers Arena（温哥华罗杰斯体育馆）",
+    "city": "温哥华",
+    "region": "加拿大",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/6a77bd90000000002500292f",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/6a77bd90000000002500292f",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a77bd90000000002500292f",
+        "note": "Ticketmaster与小红书核对端台加中央延伸平台，FLOOR为坐席，中央后方MIX留空；100/300两层，包厢不加整圈。 复用现有VM-02场馆绘制方式；尺寸、层高、坡度与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.ticketmaster.ca/aespa-live-tour-synk-complxity-in-vancouver-british-columbia-10-11-2026/event/11006494D8E6A5FC",
+        "note": "Ticketmaster，2026-10-11 20:00"
+      }
+    ],
+    "section_source": "https://www.xiaohongshu.com/explore/6a77bd90000000002500292f",
+    "section_note": "Ticketmaster与小红书核对端台加中央延伸平台，FLOOR为坐席，中央后方MIX留空；100/300两层，包厢不加整圈。 基础场馆仅示意固定看台方位；本场区号请切换对应日期。复用现有VM-02场馆绘制方式；尺寸、层高、坡度与排座为估算，不是逐座实测。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "jinan-olympic-stadium",
+    "name": "济南奥林匹克体育中心体育场",
+    "city": "济南",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/6ac8e96b000000001500186b",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/6ac8e96b000000001500186b",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6ac8e96b000000001500186b",
+        "note": "采用10月9日票图：20块内场、短T形舞台、200/400两层看台；看台部分票档曾调整，舞台后重复灰色区号未录入。 复用现有VM-02场馆绘制方式；尺寸、层高、坡度与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.jinanaoti.com/enterprise_qualification?tab=3",
+        "note": "济南奥体中心场馆介绍"
+      }
+    ],
+    "section_source": "https://www.xiaohongshu.com/explore/6ac8e96b000000001500186b",
+    "section_note": "采用10月9日票图：20块内场、短T形舞台、200/400两层看台；看台部分票档曾调整，舞台后重复灰色区号未录入。 基础场馆仅示意固定看台方位；本场区号请切换对应日期。复用现有VM-02场馆绘制方式；尺寸、层高、坡度与排座为估算，不是逐座实测。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "shenzhen-universiade-gymnasium",
+    "name": "深圳大运中心体育馆",
+    "city": "深圳",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/69aebdeb000000001b01d889",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/69aebdeb000000001b01d889",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/69aebdeb000000001b01d889",
+        "note": "中央四面台，A/B和C1/C2、D1/D2共6块坐席；100、200、300三层，300高层只在两侧，包厢侧不补整圈。 复用现有VM-02场馆绘制方式；尺寸、层高、坡度与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.gmp.de/de/projekte/531/sportzentrum-universiade-2011",
+        "note": "设计方gmp确认18000座体育馆，与体育场分开"
+      }
+    ],
+    "section_source": "https://www.xiaohongshu.com/explore/69aebdeb000000001b01d889",
+    "section_note": "中央四面台，A/B和C1/C2、D1/D2共6块坐席；100、200、300三层，300高层只在两侧，包厢侧不补整圈。 基础场馆仅示意固定看台方位；本场区号请切换对应日期。复用现有VM-02场馆绘制方式；尺寸、层高、坡度与排座为估算，不是逐座实测。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "sydney-accor-stadium",
+    "name": "Accor Stadium（悉尼雅高体育场）",
+    "city": "悉尼",
+    "region": "澳大利亚",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/6a1e70f2000000000f03ac00",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/6a1e70f2000000000f03ac00",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a1e70f2000000000f03ac00",
+        "note": "按Accor官方原图描绘中央椭圆加X形四臂台、55块坐席；100前后带不是不同层，400/600层只在长边，北端317–321独立看台。没有田径跑道。 复用现有VM-02场馆绘制方式；尺寸、层高、坡度与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.accorstadium.com.au/events/bts_world_tour_arirang_show_1",
+        "note": "Accor官网原票图，2027-02-20/21"
+      }
+    ],
+    "section_source": "https://www.xiaohongshu.com/explore/6a1e70f2000000000f03ac00",
+    "section_note": "按Accor官方原图描绘中央椭圆加X形四臂台、55块坐席；100前后带不是不同层，400/600层只在长边，北端317–321独立看台。没有田径跑道。 基础场馆仅示意固定看台方位；本场区号请切换对应日期。复用现有VM-02场馆绘制方式；尺寸、层高、坡度与排座为估算，不是逐座实测。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "xuzhou-olympic-stadium",
+    "name": "徐州奥体中心体育场",
+    "city": "徐州",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/6a86d490000000002402623c",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/6a86d490000000002402623c",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a86d490000000002402623c",
+        "note": "官方确认为2026年主体育场，已纠正原反馈的2025年体育馆；二开版T形台、14块内场，新增5/20/51/58区。上层仅长边。 复用现有VM-02场馆绘制方式；尺寸、层高、坡度与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.thepaper.cn/newsDetail_forward_33850638",
+        "note": "政务发布确认2026-08-25/26/28/29 19:00主体育场"
+      }
+    ],
+    "section_source": "https://www.xiaohongshu.com/explore/6a86d490000000002402623c",
+    "section_note": "官方确认为2026年主体育场，已纠正原反馈的2025年体育馆；二开版T形台、14块内场，新增5/20/51/58区。上层仅长边。 基础场馆仅示意固定看台方位；本场区号请切换对应日期。复用现有VM-02场馆绘制方式；尺寸、层高、坡度与排座为估算，不是逐座实测。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "xian-olympic-stadium",
+    "name": "西安奥体中心体育场",
+    "city": "西安",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/64be14040000000010032ffd",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/64be14040000000010032ffd",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/64be14040000000010032ffd",
+        "note": "采用2023年大麦原图，8块内场与矩形端台，无延伸台；200/300/500三层看台，400包厢不作第四层。 复用现有VM-02场馆绘制方式；尺寸、层高、坡度与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://sn.ifeng.com/c/8S0IWkwJxYp",
+        "note": "西安市委网信办供稿，2023-08-06 19:30"
+      }
+    ],
+    "section_source": "https://www.xiaohongshu.com/explore/64be14040000000010032ffd",
+    "section_note": "采用2023年大麦原图，8块内场与矩形端台，无延伸台；200/300/500三层看台，400包厢不作第四层。 基础场馆仅示意固定看台方位；本场区号请切换对应日期。复用现有VM-02场馆绘制方式；尺寸、层高、坡度与排座为估算，不是逐座实测。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "nanjing-olympic-gymnasium",
+    "name": "南京奥体中心国缘V9体育馆",
+    "city": "南京",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/6ab63a08000000001b01f2c4",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/6ab63a08000000001b01f2c4",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6ab63a08000000001b01f2c4",
+        "note": "官网分区图确认为3F、5F、6F三层普通看台，4F包厢；本场矩形端台、VIP1–4四块内场，低看台采用原图标注的后区。 复用现有VM-02场馆绘制方式；尺寸、层高、坡度与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.njaoti.com/fit/venue/?id=3&type=detail",
+        "note": "官网看台图确认3F/5F/6F及4F包厢"
+      }
+    ],
+    "section_source": "https://www.xiaohongshu.com/explore/6ab63a08000000001b01f2c4",
+    "section_note": "官网分区图确认为3F、5F、6F三层普通看台，4F包厢；本场矩形端台、VIP1–4四块内场，低看台采用原图标注的后区。 基础场馆仅示意固定看台方位；本场区号请切换对应日期。复用现有VM-02场馆绘制方式；尺寸、层高、坡度与排座为估算，不是逐座实测。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "guangzhou-university-town-stadium",
+    "name": "广州大学城体育中心体育场",
+    "city": "广州",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/6ad097f4000000001500057c",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/6ad097f4000000001500057c",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6ad097f4000000001500057c",
+        "note": "弧形主台加中央短凸台、8块内场；3/4区含1080及880，同一看台区可含不同票档及视线不良席。1月2日加场待官方进一步核验，暂未列作确定场次。 复用现有VM-02场馆绘制方式；尺寸、层高、坡度与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://m.weibo.cn/2/detail/5356055999809587",
+        "note": "官方售票公告确认2027年1月1日加场"
+      }
+    ],
+    "section_source": "https://www.xiaohongshu.com/explore/6ad097f4000000001500057c",
+    "section_note": "弧形主台加中央短凸台、8块内场；3/4区含1080及880，同一看台区可含不同票档及视线不良席。1月2日加场待官方进一步核验，暂未列作确定场次。 基础场馆仅示意固定看台方位；本场区号请切换对应日期。复用现有VM-02场馆绘制方式；尺寸、层高、坡度与排座为估算，不是逐座实测。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "hangzhou-huanglong-stadium",
+    "name": "杭州黄龙体育中心体育场",
+    "city": "杭州",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/6ac4bed9000000001a0304a0",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/6ac4bed9000000001a0304a0",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6ac4bed9000000001a0304a0",
+        "note": "十字延伸台、16块内场，上下两层固定看台；上层前中后票档是同层径向分带，不误作额外楼层。 复用现有VM-02场馆绘制方式；尺寸、层高、坡度与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.sina.cn/news/detail/5348824618108478.html",
+        "note": "主办官方发布，2026-10-17 19:00"
+      }
+    ],
+    "section_source": "https://www.xiaohongshu.com/explore/6ac4bed9000000001a0304a0",
+    "section_note": "十字延伸台、16块内场，上下两层固定看台；上层前中后票档是同层径向分带，不误作额外楼层。 基础场馆仅示意固定看台方位；本场区号请切换对应日期。复用现有VM-02场馆绘制方式；尺寸、层高、坡度与排座为估算，不是逐座实测。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "guiyang-olympic-stadium",
+    "name": "贵阳奥林匹克体育中心体育场",
+    "city": "贵阳",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/6abc4c330000000018019683",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/6abc4c330000000018019683",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6abc4c330000000018019683",
+        "note": "采用本场字母看台原图；中央四面矩形台和16块内场，A/B上下层分开，其余连续深看台不按票档加楼层。 复用现有VM-02场馆绘制方式；尺寸、层高、坡度与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.sina.cn/news/detail/5348433177351557.html",
+        "note": "主办方阔景官宣2026年10月17/18/24/25日"
+      }
+    ],
+    "section_source": "https://www.xiaohongshu.com/explore/6abc4c330000000018019683",
+    "section_note": "采用本场字母看台原图；中央四面矩形台和16块内场，A/B上下层分开，其余连续深看台不按票档加楼层。 基础场馆仅示意固定看台方位；专属区号请切换已核对场次。复用现有VM-02场馆绘制方式；尺寸、层高、坡度与排座为估算，不是逐座实测。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "hangzhou-qiantang-basketball-arena",
+    "name": "杭州乐动力钱塘体育中心篮球赛馆",
+    "city": "杭州",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/6ac868ab000000001303e7ae",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/6ac868ab000000001303e7ae",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6ac868ab000000001303e7ae",
+        "note": "QQ音乐巅峰榜原图：矩形端台、A/B/C/D四块内场，南北西三面两层矩形看台；680/480为同一上层前后票档。 复用现有VM-02场馆绘制方式；尺寸、层高、坡度与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.sina.cn/news/detail/5352100587372975.html",
+        "note": "QQ音乐官方生日会公告，2026-10-31 19:00"
+      }
+    ],
+    "section_source": "https://www.xiaohongshu.com/explore/6ac868ab000000001303e7ae",
+    "section_note": "QQ音乐巅峰榜原图：矩形端台、A/B/C/D四块内场，南北西三面两层矩形看台；680/480为同一上层前后票档。 基础场馆仅示意固定看台方位；专属区号请切换已核对场次。复用现有VM-02场馆绘制方式；尺寸、层高、坡度与排座为估算，不是逐座实测。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "hebei-olympic-stadium",
+    "name": "河北奥林匹克体育中心体育场",
+    "city": "石家庄",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/6822a6f8000000002300dc44",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/6822a6f8000000002300dc44",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6822a6f8000000002300dc44",
+        "note": "大麦原图：A/B/C/D共12块内场、矩形端台加短直延伸台；两层普通看台，上层仅长边。 复用现有VM-02场馆绘制方式；尺寸、层高、坡度与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.weibo.com/7785024037/PwviOjvnF",
+        "note": "纷玩岛2025年6月14/15日演出公告"
+      }
+    ],
+    "section_source": "https://www.xiaohongshu.com/explore/6822a6f8000000002300dc44",
+    "section_note": "大麦原图：A/B/C/D共12块内场、矩形端台加短直延伸台；两层普通看台，上层仅长边。 基础场馆仅示意固定看台方位；专属区号请切换已核对场次。复用现有VM-02场馆绘制方式；尺寸、层高、坡度与排座为估算，不是逐座实测。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "chengdu-financial-city-arena",
+    "name": "成都金融城演艺中心",
+    "city": "成都",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/6ad88264000000002a010fe2",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/6ad88264000000002a010fe2",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6ad88264000000002a010fe2",
+        "note": "本场原图：VIP2/1/3与A2/1/3共6块内场，舞台端永久开口的马蹄形看台；200和500两层，300/400包厢不作普通看台圈。 复用现有VM-02场馆绘制方式；尺寸、层高、坡度与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.sina.cn/news/detail/5354615273947884.html",
+        "note": "大麦确认2026年11月21日19:00"
+      }
+    ],
+    "section_source": "https://www.xiaohongshu.com/explore/6ad88264000000002a010fe2",
+    "section_note": "本场原图：VIP2/1/3与A2/1/3共6块内场，舞台端永久开口的马蹄形看台；200和500两层，300/400包厢不作普通看台圈。 基础场馆仅示意固定看台方位；专属区号请切换已核对场次。复用现有VM-02场馆绘制方式；尺寸、层高、坡度与排座为估算，不是逐座实测。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "sanya-egret-stadium",
+    "name": "三亚国际体育中心白鹭体育场",
+    "city": "三亚",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/693e07a0000000001e0149e0",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/693e07a0000000001e0149e0",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/693e07a0000000001e0149e0",
+        "note": "2026新年音乐会实际演出为2025年12月；大麦原图12块内场、宽直延伸台、两层普通看台，300包厢不单独加层。 复用现有VM-02场馆绘制方式；尺寸、层高、坡度与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.sina.cn/news/detail/5247547073365375.html",
+        "note": "三亚市官方发布，2025年12月26/27/28日17:30"
+      }
+    ],
+    "section_source": "https://www.xiaohongshu.com/explore/693e07a0000000001e0149e0",
+    "section_note": "2026新年音乐会实际演出为2025年12月；大麦原图12块内场、宽直延伸台、两层普通看台，300包厢不单独加层。 基础场馆仅示意固定看台方位；专属区号请切换已核对场次。复用现有VM-02场馆绘制方式；尺寸、层高、坡度与排座为估算，不是逐座实测。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "chongqing-expo-s1-hall",
+    "name": "重庆国际博览中心S1馆",
+    "city": "重庆",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/6a7686d1000000003301f2dc",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/6a7686d1000000003301f2dc",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a7686d1000000003301f2dc",
+        "note": "S1为无固定看台的平层展厅；A/B平层、C低阶梯和D后排临时坡台，票价分带不作额外楼层。按已核对本场布局作为场馆默认预览。 复用现有VM-02场馆绘制方式；尺寸、层高、坡度与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://sina.cn/news/detail/5329255585022472.html",
+        "note": "TF家族FanClub官宣2026年8月22/23日"
+      }
+    ],
+    "section_source": "https://www.xiaohongshu.com/explore/6a7686d1000000003301f2dc",
+    "section_note": "S1为无固定看台的平层展厅；A/B平层、C低阶梯和D后排临时坡台，票价分带不作额外楼层。按已核对本场布局作为场馆默认预览。 基础场馆仅示意固定看台方位；专属区号请切换已核对场次。复用现有VM-02场馆绘制方式；尺寸、层高、坡度与排座为估算，不是逐座实测。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "guangzhou-gymnasium-hall-1",
+    "name": "广州体育馆1号馆",
+    "city": "广州",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/67652a4b000000000900d81d",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/67652a4b000000000900d81d",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/67652a4b000000000900d81d",
+        "note": "已核对场馆固定看台总览和现场照片，按三段看台绘制基础预览。王嘉尔广州场专属舞台图尚待核验，当前不提供该场价格、内场分区或演出确认信息。 复用现有VM-02场馆绘制方式；尺寸、层高、坡度与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.mice-gz.org/hz/a/11/1537857989657.html",
+        "note": "广州市会展业公共服务平台场馆资料，常规11466席及24包厢"
+      }
+    ],
+    "section_source": "https://www.xiaohongshu.com/explore/67652a4b000000000900d81d",
+    "section_note": "已核对场馆固定看台总览和现场照片，按三段看台绘制基础预览。王嘉尔广州场专属舞台图尚待核验，当前不提供该场价格、内场分区或演出确认信息。 基础场馆仅示意固定看台方位；专属区号请切换已核对场次。复用现有VM-02场馆绘制方式；尺寸、层高、坡度与排座为估算，不是逐座实测。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "changzhou-olympic-stadium",
+    "name": "常州奥体中心体育场",
+    "city": "常州",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/6abf4dc3000000000a027d48",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/6abf4dc3000000000a027d48",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6abf4dc3000000000a027d48",
+        "note": "本场原图16块内场、长直延伸台，200/300/400区号分属两层普通看台；上层只在两长边，E1–E3包厢不加第三层。 复用现有VM-02场馆绘制方式；尺寸、层高、坡度与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://weibo.com/2/detail/5345207844864265",
+        "note": "周深工作室官宣2026年11月7/8日19:00"
+      }
+    ],
+    "section_source": "https://www.xiaohongshu.com/explore/6abf4dc3000000000a027d48",
+    "section_note": "本场原图16块内场、长直延伸台，200/300/400区号分属两层普通看台；上层只在两长边，E1–E3包厢不加第三层。 基础场馆仅示意固定看台方位；专属区号请切换已核对场次。复用现有VM-02场馆绘制方式；尺寸、层高、坡度与排座为估算，不是逐座实测。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "harbin-international-convention-gymnasium",
+    "name": "哈尔滨国际会展体育中心体育馆",
+    "city": "哈尔滨",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/6910ade0000000000301e9c6",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/6910ade0000000000301e9c6",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6910ade0000000000301e9c6",
+        "note": "大麦原图及小红书核对：矩形端台、A1–A4四块内场，两层矩形看台；上层南北零区为边角480席，普通西区仅低层。 复用现有VM-02场馆绘制方式；尺寸、层高、坡度与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.sina.cn/news/detail/5234321300654737.html",
+        "note": "黄子弘凡工作室确认2025年12月6/7日"
+      }
+    ],
+    "section_source": "https://www.xiaohongshu.com/explore/6910ade0000000000301e9c6",
+    "section_note": "大麦原图及小红书核对：矩形端台、A1–A4四块内场，两层矩形看台；上层南北零区为边角480席，普通西区仅低层。 基础场馆仅示意固定看台方位；专属区号请切换已核对场次。复用现有VM-02场馆绘制方式；尺寸、层高、坡度与排座为估算，不是逐座实测。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "belluna-dome",
+    "name": "Belluna Dome（西武巨蛋）",
+    "city": "所泽",
+    "region": "日本",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/6aba1da400000000150069df",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/6aba1da400000000150069df",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6aba1da400000000150069df",
+        "note": "按西武狮官方球场图绘制连续单层碗形基础看台，环形走道不作额外楼层。JxJ 2026年11月21/22日已官宣，但本场内场与舞台图未核实，暂不提供专属布局。 复用现有VM-02场馆绘制方式；尺寸、层高、坡度与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.seibulions.jp/cmn/images/ticket/2026/dome/seat_2026.pdf",
+        "note": "西武狮官方固定座位图，演出内场配置另定"
+      },
+      {
+        "url": "https://www.seibulions.jp/stadium/dome.html",
+        "note": "官方尺度锚点：两翼100m、中外野122m、屋顶最高64.5m；看台剖面仍为估算。"
+      }
+    ],
+    "section_source": "https://www.xiaohongshu.com/explore/6aba1da400000000150069df",
+    "section_note": "按西武狮官方球场图绘制连续单层碗形基础看台，环形走道不作额外楼层。JxJ 2026年11月21/22日已官宣，但本场内场与舞台图未核实，暂不提供专属布局。 基础场馆仅示意固定看台方位；专属区号请切换已核对场次。复用现有VM-02场馆绘制方式；尺寸、层高、坡度与排座为估算，不是逐座实测。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "dongguan-sports-center-gymnasium",
+    "name": "东莞市体育中心体育馆",
+    "city": "东莞",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/6a12d6f1000000000803c6ac",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/6a12d6f1000000000803c6ac",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a12d6f1000000000803c6ac",
+        "note": "2025改造后的老体育馆，3988席；长边连续坡台、短边较低，横通道不是额外楼层。用户未指定演出，提供基础预览。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.baygames.cn/node_19d1ca3d6f/43c1db6001.shtml",
+        "note": "十五运会官方老馆资料"
+      }
+    ],
+    "section_source": "https://www.xiaohongshu.com/explore/6a12d6f1000000000803c6ac",
+    "section_note": "2025改造后的老体育馆，3988席；长边连续坡台、短边较低，横通道不是额外楼层。用户未指定演出，提供基础预览。 基础区号为示意，专属场次保留票面区号。复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "luoyang-olympic-stadium",
+    "name": "洛阳奥林匹克体育中心体育场",
+    "city": "洛阳",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/6a167195000000000702b88c",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/6a167195000000000702b88c",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a167195000000000702b88c",
+        "note": "本场原图中央矩形四面台和12块内场；三层真实看台，中上层仅在两长边。同区价格带不增加楼层。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://detail.damai.cn/item.htm?id=1050747499269",
+        "note": "大麦本场演出日期"
+      }
+    ],
+    "section_source": "https://www.xiaohongshu.com/explore/6a167195000000000702b88c",
+    "section_note": "本场原图中央矩形四面台和12块内场；三层真实看台，中上层仅在两长边。同区价格带不增加楼层。 基础区号为示意，专属场次保留票面区号。复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "qingdao-guoxin-stadium",
+    "name": "青岛国信体育中心体育场",
+    "city": "青岛",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/6ac49c8e0000000018004a42",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/6ac49c8e0000000018004a42",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6ac49c8e0000000018004a42",
+        "note": "本场票图端台和长直延伸、14块内场；票面二层及四层对应两层看台，不是四层。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://3g.sina.com.cn/news/detail/5348444352808324.html",
+        "note": "王源工作室青岛官宣"
+      }
+    ],
+    "section_source": "https://www.xiaohongshu.com/explore/6ac49c8e0000000018004a42",
+    "section_note": "本场票图端台和长直延伸、14块内场；票面二层及四层对应两层看台，不是四层。 基础区号为示意，专属场次保留票面区号。复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "dalian-sports-center-stadium",
+    "name": "大连体育中心体育场",
+    "city": "大连",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/686274bd0000000020018bed",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/686274bd0000000020018bed",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/686274bd0000000020018bed",
+        "note": "采用大麦最终票图，非自绘第二图；12内场、短直延伸与菱形末端，真实上下两圈。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.sina.cn/news/detail/5183204447487733.html",
+        "note": "时代少年团FanClub大连2025官宣"
+      }
+    ],
+    "section_source": "https://www.xiaohongshu.com/explore/686274bd0000000020018bed",
+    "section_note": "采用大麦最终票图，非自绘第二图；12内场、短直延伸与菱形末端，真实上下两圈。 基础区号为示意，专属场次保留票面区号。复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "guiyang-new-gymnasium",
+    "name": "贵阳奥林匹克体育中心体育馆",
+    "city": "贵阳",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/6ac9ff69000000001800493e",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/6ac9ff69000000001800493e",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6ac9ff69000000001800493e",
+        "note": "业主确认11341席、场地71.8×41.2米；矩形端台和4VIP区，两层普通看台，后侧300区低于两侧400区，包厢不增加一圈。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://gytzkg.com/item/15-4650-1.html",
+        "note": "贵阳投控场馆业主资料"
+      }
+    ],
+    "section_source": "https://www.xiaohongshu.com/explore/6ac9ff69000000001800493e",
+    "section_note": "业主确认11341席、场地71.8×41.2米；矩形端台和4VIP区，两层普通看台，后侧300区低于两侧400区，包厢不增加一圈。 基础区号为示意，专属场次保留票面区号。复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "jinan-olympic-gymnasium",
+    "name": "济南奥林匹克体育中心体育馆",
+    "city": "济南",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/67cfa0f5000000002901b051",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/67cfa0f5000000002901b051",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/67cfa0f5000000002901b051",
+        "note": "大麦原图矩形端台和A1/A2/B1/B2四块内场；二层及四层是两层看台，3000包厢不作第三层。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.qlwb.com.cn/detail/25866407.html",
+        "note": "济南地铁演出交通公告"
+      }
+    ],
+    "section_source": "https://www.xiaohongshu.com/explore/67cfa0f5000000002901b051",
+    "section_note": "大麦原图矩形端台和A1/A2/B1/B2四块内场；二层及四层是两层看台，3000包厢不作第三层。 基础区号为示意，专属场次保留票面区号。复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "tianjin-olympic-stadium",
+    "name": "天津奥林匹克中心体育场",
+    "city": "天津",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/69d2102b00000000220298d5",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/69d2102b00000000220298d5",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/69d2102b00000000220298d5",
+        "note": "端台、长直延伸及后方圆形控台，A/B/C六块内场。200及500/600区号属于两层真实看台。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.sina.cn/news/detail/5302425338513624.html",
+        "note": "人民文娱天津演出报道"
+      }
+    ],
+    "section_source": "https://www.xiaohongshu.com/explore/69d2102b00000000220298d5",
+    "section_note": "端台、长直延伸及后方圆形控台，A/B/C六块内场。200及500/600区号属于两层真实看台。 基础区号为示意，专属场次保留票面区号。复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "haikou-wuyuanhe-gymnasium",
+    "name": "海口五源河体育中心体育馆",
+    "city": "海口",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/6a155b4000000000350206c9",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/6a155b4000000000350206c9",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a155b4000000000350206c9",
+        "note": "四块内场站席、两层看台坐席；短直延伸加菱形末端，价格分带不是楼层。区别同体育中心体育场。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://news.hainan.net/wenti/wentiliebiao/2026/06/29/4805435.shtml",
+        "note": "海口旅游演出报道"
+      }
+    ],
+    "section_source": "https://www.xiaohongshu.com/explore/6a155b4000000000350206c9",
+    "section_note": "四块内场站席、两层看台坐席；短直延伸加菱形末端，价格分带不是楼层。区别同体育中心体育场。 基础区号为示意，专属场次保留票面区号。复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "hong-kong-macpherson-stadium",
+    "name": "香港麦花臣场馆",
+    "city": "香港",
+    "region": "中国香港",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/6aafb4340000000014010537",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/6aafb4340000000014010537",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6aafb4340000000014010537",
+        "note": "主办票图：前VIP后A两块站席，三面一层浅坡坐席。价格为港币，右后角B区不能镜像复制；官网场地37×20.5米。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://kard.bstage.in/notice/6ab1e768d9599d6c570195d5",
+        "note": "KARD官方香港场公告"
+      }
+    ],
+    "section_source": "https://www.xiaohongshu.com/explore/6aafb4340000000014010537",
+    "section_note": "主办票图：前VIP后A两块站席，三面一层浅坡坐席。价格为港币，右后角B区不能镜像复制；官网场地37×20.5米。 基础区号为示意，专属场次保留票面区号。复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "jiaxing-sports-center-stadium",
+    "name": "嘉兴市体育中心体育场",
+    "city": "嘉兴",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/6ab9f4ae0000000018006c3d",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/6ab9f4ae0000000018006c3d",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6ab9f4ae0000000018006c3d",
+        "note": "纷玩岛原图16内场、宽端台和短圆头延伸；实景确认东西两层、南侧低层，400/500受限视线单独标记。反馈所写体育馆已纠正为本场体育场。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://weibo.com/2/detail/5334337060082552",
+        "note": "CMELive主办嘉兴公告"
+      }
+    ],
+    "section_source": "https://www.xiaohongshu.com/explore/6ab9f4ae0000000018006c3d",
+    "section_note": "纷玩岛原图16内场、宽端台和短圆头延伸；实景确认东西两层、南侧低层，400/500受限视线单独标记。反馈所写体育馆已纠正为本场体育场。 基础区号为示意，专属场次保留票面区号。复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "zhenjiang-sports-exhibition-stadium",
+    "name": "镇江体育会展中心体育场",
+    "city": "镇江",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/6acf369c0000000012036e26",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/6acf369c0000000012036e26",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6acf369c0000000012036e26",
+        "note": "端台短圆头延伸、16内场；全周下层分前后价格带，独立上层仅L/M/N侧，不能补成全环双层。用户11月27日已按大麦更正。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.sina.cn/news/detail/5354222649606679.html",
+        "note": "大麦镇江官宣"
+      }
+    ],
+    "section_source": "https://www.xiaohongshu.com/explore/6acf369c0000000012036e26",
+    "section_note": "端台短圆头延伸、16内场；全周下层分前后价格带，独立上层仅L/M/N侧，不能补成全环双层。用户11月27日已按大麦更正。 基础区号为示意，专属场次保留票面区号。复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "wuhan-five-rings-stadium",
+    "name": "武汉五环体育中心体育场",
+    "city": "武汉",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/6ac8a6e5000000000100ba25",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/6ac8a6e5000000000100ba25",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6ac8a6e5000000000100ba25",
+        "note": "主办明确主体育场，纠正反馈体育馆；短矩形延伸和14内场，上下两层。公开图区号有歧义，仅作示意，不声称官方分区已确认。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://3g.sina.com.cn/news/detail/5341584994338485.html",
+        "note": "天娱传媒武汉主体育场官宣"
+      }
+    ],
+    "section_source": "https://www.xiaohongshu.com/explore/6ac8a6e5000000000100ba25",
+    "section_note": "主办明确主体育场，纠正反馈体育馆；短矩形延伸和14内场，上下两层。公开图区号有歧义，仅作示意，不声称官方分区已确认。 基础区号为示意，专属场次保留票面区号。复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "urumqi-olympic-gymnasium",
+    "name": "乌鲁木齐奥林匹克体育中心综合体育馆",
+    "city": "乌鲁木齐",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/6a6dedf700000000060047e9",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/6a6dedf700000000060047e9",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a6dedf700000000060047e9",
+        "note": "实景两层大看台，中间包厢及下层横向通道不增加楼层。仅基础场馆；陈小春10月25日对应城市和场次仍待核。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://deco.cscec.com/xwzx/jyjb/202008/3162691.html",
+        "note": "中建装饰综合体育馆施工资料"
+      }
+    ],
+    "section_source": "https://www.xiaohongshu.com/explore/6a6dedf700000000060047e9",
+    "section_note": "实景两层大看台，中间包厢及下层横向通道不增加楼层。仅基础场馆；陈小春10月25日对应城市和场次仍待核。 基础区号为示意，专属场次保留票面区号。复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "los-angeles-kia-forum",
+    "name": "洛杉矶 Kia Forum",
+    "city": "洛杉矶",
+    "region": "美国",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/69bad892000000002302452b",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/69bad892000000002302452b",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/69bad892000000002302452b",
+        "note": "主办原图中央方形四面台、两层满环、无内场观众；票价以美元US$显示，原图无区号，用方位示意，不编区号。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://thekiaforum.com/event/rene-liu/",
+        "note": "Kia Forum刘若英官方演出页"
+      }
+    ],
+    "section_source": "https://www.xiaohongshu.com/explore/69bad892000000002302452b",
+    "section_note": "主办原图中央方形四面台、两层满环、无内场观众；票价以美元US$显示，原图无区号，用方位示意，不编区号。 基础区号为示意，专属场次保留票面区号。复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "los-angeles-the-novo",
+    "name": "洛杉矶 The Novo",
+    "city": "洛杉矶",
+    "region": "美国",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/69b93185000000002300517f",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/69b93185000000002300517f",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/69b93185000000002300517f",
+        "note": "平地站席和后方一片弧形抬高楼座；前黑后黄为同一坡台。暂无袁娅维本场分区图，仅基础预览，不把VIP Upgrade画成独立票区。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.thenovodtla.com/special-events/",
+        "note": "The Novo官方容量和楼座资料"
+      }
+    ],
+    "section_source": "https://www.xiaohongshu.com/explore/69b93185000000002300517f",
+    "section_note": "平地站席和后方一片弧形抬高楼座；前黑后黄为同一坡台。暂无袁娅维本场分区图，仅基础预览，不把VIP Upgrade画成独立票区。 基础区号为示意，专属场次保留票面区号。复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "sanya-egret-gymnasium",
+    "name": "三亚体育中心白鹭体育馆",
+    "city": "三亚",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/6ad2e625000000001803be3f",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/6ad2e625000000001803be3f",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6ad2e625000000001803be3f",
+        "note": "采用海南广电10月11日和后续出票图：4内场A1/A2/B1/B2，短矩形延伸；早期6内场版本废弃。上下两层，包厢不增加楼层。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://finance.sina.cn/2026-10-11/detail-iniuvxsm8859615.d.html",
+        "note": "海南广电最终演出票图"
+      }
+    ],
+    "section_source": "https://www.xiaohongshu.com/explore/6ad2e625000000001803be3f",
+    "section_note": "采用海南广电10月11日和后续出票图：4内场A1/A2/B1/B2，短矩形延伸；早期6内场版本废弃。上下两层，包厢不增加楼层。 基础区号为示意，专属场次保留票面区号。复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "yantai-bajiaowan-gymnasium",
+    "name": "烟台八角湾国际体育中心体育馆",
+    "city": "烟台",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/6a883b8300000000030294aa",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/6a883b8300000000030294aa",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a883b8300000000030294aa",
+        "note": "最终二开图与真实出票吻合：4VIP内场1680/1280，平直端台无延伸；200/400是两层普通看台，300包厢不是第三层。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a90f1040000000025010f33",
+        "note": "悠游黄渤海官方观演指南"
+      }
+    ],
+    "section_source": "https://www.xiaohongshu.com/explore/6a883b8300000000030294aa",
+    "section_note": "最终二开图与真实出票吻合：4VIP内场1680/1280，平直端台无延伸；200/400是两层普通看台，300包厢不是第三层。 基础区号为示意，专属场次保留票面区号。复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "chengdu-hightech-gymnasium",
+    "name": "成都高新体育中心多功能体育馆",
+    "city": "成都",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/69e1ef82000000001a02650f",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/69e1ef82000000001a02650f",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/69e1ef82000000001a02650f",
+        "note": "本场4VIP内场1680/1280、平直端台无延伸；真实上下两层中间包厢。反馈5月1日按官宣修正至5月2/3日，开演时间未充分核实留空。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.sina.cn/news/detail/5293764194602662.html",
+        "note": "成都地铁演出交通公告"
+      }
+    ],
+    "section_source": "https://www.xiaohongshu.com/explore/69e1ef82000000001a02650f",
+    "section_note": "本场4VIP内场1680/1280、平直端台无延伸；真实上下两层中间包厢。反馈5月1日按官宣修正至5月2/3日，开演时间未充分核实留空。 基础区号为示意，专属场次保留票面区号。复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "hangzhou-olympic-tennis-center",
+    "name": "杭州奥体中心网球中心",
+    "city": "杭州",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/6acf7241000000001303dbb0",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/6acf7241000000001303dbb0",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6acf7241000000001303dbb0",
+        "note": "端台无延伸，4内场均1380。蓝色下层前后通道两带为同一坡层，上层红色大看台；重复西4/东1区号注明前后部，不增加真实楼层。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.hangzhou2022.cn/paragames/ss/sscg/202204/t20220427_48101.shtml",
+        "note": "杭州亚残运会网球中心资料"
+      }
+    ],
+    "section_source": "https://www.xiaohongshu.com/explore/6acf7241000000001303dbb0",
+    "section_note": "端台无延伸，4内场均1380。蓝色下层前后通道两带为同一坡层，上层红色大看台；重复西4/东1区号注明前后部，不增加真实楼层。 基础区号为示意，专属场次保留票面区号。复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "xiamen-phoenix-gymnasium",
+    "name": "厦门奥林匹克体育中心凤凰体育馆",
+    "city": "厦门",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/6a671047000000001d00f3f1",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/6a671047000000001d00f3f1",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a671047000000001d00f3f1",
+        "note": "原票图中央方形四面台，左A1/A2前区、右B2/B1前区4块；A层前1720后1520，B层999/720/520带。两层大看台，中间包厢不另作第三层。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.sina.cn/news/detail/5325710123075439.html",
+        "note": "厦门文旅演出公告"
+      }
+    ],
+    "section_source": "https://www.xiaohongshu.com/explore/6a671047000000001d00f3f1",
+    "section_note": "原票图中央方形四面台，左A1/A2前区、右B2/B1前区4块；A层前1720后1520，B层999/720/520带。两层大看台，中间包厢不另作第三层。 基础区号为示意，专属场次保留票面区号。复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "kunming-tuodong-stadium",
+    "name": "昆明拓东体育场",
+    "city": "昆明",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/6ad9b1e900000000250079bb",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/6ad9b1e900000000250079bb",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6ad9b1e900000000250079bb",
+        "note": "官方确认11月28日演出，但尚无可靠本场座位图。成都参考图不借作昆明票图；现仅两层固定看台的基础场馆。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.kunming.cn/news/c/2026-05-08/14039212.shtml",
+        "note": "昆明信息港拓东改造实景"
+      }
+    ],
+    "section_source": "https://www.xiaohongshu.com/explore/6ad9b1e900000000250079bb",
+    "section_note": "官方确认11月28日演出，但尚无可靠本场座位图。成都参考图不借作昆明票图；现仅两层固定看台的基础场馆。 基础区号为示意，专属场次保留票面区号。复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "changsha-qicai-box-f",
+    "name": "湖南国际会展中心七彩盒子F厅",
+    "city": "长沙",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/6acdb2ab000000001c01fe18",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/6acdb2ab000000001c01fe18",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6acdb2ab000000001c01fe18",
+        "note": "官方票图六块平层席，L2池座加一个楼座；L3和L4仅同一楼座前后部，不增加物理楼层。G1至G10和G11至G13票价分别建图，不采用早鸟折扣价。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://news.17173.com/content/10122026/160407192.shtml",
+        "note": "KPL官方淘汰赛购票指南转载"
+      }
+    ],
+    "section_source": "https://www.xiaohongshu.com/explore/6acdb2ab000000001c01fe18",
+    "section_note": "官方票图六块平层席，L2池座加一个楼座；L3和L4仅同一楼座前后部，不增加物理楼层。G1至G10和G11至G13票价分别建图，不采用早鸟折扣价。 基础区号为示意，专属场次保留票面区号。复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "wuxi-olympic-stadium",
+    "name": "无锡奥体中心体育场",
+    "city": "无锡",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/6ad4d0d7000000001e034b61",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/6ad4d0d7000000001e034b61",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6ad4d0d7000000001e034b61",
+        "note": "新建六万人体育场，不是旧无锡体育中心；实景上下两层大看台。预约页确认演出但未取得可信官方票图，排除AI改图，仅收录基础场馆。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.sbp.de/zh-hans/project/无锡奥体中心/",
+        "note": "场馆设计方无锡奥体资料"
+      }
+    ],
+    "section_source": "https://www.xiaohongshu.com/explore/6ad4d0d7000000001e034b61",
+    "section_note": "新建六万人体育场，不是旧无锡体育中心；实景上下两层大看台。预约页确认演出但未取得可信官方票图，排除AI改图，仅收录基础场馆。 基础区号为示意，专属场次保留票面区号。复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "chongqing-huaxi-ecm-center",
+    "name": "重庆华熙生物·润百颜ECM中心",
+    "city": "重庆",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/68c37903000000001b01e542",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/68c37903000000001b01e542",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/68c37903000000001b01e542",
+        "note": "按官方交通通告及大麦图更正为2025年10月3日。中央四面台无内场观众。100、500、600是三层；600吊台仅三侧少量排，包厢不作普通看台层。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.cqnews.net/1/detail/1423653997445898240/web/content_1423653997445898240.html",
+        "note": "华龙网官方交通公告"
+      }
+    ],
+    "section_source": "https://www.xiaohongshu.com/explore/68c37903000000001b01e542",
+    "section_note": "按官方交通通告及大麦图更正为2025年10月3日。中央四面台无内场观众。100、500、600是三层；600吊台仅三侧少量排，包厢不作普通看台层。 基础区号为示意，专属场次保留票面区号。复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "paris-stade-de-france",
+    "name": "法兰西体育场",
+    "city": "巴黎",
+    "region": "法国",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/686debe4000000002400c4f0",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/686debe4000000002400c4f0",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/686debe4000000002400c4f0",
+        "note": "场馆官方2025票图与小红书交叉核对；空心三角形舞台包围PIT站区，其余地面分座席。三层固定看台；类别和票价不确定处保留示意，绝不把欧元标成人民币。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.stadefrance.com/fr/node?page=35",
+        "note": "法兰西体育场BLACKPINK2025官方票图"
+      }
+    ],
+    "section_source": "https://www.xiaohongshu.com/explore/686debe4000000002400c4f0",
+    "section_note": "场馆官方2025票图与小红书交叉核对；空心三角形舞台包围PIT站区，其余地面分座席。三层固定看台；类别和票价不确定处保留示意，绝不把欧元标成人民币。 基础区号为示意，专属场次保留票面区号。复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "linyi-olympic-park-stadium",
+    "name": "临沂奥体公园体育场",
+    "city": "临沂",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/6a8441e30000000026036ae9",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/6a8441e30000000026036ae9",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a8441e30000000026036ae9",
+        "note": "短圆头T台、A1至A4/B1至B4/C1/C2十内场；2层、3层、5层对应三层固定看台，包厢不增加层数，侧后受限票单列。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://wgxj.linyi.gov.cn/info/1003/75317.htm",
+        "note": "临沂文旅演出公告"
+      }
+    ],
+    "section_source": "https://www.xiaohongshu.com/explore/6a8441e30000000026036ae9",
+    "section_note": "短圆头T台、A1至A4/B1至B4/C1/C2十内场；2层、3层、5层对应三层固定看台，包厢不增加层数，侧后受限票单列。 基础区号为示意，专属场次保留票面区号。复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "wuhan-sports-center-gymnasium",
+    "name": "武汉体育中心体育馆",
+    "city": "武汉",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/6a4e458b00000000070288d2",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/6a4e458b00000000070288d2",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a4e458b00000000070288d2",
+        "note": "平直端台无延伸，四VIP内场。100/200为同一下层、400/500为同一上层；300夹层少排包厢只按局部面绘制，不多增完整环形看台。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://tyj.wuhan.gov.cn/zwgk_47/fdzdgknr/tjxx/cgtj/202004/t20200429_1187572.html",
+        "note": "武汉市体育局场馆资料"
+      }
+    ],
+    "section_source": "https://www.xiaohongshu.com/explore/6a4e458b00000000070288d2",
+    "section_note": "平直端台无延伸，四VIP内场。100/200为同一下层、400/500为同一上层；300夹层少排包厢只按局部面绘制，不多增完整环形看台。 基础区号为示意，专属场次保留票面区号。复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "baotou-olympic-stadium",
+    "name": "包头奥林匹克体育中心体育场",
+    "city": "包头",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/6a7b3a7f0000000025007841",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/6a7b3a7f0000000025007841",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a7b3a7f0000000025007841",
+        "note": "采用包头日报原图，排除小红书第二张重复编号的AI改图。12内场、短星形头延伸；下层全周，独立上层只在西侧202至208，东西侧非对称。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://finance.sina.com.cn/wm/2026-08-12/doc-inimzivt3726769.shtml",
+        "note": "包头日报官方演出票图"
+      }
+    ],
+    "section_source": "https://www.xiaohongshu.com/explore/6a7b3a7f0000000025007841",
+    "section_note": "采用包头日报原图，排除小红书第二张重复编号的AI改图。12内场、短星形头延伸；下层全周，独立上层只在西侧202至208，东西侧非对称。 基础区号为示意，专属场次保留票面区号。复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "baotou-olympic-gymnasium",
+    "name": "包头奥林匹克体育中心体育馆",
+    "city": "包头",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.nfty.com.cn/index.php?a=index&aid=712&c=View&m=home",
+    "map_reference_url": "https://www.nfty.com.cn/index.php?a=index&aid=712&c=View&m=home",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.nfty.com.cn/index.php?a=index&aid=712&c=View&m=home",
+        "note": "官方体育局及建设方确认6055座蒙古包造型主馆，两层固定看台。小红书同名新羽毛球中心并非本馆，已排除；采用施工方本馆实景建模，无可靠专属演出票图。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.nfty.com.cn/index.php?a=index&aid=712&c=View&m=home",
+        "note": "建设方包头奥体体育馆实景"
+      }
+    ],
+    "section_source": "https://www.nfty.com.cn/index.php?a=index&aid=712&c=View&m=home",
+    "section_note": "官方体育局及建设方确认6055座蒙古包造型主馆，两层固定看台。小红书同名新羽毛球中心并非本馆，已排除；采用施工方本馆实景建模，无可靠专属演出票图。 基础区号为示意，专属场次保留票面区号。复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "fuzhou-strait-olympic-stadium",
+    "name": "福州海峡奥林匹克体育中心体育场",
+    "city": "福州",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/6a55cb730000000022014ffb",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/6a55cb730000000022014ffb",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a55cb730000000022014ffb",
+        "note": "原始大麦出票图确认16内场、长延伸台和阶梯心形头，2层固定看台；纠正反馈体育馆为体育场，排除AI生成视角和改图。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.sina.cn/news/detail/5305330637472281.html",
+        "note": "凤凰传奇工作室官宣"
+      }
+    ],
+    "section_source": "https://www.xiaohongshu.com/explore/6a55cb730000000022014ffb",
+    "section_note": "原始大麦出票图确认16内场、长延伸台和阶梯心形头，2层固定看台；纠正反馈体育馆为体育场，排除AI生成视角和改图。 基础区号为示意，专属场次保留票面区号。复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "shaoxing-olympic-gymnasium",
+    "name": "绍兴奥体中心阿里巴巴文娱体育馆",
+    "city": "绍兴",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/688ef68600000000250214da",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/688ef68600000000250214da",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/688ef68600000000250214da",
+        "note": "建筑方平面图及小红书现场照片确认单一连续看台，中间通道不另算楼层。2025年8月3日张峻豪票区图仍待核验，本次先提供基础场馆，不编造本场票区。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.gooood.cn/shaoxing-olympic-sports-center-china-aviation-planning-and-design-institute.htm",
+        "note": "中国航空规划设计研究总院提供的建筑图与实景"
+      }
+    ],
+    "section_source": "https://www.xiaohongshu.com/explore/688ef68600000000250214da",
+    "section_note": "建筑方平面图及小红书现场照片确认单一连续看台，中间通道不另算楼层。2025年8月3日张峻豪票区图仍待核验，本次先提供基础场馆，不编造本场票区。 基础区号为示意，专属场次保留票面区号。复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "guigang-sports-center-stadium",
+    "name": "贵港市体育中心体育场",
+    "city": "贵港",
+    "region": "中国内地",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/66a24373000000000d00c4ed",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/66a24373000000000d00c4ed",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/66a24373000000000d00c4ed",
+        "note": "主办票图和贵港日报确认日期为2024年8月3日，纠正提交年份2021。16内场与短方头T台，上层仅两条长边，下层连续看台。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.ggnews.com.cn/news/yaowen/2024-08-11/88747.html",
+        "note": "贵港日报港人港夜演出报道"
+      }
+    ],
+    "section_source": "https://www.xiaohongshu.com/explore/66a24373000000000d00c4ed",
+    "section_note": "主办票图和贵港日报确认日期为2024年8月3日，纠正提交年份2021。16内场与短方头T台，上层仅两条长边，下层连续看台。 基础区号为示意，专属场次保留票面区号。复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "melbourne-rod-laver-arena",
+    "name": "墨尔本罗德·拉沃尔竞技场",
+    "city": "墨尔本",
+    "region": "澳大利亚",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/6847ff02000000002102db9e",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/6847ff02000000002102db9e",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/6847ff02000000002102db9e",
+        "note": "澳网官方座位图与小红书售票页面核对上下两层固定看台。用户未指定演出；不将其他演出舞台套用为默认正式图，保留基础预览。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.tennis.com.au/doc/ao-rla-map",
+        "note": "澳大利亚网球协会官方座位图"
+      }
+    ],
+    "section_source": "https://www.xiaohongshu.com/explore/6847ff02000000002102db9e",
+    "section_note": "澳网官方座位图与小红书售票页面核对上下两层固定看台。用户未指定演出；不将其他演出舞台套用为默认正式图，保留基础预览。 基础区号为示意，专属场次保留票面区号。复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "singapore-mediacorp-theatre",
+    "name": "新加坡新传媒剧院",
+    "city": "新加坡",
+    "region": "新加坡",
+    "venue_reference_url": "https://www.xiaohongshu.com/explore/67c2bacb0000000029029f00",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/67c2bacb0000000029029f00",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.xiaohongshu.com/explore/67c2bacb0000000029029f00",
+        "note": "主办方原图与小红书实景核对：Lower/Upper Stalls同一池座楼层，Circle 1/2为独立两层楼座。保留坡度与控台空位，SGD票价不显示为人民币。 复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。"
+      },
+      {
+        "url": "https://www.mediacorp.sg/business/production-venue/resources-event-venues/theatre",
+        "note": "新传媒官方剧院资料"
+      }
+    ],
+    "section_source": "https://www.xiaohongshu.com/explore/67c2bacb0000000029029f00",
+    "section_note": "主办方原图与小红书实景核对：Lower/Upper Stalls同一池座楼层，Circle 1/2为独立两层楼座。保留坡度与控台空位，SGD票价不显示为人民币。 基础区号为示意，专属场次保留票面区号。复用现有VM-02绘制方式；尺寸、坡度、层高与排座为估算，不是逐座实测。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "london-the-o2",
+    "name": "伦敦 The O2 体育馆",
+    "city": "伦敦",
+    "region": "英国",
+    "venue_reference_url": "https://www.theo2.co.uk/events/detail/aespa-2027",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/6aca60e1000000001c02f259",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.theo2.co.uk/events/detail/aespa-2027",
+        "note": "上下两层公众看台分别为Level 1/4，中间包厢不当作两层完整公众看台；18:30仅为开门时间，开演时间待确认。 尺寸、层高、坡度和排座为估算，以现场为准；原币票价不写成人民币。"
+      },
+      {
+        "url": "https://www.xiaohongshu.com/explore/6aca60e1000000001c02f259",
+        "note": "小红书公开原票图／实景交叉核对。"
+      }
+    ],
+    "section_source": "https://www.xiaohongshu.com/explore/6aca60e1000000001c02f259",
+    "section_note": "上下两层公众看台分别为Level 1/4，中间包厢不当作两层完整公众看台；18:30仅为开门时间，开演时间待确认。 尺寸、层高、坡度和排座为估算，以现场为准；原币票价不写成人民币。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "singapore-arena-expo",
+    "name": "新加坡 Arena @ EXPO",
+    "city": "新加坡",
+    "region": "新加坡",
+    "venue_reference_url": "https://www.instagram.com/p/DPQsQyFkva0/",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/67dacd82000000000d014829",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.instagram.com/p/DPQsQyFkva0/",
+        "note": "展厅内可变座席系统，不建永久环形看台。按本场主办票图还原五个前方座块及三个后块；本场临时台阶高度未核实，当前按同层示意，不由透视图块厚度推断高度。 尺寸、层高、坡度和排座为估算，以现场为准；原币票价不写成人民币。"
+      },
+      {
+        "url": "https://www.xiaohongshu.com/explore/67dacd82000000000d014829",
+        "note": "小红书公开原票图／实景交叉核对。"
+      }
+    ],
+    "section_source": "https://www.xiaohongshu.com/explore/67dacd82000000000d014829",
+    "section_note": "展厅内可变座席系统，不建永久环形看台。按本场主办票图还原五个前方座块及三个后块；本场临时台阶高度未核实，当前按同层示意，不由透视图块厚度推断高度。 尺寸、层高、坡度和排座为估算，以现场为准；原币票价不写成人民币。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "singapore-capitol-theatre",
+    "name": "新加坡首都剧院 Capitol Theatre",
+    "city": "新加坡",
+    "region": "新加坡",
+    "venue_reference_url": "https://www.instagram.com/p/DOhv_uOCa3T/",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/69ada6f8000000001b017687",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.instagram.com/p/DOhv_uOCa3T/",
+        "note": "官方内景确认池座及单层挑台；本场楼下VIP/CAT1站席，楼上CAT1/CAT2坐席。不得混同悉尼同名剧院。 尺寸、层高、坡度和排座为估算，以现场为准；原币票价不写成人民币。"
+      },
+      {
+        "url": "https://www.xiaohongshu.com/explore/69ada6f8000000001b017687",
+        "note": "小红书公开原票图／实景交叉核对。"
+      }
+    ],
+    "section_source": "https://www.xiaohongshu.com/explore/69ada6f8000000001b017687",
+    "section_note": "官方内景确认池座及单层挑台；本场楼下VIP/CAT1站席，楼上CAT1/CAT2坐席。不得混同悉尼同名剧院。 尺寸、层高、坡度和排座为估算，以现场为准；原币票价不写成人民币。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  },
+  {
+    "id": "singapore-sands-grand-ballroom",
+    "name": "新加坡金沙会展中心五楼大宴会厅",
+    "city": "新加坡",
+    "region": "新加坡",
+    "venue_reference_url": "https://www.instagram.com/p/DZ9FXZjDimO/",
+    "map_reference_url": "https://www.xiaohongshu.com/explore/6a3b592f000000000602189b",
+    "geometry_evidence_label": "reference",
+    "geometry_sources": [
+      {
+        "url": "https://www.instagram.com/p/DZ9FXZjDimO/",
+        "note": "官方海报与小红书本场票图核对。101—107/201—205是座块编号，并非永久楼层；未核实的临时台阶高度按同层示意，不能套用金沙剧院。 尺寸、层高、坡度和排座为估算，以现场为准；原币票价不写成人民币。"
+      },
+      {
+        "url": "https://www.xiaohongshu.com/explore/6a3b592f000000000602189b",
+        "note": "小红书公开原票图／实景交叉核对。"
+      }
+    ],
+    "section_source": "https://www.xiaohongshu.com/explore/6a3b592f000000000602189b",
+    "section_note": "官方海报与小红书本场票图核对。101—107/201—205是座块编号，并非永久楼层；未核实的临时台阶高度按同层示意，不能套用金沙剧院。 尺寸、层高、坡度和排座为估算，以现场为准；原币票价不写成人民币。",
+    "static_seat_asset_url": null,
+    "static_seat_asset_local_path": null,
+    "static_seat_asset_sha256": null,
+    "note": "Missing asset URL does not establish absence of generated seat geometry."
+  }
+]

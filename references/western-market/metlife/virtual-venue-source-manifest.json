@@ -1,0 +1,61 @@
+{
+  "retrieved": "2026-10-24",
+  "officialChain": "Jets pricing page → Virtual Venue link → web/index.html → clientConfig.js → confignew.json → venueLayers area maps",
+  "successfulDownloads": [
+    {
+      "file": "virtual-venue-entry.html",
+      "url": "https://newyorkjets.io-media.com/",
+      "bytes": 2567,
+      "sha256": "0d0e746ca39217ab30176c436840d6e020b94bc2bd6f67271b399f81169b0336"
+    },
+    {
+      "file": "virtual-venue-index.html",
+      "url": "https://newyorkjets.io-media.com/web/index.html",
+      "bytes": 42562,
+      "sha256": "6d439f0afdea355d228f4b2635c74a6e7ff4f1ee7ce3a49ba9f7b33a44904575"
+    },
+    {
+      "file": "virtual-venue-clientConfig.js",
+      "url": "https://newyorkjets.io-media.com/web/clientConfig.js",
+      "bytes": 5692,
+      "sha256": "213123f3a6d15f12b690fddf106c350eaba944b5f28f4adfeccd802bab61c708"
+    },
+    {
+      "file": "virtual-venue-public-config.json",
+      "url": "https://newyorkjets.io-media.com/web/confignew.json",
+      "bytes": 837032,
+      "sha256": "8514d4131902760851bb56cb0a9cb052467d3b06e30ea1bf5a34c56e5683ceb2"
+    },
+    {
+      "file": "virtual-venue-FullStadium-map.json",
+      "url": "https://newyorkjets.io-media.com/media/venueview/models/FullStadium.json",
+      "bytes": 441865,
+      "sha256": "ae52e58f84e5d3dd6251285317737d8747e7a2dac5a64702fa6bf3f651cc46e5"
+    },
+    {
+      "file": "virtual-venue-LevelLower-map.json",
+      "url": "https://newyorkjets.io-media.com/media/venueview/models/LevelLower.json",
+      "bytes": 147269,
+      "sha256": "8791e680abbbc71ad8fab1c622b64249940befa1a51417d9e2a56e3128b4ab7d"
+    },
+    {
+      "file": "virtual-venue-LevelSuite-map.json",
+      "url": "https://newyorkjets.io-media.com/media/venueview/models/LevelSuite.json",
+      "bytes": 112487,
+      "sha256": "81053ee83f30f87799ddb6097c21470ee25883c3a917cb834d025c31df2df7b8"
+    },
+    {
+      "file": "virtual-venue-LevelSuiteLower-map.json",
+      "url": "https://newyorkjets.io-media.com/media/venueview/models/LevelSuiteLower.json",
+      "bytes": 51905,
+      "sha256": "e9f4cd9c773ec40b1b992d3d3b43ea054c051505e567ffd38aa74f48726cdd64"
+    },
+    {
+      "file": "virtual-venue-LevelUpper-map.json",
+      "url": "https://newyorkjets.io-media.com/media/venueview/models/LevelUpper.json",
+      "bytes": 272257,
+      "sha256": "4cd956d574a7e9031847bbc57f28a71e2a74de400697bb6cc4fb2a1c8460b59f"
+    }
+  ],
+  "license": "No open commercial reuse license established; no panorama/image library downloaded"
+}

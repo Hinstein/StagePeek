@@ -1,0 +1,21 @@
+{
+  "source": "https://resources.thfc.pulselive.com/thfc/document/2026/08/13/dcd3483a-2f97-41cb-8ea6-198c65a8c634/THFC-2627-Official-Category-B-Pricing-Map-94-.pdf",
+  "retrieved": "2026-10-23",
+  "bytes": 304121,
+  "sha256": "52ec10202896878a9b5d5a7c5d9ff532d7b891780b97bcb3c5d408d6a54cfb0c",
+  "notes": "Official 2026/27 Category B match-ticket pricing map; includes block labels. Public visual reference; no reuse license inferred.",
+  "files": {
+    "THFC-2627-Category-A-map.pdf": {
+      "bytes": 278373,
+      "sha256": "730abe1d043b81a01dc00e5fbc6aabe28fc82c8658df1dc939ae7e7f6d9a5fed"
+    },
+    "THFC-2627-Category-B-map.pdf": {
+      "bytes": 304121,
+      "sha256": "52ec10202896878a9b5d5a7c5d9ff532d7b891780b97bcb3c5d408d6a54cfb0c"
+    },
+    "THFC-2627-Category-C-map.pdf": {
+      "bytes": 270963,
+      "sha256": "223804a72c71c23d336ca2df58c0cf6e94015817250f656163f75accb9629d3c"
+    }
+  }
+}

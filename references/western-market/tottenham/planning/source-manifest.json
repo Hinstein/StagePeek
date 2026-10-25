@@ -1,0 +1,191 @@
+{
+  "retrievedDate": "2026-10-24",
+  "applicationReference": "HGY/2015/3000",
+  "applicationUrl": "https://publicregister.haringey.gov.uk/pr/s/planning-application/a0i8d000002GB1NAAW/hgy20153000?c__r=Arcus_BE_Public_Register",
+  "discoveryMethod": "Browser public Files tab, section and Stadium keyword filters. No login. Followed actual published links.",
+  "publicAccessDoesNotGrantReuseLicense": true,
+  "files": [
+    {
+      "file": "POP-4494-PLN-SC-0183-east-stand.pdf",
+      "sourceUrl": "https://publicregister.haringey.gov.uk/pr/sfc/servlet.shepherd/version/download/0688d000008j38lAAA",
+      "titleAsListed": "POP-4494-PLN-SC-0183 Stadium East Stand Section",
+      "dateAsListed": "24/9/2015",
+      "bytes": 1809570,
+      "sha256": "22dee055e8d26f6ed36d25a95d7e04ccf82fbe06c221136b8658116dcaab1f59",
+      "pages": 1,
+      "scaleAsPrinted": "1:200 @ A1",
+      "status": "PLANNING, 18/09/2015, revision 0",
+      "verifiedVisually": true
+    },
+    {
+      "file": "POP-4494-PLN-SC-0185-south-stand.pdf",
+      "sourceUrl": "https://publicregister.haringey.gov.uk/pr/sfc/servlet.shepherd/version/download/0688d000008j3dQAAQ",
+      "titleAsListed": "POP-4494-PLN-SC-0185 Stadium South Stand Section",
+      "dateAsListed": "24/9/2015",
+      "bytes": 7374850,
+      "sha256": "f99dabdfda8f92b24f5374918c591cbfceb366a7f77d3137a6588733155eedcc",
+      "pages": 1,
+      "scaleAsPrinted": "1:200 @ A1",
+      "status": "PLANNING, 18/09/2015, revision 0",
+      "verifiedVisually": true
+    },
+    {
+      "file": "POP-4494-PLN-SC-0180-sections-a-b.pdf",
+      "sourceUrl": "https://publicregister.haringey.gov.uk/pr/sfc/servlet.shepherd/version/download/0688d000008j285AAA",
+      "titleAsListed": "POP-4494-PLN-SC-0180 Stadium Section A-A & B-B",
+      "dateAsListed": "24/9/2015",
+      "bytes": 2237187,
+      "sha256": "3e783d974a60c00e4744bf17cc49b1834ee99704d8aea561dbf0f33c21d9e37d",
+      "pages": 1,
+      "scaleAsPrinted": "1:500 @ A1",
+      "status": "PLANNING, 18/09/2015, revision 0",
+      "verifiedVisually": true
+    },
+    {
+      "file": "POP-4494-PLN-GA-0155-level05.pdf",
+      "sourceUrl": "https://publicregister.haringey.gov.uk/pr/sfc/servlet.shepherd/version/download/0688d000008j3fCAAQ",
+      "titleAsListed": "POP-4494-PLN-GA-0155 Stadium Level 05 General Arrangement",
+      "dateAsListed": "24/9/2015",
+      "bytes": 4044139,
+      "sha256": "2387a81f230dd8b1aa65adedd57b11586f8a1b5de159e5d9df346b68c2f8f326",
+      "pages": 1,
+      "scaleAsPrinted": "1:500 @ A1",
+      "status": "PLANNING, 18/09/2015, revision 0",
+      "verifiedVisually": true
+    },
+    {
+      "file": "DA-07-stadium-design-part1.pdf",
+      "sourceUrl": "https://publicregister.haringey.gov.uk/pr/sfc/servlet.shepherd/version/download/0688d000008j2wmAAA",
+      "titleAsListed": "D&A 07 - STADIUM DESIGN_Part1",
+      "dateAsListed": "24/9/2015",
+      "bytes": 33170,
+      "sha256": "d01a84de4c932e78ff59b3fbe4a8d8aded3f49f29eb35706aa77dfb46df96609",
+      "pages": 1,
+      "scaleAsPrinted": null,
+      "status": "2015 Design and Access Statement excerpt",
+      "verifiedVisually": false
+    },
+    {
+      "file": "DA-07-stadium-design-part2.pdf",
+      "sourceUrl": "https://publicregister.haringey.gov.uk/pr/sfc/servlet.shepherd/version/download/0688d000008j3AGAAY",
+      "titleAsListed": "D&A 07 - STADIUM DESIGN_Part2",
+      "dateAsListed": "24/9/2015",
+      "bytes": 9666301,
+      "sha256": "300c4038b8dd77ac39697717b2029df4b933ac7ea0248dc1d95938981491631d",
+      "pages": 1,
+      "scaleAsPrinted": null,
+      "status": "2015 Design and Access Statement excerpt",
+      "verifiedVisually": true
+    }
+  ],
+  "derivedArtifacts": [
+    {
+      "file": "DA-07-stadium-design-part1-page-1.png",
+      "sha256": "1414c4e0a49cb85687c16bd044b97e584de58efc635052163bde2b199b9129ea",
+      "bytes": 20458,
+      "description": "Local PDF rendering/text or DOM-visible document listing; not original source asset."
+    },
+    {
+      "file": "DA-07-stadium-design-part2-page-1.png",
+      "sha256": "e0cddefde456e9a8ed7d715496144e679a6fe97f4e6283cf0301d82a95f20337",
+      "bytes": 5194263,
+      "description": "Local PDF rendering/text or DOM-visible document listing; not original source asset."
+    },
+    {
+      "file": "DA-07-stadium-design-part2.txt",
+      "sha256": "491820cad9a939a143548c366d0e5e485bd4b6e6dfe30fc1cc08e6860aeeb84b",
+      "bytes": 69,
+      "description": "Local PDF rendering/text or DOM-visible document listing; not original source asset."
+    },
+    {
+      "file": "POP-4494-PLN-GA-0155-level05-page-1.png",
+      "sha256": "5b54f31c13919a4b1ceb6ead9e1c8f89fcc30dfb3ef5539b8f0299f0a0eeebf2",
+      "bytes": 962634,
+      "description": "Local PDF rendering/text or DOM-visible document listing; not original source asset."
+    },
+    {
+      "file": "POP-4494-PLN-GA-0155-level05.txt",
+      "sha256": "1c6be6d7559f3432d014ea5479944803e25d4dbced62c8a29387a26bcdc99bba",
+      "bytes": 2175,
+      "description": "Local PDF rendering/text or DOM-visible document listing; not original source asset."
+    },
+    {
+      "file": "POP-4494-PLN-SC-0180-sections-a-b-page-1.png",
+      "sha256": "b77086422b9b5f6c33bf6405492d51db4d7555e33adbcd02da76897fa2b579e5",
+      "bytes": 1125529,
+      "description": "Local PDF rendering/text or DOM-visible document listing; not original source asset."
+    },
+    {
+      "file": "POP-4494-PLN-SC-0180-sections-a-b-page-1.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "description": "Local PDF rendering/text or DOM-visible document listing; not original source asset."
+    },
+    {
+      "file": "POP-4494-PLN-SC-0183-east-stand-page-1.png",
+      "sha256": "fbc9224cac84a8d1512d8962c7af169e58f38aaecc4928327e31402dff0eff26",
+      "bytes": 937685,
+      "description": "Local PDF rendering/text or DOM-visible document listing; not original source asset."
+    },
+    {
+      "file": "POP-4494-PLN-SC-0183-east-stand-page-1.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "description": "Local PDF rendering/text or DOM-visible document listing; not original source asset."
+    },
+    {
+      "file": "POP-4494-PLN-SC-0185-south-stand-page-1.png",
+      "sha256": "2f6ce3dd281854b0d1296a979c1cb3e11697129ed31e250045d7a364061081cd",
+      "bytes": 1034457,
+      "description": "Local PDF rendering/text or DOM-visible document listing; not original source asset."
+    },
+    {
+      "file": "POP-4494-PLN-SC-0185-south-stand-page-1.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "description": "Local PDF rendering/text or DOM-visible document listing; not original source asset."
+    },
+    {
+      "file": "east-stand-levels-title-detail.png",
+      "sha256": "8cf0e99e650ea68517a1ad58ecd58d90967d7801bc5a082676992a908a3309f1",
+      "bytes": 261357,
+      "description": "Local PDF rendering/text or DOM-visible document listing; not original source asset."
+    },
+    {
+      "file": "east-stand-pitch-datum-detail.png",
+      "sha256": "66f66afe3c3803a17e046d1c2f40dfa2aef79e4c46d0b9d416c932434e6f855a",
+      "bytes": 57077,
+      "description": "Local PDF rendering/text or DOM-visible document listing; not original source asset."
+    },
+    {
+      "file": "section-search-page1.json",
+      "sha256": "a6fbecc6fc161e93161e65a4ec9bb3f4b36662e12a8a14055c2d4a8c0d66f3f0",
+      "bytes": 7526,
+      "description": "Local PDF rendering/text or DOM-visible document listing; not original source asset."
+    },
+    {
+      "file": "section-search-page2.json",
+      "sha256": "bbb90bd12ba5568c10de6898a0bc2868f04c821deb646bfa69600ce7b7923f79",
+      "bytes": 4168,
+      "description": "Local PDF rendering/text or DOM-visible document listing; not original source asset."
+    },
+    {
+      "file": "stadium-search-page1.json",
+      "sha256": "0ca727ec59117a7f3c37e3cd85aa5c47f72f52cfff0c698723fe2e7f3e922edd",
+      "bytes": 7066,
+      "description": "Local PDF rendering/text or DOM-visible document listing; not original source asset."
+    },
+    {
+      "file": "stadium-search-page2.json",
+      "sha256": "00c403a539f5de5447241b811ca1bdb3039971c493e5cc0d2cbab7bd4e82eeb2",
+      "bytes": 7644,
+      "description": "Local PDF rendering/text or DOM-visible document listing; not original source asset."
+    },
+    {
+      "file": "east-stand-levels-transcribed.json",
+      "sha256": "08c389db651d3fecf5b12cd401277c6908d5e4b27a9e02fe0c5e8dcac0ad0173",
+      "bytes": 2842,
+      "description": "Manual visual transcription; explicitly uncalibrated and datum unconfirmed."
+    }
+  ]
+}

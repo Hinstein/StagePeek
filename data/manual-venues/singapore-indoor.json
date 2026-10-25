@@ -1,0 +1,1231 @@
+{
+  "id": "singapore-indoor",
+  "name": "新加坡室内体育馆",
+  "city": "新加坡 · 新加坡",
+  "capacity": "原站目录未提供统一容量字段",
+  "source": "https://www.sportshub.com.sg/events/twice-world-tour-singapore",
+  "sourceTitle": "REA 导出的公开场馆来源索引与参数化座位示意",
+  "sourceLinks": [
+    "https://www.sportshub.com.sg/events/twice-world-tour-singapore",
+    "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+  ],
+  "accuracy": {
+    "sectionLabels": "source-layout-reference",
+    "completeSeatInventory": false,
+    "metricCalibrated": false,
+    "stage": "generic",
+    "position": "estimated",
+    "geometryBasis": "source-informed-parametric:plan",
+    "catalogStatus": "source-geometry-and-sections",
+    "seatDataStatus": "section-only",
+    "sourceLayout": "center",
+    "coverage": "68 个来源分区；0 条座位采样。区号来自公开布局参考。",
+    "reuse": "来源页面可公开访问；未建立商业图形、模型或座位数据库再分发许可，发布前需逐源复核。",
+    "sourceDate": "REA capture 2026-10-24",
+    "sourceInventory": {
+      "venueReferenceUrl": "https://www.sportshub.com.sg/events/twice-world-tour-singapore",
+      "mapReferenceUrl": null,
+      "sectionSource": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf",
+      "geometryEvidenceLabel": "plan",
+      "note": "Missing asset URL does not establish absence of generated seat geometry."
+    },
+    "seatAsset": null
+  },
+  "tiers": [
+    [
+      22,
+      32,
+      1,
+      17,
+      8
+    ],
+    [
+      33,
+      43,
+      13,
+      16,
+      11
+    ]
+  ],
+  "geometry": {
+    "shape": "rounded",
+    "coordinateSystem": "profile-inner-radius",
+    "power": 0.48,
+    "oneSided": false,
+    "floor": [
+      40,
+      60
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "Terrace",
+        "steps": 23
+      },
+      {
+        "id": "middle",
+        "name": "Balcony",
+        "steps": 23
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "201",
+      "ticketLabels": [
+        "201"
+      ],
+      "sourceLabel": "201 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.5707963267948966,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "202",
+      "ticketLabels": [
+        "202"
+      ],
+      "sourceLabel": "202 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.413716694115407,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "203",
+      "ticketLabels": [
+        "203"
+      ],
+      "sourceLabel": "203 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.2566370614359172,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "204",
+      "ticketLabels": [
+        "204"
+      ],
+      "sourceLabel": "204 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.0995574287564276,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "205",
+      "ticketLabels": [
+        "205"
+      ],
+      "sourceLabel": "205 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.9424777960769379,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "206",
+      "ticketLabels": [
+        "206"
+      ],
+      "sourceLabel": "206 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.7853981633974483,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "207",
+      "ticketLabels": [
+        "207"
+      ],
+      "sourceLabel": "207 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.6283185307179586,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "208",
+      "ticketLabels": [
+        "208"
+      ],
+      "sourceLabel": "208 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.47123889803846897,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "209",
+      "ticketLabels": [
+        "209"
+      ],
+      "sourceLabel": "209 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.3141592653589793,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "210",
+      "ticketLabels": [
+        "210"
+      ],
+      "sourceLabel": "210 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.15707963267948966,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "211",
+      "ticketLabels": [
+        "211"
+      ],
+      "sourceLabel": "211 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "212",
+      "ticketLabels": [
+        "212"
+      ],
+      "sourceLabel": "212 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.15707963267948966,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "213",
+      "ticketLabels": [
+        "213"
+      ],
+      "sourceLabel": "213 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.3141592653589793,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "214",
+      "ticketLabels": [
+        "214"
+      ],
+      "sourceLabel": "214 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.47123889803846897,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "215",
+      "ticketLabels": [
+        "215"
+      ],
+      "sourceLabel": "215 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.6283185307179586,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "216",
+      "ticketLabels": [
+        "216"
+      ],
+      "sourceLabel": "216 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.7853981633974483,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "217",
+      "ticketLabels": [
+        "217"
+      ],
+      "sourceLabel": "217 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.9424777960769379,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "218",
+      "ticketLabels": [
+        "218"
+      ],
+      "sourceLabel": "218 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.0995574287564276,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "219",
+      "ticketLabels": [
+        "219"
+      ],
+      "sourceLabel": "219 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.2566370614359172,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "220",
+      "ticketLabels": [
+        "220"
+      ],
+      "sourceLabel": "220 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.413716694115407,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "221",
+      "ticketLabels": [
+        "221"
+      ],
+      "sourceLabel": "221 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.5707963267948966,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "222",
+      "ticketLabels": [
+        "222"
+      ],
+      "sourceLabel": "222 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.7278759594743864,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "223",
+      "ticketLabels": [
+        "223"
+      ],
+      "sourceLabel": "223 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.8849555921538759,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "224",
+      "ticketLabels": [
+        "224"
+      ],
+      "sourceLabel": "224 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.0420352248333655,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "225",
+      "ticketLabels": [
+        "225"
+      ],
+      "sourceLabel": "225 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.199114857512855,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "226",
+      "ticketLabels": [
+        "226"
+      ],
+      "sourceLabel": "226 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.356194490192345,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "227",
+      "ticketLabels": [
+        "227"
+      ],
+      "sourceLabel": "227 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.5132741228718345,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "228",
+      "ticketLabels": [
+        "228"
+      ],
+      "sourceLabel": "228 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.670353755551324,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "229",
+      "ticketLabels": [
+        "229"
+      ],
+      "sourceLabel": "229 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.827433388230814,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "230",
+      "ticketLabels": [
+        "230"
+      ],
+      "sourceLabel": "230 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.9845130209103035,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "231",
+      "ticketLabels": [
+        "231"
+      ],
+      "sourceLabel": "231 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "232",
+      "ticketLabels": [
+        "232"
+      ],
+      "sourceLabel": "232 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.2986722862692828,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "233",
+      "ticketLabels": [
+        "233"
+      ],
+      "sourceLabel": "233 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.455751918948773,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "234",
+      "ticketLabels": [
+        "234"
+      ],
+      "sourceLabel": "234 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.6128315516282616,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "235",
+      "ticketLabels": [
+        "235"
+      ],
+      "sourceLabel": "235 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.7699111843077517,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "236",
+      "ticketLabels": [
+        "236"
+      ],
+      "sourceLabel": "236 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.9269908169872414,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "237",
+      "ticketLabels": [
+        "237"
+      ],
+      "sourceLabel": "237 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 4.084070449666731,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "238",
+      "ticketLabels": [
+        "238"
+      ],
+      "sourceLabel": "238 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 4.241150082346221,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "239",
+      "ticketLabels": [
+        "239"
+      ],
+      "sourceLabel": "239 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 4.39822971502571,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "240",
+      "ticketLabels": [
+        "240"
+      ],
+      "sourceLabel": "240 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 4.5553093477052,
+      "halfAngle": 0.06911503837897545,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "301",
+      "ticketLabels": [
+        "301"
+      ],
+      "sourceLabel": "301 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.5707963267948966,
+      "halfAngle": 0.05,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "302",
+      "ticketLabels": [
+        "302"
+      ],
+      "sourceLabel": "302 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.3089969389957472,
+      "halfAngle": 0.11519173063162574,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "303",
+      "ticketLabels": [
+        "303"
+      ],
+      "sourceLabel": "303 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.0471975511965976,
+      "halfAngle": 0.11519173063162574,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "304",
+      "ticketLabels": [
+        "304"
+      ],
+      "sourceLabel": "304 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.7853981633974483,
+      "halfAngle": 0.11519173063162574,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "308",
+      "ticketLabels": [
+        "308"
+      ],
+      "sourceLabel": "308 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.5235987755982988,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "309",
+      "ticketLabels": [
+        "309"
+      ],
+      "sourceLabel": "309 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.3490658503988659,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "310",
+      "ticketLabels": [
+        "310"
+      ],
+      "sourceLabel": "310 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.17453292519943295,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "311",
+      "ticketLabels": [
+        "311"
+      ],
+      "sourceLabel": "311 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "312",
+      "ticketLabels": [
+        "312"
+      ],
+      "sourceLabel": "312 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.17453292519943295,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "313",
+      "ticketLabels": [
+        "313"
+      ],
+      "sourceLabel": "313 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.3490658503988659,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "314",
+      "ticketLabels": [
+        "314"
+      ],
+      "sourceLabel": "314 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.5235987755982988,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "318",
+      "ticketLabels": [
+        "318"
+      ],
+      "sourceLabel": "318 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.0471975511965976,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "319",
+      "ticketLabels": [
+        "319"
+      ],
+      "sourceLabel": "319 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.2217304763960306,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "320",
+      "ticketLabels": [
+        "320"
+      ],
+      "sourceLabel": "320 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.3962634015954636,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "321",
+      "ticketLabels": [
+        "321"
+      ],
+      "sourceLabel": "321 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.5707963267948966,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "322",
+      "ticketLabels": [
+        "322"
+      ],
+      "sourceLabel": "322 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.7453292519943295,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "323",
+      "ticketLabels": [
+        "323"
+      ],
+      "sourceLabel": "323 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.9198621771937625,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "324",
+      "ticketLabels": [
+        "324"
+      ],
+      "sourceLabel": "324 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.0943951023931953,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "328",
+      "ticketLabels": [
+        "328"
+      ],
+      "sourceLabel": "328 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.6179938779914944,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "329",
+      "ticketLabels": [
+        "329"
+      ],
+      "sourceLabel": "329 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.792526803190927,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "330",
+      "ticketLabels": [
+        "330"
+      ],
+      "sourceLabel": "330 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.9670597283903604,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "331",
+      "ticketLabels": [
+        "331"
+      ],
+      "sourceLabel": "331 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "332",
+      "ticketLabels": [
+        "332"
+      ],
+      "sourceLabel": "332 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.3161255787892263,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "333",
+      "ticketLabels": [
+        "333"
+      ],
+      "sourceLabel": "333 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.490658503988659,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "334",
+      "ticketLabels": [
+        "334"
+      ],
+      "sourceLabel": "334 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.6651914291880923,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "338",
+      "ticketLabels": [
+        "338"
+      ],
+      "sourceLabel": "338 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 4.1887902047863905,
+      "halfAngle": 0.11519173063162574,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "339",
+      "ticketLabels": [
+        "339"
+      ],
+      "sourceLabel": "339 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 4.4505895925855405,
+      "halfAngle": 0.11519173063162574,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    },
+    {
+      "id": "340",
+      "ticketLabels": [
+        "340"
+      ],
+      "sourceLabel": "340 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 4.71238898038469,
+      "halfAngle": 0.05,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://cdn.singaporeccc.org.sg/sccc/uploads/2025/11/SCCC_Sing.Lang-ITT.pdf"
+      }
+    }
+  ],
+  "importedAt": "2026-10-24T00:00:00.000Z"
+}

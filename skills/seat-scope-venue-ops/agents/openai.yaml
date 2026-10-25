@@ -1,0 +1,4 @@
+interface:
+  display_name: "SeatPeep 场馆演出录入"
+  short_description: "自动录入场馆、演唱会和座位图候选并校验 2D/3D 布局"
+  default_prompt: "用 SeatPeep 场馆演出录入流程，抓取并校验指定场馆或演唱会的公开座位图和事件布局。"

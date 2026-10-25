@@ -1,0 +1,381 @@
+{
+  "id": "huanglong-gymnasium",
+  "name": "黄龙体育中心体育馆",
+  "city": "中国大陆 · 杭州",
+  "capacity": "原站目录未提供统一容量字段",
+  "source": "https://www.zjhlsports.cn/changguanzulin/",
+  "sourceTitle": "REA 导出的公开场馆来源索引与参数化座位示意",
+  "sourceLinks": [
+    "https://www.zjhlsports.cn/changguanzulin/",
+    "https://www.dahepiao.com/news1/yanchu/20260910549629.html"
+  ],
+  "accuracy": {
+    "sectionLabels": "source-layout-reference",
+    "completeSeatInventory": false,
+    "metricCalibrated": false,
+    "stage": "generic",
+    "position": "estimated",
+    "geometryBasis": "source-informed-parametric:plan",
+    "catalogStatus": "source-geometry-and-sections",
+    "seatDataStatus": "section-only",
+    "sourceLayout": "end",
+    "coverage": "18 个来源分区；0 条座位采样。区号来自公开布局参考。",
+    "reuse": "来源页面可公开访问；未建立商业图形、模型或座位数据库再分发许可，发布前需逐源复核。",
+    "sourceDate": "REA capture 2026-10-24",
+    "sourceInventory": {
+      "venueReferenceUrl": "https://www.zjhlsports.cn/changguanzulin/",
+      "mapReferenceUrl": "https://www.dahepiao.com/news1/yanchu/20260910549629.html",
+      "sectionSource": "https://www.zjhlsports.cn/changguanzulin/",
+      "geometryEvidenceLabel": "plan",
+      "note": "Missing asset URL does not establish absence of generated seat geometry."
+    },
+    "seatAsset": null
+  },
+  "tiers": [
+    [
+      24,
+      32,
+      1.2,
+      10,
+      8
+    ],
+    [
+      34,
+      43,
+      12,
+      11,
+      10
+    ]
+  ],
+  "geometry": {
+    "shape": "oval",
+    "coordinateSystem": "profile-inner-radius",
+    "power": 1,
+    "oneSided": false,
+    "floor": [
+      36,
+      52
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "steps": 17
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "steps": 20
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "L1",
+      "ticketLabels": [
+        "L1"
+      ],
+      "sourceLabel": "下层 1 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.792526803190927,
+      "halfAngle": 0.17453292519943295,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.zjhlsports.cn/changguanzulin/"
+      }
+    },
+    {
+      "id": "L2",
+      "ticketLabels": [
+        "L2"
+      ],
+      "sourceLabel": "下层 2 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.2689280275926285,
+      "halfAngle": 0.17453292519943295,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.zjhlsports.cn/changguanzulin/"
+      }
+    },
+    {
+      "id": "L3",
+      "ticketLabels": [
+        "L3"
+      ],
+      "sourceLabel": "下层 3 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.6580627893946132,
+      "halfAngle": 0.17453292519943295,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.zjhlsports.cn/changguanzulin/"
+      }
+    },
+    {
+      "id": "VIP",
+      "ticketLabels": [
+        "VIP"
+      ],
+      "sourceLabel": "贵宾区 VIP",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.2566370614359172,
+      "halfAngle": 0.1308996938995747,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.zjhlsports.cn/changguanzulin/"
+      }
+    },
+    {
+      "id": "L6",
+      "ticketLabels": [
+        "L6"
+      ],
+      "sourceLabel": "下层 6 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.2217304763960306,
+      "halfAngle": 0.17453292519943295,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.zjhlsports.cn/changguanzulin/"
+      }
+    },
+    {
+      "id": "L7",
+      "ticketLabels": [
+        "L7"
+      ],
+      "sourceLabel": "下层 7 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.6580627893946132,
+      "halfAngle": 0.17453292519943295,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.zjhlsports.cn/changguanzulin/"
+      }
+    },
+    {
+      "id": "L8",
+      "ticketLabels": [
+        "L8"
+      ],
+      "sourceLabel": "下层 8 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.1816615649929116,
+      "halfAngle": 0.17453292519943295,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.zjhlsports.cn/changguanzulin/"
+      }
+    },
+    {
+      "id": "L9",
+      "ticketLabels": [
+        "L9"
+      ],
+      "sourceLabel": "下层 9 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.792526803190927,
+      "halfAngle": 0.17453292519943295,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.zjhlsports.cn/changguanzulin/"
+      }
+    },
+    {
+      "id": "U1",
+      "ticketLabels": [
+        "U1"
+      ],
+      "sourceLabel": "上层 1 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": 2.705260340591211,
+      "halfAngle": 0.1658062789394613,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.zjhlsports.cn/changguanzulin/"
+      }
+    },
+    {
+      "id": "U2",
+      "ticketLabels": [
+        "U2"
+      ],
+      "sourceLabel": "上层 2 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": 2.234021442552742,
+      "halfAngle": 0.1658062789394613,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.zjhlsports.cn/changguanzulin/"
+      }
+    },
+    {
+      "id": "U3",
+      "ticketLabels": [
+        "U3"
+      ],
+      "sourceLabel": "上层 3 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": 1.780235837034216,
+      "halfAngle": 0.1658062789394613,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.zjhlsports.cn/changguanzulin/"
+      }
+    },
+    {
+      "id": "U4",
+      "ticketLabels": [
+        "U4"
+      ],
+      "sourceLabel": "上层 4 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": 1.3264502315156903,
+      "halfAngle": 0.1658062789394613,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.zjhlsports.cn/changguanzulin/"
+      }
+    },
+    {
+      "id": "U5",
+      "ticketLabels": [
+        "U5"
+      ],
+      "sourceLabel": "上层 5 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": 0.7853981633974483,
+      "halfAngle": 0.1658062789394613,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.zjhlsports.cn/changguanzulin/"
+      }
+    },
+    {
+      "id": "U6",
+      "ticketLabels": [
+        "U6"
+      ],
+      "sourceLabel": "上层 6 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": -0.7853981633974483,
+      "halfAngle": 0.1658062789394613,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.zjhlsports.cn/changguanzulin/"
+      }
+    },
+    {
+      "id": "U7",
+      "ticketLabels": [
+        "U7"
+      ],
+      "sourceLabel": "上层 7 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": -1.3264502315156903,
+      "halfAngle": 0.1658062789394613,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.zjhlsports.cn/changguanzulin/"
+      }
+    },
+    {
+      "id": "U8",
+      "ticketLabels": [
+        "U8"
+      ],
+      "sourceLabel": "上层 8 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": -1.780235837034216,
+      "halfAngle": 0.1658062789394613,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.zjhlsports.cn/changguanzulin/"
+      }
+    },
+    {
+      "id": "U9",
+      "ticketLabels": [
+        "U9"
+      ],
+      "sourceLabel": "上层 9 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": -2.234021442552742,
+      "halfAngle": 0.1658062789394613,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.zjhlsports.cn/changguanzulin/"
+      }
+    },
+    {
+      "id": "U10",
+      "ticketLabels": [
+        "U10"
+      ],
+      "sourceLabel": "上层 10 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": -2.705260340591211,
+      "halfAngle": 0.1658062789394613,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.zjhlsports.cn/changguanzulin/"
+      }
+    }
+  ],
+  "importedAt": "2026-10-24T00:00:00.000Z"
+}

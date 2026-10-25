@@ -1,0 +1,1044 @@
+{
+  "id": "guangzhou-arena",
+  "name": "宝能广州国际体育演艺中心",
+  "city": "中国内地 · 广州",
+  "capacity": "原站目录未提供统一容量字段",
+  "source": "https://www.bisacn.com/aboUs.html",
+  "sourceTitle": "REA 导出的公开场馆来源索引与参数化座位示意",
+  "sourceLinks": [
+    "https://www.bisacn.com/aboUs.html",
+    "https://www.bisacn.com/serviceGiuSeat.html"
+  ],
+  "accuracy": {
+    "sectionLabels": "source-layout-reference",
+    "completeSeatInventory": false,
+    "metricCalibrated": false,
+    "stage": "generic",
+    "position": "estimated",
+    "geometryBasis": "source-informed-parametric:plan",
+    "catalogStatus": "source-geometry-and-sections",
+    "seatDataStatus": "section-only",
+    "sourceLayout": "end",
+    "coverage": "57 个来源分区；0 条座位采样。区号来自公开布局参考。",
+    "reuse": "来源页面可公开访问；未建立商业图形、模型或座位数据库再分发许可，发布前需逐源复核。",
+    "sourceDate": "REA capture 2026-10-24",
+    "sourceInventory": {
+      "venueReferenceUrl": "https://www.bisacn.com/aboUs.html",
+      "mapReferenceUrl": null,
+      "sectionSource": "https://www.bisacn.com/serviceGiuSeat.html",
+      "geometryEvidenceLabel": "plan",
+      "note": "Missing asset URL does not establish absence of generated seat geometry."
+    },
+    "seatAsset": null
+  },
+  "tiers": [
+    [
+      23,
+      35,
+      1,
+      18,
+      9
+    ],
+    [
+      35,
+      47,
+      14,
+      20,
+      14
+    ]
+  ],
+  "geometry": {
+    "shape": "rounded",
+    "coordinateSystem": "profile-inner-radius",
+    "power": 0.48,
+    "oneSided": false,
+    "floor": [
+      42,
+      66
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "1层",
+        "steps": 24
+      },
+      {
+        "id": "middle",
+        "name": "3层",
+        "steps": 28
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "101",
+      "ticketLabels": [
+        "101"
+      ],
+      "sourceLabel": "101 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.520845003602819,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.bisacn.com/serviceGiuSeat.html"
+      }
+    },
+    {
+      "id": "102",
+      "ticketLabels": [
+        "102"
+      ],
+      "sourceLabel": "102 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.840275163302821,
+      "halfAngle": 0.07354817467904105,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.bisacn.com/serviceGiuSeat.html"
+      }
+    },
+    {
+      "id": "103",
+      "ticketLabels": [
+        "103"
+      ],
+      "sourceLabel": "103 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.007425345766318,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.bisacn.com/serviceGiuSeat.html"
+      }
+    },
+    {
+      "id": "105",
+      "ticketLabels": [
+        "105"
+      ],
+      "sourceLabel": "105 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.1199292693498726,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.bisacn.com/serviceGiuSeat.html"
+      }
+    },
+    {
+      "id": "106",
+      "ticketLabels": [
+        "106"
+      ],
+      "sourceLabel": "106 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.319874188458343,
+      "halfAngle": 0.06332927190861425,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.bisacn.com/serviceGiuSeat.html"
+      }
+    },
+    {
+      "id": "107",
+      "ticketLabels": [
+        "107"
+      ],
+      "sourceLabel": "107 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.463811491870315,
+      "halfAngle": 0.06332927190861425,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.bisacn.com/serviceGiuSeat.html"
+      }
+    },
+    {
+      "id": "108",
+      "ticketLabels": [
+        "108"
+      ],
+      "sourceLabel": "108 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.7311086668132467,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.bisacn.com/serviceGiuSeat.html"
+      }
+    },
+    {
+      "id": "109",
+      "ticketLabels": [
+        "109"
+      ],
+      "sourceLabel": "109 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.9316644511599153,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.bisacn.com/serviceGiuSeat.html"
+      }
+    },
+    {
+      "id": "110",
+      "ticketLabels": [
+        "110"
+      ],
+      "sourceLabel": "110 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.bisacn.com/serviceGiuSeat.html"
+      }
+    },
+    {
+      "id": "111",
+      "ticketLabels": [
+        "111"
+      ],
+      "sourceLabel": "111 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.7894026638298572,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.bisacn.com/serviceGiuSeat.html"
+      }
+    },
+    {
+      "id": "112",
+      "ticketLabels": [
+        "112"
+      ],
+      "sourceLabel": "112 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.4955590309640923,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.bisacn.com/serviceGiuSeat.html"
+      }
+    },
+    {
+      "id": "113",
+      "ticketLabels": [
+        "113"
+      ],
+      "sourceLabel": "113 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.284199658547579,
+      "halfAngle": 0.07228281097134516,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.bisacn.com/serviceGiuSeat.html"
+      }
+    },
+    {
+      "id": "115",
+      "ticketLabels": [
+        "115"
+      ],
+      "sourceLabel": "115 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.1199292693498726,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.bisacn.com/serviceGiuSeat.html"
+      }
+    },
+    {
+      "id": "116",
+      "ticketLabels": [
+        "116"
+      ],
+      "sourceLabel": "116 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.0054705770040844,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.bisacn.com/serviceGiuSeat.html"
+      }
+    },
+    {
+      "id": "117",
+      "ticketLabels": [
+        "117"
+      ],
+      "sourceLabel": "117 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.8380585951527884,
+      "halfAngle": 0.07366162108042068,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.bisacn.com/serviceGiuSeat.html"
+      }
+    },
+    {
+      "id": "118",
+      "ticketLabels": [
+        "118"
+      ],
+      "sourceLabel": "118 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.5160977080373945,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.bisacn.com/serviceGiuSeat.html"
+      }
+    },
+    {
+      "id": "119",
+      "ticketLabels": [
+        "119"
+      ],
+      "sourceLabel": "119 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.2047484227741259,
+      "halfAngle": 0.06736098248072114,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.bisacn.com/serviceGiuSeat.html"
+      }
+    },
+    {
+      "id": "120",
+      "ticketLabels": [
+        "120"
+      ],
+      "sourceLabel": "120 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.0516481407891833,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.bisacn.com/serviceGiuSeat.html"
+      }
+    },
+    {
+      "id": "121",
+      "ticketLabels": [
+        "121"
+      ],
+      "sourceLabel": "121 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.9458288282407671,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.bisacn.com/serviceGiuSeat.html"
+      }
+    },
+    {
+      "id": "122",
+      "ticketLabels": [
+        "122"
+      ],
+      "sourceLabel": "122 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.8000589291142007,
+      "halfAngle": 0.0641408500107916,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.bisacn.com/serviceGiuSeat.html"
+      }
+    },
+    {
+      "id": "123",
+      "ticketLabels": [
+        "123"
+      ],
+      "sourceLabel": "123 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.6035174020471192,
+      "halfAngle": 0.08648106443631903,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.bisacn.com/serviceGiuSeat.html"
+      }
+    },
+    {
+      "id": "125",
+      "ticketLabels": [
+        "125"
+      ],
+      "sourceLabel": "125 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.32655110304813906,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.bisacn.com/serviceGiuSeat.html"
+      }
+    },
+    {
+      "id": "126",
+      "ticketLabels": [
+        "126"
+      ],
+      "sourceLabel": "126 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.004363323129985824,
+      "halfAngle": 0.08722282936841662,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.bisacn.com/serviceGiuSeat.html"
+      }
+    },
+    {
+      "id": "127",
+      "ticketLabels": [
+        "127"
+      ],
+      "sourceLabel": "127 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.19387117331153014,
+      "halfAngle": 0.08083492430611737,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.bisacn.com/serviceGiuSeat.html"
+      }
+    },
+    {
+      "id": "128",
+      "ticketLabels": [
+        "128"
+      ],
+      "sourceLabel": "128 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.37758453037645323,
+      "halfAngle": 0.08083492430611737,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.bisacn.com/serviceGiuSeat.html"
+      }
+    },
+    {
+      "id": "129",
+      "ticketLabels": [
+        "129"
+      ],
+      "sourceLabel": "129 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.6241297405131722,
+      "halfAngle": 0.06002187297608499,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.bisacn.com/serviceGiuSeat.html"
+      }
+    },
+    {
+      "id": "130",
+      "ticketLabels": [
+        "130"
+      ],
+      "sourceLabel": "130 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.760544674849049,
+      "halfAngle": 0.06002187297608499,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.bisacn.com/serviceGiuSeat.html"
+      }
+    },
+    {
+      "id": "131",
+      "ticketLabels": [
+        "131"
+      ],
+      "sourceLabel": "131 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.9489704208943569,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.bisacn.com/serviceGiuSeat.html"
+      }
+    },
+    {
+      "id": "132",
+      "ticketLabels": [
+        "132"
+      ],
+      "sourceLabel": "132 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.0516481407891833,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.bisacn.com/serviceGiuSeat.html"
+      }
+    },
+    {
+      "id": "133",
+      "ticketLabels": [
+        "133"
+      ],
+      "sourceLabel": "133 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.2047484227741259,
+      "halfAngle": 0.06736098248072114,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.bisacn.com/serviceGiuSeat.html"
+      }
+    },
+    {
+      "id": "201",
+      "ticketLabels": [
+        "201"
+      ],
+      "sourceLabel": "201 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.6410109226026284,
+      "halfAngle": 0.08677777040915807,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.bisacn.com/serviceGiuSeat.html"
+      }
+    },
+    {
+      "id": "202",
+      "ticketLabels": [
+        "202"
+      ],
+      "sourceLabel": "202 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.8382331280779878,
+      "halfAngle": 0.08677777040915807,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.bisacn.com/serviceGiuSeat.html"
+      }
+    },
+    {
+      "id": "203",
+      "ticketLabels": [
+        "203"
+      ],
+      "sourceLabel": "203 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.0356473197710665,
+      "halfAngle": 0.07753625201984808,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.bisacn.com/serviceGiuSeat.html"
+      }
+    },
+    {
+      "id": "205",
+      "ticketLabels": [
+        "205"
+      ],
+      "sourceLabel": "205 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.2118732143449336,
+      "halfAngle": 0.07753625201984808,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.bisacn.com/serviceGiuSeat.html"
+      }
+    },
+    {
+      "id": "206",
+      "ticketLabels": [
+        "206"
+      ],
+      "sourceLabel": "206 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.4003164136827615,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.bisacn.com/serviceGiuSeat.html"
+      }
+    },
+    {
+      "id": "207",
+      "ticketLabels": [
+        "207"
+      ],
+      "sourceLabel": "207 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.5209361182880894,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.bisacn.com/serviceGiuSeat.html"
+      }
+    },
+    {
+      "id": "208",
+      "ticketLabels": [
+        "208"
+      ],
+      "sourceLabel": "208 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.642061968376496,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.bisacn.com/serviceGiuSeat.html"
+      }
+    },
+    {
+      "id": "209",
+      "ticketLabels": [
+        "209"
+      ],
+      "sourceLabel": "209 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.4028471410981536,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.bisacn.com/serviceGiuSeat.html"
+      }
+    },
+    {
+      "id": "210",
+      "ticketLabels": [
+        "210"
+      ],
+      "sourceLabel": "210 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.184715891183902,
+      "halfAngle": 0.07394087376073978,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.bisacn.com/serviceGiuSeat.html"
+      }
+    },
+    {
+      "id": "211",
+      "ticketLabels": [
+        "211"
+      ],
+      "sourceLabel": "211 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.0166755908018876,
+      "halfAngle": 0.07394087376073978,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.bisacn.com/serviceGiuSeat.html"
+      }
+    },
+    {
+      "id": "212",
+      "ticketLabels": [
+        "212"
+      ],
+      "sourceLabel": "212 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.8336429121452427,
+      "halfAngle": 0.08053821833327833,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.bisacn.com/serviceGiuSeat.html"
+      }
+    },
+    {
+      "id": "213",
+      "ticketLabels": [
+        "213"
+      ],
+      "sourceLabel": "213 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.6397542855411924,
+      "halfAngle": 0.08531169383748283,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.bisacn.com/serviceGiuSeat.html"
+      }
+    },
+    {
+      "id": "215",
+      "ticketLabels": [
+        "215"
+      ],
+      "sourceLabel": "215 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.4405947645961197,
+      "halfAngle": 0.08389797714336743,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.bisacn.com/serviceGiuSeat.html"
+      }
+    },
+    {
+      "id": "216",
+      "ticketLabels": [
+        "216"
+      ],
+      "sourceLabel": "216 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.2499175438157388,
+      "halfAngle": 0.0779900376253666,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.bisacn.com/serviceGiuSeat.html"
+      }
+    },
+    {
+      "id": "217",
+      "ticketLabels": [
+        "217"
+      ],
+      "sourceLabel": "217 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.072661904983195,
+      "halfAngle": 0.06987425660359298,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.bisacn.com/serviceGiuSeat.html"
+      }
+    },
+    {
+      "id": "218",
+      "ticketLabels": [
+        "218"
+      ],
+      "sourceLabel": "218 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.9138543963442308,
+      "halfAngle": 0.06987425660359298,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.bisacn.com/serviceGiuSeat.html"
+      }
+    },
+    {
+      "id": "219",
+      "ticketLabels": [
+        "219"
+      ],
+      "sourceLabel": "219 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.7283782567347935,
+      "halfAngle": 0.08161159582325485,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.bisacn.com/serviceGiuSeat.html"
+      }
+    },
+    {
+      "id": "220",
+      "ticketLabels": [
+        "220"
+      ],
+      "sourceLabel": "220 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.5101073804803827,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.bisacn.com/serviceGiuSeat.html"
+      }
+    },
+    {
+      "id": "221",
+      "ticketLabels": [
+        "221"
+      ],
+      "sourceLabel": "221 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.26127578902355114,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.bisacn.com/serviceGiuSeat.html"
+      }
+    },
+    {
+      "id": "222",
+      "ticketLabels": [
+        "222"
+      ],
+      "sourceLabel": "222 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.049567350756638956,
+      "halfAngle": 0.08487536152448426,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.bisacn.com/serviceGiuSeat.html"
+      }
+    },
+    {
+      "id": "223",
+      "ticketLabels": [
+        "223"
+      ],
+      "sourceLabel": "223 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.24246113968705224,
+      "halfAngle": 0.08487536152448426,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.bisacn.com/serviceGiuSeat.html"
+      }
+    },
+    {
+      "id": "225",
+      "ticketLabels": [
+        "225"
+      ],
+      "sourceLabel": "225 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.4715530573038279,
+      "halfAngle": 0.0850760743884636,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.bisacn.com/serviceGiuSeat.html"
+      }
+    },
+    {
+      "id": "226",
+      "ticketLabels": [
+        "226"
+      ],
+      "sourceLabel": "226 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.6649006318397597,
+      "halfAngle": 0.0850760743884636,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.bisacn.com/serviceGiuSeat.html"
+      }
+    },
+    {
+      "id": "227",
+      "ticketLabels": [
+        "227"
+      ],
+      "sourceLabel": "227 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.8631351282812757,
+      "halfAngle": 0.0825191670342919,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.bisacn.com/serviceGiuSeat.html"
+      }
+    },
+    {
+      "id": "228",
+      "ticketLabels": [
+        "228"
+      ],
+      "sourceLabel": "228 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.0506707564080664,
+      "halfAngle": 0.0825191670342919,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.bisacn.com/serviceGiuSeat.html"
+      }
+    },
+    {
+      "id": "229",
+      "ticketLabels": [
+        "229"
+      ],
+      "sourceLabel": "229 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.244437209964477,
+      "halfAngle": 0.085259333959923,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.bisacn.com/serviceGiuSeat.html"
+      }
+    },
+    {
+      "id": "230",
+      "ticketLabels": [
+        "230"
+      ],
+      "sourceLabel": "230 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.4382385701059273,
+      "halfAngle": 0.08527678725244295,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.bisacn.com/serviceGiuSeat.html"
+      }
+    }
+  ],
+  "importedAt": "2026-10-24T00:00:00.000Z"
+}

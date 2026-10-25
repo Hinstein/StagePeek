@@ -1,0 +1,303 @@
+import {unpackSourceSeats} from './seating.mjs';
+import {audienceSightline,displaySectionLabel,sectionPoint,sectionRenderHalfAngle,stageRects} from './geometry.mjs';
+import {resolveInitialRoute} from './route.mjs';
+import {groupVenuesByCountry} from './catalog.mjs';
+import {createMapTransform,zoomMap,rotateMap,resetMap,panMap} from './explorer-state.mjs';
+const $=id=>document.getElementById(id);
+const state={me:null,catalog:[],venueId:'tottenham',venue:null,sectionId:'122',result:null,layout:'end',mode:'3d',event:null,mapTransform:null,phoneFrame:false,roofVisible:false};
+let viewer=null,viewerCameraMode='overview',loadVersion=0,resolveVersion=0,loginToken=null,toastTimer=null;
+const messages={SUBSCRIPTION_REQUIRED:'这个场馆需要月订阅，当前可免费体验 Tottenham。',LOGIN_REQUIRED:'请先登录。',INVALID_EMAIL:'请输入有效的邮箱地址。',INVALID_LINK:'登录链接已失效，或与申请时的浏览器不一致，请重新申请。',RATE_LIMITED:'操作有些频繁，请稍后再试。',GOOGLE_NOT_CONFIGURED:'Google 登录暂未开放。',EMAIL_NOT_CONFIGURED:'邮件登录暂未开放。',BILLING_NOT_CONFIGURED:'月订阅暂未开放。',LINK_REQUIRED:'这个邮箱已有账号。请先用邮箱登录，再在我的账号中关联 Google。',SAVE_LIMIT:'已达到当前套餐的位置保存上限。',ALREADY_SUBSCRIBED:'你已订阅，可在账单中心管理。',NO_SUBSCRIPTION:'当前没有可管理的账单账号。',SEAT_UNVERIFIED:'该排座尚无核实记录，请先选择已有的采样位置。',GOOGLE_CANCELED:'已取消 Google 登录。'};
+function message(error){return {CHECKOUT_PENDING:'已有付款流程待确认，请稍后刷新或使用账单中心，避免重复付款。',BILLING_REVIEW_REQUIRED:'该账单账号需要核查，请先通过账单中心管理订阅。'}[error.code]||messages[error.code]||'暂时无法完成，请稍后重试。';}
+async function api(path,{method='GET',body}={}){
+  const response=await fetch(path,{method,credentials:'same-origin',headers:body?{'Content-Type':'application/json'}:{},body:body?JSON.stringify(body):undefined});
+  const data=await response.json();if(!response.ok)throw Object.assign(new Error(data.error?.message||'Request failed'),{code:data.error?.code,status:response.status});return data;
+}
+function toast(text){$('toast').textContent=text;$('toast').hidden=false;clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('toast').hidden=true,5000);}
+function open(id){for(const d of document.querySelectorAll('dialog[open]'))d.close();$(id).showModal();}
+function element(tag,text,className){const el=document.createElement(tag);if(text!==undefined)el.textContent=text;if(className)el.className=className;return el;}
+function link(text,url){const a=element('a',text);if(/^https:\/\//.test(url)){a.href=url;a.target='_blank';a.rel='noopener noreferrer';}return a;}
+function selectedSection(){return state.venue?.sections.find(s=>s.id===state.sectionId)||state.venue?.sections[0];}
+function selectedPosition(){return Array.isArray(state.result?.position)?state.result.position:selectedSection()?.center;}
+function renderStageOptions(){
+  const select=$('stage-layout');select.replaceChildren();
+  if(state.event?.layout?.model){
+    const option=element('option',state.event.layout.model.label||'本场演出 · 公开座位图舞台');option.value='event';select.append(option);
+  }
+  for(const item of state.venue?.seatLayouts||(state.venue?.geometry?.referenceLayout?[{id:'end',label:state.venue.geometry.referenceLayout.label}]:[{id:'end',label:'端头舞台（通用）'},{id:'runway',label:'端头舞台 + 延伸台（通用）'},{id:'center',label:'中央舞台（通用）'}])){
+    const option=element('option',item.label);option.value=item.id;select.append(option);
+  }
+  select.value=state.layout;
+}
+function updateGestureHint(){
+  $('gesture-hint').textContent=state.mode==='2d'
+    ?'拖动平移 · 双指或滚轮缩放 · 点击分区 / 座位'
+    :viewerCameraMode==='seat'?'拖动环顾 · 双指或滚轮变焦 · 1×–8×放大':'拖动旋转 · 双指缩放 / 平移 · 点击座位入座';
+}
+function renderMap(){
+  const v=state.venue;if(!v)return;const svg=$('map'),ns='http://www.w3.org/2000/svg';svg.replaceChildren();
+  const layer=document.createElementNS(ns,'g');layer.id='map-content';svg.append(layer);
+  const add=(tag,props,text,parent=layer)=>{const e=document.createElementNS(ns,tag);for(const [k,value]of Object.entries(props))e.setAttribute(k,value);if(text)e.textContent=text;parent.append(e);return e;};
+  // These are the source's screen projections, not the estimated metre frame used by 3D.
+  // Draw each original hit area separately to retain aisles, cutouts and irregular edges.
+  const sourceProjection=v.sections.some(s=>s.polygonStatus==='source'),sameFrame=!sourceProjection;
+  const renderedPolygons=new Map(v.sections.map(s=>{
+    if(!sameFrame||v.sourceSeats)return [s.id,s.sourcePolygons||[]];
+    if(s.block?.polygon)return [s.id,[{viewId:`reference:${s.id}`,points:s.block.polygon}]];
+    const half=sectionRenderHalfAngle(v,s),boundary=[];
+    for(let i=0;i<=12;i++)boundary.push(sectionPoint(v,s,0,-1+i/6,half));
+    for(let i=12;i>=0;i--)boundary.push(sectionPoint(v,s,1,-1+i/6,half));
+    return [s.id,[{viewId:`estimated:${s.id}`,points:boundary.map(p=>[p[0],p[2]])}]];
+  }));
+  const polygons=[...renderedPolygons.values()].flat(),points=polygons.flatMap(p=>p.points);
+  const stageShapes=sameFrame?stageRects(state.layout,v):[];
+  for(const r of stageShapes)points.push([r.x-r.w/2,r.z-r.d/2],[r.x+r.w/2,r.z+r.d/2]);
+  if(!points.length){add('text',{x:0,y:0},'暂未取得该馆二维分区轮廓');svg.setAttribute('viewBox','-100 -30 200 60');return;}
+  const xs=points.map(p=>p[0]),ys=points.map(p=>p[1]),minX=Math.min(...xs),minY=Math.min(...ys),maxX=Math.max(...xs),maxY=Math.max(...ys);
+  const mapScale=Math.max(maxX-minX,maxY-minY),labelSize=Math.max(.6,mapScale*.017),margin=mapScale*.12;
+  const baseViewBox=[minX-margin,minY-margin,maxX-minX+2*margin,maxY-minY+2*margin];
+  if(!state.mapTransform||state.mapTransform.base.some((value,index)=>Math.abs(value-baseViewBox[index])>.001))state.mapTransform=createMapTransform(baseViewBox);
+  updateMapViewport();
+  const center=points=>[points.reduce((n,p)=>n+p[0],0)/points.length,points.reduce((n,p)=>n+p[1],0)/points.length];
+  const area=points=>Math.abs(points.reduce((n,p,i)=>{const q=points[(i+1)%points.length];return n+p[0]*q[1]-q[0]*p[1];},0))/2;
+  const largest=polygons=>[...polygons].sort((a,b)=>area(b.points)-area(a.points))[0];
+  const tiers=[...new Set(v.sections.map(s=>s.tier))].sort((a,b)=>a-b),activeTier=Number.isInteger(state.mapTier)&&tiers.includes(state.mapTier)?state.mapTier:selectedSection()?.tier??tiers[0];
+  const levels=$('map-levels');levels.replaceChildren();levels.hidden=state.mode!=='2d'||tiers.length<2;
+  for(const tier of tiers){const button=element('button',v.geometry?.tiers?.[tier]?.name||`层级 ${tier+1}`);button.type='button';button.classList.toggle('active',tier===activeTier);button.setAttribute('aria-pressed',String(tier===activeTier));button.onclick=()=>{state.mapTier=tier;renderMap();};levels.append(button);}
+  const labels=[];
+  for(const s of v.sections){if(s.tier!==activeTier)continue;const label=displaySectionLabel(s),g=add('g',{'data-section':s.id,'data-selected':String(s.id===state.sectionId),tabindex:0,role:'button','aria-label':s.block?.polygon?s.levelName:'分区 '+label,...s.block?.color?{style:'--section-fill:'+s.block.color}:{}});
+    for(const p of renderedPolygons.get(s.id)||[])add('polygon',{points:p.points.map(p=>p.join(',')).join(' '),fill:s.id===state.sectionId?'#dc7a43':s.block?.color||['#628867','#4a7452','#3a6449','#31553c','#264935'][s.tier%5],stroke:'#f6f7ef','stroke-width':mapScale*.0018},null,g);
+    if(s.block?.polygon)add('title',{},s.levelName,g);
+    const largestPolygon=largest(renderedPolygons.get(s.id)||[]);if(largestPolygon)labels.push({id:label,p:center(largestPolygon.points)});
+    g.onclick=()=>chooseSection(s.id);g.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();chooseSection(s.id);}};
+  }
+  // Labels above all shapes remain readable without masking polygon click targets.
+  const textLayer=add('g',{'pointer-events':'none','aria-hidden':'true'});
+  for(const label of labels)add('text',{x:label.p[0],y:label.p[1],'text-anchor':'middle','dominant-baseline':'central',fill:'white','font-size':labelSize,'paint-order':'stroke',stroke:'#31553c','stroke-width':labelSize*.13},label.id,textLayer);
+  const section=selectedSection(),sampleLayer=add('g',{});
+  for(const sample of section?.samples||[]){
+    const polygon=largest((section.sourcePolygons||[]).filter(p=>p.viewId===sample.viewId));if(!polygon)continue;
+    const p=center(polygon.points),matched=state.result?.status==='matched'&&state.result.viewId===sample.viewId;
+    const c=add('circle',{cx:p[0],cy:p[1],r:matched?3.8:2.4,fill:matched?'#e98742':'#d6ba65','data-selected':String(matched),stroke:'#fff','stroke-width':.7,tabindex:0,role:'button','aria-label':sample.row+' 排 '+sample.seat+' 座 来源视点热区'},null,sampleLayer);
+    add('title',{},'来源视点热区；不是逐座平面坐标',c);c.onclick=e=>{e.stopPropagation();chooseSample(sample);};c.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();chooseSample(sample);}};
+  }
+  if(v.sourceSeats){
+    for(const seat of v.sourceSeats.filter(item=>item.section===state.sectionId&&selectedSection()?.tier===activeTier)){
+      const matched=state.result?.status==='matched'&&seat.row===state.result.row&&seat.seat===state.result.seat;
+      const c=add('circle',{cx:seat.position[0],cy:seat.position[2],r:matched ? .7 : .23,fill:matched?'#f29a4e':'#e3eddb','data-selected':String(matched),tabindex:0,role:'button','aria-label':`${seat.section} 区 ${seat.row} 排 ${seat.seat} 座`});
+      c.onclick=e=>{e.stopPropagation();chooseSample(seat);};c.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();chooseSample(seat);}};
+    }
+    for(const z of v.sourceZones||[])add('polygon',{points:z.polygon.map(p=>p.join(',')).join(' '),fill:'#b7c39d',stroke:'#849376','stroke-width':.3});
+    const stage=v.sourceStage;if(stage)add('rect',{x:stage.x-stage.width/2,y:stage.z-stage.depth/2,width:stage.width,height:stage.depth,fill:'#465640'});
+    add('text',{x:(minX+maxX)/2,y:maxY+margin*.55,'text-anchor':'middle',fill:'#6f8173','font-size':labelSize*.8},'来源逐座坐标 · 与三维同坐标 · 未独立实测校准');return;
+  }
+  const cx=(minX+maxX)/2,cy=(minY+maxY)/2,mapW=maxX-minX,mapH=maxY-minY;
+  if(sameFrame){
+    for(const r of stageShapes){add('rect',{x:r.x-r.w/2,y:r.z-r.d/2,width:r.w,height:r.d,fill:r.kind==='screen'?'#5e9b98':r.kind==='structure'?'#59616c':'#445f53',stroke:'#304d40','stroke-width':mapScale*.002});if(r.label)add('text',{x:r.x,y:r.z,'text-anchor':'middle',fill:'#fff','font-size':labelSize*.6},r.label);}
+    const r=stageShapes[0];if(r)add('text',{x:r.x,y:r.z,'text-anchor':'middle','dominant-baseline':'central',fill:'#fff','font-size':labelSize},'示意舞台');
+  }else{
+    const trace=state.layout==='event'&&v.eventLayout?.mapStage;
+    const width=trace?mapW*trace.w:state.layout==='center'?mapW*.2:mapW*.11;
+    const depth=trace?mapH*trace.h:mapH*.18;
+    const x=trace?minX+mapW*trace.x:state.layout==='center'?cx:cx+mapW*.3;
+    const y=trace?minY+mapH*trace.y:cy;
+    add('rect',{x:x-width/2,y:y-depth/2,width,height:depth,rx:3,fill:trace?'#b6f23c':'#bca275',stroke:trace?'#d8ff78':'#8a7454','stroke-width':1});
+    if(trace)add('text',{x,y,'text-anchor':'middle','dominant-baseline':'central',fill:'#10151b','font-size':labelSize*.8},'本场舞台');
+  }
+  add('text',{x:cx,y:maxY+margin*.55,'text-anchor':'middle',fill:'#6f8173','font-size':labelSize*.75},sourceProjection?(state.layout==='event'?'公开座位图人工描摹 · 待独立校准':'来源分区投影 · 非米制平面图'):'与三维一致的示意布局 · 排座未实测');
+
+}
+function updateMapViewport(){
+  const t=state.mapTransform;if(!t)return;
+  $('map').setAttribute('viewBox',t.viewBox.join(' '));
+  const [x,y,w,h]=t.base;$('map-content')?.setAttribute('transform',`rotate(${t.rotation} ${x+w/2} ${y+h/2})`);
+  $('map-zoom-value').textContent=`${Math.round(t.zoom*100)}%`;
+  $('map-zoom-out').disabled=t.zoom<=.75;$('map-zoom-in').disabled=t.zoom>=8;
+}
+function renderViewControls(){
+  const is3d=state.mode==='3d',isSeat=viewerCameraMode==='seat';
+  $('view-tools').hidden=!is3d;$('map-tools').hidden=is3d;
+  $('camera-tools').hidden=!is3d||!isSeat;
+  $('camera-reticle').hidden=!is3d||!isSeat||!state.phoneFrame;
+  $('viewer').classList.toggle('phone-framing',is3d&&isSeat&&state.phoneFrame);
+  for(const [id,value]of [['roof-toggle',state.roofVisible],['phone-toggle',state.phoneFrame]]){$(id).classList.toggle('active',value);$(id).setAttribute('aria-pressed',String(value));}
+  $('roof-note').hidden=!is3d||!state.roofVisible;
+  $('mode-2d').setAttribute('aria-pressed',String(!is3d));$('mode-3d').setAttribute('aria-pressed',String(is3d));
+  $('overview').classList.toggle('active',!isSeat);$('seat-view').classList.toggle('active',isSeat);
+}
+
+function render(){
+  const v=state.venue;if(!v)return;const s=selectedSection(),r=state.result;
+  $('venue-name').textContent=v.name;$('venue-city').textContent=v.city+(v.geometry?.referenceLayout?' · '+v.geometry.referenceLayout.label:'');
+  const catalogStatus=v.accuracy?.catalogStatus;
+  $('accuracy-short').textContent=v.geometry?.referenceLayout?'场次图示参考 · 非官方区号 / 排座':v.sourceSeats?'来源逐座坐标 · 未实测校准':catalogStatus==='source-geometry-and-sections'?'有来源分区 · 几何未校准':catalogStatus==='source-geometry-only'?'有几何参考 · 分区待核验':catalogStatus==='catalog-only'?'目录级示意 · 待补来源':'几何尚未校准';
+  $('coverage-count').textContent=v.sourceSeats?`${v.sections.length} 个来源分区 · ${v.sourceSeats.length.toLocaleString()} 条逐座坐标`:`${v.sections.length} 个基础分区 · ${v.sections.reduce((n,s)=>n+s.samples.length,0)} 条排座采样`;
+  $('coverage-note').textContent=v.accuracy.coverage;$('source-link').href=v.source;$('source-link').textContent=v.sourceTitle+' ↗';
+  const matched=r?.status==='matched',located=['matched','estimated'].includes(r?.status)&&Array.isArray(r?.position),estimated=r?.status==='estimated',sourceCoordinate=matched&&r?.positionStatus==='source-coordinate';
+  $('location-section').textContent=s?.block?.polygon?displaySectionLabel(s)+' 档':located?r.section:(s?displaySectionLabel(s):'—');$('location-row').textContent=r?.row&&r?.seat?`Row ${r.row} · Seat ${r.seat}`:'分区预览';
+  $('location-status').classList.toggle('matched',matched);
+  const unavailable=!!(r?.row||r?.seat)&&!located;
+  $('location-status').textContent=matched?(sourceCoordinate?'来源座位已匹配 · 未实测校准':'票号采样已匹配 · 缺少座位坐标'):estimated?'模拟排座预览 · 票面位置未核实':r?.status==='unknown-layout'?'该布局尚无来源坐标':r?.status==='unknown-section'?'尚未找到这个分区':unavailable?'该排座缺少可用坐标 · 分区预览':'排座尚未输入 · 当前为分区预览';
+  $('location-description').textContent=matched?(sourceCoordinate?'票号与当前来源布局的座位坐标一致。当前布局不代表特定演出，距离和人物大小仍需现场校准。':'找到票号来源记录，但来源未提供座位 XYZ；不会据此生成座位视角或距离。'):estimated?'按示意排座网格生成视角，编号不代表场馆真实排座；不能用于确认门票位置。':r?.status==='unknown-section'?'请按门票原样输入区号，或从地图选择已有分区。':unavailable?'没有可用的该排座坐标，未将票号映射到其他座位；可选择来源采样，或点击三维座位探索。':'可输入排座，或从三维座位点击一个估算位置。';
+  const sightline=located?audienceSightline(v,state.layout,r.position):null;
+  $('distance').textContent=sightline?`模型约 ${Math.round(sightline.distance)} m · 非实测`:located?'未取得舞台坐标':'—';
+  $('save-position').disabled=!matched;$('seat-view').disabled=!located;$('phone-toggle').disabled=!located;
+  if(!located){state.phoneFrame=false;viewer?.togglePhoneFrame(false);}
+  $('selection-tag').textContent=`${s?.block?.polygon?s.levelName.replace('（方位示意，非票面区号）',''):((s?displaySectionLabel(s):'')+' 区')} · ${located?`${r.row} 排 / ${r.seat} 座 · ${estimated?'模拟位置':'来源坐标'}`:'分区预览'}`;
+  $('viewer-location').textContent=located?`${estimated?'模拟位置':'来源位置'} · 模型约 ${sightline?Math.round(sightline.distance)+' m':'距离待补'} · 未实测校准`:'分区预览 · 选择座位后查看距离与视角';
+  const samples=$('samples-list');samples.replaceChildren();
+  for(const sample of s?.samples||[]){const button=element('button',`${sample.row}排 · ${sample.seat}座`);button.type='button';button.onclick=()=>chooseSample(sample);samples.append(button);}
+  if(!s?.samples.length)samples.append(element('p','本区尚无可核对的排座采样。'));
+  $('scene').hidden=state.mode!=='3d';$('map').toggleAttribute('hidden',state.mode!=='2d');renderViewControls();
+  updateGestureHint();
+  $('mode-2d').classList.toggle('active',state.mode==='2d');$('mode-3d').classList.toggle('active',state.mode==='3d');
+  renderMap();viewer?.setData(v,state.sectionId,selectedPosition(),state.layout,located);viewer?.toggleRoof(state.roofVisible);viewer?.togglePhoneFrame(state.phoneFrame);
+}
+async function refreshAccount(){
+  state.me=await api('/api/me');const {user,access,providers}=state.me;
+  $('account-button').textContent=user?'我的账号':'登录 / 注册';$('plan-label').textContent={guest:'免费体验',free:'免费账号',pro:'Pro 月订阅'}[access.plan];
+  $('plan-button').textContent=access.plan==='pro'?'Pro · 管理订阅':'月订阅';$('account-email').textContent=user?.email||'';
+  $('account-plan').textContent=access.plan==='pro'?(state.me.subscription?.cancel_at_period_end?'已取消续订，当前周期结束前仍可使用。':'Pro 月订阅生效中。'):'免费账号 · 可保存 8 个位置';
+  $('google-login').disabled=!providers.google;$('google-login').textContent=providers.localGoogle?'本地模拟 Google 登录':'使用 Google 登录';$('connect-google').hidden=!providers.google||!!user?.googleConnected;
+  $('email-submit').disabled=!providers.email;$('provider-note').textContent=providers.localGoogle?'本地模式：Google 登录为仅回环地址可用的模拟流程，不会连接 Google。':providers.localEmail?(providers.localInbox?'本地测试邮箱：free@seatpeep.test / pro@seatpeep.test / expired@seatpeep.test。发送后可直接打开测试链接，不会发送真实邮件。':'当前为本地测试。请在运行服务的电脑通过 127.0.0.1 打开测试收件箱；手机可先体验访客选座。'):!providers.email&&!providers.google?'登录服务暂未开放。':'';
+  $('billing-portal').hidden=providers.localBilling||!user||!state.me.subscription;$('checkout').hidden=access.plan==='pro';
+  $('checkout').disabled=!providers.billing;$('checkout').textContent=providers.localBilling?'本地模拟升级 Pro':'按月订阅';$('billing-feedback').textContent=providers.localBilling?'本地模拟流程：不会扣款；正式环境需要 Stripe。':providers.billing?'':'月订阅暂未开放，当前可免费体验 Tottenham。';
+  if(providers.billing)try{const {price}=await api('/api/billing/price');$('monthly-price').textContent=new Intl.NumberFormat('en-US',{style:'currency',currency:price.currency}).format(price.amount/100)+' / 月';}catch(error){$('billing-feedback').textContent=message(error);$('checkout').disabled=true;}
+}
+async function loadCatalog(){const {venues}=await api('/api/venues');state.catalog=venues;const select=$('venue');select.replaceChildren();for(const group of groupVenuesByCountry(venues)){const optgroup=document.createElement('optgroup');optgroup.label=`${group.country}（${group.venues.length}）`;for(const venue of group.venues){const option=element('option',venue.name+(venue.locked?' · Pro':''));option.value=venue.id;optgroup.append(option);}select.append(optgroup);}select.value=state.venueId;}
+async function loadVenue(id,layout){
+  const version=++loadVersion;resolveVersion++;$('locate').disabled=true;
+  try{const {venue}=await api('/api/venues/'+id+(layout?'?layout='+encodeURIComponent(layout):''));if(version!==loadVersion)return;
+    if(venue.seatTuples){venue.sourceSeats=unpackSourceSeats(venue.seatTuples);delete venue.seatTuples;}
+    resolveVersion++;state.venueId=id;state.venue=venue;state.mapTier=null;state.mapTransform=null;state.event=null;state.layout=venue.seatLayout?.id||'end';state.phoneFrame=false;state.roofVisible=false;
+    if(typeof renderStageOptions==='function')renderStageOptions();else{for(const item of venue.seatLayouts||[{id:'end',label:'端头舞台（通用）'},{id:'runway',label:'端头舞台 + 延伸台（通用）'},{id:'center',label:'中央舞台（通用）'}]){const option=element('option',item.label);option.value=item.id;$('stage-layout').append(option);}$('stage-layout').value=state.layout;}
+    state.sectionId=venue.sections.some(x=>x.id==='122')?'122':venue.sections[0].id;state.result=null;
+    $('section-list').replaceChildren();for(const section of venue.sections)for(const label of section.ticketLabels){const option=element('option');option.value=label;$('section-list').append(option);}
+    $('venue').value=id;chooseSection(state.sectionId,false);render();await loadEvents(id,version);
+  }catch(error){toast(message(error));if(error.code==='SUBSCRIPTION_REQUIRED')open('plan-dialog');$('venue').value=state.venueId;$('stage-layout').value=state.layout;}
+  finally{if(version===loadVersion)$('locate').disabled=false;}
+}
+function applyRequestedSection(section){
+  if(!section||!state.venue)return;
+  const target=state.venue.sections.find(item=>item.id===section||item.ticketLabels.includes(section));
+  if(target){state.sectionId=target.id;state.mapTier=target.tier;}
+  $('section').value=section;$('row').value='';$('seat').value='';
+  state.result={status:target?'unverified':'unknown-section',section,row:'',seat:''};render();
+}
+async function applyRequestedLayout(layout){
+  if(!state.venue)return false;
+  if(state.venue.geometry?.referenceLayout){state.layout='end';renderStageOptions();render();return layout==='end';}
+  if(state.venue.seatLayouts){
+    if(!state.venue.seatLayouts.some(item=>item.id===layout)){toast('该来源没有这个布局，未按其他布局定位。');return false;}
+    if(state.layout!==layout)await loadVenue(state.venueId,layout);return state.layout===layout;
+  }
+  if(!['end','runway','center'].includes(layout))return false;
+  state.layout=layout;$('stage-layout').value=layout;render();return true;
+}
+function chooseSection(id,focus=true){
+  resolveVersion++;$('locate').disabled=false;
+  const section=state.venue?.sections.find(s=>s.id===id);if(!section)return;state.sectionId=id;state.mapTier=section.tier;
+  const sample=section.samples.find(x=>x.row==='14'&&x.seat==='679')||section.samples[0];
+  $('section').value=sample?.section||id;$('row').value=sample?.row||'';$('seat').value=sample?.seat||'';
+  state.result=sample?{status:'matched',...sample,sectionId:id}:{status:'unverified',section:id,row:'',seat:''};render();
+  if(focus)viewer?.near();
+}
+function chooseEstimatedSeat(record){
+  if(record.sourceSeat){chooseSample(record);return;}
+  resolveVersion++;$('locate').disabled=false;
+  const section=state.venue?.sections.find(item=>item.id===record.section);if(!section)return;
+  const ticketSection=section.ticketLabels[0]||section.id;
+  $('section').value=ticketSection;$('row').value='';$('seat').value='';
+  state.sectionId=section.id;state.mapTier=section.tier;state.result={status:'estimated',section:ticketSection,row:record.row,seat:record.seat,sectionId:section.id,position:record.p,positionStatus:'estimated-seat-grid'};
+  render();viewer?.seatView();
+}
+async function chooseSample(sample){$('section').value=sample.section;$('row').value=sample.row;$('seat').value=sample.seat;await locate();}
+async function locate(){const version=++resolveVersion,id=state.venueId,requestedVenue=state.venue;$('locate').disabled=true;
+  try{const found=await api(`/api/venues/${id}/resolve`,{method:'POST',body:{layout:state.venue?.seatLayout?.id,section:$('section').value,row:$('row').value,seat:$('seat').value}});
+    if(version!==resolveVersion||id!==state.venueId||state.venue!==requestedVenue)return;state.result=found;if(found.sectionId){state.sectionId=found.sectionId;state.mapTier=state.venue.sections.find(s=>s.id===found.sectionId)?.tier;}render();
+    if(found.status==='matched'&&Array.isArray(found.position))viewer?.seatView();
+    else{viewer?.near();toast(found.status==='matched'?'票号存在，但缺少座位坐标；当前仅显示分区。':found.status==='ambiguous'?'来源含重复票号，未自动选择任何座位。':found.status==='unknown-section'?'尚未找到这个分区。':'这组排座尚无公开坐标，先显示分区预览。');}
+  }catch(error){toast(message(error));}finally{if(version===resolveVersion)$('locate').disabled=false;}}
+async function loadEvents(id,version){$('events-list').replaceChildren(element('p','正在读取官方演出信息…','muted'));
+  try{const result=await api(`/api/venues/${id}/events`);if(version!==loadVersion)return;
+    $('events-list').replaceChildren();$('event-count').textContent=`${result.events.length} 项`;
+    for(const event of result.events){const wrap=element('div'),button=element('button',undefined,'event');const mapState=event.layout?.model?'有公开座位图 + 舞台布局':event.layout?.mapVerification==='reference'?'有公开场次座位图参考':event.layout?.mapVerification==='unavailable'?'座位图待票务平台发布':'场次布局待核实';button.append(element('strong',event.name),element('span',event.localDate+(event.endLocalDate!==event.localDate?' — '+event.endLocalDate:'')),element('span',event.status==='canceled'?'已取消':event.status==='postponed'?'已延期':mapState));button.onclick=()=>{if(state.venue.geometry?.referenceLayout){toast('当前为指定历史场次参考，尚未取得这场演出的临时座席布局。');return;}state.event=event;state.venue={...state.venue,eventLayout:event.layout?.model||null};state.layout=event.layout?.model?'event':'end';renderStageOptions();for(const b of $('events-list').querySelectorAll('button'))b.classList.toggle('active',b===button);renderEventLayout();render();};wrap.append(button,link('官方详情 ↗',event.source));wrap.lastChild.className='event-source';if(event.layout?.mapVerification==='reference'){const mapLink=link('场次座位图参考 ↗',event.layout.source||event.layout.image);mapLink.className='event-source';wrap.append(mapLink);}$('events-list').append(wrap);}
+    if(!result.events.length)$('events-list').append(element('p',result.status==='unavailable'?'暂时无法取得官方活动列表。':'暂未取得可展示的近期演出。','muted'));
+    $('events-status').textContent=(result.refreshedAt?(result.acquisition==='manual-official-page-verification'?'人工核验缓存 ':'最近成功更新 ')+new Date(result.refreshedAt).toLocaleString():'尚无成功更新记录')+(['partial','stale'].includes(result.status)?' · 部分来源暂不可用':'');renderEventLayout();
+  }catch(error){if(version===loadVersion)$('events-list').replaceChildren(element('p','演出列表暂时不可用，请稍后重试。','muted'));}}
+function renderEventLayout(){const reference=state.venue?.geometry?.referenceLayout;if(reference){$('layout-source-note').textContent=reference.label+' · '+reference.note;$('layout-state').textContent='历史场次参考';$('event-layout-note').textContent='当前显示 '+reference.label+'。临时坐席、舞台与控制台只对应这份布局，不适用于其他演出。';return;}const event=state.event;const map=event?.layout?.mapVerification;const referenced=map==='reference';const unavailable=map==='unavailable';const model=event?.layout?.model;const source=state.venue?.seatLayout?(state.venue.sourceStage?'座位与舞台来自同一来源布局；未独立实测，也不代表本场演出。':'来源仅包含固定看台，未取得场次舞台坐标。'):'通用舞台仅用于探索视角，尺寸与位置不代表实际演出。';$('layout-source-note').textContent=model?`${model.label} · 来源：${model.provider||'公开票务座位图'} · ${model.confidence==='operator-traced'?'人工描摹，待现场独立校准':'来源校准'}`:source;$('layout-state').textContent=event?(model?'本场布局已接入':referenced?'有公开参考':unavailable?'座位图待发布':'布局待核实'):state.venue?.seatLayout?'来源布局预览':'通用预览';$('event-layout-note').textContent=event?(model?`${event.name}：已将公开座位图中可辨认的舞台位置接入 2D/3D、座位避让和距离计算。当前为人工描摹，演出制作方可能临时调整，仍需现场或官方图纸校准。`:referenced?`${event.name}：已找到公开票务座位图参考，但尚未取得可校准的场次舞台坐标，当前显示通用示意。`:unavailable?`${event.name}：演出已在官方场馆页面确认，但票务平台当前没有可用座位图；最终舞台和封区可能变化。`:`${event.name}：尚未取得可校准的场次舞台图，当前显示下方选择的通用布局。`):'可选择近期演出，查看场次与布局来源状态。';}
+async function saved(){if(!state.me?.user){open('login-dialog');return;}open('saved-dialog');$('saved-list').replaceChildren(element('p','正在加载…'));
+  try{const {positions}=await api('/api/positions');$('saved-list').replaceChildren();if(!positions.length)$('saved-list').append(element('p','还没有保存位置。先在地图中选择已有记录的排座。','muted'));
+    for(const item of positions){const wrap=element('article',undefined,'saved-item');wrap.append(element('strong',state.catalog.find(v=>v.id===item.venue_id)?.name||item.venue_id),element('p',`${item.section} 区 · ${item.row_token} 排 · ${item.seat_token} 座`));
+      const visit=element('button','查看位置');visit.onclick=async()=>{$('saved-dialog').close();await loadVenue(item.venue_id,item.layout||undefined);if(state.venueId!==item.venue_id)return;$('section').value=item.section;$('row').value=item.row_token;$('seat').value=item.seat_token;await locate();};
+      const remove=element('button','删除');remove.onclick=async()=>{try{await api('/api/positions/'+item.id,{method:'DELETE',body:{}});await saved();}catch(error){toast(message(error));}};wrap.append(visit,remove);$('saved-list').append(wrap);}
+  }catch(error){$('saved-list').replaceChildren(element('p',message(error)));}}
+
+for(const button of document.querySelectorAll('[data-close]'))button.onclick=()=>button.closest('dialog').close();
+for(const dialog of document.querySelectorAll('dialog'))dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close();}});
+$('ticket-form').onsubmit=e=>{e.preventDefault();locate();};$('venue').onchange=()=>{const venue=state.catalog.find(x=>x.id===$('venue').value);if(venue?.locked){$('venue').value=state.venueId;open('plan-dialog');}else loadVenue($('venue').value);};
+ $('stage-layout').onchange=()=>{const value=$('stage-layout').value;if(value==='event'&&state.event?.layout?.model){state.layout='event';}else if(state.venue?.seatLayouts)loadVenue(state.venueId,value);else{state.layout=value;state.venue={...state.venue,eventLayout:null};renderEventLayout();render();}};
+for(const mode of ['2d','3d'])$('mode-'+mode).onclick=()=>{state.mode=mode;render();viewer?.setMode(mode);};
+$('overview').onclick=()=>viewer?.overview();$('reset').onclick=()=>viewer?.overview(true);$('near').onclick=()=>viewer?.near();$('seat-view').onclick=()=>viewer?.seatView();
+for(const [id,action]of [['map-zoom-out',t=>zoomMap(t,.8)],['map-zoom-in',t=>zoomMap(t,1.25)],['map-rotate',t=>rotateMap(t,90)],['map-reset',resetMap]])$(id).onclick=()=>{if(!state.mapTransform)return;state.mapTransform=action(state.mapTransform);updateMapViewport();};
+for(const button of document.querySelectorAll('[data-zoom]'))button.onclick=()=>{viewer?.setZoom(button.dataset.zoom);for(const other of document.querySelectorAll('[data-zoom]'))other.classList.toggle('active',other===button);};
+$('roof-toggle').onclick=()=>{state.roofVisible=!state.roofVisible;viewer?.toggleRoof(state.roofVisible);render();};
+$('phone-toggle').onclick=()=>{state.phoneFrame=!state.phoneFrame;viewer?.togglePhoneFrame(state.phoneFrame);if(state.phoneFrame&&viewerCameraMode!=='seat')viewer?.seatView();renderViewControls();};
+function setExpandedView(value){
+  $('viewer').classList.toggle('is-expanded',value);document.body.classList.toggle('explorer-expanded',value);syncFullscreenButton();
+}
+function syncFullscreenButton(){
+  const expanded=!!document.fullscreenElement||$('viewer').classList.contains('is-expanded');
+  $('fullscreen').setAttribute('aria-pressed',String(expanded));$('fullscreen').setAttribute('aria-label',expanded?'退出全屏':'全屏查看');
+}
+async function toggleFullscreen(){
+  if(document.fullscreenElement){await document.exitFullscreen();syncFullscreenButton();return;}
+  if($('viewer').classList.contains('is-expanded')){setExpandedView(false);return;}
+  try{if(typeof $('viewer').requestFullscreen!=='function')throw new Error('unsupported');await $('viewer').requestFullscreen();syncFullscreenButton();}
+  catch{setExpandedView(true);}
+}
+$('fullscreen').onclick=toggleFullscreen;
+document.addEventListener('fullscreenchange',syncFullscreenButton);
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&$('viewer').classList.contains('is-expanded'))setExpandedView(false);});
+// Keep pointer gestures on the viewport, so panning never changes source XYZ.
+{
+ const svg=$('map'),pointers=new Map();let moved=false,pinch=0,origin=null;
+ const point=e=>({x:e.clientX,y:e.clientY});
+ svg.addEventListener('pointerdown',e=>{if(!state.mapTransform)return;pointers.set(e.pointerId,point(e));origin=point(e);if(pointers.size===1)moved=false;else moved=true;pinch=0;});
+ svg.addEventListener('pointermove',e=>{
+  const previous=pointers.get(e.pointerId);if(!previous||!state.mapTransform)return;
+  pointers.set(e.pointerId,point(e));
+  if(pointers.size===1&&!moved&&Math.hypot(e.clientX-origin.x,e.clientY-origin.y)<5)return;
+  moved=true;if(!svg.hasPointerCapture(e.pointerId))svg.setPointerCapture(e.pointerId);
+  if(pointers.size===2){const [a,b]=[...pointers.values()],distance=Math.hypot(a.x-b.x,a.y-b.y);if(pinch)state.mapTransform=zoomMap(state.mapTransform,distance/pinch);pinch=distance;}
+  else if(pointers.size===1){const matrix=svg.getScreenCTM();if(matrix){const a=new DOMPoint(previous.x,previous.y).matrixTransform(matrix.inverse()),b=new DOMPoint(e.clientX,e.clientY).matrixTransform(matrix.inverse());state.mapTransform=panMap(state.mapTransform,a.x-b.x,a.y-b.y);}}
+  updateMapViewport();
+ });
+ for(const name of ['pointerup','pointercancel','lostpointercapture'])svg.addEventListener(name,e=>{pointers.delete(e.pointerId);pinch=0;});
+ svg.addEventListener('click',e=>{if(moved&&e.detail!==0){e.preventDefault();e.stopImmediatePropagation();}},{capture:true});
+ svg.addEventListener('wheel',e=>{if(!state.mapTransform)return;e.preventDefault();state.mapTransform=zoomMap(state.mapTransform,Math.exp(-e.deltaY*.002));updateMapViewport();},{passive:false});
+ svg.addEventListener('keydown',e=>{if(!state.mapTransform||e.target!==svg)return;const actions={'+':t=>zoomMap(t,1.25),'=':t=>zoomMap(t,1.25),'-':t=>zoomMap(t,.8),'0':resetMap};if(actions[e.key]){e.preventDefault();state.mapTransform=actions[e.key](state.mapTransform);updateMapViewport();}});
+}
+$('account-button').onclick=()=>open(state.me?.user?'account-dialog':'login-dialog');$('plan-button').onclick=()=>open('plan-dialog');$('saved-button').onclick=saved;
+$('manage-plan').onclick=()=>open('plan-dialog');
+$('email-form').onsubmit=async e=>{e.preventDefault();$('email-submit').disabled=true;$('local-login').hidden=true;$('local-login').removeAttribute('href');$('email-feedback').textContent='正在发送…';try{const result=await api('/api/auth/email',{method:'POST',body:{email:$('email').value}});$('email-feedback').textContent=result.local?'登录链接已写入本机测试收件箱。':'登录链接已发送，请在 15 分钟内打开邮箱并继续。';
+  if(result.local&&state.me.providers.localInbox){const {messages}=await api('/api/dev/mailbox');if(messages[0]){const url=new URL(messages[0].url);if(url.origin===location.origin){$('local-login').href=url.href;$('local-login').hidden=false;}}}
+}catch(error){$('email-feedback').textContent=message(error);}finally{$('email-submit').disabled=!state.me.providers.email;}};
+async function google(){try{const result=await api('/api/auth/google/start',{method:'POST',body:{}});location.assign(result.url);}catch(error){toast(message(error));}}
+$('google-login').onclick=google;$('connect-google').onclick=google;
+$('confirm-login').onclick=async()=>{$('confirm-login').disabled=true;try{await api('/api/auth/email/verify',{method:'POST',body:{token:loginToken}});loginToken=null;history.replaceState(null,'',location.pathname);$('confirm-dialog').close();await refreshAccount();await loadCatalog();toast('登录成功。');}catch(error){$('confirm-feedback').textContent=message(error);}finally{$('confirm-login').disabled=false;}};
+$('logout').onclick=async()=>{try{await api('/api/auth/logout',{method:'POST',body:{}});$('account-dialog').close();await refreshAccount();await loadCatalog();if(!state.me.access.venueIds.includes(state.venueId))await loadVenue('tottenham');toast('已退出登录。');}catch(error){toast(message(error));}};
+for(const [button,path]of [['checkout','checkout'],['billing-portal','portal']])$(button).onclick=async()=>{if(!state.me?.user){open('login-dialog');return;}$(button).disabled=true;try{const result=await api('/api/billing/'+path,{method:'POST',body:{}});location.assign(result.url);}catch(error){$('billing-feedback').textContent=message(error);}finally{$(button).disabled=false;}};
+$('save-position').onclick=async()=>{if(!state.me?.user){open('login-dialog');return;}const r=state.result;if(r?.status!=='matched')return;try{await api('/api/positions',{method:'POST',body:{venueId:state.venueId,layout:state.venue?.seatLayout?.id,section:r.section,row:r.row,seat:r.seat,eventId:state.event?.id}});toast('位置已保存。');}catch(error){toast(message(error));}};
+try{
+  const {createViewer}=await import('./viewer.mjs');viewer=createViewer($('scene'),{onSection:chooseSection,onSample:chooseSample,onSeat:chooseEstimatedSeat,onMode:(mode,detail)=>{viewerCameraMode=mode;updateGestureHint();renderViewControls();if(detail?.zoom){for(const button of document.querySelectorAll('[data-zoom]'))button.classList.toggle('active',Math.abs(Number(button.dataset.zoom)-detail.zoom)<.01);}},onFailure:text=>{$('view-error').textContent=text;$('view-error').hidden=false;}});
+}catch{state.mode='2d';$('mode-3d').disabled=true;toast('此设备暂不能显示三维场景，已切换到二维地图。');}
+try{
+  const params=new URLSearchParams(location.search);loginToken=new URLSearchParams(location.hash.slice(1)).get('token');
+  await refreshAccount();await loadCatalog();
+  const initial=resolveInitialRoute(params,state.catalog);
+  await loadVenue(initial.venueId);const layoutReady=!params.has('layout')||await applyRequestedLayout(initial.layout);applyRequestedSection(initial.section);viewer?.setMode(state.mode);
+  if(initial.row&&initial.seat){$('row').value=initial.row;$('seat').value=initial.seat;if(layoutReady)await locate();else{state.result={status:'unknown-layout',section:$('section').value,row:initial.row,seat:initial.seat};render();}}
+  if(loginToken){history.replaceState(null,'',location.pathname+'?login=email');open('confirm-dialog');}
+  if(params.has('auth_error'))toast(messages[params.get('auth_error')]||'登录未完成，请重试。');
+  if(params.get('billing')==='success'){toast('支付已返回，订阅状态将在付款确认后更新。');let count=0;const timer=setInterval(async()=>{try{await refreshAccount();if(state.me.access.plan==='pro'){clearInterval(timer);await loadCatalog();toast('月订阅已生效。');}}catch{}if(++count>=10)clearInterval(timer);},2000);}
+}catch(error){$('venue-name').textContent='暂时无法载入场馆';toast('服务暂不可用，请检查连接并刷新。');}

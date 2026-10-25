@@ -1,0 +1,261 @@
+{
+  "id": "kbs-arena",
+  "name": "KBS Arena",
+  "city": "韩国 · 首尔",
+  "capacity": "原站目录未提供统一容量字段",
+  "source": "https://kbsarena.com/intro/viewKBSarena.do",
+  "sourceTitle": "REA 导出的公开场馆来源索引与参数化座位示意",
+  "sourceLinks": [
+    "https://kbsarena.com/intro/viewKBSarena.do",
+    "https://www.kbsarena.com/intro/viewKBSarenaSheet.do?type=arena"
+  ],
+  "accuracy": {
+    "sectionLabels": "source-layout-reference",
+    "completeSeatInventory": false,
+    "metricCalibrated": false,
+    "stage": "generic",
+    "position": "estimated",
+    "geometryBasis": "source-informed-parametric:plan",
+    "catalogStatus": "source-geometry-and-sections",
+    "seatDataStatus": "section-only",
+    "sourceLayout": "end",
+    "coverage": "10 个来源分区；0 条座位采样。区号来自公开布局参考。",
+    "reuse": "来源页面可公开访问；未建立商业图形、模型或座位数据库再分发许可，发布前需逐源复核。",
+    "sourceDate": "REA capture 2026-10-24",
+    "sourceInventory": {
+      "venueReferenceUrl": "https://kbsarena.com/intro/viewKBSarena.do",
+      "mapReferenceUrl": "https://www.kbsarena.com/intro/viewKBSarenaSheet.do?type=arena",
+      "sectionSource": "https://www.kbsarena.com/intro/viewKBSarenaSheet.do?type=arena",
+      "geometryEvidenceLabel": "plan",
+      "note": "Missing asset URL does not establish absence of generated seat geometry."
+    },
+    "seatAsset": null
+  },
+  "tiers": [
+    [
+      11,
+      17,
+      1.2,
+      7,
+      7
+    ],
+    [
+      1,
+      1,
+      0,
+      1,
+      0
+    ]
+  ],
+  "geometry": {
+    "shape": "rounded",
+    "coordinateSystem": "profile-inner-radius",
+    "power": 0.62,
+    "oneSided": false,
+    "stage": {
+      "width": 12,
+      "depth": 6,
+      "z": 13,
+      "height": 1.5
+    },
+    "floor": [
+      20,
+      32
+    ],
+    "rectangularFloor": true,
+    "openBowl": true,
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "固定看台",
+        "steps": 15
+      },
+      {
+        "id": "floor",
+        "name": "J 区内场",
+        "steps": 12
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "A",
+      "ticketLabels": [
+        "A"
+      ],
+      "sourceLabel": "A 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 5.497787143782138,
+      "halfAngle": 0.22689280275926285,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kbsarena.com/intro/viewKBSarenaSheet.do?type=arena"
+      }
+    },
+    {
+      "id": "B",
+      "ticketLabels": [
+        "B"
+      ],
+      "sourceLabel": "B 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 4.852015320544236,
+      "halfAngle": 0.24434609527920614,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kbsarena.com/intro/viewKBSarenaSheet.do?type=arena"
+      }
+    },
+    {
+      "id": "C",
+      "ticketLabels": [
+        "C"
+      ],
+      "sourceLabel": "C 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 4.1887902047863905,
+      "halfAngle": 0.24434609527920614,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kbsarena.com/intro/viewKBSarenaSheet.do?type=arena"
+      }
+    },
+    {
+      "id": "D",
+      "ticketLabels": [
+        "D"
+      ],
+      "sourceLabel": "D 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.7000980142279785,
+      "halfAngle": 0.20943951023931953,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kbsarena.com/intro/viewKBSarenaSheet.do?type=arena"
+      }
+    },
+    {
+      "id": "E",
+      "ticketLabels": [
+        "E"
+      ],
+      "sourceLabel": "E 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.24434609527920614,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kbsarena.com/intro/viewKBSarenaSheet.do?type=arena"
+      }
+    },
+    {
+      "id": "F",
+      "ticketLabels": [
+        "F"
+      ],
+      "sourceLabel": "F 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.5830872929516078,
+      "halfAngle": 0.20943951023931953,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kbsarena.com/intro/viewKBSarenaSheet.do?type=arena"
+      }
+    },
+    {
+      "id": "G",
+      "ticketLabels": [
+        "G"
+      ],
+      "sourceLabel": "G 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.0943951023931953,
+      "halfAngle": 0.24434609527920614,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kbsarena.com/intro/viewKBSarenaSheet.do?type=arena"
+      }
+    },
+    {
+      "id": "H",
+      "ticketLabels": [
+        "H"
+      ],
+      "sourceLabel": "H 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.43116998663535,
+      "halfAngle": 0.24434609527920614,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kbsarena.com/intro/viewKBSarenaSheet.do?type=arena"
+      }
+    },
+    {
+      "id": "I",
+      "ticketLabels": [
+        "I"
+      ],
+      "sourceLabel": "I 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.7853981633974483,
+      "halfAngle": 0.22689280275926285,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kbsarena.com/intro/viewKBSarenaSheet.do?type=arena"
+      }
+    },
+    {
+      "id": "J",
+      "ticketLabels": [
+        "J"
+      ],
+      "sourceLabel": "J 区",
+      "levelName": "Level 2",
+      "tier": 1,
+      "block": {
+        "x": 0,
+        "z": -1,
+        "width": 14,
+        "depth": 20,
+        "base": 0,
+        "facing": -1
+      },
+      "angle": 0,
+      "halfAngle": 0.012,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.kbsarena.com/intro/viewKBSarenaSheet.do?type=arena"
+      }
+    }
+  ],
+  "importedAt": "2026-10-24T00:00:00.000Z"
+}

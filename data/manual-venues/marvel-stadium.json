@@ -1,0 +1,903 @@
+{
+  "id": "marvel-stadium",
+  "name": "Marvel Stadium · 漫威体育场",
+  "city": "澳大利亚 · 墨尔本",
+  "capacity": "原站目录未提供统一容量字段",
+  "source": "https://www.marvelstadium.com.au/about-the-stadium/",
+  "sourceTitle": "REA 导出的公开场馆来源索引与参数化座位示意",
+  "sourceLinks": [
+    "https://www.marvelstadium.com.au/about-the-stadium/",
+    "https://resources.marvelstadium.mediaservices.com.au/marvelstadium/document/2026/05/01/229e0479-1ed7-4192-82bb-8a712de920c9/Marvel-Stadium-Public-Stadium-Map_APR26.pdf"
+  ],
+  "accuracy": {
+    "sectionLabels": "source-layout-reference",
+    "completeSeatInventory": false,
+    "metricCalibrated": false,
+    "stage": "generic",
+    "position": "estimated",
+    "geometryBasis": "source-informed-parametric:plan",
+    "catalogStatus": "source-geometry-and-sections",
+    "seatDataStatus": "section-only",
+    "sourceLayout": "end",
+    "coverage": "48 个来源分区；0 条座位采样。区号来自公开布局参考。",
+    "reuse": "来源页面可公开访问；未建立商业图形、模型或座位数据库再分发许可，发布前需逐源复核。",
+    "sourceDate": "REA capture 2026-10-24",
+    "sourceInventory": {
+      "venueReferenceUrl": "https://www.marvelstadium.com.au/about-the-stadium/",
+      "mapReferenceUrl": "https://resources.marvelstadium.mediaservices.com.au/marvelstadium/document/2026/05/01/229e0479-1ed7-4192-82bb-8a712de920c9/Marvel-Stadium-Public-Stadium-Map_APR26.pdf",
+      "sectionSource": "https://resources.marvelstadium.mediaservices.com.au/marvelstadium/document/2026/05/01/229e0479-1ed7-4192-82bb-8a712de920c9/Marvel-Stadium-Public-Stadium-Map_APR26.pdf",
+      "geometryEvidenceLabel": "plan",
+      "note": "Missing asset URL does not establish absence of generated seat geometry."
+    },
+    "seatAsset": null
+  },
+  "tiers": [
+    [
+      65,
+      81,
+      1,
+      21,
+      11
+    ],
+    [
+      81,
+      97,
+      15,
+      10,
+      7
+    ],
+    [
+      88,
+      104,
+      27,
+      23,
+      17
+    ]
+  ],
+  "geometry": {
+    "shape": "oval",
+    "coordinateSystem": "profile-inner-radius",
+    "power": 1,
+    "oneSided": false,
+    "floor": [
+      128,
+      160
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "Level 1",
+        "steps": 28
+      },
+      {
+        "id": "middle",
+        "name": "Level 2",
+        "steps": 16
+      },
+      {
+        "id": "upper",
+        "name": "Level 3",
+        "steps": 30
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "aisle-1",
+      "ticketLabels": [
+        "aisle-1"
+      ],
+      "sourceLabel": "Level 3 · Aisle 1 通道",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 0,
+      "halfAngle": 0.061959188445798695,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://resources.marvelstadium.mediaservices.com.au/marvelstadium/document/2026/05/01/229e0479-1ed7-4192-82bb-8a712de920c9/Marvel-Stadium-Public-Stadium-Map_APR26.pdf"
+      }
+    },
+    {
+      "id": "aisle-2",
+      "ticketLabels": [
+        "aisle-2"
+      ],
+      "sourceLabel": "Level 3 · Aisle 2 通道",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 0.1308996938995747,
+      "halfAngle": 0.061959188445798695,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://resources.marvelstadium.mediaservices.com.au/marvelstadium/document/2026/05/01/229e0479-1ed7-4192-82bb-8a712de920c9/Marvel-Stadium-Public-Stadium-Map_APR26.pdf"
+      }
+    },
+    {
+      "id": "aisle-3",
+      "ticketLabels": [
+        "aisle-3"
+      ],
+      "sourceLabel": "Level 3 · Aisle 3 通道",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 0.2617993877991494,
+      "halfAngle": 0.061959188445798695,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://resources.marvelstadium.mediaservices.com.au/marvelstadium/document/2026/05/01/229e0479-1ed7-4192-82bb-8a712de920c9/Marvel-Stadium-Public-Stadium-Map_APR26.pdf"
+      }
+    },
+    {
+      "id": "aisle-4",
+      "ticketLabels": [
+        "aisle-4"
+      ],
+      "sourceLabel": "Level 3 · Aisle 4 通道",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 0.39269908169872414,
+      "halfAngle": 0.061959188445798695,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://resources.marvelstadium.mediaservices.com.au/marvelstadium/document/2026/05/01/229e0479-1ed7-4192-82bb-8a712de920c9/Marvel-Stadium-Public-Stadium-Map_APR26.pdf"
+      }
+    },
+    {
+      "id": "aisle-5",
+      "ticketLabels": [
+        "aisle-5"
+      ],
+      "sourceLabel": "Level 3 · Aisle 5 通道",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 0.5235987755982988,
+      "halfAngle": 0.061959188445798695,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://resources.marvelstadium.mediaservices.com.au/marvelstadium/document/2026/05/01/229e0479-1ed7-4192-82bb-8a712de920c9/Marvel-Stadium-Public-Stadium-Map_APR26.pdf"
+      }
+    },
+    {
+      "id": "aisle-6",
+      "ticketLabels": [
+        "aisle-6"
+      ],
+      "sourceLabel": "Level 3 · Aisle 6 通道",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 0.6544984694978736,
+      "halfAngle": 0.061959188445798695,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://resources.marvelstadium.mediaservices.com.au/marvelstadium/document/2026/05/01/229e0479-1ed7-4192-82bb-8a712de920c9/Marvel-Stadium-Public-Stadium-Map_APR26.pdf"
+      }
+    },
+    {
+      "id": "aisle-7",
+      "ticketLabels": [
+        "aisle-7"
+      ],
+      "sourceLabel": "Level 3 · Aisle 7 通道",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 0.7853981633974483,
+      "halfAngle": 0.061959188445798695,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://resources.marvelstadium.mediaservices.com.au/marvelstadium/document/2026/05/01/229e0479-1ed7-4192-82bb-8a712de920c9/Marvel-Stadium-Public-Stadium-Map_APR26.pdf"
+      }
+    },
+    {
+      "id": "aisle-8",
+      "ticketLabels": [
+        "aisle-8"
+      ],
+      "sourceLabel": "Level 3 · Aisle 8 通道",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 0.9162978572970231,
+      "halfAngle": 0.061959188445798695,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://resources.marvelstadium.mediaservices.com.au/marvelstadium/document/2026/05/01/229e0479-1ed7-4192-82bb-8a712de920c9/Marvel-Stadium-Public-Stadium-Map_APR26.pdf"
+      }
+    },
+    {
+      "id": "aisle-9",
+      "ticketLabels": [
+        "aisle-9"
+      ],
+      "sourceLabel": "Level 3 · Aisle 9 通道",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 1.0471975511965976,
+      "halfAngle": 0.061959188445798695,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://resources.marvelstadium.mediaservices.com.au/marvelstadium/document/2026/05/01/229e0479-1ed7-4192-82bb-8a712de920c9/Marvel-Stadium-Public-Stadium-Map_APR26.pdf"
+      }
+    },
+    {
+      "id": "aisle-10",
+      "ticketLabels": [
+        "aisle-10"
+      ],
+      "sourceLabel": "Level 3 · Aisle 10 通道",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 1.1780972450961724,
+      "halfAngle": 0.061959188445798695,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://resources.marvelstadium.mediaservices.com.au/marvelstadium/document/2026/05/01/229e0479-1ed7-4192-82bb-8a712de920c9/Marvel-Stadium-Public-Stadium-Map_APR26.pdf"
+      }
+    },
+    {
+      "id": "aisle-11",
+      "ticketLabels": [
+        "aisle-11"
+      ],
+      "sourceLabel": "Level 3 · Aisle 11 通道",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 1.3089969389957472,
+      "halfAngle": 0.061959188445798695,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://resources.marvelstadium.mediaservices.com.au/marvelstadium/document/2026/05/01/229e0479-1ed7-4192-82bb-8a712de920c9/Marvel-Stadium-Public-Stadium-Map_APR26.pdf"
+      }
+    },
+    {
+      "id": "aisle-12",
+      "ticketLabels": [
+        "aisle-12"
+      ],
+      "sourceLabel": "Level 3 · Aisle 12 通道",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 1.4398966328953218,
+      "halfAngle": 0.061959188445798695,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://resources.marvelstadium.mediaservices.com.au/marvelstadium/document/2026/05/01/229e0479-1ed7-4192-82bb-8a712de920c9/Marvel-Stadium-Public-Stadium-Map_APR26.pdf"
+      }
+    },
+    {
+      "id": "aisle-13",
+      "ticketLabels": [
+        "aisle-13"
+      ],
+      "sourceLabel": "Level 3 · Aisle 13 通道",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 1.5707963267948966,
+      "halfAngle": 0.061959188445798695,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://resources.marvelstadium.mediaservices.com.au/marvelstadium/document/2026/05/01/229e0479-1ed7-4192-82bb-8a712de920c9/Marvel-Stadium-Public-Stadium-Map_APR26.pdf"
+      }
+    },
+    {
+      "id": "aisle-14",
+      "ticketLabels": [
+        "aisle-14"
+      ],
+      "sourceLabel": "Level 3 · Aisle 14 通道",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 1.7016960206944711,
+      "halfAngle": 0.061959188445798695,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://resources.marvelstadium.mediaservices.com.au/marvelstadium/document/2026/05/01/229e0479-1ed7-4192-82bb-8a712de920c9/Marvel-Stadium-Public-Stadium-Map_APR26.pdf"
+      }
+    },
+    {
+      "id": "aisle-15",
+      "ticketLabels": [
+        "aisle-15"
+      ],
+      "sourceLabel": "Level 3 · Aisle 15 通道",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 1.8325957145940461,
+      "halfAngle": 0.061959188445798695,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://resources.marvelstadium.mediaservices.com.au/marvelstadium/document/2026/05/01/229e0479-1ed7-4192-82bb-8a712de920c9/Marvel-Stadium-Public-Stadium-Map_APR26.pdf"
+      }
+    },
+    {
+      "id": "aisle-16",
+      "ticketLabels": [
+        "aisle-16"
+      ],
+      "sourceLabel": "Level 3 · Aisle 16 通道",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 1.9634954084936207,
+      "halfAngle": 0.061959188445798695,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://resources.marvelstadium.mediaservices.com.au/marvelstadium/document/2026/05/01/229e0479-1ed7-4192-82bb-8a712de920c9/Marvel-Stadium-Public-Stadium-Map_APR26.pdf"
+      }
+    },
+    {
+      "id": "aisle-17",
+      "ticketLabels": [
+        "aisle-17"
+      ],
+      "sourceLabel": "Level 3 · Aisle 17 通道",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 2.0943951023931953,
+      "halfAngle": 0.061959188445798695,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://resources.marvelstadium.mediaservices.com.au/marvelstadium/document/2026/05/01/229e0479-1ed7-4192-82bb-8a712de920c9/Marvel-Stadium-Public-Stadium-Map_APR26.pdf"
+      }
+    },
+    {
+      "id": "aisle-18",
+      "ticketLabels": [
+        "aisle-18"
+      ],
+      "sourceLabel": "Level 3 · Aisle 18 通道",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 2.2252947962927703,
+      "halfAngle": 0.061959188445798695,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://resources.marvelstadium.mediaservices.com.au/marvelstadium/document/2026/05/01/229e0479-1ed7-4192-82bb-8a712de920c9/Marvel-Stadium-Public-Stadium-Map_APR26.pdf"
+      }
+    },
+    {
+      "id": "aisle-19",
+      "ticketLabels": [
+        "aisle-19"
+      ],
+      "sourceLabel": "Level 3 · Aisle 19 通道",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 2.356194490192345,
+      "halfAngle": 0.061959188445798695,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://resources.marvelstadium.mediaservices.com.au/marvelstadium/document/2026/05/01/229e0479-1ed7-4192-82bb-8a712de920c9/Marvel-Stadium-Public-Stadium-Map_APR26.pdf"
+      }
+    },
+    {
+      "id": "aisle-20",
+      "ticketLabels": [
+        "aisle-20"
+      ],
+      "sourceLabel": "Level 3 · Aisle 20 通道",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 2.48709418409192,
+      "halfAngle": 0.061959188445798695,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://resources.marvelstadium.mediaservices.com.au/marvelstadium/document/2026/05/01/229e0479-1ed7-4192-82bb-8a712de920c9/Marvel-Stadium-Public-Stadium-Map_APR26.pdf"
+      }
+    },
+    {
+      "id": "aisle-21",
+      "ticketLabels": [
+        "aisle-21"
+      ],
+      "sourceLabel": "Level 3 · Aisle 21 通道",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 2.6179938779914944,
+      "halfAngle": 0.061959188445798695,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://resources.marvelstadium.mediaservices.com.au/marvelstadium/document/2026/05/01/229e0479-1ed7-4192-82bb-8a712de920c9/Marvel-Stadium-Public-Stadium-Map_APR26.pdf"
+      }
+    },
+    {
+      "id": "aisle-22",
+      "ticketLabels": [
+        "aisle-22"
+      ],
+      "sourceLabel": "Level 3 · Aisle 22 通道",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 2.748893571891069,
+      "halfAngle": 0.061959188445798695,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://resources.marvelstadium.mediaservices.com.au/marvelstadium/document/2026/05/01/229e0479-1ed7-4192-82bb-8a712de920c9/Marvel-Stadium-Public-Stadium-Map_APR26.pdf"
+      }
+    },
+    {
+      "id": "aisle-23",
+      "ticketLabels": [
+        "aisle-23"
+      ],
+      "sourceLabel": "Level 3 · Aisle 23 通道",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 2.8797932657906435,
+      "halfAngle": 0.061959188445798695,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://resources.marvelstadium.mediaservices.com.au/marvelstadium/document/2026/05/01/229e0479-1ed7-4192-82bb-8a712de920c9/Marvel-Stadium-Public-Stadium-Map_APR26.pdf"
+      }
+    },
+    {
+      "id": "aisle-24",
+      "ticketLabels": [
+        "aisle-24"
+      ],
+      "sourceLabel": "Level 3 · Aisle 24 通道",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 3.0106929596902186,
+      "halfAngle": 0.061959188445798695,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://resources.marvelstadium.mediaservices.com.au/marvelstadium/document/2026/05/01/229e0479-1ed7-4192-82bb-8a712de920c9/Marvel-Stadium-Public-Stadium-Map_APR26.pdf"
+      }
+    },
+    {
+      "id": "aisle-25",
+      "ticketLabels": [
+        "aisle-25"
+      ],
+      "sourceLabel": "Level 3 · Aisle 25 通道",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.061959188445798695,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://resources.marvelstadium.mediaservices.com.au/marvelstadium/document/2026/05/01/229e0479-1ed7-4192-82bb-8a712de920c9/Marvel-Stadium-Public-Stadium-Map_APR26.pdf"
+      }
+    },
+    {
+      "id": "aisle-26",
+      "ticketLabels": [
+        "aisle-26"
+      ],
+      "sourceLabel": "Level 3 · Aisle 26 通道",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 3.2724923474893677,
+      "halfAngle": 0.061959188445798695,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://resources.marvelstadium.mediaservices.com.au/marvelstadium/document/2026/05/01/229e0479-1ed7-4192-82bb-8a712de920c9/Marvel-Stadium-Public-Stadium-Map_APR26.pdf"
+      }
+    },
+    {
+      "id": "aisle-27",
+      "ticketLabels": [
+        "aisle-27"
+      ],
+      "sourceLabel": "Level 3 · Aisle 27 通道",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 3.4033920413889422,
+      "halfAngle": 0.061959188445798695,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://resources.marvelstadium.mediaservices.com.au/marvelstadium/document/2026/05/01/229e0479-1ed7-4192-82bb-8a712de920c9/Marvel-Stadium-Public-Stadium-Map_APR26.pdf"
+      }
+    },
+    {
+      "id": "aisle-28",
+      "ticketLabels": [
+        "aisle-28"
+      ],
+      "sourceLabel": "Level 3 · Aisle 28 通道",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 3.534291735288517,
+      "halfAngle": 0.061959188445798695,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://resources.marvelstadium.mediaservices.com.au/marvelstadium/document/2026/05/01/229e0479-1ed7-4192-82bb-8a712de920c9/Marvel-Stadium-Public-Stadium-Map_APR26.pdf"
+      }
+    },
+    {
+      "id": "aisle-29",
+      "ticketLabels": [
+        "aisle-29"
+      ],
+      "sourceLabel": "Level 3 · Aisle 29 通道",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 3.6651914291880923,
+      "halfAngle": 0.061959188445798695,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://resources.marvelstadium.mediaservices.com.au/marvelstadium/document/2026/05/01/229e0479-1ed7-4192-82bb-8a712de920c9/Marvel-Stadium-Public-Stadium-Map_APR26.pdf"
+      }
+    },
+    {
+      "id": "aisle-30",
+      "ticketLabels": [
+        "aisle-30"
+      ],
+      "sourceLabel": "Level 3 · Aisle 30 通道",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 3.796091123087667,
+      "halfAngle": 0.061959188445798695,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://resources.marvelstadium.mediaservices.com.au/marvelstadium/document/2026/05/01/229e0479-1ed7-4192-82bb-8a712de920c9/Marvel-Stadium-Public-Stadium-Map_APR26.pdf"
+      }
+    },
+    {
+      "id": "aisle-31",
+      "ticketLabels": [
+        "aisle-31"
+      ],
+      "sourceLabel": "Level 3 · Aisle 31 通道",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 3.9269908169872414,
+      "halfAngle": 0.061959188445798695,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://resources.marvelstadium.mediaservices.com.au/marvelstadium/document/2026/05/01/229e0479-1ed7-4192-82bb-8a712de920c9/Marvel-Stadium-Public-Stadium-Map_APR26.pdf"
+      }
+    },
+    {
+      "id": "aisle-32",
+      "ticketLabels": [
+        "aisle-32"
+      ],
+      "sourceLabel": "Level 3 · Aisle 32 通道",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 4.057890510886816,
+      "halfAngle": 0.061959188445798695,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://resources.marvelstadium.mediaservices.com.au/marvelstadium/document/2026/05/01/229e0479-1ed7-4192-82bb-8a712de920c9/Marvel-Stadium-Public-Stadium-Map_APR26.pdf"
+      }
+    },
+    {
+      "id": "aisle-33",
+      "ticketLabels": [
+        "aisle-33"
+      ],
+      "sourceLabel": "Level 3 · Aisle 33 通道",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 4.1887902047863905,
+      "halfAngle": 0.061959188445798695,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://resources.marvelstadium.mediaservices.com.au/marvelstadium/document/2026/05/01/229e0479-1ed7-4192-82bb-8a712de920c9/Marvel-Stadium-Public-Stadium-Map_APR26.pdf"
+      }
+    },
+    {
+      "id": "aisle-34",
+      "ticketLabels": [
+        "aisle-34"
+      ],
+      "sourceLabel": "Level 3 · Aisle 34 通道",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 4.319689898685966,
+      "halfAngle": 0.061959188445798695,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://resources.marvelstadium.mediaservices.com.au/marvelstadium/document/2026/05/01/229e0479-1ed7-4192-82bb-8a712de920c9/Marvel-Stadium-Public-Stadium-Map_APR26.pdf"
+      }
+    },
+    {
+      "id": "aisle-35",
+      "ticketLabels": [
+        "aisle-35"
+      ],
+      "sourceLabel": "Level 3 · Aisle 35 通道",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 4.4505895925855405,
+      "halfAngle": 0.061959188445798695,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://resources.marvelstadium.mediaservices.com.au/marvelstadium/document/2026/05/01/229e0479-1ed7-4192-82bb-8a712de920c9/Marvel-Stadium-Public-Stadium-Map_APR26.pdf"
+      }
+    },
+    {
+      "id": "aisle-36",
+      "ticketLabels": [
+        "aisle-36"
+      ],
+      "sourceLabel": "Level 3 · Aisle 36 通道",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 4.581489286485115,
+      "halfAngle": 0.061959188445798695,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://resources.marvelstadium.mediaservices.com.au/marvelstadium/document/2026/05/01/229e0479-1ed7-4192-82bb-8a712de920c9/Marvel-Stadium-Public-Stadium-Map_APR26.pdf"
+      }
+    },
+    {
+      "id": "aisle-37",
+      "ticketLabels": [
+        "aisle-37"
+      ],
+      "sourceLabel": "Level 3 · Aisle 37 通道",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 4.71238898038469,
+      "halfAngle": 0.061959188445798695,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://resources.marvelstadium.mediaservices.com.au/marvelstadium/document/2026/05/01/229e0479-1ed7-4192-82bb-8a712de920c9/Marvel-Stadium-Public-Stadium-Map_APR26.pdf"
+      }
+    },
+    {
+      "id": "aisle-38",
+      "ticketLabels": [
+        "aisle-38"
+      ],
+      "sourceLabel": "Level 3 · Aisle 38 通道",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 4.843288674284265,
+      "halfAngle": 0.061959188445798695,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://resources.marvelstadium.mediaservices.com.au/marvelstadium/document/2026/05/01/229e0479-1ed7-4192-82bb-8a712de920c9/Marvel-Stadium-Public-Stadium-Map_APR26.pdf"
+      }
+    },
+    {
+      "id": "aisle-39",
+      "ticketLabels": [
+        "aisle-39"
+      ],
+      "sourceLabel": "Level 3 · Aisle 39 通道",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 4.97418836818384,
+      "halfAngle": 0.061959188445798695,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://resources.marvelstadium.mediaservices.com.au/marvelstadium/document/2026/05/01/229e0479-1ed7-4192-82bb-8a712de920c9/Marvel-Stadium-Public-Stadium-Map_APR26.pdf"
+      }
+    },
+    {
+      "id": "aisle-40",
+      "ticketLabels": [
+        "aisle-40"
+      ],
+      "sourceLabel": "Level 3 · Aisle 40 通道",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 5.105088062083414,
+      "halfAngle": 0.061959188445798695,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://resources.marvelstadium.mediaservices.com.au/marvelstadium/document/2026/05/01/229e0479-1ed7-4192-82bb-8a712de920c9/Marvel-Stadium-Public-Stadium-Map_APR26.pdf"
+      }
+    },
+    {
+      "id": "aisle-41",
+      "ticketLabels": [
+        "aisle-41"
+      ],
+      "sourceLabel": "Level 3 · Aisle 41 通道",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 5.235987755982989,
+      "halfAngle": 0.061959188445798695,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://resources.marvelstadium.mediaservices.com.au/marvelstadium/document/2026/05/01/229e0479-1ed7-4192-82bb-8a712de920c9/Marvel-Stadium-Public-Stadium-Map_APR26.pdf"
+      }
+    },
+    {
+      "id": "aisle-42",
+      "ticketLabels": [
+        "aisle-42"
+      ],
+      "sourceLabel": "Level 3 · Aisle 42 通道",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 5.366887449882563,
+      "halfAngle": 0.061959188445798695,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://resources.marvelstadium.mediaservices.com.au/marvelstadium/document/2026/05/01/229e0479-1ed7-4192-82bb-8a712de920c9/Marvel-Stadium-Public-Stadium-Map_APR26.pdf"
+      }
+    },
+    {
+      "id": "aisle-43",
+      "ticketLabels": [
+        "aisle-43"
+      ],
+      "sourceLabel": "Level 3 · Aisle 43 通道",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 5.497787143782138,
+      "halfAngle": 0.061959188445798695,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://resources.marvelstadium.mediaservices.com.au/marvelstadium/document/2026/05/01/229e0479-1ed7-4192-82bb-8a712de920c9/Marvel-Stadium-Public-Stadium-Map_APR26.pdf"
+      }
+    },
+    {
+      "id": "aisle-44",
+      "ticketLabels": [
+        "aisle-44"
+      ],
+      "sourceLabel": "Level 3 · Aisle 44 通道",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 5.6286868376817125,
+      "halfAngle": 0.061959188445798695,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://resources.marvelstadium.mediaservices.com.au/marvelstadium/document/2026/05/01/229e0479-1ed7-4192-82bb-8a712de920c9/Marvel-Stadium-Public-Stadium-Map_APR26.pdf"
+      }
+    },
+    {
+      "id": "aisle-45",
+      "ticketLabels": [
+        "aisle-45"
+      ],
+      "sourceLabel": "Level 3 · Aisle 45 通道",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 5.759586531581287,
+      "halfAngle": 0.061959188445798695,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://resources.marvelstadium.mediaservices.com.au/marvelstadium/document/2026/05/01/229e0479-1ed7-4192-82bb-8a712de920c9/Marvel-Stadium-Public-Stadium-Map_APR26.pdf"
+      }
+    },
+    {
+      "id": "aisle-46",
+      "ticketLabels": [
+        "aisle-46"
+      ],
+      "sourceLabel": "Level 3 · Aisle 46 通道",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 5.8904862254808625,
+      "halfAngle": 0.061959188445798695,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://resources.marvelstadium.mediaservices.com.au/marvelstadium/document/2026/05/01/229e0479-1ed7-4192-82bb-8a712de920c9/Marvel-Stadium-Public-Stadium-Map_APR26.pdf"
+      }
+    },
+    {
+      "id": "aisle-47",
+      "ticketLabels": [
+        "aisle-47"
+      ],
+      "sourceLabel": "Level 3 · Aisle 47 通道",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 6.021385919380437,
+      "halfAngle": 0.061959188445798695,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://resources.marvelstadium.mediaservices.com.au/marvelstadium/document/2026/05/01/229e0479-1ed7-4192-82bb-8a712de920c9/Marvel-Stadium-Public-Stadium-Map_APR26.pdf"
+      }
+    },
+    {
+      "id": "aisle-48",
+      "ticketLabels": [
+        "aisle-48"
+      ],
+      "sourceLabel": "Level 3 · Aisle 48 通道",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 6.152285613280012,
+      "halfAngle": 0.061959188445798695,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://resources.marvelstadium.mediaservices.com.au/marvelstadium/document/2026/05/01/229e0479-1ed7-4192-82bb-8a712de920c9/Marvel-Stadium-Public-Stadium-Map_APR26.pdf"
+      }
+    }
+  ],
+  "importedAt": "2026-10-24T00:00:00.000Z"
+}

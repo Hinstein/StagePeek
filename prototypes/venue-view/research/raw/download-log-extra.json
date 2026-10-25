@@ -1,0 +1,23 @@
+[
+  {
+    "file": "sofi-maps-current.html",
+    "url": "https://www.sofistadium.com/plan-your-visit/maps",
+    "exit": 0,
+    "error": "",
+    "bytes": 15211
+  },
+  {
+    "file": "metlife-map-2026.jpg",
+    "url": "https://www.metlifestadium.com/assets/img/MetLife-Stadium-Seating-Map-3-2-26-a168abb39c.jpg",
+    "exit": 0,
+    "error": "",
+    "bytes": 614810
+  },
+  {
+    "file": "tottenham-nfl-2026.pdf",
+    "url": "https://static.www.nfl.com/image/upload/league/vd0tfu5j0qg68zjazhl0.pdf",
+    "exit": 35,
+    "error": "curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to static.www.nfl.com:443",
+    "bytes": null
+  }
+]

@@ -1,0 +1,1909 @@
+{
+  "id": "taipei-dome",
+  "name": "台北大巨蛋",
+  "city": "中国台湾 · 台北",
+  "capacity": "原站目录未提供统一容量字段",
+  "source": "https://artist.ygfamily.com/ARTISTS/BIGBANG/concert/worldtour/index.html",
+  "sourceTitle": "REA 导出的公开场馆来源索引与参数化座位示意",
+  "sourceLinks": [
+    "https://artist.ygfamily.com/ARTISTS/BIGBANG/concert/worldtour/index.html",
+    "https://www.farglorydome.com.tw/park-detail/map/",
+    "https://cpbl.com.tw/field/cont?sid=0O061544675303751530"
+  ],
+  "accuracy": {
+    "sectionLabels": "source-layout-reference",
+    "completeSeatInventory": false,
+    "metricCalibrated": false,
+    "stage": "generic",
+    "position": "estimated",
+    "geometryBasis": "source-informed-parametric:dimension",
+    "catalogStatus": "source-geometry-and-sections",
+    "seatDataStatus": "section-only",
+    "sourceLayout": "center",
+    "coverage": "106 个来源分区；0 条座位采样。区号来自公开布局参考。",
+    "reuse": "来源页面可公开访问；未建立商业图形、模型或座位数据库再分发许可，发布前需逐源复核。",
+    "sourceDate": "REA capture 2026-10-24",
+    "sourceInventory": {
+      "venueReferenceUrl": "https://artist.ygfamily.com/ARTISTS/BIGBANG/concert/worldtour/index.html",
+      "mapReferenceUrl": null,
+      "sectionSource": "https://www.farglorydome.com.tw/park-detail/map/",
+      "geometryEvidenceLabel": "dimension",
+      "note": "Missing asset URL does not establish absence of generated seat geometry."
+    },
+    "seatAsset": null
+  },
+  "tiers": [
+    [
+      84,
+      84,
+      1,
+      24,
+      10
+    ],
+    [
+      100,
+      100,
+      15,
+      12,
+      7
+    ],
+    [
+      107,
+      107,
+      27,
+      17,
+      12
+    ],
+    [
+      117,
+      117,
+      42,
+      9,
+      7
+    ]
+  ],
+  "geometry": {
+    "shape": "baseball",
+    "coordinateSystem": "profile-inner-radius",
+    "power": 1,
+    "oneSided": false,
+    "radial": [
+      52,
+      51,
+      76,
+      83,
+      84
+    ],
+    "floor": [
+      148,
+      156
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "L1",
+        "steps": 30
+      },
+      {
+        "id": "middle",
+        "name": "L2",
+        "steps": 16
+      },
+      {
+        "id": "upper",
+        "name": "L4",
+        "steps": 23
+      },
+      {
+        "id": "top",
+        "name": "L5",
+        "steps": 13
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "102",
+      "ticketLabels": [
+        "102"
+      ],
+      "sourceLabel": "102 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.1816615649929116,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "103",
+      "ticketLabels": [
+        "103"
+      ],
+      "sourceLabel": "103 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.9833223487962761,
+      "halfAngle": 0.08725773595345651,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "104",
+      "ticketLabels": [
+        "104"
+      ],
+      "sourceLabel": "104 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.7850005858921605,
+      "halfAngle": 0.08725773595345651,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "105",
+      "ticketLabels": [
+        "105"
+      ],
+      "sourceLabel": "105 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.5866613696955252,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "106",
+      "ticketLabels": [
+        "106"
+      ],
+      "sourceLabel": "106 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.3883221534988894,
+      "halfAngle": 0.08725773595345651,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "107",
+      "ticketLabels": [
+        "107"
+      ],
+      "sourceLabel": "107 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.1900003905947738,
+      "halfAngle": 0.08725773595345651,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "108",
+      "ticketLabels": [
+        "108"
+      ],
+      "sourceLabel": "108 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.9916611743981381,
+      "halfAngle": 0.08725773595345651,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "109",
+      "ticketLabels": [
+        "109"
+      ],
+      "sourceLabel": "109 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.7933394114940224,
+      "halfAngle": 0.08725773595345651,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "110",
+      "ticketLabels": [
+        "110"
+      ],
+      "sourceLabel": "110 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.5950001952973869,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "111",
+      "ticketLabels": [
+        "111"
+      ],
+      "sourceLabel": "111 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.3966609791007513,
+      "halfAngle": 0.08725773595345651,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "112",
+      "ticketLabels": [
+        "112"
+      ],
+      "sourceLabel": "112 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.19833921619663564,
+      "halfAngle": 0.08725773595345651,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "113",
+      "ticketLabels": [
+        "113"
+      ],
+      "sourceLabel": "113 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "114",
+      "ticketLabels": [
+        "114"
+      ],
+      "sourceLabel": "114 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.19833921619663564,
+      "halfAngle": 0.08725773595345651,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "115",
+      "ticketLabels": [
+        "115"
+      ],
+      "sourceLabel": "115 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.3966609791007513,
+      "halfAngle": 0.08725773595345651,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "116",
+      "ticketLabels": [
+        "116"
+      ],
+      "sourceLabel": "116 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.5950001952973869,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "117",
+      "ticketLabels": [
+        "117"
+      ],
+      "sourceLabel": "117 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.7933394114940224,
+      "halfAngle": 0.08725773595345651,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "118",
+      "ticketLabels": [
+        "118"
+      ],
+      "sourceLabel": "118 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.9916611743981381,
+      "halfAngle": 0.08725773595345651,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "119",
+      "ticketLabels": [
+        "119"
+      ],
+      "sourceLabel": "119 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.1900003905947738,
+      "halfAngle": 0.08725773595345651,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "120",
+      "ticketLabels": [
+        "120"
+      ],
+      "sourceLabel": "120 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.3883221534988894,
+      "halfAngle": 0.08725773595345651,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "121",
+      "ticketLabels": [
+        "121"
+      ],
+      "sourceLabel": "121 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.5866613696955252,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "122",
+      "ticketLabels": [
+        "122"
+      ],
+      "sourceLabel": "122 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.7850005858921605,
+      "halfAngle": 0.08725773595345651,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "123",
+      "ticketLabels": [
+        "123"
+      ],
+      "sourceLabel": "123 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.9833223487962761,
+      "halfAngle": 0.08725773595345651,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "124",
+      "ticketLabels": [
+        "124"
+      ],
+      "sourceLabel": "124 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.1816615649929116,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "131",
+      "ticketLabels": [
+        "131"
+      ],
+      "sourceLabel": "131 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.2689280275926285,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "132",
+      "ticketLabels": [
+        "132"
+      ],
+      "sourceLabel": "132 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.38528912882309,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "133",
+      "ticketLabels": [
+        "133"
+      ],
+      "sourceLabel": "133 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.5016327767610322,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "134",
+      "ticketLabels": [
+        "134"
+      ],
+      "sourceLabel": "134 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.6179938779914944,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "135",
+      "ticketLabels": [
+        "135"
+      ],
+      "sourceLabel": "135 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.734354979221956,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "136",
+      "ticketLabels": [
+        "136"
+      ],
+      "sourceLabel": "136 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.850698627159898,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "137",
+      "ticketLabels": [
+        "137"
+      ],
+      "sourceLabel": "137 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.9670597283903604,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "138",
+      "ticketLabels": [
+        "138"
+      ],
+      "sourceLabel": "138 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -3.083420829620822,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "139",
+      "ticketLabels": [
+        "139"
+      ],
+      "sourceLabel": "139 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -3.199764477558764,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "140",
+      "ticketLabels": [
+        "140"
+      ],
+      "sourceLabel": "140 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -3.3161255787892263,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "141",
+      "ticketLabels": [
+        "141"
+      ],
+      "sourceLabel": "141 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -3.432486680019688,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "142",
+      "ticketLabels": [
+        "142"
+      ],
+      "sourceLabel": "142 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -3.54883032795763,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "143",
+      "ticketLabels": [
+        "143"
+      ],
+      "sourceLabel": "143 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -3.6651914291880923,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "144",
+      "ticketLabels": [
+        "144"
+      ],
+      "sourceLabel": "144 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -3.781552530418554,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "145",
+      "ticketLabels": [
+        "145"
+      ],
+      "sourceLabel": "145 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -3.897896178356496,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "146",
+      "ticketLabels": [
+        "146"
+      ],
+      "sourceLabel": "146 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -4.014257279586958,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "201",
+      "ticketLabels": [
+        "201"
+      ],
+      "sourceLabel": "201 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.234021442552742,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "202",
+      "ticketLabels": [
+        "202"
+      ],
+      "sourceLabel": "202 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.0478471712425064,
+      "halfAngle": 0.08190830179609389,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "203",
+      "ticketLabels": [
+        "203"
+      ],
+      "sourceLabel": "203 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.8616903532247915,
+      "halfAngle": 0.08190830179609389,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "204",
+      "ticketLabels": [
+        "204"
+      ],
+      "sourceLabel": "204 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.6755160819145563,
+      "halfAngle": 0.08191702844235385,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "205",
+      "ticketLabels": [
+        "205"
+      ],
+      "sourceLabel": "205 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.489341810604321,
+      "halfAngle": 0.08190830179609389,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "206",
+      "ticketLabels": [
+        "206"
+      ],
+      "sourceLabel": "206 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.303184992586606,
+      "halfAngle": 0.08190830179609389,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "207",
+      "ticketLabels": [
+        "207"
+      ],
+      "sourceLabel": "207 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.117010721276371,
+      "halfAngle": 0.08191702844235385,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "208",
+      "ticketLabels": [
+        "208"
+      ],
+      "sourceLabel": "208 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.9308364499661358,
+      "halfAngle": 0.08190830179609389,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "209",
+      "ticketLabels": [
+        "209"
+      ],
+      "sourceLabel": "209 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.7446796319484206,
+      "halfAngle": 0.08190830179609389,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "210",
+      "ticketLabels": [
+        "210"
+      ],
+      "sourceLabel": "210 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.5585053606381855,
+      "halfAngle": 0.08191702844235385,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "211",
+      "ticketLabels": [
+        "211"
+      ],
+      "sourceLabel": "211 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.3723310893279503,
+      "halfAngle": 0.08190830179609389,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "212",
+      "ticketLabels": [
+        "212"
+      ],
+      "sourceLabel": "212 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.18617427131023515,
+      "halfAngle": 0.08190830179609389,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "213",
+      "ticketLabels": [
+        "213"
+      ],
+      "sourceLabel": "213 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0,
+      "halfAngle": 0.08191702844235385,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "214",
+      "ticketLabels": [
+        "214"
+      ],
+      "sourceLabel": "214 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.18617427131023515,
+      "halfAngle": 0.08190830179609389,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "215",
+      "ticketLabels": [
+        "215"
+      ],
+      "sourceLabel": "215 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.3723310893279503,
+      "halfAngle": 0.08190830179609389,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "216",
+      "ticketLabels": [
+        "216"
+      ],
+      "sourceLabel": "216 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.5585053606381855,
+      "halfAngle": 0.08191702844235385,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "217",
+      "ticketLabels": [
+        "217"
+      ],
+      "sourceLabel": "217 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.7446796319484206,
+      "halfAngle": 0.08190830179609389,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "218",
+      "ticketLabels": [
+        "218"
+      ],
+      "sourceLabel": "218 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.9308364499661358,
+      "halfAngle": 0.08190830179609389,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "219",
+      "ticketLabels": [
+        "219"
+      ],
+      "sourceLabel": "219 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.117010721276371,
+      "halfAngle": 0.08191702844235385,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "220",
+      "ticketLabels": [
+        "220"
+      ],
+      "sourceLabel": "220 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.303184992586606,
+      "halfAngle": 0.08190830179609389,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "221",
+      "ticketLabels": [
+        "221"
+      ],
+      "sourceLabel": "221 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.489341810604321,
+      "halfAngle": 0.08190830179609389,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "222",
+      "ticketLabels": [
+        "222"
+      ],
+      "sourceLabel": "222 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.6755160819145563,
+      "halfAngle": 0.08191702844235385,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "223",
+      "ticketLabels": [
+        "223"
+      ],
+      "sourceLabel": "223 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.8616903532247915,
+      "halfAngle": 0.08190830179609389,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "224",
+      "ticketLabels": [
+        "224"
+      ],
+      "sourceLabel": "224 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.0478471712425064,
+      "halfAngle": 0.08190830179609389,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "225",
+      "ticketLabels": [
+        "225"
+      ],
+      "sourceLabel": "225 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.234021442552742,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "233",
+      "ticketLabels": [
+        "233"
+      ],
+      "sourceLabel": "233 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.321287905152458,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "234",
+      "ticketLabels": [
+        "234"
+      ],
+      "sourceLabel": "234 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.4704262897353733,
+      "halfAngle": 0.06562437987498679,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "235",
+      "ticketLabels": [
+        "235"
+      ],
+      "sourceLabel": "235 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.6195821276108093,
+      "halfAngle": 0.06562437987498679,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "236",
+      "ticketLabels": [
+        "236"
+      ],
+      "sourceLabel": "236 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.7687205121937244,
+      "halfAngle": 0.06562437987498679,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "237",
+      "ticketLabels": [
+        "237"
+      ],
+      "sourceLabel": "237 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -2.9178763500691596,
+      "halfAngle": 0.06562437987498679,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "238",
+      "ticketLabels": [
+        "238"
+      ],
+      "sourceLabel": "238 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -3.067014734652076,
+      "halfAngle": 0.06562437987498679,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "239",
+      "ticketLabels": [
+        "239"
+      ],
+      "sourceLabel": "239 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -3.2161705725275107,
+      "halfAngle": 0.06562437987498679,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "240",
+      "ticketLabels": [
+        "240"
+      ],
+      "sourceLabel": "240 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -3.3653089571104267,
+      "halfAngle": 0.06562437987498679,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "241",
+      "ticketLabels": [
+        "241"
+      ],
+      "sourceLabel": "241 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -3.5144647949858614,
+      "halfAngle": 0.06562437987498679,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "242",
+      "ticketLabels": [
+        "242"
+      ],
+      "sourceLabel": "242 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -3.663603179568777,
+      "halfAngle": 0.06562437987498679,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "243",
+      "ticketLabels": [
+        "243"
+      ],
+      "sourceLabel": "243 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -3.812759017444213,
+      "halfAngle": 0.06562437987498679,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "244",
+      "ticketLabels": [
+        "244"
+      ],
+      "sourceLabel": "244 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -3.9618974020271276,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "401",
+      "ticketLabels": [
+        "401"
+      ],
+      "sourceLabel": "401 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 1.8675022996339325,
+      "halfAngle": 0.10271262647986629,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "402",
+      "ticketLabels": [
+        "402"
+      ],
+      "sourceLabel": "402 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 1.634064512179691,
+      "halfAngle": 0.10271262647986629,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "403",
+      "ticketLabels": [
+        "403"
+      ],
+      "sourceLabel": "403 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 1.4006267247254494,
+      "halfAngle": 0.10271262647986629,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "404",
+      "ticketLabels": [
+        "404"
+      ],
+      "sourceLabel": "404 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 1.1671889372712079,
+      "halfAngle": 0.10271262647986629,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "405",
+      "ticketLabels": [
+        "405"
+      ],
+      "sourceLabel": "405 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 0.9337511498169663,
+      "halfAngle": 0.10271262647986629,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "406",
+      "ticketLabels": [
+        "406"
+      ],
+      "sourceLabel": "406 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 0.7003133623627247,
+      "halfAngle": 0.10271262647986629,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "407",
+      "ticketLabels": [
+        "407"
+      ],
+      "sourceLabel": "407 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 0.46687557490848314,
+      "halfAngle": 0.10271262647986629,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "408",
+      "ticketLabels": [
+        "408"
+      ],
+      "sourceLabel": "408 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 0.23343778745424157,
+      "halfAngle": 0.10271262647986629,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "409",
+      "ticketLabels": [
+        "409"
+      ],
+      "sourceLabel": "409 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": 0,
+      "halfAngle": 0.10271262647986629,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "410",
+      "ticketLabels": [
+        "410"
+      ],
+      "sourceLabel": "410 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -0.23343778745424157,
+      "halfAngle": 0.10271262647986629,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "411",
+      "ticketLabels": [
+        "411"
+      ],
+      "sourceLabel": "411 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -0.46687557490848314,
+      "halfAngle": 0.10271262647986629,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "412",
+      "ticketLabels": [
+        "412"
+      ],
+      "sourceLabel": "412 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -0.7003133623627247,
+      "halfAngle": 0.10271262647986629,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "413",
+      "ticketLabels": [
+        "413"
+      ],
+      "sourceLabel": "413 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -0.9337511498169663,
+      "halfAngle": 0.10271262647986629,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "414",
+      "ticketLabels": [
+        "414"
+      ],
+      "sourceLabel": "414 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -1.1671889372712079,
+      "halfAngle": 0.10271262647986629,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "415",
+      "ticketLabels": [
+        "415"
+      ],
+      "sourceLabel": "415 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -1.4006267247254494,
+      "halfAngle": 0.10271262647986629,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "416",
+      "ticketLabels": [
+        "416"
+      ],
+      "sourceLabel": "416 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -1.634064512179691,
+      "halfAngle": 0.10271262647986629,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "417",
+      "ticketLabels": [
+        "417"
+      ],
+      "sourceLabel": "417 区",
+      "levelName": "upper",
+      "tier": 2,
+      "angle": -1.8675022996339325,
+      "halfAngle": 0.10271262647986629,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "503",
+      "ticketLabels": [
+        "503"
+      ],
+      "sourceLabel": "503 区",
+      "levelName": "top",
+      "tier": 3,
+      "angle": 1.4486232791552935,
+      "halfAngle": 0.10622946492263488,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "504",
+      "ticketLabels": [
+        "504"
+      ],
+      "sourceLabel": "504 区",
+      "levelName": "top",
+      "tier": 3,
+      "angle": 1.2071918837269178,
+      "halfAngle": 0.10622946492263488,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "505",
+      "ticketLabels": [
+        "505"
+      ],
+      "sourceLabel": "505 区",
+      "levelName": "top",
+      "tier": 3,
+      "angle": 0.9657430350060222,
+      "halfAngle": 0.10622946492263488,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "506",
+      "ticketLabels": [
+        "506"
+      ],
+      "sourceLabel": "506 区",
+      "levelName": "top",
+      "tier": 3,
+      "angle": 0.7243116395776468,
+      "halfAngle": 0.10622946492263488,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "507",
+      "ticketLabels": [
+        "507"
+      ],
+      "sourceLabel": "507 区",
+      "levelName": "top",
+      "tier": 3,
+      "angle": 0.48288024414927117,
+      "halfAngle": 0.10622946492263488,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "508",
+      "ticketLabels": [
+        "508"
+      ],
+      "sourceLabel": "508 区",
+      "levelName": "top",
+      "tier": 3,
+      "angle": 0.2414313954283756,
+      "halfAngle": 0.10622946492263488,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "509",
+      "ticketLabels": [
+        "509"
+      ],
+      "sourceLabel": "509 区",
+      "levelName": "top",
+      "tier": 3,
+      "angle": 0,
+      "halfAngle": 0.10622946492263488,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "510",
+      "ticketLabels": [
+        "510"
+      ],
+      "sourceLabel": "510 区",
+      "levelName": "top",
+      "tier": 3,
+      "angle": -0.2414313954283756,
+      "halfAngle": 0.10622946492263488,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "511",
+      "ticketLabels": [
+        "511"
+      ],
+      "sourceLabel": "511 区",
+      "levelName": "top",
+      "tier": 3,
+      "angle": -0.48288024414927117,
+      "halfAngle": 0.10622946492263488,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "512",
+      "ticketLabels": [
+        "512"
+      ],
+      "sourceLabel": "512 区",
+      "levelName": "top",
+      "tier": 3,
+      "angle": -0.7243116395776468,
+      "halfAngle": 0.10622946492263488,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "513",
+      "ticketLabels": [
+        "513"
+      ],
+      "sourceLabel": "513 区",
+      "levelName": "top",
+      "tier": 3,
+      "angle": -0.9657430350060222,
+      "halfAngle": 0.10622946492263488,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "514",
+      "ticketLabels": [
+        "514"
+      ],
+      "sourceLabel": "514 区",
+      "levelName": "top",
+      "tier": 3,
+      "angle": -1.2071918837269178,
+      "halfAngle": 0.10622946492263488,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    },
+    {
+      "id": "515",
+      "ticketLabels": [
+        "515"
+      ],
+      "sourceLabel": "515 区",
+      "levelName": "top",
+      "tier": 3,
+      "angle": -1.4486232791552935,
+      "halfAngle": 0.10622946492263488,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.farglorydome.com.tw/park-detail/map/"
+      }
+    }
+  ],
+  "importedAt": "2026-10-24T00:00:00.000Z"
+}

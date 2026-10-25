@@ -1,0 +1,308 @@
+{
+  "id": "hwajeong-gymnasium",
+  "name": "高丽大学化汀体育馆",
+  "city": "韩国 · 首尔",
+  "capacity": "原站目录未提供统一容量字段",
+  "source": "https://kuhj.korea.ac.kr/kuhj/facility/main.do",
+  "sourceTitle": "REA 导出的公开场馆来源索引与参数化座位示意",
+  "sourceLinks": [
+    "https://kuhj.korea.ac.kr/kuhj/facility/main.do",
+    "https://kuhj.korea.ac.kr/_res/kuhj/etc/pdf_seat01.pdf"
+  ],
+  "accuracy": {
+    "sectionLabels": "source-layout-reference",
+    "completeSeatInventory": false,
+    "metricCalibrated": false,
+    "stage": "generic",
+    "position": "estimated",
+    "geometryBasis": "source-informed-parametric:dimension",
+    "catalogStatus": "source-geometry-and-sections",
+    "seatDataStatus": "section-only",
+    "sourceLayout": "end",
+    "coverage": "14 个来源分区；0 条座位采样。区号来自公开布局参考。",
+    "reuse": "来源页面可公开访问；未建立商业图形、模型或座位数据库再分发许可，发布前需逐源复核。",
+    "sourceDate": "REA capture 2026-10-24",
+    "sourceInventory": {
+      "venueReferenceUrl": "https://kuhj.korea.ac.kr/kuhj/facility/main.do",
+      "mapReferenceUrl": "https://kuhj.korea.ac.kr/_res/kuhj/etc/pdf_seat01.pdf",
+      "sectionSource": "https://kuhj.korea.ac.kr/_res/kuhj/etc/pdf_seat01.pdf",
+      "geometryEvidenceLabel": "dimension",
+      "note": "Missing asset URL does not establish absence of generated seat geometry."
+    },
+    "seatAsset": null
+  },
+  "tiers": [
+    [
+      16,
+      27.5,
+      1,
+      11,
+      8
+    ]
+  ],
+  "geometry": {
+    "shape": "rounded",
+    "coordinateSystem": "profile-inner-radius",
+    "power": 0.75,
+    "oneSided": false,
+    "stage": {
+      "width": 25,
+      "depth": 11,
+      "z": 33,
+      "height": 1.2
+    },
+    "floor": [
+      32,
+      55
+    ],
+    "openBowl": true,
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "1–2F 固定看台",
+        "steps": 27
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "A",
+      "ticketLabels": [
+        "A"
+      ],
+      "sourceLabel": "A 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.9670597283903604,
+      "halfAngle": 0.15707963267948966,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kuhj.korea.ac.kr/_res/kuhj/etc/pdf_seat01.pdf"
+      }
+    },
+    {
+      "id": "B",
+      "ticketLabels": [
+        "B"
+      ],
+      "sourceLabel": "B 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.6179938779914944,
+      "halfAngle": 0.15707963267948966,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kuhj.korea.ac.kr/_res/kuhj/etc/pdf_seat01.pdf"
+      }
+    },
+    {
+      "id": "C",
+      "ticketLabels": [
+        "C"
+      ],
+      "sourceLabel": "C 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.2689280275926285,
+      "halfAngle": 0.15707963267948966,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kuhj.korea.ac.kr/_res/kuhj/etc/pdf_seat01.pdf"
+      }
+    },
+    {
+      "id": "D",
+      "ticketLabels": [
+        "D"
+      ],
+      "sourceLabel": "D 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.9198621771937625,
+      "halfAngle": 0.15707963267948966,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kuhj.korea.ac.kr/_res/kuhj/etc/pdf_seat01.pdf"
+      }
+    },
+    {
+      "id": "E",
+      "ticketLabels": [
+        "E"
+      ],
+      "sourceLabel": "E 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.5707963267948966,
+      "halfAngle": 0.15707963267948966,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kuhj.korea.ac.kr/_res/kuhj/etc/pdf_seat01.pdf"
+      }
+    },
+    {
+      "id": "F",
+      "ticketLabels": [
+        "F"
+      ],
+      "sourceLabel": "F 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.2217304763960306,
+      "halfAngle": 0.15707963267948966,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kuhj.korea.ac.kr/_res/kuhj/etc/pdf_seat01.pdf"
+      }
+    },
+    {
+      "id": "G",
+      "ticketLabels": [
+        "G"
+      ],
+      "sourceLabel": "G 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.8726646259971648,
+      "halfAngle": 0.15707963267948966,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kuhj.korea.ac.kr/_res/kuhj/etc/pdf_seat01.pdf"
+      }
+    },
+    {
+      "id": "H",
+      "ticketLabels": [
+        "H"
+      ],
+      "sourceLabel": "H 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.8726646259971648,
+      "halfAngle": 0.15707963267948966,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kuhj.korea.ac.kr/_res/kuhj/etc/pdf_seat01.pdf"
+      }
+    },
+    {
+      "id": "I",
+      "ticketLabels": [
+        "I"
+      ],
+      "sourceLabel": "I 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.2217304763960306,
+      "halfAngle": 0.15707963267948966,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kuhj.korea.ac.kr/_res/kuhj/etc/pdf_seat01.pdf"
+      }
+    },
+    {
+      "id": "J",
+      "ticketLabels": [
+        "J"
+      ],
+      "sourceLabel": "J 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.5707963267948966,
+      "halfAngle": 0.15707963267948966,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kuhj.korea.ac.kr/_res/kuhj/etc/pdf_seat01.pdf"
+      }
+    },
+    {
+      "id": "K",
+      "ticketLabels": [
+        "K"
+      ],
+      "sourceLabel": "K 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.9198621771937625,
+      "halfAngle": 0.15707963267948966,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kuhj.korea.ac.kr/_res/kuhj/etc/pdf_seat01.pdf"
+      }
+    },
+    {
+      "id": "L",
+      "ticketLabels": [
+        "L"
+      ],
+      "sourceLabel": "L 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.2689280275926285,
+      "halfAngle": 0.15707963267948966,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kuhj.korea.ac.kr/_res/kuhj/etc/pdf_seat01.pdf"
+      }
+    },
+    {
+      "id": "M",
+      "ticketLabels": [
+        "M"
+      ],
+      "sourceLabel": "M 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.6179938779914944,
+      "halfAngle": 0.15707963267948966,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kuhj.korea.ac.kr/_res/kuhj/etc/pdf_seat01.pdf"
+      }
+    },
+    {
+      "id": "N",
+      "ticketLabels": [
+        "N"
+      ],
+      "sourceLabel": "N 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.9670597283903604,
+      "halfAngle": 0.15707963267948966,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://kuhj.korea.ac.kr/_res/kuhj/etc/pdf_seat01.pdf"
+      }
+    }
+  ],
+  "importedAt": "2026-10-24T00:00:00.000Z"
+}

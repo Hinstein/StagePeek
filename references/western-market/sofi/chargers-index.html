@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <meta name="viewport" content="user-scalable = no,initial-scale=1,maximum-scale=1.0">
+    <link rel="apple-touch-icon" href="images/touch-icon.png"/>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">   
+    <link rel="canonical" href="//chargers.io-media.com">
+    <meta name="keywords" content="Virtual Venue, 3D Venue, 3D Seats, 3D Seat Viewer, Virtual Seating Application, Virtual Seat Map, Seat Data, Seat Viewer, Interactive Seat Viewer, Seat Selector, 3D Seat Selector, Seating Application, 3D Seating Application, 3D Seating Chart, Seating Chart, View from Seat, 3D View from Seat, Virtual Seat Viewer, 3D Seating, Venue Seating Map, Virtual Seating Chart, 3D Seating Map, 3D Virtual Seating Map, 3D Stadium Map, 3D Arena Map, Virtual Viewer, Virtual Venue Viewer, 3D Virtual Viewer, IOMEDIA">
+     <meta name="description" content="3D Interactive Seat Views for Los Angeles Chargers at SoFi Stadium interactive seat map using Virtual Venue™ by IOMEDIA">
+
+    <title>Chargers SoFi Stadium Virtual Venue™ by IOMEDIA</title>
+    <!-- Facebook open graph meta tags-->
+    <meta property="og:title" content="Chargers SoFi Stadium Virtual Venue™ by IOMEDIA">
+    <meta property="og:site_name" content="Virtual Venue">
+    <meta property="og:image" content="//chargers.io-media.com/web/images/VV_fbshareicon.jpg" />
+    <meta property="og:image" content="//chargers.io-media.com/web/images/VV_fbshareicon_Retina.jpg" />
+    <meta property="og:url" content="//chargers.io-media.com">
+    <meta name="og:description" content="Experience 3D Interactive Seat Views for the Los Angeles Chargers at SoFi Stadium with our interactive Virtual Venue™ by IOMEDIA">	
+
+    <meta property="twitter:card" content="Chargers SoFi Stadium Virtual Venue™ by IOMEDIA">
+    <meta property="twitter:title" content="Chargers SoFi Stadium Virtual Venue™ by IOMEDIA">
+    <meta property="twitter:image" content="//chargers.io-media.com/web/images/Twitter_Share.png" />
+  
+    <meta name="twitter:description" content="Check out 3D Interactive seat views for the Los Angeles Chargers with Virtual Venue™ by IOMEDIA">	
+    <meta property="twitter:creator" content="@IOMEDIAsports">
+    <meta property="twitter:url" content="//chargers.io-media.com">
+
+	<link rel="stylesheet" href="css/compress.css" type="text/css" charset="utf-8">
+     <!-- <link rel="stylesheet" href="css/compress.min.css" type="text/css" charset="utf-8">  -->
+	<link rel="stylesheet" href="shell/styles.css" type="text/css" charset="utf-8">
+    <!-- Mobile Detect : PERMANENTLY HERE-->
+    <script type="text/javascript" src="../scripts/mobile-detect.min.js"></script>
+    <script>
+        // var url= window.location.href;
+        var md = new MobileDetect(window.navigator.userAgent);
+        var device;
+        var webroot = "/web/index.html";
+        var mobileroot="/mobile/index.html";
+        var vvtype;
+        var hash = window.location.hash;
+        if (md.mobile())
+        {
+            if (md.tablet()){
+                device="tablet";
+            } else if (md.phone()){
+                device="phone";
+            }
+        }
+        else{
+            device="desktop";
+        }
+
+        //Random Comment
+        if (device == "phone")
+        {
+            //Redirect them back to mobile
+            window.location.href=mobileroot+hash;
+        }
+    </script>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-3T91TZXF3P"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	
+	  gtag('config', 'G-3T91TZXF3P');
+	</script>
+    <!-- The following two variables need to be on the document scope -->
+    <script>
+        var addthis_config = addthis_config || {};
+        addthis_config.data_track_addressbar = false;
+        addthis_config.data_track_clickback = false;
+        var addthis_share = {};
+        //The address bar wasnt getting tracked initially from within the SocialManager class.
+       // var _gaq = _gaq || [];
+    </script>
+    <script type="text/javascript"
+            src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4fb6367a5ea88539"></script>
+    <script>
+        var touchHandler = function(e){
+            if(e.target.className != "ui-corner-all")
+                e.preventDefault();
+        }
+        document.addEventListener('touchmove',touchHandler, false);
+    </script>
+
+	<script type="text/javascript" src="clientConfig.js"></script>
+	<!-- <script data-main="js/com/iomedia/vv/main" src="js/com/iomedia/vv/libs/require/require.js"></script> -->
+    <!--NOTE: All Require.js paths will be relative to the data-main path-->
+   <!--  <script data-main="js/com/iomedia/vv/main" src="js/com/iomedia/vv/script.min.js"></script>
+   <script data-main="js/com/iomedia/vv/main" src="js/com/iomedia/vv/libs/require/require.js"></script>
+    <script type="text/javascript" src="js/com/iomedia/vv/libs/mobilebubble/mobile-bubble.js"></script> -->
+   <script type="text/javascript">
+		var appVersion = clientConfig.APP_VERSION;
+        var siteURL = window.location.href;
+        var matchDomain = "io-productions.com";
+		var devURL = "../vv-iom-007-common-code-base/"+appVersion;
+		var liveURL = "//d32ikx2sw2easi.cloudfront.net/"+appVersion;
+        if(siteURL.match(matchDomain)){
+            /* NSI : 9/12/13 11:09 AM -- script module load if project running on development server*/
+            document.write('<script type="text/javascript" src='+devURL+'/web/js/com/iomedia/vv/script.min.js><\/script>');
+			document.write('<script type="text/javascript" src='+devURL+'/web/js/com/iomedia/vv/libs/mobilebubble/mobile-bubble.js><\/script>');
+        }else{
+            /* NSI : 9/12/13 11:10 AM -- script module load if project running on live server*/
+            document.write('<script type="text/javascript" src='+liveURL+'/web/js/com/iomedia/vv/script.min.js><\/script>');
+			document.write('<script type="text/javascript" src='+liveURL+'/web/js/com/iomedia/vv/libs/mobilebubble/mobile-bubble.js><\/script>');
+        }
+    </script>
+	<!--[if IE 8]>
+			<link rel="stylesheet" href="ie_css/ie8.css" type="text/css" charset="utf-8">		
+    <![endif]-->
+</head>
+
+<body class="app-position team" onload="checkView();" onorientationchange="updateOrientation();" >
+    
+       <div class="header" id="Shell_Header">
+	   <div class="d3-o-header__branded-header">
+
+       <!-- <img src="shell/images/ugszriggvmxwlm3s5lp2.jpg" class="img-responsive ">-->
+        <a href="https://www.chargers.com/" title="header" target="_blank">
+            <img src="shell/images/Digital_Site_MainHeader_v2.jpg" class="img-responsive " >
+          </a>
+        
+        </div>
+		
+	<!--new header starts-->
+	<header class="nfl-c-header" role="banner" data-require="modules/navigation">
+  <div class="nfl-c-header" role="banner" data-require="modules/navigation">
+        <div class="d3-o-nav__wrap" data-reuire="modules/search">
+        <a class="d3-o-nav__logo" href="https://www.chargers.com" target="_blank" target="_blank" title="Link to club's homepage" data-event_name="click action" data-link_module="Primary Navigation" data-link_type="Home" data-link_url="/index">
+              <img class="d3-o-club-logo" src="shell/images/logo.png" alt="Club logo">
+            </a>
+        <ul class="d3-o-nav__listd3-o-list">
+          <li class="d3-o-nav__item">
+            <a href="https://www.chargers.com/camp" target="_blank" title="TEAM" 
+            data-link_module="Primary Navigation" data-event_name="click action" data-link_type="TEAM LandingPage" 
+            data-link_name="TEAM LandingPage" data-link_url="/team/index">
+    <span class="d3-o-nav__item-label">
+      TRAINING CAMP
+    </span>
+  </a>
+      </li>
+
+          <li class="d3-o-nav__item">
+            <a href="https://www.chargers.com/team/index" target="_blank" title="TEAM" 
+            data-link_module="Primary Navigation" data-event_name="click action" data-link_type="TEAM LandingPage" 
+            data-link_name="TEAM LandingPage" data-link_url="/team/index">
+    <span class="d3-o-nav__item-label">
+      TEAM
+    </span>
+  </a>
+      </li>
+
+      <li class="d3-o-nav__item">
+        <a href="https://www.chargers.com/schedule/index" target="_blank" title="SCHEDULE" data-link_module="Primary Navigation" data-event_name="click action" data-link_type="SCHEDULE LandingPage" data-link_name="SCHEDULE" data-link_url="/schedule/">
+<span class="d3-o-nav__item-label">
+  SCHEDULE
+</span>
+</a>
+  </li>
+        <li class="d3-o-nav__item">
+                      <a href="https://www.chargers.com/news/index" target="_blank" title="NEWS" data-link_module="Primary Navigation" data-event_name="click action" data-link_type="NEWS LandingPage" data-link_name="NEWS" data-link_url="/news/">
+              <span class="d3-o-nav__item-label">
+                NEWS
+              </span>
+            </a>
+                 </li>
+        <li class="d3-o-nav__item">
+                      <a href="https://www.chargers.com/video/index" target="_blank" title="VIDEO" data-link_module="Primary Navigation" data-event_name="click action" data-link_type="VIDEO LandingPage" data-link_name="VIDEO" data-link_url="/video/">
+              <span class="d3-o-nav__item-label">
+                VIDEO
+              </span>
+            </a>
+                </li>
+				<li class="d3-o-nav__item">
+                      <a href="https://www.chargers.com/photos/index" target="_blank" title="PHOTOS" data-link_module="Primary Navigation" data-event_name="click action" data-link_type="NEWS LandingPage" data-link_name="NEWS" data-link_url="/news/">
+              <span class="d3-o-nav__item-label">
+                PHOTOS
+              </span>
+            </a>
+                 </li>
+				 <li class="d3-o-nav__item">
+                      <a href="https://www.chargers.com/audio/index" target="_blank" title="PODCASTS" data-link_module="Primary Navigation" data-event_name="click action" data-link_type="NEWS LandingPage" data-link_name="NEWS" data-link_url="/news/">
+              <span class="d3-o-nav__item-label">
+                PODCASTS
+              </span>
+            </a>
+                 </li>
+				 
+        
+				<li class="d3-o-nav__item">
+                      <a href="https://www.chargers.com/SoFi-stadium/" target="_blank" title="SoFi STADIUM" data-link_module="Primary Navigation" data-event_name="click action" data-link_type="NEWS LandingPage" data-link_name="NEWS" data-link_url="/news/">
+              <span class="d3-o-nav__item-label">
+                SoFi STADIUM
+              </span>
+            </a>
+                 </li>
+				 <!--<li class="d3-o-nav__item">
+                      <a href="https://www.chargers.com/team/free-agency" target="_blank" title="Free Agency" 
+                      data-link_module="Primary Navigation" data-event_name="click action" data-link_type="TEAM LandingPage" 
+                      data-link_name="TEAM LandingPage" data-link_url="">
+              <span class="d3-o-nav__item-label">
+                FREE AGENCY
+              </span>
+            </a>
+                </li>
+				<li class="d3-o-nav__item">
+                      <a href="https://www.chargers.com/bolt-up/covid-19" target="_blank" title="Covid-19" 
+                      data-link_module="Primary Navigation" data-event_name="click action" data-link_type="TEAM LandingPage" 
+                      data-link_name="TEAM LandingPage" data-link_url="/team/players-roster/index">
+              <span class="d3-o-nav__item-label">
+                COVID-19
+              </span>
+            </a>
+                </li>-->
+        
+     		
+                
+        <li class="d3-o-nav__item d3-o-nav__item--has-submenu ">
+                      <a href="https://www.chargers.com/SoFi-stadium/#2ndlevel" target="_blank" title="..." data-value="dropdown_trigger" aria-label="Toogle navigation">
+        <span class="d3-o-nav__item-label">
+                  <span class="nfl-o-icon--small">
+        
+            <svg id="dots" width="16px" height="16px" viewBox="0 0 24 24">
+            <desc>Three dots icon</desc>
+            <circle id="dotsDot3" cx="21.6" cy="12" r="2.5"></circle>
+            <circle id="dotsDot2" cx="12" cy="12" r="2.5"></circle>
+            <circle id="dotsDot1" cx="2.4" cy="12" r="2.5"></circle>
+            </svg>
+          </span>
+        
+              </span>       
+               </li>
+               </ul>
+        <ul class="d3-o-nav__listd3-o-list2">
+            
+               
+       <li class="d3-o-nav__item d3-o-nav__item--has-submenu ">
+            <a href="https://www.chargers.com" target="_blank" title="Search" data-value="dropdown_trigger" aria-label="Toogle navigation">
+<span class="d3-o-nav__item-label">
+        <span class="nfl-o-icon--small">
+
+  <svg id="dots" width="16px" height="16px" viewBox="0 0 24 24">
+  <desc>Search Icon</desc>
+  <path id="searchLens" d="M9.7,17.7c4.3,0,7.9-3.5,7.9-7.9S14,1.8,9.7,1.8S1.8,5.4,1.8,9.7S5.3,17.7,9.7,17.7z M17.4,15.7l6.6,6.6L22.3,24l-6.6-6.6c-1.6,1.3-3.7,2.1-6,2.1C4.3,19.5,0,15.1,0,9.7S4.3,0,9.7,0c5.3,0,9.7,4.4,9.7,9.7 C19.4,12,18.6,14,17.4,15.7z">
+
+              </path>
+  </svg>
+</span>
+
+    </span>       
+     </li>
+                <li class="d3-o-nav__item">
+                      <a href="https://www.chargers.com/tickets/index" target="_blank" title="TICKETS" data-link_module="Primary Navigation" data-event_name="click action" data-link_type="TICKETS LandingPage" data-link_name="TICKETS" data-link_url="/tickets/">
+              <span class="d3-o-nav__item-label">
+                TICKETS
+              </span>
+            </a>
+        
+                  
+                </li>
+                <li class="d3-o-nav__item">
+                      <a href="https://am.ticketmaster.com/chargers/#/ "target="_blank">
+              <span class="d3-o-nav__item-label">
+                ACCOUNT MANAGER
+              </span>
+            </a>
+                </li>
+                <li class="d3-o-nav__item">
+                      <a href="http://shop.chargers.com/source/bm-lachargers-header-topnav-shop-061118" target="_blank" title="Pro Shop" data-link_module="Primary Navigation" data-event_name="click action" data-link_type="BILLS STORE LandingPage" data-link_name="BILLS STORE" data-link_url="https://www.shopthebills.com/?utm_source=bills&utm_medium=web&utm_content=navigation">
+              <span class="d3-o-nav__item-label">
+                PRO SHOP
+              </span>
+            </a>
+                </li>
+				<li class="d3-o-nav__item">
+                      <a href="https://www.chargers.com/ways-to-watch-live-games/" target="_blank" title="WATCH" data-link_module="Primary Navigation" data-event_name="click action" data-link_type="WATCH LandingPage" data-link_name="WATCH" data-link_url="http://www.pntrac.com/t/RkFHRE1GRkRBSUtFSklBSUlMRUg">
+              <span class="d3-o-nav__item-label">
+                WATCH
+              </span>
+            </a>
+               </li>
+            </ul>	   
+        </div>
+        </div>
+        <!--firstheader ends-->
+
+<!--seondheader starts-->
+
+        <div class="nfl-c-header1" role="banner" data-require="modules/navigation">
+            <div class="d3-o-nav1__wrap" data-reuire="modules/search">
+            <!-- <a class="d3-o-nav1__logo" href="https://www.chargers.com/" target="_blank" target="_blank" title="Link to club's homepage" data-event_name="click action" data-link_module="Primary Navigation" data-link_type="Home" data-link_name="bills Logo" data-link_url="/index">
+                  <img class="d3-o-club-logo" src="shell/images/logo.png" alt="Club logo">
+                </a> -->
+            <ul class="d3-o-nav1__listd3-o-list">
+            <li class="d3-o-nav1__item">
+                          <a href="https://www.chargers.com/SoFi-stadium/" target="_blank" title="SoFi Stadium" data-link_module="Primary Navigation" data-event_name="click action" data-link_type="NEWS LandingPage" data-link_name="NEWS" data-link_url="/news/">
+                  <span class="d3-o-nav1__item-label">
+                   SoFi Stadium
+                  </span>
+                </a>
+              </li>
+              <li class="d3-o-nav1__item">
+              <a href="https://www.chargers.com/sofi-stadium/parking" target="_blank" title="Parking" data-link_module="Primary Navigation" data-event_name="click action" data-link_type="NEWS LandingPage" data-link_name="NEWS" data-link_url="/Parking/">
+      <span class="d3-o-nav1__item-label"> Parking </span>
+    </a>
+         </li>        
+            <li class="d3-o-nav1__item">
+                          <a href="https://www.chargers.com/tickets/mobile-ticketing/" target="_blank" title="Mobile Ticketing" data-link_module="Primary Navigation" data-event_name="click action" data-link_type="VIDEO LandingPage" data-link_name="VIDEO" data-link_url="/video/">
+                  <span class="d3-o-nav1__item-label">
+                  Mobile Ticketing
+                  </span>
+                </a>
+                    </li>
+                  <!--<li class="d3-o-nav1__item">
+                          <a href="https://www.chargers.com/tickets/premium-experiences/" target="_blank" title="premium Seating" data-link_module="Primary Navigation" data-event_name="click action" data-link_type="NEWS LandingPage" data-link_name="NEWS" data-link_url="/news/">
+                  <span class="d3-o-nav1__item-label">
+                    Premium Seating & Suites
+                  </span>
+                </a>
+                     </li>-->
+
+                     <li class="d3-o-nav1__item">
+                      <a href="https://www.chargers.com/sofi-stadium/map" target="_blank" title="Stadium Maps" data-link_module="Primary Navigation" data-event_name="click action" data-link_type="NEWS LandingPage" data-link_name="NEWS" data-link_url="/Map/">
+              <span class="d3-o-nav1__item-label">
+                Stadium Maps
+              </span>
+            </a>
+                 </li>
+
+
+                     <li class="d3-o-nav1__item">
+                        <a href="http://chargers.io-media.com/web/index.html"  title="Virtual Venue" data-link_module="Primary Navigation" data-event_name="click action" data-link_type="NEWS LandingPage" data-link_name="NEWS" data-link_url="/news/">
+                <span class="d3-o-nav1__item-label">
+                  Virtual Venue
+                </span>
+              </a>
+                   </li>
+                     
+                   <!---   <li class="d3-o-nav1__item">
+                          <a href="https://www.chargers.com/SoFi-stadium/live-stadium-cam" target="_blank" title="Live Stadium Cam" data-link_module="Primary Navigation" data-event_name="click action" data-link_type="SCHEDULE LandingPage" data-link_name="SCHEDULE" data-link_url="/schedule/">
+                  <span class="d3-o-nav1__item-label">
+                    Live Stadium Cam
+                  </span>
+                </a>
+                    </li>
+           <li class="d3-o-nav1__item">
+                          <a href="https://www.chargers.com/photos/la-stadium-at-hollywood-park-renderings" target="_blank"  title="Renderings" 
+                          data-link_module="Primary Navigation" data-event_name="click action" data-link_type="TEAM LandingPage" 
+                          data-link_name="TEAM LandingPage" data-link_url="/team/players-roster/index">
+                  <span class="d3-o-nav1__item-label">
+                    Renderings
+                  </span>
+                </a>
+                    </li>-->
+                    
+                    
+            
+         
+                    
+           
+                   </ul>
+              
+            </div>
+            </div>
+            <!--Secondheader ends-->
+</div>
+</header>
+	
+	
+	</div>
+	<!--new header ends-->
+<div class="App_Holder">
+    <!-- venue view application  -->
+    <div id="appView">
+        <div id="splashScreenView"></div>
+        <div id="venueView"></div>
+        <div id="vrView"></div>
+        <div id="helpTour"></div>
+		<div id="tour_View"></div>
+		<div id="ie_tour_View"></div>
+        <div id="videoView"></div>
+        <div id="hotspotGalleryView"></div>
+        <div id="vrGalleryView"></div>
+        <div id="footerNavigationView"></div>
+        <div id="parkingView"></div>
+        <div id="disclaimerScreenPopupView"></div>
+        <div id="loaderBig">
+            <div class="Loader_Container">
+                <div id="Client_Logo"><img src="images/logo.png" alt="" /></div>
+                <div id="Loader"><img src="images/loader_big.gif" alt="" /></div>
+                <div id="Branding_Logo"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    
+<div class="footer" id="Shell_Footer">
+		
+        <!--	<NEW footer starts>-->
+    
+    <div class="footer">
+    <!--<div class="footer_1">
+    <ul class="footer_1-1">
+    <li class="club">
+    <a href="https://www.chargers.com" target="_blank"> CLUB LINKS</a>
+    </li>
+    <li>
+    <a href="https://www.chargers.com" target="_blank"> NFL CLUBS</a>
+    </li>
+    <li>
+    <a href="https://www.chargers.com" target="_blank"> MORE NFL SITES</a>
+    </li>
+    </ul>
+    </div>-->
+    
+    <!--<div class="footer_2">
+    <ul class="d3-o-footer__panel-links">
+              <li class="d3-o-footer__panel-link-category">
+                <a href="https://www.chargers.com/news/">NEWS  </a>
+              </li>
+                <li class="submenu">
+                    <a href="https://www.chargers.com/news/news-releases">
+    News Releases  </a>
+    
+                </li>
+                <li class="submenu">
+                    <a href="https://www.chargers.com/news/game">
+    Game Stories  </a>
+    
+                </li>
+                <li class="submenu">
+                    <a href="https://www.chargers.com/news/practice-report">
+    Practice Reports </a>
+    
+                </li>
+                <li class="submenu">
+                    <a href="https://www.chargers.com/lifestyle/">
+    Trending </a>
+    
+                </li>
+                <li class="submenu">
+                    <a href="https://www.chargers.com/news/transcripts" target="_blank">
+    Transcripts </a>
+    
+                </li>
+            </ul>
+    
+    
+    <ul class="d3-o-footer__panel-links">
+              <li class="d3-o-footer__panel-link-category">
+                    <a href="https://www.chargers.com/video/">
+                VIDEO</a>
+              </li>
+              <li class="submenu">
+                    <a href="https://www.chargers.com/backstage/">
+    Backstage:Chargers </a>
+    
+                </li>
+                <li class="submenu">
+                    <a href="https://www.chargers.com/video/game-highlights">
+    Highlights  </a>
+    
+                </li>
+                <li class="submenu">
+                    <a href="https://www.chargers.com/video/micd-up">
+    Mic'd Up  </a>
+    
+                </li>
+                <li class="submenu">
+                    <a href="https://www.chargers.com/video/press-conferences">
+    News Conferences  </a>
+    
+                </li>
+                <li class="submenu">
+                    <a href="https://www.chargers.com/video/features">
+    Features  </a>
+    
+                </li>
+                <li class="submenu">
+                    <a href="https://www.chargers.com/video/rush-hour">
+    Rush Hour  </a>
+    
+                </li>
+                <li class="submenu">
+                    <a href="https://www.chargers.com/video/xs-and-os">
+    X's and O's  </a>
+    
+                </li>
+                
+            </ul>
+            <ul class="d3-o-footer__panel-links">
+              <li class="d3-o-footer__panel-link-category">
+                    <a href="https://www.chargers.com/photos/">
+                PHOTOS</a>
+              </li>
+                
+              <li class="submenu">
+                    <a href="https://www.chargers.com/photos/gameday">
+    Gameday  </a>
+    
+                </li>
+                <li class="submenu">
+                    <a href="https://www.chargers.com/cheerleaders/photos">
+    Charger Girls </a>
+    
+                </li>
+                <li class="submenu">
+                    <a href="https://www.chargers.com/community/photos">
+    Community  </a>
+    
+                </li>
+                <li class="submenu">
+                    <a href="https://www.chargers.com/photos/travel">
+    
+    Travel    </a>
+        
+                    </li>
+                    <li class="submenu">
+                    <a href="https://www.chargers.com/photos/practice">
+    
+    Practice   </a>
+        
+                    </li>
+                    
+            </ul>
+            <ul class="d3-o-footer__panel-links">
+                <li class="d3-o-footer__panel-link-category">
+                        <a href="https://www.chargers.com/audio/" target="_blank">
+                 PODCASTS</a>
+                </li>
+                  
+                <li class="submenu">
+                      <a href="https://www.chargers.com/audio/chargers-weekly">
+      Chargers Weekly  </a>
+      
+                  </li>
+                  <li class="submenu">
+                      <a href="https://www.chargers.com/audio/backstage">
+      Backstage:Chargers </a>
+      
+                  </li>
+                  <li class="submenu">
+                      <a href="https://www.chargers.com/audio/playmakers">
+      Playmakers  </a>
+      
+                  </li>
+                  <li class="submenu">
+                      <a href="https://www.chargers.com/audio/final-drive">
+      
+      The Final Drive    </a>
+          
+                      </li>
+                      
+              </ul>
+              <ul class="d3-o-footer__panel-links">
+                <li class="d3-o-footer__panel-link-category"><a href="https://www.chargers.com/SoFi-stadium">
+                  NEW SoFi STADIUM</a>
+                </li>
+                  
+                <li class="submenu">
+                      <a href="https://www.chargers.com/SoFi-stadium/live-stadium-cam">
+      Live Stadium Construction Cam  </a>
+      
+                  </li>
+                  <li class="submenu">
+                      <a href="https://www.chargers.com/SoFi-stadium/seating-map">
+      New SoFi Stadium Seating Map &amp; Benefits </a>
+      
+                  </li>
+                  <li class="submenu">
+                      <a href="https://www.chargers.com/SoFi-stadium/chargers-suites">
+      New SoFi Stadium Chargers Suites </a>
+      
+                  </li>
+                  <li class="submenu">
+                      <a href="https://www.chargers.com/photos/la-stadium-at-hollywood-park-renderings">
+      
+      New SoFi Stadium Renderings   </a>
+          
+                      </li>
+                      
+              </ul>
+              <ul class="d3-o-footer__panel-links">
+                <li class="d3-o-footer__panel-link-category"> <a href="https://www.chargers.com/tickets/">
+                  TICKETS</a>
+                </li>
+                  
+                <li class="submenu">
+                      <a href="https://am.ticketmaster.com/chargers/">
+      Account Manager  </a>
+      
+                  </li>
+                  <li class="submenu">
+                      <a href="https://www.chargers.com/tickets/season-tickets">
+      Season Tickets </a>
+      
+                  </li>
+                  <li class="submenu">
+                      <a href="https://www.chargers.com/tickets/single-game-tickets/">
+      Single Game Tickets </a>
+      
+                  </li>
+                  <li class="submenu">
+                      <a href="https://www.chargers.com/tickets/premium-experiences/">
+      
+      Premium Experiences   </a>
+          
+                      </li>
+                      <li class="submenu">
+                        <a href="https://www.ticketmaster.com/Los-Angeles-Chargers-tickets/artist/806013?wt.mc_id=NFL_TEAM_LAC_FOOTER&amp;utm_source=NFL.com&amp;utm_medium=client&amp;utm_campaign=NFL_TEAM_LAC&amp;utm_content=FOOTER">
+        
+        NFL Ticket Exchange   </a>
+            
+                        </li>
+                        <li class="submenu">
+                            <a href="https://www.primesport.com/d/los-angeles-chargers?utm_source=chargers.com&amp;utm_medium=referral&amp;utm_campaign=nfl_los_angeles_chargers_packages&amp;utm_content=footer_nav">
+            
+            Fan Travel Packages  </a>
+                
+                            </li>
+                      
+              </ul>
+              <ul class="d3-o-footer__panel-links">
+                <li class="d3-o-footer__panel-link-category">
+                        
+                  FOLLOW US
+                </li>
+                  
+                <li class="submenu">
+                      <a href="https://www.chargers.com/app/index">
+      App </a>
+      
+                  </li>
+                  <li class="submenu">
+                      <a href="https://www.chargers.com/newsletter/index">
+      Newsletter </a>
+      
+                  </li>
+                  <li class="submenu">
+                      <a href="https://www.facebook.com/chargers/">
+      Facebook </a>
+      
+                  </li>
+                  <li class="submenu">
+                      <a href="https://twitter.com/Chargers">
+      
+     Twitter   </a>
+          
+                      </li>
+                      <li class="submenu">
+                        <a href="https://www.instagram.com/chargers/">
+        
+        Instagram  </a>
+            
+                        </li>
+                        <li class="submenu">
+                            <a href="https://www.snapchat.com/add/chargers">
+            
+            Snapchat  </a>
+                
+                            </li>
+                            <li class="submenu">
+                                <a href="https://www.youtube.com/channel/UCUyz_gEY_N-KBU4zjt2s-uQ?sub_confirmation=1">
+                
+                Youtube </a>
+                    
+                                </li>
+                            </ul>
+                            <ul class="d3-o-footer__panel-links">
+                                <li class="d3-o-footer__panel-link-category">
+                                  CHARGERS BUSINESS
+                                </li>
+                                  
+                                <li class="submenu">
+                                      <a href="https://www.chargers.com/team/front-office-roster">
+                      Front Office </a>
+                      
+                                  </li>
+                                  <li class="submenu">
+                                      <a href="https://www.chargers.com/contact-us/careers">
+                      Careers </a>
+                      
+                                  </li>
+                                  <li class="submenu">
+                                      <a href="https://www.chargers.com/business-alliance/index">
+                      Business Alliance </a>
+                      
+                                  </li>
+                                  <li class="submenu">
+                                      <a href="https://www.chargers.com/contact-us/partnership-opportunities">
+                      
+                     Partnership Opportunities   </a>
+                          
+                                      </li>
+                                      <li class="submenu">
+                                        <a href="https://www.chargers.com/contact-us/audition-application">
+                        
+                        Gameday Auditian Application  </a>
+                            
+                                        </li>
+                                       
+                                            </ul>
+                                            <ul class="d3-o-footer__panel-links">
+                                                <li class="d3-o-footer__panel-link-category">
+                                                        <a href="https://shop.chargers.com/?_s=bm-lachargers-footer-shop-061118">
+                                                        PRO SHOP
+                                                </a></li>
+                                                  
+                                                <li class="submenu">
+                                                      <a href="http://shop.chargers.com/Los_Angeles_Chargers_Hats/source/bm-chi-footer">
+                                      Hats </a>
+                                      
+                                                  </li>
+                                                  <li class="submenu">
+                                                      <a href="http://shop.chargers.com/Los_Angeles_Chargers_Jerseys/source/bm-chi-footer">
+                                     Jerseys</a>
+                                      
+                                                  </li>
+                                                  <li class="submenu">
+                                                      <a href="http://shop.chargers.com/Los_Angeles_Chargers/so/newest_items/source/bm-chi-footer">
+                                      Tailgating </a>
+                                      
+                                                  </li>
+                                                  <li class="submenu">
+                                                      <a href="http://shop.chargers.com/Los_Angeles_Chargers_Home_Office_And_School/source/bm-chi-footer">
+                                      
+                                     Home Decor   </a>
+                                          
+                                                      </li>
+                                                      <li class="submenu">
+                                                        <a href="http://shop.chargers.com/Los_Angeles_Chargers/so/newest_items/source/bm-chi-footer">
+                                        
+                                        New Arrivals  </a>
+                                            
+                                                        </li>
+                                                        <li class="submenu">
+                                                            <a href="http://shop.chargers.com/Los_Angeles_Chargers_Kids/source/bm-chi-footer">
+                                            
+                                            Kids Apparel  </a>
+                                                
+                                                            </li>
+                                                            <li class="submenu">
+                                                                <a href="http://shop.chargers.com/Los_Angeles_Chargers_Mens/source/bm-chi-footer">
+                                                
+                                               Mens Apparel </a>
+                                                    
+                                                                </li>
+                                                                <li class="submenu">
+                                                                    <a href="http://shop.chargers.com/Los_Angeles_Chargers_Womens/source/bm-chi-footer">
+                                                    
+                                                Womens Apparel </a>
+                                                        
+                                                                    </li>
+                                                            </ul>
+    
+    </div>
+    
+    <div class="footer_3">
+    <span>
+          Download Apps
+        </span>
+        <ul class="d3-o-footer__apps-links">
+          <li>
+            <a href="https://apps.apple.com/app/app/id390846039" title="Apple App Store" target="_blank">
+              <img src="shell/images/app_store_badge.svg" alt="Download Apple Store">
+            </a>
+          </li>
+          <li>
+            <a id="league-play-store-app" href="https://play.google.com/store/apps/details?id=com.mobile.android.chargers" target="_blank">
+              <img alt="Get it on Google Play" src="shell/images/en_badge_web_generic.png" width="135">
+            </a>
+          </li>
+        </ul>
+    </div>-->
+    
+    <div class="footer4">
+    <div class="footer4_1">
+    <a class="d3-o-footer__club-legal-logo" href="https://www.chargers.com"  target="_blank" title="Chargers">
+        <img src="shell/images/logo.png" alt="Chargers">
+      </a>
+    </div>
+    <div class="footer4_2">
+    <p class="d3-o-footer__club-copyright">
+        © 2024 Chargers Football Company, LLC. All rights reserved. This website is managed on a digital platform of the National Football League.
+      </p>
+    </div>
+    <div class="footer4_3">
+    <ul class="d3-o-footer__club-legal-links">
+            <li>
+                    <a href="https://www.chargers.com/contact-us/" target="_blank" title="Privacy Policy">
+                      Contact Us
+                    </a>
+            </li><li>
+                    <a href="https://www.chargers.com/contact-us/website-accessibility-statement" target="_blank" title="Privacy Policy">
+                      Website Accessibility
+                    </a>
+            </li><li>
+              <a href="https://www.chargers.com/privacy-policy" target="_blank" title="Privacy Policy">
+                Privacy Policy
+              </a>
+            </li>
+            <li>
+              <a href="https://www.nfl.com/help/privacy" target="_blank" title="Accessibility">
+                NFL Privacy Policy
+              </a>
+            </li>
+            <li>
+              <a href="https://www.chargers.com/sitemap/0" target="_blank" title="Contact Us">
+                SiteMap
+              </a>
+            </li>
+        </ul>
+    </div>
+    </div>
+    </div>
+    
+    <!--	<new footer ends>-->
+        </div>
+        <!-- <div id="Shell_Footer"></div> -->
+    
+	
+	
+<script type="text/javascript">
+    /* NSI : 7/13/12 4:27 PM --- User agent add site as home screen on ipad case check*/
+    var ua = navigator.userAgent.toLowerCase();
+    var bool = false;
+    if ((ua.indexOf('ipad')!=-1) || (ua.indexOf('iphone')!=-1) || (ua.indexOf('mobile')!=-1)) {
+        document.getElementById("Shell_Header").style.display = "none";
+        document.getElementById("Shell_Footer").style.display = "none";
+        document.title = "Buffalo Bills";
+        bool = true;
+    }
+
+    function updateOrientation()
+    {
+        viewport = document.querySelector("meta[name=viewport]");
+        switch(window.orientation)
+        {
+            case 0:
+                window.scrollTo(0,0)
+                $('#alertMsg').css('z-index','2147483647');
+                counter++
+                viewport.setAttribute('content', 'initial-scale=1,maximum-scale=1,user-scalable=no');
+                workAroundAdjust()
+                $("#alertMsg img").css({"left":"55%"})
+                break;
+            case -90:
+                window.scrollTo(0,0)
+                counter++
+                $("#appView").css("margin-left","0px")
+                viewport.setAttribute('content', ' initial-scale=1, maximum-scale=1,user-scalable=no');
+                $("#alertMsg").hide();
+                $('#sectionSelectorBoxView').css({"bottom":(Constants.MAIN_VIEW_HEIGHT-window.innerHeight + 37)});
+                setTimeout(function(){$("#appView").width(1024); $("#appView").height(window.innerHeight);},300);
+                break;
+            case 90:
+                counter++
+                window.scrollTo(0,0)
+                $("#appView").css("margin-left","0px")
+                viewport.setAttribute('content', 'initial-scale=1, maximum-scale=1,user-scalable=no');
+                $("#alertMsg").hide();
+                $('#sectionSelectorBoxView').css({"bottom":(Constants.MAIN_VIEW_HEIGHT-window.innerHeight + 37)})
+                setTimeout(function(){$("#appView").width(1024); $("#appView").height(window.innerHeight);},300)
+                break;
+            case 180:
+                $('#alertMsg').css('z-index','2147483647');
+                counter++
+                viewport.setAttribute('content', 'initial-scale=1, maximum-scale=1,user-scalable=no');
+                workAroundAdjust()
+                var userAgent = navigator.userAgent.toLowerCase();
+                $.browser.chrome = /crios/.test(navigator.userAgent.toLowerCase());
+                if($.browser.chrome){
+                    $("#alertMsg img").css({"left":"55%"})
+                }
+                break;
+        }
+
+    }
+    function workAroundAdjust(){
+        if(Constants.BROWSER_TYPE == Constants.BROWSER_SAFARI_MOBILE){
+            document.activeElement.blur();
+
+        }
+        $("#alertMsg").width(document.documentElement.clientWidth);
+        $("#alertMsg").height(document.documentElement.clientHeight);
+        $("#alertMsg").show();
+
+        if(isClicked){
+            $("#alertMsg").width(900)
+            $("#alertMsg").height(1024)
+            $("#alertMsg img").width(409.33333)
+            $("#alertMsg img").height(204.6666)
+            $("#alertMsg img").css({"left":"68%"})
+        }
+        if(counter !==0){
+
+            $("#alertMsg").width(900)
+            $("#alertMsg").height(1024)
+            $("#alertMsg img").width(409.33333)
+            $("#alertMsg img").height(204.6666)
+            $("#alertMsg img").css({"left":"68%"})
+        }
+
+    }
+    function checkView()
+    {
+        if ((ua.indexOf('ipad')!=-1) || (ua.indexOf('iphone')!=-1) || (ua.indexOf('mobile')!=-1)) {
+            viewport = document.querySelector("meta[name=viewport]");
+            isClicked = false
+
+            $("#Search_Box").bind("click",function(){
+                isClicked = true
+            })
+            counter =0;
+            if(window.orientation == 0 || window.orientation == 180)
+            {
+                $('#alertMsg').css('z-index','2147483647');
+                $("#alertMsg").width(document.documentElement.clientWidth+300)
+                $("#alertMsg").height(document.documentElement.clientHeight+335)
+                $("#alertMsg").show();
+                $("#appView")[0].style.height=672+"px";
+                $("#appView")[0].style.width=1024+"px";
+                viewport.setAttribute('content', ' initial-scale=0.75, maximum-scale=0.75,user-scalable=no');
+            }
+            else
+            {
+                viewport.setAttribute('content', 'initial-scale=1, maximum-scale=1');
+                $("#appView")[0].style.height=document.documentElement.clientHeight+"px";
+                setTimeout(function(){$("#appView").width(1024)},300)
+
+            }
+        }
+    }
+
+</script>
+    <div id="alertMsg">
+        <img src="images/alertMsg.png" alt="Landscape is the valid orientation"/>
+    </div>
+    <div id="tourInitiator"></div>
+    </body>
+</html>

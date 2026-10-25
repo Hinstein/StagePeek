@@ -1,0 +1,1296 @@
+{
+  "id": "busan-asiad",
+  "name": "釜山亚运会主体育场",
+  "city": "韩国 · 釜山",
+  "capacity": "原站目录未提供统一容量字段",
+  "source": "https://www.busan.go.kr/depart/culture0501010102",
+  "sourceTitle": "REA 导出的公开场馆来源索引与参数化座位示意",
+  "sourceLinks": [
+    "https://www.busan.go.kr/depart/culture0501010102",
+    "https://ticket.yes24.com/Perf/59564"
+  ],
+  "accuracy": {
+    "sectionLabels": "source-layout-reference",
+    "completeSeatInventory": false,
+    "metricCalibrated": false,
+    "stage": "generic",
+    "position": "estimated",
+    "geometryBasis": "estimated-parametric",
+    "catalogStatus": "catalog-only",
+    "seatDataStatus": "section-only",
+    "sourceLayout": "thrust",
+    "coverage": "72 个来源分区；0 条座位采样。区号来自公开布局参考。",
+    "reuse": "来源页面可公开访问；未建立商业图形、模型或座位数据库再分发许可，发布前需逐源复核。",
+    "sourceDate": "REA capture 2026-10-24",
+    "sourceInventory": {
+      "venueReferenceUrl": "https://www.busan.go.kr/depart/culture0501010102",
+      "mapReferenceUrl": "https://ticket.yes24.com/Perf/59564",
+      "sectionSource": "https://ticket.yes24.com/Perf/59564",
+      "geometryEvidenceLabel": null,
+      "note": "Missing asset URL does not establish absence of generated seat geometry."
+    },
+    "seatAsset": null
+  },
+  "tiers": [
+    [
+      96,
+      65,
+      1,
+      21.12,
+      8
+    ],
+    [
+      111.36,
+      75.4,
+      13,
+      21.12,
+      10
+    ]
+  ],
+  "geometry": {
+    "shape": "oval",
+    "floor": [
+      274,
+      193
+    ],
+    "tiers": [
+      {
+        "id": "tier-0",
+        "name": "Level 1",
+        "steps": 20
+      },
+      {
+        "id": "tier-1",
+        "name": "Level 2",
+        "steps": 23
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "S11",
+      "ticketLabels": [
+        "S11"
+      ],
+      "sourceLabel": "S11 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -1.3962634015954636,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "W01",
+      "ticketLabels": [
+        "W01"
+      ],
+      "sourceLabel": "W01 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -3.141592653589793,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "W02",
+      "ticketLabels": [
+        "W02"
+      ],
+      "sourceLabel": "W02 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -2.9670597283903604,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "W03",
+      "ticketLabels": [
+        "W03"
+      ],
+      "sourceLabel": "W03 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -2.792526803190927,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "W04",
+      "ticketLabels": [
+        "W04"
+      ],
+      "sourceLabel": "W04 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -2.6179938779914944,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "W05",
+      "ticketLabels": [
+        "W05"
+      ],
+      "sourceLabel": "W05 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -2.443460952792061,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "W06",
+      "ticketLabels": [
+        "W06"
+      ],
+      "sourceLabel": "W06 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -2.2689280275926285,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "S07",
+      "ticketLabels": [
+        "S07"
+      ],
+      "sourceLabel": "S07 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -2.0943951023931953,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "S08",
+      "ticketLabels": [
+        "S08"
+      ],
+      "sourceLabel": "S08 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -1.9198621771937625,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "S09",
+      "ticketLabels": [
+        "S09"
+      ],
+      "sourceLabel": "S09 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -1.7453292519943295,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "S10",
+      "ticketLabels": [
+        "S10"
+      ],
+      "sourceLabel": "S10 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -1.5707963267948966,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "S12",
+      "ticketLabels": [
+        "S12"
+      ],
+      "sourceLabel": "S12 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -1.2217304763960306,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "S13",
+      "ticketLabels": [
+        "S13"
+      ],
+      "sourceLabel": "S13 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -1.0471975511965976,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "S14",
+      "ticketLabels": [
+        "S14"
+      ],
+      "sourceLabel": "S14 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -0.8726646259971648,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "S15",
+      "ticketLabels": [
+        "S15"
+      ],
+      "sourceLabel": "S15 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -0.6981317007977318,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "E16",
+      "ticketLabels": [
+        "E16"
+      ],
+      "sourceLabel": "E16 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -0.5235987755982988,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "E17",
+      "ticketLabels": [
+        "E17"
+      ],
+      "sourceLabel": "E17 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -0.3490658503988659,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "E18",
+      "ticketLabels": [
+        "E18"
+      ],
+      "sourceLabel": "E18 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -0.17453292519943295,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "E19",
+      "ticketLabels": [
+        "E19"
+      ],
+      "sourceLabel": "E19 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "E20",
+      "ticketLabels": [
+        "E20"
+      ],
+      "sourceLabel": "E20 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 0.17453292519943295,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "E21",
+      "ticketLabels": [
+        "E21"
+      ],
+      "sourceLabel": "E21 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 0.3490658503988659,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "E22",
+      "ticketLabels": [
+        "E22"
+      ],
+      "sourceLabel": "E22 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 0.5235987755982988,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "N23",
+      "ticketLabels": [
+        "N23"
+      ],
+      "sourceLabel": "N23 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 0.6981317007977318,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "N24",
+      "ticketLabels": [
+        "N24"
+      ],
+      "sourceLabel": "N24 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 0.8726646259971648,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "N25",
+      "ticketLabels": [
+        "N25"
+      ],
+      "sourceLabel": "N25 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 1.0471975511965976,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "N26",
+      "ticketLabels": [
+        "N26"
+      ],
+      "sourceLabel": "N26 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 1.2217304763960306,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "N27",
+      "ticketLabels": [
+        "N27"
+      ],
+      "sourceLabel": "N27 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 1.3962634015954636,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "N28",
+      "ticketLabels": [
+        "N28"
+      ],
+      "sourceLabel": "N28 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 1.5707963267948966,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "N29",
+      "ticketLabels": [
+        "N29"
+      ],
+      "sourceLabel": "N29 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 1.7453292519943295,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "N30",
+      "ticketLabels": [
+        "N30"
+      ],
+      "sourceLabel": "N30 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 1.9198621771937625,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "N31",
+      "ticketLabels": [
+        "N31"
+      ],
+      "sourceLabel": "N31 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 2.0943951023931953,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "W32",
+      "ticketLabels": [
+        "W32"
+      ],
+      "sourceLabel": "W32 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 2.2689280275926285,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "W33",
+      "ticketLabels": [
+        "W33"
+      ],
+      "sourceLabel": "W33 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 2.443460952792061,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "W34",
+      "ticketLabels": [
+        "W34"
+      ],
+      "sourceLabel": "W34 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 2.6179938779914944,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "W35",
+      "ticketLabels": [
+        "W35"
+      ],
+      "sourceLabel": "W35 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 2.792526803190927,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "W36",
+      "ticketLabels": [
+        "W36"
+      ],
+      "sourceLabel": "W36 区",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 2.9670597283903604,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "W37",
+      "ticketLabels": [
+        "W37"
+      ],
+      "sourceLabel": "W37 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -3.141592653589793,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "W38",
+      "ticketLabels": [
+        "W38"
+      ],
+      "sourceLabel": "W38 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -2.9670597283903604,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "W39",
+      "ticketLabels": [
+        "W39"
+      ],
+      "sourceLabel": "W39 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -2.792526803190927,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "W40",
+      "ticketLabels": [
+        "W40"
+      ],
+      "sourceLabel": "W40 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -2.6179938779914944,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "W41",
+      "ticketLabels": [
+        "W41"
+      ],
+      "sourceLabel": "W41 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -2.443460952792061,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "S42",
+      "ticketLabels": [
+        "S42"
+      ],
+      "sourceLabel": "S42 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -2.2689280275926285,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "S43",
+      "ticketLabels": [
+        "S43"
+      ],
+      "sourceLabel": "S43 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -2.0943951023931953,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "S44",
+      "ticketLabels": [
+        "S44"
+      ],
+      "sourceLabel": "S44 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -1.9198621771937625,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "S45",
+      "ticketLabels": [
+        "S45"
+      ],
+      "sourceLabel": "S45 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -1.7453292519943295,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "S46",
+      "ticketLabels": [
+        "S46"
+      ],
+      "sourceLabel": "S46 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -1.5707963267948966,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "S47",
+      "ticketLabels": [
+        "S47"
+      ],
+      "sourceLabel": "S47 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -1.3962634015954636,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "S48",
+      "ticketLabels": [
+        "S48"
+      ],
+      "sourceLabel": "S48 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -1.2217304763960306,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "S49",
+      "ticketLabels": [
+        "S49"
+      ],
+      "sourceLabel": "S49 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -1.0471975511965976,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "S50",
+      "ticketLabels": [
+        "S50"
+      ],
+      "sourceLabel": "S50 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -0.8726646259971648,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "S51",
+      "ticketLabels": [
+        "S51"
+      ],
+      "sourceLabel": "S51 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -0.6981317007977318,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "E52",
+      "ticketLabels": [
+        "E52"
+      ],
+      "sourceLabel": "E52 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -0.5235987755982988,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "E53",
+      "ticketLabels": [
+        "E53"
+      ],
+      "sourceLabel": "E53 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -0.3490658503988659,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "E54",
+      "ticketLabels": [
+        "E54"
+      ],
+      "sourceLabel": "E54 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -0.17453292519943295,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "E55",
+      "ticketLabels": [
+        "E55"
+      ],
+      "sourceLabel": "E55 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 0,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "E56",
+      "ticketLabels": [
+        "E56"
+      ],
+      "sourceLabel": "E56 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 0.17453292519943295,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "E57",
+      "ticketLabels": [
+        "E57"
+      ],
+      "sourceLabel": "E57 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 0.3490658503988659,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "E58",
+      "ticketLabels": [
+        "E58"
+      ],
+      "sourceLabel": "E58 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 0.5235987755982988,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "N59",
+      "ticketLabels": [
+        "N59"
+      ],
+      "sourceLabel": "N59 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 0.6981317007977318,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "N60",
+      "ticketLabels": [
+        "N60"
+      ],
+      "sourceLabel": "N60 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 0.8726646259971648,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "N61",
+      "ticketLabels": [
+        "N61"
+      ],
+      "sourceLabel": "N61 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 1.0471975511965976,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "N62",
+      "ticketLabels": [
+        "N62"
+      ],
+      "sourceLabel": "N62 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 1.2217304763960306,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "N63",
+      "ticketLabels": [
+        "N63"
+      ],
+      "sourceLabel": "N63 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 1.3962634015954636,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "N64",
+      "ticketLabels": [
+        "N64"
+      ],
+      "sourceLabel": "N64 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 1.5707963267948966,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "N65",
+      "ticketLabels": [
+        "N65"
+      ],
+      "sourceLabel": "N65 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 1.7453292519943295,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "N66",
+      "ticketLabels": [
+        "N66"
+      ],
+      "sourceLabel": "N66 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 1.9198621771937625,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "N67",
+      "ticketLabels": [
+        "N67"
+      ],
+      "sourceLabel": "N67 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 2.0943951023931953,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "N68",
+      "ticketLabels": [
+        "N68"
+      ],
+      "sourceLabel": "N68 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 2.2689280275926285,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "W69",
+      "ticketLabels": [
+        "W69"
+      ],
+      "sourceLabel": "W69 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 2.443460952792061,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "W70",
+      "ticketLabels": [
+        "W70"
+      ],
+      "sourceLabel": "W70 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 2.6179938779914944,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "W71",
+      "ticketLabels": [
+        "W71"
+      ],
+      "sourceLabel": "W71 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 2.792526803190927,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    },
+    {
+      "id": "W72",
+      "ticketLabels": [
+        "W72"
+      ],
+      "sourceLabel": "W72 区",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 2.9670597283903604,
+      "halfAngle": 0.08726646259971647,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://ticket.yes24.com/Perf/59564"
+      }
+    }
+  ],
+  "importedAt": "2026-10-24T00:00:00.000Z"
+}

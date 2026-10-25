@@ -1,0 +1,2139 @@
+{
+  "id": "ajinomoto-stadium",
+  "name": "日本味之素体育场",
+  "city": "日本 · 东京",
+  "capacity": "原站目录未提供统一容量字段",
+  "source": "https://www.ajinomotostadium.com/overview/stadium.php",
+  "sourceTitle": "REA 导出的公开场馆来源索引与参数化座位示意",
+  "sourceLinks": [
+    "https://www.ajinomotostadium.com/overview/stadium.php",
+    "https://www.ajinomotostadium.com/seat/",
+    "https://www.livehis.com/seat/seat2_ajinomoto.html"
+  ],
+  "accuracy": {
+    "sectionLabels": "source-layout-reference",
+    "completeSeatInventory": false,
+    "metricCalibrated": false,
+    "stage": "generic",
+    "position": "estimated",
+    "geometryBasis": "source-informed-parametric:plan",
+    "catalogStatus": "source-geometry-and-sections",
+    "seatDataStatus": "section-only",
+    "sourceLayout": "end",
+    "coverage": "115 个来源分区；0 条座位采样。区号来自公开布局参考。",
+    "reuse": "来源页面可公开访问；未建立商业图形、模型或座位数据库再分发许可，发布前需逐源复核。",
+    "sourceDate": "REA capture 2026-10-24",
+    "sourceInventory": {
+      "venueReferenceUrl": "https://www.ajinomotostadium.com/overview/stadium.php",
+      "mapReferenceUrl": "https://www.ajinomotostadium.com/seat/",
+      "sectionSource": "https://www.ajinomotostadium.com/seat/",
+      "geometryEvidenceLabel": "plan",
+      "note": "Missing asset URL does not establish absence of generated seat geometry."
+    },
+    "seatAsset": null
+  },
+  "tiers": [
+    [
+      72,
+      110,
+      1.5,
+      22,
+      12
+    ],
+    [
+      93,
+      131,
+      20,
+      24,
+      16
+    ],
+    [
+      1,
+      1,
+      0,
+      1,
+      0
+    ]
+  ],
+  "geometry": {
+    "shape": "oval",
+    "coordinateSystem": "profile-inner-radius",
+    "power": 1,
+    "oneSided": false,
+    "stage": {
+      "width": 60,
+      "depth": 18,
+      "z": 88,
+      "height": 2.5
+    },
+    "floor": [
+      135,
+      210
+    ],
+    "rectangularFloor": true,
+    "openBowl": true,
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "下层看台",
+        "steps": 31
+      },
+      {
+        "id": "upper",
+        "name": "上层看台",
+        "steps": 24
+      },
+      {
+        "id": "floor",
+        "name": "演唱会内场示意",
+        "steps": 12
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "L-M1",
+      "ticketLabels": [
+        "L-M1"
+      ],
+      "sourceLabel": "下层 M1 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "L-M2",
+      "ticketLabels": [
+        "L-M2"
+      ],
+      "sourceLabel": "下层 M2 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.0207635094742256,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "L-M3",
+      "ticketLabels": [
+        "L-M3"
+      ],
+      "sourceLabel": "下层 M3 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.899934365358658,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "L-M4",
+      "ticketLabels": [
+        "L-M4"
+      ],
+      "sourceLabel": "下层 M4 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.7791052212430905,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "L-M5",
+      "ticketLabels": [
+        "L-M5"
+      ],
+      "sourceLabel": "下层 M5 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.6582760771275233,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "L-M6",
+      "ticketLabels": [
+        "L-M6"
+      ],
+      "sourceLabel": "下层 M6 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.537446933011956,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "L-M7",
+      "ticketLabels": [
+        "L-M7"
+      ],
+      "sourceLabel": "下层 M7 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.4166177888963882,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "L-M8",
+      "ticketLabels": [
+        "L-M8"
+      ],
+      "sourceLabel": "下层 M8 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.2957711914883014,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "L-M9",
+      "ticketLabels": [
+        "L-M9"
+      ],
+      "sourceLabel": "下层 M9 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.1749420473727334,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "L-M10",
+      "ticketLabels": [
+        "L-M10"
+      ],
+      "sourceLabel": "下层 M10 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.054112903257166,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "L-M11",
+      "ticketLabels": [
+        "L-M11"
+      ],
+      "sourceLabel": "下层 M11 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.9332837591415988,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "L-M12",
+      "ticketLabels": [
+        "L-M12"
+      ],
+      "sourceLabel": "下层 M12 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.8124546150260312,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "L-M13",
+      "ticketLabels": [
+        "L-M13"
+      ],
+      "sourceLabel": "下层 M13 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.6916254709104641,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "L-M14",
+      "ticketLabels": [
+        "L-M14"
+      ],
+      "sourceLabel": "下层 M14 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.5707963267948966,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "L-M15",
+      "ticketLabels": [
+        "L-M15"
+      ],
+      "sourceLabel": "下层 M15 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.449967182679329,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "L-M16",
+      "ticketLabels": [
+        "L-M16"
+      ],
+      "sourceLabel": "下层 M16 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.3291380385637617,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "L-S17",
+      "ticketLabels": [
+        "L-S17"
+      ],
+      "sourceLabel": "下层 S17 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.2083088944481941,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "L-S18",
+      "ticketLabels": [
+        "L-S18"
+      ],
+      "sourceLabel": "下层 S18 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.0874797503326268,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "L-S19",
+      "ticketLabels": [
+        "L-S19"
+      ],
+      "sourceLabel": "下层 S19 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.9666506062170593,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "L-S20",
+      "ticketLabels": [
+        "L-S20"
+      ],
+      "sourceLabel": "下层 S20 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.8458214621014921,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "L-S21",
+      "ticketLabels": [
+        "L-S21"
+      ],
+      "sourceLabel": "下层 S21 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.7249748646934046,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "L-S22",
+      "ticketLabels": [
+        "L-S22"
+      ],
+      "sourceLabel": "下层 S22 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.6041457205778372,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "L-S23",
+      "ticketLabels": [
+        "L-S23"
+      ],
+      "sourceLabel": "下层 S23 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.4833165764622697,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "L-S24",
+      "ticketLabels": [
+        "L-S24"
+      ],
+      "sourceLabel": "下层 S24 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.3624874323467023,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "L-S25",
+      "ticketLabels": [
+        "L-S25"
+      ],
+      "sourceLabel": "下层 S25 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.24165828823113486,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "L-S26",
+      "ticketLabels": [
+        "L-S26"
+      ],
+      "sourceLabel": "下层 S26 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.12082914411556743,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "L-S27",
+      "ticketLabels": [
+        "L-S27"
+      ],
+      "sourceLabel": "下层 S27 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "L-B28",
+      "ticketLabels": [
+        "L-B28"
+      ],
+      "sourceLabel": "下层 B28 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.12082914411556743,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "L-B29",
+      "ticketLabels": [
+        "L-B29"
+      ],
+      "sourceLabel": "下层 B29 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.24165828823113486,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "L-B30",
+      "ticketLabels": [
+        "L-B30"
+      ],
+      "sourceLabel": "下层 B30 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.3624874323467023,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "L-B31",
+      "ticketLabels": [
+        "L-B31"
+      ],
+      "sourceLabel": "下层 B31 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.4833165764622697,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "L-B32",
+      "ticketLabels": [
+        "L-B32"
+      ],
+      "sourceLabel": "下层 B32 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.6041457205778372,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "L-B33",
+      "ticketLabels": [
+        "L-B33"
+      ],
+      "sourceLabel": "下层 B33 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.7249748646934046,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "L-B34",
+      "ticketLabels": [
+        "L-B34"
+      ],
+      "sourceLabel": "下层 B34 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.8458214621014921,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "L-B35",
+      "ticketLabels": [
+        "L-B35"
+      ],
+      "sourceLabel": "下层 B35 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.9666506062170593,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "L-B36",
+      "ticketLabels": [
+        "L-B36"
+      ],
+      "sourceLabel": "下层 B36 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.0874797503326268,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "L-B37",
+      "ticketLabels": [
+        "L-B37"
+      ],
+      "sourceLabel": "下层 B37 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.2083088944481941,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "L-B38",
+      "ticketLabels": [
+        "L-B38"
+      ],
+      "sourceLabel": "下层 B38 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.3291380385637617,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "L-B39",
+      "ticketLabels": [
+        "L-B39"
+      ],
+      "sourceLabel": "下层 B39 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.449967182679329,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "L-B40",
+      "ticketLabels": [
+        "L-B40"
+      ],
+      "sourceLabel": "下层 B40 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.5707963267948966,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "L-B41",
+      "ticketLabels": [
+        "L-B41"
+      ],
+      "sourceLabel": "下层 B41 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.6916254709104641,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "L-N42",
+      "ticketLabels": [
+        "L-N42"
+      ],
+      "sourceLabel": "下层 N42 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.8124546150260312,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "L-N43",
+      "ticketLabels": [
+        "L-N43"
+      ],
+      "sourceLabel": "下层 N43 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.9332837591415988,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "L-N44",
+      "ticketLabels": [
+        "L-N44"
+      ],
+      "sourceLabel": "下层 N44 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.054112903257166,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "L-N45",
+      "ticketLabels": [
+        "L-N45"
+      ],
+      "sourceLabel": "下层 N45 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.1749420473727334,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "L-N46",
+      "ticketLabels": [
+        "L-N46"
+      ],
+      "sourceLabel": "下层 N46 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.2957711914883014,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "L-N47",
+      "ticketLabels": [
+        "L-N47"
+      ],
+      "sourceLabel": "下层 N47 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.4166177888963882,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "L-N48",
+      "ticketLabels": [
+        "L-N48"
+      ],
+      "sourceLabel": "下层 N48 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.537446933011956,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "L-N49",
+      "ticketLabels": [
+        "L-N49"
+      ],
+      "sourceLabel": "下层 N49 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.6582760771275233,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "L-N50",
+      "ticketLabels": [
+        "L-N50"
+      ],
+      "sourceLabel": "下层 N50 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.7791052212430905,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "L-N51",
+      "ticketLabels": [
+        "L-N51"
+      ],
+      "sourceLabel": "下层 N51 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -2.899934365358658,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "L-N52",
+      "ticketLabels": [
+        "L-N52"
+      ],
+      "sourceLabel": "下层 N52 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -3.0207635094742256,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "U-M1",
+      "ticketLabels": [
+        "U-M1"
+      ],
+      "sourceLabel": "上层 M1 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": 3.141592653589793,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "U-M2",
+      "ticketLabels": [
+        "U-M2"
+      ],
+      "sourceLabel": "上层 M2 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": 3.0207635094742256,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "U-M3",
+      "ticketLabels": [
+        "U-M3"
+      ],
+      "sourceLabel": "上层 M3 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": 2.899934365358658,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "U-M4",
+      "ticketLabels": [
+        "U-M4"
+      ],
+      "sourceLabel": "上层 M4 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": 2.7791052212430905,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "U-M5",
+      "ticketLabels": [
+        "U-M5"
+      ],
+      "sourceLabel": "上层 M5 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": 2.6582760771275233,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "U-M6",
+      "ticketLabels": [
+        "U-M6"
+      ],
+      "sourceLabel": "上层 M6 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": 2.537446933011956,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "U-M7",
+      "ticketLabels": [
+        "U-M7"
+      ],
+      "sourceLabel": "上层 M7 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": 2.4166177888963882,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "U-M8",
+      "ticketLabels": [
+        "U-M8"
+      ],
+      "sourceLabel": "上层 M8 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": 2.2957711914883014,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "U-M9",
+      "ticketLabels": [
+        "U-M9"
+      ],
+      "sourceLabel": "上层 M9 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": 2.1749420473727334,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "U-M10",
+      "ticketLabels": [
+        "U-M10"
+      ],
+      "sourceLabel": "上层 M10 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": 2.054112903257166,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "U-M11",
+      "ticketLabels": [
+        "U-M11"
+      ],
+      "sourceLabel": "上层 M11 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": 1.9332837591415988,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "U-M12",
+      "ticketLabels": [
+        "U-M12"
+      ],
+      "sourceLabel": "上层 M12 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": 1.8124546150260312,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "U-M13",
+      "ticketLabels": [
+        "U-M13"
+      ],
+      "sourceLabel": "上层 M13 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": 1.6916254709104641,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "U-M14",
+      "ticketLabels": [
+        "U-M14"
+      ],
+      "sourceLabel": "上层 M14 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": 1.5707963267948966,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "U-M15",
+      "ticketLabels": [
+        "U-M15"
+      ],
+      "sourceLabel": "上层 M15 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": 1.449967182679329,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "U-M16",
+      "ticketLabels": [
+        "U-M16"
+      ],
+      "sourceLabel": "上层 M16 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": 1.3291380385637617,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "U-S17",
+      "ticketLabels": [
+        "U-S17"
+      ],
+      "sourceLabel": "上层 S17 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": 1.2083088944481941,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "U-S18",
+      "ticketLabels": [
+        "U-S18"
+      ],
+      "sourceLabel": "上层 S18 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": 1.0874797503326268,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "U-S19",
+      "ticketLabels": [
+        "U-S19"
+      ],
+      "sourceLabel": "上层 S19 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": 0.9666506062170593,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "U-S20",
+      "ticketLabels": [
+        "U-S20"
+      ],
+      "sourceLabel": "上层 S20 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": 0.8458214621014921,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "U-S21",
+      "ticketLabels": [
+        "U-S21"
+      ],
+      "sourceLabel": "上层 S21 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": 0.7249748646934046,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "U-S22",
+      "ticketLabels": [
+        "U-S22"
+      ],
+      "sourceLabel": "上层 S22 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": 0.6041457205778372,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "U-S23",
+      "ticketLabels": [
+        "U-S23"
+      ],
+      "sourceLabel": "上层 S23 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": 0.4833165764622697,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "U-S24",
+      "ticketLabels": [
+        "U-S24"
+      ],
+      "sourceLabel": "上层 S24 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": 0.3624874323467023,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "U-S25",
+      "ticketLabels": [
+        "U-S25"
+      ],
+      "sourceLabel": "上层 S25 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": 0.24165828823113486,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "U-S26",
+      "ticketLabels": [
+        "U-S26"
+      ],
+      "sourceLabel": "上层 S26 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": 0.12082914411556743,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "U-S27",
+      "ticketLabels": [
+        "U-S27"
+      ],
+      "sourceLabel": "上层 S27 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": 0,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "U-B28",
+      "ticketLabels": [
+        "U-B28"
+      ],
+      "sourceLabel": "上层 B28 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": -0.12082914411556743,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "U-B29",
+      "ticketLabels": [
+        "U-B29"
+      ],
+      "sourceLabel": "上层 B29 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": -0.24165828823113486,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "U-B30",
+      "ticketLabels": [
+        "U-B30"
+      ],
+      "sourceLabel": "上层 B30 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": -0.3624874323467023,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "U-B31",
+      "ticketLabels": [
+        "U-B31"
+      ],
+      "sourceLabel": "上层 B31 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": -0.4833165764622697,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "U-B32",
+      "ticketLabels": [
+        "U-B32"
+      ],
+      "sourceLabel": "上层 B32 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": -0.6041457205778372,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "U-B33",
+      "ticketLabels": [
+        "U-B33"
+      ],
+      "sourceLabel": "上层 B33 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": -0.7249748646934046,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "U-B34",
+      "ticketLabels": [
+        "U-B34"
+      ],
+      "sourceLabel": "上层 B34 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": -0.8458214621014921,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "U-B35",
+      "ticketLabels": [
+        "U-B35"
+      ],
+      "sourceLabel": "上层 B35 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": -0.9666506062170593,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "U-B36",
+      "ticketLabels": [
+        "U-B36"
+      ],
+      "sourceLabel": "上层 B36 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": -1.0874797503326268,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "U-B37",
+      "ticketLabels": [
+        "U-B37"
+      ],
+      "sourceLabel": "上层 B37 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": -1.2083088944481941,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "U-B38",
+      "ticketLabels": [
+        "U-B38"
+      ],
+      "sourceLabel": "上层 B38 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": -1.3291380385637617,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "U-B39",
+      "ticketLabels": [
+        "U-B39"
+      ],
+      "sourceLabel": "上层 B39 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": -1.449967182679329,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "U-B40",
+      "ticketLabels": [
+        "U-B40"
+      ],
+      "sourceLabel": "上层 B40 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": -1.5707963267948966,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "U-B41",
+      "ticketLabels": [
+        "U-B41"
+      ],
+      "sourceLabel": "上层 B41 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": -1.6916254709104641,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "U-N42",
+      "ticketLabels": [
+        "U-N42"
+      ],
+      "sourceLabel": "上层 N42 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": -1.8124546150260312,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "U-N43",
+      "ticketLabels": [
+        "U-N43"
+      ],
+      "sourceLabel": "上层 N43 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": -1.9332837591415988,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "U-N44",
+      "ticketLabels": [
+        "U-N44"
+      ],
+      "sourceLabel": "上层 N44 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": -2.054112903257166,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "U-N45",
+      "ticketLabels": [
+        "U-N45"
+      ],
+      "sourceLabel": "上层 N45 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": -2.1749420473727334,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "U-N46",
+      "ticketLabels": [
+        "U-N46"
+      ],
+      "sourceLabel": "上层 N46 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": -2.2957711914883014,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "U-N47",
+      "ticketLabels": [
+        "U-N47"
+      ],
+      "sourceLabel": "上层 N47 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": -2.4166177888963882,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "U-N48",
+      "ticketLabels": [
+        "U-N48"
+      ],
+      "sourceLabel": "上层 N48 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": -2.537446933011956,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "U-N49",
+      "ticketLabels": [
+        "U-N49"
+      ],
+      "sourceLabel": "上层 N49 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": -2.6582760771275233,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "U-N50",
+      "ticketLabels": [
+        "U-N50"
+      ],
+      "sourceLabel": "上层 N50 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": -2.7791052212430905,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "U-N51",
+      "ticketLabels": [
+        "U-N51"
+      ],
+      "sourceLabel": "上层 N51 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": -2.899934365358658,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "U-N52",
+      "ticketLabels": [
+        "U-N52"
+      ],
+      "sourceLabel": "上层 N52 区",
+      "levelName": "upper",
+      "tier": 1,
+      "angle": -3.0207635094742256,
+      "halfAngle": 0.75,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "arena-A",
+      "ticketLabels": [
+        "arena-A"
+      ],
+      "sourceLabel": "内场 A 排区（1–17 块示意）",
+      "levelName": "Level 3",
+      "tier": 2,
+      "block": {
+        "x": 0,
+        "z": 68,
+        "width": 104,
+        "depth": 10,
+        "base": 0,
+        "facing": -1
+      },
+      "angle": 0,
+      "halfAngle": 0.012,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "arena-B",
+      "ticketLabels": [
+        "arena-B"
+      ],
+      "sourceLabel": "内场 B 排区（1–17 块示意）",
+      "levelName": "Level 3",
+      "tier": 2,
+      "block": {
+        "x": 0,
+        "z": 54,
+        "width": 104,
+        "depth": 10,
+        "base": 0,
+        "facing": -1
+      },
+      "angle": 0,
+      "halfAngle": 0.012,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "arena-C",
+      "ticketLabels": [
+        "arena-C"
+      ],
+      "sourceLabel": "内场 C 排区（1–17 块示意）",
+      "levelName": "Level 3",
+      "tier": 2,
+      "block": {
+        "x": 0,
+        "z": 40,
+        "width": 104,
+        "depth": 10,
+        "base": 0,
+        "facing": -1
+      },
+      "angle": 0,
+      "halfAngle": 0.012,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "arena-D",
+      "ticketLabels": [
+        "arena-D"
+      ],
+      "sourceLabel": "内场 D 排区（1–17 块示意）",
+      "levelName": "Level 3",
+      "tier": 2,
+      "block": {
+        "x": 0,
+        "z": 26,
+        "width": 104,
+        "depth": 10,
+        "base": 0,
+        "facing": -1
+      },
+      "angle": 0,
+      "halfAngle": 0.012,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "arena-E",
+      "ticketLabels": [
+        "arena-E"
+      ],
+      "sourceLabel": "内场 E 排区（1–17 块示意）",
+      "levelName": "Level 3",
+      "tier": 2,
+      "block": {
+        "x": 0,
+        "z": 12,
+        "width": 104,
+        "depth": 10,
+        "base": 0,
+        "facing": -1
+      },
+      "angle": 0,
+      "halfAngle": 0.012,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "arena-F",
+      "ticketLabels": [
+        "arena-F"
+      ],
+      "sourceLabel": "内场 F 排区（1–17 块示意）",
+      "levelName": "Level 3",
+      "tier": 2,
+      "block": {
+        "x": 0,
+        "z": -2,
+        "width": 104,
+        "depth": 10,
+        "base": 0,
+        "facing": -1
+      },
+      "angle": 0,
+      "halfAngle": 0.012,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "arena-G",
+      "ticketLabels": [
+        "arena-G"
+      ],
+      "sourceLabel": "内场 G 排区（1–17 块示意）",
+      "levelName": "Level 3",
+      "tier": 2,
+      "block": {
+        "x": 0,
+        "z": -16,
+        "width": 104,
+        "depth": 10,
+        "base": 0,
+        "facing": -1
+      },
+      "angle": 0,
+      "halfAngle": 0.012,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "arena-H",
+      "ticketLabels": [
+        "arena-H"
+      ],
+      "sourceLabel": "内场 H 排区（1–17 块示意）",
+      "levelName": "Level 3",
+      "tier": 2,
+      "block": {
+        "x": 0,
+        "z": -30,
+        "width": 104,
+        "depth": 10,
+        "base": 0,
+        "facing": -1
+      },
+      "angle": 0,
+      "halfAngle": 0.012,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "arena-I",
+      "ticketLabels": [
+        "arena-I"
+      ],
+      "sourceLabel": "内场 I 排区（1–17 块示意）",
+      "levelName": "Level 3",
+      "tier": 2,
+      "block": {
+        "x": 0,
+        "z": -44,
+        "width": 104,
+        "depth": 10,
+        "base": 0,
+        "facing": -1
+      },
+      "angle": 0,
+      "halfAngle": 0.012,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "arena-J",
+      "ticketLabels": [
+        "arena-J"
+      ],
+      "sourceLabel": "内场 J 排区（1–17 块示意）",
+      "levelName": "Level 3",
+      "tier": 2,
+      "block": {
+        "x": 0,
+        "z": -58,
+        "width": 104,
+        "depth": 10,
+        "base": 0,
+        "facing": -1
+      },
+      "angle": 0,
+      "halfAngle": 0.012,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    },
+    {
+      "id": "arena-K",
+      "ticketLabels": [
+        "arena-K"
+      ],
+      "sourceLabel": "内场 K 排区（1–17 块示意）",
+      "levelName": "Level 3",
+      "tier": 2,
+      "block": {
+        "x": 0,
+        "z": -72,
+        "width": 104,
+        "depth": 10,
+        "base": 0,
+        "facing": -1
+      },
+      "angle": 0,
+      "halfAngle": 0.012,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.ajinomotostadium.com/seat/"
+      }
+    }
+  ],
+  "importedAt": "2026-10-24T00:00:00.000Z"
+}

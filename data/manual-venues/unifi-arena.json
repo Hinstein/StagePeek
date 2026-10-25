@@ -1,0 +1,790 @@
+{
+  "id": "unifi-arena",
+  "name": "Unifi Arena · 原 Axiata",
+  "city": "马来西亚 · 吉隆坡",
+  "capacity": "原站目录未提供统一容量字段",
+  "source": "https://www.stadium.gov.my/venues/kuala-lumpur-sports-city/unifi-arena.html",
+  "sourceTitle": "REA 导出的公开场馆来源索引与参数化座位示意",
+  "sourceLinks": [
+    "https://www.stadium.gov.my/venues/kuala-lumpur-sports-city/unifi-arena.html",
+    "https://stadium.gov.my/images/dokumen/venues/floor-plan/Axiata-Arena-Floor-Plan.pdf",
+    "https://www.stadium.gov.my/venues/kuala-lumpur-sports-city/unifi-arena?format=html"
+  ],
+  "accuracy": {
+    "sectionLabels": "source-layout-reference",
+    "completeSeatInventory": false,
+    "metricCalibrated": false,
+    "stage": "generic",
+    "position": "estimated",
+    "geometryBasis": "source-informed-parametric:dimension",
+    "catalogStatus": "source-geometry-and-sections",
+    "seatDataStatus": "section-only",
+    "sourceLayout": "end",
+    "coverage": "42 个来源分区；0 条座位采样。区号来自公开布局参考。",
+    "reuse": "来源页面可公开访问；未建立商业图形、模型或座位数据库再分发许可，发布前需逐源复核。",
+    "sourceDate": "REA capture 2026-10-24",
+    "sourceInventory": {
+      "venueReferenceUrl": "https://www.stadium.gov.my/venues/kuala-lumpur-sports-city/unifi-arena.html",
+      "mapReferenceUrl": null,
+      "sectionSource": "https://stadium.gov.my/images/dokumen/venues/floor-plan/Axiata-Arena-Floor-Plan.pdf",
+      "geometryEvidenceLabel": "dimension",
+      "note": "Missing asset URL does not establish absence of generated seat geometry."
+    },
+    "seatAsset": null
+  },
+  "tiers": [
+    [
+      19.5,
+      35,
+      1,
+      18,
+      9
+    ],
+    [
+      31.5,
+      47,
+      14,
+      17,
+      12
+    ]
+  ],
+  "geometry": {
+    "shape": "rounded",
+    "coordinateSystem": "profile-inner-radius",
+    "power": 0.48,
+    "oneSided": false,
+    "floor": [
+      35,
+      66
+    ],
+    "tiers": [
+      {
+        "id": "lower",
+        "name": "300 看台",
+        "steps": 24
+      },
+      {
+        "id": "middle",
+        "name": "400 看台",
+        "steps": 24
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "301",
+      "ticketLabels": [
+        "301"
+      ],
+      "sourceLabel": "301 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.9198621771937625,
+      "halfAngle": 0.12542808669457248,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.gov.my/images/dokumen/venues/floor-plan/Axiata-Arena-Floor-Plan.pdf"
+      }
+    },
+    {
+      "id": "302",
+      "ticketLabels": [
+        "302"
+      ],
+      "sourceLabel": "302 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.6347975504655285,
+      "halfAngle": 0.12542808669457248,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.gov.my/images/dokumen/venues/floor-plan/Axiata-Arena-Floor-Plan.pdf"
+      }
+    },
+    {
+      "id": "303",
+      "ticketLabels": [
+        "303"
+      ],
+      "sourceLabel": "303 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.349715470444775,
+      "halfAngle": 0.12542808669457248,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.gov.my/images/dokumen/venues/floor-plan/Axiata-Arena-Floor-Plan.pdf"
+      }
+    },
+    {
+      "id": "304",
+      "ticketLabels": [
+        "304"
+      ],
+      "sourceLabel": "304 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -1.064650843716541,
+      "halfAngle": 0.12542808669457248,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.gov.my/images/dokumen/venues/floor-plan/Axiata-Arena-Floor-Plan.pdf"
+      }
+    },
+    {
+      "id": "305",
+      "ticketLabels": [
+        "305"
+      ],
+      "sourceLabel": "305 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.7795862169883072,
+      "halfAngle": 0.12542808669457248,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.gov.my/images/dokumen/venues/floor-plan/Axiata-Arena-Floor-Plan.pdf"
+      }
+    },
+    {
+      "id": "306",
+      "ticketLabels": [
+        "306"
+      ],
+      "sourceLabel": "306 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.4945041369675534,
+      "halfAngle": 0.12542808669457248,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.gov.my/images/dokumen/venues/floor-plan/Axiata-Arena-Floor-Plan.pdf"
+      }
+    },
+    {
+      "id": "307",
+      "ticketLabels": [
+        "307"
+      ],
+      "sourceLabel": "307 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": -0.20943951023931953,
+      "halfAngle": 0.12542808669457248,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.gov.my/images/dokumen/venues/floor-plan/Axiata-Arena-Floor-Plan.pdf"
+      }
+    },
+    {
+      "id": "308",
+      "ticketLabels": [
+        "308"
+      ],
+      "sourceLabel": "308 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.0756251164889143,
+      "halfAngle": 0.12542808669457248,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.gov.my/images/dokumen/venues/floor-plan/Axiata-Arena-Floor-Plan.pdf"
+      }
+    },
+    {
+      "id": "309",
+      "ticketLabels": [
+        "309"
+      ],
+      "sourceLabel": "309 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.3607071965096681,
+      "halfAngle": 0.12542808669457248,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.gov.my/images/dokumen/venues/floor-plan/Axiata-Arena-Floor-Plan.pdf"
+      }
+    },
+    {
+      "id": "310",
+      "ticketLabels": [
+        "310"
+      ],
+      "sourceLabel": "310 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.6457718232379019,
+      "halfAngle": 0.12542808669457248,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.gov.my/images/dokumen/venues/floor-plan/Axiata-Arena-Floor-Plan.pdf"
+      }
+    },
+    {
+      "id": "311",
+      "ticketLabels": [
+        "311"
+      ],
+      "sourceLabel": "311 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 0.9308364499661358,
+      "halfAngle": 0.12542808669457248,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.gov.my/images/dokumen/venues/floor-plan/Axiata-Arena-Floor-Plan.pdf"
+      }
+    },
+    {
+      "id": "312",
+      "ticketLabels": [
+        "312"
+      ],
+      "sourceLabel": "312 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.2159185299868895,
+      "halfAngle": 0.12542808669457248,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.gov.my/images/dokumen/venues/floor-plan/Axiata-Arena-Floor-Plan.pdf"
+      }
+    },
+    {
+      "id": "313",
+      "ticketLabels": [
+        "313"
+      ],
+      "sourceLabel": "313 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.5009831567151233,
+      "halfAngle": 0.12542808669457248,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.gov.my/images/dokumen/venues/floor-plan/Axiata-Arena-Floor-Plan.pdf"
+      }
+    },
+    {
+      "id": "314",
+      "ticketLabels": [
+        "314"
+      ],
+      "sourceLabel": "314 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 1.7860477834433572,
+      "halfAngle": 0.12542808669457248,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.gov.my/images/dokumen/venues/floor-plan/Axiata-Arena-Floor-Plan.pdf"
+      }
+    },
+    {
+      "id": "315",
+      "ticketLabels": [
+        "315"
+      ],
+      "sourceLabel": "315 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.071129863464111,
+      "halfAngle": 0.12542808669457248,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.gov.my/images/dokumen/venues/floor-plan/Axiata-Arena-Floor-Plan.pdf"
+      }
+    },
+    {
+      "id": "316",
+      "ticketLabels": [
+        "316"
+      ],
+      "sourceLabel": "316 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.356194490192345,
+      "halfAngle": 0.12542808669457248,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.gov.my/images/dokumen/venues/floor-plan/Axiata-Arena-Floor-Plan.pdf"
+      }
+    },
+    {
+      "id": "317",
+      "ticketLabels": [
+        "317"
+      ],
+      "sourceLabel": "317 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.641259116920579,
+      "halfAngle": 0.12542808669457248,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.gov.my/images/dokumen/venues/floor-plan/Axiata-Arena-Floor-Plan.pdf"
+      }
+    },
+    {
+      "id": "318",
+      "ticketLabels": [
+        "318"
+      ],
+      "sourceLabel": "318 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 2.9263411969413324,
+      "halfAngle": 0.12542808669457248,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.gov.my/images/dokumen/venues/floor-plan/Axiata-Arena-Floor-Plan.pdf"
+      }
+    },
+    {
+      "id": "319",
+      "ticketLabels": [
+        "319"
+      ],
+      "sourceLabel": "319 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.211405823669566,
+      "halfAngle": 0.12542808669457248,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.gov.my/images/dokumen/venues/floor-plan/Axiata-Arena-Floor-Plan.pdf"
+      }
+    },
+    {
+      "id": "320",
+      "ticketLabels": [
+        "320"
+      ],
+      "sourceLabel": "320 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.4964704503978,
+      "halfAngle": 0.12542808669457248,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.gov.my/images/dokumen/venues/floor-plan/Axiata-Arena-Floor-Plan.pdf"
+      }
+    },
+    {
+      "id": "321",
+      "ticketLabels": [
+        "321"
+      ],
+      "sourceLabel": "321 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 3.781552530418554,
+      "halfAngle": 0.12542808669457248,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.gov.my/images/dokumen/venues/floor-plan/Axiata-Arena-Floor-Plan.pdf"
+      }
+    },
+    {
+      "id": "322",
+      "ticketLabels": [
+        "322"
+      ],
+      "sourceLabel": "322 区",
+      "levelName": "lower",
+      "tier": 0,
+      "angle": 4.066617157146788,
+      "halfAngle": 0.12542808669457248,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.gov.my/images/dokumen/venues/floor-plan/Axiata-Arena-Floor-Plan.pdf"
+      }
+    },
+    {
+      "id": "401",
+      "ticketLabels": [
+        "401"
+      ],
+      "sourceLabel": "401 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.9198621771937625,
+      "halfAngle": 0.1382300767579509,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.gov.my/images/dokumen/venues/floor-plan/Axiata-Arena-Floor-Plan.pdf"
+      }
+    },
+    {
+      "id": "402",
+      "ticketLabels": [
+        "402"
+      ],
+      "sourceLabel": "402 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.605702911834783,
+      "halfAngle": 0.1382300767579509,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.gov.my/images/dokumen/venues/floor-plan/Axiata-Arena-Floor-Plan.pdf"
+      }
+    },
+    {
+      "id": "403",
+      "ticketLabels": [
+        "403"
+      ],
+      "sourceLabel": "403 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -1.2915436464758039,
+      "halfAngle": 0.1382300767579509,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.gov.my/images/dokumen/venues/floor-plan/Axiata-Arena-Floor-Plan.pdf"
+      }
+    },
+    {
+      "id": "404",
+      "ticketLabels": [
+        "404"
+      ],
+      "sourceLabel": "404 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.9773843811168246,
+      "halfAngle": 0.1382300767579509,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.gov.my/images/dokumen/venues/floor-plan/Axiata-Arena-Floor-Plan.pdf"
+      }
+    },
+    {
+      "id": "405",
+      "ticketLabels": [
+        "405"
+      ],
+      "sourceLabel": "405 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.6632251157578452,
+      "halfAngle": 0.1382300767579509,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.gov.my/images/dokumen/venues/floor-plan/Axiata-Arena-Floor-Plan.pdf"
+      }
+    },
+    {
+      "id": "406",
+      "ticketLabels": [
+        "406"
+      ],
+      "sourceLabel": "406 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.3490658503988659,
+      "halfAngle": 0.1382300767579509,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.gov.my/images/dokumen/venues/floor-plan/Axiata-Arena-Floor-Plan.pdf"
+      }
+    },
+    {
+      "id": "407",
+      "ticketLabels": [
+        "407"
+      ],
+      "sourceLabel": "407 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": -0.03490658503988659,
+      "halfAngle": 0.1382300767579509,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.gov.my/images/dokumen/venues/floor-plan/Axiata-Arena-Floor-Plan.pdf"
+      }
+    },
+    {
+      "id": "408",
+      "ticketLabels": [
+        "408"
+      ],
+      "sourceLabel": "408 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.2792526803190927,
+      "halfAngle": 0.1382300767579509,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.gov.my/images/dokumen/venues/floor-plan/Axiata-Arena-Floor-Plan.pdf"
+      }
+    },
+    {
+      "id": "409",
+      "ticketLabels": [
+        "409"
+      ],
+      "sourceLabel": "409 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.5934119456780721,
+      "halfAngle": 0.1382300767579509,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.gov.my/images/dokumen/venues/floor-plan/Axiata-Arena-Floor-Plan.pdf"
+      }
+    },
+    {
+      "id": "410",
+      "ticketLabels": [
+        "410"
+      ],
+      "sourceLabel": "410 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 0.9075712110370514,
+      "halfAngle": 0.1382300767579509,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.gov.my/images/dokumen/venues/floor-plan/Axiata-Arena-Floor-Plan.pdf"
+      }
+    },
+    {
+      "id": "411",
+      "ticketLabels": [
+        "411"
+      ],
+      "sourceLabel": "411 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.2217304763960306,
+      "halfAngle": 0.1382300767579509,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.gov.my/images/dokumen/venues/floor-plan/Axiata-Arena-Floor-Plan.pdf"
+      }
+    },
+    {
+      "id": "412",
+      "ticketLabels": [
+        "412"
+      ],
+      "sourceLabel": "412 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.53588974175501,
+      "halfAngle": 0.1382300767579509,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.gov.my/images/dokumen/venues/floor-plan/Axiata-Arena-Floor-Plan.pdf"
+      }
+    },
+    {
+      "id": "413",
+      "ticketLabels": [
+        "413"
+      ],
+      "sourceLabel": "413 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 1.8500490071139892,
+      "halfAngle": 0.1382300767579509,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.gov.my/images/dokumen/venues/floor-plan/Axiata-Arena-Floor-Plan.pdf"
+      }
+    },
+    {
+      "id": "414",
+      "ticketLabels": [
+        "414"
+      ],
+      "sourceLabel": "414 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.1642082724729685,
+      "halfAngle": 0.1382300767579509,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.gov.my/images/dokumen/venues/floor-plan/Axiata-Arena-Floor-Plan.pdf"
+      }
+    },
+    {
+      "id": "415",
+      "ticketLabels": [
+        "415"
+      ],
+      "sourceLabel": "415 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.478367537831948,
+      "halfAngle": 0.1382300767579509,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.gov.my/images/dokumen/venues/floor-plan/Axiata-Arena-Floor-Plan.pdf"
+      }
+    },
+    {
+      "id": "416",
+      "ticketLabels": [
+        "416"
+      ],
+      "sourceLabel": "416 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 2.792526803190927,
+      "halfAngle": 0.1382300767579509,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.gov.my/images/dokumen/venues/floor-plan/Axiata-Arena-Floor-Plan.pdf"
+      }
+    },
+    {
+      "id": "417",
+      "ticketLabels": [
+        "417"
+      ],
+      "sourceLabel": "417 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.106686068549907,
+      "halfAngle": 0.1382300767579509,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.gov.my/images/dokumen/venues/floor-plan/Axiata-Arena-Floor-Plan.pdf"
+      }
+    },
+    {
+      "id": "418",
+      "ticketLabels": [
+        "418"
+      ],
+      "sourceLabel": "418 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.420845333908886,
+      "halfAngle": 0.1382300767579509,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.gov.my/images/dokumen/venues/floor-plan/Axiata-Arena-Floor-Plan.pdf"
+      }
+    },
+    {
+      "id": "419",
+      "ticketLabels": [
+        "419"
+      ],
+      "sourceLabel": "419 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 3.735004599267865,
+      "halfAngle": 0.1382300767579509,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.gov.my/images/dokumen/venues/floor-plan/Axiata-Arena-Floor-Plan.pdf"
+      }
+    },
+    {
+      "id": "420",
+      "ticketLabels": [
+        "420"
+      ],
+      "sourceLabel": "420 区",
+      "levelName": "middle",
+      "tier": 1,
+      "angle": 4.049163864626845,
+      "halfAngle": 0.1382300767579509,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://stadium.gov.my/images/dokumen/venues/floor-plan/Axiata-Arena-Floor-Plan.pdf"
+      }
+    }
+  ],
+  "importedAt": "2026-10-24T00:00:00.000Z"
+}

@@ -1,0 +1,38 @@
+{
+  "retrieved_date": "2026-10-23",
+  "files": [
+    {
+      "url": "https://venue.flytix.live/viewer?venue=hkc",
+      "path": "/Users/lilinhai/Projects/rea/shijiao-evidence/data-sources/upstream-observations/flytix-viewer.html",
+      "bytes": 3723,
+      "sha256": "a95c5f3fbbef97a97143d914412ab9b7170d93b84c739d129c5d33d9f929b2c0",
+      "method": "public HTTPS GET, no credentials; not a REA retained browser capture"
+    },
+    {
+      "url": "https://venue.flytix.live/assets/viewer-DTZmpK2K.js",
+      "path": "/Users/lilinhai/Projects/rea/shijiao-evidence/data-sources/upstream-observations/viewer-DTZmpK2K.js",
+      "bytes": 627267,
+      "sha256": "2ba8160b60637146f9244cbf800655eca7c45586e95a985026c7fc83753af6ab",
+      "method": "public HTTPS GET, no credentials; not a REA retained browser capture"
+    },
+    {
+      "url": "https://venue.flytix.live/assets/hkc-0MKmUkEr.js",
+      "path": "/Users/lilinhai/Projects/rea/shijiao-evidence/data-sources/upstream-observations/hkc-0MKmUkEr.js",
+      "bytes": 774253,
+      "sha256": "b4039baf18aa88b8b6f28f8d3becffedd0a48451a0928209cf5e21ffb83b077d",
+      "method": "public HTTPS GET, no credentials; not a REA retained browser capture"
+    },
+    {
+      "url": "https://venue.flytix.live/assets/kts-D3A_eNdl.js",
+      "path": "/Users/lilinhai/Projects/rea/shijiao-evidence/data-sources/upstream-observations/kts-D3A_eNdl.js",
+      "bytes": 3919003,
+      "sha256": "4571c73b4784d7e3dd3ee6ef6566b8ae0a4c677cabe9c3e77d3b920d5112b118",
+      "method": "public HTTPS GET, no credentials; not a REA retained browser capture"
+    }
+  ],
+  "unavailable_reference": {
+    "url": "https://venue.flytix.live/tools/kai-tak/README.md",
+    "status": 404,
+    "note": "Development path is mentioned by the shipped script; public access was not available."
+  }
+}

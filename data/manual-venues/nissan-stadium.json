@@ -1,0 +1,889 @@
+{
+  "id": "nissan-stadium",
+  "name": "日产体育场",
+  "city": "日本 · 横滨",
+  "capacity": "原站目录未提供统一容量字段",
+  "source": "https://www.nissan-stadium.jp/english/",
+  "sourceTitle": "REA 导出的公开场馆来源索引与参数化座位示意",
+  "sourceLinks": [
+    "https://www.nissan-stadium.jp/english/",
+    "https://www.nissan-stadium.jp/floor/",
+    "https://www.nissan-stadium.jp/floor/img/mapsheet.pdf"
+  ],
+  "accuracy": {
+    "sectionLabels": "source-layout-reference",
+    "completeSeatInventory": false,
+    "metricCalibrated": false,
+    "stage": "generic",
+    "position": "estimated",
+    "geometryBasis": "estimated-parametric",
+    "catalogStatus": "catalog-only",
+    "seatDataStatus": "section-only",
+    "sourceLayout": "end",
+    "coverage": "48 个来源分区；0 条座位采样。区号来自公开布局参考。",
+    "reuse": "来源页面可公开访问；未建立商业图形、模型或座位数据库再分发许可，发布前需逐源复核。",
+    "sourceDate": "REA capture 2026-10-24",
+    "sourceInventory": {
+      "venueReferenceUrl": "https://www.nissan-stadium.jp/english/",
+      "mapReferenceUrl": "https://www.nissan-stadium.jp/floor/",
+      "sectionSource": "https://www.nissan-stadium.jp/floor/img/mapsheet.pdf",
+      "geometryEvidenceLabel": null,
+      "note": "Missing asset URL does not establish absence of generated seat geometry."
+    },
+    "seatAsset": null
+  },
+  "tiers": [
+    [
+      77,
+      102,
+      1,
+      16.94,
+      8
+    ],
+    [
+      89.32,
+      118.32,
+      13,
+      16.94,
+      10
+    ]
+  ],
+  "geometry": {
+    "shape": "oval",
+    "floor": [
+      220,
+      285
+    ],
+    "tiers": [
+      {
+        "id": "tier-0",
+        "name": "Level 1",
+        "steps": 20
+      },
+      {
+        "id": "tier-1",
+        "name": "Level 2",
+        "steps": 23
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "E11",
+      "ticketLabels": [
+        "E11"
+      ],
+      "sourceLabel": "E11 入口附近",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 2.2689280275926285,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nissan-stadium.jp/floor/img/mapsheet.pdf"
+      }
+    },
+    {
+      "id": "E12",
+      "ticketLabels": [
+        "E12"
+      ],
+      "sourceLabel": "E12 入口附近",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 2.548180707911721,
+      "halfAngle": 0.12287117934040079,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nissan-stadium.jp/floor/img/mapsheet.pdf"
+      }
+    },
+    {
+      "id": "E13",
+      "ticketLabels": [
+        "E13"
+      ],
+      "sourceLabel": "E13 入口附近",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 2.827433388230814,
+      "halfAngle": 0.12287117934040079,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nissan-stadium.jp/floor/img/mapsheet.pdf"
+      }
+    },
+    {
+      "id": "E14",
+      "ticketLabels": [
+        "E14"
+      ],
+      "sourceLabel": "E14 入口附近",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 3.106686068549907,
+      "halfAngle": 0.12287117934040079,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nissan-stadium.jp/floor/img/mapsheet.pdf"
+      }
+    },
+    {
+      "id": "E15",
+      "ticketLabels": [
+        "E15"
+      ],
+      "sourceLabel": "E15 入口附近",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 3.385938748868999,
+      "halfAngle": 0.12287117934040079,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nissan-stadium.jp/floor/img/mapsheet.pdf"
+      }
+    },
+    {
+      "id": "E16",
+      "ticketLabels": [
+        "E16"
+      ],
+      "sourceLabel": "E16 入口附近",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 3.6651914291880923,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nissan-stadium.jp/floor/img/mapsheet.pdf"
+      }
+    },
+    {
+      "id": "S11",
+      "ticketLabels": [
+        "S11"
+      ],
+      "sourceLabel": "S11 入口附近",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 0.6981317007977318,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nissan-stadium.jp/floor/img/mapsheet.pdf"
+      }
+    },
+    {
+      "id": "S12",
+      "ticketLabels": [
+        "S12"
+      ],
+      "sourceLabel": "S12 入口附近",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 0.9773843811168246,
+      "halfAngle": 0.12287117934040079,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nissan-stadium.jp/floor/img/mapsheet.pdf"
+      }
+    },
+    {
+      "id": "S13",
+      "ticketLabels": [
+        "S13"
+      ],
+      "sourceLabel": "S13 入口附近",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 1.2566370614359172,
+      "halfAngle": 0.12287117934040079,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nissan-stadium.jp/floor/img/mapsheet.pdf"
+      }
+    },
+    {
+      "id": "S14",
+      "ticketLabels": [
+        "S14"
+      ],
+      "sourceLabel": "S14 入口附近",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 1.53588974175501,
+      "halfAngle": 0.12287117934040079,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nissan-stadium.jp/floor/img/mapsheet.pdf"
+      }
+    },
+    {
+      "id": "S15",
+      "ticketLabels": [
+        "S15"
+      ],
+      "sourceLabel": "S15 入口附近",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 1.8151424220741028,
+      "halfAngle": 0.12287117934040079,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nissan-stadium.jp/floor/img/mapsheet.pdf"
+      }
+    },
+    {
+      "id": "S16",
+      "ticketLabels": [
+        "S16"
+      ],
+      "sourceLabel": "S16 入口附近",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 2.0943951023931953,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nissan-stadium.jp/floor/img/mapsheet.pdf"
+      }
+    },
+    {
+      "id": "W11",
+      "ticketLabels": [
+        "W11"
+      ],
+      "sourceLabel": "W11 入口附近",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -0.8726646259971648,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nissan-stadium.jp/floor/img/mapsheet.pdf"
+      }
+    },
+    {
+      "id": "W12",
+      "ticketLabels": [
+        "W12"
+      ],
+      "sourceLabel": "W12 入口附近",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -0.5934119456780721,
+      "halfAngle": 0.12287117934040079,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nissan-stadium.jp/floor/img/mapsheet.pdf"
+      }
+    },
+    {
+      "id": "W13",
+      "ticketLabels": [
+        "W13"
+      ],
+      "sourceLabel": "W13 入口附近",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -0.3141592653589793,
+      "halfAngle": 0.12287117934040079,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nissan-stadium.jp/floor/img/mapsheet.pdf"
+      }
+    },
+    {
+      "id": "W14",
+      "ticketLabels": [
+        "W14"
+      ],
+      "sourceLabel": "W14 入口附近",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -0.03490658503988659,
+      "halfAngle": 0.12287117934040079,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nissan-stadium.jp/floor/img/mapsheet.pdf"
+      }
+    },
+    {
+      "id": "W15",
+      "ticketLabels": [
+        "W15"
+      ],
+      "sourceLabel": "W15 入口附近",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 0.24434609527920614,
+      "halfAngle": 0.12287117934040079,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nissan-stadium.jp/floor/img/mapsheet.pdf"
+      }
+    },
+    {
+      "id": "W16",
+      "ticketLabels": [
+        "W16"
+      ],
+      "sourceLabel": "W16 入口附近",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": 0.5235987755982988,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nissan-stadium.jp/floor/img/mapsheet.pdf"
+      }
+    },
+    {
+      "id": "N11",
+      "ticketLabels": [
+        "N11"
+      ],
+      "sourceLabel": "N11 入口附近",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -2.443460952792061,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nissan-stadium.jp/floor/img/mapsheet.pdf"
+      }
+    },
+    {
+      "id": "N12",
+      "ticketLabels": [
+        "N12"
+      ],
+      "sourceLabel": "N12 入口附近",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -2.1642082724729685,
+      "halfAngle": 0.12287117934040079,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nissan-stadium.jp/floor/img/mapsheet.pdf"
+      }
+    },
+    {
+      "id": "N13",
+      "ticketLabels": [
+        "N13"
+      ],
+      "sourceLabel": "N13 入口附近",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -1.8849555921538759,
+      "halfAngle": 0.12287117934040079,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nissan-stadium.jp/floor/img/mapsheet.pdf"
+      }
+    },
+    {
+      "id": "N14",
+      "ticketLabels": [
+        "N14"
+      ],
+      "sourceLabel": "N14 入口附近",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -1.605702911834783,
+      "halfAngle": 0.12287117934040079,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nissan-stadium.jp/floor/img/mapsheet.pdf"
+      }
+    },
+    {
+      "id": "N15",
+      "ticketLabels": [
+        "N15"
+      ],
+      "sourceLabel": "N15 入口附近",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -1.3264502315156903,
+      "halfAngle": 0.12287117934040079,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nissan-stadium.jp/floor/img/mapsheet.pdf"
+      }
+    },
+    {
+      "id": "N16",
+      "ticketLabels": [
+        "N16"
+      ],
+      "sourceLabel": "N16 入口附近",
+      "levelName": "tier-0",
+      "tier": 0,
+      "angle": -1.0471975511965976,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nissan-stadium.jp/floor/img/mapsheet.pdf"
+      }
+    },
+    {
+      "id": "E21",
+      "ticketLabels": [
+        "E21"
+      ],
+      "sourceLabel": "E21 入口附近",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 2.2689280275926285,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nissan-stadium.jp/floor/img/mapsheet.pdf"
+      }
+    },
+    {
+      "id": "E22",
+      "ticketLabels": [
+        "E22"
+      ],
+      "sourceLabel": "E22 入口附近",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 2.548180707911721,
+      "halfAngle": 0.12287117934040079,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nissan-stadium.jp/floor/img/mapsheet.pdf"
+      }
+    },
+    {
+      "id": "E23",
+      "ticketLabels": [
+        "E23"
+      ],
+      "sourceLabel": "E23 入口附近",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 2.827433388230814,
+      "halfAngle": 0.12287117934040079,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nissan-stadium.jp/floor/img/mapsheet.pdf"
+      }
+    },
+    {
+      "id": "E24",
+      "ticketLabels": [
+        "E24"
+      ],
+      "sourceLabel": "E24 入口附近",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 3.106686068549907,
+      "halfAngle": 0.12287117934040079,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nissan-stadium.jp/floor/img/mapsheet.pdf"
+      }
+    },
+    {
+      "id": "E25",
+      "ticketLabels": [
+        "E25"
+      ],
+      "sourceLabel": "E25 入口附近",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 3.385938748868999,
+      "halfAngle": 0.12287117934040079,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nissan-stadium.jp/floor/img/mapsheet.pdf"
+      }
+    },
+    {
+      "id": "E26",
+      "ticketLabels": [
+        "E26"
+      ],
+      "sourceLabel": "E26 入口附近",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 3.6651914291880923,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nissan-stadium.jp/floor/img/mapsheet.pdf"
+      }
+    },
+    {
+      "id": "S21",
+      "ticketLabels": [
+        "S21"
+      ],
+      "sourceLabel": "S21 入口附近",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 0.6981317007977318,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nissan-stadium.jp/floor/img/mapsheet.pdf"
+      }
+    },
+    {
+      "id": "S22",
+      "ticketLabels": [
+        "S22"
+      ],
+      "sourceLabel": "S22 入口附近",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 0.9773843811168246,
+      "halfAngle": 0.12287117934040079,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nissan-stadium.jp/floor/img/mapsheet.pdf"
+      }
+    },
+    {
+      "id": "S23",
+      "ticketLabels": [
+        "S23"
+      ],
+      "sourceLabel": "S23 入口附近",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 1.2566370614359172,
+      "halfAngle": 0.12287117934040079,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nissan-stadium.jp/floor/img/mapsheet.pdf"
+      }
+    },
+    {
+      "id": "S24",
+      "ticketLabels": [
+        "S24"
+      ],
+      "sourceLabel": "S24 入口附近",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 1.53588974175501,
+      "halfAngle": 0.12287117934040079,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nissan-stadium.jp/floor/img/mapsheet.pdf"
+      }
+    },
+    {
+      "id": "S25",
+      "ticketLabels": [
+        "S25"
+      ],
+      "sourceLabel": "S25 入口附近",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 1.8151424220741028,
+      "halfAngle": 0.12287117934040079,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nissan-stadium.jp/floor/img/mapsheet.pdf"
+      }
+    },
+    {
+      "id": "S26",
+      "ticketLabels": [
+        "S26"
+      ],
+      "sourceLabel": "S26 入口附近",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 2.0943951023931953,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nissan-stadium.jp/floor/img/mapsheet.pdf"
+      }
+    },
+    {
+      "id": "W21",
+      "ticketLabels": [
+        "W21"
+      ],
+      "sourceLabel": "W21 入口附近",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -0.8726646259971648,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nissan-stadium.jp/floor/img/mapsheet.pdf"
+      }
+    },
+    {
+      "id": "W22",
+      "ticketLabels": [
+        "W22"
+      ],
+      "sourceLabel": "W22 入口附近",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -0.5934119456780721,
+      "halfAngle": 0.12287117934040079,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nissan-stadium.jp/floor/img/mapsheet.pdf"
+      }
+    },
+    {
+      "id": "W23",
+      "ticketLabels": [
+        "W23"
+      ],
+      "sourceLabel": "W23 入口附近",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -0.3141592653589793,
+      "halfAngle": 0.12287117934040079,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nissan-stadium.jp/floor/img/mapsheet.pdf"
+      }
+    },
+    {
+      "id": "W24",
+      "ticketLabels": [
+        "W24"
+      ],
+      "sourceLabel": "W24 入口附近",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -0.03490658503988659,
+      "halfAngle": 0.12287117934040079,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nissan-stadium.jp/floor/img/mapsheet.pdf"
+      }
+    },
+    {
+      "id": "W25",
+      "ticketLabels": [
+        "W25"
+      ],
+      "sourceLabel": "W25 入口附近",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 0.24434609527920614,
+      "halfAngle": 0.12287117934040079,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nissan-stadium.jp/floor/img/mapsheet.pdf"
+      }
+    },
+    {
+      "id": "W26",
+      "ticketLabels": [
+        "W26"
+      ],
+      "sourceLabel": "W26 入口附近",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": 0.5235987755982988,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nissan-stadium.jp/floor/img/mapsheet.pdf"
+      }
+    },
+    {
+      "id": "N21",
+      "ticketLabels": [
+        "N21"
+      ],
+      "sourceLabel": "N21 入口附近",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -2.443460952792061,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nissan-stadium.jp/floor/img/mapsheet.pdf"
+      }
+    },
+    {
+      "id": "N22",
+      "ticketLabels": [
+        "N22"
+      ],
+      "sourceLabel": "N22 入口附近",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -2.1642082724729685,
+      "halfAngle": 0.12287117934040079,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nissan-stadium.jp/floor/img/mapsheet.pdf"
+      }
+    },
+    {
+      "id": "N23",
+      "ticketLabels": [
+        "N23"
+      ],
+      "sourceLabel": "N23 入口附近",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -1.8849555921538759,
+      "halfAngle": 0.12287117934040079,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nissan-stadium.jp/floor/img/mapsheet.pdf"
+      }
+    },
+    {
+      "id": "N24",
+      "ticketLabels": [
+        "N24"
+      ],
+      "sourceLabel": "N24 入口附近",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -1.605702911834783,
+      "halfAngle": 0.12287117934040079,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nissan-stadium.jp/floor/img/mapsheet.pdf"
+      }
+    },
+    {
+      "id": "N25",
+      "ticketLabels": [
+        "N25"
+      ],
+      "sourceLabel": "N25 入口附近",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -1.3264502315156903,
+      "halfAngle": 0.12287117934040079,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nissan-stadium.jp/floor/img/mapsheet.pdf"
+      }
+    },
+    {
+      "id": "N26",
+      "ticketLabels": [
+        "N26"
+      ],
+      "sourceLabel": "N26 入口附近",
+      "levelName": "tier-1",
+      "tier": 1,
+      "angle": -1.0471975511965976,
+      "halfAngle": 0.07679448708775051,
+      "samples": [],
+      "positionBasis": {
+        "kind": "source-layout-reference",
+        "coordinateSystem": "source-relative-angle",
+        "source": "https://www.nissan-stadium.jp/floor/img/mapsheet.pdf"
+      }
+    }
+  ],
+  "importedAt": "2026-10-24T00:00:00.000Z"
+}
