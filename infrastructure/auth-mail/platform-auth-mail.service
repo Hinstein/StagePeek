@@ -1,0 +1,23 @@
+[Unit]
+Description=Shared Supabase Auth branded OTP mail hook
+After=network-online.target docker.service
+Wants=network-online.target
+
+[Service]
+User=platform-auth-mail
+Group=platform-auth-mail
+EnvironmentFile=/etc/platform-auth-mail/mail.env
+ExecStart=/usr/local/bin/node /opt/platform-auth-mail/server.mjs
+Restart=on-failure
+RestartSec=3
+StateDirectory=platform-auth-mail
+StateDirectoryMode=0700
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/platform-auth-mail
+UMask=0077
+
+[Install]
+WantedBy=multi-user.target

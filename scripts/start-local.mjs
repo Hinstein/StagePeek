@@ -1,6 +1,7 @@
 import {networkInterfaces} from 'node:os';
 import {seedLocal} from './seed-local.mjs';
 
+process.env.AUTH_MODE='local';
 if(process.env.NODE_ENV==='production')throw new Error('Local test mode cannot run in production');
 const db=await seedLocal();
 const ip=Object.values(networkInterfaces()).flat().find(x=>x.family==='IPv4'&&!x.internal&&/^(10\.|192\.168\.|172\.(1[6-9]|2\d|3[01])\.)/.test(x.address))?.address;

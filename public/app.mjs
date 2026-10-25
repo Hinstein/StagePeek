@@ -7,7 +7,7 @@ const $=id=>document.getElementById(id);
 const state={me:null,catalog:[],venueId:'tottenham',venue:null,sectionId:'122',result:null,layout:'end',mode:'3d',event:null,mapTransform:null,phoneFrame:false,roofVisible:false};
 let viewer=null,viewerCameraMode='overview',loadVersion=0,resolveVersion=0,loginToken=null,toastTimer=null;
 const messages={SUBSCRIPTION_REQUIRED:'这个场馆需要月订阅，请先升级 Pro。',LOGIN_REQUIRED:'请先登录。',INVALID_EMAIL:'请输入有效的邮箱地址。',INVALID_LINK:'登录链接已失效，或与申请时的浏览器不一致，请重新申请。',RATE_LIMITED:'操作有些频繁，请稍后再试。',GOOGLE_NOT_CONFIGURED:'Google 登录暂未开放。',EMAIL_NOT_CONFIGURED:'邮件登录暂未开放。',BILLING_NOT_CONFIGURED:'月订阅暂未开放。',LINK_REQUIRED:'这个邮箱已有账号。请先用邮箱登录，再在我的账号中关联 Google。',SAVE_LIMIT:'已达到当前套餐的位置保存上限。',ALREADY_SUBSCRIBED:'你已订阅，可在账单中心管理。',NO_SUBSCRIPTION:'当前没有可管理的账单账号。',SEAT_UNVERIFIED:'该排座尚无核实记录，请先选择已有的采样位置。',GOOGLE_CANCELED:'已取消 Google 登录。'};
-function message(error){return {CHECKOUT_PENDING:'已有付款流程待确认，请稍后刷新或使用账单中心，避免重复付款。',BILLING_REVIEW_REQUIRED:'该账单账号需要核查，请先通过账单中心管理订阅。'}[error.code]||messages[error.code]||'暂时无法完成，请稍后重试。';}
+function message(error){return {INVALID_OTP:'验证码错误或已过期，请重新获取。',OTP_EXPIRED:'验证已过期，请重新发送验证码。',AUTH_UNAVAILABLE:'登录服务暂不可用，请稍后重试。',MEMBERSHIP_REQUIRED:'该账号暂时无法访问 StagePeek，请重新登录。',CHECKOUT_PENDING:'已有付款流程待确认，请稍后刷新或使用账单中心，避免重复付款。',BILLING_REVIEW_REQUIRED:'该账单账号需要核查，请先通过账单中心管理订阅。'}[error.code]||messages[error.code]||'暂时无法完成，请稍后重试。';}
 async function api(path,{method='GET',body}={}){
   const response=await fetch(path,{method,credentials:'same-origin',headers:body?{'Content-Type':'application/json'}:{},body:body?JSON.stringify(body):undefined});
   const data=await response.json();if(!response.ok)throw Object.assign(new Error(data.error?.message||'Request failed'),{code:data.error?.code,status:response.status});return data;
@@ -157,7 +157,7 @@ async function refreshAccount(){
   $('account-plan').textContent=access.plan==='pro'?(state.me.subscription?.cancel_at_period_end?'已取消续订，当前周期结束前仍可使用。':'Pro 月订阅生效中。'):'免费账号 · 可保存 8 个位置';
   const freeCount=access.freeVenueIds?.length||10;$('free-venue-summary').innerHTML=`精选 ${freeCount} 个场馆<br>2D / 3D 分区与采样位置<br>注册后可保存 8 个位置`;
   $('google-login').disabled=!providers.google;$('google-login').textContent=providers.localGoogle?'本地模拟 Google 登录':'使用 Google 登录';$('connect-google').hidden=!providers.google||!!user?.googleConnected;
-  $('email-submit').disabled=!providers.email;$('provider-note').textContent=providers.localGoogle?'本地模式：Google 登录为仅回环地址可用的模拟流程，不会连接 Google。':providers.localEmail?(providers.localInbox?'本地测试邮箱：free@seatpeep.test / pro@seatpeep.test / expired@seatpeep.test。发送后可直接打开测试链接，不会发送真实邮件。':'当前为本地测试。请在运行服务的电脑通过 127.0.0.1 打开测试收件箱；手机可先体验访客选座。'):!providers.email&&!providers.google?'登录服务暂未开放。':'';
+  $('email-submit').textContent=providers.emailOtp?'发送验证码':'发送本地测试链接';$('email-submit').disabled=!providers.email;$('provider-note').textContent=providers.localGoogle?'本地模式：Google 登录为仅回环地址可用的模拟流程，不会连接 Google。':providers.localEmail?(providers.localInbox?'本地测试邮箱：free@seatpeep.test / pro@seatpeep.test / expired@seatpeep.test。发送后可直接打开测试链接，不会发送真实邮件。':'当前为本地测试。请在运行服务的电脑通过 127.0.0.1 打开测试收件箱；手机可先体验访客选座。'):!providers.email&&!providers.google?'登录服务暂未开放。':'';
   $('billing-portal').hidden=providers.localBilling||!user||!state.me.subscription;$('checkout').hidden=access.plan==='pro';
   $('checkout').disabled=!providers.billing;$('checkout').textContent=providers.localBilling?'本地模拟升级 Pro':'按月订阅';$('billing-feedback').textContent=providers.localBilling?'本地模拟流程：不会扣款；正式环境需要 Stripe。':providers.billing?'':'月订阅暂未开放，当前可免费体验精选场馆。';
   if(providers.billing)try{const {price}=await api('/api/billing/price');$('monthly-price').textContent=new Intl.NumberFormat('en-US',{style:'currency',currency:price.currency}).format(price.amount/100)+' / 月';}catch(error){$('billing-feedback').textContent=message(error);$('checkout').disabled=true;}
@@ -296,9 +296,31 @@ document.addEventListener('keydown',e=>{if(e.key==='Escape'&&$('viewer').classLi
 }
 $('account-button').onclick=()=>open(state.me?.user?'account-dialog':'login-dialog');$('plan-button').onclick=()=>open('plan-dialog');$('saved-button').onclick=saved;
 $('manage-plan').onclick=()=>open('plan-dialog');
-$('email-form').onsubmit=async e=>{e.preventDefault();$('email-submit').disabled=true;$('local-login').hidden=true;$('local-login').removeAttribute('href');$('email-feedback').textContent='正在发送…';try{const result=await api('/api/auth/email',{method:'POST',body:{email:$('email').value}});$('email-feedback').textContent=result.local?'登录链接已写入本机测试收件箱。':'登录链接已发送，请在 15 分钟内打开邮箱并继续。';
-  if(result.local&&state.me.providers.localInbox){const {messages}=await api('/api/dev/mailbox');if(messages[0]){const url=new URL(messages[0].url);if(url.origin===location.origin){$('local-login').href=url.href;$('local-login').hidden=false;}}}
-}catch(error){$('email-feedback').textContent=message(error);}finally{$('email-submit').disabled=!state.me.providers.email;}};
+let resendUntil=0,resendTimer=null;
+function updateResend(){const remaining=Math.ceil((resendUntil-Date.now())/1000);$('email-submit').disabled=!state.me?.providers.email||remaining>0;$('email-submit').textContent=remaining>0?`${remaining} 秒后可重发`:state.me?.providers.emailOtp?($('otp-field').hidden?'发送验证码':'重新发送验证码'):'发送本地测试链接';if(remaining<=0)clearInterval(resendTimer);}
+$('email-form').onsubmit=async e=>{
+ e.preventDefault();if(Date.now()<resendUntil)return;
+ $('email-submit').disabled=true;$('local-login').hidden=true;$('local-login').removeAttribute('href');$('email-feedback').textContent='正在发送…';
+ try{
+  const result=await api('/api/auth/email',{method:'POST',body:{email:$('email').value}});
+  if(result.method==='email-otp'){
+   $('otp-field').hidden=false;$('otp-submit').hidden=false;$('otp-change-email').hidden=false;$('email').readOnly=true;
+   $('email-feedback').textContent='验证码已发送，请在此处输入。首次验证将创建账号。';$('email-code').value='';$('email-code').focus();
+   resendUntil=Date.now()+(result.resendAfter||60)*1000;clearInterval(resendTimer);resendTimer=setInterval(updateResend,1000);
+  }else{
+   $('email-feedback').textContent='本地测试链接已写入测试收件箱。';
+   if(result.local&&state.me.providers.localInbox){const {messages}=await api('/api/dev/mailbox');if(messages[0]){const url=new URL(messages[0].url);if(url.origin===location.origin){$('local-login').href=url.href;$('local-login').hidden=false;}}}
+  }
+ }catch(error){$('email-feedback').textContent=message(error);}finally{updateResend();}
+};
+$('otp-change-email').onclick=()=>{$('email').readOnly=false;$('email').focus();for(const id of ['otp-field','otp-submit','otp-change-email'])$(id).hidden=true;$('email-code').value='';$('email-feedback').textContent='';updateResend();};
+$('otp-submit').onclick=async()=>{
+ if(!$('email-code').reportValidity()||!/^\d{6,10}$/.test($('email-code').value)){$('email-feedback').textContent='请输入邮箱中的验证码。';return;}
+ $('otp-submit').disabled=true;
+ try{await api('/api/auth/email/verify',{method:'POST',body:{code:$('email-code').value}});$('email-code').value='';$('login-dialog').close();for(const id of ['otp-field','otp-submit','otp-change-email'])$(id).hidden=true;$('email').readOnly=false;await refreshAccount();await loadCatalog();toast('登录成功。');}
+ catch(error){$('email-feedback').textContent=message(error);}finally{$('otp-submit').disabled=false;}
+};
+$('email-code').onkeydown=e=>{if(e.key==='Enter'){e.preventDefault();$('otp-submit').click();}};
 async function google(){try{const result=await api('/api/auth/google/start',{method:'POST',body:{}});location.assign(result.url);}catch(error){toast(message(error));}}
 $('google-login').onclick=google;$('connect-google').onclick=google;
 $('confirm-login').onclick=async()=>{$('confirm-login').disabled=true;try{await api('/api/auth/email/verify',{method:'POST',body:{token:loginToken}});loginToken=null;history.replaceState(null,'',location.pathname);$('confirm-dialog').close();await refreshAccount();await loadCatalog();toast('登录成功。');}catch(error){$('confirm-feedback').textContent=message(error);}finally{$('confirm-login').disabled=false;}};
@@ -314,7 +336,7 @@ try{
   const initial=resolveInitialRoute(params,state.catalog);
   await loadVenue(initial.venueId);const layoutReady=!params.has('layout')||await applyRequestedLayout(initial.layout);applyRequestedSection(initial.section);viewer?.setMode(state.mode);
   if(initial.row&&initial.seat){$('row').value=initial.row;$('seat').value=initial.seat;if(layoutReady)await locate();else{state.result={status:'unknown-layout',section:$('section').value,row:initial.row,seat:initial.seat};render();}}
-  if(loginToken){history.replaceState(null,'',location.pathname+'?login=email');open('confirm-dialog');}
+  if(loginToken&&state.me.providers.auth==='local'){history.replaceState(null,'',location.pathname+'?login=email');open('confirm-dialog');}
   if(params.has('auth_error'))toast(messages[params.get('auth_error')]||'登录未完成，请重试。');
   if(params.get('billing')==='success'){toast('支付已返回，订阅状态将在付款确认后更新。');let count=0;const timer=setInterval(async()=>{try{await refreshAccount();if(state.me.access.plan==='pro'){clearInterval(timer);await loadCatalog();toast('月订阅已生效。');}}catch{}if(++count>=10)clearInterval(timer);},2000);}
 }catch(error){$('venue-name').textContent='暂时无法载入场馆';toast('服务暂不可用，请检查连接并刷新。');}

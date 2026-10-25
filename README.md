@@ -37,7 +37,7 @@
 | 免费 / Pro 门禁 | 免费名单可配置，当前 10 个；付费场馆由服务端检查权限 |
 | 数据库 | VPS1 已有 Supabase PostgreSQL 17.6，独立 `site_stagepeek` schema |
 | 数据库迁移 | 线上 SQLite 已备份并导入；生产容器实际 PG 读写、跨连接持久化及事务回滚通过 |
-| 登录、会话、收藏、订阅存储 | 已使用 PostgreSQL；应用保留自有 Auth，并未切换共享 Supabase Auth |
+| 登录与项目权限 | 共享 Supabase Auth 验证码适配已实现；项目成员和逐用户 RLS 已迁移，生产发布见最新 Auth 记录 |
 | Brevo 邮件 / Google 登录 | 适配与本地流程已实现，生产尚未启用真实服务 |
 | Stripe 付款 | 接口和服务端门禁已实现，生产尚未启用真实付款 |
 | Ticketmaster | 服务端适配器已实现；生产当前为缓存模式，未启用实时 API 拉取 |
@@ -155,9 +155,10 @@ The Weeknd 的六个月研究保留 **58 条候选、24 个场馆**，只进入�
 配置项以 [.env.example](.env.example) 为准，生产 secret 由 Coolify 注入：
 
 - `NODE_ENV=production`、`APP_URL=https://stagepeek.live`、`DATABASE_URL`、`DATABASE_SCHEMA=site_stagepeek`。
-- `DEV_MAILBOX=false`、`DEV_PREVIEW_ALL_VENUES=false`；独立管理员 `ADMIN_EMAILS`。
+- `DEV_MAILBOX=false`、`DEV_PREVIEW_ALL_VENUES=false`；生产管理员来自可信 `platform.site_members.role`，不按邮箱白名单授予。
 - Brevo、Google、Stripe、Ticketmaster 配置只放服务端；未配置的 provider 明确保持关闭。
-- Google callback：`https://stagepeek.live/api/auth/google/callback`。
+- 共享 Auth：`AUTH_MODE=supabase`、`SUPABASE_URL`、`SUPABASE_ANON_KEY`、`SITE_ID`、服务端 `AUTH_COOKIE_KEY`。
+- 验证码页面：`/auth/callback`；`/auth/reset` 说明无密码登录。生产 Google 入口暂未开放。
 - Stripe webhook：`https://stagepeek.live/api/billing/webhook`。
 
 生产由 VPS2 Coolify 管理 VPS3 应用，VPS1 提供 HTTPS 入口和已有 PostgreSQL。沿用已有应用 UUID 与持久卷；升级前保留版本、配置与数据备份，不能用通用初始化命令重建现有生产资源。
@@ -179,3 +180,9 @@ npm run test:postgres  # 需专用开发 PG 配置；会检查 schema 隔离
 - [首页 A + E 设计](docs/design/homepage-2026-10-25/README.md)
 - [参考站 REA 证据](references/rea/)
 - [场馆与演出录入 Skill](skills/seat-scope-venue-ops/SKILL.md)
+
+## 统一 Auth 更新
+
+用户已批准切换共享 Supabase Auth。注册和登录均在原页面输入邮箱验证码，邮件不含登录链接；首次成功验证后加入 StagePeek 普通成员。身份由共享 Auth 在线核验，业务收藏、订阅和后台权限由项目成员及 RLS 控制。浏览器只持 HttpOnly 加密 Cookie，不在 JavaScript/localStorage 保存访问或刷新凭据。
+
+共享邮件路由代码见 `infrastructure/auth-mail/`，运行在 VPS1，复用已有 Brevo SMTP。域名与发件人已验证；真实收件箱验收须使用用户授权地址。部署和回滚状态详见 [共享 Auth 记录](docs/operations/shared-auth-rollout.md)。

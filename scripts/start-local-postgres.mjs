@@ -2,6 +2,7 @@ import {networkInterfaces} from 'node:os';
 import {openDatabase,transaction} from '../server/store.mjs';
 import {randomUUID} from 'node:crypto';
 
+process.env.AUTH_MODE='local';
 if(process.env.NODE_ENV==='production')throw new Error('Local mode cannot run in production');
 if(!process.env.DATABASE_URL||process.env.DATABASE_SCHEMA!=='site_stagepeek_dev')throw new Error('Local PostgreSQL requires the dedicated site_stagepeek_dev connection');
 const db=await openDatabase({databaseUrl:process.env.DATABASE_URL,databaseSchema:process.env.DATABASE_SCHEMA});

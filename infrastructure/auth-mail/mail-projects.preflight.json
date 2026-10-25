@@ -1,0 +1,140 @@
+{
+  "version": 1,
+  "checkedAt": "2026-10-25",
+  "provider": "brevo",
+  "sharedAuthOrigin": "https://supabase.openp7m.com",
+  "projects": [
+    {
+      "slug": "openp7m",
+      "displayName": "OpenP7M",
+      "origin": "https://openp7m.com",
+      "repository": "https://github.com/Hinstein/openp7m",
+      "sourcePath": "/Users/lilinhai/Projects/openp7m",
+      "deployment": {
+        "node": "vps1",
+        "runtime": "p7m-mvp.service",
+        "environmentRef": "/etc/p7m-mvp/p7m.env"
+      },
+      "brand": {
+        "logoSource": "public/openp7m-logo.svg",
+        "logoUrl": "https://openp7m.com/openp7m-logo.svg",
+        "emailLogoFile": "platform/config/mail-assets/openp7m.png",
+        "logoAlt": "OpenP7M",
+        "primaryColor": "#655BD6",
+        "emailLogoUrl": "https://supabase.openp7m.com/auth-assets/openp7m.png"
+      },
+      "sender": {
+        "name": "OpenP7M",
+        "email": "noreply@mail.openp7m.com",
+        "domain": "mail.openp7m.com",
+        "verification": "verified",
+        "brevoSenderId": 2,
+        "replyTo": null
+      },
+      "supportUrl": "https://openp7m.com/en/contact/",
+      "locales": [
+        "it",
+        "en"
+      ],
+      "defaultLocale": "it",
+      "auth": {
+        "currentMode": "supabase-shared",
+        "requiredMode": "supabase-shared",
+        "currentVerificationMethod": "email-otp",
+        "requiredVerificationMethod": "email-otp",
+        "exceptionApproval": null,
+        "routes": {
+          "confirmation": "https://openp7m.com/auth/callback",
+          "magic-link": "https://openp7m.com/auth/callback",
+          "recovery": "https://openp7m.com/auth/reset"
+        },
+        "enabledFlows": [
+          "confirmation",
+          "recovery"
+        ],
+        "configuredTemplateFlows": [
+          "confirmation",
+          "recovery",
+          "magic-link",
+          "invite",
+          "email-change",
+          "reauthentication"
+        ],
+        "currentSenderName": "Platform Accounts",
+        "currentSubjectBranding": false,
+        "currentBodyBranding": "exact-redirect-only",
+        "brandRouterDeployed": false,
+        "localeRoutingDeployed": false
+      },
+      "mailAcceptance": "shared-template-delivery-only",
+      "blockers": [
+        "共享 Auth 的项目级发件人/主题路由尚未实现并部署",
+        "请求语言尚未传给认证邮件，现有线上模板是英文",
+        "回复邮箱未核实，当前使用已知客服页面"
+      ]
+    },
+    {
+      "slug": "seatpeep",
+      "displayName": "StagePeek",
+      "origin": "https://stagepeek.live",
+      "repository": "https://github.com/Hinstein/StagePeek",
+      "sourcePath": "/Users/lilinhai/Projects/seatpeep",
+      "deployment": {
+        "node": "vps3",
+        "runtime": "coolify:capinwnna0ijx4rafkwju3ms",
+        "environmentRef": "Coolify runtime secrets"
+      },
+      "brand": {
+        "logoSource": "public/brand/stagepeek-mark.svg",
+        "logoUrl": "https://stagepeek.live/brand/stagepeek-mark.svg",
+        "emailLogoFile": "platform/config/mail-assets/stagepeek.png",
+        "logoAlt": "StagePeek Arena Bowl",
+        "primaryColor": "#B984FF",
+        "emailLogoUrl": "https://supabase.openp7m.com/auth-assets/stagepeek.png"
+      },
+      "sender": {
+        "name": "StagePeek",
+        "email": "noreply@mail.stagepeek.live",
+        "domain": "mail.stagepeek.live",
+        "verification": "pending",
+        "brevoSenderId": null,
+        "replyTo": null
+      },
+      "supportUrl": "https://stagepeek.live/",
+      "locales": [
+        "zh-CN",
+        "en"
+      ],
+      "defaultLocale": "zh-CN",
+      "auth": {
+        "currentMode": "app-managed",
+        "requiredMode": "supabase-shared",
+        "currentVerificationMethod": "magic-link",
+        "requiredVerificationMethod": "email-otp",
+        "exceptionApproval": null,
+        "routes": {
+          "confirmation": "https://stagepeek.live/auth/callback",
+          "magic-link": "https://stagepeek.live/auth/callback"
+        },
+        "enabledFlows": [],
+        "configuredTemplateFlows": [
+          "confirmation",
+          "magic-link"
+        ],
+        "currentSenderName": null,
+        "currentSubjectBranding": true,
+        "currentBodyBranding": "app-text-only-not-enabled",
+        "brandRouterDeployed": false,
+        "localeRoutingDeployed": false
+      },
+      "mailAcceptance": "not-enabled",
+      "blockers": [
+        "自有 Auth 与统一方案不一致，须提交迁移/例外意见并由用户审核",
+        "mail.stagepeek.live 和 StagePeek sender 尚未在 Brevo 登记验证；地址为待实施目标",
+        "Supabase 回调和找回密码路由尚不存在，不能加入共享 Auth allow-list",
+        "EN 邮件为预备文案，当前站点主要语言为中文；语言传递未接通",
+        "客服/回复邮箱未配置，首页链接仅为临时入口"
+      ]
+    }
+  ]
+}

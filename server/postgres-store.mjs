@@ -17,7 +17,7 @@ for(const oid of [20,23])types.setTypeParser(oid,value=>{
 });
 
 export async function openPostgres({databaseUrl,databaseSchema='site_stagepeek',databasePoolMax=5}) {
-  const schema=postgresSchema(databaseSchema),context=new AsyncLocalStorage();
+  const schema=postgresSchema(databaseSchema),context=new AsyncLocalStorage(),identity=new AsyncLocalStorage();
   const pool=new pg.Pool({connectionString:databaseUrl,max:databasePoolMax,types,
     connectionTimeoutMillis:5000,idleTimeoutMillis:30000,
     options:`-c search_path=${schema},pg_catalog -c statement_timeout=15000 -c idle_in_transaction_session_timeout=15000`,
@@ -28,9 +28,19 @@ export async function openPostgres({databaseUrl,databaseSchema='site_stagepeek',
     const result=await pool.query(`SELECT version FROM ${schema}.schema_migrations WHERE version=1`);
     if(result.rows[0]?.version!==1)throw new Error('PostgreSQL schema migration 1 is required');
   }catch(error){await pool.end();throw new Error('PostgreSQL connection or schema check failed',{cause:error});}
-  const query=(sql,args=[]) => (context.getStore()||pool).query(postgresSql(sql),args);
+  async function setIdentity(client){
+    await client.query("SELECT set_config('request.jwt.claim.sub',$1,true),set_config('stagepeek.request',$2,true)",[identity.getStore()?.id||'',identity.getStore()?'true':'false']);
+  }
+  const query=async(sql,args=[]) => {
+    if(context.getStore())return context.getStore().query(postgresSql(sql),args);
+    if(!identity.getStore())return pool.query(postgresSql(sql),args);
+    const client=await pool.connect();
+    try{await client.query('BEGIN');await setIdentity(client);const result=await client.query(postgresSql(sql),args);await client.query('COMMIT');return result;}
+    catch(error){await client.query('ROLLBACK');throw error;}finally{client.release();}
+  };
   return {
     dialect:'postgres',schema,
+    withIdentity(id,fn){return identity.run({id},fn);},
     prepare(sql){return {
       async get(...args){return (await query(sql,args)).rows[0];},
       async all(...args){return (await query(sql,args)).rows;},
@@ -42,6 +52,7 @@ export async function openPostgres({databaseUrl,databaseSchema='site_stagepeek',
       const client=await pool.connect();
       try{
         await client.query('BEGIN');
+        await setIdentity(client);
         // Short auth, token, limit and claim transactions share a schema-scoped
         // lock across every application process. Never hold it across HTTP I/O.
         await client.query('SELECT pg_advisory_xact_lock(hashtext($1))',[schema]);

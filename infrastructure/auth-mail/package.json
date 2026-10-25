@@ -1,0 +1,1 @@
+{"name":"platform-auth-mail","private":true,"type":"module","dependencies":{"nodemailer":"10.2.1"}}
