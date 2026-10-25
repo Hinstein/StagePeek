@@ -1,11 +1,11 @@
 ---
 name: seat-scope-venue-ops
-description: "Manage SeatPeep venue and concert data: discover official venue and event sources, import public ticket seat-map references, create event-specific 2D/3D layout drafts, validate geometry and provenance, and publish only reviewed versions. Use when the user asks to add venues, add concerts, sync ticketing data, import seat maps, repair stage placement, or automatically fill the SeatPeep catalog."
+description: "Manage StagePeek venue and concert data: discover official venue and event sources, import public ticket seat-map references, create event-specific 2D/3D layout drafts, validate geometry and provenance, and publish only reviewed versions. Use when the user asks to add venues, add concerts, sync ticketing data, import seat maps, repair stage placement, or automatically fill the StagePeek catalog."
 ---
 
-# SeatPeep 场馆与演出录入
+# StagePeek 场馆与演出录入
 
-这个 Skill 面向 `/Users/lilinhai/Projects/rea/seatpeep`。它负责把一个场馆或一场演唱会变成 SeatPeep 可审计的候选数据和事件级布局，并在来源证据不足时停在草稿状态。
+这个 Skill 面向 `/Users/lilinhai/Projects/rea/seatpeep`。它负责把一个场馆或一场演唱会变成 StagePeek 可审计的候选数据和事件级布局，并在来源证据不足时停在草稿状态。
 
 ## 先判断用户要做什么
 

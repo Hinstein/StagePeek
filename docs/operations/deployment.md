@@ -1,81 +1,78 @@
-# SeatPeep 登录、权限与部署记录
+# StagePeek 部署与权限记录
 
-## 项目状态
+核验日期：2026-10-25。正式品牌 **StagePeek**，域名 https://stagepeek.live，仓库 https://github.com/Hinstein/StagePeek。
 
-- slug：`seatpeep`
-- 当前运行时：Node.js 24+ 原生 HTTP + SQLite MVP
-- 健康检查：`GET /healthz`（同时保留 `GET /api/health`）
-- 本地启动：`npm run start:local`
-- 生产启动：`npm start`
-- 当前仓库：本地 Git `main` 分支；尚未配置远程仓库
-- 正式域名：待用户购买；当前不配置 `openp7m.com` 或其他旧域名。买好后把域名和 DNS zone 写入平台 manifest。
-- Coolify 项目：`OpenP7M SaaS Projects`
-- Coolify environment：`production`（已创建；应用资源尚未创建）
+## 已发布生产环境
 
-## 已完成
+| 项目 | 当前事实 |
+| --- | --- |
+| 入口 | VPS1 Caddy HTTPS → VPS3 节点代理 → 应用 4180 |
+| 管理 | VPS2 Coolify，复用原应用 `capinwnna0ijx4rafkwju3ms` |
+| 代码版本 | `f93a1df031f2aad8dae0f3a7f40917267f4f47b0` |
+| 部署结果 | `vr4rkbvg8gvvabvfqncdx2gr` finished，应用 running:healthy |
+| 健康路径 | `GET /healthz`、`GET /api/health` |
+| 数据库 | VPS1 既有 Supabase PostgreSQL 17.6，`site_stagepeek` schema |
+| 开发数据库 | 独立 schema `site_stagepeek_dev`，不写入生产测试账号 |
+| 数据链路 | VPS3 专用 SSH 数据库隧道，监听仅 Docker 网桥；未增加公网数据库监听 |
+| 旧数据 | 原 SQLite 最终一致性快照已导入，保留旧镜像、配置和持久卷 |
+| 场馆权限 | 目录 197 个，匿名免费 10 个；受限场馆服务端返回 403 |
+| 身份 | 应用自有 Magic Link / Google OAuth 代码；未迁共享 Supabase Auth |
+| 外部服务 | Brevo、Google、Stripe、Ticketmaster 实时 API、Umami 尚未启用或完成生产验收 |
 
-- 邮箱 Magic Link：浏览器绑定、一次性消费、会话撤销和速率限制。
-- Google OAuth：PKCE、state 与浏览器绑定；本地模式只提供明确标记的模拟回调。
-- Stripe 月订阅：Hosted Checkout、Webhook 状态核验和付费场馆服务端门禁。
-- Brevo 事务邮件适配：生产配置使用 `BREVO_API_KEY`；`RESEND_API_KEY` 仅为兼容回退。
-- 免费层权限：默认 10 个来源证据最完整的场馆。
-- 管理员权限后台：`/admin.html`；管理员通过 `/api/admin/access` 读取和保存恰好 10 个免费场馆。
-- 数据库迁移：`access_settings` 表由 `openStore()` 幂等创建，保存名单、更新时间和管理员邮箱。
+详细回滚资产和验证证据以 [PostgreSQL 迁移记录](postgresql-migration-2026-10-25.md) 为准。后续 README、品牌、首页或研究提交不自动代表已部署；当前应用固定到上述验收代码版本。
 
-## 生产环境变量
+## 构建、启动与检查
 
-必须放在 Coolify secret 或服务器密钥文件中，不进入 Git：
-
-```dotenv
-NODE_ENV=production
-APP_URL=https://<正式域名>
-HOST=0.0.0.0
-PORT=<应用节点端口>
-ADMIN_EMAILS=<管理员邮箱>
-BREVO_API_KEY=<服务器端密钥>
-EMAIL_FROM=SeatPeep <login@verified-domain>
-GOOGLE_CLIENT_ID=<服务器端密钥>
-GOOGLE_CLIENT_SECRET=<服务器端密钥>
-STRIPE_SECRET_KEY=<服务器端密钥>
-STRIPE_PRICE_ID=<每月 recurring Price>
-STRIPE_WEBHOOK_SECRET=<服务器端密钥>
-FREE_VENUE_IDS=kai-tak-stadium,hong-kong-coliseum,asiaworld-arena,asiaworld-viva,asiaworld-summit-hall-2,asiaworld-runway-11,taipei-arena,tottenham,metlife,sofi
-```
-
-`DEV_MAILBOX=false`，生产环境不能开启本地收件箱。`TICKETMASTER_API_KEY` 如果启用，也只能放服务端。
-
-## 本轮上线测试
-
-- `npm run check`：通过。
-- `npm test`：118/118 通过。
-- 生产配置临时实例：`GET /healthz` 返回 `200`，正式域名 Host 校验通过，安全响应头存在。
-- 已修正一个过期测试断言：产品目录当前为 197 个已发布场馆，测试原来仍期待 217 个候选场馆。
-- 已生成平台 manifest：`platform/config/seatpeep.json`。
-- 架构核对：SeatPeep 当前使用服务端 SQLite（`var/seatpeep.sqlite`）和自有 Magic Link/Google/Stripe 实现，尚未接入共享 Supabase Auth、`site_members`、schema/RLS 或 Storage bucket；因此本轮可以做部署链路测试，但不能把“共享平台数据隔离”标记为已验收。
-
-## 部署阻塞
-
-按照快速开发和多 VPS Skill，正式部署还需要：
-
-1. `Hinstein/seatpeep` 当前是空 GitHub 仓库，Coolify 没有可拉取的源码；需要把当前本地代码推送到该仓库，或提供另一个可访问的 Git/Docker 来源。
-2. 本机缺少 `~/.config/openp7m/platform.env`，因此一键入口还没有 Coolify、Spaceship 和 Umami 的 API 凭据。
-3. 新域名尚未购买，Spaceship A 记录暂不写入；买好后需要把新域名指向 VPS1 `43.135.155.97`。
-4. Brevo、Google OAuth、Stripe 的生产密钥没有写入项目环境，邮件、Google 登录和真实订阅仍不能标记为生产验收通过。
-
-这些是外部资源配置阻塞，不影响代码测试和本地生产模式验证；在源码来源和 API 凭据补齐后，可以直接执行：
-
-```sh
-node platform/scripts/platform-cli.ts launch platform/config/seatpeep.json --apply
-```
-
-## 验收命令
+Node.js 24+；前端使用已保留的 vendor 资源，无独立 bundler。
 
 ```sh
 npm ci
 npm run check
 npm test
 npm run build
-curl -i http://127.0.0.1:4180/healthz
+npm start
 ```
 
-上线后还要分别验收：真实 Brevo 登录邮件、Google callback、Stripe webhook、`/admin.html` 权限配置、免费场馆和任一付费场馆的 403/200 行为，以及 Caddy/HTTPS 路由。
+`npm run build` 当前为语法检查，不是独立的资源打包。`npm run start:local` 使用开发 PG，默认端口 4181；离线 SQLite 演示需明确使用 `npm run start:local:sqlite`，生产拒绝 SQLite 回退。
+
+## 运行时配置
+
+完整键名见仓库根目录 `.env.example`。值仅保存在 Coolify runtime secret 或本地忽略配置，不能进入 Git、浏览器或日志。
+
+- `NODE_ENV=production`、`APP_URL=https://stagepeek.live`、`HOST=0.0.0.0`、`PORT=4180`。
+- `DATABASE_URL` 使用生产项目角色与已验证的受保护链路；`DATABASE_SCHEMA=site_stagepeek`、`DATABASE_POOL_MAX=5`。
+- `DEV_MAILBOX=false`、`DEV_PREVIEW_ALL_VENUES=false`。
+- `ALLOWED_ORIGINS` 使用实际入口精确 origin，并保留当前容器健康检查需要的 localhost origin。
+- `ADMIN_EMAILS`、`FREE_VENUE_IDS` 为权限配置；数据库保存的管理员免费名单优先。
+- Brevo、Google、Stripe、Ticketmaster 的 secret 只在对应服务真正启用时配置。
+- 可选 Umami 使用独立 Website ID；管理 token 不进入前端。
+
+生产 Google callback：`https://stagepeek.live/api/auth/google/callback`。Stripe webhook：`https://stagepeek.live/api/billing/webhook`。配置地址不等于外部业务已验收。
+
+## 权限
+
+- 后台 `/admin.html`，管理 API 要求登录邮箱位于 `ADMIN_EMAILS`。
+- `GET /api/admin/access` 读取；`PUT /api/admin/access` 保存恰好 10 个存在的场馆 ID。
+- 名单保存在 PostgreSQL `access_settings`；每次场馆 API 请求检查权限。
+- 免费 / Pro 收藏上限分别为 8 / 100；收藏配额检查和写入放在同一事务。
+- 未登录的管理及收藏接口返回 401；付费场馆的数据门禁在服务端执行，前端参数不能授予权益。
+- 只有服务端核验的有效订阅才解锁 Pro，支付回跳本身不授予权限。
+
+## 既有应用升级流程
+
+1. 阅读本记录与平台项目记录，核对现有资源、线上完整提交号和待发布范围。
+2. 优先复用已登录 Coolify 或既有管理连接。VPS3 拒绝本机直连，不代表 Coolify 的节点连接不可用；不要导出 Coolify 私钥。
+3. 保存环境、版本、数据与回滚点；脏工作区使用隔离发布副本，不混入其他修改。
+4. 数据库切换先停止旧库写入、制作最终一致性快照、事务导入并核对计数。
+5. 在原 Coolify 应用注入运行时 secret，使用**完整 SHA**发布。不要对现有应用执行通用初始化 `launch --apply` 或重建卷。
+6. 验证 HTTPS、健康、权限、实际数据库、持久化、事务与所用外部服务；更新记录。
+
+## 已执行与待验收
+
+- PostgreSQL 发布代码：126 项测试通过，1 项集成入口默认跳过；真实开发 PG 集成另行 6 项全部通过。
+- 正式域名 HTTP：18/18 通过，TLS 验证通过；未知 Host 被节点代理拒绝。
+- 新生产容器实际使用 `app_site_stagepeek` / `site_stagepeek`，跨连接提交/读取和事务回滚通过，探针已清理。
+- 迁移前 SQLite 与配置备份、迁移后 PG dump 均已保留；PG dump 可列出目录，完整灾备恢复演练未做。
+- Brevo 登录邮件、Google 真回调、Stripe Checkout/Webhook/Portal、Umami 真实采集仍待独立接入与验收。
+
+[早期问题记录](launch-issue-report-2026-10-25.md) 中的空仓库、未购域名、仍用生产 SQLite 等为历史状态，不是当前部署阻塞。品牌与首页工作另见 [StagePeek 交付](stagepeek-release.md)。

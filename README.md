@@ -1,173 +1,181 @@
-# SeatPeep 本地 MVP
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="public/brand/stagepeek-logo-dark.svg">
+    <img src="public/brand/stagepeek-logo-light.svg" alt="StagePeek" width="440">
+  </picture>
+</p>
 
-Node.js 24+，原生 HTTP、SQLite、Three.js；依赖资源已放在 `public/vendor/`，无需 npm 安装或前端构建。
+# StagePeek · Concert Seat View
 
-## 本地体验
+**购票前，先看看你离舞台有多远。** StagePeek 是演唱会场馆与座位视角探索工具：按国家查找场馆，查看 2D 座位图，在 3D 中探索看台，并在有来源坐标时核对票面位置和预览观众视角。
+
+[访问 stagepeek.live](https://stagepeek.live/) · [GitHub](https://github.com/Hinstein/StagePeek) · [项目结构](PROJECT_STRUCTURE.md) · [数据准确性](docs/data-accuracy-2026-10-24.md) · [部署记录](docs/operations/deployment.md)
+
+> 正式名称为 **StagePeek**，域名为 **stagepeek.live**。SeatPeep / SeatScope 是项目旧称；历史研究、Skill 标识、Cookie、数据库文件名及支付幂等标识中可能保留旧名字，以兼容已有资料与数据。
+
+## 它能做什么
+
+- **找场馆**：按国家分组浏览目录，选择场馆和可用布局。
+- **看 2D / 3D**：切换分层座位图、场馆总览和观众视角，拖拽、缩放、点击分区与来源座位。
+- **核对门票**：输入 Section / Row / Seat。只有匹配来源记录的票号才被认定为已匹配，不把示意网格当成真实票号。
+- **理解舞台视野**：有来源座位与舞台坐标时展示模型距离和人物取景倍率；缺少演出布局时明确说明，不自动补一个通用舞台。
+- **保存位置**：账户可保存、查看和删除位置；服务端根据免费 / Pro 权限控制场馆访问及收藏配额。
+- **维护数据**：管理员配置恰好 10 个免费场馆；通过录入 Skill、CLI 和管理接口整理来源、验证场馆与演出布局，再发布复核版本。
+
+使用流程：**选择国家 / 场馆 → 选择布局或演出 → 核对分区、排、座 → 查看 2D / 3D 和来源状态**。
+
+它不是售票平台，不提供实时可售库存、预订或购票功能。
+
+## 当前线上状态
+
+以下为 **2026-10-25** 的部署验收状态；代码能力和外部服务开通情况分别列出。
+
+| 项目 | 状态 |
+| --- | --- |
+| 正式网站 | [https://stagepeek.live](https://stagepeek.live/)，HTTPS 与健康检查通过 |
+| 场馆目录 | 197 个；不同场馆的分区、逐座和演出布局覆盖程度不同 |
+| 免费 / Pro 门禁 | 免费名单可配置，当前 10 个；付费场馆由服务端检查权限 |
+| 数据库 | VPS1 已有 Supabase PostgreSQL 17.6，独立 `site_stagepeek` schema |
+| 数据库迁移 | 线上 SQLite 已备份并导入；生产容器实际 PG 读写、跨连接持久化及事务回滚通过 |
+| 登录、会话、收藏、订阅存储 | 已使用 PostgreSQL；应用保留自有 Auth，并未切换共享 Supabase Auth |
+| Brevo 邮件 / Google 登录 | 适配与本地流程已实现，生产尚未启用真实服务 |
+| Stripe 付款 | 接口和服务端门禁已实现，生产尚未启用真实付款 |
+| Ticketmaster | 服务端适配器已实现；生产当前为缓存模式，未启用实时 API 拉取 |
+| Umami | 可选集成代码已整理，独立 Website ID 与生产采集尚未接通 |
+
+发布代码版本：`f93a1df031f2aad8dae0f3a7f40917267f4f47b0`。本次 README / 品牌同步不表示网站自动部署了后续工作区改动。完整证据见 [PostgreSQL 迁移记录](docs/operations/postgresql-migration-2026-10-25.md) 和 [18 项公网检查](docs/audits/postgres-production-http-2026-10-25.json)。
+
+## 品牌与首页设计
+
+品牌采用 **Arena Bowl**：紫色环形看台环抱荧光绿舞台，配合深色演唱会主题。
+
+- [深色字标](public/brand/stagepeek-logo-dark.svg)、[浅色字标](public/brand/stagepeek-logo-light.svg)、[图标](public/brand/stagepeek-mark.svg)、[品牌规范](public/brand/README.md)。
+- 首页选择 **A「沉浸舞台」布局 + E「观众 / 手机视角」轻量模块**，突出产品用途、功能及三步使用流程。
+- 独立预览：`/mockups/home-prototype.html?variant=A`；A–E 五套方案保留作设计资料。
+- A 方案接入鸟巢目录的可拖拽 Three.js 看台预览，复用产品渲染器。它是**未实测校准的参数模型**，没有当场演出舞台，不称为官方 CAD 或真实逐座模型。
+- 正式 `/` 仍是座位探索工具；首页设计预览与生产入口的区别见 [设计记录](docs/design/homepage-2026-10-25/README.md)。
+
+## 技术结构
+
+**Node.js 24+ · 原生 HTTP / ES Modules · PostgreSQL · Three.js / WebGL**。
+
+浏览器依赖已保存在 `public/vendor/`，无需前端打包器。`npm run build` 目前执行代码语法检查，不代表做了独立的资源压缩构建。
+
+| 路径 | 内容 |
+| --- | --- |
+| `public/` | 工具页面、2D 地图、3D 渲染器、品牌资源和首页设计稿 |
+| `server/` | 认证、权限、订阅、场馆服务、票务适配与 PostgreSQL 存储 |
+| `db/migrations/` | PostgreSQL schema 迁移 |
+| `data/` | 场馆目录、来源座位、研究包、候选及已发布演出版本 |
+| `scripts/` / `tests/` | 导入、审计、发布、迁移和自动化检查 |
+| `references/rea/` | 参考站的 REA 证据、资源盘点与逆向研究 |
+| `references/western-market/` | 欧美场馆、公开图纸、座位及数据来源研究 |
+| `models/` | 参数化 3D 模型与几何资产说明 |
+| `skills/` | 场馆 / 演出录入 Skill 和 REA 工作流 |
+| `docs/` / `prototypes/` | 设计、验证、部署记录和探索原型 |
+
+## 本地开发
 
 ```sh
-cd /Users/lilinhai/Projects/rea/seatpeep
+git clone https://github.com/Hinstein/StagePeek.git
+cd StagePeek
+npm ci
+```
+
+默认本地开发使用独立 PostgreSQL schema **`site_stagepeek_dev`**。维护者按 [数据库迁移记录](docs/operations/postgresql-migration-2026-10-25.md) 准备数据库和受保护链路，将以下变量保存在被 Git 忽略的 `var/site_stagepeek_dev.env` 中：
+
+```dotenv
+DATABASE_URL=postgresql://<project-role>:<password>@<protected-host>:<port>/postgres
+DATABASE_SCHEMA=site_stagepeek_dev
+DATABASE_POOL_MAX=5
+```
+
+上面的地址仅是格式示例，不能直接运行。生产与开发各用独立账号；数据库凭据不能进入浏览器、Git 或聊天。
+
+```sh
 npm run start:local
 ```
 
-电脑访问 http://127.0.0.1:4180 。启动日志会打印当前同 Wi-Fi 手机地址；本次为 http://192.168.6.150:4180 。电脑需要保持运行，网络变化后地址可能改变。
+默认访问 `http://127.0.0.1:4181/`，启动日志打印同一局域网手机地址。本地 PostgreSQL 隧道需要保持可用。本地模式为方便审核会开放全部场馆；这不是正式免费套餐规则。
 
-点击“登录 / 注册”，输入以下测试邮箱，发送后点击“本地测试：打开登录链接”，再确认登录。不会向外发邮件或扣费。
+无远程数据库凭据时，也可明确使用隔离的离线演示：
 
-本地模式还提供两个明确标注的演示流程：登录弹窗中的“本地模拟 Google 登录”使用固定的开发账号和同浏览器 OAuth state；Pro 方案中的“本地模拟升级 Pro”只写入独立的本地测试数据库，模拟 30 天月订阅，不连接 Google 或 Stripe。它们只在 `DEV_MAILBOX=true`、非生产和回环请求下开放。
+```sh
+npm run start:local:sqlite
+```
 
-| 邮箱 | 权限 |
+该模式默认端口 4180，使用 `var/seatpeep-local.sqlite`。**生产必须连接 PostgreSQL，禁止回落 SQLite。**
+
+### 本地测试账户
+
+在服务电脑通过 `127.0.0.1` 打开登录，输入测试邮箱，发送后使用“本地测试：打开登录链接”。本地模拟不向外发信，不扣款。
+
+| 测试邮箱 | 用途 |
 | --- | --- |
-| `free@seatpeep.test` | 免费账号，可访问配置的 10 个免费场馆，最多保存 8 个位置 |
-| `pro@seatpeep.test` | 本地 Pro 测试状态，解锁全部场馆目录，最多保存 100 个位置 |
-| `expired@seatpeep.test` | 过期订阅，回落到免费权限 |
-| `admin@seatpeep.test` | 本地管理员，用于配置免费场馆和验证场馆导入接口 |
+| `free@seatpeep.test` | 免费账号，收藏最多 8 个位置 |
+| `pro@seatpeep.test` | 模拟有效订阅，收藏最多 100 个位置 |
+| `expired@seatpeep.test` | 过期订阅回落 |
+| `admin@seatpeep.test` | 管理员免费名单和导入接口 |
 
-本地预览模式会直接解锁全部 197 个场馆，方便检查批量导入的 2D/3D；它只在 `start:local` 下生效，正式环境仍按订阅限制场馆。测试收件箱仅允许服务电脑的回环访问，且只显示当前浏览器申请、未消费且未过期的登录链接。真实邮箱服务配置后才支持手机收邮件登录；本地模拟 Google 和升级流程只建议在运行服务的电脑上演示。
+开发模拟 Google、模拟订阅和测试收件箱受非生产与回环地址限制；手机可以先测试访客浏览。旧测试邮箱保留作为兼容 fixture，不代表旧品牌仍在使用。
 
-免费场馆默认是当前来源证据最完整的 10 个：启德主场馆、香港红馆、亚洲国际博览馆 Arena/VIVA/2 号馆/Runway 11、台北小巨蛋、Tottenham、MetLife 和 SoFi。正式环境可以在 `/admin.html` 配置，管理员必须先登录，保存时必须选择恰好 10 个已存在场馆。服务端把名单写入 `access_settings`，每次读取场馆和座位 API 时重新执行权限检查；浏览器传入的场馆 id 不会授予权限。
+## 数据覆盖与准确性
 
-测试数据放在独立的 `var/seatpeep-local.sqlite`。`start:local` 不读取 `.env`，清空第三方服务配置，只重置三个测试账号的订阅状态，保留已存位置。正式启动 `npm start` 使用另一份数据库 `var/seatpeep.sqlite`，不会自动灌入测试权限。不要把测试数据库用于正式服务。
+**有公开分区图，不等于有逐座坐标；有来源坐标，也不等于现场实测准确。**
 
-## 可以测试什么
+- 目录包含 197 个场馆，不保证每个都有真实逐座模型。证据不足的场馆保留示意 / 未校准状态。
+- 七个场馆的 12 种来源布局已接入共 138,856 条来源座位记录；涵盖启德主场馆、香港红馆、亚洲博览馆 Arena / VIVA / 2 号馆 / Runway 11、台北小巨蛋。布局之间不混用票号。
+- Tottenham、MetLife 和 SoFi 的来源采样主要是票号与屏幕热区；不能当作米制 XYZ，也不会给未知票号伪造入座相机。
+- `metricCalibrated=false`、`completeSeatInventory=false` 的状态继续保留。模型距离不是现场测量结果，取景倍率也不是特定手机成像保证。
+- 没有事件级舞台证据时显示“布局待核实”；人物、距离和座位避让只按当前证据允许的范围提供。
+- 暂不提供现场照片。第三方来源的商业授权尚未逐项确认；本仓库可访问不代表第三方地图、模型、图纸和座位资产可自由再分发。
 
-1. 访客、免费、Pro、订阅到期的访问差异，以及直接访问 API 时的限制。
-2. 场馆目录切换、2D 地图、3D 总览、点击分区、靠近分区、观众视角、拖动与缩放。当前目录包含原站去重后的 193 个场馆，加上 MVP 原有的 Tottenham、MetLife、SoFi 和 Wembley，共 197 个；没有逐座证据的场馆不会伪造票号样本。
-3. Tottenham `Section 122 / Row 14 / Seat 679` 仅匹配来源票号，不提供座位 XYZ 或入座相机；`680` 未收录，保持分区预览。台北小巨蛋 `center / 紅1A / 1 / 1` 可测试来源坐标的二维点选与三维入座。
-4. 登录后保存、重新查看、删除位置；刷新保持登录；退出后重新限制场馆。
-5. 官方演出列表、来源链接、更新时间与布局待核实状态。
+详见 [数据准确性修复](docs/data-accuracy-2026-10-24.md)、[目录导入审计](docs/shijiao-import-report.md)、[来源研究](references/western-market/) 和 [模型说明](models/README.md)。
 
-新增可测试票号：MetLife `203A / Row 6 / Seat 11`、`115CWC / Row A / Seat 16`；SoFi `C116 / Row 10 / Seat 10`、`OWN131 / Row 16 / Seat 7`、`504 / Row 10 / Seat 7`。前缀、字母排及 WC 后缀须按来源原样输入。未在采样中的相邻座位不能据此推断存在。
+### 场馆与演出录入
 
-## 数据准确性
-
-2026-10-24 修复：七馆12种来源布局、138,856条记录已按原始票号/XYZ全量接入，按馆按布局加载；七馆为启德主场馆、香港红馆、亚洲博览馆 Arena / VIVA / 2号馆 / Runway11、台北小巨蛋。二维座点、三维椅子、来源舞台共用坐标。Kai Tak使用每条CAD记录的Y（字段11），没有场次舞台时不显示人物或距离。保存位置包含布局；不支持的布局或未收录票号不会转到别的座位。
-
-欧美三馆采样只有票号及屏幕热区，其虚构XYZ已经取消；手工输入未知票号不再转换为模拟网格座位。点击模拟椅子仍仅供演示，输入框不会把模拟排号冒充票号。来源坐标一致性不等于现场实测准确：所有馆仍为 `metricCalibrated=false`、`completeSeatInventory=false`。图形/数据商用权也尚未确认。详细证据和验收见 [数据准确性修复](docs/data-accuracy-2026-10-24.md)。
-
-## 原站场馆批量导入
-
-原站 REA 证据包中的 196 条目录记录按场馆 ID 去重后得到 193 个场馆。已全部转换为 SeatPeep 导入包并重建产品数据：104 个同时有分区布局参考，59 个有几何 profile 但没有逐区参考，30 个只有目录级公开信息，7 个在本次修复中改为全量来源座位资产。当前 `data/venues.json` 共 197 个场馆（含原有 4 个 MVP 场馆）。详见 [批量导入审计](docs/shijiao-import-report.md)。
-
-导入脚本是 `scripts/import-shijiao-venues.mjs`，审计输出是 `docs/shijiao-import-report.json`。目录导入脚本保存来源和有限采样；`data:build` 另外校验并打包已保留的七馆完整来源资产，未复制图片或全景图库；所有场馆都保持 `completeSeatInventory=false`、`metricCalibrated=false`。30 个目录级场馆的分区标签是浏览用示意标签，页面会通过准确性字段保留这一边界。
-
-重新从已保留的研究资料构建：
+使用 [场馆 / 演出录入 Skill](skills/seat-scope-venue-ops/SKILL.md)，流程为：**来源采集 → 场馆身份匹配 → 布局建模 → 2D / 3D 几何检查 → 人工复核 → 版本发布**。
 
 ```sh
-node scripts/import-shijiao-venues.mjs
-npm run data:build
-```
-
-普通访客仍只能读取 Tottenham；本地 Pro 测试账号可以读取全部 197 个场馆。来源公开可访问不等于允许商业再分发，正式上线前仍需逐场馆确认地图、模型和座位数据的授权。
-
-| 场馆 | 基础分区 | 可用排座采样 | 完整逐座库存 | 米制坐标校准 |
-| --- | ---: | ---: | --- | --- |
-| Tottenham | 187（原始标识 217，含 WC 变体） | 609 | 未取得 | 未完成 |
-| MetLife | 146（原始标识 173，含 WC 变体） | 602 | 未取得 | 未完成 |
-| SoFi | 257（原始标识 318，含 WC 变体及 C/VIP/OWN） | 587 | 未取得 | 未完成 |
-| Wembley | 25 个官方页面明确出现的分区锚点 | 0 | 未取得 | 未完成 |
-
-**当前可运行产品链路，不代表现场准确性验收已完成。** 七馆坐标已与原始资产逐条核对，保留来源哈希和记录索引；它们的可选布局与来源资产一一对应。其余馆仍有示意几何。欧美来源的采样票号只用于身份核对，不再生成XYZ或入座视角。未收录票号、重复票号或不支持的布局不自动落座。来源清单也不能证明本场演出完整库存、遮挡或实时封区。
-
-已修复33个仅在分层图出现的Tottenham基础标识方向缺失：套房不再挤在默认角度，900号广播区归入来源高层。分层图只用于相对方向，未用于冒充米制校准。
-
-只有来源座位坐标和来源舞台均存在时，才显示明确标注为非实测的模型距离；它不保证特定演出的门票距离。模拟椅子仍仅显示示意模型值。三种通用舞台不对应任何已确认演出；目前各场次没有已核实的舞台位置或封区信息。已提供1×/2×/5×/8×视角放大；它按60°垂直视野的投影倍率计算，不代表真实手机镜头成像。暂无现场照片。
-
-来源研究：`../western-market-research/venue-data-provenance-and-accuracy.md`、`tottenham-public-data-audit.md`、`public-data-followup-2026-10-24.md`，以及新增 `metlife-source-acquisition-2026-10-24.md`、`sofi-source-acquisition-2026-10-24.md`。原始配置、热区和 SHA-256 清单保存在研究目录，应用未打包第三方全景图库。公众可访问的 Virtual Venue 配置、审批图纸或观众照片，不自动代表有权商用再分发；尚未取得相关场馆数据的商用授权。
-
-## 公开二维分区投影
-
-二维图现在保留官方关联 Virtual Venue 的公开屏幕热区轮廓（每个来源视点单独绘制），所以能显示真实的弧形、过道和不规则边缘。它们仍是屏幕像素投影，不是米制平面坐标；三维和距离计算继续使用独立的估算几何，页面会明确标注这一点。未取得完整逐座表的区域不会因为轮廓存在而被当成可核实座位。
-
-## 新取得的建筑图纸
-
-已从迁移后的Haringey公开申请库取得Tottenham东/南看台剖面、全场南北/东西剖面和Level05平面，图签比例为1:200或1:500 @ A1；另两份D&A附件仅封面/效果图。6份PDF的字节与SHA-256已复核。[图纸核验报告](../western-market-research/tottenham-planning-drawings-2026-10-24.md)列明真实来源及附件覆盖范围。
-
-这些是2015年PLANNING设计资料，可用于下一步配准与结构重建；尚未用于校准当前模型。东看台FOP=12.298、LEVEL00=11.530；外部标高基准未确认，楼层高度不能当作每座坐标。它们没有完整票号表，也未证明与竣工状态一致。原始图纸仅保存在研究目录，没有放进产品静态资源。
-
-## 官方演出刷新
-
-```sh
-npm run events:refresh
+npm run venue:validate -- data/manual-venues/wembley.json
+npm run venue:add -- data/manual-venues/<id>.json --publish
 npm run events:refresh -- metlife
+npm run ticketing:sync -- --venue sofi
+npm run events:publish -- /absolute/path/reviewed-event.json
 ```
 
-仅请求已配置场馆官网的 HTTPS 域名，每馆最多 30 页；正式服务每六小时刷新。缓存区分完整抓取、部分失败、过期缓存和不可用；这不是官网全部演出的完整性承诺，列表分页和站点变更仍可能漏项。结束时间早于开始时间时不用于历史筛选；无 offset 时间保留场馆本地日期。
+演出发布命令默认只校验；加 `--publish` 才写入已发布版本。Ticketmaster 同步需先在服务端配置密钥，其事件和 `seatmap.staticUrl` 只是来源线索，不能直接变成逐座 3D 模型或实时售票库存。
 
-本轮 Tottenham 自动取得 1 项未来演出、MetLife 3 项。SoFi 本机自动请求失败；已从官网详情人工核验并单独标明缓存来源的 3 项演出，失败记录继续保留。详见 `docs/verification.md`。
+The Weeknd 的六个月研究保留 **58 条候选、24 个场馆**，只进入研究 / 候选层；`data/events-published/` 当前没有这批演出的已复核发布版本。不能把候选数量理解成已经校准的演唱会布局。见 [研究](docs/research/the-weeknd-concerts-2026-04-25-to-2026-10-25.md) 和 [导入审计](docs/audits/weeknd-import-2026-10-25.md)。
 
-## 正式服务配置（登录和权限）
+## 权限与生产配置
 
-复制 `.env.example` 为 `.env`，填写自己的配置，再 `npm start`。不要向聊天粘贴密钥。
+管理员在 `/admin.html` 配置**恰好 10 个免费场馆**，名单保存在 PostgreSQL `access_settings`。普通用户无法通过修改浏览器参数解锁付费场馆；付费状态只由服务端核验。
 
-- Google：Web OAuth Client，回调为 `APP_URL/api/auth/google/callback`。
-- Brevo：`BREVO_API_KEY` 和已验证发信域名的 `EMAIL_FROM`。正式服务必须 `DEV_MAILBOX=false`；Resend 仅保留为迁移兼容回退。
-- Stripe：先使用测试环境；配置有效的每 1 月循环 Price、Secret Key、Webhook Secret；Webhook 地址 `APP_URL/api/billing/webhook`，订阅及 Checkout 相关事件见 `server/billing.mjs`，并启用同账号 Billing Portal。
-- 部署时 `NODE_ENV=production`、HTTPS `APP_URL`，用受信反向代理。生产拒绝开发收件箱；密钥留在服务器端。
+配置项以 [.env.example](.env.example) 为准，生产 secret 由 Coolify 注入：
 
-当前仓库没有生产账号凭据，Google / Brevo / 真实支付尚未在本机连接真实第三方；本地模式的 Google 和升级按钮只是明确标注的开发演示，不会发起外部请求。可验证的是正式 provider 协议逻辑、开发演示和安全边界。付款回跳不会授予权限，只有服务端核验的订阅状态才生效。
+- `NODE_ENV=production`、`APP_URL=https://stagepeek.live`、`DATABASE_URL`、`DATABASE_SCHEMA=site_stagepeek`。
+- `DEV_MAILBOX=false`、`DEV_PREVIEW_ALL_VENUES=false`；独立管理员 `ADMIN_EMAILS`。
+- Brevo、Google、Stripe、Ticketmaster 配置只放服务端；未配置的 provider 明确保持关闭。
+- Google callback：`https://stagepeek.live/api/auth/google/callback`。
+- Stripe webhook：`https://stagepeek.live/api/billing/webhook`。
 
-管理员权限接口：`GET /api/admin/access` 查看当前名单，`PUT /api/admin/access` 提交 `{ "freeVenueIds": ["...十个场馆 id..."] }`。两条接口都要求当前登录邮箱位于 `ADMIN_EMAILS`。普通用户只能看到 `/api/venues` 返回的锁定标记，读取付费场馆详情仍会在服务端返回 `403 SUBSCRIPTION_REQUIRED`。
+生产由 VPS2 Coolify 管理 VPS3 应用，VPS1 提供 HTTPS 入口和已有 PostgreSQL。沿用已有应用 UUID 与持久卷；升级前保留版本、配置与数据备份，不能用通用初始化命令重建现有生产资源。
 
-## 验证
+## 验证与维护记录
 
 ```sh
+npm run check
 npm test
+npm run build
+npm run test:postgres  # 需专用开发 PG 配置；会检查 schema 隔离
 ```
 
-2026-10-24 上线准备复查：最新完整结果 **65/65**，21个模块语法检查通过。正式上线仍未通过，原因和验收证据见 [上线准备审计](docs/launch-readiness-2026-10-24.md)。覆盖身份、会话、权限、账单、来源解析、三馆全部1,798条可用采样的精确解析、Wembley 导入校验、管理员校验接口、已知及未知票号，以及公开场次座位图参考链接；测试使用临时数据库和本地 HTTP，不发信、不付款。浏览器验证及尚缺项见 `docs/verification.md`。
+2026-10-25 PostgreSQL 发布验收：隔离发布代码 **126 项通过**，1 项 PG 集成入口默认跳过；另行真实 PostgreSQL 集成 **6 项通过**；公网 HTTP **18/18** 通过。品牌 / 首页同步隔离副本另有 **130 项通过**、1 项 PG 入口默认跳过；验证另记于 [StagePeek 品牌与开发交付](docs/operations/stagepeek-release.md)，不混同线上发布版本。
 
-
-## 后续如何添加场馆
-
-场馆不是由模型临时生成，也不应该让普通用户上传一张图就直接发布。现在采用“研究资料包 → 严格校验 → 管理员发布 → 服务热加载”的流程：
-
-1. 管理员整理一个 JSON 导入包，至少包括场馆名称、官方来源链接、分区标签、分层、相对方向和准确性状态。逐座数据没有来源时，`samples` 必须留空；不能用 30×24 的合成排座冒充票面数据。
-2. 先运行 `npm run venue:validate -- data/manual-venues/wembley.json`。这只做校验，不写入产品。
-3. 本地或后台管理员发布时运行 `npm run venue:add -- data/manual-venues/<id>.json --publish`。脚本会把原始导入包保存到 `data/manual-venues/`，并原子更新 `data/venues.json`。
-4. 线上后台可以调用同一套服务端接口：管理员登录后 `POST /api/admin/venues/validate` 预检，确认报告后 `POST /api/admin/venues/publish` 发布。本地模式默认管理员是 `admin@seatpeep.test`，正式环境必须在 `ADMIN_EMAILS` 中配置真实管理员邮箱。接口受 `ADMIN_EMAILS` 约束，普通用户不能调用；发布后 `loadVenues()` 会立即重载当前进程。
-5. 发布后再刷新场馆事件来源、做浏览器验收，并把来源、许可和精度等级写入研究记录。真实逐座票号和米制距离需要额外证据，不能因为分区图存在就自动升级准确性。
-
-## 票务系统接入（欧美 MVP）
-
-当前已接入 Ticketmaster Discovery 的服务端适配器。它不会把 API key 发给浏览器，也不会抓取票务网页的内部接口。配置 `TICKETMASTER_API_KEY` 后，可用管理员接口读取单场事件或搜索事件；接口返回事件、场馆、官方详情链接和演出级 `seatmap.staticUrl` 引用。没有 key 时，原有官方缓存演出仍可正常使用。
-
-管理员接口为 `GET /api/admin/ticketing/ticketmaster/events/:eventId`、`POST /api/admin/ticketing/ticketmaster/search` 和 `POST /api/admin/ticketing/ticketmaster/venues/search`；它们都要求已登录邮箱位于 `ADMIN_EMAILS`，请求只在服务端访问 Ticketmaster。
-
-要批量为当前场馆目录同步 Ticketmaster 候选演出：
-
-```sh
-TICKETMASTER_API_KEY=... npm run ticketing:sync
-# 只同步一个场馆，便于先核验匹配结果
-TICKETMASTER_API_KEY=... npm run ticketing:sync -- --venue sofi
-```
-
-脚本按场馆名称查询并把候选结果写入 `data/ticketing/ticketmaster-events.json`。结果带 `matchStatus=venue-name-candidate`，需要运营逐馆确认；不会因为名称相似就自动把舞台或座位当成准确数据。服务启动后，`GET /api/venues/:id/events` 会把已缓存的 Ticketmaster 候选与场馆官网事件合并，前端会显示“有公开参考 / 布局待核实”。
-
-接入边界：Discovery 只提供事件和静态座位图引用；实时库存、价格、逐座可售状态、预订和购票属于 Ticketmaster Partner/Channel Partner 能力，不能通过公开页面或前端接口代替。静态图也不等于 3D 坐标。只有经过官方演出图人工描摹、场馆图交叉验证并记录许可的 `eventLayout`，才可以进入舞台避让和距离计算。详细的官方文档、版权、缓存和 AXS/See Tickets/Eventbrite 对比见 [欧美票务接入研究](docs/research/ticketing-integration-2026-10-24.md)。
-
-### The Weeknd 2026 最近六个月候选导入
-
-The Weeknd `After Hours Til Dawn Stadium Tour` 在 2026-04-25 至 2026-10-25 的公开一手来源窗口内整理出 58 场、24 个场馆和城市。候选清单、场馆座位结构和公开座位图来源保存在 [the-weeknd-after-hours-til-dawn-2026.json](data/artist-events/the-weeknd-after-hours-til-dawn-2026.json)，研究和来源等级见 [The Weeknd 最近六个月研究](docs/research/the-weeknd-concerts-2026-04-25-to-2026-10-25.md)。
-导入和校验边界记录在 [The Weeknd 导入审计](docs/audits/weeknd-import-2026-10-25.md)。
-
-```sh
-npm run artist:import:weeknd
-npm run artist:validate
-```
-
-这批数据只进入三层资料流，不会写入普通场馆目录或正式演出列表：
-
-- `data/research-events/`：原始研究包和来源证据；
-- `data/events-candidates/`：通过基本身份整理的 58 场候选，全部保持 `candidate`，没有永久场馆几何，也没有事件级舞台坐标；
-- `data/events-published/`：只接受完成来源匹配、几何审计和人工复核的不可变事件版本，当前为空。
-
-没有事件级舞台坐标时，前端显示“布局待核实”并不渲染通用舞台，也不会计算该场次的距离或舞台避让。已有目录中的 Wembley 和 Belluna Dome 仍可作为永久场馆候选，但不会因此自动成为 The Weeknd 的事件布局。
-
-导入脚本是幂等的：只复制研究包并重建候选文件，不修改 `data/venues.json` 或 `data/events.json`。管理员可通过 `GET /api/admin/event-candidates` 查看候选集；正式发布仍需单独的事件级来源、布局和复核流程。所有 58 场即使日期已经过去，也会保留在研究和候选层。
-
-因此，短期由我们用研究资料包和 CLI 添加，后台管理员随后可以用同一份校验/发布接口操作；前端不承担建模和数据审核。Wembley 是这条流程的第一个样例：25 个官方支持页明确出现的锚点已发布，0 条逐座采样，页面会显示“尚无可核对的排座采样”。
-
-
-## PostgreSQL
-
-Production requires `DATABASE_URL`, `DATABASE_SCHEMA=site_stagepeek` and an encrypted server-to-server connection. It never falls back to SQLite. Existing SQLite data is snapshotted and migrated with `scripts/migrate-sqlite-postgres.mjs`; the default is a read-only dry run, and `--apply` requires an empty destination. Development uses the separate `site_stagepeek_dev` schema. Credentials belong in ignored local environment files or Coolify secrets.
+- [项目结构](PROJECT_STRUCTURE.md)
+- [生产 PostgreSQL 迁移](docs/operations/postgresql-migration-2026-10-25.md)
+- [品牌与 SEO 交付](docs/operations/stagepeek-release.md)
+- [首页 A + E 设计](docs/design/homepage-2026-10-25/README.md)
+- [参考站 REA 证据](references/rea/)
+- [场馆与演出录入 Skill](skills/seat-scope-venue-ops/SKILL.md)

@@ -10,9 +10,11 @@ import {entitlements,freeVenueIds,saveFreeVenueIds,DEFAULT_FREE_VENUE_IDS} from 
 import {BillingService} from './billing.mjs';
 import {EmailProvider,GoogleProvider} from './providers.mjs';
 import {TicketmasterProvider,ticketingStatus} from './ticketing.mjs';
+import {analyticsMarkup,ANALYTICS_ORIGIN} from './analytics.mjs';
+import {birdsNestPreview} from './venue-preview.mjs';
 
 const publicRoot=resolve(fileURLToPath(new URL('../public/',import.meta.url)));
-const MIME={'.html':'text/html; charset=utf-8','.mjs':'text/javascript; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.svg':'image/svg+xml','.png':'image/png','.txt':'text/plain; charset=utf-8'};
+const MIME={'.html':'text/html; charset=utf-8','.mjs':'text/javascript; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.svg':'image/svg+xml','.png':'image/png','.txt':'text/plain; charset=utf-8','.xml':'application/xml; charset=utf-8'};
 function cookies(req){return Object.fromEntries(String(req.headers.cookie||'').split(';').map(x=>x.trim().split(/=(.*)/s).slice(0,2)).filter(x=>x.length===2));}
 function loopback(address){return ['127.0.0.1','::1','::ffff:127.0.0.1'].includes(address);}
 async function body(req,max=16_384,asJson=true) {
@@ -52,6 +54,9 @@ export function createApplication({db,config,venues,events=null,ticketing=null,t
       const allowed=[new URL(config.appUrl).origin,...(config.allowedOrigins||[])];
       if(!allowed.some(x=>new URL(x).host===req.headers.host))throw fault(403,'INVALID_HOST','Unrecognized request host');
       const url=new URL(req.url,config.appUrl),path=url.pathname,method=req.method;
+      // Only the public canonical homepage is indexable. Auth utilities,
+      // account APIs, design previews and staging must stay out of search.
+      if(!config.production||config.appUrl!=='https://stagepeek.live'||path!=='/'||['login','auth','auth_error','billing','token','code','state','session_id'].some(key=>url.searchParams.has(key)))res.setHeader('X-Robots-Tag','noindex, nofollow');
       if(!req.url.startsWith('/')||req.url.startsWith('//'))throw fault(400,'INVALID_PATH','Invalid path');
       const webhook=path==='/api/billing/webhook'&&method==='POST';
       if(!['GET','HEAD'].includes(method)&&!webhook&&!allowed.includes(req.headers.origin))throw fault(403,'ORIGIN_REQUIRED','Same-origin request required');
@@ -163,6 +168,11 @@ export function createApplication({db,config,venues,events=null,ticketing=null,t
       if(path==='/api/venues'&&method==='GET'){
         const currentAccess=(await access(user));return json(res,200,{venues:venues.catalog().map(v=>({...v,locked:!currentAccess.venueIds.includes(v.id)}))});
       }
+      if(path==='/api/demo/birds-nest'&&method==='GET'){
+        const venue=birdsNestPreview(venues);
+        if(!venue)throw fault(404,'PREVIEW_UNAVAILABLE','Venue preview is unavailable');
+        return json(res,200,{venue});
+      }
       // Venue ids are lowercase kebab-case but many imported public venues
       // include a numeric hall or level suffix (for example `...-hall-10`).
       // The previous letters-only route silently made those catalog entries
@@ -206,13 +216,21 @@ export function createApplication({db,config,venues,events=null,ticketing=null,t
       if(deleteMatch&&method==='DELETE'){const current=(await requireUser(req));await body(req);const result=(await db.prepare('DELETE FROM saved_positions WHERE id=? AND user_id=?').run(deleteMatch[1],current.id));if(!result.changes)throw fault(404,'NOT_FOUND','Not found');return json(res,200,{ok:true});}
       if(!['GET','HEAD'].includes(method))throw fault(405,'METHOD_NOT_ALLOWED','Method not allowed');
       if(path.startsWith('/api/'))throw fault(404,'NOT_FOUND','Not found');
+      if(path==='/index.html'){res.writeHead(308,{Location:'/'+url.search});return res.end();}
       let decoded;try{decoded=decodeURIComponent(path);}catch{throw fault(404,'NOT_FOUND','Not found');}
       const file=resolve(publicRoot,decoded==='/'?'index.html':'.'+decoded);
       if(!file.startsWith(publicRoot+sep)||!MIME[extname(file)]||decoded.split('/').some(x=>x.startsWith('.')||x==='server'||x==='data'))throw fault(404,'NOT_FOUND','Not found');
       let actual,info;try{actual=await realpath(file);info=await stat(actual);}catch{throw fault(404,'NOT_FOUND','Not found');}
       if(!actual.startsWith(publicRoot+sep)||!info.isFile())throw fault(404,'NOT_FOUND','Not found');
-      const content=method==='HEAD'?null:await readFile(actual);res.writeHead(200,{'Content-Type':MIME[extname(actual)],'Cache-Control':actual.includes(sep+'vendor'+sep)?'public, max-age=86400':'no-cache'});res.end(content);
+      const tracking=analyticsMarkup(config,{path,search:url.search,user});
+      let content=method==='HEAD'?null:await readFile(actual);
+      if(tracking){
+        if(content)content=Buffer.from(content.toString('utf8').replace('</head>',tracking+'</head>'));
+        res.setHeader('Content-Security-Policy',String(res.getHeader('Content-Security-Policy')).replace("script-src 'self'",`script-src 'self' ${ANALYTICS_ORIGIN}`).replace("connect-src 'self'",`connect-src 'self' ${ANALYTICS_ORIGIN}`));
+      }
+      res.writeHead(200,{'Content-Type':MIME[extname(actual)],'Cache-Control':actual.includes(sep+'vendor'+sep)?'public, max-age=86400':'no-cache'});res.end(content);
     }catch(error){
+      if(!res.headersSent)res.setHeader('X-Robots-Tag','noindex, nofollow');
       const status=Number.isInteger(error.status)?error.status:500;
       logger({status,code:error.code||'INTERNAL_ERROR',message:status>=500?'Server/provider request failed':error.message});
       if(!res.headersSent)json(res,status,{error:{code:error.code||'INTERNAL_ERROR',message:status===500?'Unexpected server error':error.message}});else res.end();

@@ -26,6 +26,56 @@ async function setup(t,venueRepository=null,extra={}) {
   return {...app,config,call,cookieFrom,login,origin};
 }
 
+test('StagePeek canonical metadata, crawler routes and utility noindex stay consistent',async t=>{
+  const {call,config,origin}=await setup(t);
+  assert.match((await call('/')).headers.get('X-Robots-Tag'),/noindex/,'local previews must not be indexed');
+  config.production=true;config.appUrl='https://stagepeek.live';config.allowedOrigins=[origin];
+  const headers={};
+  const root=await call('/',{headers}),html=await root.text();
+  assert.equal(root.status,200);assert.equal(root.headers.get('X-Robots-Tag'),null);
+  assert.match(html,/<link rel="canonical" href="https:\/\/stagepeek.live\/">/);
+  assert.match(html,/<title>StagePeek.*Concert Seat View<\/title>/);
+  assert.match(html,/id="guide-title"/);
+  assert.equal((html.match(/<h1>/g)||[]).length,1);
+  const duplicate=await call('/index.html?venue=sofi',{headers});
+  assert.equal(duplicate.status,308);assert.equal(duplicate.headers.get('Location'),'/?venue=sofi');
+  const sitemap=await call('/sitemap.xml',{headers}),xml=await sitemap.text();
+  assert.equal(sitemap.status,200);assert.match(sitemap.headers.get('Content-Type'),/application\/xml/);
+  assert.deepEqual([...xml.matchAll(/<loc>(.*?)<\/loc>/g)].map(m=>m[1]),['https://stagepeek.live/']);
+  assert.match(await(await call('/robots.txt',{headers})).text(),/Sitemap: https:\/\/stagepeek.live\/sitemap.xml/);
+  for(const path of ['/admin.html','/mockups/home-prototype.html','/brand/options/index.html','/api/me','/?token=private','/?auth=success','/?login=email','/?session_id=private','/missing.html']){
+    const response=await call(path,{headers});assert.match(response.headers.get('X-Robots-Tag'),/noindex/,path);
+  }
+  const image=await call('/brand/stagepeek-social.png',{headers});
+  assert.equal(image.status,200);assert.equal(image.headers.get('Content-Type'),'image/png');
+  const bytes=Buffer.from(await image.arrayBuffer());
+  assert.equal(bytes.readUInt32BE(16),1200);assert.equal(bytes.readUInt32BE(20),630);
+  assert.equal((await call('/',{headers,method:'HEAD'})).status,200);
+  assert.equal((await(await call('/healthz',{headers})).json()).service,'stagepeek');
+  config.umamiWebsiteId='01234567-89ab-cdef-0123-456789abcdef';
+  const tracked=await call('/',{headers});
+  assert.match(await tracked.text(),/src="\/analytics.mjs" data-website-id=/);
+  assert.match(tracked.headers.get('Content-Security-Policy'),/script-src 'self' https:\/\/analytics.auturance.com/);
+  const privateLink=await call('/?row=A&seat=78',{headers});
+  assert.doesNotMatch(await privateLink.text(),/src="\/analytics.mjs"/);
+  assert.doesNotMatch(privateLink.headers.get('Content-Security-Policy'),/analytics.auturance.com/);
+});
+
+test('homepage preview exposes only fixed Bird’s Nest geometry and keeps full venue access gated',async t=>{
+  const {loadVenues}=await import('../server/venues.mjs');
+  const {call}=await setup(t,loadVenues());
+  const response=await call('/api/demo/birds-nest');assert.equal(response.status,200);
+  const {venue}=await response.json();
+  assert.equal(venue.id,'birds-nest');assert.match(venue.name,/鸟巢/);
+  assert.equal(venue.sections.length,48);assert.equal(venue.accuracy.metricCalibrated,false);
+  assert.equal(venue.accuracy.sectionLabels,'synthetic-tier-labels');
+  for(const key of ['sourceSeats','seatTuples','sourceStage','eventLayout','seatLayouts'])assert.equal(venue[key],undefined,key);
+  assert.ok(venue.sections.every(section=>section.samples.length===0));
+  assert.equal((await call('/api/venues/birds-nest')).status,403);
+  assert.equal((await call('/api/demo/sofi')).status,404);
+  assert.equal((await call('/api/venues/sofi')).status,403);
+});
+
 test('HTTP email flow verifies only same-browser token, persists session and revokes on logout',async t=>{
   const {call,login}=await setup(t);const session=await login();
   const me=await call('/api/me',{cookie:session.cookie});assert.equal((await me.json()).user.email,'viewer@example.com');

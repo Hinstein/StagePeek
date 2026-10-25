@@ -85,3 +85,9 @@ body.theme-arena{--paper:#080d12;--ink:#f3f7f1;--muted:#9aa9a9;--green:#c9ff51;-
 .theme-arena .saved-item{border-color:#293740}
 .theme-arena :is(button,a,input,select,summary):focus-visible{outline-color:#c9ff51}
 @media(max-width:800px){.theme-arena .viewer-controls .view-tools{width:auto;padding:7px;flex:none}}
+
+/* Crawlable product explanation, kept below the interactive seat explorer. */
+.product-guide{margin-top:42px;padding:32px;border:1px solid #293740;border-radius:24px;background:#111a22;color:#f3f7f1}
+.product-guide h2{font-size:clamp(21px,2vw,28px);margin:12px 0}.product-guide p{line-height:1.8;color:#a9b8b5;max-width:80ch}
+.guide-steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:30px;padding-left:24px;margin:30px 0}.guide-steps li{padding-left:8px}.guide-steps li::marker{color:#c9ff51;font-weight:700}.guide-steps h3{font-size:17px}.guide-faq{border-top:1px solid #293740;padding:20px 0}.guide-faq details{padding:16px 0;border-bottom:1px solid #293740}.guide-faq summary{cursor:pointer;line-height:1.6}.product-guide>a{display:inline-block;margin-top:10px}
+@media(max-width:800px){.product-guide{padding:24px 20px}.guide-steps{grid-template-columns:1fr;gap:8px}.intro .eyebrow{line-height:1.7;letter-spacing:1px}}

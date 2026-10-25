@@ -1,4 +1,4 @@
-# SeatPeep 3D 模型与几何资产
+# StagePeek 3D 模型与几何资产
 
 当前项目没有外部受版权约束的 `.glb/.fbx/.obj` 模型。3D 场景由 `public/geometry.mjs`、`public/scene-geometry.mjs`、`public/viewer.mjs` 和 `data/venues.json` / `data/manual-venues/` 的自有参数化几何生成；来源座位资产保存在 `data/source-seats/`。
 

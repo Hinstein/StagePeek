@@ -1,6 +1,6 @@
-# SeatPeep 前端风格样稿（临时）
+# StagePeek 前端风格样稿（临时）
 
-这是独立的视觉原型，不引用也不修改 SeatPeep 现有页面逻辑。
+这是独立的视觉原型，不引用也不修改 StagePeek 现有页面逻辑。
 
 打开 `/mockups/?style=editorial`，底部可以切换四种风格：
 

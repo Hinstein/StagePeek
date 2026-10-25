@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+# Utility pages use X-Robots-Tag: noindex. Allow crawling so it can be read.
+# Authentication and venue entitlements are enforced by the server.
+Sitemap: https://stagepeek.live/sitemap.xml

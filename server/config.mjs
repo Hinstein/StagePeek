@@ -1,9 +1,12 @@
 import {resolve} from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {DEFAULT_FREE_VENUE_IDS} from './access.mjs';
+import {isWebsiteId} from './analytics.mjs';
 
 export function loadConfig(env=process.env) {
   const production=env.NODE_ENV==='production',app=new URL(env.APP_URL||'http://127.0.0.1:4180');
+  const umamiWebsiteId=String(env.UMAMI_WEBSITE_ID||'').trim();
+  if(umamiWebsiteId&&!isWebsiteId(umamiWebsiteId))throw new Error('UMAMI_WEBSITE_ID must be a website UUID');
   if(!['http:','https:'].includes(app.protocol)||app.pathname!=='/'||app.search||app.hash||app.username||app.password)throw new Error('APP_URL must be a plain HTTP(S) origin');
   if(production&&app.protocol!=='https:')throw new Error('Production APP_URL must use HTTPS');
   const devMailbox=env.DEV_MAILBOX==='true';
@@ -22,7 +25,7 @@ export function loadConfig(env=process.env) {
   const databasePoolMax=Number(env.DATABASE_POOL_MAX||5);
   if(!Number.isInteger(databasePoolMax)||databasePoolMax<1||databasePoolMax>20)throw new Error('DATABASE_POOL_MAX must be 1–20');
   const freeVenueIds=String(env.FREE_VENUE_IDS||DEFAULT_FREE_VENUE_IDS.join(',')).split(',').map(x=>x.trim()).filter(Boolean);
-  return {databaseUrl:env.DATABASE_URL||'',databaseSchema,databasePoolMax,production,appUrl:app.origin,host:env.HOST||'127.0.0.1',port,allowedOrigins,devMailbox,devPreviewAllVenues,freeVenueIds,
+  return {databaseUrl:env.DATABASE_URL||'',databaseSchema,databasePoolMax,production,appUrl:app.origin,host:env.HOST||'127.0.0.1',port,allowedOrigins,devMailbox,devPreviewAllVenues,freeVenueIds,umamiWebsiteId,
     adminEmails:String(env.ADMIN_EMAILS||'').split(',').map(x=>x.trim().toLowerCase()).filter(Boolean),
     dbPath:resolve(env.DB_PATH||fileURLToPath(new URL('../var/seatpeep.sqlite',import.meta.url))),
     googleClientId:env.GOOGLE_CLIENT_ID||'',googleClientSecret:env.GOOGLE_CLIENT_SECRET||'',ticketmasterApiKey:env.TICKETMASTER_API_KEY||'',

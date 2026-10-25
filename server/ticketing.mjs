@@ -27,7 +27,7 @@ export class TicketmasterProvider {
   #assertReady(){if(!this.ready)throw Object.assign(new Error('Ticketmaster API is not configured'),{code:'TICKETMASTER_NOT_CONFIGURED',status:503});}
   async #get(path,params={}){
     this.#assertReady();const url=ticketmasterUrl(path,params,this.apiKey);
-    const response=await this.fetch(url.href,{headers:{Accept:'application/json','User-Agent':'SeatPeep/0.1 (server ticketing adapter)'},signal:AbortSignal.timeout(15_000)});
+    const response=await this.fetch(url.href,{headers:{Accept:'application/json','User-Agent':'StagePeek/0.1 (server ticketing adapter)'},signal:AbortSignal.timeout(15_000)});
     if(!response.ok)throw Object.assign(new Error(`Ticketmaster returned ${response.status}`),{code:'TICKETMASTER_HTTP_ERROR',status:response.status});
     const payload=await response.json();if(!payload||typeof payload!=='object')throw new Error('Ticketmaster response was not an object');return payload;
   }
