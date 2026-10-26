@@ -5,7 +5,29 @@
 <p class="eyebrow">YOUR NEXT GREAT VIEW</p><h1 id="auth-title">登录 StagePeek</h1><p id="auth-description" class="muted">继续探索你的现场位置。</p>
 <p id="auth-target" class="small muted" hidden></p>
 <div id="auth-feedback" role="status" aria-live="polite" tabindex="-1"></div>
-<section id="auth-account" hidden><a id="account-consent" class="auth-link" href="/auth/continue" hidden></a><p id="account-address"></p><p id="account-tier" class="muted"></p><p id="account-subscription" class="small muted"></p><p id="account-identities" class="small muted"></p><a id="account-password" class="auth-link" href="/auth/password">设置或更改统一账号密码</a><a id="account-billing" class="auth-link" href="/">订阅与账单</a><h2 id="positions-title">已保存的位置</h2><div id="account-positions"></div><button id="auth-logout" class="wide" type="button">退出登录</button></section>
+<section id="auth-account" hidden>
+<a id="account-consent" class="account-consent-notice" href="/auth/continue" hidden></a>
+<div class="account-layout">
+<aside class="account-sidebar">
+<div class="account-profile"><div id="account-avatar" class="account-avatar" aria-hidden="true">SP</div><p id="account-profile-label" class="account-overline">你的 StagePeek 账号</p><h2 id="account-name"></h2><p id="account-address"></p><span id="account-profile-tier" class="account-badge"></span></div>
+<nav class="account-nav" aria-label="账户导航"><a href="#account-overview" class="is-current"><span aria-hidden="true">◈</span><span id="account-nav-overview">套餐与权益</span></a><a href="#account-saved"><span aria-hidden="true">▱</span><span id="account-nav-saved">我的位置</span></a><a href="#account-security"><span aria-hidden="true">◇</span><span id="account-nav-security">账号安全</span></a></nav>
+<a id="account-explore" class="account-explore" href="/">继续探索场馆 <span aria-hidden="true">↗</span></a>
+</aside>
+<div class="account-content">
+<section id="account-overview" class="account-plan-card" aria-labelledby="account-tier">
+<div class="account-plan-heading"><div><p id="account-plan-label" class="account-overline">当前套餐</p><h2 id="account-tier">—</h2></div><span id="account-plan-status" class="account-badge"></span></div>
+<p id="account-plan-description" class="account-plan-description"></p>
+<div class="account-benefits"><div><strong id="account-venues-count">—</strong><span id="account-venues-label">可用场馆</span></div><div><strong id="account-saved-limit">—</strong><span id="account-saved-limit-label">位置收藏额度</span></div><div><strong>2D + 3D</strong><span id="account-preview-label">座位视角预览</span></div></div>
+<div class="account-plan-footer"><p id="account-subscription"></p><a id="account-billing" class="account-button account-button-primary" href="/">订阅与账单 <span aria-hidden="true">↗</span></a><span id="account-billing-note" class="account-billing-note" hidden></span></div>
+</section>
+<section id="account-saved" class="account-panel" aria-labelledby="positions-title"><div class="account-section-heading"><div><p class="account-overline">YOUR NEXT SHOW</p><h2 id="positions-title">已保存的位置</h2></div><span id="account-positions-count" class="account-count" aria-live="polite">—</span></div><div id="account-positions" aria-live="polite"></div></section>
+<section id="account-security" class="account-panel" aria-labelledby="account-security-title"><div class="account-section-heading"><div><p class="account-overline">ACCOUNT &amp; SECURITY</p><h2 id="account-security-title">账号与安全</h2></div><span id="account-verified" class="account-verified">邮箱已验证</span></div>
+<div class="account-security-row"><div><h3 id="account-email-title">邮箱地址</h3><p id="account-security-email"></p></div><span id="account-email-status" class="account-status-dot">已验证</span></div>
+<div class="account-security-row"><div><h3 id="account-google-title">Google 账号</h3><p id="account-identities"></p></div><span id="account-google-status" class="account-badge"></span></div>
+<div class="account-security-row" id="account-password-row"><div><h3 id="account-password-title">登录密码</h3><p id="account-password-description">通过邮箱验证，安全设置或修改密码。</p></div><a id="account-password" class="account-button" href="/auth/password">管理密码 <span aria-hidden="true">↗</span></a></div>
+<div class="account-security-row account-signout"><div><h3 id="account-session-title">当前登录</h3><p id="account-session-description">在这台设备上退出 StagePeek。</p></div><button id="auth-logout" type="button">退出登录</button></div>
+</section>
+</div></div></section>
 <button id="auth-google" class="wide auth-google" type="button" hidden>使用 Google 登录</button><div id="auth-or" class="or" hidden>或</div>
 <form id="auth-form" hidden>
 <label id="auth-email-field"><span id="email-label">邮箱地址</span><input id="auth-email" type="email" autocomplete="email" maxlength="254" placeholder="you@example.com"></label>
