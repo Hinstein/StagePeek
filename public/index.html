@@ -25,7 +25,7 @@
   <link rel="stylesheet" href="/style.css"><script type="module" src="/app.mjs"></script>
 </head>
 <body class="theme-arena">
-  <header class="header"><a class="brand" href="/" aria-label="StagePeek 首页"><img class="brand-logo" src="/brand/stagepeek-logo-dark.svg" alt="StagePeek"><small>找到你的现场位置</small></a><nav aria-label="账户"><a href="/venues/">场馆目录</a><button id="saved-button">已存位置</button><button id="plan-button">月订阅</button><button id="account-button" class="primary">登录 / 注册</button></nav></header>
+  <header class="header"><a class="brand" href="/" aria-label="StagePeek 首页"><img class="brand-logo" src="/brand/stagepeek-logo-dark.svg" alt="StagePeek"><small>找到你的现场位置</small></a><nav aria-label="账户"><a href="/venues/">场馆目录</a><button id="saved-button">我的收藏</button><button id="plan-button">月订阅</button><button id="account-button" class="primary">登录 / 注册</button></nav></header>
   <main>
     <section class="intro"><div><span class="eyebrow" lang="en">CONCERT SEAT VIEW · 2D &amp; 3D SEATING CHARTS</span><h1>演唱会座位视角，提前看看。</h1><p>选择场馆，输入门票上的区、排和座号，用 2D 座位图与 3D 场馆探索你的现场位置。</p></div><span id="plan-label" class="pill">免费体验</span></section>
     <form id="ticket-form" class="toolbar" aria-label="定位门票座位">
@@ -69,6 +69,6 @@
   <dialog id="confirm-dialog"><div class="dialog-content"><button class="close" data-close aria-label="关闭">×</button><h2>确认登录 StagePeek</h2><p>请在申请登录链接的浏览器中继续。</p><button id="confirm-login" class="primary wide">确认登录</button><p id="confirm-feedback" class="feedback" role="status"></p></div></dialog>
   <dialog id="plan-dialog"><div class="dialog-content"><button class="close" data-close aria-label="关闭">×</button><span class="eyebrow">MORE PLACES, MORE POSSIBILITIES</span><h2>探索更多现场。</h2><div class="plans"><article><h3>免费</h3><strong>$0</strong><p id="free-venue-summary">精选 10 个场馆<br>2D / 3D 分区与采样位置<br>注册后可保存 8 个位置</p></article><article class="featured"><h3>StagePeek Pro</h3><strong id="monthly-price">月订阅</strong><p>解锁当前全部场馆<br>查看各场馆演出与布局状态<br>可保存 100 个位置</p></article></div><p class="small muted">订阅解锁访问范围，各馆数据覆盖和校准状态仍以页面说明为准。可在账单中心取消下个周期续订。</p><button id="checkout" class="primary wide">按月订阅</button><button id="billing-portal" class="wide" hidden>管理我的订阅</button><p id="billing-feedback" class="feedback" role="status"></p></div></dialog>
   <dialog id="account-dialog"><div class="dialog-content"><button class="close" data-close aria-label="关闭">×</button><h2>我的账号</h2><p id="account-email"></p><p id="account-plan" class="muted"></p><button id="connect-google" class="wide">关联 Google 账号</button><button id="manage-plan" class="wide">订阅与账单</button><button id="logout" class="wide">退出登录</button></div></dialog>
-  <dialog id="saved-dialog"><div class="dialog-content"><button class="close" data-close aria-label="关闭">×</button><h2>已存位置</h2><div id="saved-list"></div></div></dialog>
+  <dialog id="saved-dialog"><div class="dialog-content"><button class="close" data-close aria-label="关闭">×</button><h2>我的收藏</h2><div id="saved-list"></div></div></dialog>
   <div id="toast" class="toast" role="status" hidden></div>
 </body></html>

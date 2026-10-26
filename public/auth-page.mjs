@@ -71,10 +71,10 @@ function renderAccount(){
  $('account-billing-note').textContent=summary.pro?t('在线账单管理暂未开放','Online billing is currently unavailable'):t('Pro 订阅即将开放','Pro subscriptions coming soon');
  for(const item of document.querySelectorAll('.account-nav a'))item.onclick=()=>{for(const other of document.querySelectorAll('.account-nav a'))other.classList.toggle('is-current',other===item);};
  $('account-nav-overview').textContent=t('套餐与权益','Membership');
- $('account-nav-saved').textContent=t('我的位置','Saved seats');
+ $('account-nav-saved').textContent=t('我的收藏','My favorites');
  $('account-nav-security').textContent=t('账号安全','Account security');
  $('account-explore').textContent=t('继续探索场馆 ↗','Explore venues ↗');$('account-explore').href=next;
- $('positions-title').textContent=t('已保存的位置','Your saved seats');
+ $('positions-title').textContent=t('我的收藏','My favorites');
  $('account-security-title').textContent=t('账号与安全','Account & security');
  $('account-verified').textContent=t('邮箱已验证','Email verified');
  $('account-email-title').textContent=t('邮箱地址','Email address');
