@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://stagepeek.live/</loc></url>
+  <url><loc>https://stagepeek.live/venues/</loc></url>
+  <url><loc>https://stagepeek.live/about</loc></url>
+  <url><loc>https://stagepeek.live/methodology</loc></url>
+  <url><loc>https://stagepeek.live/plans</loc></url>
+  <url><loc>https://stagepeek.live/contact</loc></url>
+  <url><loc>https://stagepeek.live/venues/kai-tak-stadium</loc><lastmod>2026-10-26</lastmod></url>
+  <url><loc>https://stagepeek.live/venues/hong-kong-coliseum</loc><lastmod>2026-10-26</lastmod></url>
+  <url><loc>https://stagepeek.live/venues/taipei-arena</loc><lastmod>2026-10-26</lastmod></url>
 </urlset>

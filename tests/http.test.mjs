@@ -41,7 +41,7 @@ test('StagePeek canonical metadata, crawler routes and utility noindex stay cons
   assert.equal(duplicate.status,308);assert.equal(duplicate.headers.get('Location'),'/?venue=sofi');
   const sitemap=await call('/sitemap.xml',{headers}),xml=await sitemap.text();
   assert.equal(sitemap.status,200);assert.match(sitemap.headers.get('Content-Type'),/application\/xml/);
-  assert.deepEqual([...xml.matchAll(/<loc>(.*?)<\/loc>/g)].map(m=>m[1]),['https://stagepeek.live/']);
+  assert.deepEqual([...xml.matchAll(/<loc>(.*?)<\/loc>/g)].map(m=>m[1]),['/','/venues/','/about','/methodology','/plans','/contact'].map(path=>'https://stagepeek.live'+path));
   assert.match(await(await call('/robots.txt',{headers})).text(),/Sitemap: https:\/\/stagepeek.live\/sitemap.xml/);
   for(const path of ['/admin.html','/mockups/home-prototype.html','/brand/options/index.html','/api/me','/?token=private','/?auth=success','/?login=email','/?session_id=private','/missing.html']){
     const response=await call(path,{headers});assert.match(response.headers.get('X-Robots-Tag'),/noindex/,path);

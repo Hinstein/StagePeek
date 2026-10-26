@@ -18,3 +18,11 @@ test('source-layout deep links retain the exact variant rather than replacing it
  const route=resolveInitialRoute(new URLSearchParams('venue=hall-10&layout=expanded'),catalog);
  assert.equal(route.layout,'expanded');
 });
+
+test('default demo prefers available coordinate-backed Kai Tak and falls back to an unlocked venue',()=>{
+  const catalog=[{id:'tottenham',locked:false,sourceSeatCount:0},{id:'kai-tak-stadium',locked:false,sourceSeatCount:48483}];
+  assert.equal(resolveInitialRoute(new URLSearchParams(),catalog).venueId,'kai-tak-stadium');
+  assert.equal(resolveInitialRoute(new URLSearchParams('venue=tottenham'),catalog).venueId,'tottenham');
+  assert.equal(resolveInitialRoute(new URLSearchParams('venue=kai-tak-stadium'),catalog.map(v=>({...v,locked:true}))).venueId,'kai-tak-stadium','explicit locked deep link is never silently replaced');
+  assert.equal(resolveInitialRoute(new URLSearchParams(),[{id:'tottenham',locked:true},{id:'taipei-arena',locked:false,sourceSeatCount:10000}]).venueId,'taipei-arena');
+});

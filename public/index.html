@@ -20,11 +20,12 @@
   <meta name="twitter:title" content="StagePeek · Concert Seat View">
   <meta name="twitter:description" content="探索演唱会座位图、3D 场馆与舞台视角模拟。">
   <meta name="twitter:image" content="https://stagepeek.live/brand/stagepeek-social.png">
+  <!--PUBLIC-SCHEMA-->
   <link rel="icon" type="image/svg+xml" href="/brand/stagepeek-mark.svg">
   <link rel="stylesheet" href="/style.css"><script type="module" src="/app.mjs"></script>
 </head>
 <body class="theme-arena">
-  <header class="header"><a class="brand" href="/" aria-label="StagePeek 首页"><img class="brand-logo" src="/brand/stagepeek-logo-dark.svg" alt="StagePeek"><small>找到你的现场位置</small></a><nav aria-label="账户"><button id="saved-button">已存位置</button><button id="plan-button">月订阅</button><button id="account-button" class="primary">登录 / 注册</button></nav></header>
+  <header class="header"><a class="brand" href="/" aria-label="StagePeek 首页"><img class="brand-logo" src="/brand/stagepeek-logo-dark.svg" alt="StagePeek"><small>找到你的现场位置</small></a><nav aria-label="账户"><a href="/venues/">场馆目录</a><button id="saved-button">已存位置</button><button id="plan-button">月订阅</button><button id="account-button" class="primary">登录 / 注册</button></nav></header>
   <main>
     <section class="intro"><div><span class="eyebrow" lang="en">CONCERT SEAT VIEW · 2D &amp; 3D SEATING CHARTS</span><h1>演唱会座位视角，提前看看。</h1><p>选择场馆，输入门票上的区、排和座号，用 2D 座位图与 3D 场馆探索你的现场位置。</p></div><span id="plan-label" class="pill">免费体验</span></section>
     <form id="ticket-form" class="toolbar" aria-label="定位门票座位">
@@ -61,7 +62,8 @@
       <div class="guide-faq"><h2>座位视角与舞台距离，能参考到什么程度？</h2><details><summary>这里的座位视角是真实现场照片吗？</summary><p>当前提供几何模型生成的视角模拟。手机取景倍率用于比较画面大小，不代表相机光学成像，也不是现场照片。</p></details><details><summary>所有场馆都能查到准确座位和舞台距离吗？</summary><p>各场馆的数据覆盖不同。只有票号与已有来源坐标匹配时才显示匹配；实际距离需要场馆米制尺度与对应演出舞台坐标校准。缺少数据时会说明未知或估算。</p></details><details><summary>免费可以使用哪些场馆？</summary><p>精选 10 个场馆可免费探索，其余场馆通过 Pro 月订阅访问。免费名单可调整，当前访问范围与各馆数据状态以工具内显示为准。</p></details></div>
       <a href="#ticket-form">开始查询演唱会座位 ↗</a>
     </section>
-    <footer>StagePeek <span lang="en">Concert seat view · 2D &amp; 3D seating charts</span></footer>
+    <!--VENUE-GUIDES-->
+    <footer>StagePeek <span lang="en">Concert seat view · 2D &amp; 3D seating charts</span><nav class="public-links" aria-label="网站说明"><a href="/venues/">场馆目录</a><a href="/about">关于 StagePeek</a><a href="/methodology">数据方法</a><a href="/plans">计划说明</a><a href="/contact">联系与纠错</a><a href="/privacy">隐私</a><a href="/terms">使用条款</a></nav></footer>
   </main>
   <dialog id="login-dialog"><form id="email-form" class="dialog-content"><button type="button" class="close" data-close aria-label="关闭">×</button><span class="eyebrow">WELCOME TO STAGEPEEK</span><h2>把期待的位置，存下来。</h2><p class="muted">用邮箱验证码注册或登录，首次验证后创建账号。</p><label>邮箱地址<input id="email" type="email" autocomplete="email" required maxlength="254" placeholder="you@example.com"></label><button id="email-submit" class="primary wide">发送验证码</button><label id="otp-field" hidden>邮箱验证码<input id="email-code" inputmode="numeric" autocomplete="one-time-code" pattern="[0-9]{6,10}" minlength="6" maxlength="10" placeholder="输入邮箱中的验证码"></label><button id="otp-submit" type="button" class="primary wide" hidden>验证并登录</button><button id="otp-change-email" type="button" class="wide" hidden>换一个邮箱</button><p id="email-feedback" class="feedback" role="status"></p><a id="local-login" hidden>本地测试：打开登录链接 ↗</a><div class="or">或</div><button type="button" id="google-login" class="wide">使用 Google 登录</button><p id="provider-note" class="small muted"></p></form></dialog>
   <dialog id="confirm-dialog"><div class="dialog-content"><button class="close" data-close aria-label="关闭">×</button><h2>确认登录 StagePeek</h2><p>请在申请登录链接的浏览器中继续。</p><button id="confirm-login" class="primary wide">确认登录</button><p id="confirm-feedback" class="feedback" role="status"></p></div></dialog>

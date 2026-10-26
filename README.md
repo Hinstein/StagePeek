@@ -201,3 +201,11 @@ npm run test:postgres  # 需专用开发 PG 配置；会检查 schema 隔离
 生产依赖增量迁移 `003-auth-flows.sql`。先运行 `node scripts/auth-flows-migration.mjs` 只读检查，`--rehearse` 回滚演练，确认备份后 `--apply`。不要重跑旧的 v2 身份迁移或邮件安装脚本。Recovery 在消费页面发布、品牌路由允许后用 `AUTH_RECOVERY_ENABLED=true` 开启。真实收信及 Google 账号验收必须单独记录。
 
 [账号流程设计](docs/superpowers/specs/2026-10-26-auth-user-flows-design.md) · [实施和验收](docs/operations/auth-flows-2026-10-26.md)。
+
+### 公共场馆指南与 SEO
+
+`/venues/` 提供首批三馆指南（启德、红馆、台北小巨蛋）。公共 HTML、canonical、索引角色、面包屑和运行时 sitemap 由 `server/public-pages.mjs` 共用登记信息生成；内容及经核验的资产指纹在 `server/public-content.mjs`。来源版本变化或读取异常时只撤下受影响指南，新增馆需先审内容和使用范围。
+
+`npm run build` 同步生成 `public/sitemap.xml`，正式运行仍以同一登记信息动态响应。开发环境、参数工具页、认证、API、后台及原型保持 noindex。工具先显示 2D，3D 由用户点击后加载；匿名统计只在既有生产 Umami 配置有效时启用。
+
+本次实施、测试证据及上线待验收事项见 [SEO 实施报告](docs/audits/stagepeek.live-audit/2026-10-26/IMPLEMENTATION-REPORT.md)。
