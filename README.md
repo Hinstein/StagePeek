@@ -39,12 +39,12 @@
 | 数据库迁移 | 线上 SQLite 已备份并导入；生产容器实际 PG 读写、跨连接持久化及事务回滚通过 |
 | 登录与项目权限 | 统一 Supabase Auth：注册确认、密码登录、验证码登录、找回密码和账号管理已上线；业务逐用户 RLS 已启用 |
 | Brevo 邮件 | 发信域、品牌发件人、共享签名 Hook 和 SMTP 已配置启用；真实收信及验证码端到端验收待完成 |
-| Google 登录 | 尚未配置，生产关闭 |
+| Google 登录 | 共享 Supabase Google Provider 已启用；真实账号授权、普通成员权限与原票面座位回跳已验证；授权页品牌审核尚未完成 |
 | Stripe 付款 | 接口和服务端门禁已实现，生产尚未启用真实付款 |
 | Ticketmaster | 服务端适配器已实现；生产当前为缓存模式，未启用实时 API 拉取 |
 | Umami | 可选集成代码已整理，独立 Website ID 与生产采集尚未接通 |
 
-当前账号流程生产代码：`c20d37d6d2c2f5cf2dd91c1f92797817e14bb747`，原 Coolify 应用、数据卷和 PostgreSQL 保留。公网检查 27/27、共享 Auth 无邮件协议检查 14/14；真实收件箱与 Google 授权仍待验收。见 [完整账号流程验收与回滚](docs/operations/auth-flows-2026-10-26.md) 和 [PostgreSQL 迁移记录](docs/operations/postgresql-migration-2026-10-25.md)。
+当前账号流程生产代码：`c20d37d6d2c2f5cf2dd91c1f92797817e14bb747`，原 Coolify 应用、数据卷和 PostgreSQL 保留。Google 启用后公网检查 28/28、共享 Auth 无邮件协议检查 14/14；Google 真实授权与原座位回跳通过，真实收件箱仍待验收。见 [完整账号流程验收与回滚](docs/operations/auth-flows-2026-10-26.md) 和 [PostgreSQL 迁移记录](docs/operations/postgresql-migration-2026-10-25.md)。
 
 ## 品牌与首页设计
 
@@ -196,9 +196,9 @@ npm run test:postgres  # 需专用开发 PG 配置；会检查 schema 隔离
 - `/auth/reset`：邮箱 → 恢复验证码 → 新密码 → 重新登录。恢复凭据只在服务端短期加密保存，不授予普通业务访问权。
 - `/auth/password`：登录用户重新验证本人邮箱后设置或更改共享密码；同时说明对其他平台产品的影响。
 - `/account`：身份、套餐和周期、收藏位置与删除、密码管理及退出。未同意当前条款不封锁安全操作和退出。
-- Google：共享 Supabase PKCE、回调和错误处理已实现；缺平台 Google Client ID/Secret，`AUTH_GOOGLE_ENABLED=false`，不展示不可用入口。
+- Google：共享 Supabase PKCE 已在生产启用，`AUTH_GOOGLE_ENABLED=true`。Google → 共享 Auth → `/auth/google/callback` → 条款确认 → 原场馆/票面排座已用真实账号验证；密钥仅在 VPS1。授权页暂显示 `openp7m.com`，StagePeek 品牌展示仍待 Google 验证。
 
-生产依赖增量迁移 `003-auth-flows.sql`。先运行 `node scripts/auth-flows-migration.mjs` 只读检查，`--rehearse` 回滚演练，确认备份后 `--apply`。不要重跑旧的 v2 身份迁移或邮件安装脚本。生产已应用 v3、发布消费页面并启用品牌恢复路由，`AUTH_RECOVERY_ENABLED=true`。真实收信及 Google 账号验收必须单独记录。
+生产依赖增量迁移 `003-auth-flows.sql`。先运行 `node scripts/auth-flows-migration.mjs` 只读检查，`--rehearse` 回滚演练，确认备份后 `--apply`。不要重跑旧的 v2 身份迁移或邮件安装脚本。生产已应用 v3、发布消费页面并启用品牌恢复路由，`AUTH_RECOVERY_ENABLED=true`。真实 Google 验收见 [Google OAuth 上线记录](docs/operations/google-oauth-2026-10-26.md)；真实收信仍需单独验收。
 
 [账号流程设计](docs/superpowers/specs/2026-10-26-auth-user-flows-design.md) · [实施和验收](docs/operations/auth-flows-2026-10-26.md)。
 

@@ -42,3 +42,7 @@
 真实品牌邮件收件、From/Subject/Logo/语言与从收件箱抄码回本站的端到端流程仍待授权邮箱验收。没有发送真实测试信。Google 代码已实现，但缺平台 OAuth Client ID/Secret，生产隐藏入口，未完成真实 Google 授权。
 
 如需回滚，先关闭 AUTH_RECOVERY_ENABLED/AUTH_EMAIL_ENABLED 并保留共享身份和业务数据；按 root-only 备份恢复对应 env/代码/Hook 注册表，不盲目降级为自建 Auth，不删除增量表或覆盖新增写入。密码属于共享身份，已完成的密码变更不能靠回滚镜像撤销；完整灾备恢复演练未做。
+
+## 后续 Google 接入（2026-10-26）
+
+上文 Google 未配置为当时快照；现已启用并完成真实账号、普通成员边界及原票面座位回跳验收。详见 [Google OAuth 上线记录](google-oauth-2026-10-26.md)。品牌验证和真实收件箱仍待完成。

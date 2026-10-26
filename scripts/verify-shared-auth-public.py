@@ -5,9 +5,11 @@ import json
 import pathlib
 import subprocess
 import tempfile
+from urllib.parse import urlparse, parse_qs
 
 parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument('--release', required=True, help='Explicit deployed full Git SHA from Coolify')
+parser.add_argument('--google-enabled', action='store_true', help='Expect the configured Google provider to be enabled')
 args = parser.parse_args()
 BASE = 'https://stagepeek.live'
 checks = []
@@ -42,9 +44,9 @@ checks.append({'name': 'shared-auth-enabled-no-dev-providers', 'ok':
     and me['providers']['email'] and me['providers']['emailOtp']
     and not any(me['providers'][key] for key in ['localEmail', 'localGoogle', 'localBilling', 'localInbox'])})
 checks.append({'name': 'ten-free-venues', 'ok': len(me['access']['venueIds']) == 10})
-checks.append({'name': 'password-registration-recovery-enabled-google-disabled', 'ok':
+checks.append({'name': 'password-registration-recovery-and-google-state', 'ok':
     all(me['providers'][key] for key in ['password', 'emailRegistration', 'recovery'])
-    and me['providers']['google'] is False})
+    and me['providers']['google'] is args.google_enabled})
 catalog = request('/api/venues')['venues']
 free = next(venue['id'] for venue in catalog if not venue['locked'])
 locked = next(venue['id'] for venue in catalog if venue['locked'])
@@ -56,7 +58,16 @@ for path in ['/api/admin/access', '/api/positions']:
     request(path, 401)
 for path in ['/api/dev/mailbox', '/.env', '/server/config.mjs']:
     request(path, 404)
-request('/api/auth/google/start', 503, 'POST', {}, BASE)
+google = request('/api/auth/google/start', 200 if args.google_enabled else 503, 'POST', {}, BASE)
+if args.google_enabled:
+    authorize = urlparse(google['url'])
+    query = parse_qs(authorize.query)
+    checks.append({'name': 'google-shared-auth-pkce-exact-callback', 'ok':
+        authorize.scheme == 'https' and authorize.netloc == 'supabase.openp7m.com'
+        and authorize.path == '/auth/v1/authorize' and query.get('provider') == ['google']
+        and query.get('redirect_to') == ['https://stagepeek.live/auth/google/callback']
+        and query.get('code_challenge_method') == ['s256']
+        and len(query.get('code_challenge', [''])[0]) == 43})
 request('/api/auth/google/dev-callback', 404, 'POST', {}, BASE)
 request('/api/auth/recovery/verify', 400, 'POST', {'code': '000000'}, BASE)
 request('/api/auth/register', 400, 'POST', {'consent': False}, BASE)
