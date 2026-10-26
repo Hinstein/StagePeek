@@ -61,3 +61,7 @@ Brevo mail.stagepeek.live DNS 与 domain authentication 成功，sender 3 `Stage
 - **VPS3 StagePeek 真实生产容器**到共享 Auth 返回 authGateway=200、emailProvider=true，验证跨节点 TLS/API key 链路；没有发验证码或创建账号。
 - StagePeek healthz 与 OpenP7M 首页/callback/reset 均 200。真实邮箱收信与 OTP 一次性消费仍待验收，不能用 settings 200 替代。
 - 后续改共享 Auth/JWT 配置必须同时核对 API 网关、Auth 和各项目的实际运行环境，不能只看静态 `.env` 或匿名 `/api/me`。
+
+## 2026-10-26 完整密码与验证码流程已上线
+
+当前生产代码 c20d37d，注册为邮箱+密码→OTP→自动登录回原位置；密码/已有账号OTP登录、验证码恢复、账号密码管理已开启。Google 未配置保持关闭。原 OTP-only/reset 未实现及无邮件 fixture401为历史状态，已由后续 14 项真实共享协议检查取代；真实邮箱投递仍未验收。部署、迁移、备份及 27 项公网证据见 [完整账号流程验收](auth-flows-2026-10-26.md)。

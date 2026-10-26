@@ -18,10 +18,12 @@ Spec: docs/superpowers/specs/2026-10-26-auth-user-flows-design.md (primary works
 1. [x] Add failing Auth flow tests for signup payload/order, isolated recovery, repeat/parallel use, PKCE, returnTo, consent. Implement provider and additive PG/SQLite test support. Run focused tests.
 2. [x] Add HTTP integration tests for browser binding, origin, routes, flow type and permission boundary. Implement shared routing, capability/config switches, consent/account APIs. Run Auth and HTTP tests.
 3. [x] Build shared auth pages and public legal drafts, account controls, links from venue UI, return state, accessible mobile states. Add browser-flow checks and run syntax/build/full suite.
-4. [ ] Review security and deployed configuration; enable only confirmed capabilities, prepare branded recovery registry, record acceptance gaps. Sync scoped changes to primary workspace; no bulk-add unrelated data. Deploy in existing authorized application only after required validation and review.
+4. [x] Review security and deployed configuration; enable only confirmed capabilities, prepare branded recovery registry, record acceptance gaps. Sync scoped changes to primary workspace; no bulk-add unrelated data. Deploy in existing authorized application only after required validation and review.
 
 ## Execution ledger
 - Baseline: isolated published checkout 201faeb; primary workspace main7642af1 is dirty and will not be reset.
 - Existing findings F1–F6 are in the design; user authorized implementation.
 
 - Verification: 148 pass / 0 fail / 1 default PG integration skip; actual v3 migration/RLS rehearsal separately passed and rolled back. Final read-only review: no remaining Critical/Important. Real delivery and Google remain separately unverified.
+
+- Production: c20d37d deployment 9d642c66-4648-4949-9b56-dc357a2e20bf finished/healthy; migration3 and recovery routing applied; public27/27 and shared no-delivery protocol14/14. Real inbox and Google remain explicitly pending.

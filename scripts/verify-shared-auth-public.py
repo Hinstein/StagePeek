@@ -42,6 +42,9 @@ checks.append({'name': 'shared-auth-enabled-no-dev-providers', 'ok':
     and me['providers']['email'] and me['providers']['emailOtp']
     and not any(me['providers'][key] for key in ['localEmail', 'localGoogle', 'localBilling', 'localInbox'])})
 checks.append({'name': 'ten-free-venues', 'ok': len(me['access']['venueIds']) == 10})
+checks.append({'name': 'password-registration-recovery-enabled-google-disabled', 'ok':
+    all(me['providers'][key] for key in ['password', 'emailRegistration', 'recovery'])
+    and me['providers']['google'] is False})
 catalog = request('/api/venues')['venues']
 free = next(venue['id'] for venue in catalog if not venue['locked'])
 locked = next(venue['id'] for venue in catalog if venue['locked'])

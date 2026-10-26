@@ -1,0 +1,69 @@
+{
+  "checkedDate": "2026-10-26",
+  "evidenceKind": "recorded-result-of-completed-server-run",
+  "script": "scripts/verify-auth-protocol-remote.py",
+  "sendsEmail": false,
+  "productionProtocolOnly": true,
+  "browserEndToEnd": false,
+  "temporaryIdentityDeleted": true,
+  "checks": [
+    {
+      "name": "admin signup generate without delivery",
+      "ok": true
+    },
+    {
+      "name": "unconfirmed password rejected",
+      "ok": true
+    },
+    {
+      "name": "signup OTP verified",
+      "ok": true
+    },
+    {
+      "name": "signup identity consistent",
+      "ok": true
+    },
+    {
+      "name": "signup OTP replay rejected",
+      "ok": true
+    },
+    {
+      "name": "password login succeeds",
+      "ok": true
+    },
+    {
+      "name": "wrong password rejected",
+      "ok": true
+    },
+    {
+      "name": "recovery generated without delivery",
+      "ok": true
+    },
+    {
+      "name": "recovery verified for same identity",
+      "ok": true
+    },
+    {
+      "name": "verified password update succeeds",
+      "ok": true
+    },
+    {
+      "name": "shared logout accepted",
+      "ok": true
+    },
+    {
+      "name": "old password rejected after update",
+      "ok": true
+    },
+    {
+      "name": "new password preserves identity",
+      "ok": true
+    },
+    {
+      "name": "temporary identity deleted",
+      "ok": true
+    }
+  ],
+  "passed": 14,
+  "total": 14
+}
