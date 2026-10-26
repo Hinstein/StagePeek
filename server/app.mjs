@@ -14,6 +14,7 @@ import {EmailProvider,GoogleProvider} from './providers.mjs';
 import {TicketmasterProvider,ticketingStatus} from './ticketing.mjs';
 import {analyticsMarkup,ANALYTICS_ORIGIN} from './analytics.mjs';
 import {birdsNestPreview} from './venue-preview.mjs';
+import {createPublicSite,homeSchema} from './public-pages.mjs';
 
 const publicRoot=resolve(fileURLToPath(new URL('../public/',import.meta.url)));
 const MIME={'.html':'text/html; charset=utf-8','.mjs':'text/javascript; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.svg':'image/svg+xml','.png':'image/png','.txt':'text/plain; charset=utf-8','.xml':'application/xml; charset=utf-8'};
@@ -29,6 +30,7 @@ async function body(req,max=16_384,asJson=true) {
 }
 
 export function createApplication({db,config,venues,events=null,ticketing=null,ticketingEvents=null,candidateEvents=null,publishedEvents=null,fetch:fetcher=fetch,clock=Date.now,logger=()=>{}}) {
+  const publicSite=createPublicSite(venues);
   const shared=(config.production||config.authMode==='supabase')?new SupabaseAuth(db,config,{fetch:fetcher,clock}):null;
   const auth=shared||new AuthService(db,{clock}),email=new EmailProvider(config,{fetch:fetcher}),google=new GoogleProvider(config,{fetch:fetcher}),billing=new BillingService(db,config,{fetch:fetcher,clock});
   const ticketmaster=ticketing||new TicketmasterProvider({apiKey:config.ticketmasterApiKey,fetch:fetcher,clock});
@@ -58,9 +60,9 @@ export function createApplication({db,config,venues,events=null,ticketing=null,t
       const allowed=[new URL(config.appUrl).origin,...(config.allowedOrigins||[])];
       if(!allowed.some(x=>new URL(x).host===req.headers.host))throw fault(403,'INVALID_HOST','Unrecognized request host');
       const url=new URL(req.url,config.appUrl),path=url.pathname,method=req.method;
-      // Only the public canonical homepage is indexable. Auth utilities,
-      // account APIs, design previews and staging must stay out of search.
-      if(!config.production||config.appUrl!=='https://stagepeek.live'||path!=='/'||['login','auth','auth_error','billing','token','code','state','session_id'].some(key=>url.searchParams.has(key)))res.setHeader('X-Robots-Tag','noindex, nofollow');
+      // Only registered editorial pages and approved public media are indexable.
+      // Tool state, auth/account utilities, drafts and staging fail closed.
+      if(!config.production||config.appUrl!=='https://stagepeek.live'||url.search||!publicSite.isIndexable(path))res.setHeader('X-Robots-Tag','noindex, nofollow');
       if(!req.url.startsWith('/')||req.url.startsWith('//'))throw fault(400,'INVALID_PATH','Invalid path');
       const webhook=path==='/api/billing/webhook'&&method==='POST';
       if(!['GET','HEAD'].includes(method)&&!webhook&&!allowed.includes(req.headers.origin))throw fault(403,'ORIGIN_REQUIRED','Same-origin request required');
@@ -228,13 +230,29 @@ export function createApplication({db,config,venues,events=null,ticketing=null,t
       if(!['GET','HEAD'].includes(method))throw fault(405,'METHOD_NOT_ALLOWED','Method not allowed');
       if(path.startsWith('/api/'))throw fault(404,'NOT_FOUND','Not found');
       if(path==='/index.html'){res.writeHead(308,{Location:'/'+url.search});return res.end();}
+      const publicRedirect=publicSite.redirect(path);
+      if(publicRedirect){res.writeHead(308,{Location:publicRedirect+url.search});return res.end();}
+      const tracking=analyticsMarkup(config,{path,search:url.search,user,publicPage:!!publicSite.get(path)?.indexable});
+      if(tracking)res.setHeader('Content-Security-Policy',String(res.getHeader('Content-Security-Policy')).replace("script-src 'self'",`script-src 'self' ${ANALYTICS_ORIGIN}`).replace("connect-src 'self'",`connect-src 'self' ${ANALYTICS_ORIGIN}`));
+      if(path==='/sitemap.xml'){
+        res.writeHead(200,{'Content-Type':MIME['.xml']});return res.end(method==='HEAD'?null:publicSite.sitemap());
+      }
+      if(path!=='/'&&publicSite.get(path)){
+        const context={};
+        if(path==='/plans'&&method!=='HEAD'){
+          context.access=await access(null);context.billingReady=billing.ready;
+          if(billing.ready)try{context.price=await billing.price();}catch{/* Fail closed: never invent a price. */}
+        }
+        const html=method==='HEAD'?null:publicSite.render(path,context).replace('</head>',tracking+'</head>');
+        res.writeHead(200,{'Content-Type':MIME['.html']});return res.end(html);
+      }
       let decoded;try{decoded=decodeURIComponent(path);}catch{throw fault(404,'NOT_FOUND','Not found');}
       const file=resolve(publicRoot,decoded==='/'?'index.html':['/auth/login','/auth/register','/auth/verify','/auth/callback','/auth/reset','/auth/password','/auth/continue','/account'].includes(decoded)?'auth.html':'.'+decoded);
       if(!file.startsWith(publicRoot+sep)||!MIME[extname(file)]||decoded.split('/').some(x=>x.startsWith('.')||x==='server'||x==='data'))throw fault(404,'NOT_FOUND','Not found');
       let actual,info;try{actual=await realpath(file);info=await stat(actual);}catch{throw fault(404,'NOT_FOUND','Not found');}
       if(!actual.startsWith(publicRoot+sep)||!info.isFile())throw fault(404,'NOT_FOUND','Not found');
-      const tracking=analyticsMarkup(config,{path,search:url.search,user});
       let content=method==='HEAD'?null:await readFile(actual);
+      if(path==='/'&&content)content=Buffer.from(content.toString('utf8').replace('<!--PUBLIC-SCHEMA-->',homeSchema()).replace('<!--VENUE-GUIDES-->',publicSite.homeEnhancements()));
       if(tracking){
         if(content)content=Buffer.from(content.toString('utf8').replace('</head>',tracking+'</head>'));
         res.setHeader('Content-Security-Policy',String(res.getHeader('Content-Security-Policy')).replace("script-src 'self'",`script-src 'self' ${ANALYTICS_ORIGIN}`).replace("connect-src 'self'",`connect-src 'self' ${ANALYTICS_ORIGIN}`));

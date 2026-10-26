@@ -28,3 +28,26 @@ test('tracker respects privacy controls and sends only the fixed public page pay
   assert.deepEqual(run().sent,[{website:id,hostname:'stagepeek.live',url:'/',title:'StagePeek'}]);
   for(const input of [{search:'?token=secret'},{search:'?row=A&seat=78'},{hash:'#token=secret'},{hostname:'localhost'},{doNotTrack:'1'},{globalPrivacyControl:true}])assert.equal(run(input).appended.length,0);
 });
+
+test('anonymous public guide analytics uses only approved page paths',()=>{
+  for(const path of ['/venues/','/venues/taipei-arena','/methodology','/plans','/contact'])assert.match(analyticsMarkup(config,{path,search:'',user:null}),/src="\/analytics.mjs"/);
+  for(const path of ['/venues/not-reviewed','/privacy','/terms','/api/venues','/venues/taipei-arena/'])assert.equal(analyticsMarkup(config,{path,search:'',user:null}),'');
+});
+
+test('events are bounded, omit private values and stop after sign-in or URL changes',async()=>{
+ const source=await readFile(new URL('../public/analytics.mjs',import.meta.url),'utf8');
+ const sent=[],scripts=[],listeners={};
+ const page='/venues/taipei-arena';
+ const location={hostname:'stagepeek.live',pathname:page,search:'',hash:''};
+ const window={umami:{track:value=>sent.push(JSON.parse(JSON.stringify(value)))}};
+ const document={querySelector:()=>({dataset:{websiteId:id,publicPath:page}}),createElement:()=>({dataset:{}}),head:{append:script=>scripts.push(script)},addEventListener:(name,handler)=>listeners[name]=handler};
+ runInNewContext(source,{document,location,navigator:{},window});scripts[0].onload();
+ window.stagepeekTrack('seat_located',{email:'private@example.com',seat:'private-seat'});
+ window.stagepeekTrack('seat_located');window.stagepeekTrack('private-event');
+ listeners.click({target:{closest:()=>({href:'/?token=secret&seat=1'})}});
+ window.stagepeekSignedIn=true;window.stagepeekTrack('view_3d');
+ window.stagepeekSignedIn=false;location.hash='#token=secret';window.stagepeekTrack('plan_open');
+ assert.deepEqual(sent.map(value=>value.name||'pageview'),['pageview','seat_located','tool_open']);
+ for(const value of sent){assert.equal(value.url,page);assert.deepEqual(Object.keys(value).sort(),(value.name?['website','hostname','url','title','name']:['website','hostname','url','title']).sort());}
+ assert.doesNotMatch(JSON.stringify(sent),/private|secret|token=|seat=/);
+});

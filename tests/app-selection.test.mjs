@@ -100,3 +100,12 @@ test('an upper-tier deep link reveals the requested tier before a seat is entere
  assert.ok(target);h.applyRequestedSection(target.id);
  assert.equal(h.state.sectionId,target.id);assert.equal(h.state.mapTier,target.tier);
 });
+
+test('a locked initial venue reports its requested identity and never claims another venue loaded',async()=>{
+ const h=harness('taipei-arena');h.state.venue=null;h.state.venueId='tottenham';h.state.catalog=[{id:'taipei-arena',name:'台北小巨蛋'}];
+ const loading=h.loadVenue('taipei-arena');
+ h.requests[0].resolve(Promise.reject(Object.assign(new Error('locked'),{code:'SUBSCRIPTION_REQUIRED'})));
+ assert.equal(await loading,false);assert.equal(h.state.venue,null);
+ assert.equal(h.$('venue-name').textContent,'台北小巨蛋');
+ assert.match(h.$('location-status').textContent,/订阅/);
+});
