@@ -32,3 +32,11 @@
 - 已用用户现有登录会话验收账户页：真实 Free、无付费订阅、10个免费场馆、8个收藏额度、Google已连接、收藏0/8；原票面 MetLife/103WC/46/27 返回链接正确。
 - 生产390×844手机宽度与文档宽度均390；控制台无 warn/error。真实账户截图仅本机临时目录保存，不提交公开仓库。
 - 付费订阅各状态使用虚构fixture测试；本次未创建真实订阅、未发邮件、未改账号密码或真实收藏。Stripe实际付款仍未开放。
+
+
+## 2026-10-26 收藏入口命名更新
+
+- 顶部入口、收藏弹窗与账户导航/列表统一为“我的收藏”；账户英文为“My favorites”。
+- 生产代码 `3f7816e8285eb8a4dd7fd39a0376eed4454bcf34`，原应用/环境/数据不变。Coolify deployment `agfwzznl1oyowvgu8z784kof` finished，新容器 healthy，2026-10-26 11:41:08 UTC 完成滚动更新。
+- VPS2私有配置快照 `/data/coolify/backups/platform-stagepeek/before-favorites-label-20261026113904.json`；回滚代码 `16856dc40bf63db385e4580e0d65db07b618fa24`。
+- 语法与diff检查通过；真实已登录场馆页顶部、弹窗空状态和账户页标题已核验。公网healthz正常，shared Auth/Google仍开启，匿名免费场馆仍10个。仅文案调整，无数据库迁移、邮件或付款操作。
