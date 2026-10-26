@@ -22,3 +22,13 @@
 ## 发布与回滚
 
 复用原 Coolify 应用 capinwnna0ijx4rafkwju3ms，发布前保存当前配置，保持 Auth/Google/PG/volume/env。本次无数据库迁移，回滚到前一镜像/完整 SHA 即可，用户身份和业务数据不回退。
+
+## 生产验收结果
+
+- 已上线代码：`16856dc40bf63db385e4580e0d65db07b618fa24`。
+- Coolify 正式 HTTPS 管理入口原地发布；deployment `brpewakht6sfza3gkaxncpg2` finished，2026-10-26 19:31:11 北京时间完成滚动更新，新容器 healthy。
+- 发布前快照：VPS2 `/data/coolify/backups/platform-stagepeek/before-account-redesign-20261026112922.json`（root0600）。原代码回滚点 `c20d37d6d2c2f5cf2dd91c1f92797817e14bb747`，环境变量未更改。
+- 不发信公网检查 28/28，保留 Google/密码/注册/恢复，免费名单10。见 `docs/audits/account-2026-10-26/production-public.json`。
+- 已用用户现有登录会话验收账户页：真实 Free、无付费订阅、10个免费场馆、8个收藏额度、Google已连接、收藏0/8；原票面 MetLife/103WC/46/27 返回链接正确。
+- 生产390×844手机宽度与文档宽度均390；控制台无 warn/error。真实账户截图仅本机临时目录保存，不提交公开仓库。
+- 付费订阅各状态使用虚构fixture测试；本次未创建真实订阅、未发邮件、未改账号密码或真实收藏。Stripe实际付款仍未开放。

@@ -44,7 +44,7 @@
 | Ticketmaster | 服务端适配器已实现；生产当前为缓存模式，未启用实时 API 拉取 |
 | Umami | 可选集成代码已整理，独立 Website ID 与生产采集尚未接通 |
 
-当前账号流程生产代码：`c20d37d6d2c2f5cf2dd91c1f92797817e14bb747`，原 Coolify 应用、数据卷和 PostgreSQL 保留。Google 启用后公网检查 28/28、共享 Auth 无邮件协议检查 14/14；Google 真实授权与原座位回跳通过，真实收件箱仍待验收。见 [完整账号流程验收与回滚](docs/operations/auth-flows-2026-10-26.md) 和 [PostgreSQL 迁移记录](docs/operations/postgresql-migration-2026-10-25.md)。
+当前生产代码：`16856dc40bf63db385e4580e0d65db07b618fa24`，原 Coolify 应用、数据卷和 PostgreSQL 保留。Google 启用后公网检查 28/28、共享 Auth 无邮件协议检查 14/14；Google 真实授权与原座位回跳通过，真实收件箱仍待验收。见 [完整账号流程验收与回滚](docs/operations/auth-flows-2026-10-26.md) 和 [PostgreSQL 迁移记录](docs/operations/postgresql-migration-2026-10-25.md)。
 
 ## 品牌与首页设计
 
@@ -195,7 +195,7 @@ npm run test:postgres  # 需专用开发 PG 配置；会检查 schema 隔离
 - `/auth/login`：邮箱密码登录；可切换已有账号的邮箱验证码登录，验证码登录不会自动注册新身份。
 - `/auth/reset`：邮箱 → 恢复验证码 → 新密码 → 重新登录。恢复凭据只在服务端短期加密保存，不授予普通业务访问权。
 - `/auth/password`：登录用户重新验证本人邮箱后设置或更改共享密码；同时说明对其他平台产品的影响。
-- `/account`：身份、套餐和周期、收藏位置与删除、密码管理及退出。未同意当前条款不封锁安全操作和退出。
+- `/account`：独立账户中心，展示真实 Free/Pro、订阅状态和周期、可用场馆、收藏额度及位置卡片；支持密码管理及退出。未同意当前条款不封锁安全操作和退出。设计与生产验收见 [账户中心改版](docs/operations/account-redesign-2026-10-26.md)。
 - Google：共享 Supabase PKCE 已在生产启用，`AUTH_GOOGLE_ENABLED=true`。Google → 共享 Auth → `/auth/google/callback` → 条款确认 → 原场馆/票面排座已用真实账号验证；密钥仅在 VPS1。授权页暂显示 `openp7m.com`，StagePeek 品牌展示仍待 Google 验证。
 
 生产依赖增量迁移 `003-auth-flows.sql`。先运行 `node scripts/auth-flows-migration.mjs` 只读检查，`--rehearse` 回滚演练，确认备份后 `--apply`。不要重跑旧的 v2 身份迁移或邮件安装脚本。生产已应用 v3、发布消费页面并启用品牌恢复路由，`AUTH_RECOVERY_ENABLED=true`。真实 Google 验收见 [Google OAuth 上线记录](docs/operations/google-oauth-2026-10-26.md)；真实收信仍需单独验收。

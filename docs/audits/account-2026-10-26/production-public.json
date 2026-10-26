@@ -1,0 +1,207 @@
+{
+  "checkedAt": "2026-10-26T11:32:18.234119+00:00",
+  "domain": "https://stagepeek.live",
+  "release": "16856dc40bf63db385e4580e0d65db07b618fa24",
+  "sendsEmail": false,
+  "createsUsers": false,
+  "checks": [
+    {
+      "path": "/",
+      "method": "GET",
+      "expected": 200,
+      "actual": 200,
+      "ok": true
+    },
+    {
+      "path": "/healthz",
+      "method": "GET",
+      "expected": 200,
+      "actual": 200,
+      "ok": true
+    },
+    {
+      "path": "/api/me",
+      "method": "GET",
+      "expected": 200,
+      "actual": 200,
+      "ok": true
+    },
+    {
+      "name": "shared-auth-enabled-no-dev-providers",
+      "ok": true
+    },
+    {
+      "name": "ten-free-venues",
+      "ok": true
+    },
+    {
+      "name": "password-registration-recovery-and-google-state",
+      "ok": true
+    },
+    {
+      "path": "/api/venues",
+      "method": "GET",
+      "expected": 200,
+      "actual": 200,
+      "ok": true
+    },
+    {
+      "path": "/api/venues/metlife",
+      "method": "GET",
+      "expected": 200,
+      "actual": 200,
+      "ok": true
+    },
+    {
+      "path": "/api/venues/afas-live",
+      "method": "GET",
+      "expected": 403,
+      "actual": 403,
+      "ok": true
+    },
+    {
+      "path": "/auth/login",
+      "method": "GET",
+      "expected": 200,
+      "actual": 200,
+      "ok": true,
+      "noindex": true,
+      "darkTheme": true
+    },
+    {
+      "path": "/auth/register",
+      "method": "GET",
+      "expected": 200,
+      "actual": 200,
+      "ok": true,
+      "noindex": true,
+      "darkTheme": true
+    },
+    {
+      "path": "/auth/verify",
+      "method": "GET",
+      "expected": 200,
+      "actual": 200,
+      "ok": true,
+      "noindex": true,
+      "darkTheme": true
+    },
+    {
+      "path": "/auth/callback",
+      "method": "GET",
+      "expected": 200,
+      "actual": 200,
+      "ok": true,
+      "noindex": true,
+      "darkTheme": true
+    },
+    {
+      "path": "/auth/reset",
+      "method": "GET",
+      "expected": 200,
+      "actual": 200,
+      "ok": true,
+      "noindex": true,
+      "darkTheme": true
+    },
+    {
+      "path": "/auth/password",
+      "method": "GET",
+      "expected": 200,
+      "actual": 200,
+      "ok": true,
+      "noindex": true,
+      "darkTheme": true
+    },
+    {
+      "path": "/account",
+      "method": "GET",
+      "expected": 200,
+      "actual": 200,
+      "ok": true
+    },
+    {
+      "path": "/api/admin/access",
+      "method": "GET",
+      "expected": 401,
+      "actual": 401,
+      "ok": true
+    },
+    {
+      "path": "/api/positions",
+      "method": "GET",
+      "expected": 401,
+      "actual": 401,
+      "ok": true
+    },
+    {
+      "path": "/api/dev/mailbox",
+      "method": "GET",
+      "expected": 404,
+      "actual": 404,
+      "ok": true
+    },
+    {
+      "path": "/.env",
+      "method": "GET",
+      "expected": 404,
+      "actual": 404,
+      "ok": true
+    },
+    {
+      "path": "/server/config.mjs",
+      "method": "GET",
+      "expected": 404,
+      "actual": 404,
+      "ok": true
+    },
+    {
+      "path": "/api/auth/google/start",
+      "method": "POST",
+      "expected": 200,
+      "actual": 200,
+      "ok": true
+    },
+    {
+      "name": "google-shared-auth-pkce-exact-callback",
+      "ok": true
+    },
+    {
+      "path": "/api/auth/google/dev-callback",
+      "method": "POST",
+      "expected": 404,
+      "actual": 404,
+      "ok": true
+    },
+    {
+      "path": "/api/auth/recovery/verify",
+      "method": "POST",
+      "expected": 400,
+      "actual": 400,
+      "ok": true
+    },
+    {
+      "path": "/api/auth/register",
+      "method": "POST",
+      "expected": 400,
+      "actual": 400,
+      "ok": true
+    },
+    {
+      "path": "/api/auth/email",
+      "method": "POST",
+      "expected": 403,
+      "actual": 403,
+      "ok": true
+    },
+    {
+      "path": "/api/auth/email/verify",
+      "method": "POST",
+      "expected": 400,
+      "actual": 400,
+      "ok": true
+    }
+  ],
+  "passed": 28,
+  "total": 28
+}
