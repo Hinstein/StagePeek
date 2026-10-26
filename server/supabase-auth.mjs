@@ -1,4 +1,6 @@
-import {createCipheriv,createDecipheriv,randomBytes} from 'node:crypto';
+import {createCipheriv,createDecipheriv,randomBytes,createHash} from 'node:crypto';
+import {AuthFlowStore} from './auth-flow-store.mjs';
+import {safeReturn} from '../public/auth-contract.mjs';
 import {normalizeEmail} from './auth.mjs';
 import {fault} from './store.mjs';
 
@@ -10,7 +12,7 @@ const invalid=()=>fault(400,'INVALID_OTP','验证码错误或已过期，请重�
 export class SupabaseAuth {
   constructor(db,config,{fetch:fetcher=fetch,clock=Date.now}={}){
     this.db=db;this.config=config;this.fetch=fetcher;this.clock=clock;
-    this.pendingRefresh=new Map();
+    this.pendingRefresh=new Map();this.flows=new AuthFlowStore(db,this);
     this.key=Buffer.from(config.authCookieKey||'','base64');
     if(this.key.length!==32)throw new Error('AUTH_COOKIE_KEY must encode 32 random bytes');
     if(config.supabaseUrl!=='https://supabase.openp7m.com')throw new Error('Use the shared Supabase Auth origin');
@@ -39,7 +41,7 @@ export class SupabaseAuth {
     try{response=await this.fetch(this.config.supabaseUrl+'/auth/v1/'+path,{
       method,headers:{apikey:this.config.supabaseAnonKey,...token?{Authorization:'Bearer '+token}:{},...body?{'Content-Type':'application/json'}:{}},
       body:body?JSON.stringify(body):undefined,signal:AbortSignal.timeout(10000),redirect:'error'
-    });}catch{throw fault(503,'AUTH_UNAVAILABLE','登录服务暂不可用，请稍后重试');}
+    });}catch{throw Object.assign(fault(503,'AUTH_UNAVAILABLE','登录服务暂不可用，请稍后重试'),{outcomeUnknown:method==='PUT'});}
     const result=await response.json().catch(()=>({}));
     if(!response.ok){
       if(response.status===429)throw fault(429,'RATE_LIMITED','请稍后再试');
@@ -48,25 +50,101 @@ export class SupabaseAuth {
     }
     return result;
   }
-  async sendOtp(value){
+  async sendOtp(value,lang){
     if(!this.ready)throw fault(503,'EMAIL_NOT_CONFIGURED','邮箱登录尚未开放');
     const email=normalizeEmail(value);
-    await this.request('otp?redirect_to='+encodeURIComponent(this.config.appUrl+'/auth/callback'),{
-      method:'POST',body:{email,create_user:true}
+    await this.request('otp?redirect_to='+encodeURIComponent(this.callback('/auth/callback',lang)),{
+      method:'POST',body:{email,create_user:false}
     });
     return {email};
   }
-  async verifyOtp(email,token){
+  async verifyOtp(email,token,type='magiclink'){
     if(!this.ready)throw fault(503,'EMAIL_NOT_CONFIGURED','邮箱登录尚未开放');
     email=normalizeEmail(email);
+    if(!['magiclink','signup'].includes(type))throw invalid();
     if(typeof token!=='string'||!/^\d{6,10}$/.test(token))throw invalid();
     let result;
-    try{result=await this.request('verify',{method:'POST',body:{email,token,type:'email'}});}
+    try{result=await this.request('verify',{method:'POST',body:{email,token,type}});}
     catch(error){if(error.code==='AUTH_REJECTED')throw invalid();throw error;}
     const identity=await this.identity(result.access_token);
     if(identity.email!==email)throw invalid();
     const user=await this.member(identity,true);
     return {user,cookie:this.seal(this.credentials(result))};
+  }
+  password(value){
+    if(typeof value!=='string'||value.length<12||Buffer.byteLength(value)>256)throw fault(400,'WEAK_PASSWORD','密码需至少 12 字符，最多 256 字节');
+    return value;
+  }
+  callback(path,lang='zh-CN'){return this.config.appUrl+path+'?lang='+(lang==='en'?'en':'zh-CN');}
+  async register(value,password,lang){
+    if(!this.ready)throw fault(503,'EMAIL_NOT_CONFIGURED','邮箱注册尚未开放');
+    const email=normalizeEmail(value);
+    await this.request('signup?redirect_to='+encodeURIComponent(this.callback('/auth/callback',lang)),{method:'POST',body:{email,password:this.password(password)}});
+    return {email};
+  }
+  async resendSignup(email,lang){
+    await this.request('resend',{method:'POST',body:{type:'signup',email:normalizeEmail(email),email_redirect_to:this.callback('/auth/callback',lang)}});
+  }
+  async loginPassword(value,password){
+    const email=normalizeEmail(value);
+    if(typeof password!=='string'||!password||Buffer.byteLength(password)>256)throw fault(401,'INVALID_CREDENTIALS','邮箱或密码不正确');
+    let result;try{result=await this.request('token?grant_type=password',{method:'POST',body:{email,password}});}
+    catch(error){if(error.code==='AUTH_REJECTED')throw fault(401,'INVALID_CREDENTIALS','邮箱或密码不正确');throw error;}
+    const identity=await this.identity(result.access_token);
+    return {user:await this.member(identity,true),cookie:this.seal(this.credentials(result))};
+  }
+  async sendRecovery(value,lang){
+    if(!this.config.authRecoveryEnabled)throw fault(503,'RECOVERY_NOT_CONFIGURED','密码恢复尚未开放');
+    const email=normalizeEmail(value);
+    await this.request('recover?redirect_to='+encodeURIComponent(this.callback('/auth/reset',lang)),{method:'POST',body:{email}});
+    return {email};
+  }
+  async verifyRecovery(value,token,returnTo,expectedUser=null){
+    if(!this.config.authRecoveryEnabled)throw fault(503,'RECOVERY_NOT_CONFIGURED','密码恢复尚未开放');
+    const email=normalizeEmail(value);
+    if(typeof token!=='string'||!/^\d{6,10}$/.test(token))throw invalid();
+    let result;try{result=await this.request('verify',{method:'POST',body:{email,token,type:'recovery'}});}
+    catch(error){if(error.code==='AUTH_REJECTED')throw invalid();throw error;}
+    const identity=await this.identity(result.access_token);
+    if(identity.email!==email||(expectedUser&&identity.id!==expectedUser))throw invalid();
+    // No project membership or normal login cookie is issued for recovery.
+    return this.flows.put('recovery',{purpose:'recovery',userId:identity.id,...this.credentials(result),returnTo:safeReturn(returnTo)},600000);
+  }
+  async completePassword(handle,password,kind='recovery'){
+    if(kind!=='recovery')throw invalid();
+    password=this.password(password);
+    const grant=await this.flows.take(handle,'recovery');
+    try{
+      const identity=await this.identity(grant.access);
+      if(identity.id!==grant.userId)throw invalid();
+      await this.request('user',{method:'PUT',token:grant.access,body:{password}});
+    }catch(error){
+      // Only the original browser handle is restored, with its original expiry.
+      // No successful update is made reusable; an ambiguous timeout is reported.
+      if(error.outcomeUnknown)throw fault(503,'AUTH_PASSWORD_RESULT_UNKNOWN','密码更新结果尚未确认，请尝试使用新密码登录，或重新验证邮箱');
+      if(error.status>=500||error.status===429)await this.flows.restore(handle,'recovery',grant);
+      throw error;
+    }
+    // Revoke shared refresh sessions; already issued JWTs retain their own TTL.
+    let sessionsRevoked=true;
+    try{await this.request('logout?scope=global',{method:'POST',token:grant.access});}catch{sessionsRevoked=false;}
+    return {returnTo:grant.returnTo,sessionsRevoked};
+  }
+  async startGoogle(returnTo){
+    if(!this.config.authGoogleEnabled)throw fault(503,'GOOGLE_NOT_CONFIGURED','Google 登录尚未配置');
+    const verifier=randomBytes(48).toString('base64url');
+    const flow=await this.flows.put('google',{purpose:'google',verifier,returnTo:safeReturn(returnTo)},600000);
+    const url=new URL(this.config.supabaseUrl+'/auth/v1/authorize');
+    url.search=new URLSearchParams({provider:'google',redirect_to:this.config.appUrl+'/auth/google/callback',code_challenge:createHash('sha256').update(verifier).digest('base64url'),code_challenge_method:'s256'}).toString();
+    return {flow,url:url.href};
+  }
+  async finishGoogle(handle,code){
+    const flow=await this.flows.take(handle,'google');
+    if(typeof code!=='string'||!code||code.length>4096)throw fault(400,'GOOGLE_FAILED','Google 登录未完成，请重试');
+    const result=await this.request('token?grant_type=pkce',{method:'POST',body:{auth_code:code,code_verifier:flow.verifier}});
+    const identity=await this.identity(result.access_token);
+    if(!identity.googleConnected)throw fault(401,'GOOGLE_FAILED','未取得可信 Google 身份');
+    return {user:await this.member(identity,true),cookie:this.seal(this.credentials(result)),returnTo:flow.returnTo};
   }
   credentials(result){
     if(typeof result.access_token!=='string'||typeof result.refresh_token!=='string'||!Number.isFinite(result.expires_in)||result.expires_in<=0)
@@ -78,16 +156,16 @@ export class SupabaseAuth {
     const identity=await this.request('user',{token});
     if(!UUID.test(identity.id||'')||!identity.email_confirmed_at||identity.is_anonymous)
       throw fault(401,'LOGIN_REQUIRED','请先验证邮箱');
-    return {id:identity.id,email:normalizeEmail(identity.email)};
+    return {id:identity.id,email:normalizeEmail(identity.email),googleConnected:identity.identities?.some(i=>i.provider==='google')||false};
   }
   async member(identity,join=false){
     const row=await this.db.prepare(`SELECT * FROM ${join?'join_shared_member':'read_shared_member'}(?)`).get(identity.id);
     if(!row||row.site_id!==this.config.siteId||row.auth_user_id!==identity.id||!['member','admin','owner'].includes(row.member_role))
       throw fault(403,'MEMBERSHIP_REQUIRED','StagePeek membership is required');
-    return {id:row.id,email:identity.email,createdAt:row.created_at,googleConnected:false,role:row.member_role};
+    return {id:row.id,email:identity.email,createdAt:row.created_at,googleConnected:!!identity.googleConnected,role:row.member_role};
   }
   async resolve(token){
-    const session=this.unseal(token);if(!session)return {user:null};
+    const session=this.unseal(token);if(!session||session.purpose||!session.access||!session.refresh)return {user:null};
     try{
       let fresh=session,rotated=false;
       if(session.expires<=this.clock()+30_000){

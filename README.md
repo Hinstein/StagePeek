@@ -159,7 +159,7 @@ The Weeknd 的六个月研究保留 **58 条候选、24 个场馆**，只进入�
 - `DEV_MAILBOX=false`、`DEV_PREVIEW_ALL_VENUES=false`；生产管理员来自可信 `platform.site_members.role`，不按邮箱白名单授予。
 - Brevo、Google、Stripe、Ticketmaster 配置只放服务端；未配置的 provider 明确保持关闭。
 - 共享 Auth：`AUTH_MODE=supabase`、`SUPABASE_URL`、`SUPABASE_ANON_KEY`、`SITE_ID`、服务端 `AUTH_COOKIE_KEY`。
-- 验证码页面：`/auth/callback`；`/auth/reset` 说明无密码登录。生产 Google 入口暂未开放。
+- 验证码页面：`/auth/callback`；`/auth/reset` 提供邮箱验证码恢复密码。生产 Google 入口依共享 Provider 配置开放。
 - Stripe webhook：`https://stagepeek.live/api/billing/webhook`。
 
 生产由 VPS2 Coolify 管理 VPS3 应用，VPS1 提供 HTTPS 入口和已有 PostgreSQL。沿用已有应用 UUID 与持久卷；升级前保留版本、配置与数据备份，不能用通用初始化命令重建现有生产资源。
@@ -184,6 +184,20 @@ npm run test:postgres  # 需专用开发 PG 配置；会检查 schema 隔离
 
 ## 统一 Auth 更新
 
-用户已批准切换共享 Supabase Auth。注册和登录均在原页面输入邮箱验证码，邮件不含登录链接；首次成功验证后加入 StagePeek 普通成员。身份由共享 Auth 在线核验，业务收藏、订阅和后台权限由项目成员及 RLS 控制。浏览器只持 HttpOnly 加密 Cookie，不在 JavaScript/localStorage 保存访问或刷新凭据。
+用户已批准切换共享 Supabase Auth。注册先输入邮箱和密码，再用邮箱验证码完成验证并返回原座位；支持邮箱密码登录、已有账号的邮箱验证码登录，以及验证码恢复密码。邮件不含认证链接；首次成功验证后加入 StagePeek 普通成员。身份由共享 Auth 在线核验，业务收藏、订阅和后台权限由项目成员及 RLS 控制。浏览器只持 HttpOnly 加密 Cookie，不在 JavaScript/localStorage 保存访问或刷新凭据。
 
 共享邮件路由代码见 `infrastructure/auth-mail/`，运行在 VPS1，复用已有 Brevo SMTP。域名与发件人已验证；真实收件箱验收须使用用户授权地址。部署和回滚状态详见 [共享 Auth 记录](docs/operations/shared-auth-rollout.md)。
+
+
+## 完整账号流程（2026-10-26）
+
+- `/auth/register`：邮箱 + 密码 + 条款确认 → 注册验证码 → 自动登录 → 原场馆/演出/票面排座。
+- `/auth/login`：邮箱密码登录；可切换已有账号的邮箱验证码登录，验证码登录不会自动注册新身份。
+- `/auth/reset`：邮箱 → 恢复验证码 → 新密码 → 重新登录。恢复凭据只在服务端短期加密保存，不授予普通业务访问权。
+- `/auth/password`：登录用户重新验证本人邮箱后设置或更改共享密码；同时说明对其他平台产品的影响。
+- `/account`：身份、套餐和周期、收藏位置与删除、密码管理及退出。未同意当前条款不封锁安全操作和退出。
+- Google：共享 Supabase PKCE、回调和错误处理已实现；缺平台 Google Client ID/Secret，`AUTH_GOOGLE_ENABLED=false`，不展示不可用入口。
+
+生产依赖增量迁移 `003-auth-flows.sql`。先运行 `node scripts/auth-flows-migration.mjs` 只读检查，`--rehearse` 回滚演练，确认备份后 `--apply`。不要重跑旧的 v2 身份迁移或邮件安装脚本。Recovery 在消费页面发布、品牌路由允许后用 `AUTH_RECOVERY_ENABLED=true` 开启。真实收信及 Google 账号验收必须单独记录。
+
+[账号流程设计](docs/superpowers/specs/2026-10-26-auth-user-flows-design.md) · [实施和验收](docs/operations/auth-flows-2026-10-26.md)。

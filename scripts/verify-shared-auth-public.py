@@ -29,7 +29,7 @@ def request(path, expected=200, method='GET', payload=None, origin=None):
                   'actual': status, 'ok': status == expected}
         if path.startswith('/auth/'):
             result['noindex'] = 'x-robots-tag: noindex' in headers.read_text().lower()
-            result['darkTheme'] = 'class="theme-arena"' in text
+            result['darkTheme'] = 'class="theme-arena' in text
             result['ok'] &= result['noindex'] and result['darkTheme']
         checks.append(result)
         return json.loads(text) if text.startswith('{') else text
@@ -47,13 +47,16 @@ free = next(venue['id'] for venue in catalog if not venue['locked'])
 locked = next(venue['id'] for venue in catalog if venue['locked'])
 request('/api/venues/' + free)
 request('/api/venues/' + locked, 403)
-for path in ['/auth/callback', '/auth/reset']:
+for path in ['/auth/login', '/auth/register', '/auth/verify', '/auth/callback', '/auth/reset', '/auth/password', '/account']:
     request(path)
 for path in ['/api/admin/access', '/api/positions']:
     request(path, 401)
 for path in ['/api/dev/mailbox', '/.env', '/server/config.mjs']:
     request(path, 404)
-request('/api/auth/google/dev-callback', 503)
+request('/api/auth/google/start', 503, 'POST', {}, BASE)
+request('/api/auth/google/dev-callback', 404, 'POST', {}, BASE)
+request('/api/auth/recovery/verify', 400, 'POST', {'code': '000000'}, BASE)
+request('/api/auth/register', 400, 'POST', {'consent': False}, BASE)
 # This request is rejected at the origin boundary, before requesting any email.
 request('/api/auth/email', 403, 'POST', {}, 'https://untrusted.invalid')
 # No pending browser cookie: rejected before contacting GoTrue /verify.

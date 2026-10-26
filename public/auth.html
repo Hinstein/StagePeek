@@ -1,3 +1,24 @@
 <!doctype html>
-<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>邮箱验证 · StagePeek</title><link rel="stylesheet" href="/style.css"><script type="module" src="/auth-page.mjs"></script></head>
-<body class="theme-arena"><main class="dialog-content" style="max-width:440px;margin:10vh auto;padding:28px"><a href="/" aria-label="返回 StagePeek 首页"><img src="/brand/stagepeek-logo-dark.svg" width="190" height="54" alt="StagePeek"></a><h1 id="auth-title">邮箱验证码登录</h1><p id="auth-description">输入邮箱获取验证码，再回到本页验证。首次验证后创建 StagePeek 账号。</p><form id="auth-form"><label>邮箱地址<input id="auth-email" type="email" autocomplete="email" maxlength="254" required></label><button id="auth-send" class="primary wide">发送验证码</button><div id="auth-code-field" hidden><label>邮箱验证码<input id="auth-code" inputmode="numeric" autocomplete="one-time-code" pattern="[0-9]{6,10}" maxlength="10"></label><button id="auth-verify" type="button" class="primary wide">验证并登录</button><button id="auth-change" type="button" class="wide">换一个邮箱</button></div></form><p id="auth-feedback" role="status" aria-live="polite"></p><a href="/">返回场馆预览</a></main></body></html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>账号 · StagePeek</title><link rel="stylesheet" href="/style.css"><link rel="stylesheet" href="/auth.css"><script type="module" src="/auth-page.mjs"></script></head>
+<body class="theme-arena auth-body"><main class="auth-card">
+<header class="auth-header"><a href="/" aria-label="StagePeek 首页"><img src="/brand/stagepeek-logo-dark.svg" width="190" height="54" alt="StagePeek"></a><button id="auth-language" class="auth-text" type="button">English</button></header>
+<p class="eyebrow">YOUR NEXT GREAT VIEW</p><h1 id="auth-title">登录 StagePeek</h1><p id="auth-description" class="muted">继续探索你的现场位置。</p>
+<p id="auth-target" class="small muted" hidden></p>
+<div id="auth-feedback" role="status" aria-live="polite" tabindex="-1"></div>
+<section id="auth-account" hidden><a id="account-consent" class="auth-link" href="/auth/continue" hidden></a><p id="account-address"></p><p id="account-tier" class="muted"></p><p id="account-subscription" class="small muted"></p><p id="account-identities" class="small muted"></p><a id="account-password" class="auth-link" href="/auth/password">设置或更改统一账号密码</a><a id="account-billing" class="auth-link" href="/">订阅与账单</a><h2 id="positions-title">已保存的位置</h2><div id="account-positions"></div><button id="auth-logout" class="wide" type="button">退出登录</button></section>
+<button id="auth-google" class="wide auth-google" type="button" hidden>使用 Google 登录</button><div id="auth-or" class="or" hidden>或</div>
+<form id="auth-form" hidden>
+<label id="auth-email-field"><span id="email-label">邮箱地址</span><input id="auth-email" type="email" autocomplete="email" maxlength="254" placeholder="you@example.com"></label>
+<label id="auth-password-field" hidden><span id="password-label">密码</span><span class="auth-password"><input id="auth-password" type="password" autocomplete="current-password" maxlength="256"><button id="auth-reveal" type="button" aria-pressed="false">显示</button></span></label>
+<p id="auth-password-rule" class="small muted" hidden></p>
+<label id="auth-confirm-field" hidden><span id="confirm-label">确认新密码</span><input id="auth-confirm" type="password" autocomplete="new-password" maxlength="256"></label>
+<label id="auth-code-field" hidden><span id="code-label">邮箱验证码</span><input id="auth-code" inputmode="numeric" autocomplete="one-time-code" pattern="[0-9]{6,10}" maxlength="10" placeholder="000000"></label>
+<p id="auth-shared-warning" class="auth-warning" hidden></p>
+<label id="auth-consent-field" class="auth-consent" hidden><input id="auth-consent" type="checkbox"><span id="consent-copy">我已阅读并同意 <a href="/terms.html" target="_blank" rel="noopener">服务条款</a> 与 <a href="/privacy.html" target="_blank" rel="noopener">隐私政策</a></span></label>
+<button id="auth-submit" class="primary wide" type="submit">登录</button>
+</form>
+<div id="auth-code-actions" hidden><button id="auth-resend" class="auth-text" type="button">重新发送验证码</button><button id="auth-change" class="auth-text" type="button">换一个邮箱</button><details><summary id="help-title">收不到验证码？</summary><p id="help-copy" class="small muted">请检查邮箱拼写和垃圾邮件，等待后再重发。验证码只能在发起验证的浏览器使用。</p></details></div>
+<nav id="auth-security" hidden><a id="security-account" class="auth-link" href="/account">账号安全</a><button id="security-logout" class="auth-text" type="button">退出登录</button></nav>
+<nav id="auth-links" aria-label="账号操作"></nav><a id="auth-back" class="auth-back" href="/">返回场馆预览</a>
+<footer class="auth-footer"><a href="/terms.html">服务条款</a> · <a href="/privacy.html">隐私政策</a></footer>
+</main></body></html>

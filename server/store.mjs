@@ -8,6 +8,8 @@ export function openStore(path) {
   const db=new DatabaseSync(path);
   if(path!==':memory:') chmodSync(path,0o600);
   db.exec(`PRAGMA foreign_keys=ON; PRAGMA journal_mode=WAL; PRAGMA busy_timeout=5000;
+    CREATE TABLE IF NOT EXISTS auth_flows (id TEXT PRIMARY KEY,kind TEXT NOT NULL,payload TEXT NOT NULL,expires_at INTEGER NOT NULL) STRICT;
+    CREATE TABLE IF NOT EXISTS auth_consents (user_id TEXT PRIMARY KEY REFERENCES users(id),version TEXT NOT NULL,accepted_at INTEGER NOT NULL) STRICT;
     CREATE TABLE IF NOT EXISTS users (
       id TEXT PRIMARY KEY, email TEXT NOT NULL UNIQUE, google_id TEXT UNIQUE,
       created_at INTEGER NOT NULL

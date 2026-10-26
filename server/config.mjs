@@ -28,7 +28,7 @@ export function loadConfig(env=process.env) {
   const databasePoolMax=Number(env.DATABASE_POOL_MAX||5);
   if(!Number.isInteger(databasePoolMax)||databasePoolMax<1||databasePoolMax>20)throw new Error('DATABASE_POOL_MAX must be 1–20');
   const freeVenueIds=String(env.FREE_VENUE_IDS||DEFAULT_FREE_VENUE_IDS.join(',')).split(',').map(x=>x.trim()).filter(Boolean);
-  return {authMode,supabaseUrl:env.SUPABASE_URL||'https://supabase.openp7m.com',supabaseAnonKey:env.SUPABASE_ANON_KEY||'',siteId:env.SITE_ID||'',authCookieKey:env.AUTH_COOKIE_KEY||'',authEmailEnabled:env.AUTH_EMAIL_ENABLED==='true',databaseUrl:env.DATABASE_URL||'',databaseSchema,databasePoolMax,production,appUrl:app.origin,host:env.HOST||'127.0.0.1',port,allowedOrigins,devMailbox,devPreviewAllVenues,freeVenueIds,umamiWebsiteId,
+  return {authRecoveryEnabled:env.AUTH_RECOVERY_ENABLED==='true',authGoogleEnabled:env.AUTH_GOOGLE_ENABLED==='true',authMode,supabaseUrl:env.SUPABASE_URL||'https://supabase.openp7m.com',supabaseAnonKey:env.SUPABASE_ANON_KEY||'',siteId:env.SITE_ID||'',authCookieKey:env.AUTH_COOKIE_KEY||'',authEmailEnabled:env.AUTH_EMAIL_ENABLED==='true',databaseUrl:env.DATABASE_URL||'',databaseSchema,databasePoolMax,production,appUrl:app.origin,host:env.HOST||'127.0.0.1',port,allowedOrigins,devMailbox,devPreviewAllVenues,freeVenueIds,umamiWebsiteId,
     adminEmails:String(env.ADMIN_EMAILS||'').split(',').map(x=>x.trim().toLowerCase()).filter(Boolean),
     dbPath:resolve(env.DB_PATH||fileURLToPath(new URL('../var/seatpeep.sqlite',import.meta.url))),
     googleClientId:env.GOOGLE_CLIENT_ID||'',googleClientSecret:env.GOOGLE_CLIENT_SECRET||'',ticketmasterApiKey:env.TICKETMASTER_API_KEY||'',

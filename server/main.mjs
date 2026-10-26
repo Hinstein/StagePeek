@@ -9,7 +9,7 @@ import {PublishedEventRepository} from './event-publication.mjs';
 import {fileURLToPath} from 'node:url';
 
 const config=loadConfig(),db=await openDatabase(config),venues=loadVenues();
-if(config.authMode==='supabase'&&(await db.prepare('SELECT version FROM schema_migrations WHERE version=2').get())?.version!==2){await db.close();throw new Error('Shared Auth schema migration 2 is required');}
+if(config.authMode==='supabase'&&(await db.prepare('SELECT version FROM schema_migrations WHERE version=3').get())?.version!==3){await db.close();throw new Error('Shared Auth schema migration 3 is required');}
 const events=new EventRepository({file:fileURLToPath(new URL('../data/events.json',import.meta.url))});
 const ticketingEvents=new TicketingEventCache({file:fileURLToPath(new URL('../data/ticketing/ticketmaster-events.json',import.meta.url))});
 const candidateEvents=new CandidateEventRepository(fileURLToPath(new URL('../data/events-candidates',import.meta.url)));
@@ -28,6 +28,7 @@ const cleanup=setInterval(async ()=>{
   (await db.prepare('DELETE FROM login_tokens WHERE expires_at<?').run(now));
   (await db.prepare('DELETE FROM oauth_attempts WHERE expires_at<?').run(now));
   }
+  if(config.authMode==='supabase')await db.prepare('DELETE FROM auth_flows WHERE expires_at<?').run(now);
   (await db.prepare('DELETE FROM rate_limits WHERE reset_at<?').run(now));
   }catch{console.error('Database cleanup failed');}
 },60*60_000);cleanup.unref();

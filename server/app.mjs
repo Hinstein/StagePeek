@@ -5,6 +5,7 @@ import {resolve,extname,sep} from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {randomUUID} from 'node:crypto';
 import {AuthService,hash,normalizeEmail,randomToken} from './auth.mjs';
+import {sharedAuthRoutes,consentStatus} from './shared-auth-routes.mjs';
 import {SupabaseAuth} from './supabase-auth.mjs';
 import {fault,limit,transaction} from './store.mjs';
 import {entitlements,freeVenueIds,saveFreeVenueIds,DEFAULT_FREE_VENUE_IDS} from './access.mjs';
@@ -36,6 +37,7 @@ export function createApplication({db,config,venues,events=null,ticketing=null,t
   const localMode=()=>!!(!shared&&config.devMailbox&&!config.production);
   function cookie(res,name,value,maxAge){const existing=res.getHeader('Set-Cookie')||[];res.setHeader('Set-Cookie',[...existing,`${prefix}${name}=${value}; Path=/; HttpOnly; SameSite=Lax; Max-Age=${maxAge}${config.production?'; Secure':''}`]);}
   function json(res,status,value){res.writeHead(status,{'Content-Type':'application/json; charset=utf-8'});res.end(JSON.stringify(value));}
+  const handleShared=shared?sharedAuthRoutes({auth:shared,db,config,cookie,json,body,cookies,prefix,clock}):null;
   async function requireUser(req){const user=req.stagepeekUser;if(!user)throw fault(401,'LOGIN_REQUIRED','Sign in first');return user;}
   async function access(user){
     const available=venues.ids?venues.ids():venues.catalog().map(item=>item.id);
@@ -69,31 +71,10 @@ export function createApplication({db,config,venues,events=null,ticketing=null,t
       const user=resolved.user;
       const handle=async()=>{
       if(path.startsWith('/api/')&&!webhook)(await limit(db,'http:'+hash(req.socket.remoteAddress||''),240,60_000,clock()));
+      if(handleShared&&await handleShared(req,res,url,user))return;
+      if(shared&&user&&!['GET','HEAD'].includes(method)&&!webhook&&!/^\/api\/venues\/[a-z0-9-]+\/resolve$/.test(path)&&(await consentStatus(db,user)).required)throw fault(403,'CONSENT_REQUIRED','请先确认服务条款与隐私政策');
       if((path==='/api/health'||path==='/healthz')&&method==='GET')return json(res,200,{ok:true,service:'stagepeek'});
-      if(path==='/api/me'&&method==='GET')return json(res,200,{user,access:(await access(user)),providers:{auth:shared?'supabase':'local',emailOtp:!!shared,email:shared?shared.ready:email.ready,google:!shared&&(google.ready||localMode()),billing:billing.ready||localMode(),localEmail:localMode(),localGoogle:localMode()&&!google.ready,localBilling:localMode()&&!billing.ready,localInbox:localMode()&&loopback(req.socket.remoteAddress),ticketing:ticketingStatus(config)},subscription:user?(await db.prepare('SELECT status,period_end,cancel_at_period_end FROM subscriptions WHERE user_id=? ORDER BY period_end DESC LIMIT 1').get(user.id))||null:null});
-      if(shared&&path==='/api/auth/email'&&method==='POST'){
-        const input=await body(req),address=normalizeEmail(input.email);
-        await limit(db,'email:'+hash(address),3,15*60_000,clock());
-        await limit(db,'email-ip:'+hash(req.socket.remoteAddress||''),12,60*60_000,clock());
-        await shared.sendOtp(address);
-        cookie(res,'otp',shared.seal({email:address,until:clock()+15*60_000}),900);
-        return json(res,200,{sent:true,method:'email-otp',resendAfter:60});
-      }
-      if(shared&&path==='/api/auth/email/verify'&&method==='POST'){
-        const input=await body(req),pending=shared.unseal(cookies(req)[prefix+'otp']);
-        if(!pending?.email)throw fault(400,'OTP_EXPIRED','请重新申请验证码');
-        await limit(db,'otp-ip:'+hash(req.socket.remoteAddress||''),20,15*60_000,clock());
-        await limit(db,'otp:'+hash(pending.email),8,15*60_000,clock());
-        const result=await shared.verifyOtp(pending.email,input.code);
-        cookie(res,'supabase',result.cookie,30*86400);cookie(res,'otp','',0);cookie(res,'session','',0);cookie(res,'email','',0);
-        return json(res,200,{user:result.user});
-      }
-      if(shared&&path==='/api/auth/logout'&&method==='POST'){
-        await body(req);await shared.logout(resolved.cookie||cookies(req)[cookieName]);
-        cookie(res,'supabase','',0);cookie(res,'otp','',0);cookie(res,'session','',0);
-        return json(res,200,{ok:true});
-      }
-      if(shared&&path.startsWith('/api/auth/google/'))throw fault(503,'GOOGLE_NOT_CONFIGURED','Google 登录尚未配置');
+      if(path==='/api/me'&&method==='GET')return json(res,200,{user,consent:shared?await consentStatus(db,user):null,access:(await access(user)),providers:{auth:shared?'supabase':'local',emailOtp:!!shared,email:shared?shared.ready:email.ready,password:!!shared,emailRegistration:!!shared&&shared.ready,recovery:!!shared&&!!config.authRecoveryEnabled,google:shared?!!config.authGoogleEnabled:(google.ready||localMode()),billing:billing.ready||localMode(),localEmail:localMode(),localGoogle:localMode()&&!google.ready,localBilling:localMode()&&!billing.ready,localInbox:localMode()&&loopback(req.socket.remoteAddress),ticketing:ticketingStatus(config)},subscription:user?(await db.prepare('SELECT status,period_end,cancel_at_period_end FROM subscriptions WHERE user_id=? ORDER BY period_end DESC LIMIT 1').get(user.id))||null:null});
       if(path==='/api/auth/email'&&method==='POST'){
         if(!email.ready)throw fault(503,'EMAIL_NOT_CONFIGURED','Email delivery is not configured');
         const input=await body(req),address=normalizeEmail(input.email);
@@ -248,7 +229,7 @@ export function createApplication({db,config,venues,events=null,ticketing=null,t
       if(path.startsWith('/api/'))throw fault(404,'NOT_FOUND','Not found');
       if(path==='/index.html'){res.writeHead(308,{Location:'/'+url.search});return res.end();}
       let decoded;try{decoded=decodeURIComponent(path);}catch{throw fault(404,'NOT_FOUND','Not found');}
-      const file=resolve(publicRoot,decoded==='/'?'index.html':['/auth/callback','/auth/reset'].includes(decoded)?'auth.html':'.'+decoded);
+      const file=resolve(publicRoot,decoded==='/'?'index.html':['/auth/login','/auth/register','/auth/verify','/auth/callback','/auth/reset','/auth/password','/auth/continue','/account'].includes(decoded)?'auth.html':'.'+decoded);
       if(!file.startsWith(publicRoot+sep)||!MIME[extname(file)]||decoded.split('/').some(x=>x.startsWith('.')||x==='server'||x==='data'))throw fault(404,'NOT_FOUND','Not found');
       let actual,info;try{actual=await realpath(file);info=await stat(actual);}catch{throw fault(404,'NOT_FOUND','Not found');}
       if(!actual.startsWith(publicRoot+sep)||!info.isFile())throw fault(404,'NOT_FOUND','Not found');
