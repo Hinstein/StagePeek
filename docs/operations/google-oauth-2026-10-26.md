@@ -40,3 +40,13 @@
 - Stripe、Umami 的外部配置不在此次 OAuth 完成范围。
 
 官方配置依据：[Supabase Google](https://supabase.com/docs/guides/auth/social-sign-in/auth-google)、[Google Web Server OAuth](https://developers.google.com/identity/protocols/oauth2/web-server)。
+
+## 品牌补全与域名所有权 · 2026-10-26
+
+- 目标授权品牌为 **StagePeek**；Google Cloud 的 App name、首页、隐私与条款均已登记 StagePeek。
+- 已上传并保存现有 Arena Bowl PNG 图标；页面显示 `Current App logo` 与 `Branding changes saved!`。没有修改 OAuth 客户端、回调或权限。
+- 用户当场授权后，仅在 Spaceship 新增一条根域 Google 验证 TXT，原7条网站与邮件记录保留。
+- 指定 hinstein li 账号的 Google Search Console 显示 **Ownership verified**，验证方法 `Domain name provider`。验证记录须保留；不把账号专属验证值写入公共仓库。
+- 所有权成功确认时间：2026-10-26约18:36（Asia/Shanghai）。Google 此前给出的品牌检查问题要求所有权验证后等待24小时再重试，因此不早于2026-10-27约18:36再申请品牌复核。
+- 当前仅可确认品牌资料保存与域名所有权通过，**品牌审核尚未通过**；Google 登录仍可正常使用，授权页展示名称仍以 Google 审核及生效结果为准。
+- 所有权回执与品牌配置截图仅保存在本机 `var/operations/`，不提交公共仓库；回执背景含其他项目统计，品牌页含账号联系方式。

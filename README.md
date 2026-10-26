@@ -39,7 +39,7 @@
 | 数据库迁移 | 线上 SQLite 已备份并导入；生产容器实际 PG 读写、跨连接持久化及事务回滚通过 |
 | 登录与项目权限 | 统一 Supabase Auth：注册确认、密码登录、验证码登录、找回密码和账号管理已上线；业务逐用户 RLS 已启用 |
 | Brevo 邮件 | 发信域、品牌发件人、共享签名 Hook 和 SMTP 已配置启用；真实收信及验证码端到端验收待完成 |
-| Google 登录 | 共享 Supabase Google Provider 已启用；真实账号授权、普通成员权限与原票面座位回跳已验证；授权页品牌审核尚未完成 |
+| Google 登录 | 共享 Supabase Google Provider 已启用；真实账号授权、普通成员权限与原票面座位回跳已验证；StagePeek 名称与 Logo 已保存、域名所有权已验证；授权页品牌待 Google 同步后复核 |
 | Stripe 付款 | 接口和服务端门禁已实现，生产尚未启用真实付款 |
 | Ticketmaster | 服务端适配器已实现；生产当前为缓存模式，未启用实时 API 拉取 |
 | Umami | 可选集成代码已整理，独立 Website ID 与生产采集尚未接通 |
