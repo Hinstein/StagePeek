@@ -24,6 +24,7 @@ test('registration sends password to signup before consuming signup OTP, never O
   await f.auth.verifyOtp('test@example.com','123456','signup');assert.equal(f.calls[1].body.type,'signup');
   await f.auth.sendOtp('test@example.com');assert.equal(f.calls.at(-1).body.create_user,false);
   await assert.rejects(f.auth.register('test@example.com','short'),{code:'WEAK_PASSWORD'});
+  await f.auth.resendSignup('test@example.com','en');assert.equal(f.calls.at(-1).url.searchParams.get('redirect_to'),'https://stagepeek.live/auth/callback?lang=en');
  }finally{await f.db.close();}
 });
 test('recovery grant is server-stored, isolated from login and atomically single-use',async()=>{
