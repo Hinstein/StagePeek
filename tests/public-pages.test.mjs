@@ -17,6 +17,29 @@ async function setup(t){
   return {config,venues,billing:app.billing,call:(path,method='GET')=>fetch(origin+path,{method,redirect:'manual'})};
 }
 
+test('selected homepage is the public entry and existing ticket links still open the tool',async t=>{
+  const {call}=await setup(t);
+  const response=await call('/'),home=await response.text();
+  assert.equal(response.status,200);
+  assert.equal(response.headers.get('X-Robots-Tag'),null);
+  assert.match(home,/期待现场之前/);
+  assert.match(home,/data-live-preview/);
+  assert.match(home,/data-peek-zoom="5"/);
+  assert.match(home,/href="\/explore"[^>]*data-tool-entry/);
+  assert.match(home,/href="\/auth\/login"/);
+  assert.doesNotMatch(home,/首页设计预览|prototype-bar|data-variant|id="ticket-form"/);
+  assert.equal((home.match(/<h1[ >]/g)||[]).length,1);
+  for(const path of ['/explore','/?venue=taipei-arena&section=101&row=A&seat=1','/?panel=plans','/?account=billing','/?billing=success','/?login=email']){
+    const tool=await call(path);
+    assert.equal(tool.status,200,path);
+    assert.match(tool.headers.get('X-Robots-Tag'),/noindex/,path);
+    assert.match(await tool.text(),/id="ticket-form"/,path);
+  }
+  assert.match(await(await call('/?utm_source=launch')).text(),/期待现场之前/);
+  for(const path of ['/home.css','/home.mjs','/home-venue-preview.mjs','/home-assets/audience.svg','/home-assets/arena-3d.svg'])assert.equal((await call(path)).status,200,path);
+  const head=await call('/','HEAD');assert.equal(head.status,200);assert.equal(await head.text(),'');
+});
+
 test('directory and three reviewed venue pages deliver useful initial HTML with resolvable CTAs',async t=>{
   const {call,venues}=await setup(t);
   const directory=await call('/venues/');assert.equal(directory.status,200);

@@ -14,7 +14,7 @@ import {EmailProvider,GoogleProvider} from './providers.mjs';
 import {TicketmasterProvider,ticketingStatus} from './ticketing.mjs';
 import {analyticsMarkup,ANALYTICS_ORIGIN} from './analytics.mjs';
 import {birdsNestPreview} from './venue-preview.mjs';
-import {createPublicSite,homeSchema} from './public-pages.mjs';
+import {createPublicSite,homeSchema,publicNavigation} from './public-pages.mjs';
 
 const publicRoot=resolve(fileURLToPath(new URL('../public/',import.meta.url)));
 const MIME={'.html':'text/html; charset=utf-8','.mjs':'text/javascript; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.svg':'image/svg+xml','.png':'image/png','.txt':'text/plain; charset=utf-8','.xml':'application/xml; charset=utf-8'};
@@ -247,12 +247,14 @@ export function createApplication({db,config,venues,events=null,ticketing=null,t
         res.writeHead(200,{'Content-Type':MIME['.html']});return res.end(html);
       }
       let decoded;try{decoded=decodeURIComponent(path);}catch{throw fault(404,'NOT_FOUND','Not found');}
-      const file=resolve(publicRoot,decoded==='/'?'index.html':['/auth/login','/auth/register','/auth/verify','/auth/callback','/auth/reset','/auth/password','/auth/continue','/account'].includes(decoded)?'auth.html':'.'+decoded);
+      // Keep previously shared ticket links and provider returns in the tool.
+      const toolPage=path==='/explore'||path==='/'&&['venue','event','layout','section','row','seat','mode','zoom','depth','lateral','standing','date','account','panel','data','billing','auth','auth_error','login','token','session_id'].some(key=>url.searchParams.has(key));
+      const file=resolve(publicRoot,toolPage?'index.html':decoded==='/'?'home.html':['/auth/login','/auth/register','/auth/verify','/auth/callback','/auth/reset','/auth/password','/auth/continue','/account'].includes(decoded)?'auth.html':'.'+decoded);
       if(!file.startsWith(publicRoot+sep)||!MIME[extname(file)]||decoded.split('/').some(x=>x.startsWith('.')||x==='server'||x==='data'))throw fault(404,'NOT_FOUND','Not found');
       let actual,info;try{actual=await realpath(file);info=await stat(actual);}catch{throw fault(404,'NOT_FOUND','Not found');}
       if(!actual.startsWith(publicRoot+sep)||!info.isFile())throw fault(404,'NOT_FOUND','Not found');
       let content=method==='HEAD'?null:await readFile(actual);
-      if(path==='/'&&content)content=Buffer.from(content.toString('utf8').replace('<!--PUBLIC-SCHEMA-->',homeSchema()).replace('<!--VENUE-GUIDES-->',publicSite.homeEnhancements()));
+      if((path==='/'||path==='/explore')&&content)content=Buffer.from(content.toString('utf8').replace('<!--PUBLIC-SCHEMA-->',homeSchema()).replace('<!--PUBLIC-NAVIGATION-->',publicNavigation()).replace('<!--VENUE-GUIDES-->',publicSite.homeEnhancements()));
       if(tracking){
         if(content)content=Buffer.from(content.toString('utf8').replace('</head>',tracking+'</head>'));
         res.setHeader('Content-Security-Policy',String(res.getHeader('Content-Security-Policy')).replace("script-src 'self'",`script-src 'self' ${ANALYTICS_ORIGIN}`).replace("connect-src 'self'",`connect-src 'self' ${ANALYTICS_ORIGIN}`));

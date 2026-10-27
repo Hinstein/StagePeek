@@ -35,7 +35,7 @@ test('StagePeek canonical metadata, crawler routes and utility noindex stay cons
   assert.equal(root.status,200);assert.equal(root.headers.get('X-Robots-Tag'),null);
   assert.match(html,/<link rel="canonical" href="https:\/\/stagepeek.live\/">/);
   assert.match(html,/<title>StagePeek.*Concert Seat View<\/title>/);
-  assert.match(html,/id="guide-title"/);
+  assert.match(html,/id="how"/);
   assert.equal((html.match(/<h1>/g)||[]).length,1);
   const duplicate=await call('/index.html?venue=sofi',{headers});
   assert.equal(duplicate.status,308);assert.equal(duplicate.headers.get('Location'),'/?venue=sofi');
@@ -151,7 +151,7 @@ test('local monthly checkout upgrades only the signed-in development account',as
 test('public root and app modules are actually served while data files remain private',async t=>{
   const {call}=await setup(t);
   assert.deepEqual(await (await call('/healthz')).json(),{ok:true,service:'stagepeek'});
-  const page=await call('/');assert.equal(page.status,200);assert.match(await page.text(),/找到你的现场位置/);
+  const page=await call('/');assert.equal(page.status,200);assert.match(await page.text(),/期待现场之前/);
   const module=await call('/app.mjs');assert.equal(module.status,200);assert.match(module.headers.get('content-type'),/javascript/);
   assert.equal((await call('/vendor/three.module.min.js')).status,200);
 });
