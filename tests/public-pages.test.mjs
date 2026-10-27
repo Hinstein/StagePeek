@@ -57,6 +57,10 @@ test('directory and three reviewed venue pages deliver useful initial HTML with 
   const {call,venues}=await setup(t);
   const directory=await call('/venues/');assert.equal(directory.status,200);
   const hub=await directory.text();assert.match(hub,/<h1>Venue directory<\/h1>/);
+  assert.match(hub,/data-venue-directory data-total="197"/);
+  assert.match(hub,/data-region-filter="asia"/);
+  assert.match(hub,/data-venue-search/);
+  assert.match(hub,/src="\/venue-directory\.mjs"/);
   for(const id of ids){
     const path='/venues/'+id,response=await call(path),html=await response.text();
     assert.equal(response.status,200,path);assert.equal(response.headers.get('X-Robots-Tag'),null,path);

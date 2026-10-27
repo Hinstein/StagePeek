@@ -240,9 +240,9 @@ export function createApplication({db,config,venues,events=null,ticketing=null,t
       }
       if(basePath!=='/'&&publicSite.get(basePath)){
         const context={};
-        if(basePath==='/plans'&&method!=='HEAD'){
+        if((basePath==='/plans'||basePath==='/venues/')&&method!=='HEAD'){
           context.access=await access(null);context.billingReady=billing.ready;
-          if(billing.ready)try{context.price=await billing.price();}catch{/* Fail closed: never invent a price. */}
+          if(basePath==='/plans'&&billing.ready)try{context.price=await billing.price();}catch{/* Fail closed: never invent a price. */}
         }
         const html=method==='HEAD'?null:publicSite.render(path,{...context,locale}).replace('</head>',tracking+'</head>');
         res.writeHead(200,{'Content-Type':MIME['.html']});return res.end(html);
