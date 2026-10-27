@@ -3261,7 +3261,29 @@ export const interfaceRows=[
     "{0} 區",
     "{0}ブロック",
     "{0}구역"
-  ]
+  ],
+  ['正在读取场馆目录…','Loading the venue directory…','正在讀取場館目錄…','会場一覧を読み込んでいます…','공연장 목록을 불러오는 중…'],
+  ['正在准备场馆目录…','Preparing the venue directory…','正在準備場館目錄…','会場一覧を準備しています…','공연장 목록을 준비하는 중…'],
+  ['场馆目录已准备好','Venue directory ready','場館目錄已準備好','会場一覧の準備ができました','공연장 목록을 준비했습니다'],
+  ['场馆目录暂时无法载入，请重试。','The venue directory is unavailable. Try again.','場館目錄暫時無法載入，請重試。','会場一覧を読み込めません。もう一度お試しください。','공연장 목록을 불러올 수 없습니다. 다시 시도해 주세요.'],
+  ['正在加载场馆和座位布局…','Loading the venue and seating layout…','正在載入場館與座位配置…','会場と座席レイアウトを読み込んでいます…','공연장과 좌석 배치를 불러오는 중…'],
+  ['场馆已准备好','Venue ready','場館已準備好','会場の準備ができました','공연장을 준비했습니다'],
+  ['场馆暂时无法载入，请重试。','This venue is unavailable. Try again.','場館暫時無法載入，請重試。','会場を読み込めません。もう一度お試しください。','공연장을 불러올 수 없습니다. 다시 시도해 주세요.'],
+  ['此场馆需要 Pro 才能加载。','This venue requires Pro to load.','此場館需要 Pro 才能載入。','この会場の読み込みには Pro が必要です。','이 공연장을 불러오려면 Pro가 필요합니다.'],
+  ['正在查找座位…','Finding your seat…','正在尋找座位…','座席を探しています…','좌석을 찾는 중…'],
+  ['正在核对来源记录…','Checking source records…','正在核對來源紀錄…','出典データを確認しています…','출처 기록을 확인하는 중…'],
+  ['正在核对你的票面位置…','Checking the location on your ticket…','正在核對你的票面位置…','チケットの座席情報を確認しています…','티켓 좌석 정보를 확인하는 중…'],
+  ['Seat found. Review the view below.','Seat found. Review the view below.','已找到座位，请查看下方视角。','座席が見つかりました。下のビューをご確認ください。','좌석을 찾았습니다. 아래 시야를 확인해 보세요.'],
+  ['We could not verify that exact seat. Review the section preview below.','We could not verify that exact seat. Review the section preview below.','暂时无法核实这个座位，请查看下方分区预览。','その座席は確認できませんでした。下のエリア表示をご確認ください。','해당 좌석을 확인하지 못했습니다. 아래 구역 미리보기를 확인해 주세요.'],
+  ['座位暂时无法核对，请重试。','We could not check the seat. Try again.','座位暫時無法核對，請重試。','座席を確認できません。もう一度お試しください。','좌석을 확인할 수 없습니다. 다시 시도해 주세요.'],
+  ['正在读取演出信息…','Loading event information…','正在讀取演出資訊…','公演情報を読み込んでいます…','공연 정보를 불러오는 중…'],
+  ['演出列表暂时不可用，请重试。','Event information is unavailable. Try again.','演出列表暫時無法使用，請重試。','公演情報を読み込めません。もう一度お試しください。','공연 목록을 불러올 수 없습니다. 다시 시도해 주세요.'],
+  ['正在加载 3D 场景…','Loading the 3D scene…','正在載入 3D 場景…','3D シーンを読み込んでいます…','3D 장면을 불러오는 중…'],
+  ['正在保存…','Saving…','正在儲存…','保存しています…','저장하는 중…'],
+  ['已保存。可在账号页查看收藏。','Saved. You can find it in your account.','已儲存。可在帳號頁查看收藏。','保存しました。アカウントで確認できます。','저장했습니다. 계정에서 확인할 수 있습니다.'],
+  ['登录后即可保存这个座位。','Sign in to save this seat.','登入後即可儲存此座位。','ログインするとこの座席を保存できます。','로그인하면 이 좌석을 저장할 수 있습니다.'],
+  ['请输入场馆、区号、排和座号','Choose a venue and enter the section, row, and seat.','請選擇場館並輸入區號、排和號碼。','会場を選び、エリア・列・番号を入力してください。','공연장을 선택하고 구역·열·좌석 번호를 입력하세요.'],
+  ['Find my seat','Find my seat','尋找我的座位','座席を探す','내 좌석 찾기'],
 ];
 const columns={en:1,'zh-CN':0,'zh-TW':2,ja:3,ko:4};
 const messages=new Map(interfaceRows.map(row=>[row[0],row]));
