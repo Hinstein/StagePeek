@@ -24,6 +24,8 @@ test('selected homepage is the public entry and existing ticket links still open
   assert.equal(response.headers.get('X-Robots-Tag'),null);
   assert.match(home,/Before the show/);
   assert.match(home,/data-live-preview/);
+  assert.match(home,/aria-label="Interactive Kai Tak stand model/);
+  assert.doesNotMatch(home,/aria-label="[^"]*[\p{Script=Han}][^"]*"/u);
   assert.doesNotMatch(home,/birds-nest|鸟巢/);
   const demo=home.match(/href="(\/explore\?[^"]+)"[^>]*data-tool-entry/);
   assert.ok(demo,'free homepage example');
