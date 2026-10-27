@@ -25,7 +25,8 @@ function localizeShell(){
  const menu=$('locale-switcher').querySelector('[role="menu"]');
  const queryZoom=Number(new URLSearchParams(location.search).get('zoom'));
  menu.replaceChildren(...SUPPORTED_LOCALES.map(item=>{const a=document.createElement('a');a.href=localizedPath(item,parseLocalizedPath(location.pathname).path)+location.search;a.textContent=translations(locale)[`language.${item}`];a.dataset.locale=item;a.setAttribute('role','menuitem');a.onclick=event=>{event.preventDefault();setLocaleUrl(item,{venue:state.venueId,event:state.event?.id,layout:state.layout,section:$('section').value,row:$('row').value,seat:$('seat').value,mode:state.mode,zoom:queryZoom||state.zoom});};if(item===locale)a.setAttribute('aria-current','true');return a;}));
- const button=$('locale-switcher').querySelector('button');button.setAttribute('aria-label',text('language.label'));button.querySelector('span').textContent=text('language.current');
+ const button=$('locale-switcher').querySelector('button');button.setAttribute('aria-label',text('language.label'));button.querySelector('.language-current').textContent=text('language.current');
+ const loginDescription=document.querySelector('#login-dialog .muted');if(loginDescription)loginDescription.textContent=copy("用邮箱验证码登录，首次验证会自动完成账号设置。");
  document.querySelector('header nav>a').href=route('/venues/');
  document.querySelector('header nav>a').textContent=text('nav.venues');
  document.querySelector('.brand').href=route('/');
@@ -168,8 +169,8 @@ function render(){
 async function refreshAccount(){
   state.me=await api('/api/me');const {user,access,providers}=state.me;
   window.stagepeekSignedIn=!!user;
-  $('account-button').textContent=user?copy("我的账号"):copy("登录 / 注册");$('plan-label').textContent={guest:copy("免费体验"),free:copy("免费账号"),pro:copy("Pro 月订阅")}[access.plan];
-  $('plan-button').textContent=access.plan==='pro'?copy("Pro · 管理订阅"):copy("月订阅");$('account-email').textContent=user?.email||'';
+  $('account-button').textContent=user?copy("我的账号"):copy("登录");$('plan-label').textContent={guest:copy("免费体验"),free:copy("免费账号"),pro:copy("Pro 月订阅")}[access.plan];
+  $('account-email').textContent=user?.email||'';
   $('account-plan').textContent=access.plan==='pro'?(state.me.subscription?.cancel_at_period_end?copy("已取消续订，当前周期结束前仍可使用。"):copy("Pro 月订阅生效中。")):copy("免费账号 · 可保存 8 个位置");
   const freeCount=access.freeVenueIds?.length||10;$('free-venue-summary').innerHTML=copy("精选 {0} 个场馆<br>2D / 3D 分区与采样位置<br>注册后可保存 8 个位置", [freeCount]);
   $('google-login').hidden=!providers.google;$('google-login').disabled=!providers.google;$('google-login').textContent=providers.localGoogle?copy("本地模拟 Google 登录"):copy("使用 Google 登录");$('connect-google').hidden=!providers.google||!!user?.googleConnected;
@@ -313,7 +314,7 @@ document.addEventListener('keydown',e=>{if(e.key==='Escape'&&$('viewer').classLi
  svg.addEventListener('keydown',e=>{if(!state.mapTransform||e.target!==svg)return;const actions={'+':t=>zoomMap(t,1.25),'=':t=>zoomMap(t,1.25),'-':t=>zoomMap(t,.8),'0':resetMap};if(actions[e.key]){e.preventDefault();state.mapTransform=actions[e.key](state.mapTransform);updateMapViewport();}});
 }
 localizeShell();
-$('account-button').onclick=()=>open(state.me?.user?'account-dialog':'login-dialog');$('plan-button').onclick=()=>open('plan-dialog');$('saved-button').onclick=saved;
+$('account-button').onclick=()=>state.me?.user?location.assign(route('/account')):open('login-dialog');
 $('manage-plan').onclick=()=>open('plan-dialog');
 let resendUntil=0,resendTimer=null;
 function updateResend(){const remaining=Math.ceil((resendUntil-Date.now())/1000);$('email-submit').disabled=!state.me?.providers.email||remaining>0;$('email-submit').textContent=remaining>0?copy("{0} 秒后可重发", [remaining]):state.me?.providers.emailOtp?($('otp-field').hidden?copy("发送验证码"):copy("重新发送验证码")):copy("发送本地测试链接");if(remaining<=0)clearInterval(resendTimer);}

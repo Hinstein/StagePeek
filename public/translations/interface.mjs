@@ -1051,11 +1051,11 @@ export const interfaceRows=[
     "전송 중…"
   ],
   [
-    "验证码已发送，请在此处输入。首次验证将创建账号。",
-    "Code sent. Enter it here. Your first verification creates an account.",
-    "驗證碼已寄出，請在此輸入。首次驗證後將建立帳號。",
-    "コードを送信しました。ここに入力してください。初回の認証でアカウントを作成します。",
-    "코드를 보냈습니다. 여기에 입력해 주세요. 첫 인증 시 계정이 생성됩니다."
+    "验证码已发送，请在此处输入。首次验证会完成账号设置。",
+    "Code sent. Enter it here. First verification completes your account setup.",
+    "驗證碼已寄出，請在此輸入。首次驗證會完成帳號設定。",
+    "コードを送信しました。ここに入力してください。初回認証でアカウント設定が完了します。",
+    "코드를 보냈습니다. 여기에 입력해 주세요. 첫 인증으로 계정 설정이 완료됩니다."
   ],
   [
     "本地测试链接已写入测试收件箱。",
@@ -2465,11 +2465,11 @@ export const interfaceRows=[
     "기대되는 시야를 저장하세요."
   ],
   [
-    "用邮箱验证码注册或登录，首次验证后创建账号。",
-    "Sign in with an email code. Your first verification creates an account.",
-    "以信箱驗證碼登入，首次驗證後建立帳號。",
-    "メールのコードでログイン。初回認証でアカウントを作成します。",
-    "이메일 코드로 로그인하세요. 첫 인증 시 계정이 생성됩니다."
+    "用邮箱验证码登录，首次验证会自动完成账号设置。",
+    "Sign in with an email code. First verification completes your account setup.",
+    "以信箱驗證碼登入，首次驗證會完成帳號設定。",
+    "メールのコードでログイン。初回認証でアカウント設定が完了します。",
+    "이메일 코드로 로그인하세요. 첫 인증으로 계정 설정이 완료됩니다."
   ],
   [
     "换一个邮箱",
