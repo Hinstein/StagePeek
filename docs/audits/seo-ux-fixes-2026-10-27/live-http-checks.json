@@ -1,0 +1,155 @@
+{
+  "checkedAt": "2026-10-27T03:26:53.814790+00:00",
+  "routes": [
+    {
+      "path": "/",
+      "status": "HTTP/2 200 ",
+      "robots": null,
+      "canonical": [
+        "https://stagepeek.live/"
+      ],
+      "analytics": true,
+      "sitemapCount": null
+    },
+    {
+      "path": "/venues/",
+      "status": "HTTP/2 200 ",
+      "robots": null,
+      "canonical": [
+        "https://stagepeek.live/venues/"
+      ],
+      "analytics": true,
+      "sitemapCount": null
+    },
+    {
+      "path": "/venues/kai-tak-stadium",
+      "status": "HTTP/2 200 ",
+      "robots": null,
+      "canonical": [
+        "https://stagepeek.live/venues/kai-tak-stadium"
+      ],
+      "analytics": true,
+      "sitemapCount": null
+    },
+    {
+      "path": "/venues/hong-kong-coliseum",
+      "status": "HTTP/2 200 ",
+      "robots": null,
+      "canonical": [
+        "https://stagepeek.live/venues/hong-kong-coliseum"
+      ],
+      "analytics": true,
+      "sitemapCount": null
+    },
+    {
+      "path": "/venues/taipei-arena",
+      "status": "HTTP/2 200 ",
+      "robots": null,
+      "canonical": [
+        "https://stagepeek.live/venues/taipei-arena"
+      ],
+      "analytics": true,
+      "sitemapCount": null
+    },
+    {
+      "path": "/about",
+      "status": "HTTP/2 200 ",
+      "robots": null,
+      "canonical": [
+        "https://stagepeek.live/about"
+      ],
+      "analytics": true,
+      "sitemapCount": null
+    },
+    {
+      "path": "/methodology",
+      "status": "HTTP/2 200 ",
+      "robots": null,
+      "canonical": [
+        "https://stagepeek.live/methodology"
+      ],
+      "analytics": true,
+      "sitemapCount": null
+    },
+    {
+      "path": "/plans",
+      "status": "HTTP/2 200 ",
+      "robots": null,
+      "canonical": [
+        "https://stagepeek.live/plans"
+      ],
+      "analytics": true,
+      "sitemapCount": null
+    },
+    {
+      "path": "/contact",
+      "status": "HTTP/2 200 ",
+      "robots": null,
+      "canonical": [
+        "https://stagepeek.live/contact"
+      ],
+      "analytics": true,
+      "sitemapCount": null
+    },
+    {
+      "path": "/explore",
+      "status": "HTTP/2 200 ",
+      "robots": "noindex, nofollow",
+      "canonical": [
+        "https://stagepeek.live/"
+      ],
+      "analytics": true,
+      "sitemapCount": null
+    },
+    {
+      "path": "/explore?venue=kai-tak-stadium&layout=bowl&section=101&row=A&seat=78",
+      "status": "HTTP/2 200 ",
+      "robots": "noindex, nofollow",
+      "canonical": [
+        "https://stagepeek.live/"
+      ],
+      "analytics": false,
+      "sitemapCount": null
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": "HTTP/2 200 ",
+      "robots": "noindex, nofollow",
+      "canonical": [],
+      "analytics": false,
+      "sitemapCount": 9
+    },
+    {
+      "path": "/home-assets/audience.svg",
+      "status": "HTTP/2 200 ",
+      "robots": null,
+      "canonical": [],
+      "analytics": false,
+      "sitemapCount": null
+    },
+    {
+      "path": "/home-assets/arena-3d.svg",
+      "status": "HTTP/2 200 ",
+      "robots": null,
+      "canonical": [],
+      "analytics": false,
+      "sitemapCount": null
+    },
+    {
+      "path": "/api/venues/kai-tak-stadium",
+      "status": "HTTP/2 200 ",
+      "robots": "noindex, nofollow",
+      "canonical": [],
+      "analytics": false,
+      "sitemapCount": null
+    },
+    {
+      "path": "/api/venues/birds-nest",
+      "status": "HTTP/2 403 ",
+      "robots": "noindex, nofollow",
+      "canonical": [],
+      "analytics": false,
+      "sitemapCount": null
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "checkedAt": "2026-10-27T03:29:06.595Z",
+  "site": "stagepeek.live",
+  "page": "Umami Events",
+  "events": [
+    {
+      "name": "tool_open",
+      "visible": true
+    },
+    {
+      "name": "seat_located",
+      "visible": true
+    },
+    {
+      "name": "view_3d",
+      "visible": true
+    }
+  ],
+  "publicPaths": [
+    {
+      "path": "/",
+      "visible": true
+    },
+    {
+      "path": "/explore",
+      "visible": true
+    }
+  ],
+  "note": "Controlled anonymous UI verification; counts are test traffic, not organic growth or individual attribution."
+}
