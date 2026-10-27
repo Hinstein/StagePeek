@@ -1,5 +1,7 @@
 # StagePeek 部署与权限记录
 
+> 最新发布（2026-10-27）：A + E 正式首页已上线，代码 `34c5c8da53abc66491cdabc8e0bde2597366dee2`，原 Coolify 应用 / VPS3，running:healthy；公网 44/44。详见 [首页发布记录](homepage-release-2026-10-27.md)。下方旧版本表为历史快照。
+
 > 当前身份方案：2026-10-26 已上线共享 Supabase Auth 邮箱验证码（生产 SHA `8eb7c62`）。原应用、PostgreSQL 和 10 个免费场馆保持；真实收信/OTP 端到端验收待完成。以 [统一 Auth 上线记录](shared-auth-rollout.md) 为准，下方旧身份/邮件状态为历史快照。
 
 核验日期：2026-10-25。正式品牌 **StagePeek**，域名 https://stagepeek.live，仓库 https://github.com/Hinstein/StagePeek。

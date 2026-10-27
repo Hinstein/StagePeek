@@ -23,3 +23,13 @@
 通过 VPS2 既有管理连接操作原 Coolify 应用，以完整 SHA 发布；先将应用、环境和卷配置备份到服务器私有目录。回滚恢复上述生产 SHA，保留当前共享账号、业务数据和卷，不恢复旧数据库快照。
 
 正式 HTTPS 首页、静态资源、工具深链、认证回调、健康和权限须在发布后再次验证，部署结果另行补录。
+
+## 线上发布结果
+
+- 北京时间 2026-10-27 10:11:32，deployment `f6cac22a-e624-499d-bb3f-9eaa8e0a9d94` 已 finished，原应用 running:healthy。
+- 完整生产 SHA：`34c5c8da53abc66491cdabc8e0bde2597366dee2`。
+- 私有配置快照：VPS2 Coolify 容器 `/var/www/html/storage/app/backups/platform-stagepeek/before-homepage-20261027020911.json`，0600，包含回滚所需应用、环境及卷配置，不进入仓库。
+- 正式 HTTPS 公网验收 **44/44** 通过：选定主页、正式资源、旧票号与面板链接、认证页面 noindex、共享认证与现有 provider 状态、10 免费场馆、后台/收藏 401 和付费场馆 403、只读鸟巢预览、sitemap。
+- 线上浏览器：1280px / 390px 无横向溢出；鸟巢已实际渲染、键盘选择分区与 5× 倍率可用；免费体验进入 `/explore`，工具品牌链接返回主页；无 warn/error。窄屏 320px 在发布副本另行验证通过。
+- [公网验收明细](../audits/homepage-2026-10-27/public-acceptance.json)、[桌面截图](../audits/homepage-2026-10-27/home-desktop.png)、[手机截图](../audits/homepage-2026-10-27/home-mobile.png)。
+- 本次没有真实发信、注册、密码变更、OAuth 授权或付款操作；既有这些流程的业务验收状态不因本次页面发布改变。

@@ -1,0 +1,187 @@
+{
+  "checkedAt": "2026-10-27T02:13:08.293815+00:00",
+  "release": "34c5c8da53abc66491cdabc8e0bde2597366dee2",
+  "sendsEmail": false,
+  "createsUsers": false,
+  "payments": false,
+  "passed": 44,
+  "total": 44,
+  "checks": [
+    {
+      "name": "HTTP /",
+      "ok": true
+    },
+    {
+      "name": "HTTP /explore",
+      "ok": true
+    },
+    {
+      "name": "HTTP /?venue=metlife&section=103WC&row=46&seat=27",
+      "ok": true
+    },
+    {
+      "name": "HTTP /?panel=plans",
+      "ok": true
+    },
+    {
+      "name": "HTTP /?utm_source=homepage-smoke",
+      "ok": true
+    },
+    {
+      "name": "HTTP /auth/login",
+      "ok": true
+    },
+    {
+      "name": "HTTP /auth/register",
+      "ok": true
+    },
+    {
+      "name": "HTTP /auth/callback",
+      "ok": true
+    },
+    {
+      "name": "HTTP /auth/reset",
+      "ok": true
+    },
+    {
+      "name": "HTTP /account",
+      "ok": true
+    },
+    {
+      "name": "HTTP /venues/",
+      "ok": true
+    },
+    {
+      "name": "HTTP /venues/taipei-arena",
+      "ok": true
+    },
+    {
+      "name": "HTTP /healthz",
+      "ok": true
+    },
+    {
+      "name": "HTTP /api/me",
+      "ok": true
+    },
+    {
+      "name": "HTTP /api/venues",
+      "ok": true
+    },
+    {
+      "name": "HTTP /api/demo/birds-nest",
+      "ok": true
+    },
+    {
+      "name": "HTTP /api/positions",
+      "ok": true
+    },
+    {
+      "name": "HTTP /api/admin/access",
+      "ok": true
+    },
+    {
+      "name": "HTTP /home.css",
+      "ok": true
+    },
+    {
+      "name": "HTTP /home.mjs",
+      "ok": true
+    },
+    {
+      "name": "HTTP /home-venue-preview.mjs",
+      "ok": true
+    },
+    {
+      "name": "HTTP /home-assets/audience.svg",
+      "ok": true
+    },
+    {
+      "name": "HTTP /home-assets/arena-3d.svg",
+      "ok": true
+    },
+    {
+      "name": "HTTP /sitemap.xml",
+      "ok": true
+    },
+    {
+      "name": "HTTP /mockups/home-prototype.html?variant=A",
+      "ok": true
+    },
+    {
+      "name": "selected A+E homepage",
+      "ok": true
+    },
+    {
+      "name": "canonical homepage is indexable",
+      "ok": true
+    },
+    {
+      "name": "production actions",
+      "ok": true
+    },
+    {
+      "name": "tool compatibility /explore",
+      "ok": true
+    },
+    {
+      "name": "tool compatibility /?venue=metlife&section=103WC&row=46&seat=27",
+      "ok": true
+    },
+    {
+      "name": "tool compatibility /?panel=plans",
+      "ok": true
+    },
+    {
+      "name": "marketing parameter retains homepage",
+      "ok": true
+    },
+    {
+      "name": "auth remains noindex /auth/login",
+      "ok": true
+    },
+    {
+      "name": "auth remains noindex /auth/register",
+      "ok": true
+    },
+    {
+      "name": "auth remains noindex /auth/callback",
+      "ok": true
+    },
+    {
+      "name": "auth remains noindex /auth/reset",
+      "ok": true
+    },
+    {
+      "name": "auth remains noindex /account",
+      "ok": true
+    },
+    {
+      "name": "shared auth and ten free venues",
+      "ok": true
+    },
+    {
+      "name": "existing providers remain enabled",
+      "ok": true
+    },
+    {
+      "name": "development providers remain disabled",
+      "ok": true
+    },
+    {
+      "name": "free venue remains accessible",
+      "ok": true
+    },
+    {
+      "name": "paid venue remains gated",
+      "ok": true
+    },
+    {
+      "name": "read-only birds nest preview",
+      "ok": true
+    },
+    {
+      "name": "sitemap keeps canonical homepage",
+      "ok": true
+    }
+  ]
+}
