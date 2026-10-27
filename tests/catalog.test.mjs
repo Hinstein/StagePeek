@@ -16,6 +16,8 @@ test('venue catalog groups by country while preserving regional labels',()=>{
 
 test('venue catalog exposes stable region buckets for directory filters',()=>{
   assert.equal(venueRegion({city:'中国香港 · 香港'}),'asia');
+  assert.equal(venueRegion({city:'菲律宾 · 马尼拉'}),'asia');
+  assert.equal(venueRegion({city:'越南 · 河内'}),'asia');
   assert.equal(venueRegion({city:'纽约都市圈 · East Rutherford'}),'north-america');
   const groups=groupVenuesByRegion([
     {id:'hk',name:'Kai Tak',city:'中国香港 · 香港'},

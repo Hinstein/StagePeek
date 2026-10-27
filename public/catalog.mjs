@@ -6,7 +6,7 @@ const PREFIX_COUNTRIES=new Map([
 
 const COUNTRY_REGIONS=new Map([
   ['中国大陆','asia'],['中国香港','asia'],['中国澳门','asia'],['中国台湾','asia'],
-  ['日本','asia'],['韩国','asia'],['泰国','asia'],['马来西亚','asia'],['印度尼西亚','asia'],['新加坡','asia'],
+  ['日本','asia'],['韩国','asia'],['泰国','asia'],['马来西亚','asia'],['印度尼西亚','asia'],['菲律宾','asia'],['越南','asia'],['新加坡','asia'],
   ['荷兰','europe'],['英国','europe'],['德国','europe'],['法国','europe'],['意大利','europe'],['西班牙','europe'],
   ['美国','north-america'],['加拿大','north-america'],['墨西哥','north-america'],
   ['澳大利亚','oceania'],['新西兰','oceania']
