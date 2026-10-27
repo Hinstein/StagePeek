@@ -30,7 +30,7 @@ test('tracker respects privacy controls and sends only the fixed public page pay
 });
 
 test('anonymous public guide analytics uses only approved page paths',()=>{
-  for(const path of ['/venues/','/venues/taipei-arena','/methodology','/plans','/contact'])assert.match(analyticsMarkup(config,{path,search:'',user:null}),/src="\/analytics.mjs"/);
+  for(const path of ['/explore','/venues/','/venues/taipei-arena','/methodology','/plans','/contact'])assert.match(analyticsMarkup(config,{path,search:'',user:null}),/src="\/analytics.mjs"/);
   for(const path of ['/venues/not-reviewed','/privacy','/terms','/api/venues','/venues/taipei-arena/'])assert.equal(analyticsMarkup(config,{path,search:'',user:null}),'');
 });
 

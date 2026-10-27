@@ -93,3 +93,5 @@ body.theme-arena{--paper:#080d12;--ink:#f3f7f1;--muted:#9aa9a9;--green:#c9ff51;-
 @media(max-width:800px){.product-guide{padding:24px 20px}.guide-steps{grid-template-columns:1fr;gap:8px}.intro .eyebrow{line-height:1.7;letter-spacing:1px}}
 
 .public-links{display:flex;flex-wrap:wrap;gap:12px 24px;margin-top:20px;font-size:13px}.venue-entry ul{display:flex;flex-wrap:wrap;gap:12px 32px;padding-left:20px}.header nav{flex-wrap:wrap}.public-links a{padding:4px 0}
+
+.venue-entry .home-guide-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin:24px 0}.home-guide-grid>a{display:block;padding:20px;border:1px solid #34414c;border-radius:12px;background:#16212b;text-decoration:none}.home-guide-grid span{font-size:11px;color:#bda3ec}.home-guide-grid h3{font-size:18px;margin:12px 0}.home-guide-grid p{font-size:13px}.home-guide-grid b{display:block;margin-top:18px;font-size:12px;color:#c9ff51}@media(max-width:800px){.venue-entry .home-guide-grid{grid-template-columns:1fr}}

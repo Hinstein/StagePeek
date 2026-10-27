@@ -1,29 +1,30 @@
-// Uses the product renderer and a fixed, read-only public venue preview.
+// Reuse the product renderer and the existing free Kai Tak venue API.
 // No fake seat match, subscription change, or event stage is introduced here.
-export async function mountBirdsNestPreview(root){
+export async function mountKaiTakPreview(root){
  const canvas=root.querySelector('canvas'),status=root.querySelector('[data-live-status]'),near=root.querySelector('[data-live-near]'),label=root.querySelector('[data-live-section]');
  let viewer=null,venue=null,selected='',visible=true,intersecting=false,started=false,disposed=false;
  const setMode=()=>viewer?.setMode(visible&&intersecting?'3d':'paused');
  const choose=id=>{
    if(!venue?.sections.some(section=>section.id===id))return;
-   selected=id;label.textContent=`看台 ${id} · 示意分区`;near.disabled=false;
+   selected=id;label.textContent=`看台 ${id} · 固定看台`;near.disabled=false;
    viewer.setData(venue,selected,null,'none',false);viewer.near();
  };
  async function start(){
    if(started||disposed)return;started=true;
    try{
-     const [module,response]=await Promise.all([import('./viewer.mjs'),fetch('/api/demo/birds-nest',{credentials:'omit'})]);
+     const [module,seating,response]=await Promise.all([import('./viewer.mjs'),import('./seating.mjs'),fetch('/api/venues/kai-tak-stadium',{credentials:'omit'})]);
      if(!response.ok)throw new Error('Preview unavailable');
      ({venue}=await response.json());if(disposed)return;
+     if(venue.seatTuples){venue.sourceSeats=seating.unpackSourceSeats(venue.seatTuples);delete venue.seatTuples;}
      // The existing renderer picks its palette from the page theme.
      document.body.classList.add('theme-arena');
-     viewer=module.createViewer(canvas,{onSection:choose,onSample:()=>{},onSeat:seat=>choose(seat.section),onFailure:()=>{status.hidden=false;status.textContent='3D 画面暂时不可用，请刷新或打开完整场馆。';}});
-     viewer.setData(venue,'',null,'none',false);canvas.dataset.venueId=venue.id;status.hidden=true;setMode();
-   }catch{status.hidden=false;status.textContent='暂时无法加载 3D，请刷新或打开完整场馆。';}
+     viewer=module.createViewer(canvas,{onSection:choose,onSample:()=>{},onSeat:seat=>choose(seat.section),onFailure:()=>{canvas.hidden=true;root.querySelector('.live-fallback').hidden=false;status.hidden=false;status.textContent='3D 暂不可用，当前为布局阅读示意。可继续免费体验启德。';}});
+     canvas.hidden=false;viewer.setData(venue,'',null,'none',false);canvas.dataset.venueId=venue.id;root.querySelector('.live-fallback').hidden=true;status.hidden=true;setMode();
+   }catch{canvas.hidden=true;root.querySelector('.live-fallback').hidden=false;status.hidden=false;status.textContent='3D 暂不可用，当前为布局阅读示意。可继续免费体验启德。';}
  }
  const observer=new IntersectionObserver(entries=>{intersecting=entries[0].isIntersecting;if(intersecting&&visible)void start();setMode();},{rootMargin:'120px'});
- observer.observe(canvas);
- root.querySelector('[data-live-reset]').addEventListener('click',()=>{if(!viewer)return;selected='';label.textContent='鸟巢 · 看台总览';near.disabled=true;viewer.setData(venue,'',null,'none',false);viewer.overview(true);});
+ observer.observe(root);
+ root.querySelector('[data-live-reset]').addEventListener('click',()=>{if(!viewer)return;selected='';label.textContent='启德 · 看台总览';near.disabled=true;viewer.setData(venue,'',null,'none',false);viewer.overview(true);});
  near.addEventListener('click',()=>viewer?.near());
  // Keyboard users can inspect the same model without a pointer.
  canvas.addEventListener('keydown',event=>{

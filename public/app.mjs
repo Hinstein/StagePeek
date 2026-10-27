@@ -213,11 +213,11 @@ function chooseEstimatedSeat(record){
   state.sectionId=section.id;state.mapTier=section.tier;state.result={status:'estimated',section:ticketSection,row:record.row,seat:record.seat,sectionId:section.id,position:record.p,positionStatus:'estimated-seat-grid'};
   render();viewer?.seatView();
 }
-async function chooseSample(sample){$('section').value=sample.section;$('row').value=sample.row;$('seat').value=sample.seat;await locate();}
-async function locate(){const version=++resolveVersion,id=state.venueId,requestedVenue=state.venue;$('locate').disabled=true;
+async function chooseSample(sample){$('section').value=sample.section;$('row').value=sample.row;$('seat').value=sample.seat;await locate({intentional:true});}
+async function locate({intentional=false}={}){const version=++resolveVersion,id=state.venueId,requestedVenue=state.venue;$('locate').disabled=true;
   try{const found=await api(`/api/venues/${id}/resolve`,{method:'POST',body:{layout:state.venue?.seatLayout?.id,section:$('section').value,row:$('row').value,seat:$('seat').value}});
     if(version!==resolveVersion||id!==state.venueId||state.venue!==requestedVenue)return;state.result=found;if(found.sectionId){state.sectionId=found.sectionId;state.mapTier=state.venue.sections.find(s=>s.id===found.sectionId)?.tier;}render();
-    if(found.status==='matched'&&Array.isArray(found.position)){viewer?.seatView();window.stagepeekTrack?.('seat_located');}
+    if(found.status==='matched'&&Array.isArray(found.position)){viewer?.seatView();if(intentional)window.stagepeekTrack?.('seat_located');}
     else{viewer?.near();toast(found.status==='matched'?'票号存在，但缺少座位坐标；当前仅显示分区。':found.status==='ambiguous'?'来源含重复票号，未自动选择任何座位。':found.status==='unknown-section'?'尚未找到这个分区。':'这组排座尚无公开坐标，先显示分区预览。');}
   }catch(error){toast(message(error));}finally{if(version===resolveVersion)$('locate').disabled=false;}}
 async function loadEvents(id,version){$('events-list').replaceChildren(element('p','正在读取官方演出信息…','muted'));
@@ -255,9 +255,9 @@ async function saved(){if(!state.me?.user){open('login-dialog');return;}open('sa
 
 for(const button of document.querySelectorAll('[data-close]'))button.onclick=()=>button.closest('dialog').close();
 for(const dialog of document.querySelectorAll('dialog'))dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close();}});
-$('ticket-form').onsubmit=e=>{e.preventDefault();locate();};$('venue').onchange=()=>{const venue=state.catalog.find(x=>x.id===$('venue').value);if(venue?.locked){$('venue').value=state.venueId;open('plan-dialog');}else loadVenue($('venue').value);};
+$('ticket-form').onsubmit=e=>{e.preventDefault();locate({intentional:true});};$('venue').onchange=()=>{const venue=state.catalog.find(x=>x.id===$('venue').value);if(venue?.locked){$('venue').value=state.venueId;open('plan-dialog');}else loadVenue($('venue').value);};
  $('stage-layout').onchange=()=>{if(state.event){renderStageOptions();return;}const value=$('stage-layout').value;if(value==='event'&&state.event?.layout?.model){state.layout='event';}else if(state.venue?.seatLayouts)loadVenue(state.venueId,value);else{state.layout=value;state.venue={...state.venue,eventLayout:null};renderEventLayout();render();}};
-for(const mode of ['2d','3d'])$('mode-'+mode).onclick=async()=>{state.mode=mode;render();if(mode==='3d')await ensureViewer();render();viewer?.setMode(state.mode);};
+for(const mode of ['2d','3d'])$('mode-'+mode).onclick=async()=>{state.mode=mode;render();if(mode==='3d'){await ensureViewer();if(state.mode==='3d')window.stagepeekTrack?.('view_3d');}render();viewer?.setMode(state.mode);};
 $('overview').onclick=()=>viewer?.overview();$('reset').onclick=()=>viewer?.overview(true);$('near').onclick=()=>viewer?.near();$('seat-view').onclick=()=>viewer?.seatView();
 for(const [id,action]of [['map-zoom-out',t=>zoomMap(t,.8)],['map-zoom-in',t=>zoomMap(t,1.25)],['map-rotate',t=>rotateMap(t,90)],['map-reset',resetMap]])$(id).onclick=()=>{if(!state.mapTransform)return;state.mapTransform=action(state.mapTransform);updateMapViewport();};
 for(const button of document.querySelectorAll('[data-zoom]'))button.onclick=()=>{state.zoom=Number(button.dataset.zoom);viewer?.setZoom(state.zoom);for(const other of document.querySelectorAll('[data-zoom]'))other.classList.toggle('active',other===button);};
@@ -340,7 +340,7 @@ async function ensureViewer(){
     try{
       const {createViewer}=await import('./viewer.mjs');
       viewer=createViewer($('scene'),{onSection:chooseSection,onSample:chooseSample,onSeat:chooseEstimatedSeat,onMode:(mode,detail)=>{viewerCameraMode=mode;updateGestureHint();renderViewControls();if(detail?.zoom){state.zoom=detail.zoom;for(const button of document.querySelectorAll('[data-zoom]'))button.classList.toggle('active',Math.abs(Number(button.dataset.zoom)-detail.zoom)<.01);}},onFailure:text=>{state.mode='2d';$('mode-3d').disabled=true;toast(text+' · 已切换到二维地图。');render();viewer?.setMode('2d');}});
-      $('mode-3d').disabled=false;render();viewer.setMode(state.mode);viewer.setZoom(state.zoom);window.stagepeekTrack?.('view_3d');
+      $('mode-3d').disabled=false;render();viewer.setMode(state.mode);viewer.setZoom(state.zoom);
     }catch{state.mode='2d';$('mode-3d').disabled=true;render();toast('此设备暂不能显示三维场景，已切换到二维地图。');}
     finally{$('mode-3d').textContent='3D 视角';}
   })();

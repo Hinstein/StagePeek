@@ -13,15 +13,15 @@ const deferred=()=>{let resolve;const promise=new Promise(done=>resolve=done);re
 // This checks request ordering and ticket identity, not browser events or WebGL.
 function harness(id='asiaworld-viva',layout='end'){
  const state={venueId:id,venue:venues.get(id,layout),layout,sectionId:'',result:null};
- const nodes=new Map(),requests=[],camera=[];
+ const nodes=new Map(),requests=[],camera=[],tracked=[];
  const $=id=>{if(!nodes.has(id))nodes.set(id,{value:'',disabled:false,replaceChildren(){},append(){}});return nodes.get(id);};
  const api=(path,options)=>{const pending=deferred();requests.push({path,body:options?.body,...pending});return pending.promise;};
  const viewer={near:()=>camera.push('near'),seatView:()=>camera.push('seat')};
- const create=new Function('state','$','api','viewer','render','toast','message','open','element','loadEvents','unpackSourceSeats',
+ const create=new Function('state','$','api','viewer','render','toast','message','open','element','loadEvents','unpackSourceSeats','window',
   `let loadVersion=0,resolveVersion=0;${selectionSource};return {loadVenue,locate,chooseSection,chooseEstimatedSeat,applyRequestedSection,applyRequestedLayout};`);
- const actions=create(state,$,api,viewer,()=>{},()=>{},String,()=>{},()=>({}),async()=>{},unpackSourceSeats);
+ const actions=create(state,$,api,viewer,()=>{},()=>{},String,()=>{},()=>({}),async()=>{},unpackSourceSeats,{stagepeekTrack:name=>tracked.push(name)});
  actions.chooseSection(state.venue.sections[0].id,false);
- return {state,$,requests,camera,...actions};
+ return {state,$,requests,camera,tracked,...actions};
 }
 function ticket(h,section,row,seat){h.$('section').value=section;h.$('row').value=row;h.$('seat').value=seat;}
 function resolveRequest(request,id){return venues.resolve(id,request.body);}
@@ -108,4 +108,16 @@ test('a locked initial venue reports its requested identity and never claims ano
  assert.equal(await loading,false);assert.equal(h.state.venue,null);
  assert.equal(h.$('venue-name').textContent,'台北小巨蛋');
  assert.match(h.$('location-status').textContent,/订阅/);
+});
+
+test('automatic example matches do not count as intentional seat location',async()=>{
+ const h=harness('kai-tak-stadium','bowl');
+ ticket(h,'101','A','78');
+ const automatic=h.locate();h.requests[0].resolve(resolveRequest(h.requests[0],'kai-tak-stadium'));await automatic;
+ assert.equal(h.state.result.status,'matched');assert.deepEqual(h.tracked,[]);
+ const manual=h.locate({intentional:true});h.requests[1].resolve(resolveRequest(h.requests[1],'kai-tak-stadium'));await manual;
+ assert.deepEqual(h.tracked,['seat_located']);
+ ticket(h,'101','unknown','unknown');
+ const unmatched=h.locate({intentional:true});h.requests[2].resolve(resolveRequest(h.requests[2],'kai-tak-stadium'));await unmatched;
+ assert.deepEqual(h.tracked,['seat_located']);
 });

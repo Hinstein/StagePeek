@@ -24,6 +24,17 @@ test('selected homepage is the public entry and existing ticket links still open
   assert.equal(response.headers.get('X-Robots-Tag'),null);
   assert.match(home,/期待现场之前/);
   assert.match(home,/data-live-preview/);
+  assert.doesNotMatch(home,/birds-nest|鸟巢/);
+  const demo=home.match(/href="(\/explore\?[^"]+)"[^>]*data-tool-entry/);
+  assert.ok(demo,'free homepage example');
+  const example=new URL(demo[1].replaceAll('&amp;','&'),'https://stagepeek.live');
+  const venue=example.searchParams.get('venue');
+  assert.equal(venue,'kai-tak-stadium');
+  const listing=await(await call('/api/venues')).json();
+  assert.equal(listing.venues.find(item=>item.id===venue).locked,false);
+  assert.equal((await call('/api/venues/'+venue)).status,200);
+  assert.equal((await import('../server/venues.mjs')).loadVenues().resolve(venue,Object.fromEntries(example.searchParams)).status,'matched');
+  assert.match(home,/class="live-fallback"[^>]+alt="[^"]+示意/);
   assert.match(home,/data-peek-zoom="5"/);
   assert.match(home,/href="\/explore"[^>]*data-tool-entry/);
   assert.match(home,/href="\/auth\/login"/);
@@ -50,10 +61,10 @@ test('directory and three reviewed venue pages deliver useful initial HTML with 
     assert.match(hub,new RegExp('href="'+path+'"'));
     assert.ok(html.includes(`rel="canonical" href="https://stagepeek.live${path}"`));
     assert.equal((html.match(/<h1[ >]/g)||[]).length,1);
-    for(const text of ['布局','来源','核验','未独立实测校准','纠错'])assert.ok(html.includes(text),text);
-    const cta=html.match(/href="(\/\?[^\"]+)"[^>]*data-tool-entry/);assert.ok(cta,'crawlable tool CTA');
+    for(const text of ['布局','来源','核验','未独立实测校准','纠错','StagePeek 项目维护者','逐座来源资产','捕获于 2026-10-24'])assert.ok(html.includes(text),text);
+    const cta=html.match(/href="(\/explore\?[^\"]+)"[^>]*data-tool-entry/);assert.ok(cta,'crawlable tool CTA');
     const url=new URL(cta[1].replaceAll('&amp;','&'),'https://stagepeek.live');
-    assert.equal(url.pathname,'/');assert.equal(url.searchParams.get('venue'),id);
+    assert.equal(url.pathname,'/explore');assert.equal(url.searchParams.get('venue'),id);
     assert.equal(venues.resolve(id,Object.fromEntries(url.searchParams)).status,'matched');
     const image=html.match(/<img[^>]+src="(\/previews\/[^"?]+)"/);assert.ok(image,'static preview');
     const media=await call(image[1]);assert.equal(media.status,200);assert.equal(media.headers.get('X-Robots-Tag'),null);
@@ -74,7 +85,8 @@ test('sitemap, redirects and role-based indexing agree, including staging and se
   for(const path of ['/venues/unknown','/venues/tottenham','/venues/%74aipei-arena'])assert.equal((await call(path)).status,404,path);
   const hub=await call('/venues');assert.equal(hub.status,308);assert.equal(hub.headers.get('Location'),'/venues/');
   const duplicate=await call('/venues/taipei-arena/');assert.equal(duplicate.status,308);assert.equal(duplicate.headers.get('Location'),'/venues/taipei-arena');
-  assert.equal((await call('/brand/stagepeek-social.png')).headers.get('X-Robots-Tag'),null);
+  for(const path of ['/brand/stagepeek-social.png','/home-assets/audience.svg','/home-assets/arena-3d.svg'])assert.equal((await call(path)).headers.get('X-Robots-Tag'),null);
+  assert.match((await call('/home-assets/not-approved.svg')).headers.get('X-Robots-Tag'),/noindex/);
   config.production=false;for(const path of ['/venues/','/venues/taipei-arena','/previews/taipei-arena.svg'])assert.match((await call(path)).headers.get('X-Robots-Tag'),/noindex/);
 });
 

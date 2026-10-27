@@ -1,5 +1,5 @@
 // Editorial review dates describe this content review, not a new venue survey.
-export const REVIEWED_AT='2026-10-26';
+export const REVIEWED_AT='2026-10-27';
 export const VENUE_GUIDES=[
   {
     id:'kai-tak-stadium',name:'启德主场馆',aliases:'啟德主場館 · Kai Tak Stadium',

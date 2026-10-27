@@ -1,6 +1,6 @@
-import {mountBirdsNestPreview} from './home-venue-preview.mjs';
+import {mountKaiTakPreview} from './home-venue-preview.mjs';
 
-void mountBirdsNestPreview(document.querySelector('[data-live-preview]'));
+void mountKaiTakPreview(document.querySelector('[data-live-preview]'));
 
 document.querySelectorAll('[data-peek-zoom]').forEach(button=>button.addEventListener('click',()=>{
   const wrap=button.closest('.view-peek');
