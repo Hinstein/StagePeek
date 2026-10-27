@@ -1,7 +1,8 @@
 // Use the existing platform tracker. The website ID is public; no API key is exposed.
+import {SUPPORTED_LOCALES,localizedPath} from './locales.mjs';
 import {VENUE_GUIDES} from './public-content.mjs';
 export const ANALYTICS_ORIGIN='https://analytics.auturance.com';
-const publicPaths=new Set(['/','/explore','/venues/','/about','/methodology','/plans','/contact',...VENUE_GUIDES.map(g=>'/venues/'+g.id)]);
+const publicPaths=new Set(SUPPORTED_LOCALES.flatMap(locale=>['/','/explore','/venues/','/about','/methodology','/plans','/contact',...VENUE_GUIDES.map(g=>'/venues/'+g.id)].map(path=>localizedPath(locale,path))));
 export function analyticsMarkup(config,{path,search,user}) {
   const id=config.umamiWebsiteId||'';
   if(!config.production||config.appUrl!=='https://stagepeek.live'||!publicPaths.has(path)||search||user||!isWebsiteId(id))return '';

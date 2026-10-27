@@ -14,7 +14,7 @@ import {EmailProvider,GoogleProvider} from './providers.mjs';
 import {TicketmasterProvider,ticketingStatus} from './ticketing.mjs';
 import {analyticsMarkup,ANALYTICS_ORIGIN} from './analytics.mjs';
 import {birdsNestPreview} from './venue-preview.mjs';
-import {createPublicSite,homeMetadata,homeSchema,localizeHomeHtml,publicNavigation} from './public-pages.mjs';
+import {createPublicSite,homeMetadata,homeSchema,localizeHomeHtml,localizeInterfaceHtml,publicNavigation} from './public-pages.mjs';
 import {DEFAULT_LOCALE,localizedPath,parseLocalizedPath} from './locales.mjs';
 
 const publicRoot=resolve(fileURLToPath(new URL('../public/',import.meta.url)));
@@ -233,7 +233,7 @@ export function createApplication({db,config,venues,events=null,ticketing=null,t
       if(path==='/index.html'){res.writeHead(308,{Location:'/'+url.search});return res.end();}
       const publicRedirect=publicSite.redirect(path);
       if(publicRedirect){res.writeHead(308,{Location:publicRedirect+url.search});return res.end();}
-      const tracking=analyticsMarkup(config,{path:basePath,search:url.search,user,publicPage:!!publicSite.get(basePath)?.indexable});
+      const tracking=analyticsMarkup(config,{path,search:url.search,user,publicPage:!!publicSite.get(basePath)?.indexable});
       if(tracking)res.setHeader('Content-Security-Policy',String(res.getHeader('Content-Security-Policy')).replace("script-src 'self'",`script-src 'self' ${ANALYTICS_ORIGIN}`).replace("connect-src 'self'",`connect-src 'self' ${ANALYTICS_ORIGIN}`));
       if(path==='/sitemap.xml'){
         res.writeHead(200,{'Content-Type':MIME['.xml']});return res.end(method==='HEAD'?null:publicSite.sitemap());
@@ -255,11 +255,13 @@ export function createApplication({db,config,venues,events=null,ticketing=null,t
       let actual,info;try{actual=await realpath(file);info=await stat(actual);}catch{throw fault(404,'NOT_FOUND','Not found');}
       if(!actual.startsWith(publicRoot+sep)||!info.isFile())throw fault(404,'NOT_FOUND','Not found');
       let content=method==='HEAD'?null:await readFile(actual);
-      if((basePath==='/'||basePath==='/explore')&&content){
+      if(basePath.startsWith('/previews/')&&basePath.endsWith('.svg')&&content){
+        content=Buffer.from(localizeInterfaceHtml(content.toString('utf8'),locale,basePath));
+      }else if(basePath==='/'&&!toolPage&&content){
         const html=localizeHomeHtml(content.toString('utf8').replace('<!--PUBLIC-SCHEMA-->',homeSchema(locale)).replace('<!--PUBLIC-NAVIGATION-->',publicNavigation(locale)).replace('<!--VENUE-GUIDES-->',publicSite.homeEnhancements(locale)).replace('<html lang="zh-CN">',`<html lang="${locale}">`),locale);
         content=Buffer.from(html.replace('</head>',`<meta name="stagepeek-locale" content="${locale}"></head>`));
-      }else if(content&&(basePath==='/explore'||['/auth/login','/auth/register','/auth/verify','/auth/callback','/auth/reset','/auth/password','/auth/continue','/account'].includes(basePath))){
-        const html=content.toString('utf8').replace(/<html lang="[^"]+">/,`<html lang="${locale}">`).replace('</head>',`<meta name="stagepeek-locale" content="${locale}"></head>`);
+      }else if(content&&(toolPage||['/auth/login','/auth/register','/auth/verify','/auth/callback','/auth/reset','/auth/password','/auth/continue','/account'].includes(basePath))){
+        const html=localizeInterfaceHtml(content.toString('utf8'),locale,basePath).replace('</head>',`<meta name="stagepeek-locale" content="${locale}"></head>`);
         content=Buffer.from(html);
       }
       if(tracking){

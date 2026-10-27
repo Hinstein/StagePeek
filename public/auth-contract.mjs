@@ -2,7 +2,7 @@
 export const TERMS_VERSION='2026-10-26';
 export function safeReturn(value){
  if(typeof value!=='string'||value.length>2048||!value.startsWith('/')||value.startsWith('//')||/[\\\x00-\x20]/.test(value))return '/';
- try{const url=new URL(value,'https://stagepeek.live');if(url.origin!=='https://stagepeek.live'||!['/','/index.html'].includes(url.pathname))return '/';
+ try{const url=new URL(value,'https://stagepeek.live');const base=url.pathname.replace(/^\/(?:zh-CN|zh-TW|ja|ko)(?=\/)/,'');if(url.origin!=='https://stagepeek.live'||!['/','/index.html','/explore'].includes(base))return '/';
   for(const key of [...url.searchParams.keys()])if(!['venue','event','layout','section','row','seat','mode','zoom','depth','lateral','standing','date','lang','account'].includes(key))url.searchParams.delete(key);
   return url.pathname+url.search;
  }catch{return '/';}

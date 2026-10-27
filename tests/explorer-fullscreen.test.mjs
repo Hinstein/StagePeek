@@ -1,3 +1,5 @@
+import {interfaceCopy} from '../public/translations/interface.mjs';
+const copy=(source,values)=>interfaceCopy(source,values,'zh-CN');
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
@@ -9,7 +11,7 @@ function harness(requestFullscreen){
  const doc={body:{classList:{toggle:(key,on)=>on?classes.add('body:'+key):classes.delete('body:'+key)}},fullscreenElement:null,exitFullscreen:async()=>{doc.fullscreenElement=null;}};
  const code=source.slice(source.indexOf('function setExpandedView('),source.indexOf("$('fullscreen').onclick="));
  assert.ok(code.includes('async function toggleFullscreen('),'fullscreen behavior must have a testable controller');
- const toggle=new Function('$','document',code+';return toggleFullscreen;')(id=>id==='viewer'?scene:button,doc);
+ const toggle=new Function('$','document','copy',code+';return toggleFullscreen;')(id=>id==='viewer'?scene:button,doc,copy);
  return {toggle,classes,attributes,doc};
 }
 test('unsupported fullscreen falls back to an expanded view that can be closed',async()=>{

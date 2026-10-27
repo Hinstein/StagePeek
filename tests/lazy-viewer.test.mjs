@@ -1,3 +1,5 @@
+import {interfaceCopy} from '../public/translations/interface.mjs';
+const copy=(source,values)=>interfaceCopy(source,values,'zh-CN');
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
@@ -7,8 +9,8 @@ function harness(load){
  const state={mode:'3d'},nodes=new Map(),toasts=[],modes=[];
  const $=id=>{if(!nodes.has(id))nodes.set(id,{});return nodes.get(id);};
  const camera={setMode:mode=>modes.push(mode),setZoom:()=>{}};
- const create=new Function('load','state','$','render','toast','chooseSection','chooseSample','chooseEstimatedSeat','window',`let viewer=null;${source};return {ensureViewer};`);
- const {ensureViewer}=create(load,state,$,()=>{},text=>toasts.push(text),()=>{},()=>{},()=>{},{stagepeekTrack:()=>{}});
+ const create=new Function('load','state','$','render','toast','chooseSection','chooseSample','chooseEstimatedSeat','window','copy',`let viewer=null;${source};return {ensureViewer};`);
+ const {ensureViewer}=create(load,state,$,()=>{},text=>toasts.push(text),()=>{},()=>{},()=>{},{stagepeekTrack:()=>{}},copy);
  return {state,$,toasts,modes,camera,ensureViewer};
 }
 test('WebGL creation failure keeps the selected venue usable in 2D',async()=>{

@@ -1,3 +1,5 @@
+import {interfaceCopy} from '../public/translations/interface.mjs';
+const copy=(source,values)=>interfaceCopy(source,values,'zh-CN');
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
@@ -23,8 +25,8 @@ function harness(id){
  let render;
  const chooseSection=id=>{state.sectionId=id;state.mapTier=selectedSection().tier;render();};
  const element=(tag,text)=>{const el=new Node();el.textContent=text;return el;};
- const fn=new Function('state','$','document','selectedSection','chooseSection','chooseSample','element','displaySectionLabel','sectionPoint','sectionRenderHalfAngle','stageRects','createMapTransform',mapCode+';return renderMap;');
- render=fn(state,$,document,selectedSection,chooseSection,()=>{},element,displaySectionLabel,sectionPoint,sectionRenderHalfAngle,stageRects,transform.createMapTransform);
+ const fn=new Function('state','$','document','selectedSection','chooseSection','chooseSample','element','displaySectionLabel','sectionPoint','sectionRenderHalfAngle','stageRects','createMapTransform','copy',mapCode+';return renderMap;');
+ render=fn(state,$,document,selectedSection,chooseSection,()=>{},element,displaySectionLabel,sectionPoint,sectionRenderHalfAngle,stageRects,transform.createMapTransform,copy);
  return {state,$,render};
 }
 test('2D rerender preserves rotated/zoomed view and tier browsing never changes selected ticket',()=>{

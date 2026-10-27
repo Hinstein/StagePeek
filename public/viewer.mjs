@@ -1,3 +1,4 @@
+import {copy} from './locales.mjs';
 import {seatRecords,stageBoxes,roofStructure} from './scene-geometry.mjs';
 import {phoneFrameRect} from './explorer-state.mjs';
 import {sourceSeatDecks} from './seating.mjs';
@@ -225,7 +226,7 @@ export function createViewer(canvas,{onSection,onSample,onSeat=()=>{},onMode=()=
   canvas.addEventListener('pointerup',up);canvas.addEventListener('pointercancel',up);
   canvas.addEventListener('wheel',e=>{if(cameraMode==='seat'){e.preventDefault();setZoom(fovToZoom(look.targetFov)*Math.exp(-e.deltaY*.001));}},{passive:false,capture:true});
   controls.addEventListener('change',wake);controls.addEventListener('start',()=>{if(cameraMode==='overview')tween=null;wake();});
-  canvas.style.touchAction='none';canvas.addEventListener('webglcontextlost',e=>{e.preventDefault();onFailure('三维画面暂时中断，可先切换二维图，或刷新后重试。');});
+  canvas.style.touchAction='none';canvas.addEventListener('webglcontextlost',e=>{e.preventDefault();onFailure(copy("三维画面暂时中断，可先切换二维图，或刷新后重试。"));});
   canvas.addEventListener('webglcontextrestored',wake);document.addEventListener('visibilitychange',()=>{last=performance.now();if(!document.hidden)wake();});
   new ResizeObserver(resize).observe(canvas.parentElement);
   return {

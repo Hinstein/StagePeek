@@ -68,7 +68,7 @@ test('directory and three reviewed venue pages deliver useful initial HTML with 
     assert.equal(venues.resolve(id,Object.fromEntries(url.searchParams)).status,'matched');
     const image=html.match(/<img[^>]+src="(\/previews\/[^"?]+)"/);assert.ok(image,'static preview');
     const media=await call(image[1]);assert.equal(media.status,200);assert.equal(media.headers.get('X-Robots-Tag'),null);
-    assert.match(await media.text(),/非按比例|非实景/);
+    const illustration=await media.text();assert.match(illustration,/Not to scale/);assert.match(illustration,/Not a photograph/);
     const schemas=[...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map(m=>JSON.parse(m[1]));
     const breadcrumb=schemas.flatMap(s=>s['@graph']||[s]).find(s=>s['@type']==='BreadcrumbList');
     assert.ok(breadcrumb);assert.equal(breadcrumb.itemListElement.at(-1).item,'https://stagepeek.live'+path);
@@ -99,7 +99,7 @@ test('service pages, home schema and public navigation remain usable without scr
   const graph=[...home.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].flatMap(m=>JSON.parse(m[1])['@graph']||[]);
   assert.ok(graph.some(s=>s['@type']==='WebSite'&&s.url==='https://stagepeek.live/'));
   assert.ok(graph.some(s=>s['@type']==='Organization'&&s.name==='StagePeek'));
-  const plans=await(await call('/plans')).text();assert.match(plans,/暂未开放|暂时无法|每月/);assert.doesNotMatch(plans,/\$9\.99/);
+  const plans=await(await call('/plans')).text();assert.match(plans,/Subscriptions are not on sale/);assert.doesNotMatch(plans,/\$9\.99/);
 });
 
 test('localized public routes expose translated metadata and reciprocal language links',async t=>{
@@ -133,5 +133,24 @@ test('public plans uses the same validated monthly price as checkout and hides f
   assert.equal((await(await call('/api/billing/price')).json()).price.amount,1599);
   billing.price=async()=>{throw new Error('provider unavailable');};
   const response=await call('/plans');assert.equal(response.status,200);
-  const html=await response.text();assert.match(html,/暂时无法读取正式价格/);assert.doesNotMatch(html,/15\.99/);
+  const html=await response.text();assert.match(html,/The current price is unavailable/);assert.doesNotMatch(html,/15\.99/);
+});
+
+test('every localized public page has a real title and each guide preserves source provenance',async t=>{
+ const {call}=await setup(t);
+ for(const locale of ['en','zh-CN','zh-TW','ja','ko']){
+  const prefix=locale==='en'?'':'/'+locale;
+  for(const path of ['/venues/','/venues/kai-tak-stadium','/venues/hong-kong-coliseum','/venues/taipei-arena','/about','/methodology','/plans','/contact','/privacy','/terms']){
+   const response=await call(prefix+path),html=await response.text();
+   assert.equal(response.status,200,prefix+path);
+   assert.ok(html.includes(`<html lang="${locale}">`));assert.doesNotMatch(html,/<(?:title|h1)[^>]*>[^<]*undefined/);
+   if(ids.some(id=>path==='/venues/'+id)){
+    assert.match(html,/2026-10-24/);assert.match(html,/oss-cn-beijing/);assert.match(html,/[a-f0-9]{12}/);
+   }
+  }
+  const svg=await(await call(prefix+'/previews/kai-tak-stadium.svg')).text();
+  if(locale==='en')assert.match(svg,/Kai Tak Stadium/);
+  if(locale==='ja')assert.match(svg,/啓徳スタジアム/);
+  if(locale==='ko')assert.match(svg,/카이탁 스타디움/);
+ }
 });

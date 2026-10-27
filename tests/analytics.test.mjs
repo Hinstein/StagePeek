@@ -51,3 +51,11 @@ test('events are bounded, omit private values and stop after sign-in or URL chan
  for(const value of sent){assert.equal(value.url,page);assert.deepEqual(Object.keys(value).sort(),(value.name?['website','hostname','url','title','name']:['website','hostname','url','title']).sort());}
  assert.doesNotMatch(JSON.stringify(sent),/private|secret|token=|seat=/);
 });
+
+test('localized analytics accepts only fixed public routes and still excludes ticket and auth pages',()=>{
+ for(const path of ['/ja/','/ko/explore','/zh-TW/venues/kai-tak-stadium','/zh-CN/plans']){
+  assert.ok(analyticsMarkup(config,{path,search:'',user:null}).includes(`data-public-path="${path}"`));
+  assert.equal(analyticsMarkup(config,{path,search:'?row=A&seat=78',user:null}),'');
+ }
+ for(const path of ['/ja/auth/login','/ko/account','/zh-TW/venues/private','/ja/privacy','/xx/plans'])assert.equal(analyticsMarkup(config,{path,search:'',user:null}),'');
+});

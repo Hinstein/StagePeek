@@ -1,3 +1,4 @@
+import {normalizeLocale} from './locales.mjs';
 import {hash,normalizeEmail} from './auth.mjs';
 import {fault,limit} from './store.mjs';
 import {safeReturn,TERMS_VERSION} from '../public/auth-contract.mjs';
@@ -16,7 +17,7 @@ export function sharedAuthRoutes({auth,db,config,cookie,json,body,cookies,prefix
  async function begin(req,res,input,kind,invoke){
   const email=normalizeEmail(input.email);await throttle(req,email,'send');
   await invoke(email);
-  const flow=await auth.flows.put(kind,{email,returnTo:safeReturn(input.returnTo),consent:input.consent===true,lang:input.lang==='en'?'en':'zh-CN',expectedUser:input.expectedUser||null});
+  const flow=await auth.flows.put(kind,{email,returnTo:safeReturn(input.returnTo),consent:input.consent===true,lang:normalizeLocale(input.lang),expectedUser:input.expectedUser||null});
   cookie(res,'flow',flow,900);return json(res,200,{sent:true,resendAfter:60});
  }
  async function consume(req,kind,action){
