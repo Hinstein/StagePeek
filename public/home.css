@@ -170,13 +170,21 @@ h2{font-size:29px}
 .peek-badge{right:15px;bottom:22px}
 .view-peek+.workflow{padding-top:42px}}
 .visual-a[data-live-preview] .demo-panel{transform:none}
-.live-screen{overflow:hidden;background:#0b1118}
+.live-screen{position:relative;overflow:hidden;background:#0b1118}
 .live-screen canvas{display:block;width:100%;height:100%;outline-offset:-4px;cursor:grab}
 .live-screen canvas:active{cursor:grabbing}
 .live-screen .demo-toolbar{z-index:2}
 .live-screen .demo-toolbar button{min-height:36px;touch-action:manipulation;background:#15202de8}
 .live-screen .demo-toolbar button:disabled{opacity:.45;cursor:default}
-.live-loading{position:absolute;inset:40% 15px auto;margin:0;text-align:center;color:#bac5ca;font-size:12px;pointer-events:none}
+.live-loading{position:absolute;top:50%;left:50%;z-index:3;display:flex;align-items:center;gap:10px;width:max-content;max-width:calc(100% - 32px);margin:0;padding:13px 17px;transform:translate(-50%,-50%);border:1px solid #344454;border-radius:12px;background:#111b24ee;box-shadow:0 16px 35px #0005;color:#e4eaed;font-size:12px;line-height:1.4;pointer-events:none}
+.live-loading::before{width:14px;height:14px;flex:0 0 14px;border:2px solid #536474;border-top-color:var(--lime);border-radius:50%;content:"";animation:live-loading-spin .8s linear infinite}
+.live-screen.is-loading::before{position:absolute;inset:0;z-index:1;background:radial-gradient(circle at 50% 42%,#20333c 0,#142129 34%,#0b1118 78%);content:""}
+.live-screen.is-loading::after{position:absolute;inset:18px;border:1px solid #2d3d49;border-radius:10px;content:"";opacity:.55;background:linear-gradient(105deg,transparent 20%,#ffffff06 45%,transparent 70%);background-size:220% 100%;animation:live-loading-sheen 2.2s ease-in-out infinite}
+.live-screen.is-loading .demo-toolbar,.live-screen.is-loading .live-hint,.live-screen.is-fallback .demo-toolbar,.live-screen.is-fallback .live-hint{opacity:0;pointer-events:none}
+.live-screen.is-fallback .live-loading{top:auto;bottom:18px;transform:translateX(-50%)}
+.live-screen.is-fallback .live-loading::before{width:14px;height:14px;border:0;color:var(--lime);content:"✓";animation:none;font-size:14px;font-weight:700;text-align:center}
+@keyframes live-loading-spin{to{transform:rotate(360deg)}}
+@keyframes live-loading-sheen{0%,100%{background-position:180% 0}50%{background-position:-20% 0}}
 .live-hint{position:absolute;left:12px;bottom:12px;padding:5px 9px;border-radius:5px;background:#0d151de0;color:#bac5ca;font-size:10px;pointer-events:none}
 .live-accuracy{font-size:10px;line-height:1.6;margin:0;padding:0 14px 12px;color:#8c9aa5}
 .venue-preview-card{padding:17px 18px;border:1px solid #b984ff66;border-radius:9px;background:#dfd3f1;color:#2c223e;pointer-events:none}
@@ -202,7 +210,6 @@ h2{font-size:29px}
 
 /* Keep the fallback in the same frame so failed WebGL never hides the entry. */
 .live-fallback{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#0b1118}
-.live-loading{background:#0b1118e8;border:1px solid var(--line);border-radius:8px;padding:10px;inset:auto 16px 48px;font-size:11px}
 .home-guide-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin:26px 0}
 .home-guide-grid>a{padding:24px;border:1px solid var(--line);border-radius:12px;background:linear-gradient(140deg,#192031,#101720);transition:border-color .2s}
 .home-guide-grid>a:hover{border-color:var(--purple)}
@@ -211,5 +218,5 @@ h2{font-size:29px}
 .home-guide-grid p{min-height:42px;margin:8px 0 20px;font-size:12px}
 .home-guide-grid b{color:var(--lime);font-size:12px}
 .venue-entry{padding:55px 0}.venue-entry>p{max-width:650px}.venue-entry>h2{font-size:32px}
-@media(max-width:760px){.hero-actions{gap:8px;flex-wrap:wrap}.hero-actions .button{padding:12px 15px;font-size:13px}.home-guide-grid{grid-template-columns:1fr;gap:12px}.home-guide-grid>a{padding:20px}.home-guide-grid p{min-height:0;margin-bottom:12px}.venue-entry>h2{font-size:26px}.live-loading{font-size:10px;padding:8px}.floating-ticket.venue-preview-card{bottom:-14px}.visual-a{margin-bottom:24px}}
+@media(max-width:760px){.hero-actions{gap:8px;flex-wrap:wrap}.hero-actions .button{padding:12px 15px;font-size:13px}.home-guide-grid{grid-template-columns:1fr;gap:12px}.home-guide-grid>a{padding:20px}.home-guide-grid p{min-height:0;margin-bottom:12px}.venue-entry>h2{font-size:26px}.live-loading{font-size:10px;padding:11px 13px}.live-screen.is-fallback .live-loading{bottom:12px}.floating-ticket.venue-preview-card{bottom:-14px}.visual-a{margin-bottom:24px}}
 @media(prefers-reduced-motion:reduce){.home-guide-grid>a{transition:none}}
