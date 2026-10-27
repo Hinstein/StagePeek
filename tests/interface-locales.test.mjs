@@ -12,6 +12,20 @@ test('browser entrypoint route exports support all five locales',()=>{
   assert.equal(browser.localizedPath(locale,'/ja/explore'),path);
  }
 });
+
+test('dynamic interface messages keep the route language when document language changes',t=>{
+ const originalDocument=globalThis.document,originalLocation=globalThis.location;
+ t.after(()=>{if(originalDocument===undefined)delete globalThis.document;else globalThis.document=originalDocument;if(originalLocation===undefined)delete globalThis.location;else globalThis.location=originalLocation;});
+ globalThis.document={documentElement:{lang:'zh-CN'}};
+ globalThis.location={pathname:'/ja/explore'};
+ assert.equal(browser.getLocale(),'ja');
+ assert.equal(browser.copy('场馆已准备好'),'会場の準備ができました');
+ globalThis.location.pathname='/explore';
+ assert.equal(browser.getLocale(),'en');
+ globalThis.location.pathname='/zh-CN/explore';
+ assert.equal(browser.copy('找到我的座位'),'找到我的座位');
+ assert.equal(browser.copy('已找到座位，请查看下方视角。'),'已找到座位，请查看下方视角。');
+});
 test('reviewed interface phrases have five nonempty variants with identical placeholders',()=>{
  const seen=new Set();
  for(const row of interfaceRows){

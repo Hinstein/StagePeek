@@ -208,7 +208,7 @@ async function loadVenue(id,layout){
   }catch(error){toast(message(error));if(error.code==='SUBSCRIPTION_REQUIRED')open('plan-dialog');
     if(!state.venue){$('venue-name').textContent=state.catalog.find(v=>v.id===id)?.name||copy("暂时无法载入场馆");$('location-status').textContent=error.code==='SUBSCRIPTION_REQUIRED'?copy("此场馆当前需要订阅，尚未加载座位。"):copy("场馆暂未加载，请稍后重试。");}
     setStatus('venue-status',error.code==='SUBSCRIPTION_REQUIRED'?copy("此场馆需要 Pro 才能加载。"):copy("场馆暂时无法载入，请重试。"),'error');setStatus('explorer-status',error.code==='SUBSCRIPTION_REQUIRED'?copy("此场馆需要 Pro 才能加载。"):copy("场馆暂时无法载入，请重试。"),'error');$('venue-retry').hidden=false;$('venue').value=state.venue?state.venueId:id;$('stage-layout').value=state.layout;return false;}
-  finally{if(version===loadVersion){setBusy('locate',false,copy("Find my seat"));$('locate').disabled=!Boolean($('section').value&&$('row').value&&$('seat').value);}}
+  finally{if(version===loadVersion){setBusy('locate',false,copy("找到我的座位"));$('locate').disabled=!Boolean($('section').value&&$('row').value&&$('seat').value);}}
 }
 function setStatus(id,value,kind=''){const node=$(id);if(!node)return;node.textContent=value||'';node.classList?.remove('is-loading','is-error','is-success');if(kind)node.classList?.add(`is-${kind}`);}
 function setBusy(id,busy,label){const node=$(id);if(!node)return;node.disabled=busy;node.setAttribute?.('aria-busy',String(busy));if(label)node.textContent=label;}
@@ -249,11 +249,11 @@ function chooseEstimatedSeat(record){
 async function chooseSample(sample){$('section').value=sample.section;$('row').value=sample.row;$('seat').value=sample.seat;await locate({intentional:true});}
 async function locate({intentional=false}={}){const version=++resolveVersion,id=state.venueId,requestedVenue=state.venue;setBusy('locate',true,copy("正在查找座位…"));setStatus('location-status',copy("正在核对来源记录…"),'loading');setStatus('explorer-status',copy("正在核对你的票面位置…"),'loading');
   try{const found=await api(`/api/venues/${id}/resolve`,{method:'POST',body:{layout:state.venue?.seatLayout?.id,section:$('section').value,row:$('row').value,seat:$('seat').value}});
-    if(version!==resolveVersion||id!==state.venueId||state.venue!==requestedVenue)return;state.result=found;if(found.sectionId){state.sectionId=found.sectionId;state.mapTier=state.venue.sections.find(s=>s.id===found.sectionId)?.tier;}render();setStatus('explorer-status',found.status==='matched'?copy("Seat found. Review the view below."):copy("We could not verify that exact seat. Review the section preview below."),found.status==='matched'?'success':'error');
+    if(version!==resolveVersion||id!==state.venueId||state.venue!==requestedVenue)return;state.result=found;if(found.sectionId){state.sectionId=found.sectionId;state.mapTier=state.venue.sections.find(s=>s.id===found.sectionId)?.tier;}render();setStatus('explorer-status',found.status==='matched'?copy("已找到座位，请查看下方视角。"):copy("暂时无法核实这个座位，请查看下方分区预览。"),found.status==='matched'?'success':'error');
     if(found.status==='matched'&&Array.isArray(found.position)){viewer?.seatView();if(intentional)window.stagepeekTrack?.('seat_located');}
     else{viewer?.near();toast(found.status==='matched'?copy("票号存在，但缺少座位坐标；当前仅显示分区。"):found.status==='ambiguous'?copy("来源含重复票号，未自动选择任何座位。"):found.status==='unknown-section'?copy("尚未找到这个分区。"):copy("这组排座尚无公开坐标，先显示分区预览。"));}
     if(intentional&&found.status==='matched')$('location-status').focus?.();
-  }catch(error){toast(message(error));setStatus('location-status',copy("座位暂时无法核对，请重试。"),'error');setStatus('explorer-status',copy("座位暂时无法核对，请重试。"),'error');}finally{if(version===resolveVersion){setBusy('locate',false,copy("Find my seat"));$('locate').disabled=!Boolean($('section').value&&$('row').value&&$('seat').value);}}
+  }catch(error){toast(message(error));setStatus('location-status',copy("座位暂时无法核对，请重试。"),'error');setStatus('explorer-status',copy("座位暂时无法核对，请重试。"),'error');}finally{if(version===resolveVersion){setBusy('locate',false,copy("找到我的座位"));$('locate').disabled=!Boolean($('section').value&&$('row').value&&$('seat').value);}}
 }
 async function loadEvents(id,version){$('events-retry').hidden=true;$('events-list').replaceChildren(element('p',copy("正在读取官方演出信息…"),'muted'));setStatus('events-status',copy("正在读取演出信息…"),'loading');
   try{const result=await api(`/api/venues/${id}/events`);if(version!==loadVersion)return;

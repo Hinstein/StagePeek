@@ -25,10 +25,7 @@ export function localizedPath(locale,path){
 }
 
 export function getLocale(){
-  const configured=globalThis.stagepeekLocale||document.documentElement.lang;
-  if(SUPPORTED_LOCALES.includes(configured))return configured;
-  const match=location.pathname.match(/^\/([^/]+)/),locale=match&&prefixes.get(match[1].toLowerCase());
-  return locale||DEFAULT_LOCALE;
+  return parseLocalizedPath(location.pathname).locale;
 }
 
 export function setDocumentLocale(locale){
