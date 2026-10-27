@@ -23,7 +23,8 @@ function element(tag,text,className){const el=document.createElement(tag);if(tex
 function localizeShell(){
  document.documentElement.lang=locale;
  const menu=$('locale-switcher').querySelector('[role="menu"]');
- menu.replaceChildren(...SUPPORTED_LOCALES.map(item=>{const a=document.createElement('a');a.href=localizedPath(item,parseLocalizedPath(location.pathname).path)+location.search;a.textContent=translations(locale)[`language.${item}`];a.dataset.locale=item;a.setAttribute('role','menuitem');a.onclick=event=>{event.preventDefault();setLocaleUrl(item,{venue:state.venueId,event:state.event?.id,layout:state.layout,section:$('section').value,row:$('row').value,seat:$('seat').value,mode:state.mode,zoom:state.zoom});};if(item===locale)a.setAttribute('aria-current','true');return a;}));
+ const queryZoom=Number(new URLSearchParams(location.search).get('zoom'));
+ menu.replaceChildren(...SUPPORTED_LOCALES.map(item=>{const a=document.createElement('a');a.href=localizedPath(item,parseLocalizedPath(location.pathname).path)+location.search;a.textContent=translations(locale)[`language.${item}`];a.dataset.locale=item;a.setAttribute('role','menuitem');a.onclick=event=>{event.preventDefault();setLocaleUrl(item,{venue:state.venueId,event:state.event?.id,layout:state.layout,section:$('section').value,row:$('row').value,seat:$('seat').value,mode:state.mode,zoom:queryZoom||state.zoom});};if(item===locale)a.setAttribute('aria-current','true');return a;}));
  const button=$('locale-switcher').querySelector('button');button.setAttribute('aria-label',text('language.label'));button.querySelector('span').textContent=text('language.current');
  document.querySelector('header nav>a').href=route('/venues/');
  document.querySelector('header nav>a').textContent=text('nav.venues');
