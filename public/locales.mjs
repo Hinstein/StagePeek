@@ -42,12 +42,13 @@ export function t(key,values={}){
   return String(value).replace(/\{(\w+)\}/g,(_,name)=>String(values[name]??`{${name}}`));
 }
 
-export function setLocaleUrl(locale){
+export function setLocaleUrl(locale,values={}){
   const input=new URL(location.href),match=input.pathname.match(/^\/([^/]+)(\/.*)?$/),current=match&&prefixes.get(match[1].toLowerCase());
   const path=current?match[2]||'/':input.pathname;
   const target=localizedPath(locale,path);
   const next=new URL(target,input.origin);
   for(const [key,value] of input.searchParams){if(explorerParams.has(key))next.searchParams.append(key,value);}
+  for(const [key,value] of Object.entries(values)){if(!explorerParams.has(key))continue;if(value===undefined||value===null||value===''){next.searchParams.delete(key);continue;}next.searchParams.set(key,String(value));}
   if(input.searchParams.has('next')&&(path.startsWith('/auth/')||path==='/account'))next.searchParams.set('next',input.searchParams.get('next'));
   location.assign(next.pathname+(next.search||''));
 }

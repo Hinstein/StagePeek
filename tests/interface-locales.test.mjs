@@ -36,3 +36,14 @@ test('mail fallback uses English for locales the existing shared hook does not s
  for(const locale of ['en','ja','ko','zh-TW',undefined])assert.equal(callback.call({config:{appUrl:'https://stagepeek.live'}},'/auth/callback',locale),'https://stagepeek.live/auth/callback?lang=en');
  assert.equal(callback.call({config:{appUrl:'https://stagepeek.live'}},'/auth/reset','zh-CN'),'https://stagepeek.live/auth/reset?lang=zh-CN');
 });
+
+test('language switching keeps the current explorer selection rather than stale link parameters',t=>{
+ const previous=globalThis.location,assigned=[];
+ t.after(()=>{if(previous===undefined)delete globalThis.location;else globalThis.location=previous;});
+ globalThis.location={href:'https://stagepeek.live/ja/explore?venue=old&event=stale&section=1&token=secret',assign:value=>assigned.push(value)};
+ browser.setLocaleUrl('ko',{venue:'kai-tak-stadium',event:null,layout:'bowl',section:'101',row:'A',seat:'78',mode:'3d',zoom:2,token:'private'});
+ const target=new URL(assigned[0],'https://stagepeek.live');
+ assert.equal(target.pathname,'/ko/explore');
+ assert.deepEqual(Object.fromEntries(target.searchParams),{venue:'kai-tak-stadium',section:'101',layout:'bowl',row:'A',seat:'78',mode:'3d',zoom:'2'});
+ globalThis.location.href='https://stagepeek.live/';browser.setLocaleUrl('ja');assert.equal(assigned[1],'/ja/');
+});
