@@ -23,7 +23,7 @@
 - `git diff --check`：通过。
 - 本地 Ego 验证：目录渲染 197 张卡片；亚洲筛选显示 175 个；390px 下无横向溢出。
 - 线上验证：`/venues/` 返回 197 个场馆，五种语言目录均有地球语言按钮和对应本地化“场馆资料”入口；`/explore?venue=sofi` 在 390px 下按日期显示 2 组场次，页面宽度保持 390px。
-- 线上部署：Coolify 部署提交 `452a214b5689d65145bafc351c8bd9a2036d653d`，状态完成，应用保持 healthy/running。
+- 线上部署：Coolify 部署提交 `977e56dccf99c2ef9095c5d248938c413d90ecf0`，状态完成，应用保持 healthy/running。
 
 ## 仍需后续处理
 
