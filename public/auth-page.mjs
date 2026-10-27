@@ -1,15 +1,20 @@
 import {safeReturn,TERMS_VERSION,needsConsentPage,venueReturn} from './auth-contract.mjs';
 import {accountSummary} from './account-summary.mjs';
+import {getLocale,localizedPath,parseLocalizedPath,SUPPORTED_LOCALES,translations} from './locales.mjs';
+import './language-switcher.mjs';
 const $=id=>document.getElementById(id),query=new URLSearchParams(location.search);
-let lang=query.get('lang')==='en'?'en':'zh-CN',next=safeReturn(query.get('next')),me=null,busy=false,resendAt=0;
+let lang=getLocale(),next=safeReturn(query.get('next')),me=null,busy=false,resendAt=0;
 history.replaceState(null,'',location.pathname+'?'+new URLSearchParams({next,lang}));
 let savedPositions=null;
-let mode=({'/auth/register':'register','/auth/reset':'reset','/auth/password':'setup','/account':'account','/auth/continue':'continue'})[location.pathname]||'login',source=mode;
-const en=()=>lang==='en',t=(zh,eng)=>en()?eng:zh;
+const basePath=parseLocalizedPath(location.pathname).path;
+let mode=({'/auth/register':'register','/auth/reset':'reset','/auth/password':'setup','/account':'account','/auth/continue':'continue'})[basePath]||'login',source=mode;
+const en=()=>lang==='en';
+const englishKeys=new Map(Object.entries(translations('en')).map(([key,value])=>[String(value),key]));
+const t=(zh,eng)=>{if(en())return eng;const key=englishKeys.get(String(eng));return key?String(translations(lang)[key]??eng):lang==='zh-CN'?zh:eng;};
 const errors={AUTH_PASSWORD_RESULT_UNKNOWN:['密码可能已更新，请尝试使用新密码登录，或重新验证邮箱。','Your password may have changed. Try signing in with your new password, or verify your email again.'],INVALID_OTP:['验证码错误或已过期，请重新获取。','The code is incorrect or expired. Request another.'],AUTH_FLOW_EXPIRED:['验证已失效，请重新开始。','This verification has expired. Start again.'],INVALID_CREDENTIALS:['邮箱或密码不正确。','Email or password is incorrect.'],WEAK_PASSWORD:['密码需至少 12 字符，最多 256 字节。','Use at least 12 characters, up to 256 bytes.'],RATE_LIMITED:['请求过于频繁，请稍后再试。','Too many attempts. Please try later.'],AUTH_UNAVAILABLE:['登录服务暂不可用，请稍后重试。','Sign-in is temporarily unavailable.'],AUTH_REJECTED:['暂时无法完成，请重试或使用登录/找回密码。','Unable to continue. Retry, sign in, or recover your password.'],GOOGLE_FAILED:['Google 登录未完成，请重新发起。','Google sign-in failed. Please retry.'],GOOGLE_CANCELED:['已取消 Google 登录，可用邮箱继续。','Google sign-in was cancelled. Continue with email.'],LOGIN_REQUIRED:['请先登录。','Please sign in first.'],CONSENT_REQUIRED:['请先同意条款与隐私政策。','Please accept the terms and privacy policy.']};
 function feedback(value){$('auth-feedback').textContent=value;}
 async function api(path,body,method=body?'POST':'GET'){let response;try{response=await fetch(path,{method,credentials:'same-origin',headers:body?{'Content-Type':'application/json'}:{},body:body?JSON.stringify(body):undefined,signal:AbortSignal.timeout(15000)});}catch{throw new Error(t('网络连接失败，请重试。','Connection failed. Please retry.'));}const data=await response.json();if(!response.ok)throw Object.assign(new Error(errors[data.error?.code]?.[en()?1:0]||t('暂时无法完成，请稍后重试。','Unable to continue. Please try again.')),{code:data.error?.code});return data;}
-function route(path){const url=new URL(path,location.origin);url.searchParams.set('next',next);url.searchParams.set('lang',lang);return url.pathname+url.search;}
+function route(path){const url=new URL(path,location.origin);url.searchParams.set('next',next);url.searchParams.set('lang',lang);return localizedPath(lang,url.pathname)+url.search;}
 function link(text,path){const a=document.createElement('a');a.textContent=text;a.href=route(path);$('auth-links').append(a);}
 function show(id,visible){$(id).hidden=!visible;}
 function clearSecret(){for(const id of ['auth-password','auth-confirm','auth-code'])$(id).value='';}
@@ -43,6 +48,7 @@ function render(){
  $('email-label').textContent=t('邮箱地址','Email address');$('password-label').textContent=t('密码','Password');$('confirm-label').textContent=t('确认新密码','Confirm new password');$('code-label').textContent=t('邮箱验证码','Email code');$('auth-google').textContent=t('使用 Google 登录','Continue with Google');$('auth-or').textContent=t('或','or');$('auth-reveal').textContent=$('auth-password').type==='password'?t('显示','Show'):t('隐藏','Hide');$('help-title').textContent=t('收不到验证码？','Didn’t receive a code?');$('help-copy').textContent=t('检查邮箱拼写和垃圾邮件，等待后重发。请使用发起验证的浏览器。','Check your address and spam folder. Wait before resending. Use the browser where you started verification.');
  $('consent-copy').replaceChildren(document.createTextNode(t('我已阅读并同意 ','I agree to the ')));for(const [name,path]of [[t('服务条款','Terms'),'/terms.html'],[t('隐私政策','Privacy Policy'),'/privacy.html']]){const a=document.createElement('a');a.textContent=name;a.href=path;a.target='_blank';a.rel='noopener';$('consent-copy').append(a,document.createTextNode(' '));}
  const legal=document.querySelectorAll('.auth-footer a');legal[0].textContent=t('服务条款','Terms of service');legal[1].textContent=t('隐私政策','Privacy policy');
+ const languageButton=$('auth-language').querySelector('button'),languageMenu=$('auth-language').querySelector('[role="menu"]');languageButton.querySelector('span').textContent=translations(lang)['language.current'];languageMenu.replaceChildren(...SUPPORTED_LOCALES.map(item=>{const a=document.createElement('a');a.href=localizedPath(item,basePath);a.textContent=translations(lang)[`language.${item}`]||item;a.dataset.locale=item;a.setAttribute('role','menuitem');if(item===lang)a.setAttribute('aria-current','true');a.onclick=event=>{event.preventDefault();lang=item;history.replaceState(null,'',localizedPath(lang,basePath)+'?'+new URLSearchParams({next,lang}));render();};return a;}));
  $('auth-change').textContent=t('换一个邮箱 / 返回','Change email / back');updateResend();
  if(account&&me?.user)renderAccount();
 }
@@ -143,7 +149,6 @@ $('auth-form').onsubmit=async event=>{
 $('auth-resend').onclick=async()=>{if(busy||Date.now()<resendAt)return;busy=true;updateResend();try{const endpoint=source==='register'?'/api/auth/register/resend':['reset','setup'].includes(source)?'/api/auth/recovery':'/api/auth/email';const result=await api(endpoint,{email:$('auth-email').value,returnTo:next,lang});resendAt=Date.now()+(result.resendAfter||60)*1000;feedback(t('请求已提交，请查看最新验证码。','Request received. Use the latest code.'));}catch(error){feedback(error.message);}finally{busy=false;updateResend();}};
 $('auth-change').onclick=async()=>{try{await api('/api/auth/cancel',{});clearSecret();mode=source;history.replaceState(null,'',route(mode==='register'?'/auth/register':mode==='reset'?'/auth/reset':mode==='setup'?'/auth/password':'/auth/login'));feedback('');render();}catch(error){feedback(error.message);}};
 $('auth-reveal').onclick=()=>{$('auth-password').type=$('auth-password').type==='password'?'text':'password';$('auth-reveal').setAttribute('aria-pressed',String($('auth-password').type==='text'));render();};
-$('auth-language').onclick=()=>{lang=en()?'zh-CN':'en';render();};
 $('auth-google').onclick=async()=>{if(busy)return;busy=true;$('auth-google').disabled=true;try{const result=await api('/api/auth/google/start',{returnTo:next});location.assign(result.url);}catch(error){feedback(error.message);busy=false;$('auth-google').disabled=false;}};
 $('security-logout').onclick=$('auth-logout').onclick=async()=>{try{await api('/api/auth/logout',{});location.replace(next);}catch(error){feedback(error.message);}};
 const timer=setInterval(updateResend,1000);addEventListener('pagehide',()=>{clearInterval(timer);clearSecret();},{once:true});
@@ -154,7 +159,7 @@ try{
  else if(needsConsentPage(mode,me)){mode='consent';render();}
  else if(mode==='continue'){location.replace(next);}
  else{
-  if(['/auth/verify','/auth/callback','/auth/reset','/auth/password'].includes(location.pathname)){
+  if(['/auth/verify','/auth/callback','/auth/reset','/auth/password'].includes(parseLocalizedPath(location.pathname).path)){
    const status=await api('/api/auth/status');if(status.flow){const f=status.flow;resendAt=f.retryAt||0;next=safeReturn(f.returnTo||next);if(f.email)$('auth-email').value=f.email;
     if(f.kind==='new-password'){mode='new-password';source='reset';}
     else if(f.kind==='recover-pending'){mode='recover-code';source=f.expectedUser?'setup':'reset';}

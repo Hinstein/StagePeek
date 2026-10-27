@@ -14,7 +14,8 @@ import {EmailProvider,GoogleProvider} from './providers.mjs';
 import {TicketmasterProvider,ticketingStatus} from './ticketing.mjs';
 import {analyticsMarkup,ANALYTICS_ORIGIN} from './analytics.mjs';
 import {birdsNestPreview} from './venue-preview.mjs';
-import {createPublicSite,homeSchema,publicNavigation} from './public-pages.mjs';
+import {createPublicSite,homeMetadata,homeSchema,localizeHomeHtml,publicNavigation} from './public-pages.mjs';
+import {DEFAULT_LOCALE,localizedPath,parseLocalizedPath} from './locales.mjs';
 
 const publicRoot=resolve(fileURLToPath(new URL('../public/',import.meta.url)));
 const MIME={'.html':'text/html; charset=utf-8','.mjs':'text/javascript; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.svg':'image/svg+xml','.png':'image/png','.txt':'text/plain; charset=utf-8','.xml':'application/xml; charset=utf-8'};
@@ -59,7 +60,7 @@ export function createApplication({db,config,venues,events=null,ticketing=null,t
     try {
       const allowed=[new URL(config.appUrl).origin,...(config.allowedOrigins||[])];
       if(!allowed.some(x=>new URL(x).host===req.headers.host))throw fault(403,'INVALID_HOST','Unrecognized request host');
-      const url=new URL(req.url,config.appUrl),path=url.pathname,method=req.method;
+      const url=new URL(req.url,config.appUrl),path=url.pathname,method=req.method,localized=publicSite.parse(path),basePath=localized.path,locale=localized.locale;
       // Only registered editorial pages and approved public media are indexable.
       // Tool state, auth/account utilities, drafts and staging fail closed.
       if(!config.production||config.appUrl!=='https://stagepeek.live'||url.search||!publicSite.isIndexable(path))res.setHeader('X-Robots-Tag','noindex, nofollow');
@@ -232,29 +233,35 @@ export function createApplication({db,config,venues,events=null,ticketing=null,t
       if(path==='/index.html'){res.writeHead(308,{Location:'/'+url.search});return res.end();}
       const publicRedirect=publicSite.redirect(path);
       if(publicRedirect){res.writeHead(308,{Location:publicRedirect+url.search});return res.end();}
-      const tracking=analyticsMarkup(config,{path,search:url.search,user,publicPage:!!publicSite.get(path)?.indexable});
+      const tracking=analyticsMarkup(config,{path:basePath,search:url.search,user,publicPage:!!publicSite.get(basePath)?.indexable});
       if(tracking)res.setHeader('Content-Security-Policy',String(res.getHeader('Content-Security-Policy')).replace("script-src 'self'",`script-src 'self' ${ANALYTICS_ORIGIN}`).replace("connect-src 'self'",`connect-src 'self' ${ANALYTICS_ORIGIN}`));
       if(path==='/sitemap.xml'){
         res.writeHead(200,{'Content-Type':MIME['.xml']});return res.end(method==='HEAD'?null:publicSite.sitemap());
       }
-      if(path!=='/'&&publicSite.get(path)){
+      if(basePath!=='/'&&publicSite.get(basePath)){
         const context={};
-        if(path==='/plans'&&method!=='HEAD'){
+        if(basePath==='/plans'&&method!=='HEAD'){
           context.access=await access(null);context.billingReady=billing.ready;
           if(billing.ready)try{context.price=await billing.price();}catch{/* Fail closed: never invent a price. */}
         }
-        const html=method==='HEAD'?null:publicSite.render(path,context).replace('</head>',tracking+'</head>');
+        const html=method==='HEAD'?null:publicSite.render(path,{...context,locale}).replace('</head>',tracking+'</head>');
         res.writeHead(200,{'Content-Type':MIME['.html']});return res.end(html);
       }
-      let decoded;try{decoded=decodeURIComponent(path);}catch{throw fault(404,'NOT_FOUND','Not found');}
+      let decoded;try{decoded=decodeURIComponent(basePath);}catch{throw fault(404,'NOT_FOUND','Not found');}
       // Keep previously shared ticket links and provider returns in the tool.
-      const toolPage=path==='/explore'||path==='/'&&['venue','event','layout','section','row','seat','mode','zoom','depth','lateral','standing','date','account','panel','data','billing','auth','auth_error','login','token','session_id'].some(key=>url.searchParams.has(key));
+      const toolPage=basePath==='/explore'||basePath==='/'&&['venue','event','layout','section','row','seat','mode','zoom','depth','lateral','standing','date','account','panel','data','billing','auth','auth_error','login','token','session_id'].some(key=>url.searchParams.has(key));
       const file=resolve(publicRoot,toolPage?'index.html':decoded==='/'?'home.html':['/auth/login','/auth/register','/auth/verify','/auth/callback','/auth/reset','/auth/password','/auth/continue','/account'].includes(decoded)?'auth.html':'.'+decoded);
       if(!file.startsWith(publicRoot+sep)||!MIME[extname(file)]||decoded.split('/').some(x=>x.startsWith('.')||x==='server'||x==='data'))throw fault(404,'NOT_FOUND','Not found');
       let actual,info;try{actual=await realpath(file);info=await stat(actual);}catch{throw fault(404,'NOT_FOUND','Not found');}
       if(!actual.startsWith(publicRoot+sep)||!info.isFile())throw fault(404,'NOT_FOUND','Not found');
       let content=method==='HEAD'?null:await readFile(actual);
-      if((path==='/'||path==='/explore')&&content)content=Buffer.from(content.toString('utf8').replace('<!--PUBLIC-SCHEMA-->',homeSchema()).replace('<!--PUBLIC-NAVIGATION-->',publicNavigation()).replace('<!--VENUE-GUIDES-->',publicSite.homeEnhancements()));
+      if((basePath==='/'||basePath==='/explore')&&content){
+        const html=localizeHomeHtml(content.toString('utf8').replace('<!--PUBLIC-SCHEMA-->',homeSchema(locale)).replace('<!--PUBLIC-NAVIGATION-->',publicNavigation(locale)).replace('<!--VENUE-GUIDES-->',publicSite.homeEnhancements(locale)).replace('<html lang="zh-CN">',`<html lang="${locale}">`),locale);
+        content=Buffer.from(html.replace('</head>',`<meta name="stagepeek-locale" content="${locale}"></head>`));
+      }else if(content&&(basePath==='/explore'||['/auth/login','/auth/register','/auth/verify','/auth/callback','/auth/reset','/auth/password','/auth/continue','/account'].includes(basePath))){
+        const html=content.toString('utf8').replace(/<html lang="[^"]+">/,`<html lang="${locale}">`).replace('</head>',`<meta name="stagepeek-locale" content="${locale}"></head>`);
+        content=Buffer.from(html);
+      }
       if(tracking){
         if(content)content=Buffer.from(content.toString('utf8').replace('</head>',tracking+'</head>'));
         res.setHeader('Content-Security-Policy',String(res.getHeader('Content-Security-Policy')).replace("script-src 'self'",`script-src 'self' ${ANALYTICS_ORIGIN}`).replace("connect-src 'self'",`connect-src 'self' ${ANALYTICS_ORIGIN}`));

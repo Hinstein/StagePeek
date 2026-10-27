@@ -34,14 +34,15 @@ test('StagePeek canonical metadata, crawler routes and utility noindex stay cons
   const root=await call('/',{headers}),html=await root.text();
   assert.equal(root.status,200);assert.equal(root.headers.get('X-Robots-Tag'),null);
   assert.match(html,/<link rel="canonical" href="https:\/\/stagepeek.live\/">/);
-  assert.match(html,/<title>StagePeek.*Concert Seat View<\/title>/);
+  assert.match(html,/<title>StagePeek.*Concert seat view/);
   assert.match(html,/id="how"/);
   assert.equal((html.match(/<h1>/g)||[]).length,1);
   const duplicate=await call('/index.html?venue=sofi',{headers});
   assert.equal(duplicate.status,308);assert.equal(duplicate.headers.get('Location'),'/?venue=sofi');
   const sitemap=await call('/sitemap.xml',{headers}),xml=await sitemap.text();
   assert.equal(sitemap.status,200);assert.match(sitemap.headers.get('Content-Type'),/application\/xml/);
-  assert.deepEqual([...xml.matchAll(/<loc>(.*?)<\/loc>/g)].map(m=>m[1]),['/','/venues/','/about','/methodology','/plans','/contact'].map(path=>'https://stagepeek.live'+path));
+  const expectedPaths=['/','/venues/','/about','/methodology','/plans','/contact'];
+  assert.deepEqual([...xml.matchAll(/<loc>(.*?)<\/loc>/g)].map(m=>m[1]),['en','zh-CN','zh-TW','ja','ko'].flatMap(locale=>expectedPaths.map(path=>`https://stagepeek.live${locale==='en'?'':`/${locale}`}${path}`)));
   assert.match(await(await call('/robots.txt',{headers})).text(),/Sitemap: https:\/\/stagepeek.live\/sitemap.xml/);
   for(const path of ['/admin.html','/mockups/home-prototype.html','/brand/options/index.html','/api/me','/?token=private','/?auth=success','/?login=email','/?session_id=private','/missing.html']){
     const response=await call(path,{headers});assert.match(response.headers.get('X-Robots-Tag'),/noindex/,path);
@@ -151,7 +152,7 @@ test('local monthly checkout upgrades only the signed-in development account',as
 test('public root and app modules are actually served while data files remain private',async t=>{
   const {call}=await setup(t);
   assert.deepEqual(await (await call('/healthz')).json(),{ok:true,service:'stagepeek'});
-  const page=await call('/');assert.equal(page.status,200);assert.match(await page.text(),/期待现场之前/);
+  const page=await call('/');assert.equal(page.status,200);assert.match(await page.text(),/Before the show/);
   const module=await call('/app.mjs');assert.equal(module.status,200);assert.match(module.headers.get('content-type'),/javascript/);
   assert.equal((await call('/vendor/three.module.min.js')).status,200);
 });

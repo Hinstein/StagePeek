@@ -4,7 +4,10 @@ import {venueReturn} from './auth-contract.mjs';
 import {resolveInitialRoute} from './route.mjs';
 import {groupVenuesByCountry} from './catalog.mjs';
 import {createMapTransform,zoomMap,rotateMap,resetMap,panMap} from './explorer-state.mjs';
+import {getLocale,t,localizedPath,SUPPORTED_LOCALES,translations} from './locales.mjs';
+import './language-switcher.mjs';
 const $=id=>document.getElementById(id);
+const locale=getLocale(),route=path=>localizedPath(locale,path),text=(key,values)=>t(key,values);
 const state={me:null,catalog:[],venueId:'tottenham',venue:null,sectionId:'122',result:null,layout:'end',mode:'2d',event:null,mapTransform:null,phoneFrame:false,roofVisible:false,zoom:1};
 let viewer=null,viewerCameraMode='overview',loadVersion=0,resolveVersion=0,loginToken=null,toastTimer=null;
 const messages={SUBSCRIPTION_REQUIRED:'这个场馆需要月订阅，请先升级 Pro。',LOGIN_REQUIRED:'请先登录。',INVALID_EMAIL:'请输入有效的邮箱地址。',INVALID_LINK:'登录链接已失效，或与申请时的浏览器不一致，请重新申请。',RATE_LIMITED:'操作有些频繁，请稍后再试。',GOOGLE_NOT_CONFIGURED:'Google 登录暂未开放。',EMAIL_NOT_CONFIGURED:'邮件登录暂未开放。',BILLING_NOT_CONFIGURED:'月订阅暂未开放。',LINK_REQUIRED:'这个邮箱已有账号。请先用邮箱登录，再在我的账号中关联 Google。',SAVE_LIMIT:'已达到当前套餐的位置保存上限。',ALREADY_SUBSCRIBED:'你已订阅，可在账单中心管理。',NO_SUBSCRIPTION:'当前没有可管理的账单账号。',SEAT_UNVERIFIED:'该排座尚无核实记录，请先选择已有的采样位置。',GOOGLE_CANCELED:'已取消 Google 登录。'};
@@ -16,6 +19,24 @@ async function api(path,{method='GET',body}={}){
 function toast(text){$('toast').textContent=text;$('toast').hidden=false;clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('toast').hidden=true,5000);}
 function open(id){if(id==='login-dialog')window.stagepeekTrack?.('login_started');if(id==='plan-dialog')window.stagepeekTrack?.('plan_open');if(state.me?.providers.auth==='supabase'&&(['login-dialog','account-dialog'].includes(id)||state.me?.consent?.required)){const next=venueReturn(state,{section:$('section').value,row:$('row').value,seat:$('seat').value});location.assign((id==='account-dialog'||state.me?.consent?.required?'/account':'/auth/login')+'?next='+encodeURIComponent(next));return;}for(const d of document.querySelectorAll('dialog[open]'))d.close();$(id).showModal();}
 function element(tag,text,className){const el=document.createElement(tag);if(text!==undefined)el.textContent=text;if(className)el.className=className;return el;}
+function localizeShell(){
+ document.documentElement.lang=locale;
+ const labels=[['venue-field','explorer.chooseVenue'],['locate','explorer.locate'],['mode-2d','explorer.overview'],['mode-3d','explorer.seatView'],['overview','explorer.overview'],['seat-view','explorer.seatView'],['near','explorer.findVenue'],['reset','common.retry'],['roof-toggle','explorer.layout'],['phone-toggle','home.featurePhone'],['save-position','explorer.save'],['source-link','common.source'],['plan-button','account.manageBilling'],['saved-button','account.favorites'],['account-button','nav.signIn'],['event-layout-note','explorer.stageLayout'],['layout-source-note','explorer.unverified']];
+ for(const [id,key] of labels){const node=$(id);if(node)node.textContent=text(key);}
+ const venueField=document.querySelector('.venue-field');if(venueField)venueField.firstChild.textContent=text('explorer.chooseVenue')+' ';
+ const labelsById=[['section','explorer.ticketSection'],['row','explorer.ticketRow'],['seat','explorer.ticketSeat']];for(const [id,key] of labelsById){const input=$(id),label=input?.closest('label');if(label)label.firstChild.textContent=text(key)+' ';}
+ const mapTools=[['fullscreen','common.open'],['map-reset','common.retry']];for(const [id,key] of mapTools){const node=$(id);if(node)node.setAttribute('aria-label',text(key));}
+ const menu=$('locale-switcher')?.querySelector('[role="menu"]');if(menu){menu.replaceChildren(...SUPPORTED_LOCALES.map(item=>{const a=document.createElement('a');a.href=localizedPath(item,location.pathname.replace(/^\/[^/]+(?=\/)/,''));a.textContent=translations(locale)[`language.${item}`]||item;a.dataset.locale=item;a.setAttribute('role','menuitem');if(item===locale)a.setAttribute('aria-current','true');return a;}));}
+ const venueLink=document.querySelector('header nav>a');if(venueLink)venueLink.href=route('/venues/');
+ const brand=document.querySelector('.brand');if(brand)brand.href=route('/');
+ const account=$('account-button');if(account&&!state.me)account.textContent=text('nav.signIn');
+}
+function localizeDynamic(){
+ const values=[['accuracy-short','explorer.sources'],['coverage-note','explorer.sources'],['location-status','explorer.location'],['location-description','explorer.preview'],['distance','explorer.location'],['samples','explorer.preview'],['event-count','explorer.chooseEvent'],['events-status','explorer.noEvents'],['layout-state','explorer.layout'],['source-link','common.source'],['gesture-hint','explorer.seatView'],['roof-note','common.illustrative'],['free-venue-summary','explorer.freeSummary'],['guide-title','explorer.title']];
+ for(const [id,key] of values){const node=$(id);if(node&&(!node.textContent.trim()||node.dataset.localePlaceholder==='true')){node.textContent=text(key);node.dataset.localePlaceholder='true';}}
+ const sourceSummary=document.querySelector('.sources summary');if(sourceSummary)sourceSummary.firstChild.textContent=text('explorer.sources')+' ';
+ const venueField=document.querySelector('.venue-field');if(venueField)venueField.firstChild.textContent=text('explorer.chooseVenue')+' ';
+}
 function link(text,url){const a=element('a',text);if(/^https:\/\//.test(url)){a.href=url;a.target='_blank';a.rel='noopener noreferrer';}return a;}
 function selectedSection(){return state.venue?.sections.find(s=>s.id===state.sectionId)||state.venue?.sections[0];}
 function selectedPosition(){return Array.isArray(state.result?.position)?state.result.position:selectedSection()?.center;}
@@ -149,7 +170,7 @@ function render(){
   $('scene').hidden=state.mode!=='3d';$('map').toggleAttribute('hidden',state.mode!=='2d');renderViewControls();
   updateGestureHint();
   $('mode-2d').classList.toggle('active',state.mode==='2d');$('mode-3d').classList.toggle('active',state.mode==='3d');
-  renderMap();viewer?.setData(v,state.sectionId,selectedPosition(),state.layout,located);viewer?.toggleRoof(state.roofVisible);viewer?.togglePhoneFrame(state.phoneFrame);
+  renderMap();viewer?.setData(v,state.sectionId,selectedPosition(),state.layout,located);viewer?.toggleRoof(state.roofVisible);viewer?.togglePhoneFrame(state.phoneFrame);localizeDynamic();
 }
 async function refreshAccount(){
   state.me=await api('/api/me');const {user,access,providers}=state.me;
@@ -298,6 +319,7 @@ document.addEventListener('keydown',e=>{if(e.key==='Escape'&&$('viewer').classLi
  svg.addEventListener('wheel',e=>{if(!state.mapTransform)return;e.preventDefault();state.mapTransform=zoomMap(state.mapTransform,Math.exp(-e.deltaY*.002));updateMapViewport();},{passive:false});
  svg.addEventListener('keydown',e=>{if(!state.mapTransform||e.target!==svg)return;const actions={'+':t=>zoomMap(t,1.25),'=':t=>zoomMap(t,1.25),'-':t=>zoomMap(t,.8),'0':resetMap};if(actions[e.key]){e.preventDefault();state.mapTransform=actions[e.key](state.mapTransform);updateMapViewport();}});
 }
+localizeShell();
 $('account-button').onclick=()=>open(state.me?.user?'account-dialog':'login-dialog');$('plan-button').onclick=()=>open('plan-dialog');$('saved-button').onclick=saved;
 $('manage-plan').onclick=()=>open('plan-dialog');
 let resendUntil=0,resendTimer=null;

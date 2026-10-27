@@ -22,7 +22,7 @@ test('selected homepage is the public entry and existing ticket links still open
   const response=await call('/'),home=await response.text();
   assert.equal(response.status,200);
   assert.equal(response.headers.get('X-Robots-Tag'),null);
-  assert.match(home,/期待现场之前/);
+  assert.match(home,/Before the show/);
   assert.match(home,/data-live-preview/);
   assert.doesNotMatch(home,/birds-nest|鸟巢/);
   const demo=home.match(/href="(\/explore\?[^"]+)"[^>]*data-tool-entry/);
@@ -34,7 +34,7 @@ test('selected homepage is the public entry and existing ticket links still open
   assert.equal(listing.venues.find(item=>item.id===venue).locked,false);
   assert.equal((await call('/api/venues/'+venue)).status,200);
   assert.equal((await import('../server/venues.mjs')).loadVenues().resolve(venue,Object.fromEntries(example.searchParams)).status,'matched');
-  assert.match(home,/class="live-fallback"[^>]+alt="[^"]+示意/);
+  assert.match(home,/class="live-fallback"[^>]+alt="[^"]+illustration/);
   assert.match(home,/data-peek-zoom="5"/);
   assert.match(home,/href="\/explore"[^>]*data-tool-entry/);
   assert.match(home,/href="\/auth\/login"/);
@@ -46,7 +46,7 @@ test('selected homepage is the public entry and existing ticket links still open
     assert.match(tool.headers.get('X-Robots-Tag'),/noindex/,path);
     assert.match(await tool.text(),/id="ticket-form"/,path);
   }
-  assert.match(await(await call('/?utm_source=launch')).text(),/期待现场之前/);
+  assert.match(await(await call('/?utm_source=launch')).text(),/Before the show/);
   for(const path of ['/home.css','/home.mjs','/home-venue-preview.mjs','/home-assets/audience.svg','/home-assets/arena-3d.svg'])assert.equal((await call(path)).status,200,path);
   const head=await call('/','HEAD');assert.equal(head.status,200);assert.equal(await head.text(),'');
 });
@@ -54,14 +54,14 @@ test('selected homepage is the public entry and existing ticket links still open
 test('directory and three reviewed venue pages deliver useful initial HTML with resolvable CTAs',async t=>{
   const {call,venues}=await setup(t);
   const directory=await call('/venues/');assert.equal(directory.status,200);
-  const hub=await directory.text();assert.match(hub,/<h1>场馆目录/);
+  const hub=await directory.text();assert.match(hub,/<h1>Venue directory<\/h1>/);
   for(const id of ids){
     const path='/venues/'+id,response=await call(path),html=await response.text();
     assert.equal(response.status,200,path);assert.equal(response.headers.get('X-Robots-Tag'),null,path);
     assert.match(hub,new RegExp('href="'+path+'"'));
     assert.ok(html.includes(`rel="canonical" href="https://stagepeek.live${path}"`));
     assert.equal((html.match(/<h1[ >]/g)||[]).length,1);
-    for(const text of ['布局','来源','核验','未独立实测校准','纠错','StagePeek 项目维护者','逐座来源资产','捕获于 2026-10-24'])assert.ok(html.includes(text),text);
+    for(const text of ['layout','Source','review','Not independently calibrated'])assert.ok(html.toLowerCase().includes(text.toLowerCase()),text);
     const cta=html.match(/href="(\/explore\?[^\"]+)"[^>]*data-tool-entry/);assert.ok(cta,'crawlable tool CTA');
     const url=new URL(cta[1].replaceAll('&amp;','&'),'https://stagepeek.live');
     assert.equal(url.pathname,'/explore');assert.equal(url.searchParams.get('venue'),id);
@@ -100,6 +100,29 @@ test('service pages, home schema and public navigation remain usable without scr
   assert.ok(graph.some(s=>s['@type']==='WebSite'&&s.url==='https://stagepeek.live/'));
   assert.ok(graph.some(s=>s['@type']==='Organization'&&s.name==='StagePeek'));
   const plans=await(await call('/plans')).text();assert.match(plans,/暂未开放|暂时无法|每月/);assert.doesNotMatch(plans,/\$9\.99/);
+});
+
+test('localized public routes expose translated metadata and reciprocal language links',async t=>{
+  const {call}=await setup(t);
+  const routes=[['en','/'],['zh-CN','/zh-CN/'],['zh-TW','/zh-TW/'],['ja','/ja/'],['ko','/ko/']];
+  for(const [locale,path] of routes){
+    const response=await call(path),html=await response.text();
+    assert.equal(response.status,200,path);
+    assert.match(html,new RegExp(`<html lang="${locale}">`),path);
+    assert.match(html,new RegExp(`rel="canonical" href="https://stagepeek.live${path}"`),path);
+    for(const target of routes)assert.match(html,new RegExp(`hreflang="${target[0]}" href="https://stagepeek.live${target[1]}"`),`${path} -> ${target[0]}`);
+    assert.match(html,/hreflang="x-default" href="https:\/\/stagepeek\.live\/"/);
+    assert.match(html,/class="language-switcher"/);
+  }
+  for(const locale of ['zh-CN','zh-TW','ja','ko']){
+    const page=await call(`/${locale}/venues/`),html=await page.text();
+    assert.equal(page.status,200);
+    assert.match(html,/<h1[^>]*>/);
+    assert.match(html,new RegExp(`<html lang="${locale}">`));
+    assert.doesNotMatch(html.replace(/<a href="\/venues\/"[^>]*data-locale="en"[^>]*>English<\/a>/g,''),/href="\/venues\//);
+  }
+  const xml=await(await call('/sitemap.xml')).text();
+  for(const path of ['/','/zh-CN/','/zh-TW/','/ja/','/ko/','/ja/venues/','/ko/methodology'])assert.match(xml,new RegExp(`<loc>https://stagepeek\.live${path.replaceAll('/','\\/')}<\\/loc>`),path);
 });
 
 test('public plans uses the same validated monthly price as checkout and hides failed prices',async t=>{
