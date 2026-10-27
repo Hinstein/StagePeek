@@ -33,18 +33,18 @@
 
 最终验证结果和部署信息已在本记录末尾补充。HTTP 证据见 [live-http.json](live-http.json)。现场截图：[英文桌面首页](live-home-en-desktop.png)、[英文移动首页](live-home-en-mobile.png)。
 
-- 线上路由抽检共 85 地址：五语下各 17 个页面返回 200，语言标记正确，无 undefined 标题；最终代码 SHA 已更新为 `f85a49210870b73629a60f66b9a93536d7a75473`。
+- 线上路由抽检共 85 地址：五语下各 17 个页面返回 200，语言标记正确，无 undefined 标题；最终代码 SHA 已更新为 `a5622a384d657496acaadd00697bff647657374d`。
 - 45 个可索引公共页面各有自引用 canonical、五语 reciprocal hreflang 与 x-default；sitemap 包含 45 个 URL。这不代表 Google 已实际收录。
 - 日文首页免费入口实际匹配启德 101/A/78，无 Pro 弹窗；3D 引擎正常启动。线上探索页切换到韩文后仍保留 `kai-tak-stadium`、101/A/78、`mode=3d` 与倍率参数。
 - 账号页已验证繁体→日文切换；韩文注册表单可见，未提交注册或修改账号。
 - 手机视口检查为浏览器 390×844 模拟，并非实体设备测试；英文首页 `scrollWidth=390`，未发现横向溢出。
 - 最终构建通过；完整测试共 180 项，179 项通过、0 项失败、1 项 PostgreSQL 集成测试跳过。
-- Coolify 部署 `200m0m1pqmqdbgzfadzi7y3r` 于 2026-10-27 08:15:03 UTC 完成，VPS3 健康检查通过。
+- Coolify 部署 `3ggixn0kurst11pqcsc4vcqv` 于 2026-10-27 08:48:13 UTC 完成，VPS3 健康检查通过。
 
 ## 版本与回滚
 
-- 最终应用代码：`f85a49210870b73629a60f66b9a93536d7a75473`。
+- 最终应用代码：`a5622a384d657496acaadd00697bff647657374d`。
 - 发布位置：GitHub `Hinstein/StagePeek` 的 `main`；原 Coolify 应用 `capinwnna0ijx4rafkwju3ms`，VPS3；VPS1 HTTPS 入口。
 - 延用共享 Supabase PostgreSQL / Auth、Brevo 邮件与现有 Umami 网站；无数据库迁移、权限或凭据变更。
-- 保留可回滚应用版本 `16a48b9d6a19a6b60cf26b1ed0227e10b2dd217d`；更早稳定首页版本 `befa994406ba4c64240207202119baab95d513a5`。需要回滚时在原应用 Git Source 设置完整 SHA 后重新部署；数据卷和共享服务保持原配置。
+- 保留可回滚应用版本 `f85a49210870b73629a60f66b9a93536d7a75473`（再前一版本为 `16a48b9d6a19a6b60cf26b1ed0227e10b2dd217d`）；更早稳定首页版本 `befa994406ba4c64240207202119baab95d513a5`。需要回滚时在原应用 Git Source 设置完整 SHA 后重新部署；数据卷和共享服务保持原配置。
 - 发布使用隔离 checkout `/private/tmp/stagepeek-multilingual-review`，避免将共享工作区其他未完成变更带上线。
