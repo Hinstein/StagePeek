@@ -11,7 +11,7 @@ import './language-switcher.mjs';
 const $=id=>document.getElementById(id);
 const locale=getLocale(),route=path=>localizedPath(locale,path),text=(key,values)=>t(key,values);
 const state={me:null,catalog:[],venueId:'tottenham',venue:null,sectionId:'122',result:null,layout:'end',mode:'2d',event:null,mapTransform:null,phoneFrame:false,roofVisible:false,zoom:1};
-let viewer=null,viewerCameraMode='overview',loadVersion=0,resolveVersion=0,loginToken=null,toastTimer=null;
+let viewer=null,viewerCameraMode='overview',loadVersion=0,resolveVersion=0,loginToken=null,toastTimer=null,accountHydrated=false;
 const messages={SUBSCRIPTION_REQUIRED:copy("这个场馆需要月订阅，请先升级 Pro。"),LOGIN_REQUIRED:copy("请先登录。"),INVALID_EMAIL:copy("请输入有效的邮箱地址。"),INVALID_LINK:copy("登录链接已失效，或与申请时的浏览器不一致，请重新申请。"),RATE_LIMITED:copy("操作有些频繁，请稍后再试。"),GOOGLE_NOT_CONFIGURED:copy("Google 登录暂未开放。"),EMAIL_NOT_CONFIGURED:copy("邮件登录暂未开放。"),BILLING_NOT_CONFIGURED:copy("月订阅暂未开放。"),LINK_REQUIRED:copy("这个邮箱已有账号。请先用邮箱登录，再在我的账号中关联 Google。"),SAVE_LIMIT:copy("已达到当前套餐的位置保存上限。"),ALREADY_SUBSCRIBED:copy("你已订阅，可在账单中心管理。"),NO_SUBSCRIPTION:copy("当前没有可管理的账单账号。"),SEAT_UNVERIFIED:copy("该排座尚无核实记录，请先选择已有的采样位置。"),GOOGLE_CANCELED:copy("已取消 Google 登录。")};
 function message(error){return {INVALID_OTP:copy("验证码错误或已过期，请重新获取。"),OTP_EXPIRED:copy("验证已过期，请重新发送验证码。"),AUTH_UNAVAILABLE:copy("登录服务暂不可用，请稍后重试。"),MEMBERSHIP_REQUIRED:copy("该账号暂时无法访问 StagePeek，请重新登录。"),CHECKOUT_PENDING:copy("已有付款流程待确认，请稍后刷新或使用账单中心，避免重复付款。"),BILLING_REVIEW_REQUIRED:copy("该账单账号需要核查，请先通过账单中心管理订阅。")}[error.code]||messages[error.code]||copy("暂时无法完成，请稍后重试。");}
 async function api(path,{method='GET',body}={}){
@@ -28,7 +28,8 @@ function updateLocateAvailability(){
   const ready=!!state.venue&&$('venue').value===state.venueId&&Boolean($('section')?.value&&$('row')?.value&&$('seat')?.value);
   const button=$('locate');if(!button)return;button.disabled=!ready||button.getAttribute?.('aria-busy')==='true';button.title=ready?'':copy("请输入场馆、区号、排和座号");
 }
-function open(id){if(id==='login-dialog')window.stagepeekTrack?.('login_started');if(id==='plan-dialog')window.stagepeekTrack?.('plan_open');if(state.me?.providers.auth==='supabase'&&(['login-dialog','account-dialog'].includes(id)||state.me?.consent?.required)){const next=venueReturn(state,{section:$('section').value,row:$('row').value,seat:$('seat').value});location.assign(route(id==='account-dialog'||state.me?.consent?.required?'/account':'/auth/login')+'?next='+encodeURIComponent(localizedPath(locale,next)));return;}for(const d of document.querySelectorAll('dialog[open]'))d.close();$(id).showModal();}
+function venueAccess(id=state.venueId){return state.catalog?.find(item=>item.id===id)?.locked?'pro':'free';}
+function open(id){if(id==='login-dialog')window.stagepeekTrack?.('login_started');if(id==='plan-dialog'){window.stagepeekTrack?.('plan_open');if(!state.me?.providers?.billing)window.stagepeekTrack?.('checkout_blocked',{reason:'billing_unavailable'});}if(state.me?.providers.auth==='supabase'&&(['login-dialog','account-dialog'].includes(id)||state.me?.consent?.required)){const next=venueReturn(state,{section:$('section').value,row:$('row').value,seat:$('seat').value});location.assign(route(id==='account-dialog'||state.me?.consent?.required?'/account':'/auth/login')+'?next='+encodeURIComponent(localizedPath(locale,next)));return;}for(const d of document.querySelectorAll('dialog[open]'))d.close();$(id).showModal();}
 function element(tag,text,className){const el=document.createElement(tag);if(text!==undefined)el.textContent=text;if(className)el.className=className;return el;}
 function localizeShell(){
  document.documentElement.lang=locale;
@@ -178,8 +179,10 @@ function render(){
   updateExplorerSteps();
 }
 async function refreshAccount(){
-  state.me=await api('/api/me');const {user,access,providers}=state.me;
+  const previousUser=state.me?.user,previousPlan=state.me?.access?.plan;state.me=await api('/api/me');const {user,access,providers}=state.me;
   window.stagepeekSignedIn=!!user;
+  if(accountHydrated&&!previousUser&&user)window.stagepeekTrack?.('login_completed');
+  if(accountHydrated&&previousPlan!=='pro'&&access.plan==='pro')window.stagepeekTrack?.('subscription_active');
   $('account-button').textContent=user?copy("我的账号"):copy("登录");$('plan-label').textContent={guest:copy("免费体验"),free:copy("免费账号"),pro:copy("Pro 月订阅")}[access.plan];
   $('account-email').textContent=user?.email||'';
   $('account-plan').textContent=access.plan==='pro'?(state.me.subscription?.cancel_at_period_end?copy("已取消续订，当前周期结束前仍可使用。"):copy("Pro 月订阅生效中。")):copy("免费账号 · 可保存 8 个位置");
@@ -189,6 +192,7 @@ async function refreshAccount(){
   $('billing-portal').hidden=providers.localBilling||!user||!state.me.subscription;$('checkout').hidden=access.plan==='pro';
   $('checkout').disabled=!providers.billing;$('checkout').textContent=providers.localBilling?copy("本地模拟升级 Pro"):copy("按月订阅");$('billing-feedback').textContent=providers.localBilling?copy("本地模拟流程：不会扣款；正式环境需要 Stripe。"):providers.billing?'':copy("月订阅暂未开放，当前可免费体验精选场馆。");
   if(providers.billing)try{const {price}=await api('/api/billing/price');$('monthly-price').textContent=new Intl.NumberFormat('en-US',{style:'currency',currency:price.currency}).format(price.amount/100)+copy(" / 月");}catch(error){$('billing-feedback').textContent=message(error);$('checkout').disabled=true;}
+  accountHydrated=true;
 }
 function renderVenuePicker(country,selectedId=''){
   const groups=groupVenuesByCountry(state.catalog).sort((a,b)=>countryName(a.country,locale).localeCompare(countryName(b.country,locale),locale));
@@ -258,12 +262,14 @@ function chooseEstimatedSeat(record){
 }
 async function chooseSample(sample){$('section').value=sample.section;$('row').value=sample.row;$('seat').value=sample.seat;await locate({intentional:true});}
 async function locate({intentional=false}={}){const version=++resolveVersion,id=state.venueId,requestedVenue=state.venue;setBusy('locate',true,copy("正在查找座位…"));setStatus('location-status',copy("正在核对来源记录…"),'loading');setStatus('explorer-status',copy("正在核对你的票面位置…"),'loading');
+  if(intentional)window.stagepeekTrack?.('ticket_search',{venue_access:state.catalog?.find(item=>item.id===id)?.locked?'pro':'free'});
   try{const found=await api(`/api/venues/${id}/resolve`,{method:'POST',body:{layout:state.venue?.seatLayout?.id,section:$('section').value,row:$('row').value,seat:$('seat').value}});
     if(version!==resolveVersion||id!==state.venueId||state.venue!==requestedVenue)return;state.result=found;if(found.sectionId){state.sectionId=found.sectionId;state.mapTier=state.venue.sections.find(s=>s.id===found.sectionId)?.tier;}render();setStatus('explorer-status',found.status==='matched'?copy("已找到座位，请查看下方视角。"):copy("暂时无法核实这个座位，请查看下方分区预览。"),found.status==='matched'?'success':'error');
+    if(intentional)window.stagepeekTrack?.(found.status==='matched'?'ticket_match':'ticket_miss',{result:found.status==='estimated'?'estimated':found.status==='ambiguous'?'ambiguous':found.status==='unknown-section'||found.status==='unknown-layout'?'not_found':'unavailable'});
     if(found.status==='matched'&&Array.isArray(found.position)){viewer?.seatView();if(intentional)window.stagepeekTrack?.('seat_located');}
     else{viewer?.near();toast(found.status==='matched'?copy("票号存在，但缺少座位坐标；当前仅显示分区。"):found.status==='ambiguous'?copy("来源含重复票号，未自动选择任何座位。"):found.status==='unknown-section'?copy("尚未找到这个分区。"):copy("这组排座尚无公开坐标，先显示分区预览。"));}
     if(intentional&&found.status==='matched')$('location-status').focus?.();
-  }catch(error){toast(message(error));setStatus('location-status',copy("座位暂时无法核对，请重试。"),'error');setStatus('explorer-status',copy("座位暂时无法核对，请重试。"),'error');}finally{if(version===resolveVersion){setBusy('locate',false,copy("找到我的座位"));$('locate').disabled=!Boolean($('section').value&&$('row').value&&$('seat').value);}}
+  }catch(error){if(intentional)window.stagepeekTrack?.('ticket_miss',{result:'unavailable'});toast(message(error));setStatus('location-status',copy("座位暂时无法核对，请重试。"),'error');setStatus('explorer-status',copy("座位暂时无法核对，请重试。"),'error');}finally{if(version===resolveVersion){setBusy('locate',false,copy("找到我的座位"));$('locate').disabled=!Boolean($('section').value&&$('row').value&&$('seat').value);}}
 }
 async function loadEvents(id,version){$('events-retry').hidden=true;$('events-list').replaceChildren(element('p',copy("正在读取官方演出信息…"),'muted'));setStatus('events-status',copy("正在读取演出信息…"),'loading');
   try{const result=await api(`/api/venues/${id}/events`);if(version!==loadVersion)return;
@@ -302,12 +308,12 @@ async function saved(){if(!state.me?.user){open('login-dialog');return;}open('sa
 for(const button of document.querySelectorAll('[data-close]'))button.onclick=()=>button.closest('dialog').close();
 for(const dialog of document.querySelectorAll('dialog'))dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close();}});
 $('venue-country').onchange=()=>{renderVenuePicker($('venue-country').value);setStatus('venue-status',text('explorer.pickVenue'),'loading');};
-$('ticket-form').onsubmit=e=>{e.preventDefault();locate({intentional:true});};$('venue').onchange=()=>{const venue=state.catalog.find(x=>x.id===$('venue').value);if(venue?.locked){$('venue').value=venueCountry(state.venue)===$('venue-country').value?state.venueId:'';open('plan-dialog');}else loadVenue($('venue').value);};
+ $('ticket-form').onsubmit=e=>{e.preventDefault();locate({intentional:true});};$('venue').onchange=()=>{const venue=state.catalog.find(x=>x.id===$('venue').value);if(venue?.locked){window.stagepeekTrack?.('venue_selected',{venue_access:'pro'});$('venue').value=venueCountry(state.venue)===$('venue-country').value?state.venueId:'';open('plan-dialog');}else if(venue){window.stagepeekTrack?.('venue_selected',{venue_access:'free'});loadVenue(venue.id);}};
 for(const input of document.querySelectorAll('#ticket-form input,#ticket-form select')){input.addEventListener('input',()=>{updateLocateAvailability();updateExplorerSteps();});input.addEventListener('change',()=>{updateLocateAvailability();updateExplorerSteps();});}
 $('venue-retry').onclick=async()=>{const id=$('venue').value||state.venueId;if(state.catalog.length)await loadVenue(id);else try{await loadCatalog();await loadVenue(id);}catch{}}
 $('events-retry').onclick=()=>loadEvents(state.venueId,loadVersion);
  $('stage-layout').onchange=()=>{if(state.event){renderStageOptions();return;}const value=$('stage-layout').value;if(value==='event'&&state.event?.layout?.model){state.layout='event';}else if(state.venue?.seatLayouts)loadVenue(state.venueId,value);else{state.layout=value;state.venue={...state.venue,eventLayout:null};renderEventLayout();render();}};
-for(const mode of ['2d','3d'])$('mode-'+mode).onclick=async()=>{state.mode=mode;render();if(mode==='3d'){await ensureViewer();if(state.mode==='3d')window.stagepeekTrack?.('view_3d');}render();viewer?.setMode(state.mode);};
+for(const mode of ['2d','3d'])$('mode-'+mode).onclick=async()=>{state.mode=mode;render();if(mode==='3d'){await ensureViewer();if(state.mode==='3d')window.stagepeekTrack?.('view_3d');}else window.stagepeekTrack?.('view_2d');render();viewer?.setMode(state.mode);};
 $('overview').onclick=()=>viewer?.overview();$('reset').onclick=()=>viewer?.overview(true);$('near').onclick=()=>viewer?.near();$('seat-view').onclick=()=>viewer?.seatView();
 for(const [id,action]of [['map-zoom-out',t=>zoomMap(t,.8)],['map-zoom-in',t=>zoomMap(t,1.25)],['map-rotate',t=>rotateMap(t,90)],['map-reset',resetMap]])$(id).onclick=()=>{if(!state.mapTransform)return;state.mapTransform=action(state.mapTransform);updateMapViewport();};
 for(const button of document.querySelectorAll('[data-zoom]'))button.onclick=()=>{state.zoom=Number(button.dataset.zoom);viewer?.setZoom(state.zoom);for(const other of document.querySelectorAll('[data-zoom]'))other.classList.toggle('active',other===button);};
@@ -380,8 +386,8 @@ async function google(){try{const result=await api('/api/auth/google/start',{met
 $('google-login').onclick=google;$('connect-google').onclick=google;
 $('confirm-login').onclick=async()=>{$('confirm-login').disabled=true;try{await api('/api/auth/email/verify',{method:'POST',body:{token:loginToken}});loginToken=null;history.replaceState(null,'',location.pathname);$('confirm-dialog').close();await refreshAccount();await loadCatalog();toast(copy("登录成功。"));}catch(error){$('confirm-feedback').textContent=message(error);}finally{$('confirm-login').disabled=false;}};
 $('logout').onclick=async()=>{try{await api('/api/auth/logout',{method:'POST',body:{}});$('account-dialog').close();await refreshAccount();await loadCatalog();if(!state.me.access.venueIds.includes(state.venueId))await loadVenue('tottenham');toast(copy("已退出登录。"));}catch(error){toast(message(error));}};
-for(const [button,path]of [['checkout','checkout'],['billing-portal','portal']])$(button).onclick=async()=>{if(state.me?.consent?.required){open('account-dialog');return;}if(!state.me?.user){open('login-dialog');return;}$(button).disabled=true;try{const result=await api('/api/billing/'+path,{method:'POST',body:{}});location.assign(result.url);}catch(error){$('billing-feedback').textContent=message(error);}finally{$(button).disabled=false;}};
-$('save-position').onclick=async()=>{if(state.me?.consent?.required){open('account-dialog');return;}if(!state.me?.user){setStatus('save-feedback',copy("登录后即可保存这个座位。"),'error');open('login-dialog');return;}const r=state.result;if(r?.status!=='matched')return;setStatus('save-feedback',copy("正在保存…"),'loading');$('save-position').disabled=true;try{await api('/api/positions',{method:'POST',body:{venueId:state.venueId,layout:state.venue?.seatLayout?.id,section:r.section,row:r.row,seat:r.seat,eventId:state.event?.id}});setStatus('save-feedback',copy("已保存。可在账号页查看收藏。"),'success');toast(copy("位置已保存。"));}catch(error){setStatus('save-feedback',message(error),'error');}finally{if(state.result?.status==='matched')$('save-position').disabled=false;}};
+for(const [button,path]of [['checkout','checkout'],['billing-portal','portal']])$(button).onclick=async()=>{if(state.me?.consent?.required){window.stagepeekTrack?.('checkout_blocked',{reason:'consent_required'});open('account-dialog');return;}if(!state.me?.user){window.stagepeekTrack?.('checkout_blocked',{reason:'login_required'});open('login-dialog');return;}if(!state.me?.providers.billing){window.stagepeekTrack?.('checkout_blocked',{reason:'billing_unavailable'});return;}$(button).disabled=true;if(path==='checkout')window.stagepeekTrack?.('checkout_started',{provider:'stripe'});try{const result=await api('/api/billing/'+path,{method:'POST',body:{}});location.assign(result.url);}catch(error){window.stagepeekTrack?.('checkout_failed',{reason:error.status>=500?'provider_error':'network'});$('billing-feedback').textContent=message(error);}finally{$(button).disabled=false;}};
+$('save-position').onclick=async()=>{if(state.me?.consent?.required){window.stagepeekTrack?.('save_prompt',{reason:'consent_required'});open('account-dialog');return;}if(!state.me?.user){window.stagepeekTrack?.('save_prompt',{reason:'login_required'});setStatus('save-feedback',copy("登录后即可保存这个座位。"),'error');open('login-dialog');return;}const r=state.result;if(r?.status!=='matched')return;setStatus('save-feedback',copy("正在保存…"),'loading');$('save-position').disabled=true;try{await api('/api/positions',{method:'POST',body:{venueId:state.venueId,layout:state.venue?.seatLayout?.id,section:r.section,row:r.row,seat:r.seat,eventId:state.event?.id}});window.stagepeekTrack?.('save_position',{venue_access:venueAccess()});setStatus('save-feedback',copy("已保存。可在账号页查看收藏。"),'success');toast(copy("位置已保存。"));}catch(error){setStatus('save-feedback',message(error),'error');}finally{if(state.result?.status==='matched')$('save-position').disabled=false;}};
 let viewerLoading=null;
 async function ensureViewer(){
   if(viewer)return;
@@ -411,5 +417,5 @@ try{
   if(params.get('mode')==='3d'){state.mode='3d';await ensureViewer();render();}else{state.mode='2d';render();}
   if(params.get('account')==='billing')open('plan-dialog');
   if(params.has('auth_error'))toast(messages[params.get('auth_error')]||copy("登录未完成，请重试。"));
-  if(params.get('billing')==='success'){toast(copy("支付已返回，订阅状态将在付款确认后更新。"));let count=0;const timer=setInterval(async()=>{try{await refreshAccount();if(state.me.access.plan==='pro'){clearInterval(timer);await loadCatalog();toast(copy("月订阅已生效。"));}}catch{}if(++count>=10)clearInterval(timer);},2000);}
+  if(params.get('billing')==='success'){window.stagepeekTrack?.('billing_return');toast(copy("支付已返回，订阅状态将在付款确认后更新。"));let count=0;const timer=setInterval(async()=>{try{await refreshAccount();if(state.me.access.plan==='pro'){window.stagepeekTrack?.('subscription_active');clearInterval(timer);await loadCatalog();toast(copy("月订阅已生效。"));}}catch{}if(++count>=10)clearInterval(timer);},2000);}
 }catch(error){$('venue-name').textContent=copy("暂时无法载入场馆");toast(copy("服务暂不可用，请检查连接并刷新。"));}

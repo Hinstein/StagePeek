@@ -118,8 +118,8 @@ test('automatic example matches do not count as intentional seat location',async
  const automatic=h.locate();h.requests[0].resolve(resolveRequest(h.requests[0],'kai-tak-stadium'));await automatic;
  assert.equal(h.state.result.status,'matched');assert.deepEqual(h.tracked,[]);
  const manual=h.locate({intentional:true});h.requests[1].resolve(resolveRequest(h.requests[1],'kai-tak-stadium'));await manual;
- assert.deepEqual(h.tracked,['seat_located']);
+ assert.deepEqual(h.tracked,['ticket_search','ticket_match','seat_located']);
  ticket(h,'101','unknown','unknown');
  const unmatched=h.locate({intentional:true});h.requests[2].resolve(resolveRequest(h.requests[2],'kai-tak-stadium'));await unmatched;
- assert.deepEqual(h.tracked,['seat_located']);
+ assert.deepEqual(h.tracked,['ticket_search','ticket_match','seat_located','ticket_search','ticket_miss']);
 });
