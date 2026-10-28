@@ -19,3 +19,10 @@
 本轮不修改座位来源、3D几何、鉴权协议、订阅权限、生产配置或用户数据。不执行真实注册、发信或付款。
 
 自动检查：`npm run build` 通过；`npm test` 190项，189通过、1项真实PostgreSQL集成测试按配置跳过、0失败；`git diff --check` 通过。首次沙箱内测试因禁止本机监听失败，获准在可监听环境重跑后通过。
+
+## 线上发布
+
+- Git：`fe7faf04427e6f40f6717c14ff0b9a9cf9ea8199`
+- Coolify：`yz2jpuyghcocqjvztwqrk9o7`，VPS3，Finished
+- 健康检查：`/healthz` 与 `/api/health` 均返回成功；应用保持 running。
+- 公网复核：中文首页导航顺序和按钮高度一致；启德深链接显示中国香港筛选及当地场馆，101/A/78 成功匹配；桌面截图见 `catalog-polish-live-home-20261028.png` 和 `catalog-polish-live-explorer-20261028.png`。
