@@ -10,7 +10,7 @@ document.querySelectorAll('[data-peek-zoom]').forEach(button=>button.addEventLis
   const wrap=button.closest('.view-peek');
   wrap.querySelector('[data-peek-scene]').style.transform=`scale(${Number(button.dataset.peekZoom)})`;
   wrap.querySelector('[data-peek-scene]').style.transformOrigin='50% 57%';
-  wrap.querySelectorAll('[data-peek-zoom]').forEach(item=>item.setAttribute('aria-pressed',String(item===button)));
+  wrap.querySelectorAll('[data-peek-zoom]').forEach(item=>item.setAttribute('aria-pressed',String(item.dataset.peekZoom===button.dataset.peekZoom)));
 }));
 
 fetch('/api/me',{cache:'no-store'}).then(response=>response.ok?response.json():null).then(me=>{

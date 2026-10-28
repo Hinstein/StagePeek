@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {loadVenues} from '../server/venues.mjs';
 import {interfaceCopy} from '../public/translations/interface.mjs';
+import {venueCountry} from '../public/catalog.mjs';
 import {unpackSourceSeats} from '../public/seating.mjs';
 
 const appSource=readFileSync(new URL('../public/app.mjs',import.meta.url),'utf8');
@@ -18,9 +19,9 @@ function harness(id='asiaworld-viva',layout='end'){
  const $=id=>{if(!nodes.has(id))nodes.set(id,{value:'',disabled:false,replaceChildren(){},append(){}});return nodes.get(id);};
  const api=(path,options)=>{const pending=deferred();requests.push({path,body:options?.body,...pending});return pending.promise;};
  const viewer={near:()=>camera.push('near'),seatView:()=>camera.push('seat')};
- const create=new Function('state','$','api','viewer','render','toast','message','open','element','loadEvents','unpackSourceSeats','window','copy',
+ const create=new Function('state','$','api','viewer','render','toast','message','open','element','loadEvents','unpackSourceSeats','window','copy','renderVenuePicker','venueCountry',
   `let loadVersion=0,resolveVersion=0;${selectionSource};return {loadVenue,locate,chooseSection,chooseEstimatedSeat,applyRequestedSection,applyRequestedLayout};`);
- const actions=create(state,$,api,viewer,()=>{},()=>{},String,()=>{},()=>({}),async()=>{},unpackSourceSeats,{stagepeekTrack:name=>tracked.push(name)},(source,values)=>interfaceCopy(source,values,'zh-CN'));
+ const actions=create(state,$,api,viewer,()=>{},()=>{},String,()=>{},()=>({}),async()=>{},unpackSourceSeats,{stagepeekTrack:name=>tracked.push(name)},(source,values)=>interfaceCopy(source,values,'zh-CN'),()=>{},venueCountry);
  actions.chooseSection(state.venue.sections[0].id,false);
  return {state,$,requests,camera,tracked,...actions};
 }

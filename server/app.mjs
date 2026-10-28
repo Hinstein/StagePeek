@@ -14,7 +14,7 @@ import {EmailProvider,GoogleProvider} from './providers.mjs';
 import {TicketmasterProvider,ticketingStatus} from './ticketing.mjs';
 import {analyticsMarkup,ANALYTICS_ORIGIN} from './analytics.mjs';
 import {birdsNestPreview} from './venue-preview.mjs';
-import {createPublicSite,homeMetadata,homeSchema,localizeHomeHtml,localizeInterfaceHtml,publicNavigation} from './public-pages.mjs';
+import {createPublicSite,homeMetadata,homeSchema,localizeHomeHtml,localizeInterfaceHtml,publicNavigation,publicFooter} from './public-pages.mjs';
 import {DEFAULT_LOCALE,localizedPath,parseLocalizedPath} from './locales.mjs';
 
 const publicRoot=resolve(fileURLToPath(new URL('../public/',import.meta.url)));
@@ -258,10 +258,10 @@ export function createApplication({db,config,venues,events=null,ticketing=null,t
       if(basePath.startsWith('/previews/')&&basePath.endsWith('.svg')&&content){
         content=Buffer.from(localizeInterfaceHtml(content.toString('utf8'),locale,basePath));
       }else if(basePath==='/'&&!toolPage&&content){
-        const html=localizeHomeHtml(content.toString('utf8').replace('<!--PUBLIC-SCHEMA-->',homeSchema(locale)).replace('<!--PUBLIC-NAVIGATION-->',publicNavigation(locale)).replace('<!--VENUE-GUIDES-->',publicSite.homeEnhancements(locale)).replace('<html lang="zh-CN">',`<html lang="${locale}">`),locale);
+        const html=localizeHomeHtml(content.toString('utf8').replace('<!--PUBLIC-SCHEMA-->',homeSchema(locale)).replace('<!--PUBLIC-NAVIGATION-->',publicNavigation(locale)).replace('<!--VENUE-GUIDES-->',publicSite.homeEnhancements(locale)).replace('<html lang="zh-CN">',`<html lang="${locale}">`),locale).replace('<!--SITE-FOOTER-->',publicFooter(locale));
         content=Buffer.from(html.replace('</head>',`<meta name="stagepeek-locale" content="${locale}"></head>`));
       }else if(content&&(toolPage||['/auth/login','/auth/register','/auth/verify','/auth/callback','/auth/reset','/auth/password','/auth/continue','/account'].includes(basePath))){
-        const html=localizeInterfaceHtml(content.toString('utf8'),locale,basePath).replace('</head>',`<meta name="stagepeek-locale" content="${locale}"></head>`);
+        const html=localizeInterfaceHtml(content.toString('utf8'),locale,basePath).replace('<!--SITE-FOOTER-->',publicFooter(locale)).replace('</head>',`<meta name="stagepeek-locale" content="${locale}"></head>`);
         content=Buffer.from(html);
       }
       if(tracking){

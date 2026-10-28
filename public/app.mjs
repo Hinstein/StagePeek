@@ -3,7 +3,7 @@ import {unpackSourceSeats} from './seating.mjs';
 import {audienceSightline,displaySectionLabel,sectionPoint,sectionRenderHalfAngle,stageRects,proposedStageRects} from './geometry.mjs';
 import {venueReturn} from './auth-contract.mjs';
 import {resolveInitialRoute} from './route.mjs';
-import {groupVenuesByCountry} from './catalog.mjs';
+import {groupVenuesByCountry,venueCountry} from './catalog.mjs';
 import {groupEventsByDate} from './event-groups.mjs';
 import {createMapTransform,zoomMap,rotateMap,resetMap,panMap} from './explorer-state.mjs';
 import {copy,getLocale,t,setLocaleUrl,localizedPath,parseLocalizedPath,SUPPORTED_LOCALES,translations} from './locales.mjs';
@@ -20,12 +20,12 @@ async function api(path,{method='GET',body}={}){
 }
 function toast(text){$('toast').textContent=text;$('toast').hidden=false;clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('toast').hidden=true,5000);}
 function updateExplorerSteps(){
-  const hasVenue=!!state.venue,hasTicket=!!$('section')?.value&&!!$('row')?.value&&!!$('seat')?.value,hasResult=!!state.result;
-  const current=hasResult?'view':hasTicket?'ticket':hasVenue?'ticket':'venue';
+  const hasVenue=!!state.venue&&$('venue').value===state.venueId,hasTicket=!!$('section')?.value&&!!$('row')?.value&&!!$('seat')?.value,hasResult=!!state.result;
+  const current=!hasVenue?'venue':hasResult?'view':'ticket';
   for(const step of document.querySelectorAll('[data-explorer-step]')){const active=step.dataset.explorerStep===current;step.classList.toggle('is-current',active);step.classList.toggle('is-complete',step.dataset.explorerStep==='venue'&&hasVenue||step.dataset.explorerStep==='ticket'&&hasTicket);if(active)step.setAttribute('aria-current','step');else step.removeAttribute('aria-current');}
 }
 function updateLocateAvailability(){
-  const ready=!!state.venue&&Boolean($('section')?.value&&$('row')?.value&&$('seat')?.value);
+  const ready=!!state.venue&&$('venue').value===state.venueId&&Boolean($('section')?.value&&$('row')?.value&&$('seat')?.value);
   const button=$('locate');if(!button)return;button.disabled=!ready||button.getAttribute?.('aria-busy')==='true';button.title=ready?'':copy("请输入场馆、区号、排和座号");
 }
 function open(id){if(id==='login-dialog')window.stagepeekTrack?.('login_started');if(id==='plan-dialog')window.stagepeekTrack?.('plan_open');if(state.me?.providers.auth==='supabase'&&(['login-dialog','account-dialog'].includes(id)||state.me?.consent?.required)){const next=venueReturn(state,{section:$('section').value,row:$('row').value,seat:$('seat').value});location.assign(route(id==='account-dialog'||state.me?.consent?.required?'/account':'/auth/login')+'?next='+encodeURIComponent(localizedPath(locale,next)));return;}for(const d of document.querySelectorAll('dialog[open]'))d.close();$(id).showModal();}
@@ -190,9 +190,20 @@ async function refreshAccount(){
   $('checkout').disabled=!providers.billing;$('checkout').textContent=providers.localBilling?copy("本地模拟升级 Pro"):copy("按月订阅");$('billing-feedback').textContent=providers.localBilling?copy("本地模拟流程：不会扣款；正式环境需要 Stripe。"):providers.billing?'':copy("月订阅暂未开放，当前可免费体验精选场馆。");
   if(providers.billing)try{const {price}=await api('/api/billing/price');$('monthly-price').textContent=new Intl.NumberFormat('en-US',{style:'currency',currency:price.currency}).format(price.amount/100)+copy(" / 月");}catch(error){$('billing-feedback').textContent=message(error);$('checkout').disabled=true;}
 }
+function renderVenuePicker(country,selectedId=''){
+  const groups=groupVenuesByCountry(state.catalog).sort((a,b)=>countryName(a.country,locale).localeCompare(countryName(b.country,locale),locale));
+  const countrySelect=$('venue-country'),select=$('venue');
+  countrySelect.replaceChildren();
+  for(const group of groups){const option=element('option',`${countryName(group.country,locale)} (${group.venues.length})`);option.value=group.country;countrySelect.append(option);}
+  countrySelect.value=country;countrySelect.disabled=false;
+  const placeholder=element('option',text('explorer.pickVenue'));placeholder.value='';placeholder.disabled=true;select.replaceChildren(placeholder);
+  const venues=groups.find(group=>group.country===country)?.venues||[];
+  for(const venue of [...venues].sort((a,b)=>Number(a.locked)-Number(b.locked)||venueName(a,locale).localeCompare(venueName(b,locale),locale))){const option=element('option',venueName(venue,locale)+(venue.locked?' · Pro':''));option.value=venue.id;select.append(option);}
+  select.value=selectedId;select.disabled=!venues.length;updateLocateAvailability();updateExplorerSteps();
+}
 async function loadCatalog(){
   setStatus('venue-status',copy("正在读取场馆目录…"),'loading');setStatus('explorer-status',copy("正在准备场馆目录…"),'loading');$('venue-retry').hidden=true;
-  try{const {venues}=await api('/api/venues');state.catalog=venues;const select=$('venue');select.replaceChildren();for(const group of groupVenuesByCountry(venues)){const optgroup=document.createElement('optgroup');optgroup.label=`${countryName(group.country,locale)} (${group.venues.length})`;for(const venue of group.venues){const option=element('option',venueName(venue,locale)+(venue.locked?' · Pro':''));option.value=venue.id;optgroup.append(option);}select.append(optgroup);}select.value=state.venueId;setStatus('venue-status',copy("场馆目录已准备好"),'success');setStatus('explorer-status','');updateExplorerSteps();}
+  try{const {venues}=await api('/api/venues');state.catalog=venues;renderVenuePicker(venueCountry(venues.find(venue=>venue.id===state.venueId)||venues[0]),state.venueId);setStatus('venue-status',copy("场馆目录已准备好"),'success');setStatus('explorer-status','');updateExplorerSteps();}
   catch(error){setStatus('venue-status',copy("场馆目录暂时无法载入，请重试。"),'error');setStatus('explorer-status',copy("场馆目录暂时无法载入，请重试。"),'error');$('venue-retry').hidden=false;throw error;}
 }
 async function loadVenue(id,layout){
@@ -203,10 +214,10 @@ async function loadVenue(id,layout){
     if(typeof renderStageOptions==='function')renderStageOptions();else{for(const item of venue.seatLayouts||[{id:'end',label:copy("端头舞台（通用）")},{id:'runway',label:copy("端头舞台 + 延伸台（通用）")},{id:'center',label:copy("中央舞台（通用）")}]){const option=element('option',copy(item.label));option.value=item.id;$('stage-layout').append(option);}$('stage-layout').value=state.layout;}
     state.sectionId=venue.sections.some(x=>x.id==='122')?'122':venue.sections[0].id;state.result=null;
     $('section-list').replaceChildren();for(const section of venue.sections)for(const label of section.ticketLabels){const option=element('option');option.value=label;$('section-list').append(option);}
-    $('venue').value=id;chooseSection(state.sectionId,false);render();setStatus('venue-status',copy("场馆已准备好"),'success');setStatus('explorer-status','');await loadEvents(id,version);return true;
+    renderVenuePicker(venueCountry(venue),id);chooseSection(state.sectionId,false);render();setStatus('venue-status',copy("场馆已准备好"),'success');setStatus('explorer-status','');await loadEvents(id,version);return true;
   }catch(error){toast(message(error));if(error.code==='SUBSCRIPTION_REQUIRED')open('plan-dialog');
     if(!state.venue){$('venue-name').textContent=state.catalog.find(v=>v.id===id)?.name||copy("暂时无法载入场馆");$('location-status').textContent=error.code==='SUBSCRIPTION_REQUIRED'?copy("此场馆当前需要订阅，尚未加载座位。"):copy("场馆暂未加载，请稍后重试。");}
-    setStatus('venue-status',error.code==='SUBSCRIPTION_REQUIRED'?copy("此场馆需要 Pro 才能加载。"):copy("场馆暂时无法载入，请重试。"),'error');setStatus('explorer-status',error.code==='SUBSCRIPTION_REQUIRED'?copy("此场馆需要 Pro 才能加载。"):copy("场馆暂时无法载入，请重试。"),'error');$('venue-retry').hidden=false;$('venue').value=state.venue?state.venueId:id;$('stage-layout').value=state.layout;return false;}
+    setStatus('venue-status',error.code==='SUBSCRIPTION_REQUIRED'?copy("此场馆需要 Pro 才能加载。"):copy("场馆暂时无法载入，请重试。"),'error');setStatus('explorer-status',error.code==='SUBSCRIPTION_REQUIRED'?copy("此场馆需要 Pro 才能加载。"):copy("场馆暂时无法载入，请重试。"),'error');$('venue-retry').hidden=false;renderVenuePicker(venueCountry(state.venue||state.catalog.find(venue=>venue.id===id)),state.venue?state.venueId:id);$('stage-layout').value=state.layout;return false;}
   finally{if(version===loadVersion){setBusy('locate',false,copy("找到我的座位"));$('locate').disabled=!Boolean($('section').value&&$('row').value&&$('seat').value);}}
 }
 function setStatus(id,value,kind=''){const node=$(id);if(!node)return;node.textContent=value||'';node.classList?.remove('is-loading','is-error','is-success');if(kind)node.classList?.add(`is-${kind}`);}
@@ -290,7 +301,8 @@ async function saved(){if(!state.me?.user){open('login-dialog');return;}open('sa
 
 for(const button of document.querySelectorAll('[data-close]'))button.onclick=()=>button.closest('dialog').close();
 for(const dialog of document.querySelectorAll('dialog'))dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close();}});
-$('ticket-form').onsubmit=e=>{e.preventDefault();locate({intentional:true});};$('venue').onchange=()=>{const venue=state.catalog.find(x=>x.id===$('venue').value);if(venue?.locked){$('venue').value=state.venueId;open('plan-dialog');}else loadVenue($('venue').value);};
+$('venue-country').onchange=()=>{renderVenuePicker($('venue-country').value);setStatus('venue-status',text('explorer.pickVenue'),'loading');};
+$('ticket-form').onsubmit=e=>{e.preventDefault();locate({intentional:true});};$('venue').onchange=()=>{const venue=state.catalog.find(x=>x.id===$('venue').value);if(venue?.locked){$('venue').value=venueCountry(state.venue)===$('venue-country').value?state.venueId:'';open('plan-dialog');}else loadVenue($('venue').value);};
 for(const input of document.querySelectorAll('#ticket-form input,#ticket-form select')){input.addEventListener('input',()=>{updateLocateAvailability();updateExplorerSteps();});input.addEventListener('change',()=>{updateLocateAvailability();updateExplorerSteps();});}
 $('venue-retry').onclick=async()=>{const id=$('venue').value||state.venueId;if(state.catalog.length)await loadVenue(id);else try{await loadCatalog();await loadVenue(id);}catch{}}
 $('events-retry').onclick=()=>loadEvents(state.venueId,loadVersion);

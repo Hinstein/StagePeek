@@ -9,6 +9,7 @@ import {
   normalizeLocale,
   parseLocalizedPath,
   translationKeys,
+  translations,
 } from '../server/locales.mjs';
 
 test('supports five locales and defaults locale-less paths to English', () => {
@@ -48,4 +49,10 @@ test('all supported translation dictionaries contain the same reviewed keys', ()
   assert.ok(keys.length > 40);
   for (const locale of SUPPORTED_LOCALES) assert.deepEqual(translationKeys(locale), keys, locale);
   assert.doesNotThrow(() => assertCompleteTranslations());
+});
+
+test('new country selection, footer and zoom copy is localized rather than inherited English',()=>{
+  const keys=['explorer.countryLabel','explorer.pickVenue','footer.explore','footer.project','footer.legal','home.zoomCompare','home.zoomWide','home.zoomCloser','home.zoomDetail'];
+  for(const locale of ['zh-CN','zh-TW','ja','ko'])for(const key of keys)assert.notEqual(translations(locale)[key],translations('en')[key],`${locale}: ${key}`);
+  assert.deepEqual(SUPPORTED_LOCALES.map(locale=>translations(locale)['nav.explore']),['Try it now','马上尝试','立即體驗','今すぐ試す','지금 체험하기']);
 });

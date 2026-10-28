@@ -1,6 +1,6 @@
 const root=document.querySelector('[data-venue-directory]');
 if(root){
-  const cards=[...root.querySelectorAll('[data-venue-card]')],groups=[...root.querySelectorAll('[data-region-group]')],search=root.querySelector('[data-venue-search]'),result=root.querySelector('[data-venue-results]'),empty=root.querySelector('[data-venue-empty]');
+  const cards=[...root.querySelectorAll('[data-venue-card]')],groups=[...root.querySelectorAll('[data-region-group],[data-country-group]')],search=root.querySelector('[data-venue-search]'),result=root.querySelector('[data-venue-results]'),empty=root.querySelector('[data-venue-empty]');
   const countText=(count,total)=>`${count} / ${total}`;
   const apply=(region='all')=>{
     const query=search.value.trim().toLocaleLowerCase();let visible=0;
