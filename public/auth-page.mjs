@@ -7,7 +7,7 @@ let lang=getLocale(),next=safeReturn(query.get('next')),me=null,busy=false,resen
 history.replaceState(null,'',location.pathname+'?'+new URLSearchParams({next,lang}));
 let savedPositions=null;
 const basePath=parseLocalizedPath(location.pathname).path;
-let mode=({'/auth/reset':'reset','/auth/password':'setup','/account':'account','/auth/continue':'continue'})[basePath]||'login',source=mode;
+let mode=({'/auth/register':'register','/auth/reset':'reset','/auth/password':'setup','/account':'account','/auth/continue':'continue'})[basePath]||'login',source=mode;
 const en=()=>lang==='en';
 const errors={AUTH_PASSWORD_RESULT_UNKNOWN:["密码可能已更新，请尝试使用新密码登录，或重新验证邮箱。",'Your password may have changed. Try signing in with your new password, or verify your email again.'],INVALID_OTP:["验证码错误或已过期，请重新获取。",'The code is incorrect or expired. Request another.'],AUTH_FLOW_EXPIRED:["验证已失效，请重新开始。",'This verification has expired. Start again.'],INVALID_CREDENTIALS:["邮箱或密码不正确。",'Email or password is incorrect.'],WEAK_PASSWORD:["密码需至少 12 字符，最多 256 字节。",'Use at least 12 characters, up to 256 bytes.'],RATE_LIMITED:["请求过于频繁，请稍后再试。",'Too many attempts. Please try later.'],AUTH_UNAVAILABLE:["登录服务暂不可用，请稍后重试。",'Sign-in is temporarily unavailable.'],AUTH_REJECTED:["暂时无法完成，请重试或使用登录/找回密码。",'Unable to continue. Retry, sign in, or recover your password.'],GOOGLE_FAILED:["Google 登录未完成，请重新发起。",'Google sign-in failed. Please retry.'],GOOGLE_CANCELED:["已取消 Google 登录，可用邮箱继续。",'Google sign-in was cancelled. Continue with email.'],LOGIN_REQUIRED:["请先登录。",'Please sign in first.'],CONSENT_REQUIRED:["请先同意条款与隐私政策。",'Please accept the terms and privacy policy.']};
 function feedback(value){$('auth-feedback').textContent=value;}
@@ -40,7 +40,7 @@ function render(){
  $('auth-submit').textContent=submit[mode]||submit.login;
  const google=!!me?.providers.google&&['login','register','otp'].includes(mode);show('auth-google',google);show('auth-or',google);
  show('auth-code-actions',code||mode==='recover-code');show('auth-change',mode!=='recover-code'||source!=='setup');
- $('auth-links').replaceChildren();if(mode==='login'){if(me?.providers.recovery)link(copy("忘记密码？"),'/auth/reset');link(copy("使用邮箱验证码"),'/auth/login?method=otp');}
+ $('auth-links').replaceChildren();if(mode==='login'){if(me?.providers.recovery)link(copy("忘记密码？"),'/auth/reset');link(copy("使用邮箱验证码"),'/auth/login?method=otp');link(copy("还没有账号？注册"),'/auth/register');}
  else if(!account)link(copy("已有账号？返回登录"),'/auth/login');
  // Keep method switching in-page, avoiding a second password-only reload.
  const otpLink=$('auth-links').querySelector('a[href*="method=otp"]');if(otpLink)otpLink.onclick=e=>{e.preventDefault();clearSecret();mode='otp';feedback('');render();};

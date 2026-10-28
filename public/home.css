@@ -1,7 +1,7 @@
 :root{color-scheme:dark;--bg:#080c11;--panel:#101720;--line:#26313c;--white:#f1f3ee;--muted:#99a4ae;--lime:#c9ff51;--purple:#b984ff;font-family:Inter,"Helvetica Neue",Arial,"PingFang SC","Microsoft YaHei",sans-serif}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth;scroll-padding-top:24px}
-body{margin:0;background:var(--bg);color:var(--white);line-height:1.65}
+body{margin:0;background:radial-gradient(ellipse at 50% -12%,#263548 0%,#152331 34%,#0c151f 70%,#080e15 100%);background-attachment:fixed;color:var(--white);line-height:1.65}
 a{color:inherit;text-decoration:none}
 button,input,select{font:inherit}
 button,a,select{touch-action:manipulation}
