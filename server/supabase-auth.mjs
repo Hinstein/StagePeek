@@ -75,8 +75,8 @@ export class SupabaseAuth {
     if(typeof value!=='string'||value.length<12||Buffer.byteLength(value)>256)throw fault(400,'WEAK_PASSWORD','密码需至少 12 字符，最多 256 字节');
     return value;
   }
-  // The shared mail hook currently supports English and Simplified Chinese.
-  callback(path,lang='en'){return this.config.appUrl+path+'?lang='+(lang==='zh-CN'?'zh-CN':'en');}
+  // Authentication emails use English; the browser flow retains its own locale.
+  callback(path){return this.config.appUrl+path+'?lang=en';}
   async register(value,password,lang){
     if(!this.ready)throw fault(503,'EMAIL_NOT_CONFIGURED','邮箱注册尚未开放');
     const email=normalizeEmail(value);

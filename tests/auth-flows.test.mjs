@@ -27,6 +27,23 @@ test('registration sends password to signup before consuming signup OTP, never O
   await f.auth.resendSignup('test@example.com','en');assert.equal(f.calls.at(-1).url.searchParams.get('redirect_to'),'https://stagepeek.live/auth/callback?lang=en');
  }finally{await f.db.close();}
 });
+test('all authentication emails request English independently of interface language',async()=>{
+ const f=setup();try{
+  for(const lang of ['en','zh-CN','zh-TW','ja','ko']){
+   await f.auth.register('test@example.com','a-long-test-password',lang);
+   await f.auth.resendSignup('test@example.com',lang);
+   await f.auth.sendOtp('test@example.com',lang);
+   await f.auth.sendRecovery('test@example.com',lang);
+  }
+  assert.equal(f.calls.length,20);
+  for(const call of f.calls){
+   const redirect=new URL(call.url.searchParams.get('redirect_to'));
+   assert.equal(redirect.origin,cfg.appUrl);
+   assert.equal(redirect.search,'?lang=en');
+   assert.equal(redirect.pathname,call.url.pathname.endsWith('/recover')?'/auth/reset':'/auth/callback');
+  }
+ }finally{await f.db.close();}
+});
 test('recovery grant is server-stored, isolated from login and atomically single-use',async()=>{
  const f=setup();try{
   const grant=await f.auth.verifyRecovery('test@example.com','123456','/');
