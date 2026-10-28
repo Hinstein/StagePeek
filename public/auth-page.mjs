@@ -18,7 +18,7 @@ function show(id,visible){$(id).hidden=!visible;}
 function clearSecret(){for(const id of ['auth-password','auth-confirm','auth-code'])$(id).value='';}
 function render(){
  document.documentElement.lang=lang;
- document.querySelector('.auth-header a').href=localizedPath(lang,'/');
+ document.querySelector('.site-nav .brand').href=localizedPath(lang,'/');
  document.body.classList.toggle('account-page',mode==='account');
  const code=mode==='code',recover=['reset','setup','recover-code','new-password'].includes(mode),password=['login','register','new-password'].includes(mode),account=mode==='account',consent=mode==='consent';
  const titles={login:copy("登录 StagePeek"),register:copy("创建 StagePeek 账号"),otp:copy("邮箱验证码登录"),reset:copy("找回密码"),setup:copy("设置或更改统一账号密码"),code:source==='register'?copy("验证邮箱，完成注册"):copy("输入登录验证码"),'recover-code':copy("验证邮箱 · 第 2 / 3 步"),'new-password':copy("设置新密码 · 第 3 / 3 步"),account:copy("我的账号"),consent:copy("欢迎来到 StagePeek")};
@@ -47,7 +47,10 @@ function render(){
  $('auth-back').href=next;$('auth-back').textContent=copy("返回场馆预览");
  $('email-label').textContent=copy("邮箱地址");$('password-label').textContent=copy("密码");$('confirm-label').textContent=copy("确认新密码");$('code-label').textContent=copy("邮箱验证码");$('auth-google').textContent=copy("使用 Google 登录");$('auth-or').textContent=copy("或");$('auth-reveal').textContent=$('auth-password').type==='password'?copy("显示"):copy("隐藏");$('help-title').textContent=copy("收不到验证码？");$('help-copy').textContent=copy("检查邮箱拼写和垃圾邮件，等待后重发。请使用发起验证的浏览器。");
  $('consent-copy').replaceChildren(document.createTextNode(copy("我已阅读并同意 ")));for(const [name,path]of [[copy("服务条款"),'/terms.html'],[copy("隐私政策"),'/privacy.html']]){const a=document.createElement('a');a.textContent=name;a.href=localizedPath(lang,path.replace('.html',''));a.target='_blank';a.rel='noopener';$('consent-copy').append(a,document.createTextNode(' '));}
- const legal=document.querySelectorAll('.auth-footer a');for(const a of legal)a.href=localizedPath(lang,new URL(a.href).pathname.replace('.html',''));legal[0].textContent=copy("服务条款");legal[1].textContent=copy("隐私政策");
+ const accountLink=$('site-account');accountLink.href=localizedPath(lang,me?.user?'/account':'/auth/login');accountLink.querySelector('span').dataset.i18n=me?.user?'nav.account':'nav.signIn';
+ for(const node of document.querySelectorAll('[data-site-header] [data-i18n],[data-site-footer] [data-i18n]'))node.textContent=translations(lang)[node.dataset.i18n];
+ for(const a of document.querySelectorAll('[data-site-header] a[href],[data-site-footer] a[href]'))a.href=localizedPath(lang,new URL(a.href).pathname);
+
  const languageButton=$('auth-language').querySelector('button'),languageMenu=$('auth-language').querySelector('[role="menu"]');languageButton.setAttribute('aria-label',translations(lang)['language.label']);languageButton.querySelector('.language-current').textContent=translations(lang)['language.current'];languageMenu.replaceChildren(...SUPPORTED_LOCALES.map(item=>{const a=document.createElement('a');a.href=localizedPath(item,basePath);a.textContent=translations(lang)[`language.${item}`]||item;a.dataset.locale=item;a.setAttribute('role','menuitem');if(item===lang)a.setAttribute('aria-current','true');a.onclick=event=>{event.preventDefault();lang=item;next=localizedPath(lang,next);history.replaceState(null,'',localizedPath(lang,basePath)+'?'+new URLSearchParams({next,lang}));render();};return a;}));
  $('auth-change').textContent=copy("换一个邮箱 / 返回");updateResend();
  if(account&&me?.user)renderAccount();

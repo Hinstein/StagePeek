@@ -108,6 +108,25 @@ test('service pages, home schema and public navigation remain usable without scr
   const plans=await(await call('/plans')).text();assert.match(plans,/Subscriptions are not on sale/);assert.doesNotMatch(plans,/\$9\.99/);
 });
 
+test('home, explorer, content and auth routes share one localized navigation and footer',async t=>{
+  const {call}=await setup(t);
+  for(const locale of ['en','zh-CN','zh-TW','ja','ko']){
+    const prefix=locale==='en'?'':'/'+locale;
+    const home=await(await call(prefix+'/')).text();
+    const navigation=home.match(/<nav class="nav-links"[\s\S]*?<\/nav>/)[0];
+    const footer=home.match(/<footer class="site-footer"[\s\S]*?<\/footer>/)[0];
+    for(const path of ['/explore','/venues/','/about','/auth/login','/auth/register','/account']){
+      const html=await(await call(prefix+path)).text();
+      assert.equal(html.match(/<nav class="nav-links"[\s\S]*?<\/nav>/)?.[0],navigation,prefix+path);
+      assert.equal(html.match(/<footer class="site-footer"[\s\S]*?<\/footer>/)?.[0],footer,prefix+path);
+      assert.equal((html.match(/data-site-header/g)||[]).length,1,prefix+path);
+      assert.equal((html.match(/data-site-footer/g)||[]).length,1,prefix+path);
+      assert.doesNotMatch(html,/<header class="(?:header|auth-header|public-header)"/);
+      assert.match(html,new RegExp('href="'+prefix+'/auth/login"'));
+    }
+  }
+});
+
 test('localized public routes expose translated metadata and reciprocal language links',async t=>{
   const {call}=await setup(t);
   const routes=[['en','/'],['zh-CN','/zh-CN/'],['zh-TW','/zh-TW/'],['ja','/ja/'],['ko','/ko/']];

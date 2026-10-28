@@ -38,7 +38,7 @@ function localizeShell(){
  menu.replaceChildren(...SUPPORTED_LOCALES.map(item=>{const a=document.createElement('a');a.href=localizedPath(item,parseLocalizedPath(location.pathname).path)+location.search;a.textContent=translations(locale)[`language.${item}`];a.dataset.locale=item;a.setAttribute('role','menuitem');a.onclick=event=>{event.preventDefault();setLocaleUrl(item,{venue:state.venueId,event:state.event?.id,layout:state.layout,section:$('section').value,row:$('row').value,seat:$('seat').value,mode:state.mode,zoom:queryZoom||state.zoom});};if(item===locale)a.setAttribute('aria-current','true');return a;}));
  const button=$('locale-switcher').querySelector('button');button.setAttribute('aria-label',text('language.label'));button.querySelector('.language-current').textContent=text('language.current');
  const loginDescription=document.querySelector('#login-dialog .muted');if(loginDescription)loginDescription.textContent=copy("用邮箱验证码登录，首次验证会自动完成账号设置。");
- document.querySelector('header nav>a').href=route('/venues/');
+ document.querySelector('.site-nav .venue-nav').href=route('/venues/');
  document.querySelector('.brand').href=route('/');
 }
 function link(text,url){const a=element('a',text);if(/^https:\/\//.test(url)){a.href=url;a.target='_blank';a.rel='noopener noreferrer';}return a;}
@@ -349,7 +349,7 @@ document.addEventListener('keydown',e=>{if(e.key==='Escape'&&$('viewer').classLi
  svg.addEventListener('keydown',e=>{if(!state.mapTransform||e.target!==svg)return;const actions={'+':t=>zoomMap(t,1.25),'=':t=>zoomMap(t,1.25),'-':t=>zoomMap(t,.8),'0':resetMap};if(actions[e.key]){e.preventDefault();state.mapTransform=actions[e.key](state.mapTransform);updateMapViewport();}});
 }
 localizeShell();
-$('account-button').onclick=()=>state.me?.user?location.assign(route('/account')):open('login-dialog');
+$('account-button').onclick=event=>{event.preventDefault();state.me?.user?location.assign(route('/account')):open('login-dialog');};
 $('manage-plan').onclick=()=>open('plan-dialog');
 let resendUntil=0,resendTimer=null;
 function updateResend(){const remaining=Math.ceil((resendUntil-Date.now())/1000);$('email-submit').disabled=!state.me?.providers.email||remaining>0;$('email-submit').textContent=remaining>0?copy("{0} 秒后可重发", [remaining]):state.me?.providers.emailOtp?($('otp-field').hidden?copy("发送验证码"):copy("重新发送验证码")):copy("发送本地测试链接");if(remaining<=0)clearInterval(resendTimer);}
