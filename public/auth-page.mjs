@@ -40,7 +40,7 @@ function render(){
  $('auth-submit').textContent=submit[mode]||submit.login;
  const google=!!me?.providers.google&&['login','register','otp'].includes(mode);show('auth-google',google);show('auth-or',google);
  show('auth-code-actions',code||mode==='recover-code');show('auth-change',mode!=='recover-code'||source!=='setup');
- $('auth-links').replaceChildren();if(mode==='login'){if(me?.providers.recovery)link(copy("忘记密码？"),'/auth/reset');link(copy("使用邮箱验证码"),'/auth/login?method=otp');link(copy("还没有账号？注册"),'/auth/register');}
+ $('auth-links').replaceChildren();if(mode==='login'){link(copy("使用邮箱验证码"),'/auth/login?method=otp');if(me?.providers.recovery)link(copy("忘记密码？"),'/auth/reset');link(copy("还没有账号？注册"),'/auth/register');}
  else if(!account)link(copy("已有账号？返回登录"),'/auth/login');
  // Keep method switching in-page, avoiding a second password-only reload.
  const otpLink=$('auth-links').querySelector('a[href*="method=otp"]');if(otpLink)otpLink.onclick=e=>{e.preventDefault();clearSecret();mode='otp';feedback('');render();};

@@ -2,6 +2,22 @@
 
 .auth-card button{min-height:44px}#account-positions{font-size:14px;margin-bottom:20px}#account-positions article{padding:12px 0;border-bottom:1px solid #2b3b47}#account-positions p{overflow-wrap:anywhere}.auth-card h2{font-size:18px;margin-top:24px}
 
+/* Separate alternate sign-in, account creation, and navigation from legal links. */
+.auth-body:not(.account-page) #auth-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:16px 0 0}
+.auth-body:not(.account-page) #auth-links a{display:flex;align-items:center;justify-content:center;min-height:44px;padding:10px 12px;border:1px solid #2b3b47;border-radius:10px;background:#121d27;color:#c2cdd6;text-decoration:none;font-size:12px;line-height:1.5;text-align:center;transition:background .15s,border-color .15s}
+.auth-body:not(.account-page) #auth-links a:hover{background:#1c2a37;border-color:#506174;color:#f1f3ee}
+.auth-body:not(.account-page) #auth-links a:only-child{grid-column:1/-1}
+.auth-body:not(.account-page) #auth-links a[href*="/auth/register"]{grid-column:1/-1;gap:10px;margin-top:8px;border-color:#ad88e14d;background:#ad88e10d;color:#d2b9f6;font-size:13px;font-weight:600}
+.auth-body:not(.account-page) #auth-links a[href*="/auth/register"]::after{content:'→';font-size:16px}
+.auth-body:not(.account-page) #auth-links a[href*="/auth/register"]:hover{background:#ad88e11c;border-color:#ad88e18a}
+.auth-body:not(.account-page) .auth-back{display:flex;align-items:center;justify-content:center;gap:8px;min-height:44px;margin-top:12px;padding:10px 12px;border:1px solid transparent;border-radius:10px;color:#9baab9;text-decoration:none;font-size:12px;line-height:1.5;text-align:center}
+.auth-body:not(.account-page) .auth-back::before{content:'←';font-size:16px}
+.auth-body:not(.account-page) .auth-back:hover{color:#e9f1eb;background:#ffffff06;border-color:#2b3b47}
+.auth-body:not(.account-page) .auth-footer{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:8px 14px;margin-top:20px;padding-top:16px;color:#506170;font-size:11px}
+.auth-body:not(.account-page) .auth-footer a{display:inline-flex;align-items:center;min-height:32px;color:#8e9dad;text-decoration:none;font-size:11px;line-height:1.5}
+.auth-body:not(.account-page) .auth-footer a:hover{color:#c2cdd6;text-decoration:underline;text-underline-offset:3px}
+@media(prefers-reduced-motion:reduce){.auth-body:not(.account-page) #auth-links a{transition:none}}
+
 /* Account uses a dashboard layout; sign-in and verification keep their compact forms. */
 body.account-page{display:block;padding:32px 24px 20px;background:radial-gradient(ellipse at 85% -15%,#34234e55,transparent 42%),#080e14}
 .account-page .auth-card{width:min(1120px,100%);margin:0 auto;border:0;border-radius:0;padding:0;box-shadow:none;background:transparent}
