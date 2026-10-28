@@ -52,3 +52,5 @@
 按用户决定，StagePeek 注册确认、注册重发、邮箱验证码登录、密码恢复请求统一向既有品牌邮件 Hook 传递 `lang=en`。网站五种语言、浏览器流程语言和返回位置保持原有行为。沿用 StagePeek 发件人、主题、PNG Logo 和验证码模板，不改共享 Hook 或其他项目。
 
 构建通过；认证相关 21 项测试通过。新增回归执行五种界面语言下的四类发信调用，确认全部指向已登记的英文 callback/reset。真实收件箱投递仍未验收，本轮不发送真实测试信。
+
+发布代码 `1b0496b3518dd0c6c299e9e6bf960abae7608736`；Coolify deployment `fpaelcrdwqo2zdrafwmn7qqc` 为 Finished，应用 Running。线上 `/healthz`、`/auth/callback?lang=en`、`/auth/reset?lang=en` 均 200；邮箱验证码、密码、注册、恢复能力仍开启。回退代码 `99413de110d3504f146aa0ac573f46329b064802`；无环境、数据库或共享邮件服务变更。
