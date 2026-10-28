@@ -80,7 +80,9 @@ export class SupabaseAuth {
   async register(value,password,lang){
     if(!this.ready)throw fault(503,'EMAIL_NOT_CONFIGURED','邮箱注册尚未开放');
     const email=normalizeEmail(value);
-    await this.request('signup?redirect_to='+encodeURIComponent(this.callback('/auth/callback',lang)),{method:'POST',body:{email,password:this.password(password)}});
+    const result=await this.request('signup?redirect_to='+encodeURIComponent(this.callback('/auth/callback',lang)),{method:'POST',body:{email,password:this.password(password)}});
+    const user=result?.user??result;
+    if(Array.isArray(user?.identities)&&user.identities.length===0)await this.resendSignup(email,lang);
     return {email};
   }
   async resendSignup(email,lang){
