@@ -106,12 +106,12 @@ function renderPositions(){
  const list=$('account-positions');list.replaceChildren();
  $('account-positions-count').textContent=savedPositions.rows.length+' / '+me.access.maxSaved;
  if(!savedPositions.rows.length){
-  const empty=document.createElement('div'),icon=document.createElement('span'),heading=document.createElement('h3'),copy=document.createElement('p'),visit=document.createElement('a');
+  const empty=document.createElement('div'),icon=document.createElement('span'),heading=document.createElement('h3'),description=document.createElement('p'),visit=document.createElement('a');
   empty.className='account-empty';icon.className='account-empty-icon';icon.setAttribute('aria-hidden','true');
   icon.innerHTML='<svg viewBox="0 0 48 48" fill="none"><path d="M13 23V12a3 3 0 0 1 3-3h16a3 3 0 0 1 3 3v11M10 21v12h28V21M14 33v6m20-6v6M10 27h28" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>';
-  heading.textContent=copy("好位置，值得留住");copy.textContent=copy("在场馆里找到你的位置，保存后就能随时回来查看。");
+  heading.textContent=copy("好位置，值得留住");description.textContent=copy("在场馆里找到你的位置，保存后就能随时回来查看。");
   visit.className='account-button';visit.href=next;visit.textContent=copy("去找我的位置 ↗");
-  empty.append(icon,heading,copy,visit);list.append(empty);return;
+  empty.append(icon,heading,description,visit);list.append(empty);return;
  }
  for(const item of savedPositions.rows){
   const article=document.createElement('article'),icon=document.createElement('span'),details=document.createElement('div'),label=document.createElement('h3'),seat=document.createElement('p'),actions=document.createElement('div'),visit=document.createElement('a'),remove=document.createElement('button');
