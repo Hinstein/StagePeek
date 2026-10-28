@@ -39,7 +39,6 @@ function localizeShell(){
  const button=$('locale-switcher').querySelector('button');button.setAttribute('aria-label',text('language.label'));button.querySelector('.language-current').textContent=text('language.current');
  const loginDescription=document.querySelector('#login-dialog .muted');if(loginDescription)loginDescription.textContent=copy("用邮箱验证码登录，首次验证会自动完成账号设置。");
  document.querySelector('header nav>a').href=route('/venues/');
- document.querySelector('header nav>a').textContent=text('nav.venues');
  document.querySelector('.brand').href=route('/');
 }
 function link(text,url){const a=element('a',text);if(/^https:\/\//.test(url)){a.href=url;a.target='_blank';a.rel='noopener noreferrer';}return a;}

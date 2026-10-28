@@ -227,3 +227,7 @@ h2{font-size:29px}
 .visually-hidden{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
 .site-nav .language-switcher>button{min-width:42px;min-height:40px;padding:9px 11px;justify-content:center}.site-nav .language-switcher .language-globe{display:block}.site-nav .nav-actions{gap:14px}.site-nav .nav-links{margin-left:auto;margin-right:0}.site-nav .nav-actions>a:first-of-type{color:#aab3bc}
 @media(max-width:760px){.site-nav .nav-links{display:none}.site-nav .nav-actions{gap:8px}.site-nav .nav-actions>a:first-of-type{display:inline-flex}.site-nav .nav-actions .button{display:none}.site-nav .language-switcher>button{min-width:40px}}
+
+.nav-links .venue-nav{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:42px;padding:9px 12px;border:1px solid #33434b;border-radius:10px;background:#111a22;color:#e9f1eb;text-decoration:none;line-height:1.4}
+.nav-links .venue-nav svg{flex:none}
+.nav-links .venue-nav:hover{background:#1b2831;border-color:#53666d}
