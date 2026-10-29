@@ -34,6 +34,26 @@ test('production forbids local identity and untrusted Auth origins',()=>{
  assert.throws(()=>new SupabaseAuth({}, {...config(),supabaseUrl:'https://attacker.example'}),/shared Supabase/);
  assert.throws(()=>new SupabaseAuth({}, {...config(),authCookieKey:''}),/32 random bytes/);
 });
+test('repeated unconfirmed registration resends the signup code',async()=>{
+ const calls=[];
+ const auth=new SupabaseAuth({},config(),{fetch:async(url,init)=>{
+  const u=new URL(url);calls.push({path:u.pathname,body:init.body?JSON.parse(init.body):null});
+  if(u.pathname.endsWith('/signup'))return Response.json({id:uid,identities:[]});
+  if(u.pathname.endsWith('/resend'))return Response.json({});
+  throw new Error('Unexpected mock URL');
+ }});
+ await auth.register('TEST@example.com','a-long-test-password','en');
+ assert.deepEqual(calls.map(call=>call.path),['/auth/v1/signup','/auth/v1/resend']);
+ assert.deepEqual(calls[1].body,{type:'signup',email:'test@example.com'});
+ const firstSignup=[];
+ const firstAuth=new SupabaseAuth({},config(),{fetch:async(url,init)=>{
+  const u=new URL(url);firstSignup.push(u.pathname);
+  if(u.pathname.endsWith('/signup'))return Response.json({id:uid,identities:[{provider:'email'}]});
+  throw new Error('Unexpected mock URL');
+ }});
+ await firstAuth.register('new@example.com','a-long-test-password','en');
+ assert.deepEqual(firstSignup,['/auth/v1/signup']);
+});
 test('Supabase OTP creates only a project member and rejects reuse; cookie hides credentials',async()=>{
  const f=fixture(),auth=new SupabaseAuth(f.db,config(),f);
  await auth.sendOtp(' TEST@example.com ');
