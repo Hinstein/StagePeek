@@ -32,5 +32,5 @@ export function loadConfig(env=process.env) {
     adminEmails:String(env.ADMIN_EMAILS||'').split(',').map(x=>x.trim().toLowerCase()).filter(Boolean),
     dbPath:resolve(env.DB_PATH||fileURLToPath(new URL('../var/seatpeep.sqlite',import.meta.url))),
     googleClientId:env.GOOGLE_CLIENT_ID||'',googleClientSecret:env.GOOGLE_CLIENT_SECRET||'',ticketmasterApiKey:env.TICKETMASTER_API_KEY||'',
-    brevoApiKey:env.BREVO_API_KEY||'',resendApiKey:env.RESEND_API_KEY||'',emailFrom:env.EMAIL_FROM||'',stripeSecretKey:env.STRIPE_SECRET_KEY||'',stripePriceId:env.STRIPE_PRICE_ID||'',stripeWebhookSecret:env.STRIPE_WEBHOOK_SECRET||''};
+    brevoApiKey:env.BREVO_API_KEY||'',resendApiKey:env.RESEND_API_KEY||'',emailFrom:env.EMAIL_FROM||'',stripeSecretKey:env.STRIPE_SECRET_KEY||'',stripePriceId:env.STRIPE_PRICE_ID_MONTHLY||env.STRIPE_PRICE_ID||'',stripePriceIds:{monthly:env.STRIPE_PRICE_ID_MONTHLY||env.STRIPE_PRICE_ID||'',semiannual:env.STRIPE_PRICE_ID_SEMIANNUAL||'',annual:env.STRIPE_PRICE_ID_ANNUAL||''},stripeWebhookSecret:env.STRIPE_WEBHOOK_SECRET||''};
 }

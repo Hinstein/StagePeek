@@ -123,17 +123,20 @@ export function createApplication({db,config,venues,events=null,ticketing=null,t
         return json(res,200,{messages});
       }
       if(path==='/api/billing/price'&&method==='GET'){
-        if(!billing.ready&&localMode())return json(res,200,{price:{id:'local-dev-monthly',amount:999,currency:'usd',interval:'month',local:true}});
-        return json(res,200,{price:await billing.price()});
+        if(!billing.ready&&localMode()){
+          const price={id:'local-dev-monthly',plan:'monthly',amount:999,currency:'usd',interval:'month',intervalCount:1,label:'每月',local:true};
+          return json(res,200,{price,prices:[price]});
+        }
+        const prices=await billing.prices();return json(res,200,{price:prices.find(item=>item.plan==='monthly')||prices[0],prices});
       }
       if(path==='/api/billing/checkout'&&method==='POST'){
-        const current=(await requireUser(req));await body(req);
+        const current=(await requireUser(req)),input=await body(req);
         if(!billing.ready&&localMode()){
           const token=randomToken(),expiresAt=clock()+15*60_000;
           (await db.prepare('INSERT INTO local_billing_tokens(token_hash,user_id,expires_at,consumed_at) VALUES(?,?,?,NULL)').run(hash(token),current.id,expiresAt));
           return json(res,200,{url:new URL('/api/billing/dev-checkout?token='+encodeURIComponent(token),config.appUrl).href,local:true,expiresIn:900});
         }
-        return json(res,200,await billing.checkout(current));
+        return json(res,200,await billing.checkout(current,input.plan));
       }
       if(path==='/api/billing/dev-checkout'&&method==='GET'){
         if(!localMode()||!loopback(req.socket.remoteAddress))throw fault(404,'NOT_FOUND','Not found');
@@ -242,7 +245,7 @@ export function createApplication({db,config,venues,events=null,ticketing=null,t
         const context={};
         if((basePath==='/plans'||basePath==='/venues/')&&method!=='HEAD'){
           context.access=await access(null);context.billingReady=billing.ready;
-          if(basePath==='/plans'&&billing.ready)try{context.price=await billing.price();}catch{/* Fail closed: never invent a price. */}
+          if(basePath==='/plans'&&billing.ready)try{context.prices=await billing.prices();context.price=context.prices.find(item=>item.plan==='monthly')||context.prices[0];}catch{/* Fail closed: never invent a price. */}
         }
         const html=method==='HEAD'?null:publicSite.render(path,{...context,locale,user}).replace('</head>',tracking+'</head>');
         res.writeHead(200,{'Content-Type':MIME['.html']});return res.end(html);

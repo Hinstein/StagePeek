@@ -4,14 +4,20 @@ import {entitlements} from './access.mjs';
 
 const HANDLED=new Set(['customer.subscription.created','customer.subscription.updated','customer.subscription.deleted','checkout.session.completed','checkout.session.async_payment_succeeded']);
 const idOf=x=>typeof x==='string'?x:x?.id;
+const PLANS=[
+  {id:'monthly',label:'每月',interval:'month',intervalCount:1,amount:999},
+  {id:'semiannual',label:'每 6 个月',interval:'month',intervalCount:6,amount:4999},
+  {id:'annual',label:'每年',interval:'year',intervalCount:1,amount:8999}
+];
+const planById=new Map(PLANS.map(plan=>[plan.id,plan]));
 
 export class BillingService {
   constructor(db,config,{fetch:fetcher=fetch,clock=Date.now}={}) {
     this.db=db;this.config=config;this.fetch=fetcher;this.clock=clock;this.queues=new Map();
   }
-  get ready(){return !!(this.config.stripeSecretKey&&this.config.stripePriceId&&this.config.stripeWebhookSecret);}
+  get ready(){return !!(this.config.stripeSecretKey&&this.config.stripeWebhookSecret&&Object.values(this.priceIds()).some(Boolean));}
   async request(path,{method='GET',form=null,idempotencyKey=null}={}) {
-    if(!this.ready)throw fault(503,'BILLING_NOT_CONFIGURED','Monthly billing is not configured');
+    if(!this.ready)throw fault(503,'BILLING_NOT_CONFIGURED','Billing is not configured');
     const headers={Authorization:'Bearer '+this.config.stripeSecretKey};
     if(form)headers['Content-Type']='application/x-www-form-urlencoded';
     if(idempotencyKey)headers['Idempotency-Key']=idempotencyKey;
@@ -20,11 +26,26 @@ export class BillingService {
     if(!response.ok)throw fault(502,'BILLING_PROVIDER_FAILED','Billing provider request failed');
     return response.json();
   }
-  async price() {
-    const p=await this.request('/prices/'+encodeURIComponent(this.config.stripePriceId));
-    if(p.id!==this.config.stripePriceId||!p.active||p.type!=='recurring'||p.recurring?.interval!=='month'||p.recurring?.interval_count!==1||!Number.isInteger(p.unit_amount)||p.unit_amount<=0)
-      throw fault(503,'INVALID_MONTHLY_PRICE','A positive monthly recurring price is required');
-    return {id:p.id,amount:p.unit_amount,currency:p.currency,interval:'month'};
+  priceIds(){const configured=this.config.stripePriceIds||{};return {monthly:this.config.stripePriceId||configured.monthly||'',semiannual:configured.semiannual||'',annual:configured.annual||''};}
+  configuredPlans(){const priceIds=this.priceIds();return PLANS.filter(plan=>priceIds[plan.id]);}
+  plan(planId='monthly'){
+    const plan=planById.get(planId);
+    if(!plan)throw fault(400,'INVALID_BILLING_PLAN','Unknown billing plan');
+    const priceId=this.priceIds()[plan.id];
+    if(!priceId)throw fault(503,'BILLING_PLAN_NOT_CONFIGURED','This billing plan is not configured');
+    return {...plan,priceId};
+  }
+  planForPrice(priceId){const priceIds=this.priceIds();return this.configuredPlans().find(plan=>priceIds[plan.id]===priceId);}
+  async price(planId='monthly') {
+    const plan=this.plan(planId),p=await this.request('/prices/'+encodeURIComponent(plan.priceId));
+    const valid=p.id===plan.priceId&&p.active&&p.type==='recurring'&&p.currency==='usd'&&p.recurring?.interval===plan.interval&&p.recurring?.interval_count===plan.intervalCount&&p.unit_amount===plan.amount;
+    if(!valid)throw fault(503,plan.id==='monthly'?'INVALID_MONTHLY_PRICE':'INVALID_BILLING_PRICE',`A positive ${plan.id} recurring price is required`);
+    return {id:p.id,plan:plan.id,amount:p.unit_amount,currency:p.currency,interval:plan.interval,intervalCount:plan.intervalCount,label:plan.label};
+  }
+  async prices(){
+    const prices=[];
+    for(const plan of this.configuredPlans())prices.push(await this.price(plan.id));
+    return prices;
   }
   async customer(user) {
     const existing=(await this.db.prepare('SELECT customer_id FROM billing_customers WHERE user_id=?').get(user.id));
@@ -34,18 +55,18 @@ export class BillingService {
     (await this.db.prepare('INSERT INTO billing_customers VALUES(?,?) ON CONFLICT DO NOTHING').run(user.id,customer.id));
     return (await this.db.prepare('SELECT customer_id FROM billing_customers WHERE user_id=?').get(user.id)).customer_id;
   }
-  async checkout(user) {
+  async checkout(user,plan='monthly') {
     if(!user)throw fault(401,'LOGIN_REQUIRED','Sign in first');
-    return this.serial('checkout:'+user.id,()=>this.createCheckout(user));
+    return this.serial('checkout:'+user.id,()=>this.createCheckout(user,plan));
   }
-  async createCheckout(user) {
+  async createCheckout(user,plan='monthly') {
     if((await entitlements(this.db,user,this.clock())).plan==='pro')throw fault(409,'ALREADY_SUBSCRIBED','Use manage subscription for your current plan');
-    await this.price();
+    const selected=await this.price(plan),configuredPriceIds=new Set(Object.values(this.priceIds()).filter(Boolean));
     const customer=await this.customer(user);
     // Check Stripe directly as webhook delivery can lag behind a completed payment.
     const live=await this.request('/subscriptions?'+new URLSearchParams({customer,status:'all',limit:'100'}));
     if(!Array.isArray(live.data)||live.has_more)throw fault(503,'BILLING_REVIEW_REQUIRED','Review this billing account before starting another subscription');
-    if(live.data.some(s=>['active','trialing','past_due','unpaid','incomplete','paused'].includes(s.status)&&s.items?.data?.some(i=>idOf(i.price)===this.config.stripePriceId)))
+    if(live.data.some(s=>['active','trialing','past_due','unpaid','incomplete','paused'].includes(s.status)&&s.items?.data?.some(i=>configuredPriceIds.has(idOf(i.price)))))
       throw fault(409,'ALREADY_SUBSCRIBED','Use manage subscription for your current plan');
     let attempt=(await this.db.prepare('SELECT * FROM checkout_attempts WHERE user_id=?').get(user.id));
     if(attempt?.session_id){
@@ -62,13 +83,13 @@ export class BillingService {
     }
     if(!attempt){
       const now=this.clock();
-      (await this.db.prepare('INSERT INTO checkout_attempts VALUES(?,?,NULL,?,?,?) ON CONFLICT DO NOTHING').run(user.id,'seatpeep-checkout-'+randomUUID(),this.config.stripePriceId,now,Math.floor(now/1000)+3600));
+      (await this.db.prepare('INSERT INTO checkout_attempts VALUES(?,?,NULL,?,?,?) ON CONFLICT DO NOTHING').run(user.id,'seatpeep-checkout-'+randomUUID(),selected.id,now,Math.floor(now/1000)+3600));
       attempt=(await this.db.prepare('SELECT * FROM checkout_attempts WHERE user_id=?').get(user.id));
     }
     // Retain the idempotency key before the network request, including after a timeout/restart.
-    if(this.clock()-attempt.created_at>23*3600_000||attempt.price_id!==this.config.stripePriceId)throw fault(409,'CHECKOUT_PENDING','Previous checkout must be reviewed before another payment');
+    if(this.clock()-attempt.created_at>23*3600_000||attempt.price_id!==selected.id)throw fault(409,'CHECKOUT_PENDING','Previous checkout must be reviewed before another payment');
     const session=await this.request('/checkout/sessions',{method:'POST',idempotencyKey:attempt.request_key,form:{
-      mode:'subscription',customer,client_reference_id:user.id,expires_at:String(attempt.expires_at),'line_items[0][price]':attempt.price_id,'line_items[0][quantity]':'1',
+      mode:'subscription',customer,client_reference_id:user.id,expires_at:String(attempt.expires_at),'line_items[0][price]':attempt.price_id,'line_items[0][quantity]':'1','subscription_data[metadata][stagepeek_plan]':selected.plan,
       success_url:this.config.appUrl+'/?billing=success',cancel_url:this.config.appUrl+'/?billing=canceled',
       'subscription_data[metadata][seat_scope_user]':user.id
     }});
@@ -90,7 +111,7 @@ export class BillingService {
     return {url:session.url};
   }
   verifySignature(raw,header) {
-    if(!this.ready)throw fault(503,'BILLING_NOT_CONFIGURED','Monthly billing is not configured');
+    if(!this.ready)throw fault(503,'BILLING_NOT_CONFIGURED','Billing is not configured');
     const parts=String(header||'').split(',');
     const timestamps=parts.filter(x=>x.startsWith('t='));
     const stamp=timestamps.length===1?timestamps[0].slice(2):'';
@@ -131,14 +152,14 @@ export class BillingService {
         if(!owner)return;
         const known=(await this.db.prepare('SELECT user_id FROM subscriptions WHERE id=?').get(subscriptionId));
         if(known&&known.user_id!==owner.user_id)throw fault(409,'SUBSCRIPTION_OWNER','Subscription owner mismatch');
-        const item=current.items?.data?.find(x=>idOf(x.price)===this.config.stripePriceId);
-        if(item)await this.price();
+        const item=current.items?.data?.find(x=>this.planForPrice(idOf(x.price)));
+        if(item)await this.price(this.planForPrice(idOf(item.price)).id);
         const end=Number(item?.current_period_end??current.current_period_end);
         const valid=item&&Number.isFinite(end)&&end>0;
         (await this.db.prepare(`INSERT INTO subscriptions(id,user_id,status,period_end,cancel_at_period_end,price_id,updated_at)
           VALUES(?,?,?,?,?,?,?) ON CONFLICT(id) DO UPDATE SET status=excluded.status,period_end=excluded.period_end,
           cancel_at_period_end=excluded.cancel_at_period_end,price_id=excluded.price_id,updated_at=excluded.updated_at`)
-          .run(subscriptionId,owner.user_id,valid?String(current.status):'ineligible',valid?Math.floor(end*1000):0,current.cancel_at_period_end?1:0,item?this.config.stripePriceId:'',this.clock()));
+          .run(subscriptionId,owner.user_id,valid?String(current.status):'ineligible',valid?Math.floor(end*1000):0,current.cancel_at_period_end?1:0,item?idOf(item.price):'',this.clock()));
       });
       (await this.db.prepare('UPDATE webhook_events SET processed_at=? WHERE id=?').run(this.clock(),event.id));
       return {received:true};

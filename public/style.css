@@ -131,3 +131,5 @@ body.theme-arena{--paper:#080d12;--ink:#f3f7f1;--muted:#9aa9a9;--green:#c9ff51;-
 }
 
 @media(max-width:360px){.header{gap:8px}.header .brand-logo{width:112px;height:36px}.header nav{flex-wrap:nowrap;gap:6px}}
+
+.billing-plans{display:grid;gap:6px;margin-top:10px}.plan-option{display:block;width:100%;padding:8px 10px;text-align:left;font-size:11px;background:transparent;border:1px solid var(--border)}.plan-option.active{background:var(--accent);border-color:var(--accent);color:#10200f}
