@@ -3284,6 +3284,10 @@ export const interfaceRows=[
   ['登录后即可保存这个座位。','Sign in to save this seat.','登入後即可儲存此座位。','ログインするとこの座席を保存できます。','로그인하면 이 좌석을 저장할 수 있습니다.'],
   ['请输入场馆、区号、排和座号','Choose a venue and enter the section, row, and seat.','請選擇場館並輸入區號、排和號碼。','会場を選び、エリア・列・番号を入力してください。','공연장을 선택하고 구역·열·좌석 번호를 입력하세요.'],
   ['找到我的座位','Find my seat','尋找我的座位','座席を探す','내 좌석 찾기'],
+  ['开始订阅','Subscribe','開始訂閱','購読する','구독 시작'],
+  ['订阅已生效。','Subscription active.','訂閱已生效。','購読が有効になりました。','구독이 활성화되었습니다.'],
+  ['半年付','Every 6 months','半年付','6か月','6개월'],
+  ['年付','Annual','年付','年額','연간']
 ];
 const columns={en:1,'zh-CN':0,'zh-TW':2,ja:3,ko:4};
 const messages=new Map(interfaceRows.map(row=>[row[0],row]));

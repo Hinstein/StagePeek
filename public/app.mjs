@@ -39,6 +39,10 @@ function localizeShell(){
  menu.replaceChildren(...SUPPORTED_LOCALES.map(item=>{const a=document.createElement('a');a.href=localizedPath(item,parseLocalizedPath(location.pathname).path)+location.search;a.textContent=translations(locale)[`language.${item}`];a.dataset.locale=item;a.setAttribute('role','menuitem');a.onclick=event=>{event.preventDefault();setLocaleUrl(item,{venue:state.venueId,event:state.event?.id,layout:state.layout,section:$('section').value,row:$('row').value,seat:$('seat').value,mode:state.mode,zoom:queryZoom||state.zoom});};if(item===locale)a.setAttribute('aria-current','true');return a;}));
  const button=$('locale-switcher').querySelector('button');button.setAttribute('aria-label',text('language.label'));button.querySelector('.language-current').textContent=text('language.current');
  const loginDescription=document.querySelector('#login-dialog .muted');if(loginDescription)loginDescription.textContent=copy("用邮箱验证码登录，首次验证会自动完成账号设置。");
+ $('billing-eyebrow').textContent=locale==='en'?'MORE VENUES, MORE POSSIBILITIES':copy("探索更多现场。");
+ $('billing-title').textContent=copy("探索更多现场。");
+ $('billing-free-title').textContent=copy("免费");
+ $('billing-note').textContent=copy("订阅解锁访问范围，各馆数据覆盖和校准状态仍以页面说明为准。可在账单中心取消下个周期续订。");
  document.querySelector('.site-nav .venue-nav').href=route('/venues/');
  document.querySelector('.brand').href=route('/');
 }
@@ -190,15 +194,23 @@ async function refreshAccount(){
   $('google-login').hidden=!providers.google;$('google-login').disabled=!providers.google;$('google-login').textContent=providers.localGoogle?copy("本地模拟 Google 登录"):copy("使用 Google 登录");$('connect-google').hidden=!providers.google||!!user?.googleConnected;
   $('email-submit').textContent=providers.emailOtp?copy("发送验证码"):copy("发送本地测试链接");$('email-submit').disabled=!providers.email;$('provider-note').textContent=providers.localGoogle?copy("本地模式：Google 登录为仅回环地址可用的模拟流程，不会连接 Google。"):providers.localEmail?(providers.localInbox?copy("本地测试邮箱：free@seatpeep.test / pro@seatpeep.test / expired@seatpeep.test。发送后可直接打开测试链接，不会发送真实邮件。"):copy("当前为本地测试。请在运行服务的电脑通过 127.0.0.1 打开测试收件箱；手机可先体验访客选座。")):!providers.email&&!providers.google?copy("登录服务暂未开放。"):'';
   $('billing-portal').hidden=providers.localBilling||!user||!state.me.subscription;$('checkout').hidden=access.plan==='pro';
-  $('checkout').disabled=!providers.billing;$('checkout').textContent=providers.localBilling?copy("本地模拟升级 Pro"):"开始订阅";$('billing-feedback').textContent=providers.localBilling?copy("本地模拟流程：不会扣款；正式环境需要 Stripe。"):providers.billing?'':"订阅暂未开放，当前可免费体验精选场馆。";
+  $('checkout').disabled=!providers.billing;$('checkout').textContent=providers.localBilling?copy("本地模拟升级 Pro"):copy("开始订阅");$('billing-feedback').textContent=providers.localBilling?copy("本地模拟流程：不会扣款；正式环境需要 Stripe。"):providers.billing?'':"订阅暂未开放，当前可免费体验精选场馆。";
   if(providers.billing)try{const result=await api('/api/billing/price');state.billingPlans=result.prices||[result.price];state.billingPlan=state.billingPlans.some(plan=>plan.plan===state.billingPlan)?state.billingPlan:state.billingPlans[0]?.plan||'monthly';renderBillingPlans();}catch(error){$('billing-feedback').textContent=message(error);$('checkout').disabled=true;}
   accountHydrated=true;
 }
 function renderBillingPlans(){
   const root=$('billing-plans');if(!root)return;root.replaceChildren();
+  const language=locale==='zh-CN'?'zh':locale==='zh-TW'?'zh-TW':locale==='ja'?'ja':locale==='ko'?'ko':'en';
+  const labels={monthly:{zh:'每月',en:'Monthly','zh-TW':'每月',ja:'月額',ko:'월간'},semiannual:{zh:'半年付',en:'Every 6 months','zh-TW':'半年付',ja:'6か月',ko:'6개월'},annual:{zh:'年付',en:'Annual','zh-TW':'年付',ja:'年額',ko:'연간'}};
+  const periods={monthly:{zh:'每月结算',en:'Billed monthly','zh-TW':'每月結算',ja:'毎月請求',ko:'매월 결제'},semiannual:{zh:'每 6 个月结算',en:'Billed every 6 months','zh-TW':'每 6 個月結算',ja:'6か月ごとに請求',ko:'6개월마다 결제'},annual:{zh:'每年结算',en:'Billed annually','zh-TW':'每年結算',ja:'毎年請求',ko:'매년 결제'}};
+  const formatter=new Intl.NumberFormat(locale,{style:'currency',currency:'USD'});
   for(const plan of state.billingPlans){
-    const amount=new Intl.NumberFormat('en-US',{style:'currency',currency:plan.currency}).format(plan.amount/100),button=element('button',`${amount} · ${plan.label}`,'plan-option');
-    button.type='button';button.dataset.plan=plan.plan;button.classList.toggle('active',plan.plan===state.billingPlan);button.onclick=()=>{state.billingPlan=plan.plan;renderBillingPlans();};root.append(button);
+    const amount=formatter.format(plan.amount/100),months=plan.plan==='semiannual'?6:plan.plan==='annual'?12:1,baseline=999*months,saving=Math.max(0,baseline-plan.amount),percent=baseline?((saving/baseline)*100).toFixed(1):'0.0';
+    const savings=plan.plan==='monthly'?(language==='zh'?'标准月付':language==='en'?'Standard monthly':language==='zh-TW'?'標準月付':language==='ja'?'通常の月額':'기본 월간'):(language==='zh'?'比按月付款节省 '+formatter.format(saving/100)+'（约 '+percent+'%）':language==='en'?'Save '+formatter.format(saving/100)+' vs monthly ('+percent+'%)':language==='zh-TW'?'比每月付款節省 '+formatter.format(saving/100)+'（約 '+percent+'%）':language==='ja'?'月額より '+formatter.format(saving/100)+' お得（'+percent+'%）':'월간 결제보다 '+formatter.format(saving/100)+' 절약 ('+percent+'%)');
+    const button=element('button',undefined,'plan-option plan-card');
+    button.type='button';button.dataset.plan=plan.plan;button.classList.toggle('active',plan.plan===state.billingPlan);button.setAttribute('aria-pressed',String(plan.plan===state.billingPlan));
+    button.append(element('span','StagePeek Pro','plan-card-product'),element('strong',labels[plan.plan]?.[language]||plan.label,'plan-card-name'),element('span',amount,'plan-card-price'),element('span',periods[plan.plan]?.[language]||plan.label,'plan-card-period'),element('span',savings,'plan-card-savings'));
+    button.onclick=()=>{state.billingPlan=plan.plan;renderBillingPlans();};root.append(button);
   }
 }
 function renderVenuePicker(country,selectedId=''){
@@ -424,5 +436,5 @@ try{
   if(params.get('mode')==='3d'){state.mode='3d';await ensureViewer();render();}else{state.mode='2d';render();}
   if(params.get('account')==='billing')open('plan-dialog');
   if(params.has('auth_error'))toast(messages[params.get('auth_error')]||copy("登录未完成，请重试。"));
-  if(params.get('billing')==='success'){window.stagepeekTrack?.('billing_return');toast(copy("支付已返回，订阅状态将在付款确认后更新。"));let count=0;const timer=setInterval(async()=>{try{await refreshAccount();if(state.me.access.plan==='pro'){window.stagepeekTrack?.('subscription_active');clearInterval(timer);await loadCatalog();toast(copy("月订阅已生效。"));}}catch{}if(++count>=10)clearInterval(timer);},2000);}
+  if(params.get('billing')==='success'){window.stagepeekTrack?.('billing_return');toast(copy("支付已返回，订阅状态将在付款确认后更新。"));let count=0;const timer=setInterval(async()=>{try{await refreshAccount();if(state.me.access.plan==='pro'){window.stagepeekTrack?.('subscription_active');clearInterval(timer);await loadCatalog();toast(copy("订阅已生效。"));}}catch{}if(++count>=10)clearInterval(timer);},2000);}
 }catch(error){$('venue-name').textContent=copy("暂时无法载入场馆");toast(copy("服务暂不可用，请检查连接并刷新。"));}
