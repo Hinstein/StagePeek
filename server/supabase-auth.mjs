@@ -82,8 +82,8 @@ export class SupabaseAuth {
     const email=normalizeEmail(value);
     const result=await this.request('signup?redirect_to='+encodeURIComponent(this.callback('/auth/callback',lang)),{method:'POST',body:{email,password:this.password(password)}});
     const user=result?.user??result;
-    if(Array.isArray(user?.identities)&&user.identities.length===0)await this.resendSignup(email,lang);
-    return {email};
+    if(Array.isArray(user?.identities)&&user.identities.length===0)return {email,existing:true};
+    return {email,existing:false};
   }
   async resendSignup(email,lang){
     await this.request('resend?redirect_to='+encodeURIComponent(this.callback('/auth/callback',lang)),{method:'POST',body:{type:'signup',email:normalizeEmail(email)}});

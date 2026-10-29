@@ -59,7 +59,10 @@ export function sharedAuthRoutes({auth,db,config,cookie,json,body,cookies,prefix
   }
   if(path==='/api/auth/register'){
    const input=await body(req);if(input.consent!==true)throw fault(400,'CONSENT_REQUIRED','请阅读并同意条款与隐私政策');
-   await begin(req,res,input,'signup',email=>auth.register(email,input.password,input.lang));return true;
+   const email=normalizeEmail(input.email);await throttle(req,email,'send');const result=await auth.register(email,input.password,input.lang);
+   if(result.existing)throw fault(409,'ACCOUNT_EXISTS','该邮箱已经注册，请返回登录并使用邮箱验证码登录');
+   const flow=await auth.flows.put('signup',{email:result.email,returnTo:safeReturn(input.returnTo),consent:true,lang:normalizeLocale(input.lang),expectedUser:input.expectedUser||null});
+   cookie(res,'flow',flow,900);return json(res,200,{sent:true,resendAfter:60});
   }
   if(path==='/api/auth/login'){
    const input=await body(req),email=normalizeEmail(input.email);await throttle(req,email,'login');

@@ -64,6 +64,20 @@ export const interfaceRows=[
     "이미 등록된 이메일입니다. 이메일로 로그인한 뒤 계정 설정에서 Google을 연결해 주세요."
   ],
   [
+    "这个邮箱已有账号，请使用邮箱验证码登录。",
+    "This email already has an account. Sign in with an email code.",
+    "此信箱已有帳號，請使用電子郵件驗證碼登入。",
+    "このメールアドレスは登録済みです。メールのコードでログインしてください。",
+    "이미 등록된 이메일입니다. 이메일 코드로 로그인해 주세요."
+  ],
+  [
+    "这个 Gmail 邮箱已有账号。请使用 Google 登录，或使用邮箱验证码登录。",
+    "This Gmail address already has an account. Use Google sign-in or an email code.",
+    "此 Gmail 信箱已有帳號，請使用 Google 登入或電子郵件驗證碼登入。",
+    "この Gmail アドレスは登録済みです。Google ログインまたはメールのコードをご利用ください。",
+    "이미 등록된 Gmail 주소입니다. Google 로그인 또는 이메일 코드를 사용해 주세요."
+  ],
+  [
     "已达到当前套餐的位置保存上限。",
     "You have reached your plan’s saved seat limit.",
     "已達目前方案的座位收藏上限。",

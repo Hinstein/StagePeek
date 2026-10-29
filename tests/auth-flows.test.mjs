@@ -27,6 +27,14 @@ test('registration sends password to signup before consuming signup OTP, never O
   await f.auth.resendSignup('test@example.com','en');assert.equal(f.calls.at(-1).url.searchParams.get('redirect_to'),'https://stagepeek.live/auth/callback?lang=en');
  }finally{await f.db.close();}
 });
+test('registration reports an existing shared-auth account instead of pretending to send signup code',async()=>{
+ const f=setup();let requests=0;
+ f.auth.fetch=async url=>{requests++;return new URL(url).pathname.endsWith('/signup')?Response.json({user:{identities:[]}}):Response.json({});};
+ try{
+  assert.deepEqual(await f.auth.register('already@example.com','a-long-test-password'),{email:'already@example.com',existing:true});
+  assert.equal(requests,1);
+ }finally{await f.db.close();}
+});
 test('all authentication emails request English independently of interface language',async()=>{
  const f=setup();try{
   for(const lang of ['en','zh-CN','zh-TW','ja','ko']){
@@ -72,10 +80,10 @@ test('Google PKCE grant is browser-bound, no password/legacy provider and safe r
 test('HTTP registration, recovery and consent preserve boundaries and original location',async t=>{
  const {createApplication}=await import('../server/app.mjs');const {once}=await import('node:events');
  const f=setup(),config={...cfg,production:false,authMode:'supabase',freeVenueIds:['free'],allowedOrigins:[]};
- let failVerify=false;
+ let failVerify=false,existingSignup=false;
  const app=createApplication({db:f.db,config,venues:{ids:()=>['free','paid'],catalog:()=>[{id:'free'},{id:'paid'}],get:id=>({id})},fetch:async(url,init)=>{
   // Same fixture service, joined member rows are supplied by setup().
-  const u=new URL(url);if(u.pathname.endsWith('/verify')&&failVerify)return Response.json({},{status:503});if(u.pathname.endsWith('/settings'))return Response.json({external:{google:true}});
+  const u=new URL(url);if(u.pathname.endsWith('/verify')&&failVerify)return Response.json({},{status:503});if(u.pathname.endsWith('/settings'))return Response.json({external:{google:true}});if(u.pathname.endsWith('/signup')&&existingSignup)return Response.json({user:{identities:[]}});
   if(u.pathname.endsWith('/user'))return Response.json({id:uid,email:'test@example.com',email_confirmed_at:'2026-01-01',identities:[{provider:'google'}]});
   if(u.pathname.endsWith('/verify')||u.pathname.endsWith('/token'))return Response.json({access_token:'access',refresh_token:'refresh',expires_in:3600});
   return Response.json({});
@@ -97,6 +105,11 @@ test('HTTP registration, recovery and consent preserve boundaries and original l
  assert.equal((await(await call('/api/me')).json()).consent.required,false);
  assert.equal((await call('/api/venues/paid')).status,403);
  assert.equal((await call('/api/auth/logout',{})).status,200);
+ // A repeated registration must explain that the account already exists and leave no signup flow.
+ existingSignup=true;
+ const duplicate=await call('/api/auth/register',{email:'test@example.com',password:'long-test-password',consent:true});
+ assert.equal(duplicate.status,409);assert.equal((await duplicate.json()).error.code,'ACCOUNT_EXISTS');
+ assert.equal((await(await call('/api/auth/status')).json()).flow,null);
  assert.equal((await call('/api/auth/recovery',{email:'test@example.com',returnTo:'//evil.invalid'})).status,200);
  assert.equal((await call('/api/auth/recovery/verify',{code:'123456'})).status,200);
  assert.equal((await(await call('/api/me')).json()).user,null);
