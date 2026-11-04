@@ -1,6 +1,16 @@
 # StagePeek 部署与权限记录
 
-> 最新发布（2026-11-04）：代码 `3ea4cff996a6d67feca396bef49f2b14582d1901` 已在原 Coolify 应用 / VPS3 上线，部署 `lyptx417waugjwt4dwaxxxae` finished，容器 healthy。下方旧版本表为历史快照。
+> 最新发布（2026-11-04）：代码 `316f75c5f0921211c783b65e40f9059a03e033eb` 已在原 Coolify 应用 / VPS3 上线，部署 `rmszaremeshommzyek7udbjx` Finished，应用 Running，公网健康检查通过。下方版本记录为历史快照。
+
+## 2026-11-04 首页等宽修复验收
+
+- 原因：共享导航与首页内容分别设置宽度上限，先前的局部修复未统一首页规则；不是浏览器缓存或旧版本未发布。
+- 固定发布 SHA：`316f75c5f0921211c783b65e40f9059a03e033eb`；部署 `rmszaremeshommzyek7udbjx`，耗时 1 分 24 秒。
+- 导航、内容、页脚共用 `--site-frame-width`；同时修复平板首页预览卡片溢出。未更改身份、支付、数据库或部署基础设施。
+- 线上实际测量三者的左边界与宽度完全一致：2048px 视口为 394/1260px；1440px 为 130/1180px；1000px 为 24/952px；768px 为 24/720px；390px 为 18/354px。五档均无横向溢出。
+- `tests/public-pages.test.mjs` 与 `tests/concert-views-production-shell.test.mjs` 共 11/11 通过；`npm run build`、`git diff --check` 通过。
+- 公网 `/healthz`、`/api/health`、`/auth/callback`、`/auth/reset` 和五语言 explore 路由均为 200；研究入口 `/concert-views` 仍为 404。
+- 回滚点：`3ea4cff996a6d67feca396bef49f2b14582d1901`，部署 `lyptx417waugjwt4dwaxxxae`。本记录后续文档提交不触发额外部署，运行版本固定到上述修复 SHA。
 
 ## 2026-11-04 发布验收
 
