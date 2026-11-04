@@ -67,7 +67,7 @@ test('directory and three reviewed venue pages deliver useful initial HTML with 
     assert.match(hub,new RegExp('href="'+path+'"'));
     assert.ok(html.includes(`rel="canonical" href="https://stagepeek.live${path}"`));
     assert.equal((html.match(/<h1[ >]/g)||[]).length,1);
-    for(const text of ['layout','Source','review','Not independently calibrated'])assert.ok(html.toLowerCase().includes(text.toLowerCase()),text);
+    for(const text of ['layout','2D','3D','illustrative'])assert.ok(html.toLowerCase().includes(text.toLowerCase()),text);
     const cta=html.match(/href="(\/explore\?[^\"]+)"[^>]*data-tool-entry/);assert.ok(cta,'crawlable tool CTA');
     const url=new URL(cta[1].replaceAll('&amp;','&'),'https://stagepeek.live');
     assert.equal(url.pathname,'/explore');assert.equal(url.searchParams.get('venue'),id);
@@ -161,7 +161,7 @@ test('public plans uses the same validated monthly price as checkout and hides f
   const html=await response.text();assert.match(html,/The current price is unavailable/);assert.doesNotMatch(html,/15\.99/);
 });
 
-test('every localized public page has a real title and each guide preserves source provenance',async t=>{
+test('localized public pages explain usage without exposing acquisition and audit metadata',async t=>{
  const {call}=await setup(t);
  for(const locale of ['en','zh-CN','zh-TW','ja','ko']){
   const prefix=locale==='en'?'':'/'+locale;
@@ -169,8 +169,11 @@ test('every localized public page has a real title and each guide preserves sour
    const response=await call(prefix+path),html=await response.text();
    assert.equal(response.status,200,prefix+path);
    assert.ok(html.includes(`<html lang="${locale}">`));assert.doesNotMatch(html,/<(?:title|h1)[^>]*>[^<]*undefined/);
+   if(['/about','/methodology'].includes(path))assert.doesNotMatch(html,/github\.com|commit|SHA-?256|资产指纹|抓取日期|维护流程|審核流程/i);
    if(ids.some(id=>path==='/venues/'+id)){
-    assert.match(html,/2026-10-24/);assert.match(html,/oss-cn-beijing/);assert.match(html,/[a-f0-9]{12}/);
+    assert.doesNotMatch(html,/2026-10-24|oss-cn-beijing|[a-f0-9]{64}|SHA-?256|asset fingerprint|抓取日期|资产指纹|資產指紋|导入记录|導入紀錄/i);
+    assert.match(html,/target="_blank" rel="noopener noreferrer"/);
+    assert.match(html,/data-tool-entry/);
    }
   }
   const svg=await(await call(prefix+'/previews/kai-tak-stadium.svg')).text();

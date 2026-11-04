@@ -1,0 +1,4018 @@
+{
+  "venues": {
+    "twcv-the-o2-arena-london": {
+      "id": "twcv-the-o2-arena-london",
+      "name": "The O2 Arena（倫敦）",
+      "city": "伦敦 · Greenwich",
+      "capacity": null,
+      "tiers": [],
+      "source": "https://twconcertview.com/3d/the-o2-arena-london",
+      "sourceTitle": "TW Concert View 公开页面内嵌场馆数据",
+      "accuracy": {
+        "sectionLabels": "source-observed",
+        "completeSeatInventory": false,
+        "metricCalibrated": false,
+        "stage": "reference-layout",
+        "position": "source-coordinate",
+        "geometryBasis": "source-coordinate",
+        "seatDataStatus": "full-retained-asset",
+        "sourceDate": "2026-10-19",
+        "sourceCurrency": "公开页面快照；来源方说明为场馆图面与网友实拍校正，非官方 manifest",
+        "reuse": "公开可读取；商业复制与再分发许可未确认",
+        "coverage": "14,389 条逐座坐标，40 个来源分区；固定座位底库已接入本地研究预览，未独立测量或发布。"
+      },
+      "sections": [],
+      "geometry": {
+        "openBowl": true,
+        "sourceLayout": "twconcertview",
+        "roofHeight": 32
+      },
+      "referenceLayouts": [
+        {
+          "id": "o2a",
+          "label": "端舞台",
+          "stage": {
+            "kind": "end",
+            "deck": {
+              "x0": -13,
+              "x1": 13,
+              "z0": -42.87,
+              "z1": -26.07,
+              "h": 1.9
+            },
+            "screens": {
+              "side": [
+                4.2,
+                13,
+                9,
+                -39.27
+              ],
+              "main": [
+                8.4,
+                9,
+                -42.27
+              ]
+            },
+            "rig": {
+              "y": 13.5,
+              "z": -27.07,
+              "w": 24
+            },
+            "fenceX": [
+              -15.11,
+              15.13
+            ],
+            "mask": {
+              "poly": [
+                [
+                  -22.55,
+                  -38.93
+                ],
+                [
+                  -9.84,
+                  -44.72
+                ],
+                [
+                  -9.87,
+                  -44.56
+                ],
+                [
+                  0.75,
+                  -44.87
+                ],
+                [
+                  0.9,
+                  -45.09
+                ],
+                [
+                  16.01,
+                  -43.17
+                ],
+                [
+                  15.66,
+                  -43.05
+                ],
+                [
+                  22.8,
+                  -38.41
+                ]
+              ],
+              "y1": 27
+            },
+            "runway": {
+              "outline": [
+                [
+                  0,
+                  2
+                ],
+                [
+                  7.69,
+                  2
+                ],
+                [
+                  7.69,
+                  5
+                ],
+                [
+                  17.69,
+                  5
+                ]
+              ],
+              "h": 1.9,
+              "from": "a common K-pop T runway (narrow part 4 m wide, platform 10 x 10 m; TXT 2025 photo ~3.8 m / ~10 m), placed in aespa 2027-01-16's floor gap (Ticketmaster UK, no A2)"
+            },
+            "arrays": [],
+            "trusses": [],
+            "people": [
+              {
+                "h": 1.7,
+                "top": "#f2f2ee",
+                "bottom": "#1d1f22",
+                "pose": "mic",
+                "hair": "short"
+              }
+            ],
+            "spots": [
+              {
+                "key": "c",
+                "name": "主舞台中央",
+                "x": 0,
+                "y": 1.9,
+                "z": -34.86
+              },
+              {
+                "key": "l",
+                "name": "主舞台左側",
+                "x": -8.06,
+                "y": 1.9,
+                "z": -34.86
+              },
+              {
+                "key": "r",
+                "name": "主舞台右側",
+                "x": 8.06,
+                "y": 1.9,
+                "z": -34.86
+              },
+              {
+                "key": "p",
+                "name": "延伸台方台",
+                "x": 0,
+                "y": 1.9,
+                "z": -13.38
+              }
+            ],
+            "focus": {
+              "x": -1.56,
+              "z": -34.86,
+              "y": 3.794
+            },
+            "fencePath": [
+              [
+                -15.11,
+                -24.47
+              ],
+              [
+                -3,
+                -24.47
+              ],
+              [
+                -3,
+                -19.38
+              ],
+              [
+                -6,
+                -19.38
+              ],
+              [
+                -6,
+                -7.38
+              ],
+              [
+                6,
+                -7.38
+              ],
+              [
+                6,
+                -19.38
+              ],
+              [
+                3,
+                -19.38
+              ],
+              [
+                3,
+                -24.47
+              ],
+              [
+                15.13,
+                -24.47
+              ]
+            ]
+          },
+          "zones": [
+            {
+              "id": "FA1",
+              "label": "搖滾A1",
+              "polygon": [
+                [
+                  -15.01,
+                  -24.47
+                ],
+                [
+                  -6.45,
+                  -24.47
+                ],
+                [
+                  -6.45,
+                  -6.87
+                ],
+                [
+                  -15.01,
+                  -6.87
+                ]
+              ],
+              "sourceBox": [
+                -15.01,
+                -6.45,
+                -24.47,
+                -6.87
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "FA3",
+              "label": "搖滾A3",
+              "polygon": [
+                [
+                  6.4,
+                  -24.47
+                ],
+                [
+                  15.03,
+                  -24.47
+                ],
+                [
+                  15.03,
+                  -6.87
+                ],
+                [
+                  6.4,
+                  -6.87
+                ]
+              ],
+              "sourceBox": [
+                6.4,
+                15.03,
+                -24.47,
+                -6.87
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "FB1",
+              "label": "搖滾B1",
+              "polygon": [
+                [
+                  -15.01,
+                  -6.87
+                ],
+                [
+                  -5.34,
+                  -6.87
+                ],
+                [
+                  -5.34,
+                  12.41
+                ],
+                [
+                  -15.01,
+                  12.41
+                ]
+              ],
+              "sourceBox": [
+                -15.01,
+                -5.34,
+                -6.87,
+                12.41
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "FB2",
+              "label": "搖滾B2",
+              "polygon": [
+                [
+                  -5.34,
+                  -6.87
+                ],
+                [
+                  5.32,
+                  -6.87
+                ],
+                [
+                  5.32,
+                  12.41
+                ],
+                [
+                  -5.34,
+                  12.41
+                ]
+              ],
+              "sourceBox": [
+                -5.34,
+                5.32,
+                -6.87,
+                12.41
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "FB3",
+              "label": "搖滾B3",
+              "polygon": [
+                [
+                  5.32,
+                  -6.87
+                ],
+                [
+                  15.03,
+                  -6.87
+                ],
+                [
+                  15.03,
+                  12.41
+                ],
+                [
+                  5.32,
+                  12.41
+                ]
+              ],
+              "sourceBox": [
+                5.32,
+                15.03,
+                -6.87,
+                12.41
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "FC1",
+              "label": "搖滾C1",
+              "polygon": [
+                [
+                  -15.01,
+                  12.41
+                ],
+                [
+                  -4.39,
+                  12.41
+                ],
+                [
+                  -4.39,
+                  28.1
+                ],
+                [
+                  -15.01,
+                  28.1
+                ]
+              ],
+              "sourceBox": [
+                -15.01,
+                -4.39,
+                12.41,
+                28.1
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "FC2",
+              "label": "搖滾C2",
+              "polygon": [
+                [
+                  -4.39,
+                  12.41
+                ],
+                [
+                  4.39,
+                  12.41
+                ],
+                [
+                  4.39,
+                  28.1
+                ],
+                [
+                  -4.39,
+                  28.1
+                ]
+              ],
+              "sourceBox": [
+                -4.39,
+                4.39,
+                12.41,
+                28.1
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "FC3",
+              "label": "搖滾C3",
+              "polygon": [
+                [
+                  4.39,
+                  12.41
+                ],
+                [
+                  15.03,
+                  12.41
+                ],
+                [
+                  15.03,
+                  28.1
+                ],
+                [
+                  4.39,
+                  28.1
+                ]
+              ],
+              "sourceBox": [
+                4.39,
+                15.03,
+                12.41,
+                28.1
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "FP106",
+              "label": "106 拉出排",
+              "polygon": [
+                [
+                  -15.01,
+                  28.1
+                ],
+                [
+                  0.51,
+                  28.1
+                ],
+                [
+                  0.51,
+                  35.43
+                ],
+                [
+                  -15.01,
+                  35.43
+                ]
+              ],
+              "sourceBox": [
+                -15.01,
+                0.51,
+                28.1,
+                35.43
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "FP107",
+              "label": "107 拉出排",
+              "polygon": [
+                [
+                  0.51,
+                  28.1
+                ],
+                [
+                  15.03,
+                  28.1
+                ],
+                [
+                  15.03,
+                  35.43
+                ],
+                [
+                  0.51,
+                  35.43
+                ]
+              ],
+              "sourceBox": [
+                0.51,
+                15.03,
+                28.1,
+                35.43
+              ],
+              "source": "reference-layout"
+            }
+          ],
+          "sourceLayout": {
+            "id": "o2a",
+            "name": "端舞台"
+          }
+        }
+      ],
+      "researchOrigin": "twconcertview",
+      "researchOnly": true,
+      "researchConcerts": []
+    },
+    "twcv-accor-arena-paris": {
+      "id": "twcv-accor-arena-paris",
+      "name": "Accor Arena（巴黎）",
+      "city": "巴黎 · Paris",
+      "capacity": null,
+      "tiers": [],
+      "source": "https://twconcertview.com/3d/accor-arena-paris",
+      "sourceTitle": "TW Concert View 公开页面内嵌场馆数据",
+      "accuracy": {
+        "sectionLabels": "source-observed",
+        "completeSeatInventory": false,
+        "metricCalibrated": false,
+        "stage": "reference-layout",
+        "position": "source-coordinate",
+        "geometryBasis": "source-coordinate",
+        "seatDataStatus": "full-retained-asset",
+        "sourceDate": "2026-10-19",
+        "sourceCurrency": "公开页面快照；来源方说明为场馆图面与网友实拍校正，非官方 manifest",
+        "reuse": "公开可读取；商业复制与再分发许可未确认",
+        "coverage": "14,493 条逐座坐标，44 个来源分区；固定座位底库已接入本地研究预览，未独立测量或发布。"
+      },
+      "sections": [],
+      "geometry": {
+        "openBowl": true,
+        "sourceLayout": "twconcertview",
+        "roofHeight": 32,
+        "displayBasis": "source-row-ribbons"
+      },
+      "referenceLayouts": [
+        {
+          "id": "acc",
+          "label": "端舞台",
+          "stage": {
+            "kind": "end",
+            "deck": {
+              "x0": -12.5,
+              "x1": 12.5,
+              "z0": -39,
+              "z1": -26.8,
+              "h": 1.8
+            },
+            "screens": {
+              "side": [
+                4,
+                12.4,
+                8.5,
+                -35.4
+              ],
+              "main": [
+                8,
+                8.5,
+                -38.4
+              ]
+            },
+            "rig": {
+              "y": 12.9,
+              "z": -27.8,
+              "w": 24
+            },
+            "fenceX": [
+              -15.5,
+              15.5
+            ],
+            "mask": {
+              "poly": [
+                [
+                  24.6,
+                  -45.3
+                ],
+                [
+                  13,
+                  -32.4
+                ],
+                [
+                  13,
+                  -40.6
+                ],
+                [
+                  -13,
+                  -40.6
+                ],
+                [
+                  -13,
+                  -32.4
+                ],
+                [
+                  -24.6,
+                  -45.3
+                ]
+              ],
+              "y1": 21.5
+            },
+            "runway": null,
+            "arrays": [],
+            "trusses": [],
+            "people": [
+              {
+                "h": 1.7,
+                "top": "#f2f2ee",
+                "bottom": "#1d1f22",
+                "pose": "mic",
+                "hair": "short"
+              }
+            ],
+            "spots": [
+              {
+                "key": "c",
+                "name": "主舞台中央",
+                "x": 0,
+                "y": 1.8,
+                "z": -30.3
+              },
+              {
+                "key": "l",
+                "name": "主舞台左側",
+                "x": -7.75,
+                "y": 1.8,
+                "z": -30.3
+              },
+              {
+                "key": "r",
+                "name": "主舞台右側",
+                "x": 7.75,
+                "y": 1.8,
+                "z": -30.3
+              }
+            ],
+            "focus": {
+              "x": 0,
+              "z": -30.3,
+              "y": 3.6
+            }
+          },
+          "zones": [
+            {
+              "id": "FX1",
+              "label": "Fosse X 前段",
+              "polygon": [
+                [
+                  -15.4,
+                  -25.2
+                ],
+                [
+                  -5.18,
+                  -25.2
+                ],
+                [
+                  -5.18,
+                  3.75
+                ],
+                [
+                  -15.4,
+                  3.75
+                ]
+              ],
+              "sourceBox": [
+                -15.4,
+                -5.18,
+                -25.2,
+                3.75
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "FX2",
+              "label": "Fosse X 後段",
+              "polygon": [
+                [
+                  -15.4,
+                  3.75
+                ],
+                [
+                  -5.18,
+                  3.75
+                ],
+                [
+                  -5.18,
+                  31.1
+                ],
+                [
+                  -15.4,
+                  31.1
+                ]
+              ],
+              "sourceBox": [
+                -15.4,
+                -5.18,
+                3.75,
+                31.1
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "FY1",
+              "label": "Fosse Y 前段",
+              "polygon": [
+                [
+                  -5.18,
+                  -25.2
+                ],
+                [
+                  5.18,
+                  -25.2
+                ],
+                [
+                  5.18,
+                  3.75
+                ],
+                [
+                  -5.18,
+                  3.75
+                ]
+              ],
+              "sourceBox": [
+                -5.18,
+                5.18,
+                -25.2,
+                3.75
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "FY2",
+              "label": "Fosse Y 後段",
+              "polygon": [
+                [
+                  -5.18,
+                  3.75
+                ],
+                [
+                  5.18,
+                  3.75
+                ],
+                [
+                  5.18,
+                  31.1
+                ],
+                [
+                  -5.18,
+                  31.1
+                ]
+              ],
+              "sourceBox": [
+                -5.18,
+                5.18,
+                3.75,
+                31.1
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "FZ1",
+              "label": "Fosse Z 前段",
+              "polygon": [
+                [
+                  5.18,
+                  -25.2
+                ],
+                [
+                  15.4,
+                  -25.2
+                ],
+                [
+                  15.4,
+                  3.75
+                ],
+                [
+                  5.18,
+                  3.75
+                ]
+              ],
+              "sourceBox": [
+                5.18,
+                15.4,
+                -25.2,
+                3.75
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "FZ2",
+              "label": "Fosse Z 後段",
+              "polygon": [
+                [
+                  5.18,
+                  3.75
+                ],
+                [
+                  15.4,
+                  3.75
+                ],
+                [
+                  15.4,
+                  31.1
+                ],
+                [
+                  5.18,
+                  31.1
+                ]
+              ],
+              "sourceBox": [
+                5.18,
+                15.4,
+                3.75,
+                31.1
+              ],
+              "source": "reference-layout"
+            }
+          ],
+          "sourceLayout": {
+            "id": "acc",
+            "name": "端舞台"
+          }
+        }
+      ],
+      "researchOrigin": "twconcertview",
+      "researchOnly": true,
+      "researchConcerts": []
+    },
+    "twcv-ziggo-dome-amsterdam": {
+      "id": "twcv-ziggo-dome-amsterdam",
+      "name": "Ziggo Dome（阿姆斯特丹）",
+      "city": "阿姆斯特丹 · Amsterdam",
+      "capacity": null,
+      "tiers": [],
+      "source": "https://twconcertview.com/3d/ziggo-dome-amsterdam",
+      "sourceTitle": "TW Concert View 公开页面内嵌场馆数据",
+      "accuracy": {
+        "sectionLabels": "source-observed",
+        "completeSeatInventory": false,
+        "metricCalibrated": false,
+        "stage": "reference-layout",
+        "position": "source-coordinate",
+        "geometryBasis": "source-coordinate",
+        "seatDataStatus": "full-retained-asset",
+        "sourceDate": "2026-10-19",
+        "sourceCurrency": "公开页面快照；来源方说明为场馆图面与网友实拍校正，非官方 manifest",
+        "reuse": "公开可读取；商业复制与再分发许可未确认",
+        "coverage": "10,093 条逐座坐标，26 个来源分区；固定座位底库已接入本地研究预览，未独立测量或发布。"
+      },
+      "sections": [],
+      "geometry": {
+        "openBowl": true,
+        "sourceLayout": "twconcertview",
+        "roofHeight": 32,
+        "displayBasis": "source-row-ribbons"
+      },
+      "referenceLayouts": [
+        {
+          "id": "zgd",
+          "label": "端舞台",
+          "stage": {
+            "kind": "end",
+            "deck": {
+              "x0": -13,
+              "x1": 13,
+              "z0": -33.97,
+              "z1": -23.68,
+              "h": 1.8
+            },
+            "screens": {
+              "side": [
+                4.2,
+                13,
+                9,
+                -30.37
+              ],
+              "main": [
+                8.4,
+                9,
+                -33.37
+              ]
+            },
+            "rig": {
+              "y": 13.4,
+              "z": -24.68,
+              "w": 24
+            },
+            "fenceX": [
+              -21.07,
+              21.07
+            ],
+            "fenceGap": [
+              -2.1,
+              2.1
+            ],
+            "mask": null,
+            "runway": {
+              "h": 1.8,
+              "outline": [
+                [
+                  0,
+                  2.1
+                ],
+                [
+                  16.66,
+                  2.1
+                ],
+                [
+                  16.66,
+                  6.2
+                ],
+                [
+                  22.16,
+                  6.2
+                ]
+              ],
+              "round": null,
+              "src": "IVE 2024-06-13 (Wikimedia Commons IVE 01, the camera from the hall): runway 4.2 m, platform 12.4 x 5.5 m, in aespa SYNK COMPLæXITY 2027-01-19 (Ticketmaster NL 1442749147)'s floor without chairs",
+              "aisle": 1.2,
+              "fence": [
+                [
+                  3.3,
+                  -22.08
+                ],
+                [
+                  3.3,
+                  -8.22
+                ],
+                [
+                  7.4,
+                  -8.22
+                ],
+                [
+                  7.4,
+                  -0.32
+                ],
+                [
+                  0,
+                  -0.32
+                ]
+              ]
+            },
+            "arrays": [],
+            "trusses": [],
+            "people": [
+              {
+                "h": 1.7,
+                "top": "#f2f2ee",
+                "bottom": "#1d1f22",
+                "pose": "mic",
+                "hair": "short"
+              }
+            ],
+            "spots": [
+              {
+                "key": "c",
+                "name": "主舞台中央",
+                "x": 0,
+                "y": 1.8,
+                "z": -26.68
+              },
+              {
+                "key": "l",
+                "name": "主舞台左側",
+                "x": -8.06,
+                "y": 1.8,
+                "z": -26.68
+              },
+              {
+                "key": "r",
+                "name": "主舞台右側",
+                "x": 8.06,
+                "y": 1.8,
+                "z": -26.68
+              },
+              {
+                "key": "w",
+                "name": "延伸台",
+                "x": 0,
+                "y": 1.8,
+                "z": -15.35
+              },
+              {
+                "key": "p",
+                "name": "延伸台方台",
+                "x": 0,
+                "y": 1.8,
+                "z": -4.27
+              }
+            ],
+            "focus": {
+              "x": 0,
+              "z": -26.68,
+              "y": 3.5
+            }
+          },
+          "zones": [
+            {
+              "id": "FA",
+              "label": "搖滾A",
+              "polygon": [
+                [
+                  8.23,
+                  -22.08
+                ],
+                [
+                  20.97,
+                  -22.08
+                ],
+                [
+                  20.97,
+                  -3.92
+                ],
+                [
+                  8.23,
+                  -3.92
+                ]
+              ],
+              "sourceBox": [
+                8.23,
+                20.97,
+                -22.08,
+                -3.92
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "FB",
+              "label": "搖滾B",
+              "polygon": [
+                [
+                  -7.9,
+                  -22.08
+                ],
+                [
+                  8.23,
+                  -22.08
+                ],
+                [
+                  8.23,
+                  -3.92
+                ],
+                [
+                  -7.9,
+                  -3.92
+                ]
+              ],
+              "sourceBox": [
+                -7.9,
+                8.23,
+                -22.08,
+                -3.92
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "FC",
+              "label": "搖滾C",
+              "polygon": [
+                [
+                  -20.97,
+                  -22.08
+                ],
+                [
+                  -7.9,
+                  -22.08
+                ],
+                [
+                  -7.9,
+                  -3.92
+                ],
+                [
+                  -20.97,
+                  -3.92
+                ]
+              ],
+              "sourceBox": [
+                -20.97,
+                -7.9,
+                -22.08,
+                -3.92
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "FD",
+              "label": "搖滾D",
+              "polygon": [
+                [
+                  8.23,
+                  -3.92
+                ],
+                [
+                  20.97,
+                  -3.92
+                ],
+                [
+                  20.97,
+                  13.13
+                ],
+                [
+                  8.23,
+                  13.13
+                ]
+              ],
+              "sourceBox": [
+                8.23,
+                20.97,
+                -3.92,
+                13.13
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "FE",
+              "label": "搖滾E",
+              "polygon": [
+                [
+                  -7.9,
+                  -3.92
+                ],
+                [
+                  8.23,
+                  -3.92
+                ],
+                [
+                  8.23,
+                  13.13
+                ],
+                [
+                  -7.9,
+                  13.13
+                ]
+              ],
+              "sourceBox": [
+                -7.9,
+                8.23,
+                -3.92,
+                13.13
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "FF",
+              "label": "搖滾F",
+              "polygon": [
+                [
+                  -20.97,
+                  -3.92
+                ],
+                [
+                  -7.9,
+                  -3.92
+                ],
+                [
+                  -7.9,
+                  13.13
+                ],
+                [
+                  -20.97,
+                  13.13
+                ]
+              ],
+              "sourceBox": [
+                -20.97,
+                -7.9,
+                -3.92,
+                13.13
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "FG",
+              "label": "搖滾G",
+              "polygon": [
+                [
+                  8.23,
+                  13.13
+                ],
+                [
+                  20.97,
+                  13.13
+                ],
+                [
+                  20.97,
+                  34.07
+                ],
+                [
+                  8.23,
+                  34.07
+                ]
+              ],
+              "sourceBox": [
+                8.23,
+                20.97,
+                13.13,
+                34.07
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "FH",
+              "label": "搖滾H",
+              "polygon": [
+                [
+                  -7.9,
+                  13.13
+                ],
+                [
+                  8.23,
+                  13.13
+                ],
+                [
+                  8.23,
+                  34.07
+                ],
+                [
+                  -7.9,
+                  34.07
+                ]
+              ],
+              "sourceBox": [
+                -7.9,
+                8.23,
+                13.13,
+                34.07
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "FI",
+              "label": "搖滾I",
+              "polygon": [
+                [
+                  -20.97,
+                  13.13
+                ],
+                [
+                  -7.9,
+                  13.13
+                ],
+                [
+                  -7.9,
+                  34.07
+                ],
+                [
+                  -20.97,
+                  34.07
+                ]
+              ],
+              "sourceBox": [
+                -20.97,
+                -7.9,
+                13.13,
+                34.07
+              ],
+              "source": "reference-layout"
+            }
+          ],
+          "sourceLayout": {
+            "id": "zgd",
+            "name": "端舞台"
+          }
+        }
+      ],
+      "researchOrigin": "twconcertview",
+      "researchOnly": true,
+      "researchConcerts": []
+    },
+    "twcv-uber-arena-berlin": {
+      "id": "twcv-uber-arena-berlin",
+      "name": "Uber Arena（柏林）",
+      "city": "柏林 · Berlin",
+      "capacity": null,
+      "tiers": [],
+      "source": "https://twconcertview.com/3d/uber-arena-berlin",
+      "sourceTitle": "TW Concert View 公开页面内嵌场馆数据",
+      "accuracy": {
+        "sectionLabels": "source-observed",
+        "completeSeatInventory": false,
+        "metricCalibrated": false,
+        "stage": "reference-layout",
+        "position": "source-coordinate",
+        "geometryBasis": "source-coordinate",
+        "seatDataStatus": "full-retained-asset",
+        "sourceDate": "2026-10-19",
+        "sourceCurrency": "公开页面快照；来源方说明为场馆图面与网友实拍校正，非官方 manifest",
+        "reuse": "公开可读取；商业复制与再分发许可未确认",
+        "coverage": "11,256 条逐座坐标，45 个来源分区；固定座位底库已接入本地研究预览，未独立测量或发布。"
+      },
+      "sections": [],
+      "geometry": {
+        "openBowl": true,
+        "sourceLayout": "twconcertview",
+        "roofHeight": 32,
+        "displayBasis": "source-row-ribbons"
+      },
+      "referenceLayouts": [
+        {
+          "id": "uba",
+          "label": "端舞台",
+          "stage": {
+            "kind": "end",
+            "deck": {
+              "x0": -13,
+              "x1": 13,
+              "z0": -41.82,
+              "z1": -29,
+              "h": 1.8
+            },
+            "screens": {
+              "side": [
+                4.2,
+                13,
+                9,
+                -38.22
+              ],
+              "main": [
+                8.4,
+                9,
+                -41.22
+              ]
+            },
+            "rig": {
+              "y": 13.4,
+              "z": -30,
+              "w": 24
+            },
+            "fenceX": [
+              -15.28,
+              15.28
+            ],
+            "mask": {
+              "poly": [
+                [
+                  -26.47,
+                  -32.64
+                ],
+                [
+                  -18.06,
+                  -40.59
+                ],
+                [
+                  -17.45,
+                  -40.89
+                ],
+                [
+                  -6.87,
+                  -43.82
+                ],
+                [
+                  -6.09,
+                  -43.83
+                ],
+                [
+                  6.05,
+                  -43.83
+                ],
+                [
+                  6.84,
+                  -43.81
+                ],
+                [
+                  17.53,
+                  -41.19
+                ],
+                [
+                  18.13,
+                  -40.98
+                ],
+                [
+                  26.09,
+                  -32.79
+                ]
+              ],
+              "y1": 24.5
+            },
+            "runway": null,
+            "arrays": [],
+            "trusses": [],
+            "people": [
+              {
+                "h": 1.7,
+                "top": "#f2f2ee",
+                "bottom": "#1d1f22",
+                "pose": "mic",
+                "hair": "short"
+              }
+            ],
+            "spots": [
+              {
+                "key": "c",
+                "name": "主舞台中央",
+                "x": 0,
+                "y": 1.8,
+                "z": -32.4
+              },
+              {
+                "key": "l",
+                "name": "主舞台左側",
+                "x": -8.06,
+                "y": 1.8,
+                "z": -32.4
+              },
+              {
+                "key": "r",
+                "name": "主舞台右側",
+                "x": 8.06,
+                "y": 1.8,
+                "z": -32.4
+              }
+            ],
+            "focus": {
+              "x": 0,
+              "z": -32.4,
+              "y": 3.7
+            }
+          },
+          "zones": [
+            {
+              "id": "FAL",
+              "label": "Innenraum A Links",
+              "polygon": [
+                [
+                  -15.18,
+                  -27.4
+                ],
+                [
+                  -5.06,
+                  -27.4
+                ],
+                [
+                  -5.06,
+                  -1
+                ],
+                [
+                  -15.18,
+                  -1
+                ]
+              ],
+              "sourceBox": [
+                -15.18,
+                -5.06,
+                -27.4,
+                -1
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "FAM",
+              "label": "Innenraum A Mitte",
+              "polygon": [
+                [
+                  -5.06,
+                  -27.4
+                ],
+                [
+                  5.06,
+                  -27.4
+                ],
+                [
+                  5.06,
+                  -1
+                ],
+                [
+                  -5.06,
+                  -1
+                ]
+              ],
+              "sourceBox": [
+                -5.06,
+                5.06,
+                -27.4,
+                -1
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "FAR",
+              "label": "Innenraum A Rechts",
+              "polygon": [
+                [
+                  5.06,
+                  -27.4
+                ],
+                [
+                  15.18,
+                  -27.4
+                ],
+                [
+                  15.18,
+                  -1
+                ],
+                [
+                  5.06,
+                  -1
+                ]
+              ],
+              "sourceBox": [
+                5.06,
+                15.18,
+                -27.4,
+                -1
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "FBL",
+              "label": "Innenraum B Links",
+              "polygon": [
+                [
+                  -15.18,
+                  -1
+                ],
+                [
+                  -5.06,
+                  -1
+                ],
+                [
+                  -5.06,
+                  27.74
+                ],
+                [
+                  -15.18,
+                  27.74
+                ]
+              ],
+              "sourceBox": [
+                -15.18,
+                -5.06,
+                -1,
+                27.74
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "FBM",
+              "label": "Innenraum B Mitte",
+              "polygon": [
+                [
+                  -5.06,
+                  -1
+                ],
+                [
+                  5.06,
+                  -1
+                ],
+                [
+                  5.06,
+                  27.74
+                ],
+                [
+                  -5.06,
+                  27.74
+                ]
+              ],
+              "sourceBox": [
+                -5.06,
+                5.06,
+                -1,
+                27.74
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "FBR",
+              "label": "Innenraum B Rechts",
+              "polygon": [
+                [
+                  5.06,
+                  -1
+                ],
+                [
+                  15.18,
+                  -1
+                ],
+                [
+                  15.18,
+                  27.74
+                ],
+                [
+                  5.06,
+                  27.74
+                ]
+              ],
+              "sourceBox": [
+                5.06,
+                15.18,
+                -1,
+                27.74
+              ],
+              "source": "reference-layout"
+            }
+          ],
+          "sourceLayout": {
+            "id": "uba",
+            "name": "端舞台"
+          }
+        }
+      ],
+      "researchOrigin": "twconcertview",
+      "researchOnly": true,
+      "researchConcerts": []
+    },
+    "twcv-kia-forum-los-angeles": {
+      "id": "twcv-kia-forum-los-angeles",
+      "name": "Kia Forum",
+      "city": "洛杉矶地区 · Inglewood",
+      "capacity": null,
+      "tiers": [],
+      "source": "https://twconcertview.com/3d/kia-forum-los-angeles",
+      "sourceTitle": "TW Concert View 公开页面内嵌场馆数据",
+      "accuracy": {
+        "sectionLabels": "source-observed",
+        "completeSeatInventory": false,
+        "metricCalibrated": false,
+        "stage": "reference-layout",
+        "position": "source-coordinate",
+        "geometryBasis": "source-coordinate",
+        "seatDataStatus": "full-retained-asset",
+        "sourceDate": "2026-10-19",
+        "sourceCurrency": "公开页面快照；来源方说明为场馆图面与网友实拍校正，非官方 manifest",
+        "reuse": "公开可读取；商业复制与再分发许可未确认",
+        "coverage": "13,869 条逐座坐标，86 个来源分区；固定座位底库已接入本地研究预览，未独立测量或发布。"
+      },
+      "sections": [],
+      "geometry": {
+        "openBowl": true,
+        "sourceLayout": "twconcertview",
+        "roofHeight": 32,
+        "displayBasis": "source-row-ribbons"
+      },
+      "referenceLayouts": [
+        {
+          "id": "kfo",
+          "label": "端舞台",
+          "stage": {
+            "kind": "end",
+            "deck": {
+              "x0": -12,
+              "x1": 12,
+              "z0": -30,
+              "z1": -17,
+              "h": 1.8
+            },
+            "screens": {
+              "side": [
+                3.6,
+                11.6,
+                8.5,
+                -26.6
+              ],
+              "main": [
+                7.2,
+                8.5,
+                -29.6
+              ]
+            },
+            "rig": {
+              "y": 15.5,
+              "z": -18,
+              "w": 24
+            },
+            "mask": {
+              "z": -31.6,
+              "x0": -52.1,
+              "x1": 52.1,
+              "y1": 25.6
+            },
+            "wings": null,
+            "runway": {
+              "h": 1.8,
+              "x": 0.14,
+              "outline": [
+                [
+                  0,
+                  2
+                ],
+                [
+                  8.72,
+                  2
+                ],
+                [
+                  8.72,
+                  5
+                ],
+                [
+                  18.72,
+                  5
+                ]
+              ],
+              "fence": [
+                [
+                  -12,
+                  -15.4
+                ],
+                [
+                  -2.86,
+                  -15.4
+                ],
+                [
+                  -2.86,
+                  -9.28
+                ],
+                [
+                  -5.86,
+                  -9.28
+                ],
+                [
+                  -5.86,
+                  2.72
+                ],
+                [
+                  6.14,
+                  2.72
+                ],
+                [
+                  6.14,
+                  -9.28
+                ],
+                [
+                  3.14,
+                  -9.28
+                ],
+                [
+                  3.14,
+                  -15.4
+                ],
+                [
+                  12,
+                  -15.4
+                ]
+              ]
+            },
+            "arrays": [],
+            "trusses": [],
+            "people": [
+              {
+                "h": 1.7,
+                "top": "#f2f2ee",
+                "bottom": "#1d1f22",
+                "pose": "mic",
+                "hair": "short"
+              }
+            ],
+            "spots": [
+              {
+                "key": "c",
+                "name": "主舞台中央",
+                "x": 0,
+                "y": 1.8,
+                "z": -19.4
+              },
+              {
+                "key": "l",
+                "name": "主舞台左側",
+                "x": -7.44,
+                "y": 1.8,
+                "z": -19.4
+              },
+              {
+                "key": "r",
+                "name": "主舞台右側",
+                "x": 7.44,
+                "y": 1.8,
+                "z": -19.4
+              },
+              {
+                "key": "w",
+                "name": "延伸台",
+                "x": 0.14,
+                "y": 1.8,
+                "z": -12.64
+              },
+              {
+                "key": "p",
+                "name": "方台中央",
+                "x": 0.14,
+                "y": 1.8,
+                "z": -3.28
+              }
+            ]
+          },
+          "zones": [
+            {
+              "id": "FA",
+              "label": "Floor A",
+              "polygon": [
+                [
+                  -17.94,
+                  -12.58
+                ],
+                [
+                  -13.02,
+                  -12.58
+                ],
+                [
+                  -13.02,
+                  6.64
+                ],
+                [
+                  -17.94,
+                  6.64
+                ]
+              ],
+              "sourceBox": [
+                -17.94,
+                -13.02,
+                -12.58,
+                6.64
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "FB",
+              "label": "Floor B",
+              "polygon": [
+                [
+                  -11.81,
+                  -13.41
+                ],
+                [
+                  -4.71,
+                  -13.41
+                ],
+                [
+                  -4.71,
+                  6.74
+                ],
+                [
+                  -11.81,
+                  6.74
+                ]
+              ],
+              "sourceBox": [
+                -11.81,
+                -4.71,
+                -13.41,
+                6.74
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "FC",
+              "label": "Floor C",
+              "polygon": [
+                [
+                  -3.35,
+                  3.6
+                ],
+                [
+                  3.72,
+                  3.6
+                ],
+                [
+                  3.72,
+                  6.76
+                ],
+                [
+                  -3.35,
+                  6.76
+                ]
+              ],
+              "sourceBox": [
+                -3.35,
+                3.72,
+                3.6,
+                6.76
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "FD",
+              "label": "Floor D",
+              "polygon": [
+                [
+                  5.04,
+                  -13.36
+                ],
+                [
+                  12.19,
+                  -13.36
+                ],
+                [
+                  12.19,
+                  6.79
+                ],
+                [
+                  5.04,
+                  6.79
+                ]
+              ],
+              "sourceBox": [
+                5.04,
+                12.19,
+                -13.36,
+                6.79
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "FE",
+              "label": "Floor E",
+              "polygon": [
+                [
+                  13.25,
+                  -12.49
+                ],
+                [
+                  18.17,
+                  -12.49
+                ],
+                [
+                  18.17,
+                  6.81
+                ],
+                [
+                  13.25,
+                  6.81
+                ]
+              ],
+              "sourceBox": [
+                13.25,
+                18.17,
+                -12.49,
+                6.81
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "FF",
+              "label": "Floor F",
+              "polygon": [
+                [
+                  -18,
+                  8.86
+                ],
+                [
+                  -13.11,
+                  8.86
+                ],
+                [
+                  -13.11,
+                  17.12
+                ],
+                [
+                  -18,
+                  17.12
+                ]
+              ],
+              "sourceBox": [
+                -18,
+                -13.11,
+                8.86,
+                17.12
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "FG",
+              "label": "Floor G",
+              "polygon": [
+                [
+                  -11.81,
+                  8.93
+                ],
+                [
+                  -4.72,
+                  8.93
+                ],
+                [
+                  -4.72,
+                  17.19
+                ],
+                [
+                  -11.81,
+                  17.19
+                ]
+              ],
+              "sourceBox": [
+                -11.81,
+                -4.72,
+                8.93,
+                17.19
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "FH",
+              "label": "Floor H",
+              "polygon": [
+                [
+                  -3.38,
+                  8.96
+                ],
+                [
+                  3.71,
+                  8.96
+                ],
+                [
+                  3.71,
+                  17.22
+                ],
+                [
+                  -3.38,
+                  17.22
+                ]
+              ],
+              "sourceBox": [
+                -3.38,
+                3.71,
+                8.96,
+                17.22
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "FJ",
+              "label": "Floor J",
+              "polygon": [
+                [
+                  5.03,
+                  8.98
+                ],
+                [
+                  12.12,
+                  8.98
+                ],
+                [
+                  12.12,
+                  17.25
+                ],
+                [
+                  5.03,
+                  17.25
+                ]
+              ],
+              "sourceBox": [
+                5.03,
+                12.12,
+                8.98,
+                17.25
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "FK",
+              "label": "Floor K",
+              "polygon": [
+                [
+                  13.22,
+                  9.01
+                ],
+                [
+                  18.14,
+                  9.01
+                ],
+                [
+                  18.14,
+                  17.25
+                ],
+                [
+                  13.22,
+                  17.25
+                ]
+              ],
+              "sourceBox": [
+                13.22,
+                18.14,
+                9.01,
+                17.25
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "FL",
+              "label": "Floor L",
+              "polygon": [
+                [
+                  -11.8,
+                  18.77
+                ],
+                [
+                  -4.75,
+                  18.77
+                ],
+                [
+                  -4.75,
+                  25.32
+                ],
+                [
+                  -11.8,
+                  25.32
+                ]
+              ],
+              "sourceBox": [
+                -11.8,
+                -4.75,
+                18.77,
+                25.32
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "FM",
+              "label": "Floor M",
+              "polygon": [
+                [
+                  -3.42,
+                  18.79
+                ],
+                [
+                  3.68,
+                  18.79
+                ],
+                [
+                  3.68,
+                  21.96
+                ],
+                [
+                  -3.42,
+                  21.96
+                ]
+              ],
+              "sourceBox": [
+                -3.42,
+                3.68,
+                18.79,
+                21.96
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "FN",
+              "label": "Floor N",
+              "polygon": [
+                [
+                  4.99,
+                  18.82
+                ],
+                [
+                  12.09,
+                  18.82
+                ],
+                [
+                  12.09,
+                  25.39
+                ],
+                [
+                  4.99,
+                  25.39
+                ]
+              ],
+              "sourceBox": [
+                4.99,
+                12.09,
+                18.82,
+                25.39
+              ],
+              "source": "reference-layout"
+            }
+          ],
+          "sourceLayout": {
+            "id": "kfo",
+            "name": "端舞台"
+          }
+        }
+      ],
+      "researchOrigin": "twconcertview",
+      "researchOnly": true,
+      "researchConcerts": []
+    },
+    "twcv-united-center-chicago": {
+      "id": "twcv-united-center-chicago",
+      "name": "United Center",
+      "city": "芝加哥 · Chicago",
+      "capacity": null,
+      "tiers": [],
+      "source": "https://twconcertview.com/3d/united-center-chicago",
+      "sourceTitle": "TW Concert View 公开页面内嵌场馆数据",
+      "accuracy": {
+        "sectionLabels": "source-observed",
+        "completeSeatInventory": false,
+        "metricCalibrated": false,
+        "stage": "reference-layout",
+        "position": "source-coordinate",
+        "geometryBasis": "source-coordinate",
+        "seatDataStatus": "full-retained-asset",
+        "sourceDate": "2026-10-19",
+        "sourceCurrency": "公开页面快照；来源方说明为场馆图面与网友实拍校正，非官方 manifest",
+        "reuse": "公开可读取；商业复制与再分发许可未确认",
+        "coverage": "17,335 条逐座坐标，90 个来源分区；固定座位底库已接入本地研究预览，未独立测量或发布。"
+      },
+      "sections": [],
+      "geometry": {
+        "openBowl": true,
+        "sourceLayout": "twconcertview",
+        "roofHeight": 32,
+        "displayBasis": "source-row-ribbons"
+      },
+      "referenceLayouts": [
+        {
+          "id": "unc",
+          "label": "端舞台",
+          "stage": {
+            "kind": "end",
+            "deck": {
+              "x0": -13,
+              "x1": 13,
+              "z0": -31,
+              "z1": -19,
+              "h": 1.6
+            },
+            "screens": {
+              "front": "main",
+              "side": [
+                3.67,
+                9.64,
+                8,
+                -28.9
+              ],
+              "main": [
+                7.93,
+                8,
+                -27.9
+              ]
+            },
+            "led": {
+              "z": -27.9
+            },
+            "screen": {
+              "w": 7.93,
+              "h": 8,
+              "side": null
+            },
+            "rig": {
+              "y": 15,
+              "z": -21,
+              "w": 24
+            },
+            "mask": {
+              "segs": [
+                [
+                  [
+                    -11.634,
+                    -38.209
+                  ],
+                  [
+                    -9.018,
+                    -39.175
+                  ]
+                ],
+                [
+                  [
+                    -9.018,
+                    -39.175
+                  ],
+                  [
+                    -6.759,
+                    -39.741
+                  ]
+                ],
+                [
+                  [
+                    -6.759,
+                    -39.741
+                  ],
+                  [
+                    -2.468,
+                    -39.917
+                  ]
+                ],
+                [
+                  [
+                    -2.468,
+                    -39.917
+                  ],
+                  [
+                    1.78,
+                    -39.917
+                  ]
+                ],
+                [
+                  [
+                    1.78,
+                    -39.917
+                  ],
+                  [
+                    6.093,
+                    -39.63
+                  ]
+                ],
+                [
+                  [
+                    6.093,
+                    -39.63
+                  ],
+                  [
+                    11.111,
+                    -38.574
+                  ]
+                ]
+              ],
+              "y1": 26
+            },
+            "runway": {
+              "outline": [
+                [
+                  0,
+                  1.85
+                ],
+                [
+                  14.5,
+                  1.85
+                ],
+                [
+                  14.5,
+                  4
+                ],
+                [
+                  21,
+                  4
+                ]
+              ],
+              "h": 1.6,
+              "round": null,
+              "fence": 1
+            },
+            "arrays": [],
+            "trusses": [],
+            "people": [
+              {
+                "h": 1.7,
+                "top": "#f2f2ee",
+                "bottom": "#1d1f22",
+                "pose": "mic",
+                "hair": "short"
+              }
+            ],
+            "spots": [
+              {
+                "key": "c",
+                "name": "主舞台中央",
+                "x": 0,
+                "y": 1.6,
+                "z": -21.4
+              },
+              {
+                "key": "l",
+                "name": "主舞台左側",
+                "x": -8.06,
+                "y": 1.6,
+                "z": -21.4
+              },
+              {
+                "key": "r",
+                "name": "主舞台右側",
+                "x": 8.06,
+                "y": 1.6,
+                "z": -21.4
+              },
+              {
+                "key": "p",
+                "name": "延伸台中央",
+                "x": 0,
+                "y": 1.6,
+                "z": -1.25
+              },
+              {
+                "key": "e",
+                "name": "延伸台末端",
+                "x": 0,
+                "y": 1.6,
+                "z": 0.4
+              }
+            ]
+          },
+          "zones": [
+            {
+              "id": "F1",
+              "label": "SEC 1",
+              "polygon": [
+                [
+                  -11.34,
+                  -10.92
+                ],
+                [
+                  -4.67,
+                  -10.92
+                ],
+                [
+                  -4.67,
+                  11.7
+                ],
+                [
+                  -11.34,
+                  11.7
+                ]
+              ],
+              "sourceBox": [
+                -11.34,
+                -4.67,
+                -10.92,
+                11.7
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "F2",
+              "label": "SEC 2",
+              "polygon": [
+                [
+                  -3.35,
+                  6.46
+                ],
+                [
+                  3.33,
+                  6.46
+                ],
+                [
+                  3.33,
+                  11.7
+                ],
+                [
+                  -3.35,
+                  11.7
+                ]
+              ],
+              "sourceBox": [
+                -3.35,
+                3.33,
+                6.46,
+                11.7
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "F3",
+              "label": "SEC 3",
+              "polygon": [
+                [
+                  4.69,
+                  -10.92
+                ],
+                [
+                  11.36,
+                  -10.92
+                ],
+                [
+                  11.36,
+                  11.7
+                ],
+                [
+                  4.69,
+                  11.7
+                ]
+              ],
+              "sourceBox": [
+                4.69,
+                11.36,
+                -10.92,
+                11.7
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "F4",
+              "label": "SEC 4",
+              "polygon": [
+                [
+                  -11.34,
+                  13.09
+                ],
+                [
+                  -4.67,
+                  13.09
+                ],
+                [
+                  -4.67,
+                  26.16
+                ],
+                [
+                  -11.34,
+                  26.16
+                ]
+              ],
+              "sourceBox": [
+                -11.34,
+                -4.67,
+                13.09,
+                26.16
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "F5",
+              "label": "SEC 5",
+              "polygon": [
+                [
+                  -3.35,
+                  13.09
+                ],
+                [
+                  3.33,
+                  13.09
+                ],
+                [
+                  3.33,
+                  20.07
+                ],
+                [
+                  -3.35,
+                  20.07
+                ]
+              ],
+              "sourceBox": [
+                -3.35,
+                3.33,
+                13.09,
+                20.07
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "F6",
+              "label": "SEC 6",
+              "polygon": [
+                [
+                  4.69,
+                  13.09
+                ],
+                [
+                  11.36,
+                  13.09
+                ],
+                [
+                  11.36,
+                  26.16
+                ],
+                [
+                  4.69,
+                  26.16
+                ]
+              ],
+              "sourceBox": [
+                4.69,
+                11.36,
+                13.09,
+                26.16
+              ],
+              "source": "reference-layout"
+            }
+          ],
+          "sourceLayout": {
+            "id": "unc",
+            "name": "端舞台"
+          }
+        }
+      ],
+      "researchOrigin": "twconcertview",
+      "researchOnly": true,
+      "researchConcerts": []
+    },
+    "twcv-ubs-arena-new-york": {
+      "id": "twcv-ubs-arena-new-york",
+      "name": "UBS Arena",
+      "city": "纽约都市圈 · Belmont Park",
+      "capacity": null,
+      "tiers": [],
+      "source": "https://twconcertview.com/3d/ubs-arena-new-york",
+      "sourceTitle": "TW Concert View 公开页面内嵌场馆数据",
+      "accuracy": {
+        "sectionLabels": "source-observed",
+        "completeSeatInventory": false,
+        "metricCalibrated": false,
+        "stage": "reference-layout",
+        "position": "source-coordinate",
+        "geometryBasis": "source-coordinate",
+        "seatDataStatus": "full-retained-asset",
+        "sourceDate": "2026-10-19",
+        "sourceCurrency": "公开页面快照；来源方说明为场馆图面与网友实拍校正，非官方 manifest",
+        "reuse": "公开可读取；商业复制与再分发许可未确认",
+        "coverage": "14,429 条逐座坐标，77 个来源分区；固定座位底库已接入本地研究预览，未独立测量或发布。"
+      },
+      "sections": [],
+      "geometry": {
+        "openBowl": true,
+        "sourceLayout": "twconcertview",
+        "roofHeight": 32,
+        "displayBasis": "source-row-ribbons"
+      },
+      "referenceLayouts": [
+        {
+          "id": "ubs",
+          "label": "端舞台",
+          "stage": {
+            "kind": "end",
+            "deck": {
+              "x0": -13.8,
+              "x1": 13.8,
+              "z0": -42.5,
+              "z1": -28.69,
+              "h": 1.8
+            },
+            "screens": {
+              "side": [
+                4.5,
+                13.8,
+                11.2,
+                -35.99
+              ],
+              "main": [
+                9,
+                11.2,
+                -39.29
+              ]
+            },
+            "led": {
+              "z": -39.29
+            },
+            "screen": {
+              "w": 9,
+              "h": 11.2,
+              "side": null
+            },
+            "rig": {
+              "y": 14.5,
+              "z": -30.19,
+              "w": 24
+            },
+            "mask": {
+              "segs": [
+                [
+                  [
+                    -14.3,
+                    -42.8
+                  ],
+                  [
+                    14.3,
+                    -42.8
+                  ]
+                ]
+              ],
+              "y1": 28
+            },
+            "runway": {
+              "outline": [
+                [
+                  0,
+                  3.1
+                ],
+                [
+                  9.13,
+                  3.1
+                ],
+                [
+                  9.13,
+                  7.01
+                ],
+                [
+                  18.45,
+                  7.01
+                ]
+              ],
+              "h": 1.8,
+              "round": null,
+              "fence": 1.2
+            },
+            "arrays": [],
+            "trusses": [],
+            "people": [
+              {
+                "h": 1.7,
+                "top": "#f2f2ee",
+                "bottom": "#1d1f22",
+                "pose": "mic",
+                "hair": "short"
+              }
+            ],
+            "spots": [
+              {
+                "key": "c",
+                "name": "主舞台中央",
+                "x": 0,
+                "y": 1.8,
+                "z": -31.09
+              },
+              {
+                "key": "l",
+                "name": "主舞台左側",
+                "x": -8.56,
+                "y": 1.8,
+                "z": -31.09
+              },
+              {
+                "key": "r",
+                "name": "主舞台右側",
+                "x": 8.56,
+                "y": 1.8,
+                "z": -31.09
+              },
+              {
+                "key": "p",
+                "name": "延伸台中央",
+                "x": 0,
+                "y": 1.8,
+                "z": -14.9
+              }
+            ]
+          },
+          "zones": [
+            {
+              "id": "F1",
+              "label": "FLR 1",
+              "polygon": [
+                [
+                  4.53,
+                  -26.34
+                ],
+                [
+                  11.44,
+                  -26.34
+                ],
+                [
+                  11.44,
+                  -1.62
+                ],
+                [
+                  4.53,
+                  -1.62
+                ]
+              ],
+              "sourceBox": [
+                4.53,
+                11.44,
+                -26.34,
+                -1.62
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "F2",
+              "label": "FLR 2",
+              "polygon": [
+                [
+                  -3.4,
+                  -8.94
+                ],
+                [
+                  3.51,
+                  -8.94
+                ],
+                [
+                  3.51,
+                  -1.62
+                ],
+                [
+                  -3.4,
+                  -1.62
+                ]
+              ],
+              "sourceBox": [
+                -3.4,
+                3.51,
+                -8.94,
+                -1.62
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "F3",
+              "label": "FLR 3",
+              "polygon": [
+                [
+                  -11.6,
+                  -26.34
+                ],
+                [
+                  -4.7,
+                  -26.34
+                ],
+                [
+                  -4.7,
+                  -1.62
+                ],
+                [
+                  -11.6,
+                  -1.62
+                ]
+              ],
+              "sourceBox": [
+                -11.6,
+                -4.7,
+                -26.34,
+                -1.62
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "F4",
+              "label": "FLR 4",
+              "polygon": [
+                [
+                  4.53,
+                  -0.5
+                ],
+                [
+                  11.44,
+                  -0.5
+                ],
+                [
+                  11.44,
+                  24.19
+                ],
+                [
+                  4.53,
+                  24.19
+                ]
+              ],
+              "sourceBox": [
+                4.53,
+                11.44,
+                -0.5,
+                24.19
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "F5",
+              "label": "FLR 5",
+              "polygon": [
+                [
+                  -3.39,
+                  -0.5
+                ],
+                [
+                  3.51,
+                  -0.5
+                ],
+                [
+                  3.51,
+                  20.56
+                ],
+                [
+                  -3.39,
+                  20.56
+                ]
+              ],
+              "sourceBox": [
+                -3.39,
+                3.51,
+                -0.5,
+                20.56
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "F6",
+              "label": "FLR 6",
+              "polygon": [
+                [
+                  -11.6,
+                  -0.5
+                ],
+                [
+                  -4.7,
+                  -0.5
+                ],
+                [
+                  -4.7,
+                  24.22
+                ],
+                [
+                  -11.6,
+                  24.22
+                ]
+              ],
+              "sourceBox": [
+                -11.6,
+                -4.7,
+                -0.5,
+                24.22
+              ],
+              "source": "reference-layout"
+            }
+          ],
+          "sourceLayout": {
+            "id": "ubs",
+            "name": "端舞台"
+          }
+        }
+      ],
+      "researchOrigin": "twconcertview",
+      "researchOnly": true,
+      "researchConcerts": []
+    },
+    "twcv-prudential-center-newark": {
+      "id": "twcv-prudential-center-newark",
+      "name": "Prudential Center",
+      "city": "纽约都市圈 · Newark",
+      "capacity": null,
+      "tiers": [],
+      "source": "https://twconcertview.com/3d/prudential-center-newark",
+      "sourceTitle": "TW Concert View 公开页面内嵌场馆数据",
+      "accuracy": {
+        "sectionLabels": "source-observed",
+        "completeSeatInventory": false,
+        "metricCalibrated": false,
+        "stage": "reference-layout",
+        "position": "source-coordinate",
+        "geometryBasis": "source-coordinate",
+        "seatDataStatus": "full-retained-asset",
+        "sourceDate": "2026-10-19",
+        "sourceCurrency": "公开页面快照；来源方说明为场馆图面与网友实拍校正，非官方 manifest",
+        "reuse": "公开可读取；商业复制与再分发许可未确认",
+        "coverage": "14,979 条逐座坐标，74 个来源分区；固定座位底库已接入本地研究预览，未独立测量或发布。"
+      },
+      "sections": [],
+      "geometry": {
+        "openBowl": true,
+        "sourceLayout": "twconcertview",
+        "roofHeight": 32,
+        "displayBasis": "source-row-ribbons"
+      },
+      "referenceLayouts": [
+        {
+          "id": "pru",
+          "label": "端舞台",
+          "stage": {
+            "kind": "end",
+            "deck": {
+              "x0": -13,
+              "x1": 13,
+              "z0": -35,
+              "z1": -19.5,
+              "h": 1.8
+            },
+            "screens": {
+              "front": "main",
+              "side": [
+                3.5,
+                9.3,
+                7.6,
+                -29
+              ],
+              "main": [
+                7.6,
+                7.6,
+                -28
+              ]
+            },
+            "led": {
+              "z": -28
+            },
+            "screen": {
+              "w": 7.6,
+              "h": 7.6,
+              "side": null
+            },
+            "rig": {
+              "y": 14.5,
+              "z": -23.5,
+              "w": 24
+            },
+            "mask": {
+              "segs": [
+                [
+                  [
+                    -17.878,
+                    -36.142
+                  ],
+                  [
+                    -15.934,
+                    -37.844
+                  ]
+                ],
+                [
+                  [
+                    -15.934,
+                    -37.844
+                  ],
+                  [
+                    -14.265,
+                    -38.993
+                  ]
+                ],
+                [
+                  [
+                    -14.265,
+                    -38.993
+                  ],
+                  [
+                    -12.476,
+                    -39.938
+                  ]
+                ],
+                [
+                  [
+                    -12.476,
+                    -39.938
+                  ],
+                  [
+                    -10.068,
+                    -40.867
+                  ]
+                ],
+                [
+                  [
+                    9.91,
+                    -40.77
+                  ],
+                  [
+                    12.301,
+                    -39.939
+                  ]
+                ],
+                [
+                  [
+                    12.301,
+                    -39.939
+                  ],
+                  [
+                    14.084,
+                    -39.085
+                  ]
+                ],
+                [
+                  [
+                    14.084,
+                    -39.085
+                  ],
+                  [
+                    15.756,
+                    -38.033
+                  ]
+                ],
+                [
+                  [
+                    15.756,
+                    -38.033
+                  ],
+                  [
+                    17.734,
+                    -36.452
+                  ]
+                ],
+                [
+                  [
+                    -9.486,
+                    -41.021
+                  ],
+                  [
+                    -5.339,
+                    -41.452
+                  ]
+                ],
+                [
+                  [
+                    -5.339,
+                    -41.452
+                  ],
+                  [
+                    -0.654,
+                    -41.632
+                  ]
+                ],
+                [
+                  [
+                    0.221,
+                    -41.648
+                  ],
+                  [
+                    4.415,
+                    -41.435
+                  ]
+                ],
+                [
+                  [
+                    4.415,
+                    -41.435
+                  ],
+                  [
+                    9.106,
+                    -40.886
+                  ]
+                ]
+              ],
+              "y1": 26
+            },
+            "runway": {
+              "outline": [
+                [
+                  0,
+                  1.85
+                ],
+                [
+                  13.1,
+                  1.85
+                ],
+                [
+                  13.1,
+                  4
+                ],
+                [
+                  19.6,
+                  4
+                ]
+              ],
+              "h": 1.8,
+              "round": null,
+              "fence": 1
+            },
+            "arrays": [],
+            "trusses": [],
+            "people": [
+              {
+                "h": 1.7,
+                "top": "#f2f2ee",
+                "bottom": "#1d1f22",
+                "pose": "mic",
+                "hair": "short"
+              }
+            ],
+            "spots": [
+              {
+                "key": "c",
+                "name": "主舞台中央",
+                "x": 0,
+                "y": 1.8,
+                "z": -21.9
+              },
+              {
+                "key": "l",
+                "name": "主舞台左側",
+                "x": -8.06,
+                "y": 1.8,
+                "z": -21.9
+              },
+              {
+                "key": "r",
+                "name": "主舞台右側",
+                "x": 8.06,
+                "y": 1.8,
+                "z": -21.9
+              },
+              {
+                "key": "p",
+                "name": "延伸台中央",
+                "x": 0,
+                "y": 1.8,
+                "z": -3.15
+              },
+              {
+                "key": "e",
+                "name": "延伸台末端",
+                "x": 0,
+                "y": 1.8,
+                "z": -1.5
+              }
+            ]
+          },
+          "zones": [
+            {
+              "id": "FA",
+              "label": "Floor A",
+              "polygon": [
+                [
+                  4.53,
+                  -12.85
+                ],
+                [
+                  11.17,
+                  -12.85
+                ],
+                [
+                  11.17,
+                  9.85
+                ],
+                [
+                  4.53,
+                  9.85
+                ]
+              ],
+              "sourceBox": [
+                4.53,
+                11.17,
+                -12.85,
+                9.85
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "FB",
+              "label": "Floor B",
+              "polygon": [
+                [
+                  -3.49,
+                  4.59
+                ],
+                [
+                  3.1,
+                  4.59
+                ],
+                [
+                  3.1,
+                  9.85
+                ],
+                [
+                  -3.49,
+                  9.85
+                ]
+              ],
+              "sourceBox": [
+                -3.49,
+                3.1,
+                4.59,
+                9.85
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "FC",
+              "label": "Floor C",
+              "polygon": [
+                [
+                  -11.29,
+                  -12.85
+                ],
+                [
+                  -4.67,
+                  -12.85
+                ],
+                [
+                  -4.67,
+                  9.85
+                ],
+                [
+                  -11.29,
+                  9.85
+                ]
+              ],
+              "sourceBox": [
+                -11.29,
+                -4.67,
+                -12.85,
+                9.85
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "FD",
+              "label": "Floor D",
+              "polygon": [
+                [
+                  4.53,
+                  11.53
+                ],
+                [
+                  11,
+                  11.53
+                ],
+                [
+                  11,
+                  26.38
+                ],
+                [
+                  4.53,
+                  26.38
+                ]
+              ],
+              "sourceBox": [
+                4.53,
+                11,
+                11.53,
+                26.38
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "FE",
+              "label": "Floor E",
+              "polygon": [
+                [
+                  -3.34,
+                  11.53
+                ],
+                [
+                  3.12,
+                  11.53
+                ],
+                [
+                  3.12,
+                  20.27
+                ],
+                [
+                  -3.34,
+                  20.27
+                ]
+              ],
+              "sourceBox": [
+                -3.34,
+                3.12,
+                11.53,
+                20.27
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "FF",
+              "label": "Floor F",
+              "polygon": [
+                [
+                  -11.13,
+                  11.53
+                ],
+                [
+                  -4.67,
+                  11.53
+                ],
+                [
+                  -4.67,
+                  26.38
+                ],
+                [
+                  -11.13,
+                  26.38
+                ]
+              ],
+              "sourceBox": [
+                -11.13,
+                -4.67,
+                11.53,
+                26.38
+              ],
+              "source": "reference-layout"
+            }
+          ],
+          "sourceLayout": {
+            "id": "pru",
+            "name": "端舞台"
+          }
+        }
+      ],
+      "researchOrigin": "twconcertview",
+      "researchOnly": true,
+      "researchConcerts": []
+    },
+    "twcv-state-farm-arena-atlanta": {
+      "id": "twcv-state-farm-arena-atlanta",
+      "name": "State Farm Arena",
+      "city": "美国 · Atlanta",
+      "capacity": null,
+      "tiers": [],
+      "source": "https://twconcertview.com/3d/state-farm-arena-atlanta",
+      "sourceTitle": "TW Concert View 公开页面内嵌场馆数据",
+      "accuracy": {
+        "sectionLabels": "source-observed",
+        "completeSeatInventory": false,
+        "metricCalibrated": false,
+        "stage": "reference-layout",
+        "position": "source-coordinate",
+        "geometryBasis": "source-coordinate",
+        "seatDataStatus": "full-retained-asset",
+        "sourceDate": "2026-10-19",
+        "sourceCurrency": "公开页面快照；来源方说明为场馆图面与网友实拍校正，非官方 manifest",
+        "reuse": "公开可读取；商业复制与再分发许可未确认",
+        "coverage": "13,700 条逐座坐标，52 个来源分区；固定座位底库已接入本地研究预览，未独立测量或发布。"
+      },
+      "sections": [],
+      "geometry": {
+        "openBowl": true,
+        "sourceLayout": "twconcertview",
+        "roofHeight": 32,
+        "displayBasis": "source-row-ribbons"
+      },
+      "referenceLayouts": [
+        {
+          "id": "sfa",
+          "label": "端舞台",
+          "stage": {
+            "kind": "end",
+            "deck": {
+              "x0": -13,
+              "x1": 13,
+              "z0": -33.47,
+              "z1": -19.92,
+              "h": 1.8
+            },
+            "screens": {
+              "side": [
+                4,
+                13.7,
+                9.6,
+                -25.5
+              ],
+              "main": [
+                8,
+                9.6,
+                -27.5
+              ]
+            },
+            "led": {
+              "z": -27.5
+            },
+            "screen": {
+              "w": 8,
+              "h": 9.6,
+              "side": null
+            },
+            "rig": {
+              "y": 14.5,
+              "z": -23.92,
+              "w": 24
+            },
+            "mask": {
+              "segs": [
+                [
+                  [
+                    0.47,
+                    -39.027
+                  ],
+                  [
+                    3.337,
+                    -38.858
+                  ]
+                ],
+                [
+                  [
+                    3.337,
+                    -38.858
+                  ],
+                  [
+                    5.181,
+                    -38.641
+                  ]
+                ],
+                [
+                  [
+                    5.181,
+                    -38.641
+                  ],
+                  [
+                    9.813,
+                    -37.713
+                  ]
+                ],
+                [
+                  [
+                    -9.642,
+                    -37.603
+                  ],
+                  [
+                    -6.822,
+                    -38.291
+                  ]
+                ],
+                [
+                  [
+                    -6.822,
+                    -38.291
+                  ],
+                  [
+                    -4.972,
+                    -38.623
+                  ]
+                ],
+                [
+                  [
+                    -4.972,
+                    -38.623
+                  ],
+                  [
+                    -2.639,
+                    -38.892
+                  ]
+                ],
+                [
+                  [
+                    -2.639,
+                    -38.892
+                  ],
+                  [
+                    -0.217,
+                    -39.023
+                  ]
+                ],
+                [
+                  [
+                    -18.49,
+                    -33.13
+                  ],
+                  [
+                    -16.597,
+                    -34.63
+                  ]
+                ],
+                [
+                  [
+                    -16.597,
+                    -34.63
+                  ],
+                  [
+                    -14.633,
+                    -35.868
+                  ]
+                ],
+                [
+                  [
+                    -14.633,
+                    -35.868
+                  ],
+                  [
+                    -12.971,
+                    -36.686
+                  ]
+                ],
+                [
+                  [
+                    -12.971,
+                    -36.686
+                  ],
+                  [
+                    -10.728,
+                    -37.531
+                  ]
+                ],
+                [
+                  [
+                    10.954,
+                    -37.414
+                  ],
+                  [
+                    14.861,
+                    -35.58
+                  ]
+                ],
+                [
+                  [
+                    14.861,
+                    -35.58
+                  ],
+                  [
+                    16.49,
+                    -34.624
+                  ]
+                ],
+                [
+                  [
+                    16.49,
+                    -34.624
+                  ],
+                  [
+                    18.915,
+                    -32.991
+                  ]
+                ]
+              ],
+              "y1": 28
+            },
+            "runway": null,
+            "ramp": {
+              "pieces": [
+                [
+                  -2.27,
+                  2.27,
+                  -19.94,
+                  -11.43
+                ],
+                [
+                  -5.87,
+                  5.87,
+                  -11.43,
+                  -4.09
+                ]
+              ],
+              "h": 1.8,
+              "edges": [
+                [
+                  -2.27,
+                  -19.94,
+                  -2.27,
+                  -11.43
+                ],
+                [
+                  -2.27,
+                  -11.43,
+                  -5.87,
+                  -11.43
+                ],
+                [
+                  -5.87,
+                  -11.43,
+                  -5.87,
+                  -4.09
+                ],
+                [
+                  -5.87,
+                  -4.09,
+                  5.87,
+                  -4.09
+                ],
+                [
+                  5.87,
+                  -4.09,
+                  5.87,
+                  -11.43
+                ],
+                [
+                  5.87,
+                  -11.43,
+                  2.27,
+                  -11.43
+                ],
+                [
+                  2.27,
+                  -11.43,
+                  2.27,
+                  -19.94
+                ]
+              ],
+              "fence": [
+                [
+                  [
+                    -3.27,
+                    -18.32
+                  ],
+                  [
+                    -3.27,
+                    -12.43
+                  ]
+                ],
+                [
+                  [
+                    -3.27,
+                    -12.43
+                  ],
+                  [
+                    -6.87,
+                    -12.43
+                  ]
+                ],
+                [
+                  [
+                    -6.87,
+                    -12.43
+                  ],
+                  [
+                    -6.87,
+                    -3.09
+                  ]
+                ],
+                [
+                  [
+                    -6.87,
+                    -3.09
+                  ],
+                  [
+                    6.87,
+                    -3.09
+                  ]
+                ],
+                [
+                  [
+                    6.87,
+                    -3.09
+                  ],
+                  [
+                    6.87,
+                    -12.43
+                  ]
+                ],
+                [
+                  [
+                    6.87,
+                    -12.43
+                  ],
+                  [
+                    3.27,
+                    -12.43
+                  ]
+                ],
+                [
+                  [
+                    3.27,
+                    -12.43
+                  ],
+                  [
+                    3.27,
+                    -18.32
+                  ]
+                ],
+                [
+                  [
+                    -13,
+                    -18.32
+                  ],
+                  [
+                    -3.27,
+                    -18.32
+                  ]
+                ],
+                [
+                  [
+                    3.27,
+                    -18.32
+                  ],
+                  [
+                    13,
+                    -18.32
+                  ]
+                ]
+              ],
+              "join": [
+                -2.265,
+                2.265
+              ],
+              "clear": 1.662,
+              "size": {
+                "neck_w": 4.53,
+                "neck_len": 8.49,
+                "plat_w": 11.73,
+                "plat_d": 7.34
+              },
+              "hole": {
+                "neck_w": 6.19,
+                "plat_w": 14.29,
+                "plat_z": [
+                  -12.58,
+                  -3.29
+                ]
+              }
+            },
+            "arrays": [],
+            "trusses": [],
+            "people": [
+              {
+                "h": 1.7,
+                "top": "#f2f2ee",
+                "bottom": "#1d1f22",
+                "pose": "mic",
+                "hair": "short"
+              }
+            ],
+            "spots": [
+              {
+                "key": "c",
+                "name": "主舞台中央",
+                "x": 0,
+                "y": 1.8,
+                "z": -22.32
+              },
+              {
+                "key": "l",
+                "name": "主舞台左側",
+                "x": -8.06,
+                "y": 1.8,
+                "z": -22.32
+              },
+              {
+                "key": "r",
+                "name": "主舞台右側",
+                "x": 8.06,
+                "y": 1.8,
+                "z": -22.32
+              }
+            ]
+          },
+          "zones": [
+            {
+              "id": "F1",
+              "label": "SEC 1",
+              "polygon": [
+                [
+                  3.63,
+                  -17.54
+                ],
+                [
+                  11.09,
+                  -17.54
+                ],
+                [
+                  11.09,
+                  2.55
+                ],
+                [
+                  3.63,
+                  2.55
+                ]
+              ],
+              "sourceBox": [
+                3.63,
+                11.09,
+                -17.54,
+                2.55
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "F2",
+              "label": "SEC 2",
+              "polygon": [
+                [
+                  -3.28,
+                  -1.64
+                ],
+                [
+                  2.9,
+                  -1.64
+                ],
+                [
+                  2.9,
+                  2.49
+                ],
+                [
+                  -3.28,
+                  2.49
+                ]
+              ],
+              "sourceBox": [
+                -3.28,
+                2.9,
+                -1.64,
+                2.49
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "F3",
+              "label": "SEC 3",
+              "polygon": [
+                [
+                  -11.46,
+                  -17.65
+                ],
+                [
+                  -4.43,
+                  -17.65
+                ],
+                [
+                  -4.43,
+                  2.44
+                ],
+                [
+                  -11.46,
+                  2.44
+                ]
+              ],
+              "sourceBox": [
+                -11.46,
+                -4.43,
+                -17.65,
+                2.44
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "F4",
+              "label": "SEC 4",
+              "polygon": [
+                [
+                  4.04,
+                  3.73
+                ],
+                [
+                  11.08,
+                  3.73
+                ],
+                [
+                  11.08,
+                  19
+                ],
+                [
+                  4.04,
+                  19
+                ]
+              ],
+              "sourceBox": [
+                4.04,
+                11.08,
+                3.73,
+                19
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "F5",
+              "label": "SEC 5",
+              "polygon": [
+                [
+                  -3.29,
+                  3.68
+                ],
+                [
+                  2.89,
+                  3.68
+                ],
+                [
+                  2.89,
+                  18.95
+                ],
+                [
+                  -3.29,
+                  18.95
+                ]
+              ],
+              "sourceBox": [
+                -3.29,
+                2.89,
+                3.68,
+                18.95
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "F6",
+              "label": "SEC 6",
+              "polygon": [
+                [
+                  -11.47,
+                  3.63
+                ],
+                [
+                  -4.43,
+                  3.63
+                ],
+                [
+                  -4.43,
+                  18.9
+                ],
+                [
+                  -11.47,
+                  18.9
+                ]
+              ],
+              "sourceBox": [
+                -11.47,
+                -4.43,
+                3.63,
+                18.9
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "F7",
+              "label": "SEC 7",
+              "polygon": [
+                [
+                  4.04,
+                  20.27
+                ],
+                [
+                  9.78,
+                  20.27
+                ],
+                [
+                  9.78,
+                  25.18
+                ],
+                [
+                  4.04,
+                  25.18
+                ]
+              ],
+              "sourceBox": [
+                4.04,
+                9.78,
+                20.27,
+                25.18
+              ],
+              "source": "reference-layout"
+            },
+            {
+              "id": "F9",
+              "label": "SEC 9",
+              "polygon": [
+                [
+                  -10.19,
+                  20.17
+                ],
+                [
+                  -4.87,
+                  20.17
+                ],
+                [
+                  -4.87,
+                  25.05
+                ],
+                [
+                  -10.19,
+                  25.05
+                ]
+              ],
+              "sourceBox": [
+                -10.19,
+                -4.87,
+                20.17,
+                25.05
+              ],
+              "source": "reference-layout"
+            }
+          ],
+          "sourceLayout": {
+            "id": "sfa",
+            "name": "端舞台"
+          }
+        }
+      ],
+      "researchOrigin": "twconcertview",
+      "researchOnly": true,
+      "researchConcerts": []
+    }
+  }
+}

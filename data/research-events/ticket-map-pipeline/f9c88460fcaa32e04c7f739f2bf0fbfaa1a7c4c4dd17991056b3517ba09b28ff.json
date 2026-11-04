@@ -1,0 +1,400 @@
+{
+  "schemaVersion": 1,
+  "id": "ziggo-gaga-20251109",
+  "status": "research-preview",
+  "publicationStatus": "not-published",
+  "event": {
+    "name": "Lady Gaga — The MAYHEM Ball",
+    "dates": [
+      "2025-11-09"
+    ],
+    "timezone": "Europe/Amsterdam",
+    "bindingNote": "Official venue confirms historical date. Low-resolution travel package PDF supplies an event-specific diagram, not an authenticated seat inventory."
+  },
+  "venueId": "twcv-ziggo-dome-amsterdam",
+  "seatLayoutId": "zgd",
+  "source": {
+    "path": "data/research-events/ziggo-gaga-20251109/ticket-map.jpg",
+    "url": "https://travelinconcert.com/en/event/concierto_lady_gaga_amsterdam_09112025e_en/NereXperience?pdf=1",
+    "sha256": "70b3bfb9c6915078e045fbbcb02ee6fd5cd528e1b2fe290e5de969c2e828a60a",
+    "retrievedAt": "2026-11-03T06:12:18.210444+00:00",
+    "rights": "Local research snapshot; redistribution undecided.",
+    "extractedFrom": {
+      "path": "data/research-events/ziggo-gaga-20251109/ticket-map.pdf",
+      "url": "https://travelinconcert.com/en/event/concierto_lady_gaga_amsterdam_09112025e_en/NereXperience?pdf=1",
+      "sha256": "61a948d95064f82bc1aadd797ff6241f346ca20de26d2792bf949354c03c2c18",
+      "retrievedAt": "2026-11-03T06:12:18.210444+00:00",
+      "rights": "Local research snapshot; redistribution undecided."
+    },
+    "bytes": 6852
+  },
+  "eventSource": {
+    "path": "data/research-events/ziggo-gaga-20251109/official.html",
+    "url": "https://ziggodome.nl/en/events/f5e44ab3-5df9-45f5-9fd6-2e179180400c/",
+    "sha256": "025668412ae2b4e10fbb3285aa34d1b165c2bd540a9dc64f164ad0c69fd6bd95",
+    "retrievedAt": "2026-11-03T06:12:18.210444+00:00",
+    "rights": "Local research snapshot; redistribution undecided.",
+    "bytes": 752448
+  },
+  "registration": {
+    "matrix": [
+      0,
+      -0.73,
+      0.74,
+      0,
+      83.95,
+      -101.6
+    ],
+    "width": 325,
+    "height": 201,
+    "rationale": "AI visual outline alignment: stage-left image to negative-Z source opening, centred standing floor. Low resolution; no readable section-label or independent metric anchors.",
+    "coordinateFrame": "source-model-units",
+    "metricCalibrated": false,
+    "independentHoldoutPassed": false,
+    "allowDistances": false,
+    "allowPublication": false
+  },
+  "fixedSeats": {
+    "policy": "reuse-verbatim",
+    "count": 10093,
+    "assetSha256": "1be7f0c889a373d73c656c5ee1c5c9ef6090aa89e9746c904d9baccfb4c0eae0",
+    "identityPositionSha256": "e386f377d61e0666e7b64b838766e12006ba00869f341db9d371b18b9e7ab640"
+  },
+  "stage": [
+    {
+      "id": "stage",
+      "label": "STAGE / RUNWAY",
+      "kind": "stage",
+      "color": "#ad8d4d",
+      "height": 1.5,
+      "pixels": [
+        [
+          86,
+          95
+        ],
+        [
+          103,
+          95
+        ],
+        [
+          108,
+          110
+        ],
+        [
+          142,
+          110
+        ],
+        [
+          143,
+          104
+        ],
+        [
+          146,
+          102
+        ],
+        [
+          150,
+          113
+        ],
+        [
+          149,
+          119
+        ],
+        [
+          146,
+          127
+        ],
+        [
+          143,
+          126
+        ],
+        [
+          142,
+          118
+        ],
+        [
+          108,
+          118
+        ],
+        [
+          103,
+          134
+        ],
+        [
+          86,
+          134
+        ]
+      ],
+      "polygon": [
+        [
+          14.600000000000009,
+          -37.959999999999994
+        ],
+        [
+          14.600000000000009,
+          -25.379999999999995
+        ],
+        [
+          3.6500000000000057,
+          -21.679999999999993
+        ],
+        [
+          3.6500000000000057,
+          3.480000000000004
+        ],
+        [
+          8.030000000000001,
+          4.219999999999999
+        ],
+        [
+          9.490000000000009,
+          6.439999999999998
+        ],
+        [
+          1.460000000000008,
+          9.400000000000006
+        ],
+        [
+          -2.9200000000000017,
+          8.66000000000001
+        ],
+        [
+          -8.759999999999991,
+          6.439999999999998
+        ],
+        [
+          -8.030000000000001,
+          4.219999999999999
+        ],
+        [
+          -2.1899999999999977,
+          3.480000000000004
+        ],
+        [
+          -2.1899999999999977,
+          -21.679999999999993
+        ],
+        [
+          -13.86999999999999,
+          -25.379999999999995
+        ],
+        [
+          -13.86999999999999,
+          -37.959999999999994
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    }
+  ],
+  "zones": [
+    {
+      "id": "front-upper",
+      "label": "FRONT A · 示意",
+      "kind": "standing",
+      "color": "#63518b",
+      "height": 0.035,
+      "pixels": [
+        [
+          110,
+          90
+        ],
+        [
+          141,
+          90
+        ],
+        [
+          141,
+          107
+        ],
+        [
+          111,
+          107
+        ]
+      ],
+      "polygon": [
+        [
+          18.25,
+          -20.19999999999999
+        ],
+        [
+          18.25,
+          2.740000000000009
+        ],
+        [
+          5.840000000000003,
+          2.740000000000009
+        ],
+        [
+          5.840000000000003,
+          -19.459999999999994
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "front-lower",
+      "label": "FRONT B · 示意",
+      "kind": "standing",
+      "color": "#63518b",
+      "height": 0.035,
+      "pixels": [
+        [
+          111,
+          121
+        ],
+        [
+          141,
+          121
+        ],
+        [
+          141,
+          140
+        ],
+        [
+          110,
+          140
+        ]
+      ],
+      "polygon": [
+        [
+          -4.3799999999999955,
+          -19.459999999999994
+        ],
+        [
+          -4.3799999999999955,
+          2.740000000000009
+        ],
+        [
+          -18.25,
+          2.740000000000009
+        ],
+        [
+          -18.25,
+          -20.19999999999999
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "rear-floor",
+      "label": "REAR FLOOR · 示意",
+      "kind": "standing",
+      "color": "#63518b",
+      "height": 0.035,
+      "pixels": [
+        [
+          147,
+          90
+        ],
+        [
+          175,
+          90
+        ],
+        [
+          175,
+          141
+        ],
+        [
+          147,
+          141
+        ],
+        [
+          147,
+          130
+        ],
+        [
+          153,
+          120
+        ],
+        [
+          154,
+          112
+        ],
+        [
+          150,
+          101
+        ],
+        [
+          147,
+          100
+        ]
+      ],
+      "polygon": [
+        [
+          18.25,
+          7.180000000000007
+        ],
+        [
+          18.25,
+          27.900000000000006
+        ],
+        [
+          -18.97999999999999,
+          27.900000000000006
+        ],
+        [
+          -18.97999999999999,
+          7.180000000000007
+        ],
+        [
+          -10.949999999999989,
+          7.180000000000007
+        ],
+        [
+          -3.6499999999999915,
+          11.620000000000005
+        ],
+        [
+          2.190000000000012,
+          12.36
+        ],
+        [
+          10.219999999999999,
+          9.400000000000006
+        ],
+        [
+          10.950000000000003,
+          7.180000000000007
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    }
+  ],
+  "equipment": [],
+  "temporarySeats": [],
+  "closedSections": null,
+  "audit": {
+    "finiteCoordinates": true,
+    "simplePolygons": true,
+    "modelEnvelopeOutsideVertices": [],
+    "seatEnvelopeConflicts": [],
+    "metricCalibrated": false,
+    "independentHoldoutPassed": false,
+    "blockers": [
+      "图中缺少独立区号／尺度锚点，配准尚未核实",
+      "固定看台票号沿用第三方来源，未整体独立认证"
+    ],
+    "scope": "Checks use the source-seat-derived rectangular model envelope, not an independently surveyed building boundary."
+  },
+  "notes": [
+    "Historical 2025 preview; front/rear names are local illustrative names because source labels are unreadable.",
+    "Ticket-map PDF is retained separately with its embedded image; no factual floor row/seat IDs or capacities.",
+    "The source does not show a full chair mesh; fixed seats retain their original XYZ."
+  ]
+}

@@ -1,3 +1,4 @@
+import {renderCountryVenuePicker} from './venue-picker.mjs';
 import {venueName,venueRegion,countryName} from './translations/venue-labels.mjs';
 import {unpackSourceSeats} from './seating.mjs';
 import {audienceSightline,displaySectionLabel,sectionPoint,sectionRenderHalfAngle,stageRects,proposedStageRects} from './geometry.mjs';
@@ -157,25 +158,24 @@ function renderViewControls(){
 function render(){
   const v=state.venue;if(!v)return;renderEventLayout();const s=selectedSection(),r=state.result;
   $('venue-name').textContent=venueName(v,locale);$('venue-city').textContent=venueRegion(v,locale)+(v.geometry?.referenceLayout?' · '+copy("历史场次参考"):'');
-  const catalogStatus=v.accuracy?.catalogStatus;
-  $('accuracy-short').textContent=v.geometry?.referenceLayout?copy("场次图示参考 · 非官方区号 / 排座"):v.sourceSeats?copy("来源逐座坐标 · 未实测校准"):catalogStatus==='source-geometry-and-sections'?copy("有来源分区 · 几何未校准"):catalogStatus==='source-geometry-only'?copy("有几何参考 · 分区待核验"):catalogStatus==='catalog-only'?copy("目录级示意 · 待补来源"):copy("几何尚未校准");
-  $('coverage-count').textContent=v.sourceSeats?copy("{0} 个来源分区 · {1} 条逐座坐标", [v.sections.length, v.sourceSeats.length.toLocaleString(locale)]):copy("{0} 个基础分区 · {1} 条排座采样", [v.sections.length, v.sections.reduce((n,s)=>n+s.samples.length,0)]);
-  $('coverage-note').textContent=locale==='zh-CN'?v.accuracy.coverage:v.sourceSeats?copy("{0} 个来源分区 · {1} 条逐座坐标。当前版本未独立实测校准，不代表当前演出的完整库存。",[v.sections.length.toLocaleString(locale),v.sourceSeats.length.toLocaleString(locale)]):copy("当前仅提供参考模型与已有采样，真实分区、排座和演出布局仍需核实。");$('source-link').href=v.source;$('source-link').textContent=copy("公开来源与布局说明 ↗");
+  $('accuracy-short').textContent=copy("示意视角，仅供参考。");
+  $('coverage-count').textContent='';
+  $('coverage-note').textContent=copy("可切换 2D、3D 和手机取景，提前感受舞台方向。视角仅供参考。");$('source-link').href=v.source;$('source-link').textContent=copy("场馆信息 ↗");
   const matched=r?.status==='matched',located=['matched','estimated'].includes(r?.status)&&Array.isArray(r?.position),estimated=r?.status==='estimated',sourceCoordinate=matched&&r?.positionStatus==='source-coordinate';
   $('location-section').textContent=s?.block?.polygon?displaySectionLabel(s)+copy(" 档"):located?r.section:(s?displaySectionLabel(s):'—');$('location-row').textContent=r?.row&&r?.seat?copy("{0}排 · {1}座",[r.row,r.seat]):copy("分区预览");
   $('location-status').classList.toggle('matched',matched);
   const unavailable=!!(r?.row||r?.seat)&&!located;
-  $('location-status').textContent=matched?(sourceCoordinate?copy("来源座位已匹配 · 未实测校准"):copy("票号采样已匹配 · 缺少座位坐标")):estimated?copy("模拟排座预览 · 票面位置未核实"):r?.status==='unknown-layout'?copy("该布局尚无来源坐标"):r?.status==='unknown-section'?copy("尚未找到这个分区"):unavailable?copy("该排座缺少可用坐标 · 分区预览"):copy("排座尚未输入 · 当前为分区预览");
-  $('location-description').textContent=matched?(sourceCoordinate?copy("票号与当前来源布局的座位坐标一致。当前布局不代表特定演出，距离和人物大小仍需现场校准。"):copy("找到票号来源记录，但来源未提供座位 XYZ；不会据此生成座位视角或距离。")):estimated?copy("按示意排座网格生成视角，编号不代表场馆真实排座；不能用于确认门票位置。"):r?.status==='unknown-section'?copy("请按门票原样输入区号，或从地图选择已有分区。"):unavailable?copy("没有可用的该排座坐标，未将票号映射到其他座位；可选择来源采样，或点击三维座位探索。"):copy("可输入排座，或从三维座位点击一个估算位置。");
+  $('location-status').textContent=matched?(sourceCoordinate?copy("座位已找到 · 视角供参考"):copy("已找到票号 · 暂无座位视角")):estimated?copy("示意座位预览"):r?.status==='unknown-layout'?copy("暂无本场布局"):r?.status==='unknown-section'?copy("尚未找到这个分区"):unavailable?copy("暂无这个座位的视角 · 可查看分区"):copy("请选择座位 · 当前为分区预览");
+  $('location-description').textContent=matched?(sourceCoordinate?copy("可切换 2D、3D 和手机取景，提前感受舞台方向。视角仅供参考。"):copy("暂时无法显示这个座位的视角，可先查看所在分区。")):estimated?copy("示意编号和位置仅供参考。"):r?.status==='unknown-section'?copy("请按门票原样输入区号，或从地图选择已有分区。"):unavailable?copy("暂时无法显示这个座位的视角，可先查看所在分区。"):copy("可输入排座，或从三维座位点击一个估算位置。");
   const sightline=located?audienceSightline(v,state.layout,r.position):null;
-  $('distance').textContent=sightline?copy("模型约 {0} m · 非实测", [Math.round(sightline.distance)]):located?copy("未取得舞台坐标"):'—';
+  $('distance').textContent=sightline?copy("约 {0} m · 仅供参考", [Math.round(sightline.distance)]):located?copy("未取得舞台坐标"):'—';
   $('save-position').disabled=!matched;$('seat-view').disabled=!located;$('phone-toggle').disabled=!located;
   if(!located){state.phoneFrame=false;viewer?.togglePhoneFrame(false);}
-  $('selection-tag').textContent=`${s?.block?.polygon?s.levelName.replace('（方位示意，非票面区号）',''):copy("分区 {0}",[s?displaySectionLabel(s):''])} · ${located?copy("{0} 排 / {1} 座 · {2}", [r.row, r.seat, estimated?copy("模拟位置"):copy("来源坐标")]):copy("分区预览")}`;
-  $('viewer-location').textContent=located?copy("{0} · 模型约 {1} · 未实测校准", [estimated?copy("模拟位置"):copy("来源位置"), sightline?Math.round(sightline.distance)+' m':copy("距离待补")]):copy("分区预览 · 选择座位后查看距离与视角");
+  $('selection-tag').textContent=`${s?.block?.polygon?s.levelName.replace('（方位示意，非票面区号）',''):copy("分区 {0}",[s?displaySectionLabel(s):''])} · ${located?copy("{0} 排 / {1} 座 · {2}", [r.row, r.seat, estimated?copy("模拟位置"):copy("座位位置")]):copy("分区预览")}`;
+  $('viewer-location').textContent='';
   const samples=$('samples-list');samples.replaceChildren();
   for(const sample of s?.samples||[]){const button=element('button',copy("{0}排 · {1}座", [sample.row, sample.seat]));button.type='button';button.onclick=()=>chooseSample(sample);samples.append(button);}
-  if(!s?.samples.length)samples.append(element('p',copy("本区尚无可核对的排座采样。")));
+  if(!s?.samples.length)samples.append(element('p',copy("本区暂无可选座位。")));
   $('scene').hidden=state.mode!=='3d';$('map').toggleAttribute('hidden',state.mode!=='2d');renderViewControls();
   updateGestureHint();
   $('mode-2d').classList.toggle('active',state.mode==='2d');$('mode-3d').classList.toggle('active',state.mode==='3d');
@@ -214,15 +214,8 @@ function renderBillingPlans(){
   }
 }
 function renderVenuePicker(country,selectedId=''){
-  const groups=groupVenuesByCountry(state.catalog).sort((a,b)=>countryName(a.country,locale).localeCompare(countryName(b.country,locale),locale));
-  const countrySelect=$('venue-country'),select=$('venue');
-  countrySelect.replaceChildren();
-  for(const group of groups){const option=element('option',`${countryName(group.country,locale)} (${group.venues.length})`);option.value=group.country;countrySelect.append(option);}
-  countrySelect.value=country;countrySelect.disabled=false;
-  const placeholder=element('option',text('explorer.pickVenue'));placeholder.value='';placeholder.disabled=true;select.replaceChildren(placeholder);
-  const venues=groups.find(group=>group.country===country)?.venues||[];
-  for(const venue of [...venues].sort((a,b)=>Number(a.locked)-Number(b.locked)||venueName(a,locale).localeCompare(venueName(b,locale),locale))){const option=element('option',venueName(venue,locale)+(venue.locked?' · Pro':''));option.value=venue.id;select.append(option);}
-  select.value=selectedId;select.disabled=!venues.length;updateLocateAvailability();updateExplorerSteps();
+  renderCountryVenuePicker({catalog:state.catalog,countrySelect:$('venue-country'),select:$('venue'),country,selectedId,locale,placeholderText:text('explorer.pickVenue')});
+  updateLocateAvailability();updateExplorerSteps();
 }
 async function loadCatalog(){
   setStatus('venue-status',copy("正在读取场馆目录…"),'loading');setStatus('explorer-status',copy("正在准备场馆目录…"),'loading');$('venue-retry').hidden=true;
@@ -280,22 +273,22 @@ function chooseEstimatedSeat(record){
   render();viewer?.seatView();
 }
 async function chooseSample(sample){$('section').value=sample.section;$('row').value=sample.row;$('seat').value=sample.seat;await locate({intentional:true});}
-async function locate({intentional=false}={}){const version=++resolveVersion,id=state.venueId,requestedVenue=state.venue;setBusy('locate',true,copy("正在查找座位…"));setStatus('location-status',copy("正在核对来源记录…"),'loading');setStatus('explorer-status',copy("正在核对你的票面位置…"),'loading');
+async function locate({intentional=false}={}){const version=++resolveVersion,id=state.venueId,requestedVenue=state.venue;setBusy('locate',true,copy("正在查找座位…"));setStatus('location-status',copy("正在查找座位…"),'loading');setStatus('explorer-status',copy("正在核对你的票面位置…"),'loading');
   if(intentional)window.stagepeekTrack?.('ticket_search',{venue_access:state.catalog?.find(item=>item.id===id)?.locked?'pro':'free'});
   try{const found=await api(`/api/venues/${id}/resolve`,{method:'POST',body:{layout:state.venue?.seatLayout?.id,section:$('section').value,row:$('row').value,seat:$('seat').value}});
     if(version!==resolveVersion||id!==state.venueId||state.venue!==requestedVenue)return;state.result=found;if(found.sectionId){state.sectionId=found.sectionId;state.mapTier=state.venue.sections.find(s=>s.id===found.sectionId)?.tier;}render();setStatus('explorer-status',found.status==='matched'?copy("已找到座位，请查看下方视角。"):copy("暂时无法核实这个座位，请查看下方分区预览。"),found.status==='matched'?'success':'error');
     if(intentional)window.stagepeekTrack?.(found.status==='matched'?'ticket_match':'ticket_miss',{result:found.status==='estimated'?'estimated':found.status==='ambiguous'?'ambiguous':found.status==='unknown-section'||found.status==='unknown-layout'?'not_found':'unavailable'});
     if(found.status==='matched'&&Array.isArray(found.position)){viewer?.seatView();if(intentional)window.stagepeekTrack?.('seat_located');}
-    else{viewer?.near();toast(found.status==='matched'?copy("票号存在，但缺少座位坐标；当前仅显示分区。"):found.status==='ambiguous'?copy("来源含重复票号，未自动选择任何座位。"):found.status==='unknown-section'?copy("尚未找到这个分区。"):copy("这组排座尚无公开坐标，先显示分区预览。"));}
+    else{viewer?.near();toast(found.status==='matched'?copy("暂时无法定位这个座位，先显示分区。"):found.status==='ambiguous'?copy("这个票号有多个位置，请检查场馆和布局。"):found.status==='unknown-section'?copy("尚未找到这个分区。"):copy("暂时无法定位这个座位，先显示分区。"));}
     if(intentional&&found.status==='matched')$('location-status').focus?.();
   }catch(error){if(intentional)window.stagepeekTrack?.('ticket_miss',{result:'unavailable'});toast(message(error));setStatus('location-status',copy("座位暂时无法核对，请重试。"),'error');setStatus('explorer-status',copy("座位暂时无法核对，请重试。"),'error');}finally{if(version===resolveVersion){setBusy('locate',false,copy("找到我的座位"));$('locate').disabled=!Boolean($('section').value&&$('row').value&&$('seat').value);}}
 }
 async function loadEvents(id,version){$('events-retry').hidden=true;$('events-list').replaceChildren(element('p',copy("正在读取官方演出信息…"),'muted'));setStatus('events-status',copy("正在读取演出信息…"),'loading');
   try{const result=await api(`/api/venues/${id}/events`);if(version!==loadVersion)return;
     $('events-list').replaceChildren();$('event-count').textContent=copy("{0} 项", [result.events.length]);
-    for(const group of groupEventsByDate(result.events)){const section=element('section',undefined,'event-date-group'),heading=element('div',undefined,'event-date-heading'),title=element('h3',group.date==='unknown'?copy("日期待定"):group.date),count=element('span',copy("{0} 项",[group.events.length]));heading.append(title,count);const grid=element('div',undefined,'event-grid');group.events.forEach((event,index)=>{const card=element('article',undefined,'event-card'),button=element('button',undefined,'event');const mapState=event.layout?.model?copy("有公开座位图 + 舞台布局"):event.layout?.mapVerification==='reference'?copy("有公开场次座位图参考"):event.layout?.mapVerification==='unavailable'?copy("座位图待票务平台发布"):copy("场次布局待核实");button.append(element('strong',event.name),element('span',event.localDate+(event.endLocalDate!==event.localDate?' — '+event.endLocalDate:'')),element('span',event.status==='canceled'?copy("已取消"):event.status==='postponed'?copy("已延期"):mapState));button.setAttribute('aria-pressed',String(state.event?.id===event.id));button.classList.toggle('active',state.event?.id===event.id);button.onclick=()=>{for(const item of $('events-list').querySelectorAll('.event')){item.classList.remove('active');item.setAttribute('aria-pressed','false');}button.classList.add('active');button.setAttribute('aria-pressed','true');selectEvent(event);};card.append(button,link(copy("官方详情 ↗"),event.source));card.lastChild.className='event-source';if(event.layout?.mapVerification==='reference'){const mapLink=link(copy("场次座位图参考 ↗"),event.layout.source||event.layout.image);mapLink.className='event-source';card.append(mapLink);}if(index>=6)card.hidden=true;grid.append(card);});section.append(heading,grid);if(group.events.length>6){const more=element('button',copy("显示更多场次"),'event-more');more.type='button';more.onclick=()=>{const expanded=more.dataset.expanded==='true';grid.querySelectorAll('.event-card').forEach((card,index)=>{if(index>=6)card.hidden=expanded;});more.dataset.expanded=String(!expanded);more.textContent=copy(expanded?"显示更多场次":"收起场次");};section.append(more);}$('events-list').append(section);}
+    for(const group of groupEventsByDate(result.events)){const section=element('section',undefined,'event-date-group'),heading=element('div',undefined,'event-date-heading'),title=element('h3',group.date==='unknown'?copy("日期待定"):group.date),count=element('span',copy("{0} 项",[group.events.length]));heading.append(title,count);const grid=element('div',undefined,'event-grid');group.events.forEach((event,index)=>{const card=element('article',undefined,'event-card'),button=element('button',undefined,'event');const mapState=event.layout?.model?copy("查看本场布局"):event.layout?.mapVerification==='reference'?copy("座位图参考"):event.layout?.mapVerification==='unavailable'?copy("座位图待票务平台发布"):copy("暂无本场布局");button.append(element('strong',event.name),element('span',event.localDate+(event.endLocalDate!==event.localDate?' — '+event.endLocalDate:'')),element('span',event.status==='canceled'?copy("已取消"):event.status==='postponed'?copy("已延期"):mapState));button.setAttribute('aria-pressed',String(state.event?.id===event.id));button.classList.toggle('active',state.event?.id===event.id);button.onclick=()=>{for(const item of $('events-list').querySelectorAll('.event')){item.classList.remove('active');item.setAttribute('aria-pressed','false');}button.classList.add('active');button.setAttribute('aria-pressed','true');selectEvent(event);};card.append(button,link(copy("官方详情 ↗"),event.source));card.lastChild.className='event-source';if(event.layout?.mapVerification==='reference'){const mapLink=link(copy("场次座位图参考 ↗"),event.layout.source||event.layout.image);mapLink.className='event-source';card.append(mapLink);}if(index>=6)card.hidden=true;grid.append(card);});section.append(heading,grid);if(group.events.length>6){const more=element('button',copy("显示更多场次"),'event-more');more.type='button';more.onclick=()=>{const expanded=more.dataset.expanded==='true';grid.querySelectorAll('.event-card').forEach((card,index)=>{if(index>=6)card.hidden=expanded;});more.dataset.expanded=String(!expanded);more.textContent=copy(expanded?"显示更多场次":"收起场次");};section.append(more);}$('events-list').append(section);}
     if(!result.events.length){$('events-list').append(element('p',result.status==='unavailable'?copy("暂时无法取得官方活动列表。"):copy("暂未取得可展示的近期演出。"),'muted'));if(result.status==='unavailable')$('events-retry').hidden=false;}
-    $('events-status').textContent=(result.refreshedAt?(result.acquisition==='manual-official-page-verification'?copy("人工核验缓存 "):copy("最近成功更新 "))+new Date(result.refreshedAt).toLocaleString(locale):copy("尚无成功更新记录"))+(['partial','stale'].includes(result.status)?copy(" · 部分来源暂不可用"):'');setStatus('events-status',$('events-status').textContent,result.status==='unavailable'?'error':'success');renderEventLayout();
+    $('events-status').textContent=['partial','stale'].includes(result.status)?copy("部分演出信息暂不可用，请稍后重试。") : '';setStatus('events-status',$('events-status').textContent,result.status==='unavailable'?'error':'success');renderEventLayout();
   }catch(error){if(version===loadVersion){$('events-list').replaceChildren(element('p',copy("演出列表暂时不可用，请稍后重试。"),'muted'));setStatus('events-status',copy("演出列表暂时不可用，请重试。"),'error');$('events-retry').hidden=false;}}
 }
 async function selectEvent(event){
@@ -316,7 +309,14 @@ async function selectEvent(event){
   for(const section of state.venue.sections)for(const label of section.ticketLabels){const option=element('option');option.value=label;$('section-list').append(option);}
   renderStageOptions();render();
 }
-function renderEventLayout(){if(state.venue&&proposedStageRects(state.layout,state.venue).length&&!stageRects(state.layout,state.venue).length){$('layout-source-note').textContent=copy("舞台超出当前模型范围，已暂停显示；原始来源坐标保持不变。");$('layout-state').textContent=copy("舞台边界待核实");$('event-layout-note').textContent=copy("当前模型范围可能仅来自座位分布，不能据此确认建筑边界；复核前不显示舞台或计算舞台距离。");return;}const reference=state.venue?.geometry?.referenceLayout;if(reference){$('layout-source-note').textContent=copy("历史布局参考，不代表当前演出。");$('layout-state').textContent=copy("历史场次参考");$('event-layout-note').textContent=copy("历史布局参考，不代表当前演出。")+copy("。临时坐席、舞台与控制台只对应这份布局，不适用于其他演出。");return;}const event=state.event;const map=event?.layout?.mapVerification;const referenced=map==='reference';const unavailable=map==='unavailable';const model=event?.layout?.model;const source=state.venue?.seatLayout?(state.venue.sourceStage?copy("座位与舞台来自同一来源布局；未独立实测，也不代表本场演出。"):copy("来源仅包含固定看台，未取得场次舞台坐标。")):copy("当前场次没有事件级舞台坐标。");$('layout-source-note').textContent=model?copy("{0} · 来源：{1} · {2}", [model.label, model.provider||copy("公开票务座位图"), model.confidence==='operator-traced'?copy("人工描摹，待现场独立校准"):copy("来源校准")]):source;$('layout-state').textContent=event?(model?copy("本场布局已接入"):referenced?copy("有公开参考"):unavailable?copy("座位图待发布"):copy("布局待核实")):state.venue?.seatLayout?copy("来源布局预览"):copy("通用预览");$('event-layout-note').textContent=event?(model?copy("{0}：已将公开座位图中可辨认的舞台位置接入 2D/3D、座位避让和距离计算。当前为人工描摹，演出制作方可能临时调整，仍需现场或官方图纸校准。", [event.name]):referenced?copy("{0}：已找到公开座位图参考，但没有事件级舞台坐标；当前不渲染舞台。", [event.name]):unavailable?copy("{0}：演出已在官方场馆页面确认，但没有可用的事件级座位图；当前不渲染舞台。", [event.name]):copy("{0}：尚未取得可校准的场次舞台图，当前不渲染舞台。", [event.name])):copy("可选择近期演出，查看场次与布局来源状态。");}
+function renderEventLayout(){
+  if(state.venue&&proposedStageRects(state.layout,state.venue).length&&!stageRects(state.layout,state.venue).length){$('layout-source-note').textContent=copy("舞台暂不可用");$('layout-state').textContent=copy("舞台暂不可用");$('event-layout-note').textContent=copy("暂无本场舞台布局。");return;}
+  const historical=state.venue?.geometry?.referenceLayout;
+  const model=state.event?.layout?.model,reference=state.event?.layout?.mapVerification==='reference';
+  $('layout-source-note').textContent=copy("舞台与内场为示意，实际安排以主办方为准。");
+  $('layout-state').textContent=copy(historical?"历史场次参考":model?"本场布局":state.event?"暂无本场布局":"通用预览");
+  $('event-layout-note').textContent=copy(historical?"历史布局参考，不代表当前演出。":model?"舞台与内场为示意，实际安排以主办方为准。":reference?"暂无本场舞台视角，可查看座位图参考。":state.event?"暂无本场舞台布局。":"选择演出后查看对应舞台与内场。");
+}
 async function saved(){if(!state.me?.user){open('login-dialog');return;}open('saved-dialog');$('saved-list').replaceChildren(element('p',copy("正在加载…")));
   try{const {positions}=await api('/api/positions');$('saved-list').replaceChildren();if(!positions.length)$('saved-list').append(element('p',copy("还没有保存位置。先在地图中选择已有记录的排座。"),'muted'));
     for(const item of positions){const wrap=element('article',undefined,'saved-item');wrap.append(element('strong',state.catalog.find(v=>v.id===item.venue_id)?.name||item.venue_id),element('p',copy("{0} 区 · {1} 排 · {2} 座", [item.section, item.row_token, item.seat_token])));

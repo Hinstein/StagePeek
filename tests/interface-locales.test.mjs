@@ -44,11 +44,12 @@ test('interface HTML translates whole labels without corrupting escaping',()=>{
  assert.match(html,/lang="ja"/);assert.ok(!html.includes('定位我的座位'));assert.match(html,/A &amp; B/);assert.ok(!html.includes('&amp;amp;'));
 });
 
-test('mail fallback uses English for locales the existing shared hook does not support',async()=>{
+test('authentication mail callbacks use English independently of the browser locale',async()=>{
  const {SupabaseAuth}=await import('../server/supabase-auth.mjs');
  const callback=SupabaseAuth.prototype.callback;
- for(const locale of ['en','ja','ko','zh-TW',undefined])assert.equal(callback.call({config:{appUrl:'https://stagepeek.live'}},'/auth/callback',locale),'https://stagepeek.live/auth/callback?lang=en');
- assert.equal(callback.call({config:{appUrl:'https://stagepeek.live'}},'/auth/reset','zh-CN'),'https://stagepeek.live/auth/reset?lang=zh-CN');
+ for(const locale of ['en','zh-CN','zh-TW','ja','ko',undefined]){
+  for(const path of ['/auth/callback','/auth/reset'])assert.equal(callback.call({config:{appUrl:'https://stagepeek.live'}},path,locale),`https://stagepeek.live${path}?lang=en`);
+ }
 });
 
 test('language switching keeps the current explorer selection rather than stale link parameters',t=>{
@@ -60,4 +61,18 @@ test('language switching keeps the current explorer selection rather than stale 
  assert.equal(target.pathname,'/ko/explore');
  assert.deepEqual(Object.fromEntries(target.searchParams),{venue:'kai-tak-stadium',section:'101',layout:'bowl',row:'A',seat:'78',mode:'3d',zoom:'2'});
  globalThis.location.href='https://stagepeek.live/';browser.setLocaleUrl('ja');assert.equal(assigned[1],'/ja/');
+});
+
+
+test('language switching preserves concert camera and seat state while excluding credentials',t=>{
+ const previous=globalThis.location,assigned=[];
+ t.after(()=>{if(previous===undefined)delete globalThis.location;else globalThis.location=previous;});
+ const state={venue:'ovo-hydro',event:'noah-nov5',layout:'hydro',section:'208',row:'C',seat:'121',mode:'3d',zoom:'5.4',depth:'1',lateral:'0',preview:'B',hydroCamera:'audience',hydroPhone:'5.4',hydroRoof:'1',hydroFloor:'1',hydroTier:'2',hydroMapRotation:'90',sourceView:JSON.stringify({key:'o2~110',view:{mode:'seat',fov:9.87}})};
+ for(const locale of browser.SUPPORTED_LOCALES){
+  globalThis.location={href:'https://stagepeek.live/zh-CN/concert-views?'+new URLSearchParams({...state,token:'private',access_token:'private'}),assign:value=>assigned.push(value)};
+  browser.setLocaleUrl(locale);
+  const target=new URL(assigned.at(-1),'https://stagepeek.live');
+  assert.equal(target.pathname,browser.localizedPath(locale,'/concert-views'));
+  assert.deepEqual(Object.fromEntries(target.searchParams),state);
+ }
 });

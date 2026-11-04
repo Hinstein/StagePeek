@@ -1,16 +1,16 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {groupVenuesByCountry} from '../public/catalog.mjs';
-import {countryName,venueName} from '../public/translations/venue-labels.mjs';
+import {renderCountryVenuePicker} from '../public/venue-picker.mjs';
 
 const source=readFileSync(new URL('../public/app.mjs',import.meta.url),'utf8');
 const pickerSource=source.slice(source.indexOf('function renderVenuePicker('),source.indexOf('async function loadCatalog('));
 function harness(){
   const state={catalog:[{id:'hk-pro',name:'Paid Hong Kong',city:'中国香港 · 香港',locked:true},{id:'hk-free',name:'Free Hong Kong',city:'中国香港 · 香港',locked:false},{id:'jp-free',name:'Tokyo',city:'日本 · 东京',locked:false}]};
   const nodes=new Map(['venue-country','venue'].map(id=>[id,{value:'',disabled:true,options:[],replaceChildren(...items){this.options=items;},append(option){this.options.push(option);}}]));
-  const create=new Function('state','$','groupVenuesByCountry','countryName','venueName','locale','element','text','updateLocateAvailability','updateExplorerSteps',`${pickerSource};return renderVenuePicker;`);
-  return {nodes,render:create(state,id=>nodes.get(id),groupVenuesByCountry,countryName,venueName,'en',(tag,text)=>({textContent:text,value:''}),key=>key,()=>{},()=>{})};
+  globalThis.document={createElement:tag=>({tagName:tag,textContent:'',value:''})};
+  const create=new Function('renderCountryVenuePicker','state','$','locale','text','updateLocateAvailability','updateExplorerSteps',`${pickerSource};return renderVenuePicker;`);
+  return {nodes,render:create(renderCountryVenuePicker,state,id=>nodes.get(id),'en',key=>key,()=>{},()=>{})};
 }
 
 test('country-first picker limits venue options to the selected country and puts free venues first',()=>{

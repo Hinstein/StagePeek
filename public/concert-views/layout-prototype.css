@@ -1,0 +1,54 @@
+/* Approved B layout, scoped to concert views; production form and scene retained. */
+body[data-ui-layout]{--preview-gutter:24px}
+body[data-ui-layout] main{box-sizing:border-box;width:100%;max-width:1440px;padding:22px var(--preview-gutter);margin:0 auto}
+body[data-ui-layout] .site-nav,body[data-ui-layout] .site-footer{width:min(1392px,calc(100% - 48px))}
+body[data-ui-layout] .site-nav{height:78px;min-height:78px}
+body[data-ui-layout] .intro{position:relative;margin:0 0 16px;gap:16px}
+body[data-ui-layout] .intro .eyebrow{font-size:10px;letter-spacing:1px}
+body[data-ui-layout] .intro h1{font-size:25px;margin:4px 0;line-height:1.35}
+body[data-ui-layout] .intro p{margin:5px 0 0;font-size:12px}
+body[data-ui-layout] .explorer-status:empty{display:none}
+body[data-ui-layout] .explorer-status{min-height:0;margin:0 0 8px}
+body[data-ui-layout] .explorer-steps{gap:12px;margin:0 0 12px}
+body[data-ui-layout] .explorer-step{min-height:0;padding:7px 10px;gap:8px;align-items:center;border-radius:8px}
+body[data-ui-layout] .explorer-step>span{width:22px;height:22px;font-size:11px}
+body[data-ui-layout] .explorer-step small{display:none}
+body[data-ui-layout] .input-panel{padding:14px 16px;margin-bottom:16px;border-radius:14px;box-shadow:none}
+body[data-ui-layout] .panel-heading{margin-bottom:10px;align-items:center}
+body[data-ui-layout] .panel-heading .eyebrow{display:none}
+body[data-ui-layout] .panel-heading h2{font-size:15px;margin:0}
+body[data-ui-layout] .input-panel .toolbar{display:grid;gap:10px 12px;align-items:end}
+body[data-ui-layout] .input-panel .toolbar label{display:grid;grid-template-rows:auto 42px;grid-row:auto;grid-column:auto;gap:5px;min-width:0}
+body[data-ui-layout] .input-panel .toolbar label>span{font-size:11px}
+body[data-ui-layout] .input-panel .toolbar label>input,body[data-ui-layout] .input-panel .toolbar label>select{height:42px;font-size:13px;padding:9px 11px}
+body[data-ui-layout] .input-panel .toolbar label small,body[data-ui-layout] .input-panel .toolbar .form-help{display:none}
+body[data-ui-layout] .input-panel .toolbar #locate{grid-column:auto;grid-row:auto;height:42px;min-height:42px;min-width:0;margin:0;align-self:end;font-size:13px}
+body[data-ui-layout] .input-panel .toolbar .venue-picker{grid-column:1/-1;grid-row:auto;grid-template-columns:minmax(140px,.5fr) minmax(0,1.5fr);gap:12px;padding:0;margin:0;border:0}
+body[data-ui-layout] .preview-help{font-size:12px;flex:none}
+body[data-ui-layout] .preview-help>summary{cursor:pointer;color:#bca7e8;padding:8px 0}
+body[data-ui-layout] .preview-help[open] .explorer-steps{position:absolute;right:0;top:100%;z-index:35;display:grid;min-width:260px;background:#111a22;padding:12px;border:1px solid #33434b;border-radius:10px;box-shadow:0 12px 28px #0008;grid-template-columns:1fr}
+body[data-ui-layout] .preview-help .explorer-step small{display:block}
+/* B: everything visible on one horizontal query strip. */
+body[data-ui-layout=B] .intro .eyebrow,body[data-ui-layout=B] .intro p,body[data-ui-layout=B] .panel-heading{display:none}
+body[data-ui-layout=B] .intro h1{font-size:23px}
+body[data-ui-layout=B] .intro .pill{margin-left:auto}
+body[data-ui-layout=B] .input-panel .toolbar{grid-template-columns:minmax(110px,.8fr) minmax(200px,1.7fr) minmax(80px,.7fr) minmax(65px,.45fr) minmax(65px,.45fr) minmax(110px,.8fr)}
+body[data-ui-layout=B] .input-panel .toolbar .venue-picker{display:contents}
+
+@media(max-width:1000px) and (min-width:681px){
+ body[data-ui-layout=B] .input-panel .toolbar{grid-template-columns:1.2fr 1fr 1fr 1fr}
+ body[data-ui-layout=B] .input-panel .toolbar .venue-picker{display:grid}
+}
+@media(max-width:680px){
+ body[data-ui-layout]{--preview-gutter:16px}
+ body[data-ui-layout] main{padding-top:16px}
+ body[data-ui-layout] .site-nav,body[data-ui-layout] .site-footer{width:calc(100% - 32px)}
+ body[data-ui-layout] .site-nav{height:auto;min-height:78px}
+ body[data-ui-layout] .intro{gap:8px;flex-wrap:wrap}
+ body[data-ui-layout] .intro h1{font-size:21px}
+ body[data-ui-layout] .input-panel{padding:12px;margin-bottom:12px}
+ body[data-ui-layout] .input-panel .toolbar{grid-template-columns:1.4fr .8fr .8fr;gap:10px 8px}
+ body[data-ui-layout] .input-panel .toolbar .venue-picker{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);grid-column:1/-1;grid-row:auto;border:0;padding:0}
+ body[data-ui-layout] .input-panel .toolbar>#locate{grid-column:1/-1;grid-row:auto;align-self:end}
+ body[data-ui-layout] .input-panel .toolbar label{grid-row:auto;grid-column:auto}
+}

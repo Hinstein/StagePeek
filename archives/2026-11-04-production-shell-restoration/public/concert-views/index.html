@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>StagePeek · 演唱会座位视角与 3D 座位图 | Concert Seat View</title>
+  <meta name="robots" content="noindex,nofollow"><meta name="description" content="用 StagePeek 探索演唱会座位视角：查看 2D 座位分区图与 3D 场馆，输入门票区、排、座，核对已有座位记录，模拟舞台视角与手机取景。各场馆覆盖与校准状态清晰标注。">
+  <meta name="theme-color" content="#0b1118">
+  <link rel="canonical" href="https://stagepeek.live/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="StagePeek">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:url" content="https://stagepeek.live/">
+  <meta property="og:title" content="StagePeek · 演唱会座位视角与 3D 座位图">
+  <meta property="og:description" content="找到门票上的位置，探索 2D / 3D 场馆，提前看看舞台方向与手机取景。">
+  <meta property="og:image" content="https://stagepeek.live/brand/stagepeek-social.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="StagePeek：演唱会座位视角、2D 与 3D 座位图">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="StagePeek · Concert Seat View">
+  <meta name="twitter:description" content="探索演唱会座位图、3D 场馆与舞台视角模拟。">
+  <meta name="twitter:image" content="https://stagepeek.live/brand/stagepeek-social.png">
+  <!--PUBLIC-SCHEMA-->
+  <link rel="icon" type="image/svg+xml" href="/brand/stagepeek-mark.svg">
+  <link rel="stylesheet" href="/concert-views/style.css"><link rel="stylesheet" href="/venue-view/venue-view.css"><script type="module" src="/concert-views/app.mjs"></script>
+</head>
+<body class="theme-arena">
+  <header class="header"><a class="brand" href="/" aria-label="StagePeek 首页"><img class="brand-logo" src="/brand/stagepeek-logo-dark.svg" alt="StagePeek"><small>找到你的现场位置</small></a><nav aria-label="账户"><a href="/explore">返回主站</a><a href="/explore?panel=plans">订阅方案</a><a href="/account">我的账号</a><a href="/auth/login">登录 / 注册</a></nav></header>
+  <main>
+    <section class="intro"><div><span class="eyebrow" lang="en">CONCERT SEAT VIEW · 2D &amp; 3D SEATING CHARTS</span><h1>演唱会座位视角，提前看看。</h1><p>选择场馆，输入门票上的区、排和座号，用 2D 座位图与 3D 场馆探索你的现场位置。</p></div><span id="plan-label" class="pill">免费体验</span></section>
+    <form id="ticket-form" class="toolbar" aria-label="定位门票座位">
+      <label class="venue-field">场馆 · 国家/地区<select id="venue" required><option>正在加载场馆…</option></select></label>
+      <datalist id="section-list"></datalist><datalist id="row-list"></datalist>
+    </form>
+    <div class="workspace">
+      <section class="map-card">
+        <div class="map-heading"><div><h2 id="venue-name">正在加载</h2><p id="venue-city"></p></div></div>
+        <div id="viewer" class="viewer"><canvas id="scene" aria-label="可拖拽的三维场馆"></canvas><svg id="map" viewBox="-190 -145 380 290" role="group" tabindex="0" aria-label="可选择分区的二维场馆图" hidden></svg>
+          <div id="map-levels" class="map-levels" role="group" aria-label="二维看台层级" hidden></div><div id="map-layers" class="map-layers" role="group" aria-label="二维叠加图层"><button id="map-event-toggle" type="button" aria-pressed="false" hidden>事件内场</button><button id="map-official-toggle" type="button" aria-pressed="false" hidden>官方区界</button><span id="map-layer-status" class="map-layer-status">看台：当前层 · 事件内场：关 · 官方区界：关</span></div><div id="selection-row" class="selection-row"><span id="selection-tag" class="selection-tag">122 区</span></div><span id="viewer-location" class="viewer-location"></span>
+          <div id="view-error" class="view-error" hidden></div>
+        </div>
+        <div class="map-footer"><div class="legend"><span><i></i>场馆分区</span><span><i class="orange"></i>当前分区</span><span><i class="gold"></i>来源采样位置</span><span id="conflict-legend" hidden><i class="conflict"></i>本场布局相交待核对</span></div><span id="coverage-count"></span></div><div id="capability-badges" class="capability-badges" aria-label="当前数据能力"></div>
+        <details class="sources"><summary>数据来源与定位精度 <span id="accuracy-short">几何尚未校准</span></summary><p id="coverage-note"></p><p>紫色椅子用于表达看台形状；可核对的票号以来源采样记录为准。未知票号会保留为未核实，距离依赖场馆和当场舞台的校准。</p><a id="source-link" target="_blank" rel="noopener noreferrer">查看来源 ↗</a></details>
+      </section>
+      <aside>
+        <section class="location-card"><div class="eyebrow">YOUR LOCATION</div><div class="location-heading"><strong id="location-section">122</strong><span id="location-row">Row 14 · Seat 679</span></div><div id="location-status" class="status">正在查找来源记录…</div><p id="location-description"></p><div class="distance"><strong id="distance">—</strong><span>至示意舞台 · 直线距离</span></div><button id="save-position" class="wide">＋ 保存这个位置</button><details class="samples"><summary>查看本区已有排座记录</summary><div id="samples-list"></div></details></section>
+        <section class="events-card"><div class="section-heading"><h2>选择演唱会</h2><span id="event-count"></span></div><p class="muted">场次布局会影响舞台位置和可售座位。</p><div id="events-list"></div><p id="events-status" class="small muted"></p></section>
+        <section class="layout-card"><div class="section-heading"><h2>舞台布局</h2><span id="layout-state" class="pill">通用预览</span></div><p id="event-layout-note" class="muted">选择演出后，可查看该场布局的核实状态。</p><section id="research-v0-notice" class="research-v0-notice" hidden aria-label="本地研究 v0 状态"><span>示意舞台</span><span>本地研究 v0 · 数据未发布</span><span>来源坐标 · 未校准，不代表实测</span></section><label class="small">自由预览<select id="stage-layout"><option value="end">端头舞台</option><option value="runway">端头舞台 + 延伸台</option><option value="center">中央舞台</option></select></label><p id="layout-source-note" class="small muted">通用舞台仅用于探索视角，尺寸与位置不代表实际演出。</p><div id="ticket-map-conflicts" hidden></div><button id="return-venue-layout" class="wide" hidden>返回场馆常规布局</button><img id="ticket-map-preview-image" alt="本场来源票图" hidden></section>
+      </aside>
+    </div>
+    <section class="product-guide" aria-labelledby="guide-title">
+      <div><span class="eyebrow" lang="en">KNOW YOUR SEAT. FEEL THE SHOW.</span><h2 id="guide-title">从门票到舞台视角，怎么用？</h2><p>StagePeek 是演唱会座位查询与视角模拟工具。先了解场馆分区，再核对票号对应的位置。</p></div>
+      <ol class="guide-steps"><li><h3>选择场馆与演唱会</h3><p>按国家或地区查找场馆；有已核实的演出布局时，选择对应场次查看舞台位置。</p></li><li><h3>输入区、排、座</h3><p>按门票填写 Section / Block、Row 和 Seat。已有来源记录会显示匹配状态，缺少记录时保留为未核实。</p></li><li><h3>切换 2D / 3D 座位图</h3><p>用平面分区图理解舞台方向，在 3D 场馆中旋转、缩放，进入观众视角或手机取景模拟。</p></li></ol>
+      <div class="guide-faq"><h2>座位视角与舞台距离，能参考到什么程度？</h2><details><summary>这里的座位视角是真实现场照片吗？</summary><p>当前提供几何模型生成的视角模拟。手机取景倍率用于比较画面大小，不代表相机光学成像，也不是现场照片。</p></details><details><summary>所有场馆都能查到准确座位和舞台距离吗？</summary><p>各场馆的数据覆盖不同。只有票号与已有来源坐标匹配时才显示匹配；实际距离需要场馆米制尺度与对应演出舞台坐标校准。缺少数据时会说明未知或估算。</p></details><details><summary>免费可以使用哪些场馆？</summary><p>精选 10 个场馆可免费探索，其余场馆通过 Pro 订阅访问。免费名单可调整，当前访问范围与各馆数据状态以工具内显示为准。</p></details></div>
+      <a href="#ticket-form">开始查询演唱会座位 ↗</a>
+    </section>
+    <!--VENUE-GUIDES-->
+    <footer>StagePeek <span lang="en">Concert seat view · 2D &amp; 3D seating charts</span><nav class="public-links" aria-label="网站说明"><a href="/venues/">场馆目录</a><a href="/about">关于 StagePeek</a><a href="/methodology">数据方法</a><a href="/plans">计划说明</a><a href="/contact">联系与纠错</a><a href="/privacy">隐私</a><a href="/terms">使用条款</a></nav></footer>
+  </main>
+  <div id="toast" role="status" hidden></div>
+</body></html>

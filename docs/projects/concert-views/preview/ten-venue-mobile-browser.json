@@ -1,0 +1,74 @@
+[
+  {
+    "venue": "accor-arena-paris",
+    "width": 390,
+    "page": 390,
+    "missing": [],
+    "camera": "seat",
+    "height": 524,
+    "ratio": 1.3333333333333333
+  },
+  {
+    "venue": "ziggo-dome-amsterdam",
+    "width": 390,
+    "page": 390,
+    "missing": [],
+    "camera": "seat",
+    "height": 524,
+    "ratio": 1.3333333333333333
+  },
+  {
+    "venue": "uber-arena-berlin",
+    "width": 390,
+    "page": 390,
+    "missing": [],
+    "camera": "seat",
+    "height": 524,
+    "ratio": 1.3333333333333333
+  },
+  {
+    "venue": "kia-forum-los-angeles",
+    "width": 390,
+    "page": 390,
+    "missing": [],
+    "camera": "seat",
+    "height": 524,
+    "ratio": 1.3333333333333333
+  },
+  {
+    "venue": "united-center-chicago",
+    "width": 390,
+    "page": 390,
+    "missing": [],
+    "camera": "seat",
+    "height": 524,
+    "ratio": 1.3333333333333333
+  },
+  {
+    "venue": "ubs-arena-new-york",
+    "width": 390,
+    "page": 390,
+    "missing": [],
+    "camera": "seat",
+    "height": 524,
+    "ratio": 1.3333333333333333
+  },
+  {
+    "venue": "prudential-center-newark",
+    "width": 390,
+    "page": 390,
+    "missing": [],
+    "camera": "seat",
+    "height": 524,
+    "ratio": 1.3333333333333333
+  },
+  {
+    "venue": "state-farm-arena-atlanta",
+    "width": 390,
+    "page": 390,
+    "missing": [],
+    "camera": "seat",
+    "height": 524,
+    "ratio": 1.3333333333333333
+  }
+]

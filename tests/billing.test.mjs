@@ -12,12 +12,12 @@ async function setup(t) {
   const auth=new AuthService(db,{clock:()=>now});const user=(await auth.consumeEmail((await auth.issueEmail('viewer@example.com')).token));
   const calls=[];
   const current={id:'sub_1',customer:'cus_1',status:'active',current_period_end:now/1000+86400,cancel_at_period_end:false,items:{data:[{price:{id:'price_monthly'}}]}};
-  let interval='month',sessionCount=0;const pending={id:'cs_1',url:'https://checkout.stripe.com/c/pay/cs_1',status:'open',customer:'cus_1',expires_at:now/1000+3600};const liveSubscriptions=[];
+  let interval='month',amount=999,sessionCount=0;const pending={id:'cs_1',url:'https://checkout.stripe.com/c/pay/cs_1',status:'open',customer:'cus_1',expires_at:now/1000+3600};const liveSubscriptions=[];
   const service=new BillingService(db,{appUrl:'http://localhost:4180',stripeSecretKey:'sk_test_placeholder',stripePriceId:'price_monthly',stripeWebhookSecret:'whsec_local_test'}, {
     clock:()=>clock,
     fetch:async(url,options={})=>{
       calls.push({url:String(url),options});
-      if(String(url).includes('/prices/'))return response({id:'price_monthly',active:true,type:'recurring',unit_amount:900,currency:'usd',recurring:{interval,interval_count:1}});
+      if(String(url).includes('/prices/'))return response({id:'price_monthly',active:true,type:'recurring',unit_amount:amount,currency:'usd',recurring:{interval,interval_count:1}});
       if(String(url).endsWith('/customers'))return response({id:'cus_1'});
       if(String(url).endsWith('/checkout/sessions')){sessionCount++;return response({...pending,id:'cs_'+sessionCount,url:'https://checkout.stripe.com/c/pay/cs_'+sessionCount});}
       if(String(url).includes('/checkout/sessions/cs_'))return response(pending);
@@ -32,7 +32,7 @@ async function setup(t) {
     return {raw,signature:`t=${timestamp},v1=${createHmac('sha256','whsec_local_test').update(`${timestamp}.`).update(raw).digest('hex')}`};
   }
   const event=(id='evt_1')=>({id,type:'customer.subscription.updated',data:{object:{id:'sub_1'}}});
-  return {db,user,service,current,calls,now,signed,event,pending,liveSubscriptions,advance:ms=>{clock+=ms;},setInterval:value=>{interval=value;}};
+  return {db,user,service,current,calls,now,signed,event,pending,liveSubscriptions,advance:ms=>{clock+=ms;},setInterval:value=>{interval=value;},setAmount:value=>{amount=value;}};
 }
 
 test('checkout uses server monthly price and stored customer; redirects never grant access',async t=>{
@@ -52,6 +52,12 @@ test('checkout uses server monthly price and stored customer; redirects never gr
 test('annual prices cannot be sold as monthly subscriptions',async t=>{
   const {service,user,setInterval,calls}=await setup(t);setInterval('year');
   await assert.rejects(()=>service.checkout(user),/monthly/i);
+  assert.equal(calls.some(x=>x.url.endsWith('/checkout/sessions')),false);
+});
+
+test('incorrect monthly amounts cannot create a checkout',async t=>{
+  const {service,user,setAmount,calls}=await setup(t);setAmount(900);
+  await assert.rejects(()=>service.checkout(user),error=>error.code==='INVALID_MONTHLY_PRICE');
   assert.equal(calls.some(x=>x.url.endsWith('/checkout/sessions')),false);
 });
 

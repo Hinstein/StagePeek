@@ -1,0 +1,78 @@
+{
+  "productionCommit": "2e7cf06ac4f7e21d028f02acd96661c73f6c84d7",
+  "purpose": "Retain previous UI and design implementation before restoring the approved production shell. Venue models remain in public/concert-views.",
+  "files": [
+    {
+      "path": "data/events.json",
+      "sha256": "a4569091de9bbcc0c47f03b8033139f88322b1241d4dcabf60e541485093ff4d"
+    },
+    {
+      "path": "public/app.mjs",
+      "sha256": "a6fe1b3d8e6aaad196863657883986c7b2ebc3e6c366b1ac335acebca3998d07"
+    },
+    {
+      "path": "public/explorer-state.mjs",
+      "sha256": "ebcbdac1d1b56fe120ef01f320c5195296d55d94be02d563afe214f0bb79f0d0"
+    },
+    {
+      "path": "public/home-venue-preview.mjs",
+      "sha256": "3736ae7e7fe0dfef645b127b81510c5f0a910fd73b9d83b8313ddf87978764f3"
+    },
+    {
+      "path": "public/home.html",
+      "sha256": "b98595594a7f2871a4de76622aba55d88b096cc3cb2c3c05100b8858456673e1"
+    },
+    {
+      "path": "public/index.html",
+      "sha256": "12d834fa787781605635c6ca726231f3b37de726361eb9f48d72569acfefc0a6"
+    },
+    {
+      "path": "public/mockups/home-prototype.html",
+      "sha256": "2682987414fe009450272115744860b84a965e5b04c8951f479214723d384960"
+    },
+    {
+      "path": "public/mockups/home-venue-preview.mjs",
+      "sha256": "9df102ce76d73db595ef5ced780ef87e76045d57821687b35d82660e9abf53df"
+    },
+    {
+      "path": "public/viewer.mjs",
+      "sha256": "40e05df82aeb28ee48154a191e366fa72fc197ebb730688e5370e412b487f675"
+    },
+    {
+      "path": "server/app.mjs",
+      "sha256": "b0fd013db76aa4799712dbe0ea377204c9e7d798111564c4ae53dd96a3528445"
+    },
+    {
+      "path": "server/main.mjs",
+      "sha256": "67a39d6a6e90dac44f44bac6fa6f940f2a85fcb5de22787e13dfc78f00b05319"
+    },
+    {
+      "path": "public/concert-views/index.html",
+      "sha256": "6fd39ea6ddc1cb10a8682711bfa932b76b0398b8ccde6aaf76c7cddc087083b8"
+    },
+    {
+      "path": "public/concert-views/style.css",
+      "sha256": "195a7e645382d4614080d01884b67282cf312323e70c405049b7055712285965"
+    },
+    {
+      "path": "public/concert-views/app.mjs",
+      "sha256": "fd4a7166953c0ce9252dbe9a9a05afdfd88af39b9f4bce5c13f4ae1030442e72"
+    },
+    {
+      "path": "public/concert-views/local-project-research.mjs",
+      "sha256": "77c8bcc89bae1d937e5dc52962663bec515259a40a5e7f6154b60cf99536d781"
+    },
+    {
+      "path": "server/concert-views/index.mjs",
+      "sha256": "e3a2661df095ac21b6045535c07de011da25e6d74b3324c8b70be4af23bd031a"
+    },
+    {
+      "path": "tests/venue-view-entrypoints.test.mjs",
+      "sha256": "c5811095d8684e5d44b9316cfedf3364a97d605e6a50faae1ab4cf98a1a35bb1"
+    },
+    {
+      "path": "tests/venue-picker.test.mjs",
+      "sha256": "d3fd82ed082cd9faed28f89e06edcb3869d9e1a781e0f3a9c7cbe961440d2654"
+    }
+  ]
+}

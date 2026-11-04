@@ -1,0 +1,278 @@
+{
+  "id": "o2-jcole-20261102",
+  "venueId": "twcv-the-o2-arena-london",
+  "seatLayoutId": "o2a",
+  "seatAssetSha256": "3a004e0d19ba930622fc85e09cc124030360574cc3ed19116ffc616ee472aabe",
+  "actor": "Codex AI",
+  "source": {
+    "path": "data/research-events/o2-jcole-20261102/ticketmaster.png",
+    "url": "https://maps.ticketmaster.com/maps/geometry/3/event/35006434B3B72E9C/staticImage?type=png&systemId=HOST",
+    "sha256": "06d23030541c8089bc8b1735b3c6f085d840b07984445da8209df4865d835ed3",
+    "retrievedAt": "2026-11-01T06:12:51.094119+00:00",
+    "rights": "Public event evidence retained for local research only; redistribution permission undecided."
+  },
+  "eventSource": {
+    "path": "data/research-events/o2-jcole-20261102/official.html",
+    "url": "https://www.theo2.co.uk/events/detail/jcole-2026",
+    "sha256": "3c43fed076d0b9fedcf3190f9c7c0aeba158b5359c77d9b21958255ca6ca3990",
+    "retrievedAt": "2026-11-01T06:12:51.094119+00:00",
+    "rights": "Public event evidence retained for local research only; redistribution permission undecided."
+  },
+  "event": {
+    "name": "J. Cole — The Fall-Off Tour",
+    "dates": [
+      "2026-11-02"
+    ],
+    "provider": "ticketmaster",
+    "providerEventId": "35006434B3B72E9C",
+    "ticketUrl": "https://www.ticketmaster.co.uk/event/35006434B3B72E9C",
+    "timezone": "Europe/London",
+    "doorsTime": "18:30",
+    "bindingNote": "O2 official page confirms 2 Nov 2026; Live Nation event edp1653970 links to Ticketmaster 35006434B3B72E9C, whose public static map is retained. 18:30 is doors, not a verified performance start.",
+    "promoterSource": {
+      "path": "data/research-events/o2-jcole-20261102/livenation.html",
+      "url": "https://www.livenation.co.uk/event/j-cole-the-fall-off-tour-london-tickets-edp1653970",
+      "sha256": "c64267bfb56a821eab61ae9b351b86ebbf83e55c0c10b2e20a5e784c247185bb",
+      "retrievedAt": "2026-11-01T06:21:12.946487+00:00",
+      "rights": "Public event evidence retained for local research only; redistribution permission undecided."
+    }
+  },
+  "registration": {
+    "matrix": [
+      -0.0017588973982854278,
+      -0.17387325113178698,
+      0.17489951300985812,
+      -0.002009315849959087,
+      67.42199426583392,
+      -78.01409370511583
+    ],
+    "width": 1024,
+    "height": 768,
+    "rationale": "Nine lower-bowl section labels fit an approximate source-model affine transform; nine unused labels are retained for diagram comparison. No surveyed metric calibration.",
+    "displayMatrix": [
+      0,
+      -0.19431014235171756,
+      0.17836911714639583,
+      0,
+      74.18999172830775,
+      -80.1125246968175
+    ],
+    "displayFrame": "o2-continuous-bowl",
+    "displayFit": {
+      "count": 9,
+      "rms": 2.501519251539051,
+      "max": 4.397137815625341
+    },
+    "displayHoldout": {
+      "count": 9,
+      "rms": 2.5803330284496018,
+      "max": 3.6760429987799954
+    },
+    "anchors": [
+      {
+        "section": "101",
+        "pixel": [
+          341,
+          540
+        ],
+        "purpose": "fit"
+      },
+      {
+        "section": "102",
+        "pixel": [
+          451,
+          537
+        ],
+        "purpose": "comparison"
+      },
+      {
+        "section": "103",
+        "pixel": [
+          560,
+          533
+        ],
+        "purpose": "fit"
+      },
+      {
+        "section": "104",
+        "pixel": [
+          635,
+          548
+        ],
+        "purpose": "comparison"
+      },
+      {
+        "section": "105",
+        "pixel": [
+          670,
+          491
+        ],
+        "purpose": "fit"
+      },
+      {
+        "section": "106",
+        "pixel": [
+          696,
+          424
+        ],
+        "purpose": "comparison"
+      },
+      {
+        "section": "107",
+        "pixel": [
+          697,
+          357
+        ],
+        "purpose": "fit"
+      },
+      {
+        "section": "108",
+        "pixel": [
+          680,
+          287
+        ],
+        "purpose": "comparison"
+      },
+      {
+        "section": "109",
+        "pixel": [
+          650,
+          230
+        ],
+        "purpose": "fit"
+      },
+      {
+        "section": "110",
+        "pixel": [
+          565,
+          232
+        ],
+        "purpose": "comparison"
+      },
+      {
+        "section": "111",
+        "pixel": [
+          450,
+          237
+        ],
+        "purpose": "fit"
+      },
+      {
+        "section": "112",
+        "pixel": [
+          344,
+          236
+        ],
+        "purpose": "comparison"
+      },
+      {
+        "section": "113",
+        "pixel": [
+          256,
+          237
+        ],
+        "purpose": "fit"
+      },
+      {
+        "section": "114",
+        "pixel": [
+          194,
+          278
+        ],
+        "purpose": "comparison"
+      },
+      {
+        "section": "115",
+        "pixel": [
+          178,
+          333
+        ],
+        "purpose": "fit"
+      },
+      {
+        "section": "116",
+        "pixel": [
+          178,
+          411
+        ],
+        "purpose": "comparison"
+      },
+      {
+        "section": "117",
+        "pixel": [
+          193,
+          477
+        ],
+        "purpose": "fit"
+      },
+      {
+        "section": "118",
+        "pixel": [
+          244,
+          539
+        ],
+        "purpose": "comparison"
+      }
+    ],
+    "displayMethod": "axis-aligned-schematic-fit"
+  },
+  "shapes": [
+    {
+      "id": "stage",
+      "kind": "stage",
+      "label": "STAGE",
+      "color": "#879b92",
+      "height": 1.5,
+      "pixels": [
+        [
+          237,
+          322
+        ],
+        [
+          294,
+          322
+        ],
+        [
+          294,
+          445
+        ],
+        [
+          237,
+          445
+        ]
+      ]
+    },
+    {
+      "id": "general-admission",
+      "kind": "standing",
+      "label": "GENERAL ADMISSION",
+      "color": "#6e9fa2",
+      "height": 0.035,
+      "pixels": [
+        [
+          304,
+          310
+        ],
+        [
+          590,
+          310
+        ],
+        [
+          590,
+          459
+        ],
+        [
+          304,
+          459
+        ]
+      ]
+    }
+  ],
+  "notes": [
+    "Only this date and provider event are bound; other tour dates do not inherit this map.",
+    "GENERAL ADMISSION is a standing-area preview, supported by the event ticket information; no floor row/seat numbers or capacity are inferred.",
+    "Only the STAGE and GENERAL ADMISSION polygons are traced. Missing/grey map areas are not declared closed; exact event section availability is unknown.",
+    "Shape heights and pixel registration are estimates. Display transform targets the smooth O2 model separately from original source XYZ.",
+    "Display-only diagram uses axis-aligned registration; straight traced boundaries are simplified for legibility. Original source pixels and source-model polygons are retained unchanged. Label anchors are inside their own regions."
+  ]
+}

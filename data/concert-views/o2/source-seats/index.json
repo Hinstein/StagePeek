@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "venues": {
+    "twcv-the-o2-arena-london": {
+      "source": "https://twconcertview.com/3d/the-o2-arena-london",
+      "upstreamSource": "https://twconcertview.com/3d/the-o2-arena-london",
+      "provider": "twconcertview",
+      "assetSha256": "3a004e0d19ba930622fc85e09cc124030360574cc3ed19116ffc616ee472aabe",
+      "schema": "reference-xyz-14",
+      "defaultLayout": "o2a",
+      "rights": "Public page snapshot; commercial reuse permission not established.",
+      "layouts": [
+        {
+          "id": "o2a",
+          "label": "端舞台",
+          "count": 14389,
+          "sectionCount": 40
+        }
+      ],
+      "sectionOverlay": {
+        "path": "twcv-the-o2-arena-london-section-overlay.json",
+        "sha256": "7d476b2d16b531800b514fc5fdde1739bdae8c4382416a83eb8b094925384687",
+        "id": "o2-official-endstage-stands",
+        "sourceSha256": "ffb03c30d977c6e019ff1691d3e0322f0161f2edd4d1ef2ea245e0021100c462",
+        "status": "estimated-registration"
+      }
+    },
+    "twcv-accor-arena-paris": {
+      "source": "https://twconcertview.com/3d/accor-arena-paris",
+      "upstreamSource": "https://twconcertview.com/3d/accor-arena-paris",
+      "provider": "twconcertview",
+      "assetSha256": "d915f968e20006c2acb5e604b861ff5089e32a76cd177d28bf21e20daed3a05c",
+      "schema": "reference-xyz-14",
+      "defaultLayout": "acc",
+      "rights": "Public page snapshot; commercial reuse permission not established.",
+      "layouts": [
+        {
+          "id": "acc",
+          "label": "端舞台",
+          "count": 14493,
+          "sectionCount": 44
+        }
+      ]
+    },
+    "twcv-ziggo-dome-amsterdam": {
+      "source": "https://twconcertview.com/3d/ziggo-dome-amsterdam",
+      "upstreamSource": "https://twconcertview.com/3d/ziggo-dome-amsterdam",
+      "provider": "twconcertview",
+      "assetSha256": "1be7f0c889a373d73c656c5ee1c5c9ef6090aa89e9746c904d9baccfb4c0eae0",
+      "schema": "reference-xyz-14",
+      "defaultLayout": "zgd",
+      "rights": "Public page snapshot; commercial reuse permission not established.",
+      "layouts": [
+        {
+          "id": "zgd",
+          "label": "端舞台",
+          "count": 10093,
+          "sectionCount": 26
+        }
+      ]
+    },
+    "twcv-uber-arena-berlin": {
+      "source": "https://twconcertview.com/3d/uber-arena-berlin",
+      "upstreamSource": "https://twconcertview.com/3d/uber-arena-berlin",
+      "provider": "twconcertview",
+      "assetSha256": "00997082ef8d8c46f9c5af3a600888b984cdc4f616d74d6dc305b48f806cf0e9",
+      "schema": "reference-xyz-14",
+      "defaultLayout": "uba",
+      "rights": "Public page snapshot; commercial reuse permission not established.",
+      "layouts": [
+        {
+          "id": "uba",
+          "label": "端舞台",
+          "count": 11256,
+          "sectionCount": 45
+        }
+      ],
+      "sectionOverlay": {
+        "path": "twcv-uber-arena-berlin-section-overlay.json",
+        "sha256": "8e63ab90e07f67e9d8ace5f5737ce44dd7c4b106a47932245364fadb347fac9d",
+        "id": "uber-arena-official-centrestage-standing",
+        "sourceSha256": "af1091398eff2793a2b82aa72914e2bd1acaaa6e47995b7fe248581950b7efa2",
+        "status": "estimated-registration"
+      }
+    },
+    "twcv-kia-forum-los-angeles": {
+      "source": "https://twconcertview.com/3d/kia-forum-los-angeles",
+      "upstreamSource": "https://twconcertview.com/3d/kia-forum-los-angeles",
+      "provider": "twconcertview",
+      "assetSha256": "b49354a1bec93c3b2a978086dec750ad40625687d8c17072523a30df74820456",
+      "schema": "reference-xyz-14",
+      "defaultLayout": "kfo",
+      "rights": "Public page snapshot; commercial reuse permission not established.",
+      "layouts": [
+        {
+          "id": "kfo",
+          "label": "端舞台",
+          "count": 13869,
+          "sectionCount": 86
+        }
+      ]
+    },
+    "twcv-united-center-chicago": {
+      "source": "https://twconcertview.com/3d/united-center-chicago",
+      "upstreamSource": "https://twconcertview.com/3d/united-center-chicago",
+      "provider": "twconcertview",
+      "assetSha256": "9a9cf4eb67cce1378f98f4c36ea197b201f52877c20c17d9175a5614e7cc41cb",
+      "schema": "reference-xyz-14",
+      "defaultLayout": "unc",
+      "rights": "Public page snapshot; commercial reuse permission not established.",
+      "layouts": [
+        {
+          "id": "unc",
+          "label": "端舞台",
+          "count": 17335,
+          "sectionCount": 90
+        }
+      ]
+    },
+    "twcv-ubs-arena-new-york": {
+      "source": "https://twconcertview.com/3d/ubs-arena-new-york",
+      "upstreamSource": "https://twconcertview.com/3d/ubs-arena-new-york",
+      "provider": "twconcertview",
+      "assetSha256": "837258b7a4f21e6bbecf2478064189ac82125eaa87cc396b22d0492ab2f17825",
+      "schema": "reference-xyz-14",
+      "defaultLayout": "ubs",
+      "rights": "Public page snapshot; commercial reuse permission not established.",
+      "layouts": [
+        {
+          "id": "ubs",
+          "label": "端舞台",
+          "count": 14429,
+          "sectionCount": 77
+        }
+      ]
+    },
+    "twcv-prudential-center-newark": {
+      "source": "https://twconcertview.com/3d/prudential-center-newark",
+      "upstreamSource": "https://twconcertview.com/3d/prudential-center-newark",
+      "provider": "twconcertview",
+      "assetSha256": "fcbc2092d5f12072cb494e9bc2edc6b5092fe9edb10fe3f365db6f2234a49a3c",
+      "schema": "reference-xyz-14",
+      "defaultLayout": "pru",
+      "rights": "Public page snapshot; commercial reuse permission not established.",
+      "layouts": [
+        {
+          "id": "pru",
+          "label": "端舞台",
+          "count": 14979,
+          "sectionCount": 74
+        }
+      ]
+    },
+    "twcv-state-farm-arena-atlanta": {
+      "source": "https://twconcertview.com/3d/state-farm-arena-atlanta",
+      "upstreamSource": "https://twconcertview.com/3d/state-farm-arena-atlanta",
+      "provider": "twconcertview",
+      "assetSha256": "be7d963d5e1c05c62d0a3a2b45dd5288ad1128aae1b9eaf61bbe5386551254d7",
+      "schema": "reference-xyz-14",
+      "defaultLayout": "sfa",
+      "rights": "Public page snapshot; commercial reuse permission not established.",
+      "layouts": [
+        {
+          "id": "sfa",
+          "label": "端舞台",
+          "count": 13700,
+          "sectionCount": 52
+        }
+      ]
+    }
+  }
+}

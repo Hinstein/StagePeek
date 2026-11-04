@@ -1,0 +1,10 @@
+/* Hydro supplies scene content inside the same page and view components. */
+.hydro-page-adapter,.hydro-panel{display:contents}
+.hydro-board text{fill:var(--venue-label);stroke:var(--venue-labelOutline);stroke-width:.18;paint-order:stroke;letter-spacing:0;text-anchor:middle;dominant-baseline:central;pointer-events:none;font-weight:650}
+.hydro-board path[role=button],.hydro-board circle[data-hydro-inferred],.hydro-board circle[data-hydro-reference],.hydro-board circle[data-hydro-chair]{cursor:pointer}
+.hydro-board path[role=button]:focus{stroke:var(--venue-reference);stroke-width:1;outline:none}
+.hydro-board circle:focus{stroke:#fff;stroke-width:.2;outline:none}
+.hydro-board text.hydro-seat-number{stroke-width:.045}
+.hydro-sources img{display:block;max-width:100%;height:auto}
+.hydro-sources label{display:grid;gap:8px;margin:16px 0}
+.hydro-sources a{font-size:12px;margin-right:12px}

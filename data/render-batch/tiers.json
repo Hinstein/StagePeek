@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "status": "local-research-v0",
+  "publicationStatus": "not-published",
+  "rightsStatus": "undecided",
+  "generatedFrom": "var/seat-cloud/report.json",
+  "venues": {
+    "twcv-the-o2-arena-london": {
+      "venueId": "twcv-the-o2-arena-london",
+      "layout": "o2a",
+      "sourceSeatCount": 14389,
+      "sourceLevels": [
+        "L1",
+        "L4"
+      ],
+      "levels": [
+        {
+          "sourceLevels": [
+            "L1"
+          ],
+          "tier": 0
+        },
+        {
+          "sourceLevels": [
+            "L4"
+          ],
+          "tier": 1
+        }
+      ],
+      "shape": "oval",
+      "power": 1,
+      "floor": [
+        36.98,
+        89.76
+      ],
+      "sourceBounds": [
+        124.42,
+        154.42
+      ],
+      "coordinateSystem": "profile-inner-radius",
+      "tiers": [
+        [
+          18.49,
+          44.88,
+          0.29,
+          13.67,
+          8.2
+        ],
+        [
+          43.89,
+          50.09,
+          17.96,
+          14.94,
+          11.1
+        ]
+      ],
+      "steps": [
+        16,
+        18
+      ],
+      "fit": [
+        {
+          "level": "L1",
+          "rms": 4.04,
+          "depthPerRow": 0.83
+        },
+        {
+          "level": "L4",
+          "rms": 3.8,
+          "depthPerRow": 0.82
+        }
+      ],
+      "stage": {
+        "layout": "end",
+        "rect": {
+          "x": 0,
+          "z": -34.86,
+          "w": 26,
+          "d": 16,
+          "h": 1.9,
+          "source": "derived-reference-position",
+          "label": "示意舞台"
+        }
+      },
+      "annotations": [
+        "示意舞台",
+        "本地研究 v0 · 数据未发布",
+        "来源坐标 · 未校准，不代表实测"
+      ]
+    }
+  }
+}

@@ -11,7 +11,7 @@ export const DEFAULT_LOCALE='en';
 export const SUPPORTED_LOCALES=['en','zh-CN','zh-TW','ja','ko'];
 const resources=Object.freeze({en,'zh-CN':zhCN,'zh-TW':zhTW,ja,ko});
 const prefixes=new Map(SUPPORTED_LOCALES.filter(locale=>locale!=='en').map(locale=>[locale.toLowerCase(),locale]));
-const explorerParams=new Set(['venue','event','layout','section','row','seat','mode','zoom','depth','lateral','standing','date','panel','data']);
+const explorerParams=new Set(['venue','event','layout','section','row','seat','mode','zoom','depth','lateral','standing','date','panel','data','preview','sourceView','hydroCamera','hydroPhone','hydroRoof','hydroFloor','hydroTier','hydroMapRotation']);
 
 export function parseLocalizedPath(path){
   const match=path.match(/^\/([^/]+)(\/.*)?$/);

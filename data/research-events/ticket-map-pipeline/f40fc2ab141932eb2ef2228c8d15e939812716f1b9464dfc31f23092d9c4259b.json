@@ -1,0 +1,1005 @@
+{
+  "schemaVersion": 1,
+  "id": "unc-katseye-20261105",
+  "status": "research-preview",
+  "publicationStatus": "not-published",
+  "event": {
+    "name": "KATSEYE · The Wildworld Tour",
+    "dates": [
+      "2026-11-05"
+    ],
+    "bindingNote": "Official United Center page title/description and visible event date November 5, 2026 verified; primary concert Buy Tickets ID 040064ABAC947B12, excluding pre-show party and parking links. Source is browser-rendered DOM."
+  },
+  "venueId": "twcv-united-center-chicago",
+  "seatLayoutId": "unc",
+  "source": {
+    "url": "https://maps.ticketmaster.com/maps/geometry/3/event/040064ABAC947B12/staticImage?type=png&systemId=HOST",
+    "sha256": "22f643b793ec1dd1ddad6d785b2e0758c278a58c901e2a4d67e353524c2f01a2",
+    "retrievedAt": "2026-10-28T05:31:59.558343+00:00",
+    "path": "data/research-events/chicago-event-source-2026-10-28/unc-katseye.png",
+    "rights": "Public Ticketmaster image retained for local research; commercial redistribution permission not established.",
+    "bytes": 211892
+  },
+  "eventSource": {
+    "url": "https://www.unitedcenter.com/events/2026/11/05/katseye-the-wildworld-tour/",
+    "sha256": "ee901da4c576684bcb23defa099eb233474210a9961ccbabe3211c94871d2c25",
+    "retrievedAt": "2026-10-28T05:30:42.062Z",
+    "path": "data/research-events/chicago-event-source-2026-10-28/unc-katseye-rendered.html",
+    "kind": "browser-rendered-document",
+    "rights": "Official venue page captured as rendered DOM via normal Ego navigation; not a raw HTTP response.",
+    "bytes": 88373,
+    "redaction": "Embedded third-party access credentials removed before repository publication."
+  },
+  "registration": {
+    "matrix": [
+      0.0001650326352307401,
+      -0.1650880901317452,
+      0.16529902149374714,
+      0.00020402397084049446,
+      64.5221566210027,
+      -84.83138325287089
+    ],
+    "width": 1024,
+    "height": 768,
+    "rationale": "28 fit and 28 separate same-map label comparisons; pixel positions include recorded small per-map offsets. Approximate mapping to unchanged third-party seat centroids, not physical calibration. See docs/audits/chicago-events-2026-10-28/registration.json.",
+    "coordinateFrame": "source-model-units",
+    "metricCalibrated": false,
+    "independentHoldoutPassed": false,
+    "allowDistances": false,
+    "allowPublication": false
+  },
+  "fixedSeats": {
+    "policy": "reuse-verbatim",
+    "count": 17335,
+    "assetSha256": "9a9cf4eb67cce1378f98f4c36ea197b201f52877c20c17d9175a5614e7cc41cb",
+    "identityPositionSha256": "d75d53a8dc5c63c693cc90862d2eb904a0320e625ad3323021957a863b6458b6"
+  },
+  "stage": [
+    {
+      "id": "stage",
+      "label": "STAGE",
+      "kind": "stage",
+      "pixels": [
+        [
+          320,
+          338
+        ],
+        [
+          389,
+          338
+        ],
+        [
+          389,
+          378
+        ],
+        [
+          462,
+          378
+        ],
+        [
+          462,
+          360
+        ],
+        [
+          498,
+          360
+        ],
+        [
+          498,
+          426
+        ],
+        [
+          462,
+          426
+        ],
+        [
+          462,
+          421
+        ],
+        [
+          462,
+          408
+        ],
+        [
+          461,
+          407
+        ],
+        [
+          390,
+          407
+        ],
+        [
+          389,
+          408
+        ],
+        [
+          389,
+          447
+        ],
+        [
+          301,
+          447
+        ],
+        [
+          301,
+          338
+        ]
+      ],
+      "holes": [],
+      "color": "#e8793f",
+      "height": 2,
+      "polygon": [
+        [
+          8.775192599746653,
+          -31.86673627272772
+        ],
+        [
+          8.786579851577578,
+          -20.461103789659163
+        ],
+        [
+          2.183056246307771,
+          -20.45294283082555
+        ],
+        [
+          2.195103628679611,
+          -8.386114261782012
+        ],
+        [
+          5.166689251051025,
+          -8.389786693257136
+        ],
+        [
+          5.172630425919337,
+          -2.4390219194822294
+        ],
+        [
+          -5.723183522775841,
+          -2.4255563374067606
+        ],
+        [
+          -5.729124697644153,
+          -8.376321111181667
+        ],
+        [
+          -4.903684246985435,
+          -8.37734123103587
+        ],
+        [
+          -2.7575390752727458,
+          -8.379993542656791
+        ],
+        [
+          -2.5926160177762227,
+          -8.545496588121367
+        ],
+        [
+          -2.6043333348776088,
+          -20.281727114177414
+        ],
+        [
+          -2.7695864576445928,
+          -20.446822111700328
+        ],
+        [
+          -9.20802197278266,
+          -20.438865176837552
+        ],
+        [
+          -9.222544844682957,
+          -34.9851790682873
+        ],
+        [
+          8.772056979677274,
+          -35.00741768110891
+        ]
+      ],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    }
+  ],
+  "zones": [
+    {
+      "id": "1",
+      "label": "1",
+      "kind": "price-zone",
+      "pixels": [
+        [
+          436,
+          464
+        ],
+        [
+          408,
+          464
+        ],
+        [
+          408,
+          415
+        ],
+        [
+          455,
+          415
+        ],
+        [
+          455,
+          434
+        ],
+        [
+          456,
+          435
+        ],
+        [
+          515,
+          435
+        ],
+        [
+          515,
+          418
+        ],
+        [
+          563,
+          418
+        ],
+        [
+          563,
+          464
+        ]
+      ],
+      "holes": [],
+      "color": "#76a9cf",
+      "height": 0.45,
+      "polygon": [
+        [
+          -12.006762971166467,
+          -12.666342759127147
+        ],
+        [
+          -12.011383884952934,
+          -17.29471536095207
+        ],
+        [
+          -3.922067468497417,
+          -17.30471253552325
+        ],
+        [
+          -3.9143109346415628,
+          -9.535658525317146
+        ],
+        [
+          -7.05098464714473,
+          -9.53178206987117
+        ],
+        [
+          -7.215907704641253,
+          -9.36627902440658
+        ],
+        [
+          -7.206170779162633,
+          0.38636324372450304
+        ],
+        [
+          -4.3996732469229585,
+          0.3828948362202169
+        ],
+        [
+          -4.391751680431895,
+          8.317247867920074
+        ],
+        [
+          -11.985803826492173,
+          8.326632970578729
+        ]
+      ],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "2",
+      "label": "2",
+      "kind": "price-zone",
+      "pixels": [
+        [
+          515,
+          401
+        ],
+        [
+          515,
+          369
+        ],
+        [
+          563,
+          369
+        ],
+        [
+          563,
+          384
+        ],
+        [
+          563,
+          416
+        ],
+        [
+          515,
+          416
+        ]
+      ],
+      "holes": [],
+      "color": "#76a9cf",
+      "height": 0.45,
+      "polygon": [
+        [
+          -1.5931757146832979,
+          0.3794264287159308
+        ],
+        [
+          3.6896431695325447,
+          0.37289766164903426
+        ],
+        [
+          3.6975647360236223,
+          8.307250693348891
+        ],
+        [
+          1.2212433840474475,
+          8.310311052911487
+        ],
+        [
+          -4.061575500168402,
+          8.316839819978384
+        ],
+        [
+          -4.069497066659466,
+          0.382486788278527
+        ]
+      ],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "3",
+      "label": "3",
+      "kind": "price-zone",
+      "pixels": [
+        [
+          408,
+          336
+        ],
+        [
+          408,
+          320
+        ],
+        [
+          563,
+          321
+        ],
+        [
+          563,
+          368
+        ],
+        [
+          559,
+          368
+        ],
+        [
+          515,
+          368
+        ],
+        [
+          515,
+          351
+        ],
+        [
+          456,
+          351
+        ],
+        [
+          455,
+          352
+        ],
+        [
+          455,
+          371
+        ],
+        [
+          408,
+          371
+        ]
+      ],
+      "holes": [],
+      "color": "#76a9cf",
+      "height": 0.45,
+      "polygon": [
+        [
+          9.11989165191045,
+          -17.320830429219654
+        ],
+        [
+          11.761301094018371,
+          -17.324094812753103
+        ],
+        [
+          11.621793062347393,
+          8.297457542748546
+        ],
+        [
+          3.8626528261553688,
+          8.307046669378039
+        ],
+        [
+          3.861992695614447,
+          7.64585058340306
+        ],
+        [
+          3.854731259664291,
+          0.3726936376781822
+        ],
+        [
+          6.661228791903959,
+          0.3692252301738961
+        ],
+        [
+          6.651491866425346,
+          -9.383417037957187
+        ],
+        [
+          6.486238743658369,
+          -9.548512035480101
+        ],
+        [
+          3.3495650311552154,
+          -9.544635580034125
+        ],
+        [
+          3.3418084972993682,
+          -17.31368959024023
+        ]
+      ],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "4",
+      "label": "4",
+      "kind": "price-zone",
+      "pixels": [
+        [
+          581,
+          464
+        ],
+        [
+          565,
+          464
+        ],
+        [
+          565,
+          418
+        ],
+        [
+          609,
+          418
+        ],
+        [
+          625,
+          418
+        ],
+        [
+          625,
+          464
+        ]
+      ],
+      "holes": [],
+      "color": "#76a9cf",
+      "height": 0.45,
+      "polygon": [
+        [
+          -11.98283323905801,
+          11.302015357466189
+        ],
+        [
+          -11.985473761221712,
+          8.657231013566232
+        ],
+        [
+          -4.391421615161434,
+          8.647845910907577
+        ],
+        [
+          -4.384160179211278,
+          15.921002856632455
+        ],
+        [
+          -4.381519657047576,
+          18.565787200532398
+        ],
+        [
+          -11.975571803107854,
+          18.575172303191053
+        ]
+      ],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "5",
+      "label": "5",
+      "kind": "price-zone",
+      "pixels": [
+        [
+          565,
+          401
+        ],
+        [
+          565,
+          369
+        ],
+        [
+          625,
+          369
+        ],
+        [
+          625,
+          384
+        ],
+        [
+          625,
+          416
+        ],
+        [
+          565,
+          416
+        ]
+      ],
+      "holes": [],
+      "color": "#76a9cf",
+      "height": 0.45,
+      "polygon": [
+        [
+          -1.5849240829217734,
+          8.644377503403291
+        ],
+        [
+          3.6978948012940833,
+          8.637848736336394
+        ],
+        [
+          3.707796759407927,
+          18.555790025961215
+        ],
+        [
+          1.231475407431752,
+          18.55885038552381
+        ],
+        [
+          -4.0513434767840835,
+          18.565379152590708
+        ],
+        [
+          -4.061245434897941,
+          8.647437862965887
+        ]
+      ],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "6",
+      "label": "6",
+      "kind": "price-zone",
+      "pixels": [
+        [
+          580,
+          321
+        ],
+        [
+          625,
+          321
+        ],
+        [
+          625,
+          367
+        ],
+        [
+          624,
+          368
+        ],
+        [
+          610,
+          368
+        ],
+        [
+          565,
+          368
+        ],
+        [
+          565,
+          321
+        ]
+      ],
+      "holes": [],
+      "color": "#76a9cf",
+      "height": 0.45,
+      "polygon": [
+        [
+          11.624598617146319,
+          11.107540908142255
+        ],
+        [
+          11.632025085731698,
+          18.54599687536087
+        ],
+        [
+          4.03797293967142,
+          18.555381978019525
+        ],
+        [
+          3.872719816904443,
+          18.390286980496626
+        ],
+        [
+          3.870409360011216,
+          16.076100679584158
+        ],
+        [
+          3.8629828914258297,
+          8.637644712365542
+        ],
+        [
+          11.622123127617854,
+          8.62805558573605
+        ]
+      ],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "7",
+      "label": "7",
+      "kind": "price-zone",
+      "pixels": [
+        [
+          641,
+          464
+        ],
+        [
+          626,
+          464
+        ],
+        [
+          626,
+          423
+        ],
+        [
+          665,
+          423
+        ],
+        [
+          680,
+          423
+        ],
+        [
+          680,
+          447
+        ],
+        [
+          677,
+          448
+        ],
+        [
+          670,
+          456
+        ],
+        [
+          668,
+          456
+        ],
+        [
+          661,
+          464
+        ]
+      ],
+      "holes": [],
+      "color": "#76a9cf",
+      "height": 0.45,
+      "polygon": [
+        [
+          -11.972931280944167,
+          21.21995664709101
+        ],
+        [
+          -11.975406770472631,
+          18.740471324684805
+        ],
+        [
+          -5.206795075071085,
+          18.732106341880353
+        ],
+        [
+          -5.200358802297089,
+          25.178768180136487
+        ],
+        [
+          -5.197883312768624,
+          27.658253502542706
+        ],
+        [
+          -9.15999747593051,
+          27.66315007784287
+        ],
+        [
+          -9.325580663967955,
+          27.16745703733247
+        ],
+        [
+          -10.647440613468518,
+          26.011996078642966
+        ],
+        [
+          -10.64777067873898,
+          25.681398035655462
+        ],
+        [
+          -11.969630628239557,
+          24.52593707696596
+        ]
+      ],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "8",
+      "label": "8",
+      "kind": "price-zone",
+      "pixels": [
+        [
+          626,
+          401
+        ],
+        [
+          626,
+          363
+        ],
+        [
+          643,
+          363
+        ],
+        [
+          643,
+          384
+        ],
+        [
+          643,
+          422
+        ],
+        [
+          626,
+          422
+        ]
+      ],
+      "holes": [],
+      "color": "#76a9cf",
+      "height": 0.45,
+      "polygon": [
+        [
+          -1.5748570921726923,
+          18.727617814521864
+        ],
+        [
+          4.698490332833629,
+          18.71986490362991
+        ],
+        [
+          4.701295887632554,
+          21.52994826902362
+        ],
+        [
+          1.234445994865908,
+          21.534232772411272
+        ],
+        [
+          -5.038901430140413,
+          21.54198568330321
+        ],
+        [
+          -5.0417069849393386,
+          18.7319023179095
+        ]
+      ],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "9",
+      "label": "9",
+      "kind": "price-zone",
+      "pixels": [
+        [
+          626,
+          336
+        ],
+        [
+          626,
+          320
+        ],
+        [
+          660,
+          320
+        ],
+        [
+          680,
+          340
+        ],
+        [
+          680,
+          345
+        ],
+        [
+          680,
+          361
+        ],
+        [
+          626,
+          361
+        ]
+      ],
+      "holes": [],
+      "color": "#76a9cf",
+      "height": 0.45,
+      "polygon": [
+        [
+          9.155868766390753,
+          18.71435625641722
+        ],
+        [
+          11.797278208498675,
+          18.71109187288377
+        ],
+        [
+          11.802889318096518,
+          24.331258603671174
+        ],
+        [
+          8.504428168166228,
+          27.641319512962937
+        ],
+        [
+          7.678987717507503,
+          27.64233963281714
+        ],
+        [
+          5.037578275399582,
+          27.64560401635059
+        ],
+        [
+          5.0286665130971215,
+          18.719456855688236
+        ]
+      ],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    }
+  ],
+  "equipment": [
+    {
+      "id": "mix",
+      "label": "MIX",
+      "kind": "equipment",
+      "pixels": [
+        [
+          660,
+          371
+        ],
+        [
+          693,
+          371
+        ],
+        [
+          693,
+          414
+        ],
+        [
+          692,
+          415
+        ],
+        [
+          678,
+          415
+        ],
+        [
+          646,
+          415
+        ],
+        [
+          645,
+          414
+        ],
+        [
+          645,
+          371
+        ]
+      ],
+      "holes": [],
+      "color": "#8b959d",
+      "height": 0.45,
+      "polygon": [
+        [
+          3.3833967213775153,
+          24.341663826184046
+        ],
+        [
+          3.3888427983401357,
+          29.796531535477698
+        ],
+        [
+          -3.709945077324903,
+          29.80530456622384
+        ],
+        [
+          -3.875198200091887,
+          29.64020956870094
+        ],
+        [
+          -3.877508656985114,
+          27.32602326778847
+        ],
+        [
+          -3.882789701312504,
+          22.036454579988572
+        ],
+        [
+          -3.717866643815981,
+          21.870951534523982
+        ],
+        [
+          3.380921231849058,
+          21.86217850377784
+        ]
+      ],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    }
+  ],
+  "temporarySeats": [],
+  "closedSections": null,
+  "audit": {
+    "finiteCoordinates": true,
+    "simplePolygons": true,
+    "modelEnvelopeOutsideVertices": [],
+    "seatEnvelopeConflicts": [],
+    "metricCalibrated": false,
+    "independentHoldoutPassed": false,
+    "blockers": [
+      "图中缺少独立区号／尺度锚点，配准尚未核实",
+      "固定看台票号沿用第三方来源，未整体独立认证"
+    ],
+    "scope": "Checks use the source-seat-derived rectangular model envelope, not an independently surveyed building boundary."
+  },
+  "notes": [
+    "Fixed source seats reused verbatim; source units are not independently measured metres.",
+    "Numbered floor zones are regions only, with no inferred seat counts or identities; only PIT labels classified as standing.",
+    "No closures inferred from stage position or map colours. Unlabelled fixtures remain in original image.",
+    "Sombr separate B STAGE and two MIX positions retained; Katseye/XG thrust and bent stage boundaries retained, not replaced with rectangles."
+  ],
+  "recipeSha256": "8e7e0aa7f89620c0a6b2b5d27ca287529087397649361eddd7094fdc5fb3adcc"
+}

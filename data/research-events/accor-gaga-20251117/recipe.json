@@ -1,0 +1,362 @@
+{
+  "id": "accor-gaga-20251117",
+  "venueId": "twcv-accor-arena-paris",
+  "seatLayoutId": "acc",
+  "seatAssetSha256": "d915f968e20006c2acb5e604b861ff5089e32a76cd177d28bf21e20daed3a05c",
+  "actor": "Codex AI",
+  "source": {
+    "path": "data/research-events/accor-gaga-20251117/ticket-map.jpeg",
+    "url": "https://www.reddit.com/r/LadyGaga/comments/1ncuejw/paris_show_map_how_big_is_the_golden_circle/",
+    "sha256": "2538383d2d245be77867794d3ff5cf660c8a9d87ca30df7aaf1a77ca4fe20616",
+    "retrievedAt": "2026-11-03T05:35:48.970Z",
+    "rights": "Retained for local research only; redistribution undecided."
+  },
+  "eventSource": {
+    "path": "data/research-events/accor-gaga-20251117/official.html",
+    "url": "https://www.accorarena.com/en/events-and-tickets/lady-gaga--88d1b",
+    "sha256": "2d52125232306a2d96ffab6499165561ee3ce515cf85f97e68edd1fe3ea8cef8",
+    "retrievedAt": "2026-11-03T05:35:48.970Z",
+    "rights": "Retained for local research only; redistribution undecided."
+  },
+  "event": {
+    "name": "Lady Gaga — The MAYHEM Ball",
+    "dates": [
+      "2025-11-17",
+      "2025-11-18",
+      "2025-11-20",
+      "2025-11-22"
+    ],
+    "timezone": "Europe/Paris",
+    "bindingNote": "Official Accor page confirms these four historical dates. Secondary audience-shared Ticketmaster screenshot describes the Paris layout; it is not independently authenticated or a current sale map."
+  },
+  "registration": {
+    "matrix": [
+      -0.12352615718731708,
+      0.08538777384353702,
+      -0.0943104684836731,
+      -0.14512288476265914,
+      41.98686950177109,
+      140.2911256686612
+    ],
+    "anchors": [
+      {
+        "section": "A",
+        "pixel": [
+          464,
+          281
+        ],
+        "purpose": "comparison"
+      },
+      {
+        "section": "U",
+        "pixel": [
+          548,
+          230
+        ],
+        "purpose": "fit"
+      },
+      {
+        "section": "T",
+        "pixel": [
+          658,
+          282
+        ],
+        "purpose": "fit"
+      },
+      {
+        "section": "B",
+        "pixel": [
+          500,
+          386
+        ],
+        "purpose": "fit"
+      },
+      {
+        "section": "C",
+        "pixel": [
+          484,
+          457
+        ],
+        "purpose": "comparison"
+      },
+      {
+        "section": "D",
+        "pixel": [
+          488,
+          514
+        ],
+        "purpose": "fit"
+      },
+      {
+        "section": "E",
+        "pixel": [
+          527,
+          568
+        ],
+        "purpose": "comparison"
+      },
+      {
+        "section": "F",
+        "pixel": [
+          568,
+          620
+        ],
+        "purpose": "fit"
+      },
+      {
+        "section": "G",
+        "pixel": [
+          617,
+          700
+        ],
+        "purpose": "comparison"
+      },
+      {
+        "section": "H",
+        "pixel": [
+          671,
+          768
+        ],
+        "purpose": "fit"
+      },
+      {
+        "section": "I",
+        "pixel": [
+          728,
+          785
+        ],
+        "purpose": "comparison"
+      },
+      {
+        "section": "J",
+        "pixel": [
+          846,
+          767
+        ],
+        "purpose": "comparison"
+      },
+      {
+        "section": "K",
+        "pixel": [
+          909,
+          703
+        ],
+        "purpose": "fit"
+      },
+      {
+        "section": "M",
+        "pixel": [
+          944,
+          575
+        ],
+        "purpose": "comparison"
+      },
+      {
+        "section": "N",
+        "pixel": [
+          915,
+          520
+        ],
+        "purpose": "fit"
+      },
+      {
+        "section": "O",
+        "pixel": [
+          867,
+          454
+        ],
+        "purpose": "comparison"
+      },
+      {
+        "section": "P",
+        "pixel": [
+          815,
+          392
+        ],
+        "purpose": "fit"
+      }
+    ],
+    "width": 1258,
+    "height": 1264,
+    "rationale": "AI-selected section-label anchors in an oblique ticket-map screenshot fitted to retained section centres. Approximate source units; 6.8-unit fit RMS. Not a measured registration."
+  },
+  "shapes": [
+    {
+      "id": "stage",
+      "label": "STAGE / RUNWAY",
+      "kind": "stage",
+      "color": "#ad8d4d",
+      "height": 1.5,
+      "pixels": [
+        [
+          694,
+          550
+        ],
+        [
+          718,
+          536
+        ],
+        [
+          766,
+          604
+        ],
+        [
+          797,
+          586
+        ],
+        [
+          823,
+          628
+        ],
+        [
+          762,
+          669
+        ],
+        [
+          738,
+          628
+        ],
+        [
+          745,
+          624
+        ]
+      ]
+    },
+    {
+      "id": "gold-left",
+      "label": "FOSSE OR GAUCHE",
+      "kind": "standing",
+      "color": "#806aa9",
+      "height": 0.035,
+      "pixels": [
+        [
+          674,
+          575
+        ],
+        [
+          696,
+          563
+        ],
+        [
+          738,
+          624
+        ],
+        [
+          711,
+          642
+        ]
+      ]
+    },
+    {
+      "id": "gold-right",
+      "label": "FOSSE OR DROITE",
+      "kind": "standing",
+      "color": "#806aa9",
+      "height": 0.035,
+      "pixels": [
+        [
+          749,
+          554
+        ],
+        [
+          787,
+          535
+        ],
+        [
+          815,
+          580
+        ],
+        [
+          776,
+          606
+        ]
+      ]
+    },
+    {
+      "id": "general-floor",
+      "label": "FOSSE",
+      "kind": "standing",
+      "color": "#546a8e",
+      "height": 0.035,
+      "pixels": [
+        [
+          578,
+          474
+        ],
+        [
+          594,
+          458
+        ],
+        [
+          611,
+          463
+        ],
+        [
+          658,
+          433
+        ],
+        [
+          664,
+          410
+        ],
+        [
+          689,
+          408
+        ],
+        [
+          695,
+          439
+        ],
+        [
+          713,
+          451
+        ],
+        [
+          731,
+          488
+        ],
+        [
+          749,
+          532
+        ],
+        [
+          717,
+          548
+        ],
+        [
+          694,
+          541
+        ],
+        [
+          669,
+          561
+        ],
+        [
+          681,
+          578
+        ],
+        [
+          710,
+          643
+        ],
+        [
+          685,
+          659
+        ],
+        [
+          643,
+          584
+        ],
+        [
+          609,
+          520
+        ]
+      ]
+    }
+  ],
+  "notes": [
+    "Historical concert preview. The source image contains audience markup; red annotations are excluded from geometry.",
+    "The floor is standing; no floor ticket numbers or chairs are invented. Stage height and performer are illustrative.",
+    "Fixed source seats are retained unchanged. Actual concert closures and capacity are unknown."
+  ]
+}

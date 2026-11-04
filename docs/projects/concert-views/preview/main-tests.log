@@ -1,0 +1,476 @@
+
+> stagepeek@0.1.0 test
+> node --test tests/*.test.mjs
+
+✔ guest, free, paid, cancel-at-period-end and expired access is enforced from stored subscription (6.4865ms)
+✔ free venue policy is persisted and admin changes require exactly ten existing ids (0.942458ms)
+✔ a new account renders its empty favorites and return action (0.96375ms)
+✔ account shows actual free entitlements and no invented subscription (0.673417ms)
+✔ active, trial and cancelled-renewal Pro memberships explain their period (11.627334ms)
+✔ historical or delinquent subscriptions never grant or display Pro membership (0.238958ms)
+✔ missing or invalid billing period never becomes a fake renewal date (0.111542ms)
+✔ analytics is optional and restricted to a configured anonymous production landing (1.004875ms)
+✔ tracker respects privacy controls and sends only the fixed public page payload (6.758458ms)
+✔ anonymous public guide analytics uses only approved page paths (0.18075ms)
+✔ events are bounded, omit private values and stop after sign-in or URL changes (3.561042ms)
+✔ localized analytics accepts only fixed public routes and still excludes ticket and auth pages (0.168875ms)
+✔ late old-layout resolve cannot replace a newly loaded layout selection (61.096375ms)
+✔ a later map section selection wins over an outstanding seat resolve (0.136792ms)
+✔ a later synthetic seat selection wins over an outstanding seat resolve (0.136917ms)
+✔ unknown deep-link section stays unknown instead of matching a default ticket (41.862333ms)
+✔ deep-link section aliases retain the exact requested ticket label (0.150542ms)
+✔ unavailable deep-link layout reports failure without loading another variant (12.702541ms)
+✔ locating a ticket on another tier also reveals that tier in the 2D map (0.179166ms)
+✔ an upper-tier deep link reveals the requested tier before a seat is entered (0.090375ms)
+✔ a locked initial venue reports its requested identity and never claims another venue loaded (0.8475ms)
+✔ automatic example matches do not count as intentional seat location (180.131375ms)
+✔ The Weeknd recent-six-month import contains the complete official-window candidate set (2.018334ms)
+✔ venue references distinguish public seat-map evidence from event-specific geometry (0.170417ms)
+✔ registration sends password to signup before consuming signup OTP, never OTP-create-user (13.155834ms)
+✔ registration reports an existing shared-auth account instead of pretending to send signup code (0.975083ms)
+✔ all authentication emails request English independently of interface language (2.60925ms)
+✔ recovery grant is server-stored, isolated from login and atomically single-use (1.66175ms)
+✔ Google PKCE grant is browser-bound, no password/legacy provider and safe return (1.167375ms)
+✔ HTTP registration, recovery and consent preserve boundaries and original location (97.947709ms)
+✔ safe return rejects encoded separators and authentication loops (0.268875ms)
+✔ flow status exposes no credentials; recovery completion reports committed update despite logout outage (1.02675ms)
+✔ temporary password-update failure keeps the verified recovery context retryable (1.217542ms)
+✔ venue return preserves ticket aliases and seat/zoom context across authentication (54.531125ms)
+✔ consent never takes over account security or recovery pages (0.141333ms)
+✔ unknown outcome after password update cannot reopen recovery credentials (1.141125ms)
+✔ hook signatures require trusted key, bounded timestamp and unmodified raw body (1.295791ms)
+✔ exact project registry chooses sender and OTP language without links or metadata authority (1.014875ms)
+✔ persistent ledger deduplicates concurrent delivery and restarts; uncertain delivery cannot resend (22.954083ms)
+✔ every localized registration route opens registration rather than password login (1.732916ms)
+✔ login and password recovery retain separate initial modes (0.647208ms)
+✔ email verification creates one account and tokens are stored hashed and consumed once (7.095125ms)
+✔ expired and malformed email links cannot register or log in (0.795125ms)
+✔ sessions survive independent reads, expire, and logout revokes them (0.824541ms)
+✔ Google requires verified email and stable subject; existing email requires authenticated linking (0.947416ms)
+✔ OAuth attempt binds state to browser, expires, and PKCE verifier is unique (0.822458ms)
+✖ checkout uses server monthly price and stored customer; redirects never grant access (12.351584ms)
+✔ annual prices cannot be sold as monthly subscriptions (1.319ms)
+✖ pending checkout is reused across concurrent clicks, ten-minute windows and service restart (1.911959ms)
+✖ live provider subscription blocks a new checkout while its webhook has not arrived (1.23175ms)
+✔ webhook verifies signature and time before touching account (1.074083ms)
+✖ replayed and delayed webhooks use provider current state and cannot resurrect canceled access (0.762625ms)
+✖ wrong price or unknown customer does not grant premium access (1.693333ms)
+✔ The Weeknd import stays in research and candidate layers (37.08375ms)
+✔ every visible stage part stays inside its model footprint (19631.791417ms)
+✔ venue catalog groups by country while preserving regional labels (7.775917ms)
+✔ venue catalog exposes stable region buckets for directory filters (0.168ms)
+✔ local concert workspace serves retained views without replacing main auth or catalog (206.983ms)
+✔ main frontend, auth, billing, translations and package files retain their main baseline bytes (14.229917ms)
+✔ audience mouse/touch look and wheel/pinch zoom keep the eye fixed, with no orbit or pan (1.628041ms)
+✔ camera modes restore exact gaze/zoom; orbit remains enabled outside audience (0.312291ms)
+✔ versioned camera URLs round-trip, reject stale ticket state and malformed values (0.152541ms)
+✔ fixed phone magnifications change only FOV and round-trip through saved links (0.229417ms)
+✔ Hydro reconstruction retains all 50 literal blocks and source row identities without inventing tickets (111.80525ms)
+✔ whole chair footprints are supported by their row surfaces and stay clear of event areas and aisle steps (928.318417ms)
+✔ shared Hydro aisles emit each walking surface once (2.458375ms)
+✔ Hydro source event preserves standing floor, front porch opening and stage performer; base is stage-free (38.42575ms)
+✔ Hydro named references resolve without manufacturing a source ticket or substituting an unknown seat (28.252083ms)
+✔ Hydro reference positions follow the retained model along each row instead of all using its midpoint (18.165875ms)
+✔ two reference anchors in one row keep separate locations and reject display-slot collisions (27.089541ms)
+✔ 204 numbered rows retain first/middle/last order, separate chairs and clear entrance breaks (16.889333ms)
+✔ full illustrative Hydro numbering is unique, round-trips every chair and preserves all supported anchors (297.574667ms)
+✔ Hydro 2D pinch preserves the world point under the moving fingers with SVG letterboxing (1.063458ms)
+✔ Hydro 2D taps still select, drag/pinch clicks are suppressed, and a new tap recovers (0.656542ms)
+✔ Hydro 2D wheel uses the cursor anchor, bounds zoom and releases handlers on disposal (0.350209ms)
+✔ Hydro loader refuses altered placement or an author-inferred identity even with a valid row capacity (7.339917ms)
+✔ Hydro transcribed row endpoints expand to 66 unique reference identities without importing generic E (1.277208ms)
+✔ Hydro audience camera keeps inferred chair identity and eye position after a reference and on repeat entry (3.584542ms)
+✔ shipped Hydro viewer preserves camera on model changes and seated taps cannot change seats (650.5225ms)
+✔ concert views expose exactly the curated O2 and Hydro workspaces (72.90725ms)
+✔ O2 retains source identities while rendering the accepted display completion (506.741791ms)
+✔ Hydro keeps fixed camera and numbering provenance in the merged namespace (45.994208ms)
+✔ merged routes reject venue data outside the curated local namespace (0.403125ms)
+✔ O2 section guides separate adjacent ticket blocks and leave internal seat gaps open (310.122667ms)
+✔ O2 aisle half steps stay in seat-free gaps and connect consecutive row heights (750.307375ms)
+✔ O2 uses retained source steps at the 108/109 join, including its seat-free walkway (1636.588667ms)
+✔ O2 display chairs follow local row tangents continuously across section boundaries (0.855708ms)
+✔ O2 staggered section joins do not twist otherwise smooth rows (0.840875ms)
+✔ O2 2D symbols use chair dimensions and the same heading as 3D, not tread depth (8.527625ms)
+✔ O2 row skin closes the measured half-unit crack between rows 14 and 15 (5.133083ms)
+✔ O2 structural rows survive missing chairs and preserve the upper stage opening (7.269833ms)
+✔ every O2 source chair has a supporting surface on its own row and level (329.945209ms)
+✔ O2 row skin has one visible tread at straight stands and corner joins (12.99625ms)
+✔ O2 continuous corner treads do not acquire short zigzags from overlapping source patches (5.864708ms)
+✔ rounded chair surfaces keep the shared collision bounds and vertical backrest (3.299667ms)
+✔ O2 step risers and boundary walls do not cut through source cushions or backrests (1030.964959ms)
+✔ O2 display geometry preserves every source identity without changing source XYZ (10.779708ms)
+✔ lower bowl completion fills the short rows without inventing source ticket identities (26.970167ms)
+✔ stage-side display banks mirror each other without closing the stage opening (25.338792ms)
+✔ upper row surfaces end near the retained seating instead of extending empty fins (8.879833ms)
+✔ straight-to-corner joins share position and tangent on every display row (9.64475ms)
+✔ 101/112 and 102/111 share mirrored display chairs and aisle boundaries on every row (36.3625ms)
+✔ all chairs sit on their own continuous row and face its inward normal (15.877666ms)
+✔ missing seat runs do not cut the skin, and risers never connect different levels (17.378208ms)
+✔ display chairs remain separate within a row, including previously overlapping section joins (10.884083ms)
+✔ official upper banks share continuous rows across ticket boundaries and keep central aisles clear (222.973666ms)
+✔ a one-sided upper last row stays beside its wide opening (0.333958ms)
+✔ rendered tread polygons support every chair footprint, not just its centre (745.054459ms)
+✔ the actual display walls and risers do not cut through chair cushions or backs (133.63ms)
+✔ illustrative completion stays clear of the research stage and inside continuous lanes (6.984083ms)
+✔ completed aisle paths do not zigzag or change width at the curved joins (0.320708ms)
+✔ O2 chair size stays constant across display records and both geometry detail levels (3.436792ms)
+✔ the documented AA–G bank replaces speculative fill with 508 reference seats and two aisles (550.210833ms)
+✔ reference front rows meet the main bowl without detached illustrative corner stubs (3.275208ms)
+✔ every official O2 stand node has either a matched source seat or a reference display seat (9.278125ms)
+✔ near-view row labels sit in walking aisles without covering numbered chairs (15.312334ms)
+✔ O2 render batch is local research v0 and keeps publication gates closed (0.738833ms)
+✔ official O2 section reference covers every numbered stand and preserves row gaps (0.131375ms)
+✔ applying the batch changes only O2 render metadata and preserves source seats (70.826041ms)
+✔ O2 v0 geometry has finite source seats inside source bounds and a stage rect inside the inner floor (78.565583ms)
+✔ events group by local calendar date and preserve event order (7.321125ms)
+✔ empty event response creates no groups (0.073542ms)
+✔ publication requires event identity, evidence, independent review and unchanged valid stage geometry (67.23525ms)
+✔ version files stay immutable and tampered published data is rejected (11.035333ms)
+✔ bounds reject depth overflow and rotation; no-event-layout suppresses every stage and performer (0.495792ms)
+✔ repeated candidate import preserves product files, operator notes and published versions (180.162334ms)
+✔ official structured event data extracts dates and cancellation without inventing stage layout (24.199417ms)
+✔ exact public ticketing seat-map references include a traceable stage model (0.447ms)
+✔ Tottenham event reference is surfaced from a cached official event URL (0.237167ms)
+✔ SoFi R&B Tour event reference carries its stage model (0.193916ms)
+✔ MetLife event references are matched by official event URL (1.612042ms)
+✔ cached legacy reference status is recalculated from the event identity (0.716334ms)
+✔ official feeds use the current public event indexes and canonicalize duplicate detail URLs (1.449375ms)
+✔ partial refresh merges newly found events with cached official events (15.002834ms)
+✔ Tottenham first-party embedded configuration supplies event date when JSON-LD is only WebPage (0.412708ms)
+✔ invalid pre-start end timestamps cannot hide a future concert and football is not a concert (0.271208ms)
+✔ offset-free official timestamps retain their venue local day regardless of server timezone (0.11375ms)
+✔ HTTP success with damaged cached detail data retains the event as partial rather than deleting it (2.004667ms)
+✔ failed refresh preserves previously obtained events with stale status and filters past dates (1.648875ms)
+✔ candidate artist imports keep historical dates browsable (0.229834ms)
+✔ event crawler refuses non-official hosts and does not accept arbitrary redirect destinations (0.570541ms)
+✔ exhibition source polygons, dated rig and uncertainty survive canonical normalization (3.603041ms)
+✔ notched blocks keep the runway gap and all seating remains inside source outlines (39.287291ms)
+✔ dated stage, thrust, FOH and screens do not intersect chairs or fill equipment gaps (28.317458ms)
+✔ manifest rejects non-finite, mismatched and disconnected polygon rows (1.110292ms)
+✔ unsupported fullscreen falls back to an expanded view that can be closed (0.642542ms)
+✔ a rejected native fullscreen request opens the same usable fallback (0.128542ms)
+✔ 2D rerender preserves rotated/zoomed view and tier browsing never changes selected ticket (17.169042ms)
+✔ 2D transform never edits source polygons or source seat XYZ (58.153ms)
+✔ zoom keeps a panned map center and is bounded (0.929792ms)
+✔ quarter turn fits a rectangular map without clipping and resets exactly (0.131792ms)
+✔ rotation preserves the current pan center and pan keeps map content reachable (0.098708ms)
+✔ phone frame fits the viewport at a consistent 4:3 aspect (0.845ms)
+✔ illustrative roof spans each venue above all seats without changing source positions or stage (739.365375ms)
+✔ explorer exposes a three-step flow with actionable async status regions (0.663958ms)
+✔ explorer keeps seat actions disabled until a complete ticket location is ready (0.088667ms)
+✔ saving gives visitors a reason to sign in and gives members a confirmation (0.069666ms)
+✔ reference venue render span closes the gap between adjacent section anchors (0.532709ms)
+✔ observed venue render span preserves the measured aisle span (0.100583ms)
+✔ display labels keep source ids for lookup but make generated labels readable (0.185ms)
+✔ venue profiles drive per-tier row density instead of a universal twelve rows (0.217708ms)
+✔ Tokyo Dome narrow source spans stay narrow after degree conversion (7.314584ms)
+✔ venue profiles carry shape and floor dimensions into the renderer (262.229ms)
+✔ synthetic row pitch is derived from the venue tier dimensions (0.129125ms)
+✔ rectangular venues get a shape-specific stage scale (56.6125ms)
+✔ Hall 5BC retains the dated 40 floor / 18 riser reference layout, not a perimeter bowl (0.2755ms)
+✔ event stage traces replace the generic stage in the shared geometry frame (8.948625ms)
+✔ estimated seats stay inside the selected section and finger drag follows the image (0.267333ms)
+✔ unavailable ticket rows and seats never clamp to an unrelated grid seat (0.1955ms)
+✔ audience distance and aiming use the current venue and the same eye/target (0.365ms)
+✔ zoom multiplies projected performer size instead of dividing degrees (0.110917ms)
+✔ retained profile radii start at the front edge and radial bands do not overlap (0.097875ms)
+✔ import keeps the theatre front/back bands and profile origin metadata (1.895709ms)
+✔ each theatre riser is one row high and all treads are horizontal (3.696583ms)
+✔ theatre ticket bands remain distinct throughout the retained import pipeline (0.135667ms)
+✔ generic profile stages stay inside the inner bowl rather than under seats (251.328458ms)
+✔ saddle treads follow local seat height across the full section width (3.38425ms)
+✖ StagePeek canonical metadata, crawler routes and utility noindex stay consistent (215.579ms)
+✔ homepage preview exposes only fixed Bird’s Nest geometry and keeps full venue access gated (57.720208ms)
+✔ HTTP email flow verifies only same-browser token, persists session and revokes on logout (18.122834ms)
+✔ cross-origin changes and unbound login links fail (12.589583ms)
+✔ premium venue data cannot be read by guest or free account; direct static and traversal paths fail (22.251166ms)
+✔ rate limiting limits repeated login email requests (12.734917ms)
+✔ local development provides explicit Google and billing demos without third party calls (22.049ms)
+✔ local Google one-click flow uses the same browser-bound OAuth state (28.014042ms)
+✔ local monthly checkout upgrades only the signed-in development account (39.563959ms)
+✔ public root and app modules are actually served while data files remain private (13.055333ms)
+✔ venue routes accept imported ids with numeric suffixes (9.113958ms)
+✔ email links preserve the allowed browser origin so LAN and loopback cookies remain usable (8.880959ms)
+✔ local inbox only exposes the requesting browser unconsumed email link and is absent in production (52.989042ms)
+✔ admin venue validation requires the configured administrator and does not publish on validation (18.542791ms)
+✔ source venue API rejects unavailable layouts and saved positions retain source layout (166.995916ms)
+✔ admin can read and replace exactly ten free venues while the paywall follows the policy (21.102291ms)
+✔ candidate sources stay admin-only and unreviewed models never enter public events (15.275041ms)
+✔ browser entrypoint route exports support all five locales (0.833459ms)
+✔ dynamic interface messages keep the route language when document language changes (0.381084ms)
+✔ reviewed interface phrases have five nonempty variants with identical placeholders (6.183ms)
+✔ localized explorer auth return keeps ticket identity and strips secrets (0.27875ms)
+✔ interface HTML translates whole labels without corrupting escaping (0.617042ms)
+✖ mail fallback uses English for locales the existing shared hook does not support (3.569375ms)
+✔ language switching keeps the current explorer selection rather than stale link parameters (0.369208ms)
+✔ WebGL creation failure keeps the selected venue usable in 2D (0.662167ms)
+✔ concurrent 3D requests share a load and honor a switch back to 2D while loading (0.399583ms)
+✔ local seed creates free, active and expired fixtures only in an isolated development database (160.415709ms)
+✔ supports five locales and defaults locale-less paths to English (0.801417ms)
+✔ builds locale routes without duplicating the English prefix (0.075375ms)
+✔ preserves only approved explorer and safe auth query parameters (0.230041ms)
+✔ all supported translation dictionaries contain the same reviewed keys (0.415625ms)
+✔ new country selection, footer and zoom copy is localized rather than inherited English (0.115083ms)
+✔ PostgreSQL placeholders preserve SQL literals and production cannot fall back to SQLite (0.780833ms)
+﹣ real PostgreSQL authentication, rollback, isolation and HTTP entitlement flow (0.054459ms) # SKIP
+✔ Google code exchange sends PKCE verifier and obtains profile with server-only access token (17.9135ms)
+✔ Google provider refuses token endpoint errors instead of signing user in (0.431792ms)
+✔ local email aliases require an explicit allowed origin and never affect delivered production email (0.34175ms)
+✔ production email provider sends through Brevo when configured (0.481ms)
+✔ selected homepage is the public entry and existing ticket links still open the tool (655.677542ms)
+✔ directory and three reviewed venue pages deliver useful initial HTML with resolvable CTAs (221.739208ms)
+✔ sitemap, redirects and role-based indexing agree, including staging and sensitive parameters (321.019292ms)
+✔ service pages, home schema and public navigation remain usable without scripts (232.846167ms)
+✔ home, explorer, content and auth routes share one localized navigation and footer (276.450708ms)
+✔ localized public routes expose translated metadata and reciprocal language links (250.282583ms)
+✔ public plans uses the same validated monthly price as checkout and hides failed prices (186.146083ms)
+✔ every localized public page has a real title and each guide preserves source provenance (319.500125ms)
+✔ a reviewed guide is withdrawn when its source version changes or coordinates disappear (318.958ms)
+✔ an unavailable or malformed venue asset withdraws only that guide, never the site (225.727083ms)
+✔ deep links preserve a known venue and section (0.745167ms)
+✔ unknown deep-link venues safely use the free default (0.407ms)
+✔ source-layout deep links retain the exact variant rather than replacing it with end (0.103208ms)
+✔ default demo prefers available coordinate-backed Kai Tak and falls back to an unlocked venue (1.00425ms)
+{ checked: 138856, ambiguous: 0 }
+✔ every retained source seat uses its printed identity and original XYZ in the selected layout (755.644375ms)
+✔ source layout boundaries never silently fall back or infer intervening seats (102.050958ms)
+✔ western identity-only samples cannot acquire generated seat XYZ (26.53025ms)
+✔ source stage, performer and 2D positions share the unchanged source coordinate frame (143.065875ms)
+✔ source tread strips follow actual row elevations and do not bridge aisle gaps (76.410667ms)
+✔ decoded reference examples independently confirm position, facing and source counts (257.244708ms)
+✔ catalog source counts describe the same default layout returned by venue detail (199.851959ms)
+✔ Tokyo Garden Theater backdrop and stage never penetrate rendered chairs (62.872916ms)
+✔ production forbids local identity and untrusted Auth origins (1.117083ms)
+✖ repeated unconfirmed registration resends the signup code (2.400209ms)
+✔ Supabase OTP creates only a project member and rejects reuse; cookie hides credentials (1.7565ms)
+✔ unconfirmed email and missing membership never authorize a shared identity (0.513875ms)
+✔ concurrent refresh requests share one rotation and outages preserve the session (4.391875ms)
+✔ HTTP shared OTP enforces browser binding, role, origin and production-disabled legacy paths (70.738625ms)
+✔ ticketing cache preserves provider events without inventing a stage model (17.549416ms)
+✔ Ticketmaster adapter stays server-side and normalizes public event metadata (16.395625ms)
+✔ Ticketmaster adapter does not make network requests without a key (0.366209ms)
+✔ Ticketmaster search bounds size and returns normalized events (1.351792ms)
+✔ Ticketmaster venue search exposes only normalized public venue metadata (0.444041ms)
+✔ Wembley manual import is validated and exposes only official observed anchors (5.53375ms)
+✔ venue loader includes manual and imported venues and keeps unknown Wembley seats unverified (64.1775ms)
+✔ venue publisher atomically adds a manifest and keeps a source import copy (4.642583ms)
+✔ new imports preserve source precision and never invent XYZ from a ticket identity (0.712834ms)
+✔ country-first picker limits venue options to the selected country and puts free venues first (11.153333ms)
+✔ changing country clears the old choice and deep-link selection restores the correct country (0.269417ms)
+✔ Tottenham retains actual sampled ticket labels including global seat numbers and leading-zero sections (61.168291ms)
+✔ unknown ticket rows and seats never fall back to synthetic or nearest real seat (81.135208ms)
+✔ all source sample seats resolve with the same position used for rendering, while coverage stays explicit (26.204333ms)
+✔ MetLife and SoFi use official linked sample labels with prefixes, letter rows and middle/upper tiers (46.518458ms)
+✔ Tottenham tier-only sections keep distinct sourced directions instead of one missing-data fallback (33.940375ms)
+✔ 2D source hit areas retain their camera and vertices without treating pixels as metres (38.090917ms)
+ℹ tests 260
+ℹ suites 0
+ℹ pass 251
+ℹ fail 8
+ℹ cancelled 0
+ℹ skipped 1
+ℹ todo 0
+ℹ duration_ms 19827.254625
+
+✖ failing tests:
+
+test at tests/billing.test.mjs:38:1
+✖ checkout uses server monthly price and stored customer; redirects never grant access (12.351584ms)
+  Error: A positive monthly recurring price is required
+      at fault (file:///Users/lilinhai/Projects/seatpeep/integration/main-venue-views/server/store.mjs:72:24)
+      at BillingService.price (file:///Users/lilinhai/Projects/seatpeep/integration/main-venue-views/server/billing.mjs:42:21)
+      at async BillingService.createCheckout (file:///Users/lilinhai/Projects/seatpeep/integration/main-venue-views/server/billing.mjs:64:20)
+      at async BillingService.serial (file:///Users/lilinhai/Projects/seatpeep/integration/main-venue-views/server/billing.mjs:129:16)
+      at async TestContext.<anonymous> (file:///Users/lilinhai/Projects/seatpeep/integration/main-venue-views/tests/billing.test.mjs:40:16)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    status: 503,
+    code: 'INVALID_MONTHLY_PRICE'
+  }
+
+test at tests/billing.test.mjs:58:1
+✖ pending checkout is reused across concurrent clicks, ten-minute windows and service restart (1.911959ms)
+  Error: A positive monthly recurring price is required
+      at fault (file:///Users/lilinhai/Projects/seatpeep/integration/main-venue-views/server/store.mjs:72:24)
+      at BillingService.price (file:///Users/lilinhai/Projects/seatpeep/integration/main-venue-views/server/billing.mjs:42:21)
+      at async BillingService.createCheckout (file:///Users/lilinhai/Projects/seatpeep/integration/main-venue-views/server/billing.mjs:64:20) {
+    status: 503,
+    code: 'INVALID_MONTHLY_PRICE'
+  }
+
+test at tests/billing.test.mjs:68:1
+✖ live provider subscription blocks a new checkout while its webhook has not arrived (1.23175ms)
+  AssertionError [ERR_ASSERTION]: The validation function is expected to return "true". Received false
+  
+  Caught error:
+  
+  Error: A positive monthly recurring price is required
+      at async TestContext.<anonymous> (file:///Users/lilinhai/Projects/seatpeep/integration/main-venue-views/tests/billing.test.mjs:72:3)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: A positive monthly recurring price is required
+        at fault (file:///Users/lilinhai/Projects/seatpeep/integration/main-venue-views/server/store.mjs:72:24)
+        at BillingService.price (file:///Users/lilinhai/Projects/seatpeep/integration/main-venue-views/server/billing.mjs:42:21)
+        at async BillingService.createCheckout (file:///Users/lilinhai/Projects/seatpeep/integration/main-venue-views/server/billing.mjs:64:20)
+        at async BillingService.serial (file:///Users/lilinhai/Projects/seatpeep/integration/main-venue-views/server/billing.mjs:129:16)
+        at async waitForActual (node:assert:615:5)
+        at async strict.rejects (node:assert:738:25)
+        at async TestContext.<anonymous> (file:///Users/lilinhai/Projects/seatpeep/integration/main-venue-views/tests/billing.test.mjs:72:3)
+        at async Test.run (node:internal/test_runner/test:1389:7)
+        at async Test.processPendingSubtests (node:internal/test_runner/test:960:7),
+    operator: 'rejects',
+    diff: 'simple'
+  }
+
+test at tests/billing.test.mjs:85:1
+✖ replayed and delayed webhooks use provider current state and cannot resurrect canceled access (0.762625ms)
+  Error: A positive monthly recurring price is required
+      at fault (file:///Users/lilinhai/Projects/seatpeep/integration/main-venue-views/server/store.mjs:72:24)
+      at BillingService.price (file:///Users/lilinhai/Projects/seatpeep/integration/main-venue-views/server/billing.mjs:42:21)
+      at async BillingService.createCheckout (file:///Users/lilinhai/Projects/seatpeep/integration/main-venue-views/server/billing.mjs:64:20)
+      at async BillingService.serial (file:///Users/lilinhai/Projects/seatpeep/integration/main-venue-views/server/billing.mjs:129:16)
+      at async TestContext.<anonymous> (file:///Users/lilinhai/Projects/seatpeep/integration/main-venue-views/tests/billing.test.mjs:86:67)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    status: 503,
+    code: 'INVALID_MONTHLY_PRICE'
+  }
+
+test at tests/billing.test.mjs:97:1
+✖ wrong price or unknown customer does not grant premium access (1.693333ms)
+  Error: A positive monthly recurring price is required
+      at fault (file:///Users/lilinhai/Projects/seatpeep/integration/main-venue-views/server/store.mjs:72:24)
+      at BillingService.price (file:///Users/lilinhai/Projects/seatpeep/integration/main-venue-views/server/billing.mjs:42:21)
+      at async BillingService.createCheckout (file:///Users/lilinhai/Projects/seatpeep/integration/main-venue-views/server/billing.mjs:64:20)
+      at async BillingService.serial (file:///Users/lilinhai/Projects/seatpeep/integration/main-venue-views/server/billing.mjs:129:16)
+      at async TestContext.<anonymous> (file:///Users/lilinhai/Projects/seatpeep/integration/main-venue-views/tests/billing.test.mjs:98:67)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    status: 503,
+    code: 'INVALID_MONTHLY_PRICE'
+  }
+
+test at tests/http.test.mjs:29:1
+✖ StagePeek canonical metadata, crawler routes and utility noindex stay consistent (215.579ms)
+  AssertionError [ERR_ASSERTION]: The input was expected to not match the regular expression /src="\/analytics.mjs"/. Input:
+  
+  '<!doctype html>\n' +
+    '<html lang="en">\n' +
+    '<head>\n' +
+    '  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">\n' +
+    '  <title>Sign in to StagePeek · StagePeek</title>\n' +
+    '  <meta name="description" content="Selected free venues · 2D / 3D sections and sample seats">\n' +
+    '  <meta name="theme-color" content="#0b1118">\n' +
+    '  <link rel="canonical" href="https://stagepeek.live/">\n' +
+    '  <meta property="og:type" content="website">\n' +
+    '  <meta property="og:site_name" content="StagePeek">\n' +
+    '  \n' +
+    '  \n' +
+    '  \n' +
+    '  <meta property="og:description" content="Selected free venues · 2D / 3D sections and sample seats">\n' +
+    '  <meta property="og:image" content="https://stagepeek.live/brand/stagepeek-social.png">\n' +
+    '  <meta property="og:image:width" content="1200">\n' +
+    '  <meta property="og:image:height" content="630">\n' +
+    '  <meta property="og:image:alt" content="StagePeek concert seat view, 2D and 3D seating charts">\n' +
+    '  <meta name="twitter:card" content="summary_large_image">\n' +
+    '  <meta name="twitter:title" content="StagePeek · Concert Seat View">\n' +
+    '  <meta name="twitter:description" content="Explore concert seating charts, 3D venues, and stage-view simulations.">\n' +
+    '  <meta name="twitter:image" content="https://stagepeek.live/brand/stagepeek-social.png">\n' +
+    '  <!--PUBLIC-SCHEMA-->\n' +
+    '  <link rel="icon" type="image/svg+xml" href="/brand/stagepeek-mark.svg">\n' +
+    '  <link rel="stylesheet" href="/style.css?v=9e528dd"><script type="module" src="/app.mjs"></script>\n' +
+    '<link rel="stylesheet" href="/site-ui.css"><meta name="stagepeek-locale" content="en"><script type="module" src="/analytics.mjs" data-website-id="01234567-89ab-cdef-0123-456789abcdef" data-public-path="/" data-analytics-path="/explore" data-tool-page="true"></script></head>\n' +
+    '<body class="theme-arena">\n' +
+    '  <a class="skip-link" href="#explorer">Skip to seat explorer</a>\n' +
+    '  <header class="site-nav" data-site-header><a class="brand" href="/" aria-label="StagePeek"><img src="/brand/stagepeek-logo-dark.svg" width="164" height="49" alt="StagePeek"></a><nav class="nav-links" aria-label="Explore"><a class="venue-nav" href="/venues/"><svg aria-hidden="true" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10 12 4l9 6M4 10h16v10H4zM8 13v3m4-3v3m4-3v3M2 20h20"/></svg><span data-i18n="nav.venues">Venue info</span></a><a class="primary" href="/explore" data-tool-entry><span data-i18n="nav.explore">Try it now</span><span aria-hidden="true">↗</span></a></nav><div class="nav-actions"><div id="locale-switcher" class="language-switcher" data-language-switcher><button type="button" aria-label="Language" aria-haspopup="true" aria-expanded="false"><svg class="language-globe" aria-hidden="true" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a18 18 0 0 1 0 18 18 18 0 0 1 0-18Z"/></svg><span class="language-current visually-hidden">English</span></button><div role="menu"><a href="/" role="menuitem" data-locale="en" aria-current="true">English</a><a href="/zh-CN/" role="menuitem" data-locale="zh-CN">简体中文</a><a href="/zh-TW/" role="menuitem" data-locale="zh-TW">繁體中文</a><a href="/ja/" role="menuitem" data-locale="ja">日本語</a><a href="/ko/" role="menuitem" data-locale="ko">한국어</a></div></div><a class="nav-account" id="account-button" href="/auth/login"><span data-i18n="nav.signIn">Sign in</span></a></div></header>\n' +
+    '  <main id="explorer">\n' +
+    '    <section class="intro"><div><span class="eyebrow" lang="en" data-i18n="explorer.eyebrow">CONCERT SEAT VIEW · 2D &amp; 3D SEATING CHARTS</span><h1 data-i18n="explorer.headline">See your concert seat before the show.</h1><p data-i18n="explorer.lead">Choose a venue, copy the location from your ticket, and preview the view in 2D or 3D.</p></div><span id="plan-label" class="pill">Free preview</span></section>\n' +
+    '    <div class="explorer-status" id="explorer-status" role="status" aria-live="polite"></div>\n' +
+    '    <ol class="explorer-steps" aria-label="Seat explorer steps">\n' +
+    '      <li class="explorer-step is-current" data-explorer-step="venue"><span>1</span><div><strong data-i18n="explorer.stepVenue">Choose a venue</strong><small data-i18n="explorer.stepVenueHint">Start with a country, region, and venue.</small></div></li>\n' +
+    '      <li class="explorer-step" data-explorer-step="ticket"><span>2</span><div><strong data-i18n="explorer.stepTicket">Enter your ticket</strong><small data-i18n="explorer.stepTicketHint">Use the section, row, and seat exactly as printed.</small></div></li>\n' +
+    '      <li class="explorer-step" data-explorer-step="view"><span>3</span><div><strong data-i18n="explorer.stepView">Review your view</strong><small data-i18n="explorer.stepViewHint">Switch between 2D, 3D, and audience view.</small></div></li>\n' +
+    '    </ol>\n' +
+    '    <section class="input-panel" aria-labelledby="ticket-form-title">\n' +
+    '      <div class="panel-heading"><div><span class="eyebrow">STEP 1–2</span><h2 id="ticket-form-title" data-i18n="explorer.formTitle">Find your seat</h2></div><p id="venue-status" class="panel-status" role="status" aria-live="polite"></p></div>\n' +
+    '      <form id="ticket-form" class="toolbar" aria-label="Find a ticket seat">\n' +
+    '        <div class="venue-picker"><label><span data-i18n="explorer.countryLabel">Country / region</span><select id="venue-country" required disabled><option data-i18n="explorer.loadingVenue">Loading venues…</option></select></label><label><span data-i18n="explorer.venueLabel">Venue</span><select id="venue" required disabled><option data-i18n="explorer.loadingVenue">Loading venues…</option></select></label></div>\n' +
+    '        <label class="section-field"><span data-i18n="explorer.ticketSection">Section / block</span><input id="section" list="section-list" autocomplete="off" value="122" maxlength="40" required aria-describedby="ticket-format"><small data-i18n="explorer.sectionHint">Copy the label from your ticket.</small><datalist id="section-list"></datalist></label>\n' +
+    '        <label class="row-field"><span data-i18n="explorer.ticketRow">Row</span><input id="row" autocomplete="off" value="14" maxlength="40" required aria-describedby="ticket-format"></label>\n' +
+    '        <label class="seat-field"><span data-i18n="explorer.ticketSeat">Seat</span><input id="seat" autocomplete="off" value="679" maxlength="40" required aria-describedby="ticket-format"></label>\n' +
+    '        <button type="submit" id="locate" class="primary" data-i18n="explorer.locate">Find my seat <span>↗</span></button>\n' +
+    '        <p id="ticket-format" class="form-help" data-i18n="explorer.ticketHint">Example: Section 101 · Row A · Seat 78. Labels are matched to available source records.</p>\n' +
+    '      </form>\n' +
+    '      <button type="button" id="venue-retry" class="secondary retry-button" hidden data-i18n="common.retry">Try again</button>\n' +
+    '    </section>\n' +
+    '    <div class="workspace">\n' +
+    '      <section class="map-card" data-explorer-step-panel="view" aria-labelledby="venue-name">\n' +
+    '        <div class="map-heading"><div><h2 id="venue-name">Loading</h2><p id="venue-city"></p></div><div class="switch" aria-label="Map mode"><button id="mode-2d">2D seating chart</button><button id="mode-3d" class="active">3D view</button></div></div>\n' +
+    '        <div id="viewer" class="viewer"><canvas id="scene" aria-label="Interactive 3D venue"></canvas><svg id="map" viewBox="-190 -145 380 290" role="group" tabindex="0" aria-label="2D venue map with selectable sections" hidden></svg>\n' +
+    '          <button id="fullscreen" class="fullscreen-control" aria-label="Full screen">⛶</button>\n' +
+    '          <div class="viewer-controls"><div id="view-tools" class="view-tools"><button id="overview" class="active">Venue overview</button><button id="seat-view">Audience view</button><button id="near">Go to section</button><button id="reset">Reset</button><button id="roof-toggle" aria-pressed="false">Roof illustration</button><button id="phone-toggle" aria-pressed="false">Phone framing</button></div>\n' +
+    '          <div id="camera-tools" class="camera-tools" hidden><span>View zoom · Geometric estimate</span><button data-zoom="1" class="active">1×</button><button data-zoom="2">2×</button><button data-zoom="5">5×</button><button data-zoom="8">8×</button></div>\n' +
+    '          <div id="map-tools" class="map-tools" hidden><output id="map-zoom-value" aria-label="Map zoom">100%</output><button id="map-zoom-out" aria-label="Zoom out">−</button><button id="map-zoom-in" aria-label="Zoom in">＋</button><button id="map-rotate" aria-label="Rotate map">↻</button><button id="map-reset">Reset</button></div>\n' +
+    '          <div id="map-levels" class="map-levels" role="group" aria-label="2D stand levels" hidden></div><div class="selection-row"><span id="selection-tag" class="selection-tag">Section 122</span></div><span id="viewer-location" class="viewer-location"></span></div>\n' +
+    '          <div id="camera-reticle" class="camera-reticle" hidden><i></i><span>4:3 phone frame · Simulated view</span></div><span id="roof-note" class="roof-note" hidden>Illustrative roof · Not a measured building model</span><div id="view-error" class="view-error" hidden></div>\n' +
+    '          <span id="gesture-hint" class="gesture-hint">Drag to rotate · Pinch to zoom / pan · Select a section</span>\n' +
+    '        </div>\n' +
+    '        <div class="map-footer"><div class="legend"><span><i></i><span data-i18n="explorer.legendSections">Venue sections</span></span><span><i class="orange"></i><span data-i18n="explorer.legendCurrent">Selected section</span></span><span><i class="gold"></i><span data-i18n="explorer.legendSource">Source sample</span></span></div><span id="coverage-count"></span></div>\n' +
+    '        <details class="sources"><summary>Sources and location accuracy <span id="accuracy-short">Geometry not yet calibrated</span></summary><p id="coverage-note"></p><p>Green chairs illustrate the stands. Ticket matches use source records. Unknown labels stay unverified; distances depend on venue and event-stage calibration.</p><a id="source-link" target="_blank" rel="noopener noreferrer">View source ↗</a></details>\n' +
+    '      </section>\n' +
+    '      <aside>\n' +
+    '  '... 8176 more characters
+  
+      at TestContext.<anonymous> (file:///Users/lilinhai/Projects/seatpeep/integration/main-venue-views/tests/http.test.mjs:61:10)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '<!doctype html>\n<html lang="en">\n<head>\n  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">\n  <title>Sign in to StagePeek · StagePeek</title>\n  <meta name="description" content="Selected free venues · 2D / 3D sections and sample seats">\n  <meta name="theme-color" content="#0b1118">\n  <link rel="canonical" href="https://stagepeek.live/">\n  <meta property="og:type" content="website">\n  <meta property="og:site_name" content="StagePeek">\n  \n  \n  \n  <meta property="og:description" content="Selected free venues · 2D / 3D sections and sample seats">\n  <meta property="og:image" content="https://stagepeek.live/brand/stagepeek-social.png">\n  <meta property="og:image:width" content="1200">\n  <meta property="og:image:height" content="630">\n  <meta property="og:image:alt" content="StagePeek concert seat view, 2D and 3D seating charts">\n  <meta name="twitter:card" content="summary_large_image">\n  <meta name="twitter:title" content="StagePeek · Concert Seat View">\n  <meta name="twitter:description" content="Explore concert seating charts, 3D venues, and stage-view simulations.">\n  <meta name="twitter:image" content="https://stagepeek.live/brand/stagepeek-social.png">\n  <!--PUBLIC-SCHEMA-->\n  <link rel="icon" type="image/svg+xml" href="/brand/stagepeek-mark.svg">\n  <link rel="stylesheet" href="/style.css?v=9e528dd"><script type="module" src="/app.mjs"></script>\n<link rel="stylesheet" href="/site-ui.css"><meta name="stagepeek-locale" content="en"><script type="module" src="/analytics.mjs" data-website-id="01234567-89ab-cdef-0123-456789abcdef" data-public-path="/" data-analytics-path="/explore" data-tool-page="true"></script></head>\n<body class="theme-arena">\n  <a class="skip-link" href="#explorer">Skip to seat explorer</a>\n  <header class="site-nav" data-site-header><a class="brand" href="/" aria-label="StagePeek"><img src="/brand/stagepeek-logo-dark.svg" width="164" height="49" alt="StagePeek"></a><nav class="nav-links" aria-label="Explore"><a class="venue-nav" href="/venues/"><svg aria-hidden="true" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10 12 4l9 6M4 10h16v10H4zM8 13v3m4-3v3m4-3v3M2 20h20"/></svg><span data-i18n="nav.venues">Venue info</span></a><a class="primary" href="/explore" data-tool-entry><span data-i18n="nav.explore">Try it now</span><span aria-hidden="true">↗</span></a></nav><div class="nav-actions"><div id="locale-switcher" class="language-switcher" data-language-switcher><button type="button" aria-label="Language" aria-haspopup="true" aria-expanded="false"><svg class="language-globe" aria-hidden="true" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a18 18 0 0 1 0 18 18 18 0 0 1 0-18Z"/></svg><span class="language-current visually-hidden">English</span></button><div role="menu"><a href="/" role="menuitem" data-locale="en" aria-current="true">English</a><a href="/zh-CN/" role="menuitem" data-locale="zh-CN">简体中文</a><a href="/zh-TW/" role="menuitem" data-locale="zh-TW">繁體中文</a><a href="/ja/" role="menuitem" data-locale="ja">日本語</a><a href="/ko/" role="menuitem" data-locale="ko">한국어</a></div></div><a class="nav-account" id="account-button" href="/auth/login"><span data-i18n="nav.signIn">Sign in</span></a></div></header>\n  <main id="explorer">\n    <section class="intro"><div><span class="eyebrow" lang="en" data-i18n="explorer.eyebrow">CONCERT SEAT VIEW · 2D &amp; 3D SEATING CHARTS</span><h1 data-i18n="explorer.headline">See your concert seat before the show.</h1><p data-i18n="explorer.lead">Choose a venue, copy the location from your ticket, and preview the view in 2D or 3D.</p></div><span id="plan-label" class="pill">Free preview</span></section>\n    <div class="explorer-status" id="explorer-status" role="status" aria-live="polite"></div>\n    <ol class="explorer-steps" aria-label="Seat explorer steps">\n      <li class="explorer-step is-current" data-explorer-step="venue"><span>1</span><div><strong data-i18n="explorer.stepVenue">Choose a venue</strong><small data-i18n="explorer.stepVenueHint">Start with a country, region, and venue.</small></div></li>\n      <li class="explorer-step" data-explorer-step="ticket"><span>2</span><div><strong data-i18n="explorer.stepTicket">Enter your ticket</strong><small data-i18n="explorer.stepTicketHint">Use the section, row, and seat exactly as printed.</small></div></li>\n      <li class="explorer-step" data-explorer-step="view"><span>3</span><div><strong data-i18n="explorer.stepView">Review your view</strong><small data-i18n="explorer.stepViewHint">Switch between 2D, 3D, and audience view.</small></div></li>\n    </ol>\n    <section class="input-panel" aria-labelledby="ticket-form-title">\n      <div class="panel-heading"><div><span class="eyebrow">STEP 1–2</span><h2 id="ticket-form-title" data-i18n="explorer.formTitle">Find your seat</h2></div><p id="venue-status" class="panel-status" role="status" aria-live="polite"></p></div>\n      <form id="ticket-form" class="toolbar" aria-label="Find a ticket seat">\n        <div class="venue-picker"><label><span data-i18n="explorer.countryLabel">Country / region</span><select id="venue-country" required disabled><option data-i18n="explorer.loadingVenue">Loading venues…</option></select></label><label><span data-i18n="explorer.venueLabel">Venue</span><select id="venue" required disabled><option data-i18n="explorer.loadingVenue">Loading venues…</option></select></label></div>\n        <label class="section-field"><span data-i18n="explorer.ticketSection">Section / block</span><input id="section" list="section-list" autocomplete="off" value="122" maxlength="40" required aria-describedby="ticket-format"><small data-i18n="explorer.sectionHint">Copy the label from your ticket.</small><datalist id="section-list"></datalist></label>\n        <label class="row-field"><span data-i18n="explorer.ticketRow">Row</span><input id="row" autocomplete="off" value="14" maxlength="40" required aria-describedby="ticket-format"></label>\n        <label class="seat-field"><span data-i18n="explorer.ticketSeat">Seat</span><input id="seat" autocomplete="off" value="679" maxlength="40" required aria-describedby="ticket-format"></label>\n        <button type="submit" id="locate" class="primary" data-i18n="explorer.locate">Find my seat <span>↗</span></button>\n        <p id="ticket-format" class="form-help" data-i18n="explorer.ticketHint">Example: Section 101 · Row A · Seat 78. Labels are matched to available source records.</p>\n      </form>\n      <button type="button" id="venue-retry" class="secondary retry-button" hidden data-i18n="common.retry">Try again</button>\n    </section>\n    <div class="workspace">\n      <section class="map-card" data-explorer-step-panel="view" aria-labelledby="venue-name">\n        <div class="map-heading"><div><h2 id="venue-name">Loading</h2><p id="venue-city"></p></div><div class="switch" aria-label="Map mode"><button id="mode-2d">2D seating chart</button><button id="mode-3d" class="active">3D view</button></div></div>\n        <div id="viewer" class="viewer"><canvas id="scene" aria-label="Interactive 3D venue"></canvas><svg id="map" viewBox="-190 -145 380 290" role="group" tabindex="0" aria-label="2D venue map with selectable sections" hidden></svg>\n          <button id="fullscreen" class="fullscreen-control" aria-label="Full screen">⛶</button>\n          <div class="viewer-controls"><div id="view-tools" class="view-tools"><button id="overview" class="active">Venue overview</button><button id="seat-view">Audience view</button><button id="near">Go to section</button><button id="reset">Reset</button><button id="roof-toggle" aria-pressed="false">Roof illustration</button><button id="phone-toggle" aria-pressed="false">Phone framing</button></div>\n          <div id="camera-tools" class="camera-tools" hidden><span>View zoom · Geometric estimate</span><button data-zoom="1" class="active">1×</button><button data-zoom="2">2×</button><button data-zoom="5">5×</button><button data-zoom="8">8×</button></div>\n          <div id="map-tools" class="map-tools" hidden><output id="map-zoom-value" aria-label="Map zoom">100%</output><button id="map-zoom-out" aria-label="Zoom out">−</button><button id="map-zoom-in" aria-label="Zoom in">＋</button><button id="map-rotate" aria-label="Rotate map">↻</button><button id="map-reset">Reset</button></div>\n          <div id="map-levels" class="map-levels" role="group" aria-label="2D stand levels" hidden></div><div class="selection-row"><span id="selection-tag" class="selection-tag">Section 122</span></div><span id="viewer-location" class="viewer-location"></span></div>\n          <div id="camera-reticle" class="camera-reticle" hidden><i></i><span>4:3 phone frame · Simulated view</span></div><span id="roof-note" class="roof-note" hidden>Illustrative roof · Not a measured building model</span><div id="view-error" class="view-error" hidden></div>\n          <span id="gesture-hint" class="gesture-hint">Drag to rotate · Pinch to zoom / pan · Select a section</span>\n        </div>\n        <div class="map-footer"><div class="legend"><span><i></i><span data-i18n="explorer.legendSections">Venue sections</span></span><span><i class="orange"></i><span data-i18n="explorer.legendCurrent">Selected section</span></span><span><i class="gold"></i><span data-i18n="explorer.legendSource">Source sample</span></span></div><span id="coverage-count"></span></div>\n        <details class="sources"><summary>Sources and location accuracy <span id="accuracy-short">Geometry not yet calibrated</span></summary><p id="coverage-note"></p><p>Green chairs illustrate the stands. Ticket matches use source records. Unknown labels stay unverified; distances depend on venue and event-stage calibration.</p><a id="source-link" target="_blank" rel="noopener noreferrer">View source ↗</a></details>\n      </section>\n      <aside>\n  '... 8176 more characters,
+    expected: /src="\/analytics.mjs"/,
+    operator: 'doesNotMatch',
+    diff: 'simple'
+  }
+
+test at tests/interface-locales.test.mjs:47:1
+✖ mail fallback uses English for locales the existing shared hook does not support (3.569375ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'https://stagepeek.live/auth/reset?lang=en'
+  - 'https://stagepeek.live/auth/reset?lang=zh-CN'
+  
+      at TestContext.<anonymous> (file:///Users/lilinhai/Projects/seatpeep/integration/main-venue-views/tests/interface-locales.test.mjs:51:9)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'https://stagepeek.live/auth/reset?lang=en',
+    expected: 'https://stagepeek.live/auth/reset?lang=zh-CN',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/supabase-auth.test.mjs:37:1
+✖ repeated unconfirmed registration resends the signup code (2.400209ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    [
+      '/auth/v1/signup',
+  -   '/auth/v1/resend'
+    ]
+  
+      at TestContext.<anonymous> (file:///Users/lilinhai/Projects/seatpeep/integration/main-venue-views/tests/supabase-auth.test.mjs:46:9)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: [ '/auth/v1/signup' ],
+    expected: [ '/auth/v1/signup', '/auth/v1/resend' ],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }

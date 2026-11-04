@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "scope": "local-research-only",
+  "layouts": [
+    {
+      "id": "o2-cody-johnson-20261027",
+      "venueId": "twcv-the-o2-arena-london",
+      "seatLayoutId": "o2a",
+      "label": "Cody Johnson — Live ’26",
+      "dates": [
+        "2026-10-27"
+      ],
+      "sha256": "22e17ee89dbd7df3167137765115c9e2f3dbd069183a291c8058812f511e3780"
+    },
+    {
+      "id": "o2-jcole-20261102",
+      "venueId": "twcv-the-o2-arena-london",
+      "seatLayoutId": "o2a",
+      "label": "J. Cole — The Fall-Off Tour",
+      "dates": [
+        "2026-11-02"
+      ],
+      "sha256": "896faa8c5a6cbafb8b86fd1b2c7d5ef4dd3c1636cad12eba5cef6d1cba793e63"
+    },
+    {
+      "id": "accor-gaga-20251117",
+      "venueId": "twcv-accor-arena-paris",
+      "seatLayoutId": "acc",
+      "label": "Lady Gaga — The MAYHEM Ball",
+      "dates": [
+        "2025-11-17",
+        "2025-11-18",
+        "2025-11-20",
+        "2025-11-22"
+      ],
+      "sha256": "e7e126599cd1b00e179e1d3e094ef6e1ea8efa6fabd9e4acbdd5b57f7fcbb826"
+    },
+    {
+      "id": "kia-forum-don-omar-20261106",
+      "venueId": "twcv-kia-forum-los-angeles",
+      "seatLayoutId": "kfo",
+      "label": "DON OMAR",
+      "dates": [
+        "2026-11-06"
+      ],
+      "sha256": "062bafd9c8698de78739810dbb588b77c5c44e610dfe4f4bc94cd7695baf9b54"
+    },
+    {
+      "id": "pru-xg-20261114",
+      "venueId": "twcv-prudential-center-newark",
+      "seatLayoutId": "pru",
+      "label": "XG · The Core World Tour",
+      "dates": [
+        "2026-11-14"
+      ],
+      "sha256": "0d547ae90fab853e56d23fe9126c68897c4ace37185706a36812ec7a48134d41"
+    },
+    {
+      "id": "sfa-doja-cat-20261117",
+      "venueId": "twcv-state-farm-arena-atlanta",
+      "seatLayoutId": "sfa",
+      "label": "Doja Cat · Tour Ma Vie",
+      "dates": [
+        "2026-11-17"
+      ],
+      "sha256": "017aa0d5aaa37bcb5ad539570b6b5f627e95faa670eb2a3a8a53f1e4133d6b65"
+    },
+    {
+      "id": "ubs-anuel-aa-20261106",
+      "venueId": "twcv-ubs-arena-new-york",
+      "seatLayoutId": "ubs",
+      "label": "Anuel AA",
+      "dates": [
+        "2026-11-06"
+      ],
+      "sha256": "5e09cc69e6db784d31d26b26a038eabdfb78342becb2868cc611178ebc6a138a"
+    },
+    {
+      "id": "unc-katseye-20261105",
+      "venueId": "twcv-united-center-chicago",
+      "seatLayoutId": "unc",
+      "label": "KATSEYE · The Wildworld Tour",
+      "dates": [
+        "2026-11-05"
+      ],
+      "sha256": "f40fc2ab141932eb2ef2228c8d15e939812716f1b9464dfc31f23092d9c4259b"
+    },
+    {
+      "id": "ziggo-gaga-20251109",
+      "venueId": "twcv-ziggo-dome-amsterdam",
+      "seatLayoutId": "zgd",
+      "label": "Lady Gaga — The MAYHEM Ball",
+      "dates": [
+        "2025-11-09"
+      ],
+      "sha256": "f9c88460fcaa32e04c7f739f2bf0fbfaa1a7c4c4dd17991056b3517ba09b28ff"
+    },
+    {
+      "id": "uber-muse-20261118",
+      "venueId": "twcv-uber-arena-berlin",
+      "seatLayoutId": "uba",
+      "label": "Muse — The Wow! Signal Europe Tour",
+      "dates": [
+        "2026-11-18"
+      ],
+      "sha256": "488d57cb870da4c5193b09f6e900ece3d394a51be38bd91f952266a37caabf7c"
+    }
+  ]
+}

@@ -1,0 +1,530 @@
+{
+  "schemaVersion": 1,
+  "id": "uber-muse-20261118",
+  "status": "research-preview",
+  "publicationStatus": "not-published",
+  "event": {
+    "name": "Muse — The Wow! Signal Europe Tour",
+    "dates": [
+      "2026-11-18"
+    ],
+    "timezone": "Europe/Berlin",
+    "bindingNote": "Official venue page confirms Muse, Berlin and 18 November 2026. Encoretrail specific event page displays the retained Ticketmaster image; map binding uses this secondary page."
+  },
+  "venueId": "twcv-uber-arena-berlin",
+  "seatLayoutId": "uba",
+  "source": {
+    "path": "data/research-events/uber-muse-20261118/ticket-map.webp",
+    "url": "https://media.ticketmaster.eu/germany/480fca2b7f6050b0e8ee70a719673955.png",
+    "sha256": "ab4f97e9f9377346a85ce39a41c5b80aeeacabc6879c061c3ab0569c73f6ea69",
+    "retrievedAt": "2026-11-03T06:12:18.210444+00:00",
+    "rights": "Local research snapshot; redistribution undecided.",
+    "bytes": 28023
+  },
+  "eventSource": {
+    "path": "data/research-events/uber-muse-20261118/official.html",
+    "url": "https://www.uber-arena.de/en/events/detail/muse_2026/2026-11-18-1930",
+    "sha256": "e074f7739258dc055e9bb6c43c0876a8bd9edf37c4a85c2b464d91a2931c48e1",
+    "retrievedAt": "2026-11-03T06:12:18.210444+00:00",
+    "rights": "Local research snapshot; redistribution undecided.",
+    "bytes": 283705
+  },
+  "registration": {
+    "matrix": [
+      -0.000050067173420169637,
+      0.19006603091860305,
+      -0.19630274898593772,
+      -0.002232657637330578,
+      -53.86675350672987,
+      74.26786219325442
+    ],
+    "width": 670,
+    "height": 561,
+    "rationale": "AI-selected 12 section-label anchors fitted to retained section centres. RMS 0.49 source units; not a metric survey or independent holdout.",
+    "anchors": [
+      {
+        "section": "101",
+        "pixel": [
+          447,
+          155
+        ],
+        "purpose": "fit"
+      },
+      {
+        "section": "102",
+        "pixel": [
+          402,
+          155
+        ],
+        "purpose": "fit"
+      },
+      {
+        "section": "103",
+        "pixel": [
+          351,
+          155
+        ],
+        "purpose": "fit"
+      },
+      {
+        "section": "104",
+        "pixel": [
+          309,
+          155
+        ],
+        "purpose": "fit"
+      },
+      {
+        "section": "201",
+        "pixel": [
+          165,
+          282
+        ],
+        "purpose": "fit"
+      },
+      {
+        "section": "204",
+        "pixel": [
+          235,
+          429
+        ],
+        "purpose": "fit"
+      },
+      {
+        "section": "205",
+        "pixel": [
+          294,
+          414
+        ],
+        "purpose": "fit"
+      },
+      {
+        "section": "206",
+        "pixel": [
+          346,
+          414
+        ],
+        "purpose": "fit"
+      },
+      {
+        "section": "207",
+        "pixel": [
+          399,
+          414
+        ],
+        "purpose": "fit"
+      },
+      {
+        "section": "208",
+        "pixel": [
+          451,
+          414
+        ],
+        "purpose": "fit"
+      },
+      {
+        "section": "212",
+        "pixel": [
+          616,
+          283
+        ],
+        "purpose": "fit"
+      },
+      {
+        "section": "218",
+        "pixel": [
+          238,
+          139
+        ],
+        "purpose": "fit"
+      }
+    ],
+    "coordinateFrame": "source-model-units",
+    "metricCalibrated": false,
+    "independentHoldoutPassed": false,
+    "allowDistances": false,
+    "allowPublication": false
+  },
+  "fixedSeats": {
+    "policy": "reuse-verbatim",
+    "count": 11256,
+    "assetSha256": "00997082ef8d8c46f9c5af3a600888b984cdc4f616d74d6dc305b48f806cf0e9",
+    "identityPositionSha256": "83875f27f1948c41cd13c7f5d41c5b3747f3acefe8918bdd4acf6f0c77a7c2f7"
+  },
+  "stage": [
+    {
+      "id": "stage",
+      "label": "BÜHNE / STAGE",
+      "kind": "stage",
+      "color": "#ad8d4d",
+      "height": 1.5,
+      "pixels": [
+        [
+          449,
+          244
+        ],
+        [
+          543,
+          244
+        ],
+        [
+          543,
+          320
+        ],
+        [
+          449,
+          320
+        ],
+        [
+          430,
+          294
+        ],
+        [
+          358,
+          294
+        ],
+        [
+          350,
+          306
+        ],
+        [
+          322,
+          306
+        ],
+        [
+          309,
+          282
+        ],
+        [
+          322,
+          263
+        ],
+        [
+          350,
+          263
+        ],
+        [
+          358,
+          275
+        ],
+        [
+          430,
+          275
+        ]
+      ],
+      "polygon": [
+        [
+          -7.513122123456384,
+          -14.416840564940287
+        ],
+        [
+          -7.517828437757878,
+          -32.86929896961843
+        ],
+        [
+          6.927189912055958,
+          -33.038980950055546
+        ],
+        [
+          6.931896226357452,
+          -14.586522545377406
+        ],
+        [
+          1.9911306987687567,
+          -10.798721216073986
+        ],
+        [
+          1.9947355352550034,
+          3.335076710913526
+        ],
+        [
+          4.275928443665599,
+          4.878706811153052
+        ],
+        [
+          4.277330324521365,
+          10.375183782759315
+        ],
+        [
+          -0.2836035442706404,
+          12.980703302872442
+        ],
+        [
+          -3.895509004978564,
+          10.471188061164526
+        ],
+        [
+          -3.8969108858343304,
+          4.974711089558269
+        ],
+        [
+          -1.6165190521984556,
+          3.3774972060228095
+        ],
+        [
+          -1.6201238886847023,
+          -10.756300720964703
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    }
+  ],
+  "zones": [
+    {
+      "id": "standing-floor",
+      "label": "INNENRAUM STEHPLATZ",
+      "kind": "standing",
+      "color": "#63518b",
+      "height": 0.035,
+      "pixels": [
+        [
+          271,
+          208
+        ],
+        [
+          489,
+          208
+        ],
+        [
+          489,
+          237
+        ],
+        [
+          449,
+          237
+        ],
+        [
+          429,
+          269
+        ],
+        [
+          361,
+          269
+        ],
+        [
+          354,
+          257
+        ],
+        [
+          318,
+          257
+        ],
+        [
+          302,
+          282
+        ],
+        [
+          318,
+          313
+        ],
+        [
+          354,
+          313
+        ],
+        [
+          361,
+          300
+        ],
+        [
+          429,
+          300
+        ],
+        [
+          449,
+          328
+        ],
+        [
+          489,
+          328
+        ],
+        [
+          489,
+          356
+        ],
+        [
+          271,
+          356
+        ],
+        [
+          257,
+          350
+        ],
+        [
+          247,
+          340
+        ],
+        [
+          242,
+          329
+        ],
+        [
+          242,
+          299
+        ],
+        [
+          221,
+          299
+        ],
+        [
+          221,
+          270
+        ],
+        [
+          242,
+          270
+        ],
+        [
+          242,
+          236
+        ],
+        [
+          250,
+          221
+        ],
+        [
+          258,
+          213
+        ]
+      ],
+      "polygon": [
+        [
+          -14.346587279657307,
+          20.605424429500538
+        ],
+        [
+          -14.357501923462898,
+          -22.18857484943389
+        ],
+        [
+          -8.84558702682341,
+          -22.253321920916477
+        ],
+        [
+          -8.843584339886604,
+          -14.401211961478978
+        ],
+        [
+          -2.760470007022903,
+          -10.546602026154801
+        ],
+        [
+          -2.757065439230331,
+          2.8019849048889682
+        ],
+        [
+          -5.037507340039632,
+          4.202896039438514
+        ],
+        [
+          -5.035704921796501,
+          11.269795002932263
+        ],
+        [
+          -0.2832530740567023,
+          14.354822545774006
+        ],
+        [
+          5.607992809645275,
+          11.144766175241749
+        ],
+        [
+          5.606190391402144,
+          4.077867211748
+        ],
+        [
+          3.1349815192463666,
+          2.732772518131725
+        ],
+        [
+          3.1315769514537948,
+          -10.615814412912044
+        ],
+        [
+          8.452424473706273,
+          -14.60438380647605
+        ],
+        [
+          8.450421786769468,
+          -22.45649376591355
+        ],
+        [
+          13.772270652490356,
+          -22.519008179758814
+        ],
+        [
+          13.783185296295947,
+          20.274991099175608
+        ],
+        [
+          12.643490051212218,
+          23.036625530802723
+        ],
+        [
+          10.743330413760383,
+          25.021979597035404
+        ],
+        [
+          8.652854409522853,
+          26.028052575975728
+        ],
+        [
+          2.9508734819647557,
+          26.095032305095643
+        ],
+        [
+          2.951924892606584,
+          30.217390033800335
+        ],
+        [
+          -2.5599900040329047,
+          30.28213710528292
+        ],
+        [
+          -2.561041414674733,
+          26.15977937657823
+        ],
+        [
+          -9.023286465907233,
+          26.235689736247473
+        ],
+        [
+          -11.874677467073639,
+          24.698757608919934
+        ],
+        [
+          -13.395606251809824,
+          23.14619687813107
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    }
+  ],
+  "equipment": [],
+  "temporarySeats": [],
+  "closedSections": null,
+  "audit": {
+    "finiteCoordinates": true,
+    "simplePolygons": true,
+    "modelEnvelopeOutsideVertices": [],
+    "seatEnvelopeConflicts": [],
+    "metricCalibrated": false,
+    "independentHoldoutPassed": false,
+    "blockers": [
+      "图中缺少独立区号／尺度锚点，配准尚未核实",
+      "固定看台票号沿用第三方来源，未整体独立认证"
+    ],
+    "scope": "Checks use the source-seat-derived rectangular model envelope, not an independently surveyed building boundary."
+  },
+  "notes": [
+    "All floor areas shown are standing. No floor seats or ticket numbers generated.",
+    "Height and stage performer are illustrative; actual closures and current availability are unknown."
+  ]
+}

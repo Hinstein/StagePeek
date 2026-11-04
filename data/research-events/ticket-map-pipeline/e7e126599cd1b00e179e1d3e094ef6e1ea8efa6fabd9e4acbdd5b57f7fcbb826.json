@@ -1,0 +1,558 @@
+{
+  "schemaVersion": 1,
+  "id": "accor-gaga-20251117",
+  "status": "research-preview",
+  "publicationStatus": "not-published",
+  "event": {
+    "name": "Lady Gaga — The MAYHEM Ball",
+    "dates": [
+      "2025-11-17",
+      "2025-11-18",
+      "2025-11-20",
+      "2025-11-22"
+    ],
+    "timezone": "Europe/Paris",
+    "bindingNote": "Official Accor page confirms these four historical dates. Secondary audience-shared Ticketmaster screenshot describes the Paris layout; it is not independently authenticated or a current sale map."
+  },
+  "venueId": "twcv-accor-arena-paris",
+  "seatLayoutId": "acc",
+  "source": {
+    "path": "data/research-events/accor-gaga-20251117/ticket-map.jpeg",
+    "url": "https://www.reddit.com/r/LadyGaga/comments/1ncuejw/paris_show_map_how_big_is_the_golden_circle/",
+    "sha256": "2538383d2d245be77867794d3ff5cf660c8a9d87ca30df7aaf1a77ca4fe20616",
+    "retrievedAt": "2026-11-03T05:35:48.970Z",
+    "rights": "Retained for local research only; redistribution undecided.",
+    "bytes": 338229
+  },
+  "eventSource": {
+    "path": "data/research-events/accor-gaga-20251117/official.html",
+    "url": "https://www.accorarena.com/en/events-and-tickets/lady-gaga--88d1b",
+    "sha256": "2d52125232306a2d96ffab6499165561ee3ce515cf85f97e68edd1fe3ea8cef8",
+    "retrievedAt": "2026-11-03T05:35:48.970Z",
+    "rights": "Retained for local research only; redistribution undecided.",
+    "bytes": 323993
+  },
+  "registration": {
+    "matrix": [
+      -0.12352615718731708,
+      0.08538777384353702,
+      -0.0943104684836731,
+      -0.14512288476265914,
+      41.98686950177109,
+      140.2911256686612
+    ],
+    "anchors": [
+      {
+        "section": "A",
+        "pixel": [
+          464,
+          281
+        ],
+        "purpose": "comparison"
+      },
+      {
+        "section": "U",
+        "pixel": [
+          548,
+          230
+        ],
+        "purpose": "fit"
+      },
+      {
+        "section": "T",
+        "pixel": [
+          658,
+          282
+        ],
+        "purpose": "fit"
+      },
+      {
+        "section": "B",
+        "pixel": [
+          500,
+          386
+        ],
+        "purpose": "fit"
+      },
+      {
+        "section": "C",
+        "pixel": [
+          484,
+          457
+        ],
+        "purpose": "comparison"
+      },
+      {
+        "section": "D",
+        "pixel": [
+          488,
+          514
+        ],
+        "purpose": "fit"
+      },
+      {
+        "section": "E",
+        "pixel": [
+          527,
+          568
+        ],
+        "purpose": "comparison"
+      },
+      {
+        "section": "F",
+        "pixel": [
+          568,
+          620
+        ],
+        "purpose": "fit"
+      },
+      {
+        "section": "G",
+        "pixel": [
+          617,
+          700
+        ],
+        "purpose": "comparison"
+      },
+      {
+        "section": "H",
+        "pixel": [
+          671,
+          768
+        ],
+        "purpose": "fit"
+      },
+      {
+        "section": "I",
+        "pixel": [
+          728,
+          785
+        ],
+        "purpose": "comparison"
+      },
+      {
+        "section": "J",
+        "pixel": [
+          846,
+          767
+        ],
+        "purpose": "comparison"
+      },
+      {
+        "section": "K",
+        "pixel": [
+          909,
+          703
+        ],
+        "purpose": "fit"
+      },
+      {
+        "section": "M",
+        "pixel": [
+          944,
+          575
+        ],
+        "purpose": "comparison"
+      },
+      {
+        "section": "N",
+        "pixel": [
+          915,
+          520
+        ],
+        "purpose": "fit"
+      },
+      {
+        "section": "O",
+        "pixel": [
+          867,
+          454
+        ],
+        "purpose": "comparison"
+      },
+      {
+        "section": "P",
+        "pixel": [
+          815,
+          392
+        ],
+        "purpose": "fit"
+      }
+    ],
+    "width": 1258,
+    "height": 1264,
+    "rationale": "AI-selected section-label anchors in an oblique ticket-map screenshot fitted to retained section centres. Approximate source units; 6.8-unit fit RMS. Not a measured registration.",
+    "coordinateFrame": "source-model-units",
+    "metricCalibrated": false,
+    "independentHoldoutPassed": false,
+    "allowDistances": false,
+    "allowPublication": false
+  },
+  "fixedSeats": {
+    "policy": "reuse-verbatim",
+    "count": 14493,
+    "assetSha256": "d915f968e20006c2acb5e604b861ff5089e32a76cd177d28bf21e20daed3a05c",
+    "identityPositionSha256": "753ad99fb81928fa3ad71705ecdc6401f5323a054afb55984089eb85c52d1d68"
+  },
+  "stage": [
+    {
+      "id": "stage",
+      "label": "STAGE / RUNWAY",
+      "kind": "stage",
+      "color": "#ad8d4d",
+      "height": 1.5,
+      "pixels": [
+        [
+          694,
+          550
+        ],
+        [
+          718,
+          536
+        ],
+        [
+          766,
+          604
+        ],
+        [
+          797,
+          586
+        ],
+        [
+          823,
+          628
+        ],
+        [
+          762,
+          669
+        ],
+        [
+          738,
+          628
+        ],
+        [
+          745,
+          624
+        ]
+      ],
+      "polygon": [
+        [
+          3.222992027718405,
+          -4.977926078470432
+        ],
+        [
+          -0.9370645785867353,
+          -5.2096569354013695
+        ],
+        [
+          -1.0599515022174373,
+          -19.604915586478512
+        ],
+        [
+          -6.426242304207932,
+          -19.916328183744497
+        ],
+        [
+          -6.05163588964961,
+          -28.46356152435169
+        ],
+        [
+          4.984358426361737,
+          -28.66066122211663
+        ],
+        [
+          4.448087471272338,
+          -20.447171703239462
+        ],
+        [
+          3.241853275586962,
+          -20.526853443574538
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    }
+  ],
+  "zones": [
+    {
+      "id": "gold-left",
+      "label": "FOSSE OR GAUCHE",
+      "kind": "standing",
+      "color": "#806aa9",
+      "height": 0.035,
+      "pixels": [
+        [
+          674,
+          575
+        ],
+        [
+          696,
+          563
+        ],
+        [
+          738,
+          624
+        ],
+        [
+          711,
+          642
+        ]
+      ],
+      "polygon": [
+        [
+          7.828209517553162,
+          -6.719788827863454
+        ],
+        [
+          4.085980773309743,
+          -7.053144517352365
+        ],
+        [
+          4.106536375898187,
+          -19.866680164188836
+        ],
+        [
+          8.978722549139412,
+          -19.93250944085753
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "gold-right",
+      "label": "FOSSE OR DROITE",
+      "kind": "standing",
+      "color": "#806aa9",
+      "height": 0.035,
+      "pixels": [
+        [
+          749,
+          554
+        ],
+        [
+          787,
+          535
+        ],
+        [
+          815,
+          580
+        ],
+        [
+          776,
+          606
+        ]
+      ],
+      "polygon": [
+        [
+          -3.2293955222098987,
+          -10.745493384123108
+        ],
+        [
+          -9.54575719835514,
+          -11.571956376012167
+        ],
+        [
+          -9.16203977664086,
+          -20.74317930787467
+        ],
+        [
+          -2.1244375264035327,
+          -20.83826604084055
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "general-floor",
+      "label": "FOSSE",
+      "kind": "standing",
+      "color": "#546a8e",
+      "height": 0.035,
+      "pixels": [
+        [
+          578,
+          474
+        ],
+        [
+          594,
+          458
+        ],
+        [
+          611,
+          463
+        ],
+        [
+          658,
+          433
+        ],
+        [
+          664,
+          410
+        ],
+        [
+          689,
+          408
+        ],
+        [
+          695,
+          439
+        ],
+        [
+          713,
+          451
+        ],
+        [
+          731,
+          488
+        ],
+        [
+          749,
+          532
+        ],
+        [
+          717,
+          548
+        ],
+        [
+          694,
+          541
+        ],
+        [
+          669,
+          561
+        ],
+        [
+          681,
+          578
+        ],
+        [
+          710,
+          643
+        ],
+        [
+          685,
+          659
+        ],
+        [
+          643,
+          584
+        ],
+        [
+          609,
+          520
+        ]
+      ],
+      "polygon": [
+        [
+          11.062555449338362,
+          16.991427507597734
+        ],
+        [
+          7.719932552844696,
+          17.804426168061497
+        ],
+        [
+          6.046926749878004,
+          15.47553378002577
+        ],
+        [
+          -2.32043585323202,
+          15.396628304172907
+        ],
+        [
+          -5.025511594757269,
+          18.16859184281202
+        ],
+        [
+          -8.284441072127272,
+          16.10107590024552
+        ],
+        [
+          -6.378577026101524,
+          11.03640366170103
+        ],
+        [
+          -7.577394569350794,
+          7.5973406118430375
+        ],
+        [
+          -6.641517766511633,
+          0.5302054429185148
+        ],
+        [
+          -5.107926546767715,
+          -7.552789919344605
+        ],
+        [
+          0.21111486472303653,
+          -6.856821084069622
+        ],
+        [
+          2.4545020631265686,
+          -3.671820115606522
+        ],
+        [
+          7.250411469680223,
+          -4.216516098767869
+        ],
+        [
+          7.2196897387725585,
+          -7.815330761537155
+        ],
+        [
+          9.18763648017027,
+          -19.983321857136502
+        ],
+        [
+          13.641994791349788,
+          -19.94752630124725
+        ],
+        [
+          12.42601035495182,
+          -5.10227026773353
+        ],
+        [
+          11.161082173334236,
+          7.392150285521552
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    }
+  ],
+  "equipment": [],
+  "temporarySeats": [],
+  "closedSections": null,
+  "audit": {
+    "finiteCoordinates": true,
+    "simplePolygons": true,
+    "modelEnvelopeOutsideVertices": [],
+    "seatEnvelopeConflicts": [],
+    "metricCalibrated": false,
+    "independentHoldoutPassed": false,
+    "blockers": [
+      "图中缺少独立区号／尺度锚点，配准尚未核实",
+      "固定看台票号沿用第三方来源，未整体独立认证"
+    ],
+    "scope": "Checks use the source-seat-derived rectangular model envelope, not an independently surveyed building boundary."
+  },
+  "notes": [
+    "Historical concert preview. The source image contains audience markup; red annotations are excluded from geometry.",
+    "The floor is standing; no floor ticket numbers or chairs are invented. Stage height and performer are illustrative.",
+    "Fixed source seats are retained unchanged. Actual concert closures and capacity are unknown."
+  ]
+}

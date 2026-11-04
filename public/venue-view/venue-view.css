@@ -1,0 +1,56 @@
+/* Every venue entry uses this layout; adapters only draw scene content. */
+.venue-view-shell{position:relative;display:flex;flex-direction:column;isolation:isolate;overflow:hidden;height:auto;min-height:0;max-height:none;background:var(--venue-background);color:var(--venue-label);border-radius:12px}
+.venue-view-shell .venue-view-bar{position:relative;display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;padding:8px 10px;background:var(--venue-background);z-index:3;flex-shrink:0}
+.venue-view-modes,.venue-view-actions,.venue-view-zooms,.venue-view-map-tools{display:flex;align-items:center;gap:5px;flex-wrap:wrap}
+.venue-view-modes{flex:none}.venue-view-fullscreen{margin-left:auto;flex:none}
+.venue-view-shell button{font-size:11px;min-height:34px;padding:6px 9px;border-radius:10px;background:#111b23;color:var(--venue-label);border:1px solid #34454e;white-space:nowrap}
+.venue-view-shell button[aria-pressed=true],.venue-view-shell button[aria-pressed=true]:hover:not(:disabled){background:var(--venue-selected);border-color:var(--venue-selected);color:#101a0b}
+.venue-view-shell button:disabled{opacity:.4;cursor:not-allowed}.venue-view-zooms span,.venue-view-map-tools output{font-size:11px}
+.venue-view-slots{display:flex;flex-wrap:wrap;gap:6px;width:100%;min-width:0;align-items:center}.venue-view-slots:empty{display:none}
+.venue-view-shell .venue-view-slots .map-levels,.venue-view-shell .venue-view-slots .map-layers{position:static;margin:0;padding:0;flex-basis:auto;background:none;border:0;max-width:100%;height:auto;box-shadow:none}
+.venue-view-shell .venue-view-slots .map-layer-status{font-size:10px;white-space:normal}
+.venue-view-shell .venue-view-stage{position:relative;flex:1 1 auto;height:510px;min-height:340px;width:100%;overflow:hidden}
+.venue-view-shell .venue-view-stage>canvas,.venue-view-shell .venue-view-stage>svg{position:absolute;inset:0;display:block;width:100%;height:100%;touch-action:none}
+.venue-view-shell [hidden],.venue-view-shell .venue-view-stage>[hidden]{display:none!important}
+.venue-view-shell .venue-view-selection{position:static;padding:3px 12px 5px;margin:0!important;flex-shrink:0;background:var(--venue-background);font-size:12px;line-height:1.5;color:var(--venue-reference)}
+.venue-view-selection .selection-tag{position:static;padding:0;background:none;border:0;color:inherit;max-width:100%;font-size:inherit}
+.venue-view-shell .venue-view-hint{flex-shrink:0;padding:7px 12px;font-size:11px;line-height:1.5;color:#c2b5d8;background:var(--venue-background)}
+.venue-view-shell .roof-note{bottom:12px;left:auto;right:12px;background:var(--venue-background);color:var(--venue-label)}
+.venue-view-shell:is(:fullscreen,.is-expanded){position:fixed;inset:0;z-index:1000;width:100vw;height:100dvh;min-height:0;max-height:none;border-radius:0}
+.venue-view-shell:is(:fullscreen,.is-expanded) .venue-view-stage{height:0;min-height:0;flex:1 1 0}
+.venue-ticket-form{display:grid!important;grid-template-columns:minmax(180px,2fr) repeat(3,minmax(80px,1fr)) auto;gap:12px;align-items:end;margin-bottom:14px}
+.venue-ticket-form>label{margin:0!important;min-width:0;display:grid;gap:8px}.venue-ticket-form input,.venue-ticket-form select{width:100%;min-width:0;box-sizing:border-box}.venue-ticket-form>button{height:44px;white-space:nowrap}
+@media(max-width:800px){.venue-ticket-form{grid-template-columns:repeat(3,minmax(0,1fr))}.venue-ticket-form>label:first-of-type,.venue-ticket-form>button{grid-column:1/-1}.venue-view-shell .venue-view-stage{height:440px}.venue-view-shell button{font-size:10px;min-height:38px;padding:7px 9px}.venue-view-slots{max-height:100px;overflow:auto}}
+
+.venue-ticket-form .venue-picker{min-width:0;grid-column:1 / -1}.venue-ticket-form .form-help{grid-column:1 / -1}
+.live-screen.venue-preview-host{height:auto;aspect-ratio:auto;min-height:0}.venue-preview-host .venue-view-shell{border-radius:0}.venue-preview-host .venue-view-stage{height:340px;min-height:260px}.venue-preview-host .venue-view-bar{gap:4px;padding:6px}.venue-preview-host .venue-view-shell button{min-height:32px;padding:5px 7px;font-size:10px}
+
+.venue-view-shell .camera-reticle{position:absolute;inset:auto;left:var(--frame-x);top:var(--frame-y);width:var(--frame-width);height:var(--frame-height);box-sizing:border-box;border:1px solid var(--venue-selected);border-radius:3px;z-index:1;pointer-events:none}
+.venue-view-shell .camera-reticle .venue-view-frame-caption{position:absolute;top:10px;left:12px;font-size:10px;color:var(--venue-label);text-shadow:0 1px 4px #000}
+.venue-view-shell .camera-reticle i{position:absolute;left:50%;top:50%;width:30px;height:30px;transform:translate(-50%,-50%);border:1px solid #ffffff80;border-radius:3px}
+.venue-view-shell .roof-note{position:absolute;z-index:2;padding:4px 8px;border-radius:5px;font-size:10px;pointer-events:none}
+
+/* Legacy venue styles must not collapse a canvas after it moves into the shared stage. */
+.venue-view-shell:is(:fullscreen,.is-expanded) .venue-view-stage>canvas,.venue-view-shell:is(:fullscreen,.is-expanded) .venue-view-stage>svg{flex:none;min-height:0;height:100%;width:100%}
+
+/* The phone frame owns zoom; the remaining frame stays transparent to gaze gestures. */
+.venue-view-shell .camera-reticle .venue-view-zooms{position:absolute;bottom:12px;left:50%;transform:translateX(-50%);display:grid;grid-template-columns:auto minmax(80px,1fr) auto;gap:4px 8px;width:min(280px,calc(100% - 24px));box-sizing:border-box;padding:8px 12px;border:1px solid #64547c;border-radius:14px;background:#101322ed;pointer-events:auto;touch-action:auto;color:var(--venue-label)}
+.venue-view-shell .camera-reticle .venue-view-zoom-title{position:static;inset:auto;grid-column:1/3;font-size:11px}.venue-view-zooms output{font-size:12px;font-variant-numeric:tabular-nums;text-align:right;color:var(--venue-selected)}
+.venue-view-zooms b{font-size:10px;align-self:center;font-weight:500}.venue-view-shell .venue-view-zooms input[type=range]{width:100%;min-width:0;height:26px;margin:0;padding:0;accent-color:var(--venue-selected);cursor:ew-resize;touch-action:pan-x;box-shadow:none}
+.venue-view-zooms input:focus-visible{outline:2px solid var(--venue-selected);outline-offset:3px;border-radius:6px}
+
+/* Two compact shared rows: mode/zoom, then levels/layers. Detailed state is opt-in. */
+.venue-view-shell .venue-view-actions{flex:1;min-width:0;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:thin}
+.venue-view-shell .venue-view-slots .map-layer-status{display:block;margin:6px 0 0;max-width:420px;line-height:1.5}
+.venue-view-shell .venue-view-layer-info{position:relative;font-size:10px;color:#b9abc9}
+.venue-view-layer-info>summary{cursor:pointer;padding:7px 4px;white-space:nowrap}
+.venue-view-layer-info[open]>.map-layer-status{position:absolute;top:100%;right:0;z-index:5;width:260px;box-sizing:border-box;padding:10px;border:1px solid #514564;border-radius:8px;background:#171523;box-shadow:0 6px 20px #0006}
+@media(max-width:800px){
+ .venue-view-shell .venue-view-bar{gap:6px;padding:8px}
+ .venue-view-shell .venue-view-actions{order:4;flex:1 0 100%;flex-wrap:nowrap;overflow-x:auto;padding-bottom:2px;scrollbar-width:thin}
+ .venue-view-shell .venue-view-slots{order:5;max-height:none;overflow:visible}
+ .venue-view-shell .venue-view-slots .map-layers{flex-wrap:wrap}
+ .venue-view-shell button{min-height:34px;padding:6px 8px}
+ .venue-view-shell .venue-view-layer-info{position:static}
+ .venue-view-shell .venue-view-layer-info[open]>.map-layer-status{right:8px;left:8px;width:auto}
+}

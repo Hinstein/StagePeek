@@ -1,0 +1,94 @@
+[
+  {
+    "venue": "accor-arena-paris",
+    "fixedEye": true,
+    "phoneRatio": 1.3333230503455085,
+    "roof": true,
+    "floorPose": null,
+    "unknownRejected": true,
+    "baseCleared": true
+  },
+  {
+    "venue": "ziggo-dome-amsterdam",
+    "fixedEye": true,
+    "phoneRatio": 1.3333230503455085,
+    "roof": true,
+    "floorPose": null,
+    "unknownRejected": true,
+    "baseCleared": true
+  },
+  {
+    "venue": "uber-arena-berlin",
+    "fixedEye": true,
+    "phoneRatio": 1.3333230503455085,
+    "roof": true,
+    "floorPose": null,
+    "unknownRejected": true,
+    "baseCleared": true
+  },
+  {
+    "venue": "kia-forum-los-angeles",
+    "fixedEye": true,
+    "phoneRatio": 1.3333230503455085,
+    "roof": true,
+    "floorPose": {
+      "camera": "seat",
+      "illustrative": "true",
+      "selection": "A · 内场示意视点 · 无票号"
+    },
+    "unknownRejected": true,
+    "baseCleared": true
+  },
+  {
+    "venue": "united-center-chicago",
+    "fixedEye": true,
+    "phoneRatio": 1.3333230503455085,
+    "roof": true,
+    "floorPose": {
+      "camera": "seat",
+      "illustrative": "true",
+      "selection": "1 · 内场示意视点 · 无票号"
+    },
+    "unknownRejected": true,
+    "baseCleared": true
+  },
+  {
+    "venue": "ubs-arena-new-york",
+    "fixedEye": true,
+    "phoneRatio": 1.3333230503455085,
+    "roof": true,
+    "floorPose": {
+      "camera": "seat",
+      "illustrative": "true",
+      "selection": "1 · 内场示意视点 · 无票号"
+    },
+    "unknownRejected": true,
+    "baseCleared": true
+  },
+  {
+    "venue": "prudential-center-newark",
+    "fixedEye": true,
+    "phoneRatio": 1.3333230503455085,
+    "roof": true,
+    "floorPose": {
+      "camera": "seat",
+      "illustrative": "true",
+      "selection": "A · 内场示意视点 · 无票号"
+    },
+    "unknownRejected": true,
+    "baseCleared": true
+  },
+  {
+    "venue": "state-farm-arena-atlanta",
+    "fixedEye": true,
+    "phoneRatio": 1.3333230503455085,
+    "roof": true,
+    "floorPose": {
+      "camera": "seat",
+      "illustrative": "true",
+      "selection": "1 · 内场示意视点 · 无票号"
+    },
+    "unknownRejected": true,
+    "baseCleared": true
+  }
+]

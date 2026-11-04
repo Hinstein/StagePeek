@@ -1,0 +1,333 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://eihl.analysis.hockey/assets/experiments/hydro/ovo-hydro-hockey-sightlines.blend",
+  "sourceSha256": "f758eb30766a0d219c20f3c1a9c00e7f1576773bfa1c9923154d4c03bbb3d193",
+  "coordinateBasis": "Third-party approximate Blender model, Z-up; not surveyed seat coordinates",
+  "method": "SDNA object loc and custom properties; section mesh angular bounds; sourceFraction=(atan2(y,x)-minAngle)/(maxAngle-minAngle). Local row direction is reversed.",
+  "objects": [
+    {
+      "object": "OBREF_204_d_66_key",
+      "section": "204",
+      "row": "D",
+      "seat": "66",
+      "modelPosition": [
+        36.3283805847168,
+        13.382241249084473,
+        8.15999984741211
+      ],
+      "sectionAngles": [
+        0.17453291692295847,
+        0.4072435187047896
+      ],
+      "sourceFraction": 0.7666665965163892,
+      "mappingStatus": "manifest match",
+      "mappingNotes": "Exact row and seat match"
+    },
+    {
+      "object": "OBREF_205_b_79_key",
+      "section": "205",
+      "row": "B",
+      "seat": "79",
+      "modelPosition": [
+        32.56795883178711,
+        17.632482528686523,
+        7.519999980926514
+      ],
+      "sectionAngles": [
+        0.4072434687649639,
+        0.639954079932568
+      ],
+      "sourceFraction": 0.3823529538490427,
+      "mappingStatus": "manifest match",
+      "mappingNotes": "Exact row and seat match"
+    },
+    {
+      "object": "OBREF_206_e_97_key",
+      "section": "206",
+      "row": "E",
+      "seat": "97",
+      "modelPosition": [
+        29.27678871154785,
+        27.621225357055664,
+        8.649999618530273
+      ],
+      "sectionAngles": [
+        0.6399540296250873,
+        0.8726646403676012
+      ],
+      "sourceFraction": 0.5000000148385582,
+      "mappingStatus": "inferred",
+      "mappingNotes": "row E absent from event manifest; placed immediately behind row D; seat number unavailable; centred within section"
+    },
+    {
+      "object": "OBREF_208_c_121_key",
+      "section": "208",
+      "row": "C",
+      "seat": "121",
+      "modelPosition": [
+        16.083351135253906,
+        34.29032516479492,
+        7.840000152587891
+      ],
+      "sectionAngles": [
+        1.105375172740695,
+        1.3380857777932755
+      ],
+      "sourceFraction": 0.1153846702946315,
+      "mappingStatus": "manifest match",
+      "mappingNotes": "Exact row and seat match"
+    },
+    {
+      "object": "OBREF_210_d_162_key",
+      "section": "210",
+      "row": "D",
+      "seat": "162",
+      "modelPosition": [
+        -5.868020534515381,
+        38.26750564575195,
+        8.15999984741211
+      ],
+      "sectionAngles": [
+        1.5707963267948966,
+        1.803506901462772
+      ],
+      "sourceFraction": 0.6538461512016909,
+      "mappingStatus": "manifest match",
+      "mappingNotes": "Exact row and seat match"
+    },
+    {
+      "object": "OBREF_218_a_301_key",
+      "section": "218",
+      "row": "A",
+      "seat": "301",
+      "modelPosition": [
+        -31.506338119506836,
+        -17.81612205505371,
+        7.199999809265137
+      ],
+      "sectionAngles": [
+        -2.8507044494672,
+        -2.6179938671352736
+      ],
+      "sourceFraction": 0.9615383084125122,
+      "mappingStatus": "manifest match",
+      "mappingNotes": "Exact row and seat match"
+    },
+    {
+      "object": "OBREF_218_e_292_key",
+      "section": "218",
+      "row": "E",
+      "seat": "292",
+      "modelPosition": [
+        -36.95819854736328,
+        -15.94221019744873,
+        8.649999618530273
+      ],
+      "sectionAngles": [
+        -2.8507044494672,
+        -2.6179938671352736
+      ],
+      "sourceFraction": 0.49999993825391237,
+      "mappingStatus": "inferred",
+      "mappingNotes": "row E absent from event manifest; placed immediately behind row D; seat number unavailable; centred within section"
+    },
+    {
+      "object": "OBREF_222_h_28_key",
+      "section": "222",
+      "row": "H",
+      "seat": "28",
+      "modelPosition": [
+        41.05342483520508,
+        -6.747282981872559,
+        13.600000381469727
+      ],
+      "sectionAngles": [
+        -0.2908882288350132,
+        -0.05817763850206891
+      ],
+      "sourceFraction": 0.550000019317521,
+      "mappingStatus": "manifest match",
+      "mappingNotes": "Exact row and seat match"
+    },
+    {
+      "object": "OBREF_222_s_37_key",
+      "section": "222",
+      "row": "S",
+      "seat": "37",
+      "modelPosition": [
+        48.97639465332031,
+        -6.013545036315918,
+        17.3799991607666
+      ],
+      "sectionAngles": [
+        -0.2908882288350132,
+        -0.05817763850206891
+      ],
+      "sourceFraction": 0.7250000203201368,
+      "mappingStatus": "manifest match",
+      "mappingNotes": "Exact row and seat match"
+    },
+    {
+      "object": "OBREF_225_h_104_key",
+      "section": "225",
+      "row": "H",
+      "seat": "104",
+      "modelPosition": [
+        38.007328033447266,
+        16.921953201293945,
+        13.600000381469727
+      ],
+      "sectionAngles": [
+        0.4072434579091076,
+        0.6399540859200588
+      ],
+      "sourceFraction": 0.050000181954729585,
+      "mappingStatus": "manifest match",
+      "mappingNotes": "Exact row and seat match"
+    },
+    {
+      "object": "OBREF_231_n_254_key",
+      "section": "231",
+      "row": "N",
+      "seat": "254",
+      "modelPosition": [
+        -18.824880599975586,
+        41.8666877746582,
+        15.699999809265137
+      ],
+      "sectionAngles": [
+        1.8035068881954261,
+        2.0362174566471185
+      ],
+      "sourceFraction": 0.8157894118546942,
+      "mappingStatus": "manifest match",
+      "mappingNotes": "Exact row and seat match"
+    },
+    {
+      "object": "OBREF_232_m_263_key",
+      "section": "232",
+      "row": "M",
+      "seat": "263",
+      "modelPosition": [
+        -20.605148315429688,
+        40.05506134033203,
+        15.279999732971191
+      ],
+      "sectionAngles": [
+        2.0362174375037823,
+        2.268928042799068
+      ],
+      "sourceFraction": 0.041666792059267356,
+      "mappingStatus": "manifest match",
+      "mappingNotes": "Exact row and seat match"
+    },
+    {
+      "object": "OBREF_232_p_270_key",
+      "section": "232",
+      "row": "P",
+      "seat": "270",
+      "modelPosition": [
+        -24.73265838623047,
+        39.68861389160156,
+        16.1200008392334
+      ],
+      "sectionAngles": [
+        2.0362174375037823,
+        2.268928042799068
+      ],
+      "sourceFraction": 0.3947368040731615,
+      "mappingStatus": "manifest match",
+      "mappingNotes": "Exact row and seat match"
+    },
+    {
+      "object": "OBREF_234_s_320_key",
+      "section": "234",
+      "row": "S",
+      "seat": "320",
+      "modelPosition": [
+        -42.87614440917969,
+        24.423070907592773,
+        17.3799991607666
+      ],
+      "sectionAngles": [
+        2.5016385676697346,
+        2.734349195680686
+      ],
+      "sourceFraction": 0.525000069576673,
+      "mappingStatus": "manifest match",
+      "mappingNotes": "Exact row and seat match"
+    },
+    {
+      "object": "OBREF_235_s_330_key",
+      "section": "235",
+      "row": "S",
+      "seat": "330",
+      "modelPosition": [
+        -45.53297424316406,
+        19.015737533569336,
+        17.3799991607666
+      ],
+      "sectionAngles": [
+        2.7343491485913933,
+        2.9670597417177933
+      ],
+      "sourceFraction": 0.0500000863830268,
+      "mappingStatus": "inferred",
+      "mappingNotes": "seat number outside this event record; clamped within named row"
+    },
+    {
+      "object": "OBREF_330_gg_192_key",
+      "section": "330",
+      "row": "GG",
+      "seat": "192",
+      "modelPosition": [
+        -1.039223551750183,
+        60.70470428466797,
+        25.649999618530273
+      ],
+      "sectionAngles": [
+        1.5707963267948966,
+        1.8675023189092348
+      ],
+      "sourceFraction": 0.05769230548506061,
+      "mappingStatus": "manifest match",
+      "mappingNotes": "Exact row and seat match"
+    },
+    {
+      "object": "OBVIEW_Section_217_C285",
+      "section": "217",
+      "row": "C",
+      "seat": "285",
+      "modelPosition": [
+        -36.70703125,
+        -9.332428932189941,
+        7.840000152587891
+      ],
+      "sectionAngles": [
+        -3.0834150165150604,
+        -2.8507044308803255
+      ],
+      "sourceFraction": 0.8198529847934392,
+      "mappingStatus": "regular",
+      "mappingNotes": "X/Y inferred by mapping ordered manifest seat identity onto model section arc; the manifest itself contains no X/Y coordinates."
+    },
+    {
+      "object": "OBVIEW_Section_218_C293",
+      "section": "218",
+      "row": "C",
+      "seat": "293",
+      "modelPosition": [
+        -35.31740951538086,
+        -13.681416511535645,
+        7.840000152587891
+      ],
+      "sectionAngles": [
+        -2.8507044494672,
+        -2.6179938671352736
+      ],
+      "sourceFraction": 0.33816961034574783,
+      "mappingStatus": "regular",
+      "mappingNotes": "X/Y inferred by mapping ordered manifest seat identity onto model section arc; the manifest itself contains no X/Y coordinates."
+    }
+  ]
+}

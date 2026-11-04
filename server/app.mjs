@@ -14,6 +14,7 @@ import {EmailProvider,GoogleProvider} from './providers.mjs';
 import {TicketmasterProvider,ticketingStatus} from './ticketing.mjs';
 import {analyticsMarkup,ANALYTICS_ORIGIN} from './analytics.mjs';
 import {birdsNestPreview} from './venue-preview.mjs';
+import {adminUsers} from './admin-users.mjs';
 import {createPublicSite,homeMetadata,homeSchema,localizeHomeHtml,localizeInterfaceHtml,publicNavigation,publicFooter,publicHeader} from './public-pages.mjs';
 import {DEFAULT_LOCALE,localizedPath,parseLocalizedPath} from './locales.mjs';
 
@@ -30,7 +31,7 @@ async function body(req,max=16_384,asJson=true) {
   try{const value=JSON.parse(raw.toString('utf8'));if(!value||Array.isArray(value)||typeof value!=='object')throw 0;return value;}catch{throw fault(400,'INVALID_JSON','Invalid JSON body');}
 }
 
-export function createApplication({db,config,venues,events=null,ticketing=null,ticketingEvents=null,candidateEvents=null,publishedEvents=null,fetch:fetcher=fetch,clock=Date.now,logger=()=>{}}) {
+export function createApplication({db,config,venues,events=null,ticketing=null,ticketingEvents=null,candidateEvents=null,publishedEvents=null,concertViews=null,fetch:fetcher=fetch,clock=Date.now,logger=()=>{}}) {
   const publicSite=createPublicSite(venues);
   const shared=(config.production||config.authMode==='supabase')?new SupabaseAuth(db,config,{fetch:fetcher,clock}):null;
   const auth=shared||new AuthService(db,{clock}),email=new EmailProvider(config,{fetch:fetcher}),google=new GoogleProvider(config,{fetch:fetcher}),billing=new BillingService(db,config,{fetch:fetcher,clock});
@@ -50,7 +51,8 @@ export function createApplication({db,config,venues,events=null,ticketing=null,t
     return config.devPreviewAllVenues&&localMode()?{...result,venueIds:venues.ids?venues.ids():result.venueIds}:result;
   }
   async function requireVenue(req,id){const user=req.stagepeekUser;if(!venues.get(id))throw fault(404,'VENUE_NOT_FOUND','Venue not found');if(!(await access(user)).venueIds.includes(id))throw fault(403,'SUBSCRIPTION_REQUIRED','This venue requires a monthly subscription');return user;}
-  async function requireAdmin(req){const current=(await requireUser(req)),admins=config.adminEmails||[];if(shared?!['admin','owner'].includes(current.role):!admins.includes(current.email.toLowerCase()))throw fault(403,'ADMIN_REQUIRED','Administrator access required');return current;}
+  const isAdmin=user=>!!user&&(shared?['admin','owner'].includes(user.role):(config.adminEmails||[]).includes(user.email.toLowerCase()));
+  async function requireAdmin(req){const current=(await requireUser(req));if(!isAdmin(current))throw fault(403,'ADMIN_REQUIRED','Administrator access required');return current;}
   async function startSession(req,res,user){(await auth.revokeSession(cookies(req)[cookieName]));cookie(res,'session',(await auth.createSession(user.id)),30*86400);}
   const server=createServer(async(req,res)=>{
     res.setHeader('X-Content-Type-Options','nosniff');res.setHeader('Referrer-Policy','no-referrer');
@@ -75,9 +77,13 @@ export function createApplication({db,config,venues,events=null,ticketing=null,t
       const handle=async()=>{
       if(path.startsWith('/api/')&&!webhook)(await limit(db,'http:'+hash(req.socket.remoteAddress||''),240,60_000,clock()));
       if(handleShared&&await handleShared(req,res,url,user))return;
+      if(basePath==='/concert-views'||path.startsWith('/concert-views/')||path.startsWith('/api/concert-views/')){
+        if(!concertViews||!config.devPreviewAllVenues||!localMode()||!loopback(req.socket.remoteAddress))throw fault(404,'NOT_FOUND','Not found');
+        if(await concertViews.handle(req,res,url,{path:basePath,locale}))return;
+      }
       if(shared&&user&&!['GET','HEAD'].includes(method)&&!webhook&&!/^\/api\/venues\/[a-z0-9-]+\/resolve$/.test(path)&&(await consentStatus(db,user)).required)throw fault(403,'CONSENT_REQUIRED','请先确认服务条款与隐私政策');
       if((path==='/api/health'||path==='/healthz')&&method==='GET')return json(res,200,{ok:true,service:'stagepeek'});
-      if(path==='/api/me'&&method==='GET')return json(res,200,{user,consent:shared?await consentStatus(db,user):null,access:(await access(user)),providers:{auth:shared?'supabase':'local',emailOtp:!!shared,email:shared?shared.ready:email.ready,password:!!shared,emailRegistration:!!shared&&shared.ready,recovery:!!shared&&!!config.authRecoveryEnabled,google:shared?!!config.authGoogleEnabled:(google.ready||localMode()),billing:billing.ready||localMode(),localEmail:localMode(),localGoogle:localMode()&&!google.ready,localBilling:localMode()&&!billing.ready,localInbox:localMode()&&loopback(req.socket.remoteAddress),ticketing:ticketingStatus(config)},subscription:user?(await db.prepare('SELECT status,period_end,cancel_at_period_end FROM subscriptions WHERE user_id=? ORDER BY period_end DESC LIMIT 1').get(user.id))||null:null});
+      if(path==='/api/me'&&method==='GET')return json(res,200,{user,admin:isAdmin(user),consent:shared?await consentStatus(db,user):null,access:(await access(user)),providers:{auth:shared?'supabase':'local',emailOtp:!!shared,email:shared?shared.ready:email.ready,password:!!shared,emailRegistration:!!shared&&shared.ready,recovery:!!shared&&!!config.authRecoveryEnabled,google:shared?!!config.authGoogleEnabled:(google.ready||localMode()),billing:billing.ready||localMode(),localEmail:localMode(),localGoogle:localMode()&&!google.ready,localBilling:localMode()&&!billing.ready,localInbox:localMode()&&loopback(req.socket.remoteAddress),ticketing:ticketingStatus(config)},subscription:user?(await db.prepare('SELECT status,period_end,cancel_at_period_end FROM subscriptions WHERE user_id=? ORDER BY period_end DESC LIMIT 1').get(user.id))||null:null});
       if(path==='/api/auth/email'&&method==='POST'){
         if(!email.ready)throw fault(503,'EMAIL_NOT_CONFIGURED','Email delivery is not configured');
         const input=await body(req),address=normalizeEmail(input.email);
@@ -164,6 +170,10 @@ export function createApplication({db,config,venues,events=null,ticketing=null,t
       }
       if(path==='/api/admin/event-candidates'&&method==='GET'){
         (await requireAdmin(req));return json(res,200,{...(candidateEvents?.list()||{status:'empty',sets:[],events:[],venues:[]}),ticketing:ticketingEvents?.data||null});
+      }
+      if(path==='/api/admin/users'&&method==='GET'){
+        await requireAdmin(req);
+        return json(res,200,await adminUsers(db,url.searchParams,{shared:!!shared,adminEmails:config.adminEmails,now:clock()}));
       }
       if(path==='/api/admin/access'&&method==='GET'){
         const admin=(await requireAdmin(req)),available=venues.ids?venues.ids():venues.catalog().map(item=>item.id),free=(await freeVenueIds(db,available,config.freeVenueIds||['tottenham']));
@@ -253,11 +263,12 @@ export function createApplication({db,config,venues,events=null,ticketing=null,t
       let decoded;try{decoded=decodeURIComponent(basePath);}catch{throw fault(404,'NOT_FOUND','Not found');}
       // Keep previously shared ticket links and provider returns in the tool.
       const toolPage=basePath==='/explore'||basePath==='/'&&['venue','event','layout','section','row','seat','mode','zoom','depth','lateral','standing','date','account','panel','data','billing','auth','auth_error','login','token','session_id'].some(key=>url.searchParams.has(key));
-      const file=resolve(publicRoot,toolPage?'index.html':decoded==='/'?'home.html':['/auth/login','/auth/register','/auth/verify','/auth/callback','/auth/reset','/auth/password','/auth/continue','/account'].includes(decoded)?'auth.html':'.'+decoded);
+      const file=resolve(publicRoot,toolPage?'index.html':['/admin','/admin/'].includes(decoded)?'admin.html':decoded==='/'?'home.html':['/auth/login','/auth/register','/auth/verify','/auth/callback','/auth/reset','/auth/password','/auth/continue','/account'].includes(decoded)?'auth.html':'.'+decoded);
       if(!file.startsWith(publicRoot+sep)||!MIME[extname(file)]||decoded.split('/').some(x=>x.startsWith('.')||x==='server'||x==='data'))throw fault(404,'NOT_FOUND','Not found');
       let actual,info;try{actual=await realpath(file);info=await stat(actual);}catch{throw fault(404,'NOT_FOUND','Not found');}
       if(!actual.startsWith(publicRoot+sep)||!info.isFile())throw fault(404,'NOT_FOUND','Not found');
       let content=method==='HEAD'?null:await readFile(actual);
+      if(content&&actual.endsWith(sep+'auth.html'))content=Buffer.from(content.toString('utf8').replace('<!--ADMIN-NAVIGATION-->',isAdmin(user)?'<a class="auth-link" href="/admin">管理后台 ↗</a>':''));
       if(basePath.startsWith('/previews/')&&basePath.endsWith('.svg')&&content){
         content=Buffer.from(localizeInterfaceHtml(content.toString('utf8'),locale,basePath));
       }else if(basePath==='/'&&!toolPage&&content){

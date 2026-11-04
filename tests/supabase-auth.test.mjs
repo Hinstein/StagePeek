@@ -34,7 +34,7 @@ test('production forbids local identity and untrusted Auth origins',()=>{
  assert.throws(()=>new SupabaseAuth({}, {...config(),supabaseUrl:'https://attacker.example'}),/shared Supabase/);
  assert.throws(()=>new SupabaseAuth({}, {...config(),authCookieKey:''}),/32 random bytes/);
 });
-test('repeated unconfirmed registration resends the signup code',async()=>{
+test('duplicate registration reports an existing account and only explicit resend sends another code',async()=>{
  const calls=[];
  const auth=new SupabaseAuth({},config(),{fetch:async(url,init)=>{
   const u=new URL(url);calls.push({path:u.pathname,body:init.body?JSON.parse(init.body):null});
@@ -42,7 +42,10 @@ test('repeated unconfirmed registration resends the signup code',async()=>{
   if(u.pathname.endsWith('/resend'))return Response.json({});
   throw new Error('Unexpected mock URL');
  }});
- await auth.register('TEST@example.com','a-long-test-password','en');
+ const existing=await auth.register('TEST@example.com','a-long-test-password','en');
+ assert.deepEqual(existing,{email:'test@example.com',existing:true});
+ assert.deepEqual(calls.map(call=>call.path),['/auth/v1/signup']);
+ await auth.resendSignup('TEST@example.com','en');
  assert.deepEqual(calls.map(call=>call.path),['/auth/v1/signup','/auth/v1/resend']);
  assert.deepEqual(calls[1].body,{type:'signup',email:'test@example.com'});
  const firstSignup=[];
@@ -51,7 +54,8 @@ test('repeated unconfirmed registration resends the signup code',async()=>{
   if(u.pathname.endsWith('/signup'))return Response.json({id:uid,identities:[{provider:'email'}]});
   throw new Error('Unexpected mock URL');
  }});
- await firstAuth.register('new@example.com','a-long-test-password','en');
+ const created=await firstAuth.register('new@example.com','a-long-test-password','en');
+ assert.deepEqual(created,{email:'new@example.com',existing:false});
  assert.deepEqual(firstSignup,['/auth/v1/signup']);
 });
 test('Supabase OTP creates only a project member and rejects reuse; cookie hides credentials',async()=>{

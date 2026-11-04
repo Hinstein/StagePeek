@@ -58,8 +58,13 @@ test('StagePeek canonical metadata, crawler routes and utility noindex stay cons
   assert.match(await tracked.text(),/src="\/analytics.mjs" data-website-id=/);
   assert.match(tracked.headers.get('Content-Security-Policy'),/script-src 'self' https:\/\/analytics.auturance.com/);
   const privateLink=await call('/?row=A&seat=78',{headers});
-  assert.doesNotMatch(await privateLink.text(),/src="\/analytics.mjs"/);
-  assert.doesNotMatch(privateLink.headers.get('Content-Security-Policy'),/analytics.auturance.com/);
+  const privateMarkup=await privateLink.text();
+  const tracker=privateMarkup.match(/<script[^>]*src="\/analytics.mjs"[^>]*><\/script>/)?.[0];
+  assert.ok(tracker);
+  assert.match(tracker,/data-analytics-path="\/explore"/);
+  assert.match(tracker,/data-tool-page="true"/);
+  assert.doesNotMatch(tracker,/row=|seat=|\?row/);
+  assert.match(privateLink.headers.get('Content-Security-Policy'),/script-src 'self' https:\/\/analytics.auturance.com/);
 });
 
 test('homepage preview exposes only fixed Bird’s Nest geometry and keeps full venue access gated',async t=>{

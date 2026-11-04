@@ -1,0 +1,14 @@
+.capability-badges{display:flex;flex-wrap:wrap;gap:6px;padding:10px 20px 14px;border-top:1px solid var(--border)}.capability-badge{border:1px solid var(--border);border-radius:999px;padding:5px 9px;color:var(--muted);font-size:11px;background:#ffffff0a}.theme-arena .capability-badges{border-top-color:#293740}.theme-arena .capability-badge{border-color:#293740;color:#9aa9a9;background:#0d151b}
+.research-v0-notice{display:flex;flex-wrap:wrap;gap:.45rem;padding:.7rem .85rem;border:1px solid #d1a85b;background:#fff8e5;color:#5d4a24;font-size:.78rem}.research-v0-notice strong{color:#3f3420}.research-v0-notice span{padding-left:.45rem;border-left:1px solid #ddc98e}.theme-arena .research-v0-notice{border-color:#8f743a;background:#2d2618;color:#f1d99b}.theme-arena .research-v0-notice strong{color:#ffe7a8}.theme-arena .research-v0-notice span{border-left-color:#6e5b33}
+.theme-arena #map [data-section] polygon{fill:var(--section-fill,#7961aa);stroke:#111a22}
+.theme-arena #map [data-selected="true"] polygon{fill:#c9ff51}
+.theme-arena #map [data-section] path:is([data-source-seat],[data-illustrative-seat],[data-reference-seat]){fill:var(--source-seat-fill,#7961aa)}
+.theme-arena #map [data-selected="true"] path:is([data-source-seat],[data-illustrative-seat],[data-reference-seat]){fill:var(--source-seat-fill,#c9ff51)}
+.theme-arena #map rect[data-stage]{fill:#b18f4c;stroke:#e0bd63}
+#ticket-map-preview-image{max-width:100%;height:auto;margin-top:12px;border-radius:8px}
+.legend i.conflict,.theme-arena .legend i.conflict{background:#ff6b6b}
+.status.layout-conflict,.theme-arena .status.layout-conflict{background:#492a2a;color:#ffcbcb;border:1px solid #ff6b6b}
+#ticket-map-conflicts{border:1px solid #d66b6b;border-radius:8px;padding:10px;margin:10px 0;color:#a83e3e;font-size:12px}
+.theme-arena #ticket-map-conflicts{color:#ffb9b9}
+#ticket-map-conflicts button{display:block;width:100%;margin-top:6px;font-size:12px}
+.map-layers{display:flex;align-items:center;gap:6px;flex-wrap:wrap;padding:6px 10px;border:1px solid #293740;border-radius:10px;background:#0e171e;color:#9aa9a9;font-size:10px;pointer-events:auto}.map-layers button{padding:5px 8px;background:#111d25;color:#e9f1eb;border-color:#3a4c55;font-size:10px}.map-layers button.active{background:#c9ff51;border-color:#c9ff51;color:#10200f}.map-layer-status{margin-left:auto;white-space:nowrap}@media(max-width:800px){.map-layer-status{width:100%;margin-left:0}}

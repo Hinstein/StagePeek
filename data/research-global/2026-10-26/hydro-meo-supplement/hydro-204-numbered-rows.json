@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "venueId": "ovo-hydro",
+  "kind": "manually-transcribed-numbered-chart",
+  "section": "204",
+  "sourceUrl": "https://www.mapaplan.com/seating-plan/hydro-arena-glasgow-sse-scottish-secc-detailed-numbers-chart/hydro-arena-seating-plan.htm",
+  "imageUrl": "https://www.mapaplan.com/seating-plan/hydro-arena-glasgow-sse-scottish-secc-detailed-numbers-chart/hydro-arena-seating-plan-01-Detailed-seat-numbers-chart-with-rows-blocks-layout.jpg",
+  "imageSha256": "362dcd8fe286bf4e4c641aa08c0280179a295186c33c3fb39fcb974f8e5a0564",
+  "transcribedAt": "2026-11-02",
+  "actor": "Codex visual transcription",
+  "layoutScope": "Older generic floor-seating chart; event availability unknown",
+  "positionBasis": "estimated-numbered-row-slot",
+  "directionBasis": "High number at the 205 side; low number at the 203 side. Independently agrees with model anchor 204/D/66 at local fraction 3.5/15.",
+  "rows": [
+    {
+      "row": "A",
+      "firstSeat": 67,
+      "lastSeat": 55,
+      "internalGaps": []
+    },
+    {
+      "row": "B",
+      "firstSeat": 68,
+      "lastSeat": 55,
+      "internalGaps": []
+    },
+    {
+      "row": "C",
+      "firstSeat": 68,
+      "lastSeat": 55,
+      "internalGaps": []
+    },
+    {
+      "row": "D",
+      "firstSeat": 69,
+      "lastSeat": 55,
+      "internalGaps": []
+    },
+    {
+      "row": "F",
+      "firstSeat": 40,
+      "lastSeat": 31,
+      "internalGaps": []
+    }
+  ],
+  "excludedRows": [
+    {
+      "row": "E",
+      "reason": "Visible in the generic chart (55–69) and generic row-label catalog, but absent from Nov5 event geometry; numbered range not imported"
+    }
+  ],
+  "notes": "Each row is a continuous dotted run between the printed endpoints; the break by the entrance is between D and F, not a gap inside either imported row. Only number order/count is transferred; coordinates remain illustrative. Source image is not redistributed."
+}

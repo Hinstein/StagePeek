@@ -2,8 +2,45 @@
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>StagePeek · 后台权限</title>
-  <meta name="robots" content="noindex,nofollow">
-  <style>body{margin:0;background:#0b1218;color:#eaf4ed;font:15px system-ui,sans-serif}main{max-width:1100px;margin:40px auto;padding:0 22px}h1{margin-bottom:6px}.muted{color:#9fb0aa}.toolbar{display:flex;justify-content:space-between;align-items:center;gap:16px;margin:24px 0}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px}.venue{display:flex;gap:10px;align-items:flex-start;padding:13px;border:1px solid #2d4143;border-radius:10px;background:#111d23}.venue small{display:block;color:#9fb0aa;margin-top:4px}button{border:1px solid #baff38;background:#baff38;color:#09120c;border-radius:9px;padding:11px 16px;font-weight:700;cursor:pointer}.error{color:#ffbd86}.ok{color:#baff38}a{color:#baff38}</style>
+  <title>StagePeek · 管理后台</title><meta name="robots" content="noindex,nofollow">
+  <link rel="icon" href="/brand/stagepeek-mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/vendor/tabler/tabler.min.css"><link rel="stylesheet" href="/admin.css">
 </head>
-<body><main><p class="muted">STAGEPEEK ADMIN</p><h1>免费场馆权限</h1><p class="muted">选择恰好 10 个场馆作为免费套餐。其余场馆默认需要 Pro 月订阅。</p><div id="status" class="muted">正在读取权限…</div><div class="toolbar"><strong id="count">0 / 10</strong><button id="save" disabled>保存免费场馆</button></div><section id="venues" class="grid"></section><p><a href="/">返回 StagePeek</a></p></main><script type="module" src="/admin.mjs"></script></body></html>
+<body>
+<!-- Tabler dashboard layout: https://docs.tabler.io/ui/layout/page-layouts (MIT). -->
+<div class="page">
+  <header class="navbar navbar-expand-sm d-print-none"><div class="container-xl">
+    <a class="navbar-brand" href="/"><img src="/brand/stagepeek-logo-light.svg" width="160" height="36" alt="StagePeek"></a>
+    <div class="navbar-nav flex-row gap-3 align-items-center"><span class="badge bg-purple-lt">管理后台</span><a class="nav-link" href="/account">我的账号 ↗</a></div>
+  </div></header>
+  <div class="page-wrapper">
+    <div class="page-header"><div class="container-xl"><div class="row g-2 align-items-center">
+      <div class="col"><div class="page-pretitle">STAGEPEEK ADMIN</div><h1 class="page-title">用户管理</h1><p class="text-secondary mt-2 mb-0">了解谁在使用 StagePeek。</p></div>
+      <div class="col-auto"><button id="refresh" class="btn btn-outline-primary" type="button">刷新数据</button></div>
+    </div></div></div>
+    <main class="page-body"><div class="container-xl">
+      <div id="status" class="alert alert-info" role="status" aria-live="polite">正在验证管理员权限…</div>
+      <section id="login" class="card mb-3" hidden><div class="card-body"><h2 class="card-title">请登录管理员账号</h2><p class="text-secondary">用户数据仅向本站管理员开放。</p><a class="btn btn-primary" href="/auth/login?next=%2Fadmin">前往登录</a></div></section>
+      <div id="dashboard" hidden>
+        <div class="row row-cards mb-4" aria-label="用户统计">
+          <div class="col-sm-4"><div class="card"><div class="card-body"><div class="subheader">本站用户总数</div><div id="total-users" class="h1 mt-2 mb-1">—</div><div class="text-secondary small">已确认并加入 StagePeek</div></div></div></div>
+          <div class="col-sm-4"><div class="card"><div class="card-body"><div class="subheader">今日新增</div><div id="today-users" class="h1 mt-2 mb-1">—</div><div class="text-secondary small">北京时间 00:00 起</div></div></div></div>
+          <div class="col-sm-4"><div class="card"><div class="card-body"><div class="subheader">近 7 天新增</div><div id="week-users" class="h1 mt-2 mb-1">—</div><div class="text-secondary small">最近 168 小时</div></div></div></div>
+        </div>
+        <nav class="nav nav-tabs mb-3" aria-label="后台导航"><a id="users-tab" class="nav-link" href="#users">用户列表</a><a id="access-tab" class="nav-link" href="#access">免费场馆</a></nav>
+        <section id="users-panel" class="card" aria-labelledby="users-heading">
+          <div class="card-header flex-wrap gap-3"><div><h2 id="users-heading" class="card-title">用户列表</h2><div class="text-secondary small mt-1">按加入时间倒序 · 时间均为北京时间</div></div>
+            <form id="search-form" class="ms-sm-auto d-flex gap-2" role="search"><label class="visually-hidden" for="search">搜索邮箱或用户 ID</label><input id="search" class="form-control" type="search" maxlength="200" placeholder="搜索邮箱或用户 ID"><button class="btn btn-primary" type="submit">搜索</button></form>
+          </div>
+          <div class="table-responsive"><table class="table table-vcenter card-table"><thead><tr><th scope="col">用户</th><th scope="col">角色</th><th scope="col">加入时间</th></tr></thead><tbody id="users"></tbody></table></div>
+          <div id="empty" class="empty" hidden><p class="empty-title">没有找到用户</p><p class="empty-subtitle text-secondary">试试其他邮箱或用户 ID。</p></div>
+          <div class="card-footer d-flex align-items-center flex-wrap gap-3"><p id="page-info" class="m-0 text-secondary" aria-live="polite"></p><div class="ms-auto d-flex align-items-center gap-2"><label class="visually-hidden" for="page-size">每页条数</label><select id="page-size" class="form-select"><option value="25">25 条 / 页</option><option value="50">50 条 / 页</option><option value="100">100 条 / 页</option></select><button id="previous" class="btn" type="button" disabled>上一页</button><button id="next" class="btn" type="button" disabled>下一页</button></div></div>
+        </section>
+        <section id="access-panel" class="card" aria-labelledby="access-heading" hidden><div class="card-body"><h2 id="access-heading" class="card-title">免费场馆权限</h2><p class="text-secondary">选择恰好 10 个场馆作为免费套餐，其余场馆需要 Pro 订阅。</p><div id="access-status" role="status" aria-live="polite"></div><div class="d-flex justify-content-between align-items-center my-3"><strong id="count">0 / 10</strong><button id="save" class="btn btn-primary" disabled>保存免费场馆</button></div><div id="venues" class="venue-grid"></div></div></section>
+      </div>
+    </div></main>
+    <footer class="footer footer-transparent"><div class="container-xl d-flex justify-content-between flex-wrap gap-2 text-secondary small"><span>StagePeek · 管理后台</span><span>UI by <a class="link-secondary" href="https://github.com/tabler/tabler" target="_blank" rel="noopener">Tabler</a> · MIT</span></div></footer>
+  </div>
+</div>
+<script type="module" src="/admin.mjs"></script>
+</body></html>

@@ -1,0 +1,324 @@
+{
+  "id": "uber-muse-20261118",
+  "venueId": "twcv-uber-arena-berlin",
+  "seatLayoutId": "uba",
+  "seatAssetSha256": "00997082ef8d8c46f9c5af3a600888b984cdc4f616d74d6dc305b48f806cf0e9",
+  "actor": "Codex AI",
+  "source": {
+    "path": "data/research-events/uber-muse-20261118/ticket-map.webp",
+    "url": "https://media.ticketmaster.eu/germany/480fca2b7f6050b0e8ee70a719673955.png",
+    "sha256": "ab4f97e9f9377346a85ce39a41c5b80aeeacabc6879c061c3ab0569c73f6ea69",
+    "retrievedAt": "2026-11-03T06:12:18.210444+00:00",
+    "rights": "Local research snapshot; redistribution undecided."
+  },
+  "eventSource": {
+    "path": "data/research-events/uber-muse-20261118/official.html",
+    "url": "https://www.uber-arena.de/en/events/detail/muse_2026/2026-11-18-1930",
+    "sha256": "e074f7739258dc055e9bb6c43c0876a8bd9edf37c4a85c2b464d91a2931c48e1",
+    "retrievedAt": "2026-11-03T06:12:18.210444+00:00",
+    "rights": "Local research snapshot; redistribution undecided."
+  },
+  "event": {
+    "name": "Muse \u2014 The Wow! Signal Europe Tour",
+    "dates": [
+      "2026-11-18"
+    ],
+    "timezone": "Europe/Berlin",
+    "bindingNote": "Official venue page confirms Muse, Berlin and 18 November 2026. Encoretrail specific event page displays the retained Ticketmaster image; map binding uses this secondary page."
+  },
+  "registration": {
+    "matrix": [
+      -5.0067173420169637e-05,
+      0.19006603091860305,
+      -0.19630274898593772,
+      -0.002232657637330578,
+      -53.86675350672987,
+      74.26786219325442
+    ],
+    "width": 670,
+    "height": 561,
+    "rationale": "AI-selected 12 section-label anchors fitted to retained section centres. RMS 0.49 source units; not a metric survey or independent holdout.",
+    "anchors": [
+      {
+        "section": "101",
+        "pixel": [
+          447,
+          155
+        ],
+        "purpose": "fit"
+      },
+      {
+        "section": "102",
+        "pixel": [
+          402,
+          155
+        ],
+        "purpose": "fit"
+      },
+      {
+        "section": "103",
+        "pixel": [
+          351,
+          155
+        ],
+        "purpose": "fit"
+      },
+      {
+        "section": "104",
+        "pixel": [
+          309,
+          155
+        ],
+        "purpose": "fit"
+      },
+      {
+        "section": "201",
+        "pixel": [
+          165,
+          282
+        ],
+        "purpose": "fit"
+      },
+      {
+        "section": "204",
+        "pixel": [
+          235,
+          429
+        ],
+        "purpose": "fit"
+      },
+      {
+        "section": "205",
+        "pixel": [
+          294,
+          414
+        ],
+        "purpose": "fit"
+      },
+      {
+        "section": "206",
+        "pixel": [
+          346,
+          414
+        ],
+        "purpose": "fit"
+      },
+      {
+        "section": "207",
+        "pixel": [
+          399,
+          414
+        ],
+        "purpose": "fit"
+      },
+      {
+        "section": "208",
+        "pixel": [
+          451,
+          414
+        ],
+        "purpose": "fit"
+      },
+      {
+        "section": "212",
+        "pixel": [
+          616,
+          283
+        ],
+        "purpose": "fit"
+      },
+      {
+        "section": "218",
+        "pixel": [
+          238,
+          139
+        ],
+        "purpose": "fit"
+      }
+    ]
+  },
+  "shapes": [
+    {
+      "id": "stage",
+      "label": "B\u00dcHNE / STAGE",
+      "kind": "stage",
+      "color": "#ad8d4d",
+      "height": 1.5,
+      "pixels": [
+        [
+          449,
+          244
+        ],
+        [
+          543,
+          244
+        ],
+        [
+          543,
+          320
+        ],
+        [
+          449,
+          320
+        ],
+        [
+          430,
+          294
+        ],
+        [
+          358,
+          294
+        ],
+        [
+          350,
+          306
+        ],
+        [
+          322,
+          306
+        ],
+        [
+          309,
+          282
+        ],
+        [
+          322,
+          263
+        ],
+        [
+          350,
+          263
+        ],
+        [
+          358,
+          275
+        ],
+        [
+          430,
+          275
+        ]
+      ]
+    },
+    {
+      "id": "standing-floor",
+      "label": "INNENRAUM STEHPLATZ",
+      "kind": "standing",
+      "color": "#63518b",
+      "height": 0.035,
+      "pixels": [
+        [
+          271,
+          208
+        ],
+        [
+          489,
+          208
+        ],
+        [
+          489,
+          237
+        ],
+        [
+          449,
+          237
+        ],
+        [
+          429,
+          269
+        ],
+        [
+          361,
+          269
+        ],
+        [
+          354,
+          257
+        ],
+        [
+          318,
+          257
+        ],
+        [
+          302,
+          282
+        ],
+        [
+          318,
+          313
+        ],
+        [
+          354,
+          313
+        ],
+        [
+          361,
+          300
+        ],
+        [
+          429,
+          300
+        ],
+        [
+          449,
+          328
+        ],
+        [
+          489,
+          328
+        ],
+        [
+          489,
+          356
+        ],
+        [
+          271,
+          356
+        ],
+        [
+          257,
+          350
+        ],
+        [
+          247,
+          340
+        ],
+        [
+          242,
+          329
+        ],
+        [
+          242,
+          299
+        ],
+        [
+          221,
+          299
+        ],
+        [
+          221,
+          270
+        ],
+        [
+          242,
+          270
+        ],
+        [
+          242,
+          236
+        ],
+        [
+          250,
+          221
+        ],
+        [
+          258,
+          213
+        ]
+      ]
+    }
+  ],
+  "notes": [
+    "All floor areas shown are standing. No floor seats or ticket numbers generated.",
+    "Height and stage performer are illustrative; actual closures and current availability are unknown."
+  ]
+}
