@@ -1,6 +1,22 @@
 # StagePeek 部署与权限记录
 
-> 最新发布（2026-10-27）：A + E 正式首页已上线，代码 `34c5c8da53abc66491cdabc8e0bde2597366dee2`，原 Coolify 应用 / VPS3，running:healthy；公网 44/44。详见 [首页发布记录](homepage-release-2026-10-27.md)。下方旧版本表为历史快照。
+> 最新发布（2026-11-04）：代码 `3ea4cff996a6d67feca396bef49f2b14582d1901` 已在原 Coolify 应用 / VPS3 上线，部署 `lyptx417waugjwt4dwaxxxae` finished，容器 healthy。下方旧版本表为历史快照。
+
+## 2026-11-04 发布验收
+
+- 地址：https://stagepeek.live；继续使用原 VPS1 Caddy → VPS3 应用 4180、共享 Supabase Auth 和 `site_stagepeek` PostgreSQL。未重建应用、迁移账号或修改环境与持久卷。
+- 固定发布 SHA：`3ea4cff996a6d67feca396bef49f2b14582d1901`；Coolify 于 14:49:11 UTC 确认新容器 healthy，14:49:14 UTC 完成滚动更新。
+- 回滚点：`2e7cf06ac4f7e21d028f02acd96661c73f6c84d7`，部署 `kiwcbzlwsjo91qwqhvzydu0p`。配置与回滚快照仅保存在受限本地目录，不进入 Git。
+- 发布前 `npm test`：308 项，307 通过、0 失败、1 跳过；跳过项为未配置独立集成数据库的真实 PostgreSQL 测试。`npm run build` 通过，演唱会专项 103/103 通过。
+- 修正过期测试预期：支付价格 999 美分、统计路径去除票位参数、认证页固定英语、重复注册与显式重发验证码的不同契约；未为通过测试改变生产业务行为。
+- 公网 `/healthz`、`/api/health`、精确 `/auth/callback`、`/auth/reset` 均为 200；`/api/me` 确认 Supabase/邮箱验证码启用，本地邮箱与本地支付模拟关闭。
+- 匿名管理接口与收藏读写均返回 401；未执行真实注册发信、付款或用户数据写入。
+- 英语 `/explore` 及 `/zh-CN/explore`、`/zh-TW/explore`、`/ja/explore`、`/ko/explore` 均返回 200 和对应文档语言；浏览器确认国家→场馆选择、座位图加载正常。英语采用无前缀路径，`/en/explore` 不属于站点路由。
+- Umami 标记已加载；含排座查询的 URL 仍只记录规范 `/explore` 路径，未将票位参数写入统计。此处只验证前端接线，不声称统计后台已收到事件。
+- 十馆研究入口 `/concert-views` 及研究 API 继续为公网 404；未绕过本地研究和权利未决的发布门禁。本次代码上线不等于十馆数据公开发布。
+- 推送保护曾发现第三方捕获 HTML 中的凭据；已删去四处凭据值并更新来源哈希，以不含该未发布历史的干净发布提交推送，未绕过 GitHub 保护。受污染的本地备份历史不得推送。
+
+本记录后续提交仅更新部署文档；实际部署代码仍固定到以上完整 SHA。
 
 > 当前身份方案：2026-10-26 已上线共享 Supabase Auth 邮箱验证码（生产 SHA `8eb7c62`）。原应用、PostgreSQL 和 10 个免费场馆保持；真实收信/OTP 端到端验收待完成。以 [统一 Auth 上线记录](shared-auth-rollout.md) 为准，下方旧身份/邮件状态为历史快照。
 
