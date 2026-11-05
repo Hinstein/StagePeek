@@ -10,7 +10,13 @@ const basePath=parseLocalizedPath(location.pathname).path;
 let mode=({'/auth/register':'register','/auth/reset':'reset','/auth/password':'setup','/account':'account','/auth/continue':'continue'})[basePath]||'login',source=mode;
 const en=()=>lang==='en';
 const errors={AUTH_PASSWORD_RESULT_UNKNOWN:["密码可能已更新，请尝试使用新密码登录，或重新验证邮箱。",'Your password may have changed. Try signing in with your new password, or verify your email again.'],INVALID_OTP:["验证码错误或已过期，请重新获取。",'The code is incorrect or expired. Request another.'],AUTH_FLOW_EXPIRED:["验证已失效，请重新开始。",'This verification has expired. Start again.'],INVALID_CREDENTIALS:["邮箱或密码不正确。",'Email or password is incorrect.'],WEAK_PASSWORD:["密码需至少 12 字符，最多 256 字节。",'Use at least 12 characters, up to 256 bytes.'],RATE_LIMITED:["请求过于频繁，请稍后再试。",'Too many attempts. Please try later.'],AUTH_UNAVAILABLE:["登录服务暂不可用，请稍后重试。",'Sign-in is temporarily unavailable.'],AUTH_REJECTED:["暂时无法完成，请重试或使用登录/找回密码。",'Unable to continue. Retry, sign in, or recover your password.'],ACCOUNT_EXISTS:["这个邮箱已有账号，请返回登录并使用邮箱验证码。",'This email already has an account. Return to sign in and use an email code.'],GOOGLE_FAILED:["Google 登录未完成，请重新发起。",'Google sign-in failed. Please retry.'],GOOGLE_CANCELED:["已取消 Google 登录，可用邮箱继续。",'Google sign-in was cancelled. Continue with email.'],LOGIN_REQUIRED:["请先登录。",'Please sign in first.'],CONSENT_REQUIRED:["请先同意条款与隐私政策。",'Please accept the terms and privacy policy.']};
-function feedback(value){$('auth-feedback').textContent=value;}
+function feedback(value){
+ const message=$('auth-feedback');message.textContent=value;
+ if(!value)return;
+ message.focus({preventScroll:true});
+ const bounds=message.getBoundingClientRect();
+ if(bounds.top<0||bounds.bottom>innerHeight)message.scrollIntoView({block:'nearest',behavior:'instant'});
+}
 async function api(path,body,method=body?'POST':'GET'){let response;try{response=await fetch(path,{method,credentials:'same-origin',headers:body?{'Content-Type':'application/json'}:{},body:body?JSON.stringify(body):undefined,signal:AbortSignal.timeout(15000)});}catch{throw new Error(copy("网络连接失败，请重试。"));}const data=await response.json();if(!response.ok)throw Object.assign(new Error((en()?errors[data.error?.code]?.[1]:errors[data.error?.code]?copy(errors[data.error.code][0]):null)||copy("暂时无法完成，请稍后重试。")),{code:data.error?.code});return data;}
 function route(path){const url=new URL(path,location.origin);url.searchParams.set('next',next);url.searchParams.set('lang',lang);return localizedPath(lang,url.pathname)+url.search;}
 function link(text,path){const a=document.createElement('a');a.textContent=text;a.href=route(path);$('auth-links').append(a);}

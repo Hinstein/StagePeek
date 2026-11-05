@@ -159,5 +159,21 @@
       "tests/admin-users-rls.sql": "8d22244f3718e33a411c572476384d10152ec223fcefb684664c3b1c45c38bf0",
       "tests/admin-users.test.mjs": "2f82d677debdff098c3c436e1074d59df806a6c3e2ed1d6046c4bd78917d33b5"
     }
+  },
+  "authFeedbackReview": {
+    "date": "2026-11-05",
+    "scope": "User-reported Chrome login and email-code submission feedback was offscreen. Authorized frontend-only fix focuses nonempty feedback and scrolls it into view; original protected hashes remain. No auth/provider/backend contract changes.",
+    "files": {
+      "public/auth-page.mjs": "b6ef0f2142b7c07e0e3e51ef866c9697c4f5b8fa1cdec02978047cf46fff3aa9"
+    }
+  },
+  "homepageFrameReview": {
+    "date": "2026-11-04",
+    "commit": "316f75c5f0921211c783b65e40f9059a03e033eb",
+    "scope": "Previously authorized and deployed homepage navigation/content width alignment. Retains the original integration baseline; this review records only the two files changed in that release.",
+    "files": {
+      "public/home.css": "93409349b72a0310128d7d38fea8bc56c1063062489f0172ab8e1d39dcbe21c6",
+      "public/site-ui.css": "717dd9db51b721024a773f1b28855badd49dd4c38e1a70b5fe8975e0662a1e90"
+    }
   }
 }

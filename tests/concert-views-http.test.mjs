@@ -58,9 +58,16 @@ test('main business files retain baseline bytes and reviewed consumer copy retai
  ].sort());
  assert.equal(boundary.mainUpdate.commit,'ab7c4e99100099b51b49b27438bb67b108509ebd');
  for(const [path,hash] of Object.entries(boundary.mainUpdate.files))assert.equal(createHash('sha256').update(readFileSync(new URL('../'+path,import.meta.url))).digest('hex'),hash,path);
+ const frameFiles=boundary.homepageFrameReview.files;
+ assert.equal(boundary.homepageFrameReview.commit,'316f75c5f0921211c783b65e40f9059a03e033eb');
+ assert.deepEqual(Object.keys(frameFiles).sort(),['public/home.css','public/site-ui.css']);
+ for(const [path,hash] of Object.entries(frameFiles))assert.equal(createHash('sha256').update(readFileSync(new URL('../'+path,import.meta.url))).digest('hex'),hash,path);
+ const authFiles=boundary.authFeedbackReview.files;
+ assert.deepEqual(Object.keys(authFiles),['public/auth-page.mjs']);
+ for(const [path,hash] of Object.entries(authFiles))assert.equal(createHash('sha256').update(readFileSync(new URL('../'+path,import.meta.url))).digest('hex'),hash,path);
  const sharedViewFiles=new Set(['public/app.mjs']);
  for(const [path,hash] of Object.entries(boundary.protectedFiles)){
   if(sharedViewFiles.has(path))continue;
-  assert.equal(createHash('sha256').update(readFileSync(new URL('../'+path,import.meta.url))).digest('hex'),consumerFiles[path]||boundary.mainUpdate.files[path]||hash,path);
+  assert.equal(createHash('sha256').update(readFileSync(new URL('../'+path,import.meta.url))).digest('hex'),authFiles[path]||frameFiles[path]||consumerFiles[path]||boundary.mainUpdate.files[path]||hash,path);
  }
 });
