@@ -1,6 +1,16 @@
 # StagePeek 部署与权限记录
 
-> 最新发布（2026-11-05）：代码 `9ed16d43605d060b38336176220017b557126c1d` 已在原 Coolify 应用 / VPS3 上线，部署 `g7l4qr87rqyjuupcnumgjc12` Finished，公网健康检查通过。下方版本记录为历史快照。
+> 最新发布（2026-11-05）：代码 `1682fa3d5defd659acb3d039f727d53dec6ff4e7` 已在原 Coolify 应用 / VPS3 上线，部署 `ur5f12toeywx3iwbtqfuuggg` Finished，新容器 healthy。下方版本记录为历史快照。
+
+## 2026-11-05 最新代码与管理员十馆预览发布
+
+- GitHub main 代码 SHA：`1682fa3d5defd659acb3d039f727d53dec6ff4e7`；Coolify 固定完整 SHA 构建，05:10:35 UTC 新容器健康，05:10:36 UTC 完成滚动更新。沿用原应用、VPS3、入口、共享 Auth、数据库和持久卷。
+- 生产加载保留的十馆 bundle，`/concert-views` 页面、模块、API 和图像只向已登录 admin/owner 开放；响应 private/no-store、noindex。公开 `/explore` 未切换到十馆引擎，未发布权利未决研究数据。
+- `npm test`：313 项，312 通过、0 失败、1 跳过（未配置独立集成数据库的真实 PostgreSQL 测试）；`npm run build`、`git diff --check` 通过。权限回归覆盖匿名/member 拒绝、admin/owner 可用及编码路径。
+- 部署后公网：首页、`/explore`、`/auth/login`、`/healthz`、`/api/health`、精确 `/auth/callback` 和 `/auth/reset` 均 200；匿名研究页面、模块及 API 均 404；公开场馆目录仍为 197。
+- 浏览器现有会话为 member，研究入口返回 404，未修改其权限。管理员实际页面交互本次未验收；管理员访问行为由上述服务端回归验证。
+- 线上 `auth-page.mjs` SHA-256 仍为 `b6ef0f2142b7c07e0e3e51ef866c9697c4f5b8fa1cdec02978047cf46fff3aa9`，保留上一版登录反馈修复。本次未发送真实验证码邮件或执行真实密码登录。
+- 回滚代码：`9ed16d43605d060b38336176220017b557126c1d`。后续文档提交不触发额外部署，运行代码固定上述 SHA。
 
 ## 2026-11-05 登录提交反馈修复验收
 

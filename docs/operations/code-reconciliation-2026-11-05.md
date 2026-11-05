@@ -106,3 +106,9 @@ node --test tests/concert-views-http.test.mjs tests/venue-view-entrypoints.test.
 4. 部署后在真实 `/explore` 路由验收，并记录模型/资产版本；不能仅凭健康检查和静态文件存在宣称功能交付。
 
 本报告证明已核对范围内文件和资产的保存情况，不证明每个历史工作树修改都应上线，也不证明数据库、邮件或每个历史行为已完成审计。
+
+## 发布跟进 · 2026-11-05
+
+用户随后授权发布最新代码。代码 `1682fa3d5defd659acb3d039f727d53dec6ff4e7` 已推送 main，并在原 Coolify 应用发布，部署 `ur5f12toeywx3iwbtqfuuggg` Finished，新容器 healthy。十馆 bundle 已在生产加载，入口只对 admin/owner 开放；公开 `/explore` 继续沿用原引擎，不能将本次发布描述为十馆面向公众开放。
+
+发布前全量测试 312 通过、0 失败、1 项真实 PostgreSQL 集成测试跳过，构建通过。发布后公开业务页面与认证回调正常，匿名和现有 member 会话研究入口拒绝访问，目录保留 197 馆。管理员真实浏览器交互及真实邮件投递本次未验收。完整发布、权限与回滚记录见 [部署记录](deployment.md)。
