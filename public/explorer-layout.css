@@ -1,4 +1,4 @@
-/* Approved B layout, scoped to concert views; production form and scene retained. */
+/* Shared compact explorer layout. Keep public and concert query frames aligned. */
 body[data-ui-layout]{--preview-gutter:24px}
 body[data-ui-layout] main{box-sizing:border-box;width:100%;max-width:1440px;padding:22px var(--preview-gutter);margin:0 auto}
 body[data-ui-layout] .site-nav,body[data-ui-layout] .site-footer{width:min(1392px,calc(100% - 48px))}

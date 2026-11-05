@@ -17,6 +17,22 @@ async function setup(t){
   return {config,venues,billing:app.billing,call:(path,method='GET')=>fetch(origin+path,{method,redirect:'manual'})};
 }
 
+test('public explorer serves the compact shared layout and collapsed localized help',async t=>{
+ const {call}=await setup(t);
+ for(const [prefix,help] of [['','How to use'],['/zh-CN','使用说明'],['/zh-TW','使用說明'],['/ja','使い方'],['/ko','사용 방법']]){
+  const response=await call(`${prefix}/explore`),html=await response.text();
+  assert.equal(response.status,200);
+  assert.match(html,/<body[^>]+data-ui-layout="B"/);
+  assert.match(html,/<link rel="stylesheet" href="\/explorer-layout.css">/);
+  assert.ok(html.includes(`<details class="preview-help"><summary>${help}</summary>`),prefix);
+  assert.doesNotMatch(html,/layout-prototype|<details class="preview-help"[^>]*\bopen\b/);
+  assert.equal((html.match(/data-explorer-step="/g)||[]).length,3,'guide retained inside disclosure');
+ }
+ const css=await call('/explorer-layout.css');
+ assert.equal(css.status,200);
+ assert.match(css.headers.get('content-type'),/text\/css/);
+});
+
 test('selected homepage is the public entry and existing ticket links still open the tool',async t=>{
   const {call}=await setup(t);
   const response=await call('/'),home=await response.text();

@@ -125,10 +125,10 @@
     "server/venues.mjs": "452b564bac8fb5993553b5cca70518976448e81386e1a7b96357d54c96d6a7e3"
   },
   "consumerPresentationReview": {
-    "date": "2026-11-04",
-    "scope": "User-requested consumer copy cleanup and five-language interface completion, including accessible text and language switching with view state. Original main hashes retained; auth, billing, source data and publication logic stay protected.",
+    "date": "2026-11-05",
+    "scope": "User-requested consumer copy cleanup and five-language interface completion, including accessible text and language switching with view state. Original main hashes retained; auth, billing, source data and publication logic stay protected. User-approved compact B layout is shared by public explore and concert views, including the aligned navigation frame and collapsed guide.",
     "files": {
-      "public/index.html": "357e46c915b565447a7ffeb17627de2c4ceca641f4ec34aef888be8865c44bd3",
+      "public/index.html": "5d2489ac627c8b8503c94aef4c8772338dd52f22e3efd58ae8b6722280e5332c",
       "public/translations/en.mjs": "ebf75674b6385c30cef38c4d2b349f3618cee623b3f771a9efd5ba6103e9ac12",
       "public/translations/interface.mjs": "9e3577255ed10905fe0158818e731e9497ae5cf4325a1a37c01aed8d138f5cff",
       "public/translations/ja.mjs": "805736211e9ea7a697160d9d291cb32f5801ee26375abe1b4e5c07f110331877",

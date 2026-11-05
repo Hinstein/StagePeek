@@ -23,18 +23,18 @@
   <!--PUBLIC-SCHEMA-->
   <link rel="icon" type="image/svg+xml" href="/brand/stagepeek-mark.svg">
   <link rel="stylesheet" href="/style.css?v=9e528dd"><script type="module" src="/app.mjs"></script>
-<link rel="stylesheet" href="/site-ui.css"></head>
-<body class="theme-arena">
+<link rel="stylesheet" href="/site-ui.css"><link rel="stylesheet" href="/explorer-layout.css"></head>
+<body class="theme-arena" data-ui-layout="B">
   <a class="skip-link" href="#explorer">Skip to seat explorer</a>
   <!--SITE-HEADER-->
   <main id="explorer">
-    <section class="intro"><div><span class="eyebrow" lang="en" data-i18n="explorer.eyebrow">CONCERT SEAT VIEW · 2D &amp; 3D SEATING CHARTS</span><h1 data-i18n="explorer.headline">See your concert seat before the show.</h1><p data-i18n="explorer.lead">Choose a venue, copy the location from your ticket, and preview the view in 2D or 3D.</p></div><span id="plan-label" class="pill">Free preview</span></section>
-    <div class="explorer-status" id="explorer-status" role="status" aria-live="polite"></div>
-    <ol class="explorer-steps" aria-label="Seat explorer steps">
+    <section class="intro"><div><span class="eyebrow" lang="en" data-i18n="explorer.eyebrow">CONCERT SEAT VIEW · 2D &amp; 3D SEATING CHARTS</span><h1 data-i18n="explorer.headline">See your concert seat before the show.</h1><p data-i18n="explorer.lead">Choose a venue, copy the location from your ticket, and preview the view in 2D or 3D.</p></div><span id="plan-label" class="pill">Free preview</span><details class="preview-help"><summary>使用说明</summary><ol class="explorer-steps" aria-label="Seat explorer steps">
       <li class="explorer-step is-current" data-explorer-step="venue"><span>1</span><div><strong data-i18n="explorer.stepVenue">Choose a venue</strong><small data-i18n="explorer.stepVenueHint">Start with a country, region, and venue.</small></div></li>
       <li class="explorer-step" data-explorer-step="ticket"><span>2</span><div><strong data-i18n="explorer.stepTicket">Enter your ticket</strong><small data-i18n="explorer.stepTicketHint">Use the section, row, and seat exactly as printed.</small></div></li>
       <li class="explorer-step" data-explorer-step="view"><span>3</span><div><strong data-i18n="explorer.stepView">Review your view</strong><small data-i18n="explorer.stepViewHint">Switch between 2D, 3D, and audience view.</small></div></li>
-    </ol>
+    </ol></details></section>
+    <div class="explorer-status" id="explorer-status" role="status" aria-live="polite"></div>
+
     <section class="input-panel" aria-labelledby="ticket-form-title">
       <div class="panel-heading"><div><span class="eyebrow">STEP 1–2</span><h2 id="ticket-form-title" data-i18n="explorer.formTitle">Find your seat</h2></div><p id="venue-status" class="panel-status" role="status" aria-live="polite"></p></div>
       <form id="ticket-form" class="toolbar" aria-label="Find a ticket seat">

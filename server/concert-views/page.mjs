@@ -13,7 +13,7 @@ export function concertViewsPage(locale,user){
  const html=template
   .replace('aria-label="Find a ticket seat"','aria-label="查找座位"')
   .replace('src="/app.mjs"','src="/concert-views/app.mjs"')
-  .replace('</head>','<link rel="stylesheet" href="/venue-view/venue-view.css"><link rel="stylesheet" href="/concert-views/scene.css"><script type="module" src="/concert-views/layout-prototype.mjs"></script><meta name="robots" content="noindex,nofollow"></head>')
+  .replace('</head>','<link rel="stylesheet" href="/venue-view/venue-view.css"><link rel="stylesheet" href="/concert-views/scene.css"><meta name="robots" content="noindex,nofollow"></head>')
   .replace(/<div class="switch" aria-label="地图模式">[\s\S]*?<\/div>/,'')
   .replace(/<div id="viewer"[\s\S]*?(?=<div class="map-footer">)/,scene)
   .replace('<input id="row"','<datalist id="row-list"></datalist><input list="row-list" id="row"')
