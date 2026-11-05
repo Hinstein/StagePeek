@@ -1,6 +1,18 @@
 # StagePeek 部署与权限记录
 
-> 最新发布（2026-11-05）：代码 `1682fa3d5defd659acb3d039f727d53dec6ff4e7` 已在原 Coolify 应用 / VPS3 上线，部署 `ur5f12toeywx3iwbtqfuuggg` Finished，新容器 healthy。下方版本记录为历史快照。
+> 最新发布（2026-11-05）：代码 `82877979cc415a619f7791df01d5d53af5338ea5` 已在原 Coolify 应用 / VPS3 上线，部署 `oxbxqymvi7sq52d2oajvqwtk` Finished，公开 `/explore` 已采用共享紧凑 B 版。下方版本记录为历史快照。
+
+
+## 2026-11-05 公开 explore 紧凑 B 版发布
+
+- 固定运行 SHA：`82877979cc415a619f7791df01d5d53af5338ea5`；原 Coolify 应用部署 `oxbxqymvi7sq52d2oajvqwtk` Finished，耗时 1 分 18 秒，应用 Running。未变更基础设施、环境、数据库或认证配置。
+- 修复范围遗漏：此前 B 版仅用于 `/concert-views`；本次公开 `/explore` 与演唱会入口共用 `explorer-layout.css` 和页面模板。头部、标题、查询栏共用宽度，使用说明默认折叠，保留国家→场馆与区排座查询。
+- 生产实际浏览器：1072px 视口下头部、标题与查询栏均为左边界 24px、宽 1024px，查询栏高约 95px；390px 视口下头部和查询栏均为左边界 16px、宽 358px，页面无横向溢出、只有一个查询表单。
+- 实际操作英国→Tottenham→122 / 14 / 679 查询成功，提示“已找到票号 · 暂无座位视角”；这证明查询链路正常，不代表该票位已有精确三维视点。
+- `npm test`：315 项，314 通过、0 失败、1 跳过（未配置独立集成数据库的真实 PostgreSQL 测试）；专项 13/13、`npm run build`、`git diff --check` 通过。
+- 公网首页、登录、五语言 explore、`/healthz`、`/api/health`、`/auth/callback`、`/auth/reset` 均 200。公开目录仍为 197；匿名研究页面、模块及 API 均 404。共享排版没有将十馆研究库存公开。
+- 线上 `auth-page.mjs` SHA-256 仍为 `b6ef0f2142b7c07e0e3e51ef866c9697c4f5b8fa1cdec02978047cf46fff3aa9`，认证代码未改动。
+- [生产桌面截图](../projects/concert-views/preview/public-explore-b-production-desktop.png) / [生产手机截图](../projects/concert-views/preview/public-explore-b-production-mobile.png)。回滚代码：`1682fa3d5defd659acb3d039f727d53dec6ff4e7`；后续文档提交不触发额外部署，运行代码固定上述 SHA。
 
 ## 2026-11-05 最新代码与管理员十馆预览发布
 
