@@ -2,13 +2,40 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {once} from 'node:events';
 import {readFileSync} from 'node:fs';
-import {createHash} from 'node:crypto';
+import {createHash,randomBytes} from 'node:crypto';
 import {openStore} from '../server/store.mjs';
 import {createApplication} from '../server/app.mjs';
 import {loadVenues} from '../server/venues.mjs';
 import {loadConcertViews} from '../server/concert-views/index.mjs';
 
 const views=loadConcertViews();
+
+test('production concert views require a shared-auth administrator and never replace the public catalog',async t=>{
+ const db=openStore(':memory:'),prepare=db.prepare.bind(db);
+ const uid='fced42be-6c11-4fe8-b802-69b6ab3ebf41';
+ let role='member';
+ db.prepare=sql=>sql.includes('shared_member')?{get:async()=>({id:uid,auth_user_id:uid,site_id:config.siteId,created_at:1,member_role:role})}:prepare(sql);
+ const config={production:true,authMode:'supabase',appUrl:'http://127.0.0.1',allowedOrigins:[],supabaseUrl:'https://supabase.openp7m.com',supabaseAnonKey:'test-public',siteId:'472e7705-2a72-423d-8aad-cf59497ab4e9',authCookieKey:randomBytes(32).toString('base64')};
+ const app=createApplication({db,config,venues:loadVenues(),concertViews:views,fetch:async()=>Response.json({id:uid,email:'preview@example.invalid',email_confirmed_at:'2026-01-01',identities:[{provider:'google'}]})});
+ app.server.listen(0,'127.0.0.1');await once(app.server,'listening');
+ config.appUrl=`http://127.0.0.1:${app.server.address().port}`;
+ t.after(async()=>{await new Promise(resolve=>app.server.close(resolve));await db.close();});
+ const token=app.auth.seal({access:'test-access',refresh:'test-refresh',expires:Date.now()+3600000,until:Date.now()+3600000});
+ const get=(path,authenticated=false)=>fetch(config.appUrl+path,{redirect:'manual',headers:authenticated?{Cookie:['__Host-ss','supabase'].join('_')+'='+token}:{}});
+ const paths=['/concert-views','/zh-CN/concert-views','/concert-views/app.mjs','/concert-views%2fapp.mjs','/%63oncert-views/app.mjs','/api/concert-views/venues','/api/concert-views/hydro/ovo-hydro/image'];
+ const catalog=await(await get('/api/venues')).json();
+ for(const authenticated of [false,true])for(const path of paths)assert.equal((await get(path,authenticated)).status,404,path);
+ for(const currentRole of ['admin','owner']){
+  role=currentRole;
+  for(const path of ['/concert-views','/zh-CN/concert-views','/concert-views/app.mjs','/api/concert-views/venues','/api/concert-views/hydro/ovo-hydro/image']){
+   const response=await get(path,true);assert.equal(response.status,200,path);
+   assert.match(response.headers.get('cache-control'),/no-store/,path);
+   assert.match(response.headers.get('x-robots-tag'),/noindex/,path);
+  }
+ }
+ assert.deepEqual(await(await get('/api/venues')).json(),catalog);
+ assert.doesNotMatch(await(await get('/explore')).text(),/concert-views\/entry-link.mjs/);
+});
 
 test('local concert workspace serves retained views without replacing main auth or catalog',async t=>{
  const db=openStore(':memory:');

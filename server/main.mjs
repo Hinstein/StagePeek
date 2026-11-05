@@ -14,7 +14,7 @@ const events=new EventRepository({file:fileURLToPath(new URL('../data/events.jso
 const ticketingEvents=new TicketingEventCache({file:fileURLToPath(new URL('../data/ticketing/ticketmaster-events.json',import.meta.url))});
 const candidateEvents=new CandidateEventRepository(fileURLToPath(new URL('../data/events-candidates',import.meta.url)));
 const publishedEvents=new PublishedEventRepository(fileURLToPath(new URL('../data/events-published',import.meta.url)),venues);
-const concertViews=config.devPreviewAllVenues&&config.devMailbox&&!config.production&&config.authMode==='local'?(await import('./concert-views/index.mjs')).loadConcertViews():null;
+const concertViews=(config.production||config.devPreviewAllVenues&&config.devMailbox&&config.authMode==='local')?(await import('./concert-views/index.mjs')).loadConcertViews():null;
 const app=createApplication({db,config,venues,events,concertViews,ticketingEvents,candidateEvents,publishedEvents,logger:entry=>{if(entry.status>=500)console.error(JSON.stringify(entry));}});
 app.server.listen(config.port,config.host,()=>{
   console.log('StagePeek:',config.appUrl);

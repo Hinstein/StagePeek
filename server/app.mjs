@@ -75,10 +75,12 @@ export function createApplication({db,config,venues,events=null,ticketing=null,t
       req.stagepeekUser=resolved.user;
       const user=resolved.user;
       const handle=async()=>{
+      let concertPath;try{concertPath=decodeURIComponent(basePath);}catch{throw fault(404,'NOT_FOUND','Not found');}
+      const concertRequest=concertPath==='/concert-views'||concertPath.startsWith('/concert-views/')||concertPath.startsWith('/api/concert-views/');
       if(path.startsWith('/api/')&&!webhook)(await limit(db,'http:'+hash(req.socket.remoteAddress||''),240,60_000,clock()));
       if(handleShared&&await handleShared(req,res,url,user))return;
-      if(basePath==='/concert-views'||path.startsWith('/concert-views/')||path.startsWith('/api/concert-views/')){
-        if(!concertViews||!config.devPreviewAllVenues||!localMode()||!loopback(req.socket.remoteAddress))throw fault(404,'NOT_FOUND','Not found');
+      if(concertRequest){
+        if(!concertViews||!(config.production?isAdmin(user):config.devPreviewAllVenues&&localMode()&&loopback(req.socket.remoteAddress)))throw fault(404,'NOT_FOUND','Not found');
         if(await concertViews.handle(req,res,url,{path:basePath,locale}))return;
       }
       if(shared&&user&&!['GET','HEAD'].includes(method)&&!webhook&&!/^\/api\/venues\/[a-z0-9-]+\/resolve$/.test(path)&&(await consentStatus(db,user)).required)throw fault(403,'CONSENT_REQUIRED','请先确认服务条款与隐私政策');
@@ -282,7 +284,7 @@ export function createApplication({db,config,venues,events=null,ticketing=null,t
         if(content)content=Buffer.from(content.toString('utf8').replace('</head>',tracking+'</head>'));
         res.setHeader('Content-Security-Policy',String(res.getHeader('Content-Security-Policy')).replace("script-src 'self'",`script-src 'self' ${ANALYTICS_ORIGIN}`).replace("connect-src 'self'",`connect-src 'self' ${ANALYTICS_ORIGIN}`));
       }
-      res.writeHead(200,{'Content-Type':MIME[extname(actual)],'Cache-Control':actual.includes(sep+'vendor'+sep)?'public, max-age=86400':'no-cache'});res.end(content);
+      res.writeHead(200,{'Content-Type':MIME[extname(actual)],'Cache-Control':concertRequest?'private, no-store':actual.includes(sep+'vendor'+sep)?'public, max-age=86400':'no-cache'});res.end(content);
       };
       return await (shared&&!webhook&&db.withIdentity?db.withIdentity(user?.id||null,handle):handle());
     }catch(error){

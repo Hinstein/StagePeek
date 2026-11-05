@@ -10,7 +10,7 @@ import {loadHydroReference} from './hydro-reference.mjs';
 import {packSourceSeats} from '../../public/concert-views/seating.mjs';
 import {fault} from '../store.mjs';
 
-// Only the local venue workspace sees these retained research assets.
+// Retained research assets are limited to local workspaces and authenticated production administrators.
 // Main's venue inventory, entitlement rules, auth and billing remain independent.
 export function loadConcertViews(){
  const root=fileURLToPath(new URL('../../',import.meta.url));
