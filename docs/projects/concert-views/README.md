@@ -293,3 +293,10 @@ B 版成为演唱会视角页面的默认布局：桌面地区、场馆、区、
 完整测试 334 项：333 通过、0 失败、1 跳过（没有独立数据库的真实 PostgreSQL 集成）；`npm run build` 通过。发布必须固定完整提交 SHA，并在生产复核目录仅 39 馆、归档/旧 ID 404、权限边界、认证 callback/reset 200。
 
 记录：[站区](preview/regional-standing-release.png)、[剧院](preview/regional-theater-release.png)、[香港会展](preview/regional-hkcec-release.png)、[390px 手机](preview/regional-mobile-release.png)。本节为上线前验收；实际生产版本和回滚点以部署记录为准。
+
+
+## 2026-11-12：生产发布结果
+
+运行代码 `bac70ec8a4a642f15ecfe54b3047561e5176f9cb` 已部署，原 Coolify 应用健康，部署 `fuvcm25izawlvq5gdyeknghi` Finished。生产目录为发布清单的 39 馆；10 个归档场馆及抽查旧入口均 404，不向用户展示未完成模型。原权益策略保留，匿名免费 7 馆。
+
+生产 HTTP 使用正常 TLS 证书校验通过；因本机域名直连异常，实际浏览器通过不转发身份的临时中继检查生产响应。台北中央舞台为 12,877 座 / 98 区、无端台 standing-1，1–10× 变焦眼位固定，390px 无溢出。该检查不等于证明本机直连已恢复。[生产三维截图](preview/regional-production-taipei-center.png)。完整发布、检查边界和回滚点见 [部署记录](../../operations/deployment.md)。
