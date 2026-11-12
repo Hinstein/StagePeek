@@ -35,6 +35,7 @@ export function sourceSeatStore(directory){
     const ticket=JSON.stringify([seat.section,seat.row,seat.seat]),matches=lookup.get(ticket)||[];matches.push(seat);lookup.set(ticket,matches);return seat;
    });
    const levels=sourceSeatLevels(seats);
+   for(const area of variant.areas||[])if(!levels.some(l=>l.id===area.level))levels.push({id:area.level,label:area.level});
    const sections=[...bySection].map(([id,records])=>{
     const metadata=data.sectionMetadata?.find(section=>section.id===id);
     const center=[0,1,2].map(axis=>records.reduce((sum,r)=>sum+r.position[axis],0)/records.length);
@@ -46,10 +47,16 @@ export function sourceSeatStore(directory){
      ...(official?{officialSectionPolygons:[{viewId:`official:${sectionOverlay.id}`,points:official.points,source:'official-section-map',sourceSha256:sectionOverlay.source.sha256,registration:sectionOverlay.registration.status}]}:{}),
      polygonStatus:'seat-envelope-label-only',positionBasis:{kind:'source-seat-coordinate',coordinateSystem:'source-model-xyz'}};
    });
-   const maxAbs=axis=>seats.reduce((max,r)=>Math.max(max,Math.abs(r.position[axis])),0);
+   for(const area of variant.areas||[]){
+    const polygon=area.polygon.map(([x,z])=>[x,area.height||0,z]),center=[0,1,2].map(axis=>polygon.reduce((n,p)=>n+p[axis]/polygon.length,0));
+    sections.push({id:area.id,ticketLabels:[area.id],sourceLabel:area.label,kind:'standing',tier:levels.findIndex(l=>l.id===area.level),sourceLevels:[area.level],levelName:area.level,center,polygon,samples:[],sourcePolygons:[],polygonStatus:'estimated-standing-area',positionBasis:{kind:'estimated-area'}});
+   }
+   const stage=variant.stage||stageFromReference(referenceLayout?.stage);
+   const extents=[...seats.map(r=>r.position),...sections.filter(s=>s.kind==='standing').flatMap(s=>s.polygon),...(stage?[-1,1].flatMap(x=>[-1,1].map(z=>[stage.x+x*stage.width/2,0,stage.z+z*stage.depth/2])):[])];
+   const maxAbs=axis=>extents.reduce((max,p)=>Math.max(max,Math.abs(p[axis])),0);
    const venue={...base,sections,ticketLabelCount:sections.length,sourceSeats:seats,sourceLevels:levels,seatLayouts:meta.layouts,seatLayout:{id:layout,label:meta.layouts.find(x=>x.id===layout).label,source:meta.source,assetSha256:meta.assetSha256,referenceLayoutId:referenceLayout?.id||null,referenceLayoutLabel:referenceLayout?.label||null,
      coordinateTransform:{inputFields:kai?[3,11,4]:[3,4,5],axisSigns:kai?[-1,1,-1]:[1,1,1],scale:1,translation:[0,0,0],units:'source-model-unit',metricCalibrated:false}},
-    sourceStage:variant.stage||stageFromReference(referenceLayout?.stage),sourceZones:variant.zones||referenceLayout?.zones||[],geometry:{...base.geometry,floor:[2*maxAbs(0)+12,2*maxAbs(2)+12]},
+    sourceStage:stage,sourceZones:variant.zones||referenceLayout?.zones||[],geometry:{...base.geometry,floor:[2*maxAbs(0)+12,2*maxAbs(2)+12]},
     ...(sectionOverlay?{sectionOverlay:{id:sectionOverlay.id,label:sectionOverlay.label,sourceUrl:sectionOverlay.source.url,sourceSha256:sectionOverlay.source.sha256,registration:sectionOverlay.registration}}:{}),
     accuracy:{...base.accuracy,sectionLabels:'source-layout-reference',position:'source-coordinate',seatDataStatus:'full-retained-asset',sourceLayout:layout,metricCalibrated:false,completeSeatInventory:false,
      coverage:`当前来源布局 ${layout}：${seats.length.toLocaleString('en-US')} 条逐座坐标，${sections.length} 个来源分区。坐标已按原始记录导入；尚无独立实测校准，亦不代表本场演出完整库存。`}};

@@ -93,8 +93,10 @@ test('main business files retain baseline bytes and reviewed consumer copy retai
  assert.deepEqual(Object.keys(authFiles),['public/auth-page.mjs']);
  for(const [path,hash] of Object.entries(authFiles))assert.equal(createHash('sha256').update(readFileSync(new URL('../'+path,import.meta.url))).digest('hex'),hash,path);
  const sharedViewFiles=new Set(['public/app.mjs']);
+ const regionalFiles=boundary.regionalReleaseReview.files;
+ assert.deepEqual(Object.keys(regionalFiles).sort(),['public/catalog.mjs','public/sitemap.xml','public/translations/venue-labels.mjs','server/public-pages.mjs'].sort());
  for(const [path,hash] of Object.entries(boundary.protectedFiles)){
   if(sharedViewFiles.has(path))continue;
-  assert.equal(createHash('sha256').update(readFileSync(new URL('../'+path,import.meta.url))).digest('hex'),authFiles[path]||frameFiles[path]||consumerFiles[path]||boundary.mainUpdate.files[path]||hash,path);
+  assert.equal(createHash('sha256').update(readFileSync(new URL('../'+path,import.meta.url))).digest('hex'),regionalFiles[path]||authFiles[path]||frameFiles[path]||consumerFiles[path]||boundary.mainUpdate.files[path]||hash,path);
  }
 });

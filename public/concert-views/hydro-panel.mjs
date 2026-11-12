@@ -52,7 +52,7 @@ export function appendHydroPanel(parent,venue,{query,sourcesHost,onSelection}){
  const audience=shell.controls.audience,stage=shell.controls.stage,b3=shell.controls['3d'];
  const note=node('p',copy('座位、舞台与人物为示意，仅供视角参考。示意编号不保证对应门票位置。'),'muted');
  const details=node('details',null,'sources hydro-sources'),summary=node('summary',copy('座位与视角说明'));details.append(summary,note);
- const image=node('img');image.alt=copy('Hydro 演出座位图');image.loading='lazy';image.src='/api/concert-views/hydro/ovo-hydro/image';details.append(image);
+ const image=node('img');image.alt=copy('Hydro 演出座位图');image.loading='lazy';image.src='/api/concert-views/hydro/ovo-hydro/image';if(document.querySelector('meta[name=stagepeek-viewer-mode]')?.content!=='public')details.append(image);
  const official=node('a',copy('官方演出 ↗'));official.href=events[0].sourceUrl;official.target='_blank';official.rel='noopener noreferrer';details.append(official);
  const reference=node('a',copy('座位参考 ↗'));reference.href='https://eihl.analysis.hockey/hydro.html#seat-level-comparisons';reference.target='_blank';reference.rel='noopener noreferrer';details.append(reference);
  const chart=node('a',copy('场馆座位图 ↗'));chart.href=venue.numberingReference.numberedChart.url;chart.target='_blank';chart.rel='noopener noreferrer';details.append(chart);

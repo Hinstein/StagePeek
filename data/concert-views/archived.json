@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-11-12",
+  "publicationStatus": "not-published",
+  "reason": "Reference catalog entry has no retained usable venue model; excluded from release allowlist.",
+  "venues": [
+    {
+      "id": "new-taipei-exhibition-hall",
+      "name": "新北市工商展覽中心"
+    },
+    {
+      "id": "tianmu-gymnasium",
+      "name": "天母體育館"
+    },
+    {
+      "id": "tianmu-baseball-stadium",
+      "name": "天母棒球場"
+    },
+    {
+      "id": "legacy-max-taipei",
+      "name": "Legacy MAX"
+    },
+    {
+      "id": "billboard-live-taipei",
+      "name": "Billboard Live TAIPEI"
+    },
+    {
+      "id": "hanaspace-taipei",
+      "name": "HANASPACE"
+    },
+    {
+      "id": "legacy-taipei",
+      "name": "Legacy Taipei"
+    },
+    {
+      "id": "the-wall-live-house",
+      "name": "The Wall Live House"
+    },
+    {
+      "id": "nancun-theater",
+      "name": "南村劇場"
+    },
+    {
+      "id": "shuiyuan-theater",
+      "name": "水源劇場"
+    }
+  ]
+}

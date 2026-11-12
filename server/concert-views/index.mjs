@@ -12,9 +12,9 @@ import {fault} from '../store.mjs';
 
 // Retained research assets are limited to local workspaces and authenticated production administrators.
 // Main's venue inventory, entitlement rules, auth and billing remain independent.
-export function loadConcertViews(){
+export function loadConcertViews({localDrafts=false}={}){
  const root=fileURLToPath(new URL('../../',import.meta.url));
- const venues=loadVenues(undefined,{includeResearch:true}),batch=loadRenderBatch();
+ const venues=loadVenues(undefined,{includeResearch:true,localDrafts}),batch=loadRenderBatch();
  const previews=loadTicketMapPreviews({venues});
  const hydro=JSON.parse(readFileSync(new URL('../../data/concert-views/hydro/venue.json',import.meta.url),'utf8'));
  hydro.numberingReference=loadHydroReference(root);
@@ -49,7 +49,7 @@ export function loadConcertViews(){
    if(!venue||!venues.get(venue[1]))throw fault(404,'VENUE_NOT_FOUND','Venue outside this workspace');
    if(!venue[2]&&method==='GET'){
     const base=venues.get(venue[1],url.searchParams.get('layout')||undefined);if(!base)throw fault(422,'UNKNOWN_LAYOUT','Layout unavailable');
-    json({venue:{...presentConcertVenue(applyRenderBatch(base,batch)),sourceSeats:undefined,seatTuples:packSourceSeats(base.sourceSeats)}});return true;
+    json({venue:{...presentConcertVenue(applyRenderBatch(base,batch)),sourceSeats:undefined,seatTuples:base.sourceSeats?packSourceSeats(base.sourceSeats):undefined}});return true;
    }
    if(venue[2]==='events'&&method==='GET'){
     json({events:[],researchConcerts:previews.list(venue[1]).map(draft=>({id:draft.id,name:draft.label,localDate:draft.dates[0],dates:draft.dates,source:draft.source,researchOnly:true,ticketMapDraft:{id:draft.id,version:draft.version,seatLayoutId:draft.seatLayoutId}}))});return true;

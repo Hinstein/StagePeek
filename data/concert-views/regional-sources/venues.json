@@ -1,0 +1,501 @@
+{
+  "schemaVersion": 1,
+  "venues": {
+    "clapper-studio-taipei": {
+      "id": "clapper-studio-taipei",
+      "name": "Clapper Studio",
+      "city": "台湾 · 台北",
+      "country": "台湾",
+      "source": "https://twconcertview.com/en/3d/clapper-studio-taipei",
+      "sourceLinks": [
+        "https://twconcertview.com/en/3d/clapper-studio-taipei"
+      ],
+      "tiers": [],
+      "geometry": {
+        "shape": "rectangle",
+        "floor": [
+          80,
+          120
+        ],
+        "tiers": [],
+        "displayBasis": "source-row-ribbons"
+      },
+      "sections": [],
+      "accuracy": {
+        "metricCalibrated": false,
+        "completeSeatInventory": false,
+        "seatDataStatus": "full-retained-asset",
+        "position": "source-coordinate",
+        "reuse": "Reference model; rights undecided; no official event inventory"
+      },
+      "researchOnly": true,
+      "publicationStatus": "not-published",
+      "rightsDecision": "undecided"
+    },
+    "legacy-tera-taipei": {
+      "id": "legacy-tera-taipei",
+      "name": "Legacy TERA",
+      "city": "台湾 · 台北",
+      "country": "台湾",
+      "source": "https://twconcertview.com/en/3d/legacy-tera-taipei",
+      "sourceLinks": [
+        "https://twconcertview.com/en/3d/legacy-tera-taipei"
+      ],
+      "tiers": [],
+      "geometry": {
+        "shape": "rectangle",
+        "floor": [
+          80,
+          120
+        ],
+        "tiers": [],
+        "displayBasis": "source-row-ribbons"
+      },
+      "sections": [],
+      "accuracy": {
+        "metricCalibrated": false,
+        "completeSeatInventory": false,
+        "seatDataStatus": "full-retained-asset",
+        "position": "source-coordinate",
+        "reuse": "Reference model; rights undecided; no official event inventory"
+      },
+      "researchOnly": true,
+      "publicationStatus": "not-published",
+      "rightsDecision": "undecided"
+    },
+    "moondog-taipei": {
+      "id": "moondog-taipei",
+      "name": "MOONDOG",
+      "city": "台湾 · 台北",
+      "country": "台湾",
+      "source": "https://twconcertview.com/en/3d/moondog-taipei",
+      "sourceLinks": [
+        "https://twconcertview.com/en/3d/moondog-taipei"
+      ],
+      "tiers": [],
+      "geometry": {
+        "shape": "rectangle",
+        "floor": [
+          80,
+          120
+        ],
+        "tiers": [],
+        "displayBasis": "source-row-ribbons"
+      },
+      "sections": [],
+      "accuracy": {
+        "metricCalibrated": false,
+        "completeSeatInventory": false,
+        "seatDataStatus": "full-retained-asset",
+        "position": "source-coordinate",
+        "reuse": "Reference model; rights undecided; no official event inventory"
+      },
+      "researchOnly": true,
+      "publicationStatus": "not-published",
+      "rightsDecision": "undecided"
+    },
+    "national-concert-hall-taipei": {
+      "id": "national-concert-hall-taipei",
+      "name": "台北国家音乐厅",
+      "city": "台湾 · 台北",
+      "country": "台湾",
+      "source": "https://twconcertview.com/en/3d/national-concert-hall-taipei",
+      "sourceLinks": [
+        "https://twconcertview.com/en/3d/national-concert-hall-taipei"
+      ],
+      "tiers": [],
+      "geometry": {
+        "shape": "rectangle",
+        "floor": [
+          80,
+          120
+        ],
+        "tiers": [],
+        "displayBasis": "source-row-ribbons"
+      },
+      "sections": [],
+      "accuracy": {
+        "metricCalibrated": false,
+        "completeSeatInventory": false,
+        "seatDataStatus": "full-retained-asset",
+        "position": "source-coordinate",
+        "reuse": "Reference model; rights undecided; no official event inventory"
+      },
+      "researchOnly": true,
+      "publicationStatus": "not-published",
+      "rightsDecision": "undecided"
+    },
+    "national-theater-taipei": {
+      "id": "national-theater-taipei",
+      "name": "台北国家戏剧院",
+      "city": "台湾 · 台北",
+      "country": "台湾",
+      "source": "https://twconcertview.com/en/3d/national-theater-taipei",
+      "sourceLinks": [
+        "https://twconcertview.com/en/3d/national-theater-taipei"
+      ],
+      "tiers": [],
+      "geometry": {
+        "shape": "rectangle",
+        "floor": [
+          80,
+          120
+        ],
+        "tiers": [],
+        "displayBasis": "source-row-ribbons"
+      },
+      "sections": [],
+      "accuracy": {
+        "metricCalibrated": false,
+        "completeSeatInventory": false,
+        "seatDataStatus": "full-retained-asset",
+        "position": "source-coordinate",
+        "reuse": "Reference model; rights undecided; no official event inventory"
+      },
+      "researchOnly": true,
+      "publicationStatus": "not-published",
+      "rightsDecision": "undecided"
+    },
+    "ntu-sports-center": {
+      "id": "ntu-sports-center",
+      "name": "台大综合体育馆",
+      "city": "台湾 · 台北",
+      "country": "台湾",
+      "source": "https://twconcertview.com/en/3d/ntu-sports-center",
+      "sourceLinks": [
+        "https://twconcertview.com/en/3d/ntu-sports-center"
+      ],
+      "tiers": [],
+      "geometry": {
+        "shape": "rectangle",
+        "floor": [
+          80,
+          120
+        ],
+        "tiers": [],
+        "displayBasis": "source-row-ribbons"
+      },
+      "sections": [],
+      "accuracy": {
+        "metricCalibrated": false,
+        "completeSeatInventory": false,
+        "seatDataStatus": "full-retained-asset",
+        "position": "source-coordinate",
+        "reuse": "Reference model; rights undecided; no official event inventory"
+      },
+      "researchOnly": true,
+      "publicationStatus": "not-published",
+      "rightsDecision": "undecided"
+    },
+    "sub-live-taipei": {
+      "id": "sub-live-taipei",
+      "name": "SUB Live",
+      "city": "台湾 · 台北",
+      "country": "台湾",
+      "source": "https://twconcertview.com/en/3d/sub-live-taipei",
+      "sourceLinks": [
+        "https://twconcertview.com/en/3d/sub-live-taipei"
+      ],
+      "tiers": [],
+      "geometry": {
+        "shape": "rectangle",
+        "floor": [
+          80,
+          120
+        ],
+        "tiers": [],
+        "displayBasis": "source-row-ribbons"
+      },
+      "sections": [],
+      "accuracy": {
+        "metricCalibrated": false,
+        "completeSeatInventory": false,
+        "seatDataStatus": "full-retained-asset",
+        "position": "source-coordinate",
+        "reuse": "Reference model; rights undecided; no official event inventory"
+      },
+      "researchOnly": true,
+      "publicationStatus": "not-published",
+      "rightsDecision": "undecided"
+    },
+    "taipei-city-stage": {
+      "id": "taipei-city-stage",
+      "name": "台北城市舞台",
+      "city": "台湾 · 台北",
+      "country": "台湾",
+      "source": "https://twconcertview.com/en/3d/taipei-city-stage",
+      "sourceLinks": [
+        "https://twconcertview.com/en/3d/taipei-city-stage"
+      ],
+      "tiers": [],
+      "geometry": {
+        "shape": "rectangle",
+        "floor": [
+          80,
+          120
+        ],
+        "tiers": [],
+        "displayBasis": "source-row-ribbons"
+      },
+      "sections": [],
+      "accuracy": {
+        "metricCalibrated": false,
+        "completeSeatInventory": false,
+        "seatDataStatus": "full-retained-asset",
+        "position": "source-coordinate",
+        "reuse": "Reference model; rights undecided; no official event inventory"
+      },
+      "researchOnly": true,
+      "publicationStatus": "not-published",
+      "rightsDecision": "undecided"
+    },
+    "taipei-music-center": {
+      "id": "taipei-music-center",
+      "name": "台北流行音乐中心",
+      "city": "台湾 · 台北",
+      "country": "台湾",
+      "source": "https://twconcertview.com/en/3d/taipei-music-center",
+      "sourceLinks": [
+        "https://twconcertview.com/en/3d/taipei-music-center"
+      ],
+      "tiers": [],
+      "geometry": {
+        "shape": "rectangle",
+        "floor": [
+          80,
+          120
+        ],
+        "tiers": [],
+        "displayBasis": "source-row-ribbons"
+      },
+      "sections": [],
+      "accuracy": {
+        "metricCalibrated": false,
+        "completeSeatInventory": false,
+        "seatDataStatus": "full-retained-asset",
+        "position": "source-coordinate",
+        "reuse": "Reference model; rights undecided; no official event inventory"
+      },
+      "researchOnly": true,
+      "publicationStatus": "not-published",
+      "rightsDecision": "undecided"
+    },
+    "taipei-pac-blue-box": {
+      "id": "taipei-pac-blue-box",
+      "name": "台北表演艺术中心 · 蓝盒子",
+      "city": "台湾 · 台北",
+      "country": "台湾",
+      "source": "https://twconcertview.com/en/3d/taipei-pac-blue-box",
+      "sourceLinks": [
+        "https://twconcertview.com/en/3d/taipei-pac-blue-box"
+      ],
+      "tiers": [],
+      "geometry": {
+        "shape": "rectangle",
+        "floor": [
+          80,
+          120
+        ],
+        "tiers": [],
+        "displayBasis": "source-row-ribbons"
+      },
+      "sections": [],
+      "accuracy": {
+        "metricCalibrated": false,
+        "completeSeatInventory": false,
+        "seatDataStatus": "full-retained-asset",
+        "position": "source-coordinate",
+        "reuse": "Reference model; rights undecided; no official event inventory"
+      },
+      "researchOnly": true,
+      "publicationStatus": "not-published",
+      "rightsDecision": "undecided"
+    },
+    "taipei-pac-globe-playhouse": {
+      "id": "taipei-pac-globe-playhouse",
+      "name": "台北表演艺术中心 · 球剧场",
+      "city": "台湾 · 台北",
+      "country": "台湾",
+      "source": "https://twconcertview.com/en/3d/taipei-pac-globe-playhouse",
+      "sourceLinks": [
+        "https://twconcertview.com/en/3d/taipei-pac-globe-playhouse"
+      ],
+      "tiers": [],
+      "geometry": {
+        "shape": "rectangle",
+        "floor": [
+          80,
+          120
+        ],
+        "tiers": [],
+        "displayBasis": "source-row-ribbons"
+      },
+      "sections": [],
+      "accuracy": {
+        "metricCalibrated": false,
+        "completeSeatInventory": false,
+        "seatDataStatus": "full-retained-asset",
+        "position": "source-coordinate",
+        "reuse": "Reference model; rights undecided; no official event inventory"
+      },
+      "researchOnly": true,
+      "publicationStatus": "not-published",
+      "rightsDecision": "undecided"
+    },
+    "taipei-pac-grand-theater": {
+      "id": "taipei-pac-grand-theater",
+      "name": "台北表演艺术中心 · 大剧院",
+      "city": "台湾 · 台北",
+      "country": "台湾",
+      "source": "https://twconcertview.com/en/3d/taipei-pac-grand-theater",
+      "sourceLinks": [
+        "https://twconcertview.com/en/3d/taipei-pac-grand-theater"
+      ],
+      "tiers": [],
+      "geometry": {
+        "shape": "rectangle",
+        "floor": [
+          80,
+          120
+        ],
+        "tiers": [],
+        "displayBasis": "source-row-ribbons"
+      },
+      "sections": [],
+      "accuracy": {
+        "metricCalibrated": false,
+        "completeSeatInventory": false,
+        "seatDataStatus": "full-retained-asset",
+        "position": "source-coordinate",
+        "reuse": "Reference model; rights undecided; no official event inventory"
+      },
+      "researchOnly": true,
+      "publicationStatus": "not-published",
+      "rightsDecision": "undecided"
+    },
+    "taiwan-traditional-theatre-center-grand-theater": {
+      "id": "taiwan-traditional-theatre-center-grand-theater",
+      "name": "台湾戏曲中心 · 大表演厅",
+      "city": "台湾 · 台北",
+      "country": "台湾",
+      "source": "https://twconcertview.com/en/3d/taiwan-traditional-theatre-center-grand-theater",
+      "sourceLinks": [
+        "https://twconcertview.com/en/3d/taiwan-traditional-theatre-center-grand-theater"
+      ],
+      "tiers": [],
+      "geometry": {
+        "shape": "rectangle",
+        "floor": [
+          80,
+          120
+        ],
+        "tiers": [],
+        "displayBasis": "source-row-ribbons"
+      },
+      "sections": [],
+      "accuracy": {
+        "metricCalibrated": false,
+        "completeSeatInventory": false,
+        "seatDataStatus": "full-retained-asset",
+        "position": "source-coordinate",
+        "reuse": "Reference model; rights undecided; no official event inventory"
+      },
+      "researchOnly": true,
+      "publicationStatus": "not-published",
+      "rightsDecision": "undecided"
+    },
+    "ticc-taipei": {
+      "id": "ticc-taipei",
+      "name": "台北国际会议中心 TICC",
+      "city": "台湾 · 台北",
+      "country": "台湾",
+      "source": "https://twconcertview.com/en/3d/ticc-taipei",
+      "sourceLinks": [
+        "https://twconcertview.com/en/3d/ticc-taipei"
+      ],
+      "tiers": [],
+      "geometry": {
+        "shape": "rectangle",
+        "floor": [
+          80,
+          120
+        ],
+        "tiers": [],
+        "displayBasis": "source-row-ribbons"
+      },
+      "sections": [],
+      "accuracy": {
+        "metricCalibrated": false,
+        "completeSeatInventory": false,
+        "seatDataStatus": "full-retained-asset",
+        "position": "source-coordinate",
+        "reuse": "Reference model; rights undecided; no official event inventory"
+      },
+      "researchOnly": true,
+      "publicationStatus": "not-published",
+      "rightsDecision": "undecided"
+    },
+    "westar-taipei": {
+      "id": "westar-taipei",
+      "name": "WESTAR",
+      "city": "台湾 · 台北",
+      "country": "台湾",
+      "source": "https://twconcertview.com/en/3d/westar-taipei",
+      "sourceLinks": [
+        "https://twconcertview.com/en/3d/westar-taipei"
+      ],
+      "tiers": [],
+      "geometry": {
+        "shape": "rectangle",
+        "floor": [
+          80,
+          120
+        ],
+        "tiers": [],
+        "displayBasis": "source-row-ribbons"
+      },
+      "sections": [],
+      "accuracy": {
+        "metricCalibrated": false,
+        "completeSeatInventory": false,
+        "seatDataStatus": "full-retained-asset",
+        "position": "source-coordinate",
+        "reuse": "Reference model; rights undecided; no official event inventory"
+      },
+      "researchOnly": true,
+      "publicationStatus": "not-published",
+      "rightsDecision": "undecided"
+    },
+    "zepp-new-taipei": {
+      "id": "zepp-new-taipei",
+      "name": "Zepp New Taipei",
+      "city": "台湾 · 新北",
+      "country": "台湾",
+      "source": "https://twconcertview.com/en/3d/zepp-new-taipei",
+      "sourceLinks": [
+        "https://twconcertview.com/en/3d/zepp-new-taipei"
+      ],
+      "tiers": [],
+      "geometry": {
+        "shape": "rectangle",
+        "floor": [
+          80,
+          120
+        ],
+        "tiers": [],
+        "displayBasis": "source-row-ribbons"
+      },
+      "sections": [],
+      "accuracy": {
+        "metricCalibrated": false,
+        "completeSeatInventory": false,
+        "seatDataStatus": "full-retained-asset",
+        "position": "source-coordinate",
+        "reuse": "Reference model; rights undecided; no official event inventory"
+      },
+      "researchOnly": true,
+      "publicationStatus": "not-published",
+      "rightsDecision": "undecided"
+    }
+  }
+}

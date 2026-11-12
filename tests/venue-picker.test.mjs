@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
+import {countryName,venueName,venueRegion} from '../public/translations/venue-labels.mjs';
 import {renderCountryVenuePicker} from '../public/venue-picker.mjs';
 
 const source=readFileSync(new URL('../public/app.mjs',import.meta.url),'utf8');
@@ -28,4 +29,17 @@ test('changing country clears the old choice and deep-link selection restores th
   h.render('中国香港','hk-free');
   assert.equal(h.nodes.get('venue-country').value,'中国香港');
   assert.equal(h.nodes.get('venue').value,'hk-free');
+});
+
+test('regional draft Taiwan label uses the same five-language region name',()=>{
+ const venue={id:'taipei-arena',name:'台北小巨蛋',city:'中国台湾 · 台北',country:'台湾'};
+ for(const locale of ['en','zh-CN','zh-TW','ja','ko']){
+  assert.equal(countryName('台湾',locale),countryName('中国台湾',locale));
+  assert.equal(venueRegion(venue,locale),countryName('台湾',locale));
+  assert.ok(venueName(venue,locale));
+ }
+ assert.equal(countryName('台湾','en'),'Taiwan');
+ for(const locale of ['en','zh-CN','zh-TW','ja','ko'])assert.equal(countryName('GB',locale),countryName('英国',locale));
+ assert.equal(venueName(venue,'en'),'Taipei Arena');
+ assert.equal(venueName(venue,'zh-TW'),'臺北小巨蛋');
 });

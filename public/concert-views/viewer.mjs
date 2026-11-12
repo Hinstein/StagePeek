@@ -111,16 +111,14 @@ export function createViewer(canvas,{onSection,onSample,onSeat=()=>{},onMode=()=
       }else decks.push(...footprints);
       const sectionDecks=new Map();(display?.renderRecords||venue.sourceSeats).forEach((s,i)=>{const list=sectionDecks.get(s.section)||[];list.push(footprints[i]);sectionDecks.set(s.section,list);});
       for(const section of venue.sections){
-        const hit=mesh(quads(sectionDecks.get(section.id)||[]),new THREE.MeshBasicMaterial({side:THREE.DoubleSide}));hit.visible=false;hit.userData.section=section.id;picks.push(hit);textLabel(displaySectionLabel(section),display?.sectionCenters.get(section.id)||section.center);
+        if(section.kind==='standing')decks.push(section.polygon);
+        const hit=mesh(quads(section.kind==='standing'?[section.polygon]:sectionDecks.get(section.id)||[]),new THREE.MeshBasicMaterial({side:THREE.DoubleSide}));hit.visible=false;hit.userData.section=section.id;picks.push(hit);textLabel(displaySectionLabel(section),display?.sectionCenters.get(section.id)||section.center);
       }
     }else{
     const risers=[];
     for(const section of venue.sections){
       const renderHalfAngle=sectionRenderHalfAngle(venue,section),rows=sectionRowCount(venue,section),steps=sectionSteps(venue,section);
-      if(venue.geometry?.referenceLayout){
-        mesh(quads(steps.treads),material(section.block.color,{side:THREE.DoubleSide}));
-        mesh(quads([...steps.risers,...steps.walls]),material(section.block.color,{side:THREE.DoubleSide}));
-      }else{decks.push(...steps.treads);risers.push(...steps.risers,...steps.walls);}
+      decks.push(...steps.treads);risers.push(...steps.risers,...steps.walls);
       const polygon=[[0,-1],[0,1],[1,1],[1,-1]].map(([t,l])=>sectionPoint(venue,section,t,l,renderHalfAngle));
       const hit=mesh(quads(section.block?.polygon?steps.treads:[polygon]),new THREE.MeshBasicMaterial({side:THREE.DoubleSide}));hit.visible=false;hit.userData.section=section.id;picks.push(hit);
       textLabel(displaySectionLabel(section),sectionPoint(venue,section,.55,0,renderHalfAngle),!!section.block?.polygon);
@@ -135,6 +133,7 @@ export function createViewer(canvas,{onSection,onSample,onSeat=()=>{},onMode=()=
       canvas.dataset.aisleHalfSteps=String(display.aisleSteps.length);
     }else delete canvas.dataset.aisleHalfSteps;
     const placeInstances=(geometries,target)=>{
+      if(!records.length)return;
       for(const [index,geometry] of geometries.entries()){
         const seats=new THREE.InstancedMesh(geometry,material(index===1?palette.seatBack:palette.seat),records.length);
         seats.frustumCulled=false;
@@ -152,7 +151,7 @@ export function createViewer(canvas,{onSection,onSample,onSeat=()=>{},onMode=()=
     marker=mesh(new THREE.SphereGeometry(.18,12,8),new THREE.MeshBasicMaterial({color:palette.marker,transparent:true,opacity:.92}));
     markerRing=new THREE.Mesh(new THREE.TorusGeometry(.38,.045,8,24),new THREE.MeshBasicMaterial({color:palette.ring,transparent:true,opacity:.95}));
     markerRing.rotation.x=Math.PI/2;markerRing.position.y=-.72;marker.add(markerRing);
-    buildRoof();canvas.dataset.coordinateBasis=display?.basis==='source-row-ribbons'?'source-model-xyz':display?'estimated-parametric':venue.sourceSeats?'source-model-xyz':'synthetic-geometry';canvas.dataset.layout=venue.seatLayout?.id||layout;canvas.dataset.sections=String(venue.sections.length);canvas.dataset.chairs=String(records.length);canvas.dataset.sourceChairs=String(venue.sourceSeats?.length||0);canvas.dataset.illustrativeChairs=String(display?.supplements.length||0);canvas.dataset.referenceChairs=String(display?.referenceRecords.length||0);updateSelection();
+    buildRoof();canvas.dataset.coordinateBasis=display?.basis==='source-row-ribbons'?'source-model-xyz':display?'estimated-parametric':venue.sourceSeats?'source-model-xyz':'synthetic-geometry';canvas.dataset.layout=venue.seatLayout?.id||layout;canvas.dataset.sections=String(venue.sections.length);canvas.dataset.chairs=String(records.length);canvas.dataset.sourceChairs=String(venue.sourceSeats?.length||0);canvas.dataset.illustrativeChairs=String(records.filter(r=>r.visualOnly&&!r.referenceSeat).length);canvas.dataset.referenceChairs=String(display?.referenceRecords.length||0);updateSelection();
   }
   function renderLayout(){return layout==='none'&&!eventSelected&&venue?.researchRenderBatch?.layout==='o2a'?'event':layout;}
   function updateRowLabels(){
@@ -246,6 +245,7 @@ export function createViewer(canvas,{onSection,onSample,onSeat=()=>{},onMode=()=
   function initial(){
     const bounds=new THREE.Box3();
     for(const r of records)bounds.expandByPoint(vec(r.p).add(new THREE.Vector3(0,.9,0)));
+    for(const section of venue.sections.filter(s=>s.kind==='standing'))for(const p of section.polygon)bounds.expandByPoint(vec(p));
     bounds.expandByObject(stage);
     if(bounds.isEmpty())return pose(new THREE.Vector3(90,85,100),new THREE.Vector3(0,5,0));
     const center=bounds.getCenter(new THREE.Vector3());
@@ -263,7 +263,7 @@ export function createViewer(canvas,{onSection,onSample,onSeat=()=>{},onMode=()=
     const orientation=new THREE.PerspectiveCamera();orientation.position.copy(center).add(direction);orientation.lookAt(center);
     const inverse=orientation.quaternion.clone().invert(),tanV=Math.tan(43*Math.PI/360),tanH=tanV*Math.max(.3,camera.aspect);
     let distance=10;
-    const fitPoints=records.map(r=>vec(r.p).add(new THREE.Vector3(0,.9,0))),stageBounds=new THREE.Box3().setFromObject(stage);
+    const fitPoints=[...records.map(r=>vec(r.p).add(new THREE.Vector3(0,.9,0))),...venue.sections.filter(s=>s.kind==='standing').flatMap(s=>s.polygon.map(vec))],stageBounds=new THREE.Box3().setFromObject(stage);
     if(!stageBounds.isEmpty())for(const x of [stageBounds.min.x,stageBounds.max.x])for(const y of [stageBounds.min.y,stageBounds.max.y])for(const z of [stageBounds.min.z,stageBounds.max.z])fitPoints.push(new THREE.Vector3(x,y,z));
     for(const point of fitPoints){const p=point.sub(center).applyQuaternion(inverse);distance=Math.max(distance,p.z+Math.abs(p.x)/tanH*1.12,p.z+Math.abs(p.y)/tanV*1.16);}
     return pose(center.clone().addScaledVector(direction,distance),center,43);
@@ -278,7 +278,8 @@ export function createViewer(canvas,{onSection,onSample,onSeat=()=>{},onMode=()=
     fly(pose(target.clone().add(new THREE.Vector3(4,3,9)),target,40));
   }
   function near(){
-    const selected=records.filter(r=>r.section===sectionId);if(!selected.length)return;
+    const section=venue.sections.find(s=>s.id===sectionId);
+    const selected=section?.kind==='standing'?section.polygon.map(p=>({p})):records.filter(r=>r.section===sectionId);if(!selected.length)return;
     stageFocused=false;
     const bounds=new THREE.Box3();selected.forEach(r=>bounds.expandByPoint(vec(r.p)));
     const target=bounds.getCenter(new THREE.Vector3()).add(new THREE.Vector3(0,.5,0)),size=bounds.getSize(new THREE.Vector3()),out=new THREE.Vector3(target.x,0,target.z);

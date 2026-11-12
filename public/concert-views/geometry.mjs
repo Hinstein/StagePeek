@@ -107,7 +107,7 @@ export function sectionRenderHalfAngle(venue,section){
   // generic bowl reads as one continuous structure. Source-observed layouts
   // retain their measured spans and visible aisles.
   if(basis==='source-layout-reference'||basis==='synthetic-geometry'||basis==='operator-curated-anchor'){
-    return Math.min(Math.PI*.45,Math.max(section.halfAngle,Math.min(previousGap,nextGap)*.48));
+    return Math.min(Math.PI*.45,Math.min(previousGap,nextGap)*.48);
   }
   return section.halfAngle;
 }
@@ -248,19 +248,22 @@ export function baseSeatRecords(venue){
       const t=(r+.5)/rows,lateral=(-.5+(s+.5)/seats)*1.8,p=sectionPoint(venue,section,t,lateral,half);
       const next=sectionPoint(venue,section,t,lateral+1.8/seats,half),spacing=Math.hypot(p[0]-next[0],p[2]-next[2]);
       const inward=sectionPoint(venue,section,Math.max(0,t-.01),lateral,half),outward=sectionPoint(venue,section,Math.min(1,t+.01),lateral,half);
-      records.push({section:section.id,p,width:clamp(spacing*.78/.52,.45,1.15),tier:section.tier,row:String(r+1),seat:String(s+1),angle:section.block?((section.block.facing??-1)===-1?Math.PI:0):Math.atan2(outward[0]-inward[0],outward[2]-inward[2])});
+      records.push({section:section.id,p,width:clamp(spacing*.78/.52,.45,1.15),tier:section.tier,displayRow:String(r+1),visualOnly:true,sourceSeat:false,angle:section.block?((section.block.facing??-1)===-1?Math.PI:0):Math.atan2(outward[0]-inward[0],outward[2]-inward[2])});
     }
   }
   for(let tier=0;tier<venue.tiers.length;tier++){
     if(venue.geometry?.openBowl||venue.geometry?.oneSided||['fan','rear'].includes(venueShape(venue)))continue;
     const sections=venue.sections.filter(s=>s.tier===tier&&!s.block),coverage=sections.reduce((n,s)=>n+halves.get(s)*2,0);
     if(!sections.length)continue;
+    // Estimated section anchors define the seating extent. Gaps between them
+    // remain aisles/openings rather than unlabelled extra seats.
+    if(sections.every(s=>['source-layout-reference','synthetic-geometry','operator-curated-anchor'].includes(s.positionBasis?.kind)))continue;
     const rows=tierRowCount(venue,tier),segments=Math.max(128,Math.min(224,Math.round(coverage<Math.PI?192:160)));
     for(let r=0;r<rows;r++)for(let i=0;i<segments;i++){
       const angle=-Math.PI+i/segments*Math.PI*2;
       if(sections.some(s=>Math.abs(Math.atan2(Math.sin(angle-s.angle),Math.cos(angle-s.angle)))<=halves.get(s)))continue;
       const p=sectionPoint(venue,{tier,angle,halfAngle:0},(r+.5)/rows,0,0),radial=Math.hypot(p[0],p[2]);
-      records.push({section:null,p,width:clamp(radial*.04/.46,.65,1.15),tier,angle:Math.atan2(p[0],p[2])});
+      records.push({section:null,p,width:clamp(radial*.04/.46,.65,1.15),tier,visualOnly:true,sourceSeat:false,angle:Math.atan2(p[0],p[2])});
     }
   }
   seatCache.set(venue,records);return records;

@@ -1,5 +1,6 @@
 import {createServer} from 'node:http';
 import {readFile,realpath,stat} from 'node:fs/promises';
+import {concertViewsPage} from './concert-views/page.mjs';
 import {packSourceSeats} from '../public/seating.mjs';
 import {resolve,extname,sep} from 'node:path';
 import {fileURLToPath} from 'node:url';
@@ -79,9 +80,19 @@ export function createApplication({db,config,venues,events=null,ticketing=null,t
       const concertRequest=concertPath==='/concert-views'||concertPath.startsWith('/concert-views/')||concertPath.startsWith('/api/concert-views/');
       if(path.startsWith('/api/')&&!webhook)(await limit(db,'http:'+hash(req.socket.remoteAddress||''),240,60_000,clock()));
       if(handleShared&&await handleShared(req,res,url,user))return;
-      if(concertRequest){
+      const publicScene=venues.release&&/^\/concert-views\/[a-z0-9-]+\.(mjs|css)$/.test(concertPath);
+      if(concertRequest&&!publicScene){
         if(!concertViews||!(config.production?isAdmin(user):config.devPreviewAllVenues&&localMode()&&loopback(req.socket.remoteAddress)))throw fault(404,'NOT_FOUND','Not found');
         if(await concertViews.handle(req,res,url,{path:basePath,locale}))return;
+      }
+      if(venues.release&&path.startsWith('/api/viewer/')){
+        const hydro=path==='/api/viewer/hydro/ovo-hydro';
+        const preview=path.match(/^\/api\/viewer\/ticket-map-previews\/([a-z0-9-]+)$/);
+        if(!concertViews||method!=='GET'||!hydro&&!preview)throw fault(404,'NOT_FOUND','Not found');
+        const draft=preview?concertViews.previews.get(preview[1]):null;
+        if(preview&&!draft)throw fault(404,'NOT_FOUND','Not found');
+        await requireVenue(req,hydro?'ovo-hydro':draft.venueId);
+        return json(res,200,hydro?{venue:concertViews.hydro}:{draft});
       }
       if(shared&&user&&!['GET','HEAD'].includes(method)&&!webhook&&!/^\/api\/venues\/[a-z0-9-]+\/resolve$/.test(path)&&(await consentStatus(db,user)).required)throw fault(403,'CONSENT_REQUIRED','请先确认服务条款与隐私政策');
       if((path==='/api/health'||path==='/healthz')&&method==='GET')return json(res,200,{ok:true,service:'stagepeek'});
@@ -212,6 +223,7 @@ export function createApplication({db,config,venues,events=null,ticketing=null,t
         if(!operation&&method==='GET'){const venue=venues.get(id,url.searchParams.get('layout')||undefined);if(!venue)throw fault(422,'UNKNOWN_LAYOUT','This source layout is unavailable');return json(res,200,{venue:venue.sourceSeats?{...venue,sourceSeats:undefined,seatTuples:packSourceSeats(venue.sourceSeats)}:venue});}
         if(operation==='resolve'&&method==='POST')return json(res,200,venues.resolve(id,await body(req)));
         if(operation==='events'&&method==='GET'){
+          if(venues.release)return json(res,200,{events:[],researchConcerts:concertViews.previews.list(id).map(draft=>({id:draft.id,name:draft.label,localDate:draft.dates[0],dates:draft.dates,source:draft.source,researchOnly:true,ticketMapDraft:{id:draft.id,version:draft.version,seatLayoutId:draft.seatLayoutId}}))});
           const official=events?events.list(id):{events:[],refreshedAt:null,status:'not-fetched'};
           const provider=ticketingEvents?.list(id)||{events:[],refreshedAt:null,status:'not-fetched'};
           const providerKey=value=>{const match=String(value||'').match(/\/event\/([A-Za-z0-9_-]+)/i);return match?.[1]||null;};
@@ -274,8 +286,10 @@ export function createApplication({db,config,venues,events=null,ticketing=null,t
       if(basePath.startsWith('/previews/')&&basePath.endsWith('.svg')&&content){
         content=Buffer.from(localizeInterfaceHtml(content.toString('utf8'),locale,basePath));
       }else if(basePath==='/'&&!toolPage&&content){
-        const html=localizeHomeHtml(content.toString('utf8').replace('<!--PUBLIC-SCHEMA-->',homeSchema(locale)).replace('<!--PUBLIC-NAVIGATION-->',publicNavigation(locale)).replace('<!--VENUE-GUIDES-->',publicSite.homeEnhancements(locale)).replace('<html lang="zh-CN">',`<html lang="${locale}">`),locale).replace('<!--SITE-HEADER-->',publicHeader(locale,basePath,{user})).replace('<!--SITE-FOOTER-->',publicFooter(locale));
+        const html=localizeHomeHtml(content.toString('utf8').replace('<!--PUBLIC-SCHEMA-->',homeSchema(locale)).replace('<!--PUBLIC-NAVIGATION-->',publicNavigation(locale)).replace('<!--VENUE-GUIDES-->',publicSite.homeEnhancements(locale)).replace('<html lang="zh-CN">',`<html lang="${locale}">`),locale,(await access(null)).freeVenueIds.length).replace('<!--SITE-HEADER-->',publicHeader(locale,basePath,{user})).replace('<!--SITE-FOOTER-->',publicFooter(locale));
         content=Buffer.from(html.replace('</head>',`<meta name="stagepeek-locale" content="${locale}"></head>`));
+      }else if(content&&toolPage&&venues.release){
+        content=Buffer.from(concertViewsPage(locale,user,{publicMode:true}));
       }else if(content&&(toolPage||['/auth/login','/auth/register','/auth/verify','/auth/callback','/auth/reset','/auth/password','/auth/continue','/account'].includes(basePath))){
         const html=localizeInterfaceHtml(content.toString('utf8'),locale,basePath).replace('<!--SITE-HEADER-->',publicHeader(locale,basePath,{user,explorer:toolPage,auth:!toolPage})).replace('<!--SITE-FOOTER-->',publicFooter(locale)).replace('</head>',`<meta name="stagepeek-locale" content="${locale}"></head>`);
         content=Buffer.from(html);

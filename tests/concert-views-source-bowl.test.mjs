@@ -43,3 +43,14 @@ test('short end rows and missing interior points do not cut holes or sawteeth in
  const opposite=rows.map(row=>({...row,section:'B',seats:row.seats.map(s=>({...s,position:[-s.position[0],s.position[1],-s.position[2]]}))}));
  assert.equal(sourceBankShell([...rows,...opposite]).aisleSteps.length,0,'wide service or stage openings stay open');
 });
+
+test('off-centre flat rows retain source-facing headings and Cartesian floor instead of radial fan seams',()=>{
+ const seats=Array.from({length:4},(_,r)=>Array.from({length:9},(_,i)=>({section:'F',level:'floor',row:String(r+1),seat:String(i+1),position:[i*.6-2.4,0,r*.95-1.5],yaw:0,chairWidth:.46,rowDepth:.95}))).flat();
+ const venue={geometry:{displayBasis:'source-row-ribbons'},sourceSeats:seats,sections:[{id:'F',center:[0,0,0]}]};
+ const before=JSON.stringify(seats),model=sourceBowlDisplay(venue);
+ assert.equal(JSON.stringify(seats),before);
+ assert.ok(model.records.every(r=>Math.cos(r.angle-Math.PI)>.999));
+ assert.ok(model.banks.every(b=>b.cartesian));assert.equal(model.aisleSteps.length,0);assert.equal(model.gallery.decks.length,0);
+ for(const q of model.treads){assert.ok(q.flat().every(Number.isFinite));assert.ok(validPolygon(q.map(([x,,z])=>[x,z])));}
+ for(const r of model.records)assert.ok(model.rows.find(row=>row.row===r.row).treads.some(q=>inside([r.p[0],r.p[2]],q.map(([x,,z])=>[x,z]))));
+});

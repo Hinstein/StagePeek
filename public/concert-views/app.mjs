@@ -10,6 +10,7 @@ import {venueReturn} from './auth-contract.mjs';
 import {resolveInitialRoute} from './route.mjs';
 import {venueCountry} from '../catalog.mjs';
 import {renderCountryVenuePicker} from '../venue-picker.mjs';
+import {venueName,venueRegion} from '../translations/venue-labels.mjs';
 import {getLocale,localizedPath,t,copy,translations} from '../locales.mjs';
 import '../language-switcher.mjs';
 import {createMapTransform,zoomMap,rotateMap,resetMap,panMap} from './explorer-state.mjs';
@@ -18,6 +19,7 @@ import {sourceBowlDisplay,sourceRowLabelAnchors} from './source-bowl-display.mjs
 import {eventChairFootprint} from './source-event-display.mjs';
 import {referenceRowLabel,sourceTicketInput} from './seat-numbering.mjs';
 const $=id=>document.getElementById(id);
+const publicViewer=document.querySelector('meta[name=stagepeek-viewer-mode]')?.content==='public';
 const locale=getLocale(),route=path=>localizedPath(locale,path);
 const state={me:null,catalog:[],venueId:'twcv-the-o2-arena-london',venue:null,sectionId:'122',result:null,layout:'end',mode:'2d',event:null,previewDraft:null,mapTransform:null,phoneFrame:false,roofVisible:false,zoom:1,billingPlans:[],billingPlan:'monthly',eventOverlayVisible:false,officialOverlayVisible:false};
 let localResearch=null;
@@ -47,8 +49,8 @@ function syncLayoutRoute(layout){
 const messages={SUBSCRIPTION_REQUIRED:copy('这个场馆需要 Pro 订阅，请先选择订阅周期。'),LOGIN_REQUIRED:copy('请先登录。'),INVALID_EMAIL:copy('请输入有效的邮箱地址。'),INVALID_LINK:copy('登录链接已失效，或与申请时的浏览器不一致，请重新申请。'),RATE_LIMITED:copy('操作有些频繁，请稍后再试。'),GOOGLE_NOT_CONFIGURED:copy('Google 登录暂未开放。'),EMAIL_NOT_CONFIGURED:copy('邮件登录暂未开放。'),BILLING_NOT_CONFIGURED:copy('订阅暂未开放。'),LINK_REQUIRED:copy('这个邮箱已有账号。请先用邮箱登录，再在我的账号中关联 Google。'),SAVE_LIMIT:copy('已达到当前套餐的位置保存上限。'),ALREADY_SUBSCRIBED:copy('你已订阅，可在账单中心管理。'),NO_SUBSCRIPTION:copy('当前没有可管理的账单账号。'),SEAT_UNVERIFIED:copy('暂不支持保存这个位置，请选择其他座位。'),GOOGLE_CANCELED:copy('已取消 Google 登录。')};
 function message(error){return {INVALID_OTP:copy('验证码错误或已过期，请重新获取。'),OTP_EXPIRED:copy('验证已过期，请重新发送验证码。'),AUTH_UNAVAILABLE:copy('登录服务暂不可用，请稍后重试。'),MEMBERSHIP_REQUIRED:copy('该账号暂时无法访问 StagePeek，请重新登录。'),CHECKOUT_PENDING:copy('已有付款流程待确认，请稍后刷新或使用账单中心，避免重复付款。'),BILLING_REVIEW_REQUIRED:copy('该账单账号需要核查，请先通过账单中心管理订阅。')}[error.code]||messages[error.code]||copy('暂时无法完成，请稍后重试。');}
 async function api(path,{method='GET',body}={}){
-  if(path.startsWith('/api/venues'))path=path.replace('/api/venues','/api/concert-views/venues');
-  if(path.startsWith('/api/admin/ticket-map-previews'))path=path.replace('/api/admin/ticket-map-previews','/api/concert-views/ticket-map-previews');
+  if(!publicViewer&&path.startsWith('/api/venues'))path=path.replace('/api/venues','/api/concert-views/venues');
+  if(path.startsWith('/api/admin/ticket-map-previews'))path=path.replace('/api/admin/ticket-map-previews',publicViewer?'/api/viewer/ticket-map-previews':'/api/concert-views/ticket-map-previews');
   if(path==='/api/admin/global-sources')path='/api/concert-views/hydro';
   const response=await fetch(path,{method,credentials:'same-origin',headers:body?{'Content-Type':'application/json'}:{},body:body?JSON.stringify(body):undefined});
   const data=await response.json();if(!response.ok)throw Object.assign(new Error(data.error?.message||'Request failed'),{code:data.error?.code,status:response.status});return data;
@@ -127,8 +129,9 @@ function renderMap(){
     for(let i=12;i>=0;i--)boundary.push(sectionPoint(v,s,1,-1+i/6,half));
     return [s.id,[{viewId:`estimated:${s.id}`,points:boundary.map(p=>[p[0],p[2]])}]];
   }));
+  for(const section of v.sections.filter(s=>s.kind==='standing'))renderedPolygons.set(section.id,[{points:section.polygon.map(([x,,z])=>[x,z])}]);
   const stand=display?{treads:display.treads,treadLevels:[...display.rows,...display.referenceRows].flatMap(row=>row.treads.map(()=>row.level))}:sourceDisplay?{treads:sourceDisplay.treads,treadLevels:sourceDisplay.treadLevels}:v.researchRenderBatch?.standGeometry?sourceStandGeometry(v.sourceSeats,'o2a',v.researchRenderBatch.standGeometry):null;
-  const polygons=[...renderedPolygons.values()].flat(),points=stand?polygons.flatMap(p=>p.points):v.sourceSeats?v.sourceSeats.map(s=>[s.position[0],s.position[2]]):polygons.flatMap(p=>p.points);
+  const polygons=[...renderedPolygons.values()].flat(),points=stand?polygons.flatMap(p=>p.points):v.sourceSeats?[...v.sourceSeats.map(s=>[s.position[0],s.position[2]]),...v.sections.filter(s=>s.kind==='standing').flatMap(s=>s.polygon.map(([x,,z])=>[x,z]))]:polygons.flatMap(p=>p.points);
   // Fit the visible level, including its supporting surface, rather than
   // shrinking L1 to make room for the hidden upper stand.
   if(stand)for(const [i,q]of stand.treads.entries())if(stand.treadLevels[i]===activeLevel)for(const [x,,z]of q)points.push([x,z]);
@@ -176,8 +179,8 @@ function renderMap(){
     }
   }
   const labels=[];
-  for(const s of v.sections){if(v.sourceSeats?!s.sourceLevels?.includes(activeLevel):s.tier!==activeTier)continue;const label=displaySectionLabel(s),g=add('g',{'data-section':s.id,'data-selected':String(s.id===state.sectionId),tabindex:0,role:'button','aria-label':s.block?.polygon?s.levelName:copy('分区 {0}',[label]),...s.block?.color?{style:'--section-fill:'+s.block.color}:{}});
-    const shapes=renderedPolygons.get(s.id)||[],fill=display||sourceDisplay?(s.id===state.sectionId?venuePalette.selected:venuePalette.seat):s.id===state.sectionId?'#dc7a43':s.block?.color||['#628867','#4a7452','#3a6449','#31553c','#264935'][s.tier%5];
+  for(const s of v.sections){if(v.sourceSeats?!s.sourceLevels?.includes(activeLevel):s.tier!==activeTier)continue;const label=displaySectionLabel(s),g=add('g',{'data-section':s.id,'data-selected':String(s.id===state.sectionId),tabindex:0,role:'button','aria-label':s.block?.polygon?s.levelName:copy('分区 {0}',[label])});
+    const shapes=renderedPolygons.get(s.id)||[],fill=s.id===state.sectionId?venuePalette.selected:venuePalette.seat;
     if(stand)g.setAttribute('style',`--source-seat-fill:${display||sourceDisplay?(s.id===state.sectionId?venuePalette.selected:venuePalette.seat):s.id===state.sectionId?'#8eae78':'#628867'}`);
     if(sourceDisplay){
       const outlines=sourceDisplay.banks.filter(b=>b.section===s.id&&b.level===activeLevel).map(b=>b.outline);
@@ -305,7 +308,7 @@ function render(){
   updateExplorerSteps();
   if(localResearch?.active)return;
   const v=state.venue;if(!v)return;clearFloorView();renderEventLayout();const s=selectedSection(),r=state.result,display=o2DisplayModel(v);
-  $('venue-name').textContent=v.name;$('venue-city').textContent=v.city.split(' · ').map(part=>copy(part)).join(' · ')+(state.previewDraft?' · '+state.previewDraft.event.name+' · '+state.previewDraft.event.dates.join(' / '):v.geometry?.referenceLayout?' · '+copy(v.geometry.referenceLayout.label):'');
+  $('venue-name').textContent=venueName(v,locale);$('venue-city').textContent=venueRegion(v,locale)+(state.previewDraft?' · '+state.previewDraft.event.name+' · '+state.previewDraft.event.dates.join(' / '):v.geometry?.referenceLayout?' · '+copy(v.geometry.referenceLayout.label):'');
   $('accuracy-short').textContent=copy('位置仅供参考');
   $('coverage-count').textContent=copy('座位、舞台与人物均为示意');
   $('capability-badges').replaceChildren();
@@ -354,11 +357,11 @@ function renderVenuePicker(country,selectedId=''){
 }
 async function loadCatalog(){
  setStatus('venue-status',copy('正在读取场馆目录…'),'loading');setStatus('explorer-status',copy('正在准备场馆目录…'),'loading');
- const [regular,hydro]=await Promise.all([api('/api/venues'),api('/api/admin/global-sources')]);
+ const [regular,hydro]=await Promise.all([api('/api/venues'),publicViewer?Promise.resolve({venues:[]}):api('/api/admin/global-sources')]);
  state.catalog=[...regular.venues,...hydro.venues.map(v=>({...v,country:'英国'}))];
  renderVenuePicker(venueCountry(state.catalog.find(v=>v.id===new URLSearchParams(location.search).get('venue'))||state.catalog[0]),new URLSearchParams(location.search).get('venue')||state.venueId);
  setStatus('venue-status',copy('场馆目录已准备好'),'success');setStatus('explorer-status','');$('venue-retry').hidden=true;
- return hydro.venues;
+ return publicViewer?regular.venues.filter(v=>v.venueDraft):hydro.venues;
 }
 async function loadVenue(id,layout,preserveEvent=null){
   const version=++loadVersion;resolveVersion++;$('locate').disabled=true;setStatus('venue-status',copy('正在加载场馆…'),'loading');
@@ -397,7 +400,7 @@ function chooseSection(id,focus=true,{previewOnly=false}={}){
   const sample=previewOnly?null:state.venue.sourceSeats?(section.samples.find(s=>s.level===state.mapLevel)||section.samples[0]):section.samples.find(x=>x.row==='14'&&x.seat==='679')||section.samples[0];
   state.mapLevel=state.venue?.sourceSeats&&section.sourceLevels?.includes(state.mapLevel)?state.mapLevel:sample?.level??section.sourceLevels?.[0];
   $('section').value=section.ticketLabels[0]||sample?.section||id;$('row').value=referenceRowLabel(state.venue,sample)||sample?.row||'';$('seat').value=sample?.seat||'';
-  state.result=sample?{status:'matched',...sample,sectionId:id}:{status:'unverified',section:id,row:'',seat:''};render();
+  state.result=section.kind==='standing'?{status:'illustrative-view',section:id,zoneId:id,zoneLabel:copy(section.sourceLabel),position:[...section.center],layout:state.layout,venueId:state.venueId,positionStatus:'estimated-standing-area'}:sample?{status:'matched',...sample,sectionId:id}:{status:'unverified',section:id,row:'',seat:''};render();
   if(focus)viewer?.near();
 }
 function chooseEstimatedSeat(record){
@@ -421,6 +424,7 @@ function chooseFloorView(chair){
 }
 function clearFloorView(){
   if(state.result?.status!=='illustrative-view')return;
+  if(state.result.positionStatus==='estimated-standing-area'&&state.result.layout===state.layout&&state.result.venueId===state.venueId)return;
   if(state.eventOverlayVisible&&state.result.eventId===state.event?.id)return;
   resolveVersion++;state.result=null;state.phoneFrame=false;
   $('section').value='';$('row').value='';$('seat').value='';
@@ -572,7 +576,7 @@ try{
   const [,hydroVenues]=await Promise.all([refreshAccount(),loadCatalog()]);
   // Select the local source capability before resolving tickets against the
   // original catalog; a new venue must never query a fallback venue's seats.
-  if(state.me.providers.localInbox){
+  if(publicViewer||state.me.providers.localInbox){
    try{const {mountLocalResearch}=await import('./local-project-research.mjs');localResearch=mountLocalResearch(hydroVenues,state.catalog,()=>{loadVersion++;resolveVersion++;viewer?.setMode('2d');},updateExplorerSteps);}
    catch{toast('部分场馆暂未载入，请稍后重试。');}
   }

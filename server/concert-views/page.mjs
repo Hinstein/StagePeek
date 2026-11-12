@@ -9,7 +9,7 @@ const scene=`<div id="viewer" class="viewer"><canvas id="scene" aria-label="可�
  <div id="selection-row" class="selection-row"><span id="selection-tag" class="selection-tag"></span></div><span id="viewer-location" class="viewer-location"></span><div id="view-error" class="view-error" hidden></div>
  </div>`;
 
-export function concertViewsPage(locale,user){
+export function concertViewsPage(locale,user,{publicMode=false}={}){
  const html=template
   .replace('aria-label="Find a ticket seat"','aria-label="查找座位"')
   .replace('src="/app.mjs"','src="/concert-views/app.mjs"')
@@ -30,7 +30,7 @@ export function concertViewsPage(locale,user){
   .replace(/data-i18n="explorer.samples">[^<]*/g,`>${copy('看看其他位置')}`)
   .replace(/data-i18n="explorer.ticketHint">[^<]*/g,`>${copy('示例：101 区 · A 排 · 78 座。')}`)
   .replace(/data-i18n="explorer.distance">[^<]*/g,`>${copy('至示意舞台 · 仅供参考')}`)
-  .replace('<!--SITE-HEADER-->',publicHeader(locale,'/concert-views',{user,explorer:true}))
+  .replace('<!--SITE-HEADER-->',publicHeader(locale,publicMode?'/explore':'/concert-views',{user,explorer:true}))
   .replace('<!--SITE-FOOTER-->',publicFooter(locale))
-  .replace('</head>',`<meta name="stagepeek-locale" content="${locale}"></head>`);
+  .replace('</head>',`<meta name="stagepeek-locale" content="${locale}"><meta name="stagepeek-viewer-mode" content="${publicMode?'public':'research'}"></head>`);
 }

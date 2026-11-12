@@ -175,5 +175,15 @@
       "public/home.css": "93409349b72a0310128d7d38fea8bc56c1063062489f0172ab8e1d39dcbe21c6",
       "public/site-ui.css": "717dd9db51b721024a773f1b28855badd49dd4c38e1a70b5fe8975e0662a1e90"
     }
+  },
+  "regionalReleaseReview": {
+    "date": "2026-11-12",
+    "scope": "User-authorized release of the rebuilt catalog only: region/name labels, released sitemap, and homepage free-count copy derived from unchanged access policy. Original protected hashes, auth and billing contracts remain intact.",
+    "files": {
+      "public/catalog.mjs": "fe529ecaad52ba707b1c569cdf5bf53eb576724d8321a60cf10b2081655bb8be",
+      "public/translations/venue-labels.mjs": "98598f31c46c48b9af60a56fb3b6eb3763ab0182b724974cb7eb8ae7cedf80e7",
+      "public/sitemap.xml": "992d2b888dfca7452a01defd7f0feda25130a02ce991ae47d768f50736ac54e2",
+      "server/public-pages.mjs": "9519f266612d1d110f07e7d30dbf3d5702381a71ec3d6de8fac2ad6f9d362c59"
+    }
   }
 }

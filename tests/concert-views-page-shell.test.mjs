@@ -1,3 +1,5 @@
+import {venueRegion} from '../public/translations/venue-labels.mjs';
+import {localizedPath} from '../public/locales.mjs';
 import {renderVenueLocation,venueEventCard,selectVenueEvent} from '../public/venue-view/venue-page-presenter.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
@@ -15,16 +17,16 @@ class Node {
  querySelectorAll(selector){return this.children.flatMap(node=>[...(selector==='button[data-event]'&&node.tagName==='button'&&node.dataset.event?[node]:[]),...node.querySelectorAll(selector)]);}
 }
 
-function fixture(){
+function fixture(locked=false){
  const ids=['venue','viewer','ticket-form','section','row','seat','stage-layout','return-venue-layout','venue-name','venue-city','locate','location-section','location-row','location-status','location-description','distance','save-position','samples-list','row-list','section-list','coverage-count','capability-badges','event-count','events-status','events-list','layout-state','event-layout-note','layout-source-note','research-v0-notice','ticket-map-conflicts','ticket-map-preview-image','venue-status'];
  const nodes=Object.fromEntries(ids.map(id=>[id,new Node()])),map=new Node(),sources=new Node('details'),workspace=new Node(),form=nodes['ticket-form'];
  sources.className='sources';map.append(nodes.viewer,new Node(),new Node(),sources);workspace.append(form,map);new Node('label').append(nodes['stage-layout']);
  const regularHandlers={submit:()=>{},section:()=>{},input:()=>{}},changes=[],panels=[],pending=[];
  form.onsubmit=regularHandlers.submit;nodes.section.onchange=regularHandlers.section;nodes.section.oninput=regularHandlers.input;
  nodes.venue.value='twcv-the-o2-arena-london';nodes.venue.onchange=()=>changes.push(nodes.venue.value);
- const location={href:'http://localhost/concert-views?venue=twcv-the-o2-arena-london&section=101&row=3&seat=20',get search(){return new URL(this.href).search;}},history={replaceState(a,b,url){location.href=String(url);}};
+ const location={assign(url){this.assigned=url;},href:'http://localhost/concert-views?venue=twcv-the-o2-arena-london&section=101&row=3&seat=20',get search(){return new URL(this.href).search;}},history={replaceState(a,b,url){location.href=String(url);}};
  const document={head:new Node(),getElementById:id=>nodes[id],createElement:tag=>new Node(tag),querySelector:selector=>selector==='.map-card > .sources'?sources:map.children.find(n=>n.className.includes('hydro-sources'))};
- const venue=loadConcertViews().hydro;
+ const venue={...loadConcertViews().hydro,country:'英国',locked};
  const appendHydroPanel=(parent,data,options)=>{
   assert.equal(options.query.form,form);assert.equal(options.sourcesHost,map);
   assert.equal(options.query.section,nodes.section);assert.equal(options.query.row,nodes.row);assert.equal(options.query.seat,nodes.seat);
@@ -33,11 +35,11 @@ function fixture(){
   const panel={disposed:false,selectEvent(id){this.event=id;},dispose(){this.disposed=true;form.onsubmit=regularHandlers.submit;nodes.section.onchange=regularHandlers.section;nodes.section.oninput=regularHandlers.input;}};panels.push(panel);return panel;
  };
  const source=readFileSync(new URL('../public/concert-views/local-project-research.mjs',import.meta.url),'utf8');
- const mount=new Function('appendHydroPanel','groupVenuesByCountry','renderVenueLocation','venueEventCard','selectVenueEvent','document','location','history','fetch','copy','getLocale',source.replace(/^import .*;\n/gm,'').replace('export function','function')+';return mountLocalResearch;')(appendHydroPanel,groupVenuesByCountry,renderVenueLocation,venueEventCard,selectVenueEvent,document,location,history,()=>new Promise(resolve=>pending.push(resolve)),text=>text,()=>'zh-CN');
+ const mount=new Function('appendHydroPanel','groupVenuesByCountry','renderVenueLocation','venueEventCard','selectVenueEvent','document','location','history','fetch','copy','getLocale','venueRegion','localizedPath',source.replace(/^import .*;\n/gm,'').replace('export function','function')+';return mountLocalResearch;')(appendHydroPanel,groupVenuesByCountry,renderVenueLocation,venueEventCard,selectVenueEvent,document,location,history,()=>new Promise(resolve=>pending.push(resolve)),text=>text,()=>'zh-CN',venueRegion,localizedPath);
  const adapter=mount([venue],[{id:'twcv-the-o2-arena-london',name:'O2',country:'英国'},{id:'twcv-ziggo-dome-amsterdam',name:'Ziggo',country:'荷兰'}]);
  const choose=id=>{nodes.venue.value=id;nodes.venue.onchange();};
  const respond=async index=>{pending[index]({ok:true,json:async()=>({venue})});await new Promise(resolve=>setImmediate(resolve));};
- return {nodes,map,workspace,form,sources,regularHandlers,changes,panels,choose,respond,adapter};
+ return {location,nodes,map,workspace,form,sources,regularHandlers,changes,panels,choose,respond,adapter};
 }
 
 test('Hydro reuses the existing page form, workspace, sidebar and source slot across venue switches',async()=>{
@@ -63,4 +65,9 @@ test('an obsolete Hydro response cannot remount a second page after switching ve
  const h=fixture();h.choose('ovo-hydro');h.choose('twcv-the-o2-arena-london');await h.respond(0);
  assert.equal(h.panels.length,0);assert.equal(h.adapter.active,false);assert.equal(h.nodes.viewer.hidden,false);
  assert.equal(h.form.onsubmit,h.regularHandlers.submit);
+});
+
+test('locked Hydro navigates to shared plans and localized country names do not throw',async()=>{
+ const locked=fixture(true);locked.choose('ovo-hydro');assert.equal(locked.location.assigned,'/zh-CN/plans');assert.equal(locked.adapter.active,false);
+ const open=fixture();open.choose('ovo-hydro');await open.respond(0);assert.match(open.nodes['venue-city'].textContent,/英国/);assert.equal(open.adapter.ready,true);
 });

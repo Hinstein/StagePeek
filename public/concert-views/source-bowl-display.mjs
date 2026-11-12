@@ -20,14 +20,14 @@ export function sourceBowlDisplay(venue){
   for(const [i,seat]of row.entries()){
    const connected=other=>other&&Math.hypot(other.position[0]-seat.position[0],other.position[2]-seat.position[2])<=seat.chairWidth*1.8;
    const a=connected(row[i-1])?row[i-1].position:seat.position,b=connected(row[i+1])?row[i+1].position:seat.position;
-   const dx=b[0]-a[0],dz=b[2]-a[2],sign=dz*seat.position[0]-dx*seat.position[2]>0?1:-1;
-   headings.set(seat,Math.hypot(dx,dz)>1e-6?Math.atan2(-dz*sign,dx*sign):Math.atan2(Math.sin(seat.yaw),-Math.cos(seat.yaw)));
+   const dx=b[0]-a[0],dz=b[2]-a[2],source=Math.atan2(Math.sin(seat.yaw),-Math.cos(seat.yaw)),tangent=Math.atan2(-dz,dx);
+   headings.set(seat,Math.hypot(dx,dz)>1e-6?tangent+(Math.cos(tangent-source)<0?Math.PI:0):source);
   }
  }
  records.forEach((r,i)=>{r.angle=headings.get(venue.sourceSeats[i]);});
  const rows=[...groups.values()].map(seats=>({section:seats[0].section,level:seats[0].level,row:seats[0].row,y:seats[0].position[1],seats}));
  const footprints=records.map(r=>[[-1,-1],[1,-1],[1,1],[-1,1]].map(([a,b])=>[r.p[0]+a*.23*r.width*Math.cos(r.angle)+b*.215*Math.sin(r.angle),r.p[1]+.01,r.p[2]-a*.23*r.width*Math.sin(r.angle)+b*.215*Math.cos(r.angle)]));
- const shell=sourceBankShell(rows);
+ const shell=sourceBankShell(rows,{closedBowl:venue.geometry.closedBowl===true,rectangular:venue.geometry.shape==='rectangle'});
  const result={basis:'source-row-ribbons',records,renderRecords:records,footprints,sectionCenters:new Map(venue.sections.map(s=>[s.id,s.center])),supplements:[],referenceRecords:[],...shell,rows:shell.banks.flatMap(b=>b.rows),shellBasis:'estimated-continuous-bank'};
  cache.set(venue,result);return result;
 }

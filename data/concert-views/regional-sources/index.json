@@ -1,0 +1,363 @@
+{
+  "schemaVersion": 1,
+  "venues": {
+    "clapper-studio-taipei": {
+      "source": "https://twconcertview.com/en/3d/clapper-studio-taipei",
+      "assetSha256": "f75db8bf9d50fb442057874fdacebe22eb8805a74827cfe0ca9d6fb2688f3cb2",
+      "schema": "reference-xyz-14",
+      "defaultLayout": "end",
+      "layouts": [
+        {
+          "id": "end",
+          "label": "远端舞台",
+          "count": 153,
+          "sectionCount": 2
+        }
+      ],
+      "conversion": {
+        "script": "scripts/build-regional-reference-seats.mjs",
+        "input": "raw/clapper-studio-taipei.json",
+        "coordinates": "retained reference model; not independently measured",
+        "chairWidth": 0.48,
+        "rowDepth": 0.8,
+        "dimensionsBasis": "display estimate"
+      }
+    },
+    "legacy-tera-taipei": {
+      "source": "https://twconcertview.com/en/3d/legacy-tera-taipei",
+      "assetSha256": "4331714c26382237485caa37d8d0fff80fa163c52b3a130baea9cdaa597e1d67",
+      "schema": "reference-xyz-14",
+      "defaultLayout": "end",
+      "layouts": [
+        {
+          "id": "end",
+          "label": "远端舞台",
+          "count": 0,
+          "sectionCount": 1
+        }
+      ],
+      "conversion": {
+        "script": "scripts/build-regional-reference-seats.mjs",
+        "input": "raw/legacy-tera-taipei.json",
+        "coordinates": "retained reference model; not independently measured",
+        "chairWidth": 0.48,
+        "rowDepth": 0.8,
+        "dimensionsBasis": "display estimate"
+      }
+    },
+    "moondog-taipei": {
+      "source": "https://twconcertview.com/en/3d/moondog-taipei",
+      "assetSha256": "d3a0db8806f87e88bcf3167a33ee9e3f167fd7710003e7c626dc97432cbce788",
+      "schema": "reference-xyz-14",
+      "defaultLayout": "end",
+      "layouts": [
+        {
+          "id": "end",
+          "label": "远端舞台",
+          "count": 0,
+          "sectionCount": 1
+        }
+      ],
+      "conversion": {
+        "script": "scripts/build-regional-reference-seats.mjs",
+        "input": "raw/moondog-taipei.json",
+        "coordinates": "retained reference model; not independently measured",
+        "chairWidth": 0.48,
+        "rowDepth": 0.8,
+        "dimensionsBasis": "display estimate"
+      }
+    },
+    "national-concert-hall-taipei": {
+      "source": "https://twconcertview.com/en/3d/national-concert-hall-taipei",
+      "assetSha256": "148bc73a034a190e08aaf053522861a61af84fb04fe9cdef5f092239e6cc87c9",
+      "schema": "reference-xyz-14",
+      "defaultLayout": "end",
+      "layouts": [
+        {
+          "id": "end",
+          "label": "远端舞台",
+          "count": 2008,
+          "sectionCount": 49
+        }
+      ],
+      "conversion": {
+        "script": "scripts/build-regional-reference-seats.mjs",
+        "input": "raw/national-concert-hall-taipei.json",
+        "coordinates": "retained reference model; not independently measured",
+        "chairWidth": 0.48,
+        "rowDepth": 0.8,
+        "dimensionsBasis": "display estimate"
+      }
+    },
+    "national-theater-taipei": {
+      "source": "https://twconcertview.com/en/3d/national-theater-taipei",
+      "assetSha256": "749e8a43b410c77637c7fc81201e2b47b7e668842112a8ba7d8154a0ed8f6586",
+      "schema": "reference-xyz-14",
+      "defaultLayout": "end",
+      "layouts": [
+        {
+          "id": "end",
+          "label": "远端舞台",
+          "count": 1498,
+          "sectionCount": 40
+        }
+      ],
+      "conversion": {
+        "script": "scripts/build-regional-reference-seats.mjs",
+        "input": "raw/national-theater-taipei.json",
+        "coordinates": "retained reference model; not independently measured",
+        "chairWidth": 0.48,
+        "rowDepth": 0.8,
+        "dimensionsBasis": "display estimate"
+      }
+    },
+    "ntu-sports-center": {
+      "source": "https://twconcertview.com/en/3d/ntu-sports-center",
+      "assetSha256": "568f0566719c891b9a438be6489da63fa8a52240657f135db52700d1feb1a63c",
+      "schema": "reference-xyz-14",
+      "defaultLayout": "end",
+      "layouts": [
+        {
+          "id": "end",
+          "label": "远端舞台",
+          "count": 2364,
+          "sectionCount": 9
+        }
+      ],
+      "conversion": {
+        "script": "scripts/build-regional-reference-seats.mjs",
+        "input": "raw/ntu-sports-center.json",
+        "coordinates": "retained reference model; not independently measured",
+        "chairWidth": 0.48,
+        "rowDepth": 0.9,
+        "dimensionsBasis": "display estimate"
+      }
+    },
+    "sub-live-taipei": {
+      "source": "https://twconcertview.com/en/3d/sub-live-taipei",
+      "assetSha256": "a8c877aee9743e49ee0a6d059eb7891eb9252454993c6a84023c14ec907273ad",
+      "schema": "reference-xyz-14",
+      "defaultLayout": "end",
+      "layouts": [
+        {
+          "id": "end",
+          "label": "远端舞台",
+          "count": 0,
+          "sectionCount": 4
+        }
+      ],
+      "conversion": {
+        "script": "scripts/build-regional-reference-seats.mjs",
+        "input": "raw/sub-live-taipei.json",
+        "coordinates": "retained reference model; not independently measured",
+        "chairWidth": 0.48,
+        "rowDepth": 0.8,
+        "dimensionsBasis": "display estimate"
+      }
+    },
+    "taipei-city-stage": {
+      "source": "https://twconcertview.com/en/3d/taipei-city-stage",
+      "assetSha256": "ce27f674566df22ba8fd709542b0cdaa6e8d77789ff599e47c0b30918d16b93d",
+      "schema": "reference-xyz-14",
+      "defaultLayout": "end",
+      "layouts": [
+        {
+          "id": "end",
+          "label": "远端舞台",
+          "count": 995,
+          "sectionCount": 12
+        }
+      ],
+      "conversion": {
+        "script": "scripts/build-regional-reference-seats.mjs",
+        "input": "raw/taipei-city-stage.json",
+        "coordinates": "retained reference model; not independently measured",
+        "chairWidth": 0.48,
+        "rowDepth": 0.8,
+        "dimensionsBasis": "display estimate"
+      }
+    },
+    "taipei-music-center": {
+      "source": "https://twconcertview.com/en/3d/taipei-music-center",
+      "assetSha256": "ad7a7fa00d644dbd33c36e618fd089dd1c84fe9afb5c6d05aa527d36f6f229f8",
+      "schema": "reference-xyz-14",
+      "defaultLayout": "end",
+      "layouts": [
+        {
+          "id": "end",
+          "label": "远端舞台",
+          "count": 3144,
+          "sectionCount": 14
+        }
+      ],
+      "conversion": {
+        "script": "scripts/build-regional-reference-seats.mjs",
+        "input": "raw/taipei-music-center.json",
+        "coordinates": "retained reference model; not independently measured",
+        "chairWidth": 0.48,
+        "rowDepth": 0.8,
+        "dimensionsBasis": "display estimate"
+      }
+    },
+    "taipei-pac-blue-box": {
+      "source": "https://twconcertview.com/en/3d/taipei-pac-blue-box",
+      "assetSha256": "098f5ba41c487c827c54358b9b50d0389ababa529b11ae832747c194ca0973f9",
+      "schema": "reference-xyz-14",
+      "defaultLayout": "end",
+      "layouts": [
+        {
+          "id": "end",
+          "label": "远端舞台",
+          "count": 493,
+          "sectionCount": 9
+        }
+      ],
+      "conversion": {
+        "script": "scripts/build-regional-reference-seats.mjs",
+        "input": "raw/taipei-pac-blue-box.json",
+        "coordinates": "retained reference model; not independently measured",
+        "chairWidth": 0.48,
+        "rowDepth": 0.8,
+        "dimensionsBasis": "display estimate"
+      }
+    },
+    "taipei-pac-globe-playhouse": {
+      "source": "https://twconcertview.com/en/3d/taipei-pac-globe-playhouse",
+      "assetSha256": "e0e79f09bd15e435aff58c57ce18d7c37e975f2dfecb7faf7ee654bfc2bac7d6",
+      "schema": "reference-xyz-14",
+      "defaultLayout": "end",
+      "layouts": [
+        {
+          "id": "end",
+          "label": "远端舞台",
+          "count": 768,
+          "sectionCount": 31
+        }
+      ],
+      "conversion": {
+        "script": "scripts/build-regional-reference-seats.mjs",
+        "input": "raw/taipei-pac-globe-playhouse.json",
+        "coordinates": "retained reference model; not independently measured",
+        "chairWidth": 0.48,
+        "rowDepth": 0.8,
+        "dimensionsBasis": "display estimate"
+      }
+    },
+    "taipei-pac-grand-theater": {
+      "source": "https://twconcertview.com/en/3d/taipei-pac-grand-theater",
+      "assetSha256": "c12654d20ca6f27a3e55c2de44688104802393f11c4944ca9b68e2f2c62581ed",
+      "schema": "reference-xyz-14",
+      "defaultLayout": "end",
+      "layouts": [
+        {
+          "id": "end",
+          "label": "远端舞台",
+          "count": 1449,
+          "sectionCount": 12
+        }
+      ],
+      "conversion": {
+        "script": "scripts/build-regional-reference-seats.mjs",
+        "input": "raw/taipei-pac-grand-theater.json",
+        "coordinates": "retained reference model; not independently measured",
+        "chairWidth": 0.48,
+        "rowDepth": 0.8,
+        "dimensionsBasis": "display estimate"
+      }
+    },
+    "taiwan-traditional-theatre-center-grand-theater": {
+      "source": "https://twconcertview.com/en/3d/taiwan-traditional-theatre-center-grand-theater",
+      "assetSha256": "6d6733c52a3d08cb4f8761f41e7a8db99b18b18fd2dd4004cd29c1282c74f10e",
+      "schema": "reference-xyz-14",
+      "defaultLayout": "end",
+      "layouts": [
+        {
+          "id": "end",
+          "label": "远端舞台",
+          "count": 1031,
+          "sectionCount": 29
+        }
+      ],
+      "conversion": {
+        "script": "scripts/build-regional-reference-seats.mjs",
+        "input": "raw/taiwan-traditional-theatre-center-grand-theater.json",
+        "coordinates": "retained reference model; not independently measured",
+        "chairWidth": 0.48,
+        "rowDepth": 0.8,
+        "dimensionsBasis": "display estimate"
+      }
+    },
+    "ticc-taipei": {
+      "source": "https://twconcertview.com/en/3d/ticc-taipei",
+      "assetSha256": "aab6c424621df43be6396f1cdac9e721d9de3610dcc4e1fdfa7d4f5ce412a354",
+      "schema": "reference-xyz-14",
+      "defaultLayout": "end",
+      "layouts": [
+        {
+          "id": "end",
+          "label": "远端舞台",
+          "count": 3143,
+          "sectionCount": 29
+        }
+      ],
+      "conversion": {
+        "script": "scripts/build-regional-reference-seats.mjs",
+        "input": "raw/ticc-taipei.json",
+        "coordinates": "retained reference model; not independently measured",
+        "chairWidth": 0.48,
+        "rowDepth": 0.8,
+        "dimensionsBasis": "display estimate"
+      }
+    },
+    "westar-taipei": {
+      "source": "https://twconcertview.com/en/3d/westar-taipei",
+      "assetSha256": "628715b42b29310aa89bf18cbacb1840c420bbb9b4a01cb16215d82febec4b9c",
+      "schema": "reference-xyz-14",
+      "defaultLayout": "end",
+      "layouts": [
+        {
+          "id": "end",
+          "label": "远端舞台",
+          "count": 0,
+          "sectionCount": 1
+        }
+      ],
+      "conversion": {
+        "script": "scripts/build-regional-reference-seats.mjs",
+        "input": "raw/westar-taipei.json",
+        "coordinates": "retained reference model; not independently measured",
+        "chairWidth": 0.48,
+        "rowDepth": 0.8,
+        "dimensionsBasis": "display estimate"
+      }
+    },
+    "zepp-new-taipei": {
+      "source": "https://twconcertview.com/en/3d/zepp-new-taipei",
+      "assetSha256": "07c47e26eafbcdb6ae3eda7fd44281849735fa45c74ee72bef7e703184718740",
+      "schema": "reference-xyz-14",
+      "defaultLayout": "standing",
+      "layouts": [
+        {
+          "id": "end",
+          "label": "远端舞台",
+          "count": 1025,
+          "sectionCount": 15
+        },
+        {
+          "id": "standing",
+          "label": "站席布局",
+          "count": 291,
+          "sectionCount": 8
+        }
+      ],
+      "conversion": {
+        "script": "scripts/build-regional-reference-seats.mjs",
+        "input": "raw/zepp-new-taipei.json",
+        "coordinates": "retained reference model; not independently measured",
+        "chairWidth": 0.48,
+        "rowDepth": 0.8,
+        "dimensionsBasis": "display estimate"
+      }
+    }
+  }
+}
