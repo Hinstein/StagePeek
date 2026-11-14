@@ -21,11 +21,12 @@ function fixture(locked=false){
  const ids=['venue','viewer','ticket-form','section','row','seat','stage-layout','return-venue-layout','venue-name','venue-city','locate','location-section','location-row','location-status','location-description','distance','save-position','samples-list','row-list','section-list','coverage-count','capability-badges','event-count','events-status','events-list','layout-state','event-layout-note','layout-source-note','research-v0-notice','ticket-map-conflicts','ticket-map-preview-image','venue-status'];
  const nodes=Object.fromEntries(ids.map(id=>[id,new Node()])),map=new Node(),sources=new Node('details'),workspace=new Node(),form=nodes['ticket-form'];
  sources.className='sources';map.append(nodes.viewer,new Node(),new Node(),sources);workspace.append(form,map);new Node('label').append(nodes['stage-layout']);
+ const eventsCard=new Node();eventsCard.hidden=true;
  const regularHandlers={submit:()=>{},section:()=>{},input:()=>{}},changes=[],panels=[],pending=[];
  form.onsubmit=regularHandlers.submit;nodes.section.onchange=regularHandlers.section;nodes.section.oninput=regularHandlers.input;
  nodes.venue.value='twcv-the-o2-arena-london';nodes.venue.onchange=()=>changes.push(nodes.venue.value);
  const location={assign(url){this.assigned=url;},href:'http://localhost/concert-views?venue=twcv-the-o2-arena-london&section=101&row=3&seat=20',get search(){return new URL(this.href).search;}},history={replaceState(a,b,url){location.href=String(url);}};
- const document={head:new Node(),getElementById:id=>nodes[id],createElement:tag=>new Node(tag),querySelector:selector=>selector==='.map-card > .sources'?sources:map.children.find(n=>n.className.includes('hydro-sources'))};
+ const document={head:new Node(),getElementById:id=>nodes[id],createElement:tag=>new Node(tag),querySelector:selector=>selector==='.events-card'?eventsCard:selector==='.map-card > .sources'?sources:map.children.find(n=>n.className.includes('hydro-sources'))};
  const venue={...loadConcertViews().hydro,country:'英国',locked};
  const appendHydroPanel=(parent,data,options)=>{
   assert.equal(options.query.form,form);assert.equal(options.sourcesHost,map);
@@ -39,12 +40,12 @@ function fixture(locked=false){
  const adapter=mount([venue],[{id:'twcv-the-o2-arena-london',name:'O2',country:'英国'},{id:'twcv-ziggo-dome-amsterdam',name:'Ziggo',country:'荷兰'}]);
  const choose=id=>{nodes.venue.value=id;nodes.venue.onchange();};
  const respond=async index=>{pending[index]({ok:true,json:async()=>({venue})});await new Promise(resolve=>setImmediate(resolve));};
- return {location,nodes,map,workspace,form,sources,regularHandlers,changes,panels,choose,respond,adapter};
+ return {location,nodes,map,eventsCard,workspace,form,sources,regularHandlers,changes,panels,choose,respond,adapter};
 }
 
 test('Hydro reuses the existing page form, workspace, sidebar and source slot across venue switches',async()=>{
  const h=fixture(),children=[...h.workspace.children];
- h.choose('ovo-hydro');assert.equal(h.adapter.active,true);assert.equal(h.nodes.viewer.hidden,true);
+ h.choose('ovo-hydro');assert.equal(h.eventsCard.hidden,false,'Hydro shows its events even after a venue with none');assert.equal(h.adapter.active,true);assert.equal(h.nodes.viewer.hidden,true);
  await h.respond(0);
  assert.deepEqual(h.workspace.children,children,'no replacement workspace or query form');
  assert.equal(h.map.children.filter(node=>node.className==='hydro-page-adapter').length,1);
@@ -68,6 +69,6 @@ test('an obsolete Hydro response cannot remount a second page after switching ve
 });
 
 test('locked Hydro navigates to shared plans and localized country names do not throw',async()=>{
- const locked=fixture(true);locked.choose('ovo-hydro');assert.equal(locked.location.assigned,'/zh-CN/plans');assert.equal(locked.adapter.active,false);
+ const locked=fixture(true);locked.choose('ovo-hydro');const target=new URL(locked.location.assigned,'http://localhost');assert.equal(target.pathname,'/zh-CN/plans');assert.equal(target.searchParams.get('next'),'/zh-CN/explore?venue=ovo-hydro');assert.equal(locked.adapter.active,false);
  const open=fixture();open.choose('ovo-hydro');await open.respond(0);assert.match(open.nodes['venue-city'].textContent,/英国/);assert.equal(open.adapter.ready,true);
 });

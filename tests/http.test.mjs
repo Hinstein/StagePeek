@@ -216,7 +216,7 @@ test('source venue API rejects unavailable layouts and saved positions retain so
  assert.equal((await wrong.json()).status,'unknown-layout');
 });
 
-test('admin can read and replace exactly ten free venues while the paywall follows the policy',async t=>{
+test('admin can save all venues or a smaller selection while the paywall follows persisted policy',async t=>{
   const ids=['a','b','c','d','e','f','g','h','i','j','k'];
   const repository={catalog:()=>ids.map(id=>({id,name:id})),ids:()=>ids,get:id=>ids.includes(id)?{id,sections:[{id:'A'}]}:null,resolve:()=>({status:'unknown'}),validate:()=>({valid:true,errors:[],warnings:[],counts:{sections:0,ticketLabels:0,samples:0}}),publish:()=>{}};
   const {call,login,config}=await setup(t,repository);config.adminEmails=['admin@example.com'];config.freeVenueIds=ids.slice(0,10);
@@ -224,7 +224,15 @@ test('admin can read and replace exactly ten free venues while the paywall follo
   const session=await login('admin@example.com');
   const current=await call('/api/admin/access',{cookie:session.cookie});assert.equal(current.status,200);
   assert.deepEqual((await current.json()).freeVenueIds,ids.slice(0,10));
-  const update=await call('/api/admin/access',{method:'PUT',cookie:session.cookie,body:{freeVenueIds:ids.slice(1)}});assert.equal(update.status,200);
+  const all=await call('/api/admin/access',{method:'PUT',cookie:session.cookie,body:{freeVenueIds:ids}});assert.equal(all.status,200);
+  assert.equal((await all.json()).paidVenueCount,0);
+  assert.deepEqual((await(await call('/api/admin/access',{cookie:session.cookie})).json()).freeVenueIds,ids);
+  assert.ok((await(await call('/api/venues')).json()).venues.every(item=>!item.locked));
+  assert.equal((await call('/api/venues/a')).status,200);
+  assert.equal((await call('/api/admin/access',{method:'PUT',body:{freeVenueIds:ids}})).status,401);
+  const update=await call('/api/admin/access',{method:'PUT',cookie:session.cookie,body:{freeVenueIds:['k']}});assert.equal(update.status,200);
+  assert.deepEqual((await(await call('/api/admin/access',{cookie:session.cookie})).json()).freeVenueIds,['k']);
+  assert.equal((await call('/api/admin/access',{method:'PUT',cookie:session.cookie,body:{freeVenueIds:[]}})).status,422);
   const catalog=await (await call('/api/venues')).json();
   assert.equal(catalog.venues.find(item=>item.id==='k').locked,false);
   assert.equal(catalog.venues.find(item=>item.id==='a').locked,true);

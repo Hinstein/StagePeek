@@ -22,14 +22,19 @@ test('guest, free, paid, cancel-at-period-end and expired access is enforced fro
   assert.equal((await entitlements(db,user,now)).plan,'free');
 });
 
-test('free venue policy is persisted and admin changes require exactly ten existing ids',async t=>{
+test('free venue policy persists any nonempty selection including the entire catalog',async t=>{
   const {openStore}=await import('../server/store.mjs');
-  const {freeVenueIds,saveFreeVenueIds,DEFAULT_FREE_VENUE_IDS}=await import('../server/access.mjs');
+  const {freeVenueIds,saveFreeVenueIds,entitlements,DEFAULT_FREE_VENUE_IDS}=await import('../server/access.mjs');
   const db=openStore(':memory:');t.after(()=>db.close());
   const available=[...DEFAULT_FREE_VENUE_IDS,'extra-venue'];
   assert.deepEqual((await freeVenueIds(db,available,DEFAULT_FREE_VENUE_IDS)),DEFAULT_FREE_VENUE_IDS);
   const selected=DEFAULT_FREE_VENUE_IDS.slice().reverse();
   assert.deepEqual((await saveFreeVenueIds(db,selected,available,'admin@example.com',123)),selected);
   assert.deepEqual((await freeVenueIds(db,available,DEFAULT_FREE_VENUE_IDS)),selected);
-  await assert.rejects(async ()=>(await saveFreeVenueIds(db,['extra-venue'],available,'admin@example.com')),error=>error.code==='INVALID_FREE_VENUES');
+  for(const ids of [['extra-venue'],available]){
+    assert.deepEqual(await saveFreeVenueIds(db,ids,available,'admin@example.com'),ids);
+    assert.deepEqual(await freeVenueIds(db,available,DEFAULT_FREE_VENUE_IDS),ids);
+    assert.deepEqual((await entitlements(db,null,Date.now(),available,await freeVenueIds(db,available))).venueIds,ids);
+  }
+  for(const ids of [[],['missing-venue']])await assert.rejects(saveFreeVenueIds(db,ids,available,'admin@example.com'),error=>error.code==='INVALID_FREE_VENUES');
 });

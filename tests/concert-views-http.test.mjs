@@ -83,8 +83,10 @@ test('main business files retain baseline bytes and reviewed consumer copy retai
   'public/translations/ja.mjs','public/translations/ko.mjs','public/translations/zh-CN.mjs',
   'public/translations/zh-TW.mjs','server/public-content.mjs','server/public-pages.mjs'
  ].sort());
+ const adminFiles=boundary.adminSelectionReview.files;
+ assert.deepEqual(Object.keys(adminFiles).sort(),['public/admin.html','public/admin.mjs','server/access.mjs'].sort());
  assert.equal(boundary.mainUpdate.commit,'ab7c4e99100099b51b49b27438bb67b108509ebd');
- for(const [path,hash] of Object.entries(boundary.mainUpdate.files))assert.equal(createHash('sha256').update(readFileSync(new URL('../'+path,import.meta.url))).digest('hex'),hash,path);
+ for(const [path,hash] of Object.entries(boundary.mainUpdate.files))assert.equal(createHash('sha256').update(readFileSync(new URL('../'+path,import.meta.url))).digest('hex'),adminFiles[path]||hash,path);
  const frameFiles=boundary.homepageFrameReview.files;
  assert.equal(boundary.homepageFrameReview.commit,'316f75c5f0921211c783b65e40f9059a03e033eb');
  assert.deepEqual(Object.keys(frameFiles).sort(),['public/home.css','public/site-ui.css']);
@@ -92,11 +94,13 @@ test('main business files retain baseline bytes and reviewed consumer copy retai
  const authFiles=boundary.authFeedbackReview.files;
  assert.deepEqual(Object.keys(authFiles),['public/auth-page.mjs']);
  for(const [path,hash] of Object.entries(authFiles))assert.equal(createHash('sha256').update(readFileSync(new URL('../'+path,import.meta.url))).digest('hex'),hash,path);
+ const journeyFiles=boundary.publicJourneyReview.files;
+ assert.deepEqual(Object.keys(journeyFiles).sort(),['public/locales.mjs','public/translations/interface.mjs','server/public-pages.mjs'].sort());
  const sharedViewFiles=new Set(['public/app.mjs']);
  const regionalFiles=boundary.regionalReleaseReview.files;
  assert.deepEqual(Object.keys(regionalFiles).sort(),['public/catalog.mjs','public/sitemap.xml','public/translations/venue-labels.mjs','server/public-pages.mjs'].sort());
  for(const [path,hash] of Object.entries(boundary.protectedFiles)){
   if(sharedViewFiles.has(path))continue;
-  assert.equal(createHash('sha256').update(readFileSync(new URL('../'+path,import.meta.url))).digest('hex'),regionalFiles[path]||authFiles[path]||frameFiles[path]||consumerFiles[path]||boundary.mainUpdate.files[path]||hash,path);
+  assert.equal(createHash('sha256').update(readFileSync(new URL('../'+path,import.meta.url))).digest('hex'),adminFiles[path]||journeyFiles[path]||regionalFiles[path]||authFiles[path]||frameFiles[path]||consumerFiles[path]||boundary.mainUpdate.files[path]||hash,path);
  }
 });

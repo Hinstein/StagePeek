@@ -185,5 +185,23 @@
       "public/sitemap.xml": "992d2b888dfca7452a01defd7f0feda25130a02ce991ae47d768f50736ac54e2",
       "server/public-pages.mjs": "9519f266612d1d110f07e7d30dbf3d5702381a71ec3d6de8fac2ad6f9d362c59"
     }
+  },
+  "publicJourneyReview": {
+    "date": "2026-11-14",
+    "scope": "User-requested public journey reordering and plans handoff. Records only localized journey copy, plan-page action markup and language-switch context. All historical hashes and auth, access, billing backend, source data and publication logic remain protected. Behavioral coverage: tests/public-journey.test.mjs. Local review candidate; not deployed.",
+    "files": {
+      "public/locales.mjs": "8cf1ba373a867e2bc2b98795268c30ffc27fba7adfa8df3feb96c7773e95fd5c",
+      "public/translations/interface.mjs": "9a0bf14c3cff9941d2bb93f12f38b977836c7bb04ddfffa933aebb1fc847a4db",
+      "server/public-pages.mjs": "d7bcd4299387e44fb9824033de01bccb1117a3d1f415b9f8cd92c4d5fe639dc0"
+    }
+  },
+  "adminSelectionReview": {
+    "date": "2026-11-14",
+    "scope": "User-requested select-all and saving all selected free venues. Removes the fixed ten-venue restriction from frontend and backend while retaining at least one valid venue, admin authorization and persisted policy enforcement. Historical snapshots retained; local candidate, not deployed.",
+    "files": {
+      "public/admin.html": "3d286e36a840cb2371092e38b963d166aae43edb583a1daac76da9ad383986d8",
+      "public/admin.mjs": "ef41c328c38877c26ca13d4676e20940d90e972af196ce15c381c1113622cd8a",
+      "server/access.mjs": "78f1bbb5863a13769ba329c8d6276806cc8d0022e7d6af1347af59119418b2b6"
+    }
   }
 }
