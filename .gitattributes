@@ -1,0 +1,2 @@
+# Retained source HTML is verified by byte hashes; keep its original whitespace.
+data/research-events/**/*.html -whitespace

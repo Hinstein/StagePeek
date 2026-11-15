@@ -5,3 +5,12 @@ node_modules/
 .DS_Store
 *.tmp
 coverage/
+
+# Local workspace state and preserved research snapshots
+.env.local
+.env.*.local
+/.codex/
+/integration/
+/archives/
+**/__pycache__/
+*.py[cod]
