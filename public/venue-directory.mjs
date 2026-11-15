@@ -1,11 +1,11 @@
 const root=document.querySelector('[data-venue-directory]');
 if(root){
-  const cards=[...root.querySelectorAll('[data-venue-card]')],groups=[...root.querySelectorAll('[data-region-group],[data-country-group]')],search=root.querySelector('[data-venue-search]'),result=root.querySelector('[data-venue-results]'),empty=root.querySelector('[data-venue-empty]');
+  const cards=[...root.querySelectorAll('[data-venue-card]')],groups=[...root.querySelectorAll('[data-country-group]')],search=root.querySelector('[data-venue-search]'),result=root.querySelector('[data-venue-results]'),empty=root.querySelector('[data-venue-empty]');
   const countText=(count,total)=>`${count} / ${total}`;
   const apply=(region='all')=>{
     const query=search.value.trim().toLocaleLowerCase();let visible=0;
     for(const card of cards){const matchesRegion=region==='all'||card.dataset.region===region;const matchesSearch=!query||card.dataset.search.includes(query);const visibleCard=matchesRegion&&matchesSearch;card.hidden=!visibleCard;if(visibleCard)visible+=1;}
-    for(const group of groups)group.hidden=!group.querySelector('[data-venue-card]:not([hidden])');
+    for(const group of groups){const count=group.querySelectorAll('[data-venue-card]:not([hidden])').length;group.hidden=count===0;group.querySelector('[data-country-count]').textContent=String(count);}
     for(const button of root.querySelectorAll('[data-region-filter]')){const active=button.dataset.regionFilter===region;button.setAttribute('aria-pressed',String(active));}
     result.textContent=countText(visible,cards.length);empty.hidden=visible>0;
   };

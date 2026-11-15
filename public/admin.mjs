@@ -15,7 +15,7 @@ function controls(){
 function showError(error){
   $('users').replaceChildren();$('dashboard').hidden=true;authorized=false;accessLoaded=false;
   $('total-users').textContent='—';$('today-users').textContent='—';$('week-users').textContent='—';
-  $('venues').replaceChildren();$('save').disabled=true;
+  $('venues').replaceChildren();updateCount();
   $('login').hidden=error.status!==401;
   message(error.status===401?'请先登录管理员账号。':error.status===403?'当前账号没有 StagePeek 管理权限，请切换管理员账号。':error.message+'；请点击“刷新数据”重试。',true);
 }
@@ -38,7 +38,12 @@ async function loadUsers(){
   }catch(error){showError(error);}
   finally{busy=false;controls();$('users-panel').removeAttribute('aria-busy');}
 }
-function updateCount(){const checked=$('venues').querySelectorAll('input:checked').length;$('count').textContent=`${checked} / 10`;$('save').disabled=checked!==10;}
+function updateCount(){
+  const total=$('venues').querySelectorAll('input').length,checked=$('venues').querySelectorAll('input:checked').length;
+  $('count').textContent=`已选 ${checked} / ${total} 个场馆`;$('save').disabled=checked===0;
+  $('select-all-venues').disabled=total===0;$('select-all-venues').checked=total>0&&checked===total;$('select-all-venues').indeterminate=checked>0&&checked<total;
+}
+$('select-all-venues').onchange=()=>{for(const input of $('venues').querySelectorAll('input'))input.checked=$('select-all-venues').checked;updateCount();};
 async function showTab(){
   const access=location.hash==='#access';$('users-panel').hidden=access;$('access-panel').hidden=!access;
   for(const [id,active] of [['users-tab',!access],['access-tab',access]]){$(id).classList.toggle('active',active);if(active)$(id).setAttribute('aria-current','page');else $(id).removeAttribute('aria-current');}
@@ -54,7 +59,7 @@ async function showTab(){
 }
 $('save').onclick=async()=>{
   $('save').disabled=true;$('access-status').textContent='正在保存…';
-  try{await api('/api/admin/access',{method:'PUT',body:JSON.stringify({freeVenueIds:[...$('venues').querySelectorAll('input:checked')].map(input=>input.value)})});$('access-status').textContent='已保存，新的权限立即生效。';}
+  try{const data=await api('/api/admin/access',{method:'PUT',body:JSON.stringify({freeVenueIds:[...$('venues').querySelectorAll('input:checked')].map(input=>input.value)})});$('access-status').textContent=`已保存：${data.freeVenueIds.length} 个免费场馆，${data.paidVenueCount} 个需要 Pro。新的权限立即生效。`;}
   catch(error){if([401,403].includes(error.status))showError(error);else $('access-status').textContent=error.message;}
   finally{if(authorized)updateCount();}
 };

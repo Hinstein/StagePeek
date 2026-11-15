@@ -1,8 +1,8 @@
 // Venue-specific evidence becomes data here, never a separate sidebar or card.
-export function renderVenueLocation(doc,{section,row,status,description,distance,matched=false,conflict=false},translate=text=>text){
+export function renderVenueLocation(doc,{section,row,status,description,distance,matched=false,conflict=false,saveable=false},translate=text=>text){
  for(const [id,value]of Object.entries({'location-section':section,'location-row':row,'location-status':status,'location-description':description,distance}))doc.getElementById(id).textContent=id==='location-section'?value:translate(value);
  const badge=doc.getElementById('location-status');badge.classList.toggle('matched',matched);badge.classList.toggle('layout-conflict',conflict);
- const save=doc.getElementById('save-position');save.disabled=true;save.title=translate('示意视角暂不支持保存');
+ const save=doc.getElementById('save-position');save.disabled=!saveable;save.title=saveable?'':translate('示意视角暂不支持保存');
 }
 
 export function venueEventCard(doc,{id,title,lines,links=[],research=false,onSelect}){

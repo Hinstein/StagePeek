@@ -15,10 +15,9 @@ function uniqueStrings(values) {
   return [...new Set((Array.isArray(values)?values:[]).filter(value=>typeof value==='string'&&/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(value)))];
 }
 
-export function normalizeFreeVenueIds(values,availableIds, {requireExactlyTen=false}={}) {
+export function normalizeFreeVenueIds(values,availableIds) {
   const available=new Set(uniqueStrings(availableIds));
   const ids=uniqueStrings(values).filter(id=>available.has(id));
-  if(requireExactlyTen&&ids.length!==10)throw Object.assign(new Error('Exactly 10 existing venue ids are required'),{code:'INVALID_FREE_VENUES',status:422});
   if(!ids.length)throw Object.assign(new Error('At least one existing free venue id is required'),{code:'INVALID_FREE_VENUES',status:422});
   return ids;
 }
@@ -33,7 +32,7 @@ export async function freeVenueIds(db,availableIds,configuredIds=DEFAULT_FREE_VE
 }
 
 export async function saveFreeVenueIds(db,ids,availableIds,updatedBy='',now=Date.now()) {
-  const normalized=normalizeFreeVenueIds(ids,availableIds,{requireExactlyTen:true});
+  const normalized=normalizeFreeVenueIds(ids,availableIds);
   (await db.prepare(`INSERT INTO access_settings(key,value,updated_at,updated_by) VALUES(?,?,?,?)
     ON CONFLICT(key) DO UPDATE SET value=excluded.value,updated_at=excluded.updated_at,updated_by=excluded.updated_by`)
     .run(SETTING_KEY,JSON.stringify(normalized),now,String(updatedBy||'').slice(0,254)));

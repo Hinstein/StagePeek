@@ -1,9 +1,11 @@
-import {groupVenuesByCountry} from './catalog.mjs';
+import {groupVenuesByCountry,venueCountry} from './catalog.mjs';
 import {countryName,venueName} from './translations/venue-labels.mjs';
 
-export function renderCountryVenuePicker({catalog,countrySelect,select,country,selectedId='',locale='en',placeholderText}){
+export function renderCountryVenuePicker({catalog,countrySelect,select,country,selectedId='',locale='en',placeholderText,countryPlaceholder='—'}){
+  country=selectedId&&catalog.some(venue=>venue.id===selectedId)?venueCountry(catalog.find(venue=>venue.id===selectedId)):country;
   const groups=groupVenuesByCountry(catalog).sort((a,b)=>countryName(a.country,locale).localeCompare(countryName(b.country,locale),locale));
   countrySelect.replaceChildren();
+  if(!country){const option=element('option',countryPlaceholder);option.value='';option.disabled=true;countrySelect.append(option);}
   for(const group of groups){const option=element('option',`${countryName(group.country,locale)} (${group.venues.length})`);option.value=group.country;countrySelect.append(option);}
   countrySelect.value=country;countrySelect.disabled=false;
   const placeholder=element('option',placeholderText);placeholder.value='';placeholder.disabled=true;select.replaceChildren(placeholder);

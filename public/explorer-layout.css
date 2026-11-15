@@ -52,3 +52,43 @@ body[data-ui-layout=B] .input-panel .toolbar .venue-picker{display:contents}
  body[data-ui-layout] .input-panel .toolbar>#locate{grid-column:1/-1;grid-row:auto;align-self:end}
  body[data-ui-layout] .input-panel .toolbar label{grid-row:auto;grid-column:auto}
 }
+
+/* Public journey: keep setup compact so the map stays in view. */
+body[data-journey] [hidden]{display:none!important}
+body[data-journey] .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}
+body[data-journey] .journey-controls{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:12px 16px;padding:12px 16px;margin-bottom:14px;border:1px solid #2d3c45;border-radius:14px;background:#111a21}
+body[data-journey] .journey-panel{min-width:0}
+body[data-journey] .journey-panel h2{font-size:16px;margin:0 0 8px}
+body[data-journey] .journey-panel>p{font-size:13px;color:#b3bfc5;margin:0 0 8px}
+body[data-journey] .journey-panel .venue-picker{display:grid;grid-template-columns:minmax(0,.65fr) minmax(0,1.35fr);gap:12px;margin:0;padding:0;border:0}
+body[data-journey] .journey-controls label{min-width:0;gap:5px;font-size:11px}
+body[data-journey] .journey-controls select{height:40px;font-size:13px;margin:0}
+body[data-journey] .journey-demo,body[data-journey] .journey-account{display:inline-flex;align-items:center;min-height:44px;font-size:13px}
+body[data-journey]:not([data-venue-ready=true]) #journey-start{grid-column:1/-1}
+body[data-journey][data-venue-ready=true] #journey-start>h2,body[data-journey][data-venue-ready=true] #journey-start>p,body[data-journey][data-venue-ready=true] #journey-start>.journey-demo{display:none}
+body[data-journey] #journey-context{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px;align-items:end}
+body[data-journey] .journey-details{font-size:12px}
+body[data-journey] .journey-details>summary{display:flex;align-items:center;min-height:40px;gap:8px;color:#bca7e8;cursor:pointer;list-style:none}
+body[data-journey] .journey-details>summary:after{content:'⌄'}
+body[data-journey] .journey-details[open]>summary:after{content:'⌃'}
+body[data-journey] #journey-context:has(.journey-details[open]){display:contents}
+body[data-journey] #journey-context:has(.journey-details[open])>label{align-self:end}
+body[data-journey] .journey-details[open]{grid-column:1/-1}
+body[data-journey] .journey-layouts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;padding-top:8px}
+body[data-journey] .journey-layouts>section{margin:0;padding:12px;min-width:0;box-shadow:none}
+body[data-journey] .journey-layouts:has(>.events-card[hidden]){grid-template-columns:1fr}
+body[data-journey] .journey-controls .input-panel{grid-column:1/-1;background:none;border:0;box-shadow:none;padding:0;margin:0}
+body[data-journey] .journey-controls .input-panel .panel-heading,body[data-journey] .journey-ticket-hint{display:none}
+body[data-journey] .journey-controls:has(#venue-status.error) .panel-heading,body[data-journey] .journey-controls:has(#venue-status.loading) .panel-heading{display:flex}
+body[data-journey] .journey-controls .panel-heading>div{display:none}
+body[data-journey] .input-panel .toolbar{grid-template-columns:minmax(100px,1fr) minmax(75px,.7fr) minmax(75px,.7fr) minmax(120px,1fr)}
+body[data-journey] .journey-demo-note{color:#dbff74;font-size:13px}
+body[data-journey] #save-feedback{font-size:13px;color:#b3bfc5}
+@media(max-width:680px){
+ body[data-journey] .journey-controls{grid-template-columns:1fr;gap:10px;padding:12px;margin-bottom:12px}
+ body[data-journey] .journey-layouts{grid-template-columns:1fr}
+ body[data-journey] #journey-context:has(.journey-details[open]){display:grid}
+ body[data-journey] .input-panel .toolbar{grid-template-columns:minmax(60px,1fr) minmax(40px,.6fr) minmax(40px,.6fr) minmax(95px,1.1fr);gap:8px}
+ body[data-journey] .input-panel .toolbar #locate{grid-column:auto;font-size:11px;padding:8px}
+ body[data-journey] .input-panel .toolbar #locate span{display:none}
+}

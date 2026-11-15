@@ -11,7 +11,7 @@ export const DEFAULT_LOCALE='en';
 export const SUPPORTED_LOCALES=['en','zh-CN','zh-TW','ja','ko'];
 const resources=Object.freeze({en,'zh-CN':zhCN,'zh-TW':zhTW,ja,ko});
 const prefixes=new Map(SUPPORTED_LOCALES.filter(locale=>locale!=='en').map(locale=>[locale.toLowerCase(),locale]));
-const explorerParams=new Set(['venue','event','layout','section','row','seat','mode','zoom','depth','lateral','standing','date','panel','data','preview','sourceView','hydroCamera','hydroPhone','hydroRoof','hydroFloor','hydroTier','hydroMapRotation']);
+const explorerParams=new Set(['venue','event','layout','section','row','seat','mode','zoom','depth','lateral','standing','date','demo','panel','data','preview','sourceView','hydroCamera','hydroPhone','hydroRoof','hydroFloor','hydroTier','hydroMapRotation']);
 
 export function parseLocalizedPath(path){
   const match=path.match(/^\/([^/]+)(\/.*)?$/);
@@ -46,7 +46,7 @@ export function setLocaleUrl(locale,values={}){
   const next=new URL(target,input.origin);
   for(const [key,value] of input.searchParams){if(explorerParams.has(key))next.searchParams.append(key,value);}
   for(const [key,value] of Object.entries(values)){if(!explorerParams.has(key))continue;if(value===undefined||value===null||value===''){next.searchParams.delete(key);continue;}next.searchParams.set(key,String(value));}
-  if(input.searchParams.has('next')&&(path.startsWith('/auth/')||path==='/account'))next.searchParams.set('next',input.searchParams.get('next'));
+  if(input.searchParams.has('next')&&(path.startsWith('/auth/')||path==='/account'||path==='/plans'))next.searchParams.set('next',input.searchParams.get('next'));
   location.assign(next.pathname+(next.search||''));
 }
 

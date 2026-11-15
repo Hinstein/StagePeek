@@ -1,5 +1,27 @@
 // UI messages are reviewed as whole phrases. Source ticket labels remain unchanged.
 export const interfaceRows=[
+  ["先选场馆并确认参考布局，再输入票号或点选分区。可以切换 2D / 3D、观众视角和手机取景。", "Choose a venue and check the reference layout, then enter your ticket or select a section. Explore 2D, 3D, audience view and phone framing.", "先選場館並確認參考布局，再輸入票號或點選分區。可以切換 2D / 3D、觀眾視角和手機取景。", "会場と参考配置を確認し、チケットを入力するか区画を選択してください。2D・3D・観客ビュー・スマホ撮影ビューを利用できます。", "공연장과 참고 배치를 확인한 뒤 티켓을 입력하거나 구역을 선택하세요. 2D·3D·관객 시야·휴대폰 프레임을 이용할 수 있습니다."],
+  ["匹配到票面编号 · 位置为参考模型", "Ticket number matched · reference model position", "符合票面編號 · 位置為參考模型", "チケット番号が一致 · 位置は参考モデル", "티켓 번호 일치 · 참고 모델 위치"],
+
+  ["找到场馆", "Find a venue", "找到場館", "会場を探す", "공연장 찾기"],
+  ["先选场馆，再确认布局。没有门票也可以直接点选分区。", "Choose a venue, then check its layout. No ticket? Select a section on the map.", "先選場館，再確認布局。沒有門票也可以直接點選分區。", "会場とレイアウトを確認してください。チケットがなくても区画を選べます。", "공연장과 배치를 확인하세요. 티켓이 없어도 구역을 선택할 수 있습니다."],
+  ["先体验启德示例 ↗", "Try the Kai Tak example ↗", "先體驗啟德範例 ↗", "啓徳のサンプルを見る ↗", "카이탁 예시 보기 ↗"],
+  ["演出与布局详情", "Event & layout details", "演出與布局詳情", "公演・レイアウト詳細", "공연 및 배치 상세"],
+  ["确认布局", "Check the layout", "確認布局", "レイアウトを確認", "배치 확인"],
+  ["定位位置", "Find a position", "定位位置", "位置を探す", "위치 찾기"],
+  ["有票可填写区排座；没有具体票号，可以直接点击下方地图。", "Enter your ticket details, or select a section on the map below.", "有票可填寫區排座；沒有具體票號，可以直接點擊下方地圖。", "チケットの区画・列・番号を入力するか、下の地図を選択してください。", "티켓의 구역·열·좌석을 입력하거나 아래 지도를 선택하세요."],
+  ["位置预览", "Position preview", "位置預覽", "位置プレビュー", "위치 미리보기"],
+  ["示例体验 · 这不是你的票号", "Example only · this is not your ticket", "範例體驗 · 這不是你的票號", "サンプル · お持ちのチケットではありません", "예시 체험 · 내 티켓이 아닙니다"],
+  ["我的收藏 ↗", "My saved positions ↗", "我的收藏 ↗", "保存した位置 ↗", "저장한 위치 ↗"],
+  ["选择国家／地区", "Choose a country / region", "選擇國家／地區", "国・地域を選択", "국가 / 지역 선택"],
+  ["仅匹配到票面编号的位置可收藏；分区和示意视点可继续浏览。", "Only matched ticket positions can be saved. You can keep exploring sections and illustrative views.", "僅匹配到票面編號的位置可收藏；分區和示意視點可繼續瀏覽。", "チケット番号が一致した位置のみ保存できます。区画や参考ビューは引き続き閲覧できます。", "티켓 번호가 일치하는 위치만 저장할 수 있습니다. 구역과 예시 시야는 계속 둘러볼 수 있습니다."],
+  ["当前为场馆参考布局，不代表具体演出。没有本场资料时仍可浏览分区。", "This is a reference venue layout, not a specific show. You can explore sections without show data.", "目前為場館參考布局，不代表具體演出。沒有本場資料時仍可瀏覽分區。", "特定の公演ではなく会場の参考配置です。公演情報がなくても区画を確認できます。", "특정 공연이 아닌 공연장 참고 배치입니다. 공연 정보가 없어도 구역을 둘러볼 수 있습니다."],
+  ["正在查看：{0}。开通 Pro 后可返回这个场馆。", "You selected {0}. Return to this venue after upgrading to Pro.", "正在查看：{0}。開通 Pro 後可返回此場館。", "選択した会場：{0}。Pro 登録後にこの会場へ戻れます。", "선택한 공연장: {0}. Pro 가입 후 이 공연장으로 돌아올 수 있습니다."],
+  ["选择计划，或返回免费场馆继续探索。", "Choose a plan, or return to explore free venues.", "選擇計劃，或返回免費場館繼續探索。", "プランを選択するか、無料の会場へ戻ってください。", "플랜을 선택하거나 무료 공연장으로 돌아가세요."],
+  ["订阅暂未开放", "Subscriptions are currently unavailable", "訂閱暫未開放", "現在購読を受け付けていません", "현재 구독을 이용할 수 없습니다"],
+  ["当前可免费体验精选场馆。", "You can explore selected venues for free.", "目前可免費體驗精選場館。", "対象の会場を無料で閲覧できます。", "일부 공연장을 무료로 둘러볼 수 있습니다."],
+  ["登录后选择订阅", "Sign in to subscribe", "登入後選擇訂閱", "ログインして購読", "로그인 후 구독"],
+
   ["查找座位", "Find a ticket seat", "尋找座位", "座席を検索", "좌석 찾기"],
   ["二维叠加图层", "2D overlays", "二維疊加圖層", "2D重ね合わせレイヤー", "2D 겹침 레이어"],
   ["本场来源票图", "Seating chart for this show", "本場座位圖", "公演の座席表", "이 공연의 좌석표"],

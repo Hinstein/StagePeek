@@ -43,3 +43,10 @@ test('regional draft Taiwan label uses the same five-language region name',()=>{
  assert.equal(venueName(venue,'en'),'Taipei Arena');
  assert.equal(venueName(venue,'zh-TW'),'臺北小巨蛋');
 });
+
+test('deep-link venue restores its catalog country despite a differing detail country label',()=>{
+ const h=harness();h.render('香港','hk-free');
+ assert.equal(h.nodes.get('venue-country').value,'中国香港');
+ assert.equal(h.nodes.get('venue').value,'hk-free');
+ assert.ok(h.nodes.get('venue').options.some(option=>option.value==='hk-free'));
+});

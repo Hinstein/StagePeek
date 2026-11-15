@@ -47,14 +47,15 @@ export function mountLocalResearch(venues,regularCatalog=[],onEnter=()=>{},onUpd
  }
  function show(venue){
   if(!venue)return;
-  if(venue.locked){select.value=active?.id||regularCatalog.find(v=>!v.locked)?.id||'';location.assign(localizedPath(getLocale(),'/plans'));return;}
+  if(venue.locked){select.value=active?.id||regularCatalog.find(v=>!v.locked)?.id||'';location.assign(localizedPath(getLocale(),'/plans')+'?next='+encodeURIComponent(localizedPath(getLocale(),'/explore')+'?'+new URLSearchParams({venue:venue.id})));return;}
+  document.querySelector('.events-card').hidden=!venue.eventPlans.length;
   onEnter();panel?.dispose();panel=null;content?.remove();active=venue;select.value=venue.id;
   viewer.hidden=true;sources.hidden=true;content=node('div',null,'hydro-page-adapter');viewer.after(content);
   const mount=content;
   $('venue-name').textContent=venue.name;$('venue-city').textContent=venueRegion(venue,getLocale());
   $('locate').disabled=true;$('location-section').textContent='—';$('location-row').textContent='';$('location-status').textContent=copy('正在载入场馆…');
   const url=new URL(location.href);
-  if(url.searchParams.get('venue')!==venue.id)for(const key of ['event','section','row','seat','preview','hydroCamera'])url.searchParams.delete(key);
+  if(url.searchParams.get('venue')!==venue.id)for(const key of ['event','section','row','seat','preview','hydroCamera','demo'])url.searchParams.delete(key);
   url.searchParams.set('venue',venue.id);url.searchParams.set('data','source');url.searchParams.delete('layout');history.replaceState(null,'',url);
   $('events-list').replaceChildren();
   for(const event of venue.eventPlans)$('events-list').append(venueEventCard(document,{id:event.id,title:event.artist,lines:[`${event.date} · `+copy('查看本场布局')],links:[{label:copy('演出详情 ↗'),url:event.sourceUrl}],onSelect:()=>panel?.selectEvent(event.id)}));

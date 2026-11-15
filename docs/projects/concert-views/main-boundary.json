@@ -185,5 +185,37 @@
       "public/sitemap.xml": "992d2b888dfca7452a01defd7f0feda25130a02ce991ae47d768f50736ac54e2",
       "server/public-pages.mjs": "9519f266612d1d110f07e7d30dbf3d5702381a71ec3d6de8fac2ad6f9d362c59"
     }
+  },
+  "publicJourneyReview": {
+    "date": "2026-11-14",
+    "scope": "User-requested public journey reordering and plans handoff. Records only localized journey copy, plan-page action markup and language-switch context. All historical hashes and auth, access, billing backend, source data and publication logic remain protected. Behavioral coverage: tests/public-journey.test.mjs. Local review candidate; not deployed.",
+    "files": {
+      "public/locales.mjs": "8cf1ba373a867e2bc2b98795268c30ffc27fba7adfa8df3feb96c7773e95fd5c",
+      "public/translations/interface.mjs": "9a0bf14c3cff9941d2bb93f12f38b977836c7bb04ddfffa933aebb1fc847a4db",
+      "server/public-pages.mjs": "d7bcd4299387e44fb9824033de01bccb1117a3d1f415b9f8cd92c4d5fe639dc0"
+    }
+  },
+  "adminSelectionReview": {
+    "date": "2026-11-14",
+    "scope": "User-requested select-all and saving all selected free venues. Removes the fixed ten-venue restriction from frontend and backend while retaining at least one valid venue, admin authorization and persisted policy enforcement. Historical snapshots retained; local candidate, not deployed.",
+    "files": {
+      "public/admin.html": "3d286e36a840cb2371092e38b963d166aae43edb583a1daac76da9ad383986d8",
+      "public/admin.mjs": "ef41c328c38877c26ca13d4676e20940d90e972af196ce15c381c1113622cd8a",
+      "server/access.mjs": "78f1bbb5863a13769ba329c8d6276806cc8d0022e7d6af1347af59119418b2b6"
+    }
+  },
+  "directoryPresentationReview": {
+    "date": "2026-11-14",
+    "scope": "User-requested compact venue directory with one country/region grouping level, consistent location aliases, localized venue names, default-layout section counts with collapsed guidance, and filtered country totals. Public presentation only; original snapshots, venue IDs, ticket labels, source geometry, publication gates, access and auth remain unchanged. Local candidate; not deployed.",
+    "files": {
+      "public/public-pages.css": "bb08a6a1796abe2a3cb7a4d6a66f426efd2e1caa44d985d1b67abbbb7fde84ec",
+      "public/translations/en.mjs": "22bcf897a3cb6056edf326f1cbfd3e977843676df25fd4156d0eb1ee60c664c3",
+      "public/translations/ja.mjs": "300f38c94212948f75cb11dfc60107617140cdf88ad9fe7262ac4dc60b1208a5",
+      "public/translations/ko.mjs": "9768039fcfe65389cfc3ec0bda1d0ae6ad0429eff5c832c3bbd5d329b9e0b007",
+      "public/translations/zh-CN.mjs": "bf9de681591e9b2e41ad432632d72f4711473e3724fdc5de6b0464774e598153",
+      "public/translations/zh-TW.mjs": "e72f4594473064ee7c244d09358a56d0f8cb5bde5c67e86d6a404cc63546a2b2",
+      "public/venue-directory.mjs": "f36f415c0022ff61903b806cce5e45f9e105039c89c0814c4ea43a73fc1b4dd0",
+      "server/public-pages.mjs": "67d16aa15a9cbe172fda85b4aed4344dc14a580c18719e10201a0dcfe46cd9f2"
+    }
   }
 }
