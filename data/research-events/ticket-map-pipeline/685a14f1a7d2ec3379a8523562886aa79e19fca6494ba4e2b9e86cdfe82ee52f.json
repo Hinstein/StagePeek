@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "zepp-karencici-20261127",
+  "venueId": "zepp-new-taipei",
+  "seatLayoutId": "standing",
+  "status": "research-preview",
+  "publicationStatus": "not-published",
+  "displayMode": "reference-only",
+  "event": {
+    "name": "Karencici — The Loser Live In Concert",
+    "dates": [
+      "2026-11-27"
+    ],
+    "url": "https://warnermusictwtw.kktix.cc/events/ofgkrikd?locale=zh-TW",
+    "bindingNote": "Organizer KKTIX page and printed chart both confirm 2026-11-27 at Zepp New Taipei. Floor GA/VIP standing, FOH and second-floor seated price zones are image references, not inferred ticket inventory."
+  },
+  "source": {
+    "path": "data/research-events/regional-concert-maps-2026-11-12/zepp-karencici-20261127.jpg",
+    "url": "https://assets.kktix.io/organization_resource_files/14075/78734/CC_%E5%BA%A7%E4%BD%8D%E5%9C%960710.jpg",
+    "retrievedAt": "2026-11-12",
+    "sha256": "9cdb2704bf64c63bcc5cd90e1a1d6b6a4bf72a5ba32af653e224fa3268f883f5",
+    "rights": "undecided; private research reference, no public redistribution approval",
+    "bytes": 101388
+  },
+  "eventSource": {
+    "path": "data/research-events/regional-concert-maps-2026-11-12/zepp-karencici-20261127.html",
+    "url": "https://warnermusictwtw.kktix.cc/events/ofgkrikd?locale=zh-TW",
+    "retrievedAt": "2026-11-12",
+    "sha256": "3f8deb7d7b61e8d7e8ae595dfde2cb232327d3596bebcba3a8474bb26f92923e",
+    "rights": "undecided; private research reference, no public redistribution approval",
+    "bytes": 46106
+  },
+  "registration": {
+    "allowDistances": false,
+    "allowPublication": false,
+    "metricCalibrated": false
+  },
+  "fixedSeats": {
+    "policy": "reuse-verbatim",
+    "count": 291,
+    "assetSha256": "07c47e26eafbcdb6ae3eda7fd44281849735fa45c74ee72bef7e703184718740",
+    "identityPositionSha256": "208fd1fc97392438d3c13c6b57adc84c8611b4f4f36982bd3060a3675438c6ec"
+  },
+  "stage": [],
+  "zones": [],
+  "equipment": [],
+  "temporarySeats": [],
+  "closedSections": null,
+  "notes": [
+    "Organizer KKTIX page and printed chart both confirm 2026-11-27 at Zepp New Taipei. Floor GA/VIP standing, FOH and second-floor seated price zones are image references, not inferred ticket inventory."
+  ]
+}

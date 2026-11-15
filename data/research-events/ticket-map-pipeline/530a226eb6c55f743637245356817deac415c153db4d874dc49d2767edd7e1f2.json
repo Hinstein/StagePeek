@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "id": "tttc-nco-20261205",
+  "venueId": "taiwan-traditional-theatre-center-grand-theater",
+  "seatLayoutId": "end",
+  "status": "research-preview",
+  "publicationStatus": "not-published",
+  "displayMode": "reference-only",
+  "event": {
+    "name": "臺灣國樂團《情繫NCO》",
+    "dates": [
+      "2026-12-05"
+    ],
+    "url": "https://www.opentix.life/event/2087435617998233601",
+    "bindingNote": "Official OPENTIX event page and public self-selection SVG confirm 臺灣國樂團《情繫NCO》, Taiwan Traditional Theatre Center Grand Theater, 2026-12-05 14:30. PNG is a Codex/browser rasterization of the retained original SVG with computed styles. Colors record availability at retrieval only, not permanent inventory, closures or a registered 3D event layout."
+  },
+  "source": {
+    "path": "data/research-events/regional-concert-maps-2026-11-12/tttc-nco-20261205.png",
+    "url": "https://www.opentix.life/cart/2087435617998233601/2087435619260710913",
+    "retrievedAt": "2026-11-12",
+    "sha256": "1f79fcbf4f7a6ef623957b99598b9c654fbbd854e206541566b64588187bce06",
+    "rights": "undecided; private research reference, no public redistribution approval",
+    "derivation": {
+      "actor": "Codex/browser SVG rasterization",
+      "method": "Rendered public svg#canvas with computed styles on a white canvas; no seat positions or colors edited",
+      "original": {
+        "path": "data/research-events/regional-concert-maps-2026-11-12/tttc-nco-20261205.svg",
+        "url": "https://www.opentix.life/cart/2087435617998233601/2087435619260710913",
+        "retrievedAt": "2026-11-12",
+        "sha256": "9fa629c84919173bb8ca41d5e9729f52f356a1e4761eb3b39d8ae91eec75951d",
+        "rights": "undecided; private research reference, no public redistribution approval"
+      }
+    },
+    "bytes": 969343
+  },
+  "eventSource": {
+    "path": "data/research-events/regional-concert-maps-2026-11-12/tttc-nco-20261205.html",
+    "url": "https://www.opentix.life/event/2087435617998233601",
+    "retrievedAt": "2026-11-12",
+    "sha256": "7cc5d8c0145260a023072e13d5400a04c1d09473767778d47c2f6b10f8335961",
+    "rights": "undecided; private research reference, no public redistribution approval",
+    "bytes": 960990
+  },
+  "registration": {
+    "allowDistances": false,
+    "allowPublication": false,
+    "metricCalibrated": false
+  },
+  "fixedSeats": {
+    "policy": "reuse-verbatim",
+    "count": 1031,
+    "assetSha256": "6d6733c52a3d08cb4f8761f41e7a8db99b18b18fd2dd4004cd29c1282c74f10e",
+    "identityPositionSha256": "02ce72c274b5586810e91bf3a118295ae2959e4bef5ece711b82b2e95c216075"
+  },
+  "stage": [],
+  "zones": [],
+  "equipment": [],
+  "temporarySeats": [],
+  "closedSections": null,
+  "notes": [
+    "Official OPENTIX event page and public self-selection SVG confirm 臺灣國樂團《情繫NCO》, Taiwan Traditional Theatre Center Grand Theater, 2026-12-05 14:30. PNG is a Codex/browser rasterization of the retained original SVG with computed styles. Colors record availability at retrieval only, not permanent inventory, closures or a registered 3D event layout."
+  ]
+}

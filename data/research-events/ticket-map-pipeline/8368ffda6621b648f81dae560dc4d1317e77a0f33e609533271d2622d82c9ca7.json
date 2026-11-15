@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "ntu-jessica-20270220",
+  "venueId": "ntu-sports-center",
+  "seatLayoutId": "end",
+  "status": "research-preview",
+  "publicationStatus": "not-published",
+  "displayMode": "reference-only",
+  "event": {
+    "name": "JESSICA CONCERT TOUR Reflections IN TAIPEI",
+    "dates": [
+      "2027-02-20"
+    ],
+    "url": "https://asiamedia-2.kktix.cc/events/vretar01?locale=zh-TW",
+    "bindingNote": "Official organizer KKTIX page, postponement announcement and updated printed seating chart confirm JESSICA Reflections at NTU Sports Center 1F on 2027-02-20 18:00, replacing 2026-10-24. VIP1–3/A1–3/B1–3 and runway are reference-only; no per-seat identities or model registration inferred."
+  },
+  "source": {
+    "path": "data/research-events/regional-concert-maps-2026-11-12/ntu-jessica-20270220.png",
+    "url": "https://assets.kktix.io/organization_resource_files/13332/81409/e6fa42b90ad204e0.png",
+    "retrievedAt": "2026-11-12",
+    "sha256": "b45dba56e0d9e19e73342bc414dac16a48e53d73a0360571f4f7b3171b5c7c32",
+    "rights": "undecided; private research reference, no public redistribution approval",
+    "bytes": 1003116
+  },
+  "eventSource": {
+    "path": "data/research-events/regional-concert-maps-2026-11-12/ntu-jessica-20270220.html",
+    "url": "https://asiamedia-2.kktix.cc/events/vretar01?locale=zh-TW",
+    "retrievedAt": "2026-11-12",
+    "sha256": "acf637ccd5a4e46923050bfbd17be87308e24387912d7c16d1df6b05ca0e2a88",
+    "rights": "undecided; private research reference, no public redistribution approval",
+    "bytes": 70594
+  },
+  "registration": {
+    "allowDistances": false,
+    "allowPublication": false,
+    "metricCalibrated": false
+  },
+  "fixedSeats": {
+    "policy": "reuse-verbatim",
+    "count": 2364,
+    "assetSha256": "568f0566719c891b9a438be6489da63fa8a52240657f135db52700d1feb1a63c",
+    "identityPositionSha256": "06738516b775c57f012966db5fa04bf0b3e54aec7aec44c93b817f5d2374f951"
+  },
+  "stage": [],
+  "zones": [],
+  "equipment": [],
+  "temporarySeats": [],
+  "closedSections": null,
+  "notes": [
+    "Official organizer KKTIX page, postponement announcement and updated printed seating chart confirm JESSICA Reflections at NTU Sports Center 1F on 2027-02-20 18:00, replacing 2026-10-24. VIP1–3/A1–3/B1–3 and runway are reference-only; no per-seat identities or model registration inferred."
+  ]
+}

@@ -126,11 +126,11 @@
   },
   "consumerPresentationReview": {
     "date": "2026-11-05",
-    "scope": "User-requested consumer copy cleanup and five-language interface completion, including accessible text and language switching with view state. Original main hashes retained; auth, billing, source data and publication logic stay protected. User-approved compact B layout is shared by public explore and concert views, including the aligned navigation frame and collapsed guide.",
+    "scope": "User-requested consumer copy cleanup and five-language interface completion, including accessible text and language switching with view state. Original main hashes retained; auth, billing, source data and publication logic stay protected. User-approved compact B layout is shared by public explore and concert views, including the aligned navigation frame and collapsed guide. Artist-event floor labels reuse the five-language semantic dictionary, including FOH and delay towers.",
     "files": {
       "public/index.html": "5d2489ac627c8b8503c94aef4c8772338dd52f22e3efd58ae8b6722280e5332c",
       "public/translations/en.mjs": "ebf75674b6385c30cef38c4d2b349f3618cee623b3f771a9efd5ba6103e9ac12",
-      "public/translations/interface.mjs": "9e3577255ed10905fe0158818e731e9497ae5cf4325a1a37c01aed8d138f5cff",
+      "public/translations/interface.mjs": "237e9314e9915a570efb8560803a531db9ef66fbe78f2a3db1398af0d137a67b",
       "public/translations/ja.mjs": "805736211e9ea7a697160d9d291cb32f5801ee26375abe1b4e5c07f110331877",
       "public/translations/ko.mjs": "38dae623dd9641dc4d35da262dc972cd1164d88f8a4091f67d3b67928f1e4115",
       "public/translations/zh-CN.mjs": "0d862693068eae38a1d299a6ac5145a3fbc7d8e3054df207c8154c147ed7911f",
@@ -178,10 +178,10 @@
   },
   "regionalReleaseReview": {
     "date": "2026-11-12",
-    "scope": "User-authorized release of the rebuilt catalog only: region/name labels, released sitemap, and homepage free-count copy derived from unchanged access policy. Original protected hashes, auth and billing contracts remain intact.",
+    "scope": "User-authorized release of the rebuilt catalog only: region/name labels, released sitemap, and homepage free-count copy derived from unchanged access policy. Original protected hashes, auth and billing contracts remain intact. Next-batch local draft names for Kaohsiung Arena, Kaohsiung Music Center and National Taichung Theater are translated without changing the release allowlist.",
     "files": {
       "public/catalog.mjs": "fe529ecaad52ba707b1c569cdf5bf53eb576724d8321a60cf10b2081655bb8be",
-      "public/translations/venue-labels.mjs": "98598f31c46c48b9af60a56fb3b6eb3763ab0182b724974cb7eb8ae7cedf80e7",
+      "public/translations/venue-labels.mjs": "9672c64b9e04164f6733752c9e58b1f84f08d2a336bd19860ce09b516befc087",
       "public/sitemap.xml": "992d2b888dfca7452a01defd7f0feda25130a02ce991ae47d768f50736ac54e2",
       "server/public-pages.mjs": "9519f266612d1d110f07e7d30dbf3d5702381a71ec3d6de8fac2ad6f9d362c59"
     }

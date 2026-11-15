@@ -32,6 +32,99 @@
       "publicationStatus": "not-published",
       "rightsDecision": "undecided"
     },
+    "kaohsiung-arena": {
+      "id": "kaohsiung-arena",
+      "name": "高雄巨蛋",
+      "city": "台湾 · 高雄",
+      "country": "台湾",
+      "source": "https://twconcertview.com/en/3d/kaohsiung-arena",
+      "sourceLinks": [
+        "https://twconcertview.com/en/3d/kaohsiung-arena"
+      ],
+      "tiers": [],
+      "geometry": {
+        "shape": "rectangle",
+        "floor": [
+          80,
+          120
+        ],
+        "tiers": [],
+        "displayBasis": "source-row-ribbons"
+      },
+      "sections": [],
+      "accuracy": {
+        "metricCalibrated": false,
+        "completeSeatInventory": false,
+        "seatDataStatus": "full-retained-asset",
+        "position": "source-coordinate",
+        "reuse": "Reference model; rights undecided; no official event inventory"
+      },
+      "researchOnly": true,
+      "publicationStatus": "not-published",
+      "rightsDecision": "undecided"
+    },
+    "kaohsiung-music-center": {
+      "id": "kaohsiung-music-center",
+      "name": "高雄流行音乐中心",
+      "city": "台湾 · 高雄",
+      "country": "台湾",
+      "source": "https://twconcertview.com/en/3d/kaohsiung-music-center",
+      "sourceLinks": [
+        "https://twconcertview.com/en/3d/kaohsiung-music-center"
+      ],
+      "tiers": [],
+      "geometry": {
+        "shape": "rectangle",
+        "floor": [
+          80,
+          120
+        ],
+        "tiers": [],
+        "displayBasis": "source-row-ribbons"
+      },
+      "sections": [],
+      "accuracy": {
+        "metricCalibrated": false,
+        "completeSeatInventory": false,
+        "seatDataStatus": "full-retained-asset",
+        "position": "source-coordinate",
+        "reuse": "Reference model; rights undecided; no official event inventory"
+      },
+      "researchOnly": true,
+      "publicationStatus": "not-published",
+      "rightsDecision": "undecided"
+    },
+    "kaohsiung-national": {
+      "id": "kaohsiung-national",
+      "name": "高雄世运主场馆",
+      "city": "台湾 · 高雄",
+      "country": "台湾",
+      "source": "https://twconcertview.com/en/3d/kaohsiung-national-stadium",
+      "sourceLinks": [
+        "https://twconcertview.com/en/3d/kaohsiung-national-stadium"
+      ],
+      "tiers": [],
+      "geometry": {
+        "shape": "rectangle",
+        "floor": [
+          80,
+          120
+        ],
+        "tiers": [],
+        "displayBasis": "source-row-ribbons"
+      },
+      "sections": [],
+      "accuracy": {
+        "metricCalibrated": false,
+        "completeSeatInventory": false,
+        "seatDataStatus": "source-numbering-derived-positions",
+        "position": "reference-model-estimate",
+        "reuse": "Reference model; rights undecided; no official event inventory"
+      },
+      "researchOnly": true,
+      "publicationStatus": "not-published",
+      "rightsDecision": "undecided"
+    },
     "legacy-tera-taipei": {
       "id": "legacy-tera-taipei",
       "name": "Legacy TERA",
@@ -195,6 +288,37 @@
       "source": "https://twconcertview.com/en/3d/sub-live-taipei",
       "sourceLinks": [
         "https://twconcertview.com/en/3d/sub-live-taipei"
+      ],
+      "tiers": [],
+      "geometry": {
+        "shape": "rectangle",
+        "floor": [
+          80,
+          120
+        ],
+        "tiers": [],
+        "displayBasis": "source-row-ribbons"
+      },
+      "sections": [],
+      "accuracy": {
+        "metricCalibrated": false,
+        "completeSeatInventory": false,
+        "seatDataStatus": "full-retained-asset",
+        "position": "source-coordinate",
+        "reuse": "Reference model; rights undecided; no official event inventory"
+      },
+      "researchOnly": true,
+      "publicationStatus": "not-published",
+      "rightsDecision": "undecided"
+    },
+    "taichung-opera-house": {
+      "id": "taichung-opera-house",
+      "name": "台中国家歌剧院 · 大剧院",
+      "city": "台湾 · 台中",
+      "country": "台湾",
+      "source": "https://twconcertview.com/en/3d/taichung-opera-house",
+      "sourceLinks": [
+        "https://twconcertview.com/en/3d/taichung-opera-house"
       ],
       "tiers": [],
       "geometry": {

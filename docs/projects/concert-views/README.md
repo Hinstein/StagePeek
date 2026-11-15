@@ -300,3 +300,172 @@ B 版成为演唱会视角页面的默认布局：桌面地区、场馆、区、
 运行代码 `bac70ec8a4a642f15ecfe54b3047561e5176f9cb` 已部署，原 Coolify 应用健康，部署 `fuvcm25izawlvq5gdyeknghi` Finished。生产目录为发布清单的 39 馆；10 个归档场馆及抽查旧入口均 404，不向用户展示未完成模型。原权益策略保留，匿名免费 7 馆。
 
 生产 HTTP 使用正常 TLS 证书校验通过；因本机域名直连异常，实际浏览器通过不转发身份的临时中继检查生产响应。台北中央舞台为 12,877 座 / 98 区、无端台 standing-1，1–10× 变焦眼位固定，390px 无溢出。该检查不等于证明本机直连已恢复。[生产三维截图](preview/regional-production-taipei-center.png)。完整发布、检查边界和回滚点见 [部署记录](../../operations/deployment.md)。
+
+
+## 2026-11-12：高雄、台中扩展草稿（未发布）
+
+沿用同一 B 版页面与来源座位适配器，新增三馆、四套布局：
+
+| 场馆 | 布局 | 保留座位记录 | 分区 |
+| --- | --- | ---: | ---: |
+| 高雄巨蛋 | 端台 | 11,658 | 32 |
+| 高雄巨蛋 | 中央舞台 | 14,934 | 50 |
+| 高雄流行音乐中心 | 端台 | 3,003 | 10（5 坐席、5 站区） |
+| 台中国家歌剧院·大剧院 | 端台 | 1,994 | 17 |
+
+以上是参考模型记录数，不是本场可售库存或实测容量。保留公开参考页内的几何 JSON、来源链接及哈希，归一化由 `scripts/build-regional-reference-seats.mjs` 生成；不导入参考站脚本、页面或图片。来源：[高雄巨蛋](https://twconcertview.com/en/3d/kaohsiung-arena)、[高雄流行音乐中心](https://twconcertview.com/en/3d/kaohsiung-music-center)、[台中国家歌剧院](https://twconcertview.com/en/3d/taichung-opera-house)。林口体育馆本次不接入：检查到的参考只有程序化模型，没有明确逐座表，不能据此制造票号。
+
+高雄巨蛋来源含 7 组重复身份（两布局均保留），音乐中心含 1 组。查询 `214 / 27 / 10` 或 `2D / 8 / 24` 时返回歧义、禁止入座；不删除原记录、不随机选一把椅子。未知号码同样不回退最近座位。端台和中央舞台独立过滤收合/关闭看台，音乐中心站区不生成座椅。
+
+四套 2D/3D 总览均已截图查看，已实际操作高雄巨蛋端台→中央舞台切换、剧院 `4F 中央 / 1 / 1` 查询、重复与未知号码拒绝定位。剧院转头、屋顶和手机 1→10× 后眼位保持 `[0,9.800,28.358]`，10× FOV 为 5.34°；390px 页面无横向溢出。O2 16,882 把显示椅子和 Hydro 10,109 把示意椅子仍可通过同一表单进入。
+
+**仍为本地草稿，未提交、未部署，公开清单保持 39 馆。** 高雄巨蛋和音乐中心部分排端、结构转角仍有阶梯与碎片，当前通过的是数据接线和交互回归，不代表视觉发布验收通过。三馆暂不接具体演唱会，不新增页面、相机或主题实现。
+
+验证：扩展专项 6/6、演唱会/筛选/入口 132/132；完整测试 340 项，339 通过、0 失败、1 跳过（没有独立数据库的真实 PostgreSQL 集成）。`npm run check`、转换器直接语法检查、`git diff --check` 通过。
+
+预览：[高雄端台](preview/expansion-kaohsiung-arena-end-3d.png)、[高雄中央舞台](preview/expansion-kaohsiung-arena-center-3d.png)、[音乐中心](preview/expansion-kaohsiung-music-center-3d.png)、[剧院](preview/expansion-taichung-opera-house-3d.png)、[手机](preview/expansion-taichung-mobile.png)。本地入口：`/zh-CN/concert-views?venue=kaohsiung-arena&layout=end&mode=3d`。
+
+
+## 2026-11-13：已有逐座场馆的演出座位图补齐（本地待审核）
+
+本轮暂停扩展场馆，按当前公开清单中有来源逐座记录的 28 馆核对具体演出。新增 **21 张本地票图参考，涉及 17 馆**；与保留的 10 个既有事件预览合计 31 条，覆盖 **26/28 馆**。覆盖只表示取得至少一张对应演出的票图，不表示该馆所有演出、所有布局或全馆每个座位均已核实。红馆仅有局部分区图，国家戏剧院当前为历史演出的二手归档图，不能把两者算作完整官方总图。Hydro 为独立示意编号/演出方案，不计入这 28 个来源逐座场馆；高雄/台中三馆扩展草稿也不计入公开清单分母。
+
+新增图沿用同一事件侧栏、日期卡、布局选择及原尺寸图片入口，没有新增另一套页面。选择 `reference-only` 时保留所绑定的常规座位布局，但将事件舞台、内场、设备、临时椅子保持为空，禁用舞台视角和事件距离；不能把图片上的舞台直接当作已配准三维模型。返回常规布局后清除图片与事件引用。21 条均为 `localOnly:true`，默认/公开事件 API 与图片入口不返回它们；本轮没有提交、部署或更改公开 39 馆清单。
+
+### 逐馆覆盖清单
+
+| 场馆 | 演出 / 日期 / 绑定布局 | 当前状态 |
+| --- | --- | --- |
+| The O2 Arena (`twcv-the-o2-arena-london`) | [Cody Johnson — Live ’26](https://www.theo2.co.uk/events/detail/cody-johnson) · 2026-10-27 · `o2a`<br>[J. Cole — The Fall-Off Tour](https://www.theo2.co.uk/events/detail/jcole-2026) · 2026-11-02 · `o2a` | 有票图；保留既有事件布局 |
+| Accor Arena (`twcv-accor-arena-paris`) | [Lady Gaga — The MAYHEM Ball](https://www.accorarena.com/en/events-and-tickets/lady-gaga--88d1b) · 2025-11-17、2025-11-18、2025-11-20、2025-11-22 · `acc` | 有票图；保留既有事件布局 |
+| Ziggo Dome (`twcv-ziggo-dome-amsterdam`) | [Lady Gaga — The MAYHEM Ball](https://ziggodome.nl/en/events/f5e44ab3-5df9-45f5-9fd6-2e179180400c/) · 2025-11-09 · `zgd` | 有票图；保留既有事件布局 |
+| Uber Arena (`twcv-uber-arena-berlin`) | [Muse — The Wow! Signal Europe Tour](https://www.uber-arena.de/en/events/detail/muse_2026/2026-11-18-1930) · 2026-11-18 · `uba` | 有票图；保留既有事件布局 |
+| Kia Forum (`twcv-kia-forum-los-angeles`) | [DON OMAR](https://thekiaforum.com/event/don-omar/) · 2026-11-06 · `kfo` | 有票图；保留既有事件布局 |
+| United Center (`twcv-united-center-chicago`) | [KATSEYE · The Wildworld Tour](https://www.unitedcenter.com/events/2026/11/05/katseye-the-wildworld-tour/) · 2026-11-05 · `unc` | 有票图；保留既有事件布局 |
+| UBS Arena (`twcv-ubs-arena-new-york`) | [Anuel AA](https://ubsarena.com/event/anuel-aa/) · 2026-11-06 · `ubs` | 有票图；保留既有事件布局 |
+| Prudential Center (`twcv-prudential-center-newark`) | [XG · The Core World Tour](https://www.prucenter.com/events/xg) · 2026-11-14 · `pru` | 有票图；保留既有事件布局 |
+| State Farm Arena (`twcv-state-farm-arena-atlanta`) | [Doja Cat · Tour Ma Vie](https://www.statefarmarena.com/events/detail/doja-cat-tour-ma-vie-world-tour) · 2026-11-17 · `sfa` | 有票图；保留既有事件布局 |
+| 台北小巨蛋 (`taipei-arena`) | [告五人 — 台北演唱會](https://tixcraft.com/activity/detail/26_aftp) · 2026-11-06、2026-11-07、2026-11-08 · `end`<br>[劉若英 — 台北演唱會](https://tixcraft.com/activity/detail/26_renetp) · 2026-12-05 · `center` | 有票图；本地原图参考，未配准 |
+| 亚洲国际博览馆 Arena (`asiaworld-arena`) | [KUN — The Deadman](https://www.asiaworld-expo.com/en-us/whats-on/upcoming-events/events/cai-xukun-live-in-hong-kong-2026-the-deadman-hong?event_type=Concert&ebmsid=27364) · 2026-11-28、2026-11-29 · `end` | 有票图；本地原图参考，未配准 |
+| 亚洲国际博览馆 · Runway 11 (`asiaworld-runway-11`) | [JOJI — SOLARIS](https://www.asiaworld-expo.com/en-us/whats-on/upcoming-events/events/joji-live-in-hong-kong-2026?event_type=Concert&ebmsid=27112) · 2026-11-29 · `end`<br>[DONGHAE — ALIVE](https://www.asiaworld-expo.com/en-us/whats-on/upcoming-events/events/2026-lee-donghae-concert-in-hong-kong?event_type=Concert&ebmsid=26494) · 2026-06-27、2026-06-28 · `end` | 有票图；本地原图参考，未配准 |
+| 亚洲国际博览馆 · 2号馆 (`asiaworld-summit-hall-2`) | [EUNHYUK — be: WARE OF THE RABBIT](https://www.asiaworld-expo.com/en-us/whats-on/upcoming-events/events/2026-eunhyuk-fancon-be-wave-of-the-rabbit-in-hong?event_type=Concert&ebmsid=27794) · 2026-09-19 · `end` | 有票图；本地原图参考，未配准 |
+| 亚洲国际博览馆 · VIVA (`asiaworld-viva`) | [2024 RIIZE FAN-CON RIIZING DAY in HONG KONG](https://www.asiaworld-expo.com/en-us/whats-on/upcoming-events/events/riize-live-in-hong-kong-2024/) · 2024-06-01 · `end` | 有票图；本地原图参考，未配准 |
+| 香港体育馆 · 红馆 (`hong-kong-coliseum`) | [LOVE Gigi World Tour 2026](https://www.urbtix.hk/event-detail/15531) · 2026-11-27 · `end`<br>[LOVE Gigi World Tour 2026](https://www.urbtix.hk/event-detail/15531) · 2026-11-28 · `end`<br>[LOVE Gigi World Tour 2026](https://www.urbtix.hk/event-detail/15531) · 2026-11-29 · `end` | 三场各自的局部分区图，非全馆完整图 |
+| 启德主场馆 (`kai-tak-stadium`) | [Stray Kids — RUN IT HONG KONG](https://hkt.hkticketing.com/en/#/allEvents/detail?projectId=50000001506002) · 2026-12-05 · `bowl` | 有票图；本地原图参考，未配准 |
+| 台北流行音乐中心 (`taipei-music-center`) | [Atarayo — ASIA TOUR 2026 in TAIPEI](https://www.tmc.taipei/tw/blog/show/atarayo2026) · 2026-12-19 · `end` | 有票图；本地原图参考，未配准 |
+| 台大综合体育馆 (`ntu-sports-center`) | [JESSICA CONCERT TOUR Reflections IN TAIPEI](https://asiamedia-2.kktix.cc/events/vretar01?locale=zh-TW) · 2027-02-20 · `end` | 有票图；本地原图参考，未配准 |
+| 台北国际会议中心 TICC (`ticc-taipei`) | [Young K — The Youngest](https://tixcraft.com/activity/detail/26_youngk) · 2026-11-28、2026-11-29 · `end` | 有票图；本地原图参考，未配准 |
+| Clapper Studio (`clapper-studio-taipei`) | [VICTON — [10:NOW] IN TAIPEI](https://ticketplus.com.tw/activity/8c547569ec0844087f59d05b38e802bc) · 2026-12-11 · `end` | 有票图；本地原图参考，未配准 |
+| 台北国家音乐厅 (`national-concert-hall-taipei`) | [Yuja Wang & Mahler Chamber Orchestra — Taipei](https://ticket.mna.com.tw/UTK0201_?PRODUCT_ID=P1FX0ASD) · 2026-11-22 · `end` | 有票图；本地原图参考，未配准 |
+| 台北国家戏剧院 (`national-theater-taipei`) | [LES MISÉRABLES STAGED CONCERT SPECTACULAR](https://www.opentix.life/event/1864938599362674689) · 2025-06-27 · `end` | 历史演出；二手归档原图，待官方原件 |
+| 台北城市舞台 (`taipei-city-stage`) | — | 缺图，未补齐 |
+| 台北表演艺术中心 · 蓝盒子 (`taipei-pac-blue-box`) | — | 缺图，未补齐 |
+| 台北表演艺术中心 · 球剧场 (`taipei-pac-globe-playhouse`) | [阿龔 — 月光動物園音樂會](https://isshowind.kktix.cc/events/ng07da16) · 2026-01-18 · `end` | 有票图；本地原图参考，未配准 |
+| 台北表演艺术中心 · 大剧院 (`taipei-pac-grand-theater`) | [2026風動室內樂團《無限》ACG電玩動漫音樂會](https://www.opentix.life/event/1955916913608867841) · 2026-12-13 · `end` | 有票图；本地原图参考，未配准 |
+| 台湾戏曲中心 · 大表演厅 (`taiwan-traditional-theatre-center-grand-theater`) | [臺灣國樂團《情繫NCO》](https://www.opentix.life/event/2087435617998233601) · 2026-12-05 · `end` | 有票图；本地原图参考，未配准 |
+| Zepp New Taipei (`zepp-new-taipei`) | [Karencici — The Loser Live In Concert](https://warnermusictwtw.kktix.cc/events/ofgkrikd?locale=zh-TW) · 2026-11-27 · `standing` | 有票图；本地原图参考，未配准 |
+
+### 原件与绑定
+
+- 配方、图片及演出页面原件保存在 `data/research-events/regional-concert-maps-2026-11-12/`；`references.json` 逐项记录图片 URL、演出来源、取得日期、实际内容 SHA-256、场馆/布局及再分发状态。图片许可未确认，继续仅在本地研究入口使用。
+- `node scripts/build-concert-map-references.mjs data/research-events/regional-concert-maps-2026-11-12/references.json` 生成不可变票图版本及索引，不手改生成物。原 10 个事件预览的版本未变；新图的固定席位身份/坐标摘要必须与绑定来源布局一致。
+- 红馆 Gigi 2026-11-27、28、29 来自 URBTIX 同一官方活动页的三个独立日期图，哈希各异；都是局部分区预览，不能拼接为全馆或据颜色推断永久封区。
+- VIVA RIIZE 为 2024-06-01 官方历史图，明确标注 Hall 8 & 10；没有把 Runway 11 或 Hall 10 单馆图冒充 VIVA。国家戏剧院 Les Mis 为 2025-06-27 历史音乐会，图取自二手归档复现，来源等级保留在 bindingNote，不声称取得官方原图。
+- 仅 `tpac-grand-acg-20261213`、`tttc-nco-20261205` 两图由实际官方选座 SVG 按浏览器计算样式栅格化为 PNG，保留原 SVG、哈希和 Codex 执行方法；颜色仅代表取得时点，不是永久库存。JESSICA 按官方延期公告绑定 2027-02-20，不沿用旧 2026-10-24。
+
+### 未补齐的两馆
+
+1. **城市舞台**：核查 TCO、Bean Babies 2025/2026，以及风动 ACG 的场次。2026 Bean Babies [官方主办页](https://www.jpg.org.tw/event/2026beanbabies)及 [OPENTIX](https://www.opentix.life/event/2046829520049606657) 确认节目，但当前无可售场次、无可用票图；巡演日程图不作为座位图。ACG 已取得的 12 月 13 日图属于北艺大剧院，不能复制给城市舞台。
+2. **北艺蓝盒子**：核查 TJO、TEJO、击乐系列、Elephant 等官方节目；新增核查 [2024 Camac 音乐会主办页](https://www.camacprizetaiwan.com/closing-concert)及 [OPENTIX《飘浪郭德堡》](https://www.opentix.life/event/1777984904206077953)。公开页已下架或没有可用选座场次，未取得该场票图。不使用常规技术图或其他剧场票图填空，也不把普通戏剧误标演唱会。
+
+这两项仍是明确的数据缺口，后续只沿主办方公开归档图、新可售音乐会或获得授权的原图继续补，不制造替代图。
+
+### 验证
+
+完整测试 **345 项：344 通过、0 失败、1 跳过**（真实 PostgreSQL 集成缺少独立数据库）；票图专项 5/5，`npm run check`、`git diff --check` 通过。测试验证原件哈希、日期/场馆/布局绑定、来源座位摘要不变、拒绝错误绑定、参考图不生成三维事件几何、默认公开接口隐藏新图。
+
+实际 Ego 浏览器逐条检查 21 张图均解码、日期一致、布局为参考模式、单一查询表单；补查 VIVA 常规 5,600 座、台北中央舞台 12,877 座/98 区，均无参考图事件舞台/临时座椅，舞台视角禁用。红馆 27→28→29 点击切换正确日期/图片；390px 无横向溢出、原尺寸图片入口可打开、返回常规布局清除引用。既有 O2 Cody 仍显示 1,720 把内场示意椅子及舞台人物，舞台视角可用。
+
+预览：[VIVA 历史票图](preview/concert-map-viva-reference.png)、[中央舞台手机参考图](preview/concert-map-center-mobile-final.png)。本地入口：`http://127.0.0.1:4188/zh-CN/concert-views`。这是票图获取和接线验收，尚未完成全部场馆覆盖或新增事件三维配准。
+
+
+## 2026-11-13：按热门歌手演出拓展三馆（本地草稿）
+
+本批从已确认的演出反推场馆优先级，不再先堆场馆目录：官方场次及日期 → 场馆身份 → 可复用场馆/编号资料 → 本场票图 → 共享页面验收。新增三个本地场馆、三份官方演出票图、合计九个演出日期；公开发布清单仍为 39 馆，没有提交或部署本批。
+
+| 场馆 | 演出与官方日期 | 当前模型范围 |
+| --- | --- | --- |
+| 高雄世运主场馆 `kaohsiung-national` | [BTS ARIRANG](https://tixcraft.com/activity/detail/26_btskns)：2026-11-19、21、22 | 135 个编号分区，40,407 个来源编号及估算位置；支持区排座查询 |
+| 东京巨蛋 `tokyo-dome` | [The Romantic Tour](https://www.livenationhip.co.jp/en/all-events/bruno-mars-tickets-ae147754)：2027-01-27、28 | 304 个模型分区，分区级示意；无来源逐座表，不提供具体座号定位 |
+| 新加坡国家体育场 `singapore-national` | [The Romantic Tour](https://ticketmaster.sg/activity/detail/27sg_brunomars)：2027-04-13、14、17、18 | 122 个模型分区，分区级示意；无来源逐座表，不提供具体座号定位 |
+
+高雄保留的[参考资料](https://twconcertview.com/en/3d/kaohsiung-national-stadium)提供编号范围、排深、曲线和层高。转换器 `scripts/curve-seat-reference.mjs` 只解释这些字段，不运行第三方 viewer；保留号码断点，未取得编号依据的 B04 main/strip 不补号。40,407 个唯一编号的位置是重建结果，`positionStatus:reference-model-estimate`、`identityStatus:source-range-reference`，不是原始逐座 XYZ 或现场测量。目录与画布也明确记录估算来源。`E18 / 5 / 6` 没有来源，返回未验证与空位置；不能补成最近的一把椅子。
+
+东京和新加坡复用已有参数化分区模型，显示椅子全部为 visualOnly/sourceSeat:false，不把模型密度变成实际容量或门票。它们的事件图通过 section-only 模型哈希绑定；高雄通过来源布局与编号/位置摘要绑定。旧来源逐座绑定验证继续有效。三张票图均保存原件、官方演出页、日期、来源 URL 和内容哈希，配方在 `data/research-events/artist-led-2026-11-13/references.json`，由原有生成器建立不可变版本。
+
+三张图目前都是 `reference-only/localOnly`：高雄 BTS 的中央舞台及临时内场、东京 VIP/票价分区、新加坡 standing pen 与设备区均未配准到三维。选择演出后可以看原图，但不制造三维舞台、人物、内场椅子、封区或距离；常规场馆也不自动生成一个没有依据的默认舞台。图像再分发权利未确认，当前仅本地研究使用。
+
+浏览器已实际核对三馆 2D/3D、三图解码、对应日期、单一公共表单、地区分组、未知号码拒绝、无默认舞台。高雄 A01/1/80 的手机取景 1→10× 保持眼位 `[87.850,3.030,25.917]`，10× FOV 5.59°；390px 无横向溢出。O2 16,882 把显示椅子、Hydro 10,109 把示意椅子仍可通过同一页面进入。总览截图须等待相机和全屏 resize 动画完成，不能把过渡帧当成模型裁切。
+
+最终完整测试 350 项：349 通过、0 失败、1 项真实 PostgreSQL 集成因未配置独立数据库跳过；`npm run check`、相关模块语法和 `git diff --check` 通过。自动测试验证编号、配方绑定、私有隔离及共享交互，不证明 CAD 精度或本场完整座位库存。高雄排端和结构连接、东京/新加坡的示意分区仍需要视觉打磨，因此本批未加入公开清单。
+
+预览：[高雄 3D](preview/artist-kaohsiung-3d.png)、[BTS 票图](preview/artist-kaohsiung-event.png)、[东京 3D](preview/artist-tokyo-3d.png)、[东京票图](preview/artist-tokyo-event.png)、[新加坡 3D](preview/artist-singapore-3d.png)、[新加坡票图](preview/artist-singapore-event.png)、[手机页面](preview/artist-expansion-mobile.png)。本地入口 `/zh-CN/concert-views?venue=kaohsiung-national&mode=3d`。
+
+
+### 2026-11-13：三场演出布局与内场视角验收
+
+本节更新上述仅原图参考阶段：三份配方现为 `estimated-layout / localOnly:true`，已经接入共享 2D/3D 场景。官方票图约束形状，AI 描摹、坐标拟合及高度仍是示意；本次没有独立实测或升格为官方座位库存。来源编号、来源位置摘要和 section-only 模型哈希均保留原有校验。
+
+| 演出 | 事件图形 | 临时示意椅子 | 内场视角 |
+| --- | ---: | ---: | --- |
+| BTS 高雄 | 61：5 个舞台片、54 个内场区、2 个控台 | 6,260 | 坐席逐椅进入；四翼分别保持统一排座方向 |
+| The Romantic Tour 东京 | 4：舞台、VIP GOLD、VIP SILVER、SS | 1,449 | 坐席逐椅进入 |
+| The Romantic Tour 新加坡 | 7：舞台、站区、控台、4 个延迟塔 | 0 | 1 个站区示意入口，避开设备和控台遮挡 |
+
+临时椅子与站区入口均不附真实区排座身份，不能保存为门票位置；2D 入口与 3D 共享位置。新加坡站区默认入口会检查设备占地、边界余量和至舞台的设备交叉；没有清晰候选就不生成入口。它不是完整的现场遮挡分析。
+
+Ego 实际验收：三场 2D/3D 与舞台人物；BTS、东京坐席和新加坡站区进入观众视角；固定眼位下拖动/手机取景变焦；390px 无横向溢出；屋顶和全屏可用。新加坡返回常规布局后事件图形、人物、站区入口清除，相机回总览；重新选择事件恢复叠加。日文舞台、站区、控台、延迟塔与入口说明正确，五语言语义词条由回归测试覆盖。O2 16,882、Hydro 10,109 把显示椅子及单一表单保持。
+
+最终检查：`npm test` **351 项，350 通过、0 失败、1 跳过**（独立 PostgreSQL 数据库未配置）；专项 17/17、`npm run check`、相关模块语法、`git diff --check` 通过。公开清单仍为 39 馆，本批没有提交或部署。建筑连接和排端仍按示意模型呈现，此验收针对本批事件布局与视角功能，不代表 CAD 精度或现场库存认证。
+
+预览：[BTS 3D](preview/artist-bts-event-layout-3d.png)、[东京 3D](preview/artist-tokyo-event-layout-3d.png)、[新加坡 2D](preview/artist-singapore-event-layout-2d.png)、[新加坡 3D](preview/artist-singapore-event-layout-3d.png)、[站区视角](preview/artist-singapore-standing-view.png)、[手机取景](preview/artist-event-view-mobile.png)。
+
+
+## 2026-11-13：大阪、菲律宾两馆演唱会扩展验收（本地）
+
+沿用热门歌手巡演反查场馆的方法，本批新增两馆、两份独立官方票图和四个有图支持的演出日期。原有公开清单保持 39 馆，本批未提交、未部署。
+
+| 场馆 | 官方演出日期与票图来源 | 本地模型与本场内场 |
+| --- | --- | --- |
+| 大阪京瓷巨蛋 `kyocera-dome` | The Romantic Tour，2027-01-19、20；[Live Nation Japan](https://www.livenationhip.co.jp/en/all-events/bruno-mars-tickets-ae147754) | 52 个通路分区、54,148 把示意看台椅；舞台、VIP GOLD、VIP SILVER、SS，8,305 把临时示意椅 |
+| 菲律宾竞技场 `philippine-arena` | The Romantic Tour，2027-05-15、16；[Ticketmaster Philippines](https://ticketmaster.ph/activity/detail/27ph_brunomars) | 按本场图抄录 80 个分区标签、35,872 把示意看台椅；舞台和站区，0 把临时椅、1 个站区视角入口 |
+
+菲律宾演出页另列 5 月 18 日，但取得的票图只注明 15、16 日，因此本配方没有覆盖 18 日。分区标签来自图，角度、半径、层高和临时内场配准由 Codex AI 估算，不是实测 CAD。菲律宾私有模型替换原先的 36 个合成标签，但不改根场馆资料；大阪常规模型保留全碗，不因票价图推断背台永久封区。两馆均无来源逐座表，不提供真实座号定位；看台椅不能当成容量统计。
+
+官方图片、演出页面、URL、日期、内容哈希及 AI 描摹说明保留在 `data/research-events/artist-led-2026-11-13/`。配方通过已有生成器产生不可变版本，绑定 section-only 模型哈希，仍为 `estimated-layout / localOnly:true / allowPublication:false / allowDistances:false`。没有把本场估算升格为正式库存或距离依据。
+
+实际 Ego 检查两馆 2D/3D、舞台人物、内场座椅/站区入座、手机取景、屋顶和全屏。修复共享入口的一处遗漏：2D 点内场视点后现在等待公共 3D 懒加载完成再入座，坐席和站区行为一致。进入时清空区排座、禁止保存。大阪眼位 `[25.077,1.225,-31.583]` 在转头、屋顶与手机 10×（FOV 5.34°）期间保持不变；菲律宾返回常规布局后事件图形、人物和视点清除，未知座号 99999 不定位。390px 无横向溢出；日文舞台、站区及入口说明正确；O2 16,882、Hydro 10,109 把显示椅子与单一表单保持。
+
+最终 `npm test` **355 项：354 通过、0 失败、1 项真实 PostgreSQL 集成因未配置独立数据库跳过**。新内场入口与两馆专项 4/4；`npm run check`、相关模块语法及 `git diff --check` 通过。图形与交互验收不证明建筑精度、完整票号或实际演出封区。
+
+预览：[大阪 2D](preview/artist-osaka-event-2d.png)、[大阪 3D](preview/artist-osaka-event-3d.png)、[菲律宾 2D](preview/artist-philippines-event-2d.png)、[菲律宾 3D](preview/artist-philippines-event-3d.png)、[站区视角](preview/artist-philippines-standing-view.png)、[手机排版](preview/artist-philippines-mobile.png)。本地入口：`/zh-CN/concert-views?venue=philippine-arena&event=philippines-bruno-20270515&mode=3d`。
+
+
+## 2026-11-13：曼谷、吉隆坡两馆演唱会扩展验收（本地）
+
+延续热门歌手的官方巡演站点拓展，本批新增两馆、两份事件票图、四个日期，公开发布清单仍为 39 馆，未提交、未部署。
+
+| 场馆 | 官方演出与日期 | 看台分区 | 本场内场 |
+|---|---|---:|---|
+| 拉加曼加拉国家体育场 · 曼谷 (`rajamangala`) | [The Romantic Tour](https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk) · 2027-04-24 / 25 | 100 | 16 坐席块、1 个 ST 站区、1,904 把示意椅、1 个站区视点 |
+| 武吉加里尔国家体育场 · 吉隆坡 (`bukit-jalil`) | [BTS WORLD TOUR ARIRANG](https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR) · 2026-12-12 / 13 | 112 | 中央台与四条延伸台、58 个全坐席块、4,632 把示意椅，无站区入口 |
+
+分区标签和像素锚点由 Codex AI 依据官方票图读取，保留于 `artist-models/bangkok-kl-anchors.json`；`scripts/build-artist-bowls.mjs` 校验原图哈希后生成两个模型。看台半径、层高、排数和椅子数量均为估算，不是逐座来源库。原根目录 36 个旧合成分区没有被改写；本地模型覆盖与本场票图独立保存。相邻分区按角间距限制跨度，不补无归属的座位。看台示意椅分别为 13,496 / 46,470 把，均无真实票号。
+
+事件配方继续由 `build-concert-map-references.mjs` 生成不可变版本，绑定模型哈希。曼谷保留端台、设备区和后部 ST；吉隆坡保留四翼朝向共享网格（A/B/C/D 四个方向），不能逐块朝中心散排。原 WebP 与派生 PNG 的哈希、无查询参数的来源 URL、AI 描摹和估算坐标记录齐全；未保留临时签名 URL。基础场馆没有默认舞台，只有选择事件后显示本场舞台、人物和临时内场。许可及独立尺度仍未确认，保持 localOnly / not-published，不能用于真实库存、封区判断或实测距离。
+
+Ego 实际验收两馆 2D/3D、内场坐席/站区入口、人物、手机 1–10×、转头、屋顶和全屏。曼谷 ST 眼位 `[-1.004,1.225,22.820]`、吉隆坡 A4 眼位 `[3.096,1.225,-21.098]` 在拖动和变焦期间保持；10× FOV 约 5.36°，入座清空票面排座并禁用保存。吉隆坡返回常规布局后事件图形、临时椅子、人物与临时视点共同清除；99999 未知排座拒绝定位。390px 页面无横向溢出；日文控件/地区及来源链接正确；O2 16,882 把、Hydro 10,109 把及单一查询表单保持。排端与建筑轮廓仍为简化模型，测试和截图不证明现场精度。
+
+完整回归 **359 项：358 通过、0 失败、1 项真实 PostgreSQL 集成因缺少独立数据库跳过**。最后仅调整来源/精度说明后，两批专项 **7/7** 通过；`npm run check`、生成器/加载器语法与 diff 检查通过。
+
+画面：[曼谷 2D](preview/artist-bangkok-event-2d.png)、[曼谷 3D](preview/artist-bangkok-event-3d.png)、[曼谷站区视角](preview/artist-bangkok-standing-view.png)、[吉隆坡 2D](preview/artist-kl-event-2d.png)、[吉隆坡 3D](preview/artist-kl-event-3d.png)、[吉隆坡坐席视角](preview/artist-kl-seat-view.png)、[390px](preview/artist-kl-mobile.png)。本地入口：`/zh-CN/concert-views?venue=bukit-jalil&event=kuala-lumpur-bts-20261212&mode=3d`。

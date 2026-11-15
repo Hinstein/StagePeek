@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "tpac-globe-agong-20260118",
+  "venueId": "taipei-pac-globe-playhouse",
+  "seatLayoutId": "end",
+  "status": "research-preview",
+  "publicationStatus": "not-published",
+  "displayMode": "reference-only",
+  "event": {
+    "name": "阿龔 — 月光動物園音樂會",
+    "dates": [
+      "2026-01-18"
+    ],
+    "url": "https://isshowind.kktix.cc/events/ng07da16",
+    "bindingNote": "Official organizer KKTIX page for the January 18 performance confirms 阿龔《月光動物園》音樂會, TPAC Globe Playhouse, 2026-01-18 18:30 and links this price seating chart. The page also mentions January 17 in prose, but only January 18 is bound here. Historical price zones remain an image reference, not current inventory or registered geometry."
+  },
+  "source": {
+    "path": "data/research-events/regional-concert-maps-2026-11-12/tpac-globe-agong-20260118.png",
+    "url": "https://assets.kktix.io/organization_resource_files/52695/73629/%E7%A5%A8%E5%8D%80%E5%9C%96_%E7%A9%BA%E7%99%BD%E5%BA%95.png",
+    "retrievedAt": "2026-11-12",
+    "sha256": "d0804bf4034f09d4c5c27952e9e20363b8224c47d7823573fd33873c87570885",
+    "rights": "undecided; private research reference, no public redistribution approval",
+    "bytes": 105621
+  },
+  "eventSource": {
+    "path": "data/research-events/regional-concert-maps-2026-11-12/tpac-globe-agong-20260118.html",
+    "url": "https://isshowind.kktix.cc/events/ng07da16",
+    "retrievedAt": "2026-11-12",
+    "sha256": "84301bfc8ba3c7666b4a72defd1ac352e73f62803d68d0f9120350ebfbbef9f4",
+    "rights": "undecided; private research reference, no public redistribution approval",
+    "bytes": 66349
+  },
+  "registration": {
+    "allowDistances": false,
+    "allowPublication": false,
+    "metricCalibrated": false
+  },
+  "fixedSeats": {
+    "policy": "reuse-verbatim",
+    "count": 768,
+    "assetSha256": "e0e79f09bd15e435aff58c57ce18d7c37e975f2dfecb7faf7ee654bfc2bac7d6",
+    "identityPositionSha256": "34e03ba2e4e5ab28f98f4cb55cd9b409a5e169f8df5ac81fb279ac8ca93a6fa0"
+  },
+  "stage": [],
+  "zones": [],
+  "equipment": [],
+  "temporarySeats": [],
+  "closedSections": null,
+  "notes": [
+    "Official organizer KKTIX page for the January 18 performance confirms 阿龔《月光動物園》音樂會, TPAC Globe Playhouse, 2026-01-18 18:30 and links this price seating chart. The page also mentions January 17 in prose, but only January 18 is bound here. Historical price zones remain an image reference, not current inventory or registered geometry."
+  ]
+}

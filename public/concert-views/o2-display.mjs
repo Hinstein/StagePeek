@@ -8,6 +8,7 @@ const eventCache=new WeakMap();
 // Event pixels have their own diagram registration. Never move the retained
 // seat coordinates or reuse the old raw-XYZ overlay on the smoothed bowl.
 export function o2EventDisplayDraft(venue,draft){
+  if(draft?.displayMode==='reference-only')return null;
   if(!draft?.registration.displayMatrix||!o2DisplayModel(venue))return sourceEventDisplayDraft(venue,draft);
   if(!eventCache.has(venue))eventCache.set(venue,new WeakMap());
   if(eventCache.get(venue).has(draft))return eventCache.get(venue).get(draft);

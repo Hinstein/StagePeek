@@ -1,0 +1,4978 @@
+{
+  "schemaVersion": 1,
+  "id": "rajamangala",
+  "source": {
+    "path": "data/research-events/artist-led-2026-11-13/bangkok-bruno-20270424.png",
+    "url": "https://static.ticketmaster.co.th/images/activity/field/26th_brunomarsbkk_33c49fa8a4713a4f1ee1cf94c24f9d6e.png",
+    "sha256": "18c12cfc167922725eac13c04ceedcf4c05cb7613b67a8efc9ab038e58132110"
+  },
+  "transcription": {
+    "path": "data/concert-views/artist-models/bangkok-kl-anchors.json",
+    "sha256": "ca35c9139bab7f418d9a93e7bffab81ad086d78d2208e9d7fd66c749e8076c2e"
+  },
+  "method": "Codex AI visual transcription of chart section labels and pixel anchors. All radii, heights, rows and chair counts are illustrative, not surveyed; no ticket inventory is created.",
+  "geometry": {
+    "shape": "oval",
+    "coordinateSystem": "profile-inner-radius",
+    "power": 1,
+    "oneSided": false,
+    "floor": [
+      64,
+      108
+    ],
+    "tiers": [
+      {
+        "id": "0",
+        "name": "1",
+        "steps": 24
+      },
+      {
+        "id": "1",
+        "name": "2",
+        "steps": 14
+      },
+      {
+        "id": "2",
+        "name": "3",
+        "steps": 24
+      }
+    ]
+  },
+  "tiers": [
+    [
+      33,
+      54,
+      1,
+      9,
+      8
+    ],
+    [
+      43,
+      67,
+      12,
+      8,
+      6
+    ],
+    [
+      52,
+      80,
+      22,
+      10,
+      9
+    ]
+  ],
+  "sections": [
+    {
+      "id": "E1A",
+      "ticketLabels": [
+        "E1A"
+      ],
+      "sourceLabel": "E1A",
+      "levelName": "1",
+      "tier": 0,
+      "angle": -0.5694457819245998,
+      "halfAngle": 0.03554655689696853,
+      "sourcePixel": [
+        257,
+        764
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        -26.499140014557607,
+        5,
+        41.39281724901699
+      ],
+      "polygon": [
+        [
+          -24.727397047529028,
+          1,
+          35.759537896861765
+        ],
+        [
+          -22.9442771211354,
+          1,
+          38.8118461674357
+        ],
+        [
+          -27.865719386800343,
+          9,
+          47.136809256421074
+        ],
+        [
+          -30.236260909934746,
+          9,
+          43.72618419116046
+        ]
+      ]
+    },
+    {
+      "id": "E1B",
+      "ticketLabels": [
+        "E1B"
+      ],
+      "sourceLabel": "E1B",
+      "levelName": "1",
+      "tier": 0,
+      "angle": -0.6435011087932843,
+      "halfAngle": 0.03554655689696853,
+      "sourcePixel": [
+        250,
+        742
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        -28.5064912812616,
+        5,
+        38.00865504168214
+      ],
+      "polygon": [
+        [
+          -26.309042165378735,
+          1,
+          32.5975095776249
+        ],
+        [
+          -24.79583538202106,
+          1,
+          35.63241646244166
+        ],
+        [
+          -30.32822806005299,
+          9,
+          43.58264346226814
+        ],
+        [
+          -32.3815318316864,
+          9,
+          40.12146422459343
+        ]
+      ]
+    },
+    {
+      "id": "E1C",
+      "ticketLabels": [
+        "E1C"
+      ],
+      "sourceLabel": "E1C",
+      "levelName": "1",
+      "tier": 0,
+      "angle": -0.7758137923454708,
+      "halfAngle": 0.06351008810504952,
+      "sourcePixel": [
+        239,
+        708
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        -31.392305712533005,
+        5,
+        31.99989872632397
+      ],
+      "polygon": [
+        [
+          -28.933228831581882,
+          1,
+          25.969677053669642
+        ],
+        [
+          -26.937113479602708,
+          1,
+          31.1937402643689
+        ],
+        [
+          -33.245440940353966,
+          9,
+          38.49891527735855
+        ],
+        [
+          -36.04040675249519,
+          9,
+          32.34888610923217
+        ]
+      ]
+    },
+    {
+      "id": "E1D",
+      "ticketLabels": [
+        "E1D"
+      ],
+      "sourceLabel": "E1D",
+      "levelName": "1",
+      "tier": 0,
+      "angle": -0.9339554430218788,
+      "halfAngle": 0.05822010063073857,
+      "sourcePixel": [
+        225,
+        675
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        -33.88430456774457,
+        5,
+        25.062355449515216
+      ],
+      "polygon": [
+        [
+          -30.648419216314057,
+          1,
+          20.01951639744731
+        ],
+        [
+          -29.40240575808359,
+          1,
+          24.518086686435623
+        ],
+        [
+          -36.70892164952894,
+          9,
+          30.610846288361223
+        ],
+        [
+          -38.50731357960036,
+          9,
+          25.152938237614173
+        ]
+      ]
+    },
+    {
+      "id": "E1E",
+      "ticketLabels": [
+        "E1E"
+      ],
+      "sourceLabel": "E1E",
+      "levelName": "1",
+      "tier": 0,
+      "angle": -1.0552473193359175,
+      "halfAngle": 0.054030913241712705,
+      "sourcePixel": [
+        214,
+        652
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        -35.246649165666696,
+        5,
+        19.973101193877795
+      ],
+      "polygon": [
+        [
+          -31.573905433038348,
+          1,
+          15.702995610565626
+        ],
+        [
+          -30.73063036029704,
+          1,
+          19.679159568799683
+        ],
+        [
+          -38.62718678181737,
+          9,
+          24.735925148977856
+        ],
+        [
+          -39.865848939929776,
+          9,
+          19.826918536980884
+        ]
+      ]
+    },
+    {
+      "id": "E1F",
+      "ticketLabels": [
+        "E1F"
+      ],
+      "sourceLabel": "E1F",
+      "levelName": "1",
+      "tier": 0,
+      "angle": -1.167811721922819,
+      "halfAngle": 0.04860585059945112,
+      "sourcePixel": [
+        204,
+        631
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        -36.173569039454385,
+        5,
+        15.421363643135818
+      ],
+      "polygon": [
+        [
+          -32.1874504405958,
+          1,
+          11.909314036590263
+        ],
+        [
+          -31.639444011799803,
+          1,
+          15.345704643113885
+        ],
+        [
+          -39.96282251097988,
+          9,
+          19.382694295448683
+        ],
+        [
+          -40.77777510743254,
+          9,
+          15.087722786995554
+        ]
+      ]
+    },
+    {
+      "id": "E1G",
+      "ticketLabels": [
+        "E1G"
+      ],
+      "sourceLabel": "E1G",
+      "levelName": "1",
+      "tier": 0,
+      "angle": -1.2690739106716755,
+      "halfAngle": 0.04860585059945112,
+      "sourcePixel": [
+        198,
+        611
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        -36.775286867736575,
+        5,
+        11.445369892509854
+      ],
+      "polygon": [
+        [
+          -32.59528397429666,
+          1,
+          8.431237614772266
+        ],
+        [
+          -32.20680298661607,
+          1,
+          11.768383406237348
+        ],
+        [
+          -40.8066902659423,
+          9,
+          14.910786916315395
+        ],
+        [
+          -41.38912317892189,
+          9,
+          10.70589022828413
+        ]
+      ]
+    },
+    {
+      "id": "E1H",
+      "ticketLabels": [
+        "E1H"
+      ],
+      "sourceLabel": "E1H",
+      "levelName": "1",
+      "tier": 0,
+      "angle": -1.3743577044519601,
+      "halfAngle": 0.04760900356385797,
+      "sourcePixel": [
+        193,
+        590
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        -37.198547782176604,
+        5,
+        7.402696076055049
+      ],
+      "polygon": [
+        [
+          -32.86233443848515,
+          1,
+          4.927323030623482
+        ],
+        [
+          -32.62442416701933,
+          1,
+          8.123840579761682
+        ],
+        [
+          -41.432966229554246,
+          9,
+          10.31726447254258
+        ],
+        [
+          -41.79173211596192,
+          9,
+          6.266181866357956
+        ]
+      ]
+    },
+    {
+      "id": "E1I",
+      "ticketLabels": [
+        "E1I"
+      ],
+      "sourceLabel": "E1I",
+      "levelName": "1",
+      "tier": 0,
+      "angle": -1.473543128543331,
+      "halfAngle": 0.04760900356385797,
+      "sourcePixel": [
+        189,
+        570
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        -37.42688058913955,
+        5,
+        3.6514029843062956
+      ],
+      "polygon": [
+        [
+          -32.98479889867329,
+          1,
+          1.6388503402401815
+        ],
+        [
+          -32.86963507626891,
+          1,
+          4.795156944443906
+        ],
+        [
+          -41.802764524703484,
+          9,
+          6.098358443666019
+        ],
+        [
+          -41.97697866526643,
+          9,
+          2.0856269574101827
+        ]
+      ]
+    },
+    {
+      "id": "E1J",
+      "ticketLabels": [
+        "E1J"
+      ],
+      "sourceLabel": "E1J",
+      "levelName": "1",
+      "tier": 0,
+      "angle": -1.5756506575965723,
+      "halfAngle": 0.04898571718275971,
+      "sourcePixel": [
+        188,
+        549
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        -37.49981844238017,
+        5,
+        -0.1820379536037947
+      ],
+      "polygon": [
+        [
+          -32.98211776060946,
+          1,
+          -1.7774766220961866
+        ],
+        [
+          -32.98798990487939,
+          1,
+          1.4567515642868132
+        ],
+        [
+          -41.98181078897515,
+          9,
+          1.85391922074605
+        ],
+        [
+          -41.972918838026416,
+          9,
+          -2.262010054576737
+        ]
+      ]
+    },
+    {
+      "id": "E1K",
+      "ticketLabels": [
+        "E1K"
+      ],
+      "sourceLabel": "E1K",
+      "levelName": "1",
+      "tier": 0,
+      "angle": -1.677704235060655,
+      "halfAngle": 0.04898571718275971,
+      "sourcePixel": [
+        189,
+        528
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        -37.41157978183527,
+        5,
+        -4.0149012448798835
+      ],
+      "polygon": [
+        [
+          -32.848830078468154,
+          1,
+          -5.162814789154044
+        ],
+        [
+          -32.97929965385384,
+          1,
+          -1.9123724320579185
+        ],
+        [
+          -41.9686518129388,
+          9,
+          -2.433638481717209
+        ],
+        [
+          -41.77132855652116,
+          9,
+          -6.565154141534557
+        ]
+      ]
+    },
+    {
+      "id": "E1L",
+      "ticketLabels": [
+        "E1L"
+      ],
+      "sourceLabel": "E1L",
+      "levelName": "1",
+      "tier": 0,
+      "angle": -1.780536938489002,
+      "halfAngle": 0.04935969764560652,
+      "sourcePixel": [
+        192,
+        507
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        -37.15567194739031,
+        5,
+        -7.909375711573188
+      ],
+      "polygon": [
+        [
+          -32.5754171432911,
+          1,
+          -8.634388354371438
+        ],
+        [
+          -32.83991419813737,
+          1,
+          -5.3125233990408365
+        ],
+        [
+          -41.75786026348868,
+          9,
+          -6.755182379747008
+        ],
+        [
+          -41.359244862777786,
+          9,
+          -10.962615785330392
+        ]
+      ]
+    },
+    {
+      "id": "E1M",
+      "ticketLabels": [
+        "E1M"
+      ],
+      "sourceLabel": "E1M",
+      "levelName": "1",
+      "tier": 0,
+      "angle": -1.8849134416740458,
+      "halfAngle": 0.05010072152882106,
+      "sourcePixel": [
+        197,
+        486
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        -36.712361933352305,
+        5,
+        -11.926858699160144
+      ],
+      "polygon": [
+        [
+          -32.13933197490761,
+          1,
+          -12.252347465064284
+        ],
+        [
+          -32.558711571006036,
+          1,
+          -8.801491924093689
+        ],
+        [
+          -41.334128655404896,
+          9,
+          -11.173722238872813
+        ],
+        [
+          -40.70592049207569,
+          9,
+          -15.518153337585844
+        ]
+      ]
+    },
+    {
+      "id": "E1N",
+      "ticketLabels": [
+        "E1N"
+      ],
+      "sourceLabel": "E1N",
+      "levelName": "1",
+      "tier": 0,
+      "angle": -1.996245964164939,
+      "halfAngle": 0.053439610795628735,
+      "sourcePixel": [
+        202,
+        463
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        -36.011612420998226,
+        5,
+        -16.317761878264825
+      ],
+      "polygon": [
+        [
+          -31.454656335299795,
+          1,
+          -16.33125298830532
+        ],
+        [
+          -32.10009721923379,
+          1,
+          -12.524731817487961
+        ],
+        [
+          -40.64737443268745,
+          9,
+          -15.85968604323682
+        ],
+        [
+          -39.68966793395694,
+          9,
+          -20.606869811000347
+        ]
+      ]
+    },
+    {
+      "id": "W1F",
+      "ticketLabels": [
+        "W1F"
+      ],
+      "sourceLabel": "W1F",
+      "levelName": "1",
+      "tier": 0,
+      "angle": 2.0131705497716417,
+      "halfAngle": 0.03526774440156177,
+      "sourcePixel": [
+        584,
+        460
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        35.8823004850465,
+        5,
+        -16.996879177127294
+      ],
+      "polygon": [
+        [
+          31.91070606820592,
+          1,
+          -13.759749537065419
+        ],
+        [
+          31.463415452500428,
+          1,
+          -16.286010356335773
+        ],
+        [
+          39.70259723708437,
+          9,
+          -20.550753962256138
+        ],
+        [
+          40.365300944081056,
+          9,
+          -17.405331921884745
+        ]
+      ]
+    },
+    {
+      "id": "W1G",
+      "ticketLabels": [
+        "W1G"
+      ],
+      "sourceLabel": "W1G",
+      "levelName": "1",
+      "tier": 0,
+      "angle": 1.939696082268388,
+      "halfAngle": 0.03526774440156177,
+      "sourcePixel": [
+        588,
+        475
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        36.398944489327306,
+        5,
+        -14.07175689020386
+      ],
+      "polygon": [
+        [
+          32.28380457129895,
+          1,
+          -11.1891815439003
+        ],
+        [
+          31.9273780044986,
+          1,
+          -13.655798555727099
+        ],
+        [
+          40.39009614192758,
+          9,
+          -17.27542476187359
+        ],
+        [
+          40.92183316261349,
+          9,
+          -14.183019208731976
+        ]
+      ]
+    },
+    {
+      "id": "W1H",
+      "ticketLabels": [
+        "W1H"
+      ],
+      "sourceLabel": "W1H",
+      "levelName": "1",
+      "tier": 0,
+      "angle": 1.8650308919060845,
+      "halfAngle": 0.03583929137390566,
+      "sourcePixel": [
+        592,
+        490
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        36.81191623122044,
+        5,
+        -11.155126130672864
+      ],
+      "polygon": [
+        [
+          32.57778453703699,
+          1,
+          -8.610438269011533
+        ],
+        [
+          32.29964459340318,
+          1,
+          -11.06609697045774
+        ],
+        [
+          40.94553767396863,
+          9,
+          -14.02824384328394
+        ],
+        [
+          41.36280472745108,
+          9,
+          -10.932354111864004
+        ]
+      ]
+    },
+    {
+      "id": "W1I",
+      "ticketLabels": [
+        "W1I"
+      ],
+      "sourceLabel": "W1I",
+      "levelName": "1",
+      "tier": 0,
+      "angle": 1.7662871270435774,
+      "halfAngle": 0.046465219008131546,
+      "sourcePixel": [
+        596,
+        510
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        37.201489614533465,
+        5,
+        -7.366631606838309
+      ],
+      "polygon": [
+        [
+          32.861968553752135,
+          1,
+          -4.933852850665808
+        ],
+        [
+          32.63098005870826,
+          1,
+          -8.053027505359681
+        ],
+        [
+          41.442832929522005,
+          9,
+          -10.227712219523148
+        ],
+        [
+          41.791179243160855,
+          9,
+          -6.274472830326298
+        ]
+      ]
+    },
+    {
+      "id": "W1J",
+      "ticketLabels": [
+        "W1J"
+      ],
+      "sourceLabel": "W1J",
+      "levelName": "1",
+      "tier": 0,
+      "angle": 1.6694845874433033,
+      "halfAngle": 0.046465219008131546,
+      "sourcePixel": [
+        596,
+        530
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        37.424699183704206,
+        5,
+        -3.7054157607627976
+      ],
+      "polygon": [
+        [
+          32.983176879587,
+          1,
+          -1.72404940697445
+        ],
+        [
+          32.86910601150955,
+          1,
+          -4.804857976714084
+        ],
+        [
+          41.80196497835452,
+          9,
+          -6.1106774488554185
+        ],
+        [
+          41.974522552477225,
+          9,
+          -2.1940321570242927
+        ]
+      ]
+    },
+    {
+      "id": "W1K",
+      "ticketLabels": [
+        "W1K"
+      ],
+      "sourceLabel": "W1K",
+      "levelName": "1",
+      "tier": 0,
+      "angle": 1.5707963267948966,
+      "halfAngle": 0.047370365111235234,
+      "sourcePixel": [
+        594,
+        550
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        37.5,
+        5,
+        2.296212748401287e-15
+      ],
+      "polygon": [
+        [
+          32.98616068688362,
+          1,
+          1.563736299835794
+        ],
+        [
+          32.98616068688362,
+          1,
+          -1.5637362998357902
+        ],
+        [
+          41.979040781330184,
+          9,
+          -1.990051237704522
+        ],
+        [
+          41.979040781330184,
+          9,
+          1.9900512377045272
+        ]
+      ]
+    },
+    {
+      "id": "W1L",
+      "ticketLabels": [
+        "W1L"
+      ],
+      "sourceLabel": "W1L",
+      "levelName": "1",
+      "tier": 0,
+      "angle": 1.464060654145761,
+      "halfAngle": 0.050263289509923155,
+      "sourcePixel": [
+        590,
+        571
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        37.41186561700237,
+        5,
+        4.008414173250252
+      ],
+      "polygon": [
+        [
+          32.84665824791453,
+          1,
+          5.199683389984209
+        ],
+        [
+          32.98032421707704,
+          1,
+          1.8644599284939443
+        ],
+        [
+          41.970203127230135,
+          9,
+          2.3726801897524545
+        ],
+        [
+          41.76804760807115,
+          9,
+          6.611954913055613
+        ]
+      ]
+    },
+    {
+      "id": "W1M",
+      "ticketLabels": [
+        "W1M"
+      ],
+      "sourceLabel": "W1M",
+      "levelName": "1",
+      "tier": 0,
+      "angle": 1.3593454676667545,
+      "halfAngle": 0.050263289509923155,
+      "sourcePixel": [
+        585,
+        591
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        37.14994312817185,
+        5,
+        7.974595121754164
+      ],
+      "polygon": [
+        [
+          32.56657814327738,
+          1,
+          8.72321312979622
+        ],
+        [
+          32.83828355497567,
+          1,
+          5.339445559492329
+        ],
+        [
+          41.75539724344979,
+          9,
+          6.789352129904326
+        ],
+        [
+          41.345954867614545,
+          9,
+          11.074837975864805
+        ]
+      ]
+    },
+    {
+      "id": "W1N",
+      "ticketLabels": [
+        "W1N"
+      ],
+      "sourceLabel": "W1N",
+      "levelName": "1",
+      "tier": 0,
+      "angle": 1.252292514236631,
+      "halfAngle": 0.05138541764645925,
+      "sourcePixel": [
+        579,
+        611
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        36.689400401951985,
+        5,
+        12.09758607848147
+      ],
+      "polygon": [
+        [
+          32.1108751165644,
+          1,
+          12.450533712375638
+        ],
+        [
+          32.54799156532636,
+          1,
+          8.907027312284573
+        ],
+        [
+          41.31801527410614,
+          9,
+          11.307016895257828
+        ],
+        [
+          40.663453389254784,
+          9,
+          15.766673921115483
+        ]
+      ]
+    },
+    {
+      "id": "W1O",
+      "ticketLabels": [
+        "W1O"
+      ],
+      "sourceLabel": "W1O",
+      "levelName": "1",
+      "tier": 0,
+      "angle": 1.13910130947857,
+      "halfAngle": 0.05433177828386928,
+      "sourcePixel": [
+        572,
+        632
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        35.964635477862885,
+        5,
+        16.5679781414874
+      ],
+      "polygon": [
+        [
+          31.403938242790925,
+          1,
+          16.59055361041919
+        ],
+        [
+          32.072559372162544,
+          1,
+          12.712232360929933
+        ],
+        [
+          40.606305312279225,
+          9,
+          16.094655323846442
+        ],
+        [
+          39.61483914187233,
+          9,
+          20.92833413026595
+        ]
+      ]
+    },
+    {
+      "id": "W1P",
+      "ticketLabels": [
+        "W1P"
+      ],
+      "sourceLabel": "W1P",
+      "levelName": "1",
+      "tier": 0,
+      "angle": 1.0181396751522733,
+      "halfAngle": 0.058061584476622415,
+      "sourcePixel": [
+        561,
+        653
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        34.87335670416098,
+        5,
+        21.50871700915318
+      ],
+      "polygon": [
+        [
+          30.340574906957972,
+          1,
+          21.238053061331584
+        ],
+        [
+          31.341704140718,
+          1,
+          16.902739868872366
+        ],
+        [
+          39.52310350228989,
+          9,
+          21.315010004252446
+        ],
+        [
+          38.059803843514295,
+          9,
+          26.641424429537032
+        ]
+      ]
+    },
+    {
+      "id": "W1Q",
+      "ticketLabels": [
+        "W1Q"
+      ],
+      "sourceLabel": "W1Q",
+      "levelName": "1",
+      "tier": 0,
+      "angle": 0.8811895001054497,
+      "halfAngle": 0.06573608402247533,
+      "sourcePixel": [
+        548,
+        677
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        33.15264800708391,
+        5,
+        27.34017075908868
+      ],
+      "polygon": [
+        [
+          28.60248877071803,
+          1,
+          26.932857149608523
+        ],
+        [
+          30.206969439145233,
+          1,
+          21.74203285751048
+        ],
+        [
+          37.86624543494441,
+          9,
+          27.25494042345793
+        ],
+        [
+          35.57187960384329,
+          9,
+          33.49541921310695
+        ]
+      ]
+    },
+    {
+      "id": "W1R",
+      "ticketLabels": [
+        "W1R"
+      ],
+      "sourceLabel": "W1R",
+      "levelName": "1",
+      "tier": 0,
+      "angle": 0.7286031224825974,
+      "halfAngle": 0.06516381205295198,
+      "sourcePixel": [
+        535,
+        708
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        30.45689125679354,
+        5,
+        34.12899871328637
+      ],
+      "polygon": [
+        [
+          25.997344742005616,
+          1,
+          33.26039680892704
+        ],
+        [
+          28.285189095712084,
+          1,
+          27.815682777473082
+        ],
+        [
+          35.12447067811321,
+          9,
+          34.54143901258779
+        ],
+        [
+          31.955394933534894,
+          9,
+          40.882987329011044
+        ]
+      ]
+    },
+    {
+      "id": "W1S",
+      "ticketLabels": [
+        "W1S"
+      ],
+      "sourceLabel": "W1S",
+      "levelName": "1",
+      "tier": 0,
+      "angle": 0.5928451807056141,
+      "halfAngle": 0.028932985785120022,
+      "sourcePixel": [
+        522,
+        740
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        27.16681737364126,
+        5,
+        40.32574453899874
+      ],
+      "polygon": [
+        [
+          23.73076693147703,
+          1,
+          37.524165995591446
+        ],
+        [
+          25.10931710566097,
+          1,
+          35.039669492326084
+        ],
+        [
+          30.750453317055282,
+          9,
+          42.911789135272706
+        ],
+        [
+          28.905357082268033,
+          9,
+          45.70646285679738
+        ]
+      ]
+    },
+    {
+      "id": "W1SA",
+      "ticketLabels": [
+        "W1SA"
+      ],
+      "sourceLabel": "W1SA",
+      "levelName": "1",
+      "tier": 0,
+      "angle": 0.532568126986614,
+      "halfAngle": 0.02633361136806621,
+      "sourcePixel": [
+        516,
+        757
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        25.380951451549947,
+        5,
+        43.06440123336753
+      ],
+      "polygon": [
+        [
+          22.173444873928176,
+          1,
+          39.99355557022704
+        ],
+        [
+          23.602977677368845,
+          1,
+          37.73936499559585
+        ],
+        [
+          28.735811950915497,
+          9,
+          45.94637636336134
+        ],
+        [
+          26.85542538225045,
+          9,
+          48.43829876204729
+        ]
+      ]
+    },
+    {
+      "id": "N1A",
+      "ticketLabels": [
+        "N1A"
+      ],
+      "sourceLabel": "N1A",
+      "levelName": "1",
+      "tier": 0,
+      "angle": 0.4777064366364761,
+      "halfAngle": 0.02633361136806621,
+      "sourcePixel": [
+        511,
+        776
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        23.5611992111004,
+        5,
+        45.511376253920425
+      ],
+      "polygon": [
+        [
+          20.507973820508848,
+          1,
+          42.306345885855706
+        ],
+        [
+          22.110362296621158,
+          1,
+          40.08696422895729
+        ],
+        [
+          26.77311235410402,
+          9,
+          48.54071511079824
+        ],
+        [
+          24.69990747189711,
+          9,
+          50.953977121313834
+        ]
+      ]
+    },
+    {
+      "id": "N1B",
+      "ticketLabels": [
+        "N1B"
+      ],
+      "sourceLabel": "N1B",
+      "levelName": "1",
+      "tier": 0,
+      "angle": 0.3805063771123649,
+      "halfAngle": 0.03418210055573848,
+      "sourcePixel": [
+        492,
+        795
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        19.852077460598153,
+        5,
+        49.63019365149538
+      ],
+      "polygon": [
+        [
+          16.779707239537032,
+          1,
+          46.49811350350445
+        ],
+        [
+          19.288310870964327,
+          1,
+          43.81548319239913
+        ],
+        [
+          23.143310724830016,
+          9,
+          52.57253208246135
+        ],
+        [
+          19.993501575286377,
+          9,
+          55.40383347032765
+        ]
+      ]
+    },
+    {
+      "id": "N1C",
+      "ticketLabels": [
+        "N1C"
+      ],
+      "sourceLabel": "N1C",
+      "levelName": "1",
+      "tier": 0,
+      "angle": 0.30929366762124305,
+      "halfAngle": 0.03370900693155879,
+      "sourcePixel": [
+        479,
+        816
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        16.730123326346053,
+        5,
+        52.355444762447654
+      ],
+      "polygon": [
+        [
+          13.858351293272078,
+          1,
+          49.007550119626615
+        ],
+        [
+          16.649911311161233,
+          1,
+          46.62288187899868
+        ],
+        [
+          19.832264651345252,
+          9,
+          55.534069518609506
+        ],
+        [
+          16.400716610828702,
+          9,
+          57.99816473790699
+        ]
+      ]
+    },
+    {
+      "id": "N1D",
+      "ticketLabels": [
+        "N1D"
+      ],
+      "sourceLabel": "N1D",
+      "levelName": "1",
+      "tier": 0,
+      "angle": 0.23906656984716224,
+      "halfAngle": 0.03370900693155879,
+      "sourcePixel": [
+        462,
+        829
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        13.327252679905742,
+        5,
+        54.68093378961326
+      ],
+      "polygon": [
+        [
+          10.646432340430625,
+          1,
+          51.11255825762119
+        ],
+        [
+          13.73564658924004,
+          1,
+          49.09996314984576
+        ],
+        [
+          16.25134957696891,
+          9,
+          58.09269044454812
+        ],
+        [
+          12.5253875203421,
+          9,
+          60.133252047405776
+        ]
+      ]
+    },
+    {
+      "id": "N1E",
+      "ticketLabels": [
+        "N1E"
+      ],
+      "sourceLabel": "N1E",
+      "levelName": "1",
+      "tier": 0,
+      "angle": 0.15892703823623952,
+      "halfAngle": 0.0384669751732429,
+      "sourcePixel": [
+        440,
+        837
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        9.096278966822307,
+        5,
+        56.75287094517396
+      ],
+      "polygon": [
+        [
+          6.411918090387029,
+          1,
+          52.970870466412386
+        ],
+        [
+          10.264214438814712,
+          1,
+          51.32148489515714
+        ],
+        [
+          12.068522157379416,
+          9,
+          60.34309603515463
+        ],
+        [
+          7.503227337475172,
+          9,
+          61.98651913057283
+        ]
+      ]
+    },
+    {
+      "id": "N1H",
+      "ticketLabels": [
+        "N1H"
+      ],
+      "sourceLabel": "N1H",
+      "levelName": "1",
+      "tier": 0,
+      "angle": -0.13552771398550076,
+      "halfAngle": 0.03826708368188761,
+      "sourcePixel": [
+        355,
+        836
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        -7.802679187168541,
+        5,
+        57.21964737256929
+      ],
+      "polygon": [
+        [
+          -9.111987582805313,
+          1,
+          51.90063814813489
+        ],
+        [
+          -5.202804017148848,
+          1,
+          53.3246403153675
+        ],
+        [
+          -6.0820234524480234,
+          9,
+          62.335946524687614
+        ],
+        [
+          -10.69597763510014,
+          9,
+          60.92282938657917
+        ]
+      ]
+    },
+    {
+      "id": "N1I",
+      "ticketLabels": [
+        "N1I"
+      ],
+      "sourceLabel": "N1I",
+      "levelName": "1",
+      "tier": 0,
+      "angle": -0.21525080498943328,
+      "halfAngle": 0.03826708368188761,
+      "sourcePixel": [
+        333,
+        829
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        -12.105556104190953,
+        5,
+        55.368035296217634
+      ],
+      "polygon": [
+        [
+          -12.881121002178364,
+          1,
+          49.71629078001018
+        ],
+        [
+          -9.269338255725343,
+          1,
+          51.82597352340635
+        ],
+        [
+          -10.883018556144847,
+          9,
+          60.848252160517035
+        ],
+        [
+          -15.214239695741451,
+          9,
+          58.721252954796356
+        ]
+      ]
+    },
+    {
+      "id": "N1J",
+      "ticketLabels": [
+        "N1J"
+      ],
+      "sourceLabel": "N1J",
+      "levelName": "1",
+      "tier": 0,
+      "angle": -0.29664167715492107,
+      "halfAngle": 0.039067618639434136,
+      "sourcePixel": [
+        313,
+        815
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        -16.14015810950261,
+        5,
+        52.80422097553324
+      ],
+      "polygon": [
+        [
+          -16.362339663534357,
+          1,
+          46.89470572227067
+        ],
+        [
+          -13.063022147631582,
+          1,
+          49.58903959212896
+        ],
+        [
+          -15.43456391997814,
+          9,
+          58.591740308257144
+        ],
+        [
+          -19.47560019363194,
+          9,
+          55.81735611322036
+        ]
+      ]
+    },
+    {
+      "id": "N1K",
+      "ticketLabels": [
+        "N1K"
+      ],
+      "sourceLabel": "N1K",
+      "levelName": "1",
+      "tier": 0,
+      "angle": -0.3916247514676409,
+      "halfAngle": 0.04544019360545465,
+      "sourcePixel": [
+        292,
+        797
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        -20.308589414037595,
+        5,
+        49.17864299281653
+      ],
+      "polygon": [
+        [
+          -20.042595267638884,
+          1,
+          42.89939966443005
+        ],
+        [
+          -16.774262336621458,
+          1,
+          46.50337372211247
+        ],
+        [
+          -19.98673450164368,
+          9,
+          55.409326822402505
+        ],
+        [
+          -24.103878573435452,
+          9,
+          51.59221680509017
+        ]
+      ]
+    },
+    {
+      "id": "N1L",
+      "ticketLabels": [
+        "N1L"
+      ],
+      "sourceLabel": "N1L",
+      "levelName": "1",
+      "tier": 0,
+      "angle": -0.4862918214790048,
+      "halfAngle": 0.039913901013885617,
+      "sourcePixel": [
+        274,
+        777
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        -23.858672719512686,
+        5,
+        45.13265589441151
+      ],
+      "polygon": [
+        [
+          -22.73440764161043,
+          1,
+          39.141144653165966
+        ],
+        [
+          -20.346996452242415,
+          1,
+          42.51396603399184
+        ],
+        [
+          -24.493438957706708,
+          9,
+          51.17773693762225
+        ],
+        [
+          -27.589822606074446,
+          9,
+          47.50056630475074
+        ]
+      ]
+    },
+    {
+      "id": "E2A",
+      "ticketLabels": [
+        "E2A"
+      ],
+      "sourceLabel": "E2A",
+      "levelName": "2",
+      "tier": 1,
+      "angle": -0.615339541805392,
+      "halfAngle": 0.039457183373962576,
+      "sourcePixel": [
+        230,
+        782
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        -34.30625153921523,
+        15,
+        48.53079486035325
+      ],
+      "polygon": [
+        [
+          -32.992123151657594,
+          12,
+          42.96962985290296
+        ],
+        [
+          -30.58189228172087,
+          12,
+          47.09985114787111
+        ],
+        [
+          -35.22017239875081,
+          18,
+          54.243369314823056
+        ],
+        [
+          -38.179287494360615,
+          18,
+          49.725500966973016
+        ]
+      ]
+    },
+    {
+      "id": "E2B",
+      "ticketLabels": [
+        "E2B"
+      ],
+      "sourceLabel": "E2B",
+      "levelName": "2",
+      "tier": 1,
+      "angle": -0.697542007167814,
+      "halfAngle": 0.039457183373962576,
+      "sourcePixel": [
+        218,
+        760
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        -36.8826893064839,
+        15,
+        44.007754286145556
+      ],
+      "polygon": [
+        [
+          -35.10899543322976,
+          12,
+          38.68325589277989
+        ],
+        [
+          -33.084174800150464,
+          12,
+          42.79745515976469
+        ],
+        [
+          -38.29316458105708,
+          18,
+          49.53576759834512
+        ],
+        [
+          -40.81513532303889,
+          18,
+          44.970307595448894
+        ]
+      ]
+    },
+    {
+      "id": "E2C",
+      "ticketLabels": [
+        "E2C"
+      ],
+      "sourceLabel": "E2C",
+      "levelName": "2",
+      "tier": 1,
+      "angle": -0.7827456497244439,
+      "halfAngle": 0.040897748427182364,
+      "sourcePixel": [
+        206,
+        739
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        -39.127546763731004,
+        15,
+        39.33567201247426
+      ],
+      "polygon": [
+        [
+          -36.96180204008734,
+          12,
+          34.237441809780655
+        ],
+        [
+          -35.222415348507745,
+          12,
+          38.43211908644173
+        ],
+        [
+          -40.95739780927227,
+          18,
+          44.689711778763865
+        ],
+        [
+          -43.15302345846004,
+          18,
+          39.97232407588626
+        ]
+      ]
+    },
+    {
+      "id": "E2D",
+      "ticketLabels": [
+        "E2D"
+      ],
+      "sourceLabel": "E2D",
+      "levelName": "2",
+      "tier": 1,
+      "angle": -0.8853351281977069,
+      "halfAngle": 0.049242949667166205,
+      "sourcePixel": [
+        191,
+        716
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        -41.33277589434297,
+        15,
+        33.799215755965186
+      ],
+      "polygon": [
+        [
+          -38.85478168883754,
+          12,
+          28.701333718192494
+        ],
+        [
+          -37.19940702124416,
+          12,
+          33.60687433231312
+        ],
+        [
+          -43.4550363615489,
+          18,
+          39.25836627650166
+        ],
+        [
+          -45.573711175692985,
+          18,
+          33.664487004590775
+        ]
+      ]
+    },
+    {
+      "id": "E2E",
+      "ticketLabels": [
+        "E2E"
+      ],
+      "sourceLabel": "E2E",
+      "levelName": "2",
+      "tier": 1,
+      "angle": -0.9996875752280953,
+      "halfAngle": 0.05488917457458641,
+      "sourcePixel": [
+        173,
+        692
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        -43.25026772242308,
+        15,
+        27.78976478092343
+      ],
+      "polygon": [
+        [
+          -40.40314381954296,
+          12,
+          22.93092146087071
+        ],
+        [
+          -39.005390988577226,
+          12,
+          28.201011627165023
+        ],
+        [
+          -45.76777128752233,
+          18,
+          33.09023233754609
+        ],
+        [
+          -47.57954216662337,
+          18,
+          27.003907157325973
+        ]
+      ]
+    },
+    {
+      "id": "E2F",
+      "ticketLabels": [
+        "E2F"
+      ],
+      "sourceLabel": "E2F",
+      "levelName": "2",
+      "tier": 1,
+      "angle": -1.1260468113731923,
+      "halfAngle": 0.047334504889124954,
+      "sourcePixel": [
+        159,
+        662
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        -44.82220004656071,
+        15,
+        21.362069809424682
+      ],
+      "polygon": [
+        [
+          -41.51980237064539,
+          12,
+          17.427915104784944
+        ],
+        [
+          -40.66085133617622,
+          12,
+          21.796983679510014
+        ],
+        [
+          -47.91575486866235,
+          18,
+          25.686105739119373
+        ],
+        [
+          -49.04140701836928,
+          18,
+          20.585104681028348
+        ]
+      ]
+    },
+    {
+      "id": "E2G",
+      "ticketLabels": [
+        "E2G"
+      ],
+      "sourceLabel": "E2G",
+      "levelName": "2",
+      "tier": 1,
+      "angle": -1.224660363225536,
+      "halfAngle": 0.04310635326239203,
+      "sourcePixel": [
+        150,
+        638
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        -45.71520144503671,
+        15,
+        16.487449701488647
+      ],
+      "polygon": [
+        [
+          -42.15959594261938,
+          12,
+          13.181572220431148
+        ],
+        [
+          -41.5833329369316,
+          12,
+          17.056214246114877
+        ],
+        [
+          -49.124976137855235,
+          18,
+          20.149566152221148
+        ],
+        [
+          -49.88500531585001,
+          18,
+          15.596990094080445
+        ]
+      ]
+    },
+    {
+      "id": "E2H",
+      "ticketLabels": [
+        "E2H"
+      ],
+      "sourceLabel": "E2H",
+      "levelName": "2",
+      "tier": 1,
+      "angle": -1.3144652658555194,
+      "halfAngle": 0.04310635326239203,
+      "sourcePixel": [
+        146,
+        615
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        -46.30817226610097,
+        15,
+        12.1372225697442
+      ],
+      "polygon": [
+        [
+          -42.59076646821823,
+          12,
+          9.221581539374947
+        ],
+        [
+          -42.18003976176472,
+          12,
+          13.021819250691387
+        ],
+        [
+          -49.91203537048386,
+          18,
+          15.408840453908663
+        ],
+        [
+          -50.45606565144981,
+          18,
+          10.92454449975915
+        ]
+      ]
+    },
+    {
+      "id": "E2I",
+      "ticketLabels": [
+        "E2I"
+      ],
+      "sourceLabel": "E2I",
+      "levelName": "2",
+      "tier": 1,
+      "angle": -1.4095111201768937,
+      "halfAngle": 0.045622010074259686,
+      "sourcePixel": [
+        142,
+        591
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        -46.729756536640735,
+        15,
+        7.602857214294726
+      ],
+      "polygon": [
+        [
+          -42.880959362828676,
+          12,
+          4.98198496011731
+        ],
+        [
+          -42.61502340402137,
+          12,
+          8.945373962799554
+        ],
+        [
+          -50.488254195830166,
+          18,
+          10.598053888853803
+        ],
+        [
+          -50.84158123328191,
+          18,
+          5.906863951191326
+        ]
+      ]
+    },
+    {
+      "id": "E2J",
+      "ticketLabels": [
+        "E2J"
+      ],
+      "sourceLabel": "E2J",
+      "levelName": "2",
+      "tier": 1,
+      "angle": -1.5118097170996572,
+      "halfAngle": 0.047054044632195084,
+      "sourcePixel": [
+        140,
+        565
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        -46.964127261527615,
+        15,
+        2.7734720823736816
+      ],
+      "polygon": [
+        [
+          -42.9987389987708,
+          12,
+          0.5131096041895483
+        ],
+        [
+          -42.90001887229443,
+          12,
+          4.566274256172229
+        ],
+        [
+          -50.86693472359479,
+          18,
+          5.414272082494342
+        ],
+        [
+          -50.99832102044517,
+          18,
+          0.6085696679123589
+        ]
+      ]
+    },
+    {
+      "id": "E2K",
+      "ticketLabels": [
+        "E2K"
+      ],
+      "sourceLabel": "E2K",
+      "levelName": "2",
+      "tier": 1,
+      "angle": -1.6098389767500636,
+      "halfAngle": 0.04673277813397469,
+      "sourcePixel": [
+        138,
+        540
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        -46.98429459198893,
+        15,
+        -1.835324007499567
+      ],
+      "polygon": [
+        [
+          -42.93467268078643,
+          12,
+          -3.691798415304158
+        ],
+        [
+          -42.99947627644026,
+          12,
+          0.3306780027662355
+        ],
+        [
+          -50.99930267798182,
+          18,
+          0.39219890594960233
+        ],
+        [
+          -50.9130427477116,
+          18,
+          -4.377829823736569
+        ]
+      ]
+    },
+    {
+      "id": "E2L",
+      "ticketLabels": [
+        "E2L"
+      ],
+      "sourceLabel": "E2L",
+      "levelName": "2",
+      "tier": 1,
+      "angle": -1.7071989311958442,
+      "halfAngle": 0.04673277813397469,
+      "sourcePixel": [
+        139,
+        515
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        -46.80719255729613,
+        15,
+        -6.424516625511242
+      ],
+      "polygon": [
+        [
+          -42.69940291934262,
+          12,
+          -7.908381735594484
+        ],
+        [
+          -42.928588542766384,
+          12,
+          -3.8597496271272678
+        ],
+        [
+          -50.90494661635252,
+          18,
+          -4.576911456701218
+        ],
+        [
+          -50.600275882730045,
+          18,
+          -9.371707102390207
+        ]
+      ]
+    },
+    {
+      "id": "E2M",
+      "ticketLabels": [
+        "E2M"
+      ],
+      "sourceLabel": "E2M",
+      "levelName": "2",
+      "tier": 1,
+      "angle": -1.8064902056683225,
+      "halfAngle": 0.04765981174678959,
+      "sourcePixel": [
+        140,
+        489
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        -46.41709100808595,
+        15,
+        -11.14741162005214
+      ],
+      "polygon": [
+        [
+          -42.26822500259234,
+          12,
+          -12.308035545245062
+        ],
+        [
+          -42.68290002068214,
+          12,
+          -8.121785821160703
+        ],
+        [
+          -50.578360443714864,
+          18,
+          -9.624149495706025
+        ],
+        [
+          -50.02868354989559,
+          18,
+          -14.567794492817411
+        ]
+      ]
+    },
+    {
+      "id": "E2N",
+      "ticketLabels": [
+        "E2N"
+      ],
+      "sourceLabel": "E2N",
+      "levelName": "2",
+      "tier": 1,
+      "angle": -1.9069343775804646,
+      "halfAngle": 0.037224557996781794,
+      "sourcePixel": [
+        145,
+        463
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        -45.791142079784656,
+        15,
+        -15.999314702575365
+      ],
+      "polygon": [
+        [
+          -41.702224829112296,
+          12,
+          -16.33629196253388
+        ],
+        [
+          -42.18299852470045,
+          12,
+          -12.998529654398165
+        ],
+        [
+          -49.91594771869787,
+          18,
+          -15.381408371644207
+        ],
+        [
+          -49.2814856167165,
+          18,
+          -19.305366576511076
+        ]
+      ]
+    },
+    {
+      "id": "E2O",
+      "ticketLabels": [
+        "E2O"
+      ],
+      "sourceLabel": "E2O",
+      "levelName": "2",
+      "tier": 1,
+      "angle": -1.98448554007376,
+      "halfAngle": 0.037224557996781794,
+      "sourcePixel": [
+        148,
+        442
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        -45.132655282203274,
+        15,
+        -19.81433646535754
+      ],
+      "polygon": [
+        [
+          -41.063114784888164,
+          12,
+          -19.88204388532403
+        ],
+        [
+          -41.6794671785007,
+          12,
+          -16.476691315508095
+        ],
+        [
+          -49.25151556375379,
+          18,
+          -19.47006700660287
+        ],
+        [
+          -48.44194630983295,
+          18,
+          -23.454745395423668
+        ]
+      ]
+    },
+    {
+      "id": "W2H",
+      "ticketLabels": [
+        "W2H"
+      ],
+      "sourceLabel": "W2H",
+      "levelName": "2",
+      "tier": 1,
+      "angle": 1.9419059562154433,
+      "halfAngle": 0.04764007795509382,
+      "sourcePixel": [
+        615,
+        464
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        45.51414636452274,
+        15,
+        -17.711387273072205
+      ],
+      "polygon": [
+        [
+          42.037986248509,
+          12,
+          -14.093000612689693
+        ],
+        [
+          41.346293526001475,
+          12,
+          -18.402149807828327
+        ],
+        [
+          48.81339195376851,
+          18,
+          -21.725559288563396
+        ],
+        [
+          49.72431272058751,
+          18,
+          -16.669798726661615
+        ]
+      ]
+    },
+    {
+      "id": "W2I",
+      "ticketLabels": [
+        "W2I"
+      ],
+      "sourceLabel": "W2I",
+      "levelName": "2",
+      "tier": 1,
+      "angle": 1.8426557938089978,
+      "halfAngle": 0.04764007795509382,
+      "sourcePixel": [
+        620,
+        487
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        46.21965062870579,
+        15,
+        -12.88423889207286
+      ],
+      "polygon": [
+        [
+          42.54669431838182,
+          12,
+          -9.702944437593235
+        ],
+        [
+          42.06231506049174,
+          12,
+          -13.915647423686114
+        ],
+        [
+          49.756447297859246,
+          18,
+          -16.461128605414768
+        ],
+        [
+          50.39759953691568,
+          18,
+          -11.493374889139112
+        ]
+      ]
+    },
+    {
+      "id": "W2J",
+      "ticketLabels": [
+        "W2J"
+      ],
+      "sourceLabel": "W2J",
+      "levelName": "2",
+      "tier": 1,
+      "angle": 1.7415315382701795,
+      "halfAngle": 0.048539642658632795,
+      "sourcePixel": [
+        626,
+        510
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        46.696839188434666,
+        15,
+        -8.051179170419772
+      ],
+      "polygon": [
+        [
+          42.86705949342097,
+          12,
+          -5.2643930511126875
+        ],
+        [
+          42.56680730299937,
+          12,
+          -9.48635939823945
+        ],
+        [
+          50.424278722327955,
+          18,
+          -11.237460844832873
+        ],
+        [
+          50.823093837482595,
+          18,
+          -6.241453115652921
+        ]
+      ]
+    },
+    {
+      "id": "W2K",
+      "ticketLabels": [
+        "W2K"
+      ],
+      "sourceLabel": "W2K",
+      "levelName": "2",
+      "tier": 1,
+      "angle": 1.6384893494888655,
+      "halfAngle": 0.04946025061503071,
+      "sourcePixel": [
+        630,
+        534
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        46.95273851216639,
+        15,
+        -3.183236509299426
+      ],
+      "polygon": [
+        [
+          42.99705569483172,
+          12,
+          -0.7840423992526276
+        ],
+        [
+          42.87785726315674,
+          12,
+          -5.0463895291135845
+        ],
+        [
+          50.83745512375441,
+          18,
+          -5.983172145212014
+        ],
+        [
+          50.99607978765144,
+          18,
+          -0.929902945749717
+        ]
+      ]
+    },
+    {
+      "id": "W2L",
+      "ticketLabels": [
+        "W2L"
+      ],
+      "sourceLabel": "W2L",
+      "levelName": "2",
+      "tier": 1,
+      "angle": 1.5289797135873795,
+      "halfAngle": 0.04887146239376601,
+      "sourcePixel": [
+        633,
+        560
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        46.98198221965258,
+        15,
+        1.9657733146298173
+      ],
+      "polygon": [
+        [
+          42.92695270228403,
+          12,
+          3.9036702912738614
+        ],
+        [
+          42.999559233106524,
+          12,
+          -0.30336043832182424
+        ],
+        [
+          50.99941313205593,
+          18,
+          -0.35979913742893865
+        ],
+        [
+          50.902769883517706,
+          18,
+          4.6289712646494285
+        ]
+      ]
+    },
+    {
+      "id": "W2M",
+      "ticketLabels": [
+        "W2M"
+      ],
+      "sourceLabel": "W2M",
+      "levelName": "2",
+      "tier": 1,
+      "angle": 1.4271641669337003,
+      "halfAngle": 0.04771247060567152,
+      "sourcePixel": [
+        636,
+        585
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        46.78606634102856,
+        15,
+        6.766579842710739
+      ],
+      "polygon": [
+        [
+          42.671488092814904,
+          12,
+          8.266088680283652
+        ],
+        [
+          42.918253146769686,
+          12,
+          4.12937751199031
+        ],
+        [
+          50.8911943215602,
+          18,
+          4.8964936357293665
+        ],
+        [
+          50.56320748017531,
+          18,
+          9.794829654911602
+        ]
+      ]
+    },
+    {
+      "id": "W2N",
+      "ticketLabels": [
+        "W2N"
+      ],
+      "sourceLabel": "W2N",
+      "levelName": "2",
+      "tier": 1,
+      "angle": 1.327763186505218,
+      "halfAngle": 0.047359148477218234,
+      "sourcePixel": [
+        636,
+        610
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        46.37948657952024,
+        15,
+        11.49904625938518
+      ],
+      "polygon": [
+        [
+          42.23030386119916,
+          12,
+          12.620106487592071
+        ],
+        [
+          42.65624779774029,
+          12,
+          8.454902713263536
+        ],
+        [
+          50.54297342643716,
+          18,
+          10.018132049163226
+        ],
+        [
+          49.97851232056558,
+          18,
+          14.935581558921319
+        ]
+      ]
+    },
+    {
+      "id": "W2O",
+      "ticketLabels": [
+        "W2O"
+      ],
+      "sourceLabel": "W2O",
+      "levelName": "2",
+      "tier": 1,
+      "angle": 1.2290982938443467,
+      "halfAngle": 0.04681038065170469,
+      "sourcePixel": [
+        633,
+        635
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        45.74922757438547,
+        15,
+        16.27064579005341
+      ],
+      "polygon": [
+        [
+          41.58895953160541,
+          12,
+          17.02287551928326
+        ],
+        [
+          42.20553937229271,
+          12,
+          12.819658363994956
+        ],
+        [
+          49.94575647374331,
+          18,
+          15.17069901836197
+        ],
+        [
+          49.1323795496887,
+          18,
+          20.11049063165259
+        ]
+      ]
+    },
+    {
+      "id": "W2P",
+      "ticketLabels": [
+        "W2P"
+      ],
+      "sourceLabel": "W2P",
+      "levelName": "2",
+      "tier": 1,
+      "angle": 1.1315766674866286,
+      "halfAngle": 0.044776530716919706,
+      "sourcePixel": [
+        626,
+        659
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        44.87952203721895,
+        15,
+        21.0856375088658
+      ],
+      "polygon": [
+        [
+          40.74352522603962,
+          12,
+          21.41890220261621
+        ],
+        [
+          41.54309028381294,
+          12,
+          17.29265695367722
+        ],
+        [
+          49.072035256896015,
+          18,
+          20.42664293674137
+        ],
+        [
+          48.02376003661488,
+          18,
+          25.246127180197043
+        ]
+      ]
+    },
+    {
+      "id": "W2Q",
+      "ticketLabels": [
+        "W2Q"
+      ],
+      "sourceLabel": "W2Q",
+      "levelName": "2",
+      "tier": 1,
+      "angle": 1.0382922284930458,
+      "halfAngle": 0.044776530716919706,
+      "sourcePixel": [
+        618,
+        682
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        43.7864219007347,
+        15,
+        25.8027129057901
+      ],
+      "polygon": [
+        [
+          39.673625173449636,
+          12,
+          25.8389838532297
+        ],
+        [
+          40.70560922825051,
+          12,
+          21.59321562518945
+        ],
+        [
+          47.97421771460596,
+          18,
+          25.449014207170308
+        ],
+        [
+          46.63148781458461,
+          18,
+          30.370561183289063
+        ]
+      ]
+    },
+    {
+      "id": "W2R",
+      "ticketLabels": [
+        "W2R"
+      ],
+      "sourceLabel": "W2R",
+      "levelName": "2",
+      "tier": 1,
+      "angle": 0.9439477285120523,
+      "halfAngle": 0.04448732477675266,
+      "sourcePixel": [
+        608,
+        705
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        42.38041546493699,
+        15,
+        30.69609531338893
+      ],
+      "polygon": [
+        [
+          38.308115963225696,
+          12,
+          30.43315170526613
+        ],
+        [
+          39.60764932661785,
+          12,
+          26.083559008072058
+        ],
+        [
+          46.5460139697813,
+          18,
+          30.6528088036627
+        ],
+        [
+          44.87117834092947,
+          18,
+          35.64705137037942
+        ]
+      ]
+    },
+    {
+      "id": "W2S",
+      "ticketLabels": [
+        "W2S"
+      ],
+      "sourceLabel": "W2S",
+      "levelName": "2",
+      "tier": 1,
+      "angle": 0.8512658018938176,
+      "halfAngle": 0.04448732477675266,
+      "sourcePixel": [
+        596,
+        727
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        40.655678495148294,
+        15,
+        35.624035117035874
+      ],
+      "polygon": [
+        [
+          36.62893253819643,
+          12,
+          35.095214078461474
+        ],
+        [
+          38.24768924084158,
+          12,
+          30.6171154715503
+        ],
+        [
+          44.7936985050156,
+          18,
+          35.85716854396028
+        ],
+        [
+          42.730780646906915,
+          18,
+          40.94156696974871
+        ]
+      ]
+    },
+    {
+      "id": "W2T",
+      "ticketLabels": [
+        "W2T"
+      ],
+      "sourceLabel": "W2T",
+      "levelName": "2",
+      "tier": 1,
+      "angle": 0.7566854298293215,
+      "halfAngle": 0.045398578590958125,
+      "sourcePixel": [
+        580,
+        747
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        38.4836275764057,
+        15,
+        40.759541035225396
+      ],
+      "polygon": [
+        [
+          34.48692606668027,
+          12,
+          40.01877274383975
+        ],
+        [
+          36.533981679518284,
+          12,
+          35.33468100778592
+        ],
+        [
+          42.61051808019458,
+          18,
+          41.21174300539645
+        ],
+        [
+          40.03678616865912,
+          18,
+          46.45885353711684
+        ]
+      ]
+    },
+    {
+      "id": "W2U",
+      "ticketLabels": [
+        "W2U"
+      ],
+      "sourceLabel": "W2U",
+      "levelName": "2",
+      "tier": 1,
+      "angle": 0.6572384947550103,
+      "halfAngle": 0.038885567089066944,
+      "sourcePixel": [
+        563,
+        769
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        35.67309560635149,
+        15,
+        46.22726590408861
+      ],
+      "polygon": [
+        [
+          31.927970483021255,
+          12,
+          44.87887371132985
+        ],
+        [
+          34.1033897857685,
+          12,
+          40.80894474124785
+        ],
+        [
+          39.55848362167468,
+          18,
+          47.33664255387748
+        ],
+        [
+          36.86751598858267,
+          18,
+          51.822040958785934
+        ]
+      ]
+    },
+    {
+      "id": "W2V",
+      "ticketLabels": [
+        "W2V"
+      ],
+      "sourceLabel": "W2V",
+      "levelName": "2",
+      "tier": 1,
+      "angle": 0.5762268966527875,
+      "halfAngle": 0.038885567089066944,
+      "sourcePixel": [
+        548,
+        787
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        32.92394236600049,
+        15,
+        50.66866455027348
+      ],
+      "polygon": [
+        [
+          29.256037008665448,
+          12,
+          49.102025196625455
+        ],
+        [
+          31.829363573141574,
+          12,
+          45.04860338769745
+        ],
+        [
+          36.746393896958466,
+          18,
+          52.0077544368193
+        ],
+        [
+          33.609969584023084,
+          18,
+          56.409471073737826
+        ]
+      ]
+    },
+    {
+      "id": "N2A",
+      "ticketLabels": [
+        "N2A"
+      ],
+      "sourceLabel": "N2A",
+      "levelName": "2",
+      "tier": 1,
+      "angle": 0.49300547775623466,
+      "halfAngle": 0.039946281070345355,
+      "sourcePixel": [
+        531,
+        805
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        29.61801756050043,
+        15,
+        55.12842684618692
+      ],
+      "polygon": [
+        [
+          25.987186608786622,
+          12,
+          53.38000786054992
+        ],
+        [
+          29.09849928306933,
+          12,
+          49.32877185001744
+        ],
+        [
+          33.4194309267939,
+          18,
+          56.65376305177426
+        ],
+        [
+          29.688332486157265,
+          18,
+          60.98249284675795
+        ]
+      ]
+    },
+    {
+      "id": "N2B",
+      "ticketLabels": [
+        "N2B"
+      ],
+      "sourceLabel": "N2B",
+      "levelName": "2",
+      "tier": 1,
+      "angle": 0.3991725349621316,
+      "halfAngle": 0.038648614034898665,
+      "sourcePixel": [
+        510,
+        825
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        25.257153785995673,
+        15,
+        59.8768731995587
+      ],
+      "polygon": [
+        [
+          21.77941363178737,
+          12,
+          57.77015642514128
+        ],
+        [
+          25.33966308260203,
+          12,
+          54.13052710490841
+        ],
+        [
+          28.919035487176068,
+          18,
+          61.77677379464381
+        ],
+        [
+          24.728851287852546,
+          18,
+          65.59357525715251
+        ]
+      ]
+    },
+    {
+      "id": "N2C",
+      "ticketLabels": [
+        "N2C"
+      ],
+      "sourceLabel": "N2C",
+      "levelName": "2",
+      "tier": 1,
+      "angle": 0.31865458905609273,
+      "halfAngle": 0.038648614034898665,
+      "sourcePixel": [
+        490,
+        841
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        20.963658985915913,
+        15,
+        63.546091301057594
+      ],
+      "polygon": [
+        [
+          17.582345175187115,
+          12,
+          61.143053890046275
+        ],
+        [
+          21.62102253626968,
+          12,
+          57.914421791680496
+        ],
+        [
+          24.543884010599356,
+          18,
+          65.74364596361863
+        ],
+        [
+          19.863933918678438,
+          18,
+          69.07733695116404
+        ]
+      ]
+    },
+    {
+      "id": "N2J",
+      "ticketLabels": [
+        "N2J"
+      ],
+      "sourceLabel": "N2J",
+      "levelName": "2",
+      "tier": 1,
+      "angle": -0.31044579447390946,
+      "halfAngle": 0.044068701144741436,
+      "sourcePixel": [
+        300,
+        843
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        -20.497771148487963,
+        15,
+        63.89198879262737
+      ],
+      "polygon": [
+        [
+          -21.483229335735935,
+          12,
+          58.03878097027096
+        ],
+        [
+          -16.824292300631903,
+          12,
+          61.65869776464395
+        ],
+        [
+          -18.992614476885198,
+          18,
+          69.60529779589491
+        ],
+        [
+          -24.383064618030165,
+          18,
+          65.87293393529927
+        ]
+      ]
+    },
+    {
+      "id": "N2K",
+      "ticketLabels": [
+        "N2K"
+      ],
+      "sourceLabel": "N2K",
+      "levelName": "2",
+      "tier": 1,
+      "angle": -0.4022555885254541,
+      "halfAngle": 0.044068701144741436,
+      "sourcePixel": [
+        277,
+        825
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        -25.411432222168667,
+        15,
+        59.72772530851609
+      ],
+      "polygon": [
+        [
+          -25.70317672767645,
+          12,
+          53.71281708447616
+        ],
+        [
+          -21.664560952687925,
+          12,
+          57.87490696667844
+        ],
+        [
+          -24.594716124248446,
+          18,
+          65.70255038499369
+        ],
+        [
+          -29.35062123283152,
+          18,
+          61.33500797577625
+        ]
+      ]
+    },
+    {
+      "id": "N2L",
+      "ticketLabels": [
+        "N2L"
+      ],
+      "sourceLabel": "N2L",
+      "levelName": "2",
+      "tier": 1,
+      "angle": -0.5023879066642856,
+      "halfAngle": 0.04806351270663909,
+      "sourcePixel": [
+        255,
+        803
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        -30.016508421492915,
+        15,
+        54.634364249192124
+      ],
+      "polygon": [
+        [
+          -29.718512571437067,
+          12,
+          48.423056434308975
+        ],
+        [
+          -26.040155289803057,
+          12,
+          53.31730172710475
+        ],
+        [
+          -29.7513673864043,
+          18,
+          60.91602043387272
+        ],
+        [
+          -34.17027579920203,
+          18,
+          55.676716303458356
+        ]
+      ]
+    },
+    {
+      "id": "E3A",
+      "ticketLabels": [
+        "E3A"
+      ],
+      "sourceLabel": "E3A",
+      "levelName": "3",
+      "tier": 2,
+      "angle": -0.7306583833475676,
+      "halfAngle": 0.03863769973154611,
+      "sourcePixel": [
+        187,
+        781
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        -45.63638988819617,
+        26.5,
+        50.92756552740732
+      ],
+      "polygon": [
+        [
+          -43.17452411264557,
+          22,
+          44.587802286869746
+        ],
+        [
+          -40.916169302755435,
+          22,
+          49.37160359588298
+        ],
+        [
+          -47.678543720332094,
+          31,
+          57.53144052101396
+        ],
+        [
+          -50.519404898332894,
+          31,
+          52.17311096192088
+        ]
+      ]
+    },
+    {
+      "id": "E3B",
+      "ticketLabels": [
+        "E3B"
+      ],
+      "sourceLabel": "E3B",
+      "levelName": "3",
+      "tier": 2,
+      "angle": -0.811153591121622,
+      "halfAngle": 0.036494099957645645,
+      "sourcePixel": [
+        175,
+        758
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        -48.07689678041305,
+        26.5,
+        45.66207548094025
+      ],
+      "polygon": [
+        [
+          -45.103954908872794,
+          22,
+          39.811189042360375
+        ],
+        [
+          -43.31761501033934,
+          22,
+          44.258098040563205
+        ],
+        [
+          -50.70061227043256,
+          31,
+          51.80138998986425
+        ],
+        [
+          -52.97548219034442,
+          31,
+          46.75902457669214
+        ]
+      ]
+    },
+    {
+      "id": "E3C",
+      "ticketLabels": [
+        "E3C"
+      ],
+      "sourceLabel": "E3C",
+      "levelName": "3",
+      "tier": 2,
+      "angle": -0.8871829660333838,
+      "halfAngle": 0.036494099957645645,
+      "sourcePixel": [
+        162,
+        739
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        -50.02229685008894,
+        26.5,
+        40.75092286494315
+      ],
+      "polygon": [
+        [
+          -46.67362600005057,
+          22,
+          35.26980155590148
+        ],
+        [
+          -45.172186115342136,
+          22,
+          39.62766356562986
+        ],
+        [
+          -53.062849227712135,
+          31,
+          46.54981124137681
+        ],
+        [
+          -54.994564240793686,
+          31,
+          41.55767472242177
+        ]
+      ]
+    },
+    {
+      "id": "E3D",
+      "ticketLabels": [
+        "E3D"
+      ],
+      "sourceLabel": "E3D",
+      "levelName": "3",
+      "tier": 2,
+      "angle": -0.9920441531858359,
+      "halfAngle": 0.04740542148553896,
+      "sourcePixel": [
+        143,
+        714
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        -52.2084360111265,
+        26.5,
+        34.112284883763934
+      ],
+      "polygon": [
+        [
+          -48.57604152252042,
+          22,
+          28.54947703652152
+        ],
+        [
+          -47.05924037873637,
+          22,
+          34.03541124885719
+        ],
+        [
+          -55.49358260843561,
+          31,
+          40.1355162248637
+        ],
+        [
+          -57.468362456918896,
+          31,
+          33.77573888003323
+        ]
+      ]
+    },
+    {
+      "id": "E3E",
+      "ticketLabels": [
+        "E3E"
+      ],
+      "sourceLabel": "E3E",
+      "levelName": "3",
+      "tier": 2,
+      "angle": -1.0908054479473754,
+      "halfAngle": 0.044855794552093334,
+      "sourcePixel": [
+        127,
+        689
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        -53.81488127563406,
+        26.5,
+        28.015986881322597
+      ],
+      "polygon": [
+        [
+          -49.777371976471386,
+          22,
+          23.13905682110695
+        ],
+        [
+          -48.667322895831255,
+          22,
+          28.17912619341866
+        ],
+        [
+          -57.587823676195406,
+          31,
+          33.34423292707676
+        ],
+        [
+          -59.04634291543582,
+          31,
+          27.447746426722624
+        ]
+      ]
+    },
+    {
+      "id": "E3F",
+      "ticketLabels": [
+        "E3F"
+      ],
+      "sourceLabel": "E3F",
+      "levelName": "3",
+      "tier": 2,
+      "angle": -1.1842550199309032,
+      "halfAngle": 0.03933286059756799,
+      "sourcePixel": [
+        109,
+        666
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        -54.98855091709935,
+        26.5,
+        22.381304934679044
+      ],
+      "polygon": [
+        [
+          -50.61859311904679,
+          22,
+          18.317258693147533
+        ],
+        [
+          -49.876918407627755,
+          22,
+          22.626005363721532
+        ],
+        [
+          -59.17766855238108,
+          31,
+          26.845167841683278
+        ],
+        [
+          -60.158914348153345,
+          31,
+          21.769597472265357
+        ]
+      ]
+    },
+    {
+      "id": "E3G",
+      "ticketLabels": [
+        "E3G"
+      ],
+      "sourceLabel": "E3G",
+      "levelName": "3",
+      "tier": 2,
+      "angle": -1.2661984795091699,
+      "halfAngle": 0.03933286059756799,
+      "sourcePixel": [
+        95,
+        644
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        -55.774029182696694,
+        26.5,
+        17.534310177837764
+      ],
+      "polygon": [
+        [
+          -51.20775434187608,
+          22,
+          13.911460965061016
+        ],
+        [
+          -50.645628023312575,
+          22,
+          18.13952251899631
+        ],
+        [
+          -60.19477597023025,
+          31,
+          21.559698968197555
+        ],
+        [
+          -60.94195288276979,
+          31,
+          16.555922234026625
+        ]
+      ]
+    },
+    {
+      "id": "E3H",
+      "ticketLabels": [
+        "E3H"
+      ],
+      "sourceLabel": "E3H",
+      "levelName": "3",
+      "tier": 2,
+      "angle": -1.3599211912557918,
+      "halfAngle": 0.04024182101568666,
+      "sourcePixel": [
+        81,
+        617
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        -56.421679305371306,
+        26.5,
+        12.077484068561906
+      ],
+      "polygon": [
+        [
+          -51.67688826444851,
+          22,
+          8.904386167867953
+        ],
+        [
+          -51.29182545736394,
+          22,
+          13.157996758676171
+        ],
+        [
+          -61.053951100247815,
+          31,
+          15.662294790993796
+        ],
+        [
+          -61.56776965061526,
+          31,
+          10.608672752468593
+        ]
+      ]
+    },
+    {
+      "id": "E3I",
+      "ticketLabels": [
+        "E3I"
+      ],
+      "sourceLabel": "E3I",
+      "levelName": "3",
+      "tier": 2,
+      "angle": -1.4437583183718057,
+      "halfAngle": 0.04024182101568666,
+      "sourcePixel": [
+        73,
+        591
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        -56.79206249838102,
+        26.5,
+        7.253814836241808
+      ],
+      "polygon": [
+        [
+          -51.91702525200949,
+          22,
+          4.517549993752887
+        ],
+        [
+          -51.68958697180229,
+          22,
+          8.728189884592693
+        ],
+        [
+          -61.584738215970695,
+          31,
+          10.399063343941096
+        ],
+        [
+          -61.88890924399434,
+          31,
+          5.385251566541903
+        ]
+      ]
+    },
+    {
+      "id": "E3J",
+      "ticketLabels": [
+        "E3J"
+      ],
+      "sourceLabel": "E3J",
+      "levelName": "3",
+      "tier": 2,
+      "angle": -1.533890015404372,
+      "halfAngle": 0.039853165154417274,
+      "sourcePixel": [
+        69,
+        562
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        -56.98253563266115,
+        26.5,
+        2.1039705464367175
+      ],
+      "polygon": [
+        [
+          -51.999904606551276,
+          22,
+          -0.15323655817818002
+        ],
+        [
+          -51.93514264606882,
+          22,
+          3.994362397737667
+        ],
+        [
+          -61.91316013448657,
+          31,
+          4.761777597332224
+        ],
+        [
+          -61.99987224485614,
+          31,
+          -0.18270508575301644
+        ]
+      ]
+    },
+    {
+      "id": "E3K",
+      "ticketLabels": [
+        "E3K"
+      ],
+      "sourceLabel": "E3K",
+      "levelName": "3",
+      "tier": 2,
+      "angle": -1.616917442809408,
+      "halfAngle": 0.039853165154417274,
+      "sourcePixel": [
+        69,
+        535
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        -56.972718977761865,
+        26.5,
+        -2.6295101066659408
+      ],
+      "polygon": [
+        [
+          -51.9185932954646,
+          22,
+          -4.474694190109756
+        ],
+        [
+          -51.99956842408945,
+          22,
+          -0.32593500799829334
+        ],
+        [
+          -61.99942201506093,
+          31,
+          -0.38861441974981736
+        ],
+        [
+          -61.89100801255689,
+          31,
+          -5.334184083104142
+        ]
+      ]
+    },
+    {
+      "id": "E3L",
+      "ticketLabels": [
+        "E3L"
+      ],
+      "sourceLabel": "E3L",
+      "levelName": "3",
+      "tier": 2,
+      "angle": -1.7031450604733815,
+      "halfAngle": 0.041389256478707316,
+      "sourcePixel": [
+        71,
+        507
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        -56.77421134688845,
+        26.5,
+        -7.558176742774629
+      ],
+      "polygon": [
+        [
+          -51.66489784062933,
+          22,
+          -9.067574209945288
+        ],
+        [
+          -51.90885076958586,
+          22,
+          -4.734666757420523
+        ],
+        [
+          -61.87796837771805,
+          31,
+          -5.643961589424287
+        ],
+        [
+          -61.55174891985227,
+          31,
+          -10.80279018075925
+        ]
+      ]
+    },
+    {
+      "id": "E3M",
+      "ticketLabels": [
+        "E3M"
+      ],
+      "sourceLabel": "E3M",
+      "levelName": "3",
+      "tier": 2,
+      "angle": -1.7971343453883162,
+      "halfAngle": 0.04511485675916863,
+      "sourcePixel": [
+        77,
+        477
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        -56.33227138416339,
+        26.5,
+        -12.972415807709556
+      ],
+      "polygon": [
+        [
+          -51.16939535232697,
+          22,
+          -14.241615764762958
+        ],
+        [
+          -51.63506203564662,
+          22,
+          -9.461271863026276
+        ],
+        [
+          -61.51189036945095,
+          31,
+          -11.271037443361042
+        ],
+        [
+          -60.89087346496546,
+          31,
+          -16.947325984562422
+        ]
+      ]
+    },
+    {
+      "id": "W3G",
+      "ticketLabels": [
+        "W3G"
+      ],
+      "sourceLabel": "W3G",
+      "levelName": "3",
+      "tier": 2,
+      "angle": 1.8001279808533723,
+      "halfAngle": 0.048202023539752364,
+      "sourcePixel": [
+        711,
+        476
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        56.31418325974555,
+        26.5,
+        -13.145897669467415
+      ],
+      "polygon": [
+        [
+          51.63544296160829,
+          22,
+          -9.456350066921047
+        ],
+        [
+          51.13074952014165,
+          22,
+          -14.566432475036084
+        ],
+        [
+          60.839425889672476,
+          31,
+          -17.33229802729129
+        ],
+        [
+          61.51239920708303,
+          31,
+          -11.265184280318142
+        ]
+      ]
+    },
+    {
+      "id": "W3H",
+      "ticketLabels": [
+        "W3H"
+      ],
+      "sourceLabel": "W3H",
+      "levelName": "3",
+      "tier": 2,
+      "angle": 1.6997070984788882,
+      "halfAngle": 0.041525737803864794,
+      "sourcePixel": [
+        718,
+        508
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        56.785852772622654,
+        26.5,
+        -7.361129063117763
+      ],
+      "polygon": [
+        [
+          51.915892573051764,
+          22,
+          -4.548254972829554
+        ],
+        [
+          51.67764075124719,
+          22,
+          -8.89404379978592
+        ],
+        [
+          61.568775113844616,
+          31,
+          -10.596369621391581
+        ],
+        [
+          61.887393209344864,
+          31,
+          -5.421839632705646
+        ]
+      ]
+    },
+    {
+      "id": "W3I",
+      "ticketLabels": [
+        "W3I"
+      ],
+      "sourceLabel": "W3I",
+      "levelName": "3",
+      "tier": 2,
+      "angle": 1.6131951447208366,
+      "halfAngle": 0.041525737803864794,
+      "sourcePixel": [
+        724,
+        536
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        56.97694732195933,
+        26.5,
+        -2.4172038257801036
+      ],
+      "polygon": [
+        [
+          51.9999916264739,
+          22,
+          -0.04540017057286756
+        ],
+        [
+          51.922438133047564,
+          22,
+          -4.367827055077962
+        ],
+        [
+          61.896154285256124,
+          31,
+          -5.206837487093043
+        ],
+        [
+          61.99998878579843,
+          31,
+          -0.054130971531888984
+        ]
+      ]
+    },
+    {
+      "id": "W3J",
+      "ticketLabels": [
+        "W3J"
+      ],
+      "sourceLabel": "W3J",
+      "levelName": "3",
+      "tier": 2,
+      "angle": 1.5253730473733196,
+      "halfAngle": 0.04215460672680816,
+      "sourcePixel": [
+        724,
+        565
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        56.97353884132756,
+        26.5,
+        2.589706310969436
+      ],
+      "polygon": [
+        [
+          51.91551992841123,
+          22,
+          4.558311366652482
+        ],
+        [
+          51.99988263339166,
+          22,
+          0.16997120183202385
+        ],
+        [
+          61.999842817437,
+          31,
+          0.2026579150451631
+        ],
+        [
+          61.886894445625416,
+          31,
+          5.43382277182849
+        ]
+      ]
+    },
+    {
+      "id": "W3K",
+      "ticketLabels": [
+        "W3K"
+      ],
+      "sourceLabel": "W3K",
+      "levelName": "3",
+      "tier": 2,
+      "angle": 1.4332095903245468,
+      "halfAngle": 0.04403756044230036,
+      "sourcePixel": [
+        719,
+        595
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        56.75587180475801,
+        26.5,
+        7.858505326812646
+      ],
+      "polygon": [
+        [
+          51.6334259961375,
+          22,
+          9.482381033393828
+        ],
+        [
+          51.903570562125815,
+          22,
+          4.869750343509432
+        ],
+        [
+          61.87090159555396,
+          31,
+          5.804915558507715
+        ],
+        [
+          61.50970497744112,
+          31,
+          11.296140989973606
+        ]
+      ]
+    },
+    {
+      "id": "W3L",
+      "ticketLabels": [
+        "W3L"
+      ],
+      "sourceLabel": "W3L",
+      "levelName": "3",
+      "tier": 2,
+      "angle": 1.341464672736421,
+      "halfAngle": 0.04403756044230036,
+      "sourcePixel": [
+        711,
+        624
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        56.31418325974555,
+        26.5,
+        13.14589766946741
+      ],
+      "polygon": [
+        [
+          51.15731826697304,
+          22,
+          14.343939835891778
+        ],
+        [
+          51.61828284579127,
+          22,
+          9.675550355355988
+        ],
+        [
+          61.489478226698665,
+          31,
+          11.525849177981668
+        ],
+        [
+          60.874794259948224,
+          31,
+          17.06861141215668
+        ]
+      ]
+    },
+    {
+      "id": "W3M",
+      "ticketLabels": [
+        "W3M"
+      ],
+      "sourceLabel": "W3M",
+      "levelName": "3",
+      "tier": 2,
+      "angle": 1.24515474145161,
+      "halfAngle": 0.04096807965531703,
+      "sourcePixel": [
+        702,
+        654
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        55.592650935551646,
+        26.5,
+        18.77154447174471
+      ],
+      "polygon": [
+        [
+          50.45240220754289,
+          22,
+          19.372102890150074
+        ],
+        [
+          51.08416202758939,
+          22,
+          14.948304603081048
+        ],
+        [
+          60.77742431372129,
+          31,
+          17.78475785002677
+        ],
+        [
+          59.938609435369145,
+          31,
+          23.014501951720653
+        ]
+      ]
+    },
+    {
+      "id": "W3N",
+      "ticketLabels": [
+        "W3N"
+      ],
+      "sourceLabel": "W3N",
+      "levelName": "3",
+      "tier": 2,
+      "angle": 1.1598045755030328,
+      "halfAngle": 0.04096807965531703,
+      "sourcePixel": [
+        690,
+        679
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        54.7114192004633,
+        26.5,
+        23.843827962364067
+      ],
+      "polygon": [
+        [
+          49.58958757361921,
+          22,
+          24.074480302640996
+        ],
+        [
+          50.42205326328395,
+          22,
+          19.55823013946556
+        ],
+        [
+          59.898405565186785,
+          31,
+          23.2340161737132
+        ],
+        [
+          58.798849669948595,
+          31,
+          28.54534222724964
+        ]
+      ]
+    },
+    {
+      "id": "W3O",
+      "ticketLabels": [
+        "W3O"
+      ],
+      "sourceLabel": "W3O",
+      "levelName": "3",
+      "tier": 2,
+      "angle": 1.066724447543333,
+      "halfAngle": 0.04467846142065589,
+      "sourcePixel": [
+        675,
+        705
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        53.45990944657341,
+        26.5,
+        29.488562150245127
+      ],
+      "polygon": [
+        [
+          48.323964336823416,
+          22,
+          29.544649623192388
+        ],
+        [
+          49.50372232227472,
+          22,
+          24.489170471627812
+        ],
+        [
+          58.685786158644184,
+          31,
+          29.031477918860766
+        ],
+        [
+          57.13883510897431,
+          31,
+          34.93394812158701
+        ]
+      ]
+    },
+    {
+      "id": "W3P",
+      "ticketLabels": [
+        "W3P"
+      ],
+      "sourceLabel": "W3P",
+      "levelName": "3",
+      "tier": 2,
+      "angle": 0.9723774333163594,
+      "halfAngle": 0.042757901846615716,
+      "sourcePixel": [
+        658,
+        730
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        51.838547576221984,
+        26.5,
+        35.34446425651499
+      ],
+      "polygon": [
+        [
+          46.78491445375281,
+          22,
+          34.919070578568935
+        ],
+        [
+          48.2207143701008,
+          22,
+          29.941272128217705
+        ],
+        [
+          57.00401775427192,
+          31,
+          35.395012916703934
+        ],
+        [
+          55.1384575150329,
+          31,
+          41.15394271938047
+        ]
+      ]
+    },
+    {
+      "id": "W3Q",
+      "ticketLabels": [
+        "W3Q"
+      ],
+      "sourceLabel": "W3Q",
+      "levelName": "3",
+      "tier": 2,
+      "angle": 0.88329847113591,
+      "halfAngle": 0.03954263501569677,
+      "sourcePixel": [
+        640,
+        752
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        49.930688339249286,
+        26.5,
+        40.999996115968926
+      ],
+      "polygon": [
+        [
+          45.015944088629105,
+          22,
+          40.046268441853165
+        ],
+        [
+          46.65784374122959,
+          22,
+          35.3191909353683
+        ],
+        [
+          54.97416624814675,
+          31,
+          41.61450505513236
+        ],
+        [
+          52.862840896588395,
+          31,
+          47.026882585774544
+        ]
+      ]
+    },
+    {
+      "id": "W3R",
+      "ticketLabels": [
+        "W3R"
+      ],
+      "sourceLabel": "W3R",
+      "levelName": "3",
+      "tier": 2,
+      "angle": 0.800917981519875,
+      "halfAngle": 0.03954263501569677,
+      "sourcePixel": [
+        623,
+        772
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk"
+      },
+      "samples": [],
+      "center": [
+        47.78932278372767,
+        26.5,
+        46.328513790338626
+      ],
+      "polygon": [
+        [
+          42.96009273008386,
+          22,
+          45.07535919110714
+        ],
+        [
+          44.940812831136675,
+          22,
+          40.24549935002814
+        ],
+        [
+          52.76673043092166,
+          31,
+          47.253782953152154
+        ],
+        [
+          50.24812906781798,
+          31,
+          52.72224342353242
+        ]
+      ]
+    }
+  ],
+  "ticketLabelCount": 100,
+  "venueSource": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk",
+  "accuracy": {
+    "sectionLabels": "source-layout-reference",
+    "seatDataStatus": "section-only",
+    "geometryBasis": "source-screen-plus-parametric",
+    "position": "estimated",
+    "stage": "event-only",
+    "metricCalibrated": false,
+    "completeSeatInventory": false,
+    "coverage": "100 chart-labelled sections; illustrative positions and chairs, without a source seat manifest."
+  }
+}

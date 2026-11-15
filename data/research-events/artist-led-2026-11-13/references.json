@@ -1,0 +1,5427 @@
+{
+  "schemaVersion": 1,
+  "references": [
+    {
+      "id": "tokyo-bruno-20270127",
+      "venueId": "tokyo-dome",
+      "seatLayoutId": "end",
+      "event": {
+        "name": "Bruno Mars — The Romantic Tour",
+        "dates": [
+          "2027-01-27",
+          "2027-01-28"
+        ],
+        "url": "https://www.livenationhip.co.jp/en/all-events/bruno-mars-tickets-ae147754",
+        "bindingNote": "Official promoter/ticket page binds these dates and this venue to the linked concert seating chart. Floor/stage shapes are AI traces placed in the existing model frame for illustrative views only."
+      },
+      "source": {
+        "path": "data/research-events/artist-led-2026-11-13/tokyo-bruno-20270127.jpg",
+        "url": "https://networksites.livenationinternational.com/networksites/w4ef4jq3/bm27_map_tokyodome.jpg",
+        "retrievedAt": "2026-11-13",
+        "sha256": "45bdea9ac7f21e7ed5c218385d4a4101051fe33c109fa4b6bc17836bb9c9d8d6",
+        "rights": "undecided; private research reference, no public redistribution approval"
+      },
+      "eventSource": {
+        "path": "data/research-events/artist-led-2026-11-13/tokyo-bruno.html",
+        "url": "https://www.livenationhip.co.jp/en/all-events/bruno-mars-tickets-ae147754",
+        "retrievedAt": "2026-11-13",
+        "sha256": "f5c56b16be68938c8abdfab28d3d8151186e6913dae1f3ca4e3f066bbcaf259e",
+        "rights": "undecided; private research reference, no public redistribution approval"
+      },
+      "notes": [
+        "AI-traced event shapes and illustrative heights; not a surveyed or independently registered layout.",
+        "Fixed seats and the venue model remain unchanged. Temporary chairs have no ticket identity.",
+        "Only traced floor areas are overlaid; stand price categories, closures and availability are not inferred."
+      ],
+      "actor": "Codex AI",
+      "venueModelSha256": "5a322698a56221910d8055e7fd518884370168a1fcc6ee45038847d9f1852454",
+      "registration": {
+        "matrix": [
+          0.15,
+          0,
+          0,
+          0.15,
+          -76.05,
+          -67.5
+        ],
+        "width": 1000,
+        "height": 1000,
+        "rationale": "AI schematic registration: image centreline x=507 and arena floor front/back determine an illustrative end-stage frame. This chart has no numbered anchors matching the section-only model; no factual alignment or distances are asserted."
+      },
+      "shapes": [
+        {
+          "id": "stage",
+          "label": "STAGE",
+          "kind": "stage",
+          "color": "#ad8d4d",
+          "height": 1.5,
+          "pixels": [
+            [
+              418,
+              171
+            ],
+            [
+              595,
+              171
+            ],
+            [
+              595,
+              239
+            ],
+            [
+              418,
+              239
+            ]
+          ]
+        },
+        {
+          "id": "vip-gold",
+          "label": "VIP GOLD",
+          "kind": "price-zone",
+          "color": "#c5a559",
+          "height": 0.045,
+          "pixels": [
+            [
+              434,
+              255
+            ],
+            [
+              581,
+              255
+            ],
+            [
+              581,
+              277
+            ],
+            [
+              434,
+              277
+            ]
+          ],
+          "seating": "illustrative"
+        },
+        {
+          "id": "vip-silver",
+          "label": "VIP SILVER",
+          "kind": "price-zone",
+          "color": "#a1a6ad",
+          "height": 0.045,
+          "pixels": [
+            [
+              434,
+              280
+            ],
+            [
+              581,
+              280
+            ],
+            [
+              581,
+              375
+            ],
+            [
+              434,
+              375
+            ]
+          ],
+          "seating": "illustrative"
+        },
+        {
+          "id": "ss-floor",
+          "label": "SS",
+          "kind": "price-zone",
+          "color": "#8876ae",
+          "height": 0.045,
+          "pixels": [
+            [
+              362,
+              255
+            ],
+            [
+              429,
+              255
+            ],
+            [
+              429,
+              380
+            ],
+            [
+              586,
+              380
+            ],
+            [
+              586,
+              255
+            ],
+            [
+              651,
+              255
+            ],
+            [
+              652,
+              320
+            ],
+            [
+              640,
+              370
+            ],
+            [
+              611,
+              407
+            ],
+            [
+              573,
+              441
+            ],
+            [
+              530,
+              461
+            ],
+            [
+              480,
+              461
+            ],
+            [
+              435,
+              445
+            ],
+            [
+              399,
+              418
+            ],
+            [
+              372,
+              380
+            ],
+            [
+              356,
+              330
+            ]
+          ],
+          "seating": "illustrative"
+        }
+      ]
+    },
+    {
+      "id": "singapore-bruno-20270413",
+      "venueId": "singapore-national",
+      "seatLayoutId": "end",
+      "event": {
+        "name": "Bruno Mars — The Romantic Tour",
+        "dates": [
+          "2027-04-13",
+          "2027-04-14",
+          "2027-04-17",
+          "2027-04-18"
+        ],
+        "url": "https://ticketmaster.sg/activity/detail/27sg_brunomars",
+        "bindingNote": "Official promoter/ticket page binds these dates and this venue to the linked concert seating chart. Floor/stage shapes are AI traces placed in the existing model frame for illustrative views only."
+      },
+      "source": {
+        "path": "data/research-events/artist-led-2026-11-13/singapore-bruno-20270413.jpg",
+        "url": "https://static.ticketmaster.sg/images/activity/field/27sg_brunomars_eadbcf33b6216e5e3a09a28be47290e6.jpg",
+        "retrievedAt": "2026-11-13",
+        "sha256": "1cc11c294410a4444681415d4e8315829844c13bf60d2886adf4ab78a84979c1",
+        "rights": "undecided; private research reference, no public redistribution approval"
+      },
+      "eventSource": {
+        "path": "data/research-events/artist-led-2026-11-13/singapore-bruno.html",
+        "url": "https://ticketmaster.sg/activity/detail/27sg_brunomars",
+        "retrievedAt": "2026-11-13",
+        "sha256": "82af2c2fe5cc8d18a9170baa056fe63d3327ad33d72b0eaf642120d931d6165e",
+        "rights": "undecided; private research reference, no public redistribution approval"
+      },
+      "notes": [
+        "AI-traced event shapes and illustrative heights; not a surveyed or independently registered layout.",
+        "Fixed seats and the venue model remain unchanged. Temporary chairs have no ticket identity.",
+        "Only traced floor areas are overlaid; stand price categories, closures and availability are not inferred."
+      ],
+      "actor": "Codex AI",
+      "venueModelSha256": "7065aaee7de8e031ea7cf6f3705060cbc7eda53e7083d3ee4661d40cdf938980",
+      "registration": {
+        "matrix": [
+          0.058737393812760864,
+          -0.1333569900099178,
+          0.18748973110291986,
+          0.24427730565505057,
+          30.154756635346516,
+          -283.47328778804507
+        ],
+        "width": 1500,
+        "height": 1358,
+        "rationale": "AI affine orientation fit of diagram labels 101,113,134 to the existing estimated section centres, then projected onto the inner apron (57/70 horizontal, 89/102 vertical radii, 5% service clearance). The drawing labels sit on stands rather than the field; this apron projection is an explicit display estimate. The map is an oblique illustration; stage/FOH/towers are approximate, not metric or independently validated.",
+        "anchors": [
+          {
+            "section": "101",
+            "pixel": [
+              450,
+              830
+            ],
+            "purpose": "fit"
+          },
+          {
+            "section": "113",
+            "pixel": [
+              1060,
+              693
+            ],
+            "purpose": "fit"
+          },
+          {
+            "section": "134",
+            "pixel": [
+              760,
+              307
+            ],
+            "purpose": "fit"
+          }
+        ]
+      },
+      "shapes": [
+        {
+          "id": "stage",
+          "label": "STAGE",
+          "kind": "stage",
+          "color": "#ad8d4d",
+          "height": 1.5,
+          "pixels": [
+            [
+              891,
+              342
+            ],
+            [
+              977,
+              282
+            ],
+            [
+              1170,
+              389
+            ],
+            [
+              1086,
+              449
+            ]
+          ]
+        },
+        {
+          "id": "standing-pen",
+          "label": "GENERAL ADMISSION",
+          "kind": "standing",
+          "color": "#7479a6",
+          "height": 0.035,
+          "pixels": [
+            [
+              789,
+              326
+            ],
+            [
+              1124,
+              499
+            ],
+            [
+              1113,
+              524
+            ],
+            [
+              1084,
+              558
+            ],
+            [
+              1030,
+              609
+            ],
+            [
+              961,
+              661
+            ],
+            [
+              880,
+              705
+            ],
+            [
+              794,
+              739
+            ],
+            [
+              700,
+              765
+            ],
+            [
+              613,
+              779
+            ],
+            [
+              542,
+              771
+            ],
+            [
+              481,
+              750
+            ],
+            [
+              445,
+              718
+            ],
+            [
+              423,
+              682
+            ],
+            [
+              419,
+              645
+            ],
+            [
+              428,
+              603
+            ],
+            [
+              453,
+              556
+            ],
+            [
+              491,
+              512
+            ],
+            [
+              545,
+              464
+            ],
+            [
+              617,
+              415
+            ],
+            [
+              694,
+              371
+            ]
+          ],
+          "previewView": true
+        },
+        {
+          "id": "foh",
+          "label": "FOH",
+          "kind": "equipment",
+          "color": "#676c7c",
+          "height": 2,
+          "pixels": [
+            [
+              694,
+              575
+            ],
+            [
+              768,
+              522
+            ],
+            [
+              811,
+              543
+            ],
+            [
+              735,
+              596
+            ]
+          ]
+        },
+        {
+          "id": "delay-1",
+          "label": "Delay Tower",
+          "kind": "equipment",
+          "color": "#676c7c",
+          "height": 5,
+          "pixels": [
+            [
+              597,
+              481
+            ],
+            [
+              626,
+              496
+            ],
+            [
+              597,
+              517
+            ],
+            [
+              568,
+              502
+            ]
+          ]
+        },
+        {
+          "id": "delay-2",
+          "label": "Delay Tower",
+          "kind": "equipment",
+          "color": "#676c7c",
+          "height": 5,
+          "pixels": [
+            [
+              612,
+              572
+            ],
+            [
+              641,
+              587
+            ],
+            [
+              612,
+              608
+            ],
+            [
+              583,
+              593
+            ]
+          ]
+        },
+        {
+          "id": "delay-3",
+          "label": "Delay Tower",
+          "kind": "equipment",
+          "color": "#676c7c",
+          "height": 5,
+          "pixels": [
+            [
+              723,
+              630
+            ],
+            [
+              752,
+              645
+            ],
+            [
+              723,
+              666
+            ],
+            [
+              694,
+              651
+            ]
+          ]
+        },
+        {
+          "id": "delay-4",
+          "label": "Delay Tower",
+          "kind": "equipment",
+          "color": "#676c7c",
+          "height": 5,
+          "pixels": [
+            [
+              870,
+              628
+            ],
+            [
+              899,
+              643
+            ],
+            [
+              870,
+              664
+            ],
+            [
+              841,
+              649
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kaohsiung-bts-20261119",
+      "venueId": "kaohsiung-national",
+      "seatLayoutId": "end",
+      "event": {
+        "name": "BTS WORLD TOUR 'ARIRANG' IN KAOHSIUNG",
+        "dates": [
+          "2026-11-19",
+          "2026-11-21",
+          "2026-11-22"
+        ],
+        "url": "https://tixcraft.com/activity/detail/26_btskns",
+        "bindingNote": "Official Tixcraft event page confirms Nov 19, 21, 22 at Kaohsiung National Stadium and directly links this chart. Floor/stage shapes are AI traces placed in the existing model frame for illustrative views only."
+      },
+      "source": {
+        "path": "data/research-events/artist-led-2026-11-13/kaohsiung-bts-20261119.jpg",
+        "url": "https://static.tixcraft.com/images/activity/field/26_btskns_2666dab1d371caa7f7cecb602ce039a0.jpg",
+        "retrievedAt": "2026-11-13",
+        "sha256": "4f8c46a7d88671792b1987d7c81d4452ad897e06eba4239e63aafe678343ab32",
+        "rights": "undecided; private research reference, no public redistribution approval"
+      },
+      "eventSource": {
+        "path": "data/research-events/artist-led-2026-11-13/kaohsiung-bts-ticket.html",
+        "url": "https://tixcraft.com/activity/detail/26_btskns",
+        "retrievedAt": "2026-11-13",
+        "sha256": "69c6f5ba8911237cdc8abd9805961cb6606bd7d862bcf63d59bba71c326bee12",
+        "rights": "undecided; private research reference, no public redistribution approval"
+      },
+      "notes": [
+        "AI-traced event shapes and illustrative heights; not a surveyed or independently registered layout.",
+        "Fixed seats and the venue model remain unchanged. Temporary chairs have no ticket identity.",
+        "Only traced floor areas are overlaid; stand price categories, closures and availability are not inferred."
+      ],
+      "actor": "Codex AI",
+      "seatAssetSha256": "60e34bbf3718b36a67da301ecac886870f0256a47aec0b81b659a0846748a570",
+      "registration": {
+        "matrix": [
+          0,
+          -0.28,
+          0.24,
+          0,
+          211.4,
+          -129.6
+        ],
+        "width": 1080,
+        "height": 1350,
+        "rationale": "AI visual registration: chart centre (540,755) maps to model origin, diagram long axis maps to source-model X and right side to positive Z. Extents checked against A/H, C/G and E stand banks; scale is illustrative, not metric.",
+        "anchors": [
+          {
+            "section": "A01",
+            "pixel": [
+              657,
+              470
+            ],
+            "purpose": "orientation"
+          },
+          {
+            "section": "H04",
+            "pixel": [
+              413,
+              440
+            ],
+            "purpose": "orientation"
+          },
+          {
+            "section": "E09",
+            "pixel": [
+              540,
+              1098
+            ],
+            "purpose": "orientation"
+          }
+        ]
+      },
+      "shapes": [
+        {
+          "id": "stage",
+          "label": "STAGE",
+          "kind": "stage",
+          "color": "#ad8d4d",
+          "height": 1.5,
+          "pixels": [
+            [
+              587,
+              755
+            ],
+            [
+              586.4213520079714,
+              762.3524198568908
+            ],
+            [
+              584.6996562658722,
+              769.5237987356226
+            ],
+            [
+              581.8773066368533,
+              776.3375534877587
+            ],
+            [
+              578.0237987356226,
+              782.6259068577463
+            ],
+            [
+              573.2340187157678,
+              788.2340187157678
+            ],
+            [
+              567.6259068577463,
+              793.0237987356226
+            ],
+            [
+              561.3375534877587,
+              796.8773066368533
+            ],
+            [
+              554.5237987356226,
+              799.6996562658722
+            ],
+            [
+              547.3524198568908,
+              801.4213520079714
+            ],
+            [
+              540,
+              802
+            ],
+            [
+              532.6475801431092,
+              801.4213520079714
+            ],
+            [
+              525.4762012643774,
+              799.6996562658722
+            ],
+            [
+              518.6624465122413,
+              796.8773066368533
+            ],
+            [
+              512.3740931422537,
+              793.0237987356226
+            ],
+            [
+              506.7659812842323,
+              788.2340187157678
+            ],
+            [
+              501.9762012643775,
+              782.6259068577463
+            ],
+            [
+              498.1226933631467,
+              776.3375534877587
+            ],
+            [
+              495.3003437341278,
+              769.5237987356226
+            ],
+            [
+              493.57864799202855,
+              762.3524198568908
+            ],
+            [
+              493,
+              755
+            ],
+            [
+              493.57864799202855,
+              747.6475801431092
+            ],
+            [
+              495.30034373412775,
+              740.4762012643776
+            ],
+            [
+              498.1226933631467,
+              733.6624465122413
+            ],
+            [
+              501.9762012643775,
+              727.3740931422537
+            ],
+            [
+              506.7659812842323,
+              721.7659812842322
+            ],
+            [
+              512.3740931422537,
+              716.9762012643774
+            ],
+            [
+              518.6624465122413,
+              713.1226933631467
+            ],
+            [
+              525.4762012643774,
+              710.3003437341278
+            ],
+            [
+              532.6475801431092,
+              708.5786479920286
+            ],
+            [
+              540,
+              708
+            ],
+            [
+              547.3524198568908,
+              708.5786479920286
+            ],
+            [
+              554.5237987356226,
+              710.3003437341278
+            ],
+            [
+              561.3375534877587,
+              713.1226933631467
+            ],
+            [
+              567.6259068577463,
+              716.9762012643774
+            ],
+            [
+              573.2340187157678,
+              721.7659812842322
+            ],
+            [
+              578.0237987356226,
+              727.3740931422537
+            ],
+            [
+              581.8773066368533,
+              733.6624465122413
+            ],
+            [
+              584.6996562658722,
+              740.4762012643774
+            ],
+            [
+              586.4213520079714,
+              747.6475801431092
+            ]
+          ]
+        },
+        {
+          "id": "runway--1--1",
+          "label": "STAGE",
+          "kind": "stage",
+          "color": "#ad8d4d",
+          "height": 1.5,
+          "pixels": [
+            [
+              519.77,
+              711.9000000000001
+            ],
+            [
+              486.71,
+              664.34
+            ],
+            [
+              500.65,
+              654.65
+            ],
+            [
+              485.26,
+              632.51
+            ],
+            [
+              471.32,
+              642.2
+            ],
+            [
+              424.01000000000005,
+              574.1400000000001
+            ],
+            [
+              410.89000000000004,
+              583.26
+            ],
+            [
+              458.2,
+              651.3199999999999
+            ],
+            [
+              444.26,
+              661.01
+            ],
+            [
+              459.65,
+              683.15
+            ],
+            [
+              473.59,
+              673.4599999999999
+            ],
+            [
+              506.65000000000003,
+              721.02
+            ]
+          ]
+        },
+        {
+          "id": "runway--1-1",
+          "label": "STAGE",
+          "kind": "stage",
+          "color": "#ad8d4d",
+          "height": 1.5,
+          "pixels": [
+            [
+              506.65000000000003,
+              788.98
+            ],
+            [
+              473.59,
+              836.5400000000001
+            ],
+            [
+              459.65,
+              826.85
+            ],
+            [
+              444.26,
+              848.99
+            ],
+            [
+              458.2,
+              858.6800000000001
+            ],
+            [
+              410.89000000000004,
+              926.74
+            ],
+            [
+              424.01000000000005,
+              935.8599999999999
+            ],
+            [
+              471.32,
+              867.8
+            ],
+            [
+              485.26,
+              877.49
+            ],
+            [
+              500.65,
+              855.35
+            ],
+            [
+              486.71,
+              845.66
+            ],
+            [
+              519.77,
+              798.0999999999999
+            ]
+          ]
+        },
+        {
+          "id": "runway-1--1",
+          "label": "STAGE",
+          "kind": "stage",
+          "color": "#ad8d4d",
+          "height": 1.5,
+          "pixels": [
+            [
+              573.3499999999999,
+              721.02
+            ],
+            [
+              606.41,
+              673.4599999999999
+            ],
+            [
+              620.35,
+              683.15
+            ],
+            [
+              635.74,
+              661.01
+            ],
+            [
+              621.8,
+              651.3199999999999
+            ],
+            [
+              669.1099999999999,
+              583.26
+            ],
+            [
+              655.99,
+              574.1400000000001
+            ],
+            [
+              608.6800000000001,
+              642.2
+            ],
+            [
+              594.74,
+              632.51
+            ],
+            [
+              579.35,
+              654.65
+            ],
+            [
+              593.2900000000001,
+              664.34
+            ],
+            [
+              560.23,
+              711.9000000000001
+            ]
+          ]
+        },
+        {
+          "id": "runway-1-1",
+          "label": "STAGE",
+          "kind": "stage",
+          "color": "#ad8d4d",
+          "height": 1.5,
+          "pixels": [
+            [
+              560.23,
+              798.0999999999999
+            ],
+            [
+              593.2900000000001,
+              845.66
+            ],
+            [
+              579.35,
+              855.35
+            ],
+            [
+              594.74,
+              877.49
+            ],
+            [
+              608.6800000000001,
+              867.8
+            ],
+            [
+              655.99,
+              935.8599999999999
+            ],
+            [
+              669.1099999999999,
+              926.74
+            ],
+            [
+              621.8,
+              858.6800000000001
+            ],
+            [
+              635.74,
+              848.99
+            ],
+            [
+              620.35,
+              826.85
+            ],
+            [
+              606.41,
+              836.5400000000001
+            ],
+            [
+              573.3499999999999,
+              788.98
+            ]
+          ]
+        },
+        {
+          "id": "foh-n",
+          "label": "FOH",
+          "kind": "equipment",
+          "color": "#6d7180",
+          "height": 1.7,
+          "pixels": [
+            [
+              507,
+              483
+            ],
+            [
+              573,
+              483
+            ],
+            [
+              573,
+              498
+            ],
+            [
+              507,
+              498
+            ]
+          ]
+        },
+        {
+          "id": "foh-s",
+          "label": "FOH",
+          "kind": "equipment",
+          "color": "#6d7180",
+          "height": 1.7,
+          "pixels": [
+            [
+              507,
+              1013
+            ],
+            [
+              573,
+              1013
+            ],
+            [
+              573,
+              1028
+            ],
+            [
+              507,
+              1028
+            ]
+          ]
+        },
+        {
+          "id": "a1",
+          "label": "A1",
+          "kind": "price-zone",
+          "color": "#9a7fc5",
+          "height": 0.045,
+          "pixels": [
+            [
+              561,
+              622
+            ],
+            [
+              580,
+              622
+            ],
+            [
+              580,
+              649
+            ],
+            [
+              561,
+              649
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "A",
+          "seatingAngle": -1.5707963267948966
+        },
+        {
+          "id": "m1",
+          "label": "M1",
+          "kind": "price-zone",
+          "color": "#9a7fc5",
+          "height": 0.045,
+          "pixels": [
+            [
+              561,
+              861
+            ],
+            [
+              580,
+              861
+            ],
+            [
+              580,
+              888
+            ],
+            [
+              561,
+              888
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "M",
+          "seatingAngle": 1.5707963267948966
+        },
+        {
+          "id": "a2",
+          "label": "A2",
+          "kind": "price-zone",
+          "color": "#9a7fc5",
+          "height": 0.045,
+          "pixels": [
+            [
+              525,
+              622
+            ],
+            [
+              554,
+              622
+            ],
+            [
+              554,
+              671
+            ],
+            [
+              525,
+              671
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "A",
+          "seatingAngle": -1.5707963267948966
+        },
+        {
+          "id": "m2",
+          "label": "M2",
+          "kind": "price-zone",
+          "color": "#9a7fc5",
+          "height": 0.045,
+          "pixels": [
+            [
+              525,
+              839
+            ],
+            [
+              554,
+              839
+            ],
+            [
+              554,
+              888
+            ],
+            [
+              525,
+              888
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "M",
+          "seatingAngle": 1.5707963267948966
+        },
+        {
+          "id": "a3",
+          "label": "A3",
+          "kind": "price-zone",
+          "color": "#9a7fc5",
+          "height": 0.045,
+          "pixels": [
+            [
+              500,
+              622
+            ],
+            [
+              519,
+              622
+            ],
+            [
+              519,
+              649
+            ],
+            [
+              500,
+              649
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "A",
+          "seatingAngle": -1.5707963267948966
+        },
+        {
+          "id": "m3",
+          "label": "M3",
+          "kind": "price-zone",
+          "color": "#9a7fc5",
+          "height": 0.045,
+          "pixels": [
+            [
+              500,
+              861
+            ],
+            [
+              519,
+              861
+            ],
+            [
+              519,
+              888
+            ],
+            [
+              500,
+              888
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "M",
+          "seatingAngle": 1.5707963267948966
+        },
+        {
+          "id": "a4",
+          "label": "A4",
+          "kind": "price-zone",
+          "color": "#9a7fc5",
+          "height": 0.045,
+          "pixels": [
+            [
+              597,
+              555
+            ],
+            [
+              635,
+              555
+            ],
+            [
+              635,
+              595
+            ],
+            [
+              597,
+              595
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "A",
+          "seatingAngle": -1.5707963267948966
+        },
+        {
+          "id": "m4",
+          "label": "M4",
+          "kind": "price-zone",
+          "color": "#9a7fc5",
+          "height": 0.045,
+          "pixels": [
+            [
+              597,
+              915
+            ],
+            [
+              635,
+              915
+            ],
+            [
+              635,
+              955
+            ],
+            [
+              597,
+              955
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "M",
+          "seatingAngle": 1.5707963267948966
+        },
+        {
+          "id": "a5",
+          "label": "A5",
+          "kind": "price-zone",
+          "color": "#9a7fc5",
+          "height": 0.045,
+          "pixels": [
+            [
+              561,
+              555
+            ],
+            [
+              590,
+              555
+            ],
+            [
+              590,
+              614
+            ],
+            [
+              561,
+              614
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "A",
+          "seatingAngle": -1.5707963267948966
+        },
+        {
+          "id": "m5",
+          "label": "M5",
+          "kind": "price-zone",
+          "color": "#9a7fc5",
+          "height": 0.045,
+          "pixels": [
+            [
+              561,
+              896
+            ],
+            [
+              590,
+              896
+            ],
+            [
+              590,
+              955
+            ],
+            [
+              561,
+              955
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "M",
+          "seatingAngle": 1.5707963267948966
+        },
+        {
+          "id": "a6",
+          "label": "A6",
+          "kind": "price-zone",
+          "color": "#9a7fc5",
+          "height": 0.045,
+          "pixels": [
+            [
+              525,
+              555
+            ],
+            [
+              554,
+              555
+            ],
+            [
+              554,
+              614
+            ],
+            [
+              525,
+              614
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "A",
+          "seatingAngle": -1.5707963267948966
+        },
+        {
+          "id": "m6",
+          "label": "M6",
+          "kind": "price-zone",
+          "color": "#9a7fc5",
+          "height": 0.045,
+          "pixels": [
+            [
+              525,
+              896
+            ],
+            [
+              554,
+              896
+            ],
+            [
+              554,
+              955
+            ],
+            [
+              525,
+              955
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "M",
+          "seatingAngle": 1.5707963267948966
+        },
+        {
+          "id": "a7",
+          "label": "A7",
+          "kind": "price-zone",
+          "color": "#9a7fc5",
+          "height": 0.045,
+          "pixels": [
+            [
+              490,
+              555
+            ],
+            [
+              519,
+              555
+            ],
+            [
+              519,
+              614
+            ],
+            [
+              490,
+              614
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "A",
+          "seatingAngle": -1.5707963267948966
+        },
+        {
+          "id": "m7",
+          "label": "M7",
+          "kind": "price-zone",
+          "color": "#9a7fc5",
+          "height": 0.045,
+          "pixels": [
+            [
+              490,
+              896
+            ],
+            [
+              519,
+              896
+            ],
+            [
+              519,
+              955
+            ],
+            [
+              490,
+              955
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "M",
+          "seatingAngle": 1.5707963267948966
+        },
+        {
+          "id": "a8",
+          "label": "A8",
+          "kind": "price-zone",
+          "color": "#9a7fc5",
+          "height": 0.045,
+          "pixels": [
+            [
+              446,
+              555
+            ],
+            [
+              483,
+              555
+            ],
+            [
+              483,
+              595
+            ],
+            [
+              446,
+              595
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "A",
+          "seatingAngle": -1.5707963267948966
+        },
+        {
+          "id": "m8",
+          "label": "M8",
+          "kind": "price-zone",
+          "color": "#9a7fc5",
+          "height": 0.045,
+          "pixels": [
+            [
+              446,
+              915
+            ],
+            [
+              483,
+              915
+            ],
+            [
+              483,
+              955
+            ],
+            [
+              446,
+              955
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "M",
+          "seatingAngle": 1.5707963267948966
+        },
+        {
+          "id": "a9",
+          "label": "A9",
+          "kind": "price-zone",
+          "color": "#9a7fc5",
+          "height": 0.045,
+          "pixels": [
+            [
+              597,
+              486
+            ],
+            [
+              635,
+              486
+            ],
+            [
+              635,
+              547
+            ],
+            [
+              597,
+              547
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "A",
+          "seatingAngle": -1.5707963267948966
+        },
+        {
+          "id": "m9",
+          "label": "M9",
+          "kind": "price-zone",
+          "color": "#9a7fc5",
+          "height": 0.045,
+          "pixels": [
+            [
+              597,
+              963
+            ],
+            [
+              635,
+              963
+            ],
+            [
+              635,
+              1024
+            ],
+            [
+              597,
+              1024
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "M",
+          "seatingAngle": 1.5707963267948966
+        },
+        {
+          "id": "a10",
+          "label": "A10",
+          "kind": "price-zone",
+          "color": "#9a7fc5",
+          "height": 0.045,
+          "pixels": [
+            [
+              561,
+              503
+            ],
+            [
+              590,
+              503
+            ],
+            [
+              590,
+              547
+            ],
+            [
+              561,
+              547
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "A",
+          "seatingAngle": -1.5707963267948966
+        },
+        {
+          "id": "m10",
+          "label": "M10",
+          "kind": "price-zone",
+          "color": "#9a7fc5",
+          "height": 0.045,
+          "pixels": [
+            [
+              561,
+              963
+            ],
+            [
+              590,
+              963
+            ],
+            [
+              590,
+              1007
+            ],
+            [
+              561,
+              1007
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "M",
+          "seatingAngle": 1.5707963267948966
+        },
+        {
+          "id": "a11",
+          "label": "A11",
+          "kind": "price-zone",
+          "color": "#9a7fc5",
+          "height": 0.045,
+          "pixels": [
+            [
+              525,
+              503
+            ],
+            [
+              554,
+              503
+            ],
+            [
+              554,
+              547
+            ],
+            [
+              525,
+              547
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "A",
+          "seatingAngle": -1.5707963267948966
+        },
+        {
+          "id": "m11",
+          "label": "M11",
+          "kind": "price-zone",
+          "color": "#9a7fc5",
+          "height": 0.045,
+          "pixels": [
+            [
+              525,
+              963
+            ],
+            [
+              554,
+              963
+            ],
+            [
+              554,
+              1007
+            ],
+            [
+              525,
+              1007
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "M",
+          "seatingAngle": 1.5707963267948966
+        },
+        {
+          "id": "a12",
+          "label": "A12",
+          "kind": "price-zone",
+          "color": "#9a7fc5",
+          "height": 0.045,
+          "pixels": [
+            [
+              490,
+              503
+            ],
+            [
+              519,
+              503
+            ],
+            [
+              519,
+              547
+            ],
+            [
+              490,
+              547
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "A",
+          "seatingAngle": -1.5707963267948966
+        },
+        {
+          "id": "m12",
+          "label": "M12",
+          "kind": "price-zone",
+          "color": "#9a7fc5",
+          "height": 0.045,
+          "pixels": [
+            [
+              490,
+              963
+            ],
+            [
+              519,
+              963
+            ],
+            [
+              519,
+              1007
+            ],
+            [
+              490,
+              1007
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "M",
+          "seatingAngle": 1.5707963267948966
+        },
+        {
+          "id": "a13",
+          "label": "A13",
+          "kind": "price-zone",
+          "color": "#9a7fc5",
+          "height": 0.045,
+          "pixels": [
+            [
+              446,
+              486
+            ],
+            [
+              483,
+              486
+            ],
+            [
+              483,
+              547
+            ],
+            [
+              446,
+              547
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "A",
+          "seatingAngle": -1.5707963267948966
+        },
+        {
+          "id": "m13",
+          "label": "M13",
+          "kind": "price-zone",
+          "color": "#9a7fc5",
+          "height": 0.045,
+          "pixels": [
+            [
+              446,
+              963
+            ],
+            [
+              483,
+              963
+            ],
+            [
+              483,
+              1024
+            ],
+            [
+              446,
+              1024
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "M",
+          "seatingAngle": 1.5707963267948966
+        },
+        {
+          "id": "r1",
+          "label": "R1",
+          "kind": "price-zone",
+          "color": "#a28cc9",
+          "height": 0.045,
+          "pixels": [
+            [
+              647,
+              605
+            ],
+            [
+              667,
+              605
+            ],
+            [
+              667,
+              625
+            ],
+            [
+              647,
+              625
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "R",
+          "seatingAngle": 3.141592653589793
+        },
+        {
+          "id": "y1",
+          "label": "Y1",
+          "kind": "price-zone",
+          "color": "#a28cc9",
+          "height": 0.045,
+          "pixels": [
+            [
+              413,
+              605
+            ],
+            [
+              433,
+              605
+            ],
+            [
+              433,
+              625
+            ],
+            [
+              413,
+              625
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "Y",
+          "seatingAngle": 0
+        },
+        {
+          "id": "r2",
+          "label": "R2",
+          "kind": "price-zone",
+          "color": "#a28cc9",
+          "height": 0.045,
+          "pixels": [
+            [
+              647,
+              634
+            ],
+            [
+              667,
+              634
+            ],
+            [
+              667,
+              677
+            ],
+            [
+              647,
+              677
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "R",
+          "seatingAngle": 3.141592653589793
+        },
+        {
+          "id": "y2",
+          "label": "Y2",
+          "kind": "price-zone",
+          "color": "#a28cc9",
+          "height": 0.045,
+          "pixels": [
+            [
+              413,
+              634
+            ],
+            [
+              433,
+              634
+            ],
+            [
+              433,
+              677
+            ],
+            [
+              413,
+              677
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "Y",
+          "seatingAngle": 0
+        },
+        {
+          "id": "r3",
+          "label": "R3",
+          "kind": "price-zone",
+          "color": "#a28cc9",
+          "height": 0.045,
+          "pixels": [
+            [
+              624,
+              684
+            ],
+            [
+              667,
+              684
+            ],
+            [
+              667,
+              727
+            ],
+            [
+              624,
+              727
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "R",
+          "seatingAngle": 3.141592653589793
+        },
+        {
+          "id": "y3",
+          "label": "Y3",
+          "kind": "price-zone",
+          "color": "#a28cc9",
+          "height": 0.045,
+          "pixels": [
+            [
+              413,
+              684
+            ],
+            [
+              456,
+              684
+            ],
+            [
+              456,
+              727
+            ],
+            [
+              413,
+              727
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "Y",
+          "seatingAngle": 0
+        },
+        {
+          "id": "r4",
+          "label": "R4",
+          "kind": "price-zone",
+          "color": "#a28cc9",
+          "height": 0.045,
+          "pixels": [
+            [
+              624,
+              735
+            ],
+            [
+              667,
+              735
+            ],
+            [
+              667,
+              777
+            ],
+            [
+              624,
+              777
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "R",
+          "seatingAngle": 3.141592653589793
+        },
+        {
+          "id": "y4",
+          "label": "Y4",
+          "kind": "price-zone",
+          "color": "#a28cc9",
+          "height": 0.045,
+          "pixels": [
+            [
+              413,
+              735
+            ],
+            [
+              456,
+              735
+            ],
+            [
+              456,
+              777
+            ],
+            [
+              413,
+              777
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "Y",
+          "seatingAngle": 0
+        },
+        {
+          "id": "r5",
+          "label": "R5",
+          "kind": "price-zone",
+          "color": "#a28cc9",
+          "height": 0.045,
+          "pixels": [
+            [
+              624,
+              785
+            ],
+            [
+              667,
+              785
+            ],
+            [
+              667,
+              828
+            ],
+            [
+              624,
+              828
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "R",
+          "seatingAngle": 3.141592653589793
+        },
+        {
+          "id": "y5",
+          "label": "Y5",
+          "kind": "price-zone",
+          "color": "#a28cc9",
+          "height": 0.045,
+          "pixels": [
+            [
+              413,
+              785
+            ],
+            [
+              456,
+              785
+            ],
+            [
+              456,
+              828
+            ],
+            [
+              413,
+              828
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "Y",
+          "seatingAngle": 0
+        },
+        {
+          "id": "r6",
+          "label": "R6",
+          "kind": "price-zone",
+          "color": "#a28cc9",
+          "height": 0.045,
+          "pixels": [
+            [
+              647,
+              835
+            ],
+            [
+              667,
+              835
+            ],
+            [
+              667,
+              878
+            ],
+            [
+              647,
+              878
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "R",
+          "seatingAngle": 3.141592653589793
+        },
+        {
+          "id": "y6",
+          "label": "Y6",
+          "kind": "price-zone",
+          "color": "#a28cc9",
+          "height": 0.045,
+          "pixels": [
+            [
+              413,
+              835
+            ],
+            [
+              433,
+              835
+            ],
+            [
+              433,
+              878
+            ],
+            [
+              413,
+              878
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "Y",
+          "seatingAngle": 0
+        },
+        {
+          "id": "r7",
+          "label": "R7",
+          "kind": "price-zone",
+          "color": "#a28cc9",
+          "height": 0.045,
+          "pixels": [
+            [
+              647,
+              884
+            ],
+            [
+              667,
+              884
+            ],
+            [
+              667,
+              904
+            ],
+            [
+              647,
+              904
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "R",
+          "seatingAngle": 3.141592653589793
+        },
+        {
+          "id": "y7",
+          "label": "Y7",
+          "kind": "price-zone",
+          "color": "#a28cc9",
+          "height": 0.045,
+          "pixels": [
+            [
+              413,
+              884
+            ],
+            [
+              433,
+              884
+            ],
+            [
+              433,
+              904
+            ],
+            [
+              413,
+              904
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "Y",
+          "seatingAngle": 0
+        },
+        {
+          "id": "r8",
+          "label": "R8",
+          "kind": "price-zone",
+          "color": "#a28cc9",
+          "height": 0.045,
+          "pixels": [
+            [
+              676,
+              587
+            ],
+            [
+              694,
+              587
+            ],
+            [
+              694,
+              623
+            ],
+            [
+              676,
+              623
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "R",
+          "seatingAngle": 3.141592653589793
+        },
+        {
+          "id": "y8",
+          "label": "Y8",
+          "kind": "price-zone",
+          "color": "#a28cc9",
+          "height": 0.045,
+          "pixels": [
+            [
+              386,
+              587
+            ],
+            [
+              404,
+              587
+            ],
+            [
+              404,
+              623
+            ],
+            [
+              386,
+              623
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "Y",
+          "seatingAngle": 0
+        },
+        {
+          "id": "r9",
+          "label": "R9",
+          "kind": "price-zone",
+          "color": "#a28cc9",
+          "height": 0.045,
+          "pixels": [
+            [
+              676,
+              631
+            ],
+            [
+              716,
+              631
+            ],
+            [
+              716,
+              678
+            ],
+            [
+              676,
+              678
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "R",
+          "seatingAngle": 3.141592653589793
+        },
+        {
+          "id": "y9",
+          "label": "Y9",
+          "kind": "price-zone",
+          "color": "#a28cc9",
+          "height": 0.045,
+          "pixels": [
+            [
+              364,
+              631
+            ],
+            [
+              404,
+              631
+            ],
+            [
+              404,
+              678
+            ],
+            [
+              364,
+              678
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "Y",
+          "seatingAngle": 0
+        },
+        {
+          "id": "r10",
+          "label": "R10",
+          "kind": "price-zone",
+          "color": "#a28cc9",
+          "height": 0.045,
+          "pixels": [
+            [
+              676,
+              684
+            ],
+            [
+              720,
+              684
+            ],
+            [
+              720,
+              727
+            ],
+            [
+              676,
+              727
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "R",
+          "seatingAngle": 3.141592653589793
+        },
+        {
+          "id": "y10",
+          "label": "Y10",
+          "kind": "price-zone",
+          "color": "#a28cc9",
+          "height": 0.045,
+          "pixels": [
+            [
+              360,
+              684
+            ],
+            [
+              404,
+              684
+            ],
+            [
+              404,
+              727
+            ],
+            [
+              360,
+              727
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "Y",
+          "seatingAngle": 0
+        },
+        {
+          "id": "r11",
+          "label": "R11",
+          "kind": "price-zone",
+          "color": "#a28cc9",
+          "height": 0.045,
+          "pixels": [
+            [
+              676,
+              735
+            ],
+            [
+              711,
+              735
+            ],
+            [
+              711,
+              777
+            ],
+            [
+              676,
+              777
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "R",
+          "seatingAngle": 3.141592653589793
+        },
+        {
+          "id": "y11",
+          "label": "Y11",
+          "kind": "price-zone",
+          "color": "#a28cc9",
+          "height": 0.045,
+          "pixels": [
+            [
+              369,
+              735
+            ],
+            [
+              404,
+              735
+            ],
+            [
+              404,
+              777
+            ],
+            [
+              369,
+              777
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "Y",
+          "seatingAngle": 0
+        },
+        {
+          "id": "r12",
+          "label": "R12",
+          "kind": "price-zone",
+          "color": "#a28cc9",
+          "height": 0.045,
+          "pixels": [
+            [
+              676,
+              785
+            ],
+            [
+              719,
+              785
+            ],
+            [
+              719,
+              827
+            ],
+            [
+              676,
+              827
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "R",
+          "seatingAngle": 3.141592653589793
+        },
+        {
+          "id": "y12",
+          "label": "Y12",
+          "kind": "price-zone",
+          "color": "#a28cc9",
+          "height": 0.045,
+          "pixels": [
+            [
+              361,
+              785
+            ],
+            [
+              404,
+              785
+            ],
+            [
+              404,
+              827
+            ],
+            [
+              361,
+              827
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "Y",
+          "seatingAngle": 0
+        },
+        {
+          "id": "r13",
+          "label": "R13",
+          "kind": "price-zone",
+          "color": "#a28cc9",
+          "height": 0.045,
+          "pixels": [
+            [
+              676,
+              835
+            ],
+            [
+              714,
+              835
+            ],
+            [
+              714,
+              878
+            ],
+            [
+              676,
+              878
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "R",
+          "seatingAngle": 3.141592653589793
+        },
+        {
+          "id": "y13",
+          "label": "Y13",
+          "kind": "price-zone",
+          "color": "#a28cc9",
+          "height": 0.045,
+          "pixels": [
+            [
+              366,
+              835
+            ],
+            [
+              404,
+              835
+            ],
+            [
+              404,
+              878
+            ],
+            [
+              366,
+              878
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "Y",
+          "seatingAngle": 0
+        },
+        {
+          "id": "r14",
+          "label": "R14",
+          "kind": "price-zone",
+          "color": "#a28cc9",
+          "height": 0.045,
+          "pixels": [
+            [
+              676,
+              885
+            ],
+            [
+              694,
+              885
+            ],
+            [
+              694,
+              919
+            ],
+            [
+              676,
+              919
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "R",
+          "seatingAngle": 3.141592653589793
+        },
+        {
+          "id": "y14",
+          "label": "Y14",
+          "kind": "price-zone",
+          "color": "#a28cc9",
+          "height": 0.045,
+          "pixels": [
+            [
+              386,
+              885
+            ],
+            [
+              404,
+              885
+            ],
+            [
+              404,
+              919
+            ],
+            [
+              386,
+              919
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "Y",
+          "seatingAngle": 0
+        }
+      ]
+    },
+    {
+      "id": "osaka-bruno-20270119",
+      "venueId": "kyocera-dome",
+      "seatLayoutId": "end",
+      "event": {
+        "name": "Bruno Mars — The Romantic Tour",
+        "dates": [
+          "2027-01-19",
+          "2027-01-20"
+        ],
+        "url": "https://www.livenationhip.co.jp/en/all-events/bruno-mars-tickets-ae147754",
+        "bindingNote": "Official promoter page lists Kyocera Dome Osaka on January 19 and 20, 2027 and links this Osaka-specific chart. Its arena/stand curves are schematic: only floor price zones and stage are traced; no seat identities, stand closures or inventory are inferred."
+      },
+      "source": {
+        "path": "data/research-events/artist-led-2026-11-13/osaka-bruno-20270119.jpg",
+        "url": "https://networksites.livenationinternational.com/networksites/rpef3q2m/bm27_map_osakadome.jpg",
+        "retrievedAt": "2026-11-13",
+        "sha256": "bbd01f77374303997906f5bfdc52ea1f657380878d2b5074c5dc6de2e4b14a5f",
+        "rights": "undecided; private research reference, no public redistribution approval"
+      },
+      "eventSource": {
+        "path": "data/research-events/artist-led-2026-11-13/tokyo-bruno.html",
+        "url": "https://www.livenationhip.co.jp/en/all-events/bruno-mars-tickets-ae147754",
+        "retrievedAt": "2026-11-13",
+        "sha256": "f5c56b16be68938c8abdfab28d3d8151186e6913dae1f3ca4e3f066bbcaf259e",
+        "rights": "undecided; private research reference, no public redistribution approval"
+      },
+      "notes": [
+        "AI-traced event shapes and illustrative heights; not a surveyed or independently registered layout.",
+        "Fixed seats and the venue model remain unchanged. Temporary chairs have no ticket identity.",
+        "Only traced floor areas are overlaid; stand price categories, closures and availability are not inferred."
+      ],
+      "actor": "Codex AI",
+      "venueModelSha256": "3e4777ee25237d1001b3352fa605d1aac8905cd090e66cf0b89022d9cf1c0727",
+      "registration": {
+        "matrix": [
+          0.38,
+          0,
+          0,
+          0.24,
+          -189.62,
+          -108
+        ],
+        "width": 1000,
+        "height": 1000,
+        "rationale": "AI schematic registration about image centreline x=499. Independent horizontal and vertical display scales place the traced floor in the retained section-only model. No surveyed units, numbered holdout anchors or factual distances are asserted."
+      },
+      "shapes": [
+        {
+          "id": "stage",
+          "label": "STAGE",
+          "kind": "stage",
+          "color": "#ad8d4d",
+          "height": 1.5,
+          "pixels": [
+            [
+              425,
+              227
+            ],
+            [
+              574,
+              227
+            ],
+            [
+              574,
+              280
+            ],
+            [
+              425,
+              280
+            ]
+          ]
+        },
+        {
+          "id": "vip-gold",
+          "label": "VIP GOLD",
+          "kind": "price-zone",
+          "color": "#8876ae",
+          "height": 0.045,
+          "pixels": [
+            [
+              431,
+              301
+            ],
+            [
+              567,
+              301
+            ],
+            [
+              567,
+              323
+            ],
+            [
+              431,
+              323
+            ]
+          ],
+          "seating": "illustrative"
+        },
+        {
+          "id": "vip-silver",
+          "label": "VIP SILVER",
+          "kind": "price-zone",
+          "color": "#8876ae",
+          "height": 0.045,
+          "pixels": [
+            [
+              431,
+              326
+            ],
+            [
+              567,
+              326
+            ],
+            [
+              567,
+              444
+            ],
+            [
+              431,
+              444
+            ]
+          ],
+          "seating": "illustrative"
+        },
+        {
+          "id": "ss-floor",
+          "label": "SS",
+          "kind": "price-zone",
+          "color": "#8876ae",
+          "height": 0.045,
+          "pixels": [
+            [
+              349,
+              301
+            ],
+            [
+              428,
+              301
+            ],
+            [
+              428,
+              447
+            ],
+            [
+              570,
+              447
+            ],
+            [
+              570,
+              301
+            ],
+            [
+              649,
+              301
+            ],
+            [
+              649,
+              350
+            ],
+            [
+              635,
+              422
+            ],
+            [
+              608,
+              480
+            ],
+            [
+              565,
+              541
+            ],
+            [
+              527,
+              586
+            ],
+            [
+              472,
+              586
+            ],
+            [
+              433,
+              540
+            ],
+            [
+              390,
+              480
+            ],
+            [
+              361,
+              414
+            ],
+            [
+              350,
+              352
+            ]
+          ],
+          "seating": "illustrative"
+        }
+      ]
+    },
+    {
+      "id": "philippines-bruno-20270515",
+      "venueId": "philippine-arena",
+      "seatLayoutId": "end",
+      "event": {
+        "name": "Bruno Mars — The Romantic Tour",
+        "dates": [
+          "2027-05-15",
+          "2027-05-16"
+        ],
+        "url": "https://ticketmaster.ph/activity/detail/27ph_brunomars",
+        "bindingNote": "Official Ticketmaster event page lists May 15, 16 and 18, 2027 at Philippine Arena. The linked seating image explicitly names May 15 and 16 only; this recipe intentionally binds only those two dates. May 18 is not assigned this image without date-specific evidence."
+      },
+      "source": {
+        "path": "data/research-events/artist-led-2026-11-13/philippines-bruno-20270515.jpg",
+        "url": "https://static.ticketmaster.ph/images/activity/field/27ph_brunomars_dbd258262ca7c647923a9ce9c1662865.jpg",
+        "retrievedAt": "2026-11-13",
+        "sha256": "6104180ef3de667ea9cd46238728cc408f44a32ffeceb318b69edb608ea5db85",
+        "rights": "undecided; private research reference, no public redistribution approval"
+      },
+      "eventSource": {
+        "path": "data/research-events/artist-led-2026-11-13/philippines-bruno.html",
+        "url": "https://ticketmaster.ph/activity/detail/27ph_brunomars",
+        "retrievedAt": "2026-11-13",
+        "sha256": "90698bd9d94929280e8ee003e3dd8ab60316165e3d4bbbca92cea196a08a72ad",
+        "rights": "undecided; private research reference, no public redistribution approval"
+      },
+      "notes": [
+        "AI-traced event shapes and illustrative heights; not a surveyed or independently registered layout.",
+        "Fixed seats and the venue model remain unchanged. Temporary chairs have no ticket identity.",
+        "Only traced floor areas are overlaid; stand price categories, closures and availability are not inferred.",
+        "The chart explicitly states it is not to scale. Stand labels are transcribed; dimensions, heights, stage and floor placement remain estimates. Floor is standing, not seated."
+      ],
+      "actor": "Codex AI",
+      "venueModelSha256": "4e78e2104c5181ce4c27906354234446fbb36b58ceb9835e314ae4fd0c13774b",
+      "registration": {
+        "matrix": [
+          0.22,
+          0,
+          0,
+          0.25,
+          -118.8,
+          -137.5
+        ],
+        "width": 1080,
+        "height": 1350,
+        "rationale": "AI schematic registration using image centreline x=540 and front-of-bowl y=550. Floor and stage follow the official image while the four stand bands use estimated radii/heights. This is a non-metric illustrative alignment, not an independently surveyed registration."
+      },
+      "shapes": [
+        {
+          "id": "stage",
+          "label": "STAGE",
+          "kind": "stage",
+          "color": "#ad8d4d",
+          "height": 1.5,
+          "pixels": [
+            [
+              492,
+              435
+            ],
+            [
+              589,
+              435
+            ],
+            [
+              589,
+              519
+            ],
+            [
+              492,
+              519
+            ]
+          ]
+        },
+        {
+          "id": "floor-standing",
+          "label": "GENERAL ADMISSION",
+          "kind": "standing",
+          "color": "#91b4d9",
+          "height": 0.045,
+          "previewView": true,
+          "pixels": [
+            [
+              439,
+              534
+            ],
+            [
+              640,
+              534
+            ],
+            [
+              638,
+              553
+            ],
+            [
+              631,
+              575
+            ],
+            [
+              618,
+              591
+            ],
+            [
+              600,
+              602
+            ],
+            [
+              479,
+              602
+            ],
+            [
+              461,
+              593
+            ],
+            [
+              449,
+              577
+            ],
+            [
+              441,
+              555
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bangkok-bruno-20270424",
+      "venueId": "rajamangala",
+      "seatLayoutId": "end",
+      "event": {
+        "name": "The Romantic Tour — Bangkok",
+        "dates": [
+          "2027-04-24",
+          "2027-04-25"
+        ],
+        "url": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk",
+        "bindingNote": "Official promoter and ticketing page bind these dates, stadium and chart. Stand labels are visually transcribed; floor polygons and heights are AI estimates. No seat IDs, event inventory, closures, or metric alignment are inferred."
+      },
+      "source": {
+        "path": "data/research-events/artist-led-2026-11-13/bangkok-bruno-20270424.png",
+        "url": "https://static.ticketmaster.co.th/images/activity/field/26th_brunomarsbkk_33c49fa8a4713a4f1ee1cf94c24f9d6e.png",
+        "retrievedAt": "2026-11-13",
+        "sha256": "18c12cfc167922725eac13c04ceedcf4c05cb7613b67a8efc9ab038e58132110",
+        "rights": "undecided; private research reference, no public redistribution approval"
+      },
+      "eventSource": {
+        "path": "data/research-events/artist-led-2026-11-13/bangkok-bruno.html",
+        "url": "https://ticketmaster.co.th/activity/detail/26th_brunomarsbkk",
+        "retrievedAt": "2026-11-13",
+        "sha256": "2a8448e957e5639b7ecb393d67327fb066719d9e84b08d404c521df6949ed891",
+        "rights": "undecided; private research reference, no public redistribution approval"
+      },
+      "notes": [
+        "AI visual trace of this event chart; all model dimensions and chair arrangements are illustrative.",
+        "Base venue contains chart-labelled stands only, with no generic stage. Temporary floor chairs have no ticket identity."
+      ],
+      "actor": "Codex AI",
+      "registration": {
+        "matrix": [
+          0.2,
+          0,
+          0,
+          0.2,
+          -78.8,
+          -110
+        ],
+        "width": 1080,
+        "height": 1350,
+        "rationale": "AI schematic registration around the printed stadium centreline; source pixels are scaled into an explicitly estimated inner-apron frame. This is not surveyed, metric-calibrated or independently validated."
+      },
+      "shapes": [
+        {
+          "id": "stage",
+          "label": "STAGE",
+          "kind": "stage",
+          "color": "#ad8d4d",
+          "height": 1.5,
+          "pixels": [
+            [
+              321,
+              356
+            ],
+            [
+              470,
+              356
+            ],
+            [
+              470,
+              418
+            ],
+            [
+              321,
+              418
+            ]
+          ]
+        },
+        {
+          "id": "b1",
+          "label": "B1",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              262,
+              433
+            ],
+            [
+              300,
+              433
+            ],
+            [
+              300,
+              496
+            ],
+            [
+              262,
+              496
+            ]
+          ],
+          "seating": "illustrative"
+        },
+        {
+          "id": "a1",
+          "label": "A1",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              307,
+              433
+            ],
+            [
+              345,
+              433
+            ],
+            [
+              345,
+              496
+            ],
+            [
+              307,
+              496
+            ]
+          ],
+          "seating": "illustrative"
+        },
+        {
+          "id": "a2",
+          "label": "A2",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              352,
+              433
+            ],
+            [
+              390,
+              433
+            ],
+            [
+              390,
+              496
+            ],
+            [
+              352,
+              496
+            ]
+          ],
+          "seating": "illustrative"
+        },
+        {
+          "id": "a3",
+          "label": "A3",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              397,
+              433
+            ],
+            [
+              435,
+              433
+            ],
+            [
+              435,
+              496
+            ],
+            [
+              397,
+              496
+            ]
+          ],
+          "seating": "illustrative"
+        },
+        {
+          "id": "a4",
+          "label": "A4",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              443,
+              433
+            ],
+            [
+              481,
+              433
+            ],
+            [
+              481,
+              496
+            ],
+            [
+              443,
+              496
+            ]
+          ],
+          "seating": "illustrative"
+        },
+        {
+          "id": "b2",
+          "label": "B2",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              488,
+              433
+            ],
+            [
+              526,
+              433
+            ],
+            [
+              526,
+              496
+            ],
+            [
+              488,
+              496
+            ]
+          ],
+          "seating": "illustrative"
+        },
+        {
+          "id": "b3",
+          "label": "B3",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              262,
+              503
+            ],
+            [
+              300,
+              503
+            ],
+            [
+              300,
+              565
+            ],
+            [
+              262,
+              565
+            ]
+          ],
+          "seating": "illustrative"
+        },
+        {
+          "id": "b4",
+          "label": "B4",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              307,
+              503
+            ],
+            [
+              345,
+              503
+            ],
+            [
+              345,
+              565
+            ],
+            [
+              307,
+              565
+            ]
+          ],
+          "seating": "illustrative"
+        },
+        {
+          "id": "b5",
+          "label": "B5",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              352,
+              503
+            ],
+            [
+              390,
+              503
+            ],
+            [
+              390,
+              565
+            ],
+            [
+              352,
+              565
+            ]
+          ],
+          "seating": "illustrative"
+        },
+        {
+          "id": "b6",
+          "label": "B6",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              397,
+              503
+            ],
+            [
+              435,
+              503
+            ],
+            [
+              435,
+              565
+            ],
+            [
+              397,
+              565
+            ]
+          ],
+          "seating": "illustrative"
+        },
+        {
+          "id": "b7",
+          "label": "B7",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              443,
+              503
+            ],
+            [
+              481,
+              503
+            ],
+            [
+              481,
+              565
+            ],
+            [
+              443,
+              565
+            ]
+          ],
+          "seating": "illustrative"
+        },
+        {
+          "id": "b8",
+          "label": "B8",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              488,
+              503
+            ],
+            [
+              526,
+              503
+            ],
+            [
+              526,
+              565
+            ],
+            [
+              488,
+              565
+            ]
+          ],
+          "seating": "illustrative"
+        },
+        {
+          "id": "b9",
+          "label": "B9",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              307,
+              573
+            ],
+            [
+              344,
+              573
+            ],
+            [
+              344,
+              634
+            ],
+            [
+              307,
+              634
+            ]
+          ],
+          "seating": "illustrative"
+        },
+        {
+          "id": "b10",
+          "label": "B10",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              351,
+              573
+            ],
+            [
+              378,
+              573
+            ],
+            [
+              378,
+              606
+            ],
+            [
+              369,
+              634
+            ],
+            [
+              351,
+              634
+            ]
+          ],
+          "seating": "illustrative"
+        },
+        {
+          "id": "b11",
+          "label": "B11",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              410,
+              573
+            ],
+            [
+              436,
+              573
+            ],
+            [
+              436,
+              634
+            ],
+            [
+              410,
+              634
+            ]
+          ],
+          "seating": "illustrative"
+        },
+        {
+          "id": "b12",
+          "label": "B12",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              443,
+              573
+            ],
+            [
+              482,
+              573
+            ],
+            [
+              482,
+              634
+            ],
+            [
+              443,
+              634
+            ]
+          ],
+          "seating": "illustrative"
+        },
+        {
+          "id": "foh",
+          "label": "FOH",
+          "kind": "equipment",
+          "color": "#676c7c",
+          "height": 1.8,
+          "pixels": [
+            [
+              384,
+              573
+            ],
+            [
+              404,
+              573
+            ],
+            [
+              404,
+              620
+            ],
+            [
+              384,
+              620
+            ]
+          ]
+        },
+        {
+          "id": "st",
+          "label": "ST",
+          "kind": "standing",
+          "color": "#6d90ac",
+          "height": 0.045,
+          "pixels": [
+            [
+              269,
+              642
+            ],
+            [
+              522,
+              642
+            ],
+            [
+              521,
+              680
+            ],
+            [
+              510,
+              720
+            ],
+            [
+              487,
+              751
+            ],
+            [
+              457,
+              771
+            ],
+            [
+              423,
+              782
+            ],
+            [
+              390,
+              784
+            ],
+            [
+              352,
+              776
+            ],
+            [
+              320,
+              757
+            ],
+            [
+              295,
+              728
+            ],
+            [
+              276,
+              694
+            ]
+          ],
+          "previewView": true
+        },
+        {
+          "id": "tower-1",
+          "label": "FOH",
+          "kind": "equipment",
+          "color": "#676c7c",
+          "height": 1.8,
+          "pixels": [
+            [
+              345,
+              643
+            ],
+            [
+              370,
+              643
+            ],
+            [
+              370,
+              669
+            ],
+            [
+              345,
+              669
+            ]
+          ]
+        },
+        {
+          "id": "tower-2",
+          "label": "FOH",
+          "kind": "equipment",
+          "color": "#676c7c",
+          "height": 1.8,
+          "pixels": [
+            [
+              416,
+              643
+            ],
+            [
+              441,
+              643
+            ],
+            [
+              441,
+              669
+            ],
+            [
+              416,
+              669
+            ]
+          ]
+        }
+      ],
+      "venueModelSha256": "239833fa71b9d162eecc13a4d23b954b018a1be179736dde328c5bf5e266a981"
+    },
+    {
+      "id": "kuala-lumpur-bts-20261212",
+      "venueId": "bukit-jalil",
+      "seatLayoutId": "end",
+      "event": {
+        "name": "BTS WORLD TOUR 'ARIRANG' IN KUALA LUMPUR",
+        "dates": [
+          "2026-12-12",
+          "2026-12-13"
+        ],
+        "url": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR",
+        "bindingNote": "Official promoter and ticketing page bind these dates, stadium and chart. Stand labels are visually transcribed; floor polygons and heights are AI estimates. No seat IDs, event inventory, closures, or metric alignment are inferred."
+      },
+      "source": {
+        "path": "data/research-events/artist-led-2026-11-13/kuala-lumpur-bts-20261212.png",
+        "url": "https://golive-webapp-prd-ap-southeast-5.s3.ap-southeast-5.amazonaws.com/event/175/2a635df0-53ac-4613-961e-42810f5ce79c.webp",
+        "retrievedAt": "2026-11-13",
+        "sha256": "09f612059f31187bc74a96612abd926c2201b33c2dfbed3d30d67939be28190b",
+        "rights": "undecided; private research reference, no public redistribution approval",
+        "derivation": {
+          "actor": "Codex AI",
+          "method": "Lossless WebP-to-PNG pixel decoding using macOS sips; no label, colour or geometry edits.",
+          "source": {
+            "path": "data/research-events/artist-led-2026-11-13/kuala-lumpur-bts-20261212.webp",
+            "url": "https://golive-webapp-prd-ap-southeast-5.s3.ap-southeast-5.amazonaws.com/event/175/2a635df0-53ac-4613-961e-42810f5ce79c.webp",
+            "retrievedAt": "2026-11-13",
+            "sha256": "ad618310284afbc2932bb61c6d27d27ac3cecf55e04818b21752be39bf80947d",
+            "rights": "undecided; private research reference, no public redistribution approval"
+          }
+        }
+      },
+      "eventSource": {
+        "path": "data/research-events/artist-led-2026-11-13/kuala-lumpur-bts.html",
+        "url": "https://www.livenation.my/event/bts-world-tour-arirang-in-kuala-lumpur-kuala-lumpur-tickets-edp1675786",
+        "retrievedAt": "2026-11-13",
+        "sha256": "657e7e2aa1a734874de0a4b2883495fba001e986969ddc071a275b48f9c17e07",
+        "rights": "undecided; private research reference, no public redistribution approval"
+      },
+      "notes": [
+        "AI visual trace of this event chart; all model dimensions and chair arrangements are illustrative.",
+        "Base venue contains chart-labelled stands only, with no generic stage. Temporary floor chairs have no ticket identity.",
+        "Official chart explicitly describes a 360-degree stage with no designated front, all-seated flat floor and portable chairs.",
+        "Image retrieved through the public ticket page generated image URL; temporary signed query parameters are not retained."
+      ],
+      "actor": "Codex AI",
+      "registration": {
+        "matrix": [
+          0.17,
+          0,
+          0,
+          0.17,
+          -356.49,
+          -94.01
+        ],
+        "width": 2880,
+        "height": 1620,
+        "rationale": "AI schematic registration around the printed stadium centreline; source pixels are scaled into an explicitly estimated inner-apron frame. This is not surveyed, metric-calibrated or independently validated."
+      },
+      "shapes": [
+        {
+          "id": "stage",
+          "label": "STAGE",
+          "kind": "stage",
+          "color": "#ad8d4d",
+          "height": 1.5,
+          "pixels": [
+            [
+              2165,
+              553
+            ],
+            [
+              2161.6718431080703,
+              571.5410196624969
+            ],
+            [
+              2152.0131556174965,
+              588.2671151375484
+            ],
+            [
+              2136.969397155888,
+              601.5410196624969
+            ],
+            [
+              2118.0131556174965,
+              610.0633909777092
+            ],
+            [
+              2097,
+              613
+            ],
+            [
+              2075.9868443825035,
+              610.0633909777092
+            ],
+            [
+              2057.030602844112,
+              601.5410196624969
+            ],
+            [
+              2041.9868443825035,
+              588.2671151375484
+            ],
+            [
+              2032.3281568919297,
+              571.5410196624969
+            ],
+            [
+              2029,
+              553
+            ],
+            [
+              2032.3281568919294,
+              534.4589803375031
+            ],
+            [
+              2041.9868443825035,
+              517.7328848624517
+            ],
+            [
+              2057.030602844112,
+              504.45898033750314
+            ],
+            [
+              2075.9868443825035,
+              495.9366090222908
+            ],
+            [
+              2097,
+              493
+            ],
+            [
+              2118.0131556174965,
+              495.9366090222908
+            ],
+            [
+              2136.969397155888,
+              504.45898033750314
+            ],
+            [
+              2152.0131556174965,
+              517.7328848624516
+            ],
+            [
+              2161.6718431080703,
+              534.4589803375031
+            ]
+          ]
+        },
+        {
+          "id": "runway-1",
+          "label": "STAGE",
+          "kind": "stage",
+          "color": "#ad8d4d",
+          "height": 1.5,
+          "pixels": [
+            [
+              2055.8018108472506,
+              509.0310434353986
+            ],
+            [
+              1867.8018108472509,
+              404.0310434353986
+            ],
+            [
+              1852.1981891527491,
+              431.9689565646014
+            ],
+            [
+              2040.1981891527491,
+              536.9689565646014
+            ]
+          ]
+        },
+        {
+          "id": "runway-2",
+          "label": "STAGE",
+          "kind": "stage",
+          "color": "#ad8d4d",
+          "height": 1.5,
+          "pixels": [
+            [
+              2157.897688311334,
+              536.9149746437791
+            ],
+            [
+              2342.897688311334,
+              431.91497464377915
+            ],
+            [
+              2327.102311688666,
+              404.08502535622085
+            ],
+            [
+              2142.102311688666,
+              509.08502535622085
+            ]
+          ]
+        },
+        {
+          "id": "runway-3",
+          "label": "STAGE",
+          "kind": "stage",
+          "color": "#ad8d4d",
+          "height": 1.5,
+          "pixels": [
+            [
+              2141.9334200744297,
+              595.8177526502824
+            ],
+            [
+              2326.9334200744297,
+              703.8177526502824
+            ],
+            [
+              2343.0665799255703,
+              676.1822473497176
+            ],
+            [
+              2158.0665799255703,
+              568.1822473497176
+            ]
+          ]
+        },
+        {
+          "id": "runway-4",
+          "label": "STAGE",
+          "kind": "stage",
+          "color": "#ad8d4d",
+          "height": 1.5,
+          "pixels": [
+            [
+              2040.0300086309069,
+              568.1263113204677
+            ],
+            [
+              1852.0300086309069,
+              676.1263113204677
+            ],
+            [
+              1867.9699913690931,
+              703.8736886795323
+            ],
+            [
+              2055.969991369093,
+              595.8736886795323
+            ]
+          ]
+        },
+        {
+          "id": "a16",
+          "label": "A16",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              1897,
+              360
+            ],
+            [
+              1937.6,
+              360
+            ],
+            [
+              1937.6,
+              405
+            ],
+            [
+              1897,
+              405
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "A",
+          "seatingAngle": 0
+        },
+        {
+          "id": "a15",
+          "label": "A15",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              1941.6,
+              360
+            ],
+            [
+              1982.1999999999998,
+              360
+            ],
+            [
+              1982.1999999999998,
+              405
+            ],
+            [
+              1941.6,
+              405
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "A",
+          "seatingAngle": 0
+        },
+        {
+          "id": "a14",
+          "label": "A14",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              1986.2,
+              360
+            ],
+            [
+              2026.8,
+              360
+            ],
+            [
+              2026.8,
+              405
+            ],
+            [
+              1986.2,
+              405
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "A",
+          "seatingAngle": 0
+        },
+        {
+          "id": "a13",
+          "label": "A13",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              2030.8,
+              360
+            ],
+            [
+              2071.4,
+              360
+            ],
+            [
+              2071.4,
+              405
+            ],
+            [
+              2030.8,
+              405
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "A",
+          "seatingAngle": 0
+        },
+        {
+          "id": "a12",
+          "label": "A12",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              2075.4,
+              360
+            ],
+            [
+              2116,
+              360
+            ],
+            [
+              2116,
+              405
+            ],
+            [
+              2075.4,
+              405
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "A",
+          "seatingAngle": 0
+        },
+        {
+          "id": "a11",
+          "label": "A11",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              2120,
+              360
+            ],
+            [
+              2160.6,
+              360
+            ],
+            [
+              2160.6,
+              405
+            ],
+            [
+              2120,
+              405
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "A",
+          "seatingAngle": 0
+        },
+        {
+          "id": "a10",
+          "label": "A10",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              2164.6,
+              360
+            ],
+            [
+              2205.2,
+              360
+            ],
+            [
+              2205.2,
+              405
+            ],
+            [
+              2164.6,
+              405
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "A",
+          "seatingAngle": 0
+        },
+        {
+          "id": "a9",
+          "label": "A9",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              2209.2,
+              360
+            ],
+            [
+              2249.7999999999997,
+              360
+            ],
+            [
+              2249.7999999999997,
+              405
+            ],
+            [
+              2209.2,
+              405
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "A",
+          "seatingAngle": 0
+        },
+        {
+          "id": "a8",
+          "label": "A8",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              2253.8,
+              360
+            ],
+            [
+              2294.4,
+              360
+            ],
+            [
+              2294.4,
+              405
+            ],
+            [
+              2253.8,
+              405
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "A",
+          "seatingAngle": 0
+        },
+        {
+          "id": "a7",
+          "label": "A7",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              1897,
+              411
+            ],
+            [
+              1950.2,
+              411
+            ],
+            [
+              1950.2,
+              443
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "A",
+          "seatingAngle": 0
+        },
+        {
+          "id": "a6",
+          "label": "A6",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              1954.2,
+              411
+            ],
+            [
+              2007.4,
+              411
+            ],
+            [
+              2007.4,
+              465
+            ],
+            [
+              1954.2,
+              465
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "A",
+          "seatingAngle": 0
+        },
+        {
+          "id": "a5",
+          "label": "A5",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              2011.4,
+              411
+            ],
+            [
+              2064.6,
+              411
+            ],
+            [
+              2064.6,
+              465
+            ],
+            [
+              2011.4,
+              465
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "A",
+          "seatingAngle": 0
+        },
+        {
+          "id": "a4",
+          "label": "A4",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              2068.6,
+              411
+            ],
+            [
+              2121.7999999999997,
+              411
+            ],
+            [
+              2121.7999999999997,
+              465
+            ],
+            [
+              2068.6,
+              465
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "A",
+          "seatingAngle": 0
+        },
+        {
+          "id": "a3",
+          "label": "A3",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              2125.8,
+              411
+            ],
+            [
+              2179,
+              411
+            ],
+            [
+              2179,
+              465
+            ],
+            [
+              2125.8,
+              465
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "A",
+          "seatingAngle": 0
+        },
+        {
+          "id": "a2",
+          "label": "A2",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              2183,
+              411
+            ],
+            [
+              2236.2,
+              411
+            ],
+            [
+              2236.2,
+              465
+            ],
+            [
+              2183,
+              465
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "A",
+          "seatingAngle": 0
+        },
+        {
+          "id": "a1",
+          "label": "A1",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              2240.2,
+              411
+            ],
+            [
+              2293.3999999999996,
+              411
+            ],
+            [
+              2240.2,
+              443
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "A",
+          "seatingAngle": 0
+        },
+        {
+          "id": "c1",
+          "label": "C1",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              1897,
+              693
+            ],
+            [
+              1950.2,
+              661
+            ],
+            [
+              1950.2,
+              693
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "C",
+          "seatingAngle": 3.141592653589793
+        },
+        {
+          "id": "c2",
+          "label": "C2",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              1954.2,
+              641
+            ],
+            [
+              2007.4,
+              641
+            ],
+            [
+              2007.4,
+              693
+            ],
+            [
+              1954.2,
+              693
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "C",
+          "seatingAngle": 3.141592653589793
+        },
+        {
+          "id": "c3",
+          "label": "C3",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              2011.4,
+              641
+            ],
+            [
+              2064.6,
+              641
+            ],
+            [
+              2064.6,
+              693
+            ],
+            [
+              2011.4,
+              693
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "C",
+          "seatingAngle": 3.141592653589793
+        },
+        {
+          "id": "c4",
+          "label": "C4",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              2068.6,
+              641
+            ],
+            [
+              2121.7999999999997,
+              641
+            ],
+            [
+              2121.7999999999997,
+              693
+            ],
+            [
+              2068.6,
+              693
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "C",
+          "seatingAngle": 3.141592653589793
+        },
+        {
+          "id": "c5",
+          "label": "C5",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              2125.8,
+              641
+            ],
+            [
+              2179,
+              641
+            ],
+            [
+              2179,
+              693
+            ],
+            [
+              2125.8,
+              693
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "C",
+          "seatingAngle": 3.141592653589793
+        },
+        {
+          "id": "c6",
+          "label": "C6",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              2183,
+              641
+            ],
+            [
+              2236.2,
+              641
+            ],
+            [
+              2236.2,
+              693
+            ],
+            [
+              2183,
+              693
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "C",
+          "seatingAngle": 3.141592653589793
+        },
+        {
+          "id": "c7",
+          "label": "C7",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              2240.2,
+              661
+            ],
+            [
+              2293.3999999999996,
+              693
+            ],
+            [
+              2240.2,
+              693
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "C",
+          "seatingAngle": 3.141592653589793
+        },
+        {
+          "id": "c8",
+          "label": "C8",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              1897,
+              699
+            ],
+            [
+              1937.6,
+              699
+            ],
+            [
+              1937.6,
+              744
+            ],
+            [
+              1897,
+              744
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "C",
+          "seatingAngle": 3.141592653589793
+        },
+        {
+          "id": "c9",
+          "label": "C9",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              1941.6,
+              699
+            ],
+            [
+              1982.1999999999998,
+              699
+            ],
+            [
+              1982.1999999999998,
+              744
+            ],
+            [
+              1941.6,
+              744
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "C",
+          "seatingAngle": 3.141592653589793
+        },
+        {
+          "id": "c10",
+          "label": "C10",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              1986.2,
+              699
+            ],
+            [
+              2026.8,
+              699
+            ],
+            [
+              2026.8,
+              744
+            ],
+            [
+              1986.2,
+              744
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "C",
+          "seatingAngle": 3.141592653589793
+        },
+        {
+          "id": "c11",
+          "label": "C11",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              2030.8,
+              699
+            ],
+            [
+              2071.4,
+              699
+            ],
+            [
+              2071.4,
+              744
+            ],
+            [
+              2030.8,
+              744
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "C",
+          "seatingAngle": 3.141592653589793
+        },
+        {
+          "id": "c12",
+          "label": "C12",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              2075.4,
+              699
+            ],
+            [
+              2116,
+              699
+            ],
+            [
+              2116,
+              744
+            ],
+            [
+              2075.4,
+              744
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "C",
+          "seatingAngle": 3.141592653589793
+        },
+        {
+          "id": "c13",
+          "label": "C13",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              2120,
+              699
+            ],
+            [
+              2160.6,
+              699
+            ],
+            [
+              2160.6,
+              744
+            ],
+            [
+              2120,
+              744
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "C",
+          "seatingAngle": 3.141592653589793
+        },
+        {
+          "id": "c14",
+          "label": "C14",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              2164.6,
+              699
+            ],
+            [
+              2205.2,
+              699
+            ],
+            [
+              2205.2,
+              744
+            ],
+            [
+              2164.6,
+              744
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "C",
+          "seatingAngle": 3.141592653589793
+        },
+        {
+          "id": "c15",
+          "label": "C15",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              2209.2,
+              699
+            ],
+            [
+              2249.7999999999997,
+              699
+            ],
+            [
+              2249.7999999999997,
+              744
+            ],
+            [
+              2209.2,
+              744
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "C",
+          "seatingAngle": 3.141592653589793
+        },
+        {
+          "id": "c16",
+          "label": "C16",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              2253.8,
+              699
+            ],
+            [
+              2294.4,
+              699
+            ],
+            [
+              2294.4,
+              744
+            ],
+            [
+              2253.8,
+              744
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "C",
+          "seatingAngle": 3.141592653589793
+        },
+        {
+          "id": "d9",
+          "label": "D9",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              1800,
+              426
+            ],
+            [
+              1827,
+              426
+            ],
+            [
+              1827,
+              472
+            ],
+            [
+              1753,
+              472
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "D",
+          "seatingAngle": 1.5707963267948966
+        },
+        {
+          "id": "b8",
+          "label": "B8",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              2287,
+              426
+            ],
+            [
+              2361,
+              426
+            ],
+            [
+              2361,
+              472
+            ],
+            [
+              2287,
+              472
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "B",
+          "seatingAngle": -1.5707963267948966
+        },
+        {
+          "id": "d4",
+          "label": "D4",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              1832,
+              426
+            ],
+            [
+              1906,
+              426
+            ],
+            [
+              1906,
+              472
+            ],
+            [
+              1832,
+              472
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "D",
+          "seatingAngle": 1.5707963267948966
+        },
+        {
+          "id": "b13",
+          "label": "B13",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              2366,
+              426
+            ],
+            [
+              2393,
+              426
+            ],
+            [
+              2440,
+              472
+            ],
+            [
+              2366,
+              472
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "B",
+          "seatingAngle": -1.5707963267948966
+        },
+        {
+          "id": "d10",
+          "label": "D10",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              1753,
+              477
+            ],
+            [
+              1827,
+              477
+            ],
+            [
+              1827,
+              523
+            ],
+            [
+              1753,
+              523
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "D",
+          "seatingAngle": 1.5707963267948966
+        },
+        {
+          "id": "b7",
+          "label": "B7",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              2287,
+              477
+            ],
+            [
+              2361,
+              477
+            ],
+            [
+              2361,
+              523
+            ],
+            [
+              2287,
+              523
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "B",
+          "seatingAngle": -1.5707963267948966
+        },
+        {
+          "id": "d5",
+          "label": "D5",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              1832,
+              477
+            ],
+            [
+              1906,
+              477
+            ],
+            [
+              1906,
+              523
+            ],
+            [
+              1832,
+              523
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "D",
+          "seatingAngle": 1.5707963267948966
+        },
+        {
+          "id": "b12",
+          "label": "B12",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              2366,
+              477
+            ],
+            [
+              2440,
+              477
+            ],
+            [
+              2440,
+              523
+            ],
+            [
+              2366,
+              523
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "B",
+          "seatingAngle": -1.5707963267948966
+        },
+        {
+          "id": "d11",
+          "label": "D11",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              1753,
+              528
+            ],
+            [
+              1827,
+              528
+            ],
+            [
+              1827,
+              574
+            ],
+            [
+              1753,
+              574
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "D",
+          "seatingAngle": 1.5707963267948966
+        },
+        {
+          "id": "b6",
+          "label": "B6",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              2287,
+              528
+            ],
+            [
+              2361,
+              528
+            ],
+            [
+              2361,
+              574
+            ],
+            [
+              2287,
+              574
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "B",
+          "seatingAngle": -1.5707963267948966
+        },
+        {
+          "id": "d6",
+          "label": "D6",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              1832,
+              528
+            ],
+            [
+              1906,
+              528
+            ],
+            [
+              1906,
+              574
+            ],
+            [
+              1832,
+              574
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "D",
+          "seatingAngle": 1.5707963267948966
+        },
+        {
+          "id": "b11",
+          "label": "B11",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              2366,
+              528
+            ],
+            [
+              2440,
+              528
+            ],
+            [
+              2440,
+              574
+            ],
+            [
+              2366,
+              574
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "B",
+          "seatingAngle": -1.5707963267948966
+        },
+        {
+          "id": "d12",
+          "label": "D12",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              1753,
+              579
+            ],
+            [
+              1827,
+              579
+            ],
+            [
+              1827,
+              625
+            ],
+            [
+              1753,
+              625
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "D",
+          "seatingAngle": 1.5707963267948966
+        },
+        {
+          "id": "b5",
+          "label": "B5",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              2287,
+              579
+            ],
+            [
+              2361,
+              579
+            ],
+            [
+              2361,
+              625
+            ],
+            [
+              2287,
+              625
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "B",
+          "seatingAngle": -1.5707963267948966
+        },
+        {
+          "id": "d7",
+          "label": "D7",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              1832,
+              579
+            ],
+            [
+              1906,
+              579
+            ],
+            [
+              1906,
+              625
+            ],
+            [
+              1832,
+              625
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "D",
+          "seatingAngle": 1.5707963267948966
+        },
+        {
+          "id": "b10",
+          "label": "B10",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              2366,
+              579
+            ],
+            [
+              2440,
+              579
+            ],
+            [
+              2440,
+              625
+            ],
+            [
+              2366,
+              625
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "B",
+          "seatingAngle": -1.5707963267948966
+        },
+        {
+          "id": "d13",
+          "label": "D13",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              1753,
+              630
+            ],
+            [
+              1827,
+              630
+            ],
+            [
+              1827,
+              676
+            ],
+            [
+              1800,
+              676
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "D",
+          "seatingAngle": 1.5707963267948966
+        },
+        {
+          "id": "b4",
+          "label": "B4",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              2287,
+              630
+            ],
+            [
+              2361,
+              630
+            ],
+            [
+              2361,
+              676
+            ],
+            [
+              2287,
+              676
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "B",
+          "seatingAngle": -1.5707963267948966
+        },
+        {
+          "id": "d8",
+          "label": "D8",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              1832,
+              630
+            ],
+            [
+              1906,
+              630
+            ],
+            [
+              1906,
+              676
+            ],
+            [
+              1832,
+              676
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "D",
+          "seatingAngle": 1.5707963267948966
+        },
+        {
+          "id": "b9",
+          "label": "B9",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              2366,
+              630
+            ],
+            [
+              2440,
+              630
+            ],
+            [
+              2393,
+              676
+            ],
+            [
+              2366,
+              676
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "B",
+          "seatingAngle": -1.5707963267948966
+        },
+        {
+          "id": "d1",
+          "label": "D1",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              1911,
+              501
+            ],
+            [
+              1966,
+              530
+            ],
+            [
+              1911,
+              530
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "D",
+          "seatingAngle": 1.5707963267948966
+        },
+        {
+          "id": "d2",
+          "label": "D2",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              1911,
+              536
+            ],
+            [
+              1966,
+              536
+            ],
+            [
+              1995,
+              546
+            ],
+            [
+              1995,
+              559
+            ],
+            [
+              1966,
+              570
+            ],
+            [
+              1911,
+              570
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "D",
+          "seatingAngle": 1.5707963267948966
+        },
+        {
+          "id": "d3",
+          "label": "D3",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              1911,
+              576
+            ],
+            [
+              1966,
+              576
+            ],
+            [
+              1911,
+              605
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "D",
+          "seatingAngle": 1.5707963267948966
+        },
+        {
+          "id": "b3",
+          "label": "B3",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              2220,
+              530
+            ],
+            [
+              2281,
+              501
+            ],
+            [
+              2281,
+              530
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "B",
+          "seatingAngle": -1.5707963267948966
+        },
+        {
+          "id": "b2",
+          "label": "B2",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              2198,
+              546
+            ],
+            [
+              2220,
+              536
+            ],
+            [
+              2281,
+              536
+            ],
+            [
+              2281,
+              570
+            ],
+            [
+              2220,
+              570
+            ],
+            [
+              2198,
+              559
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "B",
+          "seatingAngle": -1.5707963267948966
+        },
+        {
+          "id": "b1",
+          "label": "B1",
+          "kind": "price-zone",
+          "color": "#859db6",
+          "height": 0.045,
+          "pixels": [
+            [
+              2220,
+              576
+            ],
+            [
+              2281,
+              576
+            ],
+            [
+              2281,
+              605
+            ]
+          ],
+          "seating": "illustrative",
+          "seatingGroup": "B",
+          "seatingAngle": -1.5707963267948966
+        },
+        {
+          "id": "foh-west",
+          "label": "FOH",
+          "kind": "equipment",
+          "color": "#676c7c",
+          "height": 1.8,
+          "pixels": [
+            [
+              1707,
+              518
+            ],
+            [
+              1731,
+              518
+            ],
+            [
+              1731,
+              588
+            ],
+            [
+              1707,
+              588
+            ]
+          ]
+        },
+        {
+          "id": "foh-east",
+          "label": "FOH",
+          "kind": "equipment",
+          "color": "#676c7c",
+          "height": 1.8,
+          "pixels": [
+            [
+              2461,
+              518
+            ],
+            [
+              2485,
+              518
+            ],
+            [
+              2485,
+              588
+            ],
+            [
+              2461,
+              588
+            ]
+          ]
+        }
+      ],
+      "venueModelSha256": "fee4f9b5bb6cec3d3efcea9f194770cf23e6eefcb61477b2564e2f59ba622246"
+    }
+  ]
+}

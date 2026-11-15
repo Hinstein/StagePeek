@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "kaitak-straykids-20261205",
+  "venueId": "kai-tak-stadium",
+  "seatLayoutId": "bowl",
+  "status": "research-preview",
+  "publicationStatus": "not-published",
+  "displayMode": "reference-only",
+  "event": {
+    "name": "Stray Kids — RUN IT HONG KONG",
+    "dates": [
+      "2026-12-05"
+    ],
+    "url": "https://hkt.hkticketing.com/en/#/allEvents/detail?projectId=50000001506002",
+    "bindingNote": "Official HK Ticketing event seating-image modal and printed chart confirm Stray Kids, Kai Tak Stadium and 2026-12-05. Extended stage, standing floor, price zones and restricted-view areas remain an unregistered image reference, not source-seat inventory."
+  },
+  "source": {
+    "path": "data/research-events/regional-concert-maps-2026-11-12/kaitak-straykids-20261205.jpg",
+    "url": "https://g-assets.maitix.com/181/971e210b-d851-41de-aea2-68b48b678994.jpg",
+    "retrievedAt": "2026-11-12",
+    "sha256": "4705588313c024ca542a581cded5276cd73a53369bd533857738579fbaa36c15",
+    "rights": "undecided; private research reference, no public redistribution approval",
+    "bytes": 820322
+  },
+  "eventSource": {
+    "path": "data/research-events/regional-concert-maps-2026-11-12/kaitak-straykids-20261205.html",
+    "url": "https://hkt.hkticketing.com/en/#/allEvents/detail?projectId=50000001506002",
+    "retrievedAt": "2026-11-12",
+    "sha256": "dba07c3f53682680cbffe9b31696e7ecf364c76ac1192e9dd419daa56cee993f",
+    "rights": "undecided; private research reference, no public redistribution approval",
+    "bytes": 392296
+  },
+  "registration": {
+    "allowDistances": false,
+    "allowPublication": false,
+    "metricCalibrated": false
+  },
+  "fixedSeats": {
+    "policy": "reuse-verbatim",
+    "count": 48483,
+    "assetSha256": "7a2a28335d337a82cad8c6e11f7bdf9d7650199b9fa1bbd81d633c9ff5fa81f8",
+    "identityPositionSha256": "34f2550f86c807232b13f63e805ae4c3f80d48bc31b9d70175805bb6286f8c6f"
+  },
+  "stage": [],
+  "zones": [],
+  "equipment": [],
+  "temporarySeats": [],
+  "closedSections": null,
+  "notes": [
+    "Official HK Ticketing event seating-image modal and printed chart confirm Stray Kids, Kai Tak Stadium and 2026-12-05. Extended stage, standing floor, price zones and restricted-view areas remain an unregistered image reference, not source-seat inventory."
+  ]
+}

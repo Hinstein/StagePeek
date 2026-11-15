@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "runway-donghae-20260627",
+  "venueId": "asiaworld-runway-11",
+  "seatLayoutId": "end",
+  "status": "research-preview",
+  "publicationStatus": "not-published",
+  "displayMode": "reference-only",
+  "event": {
+    "name": "DONGHAE — ALIVE",
+    "dates": [
+      "2026-06-27",
+      "2026-06-28"
+    ],
+    "url": "https://www.asiaworld-expo.com/en-us/whats-on/upcoming-events/events/2026-lee-donghae-concert-in-hong-kong?event_type=Concert&ebmsid=26494",
+    "bindingNote": "Official venue page plus printed dates and Runway 11. This is the June concert, not the October Summit encore; runway and B-stage need an event-specific seating variant."
+  },
+  "source": {
+    "path": "data/research-events/regional-concert-maps-2026-11-12/runway-donghae-20260627.jpg",
+    "url": "https://www.asiaworld-expo.com/AsiaWorldExpoLocal/media/AWE/Donghae-web-map.jpeg?ext=.jpeg",
+    "retrievedAt": "2026-11-12",
+    "sha256": "44d8242ee2a4d42b5e7926b355fdfa7a536b5987ef4cc633c2b77af1e1b2c002",
+    "rights": "undecided; private research reference, no public redistribution approval",
+    "bytes": 467454
+  },
+  "eventSource": {
+    "path": "data/research-events/regional-concert-maps-2026-11-12/runway-donghae-20260627.html",
+    "url": "https://www.asiaworld-expo.com/en-us/whats-on/upcoming-events/events/2026-lee-donghae-concert-in-hong-kong?event_type=Concert&ebmsid=26494",
+    "retrievedAt": "2026-11-12",
+    "sha256": "62e5f02851e9074d7c41253c101739cad4b58567342798312e9211a50cd760c7",
+    "rights": "undecided; private research reference, no public redistribution approval",
+    "bytes": 66706
+  },
+  "registration": {
+    "allowDistances": false,
+    "allowPublication": false,
+    "metricCalibrated": false
+  },
+  "fixedSeats": {
+    "policy": "reuse-verbatim",
+    "count": 3800,
+    "assetSha256": "e22cf93cbcb1ece164adda8300a16e5481442772be66077262055226aae1af8e",
+    "identityPositionSha256": "9f3c531a6ca6b293244379062bb0dbe7b068986ec7d3559f57326a0ea68de55c"
+  },
+  "stage": [],
+  "zones": [],
+  "equipment": [],
+  "temporarySeats": [],
+  "closedSections": null,
+  "notes": [
+    "Official venue page plus printed dates and Runway 11. This is the June concert, not the October Summit encore; runway and B-stage need an event-specific seating variant."
+  ]
+}

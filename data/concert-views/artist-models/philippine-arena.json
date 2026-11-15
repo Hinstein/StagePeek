@@ -1,0 +1,3684 @@
+{
+  "schemaVersion": 1,
+  "id": "philippine-arena",
+  "source": {
+    "path": "data/research-events/artist-led-2026-11-13/philippines-bruno-20270515.jpg",
+    "sha256": "6104180ef3de667ea9cd46238728cc408f44a32ffeceb318b69edb608ea5db85",
+    "url": "https://static.ticketmaster.ph/images/activity/field/27ph_brunomars_dbd258262ca7c647923a9ce9c1662865.jpg"
+  },
+  "method": "Codex AI visual transcription of section labels and half-bowl topology; uniform angular anchors and all dimensions/heights estimated. Event prices and availability are not retained.",
+  "geometry": {
+    "shape": "fan",
+    "coordinateSystem": "profile-inner-radius",
+    "power": 1,
+    "oneSided": true,
+    "floor": [
+      76,
+      92
+    ],
+    "tiers": [
+      {
+        "id": "0",
+        "name": "100",
+        "steps": 35
+      },
+      {
+        "id": "1",
+        "name": "200",
+        "steps": 25
+      },
+      {
+        "id": "2",
+        "name": "300",
+        "steps": 8
+      },
+      {
+        "id": "3",
+        "name": "400",
+        "steps": 34
+      }
+    ]
+  },
+  "tiers": [
+    [
+      43,
+      49,
+      1,
+      15,
+      8
+    ],
+    [
+      61,
+      67,
+      13,
+      17,
+      10
+    ],
+    [
+      79,
+      85,
+      25,
+      6,
+      3
+    ],
+    [
+      87,
+      93,
+      30,
+      27,
+      19
+    ]
+  ],
+  "sections": [
+    {
+      "id": "103",
+      "ticketLabels": [
+        "103"
+      ],
+      "sourceLabel": "103",
+      "levelName": "100",
+      "tier": 0,
+      "angle": 1.4279966607226333,
+      "halfAngle": 0.13708767942937278,
+      "center": [
+        50.08809697224293,
+        5.0,
+        7.201581132123875
+      ],
+      "polygon": [
+        [
+          41.69409368034614,
+          1,
+          11.984231747786422
+        ],
+        [
+          42.999459794701146,
+          1,
+          0.24561501121456636
+        ],
+        [
+          57.99922291393367,
+          9,
+          0.33129438961457447
+        ],
+        [
+          56.127062240832984,
+          9,
+          16.132733964034948
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "104",
+      "ticketLabels": [
+        "104"
+      ],
+      "sourceLabel": "104",
+      "levelName": "100",
+      "tier": 0,
+      "angle": 1.1423973285781066,
+      "halfAngle": 0.13708767942937278,
+      "center": [
+        46.75491433540896,
+        5.0,
+        21.35225392877285
+      ],
+      "polygon": [
+        [
+          37.567128688149374,
+          1,
+          23.840824818823965
+        ],
+        [
+          41.58452987175337,
+          1,
+          12.468765252614118
+        ],
+        [
+          55.97042818457639,
+          9,
+          16.782253695642286
+        ],
+        [
+          50.2778769617889,
+          9,
+          31.907310959501572
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "105",
+      "ticketLabels": [
+        "105"
+      ],
+      "sourceLabel": "105",
+      "levelName": "100",
+      "tier": 0,
+      "angle": 0.8567979964335799,
+      "halfAngle": 0.13708767942937278,
+      "center": [
+        39.925880778623146,
+        5.0,
+        34.595972630803224
+      ],
+      "polygon": [
+        [
+          30.38833055319363,
+          1,
+          34.66789067294243
+        ],
+        [
+          37.340112313564255,
+          1,
+          24.299522991814865
+        ],
+        [
+          49.95901700535259,
+          9,
+          32.511425573003486
+        ],
+        [
+          40.323499356586176,
+          9,
+          46.00221999025477
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "106",
+      "ticketLabels": [
+        "106"
+      ],
+      "sourceLabel": "106",
+      "levelName": "100",
+      "tier": 0,
+      "angle": 0.5711986642890533,
+      "halfAngle": 0.13708767942937278,
+      "center": [
+        29.48083125357464,
+        5.0,
+        45.87306885112581
+      ],
+      "polygon": [
+        [
+          20.08600973331716,
+          1,
+          43.32559302572841
+        ],
+        [
+          30.03521912705494,
+          1,
+          35.06520507603033
+        ],
+        [
+          39.84015583877503,
+          9,
+          46.51217055677379
+        ],
+        [
+          26.415037183322134,
+          9,
+          56.977327301886916
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "107",
+      "ticketLabels": [
+        "107"
+      ],
+      "sourceLabel": "107",
+      "levelName": "100",
+      "tier": 0,
+      "angle": 0.2855993321445267,
+      "halfAngle": 0.13708767942937278,
+      "center": [
+        15.761202692127469,
+        5.0,
+        53.677726878125405
+      ],
+      "polygon": [
+        [
+          7.226770818311793,
+          1,
+          48.30302456234505
+        ],
+        [
+          19.6137827622086,
+          1,
+          43.605631997292924
+        ],
+        [
+          25.785753875467908,
+          9,
+          57.3272431890548
+        ],
+        [
+          9.447367930274252,
+          9,
+          63.14527700660506
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "108",
+      "ticketLabels": [
+        "108"
+      ],
+      "sourceLabel": "108",
+      "levelName": "100",
+      "tier": 0,
+      "angle": 2.220446049250313e-16,
+      "halfAngle": 0.13708767942937278,
+      "center": [
+        1.2545520178264269e-14,
+        5.0,
+        56.5
+      ],
+      "polygon": [
+        [
+          -6.677686783223499,
+          1,
+          48.405538564067804
+        ],
+        [
+          6.67768678322352,
+          1,
+          48.4055385640678
+        ],
+        [
+          8.728439607561125,
+          9,
+          63.27113471230842
+        ],
+        [
+          -8.728439607561096,
+          9,
+          63.271134712308424
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "109",
+      "ticketLabels": [
+        "109"
+      ],
+      "sourceLabel": "109",
+      "levelName": "100",
+      "tier": 0,
+      "angle": -0.2855993321445267,
+      "halfAngle": 0.13708767942937278,
+      "center": [
+        -15.761202692127469,
+        5.0,
+        53.677726878125405
+      ],
+      "polygon": [
+        [
+          -19.6137827622086,
+          1,
+          43.605631997292924
+        ],
+        [
+          -7.226770818311793,
+          1,
+          48.30302456234505
+        ],
+        [
+          -9.447367930274252,
+          9,
+          63.14527700660506
+        ],
+        [
+          -25.785753875467908,
+          9,
+          57.3272431890548
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "110",
+      "ticketLabels": [
+        "110"
+      ],
+      "sourceLabel": "110",
+      "levelName": "100",
+      "tier": 0,
+      "angle": -0.571198664289053,
+      "halfAngle": 0.13708767942937278,
+      "center": [
+        -29.48083125357463,
+        5.0,
+        45.87306885112582
+      ],
+      "polygon": [
+        [
+          -30.035219127054923,
+          1,
+          35.06520507603035
+        ],
+        [
+          -20.086009733317145,
+          1,
+          43.32559302572842
+        ],
+        [
+          -26.415037183322113,
+          9,
+          56.97732730188692
+        ],
+        [
+          -39.84015583877501,
+          9,
+          46.51217055677381
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "111",
+      "ticketLabels": [
+        "111"
+      ],
+      "sourceLabel": "111",
+      "levelName": "100",
+      "tier": 0,
+      "angle": -0.8567979964335799,
+      "halfAngle": 0.13708767942937278,
+      "center": [
+        -39.925880778623146,
+        5.0,
+        34.595972630803224
+      ],
+      "polygon": [
+        [
+          -37.340112313564255,
+          1,
+          24.299522991814865
+        ],
+        [
+          -30.38833055319363,
+          1,
+          34.66789067294243
+        ],
+        [
+          -40.323499356586176,
+          9,
+          46.00221999025477
+        ],
+        [
+          -49.95901700535259,
+          9,
+          32.511425573003486
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "112",
+      "ticketLabels": [
+        "112"
+      ],
+      "sourceLabel": "112",
+      "levelName": "100",
+      "tier": 0,
+      "angle": -1.1423973285781064,
+      "halfAngle": 0.13708767942937278,
+      "center": [
+        -46.754914335408955,
+        5.0,
+        21.35225392877286
+      ],
+      "polygon": [
+        [
+          -41.58452987175336,
+          1,
+          12.468765252614126
+        ],
+        [
+          -37.567128688149374,
+          1,
+          23.84082481882398
+        ],
+        [
+          -50.27787696178889,
+          9,
+          31.907310959501586
+        ],
+        [
+          -55.9704281845764,
+          9,
+          16.7822536956423
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "113",
+      "ticketLabels": [
+        "113"
+      ],
+      "sourceLabel": "113",
+      "levelName": "100",
+      "tier": 0,
+      "angle": -1.4279966607226333,
+      "halfAngle": 0.13708767942937278,
+      "center": [
+        -50.08809697224293,
+        5.0,
+        7.201581132123875
+      ],
+      "polygon": [
+        [
+          -42.999459794701146,
+          1,
+          0.24561501121456636
+        ],
+        [
+          -41.69409368034614,
+          1,
+          11.984231747786422
+        ],
+        [
+          -56.127062240832984,
+          9,
+          16.132733964034948
+        ],
+        [
+          -57.99922291393367,
+          9,
+          0.33129438961457447
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "203",
+      "ticketLabels": [
+        "203"
+      ],
+      "sourceLabel": "203",
+      "levelName": "200",
+      "tier": 1,
+      "angle": 1.4881228359109546,
+      "halfAngle": 0.07936655124858424,
+      "center": [
+        69.29869477117877,
+        18.0,
+        5.742253563494477
+      ],
+      "polygon": [
+        [
+          60.33539942157792,
+          13,
+          9.863228334960276
+        ],
+        [
+          60.99972352068016,
+          13,
+          0.20172313879492207
+        ],
+        [
+          77.99963225407414,
+          23,
+          0.257941015713083
+        ],
+        [
+          77.11659100342047,
+          23,
+          12.60650551371766
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "204",
+      "ticketLabels": [
+        "204"
+      ],
+      "sourceLabel": "204",
+      "levelName": "200",
+      "tier": 1,
+      "angle": 1.3227758541430708,
+      "halfAngle": 0.07936655124858424,
+      "center": [
+        67.68531051873849,
+        18.0,
+        17.140248469880937
+      ],
+      "polygon": [
+        [
+          58.27784470699552,
+          13,
+          19.79161835362391
+        ],
+        [
+          60.27997023307183,
+          13,
+          10.26395487643563
+        ],
+        [
+          77.04296471079084,
+          23,
+          13.118213401249102
+        ],
+        [
+          74.38882478824019,
+          23,
+          25.263034990151578
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "205",
+      "ticketLabels": [
+        "205"
+      ],
+      "sourceLabel": "205",
+      "levelName": "200",
+      "tier": 1,
+      "angle": 1.1574288723751869,
+      "halfAngle": 0.07936655124858424,
+      "center": [
+        64.4447474090357,
+        18.0,
+        28.26808711679896
+      ],
+      "polygon": [
+        [
+          54.80284766198211,
+          13,
+          29.42392963225553
+        ],
+        [
+          58.16625204108481,
+          13,
+          20.183766718759074
+        ],
+        [
+          74.24118828665574,
+          23,
+          25.761790947831912
+        ],
+        [
+          69.80562866524835,
+          23,
+          37.47899960327243
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "206",
+      "ticketLabels": [
+        "206"
+      ],
+      "sourceLabel": "206",
+      "levelName": "200",
+      "tier": 1,
+      "angle": 0.9920818906073031,
+      "halfAngle": 0.07936655124858424,
+      "center": [
+        59.55862117692337,
+        18.0,
+        38.91158927031739
+      ],
+      "polygon": [
+        [
+          49.88375231707301,
+          13,
+          38.56186519914591
+        ],
+        [
+          54.63395754316954,
+          13,
+          29.800422940041376
+        ],
+        [
+          69.58360838630556,
+          23,
+          37.95480050969444
+        ],
+        [
+          63.36518051638302,
+          23,
+          48.98347529794814
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "207",
+      "ticketLabels": [
+        "207"
+      ],
+      "sourceLabel": "207",
+      "levelName": "200",
+      "tier": 1,
+      "angle": 0.8267349088394192,
+      "halfAngle": 0.07936655124858424,
+      "center": [
+        53.022558326660224,
+        18.0,
+        48.81070346380606
+      ],
+      "polygon": [
+        [
+          43.51322579526834,
+          13,
+          46.9553892450001
+        ],
+        [
+          49.65672444611644,
+          13,
+          38.913752650689375
+        ],
+        [
+          63.06919780066479,
+          23,
+          49.42450776743521
+        ],
+        [
+          55.098454724731425,
+          23,
+          59.45708094753824
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "208",
+      "ticketLabels": [
+        "208"
+      ],
+      "sourceLabel": "208",
+      "levelName": "200",
+      "tier": 1,
+      "angle": 0.6613879270715355,
+      "halfAngle": 0.07936655124858424,
+      "center": [
+        44.873543248173235,
+        18.0,
+        57.65352954388665
+      ],
+      "polygon": [
+        [
+          35.73332564840824,
+          13,
+          54.300905107797846
+        ],
+        [
+          43.22857185036272,
+          13,
+          47.27151554994287
+        ],
+        [
+          54.73085316177445,
+          23,
+          59.84954546391641
+        ],
+        [
+          45.10010269300011,
+          23,
+          68.53480195996333
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "209",
+      "ticketLabels": [
+        "209"
+      ],
+      "sourceLabel": "209",
+      "levelName": "200",
+      "tier": 1,
+      "angle": 0.4960409453036514,
+      "halfAngle": 0.07936655124858424,
+      "center": [
+        35.222657311553604,
+        18.0,
+        65.08576999567633
+      ],
+      "polygon": [
+        [
+          26.669284055360656,
+          13,
+          60.25736381141367
+        ],
+        [
+          35.394237474958445,
+          13,
+          54.568166354036855
+        ],
+        [
+          44.66645890550502,
+          23,
+          68.86337816221622
+        ],
+        [
+          33.560329857729876,
+          23,
+          75.82719512343994
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "210",
+      "ticketLabels": [
+        "210"
+      ],
+      "sourceLabel": "210",
+      "levelName": "200",
+      "tier": 1,
+      "angle": 0.33069396353576774,
+      "halfAngle": 0.07936655124858424,
+      "center": [
+        24.285311736736926,
+        18.0,
+        70.74069636436984
+      ],
+      "polygon": [
+        [
+          16.55688395581603,
+          13,
+          64.48480548681731
+        ],
+        [
+          26.282938388023602,
+          13,
+          60.4618076036919
+        ],
+        [
+          33.07061670332481,
+          23,
+          76.07632125953559
+        ],
+        [
+          20.78750409433431,
+          23,
+          80.96198304323374
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "211",
+      "ticketLabels": [
+        "211"
+      ],
+      "sourceLabel": "211",
+      "levelName": "200",
+      "tier": 1,
+      "angle": 0.16534698176788365,
+      "halfAngle": 0.07936655124858424,
+      "center": [
+        12.396683185921813,
+        18.0,
+        74.28924950863183
+      ],
+      "polygon": [
+        [
+          5.749220039386368,
+          13,
+          66.70175670881866
+        ],
+        [
+          16.13520651764747,
+          13,
+          64.61362807475928
+        ],
+        [
+          20.25662496784951,
+          23,
+          81.1178977034465
+        ],
+        [
+          7.209215176213827,
+          23,
+          83.64044399954162
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "212",
+      "ticketLabels": [
+        "212"
+      ],
+      "sourceLabel": "212",
+      "levelName": "200",
+      "tier": 1,
+      "angle": 0.0,
+      "halfAngle": 0.07936655124858424,
+      "center": [
+        0.0,
+        18.0,
+        75.5
+      ],
+      "polygon": [
+        [
+          -5.3085356408117965,
+          13,
+          66.74580955200712
+        ],
+        [
+          5.3085356408117965,
+          13,
+          66.74580955200712
+        ],
+        [
+          6.656451917203294,
+          23,
+          83.69356485846285
+        ],
+        [
+          -6.656451917203294,
+          23,
+          83.69356485846285
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "213",
+      "ticketLabels": [
+        "213"
+      ],
+      "sourceLabel": "213",
+      "levelName": "200",
+      "tier": 1,
+      "angle": -0.16534698176788387,
+      "halfAngle": 0.07936655124858424,
+      "center": [
+        -12.396683185921832,
+        18.0,
+        74.28924950863184
+      ],
+      "polygon": [
+        [
+          -16.135206517647486,
+          13,
+          64.61362807475928
+        ],
+        [
+          -5.749220039386382,
+          13,
+          66.70175670881866
+        ],
+        [
+          -7.209215176213846,
+          23,
+          83.64044399954162
+        ],
+        [
+          -20.25662496784953,
+          23,
+          81.1178977034465
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "214",
+      "ticketLabels": [
+        "214"
+      ],
+      "sourceLabel": "214",
+      "levelName": "200",
+      "tier": 1,
+      "angle": -0.3306939635357675,
+      "halfAngle": 0.07936655124858424,
+      "center": [
+        -24.28531173673691,
+        18.0,
+        70.74069636436984
+      ],
+      "polygon": [
+        [
+          -26.28293838802359,
+          13,
+          60.46180760369191
+        ],
+        [
+          -16.556883955816012,
+          13,
+          64.4848054868173
+        ],
+        [
+          -20.78750409433429,
+          23,
+          80.96198304323376
+        ],
+        [
+          -33.070616703324795,
+          23,
+          76.0763212595356
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "215",
+      "ticketLabels": [
+        "215"
+      ],
+      "sourceLabel": "215",
+      "levelName": "200",
+      "tier": 1,
+      "angle": -0.4960409453036516,
+      "halfAngle": 0.07936655124858424,
+      "center": [
+        -35.22265731155362,
+        18.0,
+        65.08576999567632
+      ],
+      "polygon": [
+        [
+          -35.39423747495846,
+          13,
+          54.56816635403685
+        ],
+        [
+          -26.66928405536067,
+          13,
+          60.257363811413676
+        ],
+        [
+          -33.56032985772989,
+          23,
+          75.82719512343994
+        ],
+        [
+          -44.666458905505024,
+          23,
+          68.86337816221621
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "216",
+      "ticketLabels": [
+        "216"
+      ],
+      "sourceLabel": "216",
+      "levelName": "200",
+      "tier": 1,
+      "angle": -0.6613879270715355,
+      "halfAngle": 0.07936655124858424,
+      "center": [
+        -44.873543248173235,
+        18.0,
+        57.65352954388665
+      ],
+      "polygon": [
+        [
+          -43.22857185036272,
+          13,
+          47.27151554994287
+        ],
+        [
+          -35.73332564840824,
+          13,
+          54.300905107797846
+        ],
+        [
+          -45.10010269300011,
+          23,
+          68.53480195996333
+        ],
+        [
+          -54.73085316177445,
+          23,
+          59.84954546391641
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "217",
+      "ticketLabels": [
+        "217"
+      ],
+      "sourceLabel": "217",
+      "levelName": "200",
+      "tier": 1,
+      "angle": -0.8267349088394194,
+      "halfAngle": 0.07936655124858424,
+      "center": [
+        -53.02255832666023,
+        18.0,
+        48.81070346380605
+      ],
+      "polygon": [
+        [
+          -49.65672444611645,
+          13,
+          38.91375265068937
+        ],
+        [
+          -43.51322579526836,
+          13,
+          46.9553892450001
+        ],
+        [
+          -55.09845472473143,
+          23,
+          59.45708094753823
+        ],
+        [
+          -63.069197800664796,
+          23,
+          49.4245077674352
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "218",
+      "ticketLabels": [
+        "218"
+      ],
+      "sourceLabel": "218",
+      "levelName": "200",
+      "tier": 1,
+      "angle": -0.9920818906073028,
+      "halfAngle": 0.07936655124858424,
+      "center": [
+        -59.55862117692336,
+        18.0,
+        38.91158927031741
+      ],
+      "polygon": [
+        [
+          -54.63395754316952,
+          13,
+          29.800422940041397
+        ],
+        [
+          -49.883752317073,
+          13,
+          38.56186519914593
+        ],
+        [
+          -63.36518051638301,
+          23,
+          48.98347529794817
+        ],
+        [
+          -69.58360838630554,
+          23,
+          37.954800509694465
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "219",
+      "ticketLabels": [
+        "219"
+      ],
+      "sourceLabel": "219",
+      "levelName": "200",
+      "tier": 1,
+      "angle": -1.157428872375187,
+      "halfAngle": 0.07936655124858424,
+      "center": [
+        -64.4447474090357,
+        18.0,
+        28.26808711679895
+      ],
+      "polygon": [
+        [
+          -58.16625204108482,
+          13,
+          20.183766718759063
+        ],
+        [
+          -54.80284766198212,
+          13,
+          29.423929632255515
+        ],
+        [
+          -69.80562866524835,
+          23,
+          37.478999603272406
+        ],
+        [
+          -74.24118828665573,
+          23,
+          25.76179094783189
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "220",
+      "ticketLabels": [
+        "220"
+      ],
+      "sourceLabel": "220",
+      "levelName": "200",
+      "tier": 1,
+      "angle": -1.3227758541430705,
+      "halfAngle": 0.07936655124858424,
+      "center": [
+        -67.68531051873849,
+        18.0,
+        17.14024846988095
+      ],
+      "polygon": [
+        [
+          -60.27997023307181,
+          13,
+          10.263954876435642
+        ],
+        [
+          -58.27784470699552,
+          13,
+          19.791618353623925
+        ],
+        [
+          -74.38882478824019,
+          23,
+          25.263034990151596
+        ],
+        [
+          -77.04296471079083,
+          23,
+          13.11821340124912
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "221",
+      "ticketLabels": [
+        "221"
+      ],
+      "sourceLabel": "221",
+      "levelName": "200",
+      "tier": 1,
+      "angle": -1.4881228359109548,
+      "halfAngle": 0.07936655124858424,
+      "center": [
+        -69.29869477117877,
+        18.0,
+        5.742253563494461
+      ],
+      "polygon": [
+        [
+          -60.99972352068016,
+          13,
+          0.20172313879490852
+        ],
+        [
+          -60.33539942157792,
+          13,
+          9.863228334960262
+        ],
+        [
+          -77.11659100342047,
+          23,
+          12.606505513717643
+        ],
+        [
+          -77.99963225407414,
+          23,
+          0.25794101571306566
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "303",
+      "ticketLabels": [
+        "303"
+      ],
+      "sourceLabel": "303",
+      "levelName": "300",
+      "tier": 2,
+      "angle": 1.4922565104551517,
+      "halfAngle": 0.07539822368615504,
+      "center": [
+        81.78038244300748,
+        26.5,
+        6.436255683034752
+      ],
+      "polygon": [
+        [
+          78.1911013833234,
+          25,
+          12.132571495698059
+        ],
+        [
+          78.99966324562023,
+          25,
+          0.24818557818687717
+        ],
+        [
+          84.999634031425,
+          28,
+          0.2670351043418116
+        ],
+        [
+          84.12106263842016,
+          28,
+          13.052697668898702
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "304",
+      "ticketLabels": [
+        "304"
+      ],
+      "sourceLabel": "304",
+      "levelName": "300",
+      "tier": 2,
+      "angle": 1.335176877775662,
+      "halfAngle": 0.07539822368615504,
+      "center": [
+        80.02205109882559,
+        26.5,
+        19.21159472685169
+      ],
+      "polygon": [
+        [
+          75.69407358349878,
+          25,
+          24.33185746931076
+        ],
+        [
+          78.12369039599322,
+          25,
+          12.62529270488348
+        ],
+        [
+          84.04782699653403,
+          28,
+          13.58267142350808
+        ],
+        [
+          81.40950801178468,
+          28,
+          26.169083678715886
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "305",
+      "ticketLabels": [
+        "305"
+      ],
+      "sourceLabel": "305",
+      "levelName": "300",
+      "tier": 2,
+      "angle": 1.1780972450961724,
+      "halfAngle": 0.07539822368615504,
+      "center": [
+        76.49952149744361,
+        26.5,
+        31.68713931929329
+      ],
+      "polygon": [
+        [
+          71.49998397671442,
+          25,
+          36.14857292625016
+        ],
+        [
+          75.55894925986252,
+          25,
+          24.81329569735283
+        ],
+        [
+          81.26284599517915,
+          28,
+          26.686435513442895
+        ],
+        [
+          76.86060815460026,
+          28,
+          38.858768135351674
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "306",
+      "ticketLabels": [
+        "306"
+      ],
+      "sourceLabel": "306",
+      "levelName": "300",
+      "tier": 2,
+      "angle": 1.0210176124166828,
+      "halfAngle": 0.07539822368615504,
+      "center": [
+        71.20850019843212,
+        26.5,
+        43.636625043861706
+      ],
+      "polygon": [
+        [
+          65.60635957884573,
+          25,
+          47.35162074471414
+        ],
+        [
+          71.29683346985715,
+          25,
+          36.61014029454735
+        ],
+        [
+          76.6404415663887,
+          28,
+          39.35402431536867
+        ],
+        [
+          70.47940348777398,
+          28,
+          50.868757323075855
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "307",
+      "ticketLabels": [
+        "307"
+      ],
+      "sourceLabel": "307",
+      "levelName": "300",
+      "tier": 2,
+      "angle": 0.8639379797371931,
+      "halfAngle": 0.07539822368615504,
+      "center": [
+        64.16098857397864,
+        26.5,
+        54.79866110127733
+      ],
+      "polygon": [
+        [
+          58.03461871541592,
+          25,
+          57.67111722952036
+        ],
+        [
+          65.33544072684049,
+          25,
+          47.783300063051264
+        ],
+        [
+          70.18636505086339,
+          28,
+          51.33104030906933
+        ],
+        [
+          62.29850574002879,
+          28,
+          61.908297276411226
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "308",
+      "ticketLabels": [
+        "308"
+      ],
+      "sourceLabel": "308",
+      "levelName": "300",
+      "tier": 2,
+      "angle": 0.7068583470577036,
+      "halfAngle": 0.07539822368615504,
+      "center": [
+        55.40638850266684,
+        26.5,
+        64.87254593821024
+      ],
+      "polygon": [
+        [
+          48.85337675762278,
+          25,
+          66.79858647774296
+        ],
+        [
+          57.69760171843828,
+          25,
+          58.061270136266785
+        ],
+        [
+          61.93479343750762,
+          28,
+          62.32516890662796
+        ],
+        [
+          52.40154549256421,
+          28,
+          71.65009668663812
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "309",
+      "ticketLabels": [
+        "309"
+      ],
+      "sourceLabel": "309",
+      "levelName": "300",
+      "tier": 2,
+      "angle": 0.5497787143782138,
+      "halfAngle": 0.07539822368615504,
+      "center": [
+        45.05636566288827,
+        26.5,
+        73.5253063228759
+      ],
+      "polygon": [
+        [
+          38.203606264015285,
+          25,
+          74.40004686786645
+        ],
+        [
+          48.45434915597673,
+          25,
+          67.13420583900103
+        ],
+        [
+          51.97192372133058,
+          28,
+          72.00785658528027
+        ],
+        [
+          40.94795484461494,
+          28,
+          79.744559676614
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "310",
+      "ticketLabels": [
+        "310"
+      ],
+      "sourceLabel": "310",
+      "levelName": "300",
+      "tier": 2,
+      "angle": 0.39269908169872414,
+      "halfAngle": 0.07539822368615504,
+      "center": [
+        33.30819883473352,
+        26.5,
+        80.41310536503337
+      ],
+      "polygon": [
+        [
+          26.319073270911662,
+          25,
+          80.1441914890642
+        ],
+        [
+          37.750034337775936,
+          25,
+          74.66759077261837
+        ],
+        [
+          40.460688014229525,
+          28,
+          80.02912177491453
+        ],
+        [
+          28.192447031630277,
+          28,
+          85.84880060900456
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "311",
+      "ticketLabels": [
+        "311"
+      ],
+      "sourceLabel": "311",
+      "levelName": "300",
+      "tier": 2,
+      "angle": 0.23561944901923448,
+      "halfAngle": 0.07539822368615504,
+      "center": [
+        20.458800588652313,
+        26.5,
+        85.21703738823918
+      ],
+      "polygon": [
+        [
+          13.53348392917546,
+          25,
+          83.74346109639856
+        ],
+        [
+          25.822401695486572,
+          25,
+          80.33101363124959
+        ],
+        [
+          27.659851620796758,
+          28,
+          86.04714401824727
+        ],
+        [
+          14.49090252374233,
+          28,
+          89.66784444415076
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "312",
+      "ticketLabels": [
+        "312"
+      ],
+      "sourceLabel": "312",
+      "levelName": "300",
+      "tier": 2,
+      "angle": 0.07853981633974483,
+      "halfAngle": 0.07539822368615504,
+      "center": [
+        6.90117897692872,
+        26.5,
+        87.687793001841
+      ],
+      "polygon": [
+        [
+          0.26703472853264554,
+          25,
+          84.99951440804809
+        ],
+        [
+          13.009027961315349,
+          25,
+          83.83962332984154
+        ],
+        [
+          13.929189753456017,
+          28,
+          89.76981413925428
+        ],
+        [
+          0.2858842550170307,
+          28,
+          90.99948529872009
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "313",
+      "ticketLabels": [
+        "313"
+      ],
+      "sourceLabel": "313",
+      "levelName": "300",
+      "tier": 2,
+      "angle": -0.07853981633974483,
+      "halfAngle": 0.07539822368615504,
+      "center": [
+        -6.90117897692872,
+        26.5,
+        87.687793001841
+      ],
+      "polygon": [
+        [
+          -13.009027961315349,
+          25,
+          83.83962332984154
+        ],
+        [
+          -0.26703472853264554,
+          25,
+          84.99951440804809
+        ],
+        [
+          -0.2858842550170307,
+          28,
+          90.99948529872009
+        ],
+        [
+          -13.929189753456017,
+          28,
+          89.76981413925428
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "314",
+      "ticketLabels": [
+        "314"
+      ],
+      "sourceLabel": "314",
+      "levelName": "300",
+      "tier": 2,
+      "angle": -0.23561944901923448,
+      "halfAngle": 0.07539822368615504,
+      "center": [
+        -20.458800588652313,
+        26.5,
+        85.21703738823918
+      ],
+      "polygon": [
+        [
+          -25.822401695486572,
+          25,
+          80.33101363124959
+        ],
+        [
+          -13.53348392917546,
+          25,
+          83.74346109639856
+        ],
+        [
+          -14.49090252374233,
+          28,
+          89.66784444415076
+        ],
+        [
+          -27.659851620796758,
+          28,
+          86.04714401824727
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "315",
+      "ticketLabels": [
+        "315"
+      ],
+      "sourceLabel": "315",
+      "levelName": "300",
+      "tier": 2,
+      "angle": -0.39269908169872414,
+      "halfAngle": 0.07539822368615504,
+      "center": [
+        -33.30819883473352,
+        26.5,
+        80.41310536503337
+      ],
+      "polygon": [
+        [
+          -37.750034337775936,
+          25,
+          74.66759077261837
+        ],
+        [
+          -26.319073270911662,
+          25,
+          80.1441914890642
+        ],
+        [
+          -28.192447031630277,
+          28,
+          85.84880060900456
+        ],
+        [
+          -40.460688014229525,
+          28,
+          80.02912177491453
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "316",
+      "ticketLabels": [
+        "316"
+      ],
+      "sourceLabel": "316",
+      "levelName": "300",
+      "tier": 2,
+      "angle": -0.5497787143782138,
+      "halfAngle": 0.07539822368615504,
+      "center": [
+        -45.05636566288827,
+        26.5,
+        73.5253063228759
+      ],
+      "polygon": [
+        [
+          -48.45434915597673,
+          25,
+          67.13420583900103
+        ],
+        [
+          -38.203606264015285,
+          25,
+          74.40004686786645
+        ],
+        [
+          -40.94795484461494,
+          28,
+          79.744559676614
+        ],
+        [
+          -51.97192372133058,
+          28,
+          72.00785658528027
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "317",
+      "ticketLabels": [
+        "317"
+      ],
+      "sourceLabel": "317",
+      "levelName": "300",
+      "tier": 2,
+      "angle": -0.7068583470577035,
+      "halfAngle": 0.07539822368615504,
+      "center": [
+        -55.40638850266684,
+        26.5,
+        64.87254593821025
+      ],
+      "polygon": [
+        [
+          -57.69760171843827,
+          25,
+          58.06127013626679
+        ],
+        [
+          -48.853376757622776,
+          25,
+          66.79858647774297
+        ],
+        [
+          -52.40154549256419,
+          28,
+          71.65009668663812
+        ],
+        [
+          -61.934793437507615,
+          28,
+          62.32516890662797
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "318",
+      "ticketLabels": [
+        "318"
+      ],
+      "sourceLabel": "318",
+      "levelName": "300",
+      "tier": 2,
+      "angle": -0.8639379797371931,
+      "halfAngle": 0.07539822368615504,
+      "center": [
+        -64.16098857397864,
+        26.5,
+        54.79866110127733
+      ],
+      "polygon": [
+        [
+          -65.33544072684049,
+          25,
+          47.783300063051264
+        ],
+        [
+          -58.03461871541592,
+          25,
+          57.67111722952036
+        ],
+        [
+          -62.29850574002879,
+          28,
+          61.908297276411226
+        ],
+        [
+          -70.18636505086339,
+          28,
+          51.33104030906933
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "319",
+      "ticketLabels": [
+        "319"
+      ],
+      "sourceLabel": "319",
+      "levelName": "300",
+      "tier": 2,
+      "angle": -1.0210176124166828,
+      "halfAngle": 0.07539822368615504,
+      "center": [
+        -71.20850019843212,
+        26.5,
+        43.636625043861706
+      ],
+      "polygon": [
+        [
+          -71.29683346985715,
+          25,
+          36.61014029454735
+        ],
+        [
+          -65.60635957884573,
+          25,
+          47.35162074471414
+        ],
+        [
+          -70.47940348777398,
+          28,
+          50.868757323075855
+        ],
+        [
+          -76.6404415663887,
+          28,
+          39.35402431536867
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "320",
+      "ticketLabels": [
+        "320"
+      ],
+      "sourceLabel": "320",
+      "levelName": "300",
+      "tier": 2,
+      "angle": -1.1780972450961724,
+      "halfAngle": 0.07539822368615504,
+      "center": [
+        -76.49952149744361,
+        26.5,
+        31.68713931929329
+      ],
+      "polygon": [
+        [
+          -75.55894925986252,
+          25,
+          24.81329569735283
+        ],
+        [
+          -71.49998397671442,
+          25,
+          36.14857292625016
+        ],
+        [
+          -76.86060815460026,
+          28,
+          38.858768135351674
+        ],
+        [
+          -81.26284599517915,
+          28,
+          26.686435513442895
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "321",
+      "ticketLabels": [
+        "321"
+      ],
+      "sourceLabel": "321",
+      "levelName": "300",
+      "tier": 2,
+      "angle": -1.335176877775662,
+      "halfAngle": 0.07539822368615504,
+      "center": [
+        -80.02205109882559,
+        26.5,
+        19.21159472685169
+      ],
+      "polygon": [
+        [
+          -78.12369039599322,
+          25,
+          12.62529270488348
+        ],
+        [
+          -75.69407358349878,
+          25,
+          24.33185746931076
+        ],
+        [
+          -81.40950801178468,
+          28,
+          26.169083678715886
+        ],
+        [
+          -84.04782699653403,
+          28,
+          13.58267142350808
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "322",
+      "ticketLabels": [
+        "322"
+      ],
+      "sourceLabel": "322",
+      "levelName": "300",
+      "tier": 2,
+      "angle": -1.4922565104551517,
+      "halfAngle": 0.07539822368615504,
+      "center": [
+        -81.78038244300748,
+        26.5,
+        6.436255683034752
+      ],
+      "polygon": [
+        [
+          -78.99966324562023,
+          25,
+          0.24818557818687717
+        ],
+        [
+          -78.1911013833234,
+          25,
+          12.132571495698059
+        ],
+        [
+          -84.12106263842016,
+          28,
+          13.052697668898702
+        ],
+        [
+          -84.999634031425,
+          28,
+          0.2670351043418116
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "404",
+      "ticketLabels": [
+        "404"
+      ],
+      "sourceLabel": "404",
+      "levelName": "400",
+      "tier": 3,
+      "angle": 1.5184364492350666,
+      "halfAngle": 0.050265482457436686,
+      "center": [
+        100.37732255396884,
+        39.5,
+        5.2605525654310465
+      ],
+      "polygon": [
+        [
+          86.59902476670733,
+          30,
+          8.91858818445339
+        ],
+        [
+          86.99983301436515,
+          30,
+          0.18221229059858493
+        ],
+        [
+          113.99977434795481,
+          49,
+          0.23876091817593278
+        ],
+        [
+          113.45826860562893,
+          49,
+          11.68474560239756
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "405",
+      "ticketLabels": [
+        "405"
+      ],
+      "sourceLabel": "405",
+      "levelName": "400",
+      "tier": 3,
+      "angle": 1.413716694115407,
+      "halfAngle": 0.050265482457436686,
+      "center": [
+        99.39594355592259,
+        39.5,
+        15.742770890634002
+      ],
+      "polygon": [
+        [
+          85.36270434347124,
+          30,
+          17.957625097857385
+        ],
+        [
+          86.56562030521845,
+          30,
+          9.281759393561755
+        ],
+        [
+          113.41314855810906,
+          49,
+          12.160411411263059
+        ],
+        [
+          111.78941870351245,
+          49,
+          23.51697367632214
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "406",
+      "ticketLabels": [
+        "406"
+      ],
+      "sourceLabel": "406",
+      "levelName": "400",
+      "tier": 3,
+      "angle": 1.3089969389957472,
+      "halfAngle": 0.050265482457436686,
+      "center": [
+        97.43355293863878,
+        39.5,
+        26.107241825603303
+      ],
+      "polygon": [
+        [
+          83.2896837116636,
+          30,
+          26.869731816362535
+        ],
+        [
+          85.2958568278079,
+          30,
+          18.3169918611518
+        ],
+        [
+          111.69924686254265,
+          49,
+          23.987029051227616
+        ],
+        [
+          108.99601944856784,
+          49,
+          35.1627438251867
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "407",
+      "ticketLabels": [
+        "407"
+      ],
+      "sourceLabel": "407",
+      "levelName": "400",
+      "tier": 3,
+      "angle": 1.2042771838760873,
+      "halfAngle": 0.050265482457436686,
+      "center": [
+        94.4916072991253,
+        39.5,
+        36.2719296548242
+      ],
+      "polygon": [
+        [
+          80.3790760346138,
+          30,
+          35.58554153555881
+        ],
+        [
+          83.18934296608803,
+          30,
+          27.222612947016195
+        ],
+        [
+          108.86096261123481,
+          49,
+          35.623311166351
+        ],
+        [
+          105.08398509069801,
+          49,
+          46.52293483140738
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "408",
+      "ticketLabels": [
+        "408"
+      ],
+      "sourceLabel": "408",
+      "levelName": "400",
+      "tier": 3,
+      "angle": 1.0995574287564276,
+      "halfAngle": 0.050265482457436686,
+      "center": [
+        90.57408030186107,
+        39.5,
+        46.14979897835026
+      ],
+      "polygon": [
+        [
+          76.63195735378675,
+          30,
+          44.02974255201499
+        ],
+        [
+          80.24523414594685,
+          30,
+          35.92904891238511
+        ],
+        [
+          104.90436817863753,
+          49,
+          46.96994426557481
+        ],
+        [
+          100.06416896128181,
+          49,
+          57.49298008540109
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "409",
+      "ticketLabels": [
+        "409"
+      ],
+      "sourceLabel": "409",
+      "levelName": "400",
+      "tier": 3,
+      "angle": 0.9948376736367679,
+      "halfAngle": 0.050265482457436686,
+      "center": [
+        85.68955538017997,
+        39.5,
+        55.64744792160746
+      ],
+      "polygon": [
+        [
+          72.05365827898154,
+          30,
+          52.11982884296901
+        ],
+        [
+          76.4647285907802,
+          30,
+          44.360720265201685
+        ],
+        [
+          99.84056155877639,
+          49,
+          57.92212048685096
+        ],
+        [
+          93.95481030058326,
+          49,
+          67.96197096447047
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "410",
+      "ticketLabels": [
+        "410"
+      ],
+      "sourceLabel": "410",
+      "levelName": "400",
+      "tier": 3,
+      "angle": 0.890117918517108,
+      "halfAngle": 0.050265482457436686,
+      "center": [
+        79.85389914083073,
+        39.5,
+        64.66441251260925
+      ],
+      "polygon": [
+        [
+          66.65660489968988,
+          30,
+          59.76556498382605
+        ],
+        [
+          71.85338293896147,
+          30,
+          52.43481653209056
+        ],
+        [
+          93.6881358506174,
+          49,
+          68.3686698333163
+        ],
+        [
+          86.78446971814974,
+          49,
+          77.81258694967066
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "411",
+      "ticketLabels": [
+        "411"
+      ],
+      "sourceLabel": "411",
+      "levelName": "400",
+      "tier": 3,
+      "angle": 0.7853981633974484,
+      "halfAngle": 0.050265482457436686,
+      "center": [
+        73.09336570563968,
+        39.5,
+        73.09336570563967
+      ],
+      "polygon": [
+        [
+          60.46355262038757,
+          30,
+          66.86940091706722
+        ],
+        [
+          66.42397247357059,
+          30,
+          60.060794621024314
+        ],
+        [
+          86.47613035458089,
+          49,
+          78.19202783925606
+        ],
+        [
+          78.59523820408859,
+          49,
+          86.92205908968486
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "412",
+      "ticketLabels": [
+        "412"
+      ],
+      "sourceLabel": "412",
+      "levelName": "400",
+      "tier": 3,
+      "angle": 0.6806784082777885,
+      "halfAngle": 0.050265482457436686,
+      "center": [
+        65.44789486264477,
+        39.5,
+        80.82141926708505
+      ],
+      "polygon": [
+        [
+          53.51095508645803,
+          30,
+          73.32805569947404
+        ],
+        [
+          60.19973605691199,
+          30,
+          67.14083640800736
+        ],
+        [
+          78.2472448147792,
+          49,
+          87.26924414618242
+        ],
+        [
+          69.4459160234981,
+          49,
+          95.16432644575946
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "413",
+      "ticketLabels": [
+        "413"
+      ],
+      "sourceLabel": "413",
+      "levelName": "400",
+      "tier": 3,
+      "angle": 0.5759586531581288,
+      "halfAngle": 0.050265482457436686,
+      "center": [
+        56.974267570141365,
+        39.5,
+        87.7326784702581
+      ],
+      "polygon": [
+        [
+          45.85209636873912,
+          30,
+          79.03541879377991
+        ],
+        [
+          53.21774347996256,
+          30,
+          73.57148302686724
+        ],
+        [
+          69.06100953075779,
+          49,
+          95.47418883747902
+        ],
+        [
+          59.414772638770785,
+          49,
+          102.41345129083345
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "414",
+      "ticketLabels": [
+        "414"
+      ],
+      "sourceLabel": "414",
+      "levelName": "400",
+      "tier": 3,
+      "angle": 0.47123889803846897,
+      "halfAngle": 0.050265482457436686,
+      "center": [
+        47.74869191582295,
+        39.5,
+        93.71208437812298
+      ],
+      "polygon": [
+        [
+          37.55951557616417,
+          30,
+          83.88677721938487
+        ],
+        [
+          45.53200891613149,
+          30,
+          79.24659021958205
+        ],
+        [
+          58.99651946732253,
+          49,
+          102.68101746224742
+        ],
+        [
+          48.60144152529365,
+          49,
+          108.54821302223093
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "415",
+      "ticketLabels": [
+        "415"
+      ],
+      "sourceLabel": "415",
+      "levelName": "400",
+      "tier": 3,
+      "angle": 0.36651914291880927,
+      "halfAngle": 0.050265482457436686,
+      "center": [
+        37.86834216938439,
+        39.5,
+        98.6504040835464
+      ],
+      "polygon": [
+        [
+          28.726208616327703,
+          30,
+          87.78416771932282
+        ],
+        [
+          37.21587653273004,
+          30,
+          84.0616059342522
+        ],
+        [
+          48.154284934697365,
+          49,
+          108.76880786795977
+        ],
+        [
+          37.127504108415856,
+          49,
+          113.45761256501224
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "416",
+      "ticketLabels": [
+        "416"
+      ],
+      "sourceLabel": "416",
+      "levelName": "400",
+      "tier": 3,
+      "angle": 0.26179938779914935,
+      "halfAngle": 0.050265482457436686,
+      "center": [
+        27.451398245597,
+        39.5,
+        102.45001299137519
+      ],
+      "polygon": [
+        [
+          19.465144139754376,
+          30,
+          90.6424024349996
+        ],
+        [
+          28.363162956237694,
+          30,
+          87.9189598107129
+        ],
+        [
+          36.65675468850004,
+          49,
+          113.62709255036118
+        ],
+        [
+          25.13540141476909,
+          49,
+          117.04681732870576
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "417",
+      "ticketLabels": [
+        "417"
+      ],
+      "sourceLabel": "417",
+      "levelName": "400",
+      "tier": 3,
+      "angle": 0.15707963267948966,
+      "halfAngle": 0.050265482457436686,
+      "center": [
+        16.63525972633796,
+        39.5,
+        105.03089629417903
+      ],
+      "polygon": [
+        [
+          9.906807296925376,
+          30,
+          92.39508185242039
+        ],
+        [
+          19.087598214841645,
+          30,
+          90.73410287615958
+        ],
+        [
+          24.647155397122564,
+          49,
+          117.16180884760749
+        ],
+        [
+          12.785491274310903,
+          49,
+          119.24290817486575
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "418",
+      "ticketLabels": [
+        "418"
+      ],
+      "sourceLabel": "418",
+      "levelName": "400",
+      "tier": 3,
+      "angle": 0.05235987755982974,
+      "halfAngle": 0.050265482457436686,
+      "center": [
+        5.572840914190462,
+        39.5,
+        106.33613922263275
+      ],
+      "polygon": [
+        [
+          0.1947785411678898,
+          30,
+          92.99976692418612
+        ],
+        [
+          9.52028848628539,
+          30,
+          92.44150322437596
+        ],
+        [
+          12.286474338026277,
+          49,
+          119.30102315397644
+        ],
+        [
+          0.2513271689960849,
+          49,
+          119.99970837755019
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "419",
+      "ticketLabels": [
+        "419"
+      ],
+      "sourceLabel": "419",
+      "levelName": "400",
+      "tier": 3,
+      "angle": -0.05235987755982974,
+      "halfAngle": 0.050265482457436686,
+      "center": [
+        -5.572840914190462,
+        39.5,
+        106.33613922263275
+      ],
+      "polygon": [
+        [
+          -9.52028848628539,
+          30,
+          92.44150322437596
+        ],
+        [
+          -0.1947785411678898,
+          30,
+          92.99976692418612
+        ],
+        [
+          -0.2513271689960849,
+          49,
+          119.99970837755019
+        ],
+        [
+          -12.286474338026277,
+          49,
+          119.30102315397644
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "420",
+      "ticketLabels": [
+        "420"
+      ],
+      "sourceLabel": "420",
+      "levelName": "400",
+      "tier": 3,
+      "angle": -0.15707963267948966,
+      "halfAngle": 0.050265482457436686,
+      "center": [
+        -16.63525972633796,
+        39.5,
+        105.03089629417903
+      ],
+      "polygon": [
+        [
+          -19.087598214841645,
+          30,
+          90.73410287615958
+        ],
+        [
+          -9.906807296925376,
+          30,
+          92.39508185242039
+        ],
+        [
+          -12.785491274310903,
+          49,
+          119.24290817486575
+        ],
+        [
+          -24.647155397122564,
+          49,
+          117.16180884760749
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "421",
+      "ticketLabels": [
+        "421"
+      ],
+      "sourceLabel": "421",
+      "levelName": "400",
+      "tier": 3,
+      "angle": -0.26179938779914935,
+      "halfAngle": 0.050265482457436686,
+      "center": [
+        -27.451398245597,
+        39.5,
+        102.45001299137519
+      ],
+      "polygon": [
+        [
+          -28.363162956237694,
+          30,
+          87.9189598107129
+        ],
+        [
+          -19.465144139754376,
+          30,
+          90.6424024349996
+        ],
+        [
+          -25.13540141476909,
+          49,
+          117.04681732870576
+        ],
+        [
+          -36.65675468850004,
+          49,
+          113.62709255036118
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "422",
+      "ticketLabels": [
+        "422"
+      ],
+      "sourceLabel": "422",
+      "levelName": "400",
+      "tier": 3,
+      "angle": -0.36651914291880927,
+      "halfAngle": 0.050265482457436686,
+      "center": [
+        -37.86834216938439,
+        39.5,
+        98.6504040835464
+      ],
+      "polygon": [
+        [
+          -37.21587653273004,
+          30,
+          84.0616059342522
+        ],
+        [
+          -28.726208616327703,
+          30,
+          87.78416771932282
+        ],
+        [
+          -37.127504108415856,
+          49,
+          113.45761256501224
+        ],
+        [
+          -48.154284934697365,
+          49,
+          108.76880786795977
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "423",
+      "ticketLabels": [
+        "423"
+      ],
+      "sourceLabel": "423",
+      "levelName": "400",
+      "tier": 3,
+      "angle": -0.47123889803846897,
+      "halfAngle": 0.050265482457436686,
+      "center": [
+        -47.74869191582295,
+        39.5,
+        93.71208437812298
+      ],
+      "polygon": [
+        [
+          -45.53200891613149,
+          30,
+          79.24659021958205
+        ],
+        [
+          -37.55951557616417,
+          30,
+          83.88677721938487
+        ],
+        [
+          -48.60144152529365,
+          49,
+          108.54821302223093
+        ],
+        [
+          -58.99651946732253,
+          49,
+          102.68101746224742
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "424",
+      "ticketLabels": [
+        "424"
+      ],
+      "sourceLabel": "424",
+      "levelName": "400",
+      "tier": 3,
+      "angle": -0.5759586531581284,
+      "halfAngle": 0.050265482457436686,
+      "center": [
+        -56.97426757014135,
+        39.5,
+        87.73267847025812
+      ],
+      "polygon": [
+        [
+          -53.21774347996253,
+          30,
+          73.57148302686726
+        ],
+        [
+          -45.85209636873909,
+          30,
+          79.03541879377991
+        ],
+        [
+          -59.414772638770756,
+          49,
+          102.41345129083346
+        ],
+        [
+          -69.06100953075776,
+          49,
+          95.47418883747905
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "425",
+      "ticketLabels": [
+        "425"
+      ],
+      "sourceLabel": "425",
+      "levelName": "400",
+      "tier": 3,
+      "angle": -0.6806784082777884,
+      "halfAngle": 0.050265482457436686,
+      "center": [
+        -65.44789486264477,
+        39.5,
+        80.82141926708506
+      ],
+      "polygon": [
+        [
+          -60.19973605691199,
+          30,
+          67.14083640800736
+        ],
+        [
+          -53.51095508645802,
+          30,
+          73.32805569947404
+        ],
+        [
+          -69.44591602349809,
+          49,
+          95.16432644575947
+        ],
+        [
+          -78.2472448147792,
+          49,
+          87.26924414618242
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "426",
+      "ticketLabels": [
+        "426"
+      ],
+      "sourceLabel": "426",
+      "levelName": "400",
+      "tier": 3,
+      "angle": -0.7853981633974483,
+      "halfAngle": 0.050265482457436686,
+      "center": [
+        -73.09336570563968,
+        39.5,
+        73.0933657056397
+      ],
+      "polygon": [
+        [
+          -66.42397247357059,
+          30,
+          60.06079462102432
+        ],
+        [
+          -60.46355262038755,
+          30,
+          66.86940091706722
+        ],
+        [
+          -78.59523820408857,
+          49,
+          86.92205908968486
+        ],
+        [
+          -86.47613035458089,
+          49,
+          78.19202783925607
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "427",
+      "ticketLabels": [
+        "427"
+      ],
+      "sourceLabel": "427",
+      "levelName": "400",
+      "tier": 3,
+      "angle": -0.8901179185171082,
+      "halfAngle": 0.050265482457436686,
+      "center": [
+        -79.85389914083072,
+        39.5,
+        64.66441251260922
+      ],
+      "polygon": [
+        [
+          -71.85338293896146,
+          30,
+          52.43481653209054
+        ],
+        [
+          -66.65660489968988,
+          30,
+          59.76556498382604
+        ],
+        [
+          -86.78446971814974,
+          49,
+          77.81258694967065
+        ],
+        [
+          -93.68813585061741,
+          49,
+          68.36866983331629
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "428",
+      "ticketLabels": [
+        "428"
+      ],
+      "sourceLabel": "428",
+      "levelName": "400",
+      "tier": 3,
+      "angle": -0.9948376736367677,
+      "halfAngle": 0.050265482457436686,
+      "center": [
+        -85.68955538017994,
+        39.5,
+        55.647447921607466
+      ],
+      "polygon": [
+        [
+          -76.46472859078018,
+          30,
+          44.36072026520171
+        ],
+        [
+          -72.05365827898153,
+          30,
+          52.119828842969014
+        ],
+        [
+          -93.95481030058325,
+          49,
+          67.9619709644705
+        ],
+        [
+          -99.84056155877637,
+          49,
+          57.92212048685098
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "429",
+      "ticketLabels": [
+        "429"
+      ],
+      "sourceLabel": "429",
+      "levelName": "400",
+      "tier": 3,
+      "angle": -1.0995574287564276,
+      "halfAngle": 0.050265482457436686,
+      "center": [
+        -90.57408030186107,
+        39.5,
+        46.14979897835026
+      ],
+      "polygon": [
+        [
+          -80.24523414594685,
+          30,
+          35.92904891238511
+        ],
+        [
+          -76.63195735378675,
+          30,
+          44.02974255201499
+        ],
+        [
+          -100.06416896128181,
+          49,
+          57.49298008540109
+        ],
+        [
+          -104.90436817863753,
+          49,
+          46.96994426557481
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "430",
+      "ticketLabels": [
+        "430"
+      ],
+      "sourceLabel": "430",
+      "levelName": "400",
+      "tier": 3,
+      "angle": -1.2042771838760875,
+      "halfAngle": 0.050265482457436686,
+      "center": [
+        -94.4916072991253,
+        39.5,
+        36.27192965482418
+      ],
+      "polygon": [
+        [
+          -83.18934296608803,
+          30,
+          27.222612947016174
+        ],
+        [
+          -80.3790760346138,
+          30,
+          35.58554153555879
+        ],
+        [
+          -105.08398509069802,
+          49,
+          46.52293483140736
+        ],
+        [
+          -108.86096261123481,
+          49,
+          35.623311166350966
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "431",
+      "ticketLabels": [
+        "431"
+      ],
+      "sourceLabel": "431",
+      "levelName": "400",
+      "tier": 3,
+      "angle": -1.3089969389957474,
+      "halfAngle": 0.050265482457436686,
+      "center": [
+        -97.43355293863878,
+        39.5,
+        26.107241825603282
+      ],
+      "polygon": [
+        [
+          -85.29585682780791,
+          30,
+          18.31699186115178
+        ],
+        [
+          -83.28968371166361,
+          30,
+          26.86973181636252
+        ],
+        [
+          -108.99601944856784,
+          49,
+          35.16274382518668
+        ],
+        [
+          -111.69924686254267,
+          49,
+          23.98702905122759
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "432",
+      "ticketLabels": [
+        "432"
+      ],
+      "sourceLabel": "432",
+      "levelName": "400",
+      "tier": 3,
+      "angle": -1.413716694115407,
+      "halfAngle": 0.050265482457436686,
+      "center": [
+        -99.39594355592259,
+        39.5,
+        15.742770890634002
+      ],
+      "polygon": [
+        [
+          -86.56562030521845,
+          30,
+          9.281759393561755
+        ],
+        [
+          -85.36270434347124,
+          30,
+          17.957625097857385
+        ],
+        [
+          -111.78941870351245,
+          49,
+          23.51697367632214
+        ],
+        [
+          -113.41314855810906,
+          49,
+          12.160411411263059
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    },
+    {
+      "id": "433",
+      "ticketLabels": [
+        "433"
+      ],
+      "sourceLabel": "433",
+      "levelName": "400",
+      "tier": 3,
+      "angle": -1.5184364492350668,
+      "halfAngle": 0.050265482457436686,
+      "center": [
+        -100.37732255396884,
+        39.5,
+        5.260552565431024
+      ],
+      "polygon": [
+        [
+          -86.99983301436515,
+          30,
+          0.1822122905985656
+        ],
+        [
+          -86.59902476670733,
+          30,
+          8.91858818445337
+        ],
+        [
+          -113.45826860562893,
+          49,
+          11.684745602397536
+        ],
+        [
+          -113.99977434795481,
+          49,
+          0.23876091817590747
+        ]
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://ticketmaster.ph/activity/detail/27ph_brunomars"
+      },
+      "samples": []
+    }
+  ],
+  "ticketLabelCount": 80,
+  "accuracy": {
+    "sectionLabels": "source-layout-reference",
+    "seatDataStatus": "section-only",
+    "geometryBasis": "source-screen-plus-parametric",
+    "position": "estimated",
+    "stage": "event-only",
+    "metricCalibrated": false,
+    "completeSeatInventory": false
+  }
+}

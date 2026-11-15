@@ -23,6 +23,93 @@
         "dimensionsBasis": "display estimate"
       }
     },
+    "kaohsiung-arena": {
+      "source": "https://twconcertview.com/en/3d/kaohsiung-arena",
+      "assetSha256": "d5767395983800904f9535c73a0fa9da29ad6dc5c45231425fb38ca050bae47c",
+      "schema": "reference-xyz-14",
+      "defaultLayout": "end",
+      "layouts": [
+        {
+          "id": "end",
+          "label": "远端舞台",
+          "count": 11658,
+          "sectionCount": 32
+        },
+        {
+          "id": "center",
+          "label": "中央舞台",
+          "count": 14934,
+          "sectionCount": 50
+        }
+      ],
+      "conversion": {
+        "script": "scripts/build-regional-reference-seats.mjs",
+        "input": "raw/kaohsiung-arena.json",
+        "coordinates": "retained reference model; not independently measured",
+        "chairWidth": 0.48,
+        "rowDepth": 0.8,
+        "dimensionsBasis": "display estimate"
+      }
+    },
+    "kaohsiung-music-center": {
+      "source": "https://twconcertview.com/en/3d/kaohsiung-music-center",
+      "assetSha256": "2ae545889fd0046be0f6d5468afaabe983f3606647ce7f493cacd7613987fae6",
+      "schema": "reference-xyz-14",
+      "defaultLayout": "end",
+      "layouts": [
+        {
+          "id": "end",
+          "label": "远端舞台",
+          "count": 3003,
+          "sectionCount": 10
+        }
+      ],
+      "conversion": {
+        "script": "scripts/build-regional-reference-seats.mjs",
+        "input": "raw/kaohsiung-music-center.json",
+        "coordinates": "retained reference model; not independently measured",
+        "chairWidth": 0.48,
+        "rowDepth": 0.8,
+        "dimensionsBasis": "display estimate"
+      }
+    },
+    "kaohsiung-national": {
+      "source": "https://twconcertview.com/en/3d/kaohsiung-national-stadium",
+      "assetSha256": "60e34bbf3718b36a67da301ecac886870f0256a47aec0b81b659a0846748a570",
+      "schema": "reference-xyz-14",
+      "defaultLayout": "end",
+      "layouts": [
+        {
+          "id": "end",
+          "label": "场馆布局",
+          "count": 40407,
+          "sectionCount": 135
+        }
+      ],
+      "conversion": {
+        "script": "scripts/build-regional-reference-seats.mjs",
+        "input": "raw/kaohsiung-national.json",
+        "coordinates": "derived from retained seat ranges, reference curves and reconstructed tier heights; not source XYZ",
+        "chairWidth": 0.48,
+        "rowDepth": 0.8,
+        "dimensionsBasis": "display estimate",
+        "positionBasis": "reference-model-estimate",
+        "numberingBasis": "source-range-reference",
+        "excludedParts": [
+          {
+            "tier": "UW",
+            "section": "B04",
+            "part": "main"
+          },
+          {
+            "tier": "UW",
+            "section": "B04",
+            "part": "strip"
+          }
+        ],
+        "clippedSeats": []
+      }
+    },
     "legacy-tera-taipei": {
       "source": "https://twconcertview.com/en/3d/legacy-tera-taipei",
       "assetSha256": "4331714c26382237485caa37d8d0fff80fa163c52b3a130baea9cdaa597e1d67",
@@ -149,6 +236,28 @@
       "conversion": {
         "script": "scripts/build-regional-reference-seats.mjs",
         "input": "raw/sub-live-taipei.json",
+        "coordinates": "retained reference model; not independently measured",
+        "chairWidth": 0.48,
+        "rowDepth": 0.8,
+        "dimensionsBasis": "display estimate"
+      }
+    },
+    "taichung-opera-house": {
+      "source": "https://twconcertview.com/en/3d/taichung-opera-house",
+      "assetSha256": "2c9da4beca61da262ac4fa5e2cd347655a494b7aaeebc1d92a934d0671e2a0a7",
+      "schema": "reference-xyz-14",
+      "defaultLayout": "end",
+      "layouts": [
+        {
+          "id": "end",
+          "label": "远端舞台",
+          "count": 1994,
+          "sectionCount": 17
+        }
+      ],
+      "conversion": {
+        "script": "scripts/build-regional-reference-seats.mjs",
+        "input": "raw/taichung-opera-house.json",
         "coordinates": "retained reference model; not independently measured",
         "chairWidth": 0.48,
         "rowDepth": 0.8,

@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "id": "tpac-grand-acg-20261213",
+  "venueId": "taipei-pac-grand-theater",
+  "seatLayoutId": "end",
+  "status": "research-preview",
+  "publicationStatus": "not-published",
+  "displayMode": "reference-only",
+  "event": {
+    "name": "2026風動室內樂團《無限》ACG電玩動漫音樂會",
+    "dates": [
+      "2026-12-13"
+    ],
+    "url": "https://www.opentix.life/event/1955916913608867841",
+    "bindingNote": "Official OPENTIX event page and public self-selection seatmap confirm 2026風動室內樂團《無限》ACG電玩動漫音樂會, TPAC Grand Theater, 2026-12-13 19:30. Original rendered SVG retained. PNG is a Codex/browser rasterization with computed styles; availability colors are a retrieval-time snapshot, not current inventory, permanent closures or price-zone geometry."
+  },
+  "source": {
+    "path": "data/research-events/regional-concert-maps-2026-11-12/tpac-grand-acg-20261213.png",
+    "url": "https://www.opentix.life/cart/1955916913608867841/2010547622434107393",
+    "retrievedAt": "2026-11-12",
+    "sha256": "8242272263f301d2c891fc5f1672ebf46a52aca39576162c38ca7da5789b4934",
+    "rights": "undecided; private research reference, no public redistribution approval",
+    "derivation": {
+      "actor": "Codex/browser SVG rasterization",
+      "method": "Rendered public svg#canvas with computed styles on a white canvas; no seat positions or colors edited",
+      "original": {
+        "path": "data/research-events/regional-concert-maps-2026-11-12/tpac-grand-acg-20261213.svg",
+        "url": "https://www.opentix.life/cart/1955916913608867841/2010547622434107393",
+        "retrievedAt": "2026-11-12",
+        "sha256": "bbb47347da5683846b5c5575afb44031349da896df1df2e48f23a2d34771aed7",
+        "rights": "undecided; private research reference, no public redistribution approval"
+      }
+    },
+    "bytes": 806606
+  },
+  "eventSource": {
+    "path": "data/research-events/regional-concert-maps-2026-11-12/tpac-grand-acg-20261213.html",
+    "url": "https://www.opentix.life/event/1955916913608867841",
+    "retrievedAt": "2026-11-12",
+    "sha256": "6873c67cbd615376d873c8b8cac57f252dd8e7d30186e07b867b0289648af2e1",
+    "rights": "undecided; private research reference, no public redistribution approval",
+    "bytes": 964292
+  },
+  "registration": {
+    "allowDistances": false,
+    "allowPublication": false,
+    "metricCalibrated": false
+  },
+  "fixedSeats": {
+    "policy": "reuse-verbatim",
+    "count": 1449,
+    "assetSha256": "c12654d20ca6f27a3e55c2de44688104802393f11c4944ca9b68e2f2c62581ed",
+    "identityPositionSha256": "a39891e9fb7c46c343820d03ff58c21cd69ce3473be11e082d7a559daf889907"
+  },
+  "stage": [],
+  "zones": [],
+  "equipment": [],
+  "temporarySeats": [],
+  "closedSections": null,
+  "notes": [
+    "Official OPENTIX event page and public self-selection seatmap confirm 2026風動室內樂團《無限》ACG電玩動漫音樂會, TPAC Grand Theater, 2026-12-13 19:30. Original rendered SVG retained. PNG is a Codex/browser rasterization with computed styles; availability colors are a retrieval-time snapshot, not current inventory, permanent closures or price-zone geometry."
+  ]
+}

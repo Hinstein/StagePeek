@@ -42,12 +42,24 @@ function crosses(a,b,c,d){
 const edgesCross=(a,b)=>a.some((p,i)=>b.some((q,j)=>crosses(p,a[(i+1)%a.length],q,b[(j+1)%b.length])));
 
 export function sourceEventDisplayDraft(venue,draft){
- if(!draft||venue.geometry?.displayBasis!=='source-row-ribbons')return draft;
+ if(!draft||!(venue.geometry?.displayBasis==='source-row-ribbons'||venue.referenceModel))return draft;
  if(!cache.has(venue))cache.set(venue,new WeakMap());
  if(cache.get(venue).has(draft))return cache.get(venue).get(draft);
  const anchored=items=>items.map(shape=>({...shape,labelPosition:eventInteriorAnchor(shape)}));
- const result={...draft,stage:anchored(draft.stage),zones:anchored(draft.zones),equipment:anchored(draft.equipment),floorChairs:[]};
- const zones=seatedEvents.has(draft.id)?result.zones.filter(z=>z.kind==='price-zone'):[];
+ const result={...draft,stage:anchored(draft.stage),zones:anchored(draft.zones),equipment:anchored(draft.equipment),floorChairs:[],floorViews:[]};
+ result.floorViews=result.zones.filter(z=>z.kind==='standing'&&z.previewView).map(z=>{
+  const target=result.stage[0]?.labelPosition||z.labelPosition;
+  // A standing preview should face the show from clear floor, rather than
+  // defaulting to a central control desk or a position behind a delay tower.
+  const candidates=[.6,.45,.3,.15,0].map(t=>z.labelPosition.map((v,i)=>v+(target[i]-v)*t));
+  const point=candidates.find(p=>{
+   const clearance=Array.from({length:8},(_,i)=>[p[0]+Math.cos(i*Math.PI/4),p[1]+Math.sin(i*Math.PI/4)]);
+   return clearance.every(q=>eventPointInside(q,z.polygon)&&!(z.holes||[]).some(h=>eventPointInside(q,h)))&&result.equipment.every(shape=>
+    clearance.every(q=>!eventPointInside(q,shape.polygon))&&!shape.polygon.some((q,i)=>crosses(p,target,q,shape.polygon[(i+1)%shape.polygon.length])));
+  });
+  return point?{zoneId:z.id,label:z.label,p:[point[0],z.height,point[1]],visualOnly:true,sourceSeat:false,displayBasis:'illustrative-standing-view'}:null;
+ }).filter(Boolean);
+ const zones=result.zones.filter(z=>z.kind==='price-zone'&&(seatedEvents.has(draft.id)||z.seating==='illustrative'));
  if(!zones.length){cache.get(venue).set(draft,result);return result;}
  const points=zones.flatMap(z=>z.polygon),origin=[points.reduce((n,p)=>n+p[0],0)/points.length,points.reduce((n,p)=>n+p[1],0)/points.length];
  const target=result.stage[0].labelPosition;
@@ -64,13 +76,15 @@ export function sourceEventDisplayDraft(venue,draft){
  // These retained event maps explicitly have seated floor blocks. Price-zone
  // alone is not enough to infer seating for an arbitrary future event.
  for(const zone of zones){
+  // Explicit wings of a centre-stage show share a direction within each wing.
+  const angle=zone.seatingGroup?zone.seatingAngle:result.seatingFrame.angle;
   const center=origin;
   const local=zone.polygon.map(([x,z])=>[(x-center[0])*Math.cos(angle)-(z-center[1])*Math.sin(angle),(x-center[0])*Math.sin(angle)+(z-center[1])*Math.cos(angle)]);
   const minX=Math.min(...local.map(p=>p[0])),maxX=Math.max(...local.map(p=>p[0])),minZ=Math.min(...local.map(p=>p[1])),maxZ=Math.max(...local.map(p=>p[1]));
   for(let row=Math.ceil((minZ+.5)/.95);row<=Math.floor((maxZ-.5)/.95);row++)for(let col=Math.ceil((minX+.5)/.66);col<=Math.floor((maxX-.5)/.66);col++){
    const x=col*.66,z=row*.95;
    if(maxX-minX>10&&Math.abs(x)<.7||maxZ-minZ>14&&Math.abs(z)<.9)continue;
-   const chair={zoneId:zone.id,label:zone.label,p:[center[0]+x*Math.cos(angle)+z*Math.sin(angle),zone.height,center[1]-x*Math.sin(angle)+z*Math.cos(angle)],angle,visualOnly:true,displayBasis:'illustrative-event-seating'};
+   const chair={zoneId:zone.id,label:zone.label,p:[center[0]+x*Math.cos(angle)+z*Math.sin(angle),zone.height,center[1]-x*Math.sin(angle)+z*Math.cos(angle)],angle,visualOnly:true,sourceSeat:false,displayBasis:'illustrative-event-seating'};
    const footprint=eventChairFootprint(chair);
    if(!footprint.every(p=>eventPointInside(p,zone.polygon))||edgesCross(footprint,zone.polygon))continue;
    if([...(zone.holes||[]),...result.stage.map(s=>s.polygon),...result.equipment.map(s=>s.polygon)].some(poly=>footprint.some(p=>eventPointInside(p,poly))||poly.some(p=>eventPointInside(p,footprint))||edgesCross(footprint,poly)))continue;

@@ -104,6 +104,329 @@
         "2026-11-18"
       ],
       "sha256": "488d57cb870da4c5193b09f6e900ece3d394a51be38bd91f952266a37caabf7c"
+    },
+    {
+      "id": "taipei-accusefive-20261106",
+      "venueId": "taipei-arena",
+      "seatLayoutId": "end",
+      "label": "告五人 — 台北演唱會",
+      "dates": [
+        "2026-11-06",
+        "2026-11-07",
+        "2026-11-08"
+      ],
+      "sha256": "473e12eedb2416ae5d9f5ff96e48838e7958a8c00aeec19fe13c30dc96c59206",
+      "localOnly": true
+    },
+    {
+      "id": "taipei-rene-20261205",
+      "venueId": "taipei-arena",
+      "seatLayoutId": "center",
+      "label": "劉若英 — 台北演唱會",
+      "dates": [
+        "2026-12-05"
+      ],
+      "sha256": "1e729c4bb5c44e0157937336725cbd8f08b96b719e4729766c675c63e3f6eec4",
+      "localOnly": true
+    },
+    {
+      "id": "ticc-youngk-20261128",
+      "venueId": "ticc-taipei",
+      "seatLayoutId": "end",
+      "label": "Young K — The Youngest",
+      "dates": [
+        "2026-11-28",
+        "2026-11-29"
+      ],
+      "sha256": "0c8f31252c42a98ea68b2a7d8e2433992721468a2adb2f9e188606244e3837a5",
+      "localOnly": true
+    },
+    {
+      "id": "awe-kun-20261128",
+      "venueId": "asiaworld-arena",
+      "seatLayoutId": "end",
+      "label": "KUN — The Deadman",
+      "dates": [
+        "2026-11-28",
+        "2026-11-29"
+      ],
+      "sha256": "142cb77bf8679038a96884241972f8d1d5107dd632b3321ce67d82c445306a02",
+      "localOnly": true
+    },
+    {
+      "id": "runway-joji-20261129",
+      "venueId": "asiaworld-runway-11",
+      "seatLayoutId": "end",
+      "label": "JOJI — SOLARIS",
+      "dates": [
+        "2026-11-29"
+      ],
+      "sha256": "2d65b9cef5f74ed663dc359bcebf097d6d391830b5943351748932291b72aad0",
+      "localOnly": true
+    },
+    {
+      "id": "runway-donghae-20260627",
+      "venueId": "asiaworld-runway-11",
+      "seatLayoutId": "end",
+      "label": "DONGHAE — ALIVE",
+      "dates": [
+        "2026-06-27",
+        "2026-06-28"
+      ],
+      "sha256": "5dcb8ee3626be8557552155282423b62de0689966fea9c2425b9408097362161",
+      "localOnly": true
+    },
+    {
+      "id": "summit-eunhyuk-20260919",
+      "venueId": "asiaworld-summit-hall-2",
+      "seatLayoutId": "end",
+      "label": "EUNHYUK — be: WARE OF THE RABBIT",
+      "dates": [
+        "2026-09-19"
+      ],
+      "sha256": "214d233cb802917e9c914e845681fe683572cb85293b83ae9f6b6fd9ba392020",
+      "localOnly": true
+    },
+    {
+      "id": "zepp-karencici-20261127",
+      "venueId": "zepp-new-taipei",
+      "seatLayoutId": "standing",
+      "label": "Karencici — The Loser Live In Concert",
+      "dates": [
+        "2026-11-27"
+      ],
+      "sha256": "685a14f1a7d2ec3379a8523562886aa79e19fca6494ba4e2b9e86cdfe82ee52f",
+      "localOnly": true
+    },
+    {
+      "id": "tmc-atarayo-20261219",
+      "venueId": "taipei-music-center",
+      "seatLayoutId": "end",
+      "label": "Atarayo — ASIA TOUR 2026 in TAIPEI",
+      "dates": [
+        "2026-12-19"
+      ],
+      "sha256": "5971b5b2ac08afa4c3fcb5f9b68aea5a6499895def00f6b148e9a7940a50bcdd",
+      "localOnly": true
+    },
+    {
+      "id": "nch-mco-20261122",
+      "venueId": "national-concert-hall-taipei",
+      "seatLayoutId": "end",
+      "label": "Yuja Wang & Mahler Chamber Orchestra — Taipei",
+      "dates": [
+        "2026-11-22"
+      ],
+      "sha256": "7420dc8ea00a51b009651e570195a937fb37344e0e04765324829a324eeea02e",
+      "localOnly": true
+    },
+    {
+      "id": "kaitak-straykids-20261205",
+      "venueId": "kai-tak-stadium",
+      "seatLayoutId": "bowl",
+      "label": "Stray Kids — RUN IT HONG KONG",
+      "dates": [
+        "2026-12-05"
+      ],
+      "sha256": "61cb4daed1c95b015309a31bc53a98fd5df29918777bbe008cbaa9bd5e4d5b25",
+      "localOnly": true
+    },
+    {
+      "id": "clapper-victon-20261211",
+      "venueId": "clapper-studio-taipei",
+      "seatLayoutId": "end",
+      "label": "VICTON — [10:NOW] IN TAIPEI",
+      "dates": [
+        "2026-12-11"
+      ],
+      "sha256": "a93c6945070f775b3ea17c685287cb1ee51638c8337049ee873b18cb5c734a44",
+      "localOnly": true
+    },
+    {
+      "id": "tpac-globe-agong-20260118",
+      "venueId": "taipei-pac-globe-playhouse",
+      "seatLayoutId": "end",
+      "label": "阿龔 — 月光動物園音樂會",
+      "dates": [
+        "2026-01-18"
+      ],
+      "sha256": "67f47ec40ed9f21cf8714d3bf036d7c5f4194ada5f42599625c3ff30ee2e6662",
+      "localOnly": true
+    },
+    {
+      "id": "tpac-grand-acg-20261213",
+      "venueId": "taipei-pac-grand-theater",
+      "seatLayoutId": "end",
+      "label": "2026風動室內樂團《無限》ACG電玩動漫音樂會",
+      "dates": [
+        "2026-12-13"
+      ],
+      "sha256": "c8798792af968335d75986752b8ba058ecf6b6de99939e20c3fc665b6af1709a",
+      "localOnly": true
+    },
+    {
+      "id": "tttc-nco-20261205",
+      "venueId": "taiwan-traditional-theatre-center-grand-theater",
+      "seatLayoutId": "end",
+      "label": "臺灣國樂團《情繫NCO》",
+      "dates": [
+        "2026-12-05"
+      ],
+      "sha256": "530a226eb6c55f743637245356817deac415c153db4d874dc49d2767edd7e1f2",
+      "localOnly": true
+    },
+    {
+      "id": "ntu-jessica-20270220",
+      "venueId": "ntu-sports-center",
+      "seatLayoutId": "end",
+      "label": "JESSICA CONCERT TOUR Reflections IN TAIPEI",
+      "dates": [
+        "2027-02-20"
+      ],
+      "sha256": "8368ffda6621b648f81dae560dc4d1317e77a0f33e609533271d2622d82c9ca7",
+      "localOnly": true
+    },
+    {
+      "id": "hkc-gigi-20261127",
+      "venueId": "hong-kong-coliseum",
+      "seatLayoutId": "end",
+      "label": "LOVE Gigi World Tour 2026",
+      "dates": [
+        "2026-11-27"
+      ],
+      "sha256": "db080a242937eb8a6d76c019c7591d50328469ae74ca7a37ab895f70f9659d28",
+      "localOnly": true
+    },
+    {
+      "id": "hkc-gigi-20261128",
+      "venueId": "hong-kong-coliseum",
+      "seatLayoutId": "end",
+      "label": "LOVE Gigi World Tour 2026",
+      "dates": [
+        "2026-11-28"
+      ],
+      "sha256": "b141b5729219b314218520f0cc5caa0eb6d02b116ff4c3555261f76cf7aaf57c",
+      "localOnly": true
+    },
+    {
+      "id": "hkc-gigi-20261129",
+      "venueId": "hong-kong-coliseum",
+      "seatLayoutId": "end",
+      "label": "LOVE Gigi World Tour 2026",
+      "dates": [
+        "2026-11-29"
+      ],
+      "sha256": "bc0e978196f34f3a4a6c8ed893d611abfc3c2134bc81329f6612e8a2c36ff114",
+      "localOnly": true
+    },
+    {
+      "id": "nt-lesmis-20250627",
+      "venueId": "national-theater-taipei",
+      "seatLayoutId": "end",
+      "label": "LES MISÉRABLES STAGED CONCERT SPECTACULAR",
+      "dates": [
+        "2025-06-27"
+      ],
+      "sha256": "562e28d80dca1b3d888c71dc124669a908fc6bfea9476b29b49aff765c5571c1",
+      "localOnly": true
+    },
+    {
+      "id": "viva-riize-20240601",
+      "venueId": "asiaworld-viva",
+      "seatLayoutId": "end",
+      "label": "2024 RIIZE FAN-CON RIIZING DAY in HONG KONG",
+      "dates": [
+        "2024-06-01"
+      ],
+      "sha256": "28b8a655d672b9a11109a8932e1a96a821f2a36ae7aefc79e43650eff6e2c20b",
+      "localOnly": true
+    },
+    {
+      "id": "tokyo-bruno-20270127",
+      "venueId": "tokyo-dome",
+      "seatLayoutId": "end",
+      "label": "Bruno Mars — The Romantic Tour",
+      "dates": [
+        "2027-01-27",
+        "2027-01-28"
+      ],
+      "sha256": "e8f276c2f8514485117de3a7059a639e237b612cb1043b45c93b0b31d82ff5b5",
+      "localOnly": true
+    },
+    {
+      "id": "singapore-bruno-20270413",
+      "venueId": "singapore-national",
+      "seatLayoutId": "end",
+      "label": "Bruno Mars — The Romantic Tour",
+      "dates": [
+        "2027-04-13",
+        "2027-04-14",
+        "2027-04-17",
+        "2027-04-18"
+      ],
+      "sha256": "706cf564727f73e595f0feceebe3b847ef15c5a6b76911c8c41a035369d0166d",
+      "localOnly": true
+    },
+    {
+      "id": "kaohsiung-bts-20261119",
+      "venueId": "kaohsiung-national",
+      "seatLayoutId": "end",
+      "label": "BTS WORLD TOUR 'ARIRANG' IN KAOHSIUNG",
+      "dates": [
+        "2026-11-19",
+        "2026-11-21",
+        "2026-11-22"
+      ],
+      "sha256": "a6b5e8e4ff62d9e9309c68e0d2cb4fa5a5d299617e653c6ab0e410f2106e190d",
+      "localOnly": true
+    },
+    {
+      "id": "osaka-bruno-20270119",
+      "venueId": "kyocera-dome",
+      "seatLayoutId": "end",
+      "label": "Bruno Mars — The Romantic Tour",
+      "dates": [
+        "2027-01-19",
+        "2027-01-20"
+      ],
+      "sha256": "b7477beb54509e33f0bd8efe49297b081f46337fc8e21d1252df32a1318e53c7",
+      "localOnly": true
+    },
+    {
+      "id": "philippines-bruno-20270515",
+      "venueId": "philippine-arena",
+      "seatLayoutId": "end",
+      "label": "Bruno Mars — The Romantic Tour",
+      "dates": [
+        "2027-05-15",
+        "2027-05-16"
+      ],
+      "sha256": "509391430edd43db3c0cfe74d0c94d2845502d0e9d1735680110b15658e16f27",
+      "localOnly": true
+    },
+    {
+      "id": "bangkok-bruno-20270424",
+      "venueId": "rajamangala",
+      "seatLayoutId": "end",
+      "label": "The Romantic Tour — Bangkok",
+      "dates": [
+        "2027-04-24",
+        "2027-04-25"
+      ],
+      "sha256": "2216f51f74055590fee07fa189dd0b601d05c43690c1f50de804da69e07979c8",
+      "localOnly": true
+    },
+    {
+      "id": "kuala-lumpur-bts-20261212",
+      "venueId": "bukit-jalil",
+      "seatLayoutId": "end",
+      "label": "BTS WORLD TOUR 'ARIRANG' IN KUALA LUMPUR",
+      "dates": [
+        "2026-12-12",
+        "2026-12-13"
+      ],
+      "sha256": "ae7b0faa1d1523b7410c1c1f5ce24a38e66dea9cc10a31d7eeb6db7748deb85f",
+      "localOnly": true
     }
   ]
 }

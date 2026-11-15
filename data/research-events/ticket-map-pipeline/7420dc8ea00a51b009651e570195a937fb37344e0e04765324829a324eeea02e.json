@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "nch-mco-20261122",
+  "venueId": "national-concert-hall-taipei",
+  "seatLayoutId": "end",
+  "status": "research-preview",
+  "publicationStatus": "not-published",
+  "displayMode": "reference-only",
+  "event": {
+    "name": "Yuja Wang & Mahler Chamber Orchestra — Taipei",
+    "dates": [
+      "2026-11-22"
+    ],
+    "url": "https://ticket.mna.com.tw/UTK0201_?PRODUCT_ID=P1FX0ASD",
+    "bindingNote": "Official MNA event page links the Taipei price seating chart. Printed chart confirms Yuja Wang, Mahler Chamber Orchestra, National Concert Hall and 2026-11-22. Price zones are image references, not event inventory or registered geometry."
+  },
+  "source": {
+    "path": "data/research-events/regional-concert-maps-2026-11-12/nch-mco-20261122.jpg",
+    "url": "https://drive.google.com/file/d/14rUQOd9lofvEgGuDEZLp7oaa5IcN1MoU/view?usp=drive_link",
+    "retrievedAt": "2026-11-12",
+    "sha256": "3a541ace81c3456e540e1fae486001a7ea072b0cb2cae31c409b9e8226fd1f15",
+    "rights": "undecided; private research reference, no public redistribution approval",
+    "bytes": 3645328
+  },
+  "eventSource": {
+    "path": "data/research-events/regional-concert-maps-2026-11-12/nch-mco-20261122.html",
+    "url": "https://ticket.mna.com.tw/UTK0201_?PRODUCT_ID=P1FX0ASD",
+    "retrievedAt": "2026-11-12",
+    "sha256": "2f431bf4aebd0b62c02e324af20df185e75711bd52ded256fb69d6f491251210",
+    "rights": "undecided; private research reference, no public redistribution approval",
+    "bytes": 766917
+  },
+  "registration": {
+    "allowDistances": false,
+    "allowPublication": false,
+    "metricCalibrated": false
+  },
+  "fixedSeats": {
+    "policy": "reuse-verbatim",
+    "count": 2008,
+    "assetSha256": "148bc73a034a190e08aaf053522861a61af84fb04fe9cdef5f092239e6cc87c9",
+    "identityPositionSha256": "b13a336dc1a0af0dabaa347fe5858a21f038e7494304154c845a260f4d4c38f1"
+  },
+  "stage": [],
+  "zones": [],
+  "equipment": [],
+  "temporarySeats": [],
+  "closedSections": null,
+  "notes": [
+    "Official MNA event page links the Taipei price seating chart. Printed chart confirms Yuja Wang, Mahler Chamber Orchestra, National Concert Hall and 2026-11-22. Price zones are image references, not event inventory or registered geometry."
+  ]
+}

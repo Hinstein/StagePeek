@@ -37,10 +37,20 @@ function verifySource(source,readSource){
   if(!/^[a-f0-9]{64}$/.test(source.sha256||'')||digest(bytes)!==source.sha256)throw Error('Source hash mismatch: '+source.path);
   return {...source,bytes:bytes.length};
 }
+// A verified event image can be useful before its diagram has a safe 3D registration.
+export function buildTicketMapReference(recipe,{venue,readSource}){
+  if(!/^[a-z0-9-]+$/.test(recipe.id||'')||venue?.id!==recipe.venueId||!(venue.sourceSeats?.length&&venue.seatLayout?.id===recipe.seatLayoutId||venue.referenceModel?.id===recipe.seatLayoutId))throw Error('Venue/layout binding mismatch');
+  if(!recipe.event?.name||!recipe.event.bindingNote||!recipe.event.dates?.length||!recipe.event.dates.every(d=>/^\d{4}-\d{2}-\d{2}$/.test(d)))throw Error('Missing event identity');
+  return {schemaVersion:1,id:recipe.id,venueId:venue.id,seatLayoutId:recipe.seatLayoutId,status:'research-preview',publicationStatus:'not-published',displayMode:'reference-only',event:recipe.event,
+    source:verifySource(recipe.source,readSource),eventSource:verifySource(recipe.eventSource,readSource),
+    registration:{allowDistances:false,allowPublication:false,metricCalibrated:false},
+    ...(venue.sourceSeats?.length?{fixedSeats:{policy:'reuse-verbatim',count:venue.sourceSeats.length,assetSha256:venue.seatLayout.assetSha256,identityPositionSha256:seatDigest(venue.sourceSeats)}}:{venueModel:{...venue.referenceModel,policy:'section-only-reference'}}),
+    stage:[],zones:[],equipment:[],temporarySeats:[],closedSections:null,notes:recipe.notes||[]};
+}
 export function buildTicketMapDraft(recipe,{venue,readSource}){
   if(!/^[a-z0-9-]+$/.test(recipe.id||''))throw Error('Invalid draft ID');
-  if(!venue?.sourceSeats?.length||venue.id!==recipe.venueId||venue.seatLayout.id!==recipe.seatLayoutId)throw Error('Venue/layout binding mismatch');
-  if(venue.seatLayout.assetSha256!==recipe.seatAssetSha256)throw Error('Seat asset changed; rebind the recipe');
+  if(venue?.id!==recipe.venueId||!(venue.sourceSeats?.length&&venue.seatLayout.id===recipe.seatLayoutId||venue.referenceModel?.id===recipe.seatLayoutId))throw Error('Venue/layout binding mismatch');
+  if(venue.sourceSeats?.length?venue.seatLayout.assetSha256!==recipe.seatAssetSha256:venue.referenceModel.sha256!==recipe.venueModelSha256)throw Error('Seat asset or venue model changed; rebind the recipe');
   if(!recipe.event?.name||!recipe.event.dates?.length||!recipe.event.dates.every(d=>/^\d{4}-\d{2}-\d{2}$/.test(d)))throw Error('Missing event identity');
   const source=verifySource(recipe.source,readSource),eventSource=verifySource(recipe.eventSource,readSource);
   if(!recipe.event.bindingNote||!recipe.actor)throw Error('Missing event binding evidence or actor');
@@ -55,20 +65,23 @@ export function buildTicketMapDraft(recipe,{venue,readSource}){
     if((s.holes||[]).some(h=>!validPolygon(h)||h.some(p=>!inside(p,s.pixels))))throw Error('Invalid hole: '+s.id);
     if(s.displayPixels&&(!displayMatrix||!validPolygon(s.displayPixels)||s.displayPixels.some(([x,y])=>x<0||x>width||y<0||y>height)||(s.holes||[]).length))throw Error('Invalid display polygon: '+s.id);
     if(s.labelPixel&&(!displayMatrix||!point(s.labelPixel)||!inside(s.labelPixel,s.displayPixels||s.pixels)||(s.holes||[]).some(h=>inside(s.labelPixel,h))))throw Error('Invalid display label: '+s.id);
+    if(s.seating!==undefined&&(s.kind!=='price-zone'||s.seating!=='illustrative'))throw Error('Invalid illustrative seating: '+s.id);
+    if(s.previewView!==undefined&&(s.kind!=='standing'||s.previewView!==true))throw Error('Invalid standing viewpoint: '+s.id);
+    if(s.seatingGroup!==undefined&&(!s.seating||!s.seatingGroup||!Number.isFinite(s.seatingAngle)))throw Error('Invalid seating direction: '+s.id);
     return {...s,polygon:s.pixels.map(transform),holes:(s.holes||[]).map(h=>h.map(transform)),method:'AI-visual-trace',actor:recipe.actor,positionStatus:'estimated-registration',heightStatus:'display-estimate'};
   });
   if(!shapes.length||new Set(shapes.map(s=>s.id)).size!==shapes.length)throw Error('Missing or duplicate shapes');
   const collisions=[];
-  for(const s of shapes.filter(s=>['stage','equipment'].includes(s.kind)))for(const seat of venue.sourceSeats){
+  for(const s of shapes.filter(s=>['stage','equipment'].includes(s.kind)))for(const seat of venue.sourceSeats||[]){
     const p=[seat.position[0],seat.position[2]];
     if(seat.position[1]<=s.height+.5&&(inside(p,s.polygon)||s.polygon.some((a,i)=>distance(p,a,s.polygon[(i+1)%s.polygon.length])<.55)))collisions.push({shape:s.id,section:seat.section,row:seat.row,seat:seat.seat});
   }
   const [w,d]=venue.geometry.floor;
   const outside=shapes.flatMap(s=>s.polygon.filter(([x,z])=>Math.abs(x)>w/2||Math.abs(z)>d/2).map(p=>({shape:s.id,point:p})));
   // Never infer identity, metric calibration, section closures or review from geometry.
-  const draft={schemaVersion:1,id:recipe.id,status:'research-preview',publicationStatus:'not-published',event:recipe.event,venueId:venue.id,seatLayoutId:venue.seatLayout.id,
+  const draft={schemaVersion:1,id:recipe.id,status:'research-preview',publicationStatus:'not-published',displayMode:'estimated-layout',event:recipe.event,venueId:venue.id,seatLayoutId:recipe.seatLayoutId,
     source,eventSource,registration:{...recipe.registration,coordinateFrame:'source-model-units',metricCalibrated:false,independentHoldoutPassed:false,allowDistances:false,allowPublication:false},
-    fixedSeats:{policy:'reuse-verbatim',count:venue.sourceSeats.length,assetSha256:venue.seatLayout.assetSha256,identityPositionSha256:seatDigest(venue.sourceSeats)},
+    ...(venue.sourceSeats?.length?{fixedSeats:{policy:'reuse-verbatim',count:venue.sourceSeats.length,assetSha256:venue.seatLayout.assetSha256,identityPositionSha256:seatDigest(venue.sourceSeats)}}:{venueModel:{...venue.referenceModel,policy:'section-only-reference'}}),
     stage:shapes.filter(s=>s.kind==='stage'),zones:shapes.filter(s=>['standing','price-zone'].includes(s.kind)),equipment:shapes.filter(s=>s.kind==='equipment'),temporarySeats:[],closedSections:null,
     audit:{finiteCoordinates:shapes.every(s=>s.polygon.flat().every(Number.isFinite)),simplePolygons:shapes.every(s=>validPolygon(s.polygon)),modelEnvelopeOutsideVertices:outside,seatEnvelopeConflicts:collisions,
       metricCalibrated:false,independentHoldoutPassed:false,blockers:['图中缺少独立区号／尺度锚点，配准尚未核实','固定看台票号沿用第三方来源，未整体独立认证',...(collisions.length?['舞台或设备与来源座位包络相交，需核对配准或实际封区']:[])],

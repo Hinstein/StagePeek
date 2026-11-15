@@ -20,7 +20,7 @@ export function concertViewsPage(locale,user,{publicMode=false}={}){
   .replace('<details class="sources">','<div id="capability-badges" class="capability-badges"></div><details class="sources">')
   .replace('<span id="coverage-count">','<span id="conflict-legend" hidden>本场布局相交待核对</span><span id="coverage-count">')
   .replace('<label class="small"><span data-i18n="explorer.layoutPicker">','<section id="research-v0-notice" class="research-v0-notice" hidden></section><label class="small"><span data-i18n="explorer.layoutPicker">')
-  .replace('</p></section>\n      </aside>','</p><div id="ticket-map-conflicts" hidden></div><button id="return-venue-layout" class="wide" hidden>返回场馆常规布局</button><img id="ticket-map-preview-image" alt="本场来源票图" hidden></section>\n      </aside>');
+  .replace('</p></section>\n      </aside>','</p><div id="ticket-map-conflicts" hidden></div><button id="return-venue-layout" class="wide" hidden>返回场馆常规布局</button><a id="ticket-map-preview-link" target="_blank" rel="noopener noreferrer"><img id="ticket-map-preview-image" alt="本场来源票图" hidden></a></section>\n      </aside>');
  const localized=localizeInterfaceHtml(html,locale,'/explore');
  const copy=source=>interfaceCopy(source,[],locale);
  return localized

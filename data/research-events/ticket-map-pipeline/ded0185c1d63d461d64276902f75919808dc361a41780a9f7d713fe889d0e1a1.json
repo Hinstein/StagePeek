@@ -1,0 +1,598 @@
+{
+  "schemaVersion": 1,
+  "id": "singapore-bruno-20270413",
+  "status": "research-preview",
+  "publicationStatus": "not-published",
+  "displayMode": "estimated-layout",
+  "event": {
+    "name": "Bruno Mars — The Romantic Tour",
+    "dates": [
+      "2027-04-13",
+      "2027-04-14",
+      "2027-04-17",
+      "2027-04-18"
+    ],
+    "url": "https://ticketmaster.sg/activity/detail/27sg_brunomars",
+    "bindingNote": "Official promoter/ticket page binds these dates and this venue to the linked concert seating chart. Floor/stage shapes are AI traces placed in the existing model frame for illustrative views only."
+  },
+  "venueId": "singapore-national",
+  "seatLayoutId": "end",
+  "source": {
+    "path": "data/research-events/artist-led-2026-11-13/singapore-bruno-20270413.jpg",
+    "url": "https://static.ticketmaster.sg/images/activity/field/27sg_brunomars_eadbcf33b6216e5e3a09a28be47290e6.jpg",
+    "retrievedAt": "2026-11-13",
+    "sha256": "1cc11c294410a4444681415d4e8315829844c13bf60d2886adf4ab78a84979c1",
+    "rights": "undecided; private research reference, no public redistribution approval",
+    "bytes": 340422
+  },
+  "eventSource": {
+    "path": "data/research-events/artist-led-2026-11-13/singapore-bruno.html",
+    "url": "https://ticketmaster.sg/activity/detail/27sg_brunomars",
+    "retrievedAt": "2026-11-13",
+    "sha256": "82af2c2fe5cc8d18a9170baa056fe63d3327ad33d72b0eaf642120d931d6165e",
+    "rights": "undecided; private research reference, no public redistribution approval",
+    "bytes": 298293
+  },
+  "registration": {
+    "matrix": [
+      0.07593014897309808,
+      -0.17239130749204515,
+      0.22618512800115706,
+      0.2946929056985826,
+      38.98121818050335,
+      -341.9784193303442
+    ],
+    "width": 1500,
+    "height": 1358,
+    "rationale": "AI affine fit of diagram labels 101,113,134 to the existing estimated section centres. The map is an oblique illustration; stage/FOH/towers are approximate, not metric or independently validated.",
+    "anchors": [
+      {
+        "section": "101",
+        "pixel": [
+          450,
+          830
+        ],
+        "purpose": "fit"
+      },
+      {
+        "section": "113",
+        "pixel": [
+          1060,
+          693
+        ],
+        "purpose": "fit"
+      },
+      {
+        "section": "134",
+        "pixel": [
+          760,
+          307
+        ],
+        "purpose": "fit"
+      }
+    ],
+    "coordinateFrame": "source-model-units",
+    "metricCalibrated": false,
+    "independentHoldoutPassed": false,
+    "allowDistances": false,
+    "allowPublication": false
+  },
+  "venueModel": {
+    "id": "end",
+    "sha256": "7065aaee7de8e031ea7cf6f3705060cbc7eda53e7083d3ee4661d40cdf938980",
+    "policy": "section-only-reference"
+  },
+  "stage": [
+    {
+      "id": "stage",
+      "label": "STAGE",
+      "kind": "stage",
+      "color": "#ad8d4d",
+      "height": 1.5,
+      "pixels": [
+        [
+          891,
+          342
+        ],
+        [
+          977,
+          282
+        ],
+        [
+          1170,
+          389
+        ],
+        [
+          1086,
+          449
+        ]
+      ],
+      "polygon": [
+        [
+          47.67715375325429,
+          -39.662496532397995
+        ],
+        [
+          64.55062501446344,
+          -37.89214986621346
+        ],
+        [
+          60.75927386462254,
+          37.29372074775819
+        ],
+        [
+          44.03766290135958,
+          35.975744337575975
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    }
+  ],
+  "zones": [
+    {
+      "id": "standing-pen",
+      "label": "GENERAL ADMISSION",
+      "kind": "standing",
+      "color": "#7479a6",
+      "height": 0.035,
+      "pixels": [
+        [
+          789,
+          326
+        ],
+        [
+          1124,
+          499
+        ],
+        [
+          1113,
+          524
+        ],
+        [
+          1084,
+          558
+        ],
+        [
+          1030,
+          609
+        ],
+        [
+          961,
+          661
+        ],
+        [
+          880,
+          705
+        ],
+        [
+          794,
+          739
+        ],
+        [
+          700,
+          765
+        ],
+        [
+          613,
+          779
+        ],
+        [
+          542,
+          771
+        ],
+        [
+          481,
+          750
+        ],
+        [
+          445,
+          718
+        ],
+        [
+          423,
+          682
+        ],
+        [
+          419,
+          645
+        ],
+        [
+          428,
+          603
+        ],
+        [
+          453,
+          556
+        ],
+        [
+          491,
+          512
+        ],
+        [
+          545,
+          464
+        ],
+        [
+          617,
+          415
+        ],
+        [
+          694,
+          371
+        ]
+      ],
+      "polygon": [
+        [
+          42.69053947787101,
+          -67.44846607969339
+        ],
+        [
+          38.30344318773507,
+          59.30542448654904
+        ],
+        [
+          33.158428861729845,
+          64.1847107210009
+        ],
+        [
+          25.095150086780464,
+          67.64490080271912
+        ],
+        [
+          12.202965360138876,
+          70.46024208128438
+        ],
+        [
+          -2.000562908591249,
+          70.1774993455308
+        ],
+        [
+          -15.73612250506217,
+          64.82299182817474
+        ],
+        [
+          -28.127419771478145,
+          55.39062961382706
+        ],
+        [
+          -39.747027769742544,
+          41.79124312988142
+        ],
+        [
+          -48.7664290352907,
+          26.238837673560965
+        ],
+        [
+          -52.7783391524443,
+          7.822150339890129
+        ],
+        [
+          -53.78986078247034,
+          -12.163693487850708
+        ],
+        [
+          -51.00682430575644,
+          -29.736531078247026
+        ],
+        [
+          -46.47120051345095,
+          -45.3215484994214
+        ],
+        [
+          -40.396442732137686,
+          -57.12992652227365
+        ],
+        [
+          -32.4726364767139,
+          -67.47136240960367
+        ],
+        [
+          -22.47199130026032,
+          -75.66730077740817
+        ],
+        [
+          -12.001428109632613,
+          -80.03875376410178
+        ],
+        [
+          0.37358269453284265,
+          -81.97001632557124
+        ],
+        [
+          14.287727487706121,
+          -80.12463948871851
+        ],
+        [
+          27.719566488284663,
+          -75.67487248336704
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    }
+  ],
+  "equipment": [
+    {
+      "id": "foh",
+      "label": "FOH",
+      "kind": "equipment",
+      "color": "#676c7c",
+      "height": 2,
+      "pixels": [
+        [
+          694,
+          575
+        ],
+        [
+          768,
+          522
+        ],
+        [
+          811,
+          543
+        ],
+        [
+          735,
+          596
+        ]
+      ],
+      "polygon": [
+        [
+          -7.448260240092544,
+          -15.557519720856192
+        ],
+        [
+          7.307310080995109,
+          -14.438544250795474
+        ],
+        [
+          6.952089029505373,
+          1.4759672729245494
+        ],
+        [
+          -7.955341589528473,
+          -0.09537845313855087
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "delay-1",
+      "label": "Delay Tower",
+      "kind": "equipment",
+      "color": "#676c7c",
+      "height": 5,
+      "pixels": [
+        [
+          597,
+          481
+        ],
+        [
+          626,
+          496
+        ],
+        [
+          597,
+          517
+        ],
+        [
+          568,
+          502
+        ]
+      ],
+      "polygon": [
+        [
+          1.3912982137691827,
+          -65.19861027263516
+        ],
+        [
+          1.007402921608353,
+          -54.21884797512291
+        ],
+        [
+          -4.81478885594445,
+          -54.5896656674862
+        ],
+        [
+          -4.430893563783613,
+          -65.56942796499851
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "delay-2",
+      "label": "Delay Tower",
+      "kind": "equipment",
+      "color": "#676c7c",
+      "height": 5,
+      "pixels": [
+        [
+          612,
+          572
+        ],
+        [
+          641,
+          587
+        ],
+        [
+          612,
+          608
+        ],
+        [
+          583,
+          593
+        ]
+      ],
+      "polygon": [
+        [
+          -13.157358533410452,
+          -34.98877893404682
+        ],
+        [
+          -13.541253825571282,
+          -24.00901663653451
+        ],
+        [
+          -19.363445603124084,
+          -24.379834328897857
+        ],
+        [
+          -18.979550310963255,
+          -35.359596626410166
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "delay-3",
+      "label": "Delay Tower",
+      "kind": "equipment",
+      "color": "#676c7c",
+      "height": 5,
+      "pixels": [
+        [
+          723,
+          630
+        ],
+        [
+          752,
+          645
+        ],
+        [
+          723,
+          666
+        ],
+        [
+          694,
+          651
+        ]
+      ],
+      "polygon": [
+        [
+          -14.727807831935188,
+          7.20995880459941
+        ],
+        [
+          -15.111703124096017,
+          18.189721102111662
+        ],
+        [
+          -20.933894901648806,
+          17.818903409748373
+        ],
+        [
+          -20.549999609487976,
+          6.839141112236064
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "delay-4",
+      "label": "Delay Tower",
+      "kind": "equipment",
+      "color": "#676c7c",
+      "height": 5,
+      "pixels": [
+        [
+          870,
+          628
+        ],
+        [
+          899,
+          643
+        ],
+        [
+          870,
+          664
+        ],
+        [
+          841,
+          649
+        ]
+      ],
+      "polygon": [
+        [
+          -3.221293317905676,
+          39.86978680937227
+        ],
+        [
+          -3.605188610066506,
+          50.84954910688464
+        ],
+        [
+          -9.427380387619309,
+          50.478731414521235
+        ],
+        [
+          -9.043485095458472,
+          39.49896911700898
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    }
+  ],
+  "temporarySeats": [],
+  "closedSections": null,
+  "audit": {
+    "finiteCoordinates": true,
+    "simplePolygons": true,
+    "modelEnvelopeOutsideVertices": [
+      {
+        "shape": "stage",
+        "point": [
+          64.55062501446344,
+          -37.89214986621346
+        ]
+      },
+      {
+        "shape": "stage",
+        "point": [
+          60.75927386462254,
+          37.29372074775819
+        ]
+      }
+    ],
+    "seatEnvelopeConflicts": [],
+    "metricCalibrated": false,
+    "independentHoldoutPassed": false,
+    "blockers": [
+      "图中缺少独立区号／尺度锚点，配准尚未核实",
+      "固定看台票号沿用第三方来源，未整体独立认证"
+    ],
+    "scope": "Checks use the source-seat-derived rectangular model envelope, not an independently surveyed building boundary."
+  },
+  "notes": [
+    "AI-traced event shapes and illustrative heights; not a surveyed or independently registered layout.",
+    "Fixed seats and the venue model remain unchanged. Temporary chairs have no ticket identity.",
+    "Only traced floor areas are overlaid; stand price categories, closures and availability are not inferred."
+  ]
+}

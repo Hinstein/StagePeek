@@ -15,7 +15,12 @@ const regional=JSON.parse(readFileSync(new URL('../data/concert-views/regional-d
 
 test('release replaces old inventory with the explicit rebuilt catalog',()=>{
  assert.equal(venues.ids().length,39);assert.equal(venues.catalog().length,39);
- for(const id of regional)assert.ok(venues.get(id),id);
+ const released=JSON.parse(readFileSync(new URL('../data/concert-views/release.json',import.meta.url))).venueIds;
+ assert.deepEqual(venues.ids().sort(),[...released].sort());
+ for(const id of regional){
+  assert.ok(views.venues.get(id),id+' draft remains available locally');
+  assert.equal(Boolean(venues.get(id)),released.includes(id),id+' release requires explicit selection');
+ }
  for(const id of ['sofi','metlife','tottenham',...JSON.parse(readFileSync(new URL('../data/concert-views/archived.json',import.meta.url))).venues.map(v=>v.id)]){
   assert.equal(venues.get(id),null);assert.equal(venues.resolve(id,{}).status,'unknown-venue');
  }
@@ -24,7 +29,7 @@ test('release replaces old inventory with the explicit rebuilt catalog',()=>{
 
 test('regional estimated sections do not overlap or create seats outside named sections',()=>{
  for(const id of regional){
-  const venue=venues.get(id);
+  const venue=views.venues.get(id);
   if(venue.sourceSeats?.length)continue;
   const records=baseSeatRecords(venue);
   assert.ok(records.length>0||venue.sections.every(s=>s.kind==='standing'),id);
@@ -42,9 +47,9 @@ test('regional estimated sections do not overlap or create seats outside named s
 
 test('every retained regional layout has finite structural geometry and supports its original seats',()=>{
  for(const id of regional){
-  const base=venues.get(id);
+  const base=views.venues.get(id);
   for(const layout of base.seatLayouts||[{id:null}]){
-   const venue=venues.get(id,layout.id),model=sourceBowlDisplay(venue);
+   const venue=views.venues.get(id,layout.id),model=sourceBowlDisplay(venue);
    if(!venue.sourceSeats?.length){assert.ok(venue.sections.length>0,id);continue;}
    assert.ok(model,id);assert.equal(model.records.length,venue.sourceSeats.length,id);
    assert.deepEqual(model.records.map(r=>[r.section,r.row,r.seat,r.p]),venue.sourceSeats.map(r=>[r.section,r.row,r.seat,r.position]),id);

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "awe-kun-20261128",
+  "venueId": "asiaworld-arena",
+  "seatLayoutId": "end",
+  "status": "research-preview",
+  "publicationStatus": "not-published",
+  "displayMode": "reference-only",
+  "event": {
+    "name": "KUN — The Deadman",
+    "dates": [
+      "2026-11-28",
+      "2026-11-29"
+    ],
+    "url": "https://www.asiaworld-expo.com/en-us/whats-on/upcoming-events/events/cai-xukun-live-in-hong-kong-2026-the-deadman-hong?event_type=Concert&ebmsid=27364",
+    "bindingNote": "Official venue page links this map and confirms venue/dates. Central stage conflicts with retained end-layout floor seats; image reference only."
+  },
+  "source": {
+    "path": "data/research-events/regional-concert-maps-2026-11-12/awe-kun-20261128.jpg",
+    "url": "https://www.asiaworld-expo.com/AsiaWorldExpoLocal/media/AWE/assets/images/upcoming-events/2025/webmap-TRAD.jpg?ext=.jpg",
+    "retrievedAt": "2026-11-12",
+    "sha256": "cd7406881677397ac567933c607dbc37823982df888252db115481650ef87b42",
+    "rights": "undecided; private research reference, no public redistribution approval",
+    "bytes": 12517704
+  },
+  "eventSource": {
+    "path": "data/research-events/regional-concert-maps-2026-11-12/awe-kun-20261128.html",
+    "url": "https://www.asiaworld-expo.com/en-us/whats-on/upcoming-events/events/cai-xukun-live-in-hong-kong-2026-the-deadman-hong?event_type=Concert&ebmsid=27364",
+    "retrievedAt": "2026-11-12",
+    "sha256": "d452a0c85b110a20e25435646008ce3ee66ec92df7c5e71b07d3ab479443fbf3",
+    "rights": "undecided; private research reference, no public redistribution approval",
+    "bytes": 78481
+  },
+  "registration": {
+    "allowDistances": false,
+    "allowPublication": false,
+    "metricCalibrated": false
+  },
+  "fixedSeats": {
+    "policy": "reuse-verbatim",
+    "count": 11724,
+    "assetSha256": "879784a41602b70771e8a4a4d951bf0bb7dcf808365060eec6f96ed16ced68af",
+    "identityPositionSha256": "a03650e314320298153ca396952b0108903a9896f855e0c65911fef9f1cde3c9"
+  },
+  "stage": [],
+  "zones": [],
+  "equipment": [],
+  "temporarySeats": [],
+  "closedSections": null,
+  "notes": [
+    "Official venue page links this map and confirms venue/dates. Central stage conflicts with retained end-layout floor seats; image reference only."
+  ]
+}

@@ -1,0 +1,3485 @@
+{
+  "schemaVersion": 1,
+  "id": "kuala-lumpur-bts-20261212",
+  "status": "research-preview",
+  "publicationStatus": "not-published",
+  "displayMode": "estimated-layout",
+  "event": {
+    "name": "BTS WORLD TOUR 'ARIRANG' IN KUALA LUMPUR",
+    "dates": [
+      "2026-12-12",
+      "2026-12-13"
+    ],
+    "url": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR",
+    "bindingNote": "Official promoter and ticketing page bind these dates, stadium and chart. Stand labels are visually transcribed; floor polygons and heights are AI estimates. No seat IDs, event inventory, closures, or metric alignment are inferred."
+  },
+  "venueId": "bukit-jalil",
+  "seatLayoutId": "end",
+  "source": {
+    "path": "data/research-events/artist-led-2026-11-13/kuala-lumpur-bts-20261212.png",
+    "url": "https://golive-webapp-prd-ap-southeast-5.s3.ap-southeast-5.amazonaws.com/event/175/2a635df0-53ac-4613-961e-42810f5ce79c.webp",
+    "retrievedAt": "2026-11-13",
+    "sha256": "09f612059f31187bc74a96612abd926c2201b33c2dfbed3d30d67939be28190b",
+    "rights": "undecided; private research reference, no public redistribution approval",
+    "derivation": {
+      "actor": "Codex AI",
+      "method": "Lossless WebP-to-PNG pixel decoding using macOS sips; no label, colour or geometry edits.",
+      "source": {
+        "path": "data/research-events/artist-led-2026-11-13/kuala-lumpur-bts-20261212.webp",
+        "url": "https://golive-webapp-prd-ap-southeast-5.s3.ap-southeast-5.amazonaws.com/event/175/2a635df0-53ac-4613-961e-42810f5ce79c.webp",
+        "retrievedAt": "2026-11-13",
+        "sha256": "ad618310284afbc2932bb61c6d27d27ac3cecf55e04818b21752be39bf80947d",
+        "rights": "undecided; private research reference, no public redistribution approval"
+      }
+    },
+    "bytes": 3065995
+  },
+  "eventSource": {
+    "path": "data/research-events/artist-led-2026-11-13/kuala-lumpur-bts.html",
+    "url": "https://www.livenation.my/event/bts-world-tour-arirang-in-kuala-lumpur-kuala-lumpur-tickets-edp1675786",
+    "retrievedAt": "2026-11-13",
+    "sha256": "657e7e2aa1a734874de0a4b2883495fba001e986969ddc071a275b48f9c17e07",
+    "rights": "undecided; private research reference, no public redistribution approval",
+    "bytes": 568025
+  },
+  "registration": {
+    "matrix": [
+      0.17,
+      0,
+      0,
+      0.17,
+      -356.49,
+      -94.01
+    ],
+    "width": 2880,
+    "height": 1620,
+    "rationale": "AI schematic registration around the printed stadium centreline; source pixels are scaled into an explicitly estimated inner-apron frame. This is not surveyed, metric-calibrated or independently validated.",
+    "coordinateFrame": "source-model-units",
+    "metricCalibrated": false,
+    "independentHoldoutPassed": false,
+    "allowDistances": false,
+    "allowPublication": false
+  },
+  "venueModel": {
+    "id": "end",
+    "sha256": "fee4f9b5bb6cec3d3efcea9f194770cf23e6eefcb61477b2564e2f59ba622246",
+    "policy": "section-only-reference"
+  },
+  "stage": [
+    {
+      "id": "stage",
+      "label": "STAGE",
+      "kind": "stage",
+      "color": "#ad8d4d",
+      "height": 1.5,
+      "pixels": [
+        [
+          2165,
+          553
+        ],
+        [
+          2161.6718431080703,
+          571.5410196624969
+        ],
+        [
+          2152.0131556174965,
+          588.2671151375484
+        ],
+        [
+          2136.969397155888,
+          601.5410196624969
+        ],
+        [
+          2118.0131556174965,
+          610.0633909777092
+        ],
+        [
+          2097,
+          613
+        ],
+        [
+          2075.9868443825035,
+          610.0633909777092
+        ],
+        [
+          2057.030602844112,
+          601.5410196624969
+        ],
+        [
+          2041.9868443825035,
+          588.2671151375484
+        ],
+        [
+          2032.3281568919297,
+          571.5410196624969
+        ],
+        [
+          2029,
+          553
+        ],
+        [
+          2032.3281568919294,
+          534.4589803375031
+        ],
+        [
+          2041.9868443825035,
+          517.7328848624517
+        ],
+        [
+          2057.030602844112,
+          504.45898033750314
+        ],
+        [
+          2075.9868443825035,
+          495.9366090222908
+        ],
+        [
+          2097,
+          493
+        ],
+        [
+          2118.0131556174965,
+          495.9366090222908
+        ],
+        [
+          2136.969397155888,
+          504.45898033750314
+        ],
+        [
+          2152.0131556174965,
+          517.7328848624516
+        ],
+        [
+          2161.6718431080703,
+          534.4589803375031
+        ]
+      ],
+      "polygon": [
+        [
+          11.560000000000002,
+          0
+        ],
+        [
+          10.994213328371984,
+          3.1519733426244727
+        ],
+        [
+          9.352236454974445,
+          5.995409573383242
+        ],
+        [
+          6.794797516500978,
+          8.251973342624467
+        ],
+        [
+          3.5722364549744157,
+          9.70077646621057
+        ],
+        [
+          0,
+          10.200000000000003
+        ],
+        [
+          -3.5722364549744157,
+          9.70077646621057
+        ],
+        [
+          -6.794797516500978,
+          8.251973342624467
+        ],
+        [
+          -9.352236454974388,
+          5.995409573383242
+        ],
+        [
+          -10.994213328371927,
+          3.1519733426244727
+        ],
+        [
+          -11.560000000000002,
+          0
+        ],
+        [
+          -10.994213328371984,
+          -3.1519733426244727
+        ],
+        [
+          -9.352236454974388,
+          -5.995409573383213
+        ],
+        [
+          -6.794797516500978,
+          -8.251973342624467
+        ],
+        [
+          -3.5722364549744157,
+          -9.70077646621057
+        ],
+        [
+          0,
+          -10.200000000000003
+        ],
+        [
+          3.5722364549744157,
+          -9.70077646621057
+        ],
+        [
+          6.794797516500978,
+          -8.251973342624467
+        ],
+        [
+          9.352236454974445,
+          -5.9954095733832276
+        ],
+        [
+          10.994213328371984,
+          -3.1519733426244727
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "runway-1",
+      "label": "STAGE",
+      "kind": "stage",
+      "color": "#ad8d4d",
+      "height": 1.5,
+      "pixels": [
+        [
+          2055.8018108472506,
+          509.0310434353986
+        ],
+        [
+          1867.8018108472509,
+          404.0310434353986
+        ],
+        [
+          1852.1981891527491,
+          431.9689565646014
+        ],
+        [
+          2040.1981891527491,
+          536.9689565646014
+        ]
+      ],
+      "polygon": [
+        [
+          -7.0036921559673715,
+          -7.47472261598223
+        ],
+        [
+          -38.96369215596735,
+          -25.32472261598224
+        ],
+        [
+          -41.61630784403263,
+          -20.575277384017767
+        ],
+        [
+          -9.656307844032654,
+          -2.725277384017758
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "runway-2",
+      "label": "STAGE",
+      "kind": "stage",
+      "color": "#ad8d4d",
+      "height": 1.5,
+      "pixels": [
+        [
+          2157.897688311334,
+          536.9149746437791
+        ],
+        [
+          2342.897688311334,
+          431.91497464377915
+        ],
+        [
+          2327.102311688666,
+          404.08502535622085
+        ],
+        [
+          2142.102311688666,
+          509.08502535622085
+        ]
+      ],
+      "polygon": [
+        [
+          10.352607012926796,
+          -2.7344543105575383
+        ],
+        [
+          41.80260701292684,
+          -20.584454310557547
+        ],
+        [
+          39.11739298707323,
+          -25.31554568944246
+        ],
+        [
+          7.667392987073185,
+          -7.46554568944245
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "runway-3",
+      "label": "STAGE",
+      "kind": "stage",
+      "color": "#ad8d4d",
+      "height": 1.5,
+      "pixels": [
+        [
+          2141.9334200744297,
+          595.8177526502824
+        ],
+        [
+          2326.9334200744297,
+          703.8177526502824
+        ],
+        [
+          2343.0665799255703,
+          676.1822473497176
+        ],
+        [
+          2158.0665799255703,
+          568.1822473497176
+        ]
+      ],
+      "polygon": [
+        [
+          7.638681412653057,
+          7.27901795054801
+        ],
+        [
+          39.088681412653045,
+          25.63901795054801
+        ],
+        [
+          41.83131858734697,
+          20.940982049452003
+        ],
+        [
+          10.381318587346982,
+          2.5809820494519897
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "runway-4",
+      "label": "STAGE",
+      "kind": "stage",
+      "color": "#ad8d4d",
+      "height": 1.5,
+      "pixels": [
+        [
+          2040.0300086309069,
+          568.1263113204677
+        ],
+        [
+          1852.0300086309069,
+          676.1263113204677
+        ],
+        [
+          1867.9699913690931,
+          703.8736886795323
+        ],
+        [
+          2055.969991369093,
+          595.8736886795323
+        ]
+      ],
+      "polygon": [
+        [
+          -9.68489853274582,
+          2.571472924479508
+        ],
+        [
+          -41.6448985327458,
+          20.93147292447952
+        ],
+        [
+          -38.93510146725413,
+          25.64852707552049
+        ],
+        [
+          -6.9751014672542055,
+          7.288527075520491
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    }
+  ],
+  "zones": [
+    {
+      "id": "a16",
+      "label": "A16",
+      "kind": "price-zone",
+      "color": "#859db6",
+      "height": 0.045,
+      "pixels": [
+        [
+          1897,
+          360
+        ],
+        [
+          1937.6,
+          360
+        ],
+        [
+          1937.6,
+          405
+        ],
+        [
+          1897,
+          405
+        ]
+      ],
+      "seating": "illustrative",
+      "seatingGroup": "A",
+      "seatingAngle": 0,
+      "polygon": [
+        [
+          -34,
+          -32.81
+        ],
+        [
+          -27.098000000000013,
+          -32.81
+        ],
+        [
+          -27.098000000000013,
+          -25.159999999999997
+        ],
+        [
+          -34,
+          -25.159999999999997
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "a15",
+      "label": "A15",
+      "kind": "price-zone",
+      "color": "#859db6",
+      "height": 0.045,
+      "pixels": [
+        [
+          1941.6,
+          360
+        ],
+        [
+          1982.1999999999998,
+          360
+        ],
+        [
+          1982.1999999999998,
+          405
+        ],
+        [
+          1941.6,
+          405
+        ]
+      ],
+      "seating": "illustrative",
+      "seatingGroup": "A",
+      "seatingAngle": 0,
+      "polygon": [
+        [
+          -26.418000000000006,
+          -32.81
+        ],
+        [
+          -19.51600000000002,
+          -32.81
+        ],
+        [
+          -19.51600000000002,
+          -25.159999999999997
+        ],
+        [
+          -26.418000000000006,
+          -25.159999999999997
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "a14",
+      "label": "A14",
+      "kind": "price-zone",
+      "color": "#859db6",
+      "height": 0.045,
+      "pixels": [
+        [
+          1986.2,
+          360
+        ],
+        [
+          2026.8,
+          360
+        ],
+        [
+          2026.8,
+          405
+        ],
+        [
+          1986.2,
+          405
+        ]
+      ],
+      "seating": "illustrative",
+      "seatingGroup": "A",
+      "seatingAngle": 0,
+      "polygon": [
+        [
+          -18.835999999999956,
+          -32.81
+        ],
+        [
+          -11.933999999999969,
+          -32.81
+        ],
+        [
+          -11.933999999999969,
+          -25.159999999999997
+        ],
+        [
+          -18.835999999999956,
+          -25.159999999999997
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "a13",
+      "label": "A13",
+      "kind": "price-zone",
+      "color": "#859db6",
+      "height": 0.045,
+      "pixels": [
+        [
+          2030.8,
+          360
+        ],
+        [
+          2071.4,
+          360
+        ],
+        [
+          2071.4,
+          405
+        ],
+        [
+          2030.8,
+          405
+        ]
+      ],
+      "seating": "illustrative",
+      "seatingGroup": "A",
+      "seatingAngle": 0,
+      "polygon": [
+        [
+          -11.254000000000019,
+          -32.81
+        ],
+        [
+          -4.351999999999975,
+          -32.81
+        ],
+        [
+          -4.351999999999975,
+          -25.159999999999997
+        ],
+        [
+          -11.254000000000019,
+          -25.159999999999997
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "a12",
+      "label": "A12",
+      "kind": "price-zone",
+      "color": "#859db6",
+      "height": 0.045,
+      "pixels": [
+        [
+          2075.4,
+          360
+        ],
+        [
+          2116,
+          360
+        ],
+        [
+          2116,
+          405
+        ],
+        [
+          2075.4,
+          405
+        ]
+      ],
+      "seating": "illustrative",
+      "seatingGroup": "A",
+      "seatingAngle": 0,
+      "polygon": [
+        [
+          -3.6719999999999686,
+          -32.81
+        ],
+        [
+          3.230000000000018,
+          -32.81
+        ],
+        [
+          3.230000000000018,
+          -25.159999999999997
+        ],
+        [
+          -3.6719999999999686,
+          -25.159999999999997
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "a11",
+      "label": "A11",
+      "kind": "price-zone",
+      "color": "#859db6",
+      "height": 0.045,
+      "pixels": [
+        [
+          2120,
+          360
+        ],
+        [
+          2160.6,
+          360
+        ],
+        [
+          2160.6,
+          405
+        ],
+        [
+          2120,
+          405
+        ]
+      ],
+      "seating": "illustrative",
+      "seatingGroup": "A",
+      "seatingAngle": 0,
+      "polygon": [
+        [
+          3.910000000000025,
+          -32.81
+        ],
+        [
+          10.812000000000012,
+          -32.81
+        ],
+        [
+          10.812000000000012,
+          -25.159999999999997
+        ],
+        [
+          3.910000000000025,
+          -25.159999999999997
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "a10",
+      "label": "A10",
+      "kind": "price-zone",
+      "color": "#859db6",
+      "height": 0.045,
+      "pixels": [
+        [
+          2164.6,
+          360
+        ],
+        [
+          2205.2,
+          360
+        ],
+        [
+          2205.2,
+          405
+        ],
+        [
+          2164.6,
+          405
+        ]
+      ],
+      "seating": "illustrative",
+      "seatingGroup": "A",
+      "seatingAngle": 0,
+      "polygon": [
+        [
+          11.492000000000019,
+          -32.81
+        ],
+        [
+          18.394000000000005,
+          -32.81
+        ],
+        [
+          18.394000000000005,
+          -25.159999999999997
+        ],
+        [
+          11.492000000000019,
+          -25.159999999999997
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "a9",
+      "label": "A9",
+      "kind": "price-zone",
+      "color": "#859db6",
+      "height": 0.045,
+      "pixels": [
+        [
+          2209.2,
+          360
+        ],
+        [
+          2249.7999999999997,
+          360
+        ],
+        [
+          2249.7999999999997,
+          405
+        ],
+        [
+          2209.2,
+          405
+        ]
+      ],
+      "seating": "illustrative",
+      "seatingGroup": "A",
+      "seatingAngle": 0,
+      "polygon": [
+        [
+          19.074000000000012,
+          -32.81
+        ],
+        [
+          25.976,
+          -32.81
+        ],
+        [
+          25.976,
+          -25.159999999999997
+        ],
+        [
+          19.074000000000012,
+          -25.159999999999997
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "a8",
+      "label": "A8",
+      "kind": "price-zone",
+      "color": "#859db6",
+      "height": 0.045,
+      "pixels": [
+        [
+          2253.8,
+          360
+        ],
+        [
+          2294.4,
+          360
+        ],
+        [
+          2294.4,
+          405
+        ],
+        [
+          2253.8,
+          405
+        ]
+      ],
+      "seating": "illustrative",
+      "seatingGroup": "A",
+      "seatingAngle": 0,
+      "polygon": [
+        [
+          26.656000000000063,
+          -32.81
+        ],
+        [
+          33.55800000000005,
+          -32.81
+        ],
+        [
+          33.55800000000005,
+          -25.159999999999997
+        ],
+        [
+          26.656000000000063,
+          -25.159999999999997
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "a7",
+      "label": "A7",
+      "kind": "price-zone",
+      "color": "#859db6",
+      "height": 0.045,
+      "pixels": [
+        [
+          1897,
+          411
+        ],
+        [
+          1950.2,
+          411
+        ],
+        [
+          1950.2,
+          443
+        ]
+      ],
+      "seating": "illustrative",
+      "seatingGroup": "A",
+      "seatingAngle": 0,
+      "polygon": [
+        [
+          -34,
+          -24.14
+        ],
+        [
+          -24.95599999999996,
+          -24.14
+        ],
+        [
+          -24.95599999999996,
+          -18.700000000000003
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "a6",
+      "label": "A6",
+      "kind": "price-zone",
+      "color": "#859db6",
+      "height": 0.045,
+      "pixels": [
+        [
+          1954.2,
+          411
+        ],
+        [
+          2007.4,
+          411
+        ],
+        [
+          2007.4,
+          465
+        ],
+        [
+          1954.2,
+          465
+        ]
+      ],
+      "seating": "illustrative",
+      "seatingGroup": "A",
+      "seatingAngle": 0,
+      "polygon": [
+        [
+          -24.275999999999954,
+          -24.14
+        ],
+        [
+          -15.231999999999971,
+          -24.14
+        ],
+        [
+          -15.231999999999971,
+          -14.959999999999994
+        ],
+        [
+          -24.275999999999954,
+          -14.959999999999994
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "a5",
+      "label": "A5",
+      "kind": "price-zone",
+      "color": "#859db6",
+      "height": 0.045,
+      "pixels": [
+        [
+          2011.4,
+          411
+        ],
+        [
+          2064.6,
+          411
+        ],
+        [
+          2064.6,
+          465
+        ],
+        [
+          2011.4,
+          465
+        ]
+      ],
+      "seating": "illustrative",
+      "seatingGroup": "A",
+      "seatingAngle": 0,
+      "polygon": [
+        [
+          -14.551999999999964,
+          -24.14
+        ],
+        [
+          -5.507999999999981,
+          -24.14
+        ],
+        [
+          -5.507999999999981,
+          -14.959999999999994
+        ],
+        [
+          -14.551999999999964,
+          -14.959999999999994
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "a4",
+      "label": "A4",
+      "kind": "price-zone",
+      "color": "#859db6",
+      "height": 0.045,
+      "pixels": [
+        [
+          2068.6,
+          411
+        ],
+        [
+          2121.7999999999997,
+          411
+        ],
+        [
+          2121.7999999999997,
+          465
+        ],
+        [
+          2068.6,
+          465
+        ]
+      ],
+      "seating": "illustrative",
+      "seatingGroup": "A",
+      "seatingAngle": 0,
+      "polygon": [
+        [
+          -4.8279999999999745,
+          -24.14
+        ],
+        [
+          4.215999999999951,
+          -24.14
+        ],
+        [
+          4.215999999999951,
+          -14.959999999999994
+        ],
+        [
+          -4.8279999999999745,
+          -14.959999999999994
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "a3",
+      "label": "A3",
+      "kind": "price-zone",
+      "color": "#859db6",
+      "height": 0.045,
+      "pixels": [
+        [
+          2125.8,
+          411
+        ],
+        [
+          2179,
+          411
+        ],
+        [
+          2179,
+          465
+        ],
+        [
+          2125.8,
+          465
+        ]
+      ],
+      "seating": "illustrative",
+      "seatingGroup": "A",
+      "seatingAngle": 0,
+      "polygon": [
+        [
+          4.896000000000072,
+          -24.14
+        ],
+        [
+          13.939999999999998,
+          -24.14
+        ],
+        [
+          13.939999999999998,
+          -14.959999999999994
+        ],
+        [
+          4.896000000000072,
+          -14.959999999999994
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "a2",
+      "label": "A2",
+      "kind": "price-zone",
+      "color": "#859db6",
+      "height": 0.045,
+      "pixels": [
+        [
+          2183,
+          411
+        ],
+        [
+          2236.2,
+          411
+        ],
+        [
+          2236.2,
+          465
+        ],
+        [
+          2183,
+          465
+        ]
+      ],
+      "seating": "illustrative",
+      "seatingGroup": "A",
+      "seatingAngle": 0,
+      "polygon": [
+        [
+          14.620000000000005,
+          -24.14
+        ],
+        [
+          23.663999999999987,
+          -24.14
+        ],
+        [
+          23.663999999999987,
+          -14.959999999999994
+        ],
+        [
+          14.620000000000005,
+          -14.959999999999994
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "a1",
+      "label": "A1",
+      "kind": "price-zone",
+      "color": "#859db6",
+      "height": 0.045,
+      "pixels": [
+        [
+          2240.2,
+          411
+        ],
+        [
+          2293.3999999999996,
+          411
+        ],
+        [
+          2240.2,
+          443
+        ]
+      ],
+      "seating": "illustrative",
+      "seatingGroup": "A",
+      "seatingAngle": 0,
+      "polygon": [
+        [
+          24.343999999999994,
+          -24.14
+        ],
+        [
+          33.38799999999998,
+          -24.14
+        ],
+        [
+          24.343999999999994,
+          -18.700000000000003
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "c1",
+      "label": "C1",
+      "kind": "price-zone",
+      "color": "#859db6",
+      "height": 0.045,
+      "pixels": [
+        [
+          1897,
+          693
+        ],
+        [
+          1950.2,
+          661
+        ],
+        [
+          1950.2,
+          693
+        ]
+      ],
+      "seating": "illustrative",
+      "seatingGroup": "C",
+      "seatingAngle": 3.141592653589793,
+      "polygon": [
+        [
+          -34,
+          23.799999999999997
+        ],
+        [
+          -24.95599999999996,
+          18.36
+        ],
+        [
+          -24.95599999999996,
+          23.799999999999997
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "c2",
+      "label": "C2",
+      "kind": "price-zone",
+      "color": "#859db6",
+      "height": 0.045,
+      "pixels": [
+        [
+          1954.2,
+          641
+        ],
+        [
+          2007.4,
+          641
+        ],
+        [
+          2007.4,
+          693
+        ],
+        [
+          1954.2,
+          693
+        ]
+      ],
+      "seating": "illustrative",
+      "seatingGroup": "C",
+      "seatingAngle": 3.141592653589793,
+      "polygon": [
+        [
+          -24.275999999999954,
+          14.960000000000008
+        ],
+        [
+          -15.231999999999971,
+          14.960000000000008
+        ],
+        [
+          -15.231999999999971,
+          23.799999999999997
+        ],
+        [
+          -24.275999999999954,
+          23.799999999999997
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "c3",
+      "label": "C3",
+      "kind": "price-zone",
+      "color": "#859db6",
+      "height": 0.045,
+      "pixels": [
+        [
+          2011.4,
+          641
+        ],
+        [
+          2064.6,
+          641
+        ],
+        [
+          2064.6,
+          693
+        ],
+        [
+          2011.4,
+          693
+        ]
+      ],
+      "seating": "illustrative",
+      "seatingGroup": "C",
+      "seatingAngle": 3.141592653589793,
+      "polygon": [
+        [
+          -14.551999999999964,
+          14.960000000000008
+        ],
+        [
+          -5.507999999999981,
+          14.960000000000008
+        ],
+        [
+          -5.507999999999981,
+          23.799999999999997
+        ],
+        [
+          -14.551999999999964,
+          23.799999999999997
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "c4",
+      "label": "C4",
+      "kind": "price-zone",
+      "color": "#859db6",
+      "height": 0.045,
+      "pixels": [
+        [
+          2068.6,
+          641
+        ],
+        [
+          2121.7999999999997,
+          641
+        ],
+        [
+          2121.7999999999997,
+          693
+        ],
+        [
+          2068.6,
+          693
+        ]
+      ],
+      "seating": "illustrative",
+      "seatingGroup": "C",
+      "seatingAngle": 3.141592653589793,
+      "polygon": [
+        [
+          -4.8279999999999745,
+          14.960000000000008
+        ],
+        [
+          4.215999999999951,
+          14.960000000000008
+        ],
+        [
+          4.215999999999951,
+          23.799999999999997
+        ],
+        [
+          -4.8279999999999745,
+          23.799999999999997
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "c5",
+      "label": "C5",
+      "kind": "price-zone",
+      "color": "#859db6",
+      "height": 0.045,
+      "pixels": [
+        [
+          2125.8,
+          641
+        ],
+        [
+          2179,
+          641
+        ],
+        [
+          2179,
+          693
+        ],
+        [
+          2125.8,
+          693
+        ]
+      ],
+      "seating": "illustrative",
+      "seatingGroup": "C",
+      "seatingAngle": 3.141592653589793,
+      "polygon": [
+        [
+          4.896000000000072,
+          14.960000000000008
+        ],
+        [
+          13.939999999999998,
+          14.960000000000008
+        ],
+        [
+          13.939999999999998,
+          23.799999999999997
+        ],
+        [
+          4.896000000000072,
+          23.799999999999997
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "c6",
+      "label": "C6",
+      "kind": "price-zone",
+      "color": "#859db6",
+      "height": 0.045,
+      "pixels": [
+        [
+          2183,
+          641
+        ],
+        [
+          2236.2,
+          641
+        ],
+        [
+          2236.2,
+          693
+        ],
+        [
+          2183,
+          693
+        ]
+      ],
+      "seating": "illustrative",
+      "seatingGroup": "C",
+      "seatingAngle": 3.141592653589793,
+      "polygon": [
+        [
+          14.620000000000005,
+          14.960000000000008
+        ],
+        [
+          23.663999999999987,
+          14.960000000000008
+        ],
+        [
+          23.663999999999987,
+          23.799999999999997
+        ],
+        [
+          14.620000000000005,
+          23.799999999999997
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "c7",
+      "label": "C7",
+      "kind": "price-zone",
+      "color": "#859db6",
+      "height": 0.045,
+      "pixels": [
+        [
+          2240.2,
+          661
+        ],
+        [
+          2293.3999999999996,
+          693
+        ],
+        [
+          2240.2,
+          693
+        ]
+      ],
+      "seating": "illustrative",
+      "seatingGroup": "C",
+      "seatingAngle": 3.141592653589793,
+      "polygon": [
+        [
+          24.343999999999994,
+          18.36
+        ],
+        [
+          33.38799999999998,
+          23.799999999999997
+        ],
+        [
+          24.343999999999994,
+          23.799999999999997
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "c8",
+      "label": "C8",
+      "kind": "price-zone",
+      "color": "#859db6",
+      "height": 0.045,
+      "pixels": [
+        [
+          1897,
+          699
+        ],
+        [
+          1937.6,
+          699
+        ],
+        [
+          1937.6,
+          744
+        ],
+        [
+          1897,
+          744
+        ]
+      ],
+      "seating": "illustrative",
+      "seatingGroup": "C",
+      "seatingAngle": 3.141592653589793,
+      "polygon": [
+        [
+          -34,
+          24.820000000000007
+        ],
+        [
+          -27.098000000000013,
+          24.820000000000007
+        ],
+        [
+          -27.098000000000013,
+          32.47
+        ],
+        [
+          -34,
+          32.47
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "c9",
+      "label": "C9",
+      "kind": "price-zone",
+      "color": "#859db6",
+      "height": 0.045,
+      "pixels": [
+        [
+          1941.6,
+          699
+        ],
+        [
+          1982.1999999999998,
+          699
+        ],
+        [
+          1982.1999999999998,
+          744
+        ],
+        [
+          1941.6,
+          744
+        ]
+      ],
+      "seating": "illustrative",
+      "seatingGroup": "C",
+      "seatingAngle": 3.141592653589793,
+      "polygon": [
+        [
+          -26.418000000000006,
+          24.820000000000007
+        ],
+        [
+          -19.51600000000002,
+          24.820000000000007
+        ],
+        [
+          -19.51600000000002,
+          32.47
+        ],
+        [
+          -26.418000000000006,
+          32.47
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "c10",
+      "label": "C10",
+      "kind": "price-zone",
+      "color": "#859db6",
+      "height": 0.045,
+      "pixels": [
+        [
+          1986.2,
+          699
+        ],
+        [
+          2026.8,
+          699
+        ],
+        [
+          2026.8,
+          744
+        ],
+        [
+          1986.2,
+          744
+        ]
+      ],
+      "seating": "illustrative",
+      "seatingGroup": "C",
+      "seatingAngle": 3.141592653589793,
+      "polygon": [
+        [
+          -18.835999999999956,
+          24.820000000000007
+        ],
+        [
+          -11.933999999999969,
+          24.820000000000007
+        ],
+        [
+          -11.933999999999969,
+          32.47
+        ],
+        [
+          -18.835999999999956,
+          32.47
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "c11",
+      "label": "C11",
+      "kind": "price-zone",
+      "color": "#859db6",
+      "height": 0.045,
+      "pixels": [
+        [
+          2030.8,
+          699
+        ],
+        [
+          2071.4,
+          699
+        ],
+        [
+          2071.4,
+          744
+        ],
+        [
+          2030.8,
+          744
+        ]
+      ],
+      "seating": "illustrative",
+      "seatingGroup": "C",
+      "seatingAngle": 3.141592653589793,
+      "polygon": [
+        [
+          -11.254000000000019,
+          24.820000000000007
+        ],
+        [
+          -4.351999999999975,
+          24.820000000000007
+        ],
+        [
+          -4.351999999999975,
+          32.47
+        ],
+        [
+          -11.254000000000019,
+          32.47
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "c12",
+      "label": "C12",
+      "kind": "price-zone",
+      "color": "#859db6",
+      "height": 0.045,
+      "pixels": [
+        [
+          2075.4,
+          699
+        ],
+        [
+          2116,
+          699
+        ],
+        [
+          2116,
+          744
+        ],
+        [
+          2075.4,
+          744
+        ]
+      ],
+      "seating": "illustrative",
+      "seatingGroup": "C",
+      "seatingAngle": 3.141592653589793,
+      "polygon": [
+        [
+          -3.6719999999999686,
+          24.820000000000007
+        ],
+        [
+          3.230000000000018,
+          24.820000000000007
+        ],
+        [
+          3.230000000000018,
+          32.47
+        ],
+        [
+          -3.6719999999999686,
+          32.47
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "c13",
+      "label": "C13",
+      "kind": "price-zone",
+      "color": "#859db6",
+      "height": 0.045,
+      "pixels": [
+        [
+          2120,
+          699
+        ],
+        [
+          2160.6,
+          699
+        ],
+        [
+          2160.6,
+          744
+        ],
+        [
+          2120,
+          744
+        ]
+      ],
+      "seating": "illustrative",
+      "seatingGroup": "C",
+      "seatingAngle": 3.141592653589793,
+      "polygon": [
+        [
+          3.910000000000025,
+          24.820000000000007
+        ],
+        [
+          10.812000000000012,
+          24.820000000000007
+        ],
+        [
+          10.812000000000012,
+          32.47
+        ],
+        [
+          3.910000000000025,
+          32.47
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "c14",
+      "label": "C14",
+      "kind": "price-zone",
+      "color": "#859db6",
+      "height": 0.045,
+      "pixels": [
+        [
+          2164.6,
+          699
+        ],
+        [
+          2205.2,
+          699
+        ],
+        [
+          2205.2,
+          744
+        ],
+        [
+          2164.6,
+          744
+        ]
+      ],
+      "seating": "illustrative",
+      "seatingGroup": "C",
+      "seatingAngle": 3.141592653589793,
+      "polygon": [
+        [
+          11.492000000000019,
+          24.820000000000007
+        ],
+        [
+          18.394000000000005,
+          24.820000000000007
+        ],
+        [
+          18.394000000000005,
+          32.47
+        ],
+        [
+          11.492000000000019,
+          32.47
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "c15",
+      "label": "C15",
+      "kind": "price-zone",
+      "color": "#859db6",
+      "height": 0.045,
+      "pixels": [
+        [
+          2209.2,
+          699
+        ],
+        [
+          2249.7999999999997,
+          699
+        ],
+        [
+          2249.7999999999997,
+          744
+        ],
+        [
+          2209.2,
+          744
+        ]
+      ],
+      "seating": "illustrative",
+      "seatingGroup": "C",
+      "seatingAngle": 3.141592653589793,
+      "polygon": [
+        [
+          19.074000000000012,
+          24.820000000000007
+        ],
+        [
+          25.976,
+          24.820000000000007
+        ],
+        [
+          25.976,
+          32.47
+        ],
+        [
+          19.074000000000012,
+          32.47
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "c16",
+      "label": "C16",
+      "kind": "price-zone",
+      "color": "#859db6",
+      "height": 0.045,
+      "pixels": [
+        [
+          2253.8,
+          699
+        ],
+        [
+          2294.4,
+          699
+        ],
+        [
+          2294.4,
+          744
+        ],
+        [
+          2253.8,
+          744
+        ]
+      ],
+      "seating": "illustrative",
+      "seatingGroup": "C",
+      "seatingAngle": 3.141592653589793,
+      "polygon": [
+        [
+          26.656000000000063,
+          24.820000000000007
+        ],
+        [
+          33.55800000000005,
+          24.820000000000007
+        ],
+        [
+          33.55800000000005,
+          32.47
+        ],
+        [
+          26.656000000000063,
+          32.47
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "d9",
+      "label": "D9",
+      "kind": "price-zone",
+      "color": "#859db6",
+      "height": 0.045,
+      "pixels": [
+        [
+          1800,
+          426
+        ],
+        [
+          1827,
+          426
+        ],
+        [
+          1827,
+          472
+        ],
+        [
+          1753,
+          472
+        ]
+      ],
+      "seating": "illustrative",
+      "seatingGroup": "D",
+      "seatingAngle": 1.5707963267948966,
+      "polygon": [
+        [
+          -50.49000000000001,
+          -21.590000000000003
+        ],
+        [
+          -45.89999999999998,
+          -21.590000000000003
+        ],
+        [
+          -45.89999999999998,
+          -13.769999999999996
+        ],
+        [
+          -58.47999999999996,
+          -13.769999999999996
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "b8",
+      "label": "B8",
+      "kind": "price-zone",
+      "color": "#859db6",
+      "height": 0.045,
+      "pixels": [
+        [
+          2287,
+          426
+        ],
+        [
+          2361,
+          426
+        ],
+        [
+          2361,
+          472
+        ],
+        [
+          2287,
+          472
+        ]
+      ],
+      "seating": "illustrative",
+      "seatingGroup": "B",
+      "seatingAngle": -1.5707963267948966,
+      "polygon": [
+        [
+          32.30000000000001,
+          -21.590000000000003
+        ],
+        [
+          44.879999999999995,
+          -21.590000000000003
+        ],
+        [
+          44.879999999999995,
+          -13.769999999999996
+        ],
+        [
+          32.30000000000001,
+          -13.769999999999996
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "d4",
+      "label": "D4",
+      "kind": "price-zone",
+      "color": "#859db6",
+      "height": 0.045,
+      "pixels": [
+        [
+          1832,
+          426
+        ],
+        [
+          1906,
+          426
+        ],
+        [
+          1906,
+          472
+        ],
+        [
+          1832,
+          472
+        ]
+      ],
+      "seating": "illustrative",
+      "seatingGroup": "D",
+      "seatingAngle": 1.5707963267948966,
+      "polygon": [
+        [
+          -45.05000000000001,
+          -21.590000000000003
+        ],
+        [
+          -32.46999999999997,
+          -21.590000000000003
+        ],
+        [
+          -32.46999999999997,
+          -13.769999999999996
+        ],
+        [
+          -45.05000000000001,
+          -13.769999999999996
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "b13",
+      "label": "B13",
+      "kind": "price-zone",
+      "color": "#859db6",
+      "height": 0.045,
+      "pixels": [
+        [
+          2366,
+          426
+        ],
+        [
+          2393,
+          426
+        ],
+        [
+          2440,
+          472
+        ],
+        [
+          2366,
+          472
+        ]
+      ],
+      "seating": "illustrative",
+      "seatingGroup": "B",
+      "seatingAngle": -1.5707963267948966,
+      "polygon": [
+        [
+          45.73000000000002,
+          -21.590000000000003
+        ],
+        [
+          50.31999999999999,
+          -21.590000000000003
+        ],
+        [
+          58.31,
+          -13.769999999999996
+        ],
+        [
+          45.73000000000002,
+          -13.769999999999996
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "d10",
+      "label": "D10",
+      "kind": "price-zone",
+      "color": "#859db6",
+      "height": 0.045,
+      "pixels": [
+        [
+          1753,
+          477
+        ],
+        [
+          1827,
+          477
+        ],
+        [
+          1827,
+          523
+        ],
+        [
+          1753,
+          523
+        ]
+      ],
+      "seating": "illustrative",
+      "seatingGroup": "D",
+      "seatingAngle": 1.5707963267948966,
+      "polygon": [
+        [
+          -58.47999999999996,
+          -12.920000000000002
+        ],
+        [
+          -45.89999999999998,
+          -12.920000000000002
+        ],
+        [
+          -45.89999999999998,
+          -5.099999999999994
+        ],
+        [
+          -58.47999999999996,
+          -5.099999999999994
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "b7",
+      "label": "B7",
+      "kind": "price-zone",
+      "color": "#859db6",
+      "height": 0.045,
+      "pixels": [
+        [
+          2287,
+          477
+        ],
+        [
+          2361,
+          477
+        ],
+        [
+          2361,
+          523
+        ],
+        [
+          2287,
+          523
+        ]
+      ],
+      "seating": "illustrative",
+      "seatingGroup": "B",
+      "seatingAngle": -1.5707963267948966,
+      "polygon": [
+        [
+          32.30000000000001,
+          -12.920000000000002
+        ],
+        [
+          44.879999999999995,
+          -12.920000000000002
+        ],
+        [
+          44.879999999999995,
+          -5.099999999999994
+        ],
+        [
+          32.30000000000001,
+          -5.099999999999994
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "d5",
+      "label": "D5",
+      "kind": "price-zone",
+      "color": "#859db6",
+      "height": 0.045,
+      "pixels": [
+        [
+          1832,
+          477
+        ],
+        [
+          1906,
+          477
+        ],
+        [
+          1906,
+          523
+        ],
+        [
+          1832,
+          523
+        ]
+      ],
+      "seating": "illustrative",
+      "seatingGroup": "D",
+      "seatingAngle": 1.5707963267948966,
+      "polygon": [
+        [
+          -45.05000000000001,
+          -12.920000000000002
+        ],
+        [
+          -32.46999999999997,
+          -12.920000000000002
+        ],
+        [
+          -32.46999999999997,
+          -5.099999999999994
+        ],
+        [
+          -45.05000000000001,
+          -5.099999999999994
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "b12",
+      "label": "B12",
+      "kind": "price-zone",
+      "color": "#859db6",
+      "height": 0.045,
+      "pixels": [
+        [
+          2366,
+          477
+        ],
+        [
+          2440,
+          477
+        ],
+        [
+          2440,
+          523
+        ],
+        [
+          2366,
+          523
+        ]
+      ],
+      "seating": "illustrative",
+      "seatingGroup": "B",
+      "seatingAngle": -1.5707963267948966,
+      "polygon": [
+        [
+          45.73000000000002,
+          -12.920000000000002
+        ],
+        [
+          58.31,
+          -12.920000000000002
+        ],
+        [
+          58.31,
+          -5.099999999999994
+        ],
+        [
+          45.73000000000002,
+          -5.099999999999994
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "d11",
+      "label": "D11",
+      "kind": "price-zone",
+      "color": "#859db6",
+      "height": 0.045,
+      "pixels": [
+        [
+          1753,
+          528
+        ],
+        [
+          1827,
+          528
+        ],
+        [
+          1827,
+          574
+        ],
+        [
+          1753,
+          574
+        ]
+      ],
+      "seating": "illustrative",
+      "seatingGroup": "D",
+      "seatingAngle": 1.5707963267948966,
+      "polygon": [
+        [
+          -58.47999999999996,
+          -4.25
+        ],
+        [
+          -45.89999999999998,
+          -4.25
+        ],
+        [
+          -45.89999999999998,
+          3.5700000000000074
+        ],
+        [
+          -58.47999999999996,
+          3.5700000000000074
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "b6",
+      "label": "B6",
+      "kind": "price-zone",
+      "color": "#859db6",
+      "height": 0.045,
+      "pixels": [
+        [
+          2287,
+          528
+        ],
+        [
+          2361,
+          528
+        ],
+        [
+          2361,
+          574
+        ],
+        [
+          2287,
+          574
+        ]
+      ],
+      "seating": "illustrative",
+      "seatingGroup": "B",
+      "seatingAngle": -1.5707963267948966,
+      "polygon": [
+        [
+          32.30000000000001,
+          -4.25
+        ],
+        [
+          44.879999999999995,
+          -4.25
+        ],
+        [
+          44.879999999999995,
+          3.5700000000000074
+        ],
+        [
+          32.30000000000001,
+          3.5700000000000074
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "d6",
+      "label": "D6",
+      "kind": "price-zone",
+      "color": "#859db6",
+      "height": 0.045,
+      "pixels": [
+        [
+          1832,
+          528
+        ],
+        [
+          1906,
+          528
+        ],
+        [
+          1906,
+          574
+        ],
+        [
+          1832,
+          574
+        ]
+      ],
+      "seating": "illustrative",
+      "seatingGroup": "D",
+      "seatingAngle": 1.5707963267948966,
+      "polygon": [
+        [
+          -45.05000000000001,
+          -4.25
+        ],
+        [
+          -32.46999999999997,
+          -4.25
+        ],
+        [
+          -32.46999999999997,
+          3.5700000000000074
+        ],
+        [
+          -45.05000000000001,
+          3.5700000000000074
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "b11",
+      "label": "B11",
+      "kind": "price-zone",
+      "color": "#859db6",
+      "height": 0.045,
+      "pixels": [
+        [
+          2366,
+          528
+        ],
+        [
+          2440,
+          528
+        ],
+        [
+          2440,
+          574
+        ],
+        [
+          2366,
+          574
+        ]
+      ],
+      "seating": "illustrative",
+      "seatingGroup": "B",
+      "seatingAngle": -1.5707963267948966,
+      "polygon": [
+        [
+          45.73000000000002,
+          -4.25
+        ],
+        [
+          58.31,
+          -4.25
+        ],
+        [
+          58.31,
+          3.5700000000000074
+        ],
+        [
+          45.73000000000002,
+          3.5700000000000074
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "d12",
+      "label": "D12",
+      "kind": "price-zone",
+      "color": "#859db6",
+      "height": 0.045,
+      "pixels": [
+        [
+          1753,
+          579
+        ],
+        [
+          1827,
+          579
+        ],
+        [
+          1827,
+          625
+        ],
+        [
+          1753,
+          625
+        ]
+      ],
+      "seating": "illustrative",
+      "seatingGroup": "D",
+      "seatingAngle": 1.5707963267948966,
+      "polygon": [
+        [
+          -58.47999999999996,
+          4.420000000000002
+        ],
+        [
+          -45.89999999999998,
+          4.420000000000002
+        ],
+        [
+          -45.89999999999998,
+          12.240000000000009
+        ],
+        [
+          -58.47999999999996,
+          12.240000000000009
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "b5",
+      "label": "B5",
+      "kind": "price-zone",
+      "color": "#859db6",
+      "height": 0.045,
+      "pixels": [
+        [
+          2287,
+          579
+        ],
+        [
+          2361,
+          579
+        ],
+        [
+          2361,
+          625
+        ],
+        [
+          2287,
+          625
+        ]
+      ],
+      "seating": "illustrative",
+      "seatingGroup": "B",
+      "seatingAngle": -1.5707963267948966,
+      "polygon": [
+        [
+          32.30000000000001,
+          4.420000000000002
+        ],
+        [
+          44.879999999999995,
+          4.420000000000002
+        ],
+        [
+          44.879999999999995,
+          12.240000000000009
+        ],
+        [
+          32.30000000000001,
+          12.240000000000009
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "d7",
+      "label": "D7",
+      "kind": "price-zone",
+      "color": "#859db6",
+      "height": 0.045,
+      "pixels": [
+        [
+          1832,
+          579
+        ],
+        [
+          1906,
+          579
+        ],
+        [
+          1906,
+          625
+        ],
+        [
+          1832,
+          625
+        ]
+      ],
+      "seating": "illustrative",
+      "seatingGroup": "D",
+      "seatingAngle": 1.5707963267948966,
+      "polygon": [
+        [
+          -45.05000000000001,
+          4.420000000000002
+        ],
+        [
+          -32.46999999999997,
+          4.420000000000002
+        ],
+        [
+          -32.46999999999997,
+          12.240000000000009
+        ],
+        [
+          -45.05000000000001,
+          12.240000000000009
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "b10",
+      "label": "B10",
+      "kind": "price-zone",
+      "color": "#859db6",
+      "height": 0.045,
+      "pixels": [
+        [
+          2366,
+          579
+        ],
+        [
+          2440,
+          579
+        ],
+        [
+          2440,
+          625
+        ],
+        [
+          2366,
+          625
+        ]
+      ],
+      "seating": "illustrative",
+      "seatingGroup": "B",
+      "seatingAngle": -1.5707963267948966,
+      "polygon": [
+        [
+          45.73000000000002,
+          4.420000000000002
+        ],
+        [
+          58.31,
+          4.420000000000002
+        ],
+        [
+          58.31,
+          12.240000000000009
+        ],
+        [
+          45.73000000000002,
+          12.240000000000009
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "d13",
+      "label": "D13",
+      "kind": "price-zone",
+      "color": "#859db6",
+      "height": 0.045,
+      "pixels": [
+        [
+          1753,
+          630
+        ],
+        [
+          1827,
+          630
+        ],
+        [
+          1827,
+          676
+        ],
+        [
+          1800,
+          676
+        ]
+      ],
+      "seating": "illustrative",
+      "seatingGroup": "D",
+      "seatingAngle": 1.5707963267948966,
+      "polygon": [
+        [
+          -58.47999999999996,
+          13.090000000000003
+        ],
+        [
+          -45.89999999999998,
+          13.090000000000003
+        ],
+        [
+          -45.89999999999998,
+          20.909999999999997
+        ],
+        [
+          -50.49000000000001,
+          20.909999999999997
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "b4",
+      "label": "B4",
+      "kind": "price-zone",
+      "color": "#859db6",
+      "height": 0.045,
+      "pixels": [
+        [
+          2287,
+          630
+        ],
+        [
+          2361,
+          630
+        ],
+        [
+          2361,
+          676
+        ],
+        [
+          2287,
+          676
+        ]
+      ],
+      "seating": "illustrative",
+      "seatingGroup": "B",
+      "seatingAngle": -1.5707963267948966,
+      "polygon": [
+        [
+          32.30000000000001,
+          13.090000000000003
+        ],
+        [
+          44.879999999999995,
+          13.090000000000003
+        ],
+        [
+          44.879999999999995,
+          20.909999999999997
+        ],
+        [
+          32.30000000000001,
+          20.909999999999997
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "d8",
+      "label": "D8",
+      "kind": "price-zone",
+      "color": "#859db6",
+      "height": 0.045,
+      "pixels": [
+        [
+          1832,
+          630
+        ],
+        [
+          1906,
+          630
+        ],
+        [
+          1906,
+          676
+        ],
+        [
+          1832,
+          676
+        ]
+      ],
+      "seating": "illustrative",
+      "seatingGroup": "D",
+      "seatingAngle": 1.5707963267948966,
+      "polygon": [
+        [
+          -45.05000000000001,
+          13.090000000000003
+        ],
+        [
+          -32.46999999999997,
+          13.090000000000003
+        ],
+        [
+          -32.46999999999997,
+          20.909999999999997
+        ],
+        [
+          -45.05000000000001,
+          20.909999999999997
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "b9",
+      "label": "B9",
+      "kind": "price-zone",
+      "color": "#859db6",
+      "height": 0.045,
+      "pixels": [
+        [
+          2366,
+          630
+        ],
+        [
+          2440,
+          630
+        ],
+        [
+          2393,
+          676
+        ],
+        [
+          2366,
+          676
+        ]
+      ],
+      "seating": "illustrative",
+      "seatingGroup": "B",
+      "seatingAngle": -1.5707963267948966,
+      "polygon": [
+        [
+          45.73000000000002,
+          13.090000000000003
+        ],
+        [
+          58.31,
+          13.090000000000003
+        ],
+        [
+          50.31999999999999,
+          20.909999999999997
+        ],
+        [
+          45.73000000000002,
+          20.909999999999997
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "d1",
+      "label": "D1",
+      "kind": "price-zone",
+      "color": "#859db6",
+      "height": 0.045,
+      "pixels": [
+        [
+          1911,
+          501
+        ],
+        [
+          1966,
+          530
+        ],
+        [
+          1911,
+          530
+        ]
+      ],
+      "seating": "illustrative",
+      "seatingGroup": "D",
+      "seatingAngle": 1.5707963267948966,
+      "polygon": [
+        [
+          -31.620000000000005,
+          -8.840000000000003
+        ],
+        [
+          -22.269999999999982,
+          -3.9099999999999966
+        ],
+        [
+          -31.620000000000005,
+          -3.9099999999999966
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "d2",
+      "label": "D2",
+      "kind": "price-zone",
+      "color": "#859db6",
+      "height": 0.045,
+      "pixels": [
+        [
+          1911,
+          536
+        ],
+        [
+          1966,
+          536
+        ],
+        [
+          1995,
+          546
+        ],
+        [
+          1995,
+          559
+        ],
+        [
+          1966,
+          570
+        ],
+        [
+          1911,
+          570
+        ]
+      ],
+      "seating": "illustrative",
+      "seatingGroup": "D",
+      "seatingAngle": 1.5707963267948966,
+      "polygon": [
+        [
+          -31.620000000000005,
+          -2.8900000000000006
+        ],
+        [
+          -22.269999999999982,
+          -2.8900000000000006
+        ],
+        [
+          -17.339999999999975,
+          -1.1899999999999977
+        ],
+        [
+          -17.339999999999975,
+          1.019999999999996
+        ],
+        [
+          -22.269999999999982,
+          2.8900000000000006
+        ],
+        [
+          -31.620000000000005,
+          2.8900000000000006
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "d3",
+      "label": "D3",
+      "kind": "price-zone",
+      "color": "#859db6",
+      "height": 0.045,
+      "pixels": [
+        [
+          1911,
+          576
+        ],
+        [
+          1966,
+          576
+        ],
+        [
+          1911,
+          605
+        ]
+      ],
+      "seating": "illustrative",
+      "seatingGroup": "D",
+      "seatingAngle": 1.5707963267948966,
+      "polygon": [
+        [
+          -31.620000000000005,
+          3.9099999999999966
+        ],
+        [
+          -22.269999999999982,
+          3.9099999999999966
+        ],
+        [
+          -31.620000000000005,
+          8.840000000000003
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "b3",
+      "label": "B3",
+      "kind": "price-zone",
+      "color": "#859db6",
+      "height": 0.045,
+      "pixels": [
+        [
+          2220,
+          530
+        ],
+        [
+          2281,
+          501
+        ],
+        [
+          2281,
+          530
+        ]
+      ],
+      "seating": "illustrative",
+      "seatingGroup": "B",
+      "seatingAngle": -1.5707963267948966,
+      "polygon": [
+        [
+          20.910000000000025,
+          -3.9099999999999966
+        ],
+        [
+          31.28000000000003,
+          -8.840000000000003
+        ],
+        [
+          31.28000000000003,
+          -3.9099999999999966
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "b2",
+      "label": "B2",
+      "kind": "price-zone",
+      "color": "#859db6",
+      "height": 0.045,
+      "pixels": [
+        [
+          2198,
+          546
+        ],
+        [
+          2220,
+          536
+        ],
+        [
+          2281,
+          536
+        ],
+        [
+          2281,
+          570
+        ],
+        [
+          2220,
+          570
+        ],
+        [
+          2198,
+          559
+        ]
+      ],
+      "seating": "illustrative",
+      "seatingGroup": "B",
+      "seatingAngle": -1.5707963267948966,
+      "polygon": [
+        [
+          17.170000000000016,
+          -1.1899999999999977
+        ],
+        [
+          20.910000000000025,
+          -2.8900000000000006
+        ],
+        [
+          31.28000000000003,
+          -2.8900000000000006
+        ],
+        [
+          31.28000000000003,
+          2.8900000000000006
+        ],
+        [
+          20.910000000000025,
+          2.8900000000000006
+        ],
+        [
+          17.170000000000016,
+          1.019999999999996
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "b1",
+      "label": "B1",
+      "kind": "price-zone",
+      "color": "#859db6",
+      "height": 0.045,
+      "pixels": [
+        [
+          2220,
+          576
+        ],
+        [
+          2281,
+          576
+        ],
+        [
+          2281,
+          605
+        ]
+      ],
+      "seating": "illustrative",
+      "seatingGroup": "B",
+      "seatingAngle": -1.5707963267948966,
+      "polygon": [
+        [
+          20.910000000000025,
+          3.9099999999999966
+        ],
+        [
+          31.28000000000003,
+          3.9099999999999966
+        ],
+        [
+          31.28000000000003,
+          8.840000000000003
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    }
+  ],
+  "equipment": [
+    {
+      "id": "foh-west",
+      "label": "FOH",
+      "kind": "equipment",
+      "color": "#676c7c",
+      "height": 1.8,
+      "pixels": [
+        [
+          1707,
+          518
+        ],
+        [
+          1731,
+          518
+        ],
+        [
+          1731,
+          588
+        ],
+        [
+          1707,
+          588
+        ]
+      ],
+      "polygon": [
+        [
+          -66.30000000000001,
+          -5.950000000000003
+        ],
+        [
+          -62.21999999999997,
+          -5.950000000000003
+        ],
+        [
+          -62.21999999999997,
+          5.950000000000003
+        ],
+        [
+          -66.30000000000001,
+          5.950000000000003
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "foh-east",
+      "label": "FOH",
+      "kind": "equipment",
+      "color": "#676c7c",
+      "height": 1.8,
+      "pixels": [
+        [
+          2461,
+          518
+        ],
+        [
+          2485,
+          518
+        ],
+        [
+          2485,
+          588
+        ],
+        [
+          2461,
+          588
+        ]
+      ],
+      "polygon": [
+        [
+          61.879999999999995,
+          -5.950000000000003
+        ],
+        [
+          65.96000000000004,
+          -5.950000000000003
+        ],
+        [
+          65.96000000000004,
+          5.950000000000003
+        ],
+        [
+          61.879999999999995,
+          5.950000000000003
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    }
+  ],
+  "temporarySeats": [],
+  "closedSections": null,
+  "audit": {
+    "finiteCoordinates": true,
+    "simplePolygons": true,
+    "modelEnvelopeOutsideVertices": [],
+    "seatEnvelopeConflicts": [],
+    "metricCalibrated": false,
+    "independentHoldoutPassed": false,
+    "blockers": [
+      "图中缺少独立区号／尺度锚点，配准尚未核实",
+      "固定看台票号沿用第三方来源，未整体独立认证"
+    ],
+    "scope": "Checks use the source-seat-derived rectangular model envelope, not an independently surveyed building boundary."
+  },
+  "notes": [
+    "AI visual trace of this event chart; all model dimensions and chair arrangements are illustrative.",
+    "Base venue contains chart-labelled stands only, with no generic stage. Temporary floor chairs have no ticket identity.",
+    "Official chart explicitly describes a 360-degree stage with no designated front, all-seated flat floor and portable chairs.",
+    "Image retrieved through the public ticket page generated image URL; temporary signed query parameters are not retained."
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "schemaVersion": 1,
+  "id": "philippines-bruno-20270515",
+  "status": "research-preview",
+  "publicationStatus": "not-published",
+  "displayMode": "estimated-layout",
+  "event": {
+    "name": "Bruno Mars — The Romantic Tour",
+    "dates": [
+      "2027-05-15",
+      "2027-05-16"
+    ],
+    "url": "https://ticketmaster.ph/activity/detail/27ph_brunomars",
+    "bindingNote": "Official Ticketmaster event page lists May 15, 16 and 18, 2027 at Philippine Arena. The linked seating image explicitly names May 15 and 16 only; this recipe intentionally binds only those two dates. May 18 is not assigned this image without date-specific evidence."
+  },
+  "venueId": "philippine-arena",
+  "seatLayoutId": "end",
+  "source": {
+    "path": "data/research-events/artist-led-2026-11-13/philippines-bruno-20270515.jpg",
+    "url": "https://static.ticketmaster.ph/images/activity/field/27ph_brunomars_dbd258262ca7c647923a9ce9c1662865.jpg",
+    "retrievedAt": "2026-11-13",
+    "sha256": "6104180ef3de667ea9cd46238728cc408f44a32ffeceb318b69edb608ea5db85",
+    "rights": "undecided; private research reference, no public redistribution approval",
+    "bytes": 152164
+  },
+  "eventSource": {
+    "path": "data/research-events/artist-led-2026-11-13/philippines-bruno.html",
+    "url": "https://ticketmaster.ph/activity/detail/27ph_brunomars",
+    "retrievedAt": "2026-11-13",
+    "sha256": "90698bd9d94929280e8ee003e3dd8ab60316165e3d4bbbca92cea196a08a72ad",
+    "rights": "undecided; private research reference, no public redistribution approval",
+    "bytes": 284983
+  },
+  "registration": {
+    "matrix": [
+      0.22,
+      0,
+      0,
+      0.25,
+      -118.8,
+      -137.5
+    ],
+    "width": 1080,
+    "height": 1350,
+    "rationale": "AI schematic registration using image centreline x=540 and front-of-bowl y=550. Floor and stage follow the official image while the four stand bands use estimated radii/heights. This is a non-metric illustrative alignment, not an independently surveyed registration.",
+    "coordinateFrame": "source-model-units",
+    "metricCalibrated": false,
+    "independentHoldoutPassed": false,
+    "allowDistances": false,
+    "allowPublication": false
+  },
+  "venueModel": {
+    "id": "end",
+    "sha256": "4e78e2104c5181ce4c27906354234446fbb36b58ceb9835e314ae4fd0c13774b",
+    "policy": "section-only-reference"
+  },
+  "stage": [
+    {
+      "id": "stage",
+      "label": "STAGE",
+      "kind": "stage",
+      "color": "#ad8d4d",
+      "height": 1.5,
+      "pixels": [
+        [
+          492,
+          435
+        ],
+        [
+          589,
+          435
+        ],
+        [
+          589,
+          519
+        ],
+        [
+          492,
+          519
+        ]
+      ],
+      "polygon": [
+        [
+          -10.560000000000002,
+          -28.75
+        ],
+        [
+          10.780000000000015,
+          -28.75
+        ],
+        [
+          10.780000000000015,
+          -7.75
+        ],
+        [
+          -10.560000000000002,
+          -7.75
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    }
+  ],
+  "zones": [
+    {
+      "id": "floor-standing",
+      "label": "GENERAL ADMISSION",
+      "kind": "standing",
+      "color": "#91b4d9",
+      "height": 0.045,
+      "previewView": true,
+      "pixels": [
+        [
+          439,
+          534
+        ],
+        [
+          640,
+          534
+        ],
+        [
+          638,
+          553
+        ],
+        [
+          631,
+          575
+        ],
+        [
+          618,
+          591
+        ],
+        [
+          600,
+          602
+        ],
+        [
+          479,
+          602
+        ],
+        [
+          461,
+          593
+        ],
+        [
+          449,
+          577
+        ],
+        [
+          441,
+          555
+        ]
+      ],
+      "polygon": [
+        [
+          -22.22,
+          -4
+        ],
+        [
+          22.000000000000014,
+          -4
+        ],
+        [
+          21.560000000000016,
+          0.75
+        ],
+        [
+          20.019999999999996,
+          6.25
+        ],
+        [
+          17.16000000000001,
+          10.25
+        ],
+        [
+          13.200000000000003,
+          13
+        ],
+        [
+          -13.420000000000002,
+          13
+        ],
+        [
+          -17.379999999999995,
+          10.75
+        ],
+        [
+          -20.019999999999996,
+          6.75
+        ],
+        [
+          -21.78,
+          1.25
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    }
+  ],
+  "equipment": [],
+  "temporarySeats": [],
+  "closedSections": null,
+  "audit": {
+    "finiteCoordinates": true,
+    "simplePolygons": true,
+    "modelEnvelopeOutsideVertices": [],
+    "seatEnvelopeConflicts": [],
+    "metricCalibrated": false,
+    "independentHoldoutPassed": false,
+    "blockers": [
+      "图中缺少独立区号／尺度锚点，配准尚未核实",
+      "固定看台票号沿用第三方来源，未整体独立认证"
+    ],
+    "scope": "Checks use the source-seat-derived rectangular model envelope, not an independently surveyed building boundary."
+  },
+  "notes": [
+    "AI-traced event shapes and illustrative heights; not a surveyed or independently registered layout.",
+    "Fixed seats and the venue model remain unchanged. Temporary chairs have no ticket identity.",
+    "Only traced floor areas are overlaid; stand price categories, closures and availability are not inferred.",
+    "The chart explicitly states it is not to scale. Stand labels are transcribed; dimensions, heights, stage and floor placement remain estimates. Floor is standing, not seated."
+  ]
+}

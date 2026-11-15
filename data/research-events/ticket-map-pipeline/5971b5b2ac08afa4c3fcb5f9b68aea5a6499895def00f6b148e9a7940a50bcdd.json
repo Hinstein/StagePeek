@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "tmc-atarayo-20261219",
+  "venueId": "taipei-music-center",
+  "seatLayoutId": "end",
+  "status": "research-preview",
+  "publicationStatus": "not-published",
+  "displayMode": "reference-only",
+  "event": {
+    "name": "Atarayo — ASIA TOUR 2026 in TAIPEI",
+    "dates": [
+      "2026-12-19"
+    ],
+    "url": "https://www.tmc.taipei/tw/blog/show/atarayo2026",
+    "bindingNote": "Official Taipei Music Center event page links the seating image and confirms Atarayo, 2026-12-19 and the Performance Hall. Standing floor, FOH and price zones remain image references; no event geometry or ticket inventory is inferred."
+  },
+  "source": {
+    "path": "data/research-events/regional-concert-maps-2026-11-12/tmc-atarayo-20261219.png",
+    "url": "https://www.tmc.taipei/files/20261013155045735.png",
+    "retrievedAt": "2026-11-12",
+    "sha256": "3ec205097f4f3ddf31a432453ca509fabcadea90ced9ec3d392486bbd46b93d2",
+    "rights": "undecided; private research reference, no public redistribution approval",
+    "bytes": 3522012
+  },
+  "eventSource": {
+    "path": "data/research-events/regional-concert-maps-2026-11-12/tmc-atarayo-20261219.html",
+    "url": "https://www.tmc.taipei/tw/blog/show/atarayo2026",
+    "retrievedAt": "2026-11-12",
+    "sha256": "98e2ca322973b54de7c590d9a56c7037cfce4bc9f74ffd5ae0376733e451ed96",
+    "rights": "undecided; private research reference, no public redistribution approval",
+    "bytes": 104973
+  },
+  "registration": {
+    "allowDistances": false,
+    "allowPublication": false,
+    "metricCalibrated": false
+  },
+  "fixedSeats": {
+    "policy": "reuse-verbatim",
+    "count": 3144,
+    "assetSha256": "ad7a7fa00d644dbd33c36e618fd089dd1c84fe9afb5c6d05aa527d36f6f229f8",
+    "identityPositionSha256": "c27da20ee206801571745ad719fca7a6fc2b0d2214333f166188ab445a708d43"
+  },
+  "stage": [],
+  "zones": [],
+  "equipment": [],
+  "temporarySeats": [],
+  "closedSections": null,
+  "notes": [
+    "Official Taipei Music Center event page links the seating image and confirms Atarayo, 2026-12-19 and the Performance Hall. Standing floor, FOH and price zones remain image references; no event geometry or ticket inventory is inferred."
+  ]
+}

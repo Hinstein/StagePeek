@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "nt-lesmis-20250627",
+  "venueId": "national-theater-taipei",
+  "seatLayoutId": "end",
+  "status": "research-preview",
+  "publicationStatus": "not-published",
+  "displayMode": "reference-only",
+  "event": {
+    "name": "LES MISÉRABLES STAGED CONCERT SPECTACULAR",
+    "dates": [
+      "2025-06-27"
+    ],
+    "url": "https://www.opentix.life/event/1864938599362674689",
+    "bindingNote": "Historical OPENTIX seat-selection screenshot reproduced by CP值 (https://cpok.tw/57420), visibly titled LES MISERABLES concert, National Theater, selected performance 2025-06-27 19:30. Secondary archived reproduction, not directly acquired official image bytes. The official OPENTIX event confirms concert identity. Colors, prices and availability are historical snapshot only. The end layout is an unregistered base viewing reference, not evidence of event geometry or current inventory."
+  },
+  "source": {
+    "path": "data/research-events/regional-concert-maps-2026-11-12/nt-lesmis-20250627.png",
+    "url": "https://cpok.tw/wp-content/uploads/2024/12/unnamed-file-29.png",
+    "retrievedAt": "2026-11-12",
+    "sha256": "c9c055b83597c77e545c844b2378afabc7ca01ced7196d52287685c0412f8ac2",
+    "rights": "undecided; private research reference, no public redistribution approval",
+    "bytes": 732202
+  },
+  "eventSource": {
+    "path": "data/research-events/regional-concert-maps-2026-11-12/nt-lesmis-official.html",
+    "url": "https://www.opentix.life/event/1864938599362674689",
+    "retrievedAt": "2026-11-12",
+    "sha256": "31c4ac90cfea4c384cfe91b55dc558b9ac085ec75ffeb8646e41a5a16ac400ac",
+    "rights": "undecided; private research reference, no public redistribution approval",
+    "bytes": 926461
+  },
+  "registration": {
+    "allowDistances": false,
+    "allowPublication": false,
+    "metricCalibrated": false
+  },
+  "fixedSeats": {
+    "policy": "reuse-verbatim",
+    "count": 1498,
+    "assetSha256": "749e8a43b410c77637c7fc81201e2b47b7e668842112a8ba7d8154a0ed8f6586",
+    "identityPositionSha256": "b179a0e10d5bbb819c05f3b3595af9f72f5c0a94564a783320c983e7b4b4f922"
+  },
+  "stage": [],
+  "zones": [],
+  "equipment": [],
+  "temporarySeats": [],
+  "closedSections": null,
+  "notes": [
+    "Historical OPENTIX seat-selection screenshot reproduced by CP值 (https://cpok.tw/57420), visibly titled LES MISERABLES concert, National Theater, selected performance 2025-06-27 19:30. Secondary archived reproduction, not directly acquired official image bytes. The official OPENTIX event confirms concert identity. Colors, prices and availability are historical snapshot only. The end layout is an unregistered base viewing reference, not evidence of event geometry or current inventory.",
+    "Secondary article retained at data/research-events/regional-concert-maps-2026-11-12/nt-lesmis-archive.html; SHA-256 43e47c0702c653bf2ccbdfad20ccb3ed8544cfd1de4cb658f4b102fe74bb274f"
+  ]
+}

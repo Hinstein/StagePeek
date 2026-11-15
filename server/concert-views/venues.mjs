@@ -4,6 +4,7 @@ import {dirname,join} from 'node:path';
 import {sourceSeatStore} from './source-seats.mjs';
 import {normalizeVenueManifest,validateVenueManifest,writeVenueManifest} from '../venue-import.mjs';
 import {venueCountry} from '../venue-country.mjs';
+import {createHash} from 'node:crypto';
 
 export function loadVenues(path=new URL('../../data/concert-views/o2/venues.json',import.meta.url),options={}) {
   const file=path instanceof URL?fileURLToPath(path):path;
@@ -22,7 +23,7 @@ export function loadVenues(path=new URL('../../data/concert-views/o2/venues.json
     writeVenueManifest(join(dirname(file),'manual-venues'),manifest);reload();return venue;
   };
   return {
-    catalog:()=>Object.values(data).map(({id,name,city,accuracy,ticketLabelCount,sections})=>{const metadata=seatStore(id).metadata(id),layout=metadata?.layouts.find(x=>x.id===metadata.defaultLayout);return {id,name,city,country:venueCountry(city),ticketLabelCount:layout?.sectionCount??ticketLabelCount,sectionCount:layout?.sectionCount??sections.length,sourceSeatCount:layout?.count??0,accuracy:layout?{...accuracy,sectionLabels:'source-layout-reference',seatDataStatus:'full-retained-asset',sourceLayout:layout.id,metricCalibrated:false,completeSeatInventory:false,coverage:`默认来源布局 ${layout.id}：${layout.count} 条座位记录。未独立实测校准。`}:accuracy};}),
+    catalog:()=>Object.values(data).map(({id,name,city,accuracy,ticketLabelCount,sections})=>{const metadata=seatStore(id).metadata(id),layout=metadata?.layouts.find(x=>x.id===metadata.defaultLayout);return {id,name,city,country:venueCountry(city),ticketLabelCount:layout?.sectionCount??ticketLabelCount,sectionCount:layout?.sectionCount??sections.length,sourceSeatCount:layout?.count??0,accuracy:layout?{...accuracy,sectionLabels:'source-layout-reference',position:metadata.conversion?.positionBasis||'source-coordinate',seatDataStatus:metadata.conversion?.positionBasis?'source-numbering-derived-positions':'full-retained-asset',sourceLayout:layout.id,metricCalibrated:false,completeSeatInventory:false,coverage:metadata.conversion?.positionBasis?`默认布局 ${layout.id}：${layout.count} 个来源编号，位置由参考曲线与层高重建，并非原始 XYZ。`:`默认来源布局 ${layout.id}：${layout.count} 条座位记录。未独立实测校准。`}:accuracy};}),
     ids:()=>Object.keys(data),
     get:(id,layout)=>data[id]?seatStore(id).enhance(data[id],layout):null,
     reload,
@@ -53,17 +54,21 @@ function readLocalDrafts(){
   const config=JSON.parse(readFileSync(join(root,'data/concert-views/regional-drafts.json'),'utf8'));
   const extraDirectory=join(root,'data/concert-views/regional-sources');
   const extra=JSON.parse(readFileSync(join(extraDirectory,'venues.json'),'utf8'));
-  if(config.schemaVersion!==1||!Array.isArray(config.venueIds)||new Set(config.venueIds).size!==config.venueIds.length||config.venueIds.some(id=>!['taipei-arena','taipei-dome','asiaworld-arena','asiaworld-hall-10','asiaworld-runway-11','asiaworld-summit-hall-2','asiaworld-viva','hkcec-hall-5bc','hong-kong-axa-dreamland','hong-kong-coliseum','hong-kong-macpherson-stadium','kai-tak-arena','kai-tak-stadium','taipei-music-center','ntu-sports-center','ticc-taipei',...Object.keys(extra.venues)].includes(id)))throw Error('Invalid regional draft scope');
+  if(config.schemaVersion!==1||!Array.isArray(config.venueIds)||new Set(config.venueIds).size!==config.venueIds.length||config.venueIds.some(id=>!['rajamangala','bukit-jalil','kyocera-dome','philippine-arena','tokyo-dome','singapore-national','taipei-arena','taipei-dome','asiaworld-arena','asiaworld-hall-10','asiaworld-runway-11','asiaworld-summit-hall-2','asiaworld-viva','hkcec-hall-5bc','hong-kong-axa-dreamland','hong-kong-coliseum','hong-kong-macpherson-stadium','kai-tak-arena','kai-tak-stadium','taipei-music-center','ntu-sports-center','ticc-taipei',...Object.keys(extra.venues)].includes(id)))throw Error('Invalid regional draft scope');
   const manifest=JSON.parse(readFileSync(join(root,'data/venues.json'),'utf8'));
   const sourceSeats=sourceSeatStore(join(root,'data/source-seats')),regionalSeats=sourceSeatStore(extraDirectory);
   const store=id=>regionalSeats.metadata(id)?regionalSeats:sourceSeats;
   const venues=Object.fromEntries(config.venueIds.map(id=>{
-    const venue=extra.venues[id]||manifest.venues[id];
+    const retained=extra.venues[id]||manifest.venues[id];
+    const model=['philippine-arena','rajamangala','bukit-jalil'].includes(id)?JSON.parse(readFileSync(join(root,`data/concert-views/artist-models/${id}.json`),'utf8')):null;
+    const venue=model?{...retained,...(model.venueSource?{source:model.venueSource,sourceLinks:[model.venueSource,model.source.url]}:{}),geometry:model.geometry,tiers:model.tiers,sections:model.sections,ticketLabelCount:model.ticketLabelCount,accuracy:{...retained.accuracy,...model.accuracy}}:retained;
     if(!venue)throw Error('Regional venue unavailable');
     const geometry={...venue.geometry,...(store(id).metadata(id)?{displayBasis:'source-row-ribbons'}:{})};
+    if(['tokyo-dome','singapore-national','kyocera-dome','philippine-arena','rajamangala','bukit-jalil'].includes(id))geometry.referenceLayout={label:'场馆布局',stageRects:[]};
     if(id==='kai-tak-stadium')delete geometry.stage;
     if(id==='hong-kong-coliseum')geometry.closedBowl=true;
-    return [id,{...venue,researchOnly:true,publicationStatus:'not-published',rightsDecision:'undecided',geometry,accuracy:{...venue.accuracy,metricCalibrated:false,completeSeatInventory:false}}];
+    const referenceModel=['tokyo-dome','singapore-national','kyocera-dome','philippine-arena','rajamangala','bukit-jalil'].includes(id)?{id:'end',sha256:createHash('sha256').update(JSON.stringify([id,geometry,venue.sections])).digest('hex')}:null;
+    return [id,{...venue,...(referenceModel?{referenceModel}:{}),researchOnly:true,publicationStatus:'not-published',rightsDecision:'undecided',geometry,accuracy:{...venue.accuracy,metricCalibrated:false,completeSeatInventory:false}}];
   }));
   return {venues,store,clear(){sourceSeats.clear();regionalSeats.clear();}};
 }

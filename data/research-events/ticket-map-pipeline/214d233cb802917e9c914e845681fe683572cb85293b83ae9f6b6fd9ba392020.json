@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "summit-eunhyuk-20260919",
+  "venueId": "asiaworld-summit-hall-2",
+  "seatLayoutId": "end",
+  "status": "research-preview",
+  "publicationStatus": "not-published",
+  "displayMode": "reference-only",
+  "event": {
+    "name": "EUNHYUK — be: WARE OF THE RABBIT",
+    "dates": [
+      "2026-09-19"
+    ],
+    "url": "https://www.asiaworld-expo.com/en-us/whats-on/upcoming-events/events/2026-eunhyuk-fancon-be-wave-of-the-rabbit-in-hong?event_type=Concert&ebmsid=27794",
+    "bindingNote": "Official venue page plus printed date and Summit Hall 2. Seated blocks and FOH differ from retained generic floor seats."
+  },
+  "source": {
+    "path": "data/research-events/regional-concert-maps-2026-11-12/summit-eunhyuk-20260919.jpg",
+    "url": "https://www.asiaworld-expo.com/AsiaWorldExpoLocal/media/AWE/web-map_3.jpeg?ext=.jpeg",
+    "retrievedAt": "2026-11-12",
+    "sha256": "a35b630075a1ba79680cf7ccf9e1626656beee1e7c879afd5fed57db2e9762b4",
+    "rights": "undecided; private research reference, no public redistribution approval",
+    "bytes": 204417
+  },
+  "eventSource": {
+    "path": "data/research-events/regional-concert-maps-2026-11-12/summit-eunhyuk-20260919.html",
+    "url": "https://www.asiaworld-expo.com/en-us/whats-on/upcoming-events/events/2026-eunhyuk-fancon-be-wave-of-the-rabbit-in-hong?event_type=Concert&ebmsid=27794",
+    "retrievedAt": "2026-11-12",
+    "sha256": "96a1da4268411c3fdd4662ad06c0989fd6f93d05a8c51912467ed844123102b7",
+    "rights": "undecided; private research reference, no public redistribution approval",
+    "bytes": 69271
+  },
+  "registration": {
+    "allowDistances": false,
+    "allowPublication": false,
+    "metricCalibrated": false
+  },
+  "fixedSeats": {
+    "policy": "reuse-verbatim",
+    "count": 5080,
+    "assetSha256": "961dc4aa236cecec4a6c18a763e78627e1c4f99113fcbb7325dcb8773052d365",
+    "identityPositionSha256": "3af7deb9b29124af1e3687b9fd5ddfdae7c1725a54d40c2facb2da4e3c14de1c"
+  },
+  "stage": [],
+  "zones": [],
+  "equipment": [],
+  "temporarySeats": [],
+  "closedSections": null,
+  "notes": [
+    "Official venue page plus printed date and Summit Hall 2. Seated blocks and FOH differ from retained generic floor seats."
+  ]
+}

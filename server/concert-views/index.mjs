@@ -40,9 +40,9 @@ export function loadConcertViews({localDrafts=false}={}){
    }
    const preview=path.match(/^\/api\/concert-views\/ticket-map-previews\/([a-z0-9-]+)(\/image)?$/);
    if(preview&&['GET','HEAD'].includes(method)){
-    const draft=previews.get(preview[1]);if(!draft)throw fault(404,'NOT_FOUND','Preview unavailable');
+    const draft=previews.get(preview[1],{includeLocal:true});if(!draft)throw fault(404,'NOT_FOUND','Preview unavailable');
     if(!preview[2]){json({draft});return true;}
-    const image=previews.artifact(preview[1]);if(!image)throw fault(404,'NOT_FOUND','Image unavailable');
+    const image=previews.artifact(preview[1],{includeLocal:true});if(!image)throw fault(404,'NOT_FOUND','Image unavailable');
     res.writeHead(200,{'Content-Type':image.contentType,'Content-Length':image.bytes.length});res.end(method==='HEAD'?null:image.bytes);return true;
    }
    const venue=path.match(/^\/api\/concert-views\/venues\/([a-z0-9-]+)(?:\/(resolve|events))?$/);
@@ -52,7 +52,7 @@ export function loadConcertViews({localDrafts=false}={}){
     json({venue:{...presentConcertVenue(applyRenderBatch(base,batch)),sourceSeats:undefined,seatTuples:base.sourceSeats?packSourceSeats(base.sourceSeats):undefined}});return true;
    }
    if(venue[2]==='events'&&method==='GET'){
-    json({events:[],researchConcerts:previews.list(venue[1]).map(draft=>({id:draft.id,name:draft.label,localDate:draft.dates[0],dates:draft.dates,source:draft.source,researchOnly:true,ticketMapDraft:{id:draft.id,version:draft.version,seatLayoutId:draft.seatLayoutId}}))});return true;
+    json({events:[],researchConcerts:previews.list(venue[1],{includeLocal:true}).map(draft=>({id:draft.id,name:draft.label,localDate:draft.dates[0],dates:draft.dates,source:draft.source,researchOnly:true,ticketMapDraft:{id:draft.id,version:draft.version,seatLayoutId:draft.seatLayoutId,displayMode:draft.displayMode}}))});return true;
    }
    if(venue[2]==='resolve'&&method==='POST'){
     const chunks=[];let size=0;

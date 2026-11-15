@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "clapper-victon-20261211",
+  "venueId": "clapper-studio-taipei",
+  "seatLayoutId": "end",
+  "status": "research-preview",
+  "publicationStatus": "not-published",
+  "displayMode": "reference-only",
+  "event": {
+    "name": "VICTON — [10:NOW] IN TAIPEI",
+    "dates": [
+      "2026-12-11"
+    ],
+    "url": "https://ticketplus.com.tw/activity/8c547569ec0844087f59d05b38e802bc",
+    "bindingNote": "Official TicketPlus page confirms VICTON [10:NOW], CLAPPER STUDIO and 2026-12-11 at 14:00 and 19:00, and embeds this seating map. Added B row, price zones, sold-out stamps and FOH remain an image snapshot, not current inventory or registered event geometry."
+  },
+  "source": {
+    "path": "data/research-events/regional-concert-maps-2026-11-12/clapper-victon-20261211.jpg",
+    "url": "https://static.ticketplus.com.tw/eventHtmlImage/1794483213725_1794483213873.jpeg",
+    "retrievedAt": "2026-11-12",
+    "sha256": "0c8afb433f355cd4c781bf470adce158f9149621626180a54d7413bcfe9c8194",
+    "rights": "undecided; private research reference, no public redistribution approval",
+    "bytes": 180030
+  },
+  "eventSource": {
+    "path": "data/research-events/regional-concert-maps-2026-11-12/clapper-victon-20261211.html",
+    "url": "https://ticketplus.com.tw/activity/8c547569ec0844087f59d05b38e802bc",
+    "retrievedAt": "2026-11-12",
+    "sha256": "46a963fc5c60807a3e9821f024a681fee20664c8059cfd6c1e26e1510f821af6",
+    "rights": "undecided; private research reference, no public redistribution approval",
+    "bytes": 93692
+  },
+  "registration": {
+    "allowDistances": false,
+    "allowPublication": false,
+    "metricCalibrated": false
+  },
+  "fixedSeats": {
+    "policy": "reuse-verbatim",
+    "count": 153,
+    "assetSha256": "f75db8bf9d50fb442057874fdacebe22eb8805a74827cfe0ca9d6fb2688f3cb2",
+    "identityPositionSha256": "99234b81a96ed8c5f9abc7bf89f9a2fd5aa963638aa8384c3d1da849d8979207"
+  },
+  "stage": [],
+  "zones": [],
+  "equipment": [],
+  "temporarySeats": [],
+  "closedSections": null,
+  "notes": [
+    "Official TicketPlus page confirms VICTON [10:NOW], CLAPPER STUDIO and 2026-12-11 at 14:00 and 19:00, and embeds this seating map. Added B row, price zones, sold-out stamps and FOH remain an image snapshot, not current inventory or registered event geometry."
+  ]
+}

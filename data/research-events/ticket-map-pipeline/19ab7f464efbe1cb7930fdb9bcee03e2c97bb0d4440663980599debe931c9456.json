@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "singapore-bruno-20270413",
+  "venueId": "singapore-national",
+  "seatLayoutId": "end",
+  "status": "research-preview",
+  "publicationStatus": "not-published",
+  "displayMode": "reference-only",
+  "event": {
+    "name": "Bruno Mars — The Romantic Tour",
+    "dates": [
+      "2027-04-13",
+      "2027-04-14",
+      "2027-04-17",
+      "2027-04-18"
+    ],
+    "url": "https://ticketmaster.sg/activity/detail/27sg_brunomars",
+    "bindingNote": "Official promoter/ticket page binds these dates and this venue to the linked concert seating chart. Section-only base model; the chart is not registered to 3D and does not supply exact seat positions."
+  },
+  "source": {
+    "path": "data/research-events/artist-led-2026-11-13/singapore-bruno-20270413.jpg",
+    "url": "https://static.ticketmaster.sg/images/activity/field/27sg_brunomars_eadbcf33b6216e5e3a09a28be47290e6.jpg",
+    "retrievedAt": "2026-11-13",
+    "sha256": "1cc11c294410a4444681415d4e8315829844c13bf60d2886adf4ab78a84979c1",
+    "rights": "undecided; private research reference, no public redistribution approval",
+    "bytes": 340422
+  },
+  "eventSource": {
+    "path": "data/research-events/artist-led-2026-11-13/singapore-bruno.html",
+    "url": "https://ticketmaster.sg/activity/detail/27sg_brunomars",
+    "retrievedAt": "2026-11-13",
+    "sha256": "82af2c2fe5cc8d18a9170baa056fe63d3327ad33d72b0eaf642120d931d6165e",
+    "rights": "undecided; private research reference, no public redistribution approval",
+    "bytes": 298293
+  },
+  "registration": {
+    "allowDistances": false,
+    "allowPublication": false,
+    "metricCalibrated": false
+  },
+  "venueModel": {
+    "id": "end",
+    "sha256": "7065aaee7de8e031ea7cf6f3705060cbc7eda53e7083d3ee4661d40cdf938980",
+    "policy": "section-only-reference"
+  },
+  "stage": [],
+  "zones": [],
+  "equipment": [],
+  "temporarySeats": [],
+  "closedSections": null,
+  "notes": [
+    "Reference image only; no inferred event stage, inventory, closure or distance."
+  ]
+}

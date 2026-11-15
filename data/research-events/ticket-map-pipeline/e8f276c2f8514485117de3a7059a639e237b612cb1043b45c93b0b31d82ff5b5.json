@@ -1,0 +1,373 @@
+{
+  "schemaVersion": 1,
+  "id": "tokyo-bruno-20270127",
+  "status": "research-preview",
+  "publicationStatus": "not-published",
+  "displayMode": "estimated-layout",
+  "event": {
+    "name": "Bruno Mars — The Romantic Tour",
+    "dates": [
+      "2027-01-27",
+      "2027-01-28"
+    ],
+    "url": "https://www.livenationhip.co.jp/en/all-events/bruno-mars-tickets-ae147754",
+    "bindingNote": "Official promoter/ticket page binds these dates and this venue to the linked concert seating chart. Floor/stage shapes are AI traces placed in the existing model frame for illustrative views only."
+  },
+  "venueId": "tokyo-dome",
+  "seatLayoutId": "end",
+  "source": {
+    "path": "data/research-events/artist-led-2026-11-13/tokyo-bruno-20270127.jpg",
+    "url": "https://networksites.livenationinternational.com/networksites/w4ef4jq3/bm27_map_tokyodome.jpg",
+    "retrievedAt": "2026-11-13",
+    "sha256": "45bdea9ac7f21e7ed5c218385d4a4101051fe33c109fa4b6bc17836bb9c9d8d6",
+    "rights": "undecided; private research reference, no public redistribution approval",
+    "bytes": 273268
+  },
+  "eventSource": {
+    "path": "data/research-events/artist-led-2026-11-13/tokyo-bruno.html",
+    "url": "https://www.livenationhip.co.jp/en/all-events/bruno-mars-tickets-ae147754",
+    "retrievedAt": "2026-11-13",
+    "sha256": "f5c56b16be68938c8abdfab28d3d8151186e6913dae1f3ca4e3f066bbcaf259e",
+    "rights": "undecided; private research reference, no public redistribution approval",
+    "bytes": 1036944
+  },
+  "registration": {
+    "matrix": [
+      0.15,
+      0,
+      0,
+      0.15,
+      -76.05,
+      -67.5
+    ],
+    "width": 1000,
+    "height": 1000,
+    "rationale": "AI schematic registration: image centreline x=507 and arena floor front/back determine an illustrative end-stage frame. This chart has no numbered anchors matching the section-only model; no factual alignment or distances are asserted.",
+    "coordinateFrame": "source-model-units",
+    "metricCalibrated": false,
+    "independentHoldoutPassed": false,
+    "allowDistances": false,
+    "allowPublication": false
+  },
+  "venueModel": {
+    "id": "end",
+    "sha256": "5a322698a56221910d8055e7fd518884370168a1fcc6ee45038847d9f1852454",
+    "policy": "section-only-reference"
+  },
+  "stage": [
+    {
+      "id": "stage",
+      "label": "STAGE",
+      "kind": "stage",
+      "color": "#ad8d4d",
+      "height": 1.5,
+      "pixels": [
+        [
+          418,
+          171
+        ],
+        [
+          595,
+          171
+        ],
+        [
+          595,
+          239
+        ],
+        [
+          418,
+          239
+        ]
+      ],
+      "polygon": [
+        [
+          -13.350000000000001,
+          -41.85
+        ],
+        [
+          13.200000000000003,
+          -41.85
+        ],
+        [
+          13.200000000000003,
+          -31.65
+        ],
+        [
+          -13.350000000000001,
+          -31.65
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    }
+  ],
+  "zones": [
+    {
+      "id": "vip-gold",
+      "label": "VIP GOLD",
+      "kind": "price-zone",
+      "color": "#c5a559",
+      "height": 0.045,
+      "pixels": [
+        [
+          434,
+          255
+        ],
+        [
+          581,
+          255
+        ],
+        [
+          581,
+          277
+        ],
+        [
+          434,
+          277
+        ]
+      ],
+      "seating": "illustrative",
+      "polygon": [
+        [
+          -10.950000000000003,
+          -29.25
+        ],
+        [
+          11.099999999999994,
+          -29.25
+        ],
+        [
+          11.099999999999994,
+          -25.950000000000003
+        ],
+        [
+          -10.950000000000003,
+          -25.950000000000003
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "vip-silver",
+      "label": "VIP SILVER",
+      "kind": "price-zone",
+      "color": "#a1a6ad",
+      "height": 0.045,
+      "pixels": [
+        [
+          434,
+          280
+        ],
+        [
+          581,
+          280
+        ],
+        [
+          581,
+          375
+        ],
+        [
+          434,
+          375
+        ]
+      ],
+      "seating": "illustrative",
+      "polygon": [
+        [
+          -10.950000000000003,
+          -25.5
+        ],
+        [
+          11.099999999999994,
+          -25.5
+        ],
+        [
+          11.099999999999994,
+          -11.25
+        ],
+        [
+          -10.950000000000003,
+          -11.25
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    },
+    {
+      "id": "ss-floor",
+      "label": "SS",
+      "kind": "price-zone",
+      "color": "#8876ae",
+      "height": 0.045,
+      "pixels": [
+        [
+          362,
+          255
+        ],
+        [
+          429,
+          255
+        ],
+        [
+          429,
+          380
+        ],
+        [
+          586,
+          380
+        ],
+        [
+          586,
+          255
+        ],
+        [
+          651,
+          255
+        ],
+        [
+          652,
+          320
+        ],
+        [
+          640,
+          370
+        ],
+        [
+          611,
+          407
+        ],
+        [
+          573,
+          441
+        ],
+        [
+          530,
+          461
+        ],
+        [
+          480,
+          461
+        ],
+        [
+          435,
+          445
+        ],
+        [
+          399,
+          418
+        ],
+        [
+          372,
+          380
+        ],
+        [
+          356,
+          330
+        ]
+      ],
+      "seating": "illustrative",
+      "polygon": [
+        [
+          -21.75,
+          -29.25
+        ],
+        [
+          -11.700000000000003,
+          -29.25
+        ],
+        [
+          -11.700000000000003,
+          -10.5
+        ],
+        [
+          11.849999999999994,
+          -10.5
+        ],
+        [
+          11.849999999999994,
+          -29.25
+        ],
+        [
+          21.599999999999994,
+          -29.25
+        ],
+        [
+          21.75,
+          -19.5
+        ],
+        [
+          19.950000000000003,
+          -12
+        ],
+        [
+          15.599999999999994,
+          -6.450000000000003
+        ],
+        [
+          9.900000000000006,
+          -1.3500000000000085
+        ],
+        [
+          3.450000000000003,
+          1.6499999999999915
+        ],
+        [
+          -4.049999999999997,
+          1.6499999999999915
+        ],
+        [
+          -10.799999999999997,
+          -0.75
+        ],
+        [
+          -16.200000000000003,
+          -4.800000000000004
+        ],
+        [
+          -20.25,
+          -10.5
+        ],
+        [
+          -22.65,
+          -18
+        ]
+      ],
+      "holes": [],
+      "method": "AI-visual-trace",
+      "actor": "Codex AI",
+      "positionStatus": "estimated-registration",
+      "heightStatus": "display-estimate"
+    }
+  ],
+  "equipment": [],
+  "temporarySeats": [],
+  "closedSections": null,
+  "audit": {
+    "finiteCoordinates": true,
+    "simplePolygons": true,
+    "modelEnvelopeOutsideVertices": [],
+    "seatEnvelopeConflicts": [],
+    "metricCalibrated": false,
+    "independentHoldoutPassed": false,
+    "blockers": [
+      "图中缺少独立区号／尺度锚点，配准尚未核实",
+      "固定看台票号沿用第三方来源，未整体独立认证"
+    ],
+    "scope": "Checks use the source-seat-derived rectangular model envelope, not an independently surveyed building boundary."
+  },
+  "notes": [
+    "AI-traced event shapes and illustrative heights; not a surveyed or independently registered layout.",
+    "Fixed seats and the venue model remain unchanged. Temporary chairs have no ticket identity.",
+    "Only traced floor areas are overlaid; stand price categories, closures and availability are not inferred."
+  ]
+}

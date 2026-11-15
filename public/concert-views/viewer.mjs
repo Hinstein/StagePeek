@@ -151,7 +151,7 @@ export function createViewer(canvas,{onSection,onSample,onSeat=()=>{},onMode=()=
     marker=mesh(new THREE.SphereGeometry(.18,12,8),new THREE.MeshBasicMaterial({color:palette.marker,transparent:true,opacity:.92}));
     markerRing=new THREE.Mesh(new THREE.TorusGeometry(.38,.045,8,24),new THREE.MeshBasicMaterial({color:palette.ring,transparent:true,opacity:.95}));
     markerRing.rotation.x=Math.PI/2;markerRing.position.y=-.72;marker.add(markerRing);
-    buildRoof();canvas.dataset.coordinateBasis=display?.basis==='source-row-ribbons'?'source-model-xyz':display?'estimated-parametric':venue.sourceSeats?'source-model-xyz':'synthetic-geometry';canvas.dataset.layout=venue.seatLayout?.id||layout;canvas.dataset.sections=String(venue.sections.length);canvas.dataset.chairs=String(records.length);canvas.dataset.sourceChairs=String(venue.sourceSeats?.length||0);canvas.dataset.illustrativeChairs=String(records.filter(r=>r.visualOnly&&!r.referenceSeat).length);canvas.dataset.referenceChairs=String(display?.referenceRecords.length||0);updateSelection();
+    buildRoof();canvas.dataset.coordinateBasis=venue.accuracy?.position==='reference-model-estimate'?'reference-model-estimate':display?.basis==='source-row-ribbons'?'source-model-xyz':display?'estimated-parametric':venue.sourceSeats?'source-model-xyz':'synthetic-geometry';canvas.dataset.layout=venue.seatLayout?.id||layout;canvas.dataset.sections=String(venue.sections.length);canvas.dataset.chairs=String(records.length);canvas.dataset.sourceChairs=String(venue.sourceSeats?.length||0);canvas.dataset.illustrativeChairs=String(records.filter(r=>r.visualOnly&&!r.referenceSeat).length);canvas.dataset.referenceChairs=String(display?.referenceRecords.length||0);updateSelection();
   }
   function renderLayout(){return layout==='none'&&!eventSelected&&venue?.researchRenderBatch?.layout==='o2a'?'event':layout;}
   function updateRowLabels(){
@@ -377,6 +377,8 @@ export function createViewer(canvas,{onSection,onSample,onSeat=()=>{},onMode=()=
     const researchHit=raycaster.intersectObjects(researchOverlay.children.filter(object=>object.isMesh),false)[0];if(researchHit){
       const chair=researchHit.object.userData.researchChairs?.[researchHit.instanceId];
       if(chair){onFloorView(chair);return;}
+      const view=researchOverlay.userData.floorViews?.find(view=>view.zoneId===researchHit.object.userData.researchShape.id);
+      if(view){onFloorView(view);return;}
       onResearchShape(researchHit.object.userData.researchShape);return;
     }
     const sample=sampleMesh?.count?raycaster.intersectObject(sampleMesh,false)[0]:null;if(sample){onSample(sampleRecords[sample.instanceId]);return;}
@@ -404,14 +406,15 @@ export function createViewer(canvas,{onSection,onSample,onSeat=()=>{},onMode=()=
     // Explicit opt-in for local/admin previews. Drafts never become
     // eventLayout, stageBoxes, seat filtering, sightlines or distance inputs.
     setResearchOverlay(draft){
-      clean(researchOverlay);researchTarget=null;researchConflicts=new Map();canvas.dataset.researchShapes='0';canvas.dataset.eventFloorChairs='0';canvas.dataset.eventPerformer='0';delete canvas.dataset.researchTarget;delete canvas.dataset.eventPerformerPosition;
+      clean(researchOverlay);researchOverlay.userData.floorViews=[];researchTarget=null;researchConflicts=new Map();canvas.dataset.researchShapes='0';canvas.dataset.eventFloorChairs='0';canvas.dataset.eventPerformer='0';delete canvas.dataset.researchTarget;delete canvas.dataset.eventPerformerPosition;
       if(!draft){if(stageFocused)overview();updateSelection();return;}
       const shellEvent=draft.status==='shell-event-preview';
       if(shellEvent){
         if(draft.venueId!==venue?.id)throw Error('Research overlay binding mismatch');
-      }else if(draft.status!=='research-preview'||draft.venueId!==venue?.id||draft.seatLayoutId!==venue?.seatLayout?.id||draft.fixedSeats.assetSha256!==venue?.seatLayout?.assetSha256)throw Error('Research overlay binding mismatch');
+      }else if(draft.status!=='research-preview'||draft.venueId!==venue?.id||(draft.venueModel?draft.seatLayoutId!==venue?.referenceModel?.id||draft.venueModel.sha256!==venue?.referenceModel?.sha256:draft.seatLayoutId!==venue?.seatLayout?.id||draft.fixedSeats?.assetSha256!==venue?.seatLayout?.assetSha256))throw Error('Research overlay binding mismatch');
       researchConflicts=shellEvent?new Map():ticketMapConflictIndex(draft);
       const shapes=shellEvent?draft.shapes:[...draft.zones,...draft.stage,...draft.equipment];
+      researchOverlay.userData.floorViews=draft.floorViews||[];
       for(const o of shapes){
         const shape=new THREE.Shape(o.polygon.map(([x,z])=>new THREE.Vector2(x,-z)));
         for(const points of o.holes||[])shape.holes.push(new THREE.Path(points.map(([x,z])=>new THREE.Vector2(x,-z))));
@@ -427,7 +430,7 @@ export function createViewer(canvas,{onSection,onSample,onSeat=()=>{},onMode=()=
       }
       const floorChairs=draft.floorChairs||[];
       if(floorChairs.length){
-        const parts=(o2DisplayModel(venue)||sourceBowlDisplay(venue))?.records[0].chairParts||chairParts;
+        const parts=(o2DisplayModel(venue)||sourceBowlDisplay(venue))?.records[0]?.chairParts||chairParts;
         for(const [i,part]of parts.entries()){
           const seats=new THREE.InstancedMesh(chairGeometry(part,i<2),material(venuePalette.seat),floorChairs.length);
           for(const [index,chair]of floorChairs.entries()){

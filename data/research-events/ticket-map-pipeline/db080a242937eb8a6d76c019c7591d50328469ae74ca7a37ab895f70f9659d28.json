@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "hkc-gigi-20261127",
+  "venueId": "hong-kong-coliseum",
+  "seatLayoutId": "end",
+  "status": "research-preview",
+  "publicationStatus": "not-published",
+  "displayMode": "reference-only",
+  "event": {
+    "name": "LOVE Gigi World Tour 2026",
+    "dates": [
+      "2026-11-27"
+    ],
+    "url": "https://www.urbtix.hk/event-detail/15531",
+    "bindingNote": "Official URBTIX event 15531 explicitly labels this chart for 2026-11-27 20:15 at Hong Kong Coliseum. Retained exactly as provided: partial sectional preview (sections 73–79 and 40–56), not a complete venue overview. Colors/reserved seats are event-specific at retrieval. The end base layout is only a venue viewing reference; the image does not establish a registered stage, actual closures or source-seat availability. Other dates have separate source images and must not be merged."
+  },
+  "source": {
+    "path": "data/research-events/regional-concert-maps-2026-11-12/hkc-gigi-20261127.png",
+    "url": "https://p01-test.wxmovie.com/hk-show-adminweb/test/074ca8ddd7c2ff5015ddd2c5595ab28b9d413.png/1200xo",
+    "retrievedAt": "2026-11-12",
+    "sha256": "14ef900e9e89a7b60c55dc5543c2690f6c6838de2a2e31cca80c1787a3fe9b1f",
+    "rights": "undecided; private research reference, no public redistribution approval",
+    "bytes": 1037896
+  },
+  "eventSource": {
+    "path": "data/research-events/regional-concert-maps-2026-11-12/hkc-gigi-20261127-29.html",
+    "url": "https://www.urbtix.hk/event-detail/15531",
+    "retrievedAt": "2026-11-12",
+    "sha256": "e45624c60c180e7bad51cf1dadac072c77d76da61ceb306a43a75f2468063466",
+    "rights": "undecided; private research reference, no public redistribution approval",
+    "bytes": 225763
+  },
+  "registration": {
+    "allowDistances": false,
+    "allowPublication": false,
+    "metricCalibrated": false
+  },
+  "fixedSeats": {
+    "policy": "reuse-verbatim",
+    "count": 11562,
+    "assetSha256": "926e37787d56b6dd4e100ae5da5c023f8a9ee4004d9524403c31e9f3b9f0859c",
+    "identityPositionSha256": "357c228085cdc4e02dff567a9a77a32c00caa060c1bfd80a19657ceb74313be5"
+  },
+  "stage": [],
+  "zones": [],
+  "equipment": [],
+  "temporarySeats": [],
+  "closedSections": null,
+  "notes": [
+    "Official URBTIX event 15531 explicitly labels this chart for 2026-11-27 20:15 at Hong Kong Coliseum. Retained exactly as provided: partial sectional preview (sections 73–79 and 40–56), not a complete venue overview. Colors/reserved seats are event-specific at retrieval. The end base layout is only a venue viewing reference; the image does not establish a registered stage, actual closures or source-seat availability. Other dates have separate source images and must not be merged."
+  ]
+}

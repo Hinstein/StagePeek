@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "runway-joji-20261129",
+  "venueId": "asiaworld-runway-11",
+  "seatLayoutId": "end",
+  "status": "research-preview",
+  "publicationStatus": "not-published",
+  "displayMode": "reference-only",
+  "event": {
+    "name": "JOJI — SOLARIS",
+    "dates": [
+      "2026-11-29"
+    ],
+    "url": "https://www.asiaworld-expo.com/en-us/whats-on/upcoming-events/events/joji-live-in-hong-kong-2026?event_type=Concert&ebmsid=27112",
+    "bindingNote": "Official venue page links this map. Standing zones, FOH and rear aisle cannot inherit the source seated-floor inventory."
+  },
+  "source": {
+    "path": "data/research-events/regional-concert-maps-2026-11-12/runway-joji-20261129.jpg",
+    "url": "https://www.asiaworld-expo.com/AsiaWorldExpoLocal/media/AWE/Seat-Map(cityline)_Runway-11.jpg?ext=.jpg",
+    "retrievedAt": "2026-11-12",
+    "sha256": "811cfd9c34b82ed340588ab17d3f9aa6d0443617103bcdbb91365ae113001050",
+    "rights": "undecided; private research reference, no public redistribution approval",
+    "bytes": 97546
+  },
+  "eventSource": {
+    "path": "data/research-events/regional-concert-maps-2026-11-12/runway-joji-20261129.html",
+    "url": "https://www.asiaworld-expo.com/en-us/whats-on/upcoming-events/events/joji-live-in-hong-kong-2026?event_type=Concert&ebmsid=27112",
+    "retrievedAt": "2026-11-12",
+    "sha256": "4d7fa3b40b40262b7171d51b810ab8a5097bf6f284111c354f49faf76ca6bdcb",
+    "rights": "undecided; private research reference, no public redistribution approval",
+    "bytes": 73040
+  },
+  "registration": {
+    "allowDistances": false,
+    "allowPublication": false,
+    "metricCalibrated": false
+  },
+  "fixedSeats": {
+    "policy": "reuse-verbatim",
+    "count": 3800,
+    "assetSha256": "e22cf93cbcb1ece164adda8300a16e5481442772be66077262055226aae1af8e",
+    "identityPositionSha256": "9f3c531a6ca6b293244379062bb0dbe7b068986ec7d3559f57326a0ea68de55c"
+  },
+  "stage": [],
+  "zones": [],
+  "equipment": [],
+  "temporarySeats": [],
+  "closedSections": null,
+  "notes": [
+    "Official venue page links this map. Standing zones, FOH and rear aisle cannot inherit the source seated-floor inventory."
+  ]
+}

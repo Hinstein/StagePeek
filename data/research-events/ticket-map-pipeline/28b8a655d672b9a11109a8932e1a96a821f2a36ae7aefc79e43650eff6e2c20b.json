@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "viva-riize-20240601",
+  "venueId": "asiaworld-viva",
+  "seatLayoutId": "end",
+  "status": "research-preview",
+  "publicationStatus": "not-published",
+  "displayMode": "reference-only",
+  "event": {
+    "name": "2024 RIIZE FAN-CON RIIZING DAY in HONG KONG",
+    "dates": [
+      "2024-06-01"
+    ],
+    "url": "https://www.asiaworld-expo.com/en-us/whats-on/upcoming-events/events/riize-live-in-hong-kong-2024/",
+    "bindingNote": "Official venue event and chart explicitly identify 2024-06-01 19:00 at AsiaWorld-Expo Hall 8 & 10, matching the VIVA end base configuration. The chart includes blocks A/B/C, main stage, sub-stage and panel. Historical event reference only; its seat ranges, prices and event structures are not registered to the retained venue coordinates and do not establish current inventory."
+  },
+  "source": {
+    "path": "data/research-events/regional-concert-maps-2026-11-12/viva-riize-20240601.jpg",
+    "url": "https://www.asiaworld-expo.com/AsiaWorldExpoLocal/media/AWE/assets/images/upcoming-events/2024/RIIZE_Web-Map_horizontal_20240415.jpg?ext=.jpg",
+    "retrievedAt": "2026-11-12",
+    "sha256": "0c28ea20899acf33232ff45acfe564e91bb87a79f948af751e1a7c3232d313ea",
+    "rights": "undecided; private research reference, no public redistribution approval",
+    "bytes": 127124
+  },
+  "eventSource": {
+    "path": "data/research-events/regional-concert-maps-2026-11-12/viva-riize-20240601.html",
+    "url": "https://www.asiaworld-expo.com/en-us/whats-on/upcoming-events/events/riize-live-in-hong-kong-2024/",
+    "retrievedAt": "2026-11-12",
+    "sha256": "6115c82c676351a09e3e075790c3849a178bb1c4c6d41f261cce84f75741df73",
+    "rights": "undecided; private research reference, no public redistribution approval",
+    "bytes": 75431
+  },
+  "registration": {
+    "allowDistances": false,
+    "allowPublication": false,
+    "metricCalibrated": false
+  },
+  "fixedSeats": {
+    "policy": "reuse-verbatim",
+    "count": 5600,
+    "assetSha256": "7a6fc48cb2322955901357e9d49650d28b6d649ee408974b064f219e27cb0778",
+    "identityPositionSha256": "ca262fae40ca590aebfd294df115be80698ffa023736ab35040583b337c795b0"
+  },
+  "stage": [],
+  "zones": [],
+  "equipment": [],
+  "temporarySeats": [],
+  "closedSections": null,
+  "notes": [
+    "Official venue event and chart explicitly identify 2024-06-01 19:00 at AsiaWorld-Expo Hall 8 & 10, matching the VIVA end base configuration. The chart includes blocks A/B/C, main stage, sub-stage and panel. Historical event reference only; its seat ranges, prices and event structures are not registered to the retained venue coordinates and do not establish current inventory."
+  ]
+}

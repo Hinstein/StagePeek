@@ -1,4 +1,11 @@
 const venues=new Map([
+ ['rajamangala',['拉加曼加拉国家体育场','泰国']],
+ ['bukit-jalil',['武吉加里尔国家体育场','马来西亚']],
+ ['kyocera-dome',['大阪京瓷巨蛋','日本']],
+ ['philippine-arena',['菲律宾竞技场','菲律宾']],
+ ['kaohsiung-national',['高雄世运主场馆','台湾']],
+ ['tokyo-dome',['东京巨蛋','日本']],
+ ['singapore-national',['新加坡国家体育场','新加坡']],
  ['taipei-music-center',['台北流行音乐中心','台湾']],
  ['ntu-sports-center',['台大综合体育馆','台湾']],
  ['ticc-taipei',['台北国际会议中心 TICC','台湾']],

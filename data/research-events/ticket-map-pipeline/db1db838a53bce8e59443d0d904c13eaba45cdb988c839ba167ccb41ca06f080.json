@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "tokyo-bruno-20270127",
+  "venueId": "tokyo-dome",
+  "seatLayoutId": "end",
+  "status": "research-preview",
+  "publicationStatus": "not-published",
+  "displayMode": "reference-only",
+  "event": {
+    "name": "Bruno Mars — The Romantic Tour",
+    "dates": [
+      "2027-01-27",
+      "2027-01-28"
+    ],
+    "url": "https://www.livenationhip.co.jp/en/all-events/bruno-mars-tickets-ae147754",
+    "bindingNote": "Official promoter/ticket page binds these dates and this venue to the linked concert seating chart. Section-only base model; the chart is not registered to 3D and does not supply exact seat positions."
+  },
+  "source": {
+    "path": "data/research-events/artist-led-2026-11-13/tokyo-bruno-20270127.jpg",
+    "url": "https://networksites.livenationinternational.com/networksites/w4ef4jq3/bm27_map_tokyodome.jpg",
+    "retrievedAt": "2026-11-13",
+    "sha256": "45bdea9ac7f21e7ed5c218385d4a4101051fe33c109fa4b6bc17836bb9c9d8d6",
+    "rights": "undecided; private research reference, no public redistribution approval",
+    "bytes": 273268
+  },
+  "eventSource": {
+    "path": "data/research-events/artist-led-2026-11-13/tokyo-bruno.html",
+    "url": "https://www.livenationhip.co.jp/en/all-events/bruno-mars-tickets-ae147754",
+    "retrievedAt": "2026-11-13",
+    "sha256": "f5c56b16be68938c8abdfab28d3d8151186e6913dae1f3ca4e3f066bbcaf259e",
+    "rights": "undecided; private research reference, no public redistribution approval",
+    "bytes": 1036944
+  },
+  "registration": {
+    "allowDistances": false,
+    "allowPublication": false,
+    "metricCalibrated": false
+  },
+  "venueModel": {
+    "id": "end",
+    "sha256": "5a322698a56221910d8055e7fd518884370168a1fcc6ee45038847d9f1852454",
+    "policy": "section-only-reference"
+  },
+  "stage": [],
+  "zones": [],
+  "equipment": [],
+  "temporarySeats": [],
+  "closedSections": null,
+  "notes": [
+    "Reference image only; no inferred event stage, inventory, closure or distance."
+  ]
+}

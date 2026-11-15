@@ -3468,12 +3468,13 @@ export const interfaceRows=[
   ["端舞台", "End stage", "端舞台", "エンドステージ", "엔드 스테이지"],
   ["控台", "MIX", "控台", "ミキサー", "믹싱 부스"],
   ["站区", "GENERAL ADMISSION", "站區", "立見エリア", "입석 구역"],
-  ["前沿区", "FRONT PORCH", "前沿區", "フロントポーチ", "프런트 포치"]
+  ["前沿区", "FRONT PORCH", "前沿區", "フロントポーチ", "프런트 포치"],
+  ["延迟塔", "Delay Tower", "延遲塔", "ディレイタワー", "딜레이 타워"]
 ];
 const columns={en:1,'zh-CN':0,'zh-TW':2,ja:3,ko:4};
 const messages=new Map(interfaceRows.map(row=>[row[0],row]));
 // Event diagrams supply semantic English labels alongside untranslated zone IDs.
-for(const [alias,key] of [['STAGE','舞台'],['STAGE · 示意','舞台 · 示意'],['FLOOR','内场'],['MIX','控台'],['GENERAL ADMISSION','站区'],['FRONT PORCH','前沿区']])messages.set(alias,messages.get(key));
+for(const [alias,key] of [['STAGE','舞台'],['STAGE · 示意','舞台 · 示意'],['FLOOR','内场'],['MIX','控台'],['FOH','控台'],['GENERAL ADMISSION','站区'],['FRONT PORCH','前沿区'],['Delay Tower','延迟塔']])messages.set(alias,messages.get(key));
 export function interfaceCopy(source,values=[],locale='en'){
  const row=messages.get(source);
  return String(row?row[columns[locale]??1]:source).replace(/\{(\d+)\}/g,(_,index)=>String(values[index]??'{'+index+'}'));

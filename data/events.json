@@ -17,11 +17,42 @@
           "status": "scheduled",
           "source": "https://www.tottenhamhotspurstadium.com/events/1021367/karol-g",
           "layout": {
-            "status": "unconfirmed",
-            "source": null,
-            "model": null
+            "status": "reference-only",
+            "source": "https://www.ticketmaster.co.uk/tottenham-hotspur-stadium-tickets-london/venue/434396",
+            "image": "https://s1.ticketm.net/uk/tmimages/venue/maps/uk1/32451s.gif",
+            "provider": "Ticketmaster UK",
+            "model": {
+              "id": "event:tottenham:karol-g",
+              "label": "Karol G · 公开座位图舞台",
+              "provider": "Ticketmaster UK",
+              "basis": "ticketmaster-seat-map",
+              "confidence": "operator-traced",
+              "mapStage": {
+                "x": 0.32,
+                "y": 0.5,
+                "w": 0.13,
+                "h": 0.24
+              },
+              "stageRects": [
+                {
+                  "x": -0.32,
+                  "z": 0,
+                  "w": 0.14,
+                  "d": 0.28
+                },
+                {
+                  "x": -0.18,
+                  "z": 0,
+                  "w": 0.28,
+                  "d": 0.07
+                }
+              ]
+            },
+            "eventVerification": "official-page",
+            "mapVerification": "reference",
+            "stageVerification": "operator-traced"
           },
-          "verifiedAt": "2026-10-23T18:09:09.599Z",
+          "verifiedAt": "2026-11-14T02:23:29.602Z",
           "retainedFromCache": false
         },
         {
@@ -40,15 +71,219 @@
           "layout": {
             "status": "unconfirmed",
             "source": null,
-            "model": null
+            "image": null,
+            "model": null,
+            "eventVerification": "official-page",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
           },
-          "verifiedAt": "2026-10-23T18:09:09.599Z",
+          "verifiedAt": "2026-11-14T02:23:29.602Z",
+          "retainedFromCache": false
+        },
+        {
+          "category": "unconfirmed",
+          "id": "0b2331a4559267ba6d07b02c",
+          "venueId": "tottenham",
+          "name": "Saracens: The Showdown 7",
+          "startDate": "2027-03-20T15:00:00.000Z",
+          "endDate": "2027-03-20T15:00:00.000Z",
+          "localDate": "2027-03-20",
+          "endLocalDate": "2027-03-20",
+          "datePrecision": "source-timestamp",
+          "timezone": "Europe/London",
+          "status": "scheduled",
+          "source": "https://www.tottenhamhotspurstadium.com/events/1181477/saracens-the-showdown-7",
+          "layout": {
+            "status": "unconfirmed",
+            "source": null,
+            "image": null,
+            "model": null,
+            "eventVerification": "official-page",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          },
+          "verifiedAt": "2026-11-14T02:23:29.602Z",
+          "retainedFromCache": false
+        },
+        {
+          "category": "unconfirmed",
+          "id": "62a18f18ba1f2a3015d1b701",
+          "venueId": "tottenham",
+          "name": "Fall Out Boy",
+          "startDate": "2027-06-05T19:00:00.000Z",
+          "endDate": "2027-06-05T19:00:00.000Z",
+          "localDate": "2027-06-05",
+          "endLocalDate": "2027-06-05",
+          "datePrecision": "source-timestamp",
+          "timezone": "Europe/London",
+          "status": "scheduled",
+          "source": "https://www.tottenhamhotspurstadium.com/events/1184972/fall-out-boy",
+          "layout": {
+            "status": "unconfirmed",
+            "source": null,
+            "image": null,
+            "model": null,
+            "eventVerification": "official-page",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          },
+          "verifiedAt": "2026-11-14T02:23:29.602Z",
+          "retainedFromCache": false
+        },
+        {
+          "category": "unconfirmed",
+          "id": "57a68fb80e3f36e46339273e",
+          "venueId": "tottenham",
+          "name": "U2",
+          "startDate": "2027-06-18T18:00:00.000Z",
+          "endDate": "2027-06-19T22:00:00.000Z",
+          "localDate": "2027-06-18",
+          "endLocalDate": "2027-06-19",
+          "datePrecision": "source-timestamp",
+          "timezone": "Europe/London",
+          "status": "scheduled",
+          "source": "https://www.tottenhamhotspurstadium.com/events/1181495/u2",
+          "layout": {
+            "status": "unconfirmed",
+            "source": null,
+            "image": null,
+            "model": null,
+            "eventVerification": "official-page",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          },
+          "verifiedAt": "2026-11-14T02:23:29.602Z",
+          "retainedFromCache": false
+        },
+        {
+          "category": "unconfirmed",
+          "id": "2cdca54e26b9bea63e1140c5",
+          "venueId": "tottenham",
+          "name": "Stray Kids",
+          "startDate": "2027-07-13T19:00:00.000Z",
+          "endDate": "2027-07-13T19:00:00.000Z",
+          "localDate": "2027-07-13",
+          "endLocalDate": "2027-07-13",
+          "datePrecision": "source-timestamp",
+          "timezone": "Europe/London",
+          "status": "scheduled",
+          "source": "https://www.tottenhamhotspurstadium.com/events/1184882/stray-kids",
+          "layout": {
+            "status": "unconfirmed",
+            "source": null,
+            "image": null,
+            "model": null,
+            "eventVerification": "official-page",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          },
+          "verifiedAt": "2026-11-14T02:23:29.602Z",
+          "retainedFromCache": false
+        },
+        {
+          "category": "unconfirmed",
+          "id": "b96256c6ab5cc0e26619a385",
+          "venueId": "tottenham",
+          "name": "Saracens: The Showdown 7 VIP Experiences",
+          "startDate": "2027-03-20T15:00:00.000Z",
+          "endDate": "2027-03-20T15:00:00.000Z",
+          "localDate": "2027-03-20",
+          "endLocalDate": "2027-03-20",
+          "datePrecision": "source-timestamp",
+          "timezone": "Europe/London",
+          "status": "scheduled",
+          "source": "https://www.tottenhamhotspurstadium.com/events/1185062/saracens-the-showdown-7-vip-experiences",
+          "layout": {
+            "status": "unconfirmed",
+            "source": null,
+            "image": null,
+            "model": null,
+            "eventVerification": "official-page",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          },
+          "verifiedAt": "2026-11-14T02:23:29.602Z",
+          "retainedFromCache": false
+        },
+        {
+          "category": "unconfirmed",
+          "id": "5c0df277b7e2fa18e18a89a2",
+          "venueId": "tottenham",
+          "name": "Fall Out Boy VIP Experiences",
+          "startDate": "2027-06-05T19:00:00.000Z",
+          "endDate": "2027-06-05T19:00:00.000Z",
+          "localDate": "2027-06-05",
+          "endLocalDate": "2027-06-05",
+          "datePrecision": "source-timestamp",
+          "timezone": "Europe/London",
+          "status": "scheduled",
+          "source": "https://www.tottenhamhotspurstadium.com/events/1184976/fall-out-boy-vip-experiences",
+          "layout": {
+            "status": "unconfirmed",
+            "source": null,
+            "image": null,
+            "model": null,
+            "eventVerification": "official-page",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          },
+          "verifiedAt": "2026-11-14T02:23:29.602Z",
+          "retainedFromCache": false
+        },
+        {
+          "category": "unconfirmed",
+          "id": "b22d3966bc20e67fd08c0cf0",
+          "venueId": "tottenham",
+          "name": "U2 VIP Experiences",
+          "startDate": "2027-06-19T17:00:00.000Z",
+          "endDate": null,
+          "localDate": "2027-06-19",
+          "endLocalDate": "2027-06-19",
+          "datePrecision": "source-timestamp",
+          "timezone": "Europe/London",
+          "status": "scheduled",
+          "source": "https://www.tottenhamhotspurstadium.com/events/1181502/u2-vip-experiences",
+          "layout": {
+            "status": "unconfirmed",
+            "source": null,
+            "image": null,
+            "model": null,
+            "eventVerification": "official-page",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          },
+          "verifiedAt": "2026-11-14T02:23:29.602Z",
+          "retainedFromCache": false
+        },
+        {
+          "category": "unconfirmed",
+          "id": "4f79e7bf9269d4a2ae49fcee",
+          "venueId": "tottenham",
+          "name": "Stray Kids VIP Experiences",
+          "startDate": "2027-07-13T19:00:00.000Z",
+          "endDate": "2027-07-13T19:00:00.000Z",
+          "localDate": "2027-07-13",
+          "endLocalDate": "2027-07-13",
+          "datePrecision": "source-timestamp",
+          "timezone": "Europe/London",
+          "status": "scheduled",
+          "source": "https://www.tottenhamhotspurstadium.com/events/1184890/stray-kids-vip-experiences",
+          "layout": {
+            "status": "unconfirmed",
+            "source": null,
+            "image": null,
+            "model": null,
+            "eventVerification": "official-page",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          },
+          "verifiedAt": "2026-11-14T02:23:29.602Z",
           "retainedFromCache": false
         }
       ],
-      "refreshedAt": "2026-10-23T18:09:09.599Z",
-      "attemptedAt": "2026-10-23T18:09:09.599Z",
-      "status": "current",
+      "refreshedAt": "2026-11-14T02:23:29.602Z",
+      "attemptedAt": "2026-11-14T02:23:29.602Z",
+      "status": "partial",
       "sources": [
         {
           "url": "https://www.tottenhamhotspurstadium.com/events/",
@@ -59,12 +294,51 @@
           "parsedEvents": 1
         },
         {
+          "url": "https://www.tottenhamhotspurstadium.com/events/1181477/saracens-the-showdown-7",
+          "parsedEvents": 1
+        },
+        {
+          "url": "https://www.tottenhamhotspurstadium.com/events/1184972/fall-out-boy",
+          "parsedEvents": 1
+        },
+        {
+          "url": "https://www.tottenhamhotspurstadium.com/events/1181495/u2",
+          "parsedEvents": 1
+        },
+        {
+          "url": "https://www.tottenhamhotspurstadium.com/events/1184882/stray-kids",
+          "parsedEvents": 1
+        },
+        {
           "url": "https://www.tottenhamhotspurstadium.com/events/1021376/karol-g-vip-experiences",
+          "parsedEvents": 1
+        },
+        {
+          "url": "https://www.tottenhamhotspurstadium.com/events/1185062/saracens-the-showdown-7-vip-experiences",
+          "parsedEvents": 1
+        },
+        {
+          "url": "https://www.tottenhamhotspurstadium.com/events/1184976/fall-out-boy-vip-experiences",
+          "parsedEvents": 1
+        },
+        {
+          "url": "https://www.tottenhamhotspurstadium.com/events/1181502/u2-vip-experiences",
+          "parsedEvents": 1
+        },
+        {
+          "url": "https://www.tottenhamhotspurstadium.com/events/1184890/stray-kids-vip-experiences",
           "parsedEvents": 1
         }
       ],
-      "failedSources": [],
-      "failures": [],
+      "failedSources": [
+        "https://www.tottenhamhotspurstadium.com/events/1181502/0208%20365%205150"
+      ],
+      "failures": [
+        {
+          "url": "https://www.tottenhamhotspurstadium.com/events/1181502/0208%20365%205150",
+          "reason": "Official event page returned 404"
+        }
+      ],
       "crawlLimitReached": false
     },
     "metlife": {
@@ -83,20 +357,101 @@
           "status": "scheduled",
           "source": "https://www.metlifestadium.com/events/detail/zach-bryan",
           "layout": {
-            "status": "unconfirmed",
-            "source": null,
-            "model": null
+            "status": "reference-only",
+            "source": "https://www.ticketmaster.com/zach-bryan-east-rutherford-new-jersey-05-14-2027/event/0000654CE2BEAC96",
+            "image": "https://mapsapi.tmol.io/maps/geometry/3/event/0000654CE2BEAC96/staticImage?sectionColor=c9c9c9&sectionLevel=true&systemId=HOST",
+            "provider": "Ticketmaster",
+            "model": {
+              "id": "event:metlife:zach-bryan",
+              "label": "Zach Bryan · 公开座位图舞台",
+              "provider": "Ticketmaster",
+              "basis": "ticketmaster-seat-map",
+              "confidence": "operator-traced",
+              "mapStage": {
+                "x": 0.32,
+                "y": 0.5,
+                "w": 0.13,
+                "h": 0.24
+              },
+              "stageRects": [
+                {
+                  "x": -0.31,
+                  "z": 0,
+                  "w": 0.14,
+                  "d": 0.28
+                },
+                {
+                  "x": -0.17,
+                  "z": 0,
+                  "w": 0.27,
+                  "d": 0.07
+                }
+              ]
+            },
+            "eventVerification": "official-page",
+            "mapVerification": "reference",
+            "stageVerification": "operator-traced"
           },
-          "verifiedAt": "2026-10-23T18:09:20.589Z",
+          "verifiedAt": "2026-11-14T02:23:43.831Z",
           "retainedFromCache": false
         },
         {
           "category": "music",
-          "id": "fc1fba3721895a8c3502d985",
+          "id": "5f8265d2c162b48df97ac97d",
+          "venueId": "metlife",
+          "name": "Noah Kahan",
+          "startDate": "2027-06-18T18:30:00-04:00",
+          "endDate": "2027-06-19T20:30:00-04:00",
+          "localDate": "2027-06-18",
+          "endLocalDate": "2027-06-19",
+          "datePrecision": "source-timestamp",
+          "timezone": "America/New_York",
+          "status": "scheduled",
+          "source": "https://www.metlifestadium.com/events/detail/noah-kahan",
+          "layout": {
+            "status": "unconfirmed",
+            "source": null,
+            "image": null,
+            "model": null,
+            "eventVerification": "official-page",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          },
+          "verifiedAt": "2026-11-14T02:23:43.831Z",
+          "retainedFromCache": false
+        },
+        {
+          "category": "music",
+          "id": "5ed5bc4b6088bff1283b1c88",
+          "venueId": "metlife",
+          "name": "Stray Kids",
+          "startDate": "2027-06-29T19:30:00-04:00",
+          "endDate": "2027-06-29T22:30:00-04:00",
+          "localDate": "2027-06-29",
+          "endLocalDate": "2027-06-29",
+          "datePrecision": "source-timestamp",
+          "timezone": "America/New_York",
+          "status": "scheduled",
+          "source": "https://www.metlifestadium.com/events/detail/stray-kids",
+          "layout": {
+            "status": "unconfirmed",
+            "source": null,
+            "image": null,
+            "model": null,
+            "eventVerification": "official-page",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          },
+          "verifiedAt": "2026-11-14T02:23:43.831Z",
+          "retainedFromCache": false
+        },
+        {
+          "category": "music",
+          "id": "136824e71512721c4fdadb0d",
           "venueId": "metlife",
           "name": "Bon Jovi",
-          "startDate": "2027-07-15T19:00:00-04:00",
-          "endDate": null,
+          "startDate": "2027-07-15T18:30:00-04:00",
+          "endDate": "2027-07-15T20:30:00-04:00",
           "localDate": "2027-07-15",
           "endLocalDate": "2027-07-15",
           "datePrecision": "source-timestamp",
@@ -106,35 +461,19 @@
           "layout": {
             "status": "unconfirmed",
             "source": null,
-            "model": null
+            "image": null,
+            "provider": "Ticketmaster",
+            "model": null,
+            "eventVerification": "official-page",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
           },
-          "verifiedAt": "2026-10-23T18:09:20.589Z",
-          "retainedFromCache": false
-        },
-        {
-          "category": "music",
-          "id": "22156beff6f90bf5ba104705",
-          "venueId": "metlife",
-          "name": "Kenny Chesney",
-          "startDate": "2027-08-07T16:30:00-04:00",
-          "endDate": "2027-08-07T18:30:00-04:00",
-          "localDate": "2027-08-07",
-          "endLocalDate": "2027-08-07",
-          "datePrecision": "source-timestamp",
-          "timezone": "America/New_York",
-          "status": "scheduled",
-          "source": "https://www.metlifestadium.com/events/detail/kenny-chesney",
-          "layout": {
-            "status": "unconfirmed",
-            "source": null,
-            "model": null
-          },
-          "verifiedAt": "2026-10-23T18:09:20.589Z",
+          "verifiedAt": "2026-11-14T02:23:43.831Z",
           "retainedFromCache": false
         }
       ],
-      "refreshedAt": "2026-10-23T18:09:20.589Z",
-      "attemptedAt": "2026-10-23T18:09:20.589Z",
+      "refreshedAt": "2026-11-14T02:23:43.831Z",
+      "attemptedAt": "2026-11-14T02:23:43.831Z",
       "status": "current",
       "sources": [
         {
@@ -150,36 +489,12 @@
           "parsedEvents": 1
         },
         {
-          "url": "https://www.metlifestadium.com/events/detail/jets-vs-dolphins",
-          "parsedEvents": 0
-        },
-        {
-          "url": "https://www.metlifestadium.com/events/detail/jets-vs-raiders",
-          "parsedEvents": 0
-        },
-        {
-          "url": "https://www.metlifestadium.com/events/detail/usbands-championships-ii-o-iii-o-iv-o-v-o",
-          "parsedEvents": 0
-        },
-        {
-          "url": "https://www.metlifestadium.com/events/detail/giants-vs-commanders",
-          "parsedEvents": 0
-        },
-        {
           "url": "https://www.metlifestadium.com/events/detail/jets-vs-bills",
           "parsedEvents": 0
         },
         {
           "url": "https://www.metlifestadium.com/events/detail/giants-vs-jaguars",
           "parsedEvents": 0
-        },
-        {
-          "url": "https://www.metlifestadium.com/events/detail/bon-jovi",
-          "parsedEvents": 1
-        },
-        {
-          "url": "https://www.metlifestadium.com/events/detail/kenny-chesney",
-          "parsedEvents": 1
         },
         {
           "url": "https://www.metlifestadium.com/events/detail/njsiaa-high-school-football-championships-1",
@@ -192,6 +507,34 @@
         {
           "url": "https://www.metlifestadium.com/events/detail/army-navy",
           "parsedEvents": 0
+        },
+        {
+          "url": "https://www.metlifestadium.com/events/detail/jets-vs-broncos",
+          "parsedEvents": 0
+        },
+        {
+          "url": "https://www.metlifestadium.com/events/detail/noah-kahan",
+          "parsedEvents": 1
+        },
+        {
+          "url": "https://www.metlifestadium.com/events/detail/stray-kids",
+          "parsedEvents": 1
+        },
+        {
+          "url": "https://www.metlifestadium.com/events/detail/bon-jovi",
+          "parsedEvents": 1
+        },
+        {
+          "url": "https://www.metlifestadium.com/events/detail/giants-vs-browns",
+          "parsedEvents": 0
+        },
+        {
+          "url": "https://www.metlifestadium.com/events/detail/jets-vs-patriots",
+          "parsedEvents": 0
+        },
+        {
+          "url": "https://www.metlifestadium.com/events/detail/jets-vs-vikings",
+          "parsedEvents": 0
         }
       ],
       "failedSources": [],
@@ -202,95 +545,304 @@
       "events": [
         {
           "category": "music",
-          "id": "654d73f955fdd767fdfbbf6e",
-          "venueId": "sofi",
-          "name": "JAŸ-Z 30",
-          "startDate": "2026-10-24",
-          "endDate": null,
-          "localDate": "2026-10-24",
-          "endLocalDate": "2026-10-24",
-          "datePrecision": "day",
-          "timezone": "America/Los_Angeles",
-          "status": "scheduled",
-          "source": "https://www.sofistadium.com/events/detail/jay-z-october-24-2026",
-          "layout": {
-            "status": "unconfirmed",
-            "source": null,
-            "model": null
-          },
-          "localTime": "20:00",
-          "verifiedAt": "2026-10-23T18:10:38.807Z",
-          "acquisition": "manual-official-page-verification"
-        },
-        {
-          "category": "music",
-          "id": "6f227c4c00e9805a6eef74d3",
+          "id": "ffad2e46765000eab7bb093e",
           "venueId": "sofi",
           "name": "The R&B Tour - Starring Usher Raymond & Chris Brown",
-          "startDate": "2026-11-15",
-          "endDate": null,
+          "startDate": "2026-11-15T19:30:00-08:00",
+          "endDate": "2026-11-15T22:30:00-08:00",
           "localDate": "2026-11-15",
           "endLocalDate": "2026-11-15",
-          "datePrecision": "day",
+          "datePrecision": "source-timestamp",
           "timezone": "America/Los_Angeles",
           "status": "scheduled",
           "source": "https://www.sofistadium.com/events/detail/chris-brown-usher-november-15",
           "layout": {
-            "status": "unconfirmed",
-            "source": null,
-            "model": null
+            "status": "reference-only",
+            "source": "https://www.ticketmaster.com/the-r-b-tour-starring-usher-raymond-chris-brown-inglewood-11-15-2026/event/0A006494C5CE878D",
+            "image": "https://mapsapi.tmol.io/maps/geometry/3/event/0A006494C5CE878D/staticImage?type=png&systemId=HOST",
+            "provider": "Ticketmaster",
+            "model": {
+              "id": "event:sofi:rnb-tour",
+              "label": "The R&B Tour · 公开座位图舞台",
+              "provider": "Ticketmaster",
+              "basis": "ticketmaster-seat-map",
+              "confidence": "operator-traced",
+              "mapStage": {
+                "x": 0.32,
+                "y": 0.5,
+                "w": 0.13,
+                "h": 0.24
+              },
+              "stageRects": [
+                {
+                  "x": -0.29,
+                  "z": 0,
+                  "w": 0.14,
+                  "d": 0.27
+                },
+                {
+                  "x": -0.15,
+                  "z": 0,
+                  "w": 0.26,
+                  "d": 0.07
+                }
+              ]
+            },
+            "eventVerification": "official-page",
+            "mapVerification": "reference",
+            "stageVerification": "operator-traced"
           },
-          "localTime": "19:30",
-          "verifiedAt": "2026-10-23T18:10:38.807Z",
-          "acquisition": "manual-official-page-verification"
+          "verifiedAt": "2026-11-14T02:23:53.384Z",
+          "retainedFromCache": false
         },
         {
-          "category": "music",
-          "id": "0f62f8e053e9a9deac512d3f",
+          "category": "unconfirmed",
+          "id": "17f06c473bfa91b8c6256f3c",
           "venueId": "sofi",
-          "name": "The R&B Tour - Starring Usher Raymond & Chris Brown",
-          "startDate": "2026-11-16",
-          "endDate": null,
-          "localDate": "2026-11-16",
-          "endLocalDate": "2026-11-16",
-          "datePrecision": "day",
+          "name": "Book Your Flight to SoFi Stadium!",
+          "startDate": "2026-11-22T19:00:00-08:00",
+          "endDate": "2026-12-22T19:00:00-08:00",
+          "localDate": "2026-11-22",
+          "endLocalDate": "2026-12-22",
+          "datePrecision": "source-timestamp",
           "timezone": "America/Los_Angeles",
           "status": "scheduled",
-          "source": "https://www.sofistadium.com/events/detail/chris-brown-usher-november-16",
+          "source": "https://www.sofistadium.com/events/detail/american-airlines",
           "layout": {
             "status": "unconfirmed",
             "source": null,
-            "model": null
+            "image": null,
+            "model": null,
+            "eventVerification": "official-page",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
           },
-          "localTime": "19:30",
-          "verifiedAt": "2026-10-23T18:10:38.807Z",
-          "acquisition": "manual-official-page-verification"
+          "verifiedAt": "2026-11-14T02:23:53.384Z",
+          "retainedFromCache": false
+        },
+        {
+          "category": "unconfirmed",
+          "id": "b80ea04e1c7832a9e6c82e22",
+          "venueId": "sofi",
+          "name": "JAŸ-Z 30",
+          "startDate": "2026-10-24T20:00:00-07:00",
+          "endDate": "2026-10-24T23:00:00-07:00",
+          "localDate": "2026-10-24",
+          "endLocalDate": "2026-10-24",
+          "datePrecision": "source-timestamp",
+          "timezone": "America/Los_Angeles",
+          "status": "scheduled",
+          "source": "https://www.sofistadium.com/events/detail/jay-z-october-24-2026",
+          "layout": {
+            "status": "reference-only",
+            "source": "https://www.ticketmaster.com/jayz30-inglewood-california-10-24-2026/event/0A0064C8E971D777",
+            "image": "https://mapsapi.tmol.io/maps/geometry/3/event/0A0064C8E971D777/staticImage?type=png&systemId=HOST",
+            "provider": "Ticketmaster",
+            "model": {
+              "id": "event:sofi:jay-z-30",
+              "label": "JAŸ-Z 30 · 公开座位图舞台",
+              "provider": "Ticketmaster",
+              "basis": "ticketmaster-seat-map",
+              "confidence": "operator-traced",
+              "mapStage": {
+                "x": 0.32,
+                "y": 0.5,
+                "w": 0.13,
+                "h": 0.24
+              },
+              "stageRects": [
+                {
+                  "x": -0.3,
+                  "z": 0,
+                  "w": 0.13,
+                  "d": 0.28
+                },
+                {
+                  "x": -0.16,
+                  "z": 0,
+                  "w": 0.25,
+                  "d": 0.07
+                }
+              ]
+            },
+            "eventVerification": "official-page",
+            "mapVerification": "reference",
+            "stageVerification": "operator-traced"
+          },
+          "verifiedAt": "2026-11-14T02:23:53.384Z",
+          "retainedFromCache": false
+        },
+        {
+          "category": "unconfirmed",
+          "id": "50eea4704c413f5cc5c24689",
+          "venueId": "sofi",
+          "name": "Book Your Flight to SoFi Stadium!",
+          "startDate": "2026-06-22T19:00:00-07:00",
+          "endDate": null,
+          "localDate": "2026-06-22",
+          "endLocalDate": "2026-06-22",
+          "datePrecision": "source-timestamp",
+          "timezone": "America/Los_Angeles",
+          "status": "scheduled",
+          "source": "https://www.sofistadium.com/events/detail/american-airlines",
+          "layout": {
+            "status": "unconfirmed",
+            "source": null,
+            "image": null,
+            "model": null,
+            "eventVerification": "official-page",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          },
+          "verifiedAt": "2026-11-14T02:23:53.384Z",
+          "retainedFromCache": false
+        },
+        {
+          "category": "music",
+          "id": "933df5769b2f4e83b55a2bb6",
+          "venueId": "sofi",
+          "name": "LA CARD SHOW at SoFi Stadium",
+          "startDate": "2026-12-12T10:30:00-08:00",
+          "endDate": "2026-12-13T15:30:00-08:00",
+          "localDate": "2026-12-12",
+          "endLocalDate": "2026-12-13",
+          "datePrecision": "source-timestamp",
+          "timezone": "America/Los_Angeles",
+          "status": "scheduled",
+          "source": "https://www.sofistadium.com/events/detail/la-card-show-sofi-2026",
+          "layout": {
+            "status": "unconfirmed",
+            "source": null,
+            "image": null,
+            "model": null,
+            "eventVerification": "official-page",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          },
+          "verifiedAt": "2026-11-14T02:23:53.384Z",
+          "retainedFromCache": false
+        },
+        {
+          "category": "music",
+          "id": "d189040b0b176f9053817d5d",
+          "venueId": "sofi",
+          "name": "Sip & Stroll at SoFi Stadium",
+          "startDate": "2026-12-19T18:00:00-08:00",
+          "endDate": "2026-12-19T21:00:00-08:00",
+          "localDate": "2026-12-19",
+          "endLocalDate": "2026-12-19",
+          "datePrecision": "source-timestamp",
+          "timezone": "America/Los_Angeles",
+          "status": "scheduled",
+          "source": "https://www.sofistadium.com/events/detail/sofi-tour-sip-wine-stroll-december-2026",
+          "layout": {
+            "status": "unconfirmed",
+            "source": null,
+            "image": null,
+            "model": null,
+            "eventVerification": "official-page",
+            "mapVerification": "unavailable",
+            "stageVerification": "unverified"
+          },
+          "verifiedAt": "2026-11-14T02:23:53.384Z",
+          "retainedFromCache": false
         }
       ],
-      "refreshedAt": "2026-10-23T18:10:38.807Z",
-      "attemptedAt": "2026-10-23T18:09:51.135Z",
-      "status": "stale",
-      "failedSources": [
-        "https://www.sofistadium.com/events",
-        "https://www.sofistadium.com/events/detail/chris-brown-usher-november-15",
-        "https://www.sofistadium.com/events/detail/jay-z-october-24-2026"
-      ],
-      "failures": [
+      "refreshedAt": "2026-11-14T02:23:53.384Z",
+      "attemptedAt": "2026-11-14T02:23:53.384Z",
+      "status": "current",
+      "sources": [
         {
           "url": "https://www.sofistadium.com/events",
-          "reason": "fetch failed"
+          "parsedEvents": 2
         },
         {
           "url": "https://www.sofistadium.com/events/detail/chris-brown-usher-november-15",
-          "reason": "fetch failed"
+          "parsedEvents": 1
         },
         {
           "url": "https://www.sofistadium.com/events/detail/jay-z-october-24-2026",
-          "reason": "fetch failed"
+          "parsedEvents": 1
+        },
+        {
+          "url": "https://www.sofistadium.com/events/chargers-tickets",
+          "parsedEvents": 0
+        },
+        {
+          "url": "https://www.sofistadium.com/events/rams-tickets",
+          "parsedEvents": 0
+        },
+        {
+          "url": "https://www.sofistadium.com/events/mobile-app",
+          "parsedEvents": 0
+        },
+        {
+          "url": "https://www.sofistadium.com/events/ticket-box-office",
+          "parsedEvents": 0
+        },
+        {
+          "url": "https://www.sofistadium.com/events/detail/chargers-jets-2026",
+          "parsedEvents": 0
+        },
+        {
+          "url": "https://www.sofistadium.com/events/detail/american-airlines",
+          "parsedEvents": 1
+        },
+        {
+          "url": "https://www.sofistadium.com/events/detail/rams-packers-2026",
+          "parsedEvents": 0
+        },
+        {
+          "url": "https://www.sofistadium.com/events/detail/chargers-patriots-2026",
+          "parsedEvents": 0
+        },
+        {
+          "url": "https://www.sofistadium.com/events/detail/rams-chiefs-2026",
+          "parsedEvents": 0
+        },
+        {
+          "url": "https://www.sofistadium.com/events/detail/la-card-show-sofi-2026",
+          "parsedEvents": 1
+        },
+        {
+          "url": "https://www.sofistadium.com/events/detail/chargers-49ers-2026",
+          "parsedEvents": 0
+        },
+        {
+          "url": "https://www.sofistadium.com/events/detail/sofi-tour-sip-wine-stroll-december-2026",
+          "parsedEvents": 1
+        },
+        {
+          "url": "https://www.sofistadium.com/events/detail/rams-cowboys-2026",
+          "parsedEvents": 0
+        },
+        {
+          "url": "https://www.sofistadium.com/events/detail/chargers-chiefs-2026",
+          "parsedEvents": 0
+        },
+        {
+          "url": "https://www.sofistadium.com/events/detail/rams-seahawks-2027",
+          "parsedEvents": 0
         }
       ],
-      "coverage": "Three official concert detail pages manually verified via web reader. Local automatic fetch remains unavailable; date and local time only; no confirmed stage layout.",
-      "acquisition": "manual-official-page-verification"
+      "failedSources": [],
+      "failures": [],
+      "crawlLimitReached": false
+    },
+    "wembley": {
+      "events": [],
+      "refreshedAt": null,
+      "attemptedAt": "2026-11-14T02:23:53.579Z",
+      "status": "unavailable",
+      "failedSources": [
+        "https://www.wembleystadium.com/experiences/events/2026/The-Weeknd"
+      ],
+      "failures": [
+        {
+          "url": "https://www.wembleystadium.com/experiences/events/2026/The-Weeknd",
+          "reason": "Official event page returned 403"
+        }
+      ]
     }
   },
   "builtAt": "2026-10-25T08:21:46.010Z"

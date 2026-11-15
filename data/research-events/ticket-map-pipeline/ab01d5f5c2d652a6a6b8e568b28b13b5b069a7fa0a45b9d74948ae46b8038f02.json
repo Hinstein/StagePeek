@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "kaohsiung-bts-20261119",
+  "venueId": "kaohsiung-national",
+  "seatLayoutId": "end",
+  "status": "research-preview",
+  "publicationStatus": "not-published",
+  "displayMode": "reference-only",
+  "event": {
+    "name": "BTS WORLD TOUR 'ARIRANG' IN KAOHSIUNG",
+    "dates": [
+      "2026-11-19",
+      "2026-11-21",
+      "2026-11-22"
+    ],
+    "url": "https://tixcraft.com/activity/detail/26_btskns",
+    "bindingNote": "Official Tixcraft event page confirms Nov 19, 21, 22 at Kaohsiung National Stadium and directly links this chart. The central stage and temporary field blocks are reference-only, not registered to the retained stand curves."
+  },
+  "source": {
+    "path": "data/research-events/artist-led-2026-11-13/kaohsiung-bts-20261119.jpg",
+    "url": "https://static.tixcraft.com/images/activity/field/26_btskns_2666dab1d371caa7f7cecb602ce039a0.jpg",
+    "retrievedAt": "2026-11-13",
+    "sha256": "4f8c46a7d88671792b1987d7c81d4452ad897e06eba4239e63aafe678343ab32",
+    "rights": "undecided; private research reference, no public redistribution approval",
+    "bytes": 339504
+  },
+  "eventSource": {
+    "path": "data/research-events/artist-led-2026-11-13/kaohsiung-bts-ticket.html",
+    "url": "https://tixcraft.com/activity/detail/26_btskns",
+    "retrievedAt": "2026-11-13",
+    "sha256": "69c6f5ba8911237cdc8abd9805961cb6606bd7d862bcf63d59bba71c326bee12",
+    "rights": "undecided; private research reference, no public redistribution approval",
+    "bytes": 298933
+  },
+  "registration": {
+    "allowDistances": false,
+    "allowPublication": false,
+    "metricCalibrated": false
+  },
+  "fixedSeats": {
+    "policy": "reuse-verbatim",
+    "count": 40407,
+    "assetSha256": "60e34bbf3718b36a67da301ecac886870f0256a47aec0b81b659a0846748a570",
+    "identityPositionSha256": "79cfc3e48e33a2c463e2cd166a4dbd95251e37f4891acc887403422810179c93"
+  },
+  "stage": [],
+  "zones": [],
+  "equipment": [],
+  "temporarySeats": [],
+  "closedSections": null,
+  "notes": [
+    "Stand positions are derived from reference curves; the event diagram does not provide measured seat XYZ."
+  ]
+}

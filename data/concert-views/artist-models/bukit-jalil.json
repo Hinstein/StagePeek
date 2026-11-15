@@ -1,0 +1,5566 @@
+{
+  "schemaVersion": 1,
+  "id": "bukit-jalil",
+  "source": {
+    "path": "data/research-events/artist-led-2026-11-13/kuala-lumpur-bts-20261212.png",
+    "url": "https://golive-webapp-prd-ap-southeast-5.s3.ap-southeast-5.amazonaws.com/event/175/2a635df0-53ac-4613-961e-42810f5ce79c.webp",
+    "sha256": "09f612059f31187bc74a96612abd926c2201b33c2dfbed3d30d67939be28190b"
+  },
+  "transcription": {
+    "path": "data/concert-views/artist-models/bangkok-kl-anchors.json",
+    "sha256": "ca35c9139bab7f418d9a93e7bffab81ad086d78d2208e9d7fd66c749e8076c2e"
+  },
+  "method": "Codex AI visual transcription of chart section labels and pixel anchors. All radii, heights, rows and chair counts are illustrative, not surveyed; no ticket inventory is created.",
+  "geometry": {
+    "shape": "oval",
+    "coordinateSystem": "profile-inner-radius",
+    "power": 1,
+    "oneSided": false,
+    "floor": [
+      136,
+      80
+    ],
+    "tiers": [
+      {
+        "id": "0",
+        "name": "1",
+        "steps": 28
+      },
+      {
+        "id": "1",
+        "name": "2",
+        "steps": 18
+      },
+      {
+        "id": "2",
+        "name": "3",
+        "steps": 30
+      }
+    ]
+  },
+  "tiers": [
+    [
+      72,
+      42,
+      1,
+      12,
+      9
+    ],
+    [
+      88,
+      55,
+      14,
+      10,
+      7
+    ],
+    [
+      101,
+      66,
+      25,
+      16,
+      12
+    ]
+  ],
+  "sections": [
+    {
+      "id": "101",
+      "ticketLabels": [
+        "101"
+      ],
+      "sourceLabel": "101",
+      "levelName": "1",
+      "tier": 0,
+      "angle": 2.1715514272979504,
+      "halfAngle": 0.06124995923057307,
+      "sourcePixel": [
+        2402,
+        344
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        52.11667491874962,
+        5.5,
+        -35.71273789514317
+      ],
+      "polygon": [
+        [
+          50.24311998622053,
+          1,
+          -30.08342749390414
+        ],
+        [
+          43.14513181347972,
+          1,
+          -33.62398102948783
+        ],
+        [
+          53.452007682219765,
+          10,
+          -41.65636345868061
+        ],
+        [
+          61.46788701285948,
+          10,
+          -36.80433704479328
+        ]
+      ]
+    },
+    {
+      "id": "102",
+      "ticketLabels": [
+        "102"
+      ],
+      "sourceLabel": "102",
+      "levelName": "1",
+      "tier": 0,
+      "angle": 2.04394734556759,
+      "halfAngle": 0.06124995923057307,
+      "sourcePixel": [
+        2474,
+        360
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        59.96360935677481,
+        5.5,
+        -30.697550678667238
+      ],
+      "polygon": [
+        [
+          57.62875925402068,
+          1,
+          -25.177616165960686
+        ],
+        [
+          50.54165197777188,
+          1,
+          -29.91278170602962
+        ],
+        [
+          61.798294895381396,
+          10,
+          -36.574960110591185
+        ],
+        [
+          69.47436675757599,
+          10,
+          -30.352882176157348
+        ]
+      ]
+    },
+    {
+      "id": "103",
+      "ticketLabels": [
+        "103"
+      ],
+      "sourceLabel": "103",
+      "levelName": "1",
+      "tier": 0,
+      "angle": 1.8939816004366754,
+      "halfAngle": 0.06184183562779516,
+      "sourcePixel": [
+        2515,
+        413
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        68.51027591648544,
+        5.5,
+        -22.946025426574074
+      ],
+      "polygon": [
+        [
+          65.44844008439877,
+          1,
+          -17.5048768671731
+        ],
+        [
+          59.130990769289426,
+          1,
+          -23.963046000483892
+        ],
+        [
+          71.05904302956819,
+          10,
+          -28.796931942366122
+        ],
+        [
+          77.55543674077612,
+          10,
+          -20.74302105254813
+        ]
+      ]
+    },
+    {
+      "id": "104",
+      "ticketLabels": [
+        "104"
+      ],
+      "sourceLabel": "104",
+      "levelName": "1",
+      "tier": 0,
+      "angle": 1.7651444428787688,
+      "halfAngle": 0.06184183562779516,
+      "sourcePixel": [
+        2539,
+        466
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        74.29225417942006,
+        5.5,
+        -14.623136003641507
+      ],
+      "polygon": [
+        [
+          70.191016081414,
+          1,
+          -9.355569423950433
+        ],
+        [
+          65.6816722708266,
+          1,
+          -17.205049819440674
+        ],
+        [
+          77.79001547743752,
+          10,
+          -20.376781611555188
+        ],
+        [
+          82.25070049823897,
+          10,
+          -10.962971924886935
+        ]
+      ]
+    },
+    {
+      "id": "105",
+      "ticketLabels": [
+        "105"
+      ],
+      "sourceLabel": "105",
+      "levelName": "1",
+      "tier": 0,
+      "angle": 1.6327006012046688,
+      "halfAngle": 0.053496225120430695,
+      "sourcePixel": [
+        2581,
+        523
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        77.60732441138842,
+        5.5,
+        -4.810371347813335
+      ],
+      "polygon": [
+        [
+          71.99252153936973,
+          1,
+          -0.6053309343167818
+        ],
+        [
+          70.61924208264276,
+          1,
+          -8.185865925136968
+        ],
+        [
+          82.66688375631064,
+          10,
+          -9.58237453307879
+        ],
+        [
+          83.99281584668832,
+          10,
+          -0.7062323781028985
+        ]
+      ]
+    },
+    {
+      "id": "106",
+      "ticketLabels": [
+        "106"
+      ],
+      "sourceLabel": "106",
+      "levelName": "1",
+      "tier": 0,
+      "angle": 1.5212501322037715,
+      "halfAngle": 0.053496225120430695,
+      "sourcePixel": [
+        2581,
+        577
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        77.74800350881169,
+        5.5,
+        3.8552729012633855
+      ],
+      "polygon": [
+        [
+          70.894671288029,
+          1,
+          7.331123514184742
+        ],
+        [
+          71.99834933326338,
+          1,
+          -0.28439715705261565
+        ],
+        [
+          83.99841432759845,
+          10,
+          -0.3317980266619803
+        ],
+        [
+          82.93388402464424,
+          10,
+          8.57608246500755
+        ]
+      ]
+    },
+    {
+      "id": "107",
+      "ticketLabels": [
+        "107"
+      ],
+      "sourceLabel": "107",
+      "levelName": "1",
+      "tier": 0,
+      "angle": 1.3786272001930049,
+      "halfAngle": 0.05730129614438222,
+      "sourcePixel": [
+        2539,
+        639
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        74.37117858735898,
+        5.5,
+        14.470410313377549
+      ],
+      "polygon": [
+        [
+          65.9811941370519,
+          1,
+          16.810549554806823
+        ],
+        [
+          70.12771244396961,
+          1,
+          9.515737484344998
+        ],
+        [
+          82.18906748157318,
+          10,
+          11.1523613558996
+        ],
+        [
+          78.09071186483294,
+          10,
+          19.89578695479745
+        ]
+      ]
+    },
+    {
+      "id": "108",
+      "ticketLabels": [
+        "108"
+      ],
+      "sourceLabel": "108",
+      "levelName": "1",
+      "tier": 0,
+      "angle": 1.2592494998922086,
+      "halfAngle": 0.05651819184442401,
+      "sourcePixel": [
+        2510,
+        686
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        69.10918347698176,
+        5.5,
+        22.255499763773795
+      ],
+      "polygon": [
+        [
+          60.061623868186736,
+          1,
+          23.162089712368267
+        ],
+        [
+          65.73381254236143,
+          1,
+          17.137156784722404
+        ],
+        [
+          77.84240506499859,
+          10,
+          20.2939316693227
+        ],
+        [
+          72.03313942943898,
+          10,
+          27.778770041079937
+        ]
+      ]
+    },
+    {
+      "id": "109",
+      "ticketLabels": [
+        "109"
+      ],
+      "sourceLabel": "109",
+      "levelName": "1",
+      "tier": 0,
+      "angle": 1.1415032668829919,
+      "halfAngle": 0.05651819184442401,
+      "sourcePixel": [
+        2464,
+        721
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        62.58368680498402,
+        5.5,
+        28.648663169583966
+      ],
+      "polygon": [
+        [
+          53.37956328823083,
+          1,
+          28.185458343740617
+        ],
+        [
+          59.8047414617821,
+          1,
+          23.387177760084903
+        ],
+        [
+          71.76484431282121,
+          10,
+          28.064282694731247
+        ],
+        [
+          64.9110642949048,
+          10,
+          34.27431747339321
+        ]
+      ]
+    },
+    {
+      "id": "110",
+      "ticketLabels": [
+        "110"
+      ],
+      "sourceLabel": "110",
+      "levelName": "1",
+      "tier": 0,
+      "angle": 0.9812967183775805,
+      "halfAngle": 0.07689914328259745,
+      "sourcePixel": [
+        2405,
+        759
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        52.813195380826166,
+        5.5,
+        35.32311119626686
+      ],
+      "polygon": [
+        [
+          42.89473916918082,
+          1,
+          33.73281725445041
+        ],
+        [
+          51.81645756259273,
+          1,
+          29.16115204504118
+        ],
+        [
+          63.20290522071906,
+          10,
+          35.56919201980071
+        ],
+        [
+          53.16380418884225,
+          10,
+          41.80850439911532
+        ]
+      ]
+    },
+    {
+      "id": "111",
+      "ticketLabels": [
+        "111"
+      ],
+      "sourceLabel": "111",
+      "levelName": "1",
+      "tier": 0,
+      "angle": 0.8146784957432264,
+      "halfAngle": 0.07997674686448998,
+      "sourcePixel": [
+        2343,
+        785
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        42.62474202077168,
+        5.5,
+        40.198943694386294
+      ],
+      "polygon": [
+        [
+          33.56763567710993,
+          1,
+          37.15615302691691
+        ],
+        [
+          42.34092222504486,
+          1,
+          33.97007148369953
+        ],
+        [
+          52.52509037751298,
+          10,
+          42.140817465626284
+        ],
+        [
+          42.186187396655924,
+          10,
+          46.69606312491104
+        ]
+      ]
+    },
+    {
+      "id": "112",
+      "ticketLabels": [
+        "112"
+      ],
+      "sourceLabel": "112",
+      "levelName": "1",
+      "tier": 0,
+      "angle": 0.6138896764808713,
+      "halfAngle": 0.0963786332459304,
+      "sourcePixel": [
+        2276,
+        807
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        31.034057292121652,
+        5.5,
+        44.037153922898874
+      ],
+      "polygon": [
+        [
+          22.690647691215418,
+          1,
+          39.8597881869393
+        ],
+        [
+          32.28501726535349,
+          1,
+          37.54092261088554
+        ],
+        [
+          40.64216546774731,
+          10,
+          47.2585898289375
+        ],
+        [
+          28.86782248720579,
+          10,
+          50.71099359599421
+        ]
+      ]
+    },
+    {
+      "id": "113",
+      "ticketLabels": [
+        "113"
+      ],
+      "sourceLabel": "113",
+      "levelName": "1",
+      "tier": 0,
+      "angle": 0.3900480722634496,
+      "halfAngle": 0.10744397002436241,
+      "sourcePixel": [
+        2208,
+        823
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        19.13060408293371,
+        5.5,
+        46.533901823352274
+      ],
+      "polygon": [
+        [
+          12.02450549371502,
+          1,
+          41.41013966962657
+        ],
+        [
+          21.743238517073397,
+          1,
+          40.03907356854096
+        ],
+        [
+          27.686115116015483,
+          10,
+          50.982580128842905
+        ],
+        [
+          15.414039806446635,
+          10,
+          53.08305955631729
+        ]
+      ]
+    },
+    {
+      "id": "114",
+      "ticketLabels": [
+        "114"
+      ],
+      "sourceLabel": "114",
+      "levelName": "1",
+      "tier": 0,
+      "angle": 0.14800074279317302,
+      "halfAngle": 0.11618271814573275,
+      "sourcePixel": [
+        2138,
+        828
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        7.1264322600121845,
+        5.5,
+        47.799240768374396
+      ],
+      "polygon": [
+        [
+          1.3365778316470545,
+          1,
+          41.9927626391092
+        ],
+        [
+          11.222398990680187,
+          1,
+          41.48668044985819
+        ],
+        [
+          14.391350724321699,
+          10,
+          53.201580984386524
+        ],
+        [
+          1.7183937048780993,
+          10,
+          53.98869954364211
+        ]
+      ]
+    },
+    {
+      "id": "115",
+      "ticketLabels": [
+        "115"
+      ],
+      "sourceLabel": "115",
+      "levelName": "1",
+      "tier": 0,
+      "angle": -0.09716597627184803,
+      "halfAngle": 0.11768002515121011,
+      "sourcePixel": [
+        2070,
+        830
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        -4.670306022460784,
+        5.5,
+        47.91388030450508
+      ],
+      "polygon": [
+        [
+          -9.091622500719938,
+          1,
+          41.663814703638664
+        ],
+        [
+          0.8616492249295762,
+          1,
+          41.99699232534774
+        ],
+        [
+          1.1078177022143387,
+          10,
+          53.99530364758642
+        ],
+        [
+          -11.669291163524093,
+          10,
+          53.47639375935111
+        ]
+      ]
+    },
+    {
+      "id": "116",
+      "ticketLabels": [
+        "116"
+      ],
+      "sourceLabel": "116",
+      "levelName": "1",
+      "tier": 0,
+      "angle": -0.3760449663049482,
+      "halfAngle": 0.10765485938061527,
+      "sourcePixel": [
+        1990,
+        824
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        -18.416208119630344,
+        5.5,
+        46.64291963009181
+      ],
+      "polygon": [
+        [
+          -21.095297874340687,
+          1,
+          40.15684803679616
+        ],
+        [
+          -11.405236221827156,
+          1,
+          41.46971022705506
+        ],
+        [
+          -14.624571877878333,
+          10,
+          53.17529125873671
+        ],
+        [
+          -26.876220338055656,
+          10,
+          51.16136791941283
+        ]
+      ]
+    },
+    {
+      "id": "117",
+      "ticketLabels": [
+        "117"
+      ],
+      "sourceLabel": "117",
+      "levelName": "1",
+      "tier": 0,
+      "angle": -0.6003259233478967,
+      "halfAngle": 0.1018586180323599,
+      "sourcePixel": [
+        1919,
+        813
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        -30.28365721019474,
+        5.5,
+        44.23455547556535
+      ],
+      "polygon": [
+        [
+          -31.86409687918333,
+          1,
+          37.663097837349255
+        ],
+        [
+          -21.789201124002496,
+          1,
+          40.030570349812955
+        ],
+        [
+          -27.743513894117196,
+          10,
+          50.96968348536982
+        ],
+        [
+          -40.133785692988106,
+          10,
+          47.43780132446546
+        ]
+      ]
+    },
+    {
+      "id": "118",
+      "ticketLabels": [
+        "118"
+      ],
+      "sourceLabel": "118",
+      "levelName": "1",
+      "tier": 0,
+      "angle": -0.8125313775819798,
+      "halfAngle": 0.08065210220742651,
+      "sourcePixel": [
+        1851,
+        786
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        -42.49618749445323,
+        5.5,
+        40.250454008973996
+      ],
+      "polygon": [
+        [
+          -42.25742791851628,
+          1,
+          34.00543047929774
+        ],
+        [
+          -33.418673611876336,
+          1,
+          37.201816380304564
+        ],
+        [
+          -42.00726532107188,
+          10,
+          46.76267494224792
+        ],
+        [
+          -52.428646187420426,
+          10,
+          42.19042120802659
+        ]
+      ]
+    },
+    {
+      "id": "119",
+      "ticketLabels": [
+        "119"
+      ],
+      "sourceLabel": "119",
+      "levelName": "1",
+      "tier": 0,
+      "angle": -0.9805565905141184,
+      "halfAngle": 0.07804932206320758,
+      "sourcePixel": [
+        1788,
+        760
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        -52.76738806464047,
+        5.5,
+        35.3490269559242
+      ],
+      "polygon": [
+        [
+          -51.84042187990641,
+          1,
+          29.146655314398224
+        ],
+        [
+          -42.78713082201043,
+          1,
+          33.779288769257136
+        ],
+        [
+          -53.03983646895905,
+          10,
+          41.87352406994042
+        ],
+        [
+          -63.229211169104495,
+          10,
+          35.54986547016338
+        ]
+      ]
+    },
+    {
+      "id": "120",
+      "ticketLabels": [
+        "120"
+      ],
+      "sourceLabel": "120",
+      "levelName": "1",
+      "tier": 0,
+      "angle": -1.1431593448124675,
+      "halfAngle": 0.061412003654064864,
+      "sourcePixel": [
+        1724,
+        723
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        -62.68118200589011,
+        5.5,
+        28.567830941022308
+      ],
+      "polygon": [
+        [
+          -60.161646683634864,
+          1,
+          23.07358957218319
+        ],
+        [
+          -53.19099750540202,
+          1,
+          28.30650340403679
+        ],
+        [
+          -64.70583111089927,
+          10,
+          34.434319988371804
+        ],
+        [
+          -72.13748523780029,
+          10,
+          27.66664177094734
+        ]
+      ]
+    },
+    {
+      "id": "121",
+      "ticketLabels": [
+        "121"
+      ],
+      "sourceLabel": "121",
+      "levelName": "1",
+      "tier": 0,
+      "angle": -1.2711010190917693,
+      "halfAngle": 0.061412003654064864,
+      "sourcePixel": [
+        1686,
+        680
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        -69.70585966283095,
+        5.5,
+        21.539280236446547
+      ],
+      "polygon": [
+        [
+          -66.46791194389628,
+          1,
+          16.144920384749163
+        ],
+        [
+          -60.438813921612116,
+          1,
+          22.825780200808364
+        ],
+        [
+          -72.42627747008054,
+          10,
+          27.353056471938142
+        ],
+        [
+          -78.5780062398497,
+          10,
+          19.086437615273915
+        ]
+      ]
+    },
+    {
+      "id": "122",
+      "ticketLabels": [
+        "122"
+      ],
+      "sourceLabel": "122",
+      "levelName": "1",
+      "tier": 0,
+      "angle": -1.4027140310999824,
+      "halfAngle": 0.054149174129439794,
+      "sourcePixel": [
+        1655,
+        628
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        -75.19386743784378,
+        5.5,
+        12.759140402349061
+      ],
+      "polygon": [
+        [
+          -70.65345564594966,
+          1,
+          8.084781253055613
+        ],
+        [
+          -67.13881023177204,
+          1,
+          15.170930690075542
+        ],
+        [
+          -79.24699140351002,
+          10,
+          17.906939515748565
+        ],
+        [
+          -82.70007938684857,
+          10,
+          9.463260435603813
+        ]
+      ]
+    },
+    {
+      "id": "123",
+      "ticketLabels": [
+        "123"
+      ],
+      "sourceLabel": "123",
+      "levelName": "1",
+      "tier": 0,
+      "angle": -1.5155248105363153,
+      "halfAngle": 0.054149174129439794,
+      "sourcePixel": [
+        1609,
+        580
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        -77.68664545984437,
+        5.5,
+        4.298236531589749
+      ],
+      "polygon": [
+        [
+          -71.99986673423328,
+          1,
+          0.08080851765861272
+        ],
+        [
+          -70.75613022576236,
+          1,
+          7.773232086548037
+        ],
+        [
+          -82.79964960267127,
+          10,
+          9.096326932985319
+        ],
+        [
+          -83.99987198223369,
+          10,
+          0.09427663475341047
+        ]
+      ]
+    },
+    {
+      "id": "124",
+      "ticketLabels": [
+        "124"
+      ],
+      "sourceLabel": "124",
+      "levelName": "1",
+      "tier": 0,
+      "angle": -1.6342356747705291,
+      "halfAngle": 0.056908633304777884,
+      "sourcePixel": [
+        1609,
+        522
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        -77.58771164623126,
+        5.5,
+        -4.928727584084373
+      ],
+      "polygon": [
+        [
+          -70.50092403307868,
+          1,
+          -8.525845434464035
+        ],
+        [
+          -71.99548807516156,
+          1,
+          -0.47018867477915227
+        ],
+        [
+          -83.99566568474737,
+          10,
+          -0.5485595249284718
+        ],
+        [
+          -82.55202231971603,
+          10,
+          -9.983213585542405
+        ]
+      ]
+    },
+    {
+      "id": "125",
+      "ticketLabels": [
+        "125"
+      ],
+      "sourceLabel": "125",
+      "levelName": "1",
+      "tier": 0,
+      "angle": -1.7527953274888164,
+      "halfAngle": 0.056908633304777884,
+      "sourcePixel": [
+        1646,
+        470
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        -74.72980441944974,
+        5.5,
+        -13.752935181406505
+      ],
+      "polygon": [
+        [
+          -66.44115320442518,
+          1,
+          -16.182355978563116
+        ],
+        [
+          -70.38325694856995,
+          1,
+          -8.850478613967773
+        ],
+        [
+          -82.4376949575954,
+          10,
+          -10.366287208620305
+        ],
+        [
+          -78.5512586811726,
+          10,
+          -19.13188391887017
+        ]
+      ]
+    },
+    {
+      "id": "126",
+      "ticketLabels": [
+        "126"
+      ],
+      "sourceLabel": "126",
+      "levelName": "1",
+      "tier": 0,
+      "angle": -1.8808515080258499,
+      "halfAngle": 0.061466966657776075,
+      "sourcePixel": [
+        1685,
+        421
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        -69.18503086891855,
+        5.5,
+        -22.166077851206914
+      ],
+      "polygon": [
+        [
+          -59.87318565729239,
+          1,
+          -23.327511226482855
+        ],
+        [
+          -66.02012498399516,
+          1,
+          -16.75845801333226
+        ],
+        [
+          -78.12974953309565,
+          10,
+          -19.832348506761573
+        ],
+        [
+          -71.83637294852484,
+          10,
+          -27.988552438455713
+        ]
+      ]
+    },
+    {
+      "id": "127",
+      "ticketLabels": [
+        "127"
+      ],
+      "sourceLabel": "127",
+      "levelName": "1",
+      "tier": 0,
+      "angle": -2.0300866648964053,
+      "halfAngle": 0.06178188741410814,
+      "sourcePixel": [
+        1729,
+        371
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        -60.79881572396197,
+        5.5,
+        -30.06897951565511
+      ],
+      "polygon": [
+        [
+          -51.3211941684602,
+          1,
+          -29.457669302633448
+        ],
+        [
+          -58.437151718489794,
+          1,
+          -24.535386243999135
+        ],
+        [
+          -70.32900410994202,
+          10,
+          -29.528292006868266
+        ],
+        [
+          -62.658432187976445,
+          10,
+          -35.9650901410479
+        ]
+      ]
+    },
+    {
+      "id": "128",
+      "ticketLabels": [
+        "128"
+      ],
+      "sourceLabel": "128",
+      "levelName": "1",
+      "tier": 0,
+      "angle": -2.158798930342464,
+      "halfAngle": 0.06178188741410814,
+      "sourcePixel": [
+        1785,
+        345
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        -52.905848013179146,
+        5.5,
+        -35.27056534211941
+      ],
+      "polygon": [
+        [
+          -43.843541205104266,
+          1,
+          -33.31514616707349
+        ],
+        [
+          -51.02010698927185,
+          1,
+          -29.635105573336045
+        ],
+        [
+          -62.32667016556313,
+          10,
+          -36.20253973162666
+        ],
+        [
+          -54.253981913706156,
+          10,
+          -41.22566945825205
+        ]
+      ]
+    },
+    {
+      "id": "129",
+      "ticketLabels": [
+        "129"
+      ],
+      "sourceLabel": "129",
+      "levelName": "1",
+      "tier": 0,
+      "angle": -2.331303366488044,
+      "halfAngle": 0.07648357786724844,
+      "sourcePixel": [
+        1850,
+        318
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        -42.36204328019798,
+        5.5,
+        -40.30396830302237
+      ],
+      "polygon": [
+        [
+          -33.520322666031824,
+          1,
+          -37.17068461557987
+        ],
+        [
+          -41.89428131495636,
+          1,
+          -34.15798573276639
+        ],
+        [
+          -52.00871892102207,
+          10,
+          -42.40466772846895
+        ],
+        [
+          -42.129370029215785,
+          10,
+          -46.71725693129866
+        ]
+      ]
+    },
+    {
+      "id": "130",
+      "ticketLabels": [
+        "130"
+      ],
+      "sourceLabel": "130",
+      "levelName": "1",
+      "tier": 0,
+      "angle": -2.4906441537114783,
+      "halfAngle": 0.07648357786724844,
+      "sourcePixel": [
+        1918,
+        318
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        -33.105250045293154,
+        5.5,
+        -43.46219978013347
+      ],
+      "polygon": [
+        [
+          -25.43338758420039,
+          1,
+          -39.29235126688853
+        ],
+        [
+          -33.1843865857618,
+          1,
+          -37.273112503389626
+        ],
+        [
+          -41.72564356146656,
+          10,
+          -46.86675773630772
+        ],
+        [
+          -32.271062542374686,
+          10,
+          -49.85595886402564
+        ]
+      ]
+    },
+    {
+      "id": "131",
+      "ticketLabels": [
+        "131"
+      ],
+      "sourceLabel": "131",
+      "levelName": "1",
+      "tier": 0,
+      "angle": -2.7035804531106646,
+      "halfAngle": 0.10220942371160945,
+      "sourcePixel": [
+        1986,
+        316
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        -21.60168710684369,
+        5.5,
+        -46.122521120017616
+      ],
+      "polygon": [
+        [
+          -14.364215400399422,
+          1,
+          -41.155683123204355
+        ],
+        [
+          -23.775727108449217,
+          1,
+          -39.64399082447945
+        ],
+        [
+          -30.217451625518102,
+          10,
+          -50.38501533589176
+        ],
+        [
+          -18.389944736046136,
+          10,
+          -52.69001592588964
+        ]
+      ]
+    },
+    {
+      "id": "131A",
+      "ticketLabels": [
+        "131A"
+      ],
+      "sourceLabel": "131A",
+      "levelName": "1",
+      "tier": 0,
+      "angle": -3.0901674455718173,
+      "halfAngle": 0.18556175638135328,
+      "sourcePixel": [
+        2083,
+        281
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        -2.469349851457562,
+        5.5,
+        -47.9759399711753
+      ],
+      "polygon": [
+        [
+          5.650289046428572,
+          1,
+          -41.87047135138075
+        ],
+        [
+          -10.044868702716574,
+          1,
+          -41.58925559234971
+        ],
+        [
+          -12.887956706740047,
+          10,
+          -53.36063032807898
+        ],
+        [
+          7.259863913751186,
+          10,
+          -53.797942285408816
+        ]
+      ]
+    },
+    {
+      "id": "132",
+      "ticketLabels": [
+        "132"
+      ],
+      "sourceLabel": "132",
+      "levelName": "1",
+      "tier": 0,
+      "angle": 2.733443549834704,
+      "halfAngle": 0.10815307050759315,
+      "sourcePixel": [
+        2209,
+        294
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        20.05866952246745,
+        5.5,
+        -46.385673270705965
+      ],
+      "polygon": [
+        [
+          22.633199547599336,
+          1,
+          -39.87090066299476
+        ],
+        [
+          12.78546057551865,
+          1,
+          -41.33249897475427
+        ],
+        [
+          16.383137559779772,
+          10,
+          -52.962974027659264
+        ],
+        [
+          28.796253835416945,
+          10,
+          -50.7278068981666
+        ]
+      ]
+    },
+    {
+      "id": "133",
+      "ticketLabels": [
+        "133"
+      ],
+      "sourceLabel": "133",
+      "levelName": "1",
+      "tier": 0,
+      "angle": 2.5081246529438848,
+      "halfAngle": 0.09106909403813014,
+      "sourcePixel": [
+        2274,
+        312
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        32.12443008723534,
+        5.5,
+        -43.74004322612271
+      ],
+      "polygon": [
+        [
+          33.03215146903206,
+          1,
+          -37.31909805770246
+        ],
+        [
+          23.880343740185435,
+          1,
+          -39.62258842641253
+        ],
+        [
+          30.34735435517279,
+          10,
+          -50.35273966438189
+        ],
+        [
+          41.542511782894415,
+          10,
+          -46.933941685346895
+        ]
+      ]
+    },
+    {
+      "id": "134",
+      "ticketLabels": [
+        "134"
+      ],
+      "sourceLabel": "134",
+      "levelName": "1",
+      "tier": 0,
+      "angle": 2.3183973736977803,
+      "halfAngle": 0.07048605427191837,
+      "sourcePixel": [
+        2344,
+        324
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        43.135548806660736,
+        5.5,
+        -39.992067517106506
+      ],
+      "polygon": [
+        [
+          42.28566653446816,
+          1,
+          -33.99348363627254
+        ],
+        [
+          34.522930861573215,
+          1,
+          -36.85709970348928
+        ],
+        [
+          43.3310794295945,
+          10,
+          -46.26078594543754
+        ],
+        [
+          52.46126898970769,
+          10,
+          -42.173659187471294
+        ]
+      ]
+    },
+    {
+      "id": "201A",
+      "ticketLabels": [
+        "201A"
+      ],
+      "sourceLabel": "201A",
+      "levelName": "2",
+      "tier": 1,
+      "angle": 1.9650052896691417,
+      "halfAngle": 0.03291746934771766,
+      "sourcePixel": [
+        2585,
+        350
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        78.16135429426937,
+        17.5,
+        -32.513842052739115
+      ],
+      "polygon": [
+        [
+          75.30595822995349,
+          14,
+          -28.45646795345712
+        ],
+        [
+          71.13616000217569,
+          14,
+          -32.3774536965013
+        ],
+        [
+          80.80426692459896,
+          21,
+          -36.77786952164577
+        ],
+        [
+          85.15028822835073,
+          21,
+          -32.176424085842164
+        ]
+      ]
+    },
+    {
+      "id": "201B",
+      "ticketLabels": [
+        "201B"
+      ],
+      "sourceLabel": "201B",
+      "levelName": "2",
+      "tier": 1,
+      "angle": 2.03358335081022,
+      "halfAngle": 0.03291746934771766,
+      "sourcePixel": [
+        2562,
+        321
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        73.56792752246761,
+        17.5,
+        -36.70485846282258
+      ],
+      "polygon": [
+        [
+          70.95661064142307,
+          14,
+          -32.53099127107419
+        ],
+        [
+          66.54955375560493,
+          14,
+          -35.985874479884075
+        ],
+        [
+          75.95622273610476,
+          21,
+          -41.07241811696407
+        ],
+        [
+          80.61579817968399,
+          21,
+          -36.95937282217096
+        ]
+      ]
+    },
+    {
+      "id": "202",
+      "ticketLabels": [
+        "202"
+      ],
+      "sourceLabel": "202",
+      "levelName": "2",
+      "tier": 1,
+      "angle": 1.8475944854268869,
+      "halfAngle": 0.05635718603628231,
+      "sourcePixel": [
+        2625,
+        403
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        85.11359829772803,
+        17.5,
+        -24.17999951640002
+      ],
+      "polygon": [
+        [
+          82.83677758225771,
+          14,
+          -18.56227146100437
+        ],
+        [
+          76.98683929524283,
+          14,
+          -26.64162168464369
+        ],
+        [
+          86.88516612816234,
+          21,
+          -30.06697959266595
+        ],
+        [
+          92.84446485933204,
+          21,
+          -20.80481895447038
+        ]
+      ]
+    },
+    {
+      "id": "203",
+      "ticketLabels": [
+        "203"
+      ],
+      "sourceLabel": "203",
+      "levelName": "2",
+      "tier": 1,
+      "angle": 1.7215864275847699,
+      "halfAngle": 0.06048386776421615,
+      "sourcePixel": [
+        2663,
+        467
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        90.5233899434627,
+        17.5,
+        -13.754437341232864
+      ],
+      "polygon": [
+        [
+          87.09067033297245,
+          14,
+          -7.8862801392650175
+        ],
+        [
+          83.23552065104097,
+          14,
+          -17.851909276720825
+        ],
+        [
+          93.24613960322883,
+          21,
+          -19.99893328690877
+        ],
+        [
+          97.09925316657173,
+          21,
+          -8.792582590733458
+        ]
+      ]
+    },
+    {
+      "id": "204",
+      "ticketLabels": [
+        "204"
+      ],
+      "sourceLabel": "204",
+      "levelName": "2",
+      "tier": 1,
+      "angle": 1.4182797652602428,
+      "halfAngle": 0.05831268836706002,
+      "sourcePixel": [
+        2663,
+        640
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        90.46780425205064,
+        17.5,
+        13.9058285687781
+      ],
+      "polygon": [
+        [
+          83.25452397611545,
+          14,
+          17.817260740010166
+        ],
+        [
+          87.01136065716338,
+          14,
+          8.221140730920132
+        ],
+        [
+          97.02054444560315,
+          21,
+          9.16684377365991
+        ],
+        [
+          93.26526804775395,
+          21,
+          19.959655276757072
+        ]
+      ]
+    },
+    {
+      "id": "205",
+      "ticketLabels": [
+        "205"
+      ],
+      "sourceLabel": "205",
+      "levelName": "2",
+      "tier": 1,
+      "angle": 1.2967949978288678,
+      "halfAngle": 0.05831268836706002,
+      "sourcePixel": [
+        2620,
+        700
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        85.26014904201388,
+        17.5,
+        23.964133669552663
+      ],
+      "polygon": [
+        [
+          77.03598139044516,
+          14,
+          26.586074621017143
+        ],
+        [
+          83.04515717126456,
+          14,
+          18.194928362733016
+        ],
+        [
+          93.05444943213502,
+          21,
+          20.387932287966272
+        ],
+        [
+          86.93573731435,
+          21,
+          30.002603429663374
+        ]
+      ]
+    },
+    {
+      "id": "206",
+      "ticketLabels": [
+        "206"
+      ],
+      "sourceLabel": "206",
+      "levelName": "2",
+      "tier": 1,
+      "angle": 1.1531631301517389,
+      "halfAngle": 0.06894329648502187,
+      "sourcePixel": [
+        2568,
+        762
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        76.62545442367544,
+        17.5,
+        34.001528608382515
+      ],
+      "polygon": [
+        [
+          67.1699114464425,
+          14,
+          35.53279183262599
+        ],
+        [
+          76.06751112770633,
+          14,
+          27.653928227657268
+        ],
+        [
+          85.9375339969681,
+          21,
+          31.242121136633425
+        ],
+        [
+          76.61598225398383,
+          21,
+          40.52975044717227
+        ]
+      ]
+    },
+    {
+      "id": "207",
+      "ticketLabels": [
+        "207"
+      ],
+      "sourceLabel": "207",
+      "levelName": "2",
+      "tier": 1,
+      "angle": 1.0039093058957078,
+      "halfAngle": 0.04738421747784192,
+      "sourcePixel": [
+        2507,
+        814
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        66.19944284344011,
+        17.5,
+        42.141596541799686
+      ],
+      "polygon": [
+        [
+          58.36330055769577,
+          14,
+          41.163380399843426
+        ],
+        [
+          64.92204852134867,
+          14,
+          37.12903816312259
+        ],
+        [
+          74.21945813762396,
+          21,
+          42.446243709206875
+        ],
+        [
+          67.13662478824278,
+          21,
+          47.35116757469933
+        ]
+      ]
+    },
+    {
+      "id": "208A",
+      "ticketLabels": [
+        "208A"
+      ],
+      "sourceLabel": "208A",
+      "levelName": "2",
+      "tier": 1,
+      "angle": 0.8356702353951759,
+      "halfAngle": 0.033370536362413376,
+      "sourcePixel": [
+        2431,
+        855
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        54.01689880537594,
+        17.5,
+        48.84162706354352
+      ],
+      "polygon": [
+        [
+          47.77659337643822,
+          14,
+          46.18829128780264
+        ],
+        [
+          52.31819132448057,
+          14,
+          44.224245932904296
+        ],
+        [
+          60.49607365478087,
+          21,
+          51.13695966076448
+        ],
+        [
+          55.441514495267384,
+          21,
+          53.5983970386473
+        ]
+      ]
+    },
+    {
+      "id": "208B",
+      "ticketLabels": [
+        "208B"
+      ],
+      "sourceLabel": "208B",
+      "levelName": "2",
+      "tier": 1,
+      "angle": 0.9051921861502038,
+      "halfAngle": 0.033370536362413376,
+      "sourcePixel": [
+        2460,
+        838
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        59.04377285201893,
+        17.5,
+        46.35668116480825
+      ],
+      "polygon": [
+        [
+          52.50904236898347,
+          14,
+          44.13580103946715
+        ],
+        [
+          57.117105592210606,
+          14,
+          41.8406400485832
+        ],
+        [
+          65.77621205299417,
+          21,
+          48.18379334410691
+        ],
+        [
+          60.70728392148663,
+          21,
+          51.026727662964355
+        ]
+      ]
+    },
+    {
+      "id": "209",
+      "ticketLabels": [
+        "209"
+      ],
+      "sourceLabel": "209",
+      "levelName": "2",
+      "tier": 1,
+      "angle": 0.6694161789171236,
+      "halfAngle": 0.07980194710946514,
+      "sourcePixel": [
+        2370,
+        898
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        42.28643327043731,
+        17.5,
+        53.438899187915275
+      ],
+      "polygon": [
+        [
+          33.94688695417512,
+          14,
+          50.742952351319715
+        ],
+        [
+          44.22720728316043,
+          14,
+          47.549128113442606
+        ],
+        [
+          51.454862615319165,
+          21,
+          55.31965513651048
+        ],
+        [
+          39.74756363274658,
+          21,
+          59.413657877381574
+        ]
+      ]
+    },
+    {
+      "id": "210",
+      "ticketLabels": [
+        "210"
+      ],
+      "sourceLabel": "210",
+      "levelName": "2",
+      "tier": 1,
+      "angle": 0.46473103219553136,
+      "halfAngle": 0.09824887042636425,
+      "sourcePixel": [
+        2282,
+        922
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        28.621313734934972,
+        17.5,
+        57.08791766589732
+      ],
+      "polygon": [
+        [
+          20.527798311460238,
+          14,
+          53.48265452054589
+        ],
+        [
+          32.289829855628085,
+          14,
+          51.163673056025054
+        ],
+        [
+          37.84058904210739,
+          21,
+          59.95892622086186
+        ],
+        [
+          24.177254162327987,
+          21,
+          62.990863023889304
+        ]
+      ]
+    },
+    {
+      "id": "211",
+      "ticketLabels": [
+        "211"
+      ],
+      "sourceLabel": "211",
+      "levelName": "2",
+      "tier": 1,
+      "angle": 0.24255148342719068,
+      "halfAngle": 0.07795804872667432,
+      "sourcePixel": [
+        2193,
+        941
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        14.659763338181401,
+        17.5,
+        59.249876825149826
+      ],
+      "polygon": [
+        [
+          9.086453940110658,
+          14,
+          54.70601955993054
+        ],
+        [
+          17.876827740405773,
+          14,
+          53.85316781369744
+        ],
+        [
+          21.072359513760464,
+          21,
+          63.47956861273351
+        ],
+        [
+          10.73131956771644,
+          21,
+          64.60911836947159
+        ]
+      ]
+    },
+    {
+      "id": "212A",
+      "ticketLabels": [
+        "212A"
+      ],
+      "sourceLabel": "212A",
+      "levelName": "2",
+      "tier": 1,
+      "angle": -0.03357910479448051,
+      "halfAngle": 0.05458463361972784,
+      "sourcePixel": [
+        2084,
+        940
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        -2.01503072245609,
+        17.5,
+        59.98591458388514
+      ],
+      "polygon": [
+        [
+          -4.85420627366149,
+          14,
+          54.91625969321362
+        ],
+        [
+          1.1553744414596752,
+          14,
+          54.995259418923524
+        ],
+        [
+          1.3654276703393278,
+          21,
+          64.99369057637976
+        ],
+        [
+          -5.735688110545873,
+          21,
+          64.88857704854514
+        ]
+      ]
+    },
+    {
+      "id": "212B",
+      "ticketLabels": [
+        "212B"
+      ],
+      "sourceLabel": "212B",
+      "levelName": "2",
+      "tier": 1,
+      "angle": 0.08013888191328583,
+      "halfAngle": 0.05458463361972784,
+      "sourcePixel": [
+        2128,
+        939
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        4.812197680127466,
+        17.5,
+        59.91962272674845
+      ],
+      "polygon": [
+        [
+          1.4056103299665563,
+          14,
+          54.99298342885539
+        ],
+        [
+          7.428343726243001,
+          14,
+          54.803696946624825
+        ],
+        [
+          8.775007203416813,
+          21,
+          64.73890455305153
+        ],
+        [
+          1.6611491027371705,
+          21,
+          64.9906614458765
+        ]
+      ]
+    },
+    {
+      "id": "213",
+      "ticketLabels": [
+        "213"
+      ],
+      "sourceLabel": "213",
+      "levelName": "2",
+      "tier": 1,
+      "angle": -0.22906813311466012,
+      "halfAngle": 0.0938347335936862,
+      "sourcePixel": [
+        2007,
+        939
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        -13.83399473192282,
+        17.5,
+        59.3324662946912
+      ],
+      "polygon": [
+        [
+          -18.014055146980347,
+          14,
+          53.83530228696344
+        ],
+        [
+          -7.456598667078368,
+          14,
+          54.80219806380277
+        ],
+        [
+          -8.808354244913831,
+          21,
+          64.73691229717785
+        ],
+        [
+          -21.233269013054656,
+          21,
+          63.45597626583408
+        ]
+      ]
+    },
+    {
+      "id": "214",
+      "ticketLabels": [
+        "214"
+      ],
+      "sourceLabel": "214",
+      "levelName": "2",
+      "tier": 1,
+      "angle": -0.46258037354687215,
+      "halfAngle": 0.0966670157830827,
+      "sourcePixel": [
+        1910,
+        928
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        -28.48227179403056,
+        17.5,
+        57.11685520193294
+      ],
+      "polygon": [
+        [
+          -32.05890886479705,
+          14,
+          51.22036628931861
+        ],
+        [
+          -20.49479741044671,
+          14,
+          53.48759815041512
+        ],
+        [
+          -24.138650775037995,
+          21,
+          62.997375709131106
+        ],
+        [
+          -37.57444537885048,
+          21,
+          60.03251275766401
+        ]
+      ]
+    },
+    {
+      "id": "215",
+      "ticketLabels": [
+        "215"
+      ],
+      "sourceLabel": "215",
+      "levelName": "2",
+      "tier": 1,
+      "angle": -0.6639699897616278,
+      "halfAngle": 0.05754363830998164,
+      "sourcePixel": [
+        1820,
+        907
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        -41.91132048747459,
+        17.5,
+        53.56175975655597
+      ],
+      "polygon": [
+        [
+          -42.399578660904304,
+          14,
+          48.19506153941707
+        ],
+        [
+          -35.00132553450878,
+          14,
+          50.4623436755511
+        ],
+        [
+          -40.95837077940557,
+          21,
+          59.05077453775981
+        ],
+        [
+          -49.39034584577712,
+          21,
+          56.14137764263226
+        ]
+      ]
+    },
+    {
+      "id": "216A",
+      "ticketLabels": [
+        "216A"
+      ],
+      "sourceLabel": "216A",
+      "levelName": "2",
+      "tier": 1,
+      "angle": -0.8702999568471703,
+      "halfAngle": 0.04149474589107877,
+      "sourcePixel": [
+        1740,
+        854
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        -56.515480000099075,
+        17.5,
+        47.6503066667502
+      ],
+      "polygon": [
+        [
+          -55.263539534006426,
+          14,
+          42.80196584897064
+        ],
+        [
+          -49.570661589458865,
+          14,
+          45.44377324981934
+        ],
+        [
+          -57.444649205252766,
+          21,
+          52.66223062582729
+        ],
+        [
+          -63.74445422947633,
+          21,
+          49.37048868019761
+        ]
+      ]
+    },
+    {
+      "id": "216B",
+      "ticketLabels": [
+        "216B"
+      ],
+      "sourceLabel": "216B",
+      "levelName": "2",
+      "tier": 1,
+      "angle": -0.7838525695740896,
+      "halfAngle": 0.04149474589107877,
+      "sourcePixel": [
+        1774,
+        877
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        -50.30777299042279,
+        17.5,
+        50.46352460958819
+      ],
+      "polygon": [
+        [
+          -49.33584735307766,
+          14,
+          45.54348096682675
+        ],
+        [
+          -43.77300332155069,
+          14,
+          47.71302634391496
+        ],
+        [
+          -50.94251310866179,
+          21,
+          55.52786616270741
+        ],
+        [
+          -57.18294160650013,
+          21,
+          52.787381841133865
+        ]
+      ]
+    },
+    {
+      "id": "217",
+      "ticketLabels": [
+        "217"
+      ],
+      "sourceLabel": "217",
+      "levelName": "2",
+      "tier": 1,
+      "angle": -0.992447029289873,
+      "halfAngle": 0.05863059477249731,
+      "sourcePixel": [
+        1688,
+        820
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        -65.37219042976002,
+        17.5,
+        42.675733116738215
+      ],
+      "polygon": [
+        [
+          -64.90722565954535,
+          14,
+          37.139160058303325
+        ],
+        [
+          -56.78807252325883,
+          14,
+          42.015226123492894
+        ],
+        [
+          -65.41626771688522,
+          21,
+          48.39888304281113
+        ],
+        [
+          -74.20360128545119,
+          21,
+          42.45843813288318
+        ]
+      ]
+    },
+    {
+      "id": "218",
+      "ticketLabels": [
+        "218"
+      ],
+      "sourceLabel": "218",
+      "levelName": "2",
+      "tier": 1,
+      "angle": -1.1586054000661161,
+      "halfAngle": 0.06912103037903954,
+      "sourcePixel": [
+        1619,
+        762
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        -76.98570130236287,
+        17.5,
+        33.661112075719316
+      ],
+      "polygon": [
+        [
+          -76.40266764346724,
+          14,
+          27.290626087554976
+        ],
+        [
+          -67.52656514734136,
+          14,
+          35.26774265020874
+        ],
+        [
+          -76.99472293182934,
+          21,
+          40.21276763980041
+        ],
+        [
+          -86.28335372857627,
+          21,
+          30.81995454890582
+        ]
+      ]
+    },
+    {
+      "id": "219",
+      "ticketLabels": [
+        "219"
+      ],
+      "sourceLabel": "219",
+      "levelName": "2",
+      "tier": 1,
+      "angle": -1.3026075466891152,
+      "halfAngle": 0.06037918531066175,
+      "sourcePixel": [
+        1573,
+        697
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        -85.56135790407687,
+        17.5,
+        23.513044920204322
+      ],
+      "polygon": [
+        [
+          -83.38271159322646,
+          14,
+          17.581544471414322
+        ],
+        [
+          -77.25395228131761,
+          14,
+          26.337850443473446
+        ],
+        [
+          -87.15994406014156,
+          21,
+          29.715056686784788
+        ],
+        [
+          -93.39426492802144,
+          21,
+          19.692516480124254
+        ]
+      ]
+    },
+    {
+      "id": "220",
+      "ticketLabels": [
+        "220"
+      ],
+      "sourceLabel": "220",
+      "levelName": "2",
+      "tier": 1,
+      "angle": -1.4283975160863271,
+      "halfAngle": 0.06037918531066175,
+      "sourcePixel": [
+        1539,
+        633
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        -90.78539659710762,
+        17.5,
+        13.01582746911937
+      ],
+      "polygon": [
+        [
+          -87.24857009693719,
+          14,
+          7.172185206794489
+        ],
+        [
+          -83.59300441587246,
+          14,
+          17.18704104759882
+        ],
+        [
+          -93.60575422448785,
+          21,
+          19.245700658681468
+        ],
+        [
+          -97.25588604647355,
+          21,
+          7.994827037293702
+        ]
+      ]
+    },
+    {
+      "id": "221",
+      "ticketLabels": [
+        "221"
+      ],
+      "sourceLabel": "221",
+      "levelName": "2",
+      "tier": 1,
+      "angle": -1.7273071539729208,
+      "halfAngle": 0.055115409758302536,
+      "sourcePixel": [
+        1533,
+        464
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        -90.33702793009498,
+        17.5,
+        -14.255311144997266
+      ],
+      "polygon": [
+        [
+          -83.22044522665365,
+          14,
+          -17.879342744726774
+        ],
+        [
+          -86.85663645968553,
+          14,
+          -8.837170761857523
+        ],
+        [
+          -96.86692460228737,
+          21,
+          -9.855660877263155
+        ],
+        [
+          -93.23096397553671,
+          21,
+          -20.03003414365322
+        ]
+      ]
+    },
+    {
+      "id": "222",
+      "ticketLabels": [
+        "222"
+      ],
+      "sourceLabel": "222",
+      "levelName": "2",
+      "tier": 1,
+      "angle": -1.8421309243027177,
+      "halfAngle": 0.055115409758302536,
+      "sourcePixel": [
+        1565,
+        405
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        -85.398907744734,
+        17.5,
+        -23.757590876354573
+      ],
+      "polygon": [
+        [
+          -77.37657768769706,
+          14,
+          -26.196860091399348
+        ],
+        [
+          -83.02207054600062,
+          14,
+          -18.2360370628001
+        ],
+        [
+          -93.03119284876834,
+          21,
+          -20.434569622623904
+        ],
+        [
+          -87.28600372317172,
+          21,
+          -29.551826868104897
+        ]
+      ]
+    },
+    {
+      "id": "223A",
+      "ticketLabels": [
+        "223A"
+      ],
+      "sourceLabel": "223A",
+      "levelName": "2",
+      "tier": 1,
+      "angle": -1.9886494611424734,
+      "halfAngle": 0.009187423739066496,
+      "sourcePixel": [
+        1597,
+        331
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        -76.61085460291538,
+        17.5,
+        -34.015219443694434
+      ],
+      "polygon": [
+        [
+          -71.14177448956255,
+          14,
+          -32.372634581035825
+        ],
+        [
+          -72.33376223639128,
+          14,
+          -31.323830539380868
+        ],
+        [
+          -82.05857347976844,
+          21,
+          -35.53511901653072
+        ],
+        [
+          -80.8101585684974,
+          21,
+          -36.77217433137453
+        ]
+      ]
+    },
+    {
+      "id": "223B",
+      "ticketLabels": [
+        "223B"
+      ],
+      "sourceLabel": "223B",
+      "levelName": "2",
+      "tier": 1,
+      "angle": -1.9695089950194182,
+      "halfAngle": 0.009187423739066496,
+      "sourcePixel": [
+        1627,
+        355
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        -77.86909789744013,
+        17.5,
+        -32.80442847594287
+      ],
+      "polygon": [
+        [
+          -72.38300377459768,
+          14,
+          -31.279365980767878
+        ],
+        [
+          -73.55365139721526,
+          14,
+          -30.19377759609155
+        ],
+        [
+          -83.33119956849877,
+          21,
+          -34.207461611919804
+        ],
+        [
+          -82.11004229301973,
+          21,
+          -35.48277813362918
+        ]
+      ]
+    },
+    {
+      "id": "224",
+      "ticketLabels": [
+        "224"
+      ],
+      "sourceLabel": "224",
+      "levelName": "2",
+      "tier": 1,
+      "angle": -2.129813614945885,
+      "halfAngle": 0.06553600106487963,
+      "sourcePixel": [
+        1667,
+        284
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        -66.76626502666413,
+        17.5,
+        -41.76773323761082
+      ],
+      "polygon": [
+        [
+          -57.649792026850335,
+          14,
+          -41.554282454835985
+        ],
+        [
+          -66.70086703779366,
+          14,
+          -35.87627576350168
+        ],
+        [
+          -76.11726155837238,
+          21,
+          -40.94105500133066
+        ],
+        [
+          -66.35827612731825,
+          21,
+          -47.83140497933268
+        ]
+      ]
+    },
+    {
+      "id": "225",
+      "ticketLabels": [
+        "225"
+      ],
+      "sourceLabel": "225",
+      "levelName": "2",
+      "tier": 1,
+      "angle": -2.2663469504977174,
+      "halfAngle": 0.06553600106487963,
+      "sourcePixel": [
+        1734,
+        250
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        -56.87331240550666,
+        17.5,
+        -47.472764900464256
+      ],
+      "polygon": [
+        [
+          -48.276775032141735,
+          14,
+          -45.98468237026043
+        ],
+        [
+          -57.270978404523916,
+          14,
+          -41.75839657607682
+        ],
+        [
+          -65.94443293325114,
+          21,
+          -48.08253428046342
+        ],
+        [
+          -56.00080929490942,
+          21,
+          -53.34199366443665
+        ]
+      ]
+    },
+    {
+      "id": "226",
+      "ticketLabels": [
+        "226"
+      ],
+      "sourceLabel": "226",
+      "levelName": "2",
+      "tier": 1,
+      "angle": -2.4513014278284833,
+      "halfAngle": 0.08877814911876761,
+      "sourcePixel": [
+        1822,
+        220
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        -43.73003708477198,
+        17.5,
+        -52.953099451742055
+      ],
+      "polygon": [
+        [
+          -34.69248569935188,
+          14,
+          -50.54558368134257
+        ],
+        [
+          -46.215811370787065,
+          14,
+          -46.80452526924742
+        ],
+        [
+          -53.69224649551441,
+          21,
+          -54.376197957447395
+        ],
+        [
+          -40.60395037308435,
+          21,
+          -59.15835461205243
+        ]
+      ]
+    },
+    {
+      "id": "227",
+      "ticketLabels": [
+        "227"
+      ],
+      "sourceLabel": "227",
+      "levelName": "2",
+      "tier": 1,
+      "angle": -2.6676831471224385,
+      "halfAngle": 0.10386322526109851,
+      "sourcePixel": [
+        1918,
+        204
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        -29.21570037312946,
+        17.5,
+        -56.962454917442365
+      ],
+      "polygon": [
+        [
+          -20.734701395520386,
+          14,
+          -53.45146805031486
+        ],
+        [
+          -33.20815060039041,
+          14,
+          -50.9335456045646
+        ],
+        [
+          -38.89803243590011,
+          21,
+          -59.660495185132625
+        ],
+        [
+          -24.419253686921177,
+          21,
+          -62.94978323348275
+        ]
+      ]
+    },
+    {
+      "id": "228",
+      "ticketLabels": [
+        "228"
+      ],
+      "sourceLabel": "228",
+      "levelName": "2",
+      "tier": 1,
+      "angle": -2.9037567261323427,
+      "halfAngle": 0.11331531792475402,
+      "sourcePixel": [
+        2009,
+        190
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        -14.370749180785333,
+        17.5,
+        -59.279340370739554
+      ],
+      "polygon": [
+        [
+          -6.8632818937532205,
+          14,
+          -54.83246985722339
+        ],
+        [
+          -19.6401402339862,
+          14,
+          -53.612705800743655
+        ],
+        [
+          -23.138464570093213,
+          21,
+          -63.16226253469884
+        ],
+        [
+          -8.108039961108055,
+          21,
+          -64.77715233775676
+        ]
+      ]
+    },
+    {
+      "id": "229",
+      "ticketLabels": [
+        "229"
+      ],
+      "sourceLabel": "229",
+      "levelName": "2",
+      "tier": 1,
+      "angle": 3.1388529344172498,
+      "halfAngle": 0.1154763103823971,
+      "sourcePixel": [
+        2098,
+        188
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        0.16438330485375247,
+        17.5,
+        -59.999906271619764
+      ],
+      "polygon": [
+        [
+          6.514416482913097,
+          14,
+          -54.849091185380345
+        ],
+        [
+          -6.211384412466517,
+          14,
+          -54.8628214834529
+        ],
+        [
+          -7.338420464775904,
+          21,
+          -64.81750688646308
+        ],
+        [
+          7.696195074454317,
+          21,
+          -64.79925048182572
+        ]
+      ]
+    },
+    {
+      "id": "230",
+      "ticketLabels": [
+        "230"
+      ],
+      "sourceLabel": "230",
+      "levelName": "2",
+      "tier": 1,
+      "angle": 2.8940300168857735,
+      "halfAngle": 0.10804013017934302,
+      "sourcePixel": [
+        2189,
+        189
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        14.967156297878178,
+        17.5,
+        -59.21787926551801
+      ],
+      "polygon": [
+        [
+          19.897498430938207,
+          14,
+          -53.57562396171449
+        ],
+        [
+          7.694341003819415,
+          14,
+          -54.78935912784006
+        ],
+        [
+          9.08892874718177,
+          21,
+          -64.7198481285791
+        ],
+        [
+          23.439732549403715,
+          21,
+          -63.113375844141196
+        ]
+      ]
+    },
+    {
+      "id": "231",
+      "ticketLabels": [
+        "231"
+      ],
+      "sourceLabel": "231",
+      "levelName": "2",
+      "tier": 1,
+      "angle": 2.6689464123454756,
+      "halfAngle": 0.10204509749433065,
+      "sourcePixel": [
+        2278,
+        199
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        29.133797176731093,
+        17.5,
+        -56.97991271029172
+      ],
+      "polygon": [
+        [
+          33.016447836732105,
+          14,
+          -50.98220496931207
+        ],
+        [
+          20.7669307544107,
+          14,
+          -53.44658032150505
+        ],
+        [
+          24.456945505117293,
+          21,
+          -62.94334573636015
+        ],
+        [
+          38.67741382794784,
+          21,
+          -59.723561093255164
+        ]
+      ]
+    },
+    {
+      "id": "232",
+      "ticketLabels": [
+        "232"
+      ],
+      "sourceLabel": "232",
+      "levelName": "2",
+      "tier": 1,
+      "angle": 2.4563524592322867,
+      "halfAngle": 0.08526152842490509,
+      "sourcePixel": [
+        2370,
+        219
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        43.37989507180957,
+        17.5,
+        -53.07283865928349
+      ],
+      "polygon": [
+        [
+          45.64305697298789,
+          14,
+          -47.02356187228352
+        ],
+        [
+          34.59615140637863,
+          14,
+          -50.571369385359915
+        ],
+        [
+          40.49336111167527,
+          21,
+          -59.19169153756612
+        ],
+        [
+          53.048817518103355,
+          21,
+          -54.65331461672939
+        ]
+      ]
+    },
+    {
+      "id": "233",
+      "ticketLabels": [
+        "233"
+      ],
+      "sourceLabel": "233",
+      "levelName": "2",
+      "tier": 1,
+      "angle": 2.2787242750137344,
+      "halfAngle": 0.0679222695541443,
+      "sourcePixel": [
+        2451,
+        250
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        55.978210883582385,
+        17.5,
+        -47.913553383405244
+      ],
+      "polygon": [
+        [
+          56.57838452798429,
+          14,
+          -42.12558606882534
+        ],
+        [
+          47.2813146131233,
+          14,
+          -46.38694795740151
+        ],
+        [
+          54.88708091274485,
+          21,
+          -53.848844658107424
+        ],
+        [
+          65.18671728807824,
+          21,
+          -48.534943027666486
+        ]
+      ]
+    },
+    {
+      "id": "234",
+      "ticketLabels": [
+        "234"
+      ],
+      "sourceLabel": "234",
+      "levelName": "2",
+      "tier": 1,
+      "angle": 2.137219546775934,
+      "halfAngle": 0.04974537406354259,
+      "sourcePixel": [
+        2520,
+        284
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        66.23287604492853,
+        17.5,
+        -42.1197249552855
+      ],
+      "polygon": [
+        [
+          65.11591268949344,
+          14,
+          -36.99618811980767
+        ],
+        [
+          58.23161159806954,
+          14,
+          -41.23616913343667
+        ],
+        [
+          66.99308104632793,
+          21,
+          -47.44052147936759
+        ],
+        [
+          74.42678127703041,
+          21,
+          -42.28624137400871
+        ]
+      ]
+    },
+    {
+      "id": "301A",
+      "ticketLabels": [
+        "301A"
+      ],
+      "sourceLabel": "301A",
+      "levelName": "3",
+      "tier": 2,
+      "angle": 2.2701781730515425,
+      "halfAngle": 0.039400554928052924,
+      "sourcePixel": [
+        2519,
+        198
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        68.45470577122201,
+        31,
+        -57.586304617971095
+      ],
+      "polygon": [
+        [
+          65.05354901327117,
+          25,
+          -50.486428864159166
+        ],
+        [
+          58.875053601828284,
+          25,
+          -53.626887828183605
+        ],
+        [
+          71.34854891572454,
+          37,
+          -64.98848655465873
+        ],
+        [
+          78.41633138242608,
+          37,
+          -60.85694933138149
+        ]
+      ]
+    },
+    {
+      "id": "301B",
+      "ticketLabels": [
+        "301B"
+      ],
+      "sourceLabel": "301B",
+      "levelName": "3",
+      "tier": 2,
+      "angle": 2.352262662484986,
+      "halfAngle": 0.039400554928052924,
+      "sourcePixel": [
+        2480,
+        173
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        61.55350534833289,
+        31,
+        -61.071363008789824
+      ],
+      "polygon": [
+        [
+          58.61875674070912,
+          25,
+          -53.746646274048416
+        ],
+        [
+          52.513648745200186,
+          25,
+          -56.37749959937229
+        ],
+        [
+          63.95782856205807,
+          37,
+          -68.66371962896072
+        ],
+        [
+          71.05295018628375,
+          37,
+          -65.14736907986455
+        ]
+      ]
+    },
+    {
+      "id": "302",
+      "ticketLabels": [
+        "302"
+      ],
+      "sourceLabel": "302",
+      "levelName": "3",
+      "tier": 2,
+      "angle": 2.1645819984023182,
+      "halfAngle": 0.05068616383162762,
+      "sourcePixel": [
+        2574,
+        231
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        77.29330169126975,
+        31,
+        -52.17702965322613
+      ],
+      "polygon": [
+        [
+          74.18957157585791,
+          25,
+          -44.78458601857322
+        ],
+        [
+          66.27240721547699,
+          25,
+          -49.80489804098076
+        ],
+        [
+          79.79703290392803,
+          37,
+          -59.96889587594133
+        ],
+        [
+          88.65038585739353,
+          37,
+          -53.51386652705896
+        ]
+      ]
+    },
+    {
+      "id": "303",
+      "ticketLabels": [
+        "303"
+      ],
+      "sourceLabel": "303",
+      "levelName": "3",
+      "tier": 2,
+      "angle": 2.006934584721118,
+      "halfAngle": 0.0710797492202858,
+      "sourcePixel": [
+        2657,
+        292
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        89.86205553366243,
+        31,
+        -41.882136596939134
+      ],
+      "polygon": [
+        [
+          87.1834868479861,
+          25,
+          -33.32057941523204
+        ],
+        [
+          76.94039010309287,
+          25,
+          -42.75669439182148
+        ],
+        [
+          91.67803729204188,
+          37,
+          -50.946581082908715
+        ],
+        [
+          102.71965132413911,
+          37,
+          -39.25833231949915
+        ]
+      ]
+    },
+    {
+      "id": "304",
+      "ticketLabels": [
+        "304"
+      ],
+      "sourceLabel": "304",
+      "levelName": "3",
+      "tier": 2,
+      "angle": 1.8588517738455226,
+      "halfAngle": 0.06185448589730504,
+      "sourcePixel": [
+        2718,
+        369
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        99.90012612598584,
+        31,
+        -29.60003737066248
+      ],
+      "polygon": [
+        [
+          95.2646610013128,
+          25,
+          -21.92417007546532
+        ],
+        [
+          88.18138884879633,
+          25,
+          -32.17971943182977
+        ],
+        [
+          103.77513847683952,
+          37,
+          -37.87029081510731
+        ],
+        [
+          111.16035611460444,
+          37,
+          -25.582398840135422
+        ]
+      ]
+    },
+    {
+      "id": "305",
+      "ticketLabels": [
+        "305"
+      ],
+      "sourceLabel": "305",
+      "levelName": "3",
+      "tier": 2,
+      "angle": 1.7299882615594704,
+      "halfAngle": 0.06185448589730504,
+      "sourcePixel": [
+        2751,
+        448
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        106.07420493978742,
+        31,
+        -17.030262260975068
+      ],
+      "polygon": [
+        [
+          99.8909378529267,
+          25,
+          -9.753953397867202
+        ],
+        [
+          95.51031470376911,
+          25,
+          -21.462927652872978
+        ],
+        [
+          111.41307607726445,
+          37,
+          -25.036571168747226
+        ],
+        [
+          115.88071166451242,
+          37,
+          -11.315291312526442
+        ]
+      ]
+    },
+    {
+      "id": "306",
+      "ticketLabels": [
+        "306"
+      ],
+      "sourceLabel": "306",
+      "levelName": "3",
+      "tier": 2,
+      "angle": 1.4083805618310394,
+      "halfAngle": 0.06307898886748972,
+      "sourcePixel": [
+        2750,
+        660
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        105.95742636552265,
+        31,
+        17.36208977199223
+      ],
+      "polygon": [
+        [
+          95.29858477196115,
+          25,
+          21.861123701273055
+        ],
+        [
+          99.84539661741836,
+          25,
+          9.951073077621198
+        ],
+        [
+          115.83464802725557,
+          37,
+          11.544638876607573
+        ],
+        [
+          111.19526944121976,
+          37,
+          25.50776117051112
+        ]
+      ]
+    },
+    {
+      "id": "307",
+      "ticketLabels": [
+        "307"
+      ],
+      "sourceLabel": "307",
+      "levelName": "3",
+      "tier": 2,
+      "angle": 1.2769660016904358,
+      "halfAngle": 0.06307898886748972,
+      "sourcePixel": [
+        2715,
+        740
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        99.55881122788026,
+        31,
+        30.125400808436254
+      ],
+      "polygon": [
+        [
+          87.7232128199465,
+          25,
+          32.71008851433796
+        ],
+        [
+          95.04405898705504,
+          25,
+          22.32927377717556
+        ],
+        [
+          110.93321184899173,
+          37,
+          26.062208251174606
+        ],
+        [
+          103.29097816271661,
+          37,
+          38.51497146336587
+        ]
+      ]
+    },
+    {
+      "id": "308",
+      "ticketLabels": [
+        "308"
+      ],
+      "sourceLabel": "308",
+      "levelName": "3",
+      "tier": 2,
+      "angle": 1.1385024075371994,
+      "halfAngle": 0.06646252519355346,
+      "sourcePixel": [
+        2654,
+        810
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        90.15048502840874,
+        31,
+        41.59546616212037
+      ],
+      "polygon": [
+        [
+          77.58249884884356,
+          25,
+          42.25832556786932
+        ],
+        [
+          87.1319562537641,
+          25,
+          33.37808751060079
+        ],
+        [
+          102.66504763367314,
+          37,
+          39.32842887420773
+        ],
+        [
+          92.38105202720504,
+          37,
+          50.318933145913945
+        ]
+      ]
+    },
+    {
+      "id": "309",
+      "ticketLabels": [
+        "309"
+      ],
+      "sourceLabel": "309",
+      "levelName": "3",
+      "tier": 2,
+      "angle": 0.9765438046256301,
+      "halfAngle": 0.06289865936272533,
+      "sourcePixel": [
+        2575,
+        876
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        77.25461358168879,
+        31,
+        52.20343135331691
+      ],
+      "polygon": [
+        [
+          65.27597070286865,
+          25,
+          50.363688149574166
+        ],
+        [
+          75.09451636298692,
+          25,
+          44.135833251059125
+        ],
+        [
+          89.6492296394203,
+          37,
+          52.69017821921265
+        ],
+        [
+          78.66862892847412,
+          37,
+          60.696796261263756
+        ]
+      ]
+    },
+    {
+      "id": "310A",
+      "ticketLabels": [
+        "310A"
+      ],
+      "sourceLabel": "310A",
+      "levelName": "3",
+      "tier": 2,
+      "angle": 0.773725541807302,
+      "halfAngle": 0.03445410679007212,
+      "sourcePixel": [
+        2478,
+        943
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        60.2461643710044,
+        31,
+        61.66930211205175
+      ],
+      "polygon": [
+        [
+          51.69586030454587,
+          25,
+          56.699324643954164
+        ],
+        [
+          57.01763740512642,
+          25,
+          54.477180353541556
+        ],
+        [
+          69.20210094321659,
+          37,
+          66.11875737924991
+        ],
+        [
+          62.99984083790293,
+          37,
+          69.09737853558057
+        ]
+      ]
+    },
+    {
+      "id": "310B",
+      "ticketLabels": [
+        "310B"
+      ],
+      "sourceLabel": "310B",
+      "levelName": "3",
+      "tier": 2,
+      "angle": 0.8455049309532856,
+      "halfAngle": 0.03445410679007212,
+      "sourcePixel": [
+        2511,
+        920
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        66.2741137206796,
+        31,
+        58.75024090697925
+      ],
+      "polygon": [
+        [
+          57.24099577669766,
+          25,
+          54.3770672321168
+        ],
+        [
+          62.62965285551282,
+          25,
+          51.77873433487596
+        ],
+        [
+          75.6570850101254,
+          37,
+          62.54909498425533
+        ],
+        [
+          69.46072909969521,
+          37,
+          65.98541281463159
+        ]
+      ]
+    },
+    {
+      "id": "311",
+      "ticketLabels": [
+        "311"
+      ],
+      "sourceLabel": "311",
+      "levelName": "3",
+      "tier": 2,
+      "angle": 0.6227108817728425,
+      "halfAngle": 0.07248703681654058,
+      "sourcePixel": [
+        2400,
+        975
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        47.76055977505,
+        31,
+        66.51800734346895
+      ],
+      "polygon": [
+        [
+          37.57868279208826,
+          25,
+          61.261609847317985
+        ],
+        [
+          48.33734256144335,
+          25,
+          57.95062929903564
+        ],
+        [
+          59.04771369211095,
+          37,
+          70.79106930169924
+        ],
+        [
+          46.21040490332095,
+          37,
+          75.33323644515436
+        ]
+      ]
+    },
+    {
+      "id": "312",
+      "ticketLabels": [
+        "312"
+      ],
+      "sourceLabel": "312",
+      "levelName": "3",
+      "tier": 2,
+      "angle": 0.4279811302019653,
+      "halfAngle": 0.09347028075402104,
+      "sourcePixel": [
+        2300,
+        998
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        32.24627011266804,
+        31,
+        70.68763645387821
+      ],
+      "polygon": [
+        [
+          22.370061388584023,
+          25,
+          64.36079803929132
+        ],
+        [
+          35.497431990972515,
+          25,
+          61.78939821581628
+        ],
+        [
+          43.69908649904244,
+          37,
+          76.06579140833108
+        ],
+        [
+          27.69120938777942,
+          37,
+          79.67024783312006
+        ]
+      ]
+    },
+    {
+      "id": "313",
+      "ticketLabels": [
+        "313"
+      ],
+      "sourceLabel": "313",
+      "levelName": "3",
+      "tier": 2,
+      "angle": 0.2131618881919697,
+      "halfAngle": 0.1031132361647979,
+      "sourcePixel": [
+        2197,
+        1015
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        15.84713096941657,
+        31,
+        73.21374507870456
+      ],
+      "polygon": [
+        [
+          7.273738406474539,
+          25,
+          65.82862370030136
+        ],
+        [
+          21.121614837013677,
+          25,
+          64.54066995517897
+        ],
+        [
+          26.15618385614022,
+          37,
+          79.9246479292777
+        ],
+        [
+          9.033548680399695,
+          37,
+          81.75521905366546
+        ]
+      ]
+    },
+    {
+      "id": "314",
+      "ticketLabels": [
+        "314"
+      ],
+      "sourceLabel": "314",
+      "levelName": "3",
+      "tier": 2,
+      "angle": -0.03245613122901935,
+      "halfAngle": 0.11159970348133048,
+      "sourcePixel": [
+        2082,
+        1015
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        -2.40201395507573,
+        31,
+        73.98202981633248
+      ],
+      "polygon": [
+        [
+          -9.531277638254636,
+          25,
+          65.70546047426367
+        ],
+        [
+          5.227393801338246,
+          25,
+          65.91154288710418
+        ],
+        [
+          6.493333774143975,
+          37,
+          81.87361882420367
+        ],
+        [
+          -11.833973195659269,
+          37,
+          81.57947838389394
+        ]
+      ]
+    },
+    {
+      "id": "315",
+      "ticketLabels": [
+        "315"
+      ],
+      "sourceLabel": "315",
+      "levelName": "3",
+      "tier": 2,
+      "angle": -0.2649555134817912,
+      "halfAngle": 0.10434711706840274,
+      "sourcePixel": [
+        1973,
+        1010
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        -19.74654049590148,
+        31,
+        72.77555650505627
+      ],
+      "polygon": [
+        [
+          -24.766117690282346,
+          25,
+          63.98503440615256
+        ],
+        [
+          -10.632832483348986,
+          25,
+          65.63324378380318
+        ],
+        [
+          -13.199499824426479,
+          37,
+          81.47650131397411
+        ],
+        [
+          -30.631924115203923,
+          37,
+          79.13976437279993
+        ]
+      ]
+    },
+    {
+      "id": "316",
+      "ticketLabels": [
+        "316"
+      ],
+      "sourceLabel": "316",
+      "levelName": "3",
+      "tier": 2,
+      "angle": -0.48234534070763024,
+      "halfAngle": 0.09136800815679161,
+      "sourcePixel": [
+        1864,
+        998
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        -36.508116916782605,
+        31,
+        69.72580269514275
+      ],
+      "polygon": [
+        [
+          -39.29092681925512,
+          25,
+          60.80116010122071
+        ],
+        [
+          -26.268799750069434,
+          25,
+          63.7286200662525
+        ],
+        [
+          -32.47233725279957,
+          37,
+          78.77852292971289
+        ],
+        [
+          -48.2701185005236,
+          37,
+          74.69610519894758
+        ]
+      ]
+    },
+    {
+      "id": "317",
+      "ticketLabels": [
+        "317"
+      ],
+      "sourceLabel": "317",
+      "levelName": "3",
+      "tier": 2,
+      "angle": -0.6726953577009461,
+      "halfAngle": 0.05835579013925729,
+      "sourcePixel": [
+        1764,
+        971
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        -51.85397793555756,
+        31,
+        65.08997830949866
+      ],
+      "polygon": [
+        [
+          -51.066570392173055,
+          25,
+          56.94231708433296
+        ],
+        [
+          -42.28060894845537,
+          25,
+          59.93866180266872
+        ],
+        [
+          -51.85203048042358,
+          37,
+          73.50748714467892
+        ],
+        [
+          -62.26149247690193,
+          37,
+          69.42533284567214
+        ]
+      ]
+    },
+    {
+      "id": "318A",
+      "ticketLabels": [
+        "318A"
+      ],
+      "sourceLabel": "318A",
+      "levelName": "3",
+      "tier": 2,
+      "angle": -0.8683309316658115,
+      "halfAngle": 0.03554928536387811,
+      "sourcePixel": [
+        1667,
+        917
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        -68.1952085718712,
+        31,
+        57.72803702363051
+      ],
+      "polygon": [
+        [
+          -64.5085613172503,
+          25,
+          50.78416153435553
+        ],
+        [
+          -58.93499911822694,
+          25,
+          53.59876328432554
+        ],
+        [
+          -71.4176597477888,
+          37,
+          64.9511885367684
+        ],
+        [
+          -77.79749903563113,
+          37,
+          61.2458358598962
+        ]
+      ]
+    },
+    {
+      "id": "318B",
+      "ticketLabels": [
+        "318B"
+      ],
+      "sourceLabel": "318B",
+      "levelName": "3",
+      "tier": 2,
+      "angle": -0.7942699204910655,
+      "halfAngle": 0.03554928536387811,
+      "sourcePixel": [
+        1699,
+        944
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        -61.96782579592137,
+        31,
+        60.877939412576
+      ],
+      "polygon": [
+        [
+          -58.70372224007777,
+          25,
+          53.707032366777824
+        ],
+        [
+          -53.18975562634387,
+          25,
+          56.1061932933095
+        ],
+        [
+          -64.7485278349721,
+          37,
+          68.29874240608322
+        ],
+        [
+          -71.15096546879084,
+          37,
+          65.09480250216548
+        ]
+      ]
+    },
+    {
+      "id": "319",
+      "ticketLabels": [
+        "319"
+      ],
+      "sourceLabel": "319",
+      "levelName": "3",
+      "tier": 2,
+      "angle": -0.9926479326595756,
+      "halfAngle": 0.05967216047700676,
+      "sourcePixel": [
+        1602,
+        876
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        -78.58597364526386,
+        31,
+        51.279332297818655
+      ],
+      "polygon": [
+        [
+          -76.08185749030629,
+          25,
+          43.4077653566814
+        ],
+        [
+          -66.79499545561141,
+          25,
+          49.5058919747719
+        ],
+        [
+          -80.38759952385905,
+          37,
+          59.58020943027195
+        ],
+        [
+          -90.73586312548616,
+          37,
+          51.768466043154795
+        ]
+      ]
+    },
+    {
+      "id": "320",
+      "ticketLabels": [
+        "320"
+      ],
+      "sourceLabel": "320",
+      "levelName": "3",
+      "tier": 2,
+      "angle": -1.1509425380092897,
+      "halfAngle": 0.062193524316427516,
+      "sourcePixel": [
+        1528,
+        807
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        -91.07567013878838,
+        31,
+        40.65592304965246
+      ],
+      "polygon": [
+        [
+          -87.67375615491606,
+          25,
+          32.76666095610242
+        ],
+        [
+          -78.84163781828782,
+          25,
+          41.2511931516158
+        ],
+        [
+          -93.7554939874285,
+          37,
+          49.05435882007349
+        ],
+        [
+          -103.23867042068376,
+          37,
+          38.58379815798122
+        ]
+      ]
+    },
+    {
+      "id": "321",
+      "ticketLabels": [
+        "321"
+      ],
+      "sourceLabel": "321",
+      "levelName": "3",
+      "tier": 2,
+      "angle": -1.2805123803351803,
+      "halfAngle": 0.05923836169297835,
+      "sourcePixel": [
+        1471,
+        740
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        -99.76898920077913,
+        31,
+        29.803196454545837
+      ],
+      "polygon": [
+        [
+          -95.0296742470582,
+          25,
+          22.35540204584653
+        ],
+        [
+          -88.20661313367634,
+          25,
+          32.15018557828931
+        ],
+        [
+          -103.80177079887251,
+          37,
+          37.83442166043986
+        ],
+        [
+          -110.91839405338759,
+          37,
+          26.093168402288548
+        ]
+      ]
+    },
+    {
+      "id": "322",
+      "ticketLabels": [
+        "322"
+      ],
+      "sourceLabel": "322",
+      "levelName": "3",
+      "tier": 2,
+      "angle": -1.4039256338622186,
+      "halfAngle": 0.05923836169297835,
+      "sourcePixel": [
+        1438,
+        664
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        -105.79258003981528,
+        31,
+        17.819387533261757
+      ],
+      "polygon": [
+        [
+          -99.64699519074475,
+          25,
+          10.76684750602595
+        ],
+        [
+          -95.26908065906092,
+          25,
+          21.915967811385098
+        ],
+        [
+          -111.16490494296859,
+          37,
+          25.572688028810866
+        ],
+        [
+          -115.63387656549284,
+          37,
+          12.494228382181326
+        ]
+      ]
+    },
+    {
+      "id": "323",
+      "ticketLabels": [
+        "323"
+      ],
+      "sourceLabel": "323",
+      "levelName": "3",
+      "tier": 2,
+      "angle": -1.7269362389191067,
+      "halfAngle": 0.06086169417166482,
+      "sourcePixel": [
+        1430,
+        448
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        -106.18280249912374,
+        31,
+        -16.715433676773625
+      ],
+      "polygon": [
+        [
+          -95.69988627933559,
+          25,
+          -21.099259336698168
+        ],
+        [
+          -99.93691452045552,
+          25,
+          -9.55072893965862
+        ],
+        [
+          -115.92720753791411,
+          37,
+          -11.07888252543101
+        ],
+        [
+          -111.6079428486098,
+          37,
+          -24.60655933618059
+        ]
+      ]
+    },
+    {
+      "id": "324",
+      "ticketLabels": [
+        "324"
+      ],
+      "sourceLabel": "324",
+      "levelName": "3",
+      "tier": 2,
+      "angle": -1.853731435110075,
+      "halfAngle": 0.06086169417166482,
+      "sourcePixel": [
+        1471,
+        371
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        -100.19866363990062,
+        31,
+        -29.13124086655257
+      ],
+      "polygon": [
+        [
+          -88.57732943440227,
+          25,
+          -31.711971792657046
+        ],
+        [
+          -95.46173273116402,
+          25,
+          -21.555023564206085
+        ],
+        [
+          -111.36311494945058,
+          37,
+          -25.145516410002926
+        ],
+        [
+          -104.19290954066894,
+          37,
+          -37.30257651079359
+        ]
+      ]
+    },
+    {
+      "id": "325",
+      "ticketLabels": [
+        "325"
+      ],
+      "sourceLabel": "325",
+      "levelName": "3",
+      "tier": 2,
+      "angle": -2.0008611411277113,
+      "halfAngle": 0.07060525089502924,
+      "sourcePixel": [
+        1528,
+        292
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        -90.31719262104707,
+        31,
+        -41.42844863636783
+      ],
+      "polygon": [
+        [
+          -77.4375326867393,
+          25,
+          -42.37171564049018
+        ],
+        [
+          -87.55502381974873,
+          25,
+          -32.90194972408879
+        ],
+        [
+          -103.11305664632505,
+          37,
+          -38.748440211254604
+        ],
+        [
+          -92.22245927508577,
+          37,
+          -50.461626093877044
+        ]
+      ]
+    },
+    {
+      "id": "326",
+      "ticketLabels": [
+        "326"
+      ],
+      "sourceLabel": "326",
+      "levelName": "3",
+      "tier": 2,
+      "angle": -2.147955413825689,
+      "halfAngle": 0.07003341367843198,
+      "sourcePixel": [
+        1604,
+        232
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        -78.6675344805316,
+        31,
+        -51.22166038184714
+      ],
+      "polygon": [
+        [
+          -66.0586143691654,
+          25,
+          -49.92603316376836
+        ],
+        [
+          -76.94741199543041,
+          25,
+          -42.75129808323829
+        ],
+        [
+          -91.6857328893197,
+          37,
+          -50.93977815607684
+        ],
+        [
+          -79.55518465853464,
+          37,
+          -60.12652286975146
+        ]
+      ]
+    },
+    {
+      "id": "327A",
+      "ticketLabels": [
+        "327A"
+      ],
+      "sourceLabel": "327A",
+      "levelName": "3",
+      "tier": 2,
+      "angle": -2.3749088826552325,
+      "halfAngle": 0.03890425135974893,
+      "sourcePixel": [
+        1730,
+        172
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        -59.65698664137671,
+        31,
+        -61.932730000993246
+      ],
+      "polygon": [
+        [
+          -50.816475410597974,
+          25,
+          -57.03777743112203
+        ],
+        [
+          -56.816124651039495,
+          25,
+          -54.5670092825246
+        ],
+        [
+          -68.96864871572338,
+          37,
+          -66.23846518552021
+        ],
+        [
+          -61.967773826819,
+          37,
+          -69.55429440702763
+        ]
+      ]
+    },
+    {
+      "id": "327B",
+      "ticketLabels": [
+        "327B"
+      ],
+      "sourceLabel": "327B",
+      "levelName": "3",
+      "tier": 2,
+      "angle": -2.293858358989089,
+      "halfAngle": 0.03890425135974893,
+      "sourcePixel": [
+        1697,
+        200
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        -66.46172819464361,
+        31,
+        -58.652475131772995
+      ],
+      "polygon": [
+        [
+          -57.06822380234842,
+          25,
+          -54.45455703720541
+        ],
+        [
+          -63.15407206914427,
+          25,
+          -51.506017492504824
+        ],
+        [
+          -76.25556389592334,
+          37,
+          -62.19108727659066
+        ],
+        [
+          -69.26068745971718,
+          37,
+          -66.08861822603322
+        ]
+      ]
+    },
+    {
+      "id": "328",
+      "ticketLabels": [
+        "328"
+      ],
+      "sourceLabel": "328",
+      "levelName": "3",
+      "tier": 2,
+      "angle": -2.51001940851308,
+      "halfAngle": 0.06485305241176682,
+      "sourcePixel": [
+        1800,
+        147
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        -48.48315112060352,
+        31,
+        -66.27663082479806
+      ],
+      "polygon": [
+        [
+          -38.77992234504979,
+          25,
+          -60.94109221583741
+        ],
+        [
+          -48.43042150515328,
+          25,
+          -57.91743499830428
+        ],
+        [
+          -59.15762206768057,
+          37,
+          -70.7459820558152
+        ],
+        [
+          -47.656030230515924,
+          37,
+          -74.8895396715338
+        ]
+      ]
+    },
+    {
+      "id": "329",
+      "ticketLabels": [
+        "329"
+      ],
+      "sourceLabel": "329",
+      "levelName": "3",
+      "tier": 2,
+      "angle": -2.7033155396953843,
+      "halfAngle": 0.09278214296750605,
+      "sourcePixel": [
+        1895,
+        122
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        -33.049472420834064,
+        31,
+        -70.51644858108651
+      ],
+      "polygon": [
+        [
+          -23.12446424883706,
+          25,
+          -64.24684108719389
+        ],
+        [
+          -36.19046370498565,
+          25,
+          -61.61748681679138
+        ],
+        [
+          -44.53624230062944,
+          37,
+          -75.82691797481483
+        ],
+        [
+          -28.617879532947555,
+          37,
+          -79.50923051971698
+        ]
+      ]
+    },
+    {
+      "id": "330",
+      "ticketLabels": [
+        "330"
+      ],
+      "sourceLabel": "330",
+      "levelName": "3",
+      "tier": 2,
+      "angle": -2.9203312082211244,
+      "halfAngle": 0.10409097001049182,
+      "sourcePixel": [
+        1996,
+        104
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        -16.45510497533717,
+        31,
+        -73.1519023161028
+      ],
+      "polygon": [
+        [
+          -7.7459556267074685,
+          25,
+          -65.80561568480174
+        ],
+        [
+          -21.742446798072407,
+          25,
+          -64.45257611558435
+        ],
+        [
+          -26.91975547782537,
+          37,
+          -79.80001538287217
+        ],
+        [
+          -9.619512049117292,
+          37,
+          -81.72237790737329
+        ]
+      ]
+    },
+    {
+      "id": "331",
+      "ticketLabels": [
+        "331"
+      ],
+      "sourceLabel": "331",
+      "levelName": "3",
+      "tier": 2,
+      "angle": -3.1371873957429823,
+      "halfAngle": 0.10409097001049182,
+      "sourcePixel": [
+        2095,
+        99
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        -0.3259897315140673,
+        31,
+        -73.99966905369251
+      ],
+      "polygon": [
+        [
+          6.587083363467243,
+          25,
+          -65.85948584857798
+        ],
+        [
+          -7.1708394930772235,
+          25,
+          -65.83344428919006
+        ],
+        [
+          -8.905851816002585,
+          37,
+          -81.76210051035295
+        ],
+        [
+          8.181337336023004,
+          37,
+          -81.79927910015574
+        ]
+      ]
+    },
+    {
+      "id": "332",
+      "ticketLabels": [
+        "332"
+      ],
+      "sourceLabel": "332",
+      "levelName": "3",
+      "tier": 2,
+      "angle": 2.916095464416777,
+      "halfAngle": 0.10073092127005737,
+      "sourcePixel": [
+        2200,
+        104
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        16.773305785863144,
+        31,
+        -73.11858541604421
+      ],
+      "polygon": [
+        [
+          21.802402917020324,
+          25,
+          -64.44392694830067
+        ],
+        [
+          8.249909426548957,
+          25,
+          -65.77945573183828
+        ],
+        [
+          10.244752058325956,
+          37,
+          -81.68504400007818
+        ],
+        [
+          26.993472761834717,
+          37,
+          -79.78778272126172
+        ]
+      ]
+    },
+    {
+      "id": "333",
+      "ticketLabels": [
+        "333"
+      ],
+      "sourceLabel": "333",
+      "levelName": "3",
+      "tier": 2,
+      "angle": 2.7062393784374907,
+      "halfAngle": 0.09877397056474223,
+      "sourcePixel": [
+        2297,
+        123
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        32.82119641216701,
+        31,
+        -70.56557228615905
+      ],
+      "polygon": [
+        [
+          36.41217369728257,
+          25,
+          -61.56168536390585
+        ],
+        [
+          22.511984299736884,
+          25,
+          -64.33966362710974
+        ],
+        [
+          27.86559337683728,
+          37,
+          -79.64037646634652
+        ],
+        [
+          44.80386811462522,
+          37,
+          -75.74943629812287
+        ]
+      ]
+    },
+    {
+      "id": "334",
+      "ticketLabels": [
+        "334"
+      ],
+      "sourceLabel": "334",
+      "levelName": "3",
+      "tier": 2,
+      "angle": 2.5004602730942778,
+      "halfAngle": 0.07113485309246002,
+      "sourcePixel": [
+        2400,
+        147
+      ],
+      "polygonStatus": "estimated",
+      "positionBasis": {
+        "kind": "operator-curated-anchor",
+        "coordinateSystem": "estimated-model-frame",
+        "source": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR"
+      },
+      "samples": [],
+      "center": [
+        49.26411583569649,
+        31,
+        -66.01066346301248
+      ],
+      "polygon": [
+        [
+          49.633501375111365,
+          25,
+          -57.48086949220375
+        ],
+        [
+          39.01927214585902,
+          25,
+          -60.87581739074888
+        ],
+        [
+          47.943729455322156,
+          37,
+          -74.79928657929624
+        ],
+        [
+          60.57631166404689,
+          37,
+          -70.15380677588408
+        ]
+      ]
+    }
+  ],
+  "ticketLabelCount": 112,
+  "venueSource": "https://www.golive-asia.com/event-detail/175/BTS-WORLD-TOUR-ARIRANG-IN-KUALA-LUMPUR",
+  "accuracy": {
+    "sectionLabels": "source-layout-reference",
+    "seatDataStatus": "section-only",
+    "geometryBasis": "source-screen-plus-parametric",
+    "position": "estimated",
+    "stage": "event-only",
+    "metricCalibrated": false,
+    "completeSeatInventory": false,
+    "coverage": "112 chart-labelled sections; illustrative positions and chairs, without a source seat manifest."
+  }
+}

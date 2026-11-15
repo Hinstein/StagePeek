@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "ticc-youngk-20261128",
+  "venueId": "ticc-taipei",
+  "seatLayoutId": "end",
+  "status": "research-preview",
+  "publicationStatus": "not-published",
+  "displayMode": "reference-only",
+  "event": {
+    "name": "Young K — The Youngest",
+    "dates": [
+      "2026-11-28",
+      "2026-11-29"
+    ],
+    "url": "https://tixcraft.com/activity/detail/26_youngk",
+    "bindingNote": "Printed artist, dates and TICC. FOH spans parts of fixed source-seat rows; event closures are not verified."
+  },
+  "source": {
+    "path": "data/research-events/regional-concert-maps-2026-11-12/ticc-youngk-20261128.jpg",
+    "url": "https://static.tixcraft.com/images/activity/field/26_youngk_c7d09a4589b245bc7353d71effdbb15e.jpg",
+    "retrievedAt": "2026-11-12",
+    "sha256": "8562910f9fc3f017fc7355fd4c6e17feab8ff605a36006656397708f0c7b52a2",
+    "rights": "undecided; private research reference, no public redistribution approval",
+    "bytes": 4256509
+  },
+  "eventSource": {
+    "path": "data/research-events/regional-concert-maps-2026-11-12/ticc-youngk-20261128.jpg",
+    "url": "https://static.tixcraft.com/images/activity/field/26_youngk_c7d09a4589b245bc7353d71effdbb15e.jpg",
+    "retrievedAt": "2026-11-12",
+    "sha256": "8562910f9fc3f017fc7355fd4c6e17feab8ff605a36006656397708f0c7b52a2",
+    "rights": "undecided; private research reference, no public redistribution approval",
+    "bytes": 4256509
+  },
+  "registration": {
+    "allowDistances": false,
+    "allowPublication": false,
+    "metricCalibrated": false
+  },
+  "fixedSeats": {
+    "policy": "reuse-verbatim",
+    "count": 3143,
+    "assetSha256": "aab6c424621df43be6396f1cdac9e721d9de3610dcc4e1fdfa7d4f5ce412a354",
+    "identityPositionSha256": "cf58e3987335a4f314302827dc74aa3262298bacc3249fe5e85629d7eb43ad4e"
+  },
+  "stage": [],
+  "zones": [],
+  "equipment": [],
+  "temporarySeats": [],
+  "closedSections": null,
+  "notes": [
+    "Printed artist, dates and TICC. FOH spans parts of fixed source-seat rows; event closures are not verified."
+  ]
+}

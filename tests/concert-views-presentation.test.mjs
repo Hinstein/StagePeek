@@ -88,7 +88,7 @@ test('source city and stage metadata have labels in every supported locale',()=>
 
 test('event diagram semantics translate while zone and ticket identities stay intact',()=>{
  for(const locale of ['en','zh-CN','zh-TW','ja','ko']){
-  for(const [alias,key] of [['STAGE','舞台'],['STAGE · 示意','舞台 · 示意'],['FLOOR','内场'],['MIX','控台'],['GENERAL ADMISSION','站区'],['FRONT PORCH','前沿区']]){
+  for(const [alias,key] of [['STAGE','舞台'],['STAGE · 示意','舞台 · 示意'],['FLOOR','内场'],['MIX','控台'],['FOH','控台'],['Delay Tower','延迟塔'],['GENERAL ADMISSION','站区'],['FRONT PORCH','前沿区']]){
    assert.equal(interfaceCopy(alias,[],locale),interfaceCopy(key,[],locale));
    if(locale!=='en')assert.notEqual(interfaceCopy(alias,[],locale),alias);
   }

@@ -48,7 +48,7 @@ test('Taipei stage and floor zones belong to the requested layout',()=>{
  assert.equal(asset.metadata.assetSha256,'f1b66f49d6ef8dc34f3a7aaf1cdfe621d45e1b6a28316c39d8539869344f6b5d');
 });
 
-test('local API presents Taiwan separately, isolates layouts and has no invented concert',async()=>{
+test('local API presents Taiwan separately and binds retained concert charts to their layouts',async()=>{
  async function request(target,path){
   const response={setHeader(){},writeHead(status){this.status=status;},end(body){this.body=JSON.parse(body);}};
   await target.handle(Readable.from([]),response,new URL(path,'http://localhost'),{path});
@@ -60,7 +60,8 @@ test('local API presents Taiwan separately, isolates layouts and has no invented
  const taipei=catalog.venues.find(v=>v.id==='taipei-arena');
  assert.equal(taipei.name,'台北小巨蛋');assert.equal(taipei.country,'台湾');
  const events=await request(target,'/api/concert-views/venues/taipei-arena/events');
- assert.deepEqual(events,{events:[],researchConcerts:[]});
+ assert.deepEqual(events.events,[]);
+ assert.deepEqual(events.researchConcerts.map(e=>[e.id,e.ticketMapDraft.seatLayoutId]),[['taipei-accusefive-20261106','end'],['taipei-rene-20261205','center']]);
  const production=loadConcertViews();
  await assert.rejects(request({handle(req,...args){req.method='GET';return production.handle(req,...args);}},'/api/concert-views/venues/taipei-arena'),e=>e.status===404);
 });

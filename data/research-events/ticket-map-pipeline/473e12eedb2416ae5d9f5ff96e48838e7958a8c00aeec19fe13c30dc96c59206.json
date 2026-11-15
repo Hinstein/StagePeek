@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "taipei-accusefive-20261106",
+  "venueId": "taipei-arena",
+  "seatLayoutId": "end",
+  "status": "research-preview",
+  "publicationStatus": "not-published",
+  "displayMode": "reference-only",
+  "event": {
+    "name": "告五人 — 台北演唱會",
+    "dates": [
+      "2026-11-06",
+      "2026-11-07",
+      "2026-11-08"
+    ],
+    "url": "https://tixcraft.com/activity/detail/26_aftp",
+    "bindingNote": "Printed artist, Taipei Arena, dates and numbered floor blocks. Loop stage and standing cutout require a separate event registration."
+  },
+  "source": {
+    "path": "data/research-events/regional-concert-maps-2026-11-12/taipei-accusefive-20261106.png",
+    "url": "https://static.tixcraft.com/images/activity/field/26_aftp_5cc32b2ed211b47644962a37a5c392cf.png",
+    "retrievedAt": "2026-11-12",
+    "sha256": "3708ad2350d98b03a6eedf7b87f622c17ab6980806a4d6ece6516fd707e48468",
+    "rights": "undecided; private research reference, no public redistribution approval",
+    "bytes": 4437242
+  },
+  "eventSource": {
+    "path": "data/research-events/regional-concert-maps-2026-11-12/taipei-accusefive-20261106.png",
+    "url": "https://static.tixcraft.com/images/activity/field/26_aftp_5cc32b2ed211b47644962a37a5c392cf.png",
+    "retrievedAt": "2026-11-12",
+    "sha256": "3708ad2350d98b03a6eedf7b87f622c17ab6980806a4d6ece6516fd707e48468",
+    "rights": "undecided; private research reference, no public redistribution approval",
+    "bytes": 4437242
+  },
+  "registration": {
+    "allowDistances": false,
+    "allowPublication": false,
+    "metricCalibrated": false
+  },
+  "fixedSeats": {
+    "policy": "reuse-verbatim",
+    "count": 10000,
+    "assetSha256": "f1b66f49d6ef8dc34f3a7aaf1cdfe621d45e1b6a28316c39d8539869344f6b5d",
+    "identityPositionSha256": "b8fa58038ffdf8aefe72cc01d044ced2bd0170ed62aa24f391f0b76cfac0e08e"
+  },
+  "stage": [],
+  "zones": [],
+  "equipment": [],
+  "temporarySeats": [],
+  "closedSections": null,
+  "notes": [
+    "Printed artist, Taipei Arena, dates and numbered floor blocks. Loop stage and standing cutout require a separate event registration."
+  ]
+}

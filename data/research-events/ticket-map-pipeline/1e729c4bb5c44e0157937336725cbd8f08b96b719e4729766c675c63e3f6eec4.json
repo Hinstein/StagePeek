@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "taipei-rene-20261205",
+  "venueId": "taipei-arena",
+  "seatLayoutId": "center",
+  "status": "research-preview",
+  "publicationStatus": "not-published",
+  "displayMode": "reference-only",
+  "event": {
+    "name": "劉若英 — 台北演唱會",
+    "dates": [
+      "2026-12-05"
+    ],
+    "url": "https://tixcraft.com/activity/detail/26_renetp",
+    "bindingNote": "Printed artist, Taipei Arena and date. Four-sided central stage; never reuse the end-layout standing area."
+  },
+  "source": {
+    "path": "data/research-events/regional-concert-maps-2026-11-12/taipei-rene-20261205.jpg",
+    "url": "https://static.tixcraft.com/images/activity/field/26_renetp_ff1f0f45e577405443e02729d5708beb.jpg",
+    "retrievedAt": "2026-11-12",
+    "sha256": "8dbede9f1d18a2e9d43e44820bb6ea272b84e5f6f0155b365aca2cb6343db64f",
+    "rights": "undecided; private research reference, no public redistribution approval",
+    "bytes": 2113691
+  },
+  "eventSource": {
+    "path": "data/research-events/regional-concert-maps-2026-11-12/taipei-rene-20261205.jpg",
+    "url": "https://static.tixcraft.com/images/activity/field/26_renetp_ff1f0f45e577405443e02729d5708beb.jpg",
+    "retrievedAt": "2026-11-12",
+    "sha256": "8dbede9f1d18a2e9d43e44820bb6ea272b84e5f6f0155b365aca2cb6343db64f",
+    "rights": "undecided; private research reference, no public redistribution approval",
+    "bytes": 2113691
+  },
+  "registration": {
+    "allowDistances": false,
+    "allowPublication": false,
+    "metricCalibrated": false
+  },
+  "fixedSeats": {
+    "policy": "reuse-verbatim",
+    "count": 12877,
+    "assetSha256": "f1b66f49d6ef8dc34f3a7aaf1cdfe621d45e1b6a28316c39d8539869344f6b5d",
+    "identityPositionSha256": "d10f1544e480833cf49be523282cbf00f13afd6c5364be0ddac6ae3313d93ad7"
+  },
+  "stage": [],
+  "zones": [],
+  "equipment": [],
+  "temporarySeats": [],
+  "closedSections": null,
+  "notes": [
+    "Printed artist, Taipei Arena and date. Four-sided central stage; never reuse the end-layout standing area."
+  ]
+}

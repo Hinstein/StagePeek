@@ -1,0 +1,663 @@
+{
+  "schemaVersion": 1,
+  "references": [
+    {
+      "id": "taipei-accusefive-20261106",
+      "venueId": "taipei-arena",
+      "seatLayoutId": "end",
+      "event": {
+        "name": "告五人 — 台北演唱會",
+        "dates": [
+          "2026-11-06",
+          "2026-11-07",
+          "2026-11-08"
+        ],
+        "url": "https://tixcraft.com/activity/detail/26_aftp",
+        "bindingNote": "Printed artist, Taipei Arena, dates and numbered floor blocks. Loop stage and standing cutout require a separate event registration."
+      },
+      "source": {
+        "path": "data/research-events/regional-concert-maps-2026-11-12/taipei-accusefive-20261106.png",
+        "url": "https://static.tixcraft.com/images/activity/field/26_aftp_5cc32b2ed211b47644962a37a5c392cf.png",
+        "retrievedAt": "2026-11-12",
+        "sha256": "3708ad2350d98b03a6eedf7b87f622c17ab6980806a4d6ece6516fd707e48468",
+        "rights": "undecided; private research reference, no public redistribution approval"
+      },
+      "eventSource": {
+        "path": "data/research-events/regional-concert-maps-2026-11-12/taipei-accusefive-20261106.png",
+        "url": "https://static.tixcraft.com/images/activity/field/26_aftp_5cc32b2ed211b47644962a37a5c392cf.png",
+        "retrievedAt": "2026-11-12",
+        "sha256": "3708ad2350d98b03a6eedf7b87f622c17ab6980806a4d6ece6516fd707e48468",
+        "rights": "undecided; private research reference, no public redistribution approval"
+      },
+      "notes": [
+        "Printed artist, Taipei Arena, dates and numbered floor blocks. Loop stage and standing cutout require a separate event registration."
+      ]
+    },
+    {
+      "id": "taipei-rene-20261205",
+      "venueId": "taipei-arena",
+      "seatLayoutId": "center",
+      "event": {
+        "name": "劉若英 — 台北演唱會",
+        "dates": [
+          "2026-12-05"
+        ],
+        "url": "https://tixcraft.com/activity/detail/26_renetp",
+        "bindingNote": "Printed artist, Taipei Arena and date. Four-sided central stage; never reuse the end-layout standing area."
+      },
+      "source": {
+        "path": "data/research-events/regional-concert-maps-2026-11-12/taipei-rene-20261205.jpg",
+        "url": "https://static.tixcraft.com/images/activity/field/26_renetp_ff1f0f45e577405443e02729d5708beb.jpg",
+        "retrievedAt": "2026-11-12",
+        "sha256": "8dbede9f1d18a2e9d43e44820bb6ea272b84e5f6f0155b365aca2cb6343db64f",
+        "rights": "undecided; private research reference, no public redistribution approval"
+      },
+      "eventSource": {
+        "path": "data/research-events/regional-concert-maps-2026-11-12/taipei-rene-20261205.jpg",
+        "url": "https://static.tixcraft.com/images/activity/field/26_renetp_ff1f0f45e577405443e02729d5708beb.jpg",
+        "retrievedAt": "2026-11-12",
+        "sha256": "8dbede9f1d18a2e9d43e44820bb6ea272b84e5f6f0155b365aca2cb6343db64f",
+        "rights": "undecided; private research reference, no public redistribution approval"
+      },
+      "notes": [
+        "Printed artist, Taipei Arena and date. Four-sided central stage; never reuse the end-layout standing area."
+      ]
+    },
+    {
+      "id": "ticc-youngk-20261128",
+      "venueId": "ticc-taipei",
+      "seatLayoutId": "end",
+      "event": {
+        "name": "Young K — The Youngest",
+        "dates": [
+          "2026-11-28",
+          "2026-11-29"
+        ],
+        "url": "https://tixcraft.com/activity/detail/26_youngk",
+        "bindingNote": "Printed artist, dates and TICC. FOH spans parts of fixed source-seat rows; event closures are not verified."
+      },
+      "source": {
+        "path": "data/research-events/regional-concert-maps-2026-11-12/ticc-youngk-20261128.jpg",
+        "url": "https://static.tixcraft.com/images/activity/field/26_youngk_c7d09a4589b245bc7353d71effdbb15e.jpg",
+        "retrievedAt": "2026-11-12",
+        "sha256": "8562910f9fc3f017fc7355fd4c6e17feab8ff605a36006656397708f0c7b52a2",
+        "rights": "undecided; private research reference, no public redistribution approval"
+      },
+      "eventSource": {
+        "path": "data/research-events/regional-concert-maps-2026-11-12/ticc-youngk-20261128.jpg",
+        "url": "https://static.tixcraft.com/images/activity/field/26_youngk_c7d09a4589b245bc7353d71effdbb15e.jpg",
+        "retrievedAt": "2026-11-12",
+        "sha256": "8562910f9fc3f017fc7355fd4c6e17feab8ff605a36006656397708f0c7b52a2",
+        "rights": "undecided; private research reference, no public redistribution approval"
+      },
+      "notes": [
+        "Printed artist, dates and TICC. FOH spans parts of fixed source-seat rows; event closures are not verified."
+      ]
+    },
+    {
+      "id": "awe-kun-20261128",
+      "venueId": "asiaworld-arena",
+      "seatLayoutId": "end",
+      "event": {
+        "name": "KUN — The Deadman",
+        "dates": [
+          "2026-11-28",
+          "2026-11-29"
+        ],
+        "url": "https://www.asiaworld-expo.com/en-us/whats-on/upcoming-events/events/cai-xukun-live-in-hong-kong-2026-the-deadman-hong?event_type=Concert&ebmsid=27364",
+        "bindingNote": "Official venue page links this map and confirms venue/dates. Central stage conflicts with retained end-layout floor seats; image reference only."
+      },
+      "source": {
+        "path": "data/research-events/regional-concert-maps-2026-11-12/awe-kun-20261128.jpg",
+        "url": "https://www.asiaworld-expo.com/AsiaWorldExpoLocal/media/AWE/assets/images/upcoming-events/2025/webmap-TRAD.jpg?ext=.jpg",
+        "retrievedAt": "2026-11-12",
+        "sha256": "cd7406881677397ac567933c607dbc37823982df888252db115481650ef87b42",
+        "rights": "undecided; private research reference, no public redistribution approval"
+      },
+      "eventSource": {
+        "path": "data/research-events/regional-concert-maps-2026-11-12/awe-kun-20261128.html",
+        "url": "https://www.asiaworld-expo.com/en-us/whats-on/upcoming-events/events/cai-xukun-live-in-hong-kong-2026-the-deadman-hong?event_type=Concert&ebmsid=27364",
+        "retrievedAt": "2026-11-12",
+        "sha256": "d452a0c85b110a20e25435646008ce3ee66ec92df7c5e71b07d3ab479443fbf3",
+        "rights": "undecided; private research reference, no public redistribution approval"
+      },
+      "notes": [
+        "Official venue page links this map and confirms venue/dates. Central stage conflicts with retained end-layout floor seats; image reference only."
+      ]
+    },
+    {
+      "id": "runway-joji-20261129",
+      "venueId": "asiaworld-runway-11",
+      "seatLayoutId": "end",
+      "event": {
+        "name": "JOJI — SOLARIS",
+        "dates": [
+          "2026-11-29"
+        ],
+        "url": "https://www.asiaworld-expo.com/en-us/whats-on/upcoming-events/events/joji-live-in-hong-kong-2026?event_type=Concert&ebmsid=27112",
+        "bindingNote": "Official venue page links this map. Standing zones, FOH and rear aisle cannot inherit the source seated-floor inventory."
+      },
+      "source": {
+        "path": "data/research-events/regional-concert-maps-2026-11-12/runway-joji-20261129.jpg",
+        "url": "https://www.asiaworld-expo.com/AsiaWorldExpoLocal/media/AWE/Seat-Map(cityline)_Runway-11.jpg?ext=.jpg",
+        "retrievedAt": "2026-11-12",
+        "sha256": "811cfd9c34b82ed340588ab17d3f9aa6d0443617103bcdbb91365ae113001050",
+        "rights": "undecided; private research reference, no public redistribution approval"
+      },
+      "eventSource": {
+        "path": "data/research-events/regional-concert-maps-2026-11-12/runway-joji-20261129.html",
+        "url": "https://www.asiaworld-expo.com/en-us/whats-on/upcoming-events/events/joji-live-in-hong-kong-2026?event_type=Concert&ebmsid=27112",
+        "retrievedAt": "2026-11-12",
+        "sha256": "4d7fa3b40b40262b7171d51b810ab8a5097bf6f284111c354f49faf76ca6bdcb",
+        "rights": "undecided; private research reference, no public redistribution approval"
+      },
+      "notes": [
+        "Official venue page links this map. Standing zones, FOH and rear aisle cannot inherit the source seated-floor inventory."
+      ]
+    },
+    {
+      "id": "runway-donghae-20260627",
+      "venueId": "asiaworld-runway-11",
+      "seatLayoutId": "end",
+      "event": {
+        "name": "DONGHAE — ALIVE",
+        "dates": [
+          "2026-06-27",
+          "2026-06-28"
+        ],
+        "url": "https://www.asiaworld-expo.com/en-us/whats-on/upcoming-events/events/2026-lee-donghae-concert-in-hong-kong?event_type=Concert&ebmsid=26494",
+        "bindingNote": "Official venue page plus printed dates and Runway 11. This is the June concert, not the October Summit encore; runway and B-stage need an event-specific seating variant."
+      },
+      "source": {
+        "path": "data/research-events/regional-concert-maps-2026-11-12/runway-donghae-20260627.jpg",
+        "url": "https://www.asiaworld-expo.com/AsiaWorldExpoLocal/media/AWE/Donghae-web-map.jpeg?ext=.jpeg",
+        "retrievedAt": "2026-11-12",
+        "sha256": "44d8242ee2a4d42b5e7926b355fdfa7a536b5987ef4cc633c2b77af1e1b2c002",
+        "rights": "undecided; private research reference, no public redistribution approval"
+      },
+      "eventSource": {
+        "path": "data/research-events/regional-concert-maps-2026-11-12/runway-donghae-20260627.html",
+        "url": "https://www.asiaworld-expo.com/en-us/whats-on/upcoming-events/events/2026-lee-donghae-concert-in-hong-kong?event_type=Concert&ebmsid=26494",
+        "retrievedAt": "2026-11-12",
+        "sha256": "62e5f02851e9074d7c41253c101739cad4b58567342798312e9211a50cd760c7",
+        "rights": "undecided; private research reference, no public redistribution approval"
+      },
+      "notes": [
+        "Official venue page plus printed dates and Runway 11. This is the June concert, not the October Summit encore; runway and B-stage need an event-specific seating variant."
+      ]
+    },
+    {
+      "id": "summit-eunhyuk-20260919",
+      "venueId": "asiaworld-summit-hall-2",
+      "seatLayoutId": "end",
+      "event": {
+        "name": "EUNHYUK — be: WARE OF THE RABBIT",
+        "dates": [
+          "2026-09-19"
+        ],
+        "url": "https://www.asiaworld-expo.com/en-us/whats-on/upcoming-events/events/2026-eunhyuk-fancon-be-wave-of-the-rabbit-in-hong?event_type=Concert&ebmsid=27794",
+        "bindingNote": "Official venue page plus printed date and Summit Hall 2. Seated blocks and FOH differ from retained generic floor seats."
+      },
+      "source": {
+        "path": "data/research-events/regional-concert-maps-2026-11-12/summit-eunhyuk-20260919.jpg",
+        "url": "https://www.asiaworld-expo.com/AsiaWorldExpoLocal/media/AWE/web-map_3.jpeg?ext=.jpeg",
+        "retrievedAt": "2026-11-12",
+        "sha256": "a35b630075a1ba79680cf7ccf9e1626656beee1e7c879afd5fed57db2e9762b4",
+        "rights": "undecided; private research reference, no public redistribution approval"
+      },
+      "eventSource": {
+        "path": "data/research-events/regional-concert-maps-2026-11-12/summit-eunhyuk-20260919.html",
+        "url": "https://www.asiaworld-expo.com/en-us/whats-on/upcoming-events/events/2026-eunhyuk-fancon-be-wave-of-the-rabbit-in-hong?event_type=Concert&ebmsid=27794",
+        "retrievedAt": "2026-11-12",
+        "sha256": "96a1da4268411c3fdd4662ad06c0989fd6f93d05a8c51912467ed844123102b7",
+        "rights": "undecided; private research reference, no public redistribution approval"
+      },
+      "notes": [
+        "Official venue page plus printed date and Summit Hall 2. Seated blocks and FOH differ from retained generic floor seats."
+      ]
+    },
+    {
+      "id": "zepp-karencici-20261127",
+      "venueId": "zepp-new-taipei",
+      "seatLayoutId": "standing",
+      "event": {
+        "name": "Karencici — The Loser Live In Concert",
+        "dates": [
+          "2026-11-27"
+        ],
+        "url": "https://warnermusictwtw.kktix.cc/events/ofgkrikd?locale=zh-TW",
+        "bindingNote": "Organizer KKTIX page and printed chart both confirm 2026-11-27 at Zepp New Taipei. Floor GA/VIP standing, FOH and second-floor seated price zones are image references, not inferred ticket inventory."
+      },
+      "source": {
+        "path": "data/research-events/regional-concert-maps-2026-11-12/zepp-karencici-20261127.jpg",
+        "url": "https://assets.kktix.io/organization_resource_files/14075/78734/CC_%E5%BA%A7%E4%BD%8D%E5%9C%960710.jpg",
+        "retrievedAt": "2026-11-12",
+        "sha256": "9cdb2704bf64c63bcc5cd90e1a1d6b6a4bf72a5ba32af653e224fa3268f883f5",
+        "rights": "undecided; private research reference, no public redistribution approval"
+      },
+      "eventSource": {
+        "path": "data/research-events/regional-concert-maps-2026-11-12/zepp-karencici-20261127.html",
+        "url": "https://warnermusictwtw.kktix.cc/events/ofgkrikd?locale=zh-TW",
+        "retrievedAt": "2026-11-12",
+        "sha256": "3f8deb7d7b61e8d7e8ae595dfde2cb232327d3596bebcba3a8474bb26f92923e",
+        "rights": "undecided; private research reference, no public redistribution approval"
+      },
+      "notes": [
+        "Organizer KKTIX page and printed chart both confirm 2026-11-27 at Zepp New Taipei. Floor GA/VIP standing, FOH and second-floor seated price zones are image references, not inferred ticket inventory."
+      ]
+    },
+    {
+      "id": "tmc-atarayo-20261219",
+      "venueId": "taipei-music-center",
+      "seatLayoutId": "end",
+      "event": {
+        "name": "Atarayo — ASIA TOUR 2026 in TAIPEI",
+        "dates": [
+          "2026-12-19"
+        ],
+        "url": "https://www.tmc.taipei/tw/blog/show/atarayo2026",
+        "bindingNote": "Official Taipei Music Center event page links the seating image and confirms Atarayo, 2026-12-19 and the Performance Hall. Standing floor, FOH and price zones remain image references; no event geometry or ticket inventory is inferred."
+      },
+      "source": {
+        "path": "data/research-events/regional-concert-maps-2026-11-12/tmc-atarayo-20261219.png",
+        "url": "https://www.tmc.taipei/files/20261013155045735.png",
+        "retrievedAt": "2026-11-12",
+        "sha256": "3ec205097f4f3ddf31a432453ca509fabcadea90ced9ec3d392486bbd46b93d2",
+        "rights": "undecided; private research reference, no public redistribution approval"
+      },
+      "eventSource": {
+        "path": "data/research-events/regional-concert-maps-2026-11-12/tmc-atarayo-20261219.html",
+        "url": "https://www.tmc.taipei/tw/blog/show/atarayo2026",
+        "retrievedAt": "2026-11-12",
+        "sha256": "98e2ca322973b54de7c590d9a56c7037cfce4bc9f74ffd5ae0376733e451ed96",
+        "rights": "undecided; private research reference, no public redistribution approval"
+      },
+      "notes": [
+        "Official Taipei Music Center event page links the seating image and confirms Atarayo, 2026-12-19 and the Performance Hall. Standing floor, FOH and price zones remain image references; no event geometry or ticket inventory is inferred."
+      ]
+    },
+    {
+      "id": "nch-mco-20261122",
+      "venueId": "national-concert-hall-taipei",
+      "seatLayoutId": "end",
+      "event": {
+        "name": "Yuja Wang & Mahler Chamber Orchestra — Taipei",
+        "dates": [
+          "2026-11-22"
+        ],
+        "url": "https://ticket.mna.com.tw/UTK0201_?PRODUCT_ID=P1FX0ASD",
+        "bindingNote": "Official MNA event page links the Taipei price seating chart. Printed chart confirms Yuja Wang, Mahler Chamber Orchestra, National Concert Hall and 2026-11-22. Price zones are image references, not event inventory or registered geometry."
+      },
+      "source": {
+        "path": "data/research-events/regional-concert-maps-2026-11-12/nch-mco-20261122.jpg",
+        "url": "https://drive.google.com/file/d/14rUQOd9lofvEgGuDEZLp7oaa5IcN1MoU/view?usp=drive_link",
+        "retrievedAt": "2026-11-12",
+        "sha256": "3a541ace81c3456e540e1fae486001a7ea072b0cb2cae31c409b9e8226fd1f15",
+        "rights": "undecided; private research reference, no public redistribution approval"
+      },
+      "eventSource": {
+        "path": "data/research-events/regional-concert-maps-2026-11-12/nch-mco-20261122.html",
+        "url": "https://ticket.mna.com.tw/UTK0201_?PRODUCT_ID=P1FX0ASD",
+        "retrievedAt": "2026-11-12",
+        "sha256": "2f431bf4aebd0b62c02e324af20df185e75711bd52ded256fb69d6f491251210",
+        "rights": "undecided; private research reference, no public redistribution approval"
+      },
+      "notes": [
+        "Official MNA event page links the Taipei price seating chart. Printed chart confirms Yuja Wang, Mahler Chamber Orchestra, National Concert Hall and 2026-11-22. Price zones are image references, not event inventory or registered geometry."
+      ]
+    },
+    {
+      "id": "kaitak-straykids-20261205",
+      "venueId": "kai-tak-stadium",
+      "seatLayoutId": "bowl",
+      "event": {
+        "name": "Stray Kids — RUN IT HONG KONG",
+        "dates": [
+          "2026-12-05"
+        ],
+        "url": "https://hkt.hkticketing.com/en/#/allEvents/detail?projectId=50000001506002",
+        "bindingNote": "Official HK Ticketing event seating-image modal and printed chart confirm Stray Kids, Kai Tak Stadium and 2026-12-05. Extended stage, standing floor, price zones and restricted-view areas remain an unregistered image reference, not source-seat inventory."
+      },
+      "source": {
+        "path": "data/research-events/regional-concert-maps-2026-11-12/kaitak-straykids-20261205.jpg",
+        "url": "https://g-assets.maitix.com/181/971e210b-d851-41de-aea2-68b48b678994.jpg",
+        "retrievedAt": "2026-11-12",
+        "sha256": "4705588313c024ca542a581cded5276cd73a53369bd533857738579fbaa36c15",
+        "rights": "undecided; private research reference, no public redistribution approval"
+      },
+      "eventSource": {
+        "path": "data/research-events/regional-concert-maps-2026-11-12/kaitak-straykids-20261205.html",
+        "url": "https://hkt.hkticketing.com/en/#/allEvents/detail?projectId=50000001506002",
+        "retrievedAt": "2026-11-12",
+        "sha256": "dba07c3f53682680cbffe9b31696e7ecf364c76ac1192e9dd419daa56cee993f",
+        "rights": "undecided; private research reference, no public redistribution approval"
+      },
+      "notes": [
+        "Official HK Ticketing event seating-image modal and printed chart confirm Stray Kids, Kai Tak Stadium and 2026-12-05. Extended stage, standing floor, price zones and restricted-view areas remain an unregistered image reference, not source-seat inventory."
+      ]
+    },
+    {
+      "id": "clapper-victon-20261211",
+      "venueId": "clapper-studio-taipei",
+      "seatLayoutId": "end",
+      "event": {
+        "name": "VICTON — [10:NOW] IN TAIPEI",
+        "dates": [
+          "2026-12-11"
+        ],
+        "url": "https://ticketplus.com.tw/activity/8c547569ec0844087f59d05b38e802bc",
+        "bindingNote": "Official TicketPlus page confirms VICTON [10:NOW], CLAPPER STUDIO and 2026-12-11 at 14:00 and 19:00, and embeds this seating map. Added B row, price zones, sold-out stamps and FOH remain an image snapshot, not current inventory or registered event geometry."
+      },
+      "source": {
+        "path": "data/research-events/regional-concert-maps-2026-11-12/clapper-victon-20261211.jpg",
+        "url": "https://static.ticketplus.com.tw/eventHtmlImage/1794483213725_1794483213873.jpeg",
+        "retrievedAt": "2026-11-12",
+        "sha256": "0c8afb433f355cd4c781bf470adce158f9149621626180a54d7413bcfe9c8194",
+        "rights": "undecided; private research reference, no public redistribution approval"
+      },
+      "eventSource": {
+        "path": "data/research-events/regional-concert-maps-2026-11-12/clapper-victon-20261211.html",
+        "url": "https://ticketplus.com.tw/activity/8c547569ec0844087f59d05b38e802bc",
+        "retrievedAt": "2026-11-12",
+        "sha256": "46a963fc5c60807a3e9821f024a681fee20664c8059cfd6c1e26e1510f821af6",
+        "rights": "undecided; private research reference, no public redistribution approval"
+      },
+      "notes": [
+        "Official TicketPlus page confirms VICTON [10:NOW], CLAPPER STUDIO and 2026-12-11 at 14:00 and 19:00, and embeds this seating map. Added B row, price zones, sold-out stamps and FOH remain an image snapshot, not current inventory or registered event geometry."
+      ]
+    },
+    {
+      "id": "tpac-globe-agong-20260118",
+      "venueId": "taipei-pac-globe-playhouse",
+      "seatLayoutId": "end",
+      "event": {
+        "name": "阿龔 — 月光動物園音樂會",
+        "dates": [
+          "2026-01-18"
+        ],
+        "url": "https://isshowind.kktix.cc/events/ng07da16",
+        "bindingNote": "Official organizer KKTIX page for the January 18 performance confirms 阿龔《月光動物園》音樂會, TPAC Globe Playhouse, 2026-01-18 18:30 and links this price seating chart. The page also mentions January 17 in prose, but only January 18 is bound here. Historical price zones remain an image reference, not current inventory or registered geometry."
+      },
+      "source": {
+        "path": "data/research-events/regional-concert-maps-2026-11-12/tpac-globe-agong-20260118.png",
+        "url": "https://assets.kktix.io/organization_resource_files/52695/73629/%E7%A5%A8%E5%8D%80%E5%9C%96_%E7%A9%BA%E7%99%BD%E5%BA%95.png",
+        "retrievedAt": "2026-11-12",
+        "sha256": "d0804bf4034f09d4c5c27952e9e20363b8224c47d7823573fd33873c87570885",
+        "rights": "undecided; private research reference, no public redistribution approval"
+      },
+      "eventSource": {
+        "path": "data/research-events/regional-concert-maps-2026-11-12/tpac-globe-agong-20260118.html",
+        "url": "https://isshowind.kktix.cc/events/ng07da16",
+        "retrievedAt": "2026-11-12",
+        "sha256": "84301bfc8ba3c7666b4a72defd1ac352e73f62803d68d0f9120350ebfbbef9f4",
+        "rights": "undecided; private research reference, no public redistribution approval"
+      },
+      "notes": [
+        "Official organizer KKTIX page for the January 18 performance confirms 阿龔《月光動物園》音樂會, TPAC Globe Playhouse, 2026-01-18 18:30 and links this price seating chart. The page also mentions January 17 in prose, but only January 18 is bound here. Historical price zones remain an image reference, not current inventory or registered geometry."
+      ]
+    },
+    {
+      "id": "tpac-grand-acg-20261213",
+      "venueId": "taipei-pac-grand-theater",
+      "seatLayoutId": "end",
+      "event": {
+        "name": "2026風動室內樂團《無限》ACG電玩動漫音樂會",
+        "dates": [
+          "2026-12-13"
+        ],
+        "url": "https://www.opentix.life/event/1955916913608867841",
+        "bindingNote": "Official OPENTIX event page and public self-selection seatmap confirm 2026風動室內樂團《無限》ACG電玩動漫音樂會, TPAC Grand Theater, 2026-12-13 19:30. Original rendered SVG retained. PNG is a Codex/browser rasterization with computed styles; availability colors are a retrieval-time snapshot, not current inventory, permanent closures or price-zone geometry."
+      },
+      "source": {
+        "path": "data/research-events/regional-concert-maps-2026-11-12/tpac-grand-acg-20261213.png",
+        "url": "https://www.opentix.life/cart/1955916913608867841/2010547622434107393",
+        "retrievedAt": "2026-11-12",
+        "sha256": "8242272263f301d2c891fc5f1672ebf46a52aca39576162c38ca7da5789b4934",
+        "rights": "undecided; private research reference, no public redistribution approval",
+        "derivation": {
+          "actor": "Codex/browser SVG rasterization",
+          "method": "Rendered public svg#canvas with computed styles on a white canvas; no seat positions or colors edited",
+          "original": {
+            "path": "data/research-events/regional-concert-maps-2026-11-12/tpac-grand-acg-20261213.svg",
+            "url": "https://www.opentix.life/cart/1955916913608867841/2010547622434107393",
+            "retrievedAt": "2026-11-12",
+            "sha256": "bbb47347da5683846b5c5575afb44031349da896df1df2e48f23a2d34771aed7",
+            "rights": "undecided; private research reference, no public redistribution approval"
+          }
+        }
+      },
+      "eventSource": {
+        "path": "data/research-events/regional-concert-maps-2026-11-12/tpac-grand-acg-20261213.html",
+        "url": "https://www.opentix.life/event/1955916913608867841",
+        "retrievedAt": "2026-11-12",
+        "sha256": "6873c67cbd615376d873c8b8cac57f252dd8e7d30186e07b867b0289648af2e1",
+        "rights": "undecided; private research reference, no public redistribution approval"
+      },
+      "notes": [
+        "Official OPENTIX event page and public self-selection seatmap confirm 2026風動室內樂團《無限》ACG電玩動漫音樂會, TPAC Grand Theater, 2026-12-13 19:30. Original rendered SVG retained. PNG is a Codex/browser rasterization with computed styles; availability colors are a retrieval-time snapshot, not current inventory, permanent closures or price-zone geometry."
+      ]
+    },
+    {
+      "id": "tttc-nco-20261205",
+      "venueId": "taiwan-traditional-theatre-center-grand-theater",
+      "seatLayoutId": "end",
+      "event": {
+        "name": "臺灣國樂團《情繫NCO》",
+        "dates": [
+          "2026-12-05"
+        ],
+        "url": "https://www.opentix.life/event/2087435617998233601",
+        "bindingNote": "Official OPENTIX event page and public self-selection SVG confirm 臺灣國樂團《情繫NCO》, Taiwan Traditional Theatre Center Grand Theater, 2026-12-05 14:30. PNG is a Codex/browser rasterization of the retained original SVG with computed styles. Colors record availability at retrieval only, not permanent inventory, closures or a registered 3D event layout."
+      },
+      "source": {
+        "path": "data/research-events/regional-concert-maps-2026-11-12/tttc-nco-20261205.png",
+        "url": "https://www.opentix.life/cart/2087435617998233601/2087435619260710913",
+        "retrievedAt": "2026-11-12",
+        "sha256": "1f79fcbf4f7a6ef623957b99598b9c654fbbd854e206541566b64588187bce06",
+        "rights": "undecided; private research reference, no public redistribution approval",
+        "derivation": {
+          "actor": "Codex/browser SVG rasterization",
+          "method": "Rendered public svg#canvas with computed styles on a white canvas; no seat positions or colors edited",
+          "original": {
+            "path": "data/research-events/regional-concert-maps-2026-11-12/tttc-nco-20261205.svg",
+            "url": "https://www.opentix.life/cart/2087435617998233601/2087435619260710913",
+            "retrievedAt": "2026-11-12",
+            "sha256": "9fa629c84919173bb8ca41d5e9729f52f356a1e4761eb3b39d8ae91eec75951d",
+            "rights": "undecided; private research reference, no public redistribution approval"
+          }
+        }
+      },
+      "eventSource": {
+        "path": "data/research-events/regional-concert-maps-2026-11-12/tttc-nco-20261205.html",
+        "url": "https://www.opentix.life/event/2087435617998233601",
+        "retrievedAt": "2026-11-12",
+        "sha256": "7cc5d8c0145260a023072e13d5400a04c1d09473767778d47c2f6b10f8335961",
+        "rights": "undecided; private research reference, no public redistribution approval"
+      },
+      "notes": [
+        "Official OPENTIX event page and public self-selection SVG confirm 臺灣國樂團《情繫NCO》, Taiwan Traditional Theatre Center Grand Theater, 2026-12-05 14:30. PNG is a Codex/browser rasterization of the retained original SVG with computed styles. Colors record availability at retrieval only, not permanent inventory, closures or a registered 3D event layout."
+      ]
+    },
+    {
+      "id": "ntu-jessica-20270220",
+      "venueId": "ntu-sports-center",
+      "seatLayoutId": "end",
+      "event": {
+        "name": "JESSICA CONCERT TOUR Reflections IN TAIPEI",
+        "dates": [
+          "2027-02-20"
+        ],
+        "url": "https://asiamedia-2.kktix.cc/events/vretar01?locale=zh-TW",
+        "bindingNote": "Official organizer KKTIX page, postponement announcement and updated printed seating chart confirm JESSICA Reflections at NTU Sports Center 1F on 2027-02-20 18:00, replacing 2026-10-24. VIP1–3/A1–3/B1–3 and runway are reference-only; no per-seat identities or model registration inferred."
+      },
+      "source": {
+        "path": "data/research-events/regional-concert-maps-2026-11-12/ntu-jessica-20270220.png",
+        "url": "https://assets.kktix.io/organization_resource_files/13332/81409/e6fa42b90ad204e0.png",
+        "retrievedAt": "2026-11-12",
+        "sha256": "b45dba56e0d9e19e73342bc414dac16a48e53d73a0360571f4f7b3171b5c7c32",
+        "rights": "undecided; private research reference, no public redistribution approval"
+      },
+      "eventSource": {
+        "path": "data/research-events/regional-concert-maps-2026-11-12/ntu-jessica-20270220.html",
+        "url": "https://asiamedia-2.kktix.cc/events/vretar01?locale=zh-TW",
+        "retrievedAt": "2026-11-12",
+        "sha256": "acf637ccd5a4e46923050bfbd17be87308e24387912d7c16d1df6b05ca0e2a88",
+        "rights": "undecided; private research reference, no public redistribution approval"
+      },
+      "notes": [
+        "Official organizer KKTIX page, postponement announcement and updated printed seating chart confirm JESSICA Reflections at NTU Sports Center 1F on 2027-02-20 18:00, replacing 2026-10-24. VIP1–3/A1–3/B1–3 and runway are reference-only; no per-seat identities or model registration inferred."
+      ]
+    },
+    {
+      "id": "hkc-gigi-20261127",
+      "venueId": "hong-kong-coliseum",
+      "seatLayoutId": "end",
+      "event": {
+        "name": "LOVE Gigi World Tour 2026",
+        "dates": [
+          "2026-11-27"
+        ],
+        "url": "https://www.urbtix.hk/event-detail/15531",
+        "bindingNote": "Official URBTIX event 15531 explicitly labels this chart for 2026-11-27 20:15 at Hong Kong Coliseum. Retained exactly as provided: partial sectional preview (sections 73–79 and 40–56), not a complete venue overview. Colors/reserved seats are event-specific at retrieval. The end base layout is only a venue viewing reference; the image does not establish a registered stage, actual closures or source-seat availability. Other dates have separate source images and must not be merged."
+      },
+      "source": {
+        "path": "data/research-events/regional-concert-maps-2026-11-12/hkc-gigi-20261127.png",
+        "url": "https://p01-test.wxmovie.com/hk-show-adminweb/test/074ca8ddd7c2ff5015ddd2c5595ab28b9d413.png/1200xo",
+        "retrievedAt": "2026-11-12",
+        "sha256": "14ef900e9e89a7b60c55dc5543c2690f6c6838de2a2e31cca80c1787a3fe9b1f",
+        "rights": "undecided; private research reference, no public redistribution approval"
+      },
+      "eventSource": {
+        "path": "data/research-events/regional-concert-maps-2026-11-12/hkc-gigi-20261127-29.html",
+        "url": "https://www.urbtix.hk/event-detail/15531",
+        "retrievedAt": "2026-11-12",
+        "sha256": "e45624c60c180e7bad51cf1dadac072c77d76da61ceb306a43a75f2468063466",
+        "rights": "undecided; private research reference, no public redistribution approval"
+      },
+      "notes": [
+        "Official URBTIX event 15531 explicitly labels this chart for 2026-11-27 20:15 at Hong Kong Coliseum. Retained exactly as provided: partial sectional preview (sections 73–79 and 40–56), not a complete venue overview. Colors/reserved seats are event-specific at retrieval. The end base layout is only a venue viewing reference; the image does not establish a registered stage, actual closures or source-seat availability. Other dates have separate source images and must not be merged."
+      ]
+    },
+    {
+      "id": "hkc-gigi-20261128",
+      "venueId": "hong-kong-coliseum",
+      "seatLayoutId": "end",
+      "event": {
+        "name": "LOVE Gigi World Tour 2026",
+        "dates": [
+          "2026-11-28"
+        ],
+        "url": "https://www.urbtix.hk/event-detail/15531",
+        "bindingNote": "Official URBTIX event 15531 explicitly labels this chart for 2026-11-28 20:15 at Hong Kong Coliseum. Retained exactly as provided: partial sectional preview (sections 73–79 and 40–56), not a complete venue overview. Colors/reserved seats are event-specific at retrieval. The end base layout is only a venue viewing reference; the image does not establish a registered stage, actual closures or source-seat availability. Other dates have separate source images and must not be merged."
+      },
+      "source": {
+        "path": "data/research-events/regional-concert-maps-2026-11-12/hkc-gigi-20261128.png",
+        "url": "https://p01-test.wxmovie.com/hk-show-adminweb/test/074ca8ddd7c2ff3ba37a35c5595ab28b2e97f.png/1200xo",
+        "retrievedAt": "2026-11-12",
+        "sha256": "3a84cf4a14adb2e307fde0c86d39c2cf2db745f103097c75250e1950b96b0987",
+        "rights": "undecided; private research reference, no public redistribution approval"
+      },
+      "eventSource": {
+        "path": "data/research-events/regional-concert-maps-2026-11-12/hkc-gigi-20261127-29.html",
+        "url": "https://www.urbtix.hk/event-detail/15531",
+        "retrievedAt": "2026-11-12",
+        "sha256": "e45624c60c180e7bad51cf1dadac072c77d76da61ceb306a43a75f2468063466",
+        "rights": "undecided; private research reference, no public redistribution approval"
+      },
+      "notes": [
+        "Official URBTIX event 15531 explicitly labels this chart for 2026-11-28 20:15 at Hong Kong Coliseum. Retained exactly as provided: partial sectional preview (sections 73–79 and 40–56), not a complete venue overview. Colors/reserved seats are event-specific at retrieval. The end base layout is only a venue viewing reference; the image does not establish a registered stage, actual closures or source-seat availability. Other dates have separate source images and must not be merged."
+      ]
+    },
+    {
+      "id": "hkc-gigi-20261129",
+      "venueId": "hong-kong-coliseum",
+      "seatLayoutId": "end",
+      "event": {
+        "name": "LOVE Gigi World Tour 2026",
+        "dates": [
+          "2026-11-29"
+        ],
+        "url": "https://www.urbtix.hk/event-detail/15531",
+        "bindingNote": "Official URBTIX event 15531 explicitly labels this chart for 2026-11-29 20:15 at Hong Kong Coliseum. Retained exactly as provided: partial sectional preview (sections 73–79 and 40–56), not a complete venue overview. Colors/reserved seats are event-specific at retrieval. The end base layout is only a venue viewing reference; the image does not establish a registered stage, actual closures or source-seat availability. Other dates have separate source images and must not be merged."
+      },
+      "source": {
+        "path": "data/research-events/regional-concert-maps-2026-11-12/hkc-gigi-20261129.png",
+        "url": "https://p01-test.wxmovie.com/hk-show-adminweb/test/074ca8ddd7c2ff1789b12dc5595ab28b46ee5.png/1200xo",
+        "retrievedAt": "2026-11-12",
+        "sha256": "6718ce8d4a6f02146a45a30fa36abd2c4628efaf556247c4331517c7750a7115",
+        "rights": "undecided; private research reference, no public redistribution approval"
+      },
+      "eventSource": {
+        "path": "data/research-events/regional-concert-maps-2026-11-12/hkc-gigi-20261127-29.html",
+        "url": "https://www.urbtix.hk/event-detail/15531",
+        "retrievedAt": "2026-11-12",
+        "sha256": "e45624c60c180e7bad51cf1dadac072c77d76da61ceb306a43a75f2468063466",
+        "rights": "undecided; private research reference, no public redistribution approval"
+      },
+      "notes": [
+        "Official URBTIX event 15531 explicitly labels this chart for 2026-11-29 20:15 at Hong Kong Coliseum. Retained exactly as provided: partial sectional preview (sections 73–79 and 40–56), not a complete venue overview. Colors/reserved seats are event-specific at retrieval. The end base layout is only a venue viewing reference; the image does not establish a registered stage, actual closures or source-seat availability. Other dates have separate source images and must not be merged."
+      ]
+    },
+    {
+      "id": "nt-lesmis-20250627",
+      "venueId": "national-theater-taipei",
+      "seatLayoutId": "end",
+      "event": {
+        "name": "LES MISÉRABLES STAGED CONCERT SPECTACULAR",
+        "dates": [
+          "2025-06-27"
+        ],
+        "url": "https://www.opentix.life/event/1864938599362674689",
+        "bindingNote": "Historical OPENTIX seat-selection screenshot reproduced by CP值 (https://cpok.tw/57420), visibly titled LES MISERABLES concert, National Theater, selected performance 2025-06-27 19:30. Secondary archived reproduction, not directly acquired official image bytes. The official OPENTIX event confirms concert identity. Colors, prices and availability are historical snapshot only. The end layout is an unregistered base viewing reference, not evidence of event geometry or current inventory."
+      },
+      "source": {
+        "path": "data/research-events/regional-concert-maps-2026-11-12/nt-lesmis-20250627.png",
+        "url": "https://cpok.tw/wp-content/uploads/2024/12/unnamed-file-29.png",
+        "retrievedAt": "2026-11-12",
+        "sha256": "c9c055b83597c77e545c844b2378afabc7ca01ced7196d52287685c0412f8ac2",
+        "rights": "undecided; private research reference, no public redistribution approval"
+      },
+      "eventSource": {
+        "path": "data/research-events/regional-concert-maps-2026-11-12/nt-lesmis-official.html",
+        "url": "https://www.opentix.life/event/1864938599362674689",
+        "retrievedAt": "2026-11-12",
+        "sha256": "31c4ac90cfea4c384cfe91b55dc558b9ac085ec75ffeb8646e41a5a16ac400ac",
+        "rights": "undecided; private research reference, no public redistribution approval"
+      },
+      "notes": [
+        "Historical OPENTIX seat-selection screenshot reproduced by CP值 (https://cpok.tw/57420), visibly titled LES MISERABLES concert, National Theater, selected performance 2025-06-27 19:30. Secondary archived reproduction, not directly acquired official image bytes. The official OPENTIX event confirms concert identity. Colors, prices and availability are historical snapshot only. The end layout is an unregistered base viewing reference, not evidence of event geometry or current inventory.",
+        "Secondary article retained at data/research-events/regional-concert-maps-2026-11-12/nt-lesmis-archive.html; SHA-256 43e47c0702c653bf2ccbdfad20ccb3ed8544cfd1de4cb658f4b102fe74bb274f"
+      ]
+    },
+    {
+      "id": "viva-riize-20240601",
+      "venueId": "asiaworld-viva",
+      "seatLayoutId": "end",
+      "event": {
+        "name": "2024 RIIZE FAN-CON RIIZING DAY in HONG KONG",
+        "dates": [
+          "2024-06-01"
+        ],
+        "url": "https://www.asiaworld-expo.com/en-us/whats-on/upcoming-events/events/riize-live-in-hong-kong-2024/",
+        "bindingNote": "Official venue event and chart explicitly identify 2024-06-01 19:00 at AsiaWorld-Expo Hall 8 & 10, matching the VIVA end base configuration. The chart includes blocks A/B/C, main stage, sub-stage and panel. Historical event reference only; its seat ranges, prices and event structures are not registered to the retained venue coordinates and do not establish current inventory."
+      },
+      "source": {
+        "path": "data/research-events/regional-concert-maps-2026-11-12/viva-riize-20240601.jpg",
+        "url": "https://www.asiaworld-expo.com/AsiaWorldExpoLocal/media/AWE/assets/images/upcoming-events/2024/RIIZE_Web-Map_horizontal_20240415.jpg?ext=.jpg",
+        "retrievedAt": "2026-11-12",
+        "sha256": "0c28ea20899acf33232ff45acfe564e91bb87a79f948af751e1a7c3232d313ea",
+        "rights": "undecided; private research reference, no public redistribution approval"
+      },
+      "eventSource": {
+        "path": "data/research-events/regional-concert-maps-2026-11-12/viva-riize-20240601.html",
+        "url": "https://www.asiaworld-expo.com/en-us/whats-on/upcoming-events/events/riize-live-in-hong-kong-2024/",
+        "retrievedAt": "2026-11-12",
+        "sha256": "6115c82c676351a09e3e075790c3849a178bb1c4c6d41f261cce84f75741df73",
+        "rights": "undecided; private research reference, no public redistribution approval"
+      },
+      "notes": [
+        "Official venue event and chart explicitly identify 2024-06-01 19:00 at AsiaWorld-Expo Hall 8 & 10, matching the VIVA end base configuration. The chart includes blocks A/B/C, main stage, sub-stage and panel. Historical event reference only; its seat ranges, prices and event structures are not registered to the retained venue coordinates and do not establish current inventory."
+      ]
+    }
+  ]
+}

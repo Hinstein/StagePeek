@@ -29,7 +29,7 @@ export function sourceSeatStore(directory){
     const seat={section:String(r[0]),row:String(r[1]),seat:String(r[2]),position:kai?[-r[3],r[11],-r[4]]:r.slice(3,6),
      yaw:kai?Math.atan2(r[7],r[8]):Math.atan2(-r[6],-r[7]),treadYaw:kai?Math.atan2(r[12],r[13]):Math.atan2(-r[12],-r[13]),
      level:String(kai?r[5]:r[8]),depth:kai?r[6]:r[9],chairWidth:kai?.48:r[10],rowDepth:kai?.8:r[11],
-     layout,source:meta.source,identityStatus:'source-record',positionStatus:'source-coordinate',sourceRecord:{assetSha256:meta.assetSha256,index}};
+     layout,source:meta.source,identityStatus:meta.conversion?.numberingBasis||'source-record',positionStatus:meta.conversion?.positionBasis||'source-coordinate',sourceRecord:{assetSha256:meta.assetSha256,index}};
     if(seat.position.length!==3||seat.position.some(x=>!Number.isFinite(x)))throw new Error(`Invalid source coordinate: ${base.id}/${index}`);
     const section=bySection.get(seat.section)||[];section.push(seat);bySection.set(seat.section,section);
     const ticket=JSON.stringify([seat.section,seat.row,seat.seat]),matches=lookup.get(ticket)||[];matches.push(seat);lookup.set(ticket,matches);return seat;
@@ -58,8 +58,8 @@ export function sourceSeatStore(directory){
      coordinateTransform:{inputFields:kai?[3,11,4]:[3,4,5],axisSigns:kai?[-1,1,-1]:[1,1,1],scale:1,translation:[0,0,0],units:'source-model-unit',metricCalibrated:false}},
     sourceStage:stage,sourceZones:variant.zones||referenceLayout?.zones||[],geometry:{...base.geometry,floor:[2*maxAbs(0)+12,2*maxAbs(2)+12]},
     ...(sectionOverlay?{sectionOverlay:{id:sectionOverlay.id,label:sectionOverlay.label,sourceUrl:sectionOverlay.source.url,sourceSha256:sectionOverlay.source.sha256,registration:sectionOverlay.registration}}:{}),
-    accuracy:{...base.accuracy,sectionLabels:'source-layout-reference',position:'source-coordinate',seatDataStatus:'full-retained-asset',sourceLayout:layout,metricCalibrated:false,completeSeatInventory:false,
-     coverage:`当前来源布局 ${layout}：${seats.length.toLocaleString('en-US')} 条逐座坐标，${sections.length} 个来源分区。坐标已按原始记录导入；尚无独立实测校准，亦不代表本场演出完整库存。`}};
+    accuracy:{...base.accuracy,sectionLabels:'source-layout-reference',position:meta.conversion?.positionBasis||'source-coordinate',seatDataStatus:meta.conversion?.positionBasis?'source-numbering-derived-positions':'full-retained-asset',sourceLayout:layout,metricCalibrated:false,completeSeatInventory:false,
+     coverage:meta.conversion?.positionBasis?`当前来源布局 ${layout}：${seats.length.toLocaleString('en-US')} 个来源编号；位置由参考曲线及层高推算，非原始逐座 XYZ，非本场演出库存。`:`当前来源布局 ${layout}：${seats.length.toLocaleString('en-US')} 条逐座坐标，${sections.length} 个来源分区。坐标已按原始记录导入；尚无独立实测校准，亦不代表本场演出完整库存。`}};
    lookups.set(venue,lookup);cache.set(key,venue);return venue;
   },
   find(venue,section,row,seat){return lookups.get(venue)?.get(JSON.stringify([section,row,seat]))||[];}
