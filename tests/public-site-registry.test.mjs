@@ -3,6 +3,34 @@ import assert from 'node:assert/strict';
 import {createPublicSite} from '../server/public-pages.mjs';
 import {loadVenues} from '../server/venues.mjs';
 
+test('directory merges region aliases and summarizes the default layout without duplicating geography',()=>{
+ const repo=loadVenues(),catalog=repo.catalog();
+ const items=[
+  {...catalog.find(v=>v.id==='taipei-arena'),country:'台湾'},
+  {...catalog.find(v=>v.id==='taipei-dome'),country:'中国台湾'},
+  {...catalog.find(v=>v.id==='kai-tak-stadium'),country:'香港'},
+  {...catalog.find(v=>v.id==='hong-kong-coliseum'),country:'中国香港'}
+ ];
+ const site=createPublicSite({...repo,catalog:()=>items}),html=site.render('/zh-CN/venues/',{access:{venueIds:['taipei-arena']}});
+ assert.equal((html.match(/data-country-group=/g)||[]).length,2);
+ assert.equal((html.match(/data-venue-card /g)||[]).length,4);
+ assert.match(html,/data-country-group="中国台湾"/);
+ assert.match(html,/data-country-group="中国香港"/);
+ assert.match(html,/<span data-country-count>2<\/span>/);
+ assert.match(html,/<span>台北<\/span>/);
+ assert.match(html,/<span>香港<\/span>/);
+ assert.doesNotMatch(html,/<span>中国台湾 · 台北<\/span>|data-region-group=/);
+ assert.ok(html.includes(`默认布局 · ${items[0].sectionCount} 分区`));
+ assert.match(html,/不代表楼层数或座位总数/);
+ assert.match(html,/<details class="directory-explainer"><summary>/);
+ assert.doesNotMatch(html,/<details class="directory-explainer" open/);
+ assert.match(html,/href="\/zh-CN\/explore\?venue=taipei-arena"/);
+ assert.match(html,/href="\/zh-CN\/venues\/taipei-arena"/);
+ const freeCard=html.match(/<article[^>]*data-search="[^"]*taipei-arena[^"]*"[\s\S]*?<\/article>/)?.[0];
+ assert.match(freeCard,/status-pill is-free/);
+ assert.match(site.render('/venues/'),/>Kai Tak Stadium<\/a>/);
+});
+
 test('a reviewed guide is withdrawn when its source version changes or coordinates disappear',()=>{
  const repo=loadVenues(),original=repo.get('taipei-arena');
  const siteFor=venue=>createPublicSite({...repo,get:id=>id==='taipei-arena'?venue:repo.get(id)});

@@ -99,8 +99,11 @@ test('main business files retain baseline bytes and reviewed consumer copy retai
  const sharedViewFiles=new Set(['public/app.mjs']);
  const regionalFiles=boundary.regionalReleaseReview.files;
  assert.deepEqual(Object.keys(regionalFiles).sort(),['public/catalog.mjs','public/sitemap.xml','public/translations/venue-labels.mjs','server/public-pages.mjs'].sort());
+ const directoryFiles=boundary.directoryPresentationReview.files;
+ assert.deepEqual(Object.keys(directoryFiles).sort(),['public/public-pages.css','public/translations/en.mjs','public/translations/ja.mjs','public/translations/ko.mjs','public/translations/zh-CN.mjs','public/translations/zh-TW.mjs','public/venue-directory.mjs','server/public-pages.mjs'].sort());
+ for(const [path,hash] of Object.entries(directoryFiles))assert.equal(createHash('sha256').update(readFileSync(new URL('../'+path,import.meta.url))).digest('hex'),hash,path);
  for(const [path,hash] of Object.entries(boundary.protectedFiles)){
   if(sharedViewFiles.has(path))continue;
-  assert.equal(createHash('sha256').update(readFileSync(new URL('../'+path,import.meta.url))).digest('hex'),adminFiles[path]||journeyFiles[path]||regionalFiles[path]||authFiles[path]||frameFiles[path]||consumerFiles[path]||boundary.mainUpdate.files[path]||hash,path);
+  assert.equal(createHash('sha256').update(readFileSync(new URL('../'+path,import.meta.url))).digest('hex'),directoryFiles[path]||adminFiles[path]||journeyFiles[path]||regionalFiles[path]||authFiles[path]||frameFiles[path]||consumerFiles[path]||boundary.mainUpdate.files[path]||hash,path);
  }
 });
