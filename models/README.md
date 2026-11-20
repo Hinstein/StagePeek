@@ -14,4 +14,4 @@ npm ci
 npm run build
 ```
 
-发布构建从 GLB 原件生成并验证 Meshopt 与 gzip 变体，运行镜像保留 `var/venue-shell-delivery/`。下载沿用场馆访问权限。演出卡片只有座位图参考时，选择场次会显示空场。
+发布构建从 GLB 原件生成并验证 Meshopt 与 gzip 变体，产物保存在运行镜像的 `models/.delivery/`。生产将持久存储挂载到 `/app/var`，构建产物保存在挂载范围之外。下载沿用场馆访问权限。演出卡片只有座位图参考时，选择场次会显示空场。

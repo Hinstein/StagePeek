@@ -3,7 +3,8 @@ import {readFile, stat} from 'node:fs/promises';
 import {join} from 'node:path';
 import {fileURLToPath} from 'node:url';
 
-const deliveryRoot=fileURLToPath(new URL('../var/venue-shell-delivery/',import.meta.url));
+// Coolify mounts shared application storage over /app/var. Keep build assets in the image.
+export const venueShellDeliveryRoot=fileURLToPath(new URL('../models/.delivery/',import.meta.url));
 const sourceHashes=new Map();
 const missing=error=>{
   if(error.code!=='ENOENT'&&error.code!=='ENOTDIR')throw error;
@@ -17,7 +18,7 @@ export async function venueShellVariant(id,file,info,acceptEncoding=''){
     source={signature,hash:createHash('sha256').update(bytes).digest('hex')};
     sourceHashes.set(file,source);
   }
-  const directory=join(deliveryRoot,id,source.hash);
+  const directory=join(venueShellDeliveryRoot,id,source.hash);
   const metadata=await readFile(join(directory,'variants.json'),'utf8').catch(missing);
   if(!metadata)return null;
   const delivery=JSON.parse(metadata);

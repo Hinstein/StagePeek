@@ -9,9 +9,9 @@ import {ALL_EXTENSIONS, EXTMeshoptCompression} from '@gltf-transform/extensions'
 import {MeshoptDecoder, MeshoptEncoder} from 'meshoptimizer';
 import {GLTFLoader} from '../public/vendor/GLTFLoader.js';
 import {Box3} from '../public/vendor/three.module.min.js';
+import {venueShellDeliveryRoot} from '../server/venue-shell-delivery.mjs';
 
 const root=fileURLToPath(new URL('../models/venues/',import.meta.url));
-const delivery=fileURLToPath(new URL('../var/venue-shell-delivery/',import.meta.url));
 const sha=bytes=>createHash('sha256').update(bytes).digest('hex');
 await Promise.all([MeshoptDecoder.ready,MeshoptEncoder.ready]);
 const io=new NodeIO().registerExtensions(ALL_EXTENSIONS)
@@ -74,7 +74,7 @@ for(const id of (await readdir(root,{withFileTypes:true})).filter(entry=>entry.i
   const meshoptGzip=gzipSync(encoded,{level:9});
   const gzip=rawGzip.length<=meshoptGzip.length?rawGzip:meshoptGzip;
   const variants={};
-  const dir=join(delivery,id,sourceHash);
+  const dir=join(venueShellDeliveryRoot,id,sourceHash);
   await mkdir(dir,{recursive:true});
   for(const [encoding,bytes] of [['identity',identity],['gzip',gzip]]){
     if(encoding==='identity'&&bytes===source||encoding==='gzip'&&bytes.length>=identity.length)continue;
