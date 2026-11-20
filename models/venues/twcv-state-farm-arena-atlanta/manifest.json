@@ -1,0 +1,83 @@
+{
+  "marqueeScreenDimensions": {
+    "height": 12.8,
+    "faceWidths": [
+      9.14,
+      9.14,
+      5.49
+    ]
+  },
+  "venueId": "twcv-state-farm-arena-atlanta",
+  "generator": "blender-bpy",
+  "version": 1,
+  "upAxis": "+Y",
+  "units": "metres",
+  "coordinateBasis": "source-model-xyz",
+  "precision": "illustrative",
+  "bounds": {
+    "min": [
+      -72.2801,
+      -0.35,
+      -75.043
+    ],
+    "max": [
+      63,
+      41.7,
+      93
+    ]
+  },
+  "seatBounds": {
+    "min": [
+      -54.585,
+      0.617,
+      -63.224
+    ],
+    "max": [
+      44.68,
+      31.063,
+      63.623
+    ],
+    "size": [
+      99.265,
+      30.446,
+      126.847
+    ],
+    "center": [
+      -4.953,
+      15.84,
+      0.2
+    ]
+  },
+  "sourceSeatsCount": 13700,
+  "sectionCount": 52,
+  "lightingPreset": "arena-dark",
+  "roofNodeNames": [
+    "shell_roof_canopy_fascia",
+    "shell_roof_canopy_mechanical",
+    "shell_roof_canopy_panel_joints",
+    "shell_roof_canopy_standing_seam",
+    "shell_roof_truss_social_side_transfer",
+    "shell_roof_truss_steel_lattice"
+  ],
+  "ribbonNodeNames": [
+    "shell_ribbon_led",
+    "shell_ribbon_led_housing",
+    "shell_ribbon_led_marquee_display_1",
+    "shell_ribbon_led_marquee_display_2",
+    "shell_ribbon_led_marquee_display_3",
+    "shell_ribbon_led_marquee_graphics_static",
+    "shell_ribbon_led_marquee_housing"
+  ],
+  "roofTrussClearanceAboveHighestSourceSeat": 3.882,
+  "meshPrimitives": 37,
+  "assetBytes": 1413764,
+  "retainedSeatAssetSha256": "9759e4eee87790bb3df8730d03d7274a98f3bf5791ba4a17cc059284d449f568",
+  "references": [
+    "https://www.hok.com/projects/view/state-farm-arena/",
+    "https://www.thorntontomasetti.com/project/state-farm-arena-renovation",
+    "https://www.daktronics.com/news/atlanta-hawks-welcoming-fans-to-state-farm-arena-with-new-exterior-daktronics-displays",
+    "https://www.statefarmarena.com/policies",
+    "https://www.statefarmarena.com/arena-info/sponsorship"
+  ],
+  "notes": "Approximate original building geometry anchored to the retained TW Concert View seat coordinates. The open social concourses, transfer truss, structural ATLANTA letters and three-face Gate 4 marquee follow public architectural references. Orientation to real-world north is unverified. Shell dimensions are illustrative. The source coordinate frame is not independently surveyed."
+}

@@ -1,0 +1,64 @@
+{
+  "venueId": "twcv-ziggo-dome-amsterdam",
+  "generator": "blender-bpy",
+  "version": 1,
+  "upAxis": "+Y",
+  "units": "metres",
+  "coordinateBasis": "source-model-xyz",
+  "precision": "illustrative-architecture",
+  "seatBounds": {
+    "min": [
+      -40.824,
+      3.4,
+      -32.38
+    ],
+    "max": [
+      40.822,
+      21.202,
+      53.916
+    ],
+    "size": [
+      81.646,
+      17.802,
+      86.296
+    ],
+    "center": [
+      -0.001,
+      12.301,
+      10.768
+    ]
+  },
+  "bounds": {
+    "min": [
+      -46.695,
+      -0.28,
+      -37.595
+    ],
+    "max": [
+      46.695,
+      31.42,
+      60.595
+    ]
+  },
+  "sourceSeatsCount": 10093,
+  "meshPrimitives": 20,
+  "assetBytes": 1560764,
+  "roofNodeNames": [
+    "shell_roof_canopy_plate",
+    "shell_roof_canopy_seams",
+    "shell_roof_truss_steel"
+  ],
+  "ribbonNodeNames": [
+    "shell_ribbon_led_bowl",
+    "shell_ribbon_led_entry_static",
+    "shell_ribbon_led_facade_ice",
+    "shell_ribbon_led_facade_indigo",
+    "shell_ribbon_led_facade_violet"
+  ],
+  "lightingPreset": "arena-dark",
+  "references": [
+    "https://www.benthemcrouwel.com/projects/ziggo-dome-amsterdam",
+    "https://www.hoogendoornbv.nl/projecten/ziggo-dome/"
+  ],
+  "notes": "Original black-box shell fitted to the retained seating. Acoustic treatment, glazing and the faceted LED arrangement are schematic. No ticket geometry is exported."
+}

@@ -1,0 +1,29 @@
+{
+  "type": "hall",
+  "wallMargin": 3.8,
+  "clearHeight": 15.1,
+  "cornerCut": 0,
+  "entryEdge": 2,
+  "bays": 11,
+  "bands": [
+    0.28,
+    0.54,
+    0.76
+  ],
+  "led": true,
+  "facade": "51545A",
+  "trim": "272A2E",
+  "plinth": "5D5B59",
+  "lining": "303134",
+  "interiorTrim": "575357",
+  "glazing": "726E71",
+  "accent": "BB7770",
+  "floor": "454243",
+  "roof": "6A6769",
+  "steel": "656267",
+  "seat": "4B4B53",
+  "references": [
+    "https://www.zepp.co.jp/hall/newtaipei/"
+  ],
+  "notes": "The floor accommodates seated and standing configurations with retained rear seating. Deep steel bays and dark walls frame the compact room within the complex."
+}

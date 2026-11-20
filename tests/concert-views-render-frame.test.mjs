@@ -11,7 +11,7 @@ for(const path of ['../public/concert-views/viewer.mjs'])test(path+' renders the
   let pending=true,last=0,dirty=false,tween={start:0,from:camera.position.clone(),p:end,fromQ:camera.quaternion.clone(),q:camera.quaternion.clone(),fromFov:43,fov:50,target};
   const document={hidden:false},mode='3d',venue={},reduced=false,cameraMode='overview',controls={target:new THREE.Vector3(),enabled:false},clamp=THREE.MathUtils.clamp;
   const renderer={setScissorTest(){},setViewport(){},setClearColor(){},clear(){},render(){frames.push(camera.position.toArray());},info:{render:{calls:1},memory:{geometries:1}}};
-  const scene={},palette={clear:0},phoneFraming=false,floorView=false,roofGroup={visible:false},labelsForView=()=>{},wake=()=>{};
+  const scene={},palette={clear:0},phoneFraming=false,floorView=false,shell={roofVisible:false},labelsForView=()=>{},wake=()=>{};
   ${source.slice(source.indexOf('  function animate('),source.indexOf('  let down=null;'))}
   animate(1000);
   return {pending,tween,enabled:controls.enabled};

@@ -1,0 +1,29 @@
+{
+  "type": "hall",
+  "wallMargin": 3.5,
+  "clearHeight": 10.6,
+  "cornerCut": 1.15,
+  "entryEdge": 4,
+  "bays": 8,
+  "bands": [
+    0.27,
+    0.58
+  ],
+  "led": true,
+  "facade": "323A46",
+  "trim": "25282C",
+  "plinth": "505058",
+  "lining": "303039",
+  "interiorTrim": "41404D",
+  "glazing": "697991",
+  "accent": "E06F4E",
+  "floor": "4A4852",
+  "roof": "5C606B",
+  "steel": "72717C",
+  "seat": "414150",
+  "references": [
+    "https://www.tmc.taipei/tw/service/brands/548Ecf6fFCC0",
+    "https://www.legacy.com.tw/page/site/"
+  ],
+  "notes": "A broad, unobstructed standing floor with exposed overhead steel and a warm entry strip. The TERA room is shown as a venue cutaway within Taipei Music Center."
+}

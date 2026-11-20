@@ -1,0 +1,49 @@
+{
+  "venueId": "westar-taipei",
+  "generator": "blender-bpy",
+  "template": "hall",
+  "version": 1,
+  "units": "metres",
+  "upAxis": "+Y",
+  "bounds": {
+    "min": [
+      -13.45,
+      -0.36,
+      -12.55
+    ],
+    "max": [
+      13.075,
+      10.7255,
+      26.75
+    ]
+  },
+  "precision": "illustrative",
+  "lightingPreset": "arena-dark",
+  "sourceLayouts": [
+    {
+      "id": "end",
+      "sourceSeats": 0,
+      "renderedSeats": 0,
+      "stageParts": 2,
+      "topSeat": 0
+    }
+  ],
+  "assetBytes": 165468,
+  "meshPrimitives": 16,
+  "roofNodeNames": [
+    "shell_roof_canopy",
+    "shell_roof_canopy_fascia",
+    "shell_roof_canopy_soffit",
+    "shell_roof_truss",
+    "shell_roof_truss_acoustic"
+  ],
+  "ribbonNodeNames": [
+    "shell_ribbon_led_entry_static",
+    "shell_ribbon_led_perimeter"
+  ],
+  "references": [
+    "https://www.tremendia.com/",
+    "https://twconcertview.com/en/3d/westar-taipei"
+  ],
+  "notes": "A long standing floor with dark walls, exposed steel and subdued magenta lighting. The cutaway shows the room within the Ximending development. Architectural surfaces are illustrative. No source ticket, seat or event data is embedded."
+}

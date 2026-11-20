@@ -1,0 +1,68 @@
+{
+  "venueId": "twcv-accor-arena-paris",
+  "generator": "blender-bpy",
+  "version": 1,
+  "upAxis": "+Y",
+  "units": "metres",
+  "coordinateBasis": "source-model-xyz",
+  "precision": "illustrative",
+  "bounds": {
+    "min": [
+      -72.3,
+      -0.23,
+      -83
+    ],
+    "max": [
+      72.3,
+      39.4836,
+      101.86
+    ]
+  },
+  "seatBounds": {
+    "min": [
+      -48.61,
+      1.06,
+      -65.228
+    ],
+    "max": [
+      48.61,
+      20.7,
+      65.228
+    ],
+    "size": [
+      97.22,
+      19.64,
+      130.456
+    ],
+    "center": [
+      0,
+      10.88,
+      0
+    ]
+  },
+  "sourceSeatsCount": 14493,
+  "sectionCount": 44,
+  "lightingPreset": "arena-dark",
+  "roofNodeNames": [
+    "shell_roof_canopy_clerestory",
+    "shell_roof_canopy_edge_band",
+    "shell_roof_canopy_plant_rooms",
+    "shell_roof_canopy_seams",
+    "shell_roof_canopy_zinc",
+    "shell_roof_truss_main_girders",
+    "shell_roof_truss_perimeter_chords"
+  ],
+  "ribbonNodeNames": [
+    "shell_ribbon_led",
+    "shell_ribbon_led_housing"
+  ],
+  "roofTrussClearanceAboveHighestSourceSeat": 7.08,
+  "meshPrimitives": 38,
+  "assetBytes": 2245428,
+  "retainedSeatAssetSha256": "456753a19601924d4ade6e65a651c6f89d32f91d7bb8326d761aaabfd026329c",
+  "references": [
+    "https://cdn.paris.fr/presse/2020/03/23/6a1e88c4dc2ed1cd87978f6d3a1b1973.pdf",
+    "https://www.dvvd.fr/projet/accorhotels-arena/"
+  ],
+  "notes": "Approximate original building geometry anchored to the retained TW Concert View seat coordinates. The planted slopes, lattice roof and the renovated glazed hall follow the architectural references. Gallery surfaces leave the existing aisle treads and headroom clear. Shell dimensions are illustrative. The source coordinate frame is not independently surveyed."
+}

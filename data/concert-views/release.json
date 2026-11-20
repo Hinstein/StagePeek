@@ -39,6 +39,9 @@
     "taipei-pac-grand-theater",
     "taiwan-traditional-theatre-center-grand-theater",
     "westar-taipei",
-    "zepp-new-taipei"
-  ]
+    "zepp-new-taipei",
+    "birds-nest",
+    "hangzhou-olympic-stadium"
+  ],
+  "mainCatalogVenueIds": ["birds-nest", "hangzhou-olympic-stadium"]
 }

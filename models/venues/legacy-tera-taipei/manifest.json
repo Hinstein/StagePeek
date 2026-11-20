@@ -1,0 +1,50 @@
+{
+  "venueId": "legacy-tera-taipei",
+  "generator": "blender-bpy",
+  "template": "hall",
+  "version": 1,
+  "units": "metres",
+  "upAxis": "+Y",
+  "bounds": {
+    "min": [
+      -17.65,
+      -0.36,
+      -14.02
+    ],
+    "max": [
+      17.65,
+      12.6255,
+      31.25
+    ]
+  },
+  "precision": "illustrative",
+  "lightingPreset": "arena-dark",
+  "sourceLayouts": [
+    {
+      "id": "end",
+      "sourceSeats": 0,
+      "renderedSeats": 0,
+      "stageParts": 2,
+      "topSeat": 0
+    }
+  ],
+  "assetBytes": 213060,
+  "meshPrimitives": 16,
+  "roofNodeNames": [
+    "shell_roof_canopy",
+    "shell_roof_canopy_fascia",
+    "shell_roof_canopy_soffit",
+    "shell_roof_truss",
+    "shell_roof_truss_acoustic"
+  ],
+  "ribbonNodeNames": [
+    "shell_ribbon_led_entry_static",
+    "shell_ribbon_led_perimeter"
+  ],
+  "references": [
+    "https://www.tmc.taipei/tw/service/brands/548Ecf6fFCC0",
+    "https://www.legacy.com.tw/page/site/",
+    "https://twconcertview.com/en/3d/legacy-tera-taipei"
+  ],
+  "notes": "A broad, unobstructed standing floor with exposed overhead steel and a warm entry strip. The TERA room is shown as a venue cutaway within Taipei Music Center. Architectural surfaces are illustrative. No source ticket, seat or event data is embedded."
+}

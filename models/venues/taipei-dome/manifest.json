@@ -1,0 +1,68 @@
+{
+  "venueId": "taipei-dome",
+  "generator": "blender-bpy",
+  "version": 1,
+  "coordinateBasis": "stagepeek-section-model",
+  "precision": "illustrative",
+  "units": "metres",
+  "upAxis": "+Y",
+  "bounds": {
+    "min": [
+      -143.6067,
+      -0.18,
+      -136.8417
+    ],
+    "max": [
+      143.6067,
+      79.0589,
+      124.8417
+    ]
+  },
+  "seatBounds": {
+    "min": [
+      -116.98,
+      1.167,
+      -111.599
+    ],
+    "max": [
+      116.98,
+      48.731,
+      93.649
+    ],
+    "size": [
+      233.959,
+      47.564,
+      205.248
+    ],
+    "center": [
+      0,
+      24.949,
+      -8.975
+    ]
+  },
+  "sourceSeatsCount": 0,
+  "sectionCount": 106,
+  "lightingPreset": "stadium-dusk",
+  "roofNodeNames": [
+    "shell_roof_canopy_panel_seams",
+    "shell_roof_canopy_titanium_skin",
+    "shell_roof_truss_diagonal_chords",
+    "shell_roof_truss_diagonal_web",
+    "shell_roof_truss_saddle_ring"
+  ],
+  "ribbonNodeNames": [
+    "shell_ribbon_led_housing",
+    "shell_ribbon_led_scoreboards"
+  ],
+  "illustrativeSeatElements": 9732,
+  "roofTrussClearanceAboveHighestIllustrativeSeat": 5.165,
+  "meshPrimitives": 31,
+  "assetBytes": 4262408,
+  "references": [
+    "https://www.archasia.asia/en/projects/taipeidome",
+    "https://populous.com/article/taipei-dome-opens-as-asias-new-landmark-baseball-arena",
+    "https://www.farglorydome.com.tw/park-detail/taipeidome__1/",
+    "https://www.farglorydome.com.tw/park-detail/map/"
+  ],
+  "notes": "Original interpretation of the titanium skin, diagonal roof trusses, and saddle ring. The field and shell dimensions are approximate. The permanent field surface sits below the runtime stage for concert layouts. Folded seating bands represent modeled sections without assigning ticket identities."
+}

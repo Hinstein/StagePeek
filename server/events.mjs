@@ -88,14 +88,16 @@ function discover(html,base,venueId){const result=[];for(const match of html.mat
 export class EventRepository {
   constructor({file,fetch:fetcher=fetch,clock=Date.now}){this.file=file;this.fetch=fetcher;this.clock=clock;try{this.data=JSON.parse(readFileSync(file,'utf8'));}catch{this.data={schemaVersion:1,venues:{}};}this.running=new Map();}
   list(id){const entry=this.data.venues[id]||{events:[],refreshedAt:null,status:'not-fetched'};
-    const today=new Intl.DateTimeFormat('en-CA',{timeZone:FEEDS[id]?.timezone||'UTC',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date(this.clock()));
-    const events=entry.events.map(x=>({...x,layout:(x.layout?.status==='reference-only'&&x.layout?.mapVerification==='reference')?x.layout:layoutReference(id,x.source)}));
-    // Research-package imports are intentionally browsable after the event
-    // date: they are the historical catalog the operator asked us to retain,
-    // rather than a live venue calendar. Official venue feeds keep the normal
-    // upcoming-only behavior and report past items through archiveCount.
+    const curated=entry.status==='curated';
+    const today=new Intl.DateTimeFormat('en-CA',{timeZone:FEEDS[id]?.timezone||entry.timezone||'UTC',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date(this.clock()));
+    const events=entry.events.map(x=>({
+      ...x,
+      ...(curated?{archived:(x.endLocalDate||x.localDate)<today}:{}),
+      layout:(x.layout?.status==='reference-only'&&x.layout?.mapVerification==='reference')?x.layout:layoutReference(id,x.source)
+    }));
+    // Keep the manually sourced calendar browsable for historical seat-map references.
     const archived=events.filter(x=>(x.endLocalDate||x.localDate)<today);
-    const visible=entry.status==='candidate-import'?events:events.filter(x=>(x.endLocalDate||x.localDate)>=today);
+    const visible=curated||entry.status==='candidate-import'?events:events.filter(x=>(x.endLocalDate||x.localDate)>=today);
     return {...entry,events:visible.sort((a,b)=>a.localDate.localeCompare(b.localDate)),archiveCount:archived.length};}
   persist(){mkdirSync(dirname(this.file),{recursive:true});const temporary=this.file+'.tmp';writeFileSync(temporary,JSON.stringify(this.data,null,2)+'\n');renameSync(temporary,this.file);}
   async refresh(id,urls=FEEDS[id]?.urls){

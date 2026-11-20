@@ -6,6 +6,8 @@ import {openStore} from '../server/store.mjs';
 import {createApplication} from '../server/app.mjs';
 import {loadConcertViews} from '../server/concert-views/index.mjs';
 import {releasedVenues} from '../server/concert-views/release.mjs';
+import {EventRepository} from '../server/events.mjs';
+import {fileURLToPath} from 'node:url';
 import {sourceBowlDisplay} from '../public/concert-views/source-bowl-display.mjs';
 import {validPolygon,inside} from '../server/concert-views/ticket-map-draft.mjs';
 import {baseSeatRecords,sectionRenderHalfAngle} from '../public/concert-views/geometry.mjs';
@@ -14,7 +16,11 @@ const views=loadConcertViews({localDrafts:true}),venues=releasedVenues(views);
 const regional=JSON.parse(readFileSync(new URL('../data/concert-views/regional-drafts.json',import.meta.url))).venueIds;
 
 test('release replaces old inventory with the explicit rebuilt catalog',()=>{
- assert.equal(venues.ids().length,39);assert.equal(venues.catalog().length,39);
+ assert.equal(venues.ids().length,41);assert.equal(venues.catalog().length,41);
+ for(const id of ['birds-nest','hangzhou-olympic-stadium']){
+  assert.equal(venues.get(id).calendarVenue,true);
+  assert.equal(venues.get(id).sourceSeats,undefined);
+ }
  for(const id of regional)assert.ok(venues.get(id),id);
  for(const id of ['sofi','metlife','tottenham',...JSON.parse(readFileSync(new URL('../data/concert-views/archived.json',import.meta.url))).venues.map(v=>v.id)]){
   assert.equal(venues.get(id),null);assert.equal(venues.resolve(id,{}).status,'unknown-venue');
@@ -76,12 +82,13 @@ test('Coliseum structural terraces close sparse ticket gaps without adding ticke
 test('released public scene preserves subscription access and hides unselected data',async t=>{
  const db=openStore(':memory:');
  const config={appUrl:'http://127.0.0.1',allowedOrigins:[],authMode:'local',production:false};
- const app=createApplication({db,config,venues,concertViews:views});
+ const events=new EventRepository({file:fileURLToPath(new URL('../data/events.json',import.meta.url)),clock:()=>Date.parse('2026-11-26T16:30:00Z')});
+ const app=createApplication({db,config,venues,events,concertViews:views});
  app.server.listen(0,'127.0.0.1');await once(app.server,'listening');
  config.appUrl=`http://127.0.0.1:${app.server.address().port}`;
  t.after(async()=>{await new Promise(resolve=>app.server.close(resolve));await db.close();});
  const get=(path,session)=>fetch(config.appUrl+path,{redirect:'manual',headers:session?{Cookie:'ss_session='+session}:{}});
- const catalog=await(await get('/api/venues')).json();assert.equal(catalog.venues.length,39);
+ const catalog=await(await get('/api/venues')).json();assert.equal(catalog.venues.length,41);
  const freeCount=catalog.venues.filter(v=>!v.locked).length;
  assert.match(await(await get('/')).text(),new RegExp(`${freeCount} selected venues are free`));
  assert.deepEqual(catalog.venues.map(v=>v.id).sort(),venues.ids().sort());
@@ -94,6 +101,29 @@ test('released public scene preserves subscription access and hides unselected d
  await db.prepare('INSERT INTO subscriptions(id,user_id,status,period_end,cancel_at_period_end,price_id) VALUES(?,?,?,?,?,?)').run('release-test',user.id,'active',Date.now()+3600000,0,'test');
  const session=await app.auth.createSession(user.id);
  for(const id of venues.ids())assert.equal((await get('/api/venues/'+id,session)).status,200,id);
+ for(const [id,archived,showtimes] of [
+  ['birds-nest',true,['10-30 19:00','10-31 19:00','11-01 19:00','11-06 19:00','11-07 19:00','11-08 19:00']],
+  ['hangzhou-olympic-stadium',false,['11-27 19:30','11-28 19:00','11-29 19:00','12-04 19:30','12-05 19:00','12-06 19:00']]
+ ]){
+  assert.equal((await get('/api/venues/'+id+'/events')).status,403,id);
+  const {events:dates}=await(await get('/api/venues/'+id+'/events',session)).json();
+  assert.deepEqual(dates.map(event=>event.startDate.slice(5,16).replace('T',' ')),showtimes,id);
+  for(const event of dates){
+   assert.equal(event.timezone,'Asia/Shanghai');
+   assert.equal(event.archived,archived);
+   assert.equal(event.layout.status,'reference-only');
+   assert.equal(event.layout.model,null);
+   assert.equal(new URL(event.layout.source).protocol,'https:');
+  }
+  const shell=await get('/models/venues/'+id+'/shell.glb',session);
+  assert.equal(shell.status,200);
+  assert.equal(shell.headers.get('Content-Type'),'model/gltf-binary');
+  assert.equal((await get('/models/venues/'+id+'/shell.glb')).status,204);
+ }
+ const o2=await(await get('/api/venues/twcv-the-o2-arena-london/events',session)).json();
+ assert.equal(o2.researchConcerts.length,2);
+ assert.deepEqual(o2.events,[]);
+ assert.equal((await get('/models/venues/sofi/shell.glb',session)).status,204);
  const hydro=await get('/api/viewer/hydro/ovo-hydro',session);assert.equal(hydro.status,200);
  assert.equal((await hydro.json()).venue.id,'ovo-hydro');
  assert.equal((await get('/api/me',session)).status,200);

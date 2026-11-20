@@ -1,0 +1,29 @@
+{
+  "type": "hall",
+  "wallMargin": 13.1,
+  "clearHeight": 10.5,
+  "cornerCut": 0,
+  "entryEdge": 1,
+  "bays": 14,
+  "bands": [
+    0.26,
+    0.62
+  ],
+  "led": true,
+  "facade": "8398A5",
+  "trim": "394A59",
+  "plinth": "667282",
+  "lining": "565D6A",
+  "interiorTrim": "7B8997",
+  "glazing": "4882A0",
+  "accent": "8CAABD",
+  "floor": "556271",
+  "roof": "A1AEB6",
+  "steel": "7B8993",
+  "seat": "564969",
+  "references": [
+    "https://www.hkcec.com/en/hall-5bc",
+    "https://www.hkcec.com/en/virtual-tour"
+  ],
+  "notes": "The column-free exhibition hall with an approximate 78-by-104-metre display footprint and a published 10.5 m nominal ceiling. The event scaffold governs the exported minimum headroom. The shell preserves the reference concert layout as catalog geometry."
+}

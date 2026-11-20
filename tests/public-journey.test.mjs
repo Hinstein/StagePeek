@@ -5,6 +5,7 @@ import {concertViewsPage} from '../server/concert-views/page.mjs';
 import {renderVenueLocation} from '../public/venue-view/venue-page-presenter.mjs';
 import {setLocaleUrl} from '../public/locales.mjs';
 import {safeReturn} from '../public/auth-contract.mjs';
+import {sectionInputLabel} from '../public/concert-views/seat-numbering.mjs';
 
 const source=readFileSync(new URL('../public/concert-views/app.mjs',import.meta.url),'utf8');
 
@@ -31,7 +32,7 @@ test('clicking a public map section previews a section without borrowing a sampl
  const fields=new Map(['section','row','seat','locate'].map(id=>[id,{}]));
  const state={venue:{sections:[{id:'101',ticketLabels:['101'],tier:1,samples:[{section:'101',row:'A',seat:'78'}]}]}};
  const code=source.slice(source.indexOf('function chooseSection('),source.indexOf('function chooseEstimatedSeat('));
- const choose=new Function('state','$','publicViewer','render','referenceRowLabel',`let resolveVersion=0;${code};return chooseSection;`)(state,id=>fields.get(id),true,()=>{},()=>{});
+ const choose=new Function('state','$','publicViewer','render','referenceRowLabel','sectionInputLabel',`let resolveVersion=0;${code};return chooseSection;`)(state,id=>fields.get(id),true,()=>{},()=>{},sectionInputLabel);
  choose('101',false);
  assert.equal(state.result.status,'unverified');
  assert.equal(fields.get('section').value,'101');

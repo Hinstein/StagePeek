@@ -1,0 +1,51 @@
+{
+  "venueId": "taipei-music-center",
+  "generator": "blender-bpy",
+  "template": "theatre",
+  "version": 1,
+  "units": "metres",
+  "upAxis": "+Y",
+  "bounds": {
+    "min": [
+      -41.307,
+      -0.36,
+      -28.89
+    ],
+    "max": [
+      41.2011,
+      31.66,
+      56.7927
+    ]
+  },
+  "precision": "illustrative",
+  "lightingPreset": "theatre-warm",
+  "sourceLayouts": [
+    {
+      "id": "end",
+      "sourceSeats": 3144,
+      "renderedSeats": 3144,
+      "stageParts": 2,
+      "topSeat": 18.2907
+    }
+  ],
+  "assetBytes": 385504,
+  "meshPrimitives": 17,
+  "roofNodeNames": [
+    "shell_roof_canopy",
+    "shell_roof_canopy_fascia",
+    "shell_roof_canopy_hip_1",
+    "shell_roof_canopy_soffit",
+    "shell_roof_truss",
+    "shell_roof_truss_acoustic"
+  ],
+  "ribbonNodeNames": [
+    "shell_ribbon_led_entry_static",
+    "shell_ribbon_led_perimeter"
+  ],
+  "references": [
+    "https://www.tmc.taipei/tw/hire/Unit-f8KLs",
+    "https://www.reiser-umemoto.com/reiser-umemoto-selected-projects/taipei-music-center",
+    "https://twconcertview.com/en/3d/taipei-music-center"
+  ],
+  "notes": "Chamfered massing and a low faceted roof suggest the Concert Hall's mountain-inspired metal skin. A contrasting warmer acoustic finish sits inside. The flexible ground floor remains clear beneath the two catalog seating levels. Architectural surfaces are illustrative. No source ticket, seat or event data is embedded."
+}

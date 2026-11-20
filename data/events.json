@@ -291,6 +291,332 @@
       ],
       "coverage": "Three official concert detail pages manually verified via web reader. Local automatic fetch remains unavailable; date and local time only; no confirmed stage layout.",
       "acquisition": "manual-official-page-verification"
+    },
+    "birds-nest": {
+      "events": [
+        {
+          "category": "music",
+          "id": "phoenix-legend-birds-nest-2026-10-30",
+          "venueId": "birds-nest",
+          "name": "凤凰传奇「吉祥如意」2026演唱会 · 北京站",
+          "startDate": "2026-10-30T19:00:00+08:00",
+          "endDate": null,
+          "localDate": "2026-10-30",
+          "endLocalDate": "2026-10-30",
+          "datePrecision": "source-timestamp",
+          "timezone": "Asia/Shanghai",
+          "status": "scheduled",
+          "source": "https://www.sina.cn/news/detail/5347005204267896.html",
+          "layout": {
+            "status": "reference-only",
+            "source": "https://bj.bendibao.com/xiuxian/2026927/386491.shtm",
+            "image": "https://imgbdb3.bendibao.com/bjbdb/xiuxian/20269/27/2026927180214_37009.png",
+            "provider": "北京本地宝",
+            "model": null,
+            "eventVerification": "official-page",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          },
+          "verifiedAt": "2026-11-20T15:58:10.084Z"
+        },
+        {
+          "category": "music",
+          "id": "phoenix-legend-birds-nest-2026-10-31",
+          "venueId": "birds-nest",
+          "name": "凤凰传奇「吉祥如意」2026演唱会 · 北京站",
+          "startDate": "2026-10-31T19:00:00+08:00",
+          "endDate": null,
+          "localDate": "2026-10-31",
+          "endLocalDate": "2026-10-31",
+          "datePrecision": "source-timestamp",
+          "timezone": "Asia/Shanghai",
+          "status": "scheduled",
+          "source": "https://www.sina.cn/news/detail/5347005204267896.html",
+          "layout": {
+            "status": "reference-only",
+            "source": "https://bj.bendibao.com/xiuxian/2026927/386491.shtm",
+            "image": "https://imgbdb3.bendibao.com/bjbdb/xiuxian/20269/27/2026927180214_37009.png",
+            "provider": "北京本地宝",
+            "model": null,
+            "eventVerification": "official-page",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          },
+          "verifiedAt": "2026-11-20T15:58:10.084Z"
+        },
+        {
+          "category": "music",
+          "id": "phoenix-legend-birds-nest-2026-11-01",
+          "venueId": "birds-nest",
+          "name": "凤凰传奇「吉祥如意」2026演唱会 · 北京站",
+          "startDate": "2026-11-01T19:00:00+08:00",
+          "endDate": null,
+          "localDate": "2026-11-01",
+          "endLocalDate": "2026-11-01",
+          "datePrecision": "source-timestamp",
+          "timezone": "Asia/Shanghai",
+          "status": "scheduled",
+          "source": "https://www.sina.cn/news/detail/5347005204267896.html",
+          "layout": {
+            "status": "reference-only",
+            "source": "https://bj.bendibao.com/xiuxian/2026927/386491.shtm",
+            "image": "https://imgbdb3.bendibao.com/bjbdb/xiuxian/20269/27/2026927180214_37009.png",
+            "provider": "北京本地宝",
+            "model": null,
+            "eventVerification": "official-page",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          },
+          "verifiedAt": "2026-11-20T15:58:10.084Z"
+        },
+        {
+          "category": "music",
+          "id": "phoenix-legend-birds-nest-2026-11-06",
+          "venueId": "birds-nest",
+          "name": "凤凰传奇「吉祥如意」2026演唱会 · 北京站",
+          "startDate": "2026-11-06T19:00:00+08:00",
+          "endDate": null,
+          "localDate": "2026-11-06",
+          "endLocalDate": "2026-11-06",
+          "datePrecision": "source-timestamp",
+          "timezone": "Asia/Shanghai",
+          "status": "scheduled",
+          "source": "https://www.sina.cn/news/detail/5347005204267896.html",
+          "layout": {
+            "status": "reference-only",
+            "source": "https://bj.bendibao.com/xiuxian/2026927/386491.shtm",
+            "image": "https://imgbdb3.bendibao.com/bjbdb/xiuxian/20269/27/2026927180214_37009.png",
+            "provider": "北京本地宝",
+            "model": null,
+            "eventVerification": "official-page",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          },
+          "verifiedAt": "2026-11-20T15:58:10.084Z"
+        },
+        {
+          "category": "music",
+          "id": "phoenix-legend-birds-nest-2026-11-07",
+          "venueId": "birds-nest",
+          "name": "凤凰传奇「吉祥如意」2026演唱会 · 北京站",
+          "startDate": "2026-11-07T19:00:00+08:00",
+          "endDate": null,
+          "localDate": "2026-11-07",
+          "endLocalDate": "2026-11-07",
+          "datePrecision": "source-timestamp",
+          "timezone": "Asia/Shanghai",
+          "status": "scheduled",
+          "source": "https://www.sina.cn/news/detail/5347005204267896.html",
+          "layout": {
+            "status": "reference-only",
+            "source": "https://bj.bendibao.com/xiuxian/2026927/386491.shtm",
+            "image": "https://imgbdb3.bendibao.com/bjbdb/xiuxian/20269/27/2026927180214_37009.png",
+            "provider": "北京本地宝",
+            "model": null,
+            "eventVerification": "official-page",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          },
+          "verifiedAt": "2026-11-20T15:58:10.084Z"
+        },
+        {
+          "category": "music",
+          "id": "phoenix-legend-birds-nest-2026-11-08",
+          "venueId": "birds-nest",
+          "name": "凤凰传奇「吉祥如意」2026演唱会 · 北京站",
+          "startDate": "2026-11-08T19:00:00+08:00",
+          "endDate": null,
+          "localDate": "2026-11-08",
+          "endLocalDate": "2026-11-08",
+          "datePrecision": "source-timestamp",
+          "timezone": "Asia/Shanghai",
+          "status": "scheduled",
+          "source": "https://www.sina.cn/news/detail/5347005204267896.html",
+          "layout": {
+            "status": "reference-only",
+            "source": "https://bj.bendibao.com/xiuxian/2026927/386491.shtm",
+            "image": "https://imgbdb3.bendibao.com/bjbdb/xiuxian/20269/27/2026927180214_37009.png",
+            "provider": "北京本地宝",
+            "model": null,
+            "eventVerification": "official-page",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          },
+          "verifiedAt": "2026-11-20T15:58:10.084Z"
+        }
+      ],
+      "refreshedAt": "2026-11-20T15:58:10.084Z",
+      "status": "curated",
+      "timezone": "Asia/Shanghai",
+      "sources": [
+        {
+          "url": "https://www.sina.cn/news/detail/5347005204267896.html",
+          "parsedEvents": 6
+        }
+      ]
+    },
+    "hangzhou-olympic-stadium": {
+      "events": [
+        {
+          "category": "music",
+          "id": "silence-wang-hangzhou-olympic-stadium-2026-11-27",
+          "venueId": "hangzhou-olympic-stadium",
+          "name": "汪苏泷「明日世界」2026世界巡回演唱会 · 杭州站",
+          "startDate": "2026-11-27T19:30:00+08:00",
+          "endDate": null,
+          "localDate": "2026-11-27",
+          "endLocalDate": "2026-11-27",
+          "datePrecision": "source-timestamp",
+          "timezone": "Asia/Shanghai",
+          "status": "scheduled",
+          "source": "https://sina.cn/news/detail/5363327896389418.html",
+          "layout": {
+            "status": "reference-only",
+            "source": "https://feng.ifeng.com/c/8xuU8a6caHN",
+            "image": "https://x0.ifengimg.com/res/2026/1B257CDE03C2C5254DA2A595021081F0899B735A_size142_w1080_h1434.jpg",
+            "provider": "大麦（杭州本地宝转载）",
+            "model": null,
+            "eventVerification": "official-page",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          },
+          "verifiedAt": "2026-11-20T15:58:10.084Z"
+        },
+        {
+          "category": "music",
+          "id": "silence-wang-hangzhou-olympic-stadium-2026-11-28",
+          "venueId": "hangzhou-olympic-stadium",
+          "name": "汪苏泷「明日世界」2026世界巡回演唱会 · 杭州站",
+          "startDate": "2026-11-28T19:00:00+08:00",
+          "endDate": null,
+          "localDate": "2026-11-28",
+          "endLocalDate": "2026-11-28",
+          "datePrecision": "source-timestamp",
+          "timezone": "Asia/Shanghai",
+          "status": "scheduled",
+          "source": "https://sina.cn/news/detail/5363327896389418.html",
+          "layout": {
+            "status": "reference-only",
+            "source": "https://feng.ifeng.com/c/8xuU8a6caHN",
+            "image": "https://x0.ifengimg.com/res/2026/1B257CDE03C2C5254DA2A595021081F0899B735A_size142_w1080_h1434.jpg",
+            "provider": "大麦（杭州本地宝转载）",
+            "model": null,
+            "eventVerification": "official-page",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          },
+          "verifiedAt": "2026-11-20T15:58:10.084Z"
+        },
+        {
+          "category": "music",
+          "id": "silence-wang-hangzhou-olympic-stadium-2026-11-29",
+          "venueId": "hangzhou-olympic-stadium",
+          "name": "汪苏泷「明日世界」2026世界巡回演唱会 · 杭州站",
+          "startDate": "2026-11-29T19:00:00+08:00",
+          "endDate": null,
+          "localDate": "2026-11-29",
+          "endLocalDate": "2026-11-29",
+          "datePrecision": "source-timestamp",
+          "timezone": "Asia/Shanghai",
+          "status": "scheduled",
+          "source": "https://sina.cn/news/detail/5363327896389418.html",
+          "layout": {
+            "status": "reference-only",
+            "source": "https://feng.ifeng.com/c/8xuU8a6caHN",
+            "image": "https://x0.ifengimg.com/res/2026/1B257CDE03C2C5254DA2A595021081F0899B735A_size142_w1080_h1434.jpg",
+            "provider": "大麦（杭州本地宝转载）",
+            "model": null,
+            "eventVerification": "official-page",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          },
+          "verifiedAt": "2026-11-20T15:58:10.084Z"
+        },
+        {
+          "category": "music",
+          "id": "silence-wang-hangzhou-olympic-stadium-2026-12-04",
+          "venueId": "hangzhou-olympic-stadium",
+          "name": "汪苏泷「明日世界」2026世界巡回演唱会 · 杭州站",
+          "startDate": "2026-12-04T19:30:00+08:00",
+          "endDate": null,
+          "localDate": "2026-12-04",
+          "endLocalDate": "2026-12-04",
+          "datePrecision": "source-timestamp",
+          "timezone": "Asia/Shanghai",
+          "status": "scheduled",
+          "source": "https://sina.cn/news/detail/5363327896389418.html",
+          "layout": {
+            "status": "reference-only",
+            "source": "https://feng.ifeng.com/c/8xuU8a6caHN",
+            "image": "https://x0.ifengimg.com/res/2026/1B257CDE03C2C5254DA2A595021081F0899B735A_size142_w1080_h1434.jpg",
+            "provider": "大麦（杭州本地宝转载）",
+            "model": null,
+            "eventVerification": "official-page",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          },
+          "verifiedAt": "2026-11-20T15:58:10.084Z"
+        },
+        {
+          "category": "music",
+          "id": "silence-wang-hangzhou-olympic-stadium-2026-12-05",
+          "venueId": "hangzhou-olympic-stadium",
+          "name": "汪苏泷「明日世界」2026世界巡回演唱会 · 杭州站",
+          "startDate": "2026-12-05T19:00:00+08:00",
+          "endDate": null,
+          "localDate": "2026-12-05",
+          "endLocalDate": "2026-12-05",
+          "datePrecision": "source-timestamp",
+          "timezone": "Asia/Shanghai",
+          "status": "scheduled",
+          "source": "https://sina.cn/news/detail/5363327896389418.html",
+          "layout": {
+            "status": "reference-only",
+            "source": "https://feng.ifeng.com/c/8xuU8a6caHN",
+            "image": "https://x0.ifengimg.com/res/2026/1B257CDE03C2C5254DA2A595021081F0899B735A_size142_w1080_h1434.jpg",
+            "provider": "大麦（杭州本地宝转载）",
+            "model": null,
+            "eventVerification": "official-page",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          },
+          "verifiedAt": "2026-11-20T15:58:10.084Z"
+        },
+        {
+          "category": "music",
+          "id": "silence-wang-hangzhou-olympic-stadium-2026-12-06",
+          "venueId": "hangzhou-olympic-stadium",
+          "name": "汪苏泷「明日世界」2026世界巡回演唱会 · 杭州站",
+          "startDate": "2026-12-06T19:00:00+08:00",
+          "endDate": null,
+          "localDate": "2026-12-06",
+          "endLocalDate": "2026-12-06",
+          "datePrecision": "source-timestamp",
+          "timezone": "Asia/Shanghai",
+          "status": "scheduled",
+          "source": "https://sina.cn/news/detail/5363327896389418.html",
+          "layout": {
+            "status": "reference-only",
+            "source": "https://feng.ifeng.com/c/8xuU8a6caHN",
+            "image": "https://x0.ifengimg.com/res/2026/1B257CDE03C2C5254DA2A595021081F0899B735A_size142_w1080_h1434.jpg",
+            "provider": "大麦（杭州本地宝转载）",
+            "model": null,
+            "eventVerification": "official-page",
+            "mapVerification": "reference",
+            "stageVerification": "unverified"
+          },
+          "verifiedAt": "2026-11-20T15:58:10.084Z"
+        }
+      ],
+      "refreshedAt": "2026-11-20T15:58:10.084Z",
+      "status": "curated",
+      "timezone": "Asia/Shanghai",
+      "sources": [
+        {
+          "url": "https://sina.cn/news/detail/5363327896389418.html",
+          "parsedEvents": 6
+        }
+      ]
     }
   },
   "builtAt": "2026-10-25T08:21:46.010Z"

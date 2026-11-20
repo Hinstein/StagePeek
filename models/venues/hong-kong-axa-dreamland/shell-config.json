@@ -1,0 +1,30 @@
+{
+  "type": "hall",
+  "wallMargin": 5.0,
+  "clearHeight": 12.6,
+  "cornerCut": 3.0,
+  "entryEdge": 2,
+  "bays": 10,
+  "bands": [
+    0.15,
+    0.41,
+    0.69
+  ],
+  "led": true,
+  "facade": "ADA79C",
+  "trim": "403B42",
+  "plinth": "7D766E",
+  "lining": "51494D",
+  "interiorTrim": "826C61",
+  "glazing": "58747C",
+  "accent": "B6A69F",
+  "floor": "403D43",
+  "roof": "B3AAA2",
+  "steel": "787179",
+  "seat": "79565B",
+  "references": [
+    "https://www.goparksaisha.hk/en/shop/axa-dreamland/",
+    "https://www.zaha-hadid.com/2025/07/28/go-park-sai-sha-designed-as-the-centre-of-its-community/"
+  ],
+  "notes": "A warm mineral palette and beveled base frame evoke the indoor performance volume within GO PARK Sai Sha. The showcase complex’s surrounding terraces and landscape are outside the modeled hall. Catalog sections and visual row strips use estimated coordinates."
+}

@@ -1,0 +1,71 @@
+{
+  "venueId": "taipei-arena",
+  "generator": "blender-bpy",
+  "version": 1,
+  "coordinateSystem": "source-model-xyz",
+  "upAxis": "+Y",
+  "units": "metres",
+  "lightingPreset": "arena-dark",
+  "precision": "illustrative architecture, retained source seats",
+  "references": [
+    "https://www.archasia.asia/projects/taipeiarena-stadium",
+    "https://www.bes.com.tw/project_gov_detail.php?id=52",
+    "https://www.arena.taipei/cp.aspx?n=DBBAC48E714B28C5&s=BC87E8ACAE8723FC"
+  ],
+  "limitations": [
+    "Asymmetric titanium canopy, glazed curtain wall and curved LED frontage follow published building references.",
+    "The inferred exterior fits the retained end- and center-stage seating envelopes. Dimensions and details are illustrative.",
+    "Every seat and event remains supplied by the existing viewer. No third-party asset is embedded."
+  ],
+  "features": {
+    "curtainWallBays": 112,
+    "sharedGalleryPanels": 322,
+    "rearLandingPanels": 145
+  },
+  "clearance": {
+    "end": {
+      "chairsChecked": 10000,
+      "aisleTreadsChecked": 520,
+      "aisleHeightChecked": 2.1,
+      "stagePartsChecked": 2,
+      "seatIntersections": 0,
+      "aisleIntersections": 0,
+      "stageIntersections": 0,
+      "roofTrussClearance": 3.777
+    },
+    "center": {
+      "chairsChecked": 12877,
+      "aisleTreadsChecked": 702,
+      "aisleHeightChecked": 2.1,
+      "stagePartsChecked": 2,
+      "seatIntersections": 0,
+      "aisleIntersections": 0,
+      "stageIntersections": 0,
+      "roofTrussClearance": 3.777
+    }
+  },
+  "bounds": {
+    "min": [
+      -64.4,
+      -0.46,
+      -86
+    ],
+    "max": [
+      64.4,
+      43.42,
+      90.9
+    ]
+  },
+  "assetBytes": 2411048,
+  "meshPrimitives": 23,
+  "roofNodeNames": [
+    "shell_roof_canopy",
+    "shell_roof_canopy_seams",
+    "shell_roof_truss"
+  ],
+  "ribbonNodeNames": [
+    "shell_ribbon_led",
+    "shell_ribbon_led_facade",
+    "shell_ribbon_led_housing"
+  ]
+}

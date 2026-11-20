@@ -1,0 +1,31 @@
+{
+  "type": "hall",
+  "wallMargin": 4.3,
+  "clearHeight": 11.2,
+  "cornerCut": 1.6,
+  "entryEdge": 6,
+  "bays": 9,
+  "bands": [
+    0.28,
+    0.5,
+    0.71
+  ],
+  "led": true,
+  "facade": "736F69",
+  "trim": "303B40",
+  "plinth": "7F7B74",
+  "lining": "6D6760",
+  "interiorTrim": "8C877B",
+  "glazing": "527A85",
+  "accent": "B7A375",
+  "floor": "AA855C",
+  "roof": "9D9A95",
+  "steel": "808383",
+  "seat": "3D666B",
+  "references": [
+    "https://www.macstadiumhkpa.com/en/%E5%A0%B4%E9%A4%A8%E8%A8%AD%E5%82%99",
+    "https://www.macstadiumhkpa.com/en/%E9%AB%94%E8%82%B2%E6%AF%94%E8%B3%BD",
+    "https://www.ura.org.hk/en/project/redevelopment/macpherson-stadium-project"
+  ],
+  "notes": "A compact indoor arena with a pale maple-color floor, dark guard-band accents and stacked wall courses. The shell depicts the arena volume within the redevelopment. Seating strips are schematic."
+}

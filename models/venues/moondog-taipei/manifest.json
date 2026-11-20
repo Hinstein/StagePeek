@@ -1,0 +1,48 @@
+{
+  "venueId": "moondog-taipei",
+  "generator": "blender-bpy",
+  "template": "hall",
+  "version": 1,
+  "units": "metres",
+  "upAxis": "+Y",
+  "bounds": {
+    "min": [
+      -12.8,
+      -0.36,
+      -11.67
+    ],
+    "max": [
+      12.8,
+      8.3555,
+      19.2
+    ]
+  },
+  "precision": "illustrative",
+  "lightingPreset": "arena-dark",
+  "sourceLayouts": [
+    {
+      "id": "end",
+      "sourceSeats": 0,
+      "renderedSeats": 0,
+      "stageParts": 2,
+      "topSeat": 0
+    }
+  ],
+  "assetBytes": 146052,
+  "meshPrimitives": 15,
+  "roofNodeNames": [
+    "shell_roof_canopy",
+    "shell_roof_canopy_fascia",
+    "shell_roof_canopy_soffit",
+    "shell_roof_truss",
+    "shell_roof_truss_acoustic"
+  ],
+  "ribbonNodeNames": [
+    "shell_ribbon_led_entry_static"
+  ],
+  "references": [
+    "https://moondog10times.com/",
+    "https://twconcertview.com/en/3d/moondog-taipei"
+  ],
+  "notes": "A compact standing room uses plum acoustic surfaces and warm threshold lighting. The isolated shell illustrates the ninth-floor performance room. Architectural surfaces are illustrative. No source ticket, seat or event data is embedded."
+}

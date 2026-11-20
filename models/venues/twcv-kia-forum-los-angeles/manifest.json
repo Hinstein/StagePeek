@@ -1,0 +1,65 @@
+{
+  "venueId": "twcv-kia-forum-los-angeles",
+  "generator": "blender-bpy",
+  "version": 1,
+  "coordinateSystem": "source-model-xyz",
+  "upAxis": "+Y",
+  "unit": "meter",
+  "lightingPreset": "arena-dark",
+  "modelQuality": "illustrative source-aligned architectural shell",
+  "sources": [
+    "https://npgallery.nps.gov/AssetDetail/8c45d952-7e8c-42b5-8bf4-0cf55cb35bab",
+    "https://www.sgh.com/project/the-forum/",
+    "https://www.severud.com/news/power-of-the-ring/",
+    "https://inglewoodpublicart.org/projects/inglewood-forum/"
+  ],
+  "limitations": [
+    "The 80-column arcade, scalloped cornice, raised concrete plinth and sunset red curtain wall follow the landmark descriptions.",
+    "The 40 radial cable groups and central tension ring are illustrative architectural geometry.",
+    "The exterior footprint is adjusted to enclose the retained chair envelope, which has no surveyed building transform. The shell is not a dimensional reproduction of the historic building.",
+    "The original seat locations and concert-stage preset remain in the runtime."
+  ],
+  "features": {
+    "arcadeColumns": 80,
+    "radialCableGroups": 40
+  },
+  "clearance": {
+    "sourceChairsChecked": 13869,
+    "aisleTreadsChecked": 817,
+    "stagePartsChecked": 2,
+    "lowestRoofTrussAboveHighestSeatBase": 3.821,
+    "smallestFacadeMarginAtSeatBase": 5.239,
+    "seatIntersections": 0,
+    "aisleIntersections": 0,
+    "stageIntersections": 0
+  },
+  "bounds": {
+    "min": [
+      -75.354,
+      -0.84,
+      -75.354
+    ],
+    "max": [
+      75.354,
+      27.32,
+      75.354
+    ]
+  },
+  "roofNodeNames": [
+    "shell_roof_canopy_base",
+    "shell_roof_canopy_membrane",
+    "shell_roof_canopy_ring",
+    "shell_roof_canopy_ring_top",
+    "shell_roof_canopy_ring_trim",
+    "shell_roof_truss_lamp_bodies",
+    "shell_roof_truss_lamp_lenses",
+    "shell_roof_truss_radial_cables",
+    "shell_roof_truss_tension_ring"
+  ],
+  "ribbonNodeNames": [
+    "shell_ribbon_led",
+    "shell_ribbon_led_housing"
+  ],
+  "assetBytes": 2068272,
+  "meshPrimitives": 29
+}

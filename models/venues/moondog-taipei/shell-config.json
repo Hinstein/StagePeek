@@ -1,0 +1,26 @@
+{
+  "type": "hall",
+  "wallMargin": 3.05,
+  "clearHeight": 6.3,
+  "cornerCut": 1.2,
+  "entryEdge": 4,
+  "bays": 5,
+  "bands": [
+    0.39
+  ],
+  "facade": "504052",
+  "trim": "312D3B",
+  "plinth": "514D53",
+  "lining": "443442",
+  "interiorTrim": "655067",
+  "glazing": "927287",
+  "accent": "EAC7A1",
+  "floor": "51424A",
+  "roof": "69576E",
+  "steel": "665669",
+  "seat": "514051",
+  "references": [
+    "https://moondog10times.com/"
+  ],
+  "notes": "A compact standing room uses plum acoustic surfaces and warm threshold lighting. The isolated shell illustrates the ninth-floor performance room."
+}

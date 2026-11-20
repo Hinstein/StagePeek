@@ -1,0 +1,49 @@
+{
+  "venueId": "sub-live-taipei",
+  "generator": "blender-bpy",
+  "template": "hall",
+  "version": 1,
+  "units": "metres",
+  "upAxis": "+Y",
+  "bounds": {
+    "min": [
+      -13.6,
+      -0.36,
+      -11.45
+    ],
+    "max": [
+      14.25,
+      14.2255,
+      24.6
+    ]
+  },
+  "precision": "illustrative",
+  "lightingPreset": "arena-dark",
+  "sourceLayouts": [
+    {
+      "id": "end",
+      "sourceSeats": 0,
+      "renderedSeats": 0,
+      "stageParts": 2,
+      "topSeat": 0
+    }
+  ],
+  "assetBytes": 237528,
+  "meshPrimitives": 18,
+  "roofNodeNames": [
+    "shell_roof_canopy",
+    "shell_roof_canopy_fascia",
+    "shell_roof_canopy_soffit",
+    "shell_roof_truss",
+    "shell_roof_truss_acoustic"
+  ],
+  "ribbonNodeNames": [
+    "shell_ribbon_led_entry_static",
+    "shell_ribbon_led_perimeter"
+  ],
+  "references": [
+    "https://pmdb.taipei/venues?siteid=TP",
+    "https://twconcertview.com/en/3d/sub-live-taipei"
+  ],
+  "notes": "The documented multi-level live room has exposed overhead steel and wall-supported gallery decks. Gallery lips and guardrails follow the retained standing polygons. The architectural details are indicative. Architectural surfaces are illustrative. No source ticket, seat or event data is embedded."
+}

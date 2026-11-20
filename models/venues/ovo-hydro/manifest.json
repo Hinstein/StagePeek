@@ -1,0 +1,72 @@
+{
+  "venueId": "ovo-hydro",
+  "generator": "blender-bpy",
+  "version": 1,
+  "upAxis": "+Y",
+  "units": "meters",
+  "coordinateBasis": "hydro-local-v0",
+  "precision": "illustrative",
+  "sourceSeatsCount": 0,
+  "metricCalibrated": false,
+  "completeSeatInventory": false,
+  "seatBounds": {
+    "min": [
+      -71.049,
+      0.35,
+      -71.316
+    ],
+    "max": [
+      71.049,
+      18.82,
+      27.779
+    ],
+    "size": [
+      142.098,
+      18.47,
+      99.095
+    ],
+    "center": [
+      0,
+      9.585,
+      -21.768
+    ]
+  },
+  "lightingPreset": "arena-warm-night",
+  "referenceUrls": [
+    "https://www.ovohydro.com/Home/About",
+    "https://www.arup.com/en-us/projects/sse-hydro-glasgow/",
+    "https://www.archilovers.com/projects/100965/the-sse-hydro.html",
+    "https://www.novummembranes.com/novum_projects/ovo-hydro/"
+  ],
+  "notes": [
+    "Original interpretation of the inclined aluminium saucer, diagonal steel lattice and glowing, dot-printed ETFE cushions.",
+    "Shell proportions fit the uncalibrated existing Hydro preview frame. The model span and heights are illustrative.",
+    "The Hydro viewer retains its existing chair renderer and its separate event overlays. The GLB contains no seating inventory, ticket IDs or event objects."
+  ],
+  "bounds": {
+    "min": [
+      -92,
+      -0.68,
+      -89
+    ],
+    "max": [
+      92,
+      47.445,
+      89
+    ]
+  },
+  "assetBytes": 2182324,
+  "meshPrimitives": 21,
+  "roofNodeNames": [
+    "shell_roof_canopy_aluminium",
+    "shell_roof_truss_central_lighting_ring",
+    "shell_roof_truss_diagonal_lattice",
+    "shell_roof_truss_eave_beam",
+    "shell_roof_truss_rim_steel"
+  ],
+  "ribbonNodeNames": [
+    "shell_ribbon_led_amber_entry",
+    "shell_ribbon_led_concourse"
+  ],
+  "roofTrussClearanceAboveIllustrativeSeating": 6.18
+}

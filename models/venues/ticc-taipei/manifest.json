@@ -1,0 +1,48 @@
+{
+  "venueId": "ticc-taipei",
+  "generator": "blender-bpy",
+  "template": "theatre",
+  "version": 1,
+  "units": "metres",
+  "upAxis": "+Y",
+  "bounds": {
+    "min": [
+      -25.393,
+      -0.385,
+      -17.92
+    ],
+    "max": [
+      25.393,
+      34.5005,
+      65.12
+    ]
+  },
+  "precision": "illustrative",
+  "lightingPreset": "theatre-warm",
+  "sourceLayouts": [
+    {
+      "id": "end",
+      "sourceSeats": 3143,
+      "renderedSeats": 3143,
+      "stageParts": 2,
+      "topSeat": 26.52
+    }
+  ],
+  "assetBytes": 446924,
+  "meshPrimitives": 15,
+  "roofNodeNames": [
+    "shell_roof_canopy",
+    "shell_roof_canopy_fascia",
+    "shell_roof_canopy_soffit",
+    "shell_roof_truss",
+    "shell_roof_truss_acoustic"
+  ],
+  "ribbonNodeNames": [
+    "shell_ribbon_led_entry_static"
+  ],
+  "references": [
+    "https://www.ticc.com.tw/wSite/sp?BaseDSD=7&CtUnit=99&ctNode=322&mp=2&roomId=PH&xdUrl=%2FwSite%2Fap%2Fcp_VenueSearch.jsp",
+    "https://twconcertview.com/en/3d/ticc-taipei"
+  ],
+  "notes": "Plenary Hall uses a tall slab profile inspired by the convention centre's stone frontage, with several acoustic wall bands for the multi-level auditorium. The projected presentation environment remains supplied by the runtime scene. Architectural surfaces are illustrative. No source ticket, seat or event data is embedded."
+}

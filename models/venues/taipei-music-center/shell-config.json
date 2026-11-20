@@ -1,0 +1,33 @@
+{
+  "type": "theatre",
+  "wallMargin": 5.7,
+  "clearHeight": 24.5,
+  "cornerCut": 4.6,
+  "entryEdge": 2,
+  "bays": 9,
+  "bands": [
+    0.35,
+    0.65
+  ],
+  "slatWidth": 0.12,
+  "led": true,
+  "roofRises": [
+    5.2
+  ],
+  "facade": "404E4D",
+  "trim": "273239",
+  "plinth": "7B817E",
+  "lining": "41474A",
+  "interiorTrim": "B99868",
+  "glazing": "5A7C80",
+  "accent": "E6BD79",
+  "floor": "4B4B47",
+  "roof": "56605D",
+  "steel": "706D62",
+  "seat": "4C535F",
+  "references": [
+    "https://www.tmc.taipei/tw/hire/Unit-f8KLs",
+    "https://www.reiser-umemoto.com/reiser-umemoto-selected-projects/taipei-music-center"
+  ],
+  "notes": "Chamfered massing and a low faceted roof suggest the Concert Hall's mountain-inspired metal skin. A contrasting warmer acoustic finish sits inside. The flexible ground floor remains clear beneath the two catalog seating levels."
+}

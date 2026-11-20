@@ -1,0 +1,66 @@
+{
+  "venueId": "twcv-ubs-arena-new-york",
+  "generator": "blender-bpy",
+  "version": 1,
+  "coordinateSystem": "source-model-xyz",
+  "upAxis": "+Y",
+  "units": "metres",
+  "lightingPreset": "arena-dark",
+  "precision": "illustrative architecture, retained source seats",
+  "references": [
+    "https://jrdv.com/ubs-belmont-arena-and-master-plan/",
+    "https://populous.com/article/populous-serves-as-architect-of-record-for-new-ubs-arena-at-belmont-park",
+    "https://populous.com/article/live-from-populous-designing-for-music"
+  ],
+  "limitations": [
+    "The brick exterior and arched Great Hall glazing are based on architect references. The approach is represented at the positive-Z end of the retained frame.",
+    "The two LED ribbon heights, concourse, suites and acoustic baffles are illustrative. The plan and placement are aligned to the retained geometry rather than measured from a building survey.",
+    "All original seats, ticket identities and event stages come from the viewer. No third-party asset or design media is embedded."
+  ],
+  "features": {
+    "supports": 1066,
+    "balustrades": 501,
+    "suiteBays": 126,
+    "upperLandings": 126
+  },
+  "clearance": {
+    "ubs": {
+      "chairsChecked": 14429,
+      "aisleTreadsChecked": 541,
+      "aisleHeightChecked": 2.1,
+      "stagePartsChecked": 2,
+      "seatIntersections": 0,
+      "aisleIntersections": 0,
+      "stageIntersections": 0,
+      "roofTrussClearance": 4.692
+    }
+  },
+  "assetBytes": 2685596,
+  "meshPrimitives": 36,
+  "bounds": {
+    "min": [
+      -70.7,
+      -0.48,
+      -81.7
+    ],
+    "max": [
+      70.7,
+      35.72,
+      86.53
+    ]
+  },
+  "roofNodeNames": [
+    "shell_roof_canopy",
+    "shell_roof_canopy_baffles",
+    "shell_roof_canopy_seams",
+    "shell_roof_canopy_top",
+    "shell_roof_canopy_ventilation",
+    "shell_roof_canopy_ventilation_covers",
+    "shell_roof_truss"
+  ],
+  "ribbonNodeNames": [
+    "shell_ribbon_led_housing",
+    "shell_ribbon_led_lower",
+    "shell_ribbon_led_upper"
+  ]
+}

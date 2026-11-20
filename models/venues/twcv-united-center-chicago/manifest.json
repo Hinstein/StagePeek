@@ -1,0 +1,60 @@
+{
+  "venueId": "twcv-united-center-chicago",
+  "generator": "blender-bpy",
+  "version": 1,
+  "upAxis": "+Y",
+  "units": "metres",
+  "coordinateBasis": "source-model-xyz",
+  "precision": "illustrative-architecture",
+  "seatBounds": {
+    "min": [
+      -52.534,
+      0.31,
+      -72.149
+    ],
+    "max": [
+      53.785,
+      26.09,
+      71.493
+    ],
+    "size": [
+      106.319,
+      25.78,
+      143.642
+    ],
+    "center": [
+      0.625,
+      13.2,
+      -0.328
+    ]
+  },
+  "sourceSeatsCount": 17335,
+  "bounds": {
+    "min": [
+      -58.7829,
+      -0.29,
+      -79.1871
+    ],
+    "max": [
+      72.3245,
+      39.8114,
+      78.5312
+    ]
+  },
+  "meshPrimitives": 21,
+  "assetBytes": 1388788,
+  "roofNodeNames": [
+    "shell_roof_canopy_flashing",
+    "shell_roof_canopy_standing_seam",
+    "shell_roof_truss_long_span"
+  ],
+  "ribbonNodeNames": [
+    "shell_ribbon_led_bowl"
+  ],
+  "lightingPreset": "arena-dark",
+  "references": [
+    "https://www.thorntontomasetti.com/project/united-center",
+    "https://www.unitedcenter.com/venue/blueprint/"
+  ],
+  "notes": "Original masonry, east atrium and long-span steel truss shell fitted to the retained seating. Three schematic suite lines and event deck follow the StagePeek concert layout. The shell contains no ticket geometry."
+}

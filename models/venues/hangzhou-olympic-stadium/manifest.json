@@ -1,0 +1,50 @@
+{
+  "venueId": "hangzhou-olympic-stadium",
+  "generator": "blender-bpy",
+  "version": 1,
+  "units": "metres",
+  "upAxis": "+Y",
+  "coordinateBasis": "estimated-parametric",
+  "precision": "illustrative",
+  "sourceSeatsCount": 0,
+  "seating": {
+    "precision": "illustrative",
+    "layer": "main-viewer-parametric"
+  },
+  "assetBytes": 736152,
+  "meshPrimitives": 18,
+  "bounds": {
+    "min": [
+      -132.996,
+      -0.58,
+      -165.128
+    ],
+    "max": [
+      132.996,
+      59.088,
+      165.128
+    ]
+  },
+  "roofNodeNames": [
+    "shell_roof_canopy",
+    "shell_roof_canopy_eaves",
+    "shell_roof_canopy_fascia",
+    "shell_roof_truss"
+  ],
+  "ribbonNodeNames": [
+    "shell_ribbon_led_perimeter"
+  ],
+  "references": [
+    "https://www.hangzhou2022.cn/dgyy/ed/202203/t20220329_46060.shtml"
+  ],
+  "features": [
+    "oval",
+    "open-ring",
+    "turf"
+  ],
+  "notes": "Illustrative architecture derived from retained StagePeek layout geometry.",
+  "template": "oval",
+  "roofStyle": "open-ring",
+  "palette": "slate",
+  "catalogShape": "oval"
+}

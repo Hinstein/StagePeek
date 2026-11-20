@@ -1,0 +1,51 @@
+{
+  "venueId": "national-theater-taipei",
+  "generator": "blender-bpy",
+  "template": "theatre",
+  "version": 1,
+  "units": "metres",
+  "upAxis": "+Y",
+  "bounds": {
+    "min": [
+      -21.8467,
+      -0.385,
+      -28.32
+    ],
+    "max": [
+      21.9946,
+      34.135,
+      29.2286
+    ]
+  },
+  "precision": "illustrative",
+  "lightingPreset": "theatre-warm",
+  "sourceLayouts": [
+    {
+      "id": "end",
+      "sourceSeats": 1498,
+      "renderedSeats": 1498,
+      "stageParts": 2,
+      "topSeat": 14.53
+    }
+  ],
+  "assetBytes": 387072,
+  "meshPrimitives": 17,
+  "roofNodeNames": [
+    "shell_roof_canopy",
+    "shell_roof_canopy_fascia",
+    "shell_roof_canopy_hip_1",
+    "shell_roof_canopy_hip_2",
+    "shell_roof_canopy_soffit",
+    "shell_roof_truss",
+    "shell_roof_truss_acoustic"
+  ],
+  "ribbonNodeNames": [
+    "shell_ribbon_led_entry_static"
+  ],
+  "references": [
+    "https://npac-ntch.org/about/introduction/design",
+    "https://event.npac-ntch.org/25fly/a-exhibtion/portamento/demos/a-exhibtion_03.html",
+    "https://twconcertview.com/en/3d/national-theater-taipei"
+  ],
+  "notes": "Red wall framing, gold hipped eaves in two tiers and warm acoustic surfaces echo the building's traditional palace form. The catalog's stalls, balcony and side-box rows govern the seating, independent of the illustrative roof. Architectural surfaces are illustrative. No source ticket, seat or event data is embedded."
+}

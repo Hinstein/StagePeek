@@ -1,0 +1,49 @@
+{
+  "venueId": "taipei-city-stage",
+  "generator": "blender-bpy",
+  "template": "theatre",
+  "version": 1,
+  "units": "metres",
+  "upAxis": "+Y",
+  "bounds": {
+    "min": [
+      -15.8119,
+      -0.695,
+      -18.95
+    ],
+    "max": [
+      15.8276,
+      21.6905,
+      35.0284
+    ]
+  },
+  "precision": "illustrative",
+  "lightingPreset": "theatre-warm",
+  "sourceLayouts": [
+    {
+      "id": "end",
+      "sourceSeats": 995,
+      "renderedSeats": 995,
+      "stageParts": 2,
+      "topSeat": 14.4
+    }
+  ],
+  "assetBytes": 231588,
+  "meshPrimitives": 15,
+  "roofNodeNames": [
+    "shell_roof_canopy",
+    "shell_roof_canopy_fascia",
+    "shell_roof_canopy_soffit",
+    "shell_roof_truss",
+    "shell_roof_truss_acoustic"
+  ],
+  "ribbonNodeNames": [
+    "shell_ribbon_led_entry_static"
+  ],
+  "references": [
+    "https://english.tapo.gov.taipei/cp.aspx?n=5F1D49C0F736D515&s=6F624ABE0214FBBD",
+    "https://www.tapo.gov.taipei/cp.aspx?n=85B4C4B75A95B778",
+    "https://twconcertview.com/en/3d/taipei-city-stage"
+  ],
+  "notes": "A lighter civic-theatre frontage and glazed access bays recall the renewed Metropolitan Hall plaza. Two restrained auditorium bands frame the upper levels. Orchestra-pit and lower-house positions are left to the retained model. Architectural surfaces are illustrative. No source ticket, seat or event data is embedded."
+}

@@ -1,0 +1,23 @@
+{
+  "type": "hall",
+  "wallMargin": 4.1,
+  "clearHeight": 14,
+  "cornerCut": 0,
+  "entryEdge": 1,
+  "bays": 12,
+  "bands": [0.24, 0.67],
+  "led": true,
+  "facade": "657685",
+  "trim": "263948",
+  "plinth": "525F67",
+  "lining": "3A4651",
+  "interiorTrim": "536775",
+  "glazing": "4F7E95",
+  "accent": "65A2BC",
+  "floor": "465060",
+  "roof": "82929C",
+  "steel": "798894",
+  "seat": "536489",
+  "references": ["https://www.asiaworld-expo.com/en-us/planning/venues/hall-6-8-n-10/"],
+  "notes": "An open, flat exhibition hall with repeat steel bays and a glazed access frontage. Raked demonstration rows are indicative where the catalog has no retained seat positions."
+}

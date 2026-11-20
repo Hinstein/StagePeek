@@ -1,7 +1,7 @@
 /* Every venue entry uses this layout; adapters only draw scene content. */
 .venue-view-shell{position:relative;display:flex;flex-direction:column;isolation:isolate;overflow:hidden;height:auto;min-height:0;max-height:none;background:var(--venue-background);color:var(--venue-label);border-radius:12px}
 .venue-view-shell .venue-view-bar{position:relative;display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;padding:8px 10px;background:var(--venue-background);z-index:3;flex-shrink:0}
-.venue-view-modes,.venue-view-actions,.venue-view-zooms,.venue-view-map-tools{display:flex;align-items:center;gap:5px;flex-wrap:wrap}
+.venue-view-modes,.venue-view-actions,.venue-view-zooms,.venue-view-map-tools,.venue-view-orbit-zoom{display:flex;align-items:center;gap:5px;flex-wrap:wrap}
 .venue-view-modes{flex:none}.venue-view-fullscreen{margin-left:auto;flex:none}
 .venue-view-shell button{font-size:11px;min-height:34px;padding:6px 9px;border-radius:10px;background:#111b23;color:var(--venue-label);border:1px solid #34454e;white-space:nowrap}
 .venue-view-shell button[aria-pressed=true],.venue-view-shell button[aria-pressed=true]:hover:not(:disabled){background:var(--venue-selected);border-color:var(--venue-selected);color:#101a0b}
@@ -40,14 +40,17 @@
 .venue-view-zooms input:focus-visible{outline:2px solid var(--venue-selected);outline-offset:3px;border-radius:6px}
 
 /* Two compact shared rows: mode/zoom, then levels/layers. Detailed state is opt-in. */
-.venue-view-shell .venue-view-actions{flex:1;min-width:0;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:thin}
+.venue-view-shell .venue-view-actions{flex:1;min-width:0}
+.venue-view-more{position:relative}
+.venue-view-more summary{cursor:pointer;white-space:nowrap;color:var(--venue-label);font-size:11px;padding:7px 6px}
+.venue-view-more-actions{position:absolute;top:100%;right:0;z-index:4;display:grid;gap:5px;min-width:120px;padding:6px;background:var(--venue-background);border:1px solid #34454e;border-radius:10px;box-shadow:0 6px 20px #0008}
 .venue-view-shell .venue-view-slots .map-layer-status{display:block;margin:6px 0 0;max-width:420px;line-height:1.5}
 .venue-view-shell .venue-view-layer-info{position:relative;font-size:10px;color:#b9abc9}
 .venue-view-layer-info>summary{cursor:pointer;padding:7px 4px;white-space:nowrap}
 .venue-view-layer-info[open]>.map-layer-status{position:absolute;top:100%;right:0;z-index:5;width:260px;box-sizing:border-box;padding:10px;border:1px solid #514564;border-radius:8px;background:#171523;box-shadow:0 6px 20px #0006}
 @media(max-width:800px){
  .venue-view-shell .venue-view-bar{gap:6px;padding:8px}
- .venue-view-shell .venue-view-actions{order:4;flex:1 0 100%;flex-wrap:nowrap;overflow-x:auto;padding-bottom:2px;scrollbar-width:thin}
+ .venue-view-shell .venue-view-actions{order:4;flex:1 0 100%}
  .venue-view-shell .venue-view-slots{order:5;max-height:none;overflow:visible}
  .venue-view-shell .venue-view-slots .map-layers{flex-wrap:wrap}
  .venue-view-shell button{min-height:34px;padding:6px 8px}

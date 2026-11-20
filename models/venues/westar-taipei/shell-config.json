@@ -1,0 +1,28 @@
+{
+  "type": "hall",
+  "wallMargin": 3.0,
+  "clearHeight": 8.7,
+  "cornerCut": 0,
+  "entryEdge": 2,
+  "bays": 6,
+  "bands": [
+    0.33,
+    0.72
+  ],
+  "led": true,
+  "facade": "4C4859",
+  "trim": "292B34",
+  "plinth": "5A555B",
+  "lining": "34313B",
+  "interiorTrim": "53465D",
+  "glazing": "6A6E90",
+  "accent": "C475A8",
+  "floor": "47434D",
+  "roof": "656273",
+  "steel": "716C83",
+  "seat": "4B4555",
+  "references": [
+    "https://www.tremendia.com/"
+  ],
+  "notes": "A long standing floor with dark walls, exposed steel and subdued magenta lighting. The cutaway shows the room within the Ximending development."
+}

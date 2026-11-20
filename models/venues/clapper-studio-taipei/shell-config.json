@@ -1,0 +1,28 @@
+{
+  "type": "hall",
+  "wallMargin": 3.1,
+  "clearHeight": 7.3,
+  "cornerCut": 0,
+  "entryEdge": 2,
+  "bays": 7,
+  "bands": [
+    0.34,
+    0.71
+  ],
+  "led": true,
+  "facade": "475665",
+  "trim": "2F343C",
+  "plinth": "555E68",
+  "lining": "313946",
+  "interiorTrim": "43576D",
+  "glazing": "617E95",
+  "accent": "5DBDD8",
+  "floor": "41444C",
+  "roof": "5E6979",
+  "steel": "5D6A7D",
+  "seat": "484B58",
+  "references": [
+    "https://www.syntrend.com.tw/space/venues.html"
+  ],
+  "notes": "Clapper Studio is a flexible hall inside Syntrend. A compact dark room and cool service framing surround the sourced configuration. The cutaway exterior shows the hall volume inside the complex."
+}

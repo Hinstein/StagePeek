@@ -1,0 +1,65 @@
+{
+  "venueId": "hong-kong-macpherson-stadium",
+  "generator": "blender-bpy",
+  "template": "hall",
+  "version": 1,
+  "units": "metres",
+  "upAxis": "+Y",
+  "bounds": {
+    "min": [
+      -23.8,
+      -0.36,
+      -32.05
+    ],
+    "max": [
+      23.8,
+      14.916,
+      32.05
+    ]
+  },
+  "precision": "illustrative",
+  "lightingPreset": "arena-dark",
+  "sourceLayouts": [
+    {
+      "id": "end",
+      "sourceSeats": 0,
+      "renderedSeats": 2328,
+      "stageParts": 4,
+      "topSeat": 4.8125
+    },
+    {
+      "id": "runway",
+      "sourceSeats": 0,
+      "renderedSeats": 2328,
+      "stageParts": 6,
+      "topSeat": 4.8125
+    },
+    {
+      "id": "center",
+      "sourceSeats": 0,
+      "renderedSeats": 2328,
+      "stageParts": 2,
+      "topSeat": 4.8125
+    }
+  ],
+  "assetBytes": 314248,
+  "meshPrimitives": 17,
+  "roofNodeNames": [
+    "shell_roof_canopy",
+    "shell_roof_canopy_fascia",
+    "shell_roof_canopy_soffit",
+    "shell_roof_truss",
+    "shell_roof_truss_acoustic"
+  ],
+  "ribbonNodeNames": [
+    "shell_ribbon_led_entry_static",
+    "shell_ribbon_led_perimeter"
+  ],
+  "references": [
+    "https://www.macstadiumhkpa.com/en/%E5%A0%B4%E9%A4%A8%E8%A8%AD%E5%82%99",
+    "https://www.macstadiumhkpa.com/en/%E9%AB%94%E8%82%B2%E6%AF%94%E8%B3%BD",
+    "https://www.ura.org.hk/en/project/redevelopment/macpherson-stadium-project",
+    "https://www.xiaohongshu.com/explore/6aafb4340000000014010537"
+  ],
+  "notes": "A compact indoor arena with a pale maple-color floor, dark guard-band accents and stacked wall courses. The shell depicts the arena volume within the redevelopment. Seating strips are schematic. Architectural surfaces are illustrative. No source ticket, seat or event data is embedded."
+}

@@ -18,6 +18,9 @@ export function sourceBowlDisplay(venue){
  for(const row of groups.values()){
   row.sort((a,b)=>a.seat.localeCompare(b.seat,undefined,{numeric:true}));
   for(const [i,seat]of row.entries()){
+   // Theatre imports already use the chair's forward axis. Their odd/even
+   // numbering is not a reliable row tangent; retain the source heading.
+   if(venue.geometry.shape==='rectangle'){headings.set(seat,seat.yaw);continue;}
    const connected=other=>other&&Math.hypot(other.position[0]-seat.position[0],other.position[2]-seat.position[2])<=seat.chairWidth*1.8;
    const a=connected(row[i-1])?row[i-1].position:seat.position,b=connected(row[i+1])?row[i+1].position:seat.position;
    const dx=b[0]-a[0],dz=b[2]-a[2],source=Math.atan2(Math.sin(seat.yaw),-Math.cos(seat.yaw)),tangent=Math.atan2(-dz,dx);

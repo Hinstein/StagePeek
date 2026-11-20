@@ -1,0 +1,36 @@
+{
+  "type": "theatre",
+  "wallMargin": 4.6,
+  "clearHeight": 19,
+  "cornerCut": 0,
+  "entryEdge": 1,
+  "bays": 11,
+  "bands": [
+    0.35,
+    0.62,
+    0.79
+  ],
+  "sideBoxes": true,
+  "proscenium": true,
+  "stageEnd": "north",
+  "slatWidth": 0.21,
+  "facade": "9C4939",
+  "trim": "603A2B",
+  "plinth": "73635A",
+  "lining": "AB7347",
+  "interiorTrim": "D89E65",
+  "glazing": "C29566",
+  "accent": "EAB374",
+  "floor": "8D5A37",
+  "roof": "B88246",
+  "steel": "B08662",
+  "seat": "8E3542",
+  "references": [
+    "https://npac-ntch.org/en/venue"
+  ],
+  "notes": "Warm acoustic timber, layered balcony surrounds and terracotta-toned walls and layered gold hip roofs suggest the official performance venue. The perimeter leaves clearance for the operator’s deeper recital-platform outline. The retained recital platform and seating remain runtime geometry.",
+  "roofRises": [
+    2.9,
+    2.0
+  ]
+}

@@ -5,7 +5,7 @@ import {renderVenueLocation,venueEventCard,selectVenueEvent} from '../venue-view
 import {mountVenueView,VENUE_MAP_POLICY} from '../venue-view/venue-view-controls.mjs';
 import {venuePalette} from '../venue-view/venue-palette.mjs';
 import {unpackSourceSeats,sourceMapPolygons,sourceStandGeometry,sourceSectionGuides,sourceAisleSteps} from './seating.mjs';
-import {audienceSightline,displaySectionLabel,sectionPoint,sectionRenderHalfAngle,stageRects,proposedStageRects} from './geometry.mjs';
+import {audienceSightline,displaySectionLabel,sectionPoint,sectionRenderHalfAngle,stageFootprint,stageRects} from './geometry.mjs';
 import {safeReturn,venueReturn} from './auth-contract.mjs';
 import {resolveInitialRoute} from './route.mjs';
 import {venueCountry} from '../catalog.mjs';
@@ -17,7 +17,7 @@ import {createMapTransform,zoomMap,rotateMap,resetMap,panMap} from './explorer-s
 import {o2DisplayModel,o2RowLabelAnchors,o2EventDisplayDraft} from './o2-display.mjs';
 import {sourceBowlDisplay,sourceRowLabelAnchors} from './source-bowl-display.mjs';
 import {eventChairFootprint} from './source-event-display.mjs';
-import {referenceRowLabel,sourceTicketInput} from './seat-numbering.mjs';
+import {referenceRowLabel,sourceTicketInput,sectionInputLabel} from './seat-numbering.mjs';
 const $=id=>document.getElementById(id);
 const publicViewer=document.querySelector('meta[name=stagepeek-viewer-mode]')?.content==='public';
 const locale=getLocale(),route=path=>localizedPath(locale,path);
@@ -117,9 +117,6 @@ async function selectTicketMapPreview(event){
     return true;
   }catch(error){toast(message(error));return false;}
 }
-function updateGestureHint(){
-  renderViewControls();
-}
 function renderMap(){
   const v=state.venue;if(!v)return;const svg=$('map'),ns='http://www.w3.org/2000/svg';svg.replaceChildren();
   const layer=document.createElementNS(ns,'g');layer.id='map-content';svg.append(layer);
@@ -146,9 +143,8 @@ function renderMap(){
   // shrinking L1 to make room for the hidden upper stand.
   if(stand)for(const [i,q]of stand.treads.entries())if(stand.treadLevels[i]===activeLevel)for(const [x,,z]of q)points.push([x,z]);
   const researchLayout=state.layout==='none'&&!state.event&&v.researchRenderBatch?.layout==='o2a'?'event':state.layout;
-  const stageShapes=researchLayout!=='none'?(sameFrame?stageRects(researchLayout,v):proposedStageRects(researchLayout,v)):[];
-  const rotation=r=>({transform:`rotate(${-(r.angle||0)*180/Math.PI} ${r.x} ${r.z})`});
-  for(const r of stageShapes)for(const a of [-1,1])for(const b of [-1,1]){const x=a*r.w/2,z=b*r.d/2,c=Math.cos(r.angle||0),s=Math.sin(r.angle||0);points.push([r.x+x*c+z*s,r.z-x*s+z*c]);}
+  const stageShapes=sameFrame?stageRects(researchLayout,v):[];
+  for(const stage of stageShapes)points.push(...stageFootprint(stage));
   const displayDraft=o2EventDisplayDraft(v,state.previewDraft);
   const previewShapes=state.eventOverlayVisible?(displayDraft?[...displayDraft.stage,...displayDraft.zones,...displayDraft.equipment]:state.event?.researchOverlay?.shapes||[]):[];
   for(const shape of previewShapes)for(const point of shape.polygon)points.push(point);
@@ -279,15 +275,19 @@ function renderMap(){
     // Reappend above the transparent hit targets and the selected-seat marker.
     layer.append(rowNumbers);layer.append(seatNumbers);updateMapViewport();
     for(const z of state.eventOverlayVisible&&state.layout===v.seatLayout.id?v.sourceZones||[]:[]){const polygon=add('polygon',{points:z.polygon.map(p=>p.join(',')).join(' '),fill:'#b7c39d','fill-opacity':.4,stroke:'#849376','stroke-width':.3,'pointer-events':'none','data-reference-zone':z.id});add('title',{},copy('{0} · 场馆常规布局',[z.label||z.id]),polygon);}
-    for(const stage of stageShapes){add('rect',{x:stage.x-stage.w/2,y:stage.z-stage.d/2,width:stage.w,height:stage.d,fill:'#b18f4c',stroke:'#e0bd63','stroke-width':mapScale*.002,'data-stage':'true',...rotation(stage)});add('text',{x:stage.x,y:stage.z,'text-anchor':'middle','dominant-baseline':'central',fill:'#fff','font-size':labelSize},'示意舞台');}
-    add('text',{x:(minX+maxX)/2,y:maxY+margin*.55,'text-anchor':'middle',fill:'#6f8173','font-size':labelSize*.8},'位置与视角为示意，仅供参考');return;
   }
-  const cx=(minX+maxX)/2,cy=(minY+maxY)/2,mapW=maxX-minX,mapH=maxY-minY;
-  if(sameFrame){
-    for(const r of stageShapes){add('rect',{x:r.x-r.w/2,y:r.z-r.d/2,width:r.w,height:r.d,fill:r.kind==='screen'?'#5e9b98':r.kind==='structure'?'#59616c':'#445f53',stroke:'#304d40','stroke-width':mapScale*.002,...rotation(r)});if(r.label)add('text',{x:r.x,y:r.z,'text-anchor':'middle',fill:'#fff','font-size':labelSize*.6},r.label);}
-    const r=stageShapes[0];if(r)add('text',{x:r.x,y:r.z,'text-anchor':'middle','dominant-baseline':'central',fill:'#fff','font-size':labelSize},'示意舞台');
+  if(stageShapes.length){
+    const deck=add('g',{'pointer-events':'none'});
+    for(const r of stageShapes){
+      const fill=r.finish==='black-wood'?'#292c34':r.finish==='oak'?'#c3a47d':r.kind==='screen'?'#5e9b98':r.kind==='structure'?'#59616c':v.sourceSeats?'#b18f4c':'#445f53';
+      add('polygon',{points:stageFootprint(r).map(p=>p.join(',')).join(' '),fill,stroke:r.finish==='black-wood'?'#939ba8':r.finish==='oak'?'#8e6d47':v.sourceSeats?'#e0bd63':'#304d40','stroke-width':mapScale*.002,'data-stage':'true'},null,deck);
+    }
+    for(const [index,r] of stageShapes.entries()){
+      const label=r.label||(index===0?'示意舞台':'');
+      if(label)add('text',{x:r.x,y:r.z,'text-anchor':'middle','dominant-baseline':'central',style:`fill:${r.finish==='oak'?'#332619':'#fff'}`,'font-size':labelSize*(index===0?1:.6)},label,deck);
+    }
   }
-  add('text',{x:cx,y:maxY+margin*.55,'text-anchor':'middle',fill:'#6f8173','font-size':labelSize*.75},'位置与视角为示意，仅供参考');
+  add('text',{x:(minX+maxX)/2,y:maxY+margin*.55,'text-anchor':'middle',fill:'#6f8173','font-size':labelSize*.75},'位置与视角为示意，仅供参考');
 }
 function updateMapViewport(){
   const t=state.mapTransform;if(!t)return;
@@ -311,7 +311,8 @@ function updateMapViewport(){
   }
 }
 function renderViewControls(){
-  viewShell.update({mode:state.mode,cameraMode:viewerViewMode,phone:state.phoneFrame,roof:state.roofVisible,canAudience:!$('seat-view').disabled,canStage:!!state.eventOverlayVisible&&!!o2EventDisplayDraft(state.venue,state.previewDraft)?.stage?.length,zoom:state.zoom,mapZoom:state.mapTransform?.zoom||1});
+  const venue=state.venue;
+  viewShell.update({mode:state.mode,cameraMode:viewerViewMode,phone:state.phoneFrame,roof:state.roofVisible,canAudience:!$('seat-view').disabled,canStage:viewer?.hasStage(),canRoof:viewer?.hasRoof()||!!venue?.sections.some(section=>section.kind!=='standing'),canPickSeats:!!venue?.sourceSeats?.length||!!state.eventOverlayVisible&&!!state.previewDraft,zoom:state.zoom,mapZoom:state.mapTransform?.zoom||1});
 }
 
 function render(){
@@ -320,10 +321,11 @@ function render(){
   const v=state.venue;if(!v)return;clearFloorView();renderEventLayout();const s=selectedSection(),r=state.result,display=o2DisplayModel(v);
   $('venue-name').textContent=venueName(v,locale);$('venue-city').textContent=venueRegion(v,locale)+(state.previewDraft?' · '+state.previewDraft.event.name+' · '+state.previewDraft.event.dates.join(' / '):v.geometry?.referenceLayout?' · '+copy(v.geometry.referenceLayout.label):'');
   $('accuracy-short').textContent=copy('位置仅供参考');
-  $('coverage-count').textContent=copy('座位、舞台与人物均为示意');
+  const basis=v.accuracy?.position==='reference-model-estimate'?'来源编号 · 位置估算':v.sourceSeats?.length?'来源座位 · 视角供参考':v.sections.every(section=>section.kind==='standing')?'站区 · 无座号':'分区模型 · 无逐座数据';
+  $('coverage-count').textContent=venueViewCopy(basis,locale,copy);
   $('capability-badges').replaceChildren();
   $('coverage-note').textContent=copy('可输入区、排、座，或点击地图查看大致视角。');
-  $('source-link').href=v.source;$('source-link').textContent=copy('场馆官网 ↗');
+  $('source-link').href=v.source;$('source-link').textContent=venueViewCopy('模型资料来源 ↗',locale,copy);
   $('research-v0-notice').hidden=true;
   if(v.researchRenderBatch&&!state.event){
     $('layout-state').textContent=copy('场馆布局');
@@ -353,14 +355,13 @@ function render(){
   for(const sample of floorView?[]:s?.samples||[]){const button=element('button',copy('{0} 排 · {1} 座',[referenceRowLabel(v,sample)||sample.row,sample.seat]));button.type='button';button.onclick=()=>chooseSample(sample);samples.append(button);}
   if(floorView)samples.append(element('p','内场示意椅仅提供视角，不提供真实票号。'));
   if(!floorView&&!s?.samples.length)samples.append(element('p','可在地图中选择其他位置。'));
-  $('scene').hidden=state.mode!=='3d';$('map').toggleAttribute('hidden',state.mode!=='2d');renderViewControls();
-  updateGestureHint();
-  $('mode-2d').classList.toggle('active',state.mode==='2d');$('mode-3d').classList.toggle('active',state.mode==='3d');
+  renderViewControls();
   renderMap();viewer?.setData(v,state.sectionId,selectedPosition(),state.layout,located,Boolean(state.event),floorView);
+  viewer?.setEventTheme(state.event);
   const activeOverlay=state.eventOverlayVisible?(o2EventDisplayDraft(v,state.previewDraft)||state.event?.researchOverlay&&{...state.event.researchOverlay,status:'shell-event-preview',venueId:v.id,shapes:state.event.researchOverlay.shapes||[]}):null;
   viewer?.toggleReferenceZones(state.eventOverlayVisible&&!activeOverlay);
   if(viewer&&(viewerDraft!==activeOverlay||viewerVenue!==v)){viewer.setResearchOverlay(activeOverlay);viewerDraft=activeOverlay;viewerVenue=v;}
-  viewer?.toggleRoof(state.roofVisible);viewer?.togglePhoneFrame(state.phoneFrame);
+  viewer?.toggleRoof(state.roofVisible);viewer?.togglePhoneFrame(state.phoneFrame);renderViewControls();
 }
 async function refreshAccount(){state.me=await api('/api/me');$('plan-label').textContent={guest:copy('免费体验'),free:copy('免费账号'),pro:copy('Pro 月订阅')}[state.me.access.plan];}
 function renderVenuePicker(country,selectedId=''){
@@ -382,7 +383,7 @@ async function loadVenue(id,layout,preserveEvent=null){
     resolveVersion++;state.venueId=id;state.venue=venue;state.mapTier=null;state.mapLevel=null;state.mapTransform=null;state.event=null;state.previewDraft=null;state.eventOverlayVisible=false;state.officialOverlayVisible=false;state.layout=venue.seatLayout?.id||'end';state.phoneFrame=false;state.roofVisible=false;
     if(typeof renderStageOptions==='function')renderStageOptions();else{for(const item of venue.seatLayouts||[{id:'end',label:'端头舞台（通用）'},{id:'runway',label:'端头舞台 + 延伸台（通用）'},{id:'center',label:'中央舞台（通用）'}]){const option=element('option',item.label);option.value=item.id;$('stage-layout').append(option);}$('stage-layout').value=state.layout;}
     state.sectionId=venue.sections.some(x=>x.id==='122')?'122':venue.sections[0].id;state.result=null;
-    $('section-list').replaceChildren();for(const section of venue.sections)for(const label of section.ticketLabels){const option=element('option');option.value=label;$('section-list').append(option);}
+    $('section-list').replaceChildren();for(const section of venue.sections)for(const label of section.ticketLabels){const option=element('option');option.value=label===section.id?sectionInputLabel(venue,section):label;$('section-list').append(option);}
     setStatus('venue-status',copy('场馆已准备好'),'success');setStatus('explorer-status','');renderVenuePicker(venueCountry(venue),id);chooseSection(state.sectionId,false,{previewOnly:publicViewer});render();syncLayoutRoute(state.layout);if(preserveEvent){const params=new URLSearchParams(location.search);params.set('event',preserveEvent);history.replaceState(null,'',`${location.pathname}?${params.toString()}${location.hash}`);}await loadEvents(id,version);return true;
   }catch(error){toast(message(error));if(error.code==='SUBSCRIPTION_REQUIRED'){const back=new URLSearchParams(location.search);back.set('venue',id);if(layout)back.set('layout',layout);location.assign(route('/plans')+'?next='+encodeURIComponent(safeReturn(route('/explore')+'?'+back)));return false;}
     if(!state.venue){$('venue-name').textContent=state.catalog.find(v=>v.id===id)?.name||copy('暂时无法载入场馆');$('location-status').textContent=copy(error.code==='SUBSCRIPTION_REQUIRED'?'此场馆当前需要订阅，尚未加载座位。':'场馆暂未加载，请稍后重试。');}
@@ -391,9 +392,9 @@ async function loadVenue(id,layout,preserveEvent=null){
 }
 function applyRequestedSection(section){
   if(!section||!state.venue)return;
-  const target=state.venue.sections.find(item=>item.id===section||item.ticketLabels.includes(section));
+  const target=state.venue.sections.find(item=>item.id===section||item.ticketLabels.includes(section)||sectionInputLabel(state.venue,item)===section);
   if(target){state.sectionId=target.id;state.mapTier=target.tier;state.mapLevel=target.sourceLevels?.[0];}
-  $('section').value=section;$('row').value='';$('seat').value='';
+  $('section').value=target&&!state.venue.sourceSeats&&section===target.id?sectionInputLabel(state.venue,target):section;$('row').value='';$('seat').value='';
   state.result={status:target?'unverified':'unknown-section',section,row:'',seat:''};render();
 }
 async function applyRequestedLayout(layout){
@@ -411,7 +412,7 @@ function chooseSection(id,focus=true,{previewOnly=publicViewer}={}){
   const section=state.venue?.sections.find(s=>s.id===id);if(!section)return;state.sectionId=id;state.mapTier=section.tier;
   const sample=previewOnly?null:state.venue.sourceSeats?(section.samples.find(s=>s.level===state.mapLevel)||section.samples[0]):section.samples.find(x=>x.row==='14'&&x.seat==='679')||section.samples[0];
   state.mapLevel=state.venue?.sourceSeats&&section.sourceLevels?.includes(state.mapLevel)?state.mapLevel:sample?.level??section.sourceLevels?.[0];
-  $('section').value=section.ticketLabels[0]||sample?.section||id;$('row').value=referenceRowLabel(state.venue,sample)||sample?.row||'';$('seat').value=sample?.seat||'';
+  $('section').value=sectionInputLabel(state.venue,section);$('row').value=referenceRowLabel(state.venue,sample)||sample?.row||'';$('seat').value=sample?.seat||'';
   state.result=section.kind==='standing'?{status:'illustrative-view',section:id,zoneId:id,zoneLabel:copy(section.sourceLabel),position:[...section.center],layout:state.layout,venueId:state.venueId,positionStatus:'estimated-standing-area'}:sample?{status:'matched',...sample,sectionId:id}:{status:'unverified',section:id,row:'',seat:''};render();
   if(focus){if(publicViewer){const params=new URLSearchParams(location.search);params.delete('demo');history.replaceState(null,'',location.pathname+'?'+params);syncLayoutRoute(state.layout);updateExplorerSteps();}viewer?.near();}
 }
@@ -419,7 +420,7 @@ function chooseEstimatedSeat(record){
   if(record.sourceSeat||record.referenceSeat){chooseSample(record);return;}
   resolveVersion++;$('locate').disabled=false;
   const section=state.venue?.sections.find(item=>item.id===record.section);if(!section)return;
-  const ticketSection=section.ticketLabels[0]||section.id;
+  const ticketSection=sectionInputLabel(state.venue,section);
   $('section').value=ticketSection;$('row').value='';$('seat').value='';
   state.sectionId=section.id;state.mapTier=section.tier;state.result={status:'estimated',section:ticketSection,row:record.row,seat:record.seat,sectionId:section.id,position:record.p,positionStatus:'estimated-seat-grid'};
   render();viewer?.seatView();
@@ -457,7 +458,12 @@ async function loadEvents(id,version){$('events-list').replaceChildren(element('
     $('events-list').replaceChildren();$('event-count').textContent=copy('{0} 场演出',[result.events.length+(result.researchConcerts?.length||0)]);
     for(const event of result.events){
       const mapState=copy(event.layout?.model?'查看本场布局':event.layout?.mapVerification==='reference'?'查看座位图':event.layout?.mapVerification==='unavailable'?'座位图待票务平台发布':'暂无本场座位图');
-      $('events-list').append(venueEventCard(document,{id:event.id,title:event.name,lines:[event.localDate+(event.endLocalDate!==event.localDate?' — '+event.endLocalDate:''),event.status==='canceled'?copy('已取消'):event.status==='postponed'?copy('已延期'):mapState],links:[{label:copy('官方详情 ↗'),url:event.source},...(event.layout?.mapVerification==='reference'?[{label:copy('场次座位图参考 ↗'),url:event.layout.source||event.layout.image}]:[])],onSelect:()=>selectEvent(event)}));
+      const timestamp=event.datePrecision==='source-timestamp'?Date.parse(event.startDate):NaN;
+      const time=event.datePrecision==='venue-local-time'?event.startDate?.slice(11,16):Number.isFinite(timestamp)&&event.timezone
+        ?new Intl.DateTimeFormat(locale,{timeZone:event.timezone,hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).format(timestamp):'';
+      const date=event.localDate+(event.endLocalDate&&event.endLocalDate!==event.localDate?' — '+event.endLocalDate:'');
+      const status=event.status==='canceled'?copy('已取消'):event.status==='postponed'?copy('已延期'):event.archived?copy('历史场次参考')+' · '+mapState:mapState;
+      $('events-list').append(venueEventCard(document,{id:event.id,title:event.name,lines:[time?date+' · '+time:date,status],links:[{label:copy('官方详情 ↗'),url:event.source},...(event.layout?.mapVerification==='reference'?[{label:copy('场次座位图参考 ↗'),url:event.layout.source||event.layout.image}]:[])],onSelect:()=>selectEvent(event)}));
     }
     if(result.researchConcerts?.length){
 
@@ -502,28 +508,30 @@ function renderEventLayout(){
   selectVenueEvent($('events-list'),state.event?.id);
   $('return-venue-layout').hidden=!state.event;
   $('ticket-map-conflicts').hidden=true;$('ticket-map-conflicts').replaceChildren();$('conflict-legend').hidden=true;
+  const image=$('ticket-map-preview-image');
+  const showSourceImage=Boolean(state.previewDraft)&&(!publicViewer||state.me?.admin);
+  if(!showSourceImage){image.hidden=true;image.removeAttribute('src');}
   if(state.previewDraft){
     $('layout-state').textContent=copy('本场布局');
     $('layout-source-note').textContent=`${state.previewDraft.event.name} · ${state.previewDraft.event.dates.join(' / ')}`;
-    $('event-layout-note').textContent=copy('舞台、内场与人物为示意，仅供视角参考。')+(state.previewDraft.zones.some(zone=>zone.kind==='standing')?copy(' GENERAL ADMISSION 为站区，无座号。'):'');
-    const image=$('ticket-map-preview-image'),path='/api/concert-views/ticket-map-previews/'+encodeURIComponent(state.previewDraft.id)+'/image';
-    if(image.getAttribute('src')!==path)image.src=path;image.hidden=false;return;
+    $('event-layout-note').textContent=state.previewDraft.displayMode==='reference-only'?copy('暂无本场舞台视角，可查看座位图参考。'):copy('舞台、内场与人物为示意，仅供视角参考。')+(state.previewDraft.zones.some(zone=>zone.kind==='standing')?copy(' GENERAL ADMISSION 为站区，无座号。'):'');
+    if(showSourceImage){
+      const path='/api/concert-views/ticket-map-previews/'+encodeURIComponent(state.previewDraft.id)+'/image';
+      if(image.getAttribute('src')!==path)image.src=path;
+      image.hidden=false;
+    }
+    return;
   }
   if(state.event?.researchOverlay){
     $('layout-state').textContent=copy('本场布局');
     $('layout-source-note').textContent=`${state.event.name}`;
     $('event-layout-note').textContent=copy('舞台与内场为示意，仅供视角参考。');
-    $('ticket-map-preview-image')?.setAttribute('hidden','');
-    $('ticket-map-preview-image')?.removeAttribute('src');
     return;
   }
-  const previewImage=$('ticket-map-preview-image');
-  previewImage?.setAttribute('hidden','');
-  previewImage?.removeAttribute('src');
   const event=state.event,model=event?.layout?.model;
-  $('layout-source-note').textContent=copy('座位和舞台位置为示意，仅供参考。');
+  $('layout-source-note').textContent=event&&!model?'':copy('座位和舞台位置为示意，仅供参考。');
   $('layout-state').textContent=event?(model?copy('本场布局'):copy('暂无本场布局')):copy('场馆布局');
-  $('event-layout-note').textContent=event?(model?copy('演出布局可能调整，请以主办方信息为准。'):copy('可查看场馆分区；本场舞台与内场暂不可用。')):copy('当前为场馆参考布局，不代表具体演出。没有本场资料时仍可浏览分区。');
+  $('event-layout-note').textContent=event?(model?copy('演出布局可能调整，请以主办方信息为准。'):event.layout?.mapVerification==='reference'?copy('暂无本场舞台视角，可查看座位图参考。'):copy('可查看场馆分区；本场舞台与内场暂不可用。')):copy('当前为场馆参考布局，不代表具体演出。没有本场资料时仍可浏览分区。');
 }
 
 $('venue-country').onchange=()=>{renderVenuePicker($('venue-country').value);$('locate').disabled=true;setStatus('venue-status',t('explorer.pickVenue'),'loading');updateExplorerSteps();};
@@ -531,7 +539,12 @@ for(const input of document.querySelectorAll('#ticket-form input,#ticket-form se
 $('venue-retry').onclick=async()=>{try{if(!state.catalog.length)await loadCatalog();await loadVenue($('venue').value||state.venueId);}catch{setStatus('venue-status',copy('场馆暂时无法载入，请重试。'),'error');}};
 $('venue').onchange=()=>{if(!$('venue').value)return;const venue=state.catalog.find(x=>x.id===$('venue').value);if(venue?.locked){location.assign(route('/plans')+'?next='+encodeURIComponent(route('/explore')+'?'+new URLSearchParams({venue:venue.id})));return;}else loadVenue($('venue').value);};
 $('return-venue-layout').onclick=()=>loadVenue(state.venueId,state.venue.seatLayout?.id);
- $('stage-layout').onchange=()=>{if(state.event){renderStageOptions();return;}const value=$('stage-layout').value;if(value==='event'&&state.event?.layout?.model){state.layout='event';}else if(state.venue?.seatLayouts)loadVenue(state.venueId,value);else{state.layout=value;state.venue={...state.venue,eventLayout:null};renderEventLayout();render();}};
+$('stage-layout').onchange=()=>{
+  if(state.event){renderStageOptions();return;}
+  const value=$('stage-layout').value;
+  if(state.venue?.seatLayouts){loadVenue(state.venueId,value);return;}
+  state.layout=value;state.venue={...state.venue,eventLayout:null};render();syncLayoutRoute(value);
+};
 async function handleViewAction(action,value){
   if(action==='2d'||action==='3d'){
     state.mode=action;render();if(action==='3d')await ensureViewer();
@@ -584,7 +597,7 @@ async function ensureViewer(){
   viewerLoading=(async()=>{
     try{
       const {createViewer}=await import('./viewer.mjs');
-      viewer=createViewer($('scene'),{onSection:chooseSection,onSample:chooseSample,onSeat:chooseEstimatedSeat,onFloorView:chooseFloorView,onResearchShape:shape=>{if(shape)toast(copy(shape.label)+' · '+copy(shape.kind==='stage'?'舞台与人物为示意':shape.kind==='equipment'?'设备区示意':'内场示意，无票号'));},onMode:(mode,detail)=>{viewerCameraMode=mode;if(detail?.viewMode)viewerViewMode=detail.viewMode;updateGestureHint();renderViewControls();if(detail?.zoom){state.zoom=detail.zoom;renderViewControls();}},onFailure:text=>{state.mode='2d';$('mode-3d').disabled=true;toast(text+' · '+copy('已切换到二维地图。'));render();viewer?.setMode('2d');}});
+      viewer=createViewer($('scene'),{onSection:chooseSection,onSample:chooseSample,onSeat:chooseEstimatedSeat,onFloorView:chooseFloorView,onShellLoaded:renderViewControls,onResearchShape:shape=>{if(shape)toast(copy(shape.label)+' · '+copy(shape.kind==='stage'?'舞台与人物为示意':shape.kind==='equipment'?'设备区示意':'内场示意，无票号'));},onMode:(mode,detail)=>{viewerCameraMode=mode;if(detail?.viewMode)viewerViewMode=detail.viewMode;if(detail?.zoom)state.zoom=detail.zoom;renderViewControls();},onFailure:text=>{state.mode='2d';$('mode-3d').disabled=true;toast(text+' · '+copy('已切换到二维地图。'));render();viewer?.setMode('2d');}});
       $('mode-3d').disabled=false;render();viewer.setMode(state.mode);viewer.setZoom(state.zoom);
     }catch{state.mode='2d';$('mode-3d').disabled=true;render();toast(copy('此设备暂不能显示三维场景，已切换到二维地图。'));}
     finally{$('mode-3d').textContent=copy('3D 视角');}
@@ -610,6 +623,7 @@ try{
   if((!publicViewer||params.has('venue'))&&!localResearch?.active&&await loadVenue(initial.venueId,undefined,params.get('event'))){
   if(params.get('event')){try{const result=await api(`/api/venues/${state.venueId}/events`);const requested=result.events.find(e=>e.id===params.get('event'))||result.researchConcerts?.find(e=>e.id===params.get('event'));if(requested){if(requested.ticketMapDraft)await selectTicketMapPreview(requested);else await selectEvent(requested);}else toast('原演出暂不可用，已显示场馆。');}catch{toast('原演出暂不可用，已显示场馆。');}}const layoutReady=state.event?true:!params.has('layout')||await applyRequestedLayout(initial.layout);applyRequestedSection(initial.section);viewer?.setMode(state.mode);
   if(initial.row&&initial.seat){$('row').value=initial.row;$('seat').value=initial.seat;if(layoutReady)await locate();else{state.result={status:'unknown-layout',section:$('section').value,row:initial.row,seat:initial.seat};render();}}
+  if(layoutReady&&!state.event)syncLayoutRoute(state.layout);
   }
   if(!localResearch?.active){if(params.get('mode')==='3d'){state.mode='3d';await ensureViewer();render();}else{state.mode='2d';render();}}
   if(!localResearch?.active&&viewer){

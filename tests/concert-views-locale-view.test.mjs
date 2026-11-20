@@ -16,9 +16,9 @@ test('actual viewer restores seated eye, gaze and framing without drift and reje
  const source=readFileSync(new URL('../public/concert-views/viewer.mjs',import.meta.url),'utf8');
  const camera=new THREE.PerspectiveCamera(),canvas={clientWidth:1000,clientHeight:600,dataset:{}};
  const run=new Function('THREE','camera','canvas','view',`
- let cameraMode='overview',sectionFocus=false,stageFocused=false,phoneFraming=false,tween={};
+ let cameraMode='overview',sectionFocus=false,stageFocused=false,phoneFraming=false,restoredOrbit=false,tween={};
  let position=[30,6,10],matched=true,dirty=true,pending=false,last=0;
- const vec=p=>new THREE.Vector3(...p),VENUE_CAMERA_POLICY={eyeHeight:1.18},look={},roofGroup={visible:true},controls={enabled:true,target:new THREE.Vector3()};
+ const vec=p=>new THREE.Vector3(...p),VENUE_CAMERA_POLICY={eyeHeight:1.18},look={},shell={roofVisible:true,toggleRoof(value){this.roofVisible=value;}},controls={enabled:true,target:new THREE.Vector3()};
  const setCameraMode=value=>{cameraMode=value;},setSeatLod=()=>{},updateRowLabels=()=>{},onMode=()=>{},fovToZoom=v=>v,wake=()=>{};
  ${source.slice(source.indexOf('  function getView('),source.indexOf('  function resize('))}
  const restored=restoreView(view),before=getView();

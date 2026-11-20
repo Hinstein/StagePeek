@@ -1,0 +1,80 @@
+{
+  "venueId": "taipei-pac-grand-theater",
+  "generator": "blender-bpy",
+  "version": 1,
+  "bounds": {
+    "min": [
+      -14.763,
+      -2.15,
+      -20.268
+    ],
+    "max": [
+      16.443,
+      22.029,
+      33.894
+    ]
+  },
+  "coordinateBasis": "source-model-xyz",
+  "lightingPreset": "theatre-warm",
+  "roofNodeNames": [
+    "shell_roof_canopy_roof",
+    "shell_roof_canopy_standing_seams_roof_panels",
+    "shell_roof_canopy_upper_walls_roof_panels",
+    "shell_roof_truss_steel"
+  ],
+  "ribbonNodeNames": [
+    "shell_ribbon_led_amber"
+  ],
+  "calibration": {
+    "layout": "end",
+    "sourceModelAssetSha256": "c12654d20ca6f27a3e55c2de44688104802393f11c4944ca9b68e2f2c62581ed",
+    "sourceModelSeats": 1449,
+    "seatBounds": {
+      "min": [
+        -13.193,
+        -1.04,
+        1.095
+      ],
+      "max": [
+        14.923,
+        11.28,
+        31.224
+      ]
+    },
+    "stageRect": {
+      "x": 0,
+      "z": -9.5,
+      "w": 20,
+      "d": 19,
+      "h": 0.15,
+      "finish": "black-wood"
+    },
+    "orchestraPitFirstRowY": -1.04,
+    "lowestRoofTrussY": 14.5,
+    "roofTrussClearanceAboveHighestSeat": 3.22,
+    "shellMeshPrimitives": 23
+  },
+  "provenance": {
+    "geometryPrecision": "illustrative",
+    "coordinateCalibration": "Aligned to retained model coordinates. Physical as-built dimensions have not been independently established.",
+    "references": [
+      {
+        "url": "https://twconcertview.com/en/3d/taipei-pac-grand-theater",
+        "scope": "Retained StagePeek reference-model chair and stage placement"
+      },
+      {
+        "url": "https://space.tpac-taipei.org/storage/manager/%E6%8A%80%E8%A1%93%E8%B3%87%E6%96%99/Technical_Information/GT/TPACGrandTheatreTechnicalInformation_20260310.pdf",
+        "scope": "Auditorium section, orchestra lift, adjustable stage opening and black stage surface"
+      },
+      {
+        "url": "https://www.oma.com/projects/taipei-performing-arts-center",
+        "scope": "Asymmetric theatre volume and steel cladding concept"
+      },
+      {
+        "url": "https://tpac.org.taipei/en/venue-color",
+        "scope": "Blue palette for interior acoustic panels"
+      }
+    ],
+    "assetOrigin": "Original procedural mesh. No external photographs, textures, or 3D models are packaged. Other TPAC venues and production-specific stage settings are outside the model."
+  }
+}

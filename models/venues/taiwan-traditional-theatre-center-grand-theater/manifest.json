@@ -1,0 +1,49 @@
+{
+  "venueId": "taiwan-traditional-theatre-center-grand-theater",
+  "generator": "blender-bpy",
+  "template": "theatre",
+  "version": 1,
+  "units": "metres",
+  "upAxis": "+Y",
+  "bounds": {
+    "min": [
+      -19.1551,
+      -1.285,
+      -22.59
+    ],
+    "max": [
+      19.1551,
+      22.1005,
+      31.2352
+    ]
+  },
+  "precision": "illustrative",
+  "lightingPreset": "theatre-warm",
+  "sourceLayouts": [
+    {
+      "id": "end",
+      "sourceSeats": 1031,
+      "renderedSeats": 1031,
+      "stageParts": 2,
+      "topSeat": 10.35
+    }
+  ],
+  "assetBytes": 283252,
+  "meshPrimitives": 15,
+  "roofNodeNames": [
+    "shell_roof_canopy",
+    "shell_roof_canopy_fascia",
+    "shell_roof_canopy_soffit",
+    "shell_roof_truss",
+    "shell_roof_truss_acoustic"
+  ],
+  "ribbonNodeNames": [
+    "shell_ribbon_led_entry_static"
+  ],
+  "references": [
+    "https://www.travel.taipei/en/attraction/details/2387",
+    "https://tttcfile.ncfta.gov.tw/file/2025-09-23/d7ec3722-d724-424d-a7ea-bb7872cb9da2/1-1%E5%A4%A7%E8%A1%A8%E6%BC%94%E5%BB%B3%EF%BC%BF%E6%8A%80%E8%A1%93%E8%B3%87%E6%96%99%2020250830.pdf",
+    "https://twconcertview.com/en/3d/taiwan-traditional-theatre-center-grand-theater"
+  ],
+  "notes": "Clean grey volumes and copper-red light mark the contemporary proscenium theatre. The decorative side-box bands stay outside the retained boxes and the selectable orchestra-pit rows. Architectural surfaces are illustrative. No source ticket, seat or event data is embedded."
+}

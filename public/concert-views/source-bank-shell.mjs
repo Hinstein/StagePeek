@@ -60,7 +60,7 @@ export function sourceBankShell(rows,{closedBowl=false,rectangular=false}={}){
    });
    const front=boundaries[0],back=boundaries[1];
    const quads=front.slice(1).map((p,i)=>[front[i],p,back[i+1],back[i]]);
-   const bottom=j?profiles[j-1].row.y-.025:Math.max(-.3,y-.6);
+   const bottom=j?profiles[j-1].row.y-.025:Math.min(y-.18,Math.max(-.3,y-.6));
    treads.push(...quads);treadLevels.push(...quads.map(()=>bank.level));
    for(let i=0;i<count;i++){
     const previous=bank.rows.at(-1)?.back;
@@ -68,7 +68,7 @@ export function sourceBankShell(rows,{closedBowl=false,rectangular=false}={}){
    }
    // Side and rear closures go to the tier base, so an upper tier is a volume
    // rather than floating paper strips. Open inter-section aisles stay separate.
-   const base=Math.max(-.3,profiles[0].row.y-1.2);
+   const base=Math.min(profiles[0].row.y-.2,Math.max(-.3,profiles[0].row.y-1.2));
    for(const i of [0,count])walls.push([front[i],back[i],[back[i][0],base,back[i][2]],[front[i][0],base,front[i][2]]]);
    if(j===profiles.length-1)for(let i=0;i<count;i++)walls.push([back[i],back[i+1],[back[i+1][0],base,back[i+1][2]],[back[i][0],base,back[i][2]]]);
    const guide={section:bank.section,level:bank.level,row:profile.row.row,y:profile.row.y,front,back,polygon:[...front,...back.toReversed()],edges:[[front[0],back[0]],[front.at(-1),back.at(-1)]]};
@@ -78,6 +78,36 @@ export function sourceBankShell(rows,{closedBowl=false,rectangular=false}={}){
   banks.push(bank);
  }
  const aisleSteps=[];
+ // Parallel theatre blocks use Cartesian rows, so the radial aisle pass below
+ // cannot connect them. Bridge only matching source rows across a narrow gap;
+ // boxes, different floors and broad openings remain separate.
+ for(const levelBanks of Map.groupBy(banks.filter(b=>b.cartesian),b=>b.level).values()){
+  for(const left of levelBanks)for(const right of levelBanks){
+   if(left===right)continue;
+   let previous=null;
+   for(const row of left.rows){
+    const match=right.rows.find(r=>r.row===row.row&&Math.abs(r.y-row.y)<.08);
+    if(!match){previous=null;continue;}
+    const a=row.front.at(-1),b=match.front[0],c=match.back[0],d=row.back.at(-1);
+    const dx=d[0]-a[0],dz=d[2]-a[2],depth=Math.hypot(dx,dz);
+    const alignment=((c[0]-b[0])*dx+(c[2]-b[2])*dz)/(Math.hypot(c[0]-b[0],c[2]-b[2])*depth);
+    const width=(b[0]-a[0])*dz/depth-(b[2]-a[2])*dx/depth;
+    const stagger=Math.abs((b[0]-a[0])*dx/depth+(b[2]-a[2])*dz/depth);
+    if(alignment<.95||width<.15||width>2.4||stagger>.35||Math.hypot(c[0]-d[0],c[2]-d[2])>2.4){previous=null;continue;}
+    const y=Math.min(a[1],b[1]),tread=[a,b,c,d].map(p=>[p[0],y,p[2]]);
+    const turns=tread.map((p,i)=>{const q=tread[(i+1)%4],r=tread[(i+2)%4];return (q[0]-p[0])*(r[2]-q[2])-(q[2]-p[2])*(r[0]-q[0]);});
+    if(!turns.every(v=>v>1e-6)&&!turns.every(v=>v< -1e-6)){previous=null;continue;}
+    const rise=previous?y-previous[0][1]:0,parts=rise>.22?2:1;
+    for(let i=0;i<parts;i++){
+     const front=[a,b].map((p,j)=>p.map((v,k)=>k===1?y-rise*(parts-i-1)/parts:v+([d,c][j][k]-v)*i/parts));
+     const back=[d,c].map((p,j)=>p.map((v,k)=>k===1?front[j][1]:[a,b][j][k]+(v-[a,b][j][k])*(i+1)/parts));
+     const step=[front[0],front[1],back[1],back[0]],lower=i?aisleSteps.at(-1).tread:previous;
+     aisleSteps.push({level:row.level,sections:[left.section,right.section],tread:step,risers:lower?[[step[0],step[1],lower[2],lower[3]]]:[]});
+    }
+    previous=tread;
+   }
+  }
+ }
  // Join neighbouring structural banks with walking surfaces. A wide opening
  // remains open; no stair is inferred across a service bay or stage end.
  for(const levelBanks of Map.groupBy(banks.filter(b=>!b.cartesian),b=>b.level).values()){

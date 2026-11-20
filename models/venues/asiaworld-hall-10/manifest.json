@@ -1,0 +1,62 @@
+{
+  "venueId": "asiaworld-hall-10",
+  "generator": "blender-bpy",
+  "template": "hall",
+  "version": 1,
+  "units": "metres",
+  "upAxis": "+Y",
+  "bounds": {
+    "min": [
+      -38.3477,
+      -0.36,
+      -52.3477
+    ],
+    "max": [
+      38.3477,
+      19.6021,
+      52.3477
+    ]
+  },
+  "precision": "illustrative",
+  "lightingPreset": "arena-dark",
+  "sourceLayouts": [
+    {
+      "id": "end",
+      "sourceSeats": 0,
+      "renderedSeats": 7720,
+      "stageParts": 4,
+      "topSeat": 8.8
+    },
+    {
+      "id": "runway",
+      "sourceSeats": 0,
+      "renderedSeats": 7720,
+      "stageParts": 8,
+      "topSeat": 8.8
+    },
+    {
+      "id": "center",
+      "sourceSeats": 0,
+      "renderedSeats": 7720,
+      "stageParts": 2,
+      "topSeat": 8.8
+    }
+  ],
+  "assetBytes": 408336,
+  "meshPrimitives": 17,
+  "roofNodeNames": [
+    "shell_roof_canopy",
+    "shell_roof_canopy_fascia",
+    "shell_roof_canopy_soffit",
+    "shell_roof_truss",
+    "shell_roof_truss_acoustic"
+  ],
+  "ribbonNodeNames": [
+    "shell_ribbon_led_entry_static",
+    "shell_ribbon_led_perimeter"
+  ],
+  "references": [
+    "https://www.asiaworld-expo.com/en-us/planning/venues/hall-6-8-n-10/"
+  ],
+  "notes": "An open, flat exhibition hall with repeat steel bays and a glazed access frontage. Raked demonstration rows are indicative where the catalog has no retained seat positions. Architectural surfaces are illustrative. No source ticket, seat or event data is embedded."
+}

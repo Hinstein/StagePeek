@@ -1,0 +1,60 @@
+{
+  "venueId": "twcv-prudential-center-newark",
+  "generator": "blender-bpy",
+  "version": 1,
+  "upAxis": "+Y",
+  "units": "metres",
+  "coordinateBasis": "source-model-xyz",
+  "precision": "illustrative-architecture",
+  "seatBounds": {
+    "min": [
+      -54.851,
+      0.22,
+      -62.13
+    ],
+    "max": [
+      54.831,
+      29.147,
+      63.159
+    ],
+    "size": [
+      109.682,
+      28.927,
+      125.289
+    ],
+    "center": [
+      -0.01,
+      14.683,
+      0.514
+    ]
+  },
+  "sourceSeatsCount": 14979,
+  "bounds": {
+    "min": [
+      -61.171,
+      -0.3,
+      -69.05
+    ],
+    "max": [
+      78.441,
+      43.5275,
+      70.079
+    ]
+  },
+  "meshPrimitives": 23,
+  "assetBytes": 895200,
+  "roofNodeNames": [
+    "shell_roof_canopy_seams",
+    "shell_roof_canopy_zinc",
+    "shell_roof_truss_steel"
+  ],
+  "ribbonNodeNames": [
+    "shell_ribbon_led_bowl"
+  ],
+  "lightingPreset": "arena-dark",
+  "references": [
+    "https://www.focuslighting.com/new-gallery-57",
+    "https://projects.vitroglazings.com/prudential-center?lang=en"
+  ],
+  "notes": "Schematic brick arena, two red-lit glazed entrance drums and joined foyer. Bowl detailing is fitted to the retained rows and does not add seat geometry."
+}

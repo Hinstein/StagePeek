@@ -1,0 +1,29 @@
+{
+  "type": "hall",
+  "wallMargin": 5.2,
+  "clearHeight": 16.2,
+  "cornerCut": 3.2,
+  "entryEdge": 0,
+  "bays": 11,
+  "bands": [
+    0.27,
+    0.58
+  ],
+  "led": false,
+  "facade": "B5A692",
+  "trim": "686459",
+  "plinth": "8D887E",
+  "lining": "7C746A",
+  "interiorTrim": "ACA294",
+  "glazing": "678792",
+  "accent": "B7AC8C",
+  "floor": "AF8D60",
+  "roof": "A7ABAA",
+  "steel": "878D90",
+  "seat": "496968",
+  "references": [
+    "https://rent.pe.ntu.edu.tw/venues/?K=86",
+    "https://visitorcenter.ntu.edu.tw/News_Content_n_74842_s_81632.html"
+  ],
+  "notes": "A light metal roof, neutral wall panels and a maple-color floor evoke the third-floor main court. The building envelope follows the retained concert footprint. Other campus sports facilities are outside the modeled volume."
+}

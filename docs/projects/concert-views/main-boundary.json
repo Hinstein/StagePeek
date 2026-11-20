@@ -124,6 +124,14 @@
     "server/venue-preview.mjs": "74616ea3df5920f924257b3df3a4b30d8811e9f36ec16e1e3cfdc7f814cb9ae0",
     "server/venues.mjs": "452b564bac8fb5993553b5cca70518976448e81386e1a7b96357d54c96d6a7e3"
   },
+  "concertStageReleaseReview": {
+    "scope": "Build Meshopt venue shells and retain the manually verified concert calendar in the venue timezone.",
+    "files": {
+      "package-lock.json": "a119e94fa8bb5bc1c00b700b59cfe46168e878176bd4e8be986d7a7cef0f6d25",
+      "package.json": "1028f05bc20514dcfffd9f6c453a166144887637cc5559ff48680485da8b525a",
+      "server/events.mjs": "6f1ea06c8fe4e9dece0ae71a8b3eced3d88a918c44b56532fa7128cf1bd88e14"
+    }
+  },
   "consumerPresentationReview": {
     "date": "2026-11-05",
     "scope": "User-requested consumer copy cleanup and five-language interface completion, including accessible text and language switching with view state. Original main hashes retained; auth, billing, source data and publication logic stay protected. User-approved compact B layout is shared by public explore and concert views, including the aligned navigation frame and collapsed guide.",

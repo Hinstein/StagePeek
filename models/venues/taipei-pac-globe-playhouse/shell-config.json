@@ -1,0 +1,33 @@
+{
+  "type": "theatre",
+  "wallMargin": 4.9,
+  "clearHeight": 19.4,
+  "cornerCut": 0,
+  "entryEdge": 3,
+  "bays": 13,
+  "bands": [
+    0.24,
+    0.47,
+    0.66
+  ],
+  "sideBoxes": true,
+  "proscenium": true,
+  "slatWidth": 0.19,
+  "facadeDome": 8.8,
+  "facade": "68798B",
+  "trim": "60646E",
+  "plinth": "717780",
+  "lining": "64656F",
+  "interiorTrim": "979BA8",
+  "glazing": "A8B2BD",
+  "accent": "E6BD83",
+  "floor": "6B5D53",
+  "roof": "88939E",
+  "steel": "85898E",
+  "seat": "595865",
+  "references": [
+    "https://space.tpac-taipei.org/place/GlobePlayhouse",
+    "https://www.oma.com/projects/taipei-performing-arts-center"
+  ],
+  "notes": "Layered acoustic bands and a stage-end frame enclose the retained auditorium. An attached aluminium cap evokes the spherical room projecting from the main complex."
+}

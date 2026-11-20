@@ -1,0 +1,75 @@
+{
+  "venueId": "birds-nest",
+  "generator": "blender-bpy",
+  "version": 1,
+  "coordinateBasis": "estimated-parametric",
+  "upAxis": "+Y",
+  "units": "meters",
+  "precision": "illustrative",
+  "lightingPreset": "stadium-dusk",
+  "sourceSeatsCount": 0,
+  "visualSeating": {
+    "precision": "illustrative",
+    "layer": "runtime-parametric",
+    "chairCount": 78220
+  },
+  "seatBounds": {
+    "min": [
+      -113.125,
+      2.183,
+      -142.125
+    ],
+    "max": [
+      113.125,
+      47.708,
+      142.125
+    ],
+    "size": [
+      226.249,
+      45.525,
+      284.25
+    ],
+    "center": [
+      0,
+      24.946,
+      0
+    ]
+  },
+  "bounds": {
+    "min": [
+      -142,
+      -0.742,
+      -171
+    ],
+    "max": [
+      142,
+      67.922,
+      171
+    ]
+  },
+  "roofNodeNames": [
+    "shell_roof_canopy_etfe_1",
+    "shell_roof_canopy_etfe_2",
+    "shell_roof_canopy_etfe_3",
+    "shell_roof_truss_box_steel",
+    "shell_roof_truss_lattice_bracing"
+  ],
+  "ribbonNodeNames": [
+    "shell_ribbon_led_approach_static",
+    "shell_ribbon_led_bowl_edge",
+    "shell_ribbon_led_egress_static",
+    "shell_ribbon_led_housing"
+  ],
+  "assetBytes": 1896036,
+  "meshPrimitives": 30,
+  "roofTrussClearanceAboveIllustrativeSeating": 5.319,
+  "referenceUrls": [
+    "https://www.herzogdemeuron.com/projects/226-national-stadium/",
+    "https://www.arup.com/en-us/projects/chinese-national-stadium/"
+  ],
+  "notes": [
+    "Original interpretation of the Bird's Nest open steel facade, saddle-shaped roof lattice and translucent membrane ring.",
+    "The enclosed red bowl and open concourse lattice remain visible when toggling the roof.",
+    "Existing anonymous runtime seating fills the section-only catalog. Shell and seating are indicative visual geometry."
+  ]
+}

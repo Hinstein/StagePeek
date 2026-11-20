@@ -1,0 +1,29 @@
+{
+  "type": "hall",
+  "wallMargin": 4.8,
+  "clearHeight": 10,
+  "cornerCut": 0,
+  "entryEdge": 1,
+  "bays": 10,
+  "bands": [
+    0.25,
+    0.61
+  ],
+  "led": false,
+  "facade": "7F8184",
+  "trim": "343840",
+  "plinth": "66676A",
+  "lining": "67646A",
+  "interiorTrim": "A2968D",
+  "glazing": "597B8A",
+  "accent": "C9A87E",
+  "floor": "42444D",
+  "roof": "979896",
+  "steel": "6B7075",
+  "seat": "563945",
+  "references": [
+    "https://www.asiaworld-expo.com/en-us/planning/venues/runway-11/venue-gallery/",
+    "https://www.asiaworld-expo.com/en-us/planning/capacity-table/"
+  ],
+  "notes": "A column-free function hall with dark event flooring and a warm-toned conference wall treatment. The end and compact seating configurations retain their catalog coordinates. The exterior represents the enclosed hall within AsiaWorld-Expo."
+}

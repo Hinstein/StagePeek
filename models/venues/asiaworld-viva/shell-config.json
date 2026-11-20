@@ -1,0 +1,29 @@
+{
+  "type": "hall",
+  "wallMargin": 4.7,
+  "clearHeight": 10.4,
+  "cornerCut": 0,
+  "entryEdge": 1,
+  "bays": 17,
+  "bands": [
+    0.22,
+    0.5
+  ],
+  "led": true,
+  "facade": "596B78",
+  "trim": "313D45",
+  "plinth": "56636A",
+  "lining": "343D49",
+  "interiorTrim": "566775",
+  "glazing": "3C677E",
+  "accent": "6F9AA7",
+  "floor": "414955",
+  "roof": "89949C",
+  "steel": "73808A",
+  "seat": "424951",
+  "references": [
+    "https://www.asiaworld-expo.com/en-us/planning/venues/hall-6-8-n-10/",
+    "https://www.mehongkong.com/eng/home/planning/venue-and-hotel-search/detail/venue/AsiaWorld-Expo.html"
+  ],
+  "notes": "Repeated black steel spans and a restrained exhibition finish enclose the full flexible hall arrangement, including the extended run of retained seats. The enclosure represents the configurable exhibition halls within the larger AsiaWorld-Expo complex."
+}

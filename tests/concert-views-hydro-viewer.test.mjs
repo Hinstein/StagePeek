@@ -11,6 +11,8 @@ import {chairGeometry} from '../public/concert-views/chair-geometry.mjs';
 import {chairParts} from '../public/concert-views/spatial.mjs';
 import {phoneFrameRect} from '../public/concert-views/explorer-state.mjs';
 import {roofStructure} from '../public/concert-views/scene-geometry.mjs';
+import {createVenueShell} from '../public/concert-views/venue-shell.mjs';
+import {fitSceneView} from '../public/concert-views/scene-camera.mjs';
 
 const source=readFileSync(new URL('../public/concert-views/hydro-viewer.mjs',import.meta.url),'utf8');
 const model=buildHydroDisplay(loadGlobalSources().get('ovo-hydro'),'hydro-event-noah-kahan-20261105');
@@ -59,7 +61,7 @@ test('shipped Hydro viewer preserves camera on model changes and seated taps can
  let renderedScene,renderedCamera,viewport;
  const renderer=class {setPixelRatio(){}setSize(){}setViewport(...args){viewport=args;}setScissor(){}setScissorTest(){}clear(){}render(scene,camera){renderedScene=scene;renderedCamera=camera;}dispose(){}};
  const Observer=class {observe(){}disconnect(){}};
- const create=new Function('venuePalette','THREE','OrbitControls','chairGeometry','chairParts','document','ResizeObserver','devicePixelRatio','createHydroCamera','HYDRO_CAMERA_POLICY','phoneFrameRect','roofStructure','copy',source.replace(/^import .*;\n/gm,'').replace('export function','function')+';return createHydroViewer;')(venuePalette,{...THREE,WebGLRenderer:renderer},Controls,chairGeometry,chairParts,document,Observer,1,createHydroCamera,HYDRO_CAMERA_POLICY,phoneFrameRect,roofStructure,text=>text);
+ const create=new Function('venuePalette','THREE','OrbitControls','chairGeometry','chairParts','document','ResizeObserver','devicePixelRatio','createHydroCamera','HYDRO_CAMERA_POLICY','phoneFrameRect','roofStructure','fitSceneView','createVenueShell','copy',source.replace(/^import .*;\n/gm,'').replace('export function','function')+';return createHydroViewer;')(venuePalette,{...THREE,WebGLRenderer:renderer},Controls,chairGeometry,chairParts,document,Observer,1,createHydroCamera,HYDRO_CAMERA_POLICY,phoneFrameRect,roofStructure,fitSceneView,createVenueShell,text=>text);
  const canvas=new Canvas();let picks=0;
  const viewer=create(canvas,()=>picks++);viewer.setModel(model);
  const aisle=renderedScene.children.flatMap(o=>o.children).find(o=>o.material?.color?.getHexString()==='737b90');

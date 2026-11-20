@@ -1,0 +1,91 @@
+{
+  "venueId": "kai-tak-arena",
+  "generator": "blender-bpy",
+  "version": 1,
+  "units": "metres",
+  "upAxis": "+Y",
+  "coordinateBasis": "catalog-parametric-display",
+  "precision": "illustrative",
+  "sourceSeatsCount": 0,
+  "seatBounds": {
+    "min": [
+      -41.61538461538462,
+      0.7323529411764705,
+      -53.6153845956188
+    ],
+    "max": [
+      41.61538461538462,
+      9.865384615384615,
+      53.6153845956188
+    ]
+  },
+  "geometryClearance": {
+    "testedIllustrativeSeatPositions": 12088,
+    "testedAisleTreads": 360,
+    "tests": {
+      "illustrative-chair": 0,
+      "aisle": 0,
+      "end": 0,
+      "runway": 0,
+      "center": 0
+    }
+  },
+  "layoutClearance": {
+    "end": {
+      "roofAboveHighestSeatBase": 7.345,
+      "stageParts": 4,
+      "illustrativePositions": 12088
+    },
+    "runway": {
+      "roofAboveHighestSeatBase": 7.345,
+      "stageParts": 6,
+      "illustrativePositions": 12088
+    },
+    "center": {
+      "roofAboveHighestSeatBase": 7.345,
+      "stageParts": 2,
+      "illustrativePositions": 12088
+    }
+  },
+  "illustrativeSeatElements": 360,
+  "lightingPreset": "arena-dark",
+  "references": [
+    {
+      "url": "https://www.arup.com/en-us/projects/kai-tak-arena/",
+      "use": "Grand Hall long-span trusses, movable banks, interior and plaza photographs"
+    },
+    {
+      "url": "https://www.kaitaksportspark.com.hk/venues-spaces/5",
+      "use": "Operator identifies the Grand Hall and Sports Hall"
+    }
+  ],
+  "notes": "Original schematic of the indoor Grand Hall, fitted to the catalog's display coordinates. The green plaza fins, recessed lobby, timber floor, steel roof and photovoltaic arrays are interpretations of the public references. Dimensions are illustrative. Render-only row ribbons carry no individual seats or ticket identities.",
+  "bounds": {
+    "min": [
+      -51.95000076293945,
+      -1,
+      -64.5999984741211
+    ],
+    "max": [
+      51.70000076293945,
+      22.649999618530273,
+      64.5999984741211
+    ]
+  },
+  "roofNodeNames": [
+    "shell_roof_canopy_deck",
+    "shell_roof_canopy_seams",
+    "shell_roof_canopy_solar",
+    "shell_roof_truss_chords",
+    "shell_roof_truss_lights",
+    "shell_roof_truss_purlins",
+    "shell_roof_truss_webs"
+  ],
+  "ribbonNodeNames": [
+    "shell_ribbon_led_concourse",
+    "shell_ribbon_led_housing_concourse",
+    "shell_ribbon_led_vomitories_static"
+  ],
+  "assetBytes": 1416692,
+  "meshPrimitives": 46
+}

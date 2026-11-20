@@ -1,0 +1,30 @@
+{
+  "type": "theatre",
+  "wallMargin": 3.2,
+  "clearHeight": 20.0,
+  "cornerCut": 0,
+  "entryEdge": 1,
+  "bays": 7,
+  "bands": [
+    0.37,
+    0.64
+  ],
+  "slatWidth": 0.14,
+  "proscenium": true,
+  "facade": "B2B1A7",
+  "trim": "627479",
+  "plinth": "979B98",
+  "lining": "86664E",
+  "interiorTrim": "A9876D",
+  "glazing": "698982",
+  "accent": "E6C598",
+  "floor": "775944",
+  "roof": "A3A59A",
+  "steel": "74726B",
+  "seat": "803A46",
+  "references": [
+    "https://english.tapo.gov.taipei/cp.aspx?n=5F1D49C0F736D515&s=6F624ABE0214FBBD",
+    "https://www.tapo.gov.taipei/cp.aspx?n=85B4C4B75A95B778"
+  ],
+  "notes": "A lighter civic-theatre frontage and glazed access bays recall the renewed Metropolitan Hall plaza. Two restrained auditorium bands frame the upper levels. Orchestra-pit and lower-house positions are left to the retained model."
+}

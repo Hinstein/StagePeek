@@ -38,6 +38,17 @@ function fitGenericStageRig(venue,rects){
   const scale=.94/required;
   return rects.map(rect=>({...rect,x:rect.x*scale,z:rect.z*scale,w:rect.w*scale,d:rect.d*scale,previewScale:scale}));
 }
+function runwayFromStage(main,length,width,platform){
+  const front=main.x-main.w/2;
+  const runway={x:front-length/2,z:main.z,w:length,d:width,h:main.h};
+  if(!platform)return [main,runway];
+  return [main,runway,{x:front-length-platform.w/2,z:main.z,...platform,h:main.h}];
+}
+export function stageFootprint(rect){
+  if(rect.outline)return rect.outline;
+  const c=Math.cos(rect.angle||0),s=Math.sin(rect.angle||0),x=rect.w/2,z=rect.d/2;
+  return [[-x,-z],[x,-z],[x,z],[-x,z]].map(([dx,dz])=>[rect.x+dx*c+dz*s,rect.z-dx*s+dz*c]);
+}
 export function proposedStageRects(layout,venue){
   if(layout==='none'||(layout==='event'&&!venue?.eventLayout?.stageRects?.length&&!venue?.researchRenderBatch?.stage))return [];
   if(venue?.researchRenderBatch?.stage&&(
@@ -60,7 +71,13 @@ export function proposedStageRects(layout,venue){
       source:'event-seat-map',confidence:venue.eventLayout.confidence||'operator-traced'
     }));
   }
-  if(venue?.seatLayout){const s=venue.sourceStage;return s?[{x:s.x,z:s.z,w:s.width,d:s.depth,h:s.height}]:[];}
+  if(venue?.seatLayout){
+    const stage=venue.sourceStage;
+    if(!stage)return [];
+    // The Grand Theatre shell is calibrated to the black deck in TPAC's technical plan.
+    const finish=stage.finish??(venue.id==='taipei-pac-grand-theater'?'black-wood':undefined);
+    return [{x:stage.x,z:stage.z,w:stage.width,d:stage.depth,h:stage.height,...(stage.outline?{outline:stage.outline}:{}),...(finish?{finish}:{})}];
+  }
   const profile=venue?.geometry?.stage;
   if(profile&&layout!=='center'){
     const main={x:profile.x??0,z:profile.z??0,w:profile.width,d:profile.depth,h:profile.height??1.5};
@@ -79,13 +96,13 @@ export function proposedStageRects(layout,venue){
     };
     if(layout==='center')return fitGenericStageRig(venue,[fit({x:0,z:0,w:Math.min(24,rx*.7),d:Math.min(24,rz*.7)})]);
     const main=fit({x:rx*.4,z:0,w:Math.min(22,rx*.55),d:Math.min(32,rz*.85)});
-    return fitGenericStageRig(venue,layout==='runway'?[main,fit({x:rx*.12,z:0,w:rx*.55,d:Math.min(5,rz*.14)})]:[main]);
+    return fitGenericStageRig(venue,layout==='runway'?runwayFromStage(main,rx*.55,Math.min(5,rz*.14)):[main]);
   }
   const [floorX,floorZ]=venueFloor(venue),r=venueRadius(venue);
   const width=Math.max(12,Math.min(32,floorX*.15)),depth=Math.max(16,Math.min(48,floorZ*.42));
   const edge=['rectangle','fan','rear'].includes(venueShape(venue))?Math.max(0,floorX/2-width/2-1):Math.max(r*.72,floorX*.32);
   if(layout==='center')return fitGenericStageRig(venue,[{x:0,z:0,w:Math.max(18,Math.min(32,floorX*.18)),d:Math.max(18,Math.min(32,floorZ*.18))}]);
-  if(layout==='runway')return fitGenericStageRig(venue,[{x:edge,z:0,w:width,d:depth},{x:edge*.58,z:0,w:Math.max(24,width*1.9),d:Math.max(4,width*.23)},{x:edge*.28,z:0,w:Math.max(12,width*.75),d:Math.max(12,width*.38)}]);
+  if(layout==='runway')return fitGenericStageRig(venue,runwayFromStage({x:edge,z:0,w:width,d:depth},Math.max(12,edge*.55),Math.max(4,width*.23),{w:Math.max(8,width*.6),d:Math.max(8,width*.38)}));
   return fitGenericStageRig(venue,[{x:edge,z:0,w:width,d:depth}]);
 }
 export const performer=(layout,venue)=>{const s=stageRects(layout,venue)[0];if(!s)return null;if(venue?.geometry?.referenceLayout?.performer)return [...venue.geometry.referenceLayout.performer];return [s.x,(s.base??0)+(s.h??2.2),s.z];};

@@ -1,0 +1,49 @@
+{
+  "venueId": "ntu-sports-center",
+  "generator": "blender-bpy",
+  "template": "hall",
+  "version": 1,
+  "units": "metres",
+  "upAxis": "+Y",
+  "bounds": {
+    "min": [
+      -26.71,
+      -0.385,
+      -7.45
+    ],
+    "max": [
+      26.71,
+      18.2005,
+      55.1
+    ]
+  },
+  "precision": "illustrative",
+  "lightingPreset": "arena-dark",
+  "sourceLayouts": [
+    {
+      "id": "end",
+      "sourceSeats": 2364,
+      "renderedSeats": 2364,
+      "stageParts": 2,
+      "topSeat": 0
+    }
+  ],
+  "assetBytes": 278192,
+  "meshPrimitives": 15,
+  "roofNodeNames": [
+    "shell_roof_canopy",
+    "shell_roof_canopy_fascia",
+    "shell_roof_canopy_soffit",
+    "shell_roof_truss",
+    "shell_roof_truss_acoustic"
+  ],
+  "ribbonNodeNames": [
+    "shell_ribbon_led_entry_static"
+  ],
+  "references": [
+    "https://rent.pe.ntu.edu.tw/venues/?K=86",
+    "https://visitorcenter.ntu.edu.tw/News_Content_n_74842_s_81632.html",
+    "https://twconcertview.com/en/3d/ntu-sports-center"
+  ],
+  "notes": "A light metal roof, neutral wall panels and a maple-color floor evoke the third-floor main court. The building envelope follows the retained concert footprint. Other campus sports facilities are outside the modeled volume. Architectural surfaces are illustrative. No source ticket, seat or event data is embedded."
+}

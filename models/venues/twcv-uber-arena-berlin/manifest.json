@@ -1,0 +1,61 @@
+{
+  "venueId": "twcv-uber-arena-berlin",
+  "generator": "blender-bpy",
+  "version": 1,
+  "coordinateSystem": "source-model-xyz",
+  "upAxis": "+Y",
+  "unit": "meter",
+  "lightingPreset": "arena-dark",
+  "modelQuality": "illustrative source-aligned architectural shell",
+  "sources": [
+    "https://www.uber-arena.de/en/the-venue/facts/",
+    "https://www.uber-arena.de/pages/18/",
+    "https://www.gbp-architekten.de/projekte/projekt/o2-world-jetzt-mercedes-benz-arena.html",
+    "https://www.aeggp.com/venues/uber-arena"
+  ],
+  "limitations": [
+    "Curved glass and the 105 degree media facade use public venue dimensions and original illustrative optics.",
+    "The curtain wall pixel pattern is static illustrative lighting. The model includes no event media, signage or third-party meshes.",
+    "Bowl trim, suite glazing, roof and floor are source-aligned architectural interpretations without a surveyed transform.",
+    "The main approach is represented at the positive-Z end of the retained bowl frame.",
+    "The source chairs and layout stage remain in the runtime. The neutral floor represents the existing concert preset."
+  ],
+  "clearance": {
+    "sourceChairsChecked": 11256,
+    "aisleTreadsChecked": 336,
+    "stagePartsChecked": 2,
+    "lowestRoofTrussAboveHighestSeatBase": 3.232,
+    "smallestFacadeMarginAtSeatBase": 13.593,
+    "seatIntersections": 0,
+    "aisleIntersections": 0,
+    "stageIntersections": 0
+  },
+  "bounds": {
+    "min": [
+      -67.21,
+      -0.46,
+      -80.72
+    ],
+    "max": [
+      67.21,
+      34.837,
+      84.72
+    ]
+  },
+  "roofNodeNames": [
+    "shell_roof_canopy_fascia",
+    "shell_roof_canopy_main",
+    "shell_roof_canopy_soffit",
+    "shell_roof_canopy_standing_seams",
+    "shell_roof_canopy_trim",
+    "shell_roof_truss_lamp_bodies",
+    "shell_roof_truss_lamp_lenses",
+    "shell_roof_truss_lattice"
+  ],
+  "ribbonNodeNames": [
+    "shell_ribbon_led",
+    "shell_ribbon_led_housing"
+  ],
+  "assetBytes": 2306248,
+  "meshPrimitives": 39
+}

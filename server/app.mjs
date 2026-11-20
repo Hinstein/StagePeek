@@ -1,4 +1,5 @@
 import {createServer} from 'node:http';
+import {venueShellVariant} from './venue-shell-delivery.mjs';
 import {readFile,realpath,stat} from 'node:fs/promises';
 import {concertViewsPage} from './concert-views/page.mjs';
 import {packSourceSeats} from '../public/seating.mjs';
@@ -20,6 +21,7 @@ import {createPublicSite,homeMetadata,homeSchema,localizeHomeHtml,localizeInterf
 import {DEFAULT_LOCALE,localizedPath,parseLocalizedPath} from './locales.mjs';
 
 const publicRoot=resolve(fileURLToPath(new URL('../public/',import.meta.url)));
+const shellRoot=fileURLToPath(new URL('../models/venues/',import.meta.url));
 const MIME={'.html':'text/html; charset=utf-8','.mjs':'text/javascript; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.svg':'image/svg+xml','.png':'image/png','.txt':'text/plain; charset=utf-8','.xml':'application/xml; charset=utf-8'};
 function cookies(req){return Object.fromEntries(String(req.headers.cookie||'').split(';').map(x=>x.trim().split(/=(.*)/s).slice(0,2)).filter(x=>x.length===2));}
 function loopback(address){return ['127.0.0.1','::1','::ffff:127.0.0.1'].includes(address);}
@@ -64,6 +66,10 @@ export function createApplication({db,config,venues,events=null,ticketing=null,t
       const allowed=[new URL(config.appUrl).origin,...(config.allowedOrigins||[])];
       if(!allowed.some(x=>new URL(x).host===req.headers.host))throw fault(403,'INVALID_HOST','Unrecognized request host');
       const url=new URL(req.url,config.appUrl),path=url.pathname,method=req.method,localized=publicSite.parse(path),basePath=localized.path,locale=localized.locale;
+      if(basePath==='/concert-views'||basePath==='/explore'){
+        const policy=res.getHeader('Content-Security-Policy');
+        res.setHeader('Content-Security-Policy',policy.replace("script-src 'self'","script-src 'self' 'wasm-unsafe-eval'"));
+      }
       // Only registered editorial pages and approved public media are indexable.
       // Tool state, auth/account utilities, drafts and staging fail closed.
       if(!config.production||config.appUrl!=='https://stagepeek.live'||url.search||!publicSite.isIndexable(path))res.setHeader('X-Robots-Tag','noindex, nofollow');
@@ -81,9 +87,34 @@ export function createApplication({db,config,venues,events=null,ticketing=null,t
       if(path.startsWith('/api/')&&!webhook)(await limit(db,'http:'+hash(req.socket.remoteAddress||''),240,60_000,clock()));
       if(handleShared&&await handleShared(req,res,url,user))return;
       const publicScene=venues.release&&/^\/concert-views\/[a-z0-9-]+\.(mjs|css)$/.test(concertPath);
-      if(concertRequest&&!publicScene){
+      const sharedScene=/^\/concert-views\/(?:venue-shell|scene-v2-kit|scene-camera)\.mjs$/.test(concertPath);
+      if(concertRequest&&!publicScene&&!sharedScene){
         if(!concertViews||!(config.production?isAdmin(user):config.devPreviewAllVenues&&localMode()&&loopback(req.socket.remoteAddress)))throw fault(404,'NOT_FOUND','Not found');
         if(await concertViews.handle(req,res,url,{path:basePath,locale}))return;
+      }
+      const shell=path.match(/^\/models\/venues\/([a-z0-9-]+)\/shell\.glb$/);
+      if(shell&&['GET','HEAD'].includes(method)){
+        const file=resolve(shellRoot,shell[1],'shell.glb');
+        const actual=await realpath(file).catch(error=>{if(error.code!=='ENOENT')throw error;});
+        const canPreview=config.production?isAdmin(user):config.devPreviewAllVenues&&localMode()&&loopback(req.socket.remoteAddress);
+        res.setHeader('Cache-Control','private, no-store');
+        if(actual!==file||!((await access(user)).venueIds.includes(shell[1])||canPreview&&concertViews?.venues.get(shell[1]))){
+          res.writeHead(204);return res.end();
+        }
+        const info=await stat(file);
+        if(!info.isFile()){res.writeHead(204);return res.end();}
+        const optimized=url.searchParams.get('format')==='meshopt';
+        const variant=optimized?await venueShellVariant(shell[1],file,info,req.headers['accept-encoding']):null;
+        const tag=variant?.etag??`"${info.size.toString(16)}-${info.mtimeMs.toString(16)}-${info.ctimeMs.toString(16)}"`;
+        res.setHeader('Cache-Control','private, no-cache');
+        if(optimized)res.setHeader('Vary','Accept-Encoding');
+        if(variant?.encoding==='gzip')res.setHeader('Content-Encoding','gzip');
+        res.setHeader('ETag',variant?tag:'W/'+tag);
+        if(req.headers['if-none-match']?.split(',').some(value=>value.trim()==='*'||value.trim().replace(/^W\//,'')===tag)){
+          res.writeHead(304);return res.end();
+        }
+        res.writeHead(200,{'Content-Type':'model/gltf-binary','Content-Length':variant?.bytes??info.size});
+        return res.end(method==='HEAD'?null:await readFile(variant?.path??file));
       }
       if(venues.release&&path.startsWith('/api/viewer/')){
         const hydro=path==='/api/viewer/hydro/ovo-hydro';
@@ -223,7 +254,13 @@ export function createApplication({db,config,venues,events=null,ticketing=null,t
         if(!operation&&method==='GET'){const venue=venues.get(id,url.searchParams.get('layout')||undefined);if(!venue)throw fault(422,'UNKNOWN_LAYOUT','This source layout is unavailable');return json(res,200,{venue:venue.sourceSeats?{...venue,sourceSeats:undefined,seatTuples:packSourceSeats(venue.sourceSeats)}:venue});}
         if(operation==='resolve'&&method==='POST')return json(res,200,venues.resolve(id,await body(req)));
         if(operation==='events'&&method==='GET'){
-          if(venues.release)return json(res,200,{events:[],researchConcerts:concertViews.previews.list(id).map(draft=>({id:draft.id,name:draft.label,localDate:draft.dates[0],dates:draft.dates,source:draft.source,researchOnly:true,ticketMapDraft:{id:draft.id,version:draft.version,seatLayoutId:draft.seatLayoutId}}))});
+          if(venues.release){
+            const calendar=events?.list(id);
+            const published=publishedEvents?.list(id)||[];
+            const publishedIds=new Set(published.map(event=>event.id));
+            const dates=calendar?.status==='curated'?calendar.events.filter(event=>!publishedIds.has(event.id)&&event.category==='music'&&event.verificationStatus!=='candidate'&&event.status!=='candidate').map(event=>({...event,layout:{...event.layout,model:null,stageVerification:'unverified'}})):[];
+            return json(res,200,{events:[...dates,...published].sort((a,b)=>a.startDate?.localeCompare(b.startDate)||a.localDate.localeCompare(b.localDate)),researchConcerts:concertViews.previews.list(id).map(draft=>({id:draft.id,name:draft.label,localDate:draft.dates[0],dates:draft.dates,source:draft.source,researchOnly:true,ticketMapDraft:{id:draft.id,version:draft.version,seatLayoutId:draft.seatLayoutId}}))});
+          }
           const official=events?events.list(id):{events:[],refreshedAt:null,status:'not-fetched'};
           const provider=ticketingEvents?.list(id)||{events:[],refreshedAt:null,status:'not-fetched'};
           const providerKey=value=>{const match=String(value||'').match(/\/event\/([A-Za-z0-9_-]+)/i);return match?.[1]||null;};
@@ -298,7 +335,7 @@ export function createApplication({db,config,venues,events=null,ticketing=null,t
         if(content)content=Buffer.from(content.toString('utf8').replace('</head>',tracking+'</head>'));
         res.setHeader('Content-Security-Policy',String(res.getHeader('Content-Security-Policy')).replace("script-src 'self'",`script-src 'self' ${ANALYTICS_ORIGIN}`).replace("connect-src 'self'",`connect-src 'self' ${ANALYTICS_ORIGIN}`));
       }
-      res.writeHead(200,{'Content-Type':MIME[extname(actual)],'Cache-Control':concertRequest?'private, no-store':actual.includes(sep+'vendor'+sep)?'public, max-age=86400':'no-cache'});res.end(content);
+      res.writeHead(200,{'Content-Type':MIME[extname(actual)],'Cache-Control':concertRequest?'private, no-store':path==='/vendor/meshopt-decoder-1.3.0.mjs'?'public, max-age=31536000, immutable':actual.includes(sep+'vendor'+sep)?'public, max-age=86400':'no-cache'});res.end(content);
       };
       return await (shared&&!webhook&&db.withIdentity?db.withIdentity(user?.id||null,handle):handle());
     }catch(error){

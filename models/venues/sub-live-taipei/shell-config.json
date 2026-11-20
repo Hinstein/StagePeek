@@ -1,0 +1,30 @@
+{
+  "type": "hall",
+  "wallMargin": 3.2,
+  "clearHeight": 12.2,
+  "cornerCut": 0,
+  "entryEdge": 2,
+  "bays": 8,
+  "bands": [
+    0.31,
+    0.46,
+    0.65
+  ],
+  "led": true,
+  "facade": "394650",
+  "trim": "232F38",
+  "plinth": "4C4E58",
+  "lining": "283B47",
+  "interiorTrim": "486372",
+  "glazing": "578596",
+  "accent": "61B3B6",
+  "floor": "404B56",
+  "roof": "4D6274",
+  "steel": "5D7887",
+  "seat": "455369",
+  "references": [
+    "https://pmdb.taipei/venues?siteid=TP"
+  ],
+  "notes": "The documented multi-level live room has exposed overhead steel and wall-supported gallery decks. Gallery lips and guardrails follow the retained standing polygons. The architectural details are indicative.",
+  "standingGalleries": true
+}

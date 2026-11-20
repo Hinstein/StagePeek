@@ -15,7 +15,7 @@ export function stageBoxesFromRects(layout,venue,rects){
       return;
     }
     boxes.push({kind:'platform',index,size:[r.w,h,r.d],center:[r.x,(r.base??0)+h/2,r.z],angle:r.angle??0});
-    boxes.push({kind:'top',index,size:[Math.max(.1,r.w-.7),.14,Math.max(.1,r.d-.7)],center:[r.x,(r.base??0)+h+.07,r.z],angle:r.angle??0});
+    if(!r.finish&&!r.outline)boxes.push({kind:'top',index,size:[Math.max(.1,r.w-.7),.14,Math.max(.1,r.d-.7)],center:[r.x,(r.base??0)+h+.07,r.z],angle:r.angle??0});
     if(layout!=='event'&&!venue.seatLayout&&!venue.geometry?.referenceLayout&&layout!=='center'&&index===0){
       const alongZ=!!venue.geometry?.stage||Math.abs(r.z)>Math.abs(r.x),sign=alongZ&&venue.geometry?.stage?.facing ? -venue.geometry.stage.facing : ((alongZ?r.z:r.x)>=0?1:-1);
       const height=Math.max(4,Math.min(10,Math.max(r.w,r.d)*.38)),width=(alongZ?r.w:r.d)*.93,back=(alongZ?r.z:r.x)+sign*((alongZ?r.d:r.w)/2-.12);
@@ -50,7 +50,8 @@ export function polygonIntersectsBox(points,box){
  if([0,1,2].some(i=>Math.min(...local.map(p=>p[i]))>=half[i]||Math.max(...local.map(p=>p[i]))<=-half[i]))return false;
  // Renderer triangulates quads; handle both triangles independently (saddle
  // treads need not be planar).
- for(const indices of [[0,1,2],[0,2,3]]){
+ for(let triangle=1;triangle<local.length-1;triangle++){
+  const indices=[0,triangle,triangle+1];
   let poly=indices.map(i=>local[i]);
   for(let axis=0;axis<3&&poly.length;axis++)for(const sign of [-1,1]){
    const out=[];
@@ -64,4 +65,32 @@ export function polygonIntersectsBox(points,box){
   if(poly.length>=3)return true;
  }
  return false;
+}
+
+// Cut estimated shell faces around the displayed stage. Retained chairs and
+// stage coordinates stay fixed; only the overlapping inferred surface is cut.
+export function surfaceOutsideBoxes(points,boxes){
+ let faces=[points];
+ for(const box of boxes){
+  const c=Math.cos(box.angle||0),s=Math.sin(box.angle||0);
+  faces=faces.flatMap(face=>{
+   if(!polygonIntersectsBox(face,box))return [face];
+   const local=face.map(p=>{const x=p[0]-box.center[0],z=p[2]-box.center[2];return [x*c-z*s,p[1]-box.center[1],x*s+z*c];}),outside=[];
+   for(let triangle=1;triangle<local.length-1;triangle++){
+    let remaining=[local[0],local[triangle],local[triangle+1]];
+    for(let axis=0;axis<3&&remaining.length;axis++)for(const sign of [-1,1]){
+     const inner=[],outer=[];
+     for(const [i,a]of remaining.entries()){
+      const b=remaining[(i+1)%remaining.length],da=box.size[axis]/2-sign*a[axis],db=box.size[axis]/2-sign*b[axis];
+      (da>=0?inner:outer).push(a);
+      if((da>=0)!==(db>=0)){const t=da/(da-db),p=a.map((v,j)=>v+(b[j]-v)*t);inner.push(p);outer.push(p);}
+     }
+     if(outer.length>=3)outside.push(outer);
+     remaining=inner;
+    }
+   }
+   return outside.map(poly=>poly.map(([x,y,z])=>[box.center[0]+x*c+z*s,box.center[1]+y,box.center[2]-x*s+z*c]));
+  });
+ }
+ return faces;
 }

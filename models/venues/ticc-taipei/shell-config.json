@@ -1,0 +1,32 @@
+{
+  "type": "theatre",
+  "wallMargin": 4.0,
+  "clearHeight": 32.5,
+  "cornerCut": 0,
+  "entryEdge": 1,
+  "bays": 12,
+  "bands": [
+    0.26,
+    0.42,
+    0.57,
+    0.73
+  ],
+  "slatWidth": 0.17,
+  "sideBoxes": true,
+  "proscenium": true,
+  "facade": "9A9790",
+  "trim": "676760",
+  "plinth": "A8A29A",
+  "lining": "796453",
+  "interiorTrim": "9B8067",
+  "glazing": "556B76",
+  "accent": "CBA874",
+  "floor": "6B5948",
+  "roof": "938D80",
+  "steel": "6F6A61",
+  "seat": "713F47",
+  "references": [
+    "https://www.ticc.com.tw/wSite/sp?BaseDSD=7&CtUnit=99&ctNode=322&mp=2&roomId=PH&xdUrl=%2FwSite%2Fap%2Fcp_VenueSearch.jsp"
+  ],
+  "notes": "Plenary Hall uses a tall slab profile inspired by the convention centre's stone frontage, with several acoustic wall bands for the multi-level auditorium. The projected presentation environment remains supplied by the runtime scene."
+}

@@ -1,0 +1,63 @@
+{
+  "venueId": "kai-tak-stadium",
+  "generator": "blender-bpy",
+  "version": 1,
+  "coordinateSystem": "source-model-xyz",
+  "upAxis": "+Y",
+  "unit": "meter",
+  "lightingPreset": "stadium-dusk",
+  "modelQuality": "illustrative source-aligned architectural shell",
+  "sources": [
+    "https://www.arup.com/projects/kai-tak-stadium/",
+    "https://populous.com/showcases/kai-tak-sports-park",
+    "https://www.kaitaksportspark.com.hk/venues-spaces/4"
+  ],
+  "limitations": [
+    "Model proportions follow retained source coordinates without surveyed metric calibration.",
+    "Triangular pearlescent cladding, glazed South Terrace and paired orthogonal trusses are simplified architectural interpretations.",
+    "Movable roof leaves are modeled in the near-closed position. The viewer toggles complete roof visibility.",
+    "The fixed bowl has no event stage. Pitch markings describe an illustrative football setup.",
+    "The original mesh and materials are generated locally. Source chairs and identities remain in the runtime."
+  ],
+  "clearance": {
+    "sourceChairsChecked": 48483,
+    "aisleTreadsChecked": 1721,
+    "stagePartsChecked": 0,
+    "lowestRoofTrussAboveHighestSeatBase": 5.746,
+    "smallestFacadeMargin": 5.605,
+    "seatIntersections": 0,
+    "aisleIntersections": 0,
+    "stageIntersections": 0
+  },
+  "bounds": {
+    "min": [
+      -112.0,
+      -0.82,
+      -139.0
+    ],
+    "max": [
+      112.0,
+      49.055,
+      141.0
+    ]
+  },
+  "roofNodeNames": [
+    "shell_roof_canopy_aperture",
+    "shell_roof_canopy_fixed",
+    "shell_roof_canopy_panel_seams",
+    "shell_roof_canopy_retractable_north",
+    "shell_roof_canopy_retractable_south",
+    "shell_roof_canopy_soffit",
+    "shell_roof_truss_lighting_housings",
+    "shell_roof_truss_lighting_lenses",
+    "shell_roof_truss_orthogonal",
+    "shell_roof_truss_panel_braces",
+    "shell_roof_truss_rolling_rails"
+  ],
+  "ribbonNodeNames": [
+    "shell_ribbon_led",
+    "shell_ribbon_led_housing"
+  ],
+  "assetBytes": 1214956,
+  "meshPrimitives": 39
+}

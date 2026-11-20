@@ -1,0 +1,49 @@
+{
+  "venueId": "taipei-pac-blue-box",
+  "generator": "blender-bpy",
+  "template": "theatre",
+  "version": 1,
+  "units": "metres",
+  "upAxis": "+Y",
+  "bounds": {
+    "min": [
+      -15.435,
+      -0.385,
+      -17.85
+    ],
+    "max": [
+      15.435,
+      15.6005,
+      23.363
+    ]
+  },
+  "precision": "illustrative",
+  "lightingPreset": "theatre-warm",
+  "sourceLayouts": [
+    {
+      "id": "end",
+      "sourceSeats": 493,
+      "renderedSeats": 493,
+      "stageParts": 2,
+      "topSeat": 5.81
+    }
+  ],
+  "assetBytes": 312288,
+  "meshPrimitives": 15,
+  "roofNodeNames": [
+    "shell_roof_canopy",
+    "shell_roof_canopy_fascia",
+    "shell_roof_canopy_soffit",
+    "shell_roof_truss",
+    "shell_roof_truss_acoustic"
+  ],
+  "ribbonNodeNames": [
+    "shell_ribbon_led_entry_static"
+  ],
+  "references": [
+    "https://space.tpac-taipei.org/place/bluebox",
+    "https://www.oma.com/projects/taipei-performing-arts-center",
+    "https://twconcertview.com/en/3d/taipei-pac-blue-box"
+  ],
+  "notes": "Blue Box is an adaptable black-box room inside the Taipei Performing Arts Center. Its understated dark lining and silver cladding frame the retained two seating levels. Architectural surfaces are illustrative. No source ticket, seat or event data is embedded."
+}

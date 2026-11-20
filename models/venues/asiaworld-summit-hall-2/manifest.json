@@ -1,0 +1,50 @@
+{
+  "venueId": "asiaworld-summit-hall-2",
+  "generator": "blender-bpy",
+  "template": "hall",
+  "version": 1,
+  "units": "metres",
+  "upAxis": "+Y",
+  "bounds": {
+    "min": [
+      -55.6658,
+      -0.385,
+      -41
+    ],
+    "max": [
+      56.7751,
+      12.0005,
+      28.3055
+    ]
+  },
+  "precision": "illustrative",
+  "lightingPreset": "arena-dark",
+  "sourceLayouts": [
+    {
+      "id": "end",
+      "sourceSeats": 5080,
+      "renderedSeats": 5080,
+      "stageParts": 2,
+      "topSeat": 0
+    }
+  ],
+  "assetBytes": 335220,
+  "meshPrimitives": 16,
+  "roofNodeNames": [
+    "shell_roof_canopy",
+    "shell_roof_canopy_fascia",
+    "shell_roof_canopy_soffit",
+    "shell_roof_truss",
+    "shell_roof_truss_acoustic"
+  ],
+  "ribbonNodeNames": [
+    "shell_ribbon_led_entry_static",
+    "shell_ribbon_led_perimeter"
+  ],
+  "references": [
+    "https://www.asiaworld-expo.com/en-us/planning/venues/asiaworld-summit/",
+    "https://www.asiaworld-expo.com/en-us/planning/venues/asiaworld-summit/venue-gallery/",
+    "https://www.asiaworld-expo.com/en-us/planning/venues/asiaworld-arena-%28hall-1%29-asiaworld-summit-%28hall-2%29/"
+  ],
+  "notes": "A broad single-span conference and events floor with pale upper framing and a warm acoustic backdrop. The shell encloses the retained Hall 2 arrangement. The height follows the published nominal clearance and the building outline follows the display envelope. Architectural surfaces are illustrative. No source ticket, seat or event data is embedded."
+}

@@ -1,0 +1,30 @@
+{
+  "type": "hall",
+  "wallMargin": 5.3,
+  "clearHeight": 10,
+  "cornerCut": 0,
+  "entryEdge": 2,
+  "bays": 14,
+  "bands": [
+    0.18,
+    0.48,
+    0.72
+  ],
+  "led": true,
+  "facade": "A1A2A1",
+  "trim": "545A64",
+  "plinth": "7B7C7D",
+  "lining": "7B736A",
+  "interiorTrim": "B3A496",
+  "glazing": "547C99",
+  "accent": "DCBA78",
+  "floor": "626369",
+  "roof": "AFB2B0",
+  "steel": "898F96",
+  "seat": "664536",
+  "references": [
+    "https://www.asiaworld-expo.com/en-us/planning/venues/asiaworld-summit/",
+    "https://www.asiaworld-expo.com/en-us/planning/venues/asiaworld-summit/venue-gallery/"
+  ],
+  "notes": "A broad single-span conference and events floor with pale upper framing and a warm acoustic backdrop. The shell encloses the retained Hall 2 arrangement. The height follows the published nominal clearance and the building outline follows the display envelope."
+}

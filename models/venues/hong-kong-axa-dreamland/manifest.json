@@ -1,0 +1,64 @@
+{
+  "venueId": "hong-kong-axa-dreamland",
+  "generator": "blender-bpy",
+  "template": "hall",
+  "version": 1,
+  "units": "metres",
+  "upAxis": "+Y",
+  "bounds": {
+    "min": [
+      -35.2477,
+      -0.36,
+      -39.2477
+    ],
+    "max": [
+      35.2477,
+      16.0155,
+      39.2477
+    ]
+  },
+  "precision": "illustrative",
+  "lightingPreset": "arena-dark",
+  "sourceLayouts": [
+    {
+      "id": "end",
+      "sourceSeats": 0,
+      "renderedSeats": 5480,
+      "stageParts": 4,
+      "topSeat": 8.8
+    },
+    {
+      "id": "runway",
+      "sourceSeats": 0,
+      "renderedSeats": 5480,
+      "stageParts": 8,
+      "topSeat": 8.8
+    },
+    {
+      "id": "center",
+      "sourceSeats": 0,
+      "renderedSeats": 5480,
+      "stageParts": 2,
+      "topSeat": 8.8
+    }
+  ],
+  "assetBytes": 380444,
+  "meshPrimitives": 17,
+  "roofNodeNames": [
+    "shell_roof_canopy",
+    "shell_roof_canopy_fascia",
+    "shell_roof_canopy_soffit",
+    "shell_roof_truss",
+    "shell_roof_truss_acoustic"
+  ],
+  "ribbonNodeNames": [
+    "shell_ribbon_led_entry_static",
+    "shell_ribbon_led_perimeter"
+  ],
+  "references": [
+    "https://www.goparksaisha.hk/en/shop/axa-dreamland/",
+    "https://www.zaha-hadid.com/2025/07/28/go-park-sai-sha-designed-as-the-centre-of-its-community/",
+    "https://tix-get-go.kktix.cc/events/sf9-2026"
+  ],
+  "notes": "A warm mineral palette and beveled base frame evoke the indoor performance volume within GO PARK Sai Sha. The showcase complex’s surrounding terraces and landscape are outside the modeled hall. Catalog sections and visual row strips use estimated coordinates. Architectural surfaces are illustrative. No source ticket, seat or event data is embedded."
+}

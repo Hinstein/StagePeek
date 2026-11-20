@@ -1,0 +1,56 @@
+{
+  "venueId": "asiaworld-viva",
+  "generator": "blender-bpy",
+  "template": "hall",
+  "version": 1,
+  "units": "metres",
+  "upAxis": "+Y",
+  "bounds": {
+    "min": [
+      -40.0809,
+      -0.385,
+      -90.109
+    ],
+    "max": [
+      40.1899,
+      12.4005,
+      75.259
+    ]
+  },
+  "precision": "illustrative",
+  "lightingPreset": "arena-dark",
+  "sourceLayouts": [
+    {
+      "id": "end",
+      "sourceSeats": 5600,
+      "renderedSeats": 5600,
+      "stageParts": 2,
+      "topSeat": 2.6416
+    },
+    {
+      "id": "expanded",
+      "sourceSeats": 8364,
+      "renderedSeats": 8364,
+      "stageParts": 2,
+      "topSeat": 2.6416
+    }
+  ],
+  "assetBytes": 396728,
+  "meshPrimitives": 16,
+  "roofNodeNames": [
+    "shell_roof_canopy",
+    "shell_roof_canopy_fascia",
+    "shell_roof_canopy_soffit",
+    "shell_roof_truss",
+    "shell_roof_truss_acoustic"
+  ],
+  "ribbonNodeNames": [
+    "shell_ribbon_led_entry_static",
+    "shell_ribbon_led_perimeter"
+  ],
+  "references": [
+    "https://www.asiaworld-expo.com/en-us/planning/venues/hall-6-8-n-10/",
+    "https://www.mehongkong.com/eng/home/planning/venue-and-hotel-search/detail/venue/AsiaWorld-Expo.html"
+  ],
+  "notes": "Repeated black steel spans and a restrained exhibition finish enclose the full flexible hall arrangement, including the extended run of retained seats. The enclosure represents the configurable exhibition halls within the larger AsiaWorld-Expo complex. Architectural surfaces are illustrative. No source ticket, seat or event data is embedded."
+}

@@ -1,0 +1,49 @@
+{
+  "venueId": "taipei-pac-globe-playhouse",
+  "generator": "blender-bpy",
+  "template": "theatre",
+  "version": 1,
+  "units": "metres",
+  "upAxis": "+Y",
+  "bounds": {
+    "min": [
+      -21.5762,
+      -1.095,
+      -29.35
+    ],
+    "max": [
+      28.7761,
+      20.6905,
+      32.2056
+    ]
+  },
+  "precision": "illustrative",
+  "lightingPreset": "theatre-warm",
+  "sourceLayouts": [
+    {
+      "id": "end",
+      "sourceSeats": 768,
+      "renderedSeats": 768,
+      "stageParts": 2,
+      "topSeat": 10.4
+    }
+  ],
+  "assetBytes": 788408,
+  "meshPrimitives": 17,
+  "roofNodeNames": [
+    "shell_roof_canopy",
+    "shell_roof_canopy_fascia",
+    "shell_roof_canopy_soffit",
+    "shell_roof_truss",
+    "shell_roof_truss_acoustic"
+  ],
+  "ribbonNodeNames": [
+    "shell_ribbon_led_entry_static"
+  ],
+  "references": [
+    "https://space.tpac-taipei.org/place/GlobePlayhouse",
+    "https://www.oma.com/projects/taipei-performing-arts-center",
+    "https://twconcertview.com/en/3d/taipei-pac-globe-playhouse"
+  ],
+  "notes": "Layered acoustic bands and a stage-end frame enclose the retained auditorium. An attached aluminium cap evokes the spherical room projecting from the main complex. Architectural surfaces are illustrative. No source ticket, seat or event data is embedded."
+}

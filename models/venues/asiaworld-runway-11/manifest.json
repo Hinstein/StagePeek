@@ -1,0 +1,56 @@
+{
+  "venueId": "asiaworld-runway-11",
+  "generator": "blender-bpy",
+  "template": "hall",
+  "version": 1,
+  "units": "metres",
+  "upAxis": "+Y",
+  "bounds": {
+    "min": [
+      -37.2287,
+      -0.385,
+      -43.575
+    ],
+    "max": [
+      37.044,
+      12.0005,
+      29.459
+    ]
+  },
+  "precision": "illustrative",
+  "lightingPreset": "arena-dark",
+  "sourceLayouts": [
+    {
+      "id": "end",
+      "sourceSeats": 3800,
+      "renderedSeats": 3800,
+      "stageParts": 2,
+      "topSeat": 0
+    },
+    {
+      "id": "compact",
+      "sourceSeats": 1620,
+      "renderedSeats": 1620,
+      "stageParts": 2,
+      "topSeat": 0
+    }
+  ],
+  "assetBytes": 247852,
+  "meshPrimitives": 15,
+  "roofNodeNames": [
+    "shell_roof_canopy",
+    "shell_roof_canopy_fascia",
+    "shell_roof_canopy_soffit",
+    "shell_roof_truss",
+    "shell_roof_truss_acoustic"
+  ],
+  "ribbonNodeNames": [
+    "shell_ribbon_led_entry_static"
+  ],
+  "references": [
+    "https://www.asiaworld-expo.com/en-us/planning/venues/runway-11/venue-gallery/",
+    "https://www.asiaworld-expo.com/en-us/planning/capacity-table/",
+    "https://www.asiaworld-expo.com/en-us/planning/venues/runway-11/"
+  ],
+  "notes": "A column-free function hall with dark event flooring and a warm-toned conference wall treatment. The end and compact seating configurations retain their catalog coordinates. The exterior represents the enclosed hall within AsiaWorld-Expo. Architectural surfaces are illustrative. No source ticket, seat or event data is embedded."
+}

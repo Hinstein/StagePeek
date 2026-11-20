@@ -1,0 +1,36 @@
+{
+  "type": "theatre",
+  "wallMargin": 5.0,
+  "clearHeight": 20.6,
+  "cornerCut": 0,
+  "entryEdge": 1,
+  "bays": 11,
+  "bands": [
+    0.3,
+    0.5,
+    0.68
+  ],
+  "slatWidth": 0.24,
+  "sideBoxes": true,
+  "proscenium": true,
+  "roofRises": [
+    5.8,
+    5.4
+  ],
+  "facade": "97412B",
+  "trim": "AA4933",
+  "plinth": "A99B87",
+  "lining": "82513D",
+  "interiorTrim": "A17953",
+  "glazing": "2F5151",
+  "accent": "FFC786",
+  "floor": "916452",
+  "roof": "D99A3B",
+  "steel": "8B6D5C",
+  "seat": "873E44",
+  "references": [
+    "https://npac-ntch.org/about/introduction/design",
+    "https://event.npac-ntch.org/25fly/a-exhibtion/portamento/demos/a-exhibtion_03.html"
+  ],
+  "notes": "Red wall framing, gold hipped eaves in two tiers and warm acoustic surfaces echo the building's traditional palace form. The catalog's stalls, balcony and side-box rows govern the seating, independent of the illustrative roof."
+}

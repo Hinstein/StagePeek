@@ -1,0 +1,71 @@
+{
+  "venueId": "twcv-the-o2-arena-london",
+  "version": 1,
+  "generator": "blender-bpy",
+  "coordinateBasis": "source-model-xyz",
+  "upAxis": "+Y",
+  "unitScale": 1,
+  "bounds": {
+    "min": [
+      -68,
+      -0.54,
+      -75
+    ],
+    "max": [
+      68,
+      58.495,
+      93
+    ]
+  },
+  "seatAnchorBounds": {
+    "min": [
+      -56.211,
+      0.293,
+      -50.69
+    ],
+    "max": [
+      56.207,
+      29.056,
+      71.209
+    ]
+  },
+  "displaySeatAnchorBounds": {
+    "min": [
+      -56.204,
+      0.293,
+      -53.285
+    ],
+    "max": [
+      56.204,
+      29.056,
+      71.204
+    ]
+  },
+  "sourceSeatCount": 14389,
+  "sourceAssetSha256": "482472c7405d545b200c2b2ca16735eb66b34eed94befef940ea61e642b6a5d1",
+  "lightingPreset": "arena-dark",
+  "roofNodeNames": [
+    "shell_roof_canopy",
+    "shell_roof_canopy_gore",
+    "shell_roof_truss_beacons",
+    "shell_roof_truss_cables",
+    "shell_roof_truss_masts",
+    "shell_roof_truss_perimeter"
+  ],
+  "ribbonNodeNames": [
+    "shell_ribbon_led"
+  ],
+  "roofClearance": 3.364,
+  "meshCount": 20,
+  "shellBytes": 2918920,
+  "architectureAccuracy": "illustrative",
+  "basis": [
+    "Original Blender geometry registered to the unchanged o2a source frame and the existing StagePeek presentation terraces.",
+    "The arena and the surrounding Millennium Dome are separate buildings. The canopy is compacted around the arena envelope for this cutaway.",
+    "Venue display dimensions and architectural detailing are indicative. The export uses metres as scene units and does not establish surveyed distances or egress dimensions."
+  ],
+  "references": [
+    "https://rshp.com/projects/culture-and-leisure/the-millennium-dome/",
+    "https://populous.com/showcases/the-o2-london"
+  ]
+}
